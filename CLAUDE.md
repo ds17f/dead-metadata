@@ -4,16 +4,31 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a comprehensive Grateful Dead concert metadata collection and processing pipeline that scrapes and aggregates data from multiple sources (Archive.org, CS.CMU.EDU, GDSets) to create structured datasets about Dead concerts from 1965-1995.
+This is a production-ready Grateful Dead concert metadata collection and processing pipeline that transforms raw data from multiple sources into a comprehensive, normalized database suitable for mobile app consumption.
+
+**Coverage**: 2,200+ shows (1965-1995), 484+ venues, 550+ songs with comprehensive ratings data  
+**Status**: Production V1 system actively used by Android app, ready for V2 architecture integration  
+**Pipeline**: 4-stage service-oriented architecture with 6,242+ lines of Python code across 12 specialized scripts
 
 ## Architecture
 
-The project follows a multi-stage data pipeline architecture:
+The pipeline follows a 4-stage service-oriented architecture:
 
-1. **Data Collection**: Scrapes metadata, ratings, and setlists from various sources
-2. **Data Processing**: Normalizes venues, songs, and setlists into structured formats  
-3. **Data Integration**: Links setlists with venue/song IDs and creates final datasets
-4. **Data Packaging**: Bundles all data into a single ZIP file for app distribution
+### Stage 1: Data Collection
+- **Archive.org**: `generate_metadata.py` (769 lines) - Collects 17,790+ recording metadata files with ratings
+- **CMU Setlists**: `scrape_cmu_setlists.py` (590 lines) - 1,604 shows with structured setlist data (1972-1995)  
+- **GDSets**: `scrape_gdsets.py` (665 lines) - 1,961 shows with focus on early years (1965-1971)
+
+### Stage 2: Data Processing
+- **Setlist Merging**: `merge_setlists.py` (489 lines) - Combines sources with GDSets priority
+- **Venue Normalization**: `process_venues.py` (727 lines) - 484+ venues with smart name normalization
+- **Song Processing**: `process_songs.py` (643 lines) - 550+ songs with alias and segue handling
+
+### Stage 3: Integration
+- **Final Integration**: `integrate_setlists.py` (574 lines) - Creates ID-referenced final database
+
+### Stage 4: Deployment  
+- **Data Packaging**: `package_datazip.py` (196 lines) - Bundles into compressed mobile-ready package
 
 Key files are stored in `/scripts/` and final outputs (JSON files) are in the project root.
 
@@ -75,8 +90,9 @@ The project doesn't have a traditional test suite. Validation is done through:
 - Data processing is idempotent - can be run multiple times safely
 - Progress tracking and resume functionality for long-running collection jobs
 
-## Data Flow
+## Data Flow and Quality Metrics
 
+### Pipeline Execution Order
 1. `generate_metadata.py` - Collects Archive.org metadata/ratings → `ratings.json`
 2. `scrape_cmu_setlists.py` - Scrapes CMU database → `cmu_setlists.json`  
 3. `scrape_gdsets.py` - Extracts GDSets data → `gdsets_setlists.json` + `images.json`
@@ -86,9 +102,41 @@ The project doesn't have a traditional test suite. Validation is done through:
 7. `integrate_setlists.py` - Links everything → `setlists.json`
 8. `package_datazip.py` - Creates final bundle → `data.zip`
 
+### Quality Assurance
+- **Song Match Rate**: 99.995% successful song identification
+- **Venue Match Rate**: 100% venue identification and normalization  
+- **Source Priority**: GDSets data preferred over CMU for superior quality
+- **Data Completeness**: Comprehensive coverage of Grateful Dead's performing years (1965-1995)
+
+### Performance Metrics
+- **Full Pipeline**: 3-5 hours (includes API collection)
+- **Cache-Based Pipeline**: ~1 hour (using existing `cache/api/` data)
+- **Archive.org Collection**: 2-3 hours (rate-limited, resumable)
+- **Data Processing**: 15-30 minutes (normalization and integration)
+- **Final Output**: 2-5MB compressed for mobile deployment
+
 ## Working with the Codebase
 
-- Python dependencies are minimal: requests, lxml, beautifulsoup4, python-dateutil
+### Dependencies and Environment
+- **Python Requirements**: requests==2.31.0, lxml==4.9.3, beautifulsoup4==4.12.2, python-dateutil>=2.8.0
+- **Virtual Environment**: Created in `/scripts/.venv/` by Makefile targets
+- **Storage Requirements**: ~5GB working storage, 500MB metadata cache, 2-5MB final output
+
+### Development Practices
 - All scripts accept command-line arguments with `--verbose` flag for detailed logging
-- Cache directory structure preserves API responses for development/debugging
-- JSON output files follow consistent schemas across the pipeline
+- Rate limiting (0.25-0.5s delays) implemented for respectful API usage
+- Resume capability and progress tracking for long-running collection jobs
+- Comprehensive error handling and data validation at each stage
+- Cache directory structure in `/cache/api/` preserves API responses for development/debugging
+
+### Data Models and Structure
+- **RecordingMetadata**: Archive.org metadata with weighted ratings, review statistics
+- **Venue Database**: Normalized venue data with geographical information and aliases
+- **Song Database**: Song relationships, aliases, segue notation, performance statistics
+- **Collections Framework**: Pre-defined collections in `dead_collections.json` ready for V2 implementation
+
+### Integration Points
+- **V1 Android App**: Currently consumes `data.zip` package from this pipeline
+- **V2 Architecture**: Pipeline outputs provide exact data needed for V2 database entities
+- **API Endpoints**: Can be enhanced to output V2-specific formats
+- **Maintenance Schedule**: Quarterly Archive.org updates, annual venue/song refinements
