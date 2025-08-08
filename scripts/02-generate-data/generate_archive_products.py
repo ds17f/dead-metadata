@@ -9,7 +9,7 @@ data processing without any API calls.
 Architecture:
 - Reads cached recording metadata from Stage 1 collection
 - Generates show-level aggregations with best recording selection
-- Creates simplified ratings JSON and compressed ZIP for app consumption
+- Creates simplified ratings JSON for app consumption
 - Validates input data exists before processing
 - Fast local processing of cached data
 
@@ -30,7 +30,6 @@ Usage:
 
 import json
 import os
-import zipfile
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -260,18 +259,10 @@ class ArchiveDataProcessor:
         with open(output_path, 'w') as f:
             json.dump(ratings_data, f, indent=2, sort_keys=True)
         
-        # Create compressed version
-        zip_file = str(output_path).replace('.json', '.zip')
-        with zipfile.ZipFile(zip_file, 'w', zipfile.ZIP_DEFLATED) as zf:
-            # Write JSON directly to ZIP
-            zf.writestr('ratings.json', json.dumps(ratings_data, indent=2, sort_keys=True))
-        
-        # Get file sizes
+        # Get file size
         json_size = os.path.getsize(output_path) / (1024 * 1024)  # MB
-        zip_size = os.path.getsize(zip_file) / (1024 * 1024)  # MB
         
         self.logger.info(f"Generated ratings.json: {json_size:.1f}MB")
-        self.logger.info(f"Generated ratings.zip: {zip_size:.1f}MB ({zip_size/json_size*100:.1f}% of original)")
         self.logger.info(f"Products contain {len(recording_ratings)} recordings and {len(show_ratings)} shows")
     
     def process_all_products(self, ratings_only: bool = False, shows_only: bool = False, 

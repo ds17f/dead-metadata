@@ -86,8 +86,7 @@ stage02-generated-data/                     # NEW directory
 ├── shows/                                  # Show-level aggregations
 │   ├── 1977-05-08_Cornell_University.json
 │   └── ...
-├── ratings.json                            # App-ready ratings
-└── ratings.zip                             # Compressed version
+└── ratings.json                            # App-ready ratings
 ```
 
 ## Shared Data Models
@@ -255,7 +254,7 @@ Each recording file contains complete `RecordingMetadata` with reviews, ratings,
 - **Input Validation**: Fail clearly if cache directory missing or empty
 - **Show Aggregation**: Group recordings by show, select best recording
 - **Rating Generation**: Create simplified ratings for app consumption
-- **Multiple Formats**: JSON and compressed ZIP outputs
+- **JSON Output**: Clean, structured ratings data
 - **Statistics Reporting**: Show what was processed and created
 
 ### Default Behavior
@@ -301,7 +300,7 @@ python scripts/02-generate-data/generate_archive_products.py \
 **Responsibilities**:
 - ✅ Read cached recording data
 - ✅ Generate show-level aggregations
-- ✅ Create app-ready ratings JSON/ZIP
+- ✅ Create app-ready ratings JSON
 - ✅ Input validation and error reporting
 - ❌ API calls (collection handled separately)
 - ❌ Progress tracking (processing is fast)
@@ -333,7 +332,7 @@ Simplified structure for app consumption:
 {
   "metadata": {
     "generated_at": "2024-01-15T10:30:00",
-    "version": "1.0.0", 
+    "version": "2.0.0", 
     "total_recordings": 17790,
     "total_shows": 2200
   },
@@ -382,7 +381,7 @@ Simplified structure for app consumption:
    - Compute show-level aggregated rating
    - Save show metadata JSON
 5. Create simplified ratings structure
-6. Output JSON + compressed ZIP
+6. Output ratings JSON
 ```
 
 ### Dependency Chain
@@ -440,8 +439,8 @@ python scripts/01-collect-data/collect_archive_metadata.py --mode full
 # 2. Generate all products
 python scripts/02-generate-data/generate_archive_products.py
 
-# 3. Update app data (ratings.zip is ready for deployment)
-cp stage02-generated-data/ratings.zip /path/to/app/deployment/
+# 3. Update app data (ratings.json is ready for deployment)
+cp stage02-generated-data/ratings.json /path/to/app/deployment/
 ```
 
 ### Custom Paths
@@ -531,7 +530,7 @@ This architecture aligns with the existing 4-stage pipeline:
 - **Cached recordings**: Individual JSON files with complete `RecordingMetadata`
 - **Progress tracking**: JSON with collection state and performance statistics  
 - **Show metadata**: Individual JSON files per show
-- **Ratings output**: JSON + compressed ZIP for app deployment
+- **Ratings output**: JSON for app deployment
 
 ### Performance Characteristics
 - **Collection**: 2-3 hours for full Archive.org dataset (17,790+ recordings)
