@@ -35,6 +35,7 @@ from typing import Dict, List, Optional, Tuple, Any
 import argparse
 import logging
 import requests
+import requests.exceptions
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
@@ -150,23 +151,66 @@ class CompleteShowCollector:
             time.sleep(sleep_time)
         self.last_request = time.time()
     
-    def fetch_page(self, url: str, url_type: str = "unknown") -> Optional[BeautifulSoup]:
-        """Fetch and parse a web page with error handling."""
-        self.rate_limit()
-        
-        try:
-            self.logger.debug(f"Fetching: {url}")
-            response = self.session.get(url, timeout=30)
-            response.raise_for_status()
+    def fetch_page(self, url: str, url_type: str = "unknown", max_retries: int = 2) -> Optional[BeautifulSoup]:
+        """Fetch and parse a web page with error handling and automatic retries."""
+        for attempt in range(max_retries + 1):
+            self.rate_limit()
             
-            soup = BeautifulSoup(response.content, 'html.parser')
-            return soup
-            
-        except Exception as e:
-            self.logger.error(f"Failed to fetch {url}: {e}")
-            # Track failed URL with type information
-            self.record_failed_url(url, str(e), url_type)
-            return None
+            try:
+                self.logger.debug(f"Fetching: {url} (attempt {attempt + 1})")
+                response = self.session.get(url, timeout=45)  # Increased timeout
+                
+                # Check if we have HTML content even with error status
+                has_html_content = (
+                    response.content and 
+                    len(response.content) > 100 and  # Substantial content
+                    b'<html' in response.content.lower()
+                )
+                
+                if response.status_code == 200:
+                    # Normal success case
+                    soup = BeautifulSoup(response.content, 'html.parser')
+                    if attempt > 0:
+                        self.logger.info(f"✅ Retry successful on attempt {attempt + 1}: {url}")
+                    return soup
+                    
+                elif has_html_content and response.status_code in [500, 502, 503]:
+                    # Server error but with HTML content - try to parse it
+                    self.logger.warning(f"Got {response.status_code} but response contains HTML, attempting to parse: {url}")
+                    soup = BeautifulSoup(response.content, 'html.parser')
+                    
+                    # Basic validation - check if it looks like a show page
+                    if soup.find('title') and (soup.find('h3', class_='set-title') or soup.find('ul', class_='lineup-list')):
+                        self.logger.info(f"✅ Successfully parsed show data despite {response.status_code} error: {url}")
+                        return soup
+                    else:
+                        self.logger.warning(f"HTML content doesn't appear to be a valid show page: {url}")
+                        raise requests.exceptions.HTTPError(f"{response.status_code} Server Error: {response.reason}")
+                        
+                else:
+                    # Raise error for non-success status without useful content
+                    response.raise_for_status()
+                
+            except Exception as e:
+                error_msg = str(e)
+                is_retryable = (
+                    "500" in error_msg or 
+                    "502" in error_msg or 
+                    "503" in error_msg or 
+                    "timeout" in error_msg.lower() or
+                    "connection" in error_msg.lower()
+                )
+                
+                if attempt < max_retries and is_retryable:
+                    wait_time = (attempt + 1) * 2  # Exponential backoff: 2s, 4s
+                    self.logger.warning(f"Retryable error on attempt {attempt + 1}, waiting {wait_time}s: {error_msg}")
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    self.logger.error(f"Failed to fetch {url} after {attempt + 1} attempts: {error_msg}")
+                    # Only record as failed if all retries exhausted
+                    self.record_failed_url(url, error_msg, url_type)
+                    return None
     
     def parse_venue_location(self, location_text: str) -> Dict[str, Optional[str]]:
         """Parse venue location into city, state, country components."""
@@ -597,6 +641,13 @@ class CompleteShowCollector:
         # Save failed URLs for retry
         self.save_failed_urls()
         
+        # Automatic venue data recovery after collection
+        self.logger.info("🔧 Running automatic venue data recovery...")
+        venue_results = self.fix_missing_venue_data(dry_run=False)
+        
+        if venue_results['fixed'] > 0 or venue_results['partial'] > 0:
+            self.logger.info(f"✅ Venue recovery completed: {venue_results['fixed']} fixed, {venue_results['partial']} partial")
+        
         # Save complete collection summary
         self.save_collection_summary(all_shows, start_page, end_page)
         
@@ -734,6 +785,200 @@ class CompleteShowCollector:
         self.logger.info(f"Retry complete: {len(completed_shows)} recovered, {len(remaining_failures)} still failed")
         
         return completed_shows
+    
+    def fix_missing_venue_data(self, dry_run: bool = False) -> Dict[str, int]:
+        """Fix shows with missing venue data using filename parsing and reference matching."""
+        self.logger.info("🔍 Starting venue data recovery...")
+        
+        # Find shows with missing venue data
+        missing_shows = []
+        for show_file in self.shows_dir.glob("*.json"):
+            try:
+                with open(show_file, 'r') as f:
+                    show_data = json.load(f)
+                
+                if show_data.get('venue') == 'Unknown':
+                    missing_shows.append(show_file)
+                    
+            except Exception as e:
+                self.logger.warning(f"Error reading {show_file} for venue recovery: {e}")
+                continue
+        
+        if not missing_shows:
+            self.logger.info("✅ No shows found with missing venue data!")
+            return {'fixed': 0, 'failed': 0, 'partial': 0}
+        
+        self.logger.info(f"📋 Found {len(missing_shows)} shows with missing venue data")
+        
+        if dry_run:
+            self.logger.info("🔍 DRY RUN MODE - No files will be modified")
+        
+        fixed_count = 0
+        failed_count = 0
+        partial_count = 0
+        
+        for show_file in missing_shows:
+            result = self._fix_single_show_venue_data(show_file, dry_run)
+            if result == 'fixed':
+                fixed_count += 1
+            elif result == 'partial':
+                partial_count += 1
+            else:
+                failed_count += 1
+        
+        # Summary
+        self.logger.info(f"📊 Venue Recovery Results:")
+        self.logger.info(f"  ✅ Completely fixed: {fixed_count}")
+        self.logger.info(f"  ⚠️  Partially fixed: {partial_count}")
+        self.logger.info(f"  ❌ Failed to fix: {failed_count}")
+        
+        return {'fixed': fixed_count, 'failed': failed_count, 'partial': partial_count}
+    
+    def _parse_filename_for_venue(self, filename: str) -> Tuple[Optional[str], Optional[str]]:
+        """Parse venue and date from filename."""
+        # Remove .json extension
+        base_name = filename.replace('.json', '')
+        
+        # Split by dash
+        parts = base_name.split('-')
+        
+        if len(parts) < 6:
+            return None, None
+            
+        # Extract date parts
+        try:
+            year = parts[0]
+            month = parts[1]
+            day = parts[2]
+            
+            # Format as display date (M/D/YYYY)
+            date_obj = datetime(int(year), int(month), int(day))
+            display_date = date_obj.strftime("%-m/%-d/%Y")
+            
+        except (ValueError, IndexError):
+            display_date = None
+        
+        # Extract venue pattern (everything between date and last 3 parts)
+        if len(parts) >= 6:
+            venue_parts = parts[3:-3]
+            venue_pattern = '-'.join(venue_parts)
+        else:
+            venue_pattern = None
+            
+        return venue_pattern, display_date
+    
+    def _find_reference_show(self, venue_pattern: str, exclude_file: Path) -> Optional[Dict]:
+        """Find a reference show from the same venue with complete data."""
+        for show_file in self.shows_dir.glob("*.json"):
+            if show_file == exclude_file:
+                continue
+                
+            if venue_pattern not in show_file.name:
+                continue
+                
+            try:
+                with open(show_file, 'r') as f:
+                    show_data = json.load(f)
+                
+                if (show_data.get('venue') != 'Unknown' and 
+                    show_data.get('venue') and
+                    show_data.get('city') and 
+                    show_data.get('state')):
+                    return show_data
+                    
+            except Exception as e:
+                self.logger.warning(f"Error reading reference {show_file}: {e}")
+                continue
+        
+        return None
+    
+    def _fix_single_show_venue_data(self, show_file: Path, dry_run: bool) -> str:
+        """Fix venue data for a single show file. Returns 'fixed', 'partial', or 'failed'."""
+        filename = show_file.name
+        
+        # Parse venue pattern and date from filename
+        venue_pattern, display_date = self._parse_filename_for_venue(filename)
+        
+        if not venue_pattern:
+            self.logger.warning(f"❌ Could not parse venue from filename: {filename}")
+            return 'failed'
+            
+        # Find reference show
+        reference_data = self._find_reference_show(venue_pattern, show_file)
+        
+        try:
+            with open(show_file, 'r') as f:
+                show_data = json.load(f)
+        except Exception as e:
+            self.logger.error(f"❌ Error reading {show_file}: {e}")
+            return 'failed'
+        
+        changes = []
+        result_type = 'failed'
+        
+        if reference_data:
+            # Complete fix - copy venue data from reference
+            venue_fields = ['venue', 'location_raw', 'city', 'state', 'country']
+            
+            for field in venue_fields:
+                if field in reference_data and reference_data[field]:
+                    old_value = show_data.get(field)
+                    new_value = reference_data[field]
+                    
+                    if old_value != new_value:
+                        show_data[field] = new_value
+                        changes.append(f"{field}: '{old_value}' → '{new_value}'")
+            
+            result_type = 'fixed'
+            reference_info = f" (Reference: {reference_data.get('venue')} - {reference_data.get('location_raw')})"
+            
+        else:
+            # Partial fix - only date and recovery status
+            self.logger.warning(f"❌ No reference show found for venue pattern '{venue_pattern}' in {filename}")
+            
+            show_data['venue_recovery_status'] = 'no_reference_found'
+            show_data['venue_recovery_note'] = f'No other shows found at venue pattern: {venue_pattern}'
+            changes.append("venue_recovery_status: added 'no_reference_found'")
+            
+            result_type = 'partial'
+            reference_info = ""
+        
+        # Set date from filename if we parsed it successfully
+        if display_date and show_data.get('date') == 'Unknown':
+            show_data['date'] = display_date
+            changes.append(f"date: 'Unknown' → '{display_date}'")
+        
+        if not changes:
+            return 'failed'
+            
+        # Update timestamp
+        show_data['collection_timestamp'] = datetime.now().isoformat()
+        
+        if dry_run:
+            status_icon = "✅" if result_type == 'fixed' else "⚠️"
+            self.logger.info(f"{status_icon} DRY RUN - Would fix {filename}:")
+            for change in changes:
+                self.logger.info(f"    {change}")
+            if reference_info:
+                self.logger.info(f"   {reference_info}")
+        else:
+            # Save updated data
+            try:
+                with open(show_file, 'w') as f:
+                    json.dump(show_data, f, indent=2)
+                
+                status_icon = "✅" if result_type == 'fixed' else "⚠️"
+                self.logger.info(f"{status_icon} Fixed {filename}:")
+                for change in changes:
+                    self.logger.info(f"    {change}")
+                if reference_info:
+                    self.logger.info(f"   {reference_info}")
+                    
+            except Exception as e:
+                self.logger.error(f"❌ Error saving {show_file}: {e}")
+                return 'failed'
+        
+        return result_type
 
 
 def main():
@@ -755,6 +1000,10 @@ def main():
                        help='Retry previously failed URLs')
     parser.add_argument('--max-retries', type=int, default=3,
                        help='Maximum retry attempts per failed URL')
+    parser.add_argument('--fix-venues', action='store_true',
+                       help='Fix missing venue data using filename parsing and reference matching')
+    parser.add_argument('--fix-venues-dry-run', action='store_true',
+                       help='Preview venue fixes without modifying files')
     parser.add_argument('--verbose', action='store_true',
                        help='Enable verbose logging')
     
@@ -789,6 +1038,23 @@ def main():
             print(f"📁 Output: {args.output_dir}")
             
             return 0
+            
+        elif args.fix_venues or args.fix_venues_dry_run:
+            # Venue recovery mode
+            venue_results = collector.fix_missing_venue_data(dry_run=args.fix_venues_dry_run)
+            
+            print(f"\n✅ Venue recovery complete!")
+            print(f"📊 Results:")
+            print(f"  Completely fixed: {venue_results['fixed']}")
+            print(f"  Partially fixed: {venue_results['partial']}")
+            print(f"  Failed to fix: {venue_results['failed']}")
+            print(f"📁 Output: {args.output_dir}")
+            
+            if args.fix_venues_dry_run:
+                print(f"🔄 To apply these changes, run with --fix-venues")
+            
+            return 0
+            
         else:
             # Normal collection mode
             shows = collector.collect_page_range(args.start_page, end_page)
