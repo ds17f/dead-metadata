@@ -124,13 +124,13 @@ class GratefulDeadMetadataCollector:
         
         # Directories
         self.cache_dir = Path(cache_dir)
-        self.recordings_dir = self.cache_dir / "recordings"
-        self.shows_dir = self.cache_dir / "shows"
+        self.recordings_dir = Path("stage01-collected-data/archive")
+        self.shows_dir = Path("stage02-processed-data/shows")
         
         # Create directories
         self.cache_dir.mkdir(exist_ok=True)
-        self.recordings_dir.mkdir(exist_ok=True) 
-        self.shows_dir.mkdir(exist_ok=True)
+        self.recordings_dir.mkdir(parents=True, exist_ok=True) 
+        self.shows_dir.mkdir(parents=True, exist_ok=True)
         
         # Rating configuration
         self.source_weights = {
@@ -717,7 +717,7 @@ def main():
                        help='Delay between API calls in seconds')
     parser.add_argument('--cache', default='scripts/metadata', 
                        help='Metadata cache directory')
-    parser.add_argument('--output', default='scripts/metadata/ratings.json',
+    parser.add_argument('--output', default='stage02-processed-data/ratings.json',
                        help='Output path for ratings file')
     parser.add_argument('--max-recordings', type=int, 
                        help='Maximum recordings to process (for testing)')

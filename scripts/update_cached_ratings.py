@@ -42,7 +42,7 @@ def calculate_enhanced_rating(reviews):
 
 def process_cached_recordings():
     """Process all cached recording files."""
-    recordings_dir = Path('metadata/recordings')
+    recordings_dir = Path('stage01-collected-data/archive')
     if not recordings_dir.exists():
         print("No cached recordings found")
         return
@@ -87,7 +87,7 @@ def process_cached_recordings():
 
 def create_enhanced_ratings_json():
     """Create enhanced ratings.json from cached files."""
-    recordings_dir = Path('metadata/recordings')
+    recordings_dir = Path('stage01-collected-data/archive')
     recording_ratings = {}
     recording_metadata = {}
     
@@ -218,7 +218,7 @@ def create_enhanced_ratings_json():
         'show_ratings': show_ratings
     }
     
-    output_path = Path('metadata/ratings_enhanced.json')
+    output_path = Path('stage02-processed-data/ratings_enhanced.json')
     with open(output_path, 'w') as f:
         json.dump(ratings_data, f, indent=2)
     

@@ -21,8 +21,8 @@ Architecture:
 - Comprehensive metadata merge preserving CMU data as supplementary info
 
 Usage:
-    python scripts/merge_setlists.py --cmu scripts/metadata/setlists/cmu_setlists.json --gdsets scripts/metadata/setlists/gdsets_early_setlists.json --output scripts/metadata/setlists/raw_setlists.json
-    python scripts/merge_setlists.py --cmu cmu.json --gdsets gdsets.json --output merged.json --verbose
+    python scripts/merge_setlists.py  # Uses default stage paths
+    python scripts/merge_setlists.py --cmu custom_cmu.json --gdsets custom_gdsets.json --output custom_merged.json --verbose
 """
 
 import argparse
@@ -439,11 +439,11 @@ class SetlistMerger:
 def main():
     """Main entry point"""
     parser = argparse.ArgumentParser(description='Merge CMU and GDSets setlist data')
-    parser.add_argument('--cmu', required=True,
+    parser.add_argument('--cmu', default='stage01-collected-data/cmu/cmu_setlists.json',
                         help='Path to CMU setlist JSON file')
-    parser.add_argument('--gdsets', required=True,
+    parser.add_argument('--gdsets', default='stage01-collected-data/gdsets/gdsets_setlists.json',
                         help='Path to GDSets setlist JSON file')
-    parser.add_argument('--output', '-o', required=True,
+    parser.add_argument('--output', '-o', default='stage02-processed-data/raw_setlists.json',
                         help='Output path for merged setlist JSON')
     parser.add_argument('--verbose', '-v', action='store_true',
                         help='Enable verbose logging')
