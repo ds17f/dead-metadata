@@ -53,10 +53,10 @@ class JerryGarciaShowIntegrator:
         
         # Source weighting for best recording selection
         self.source_weights = {
-            'SBD': 1.0,
-            'MATRIX': 0.9,
+            'FM': 1.0,
+            'SBD': 0.9,
+            'MATRIX': 0.8,
             'AUD': 0.7,
-            'FM': 0.8,
             'REMASTER': 1.0,
         }
         
@@ -524,12 +524,14 @@ class JerryGarciaShowIntegrator:
             improved_source_type = self.improve_source_type_detection(recording)
             recording.source_type = improved_source_type
         
-        # Sort recordings by preference (SBD > MATRIX > others, then by rating)
+        # Sort recordings by preference (FM > SBD > MATRIX > others, then by rating)
         filtered_recordings.sort(key=lambda r: (
+            r.source_type == 'FM' and r.review_count >= 3,
+            r.source_type == 'FM',  # Prefer FM even with fewer reviews
             r.source_type == 'SBD' and r.review_count >= 3,
-            r.source_type == 'SBD',  # Prefer SBD even with fewer reviews
+            r.source_type == 'SBD',  # Prefer SBD over MATRIX
             r.source_type == 'MATRIX' and r.review_count >= 3,
-            r.source_type == 'MATRIX',  # Prefer MATRIX over other non-SBD sources
+            r.source_type == 'MATRIX',  # Prefer MATRIX over AUD sources
             r.review_count >= 5,
             r.rating,
             r.review_count
