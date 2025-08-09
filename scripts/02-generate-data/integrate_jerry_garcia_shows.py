@@ -35,6 +35,7 @@ import logging
 # Add shared module to path
 sys.path.append(str(Path(__file__).parent.parent))
 from shared.models import RecordingMetadata
+from shared.recording_utils import improve_source_type_detection, detect_recording_time, normalize_venue_name, calculate_venue_similarity
 
 
 class JerryGarciaShowIntegrator:
@@ -44,12 +45,15 @@ class JerryGarciaShowIntegrator:
     
     def __init__(self, jerrygarcia_dir: str = "stage01-collected-data/jerrygarcia/shows",
                  archive_dir: str = "stage01-collected-data/archive",
-                 output_dir: str = "stage02-generated-data"):
+                 output_dir: str = "stage02-generated-data",
+                 recording_ratings_file: str = "stage02-generated-data/recording_ratings.json"):
         """Initialize the integrator with input and output directories."""
         self.jerrygarcia_dir = Path(jerrygarcia_dir)
         self.archive_dir = Path(archive_dir) 
         self.output_dir = Path(output_dir)
         self.shows_dir = self.output_dir / "shows"
+        self.recording_ratings_file = Path(recording_ratings_file)
+        self.recording_ratings_data = None
         
         # Source weighting for best recording selection
         self.source_weights = {
@@ -109,6 +113,30 @@ class JerryGarciaShowIntegrator:
         self.logger.info(f"✅ Found {len(recording_files)} Archive recordings")
         
         return True
+    
+    def load_recording_ratings(self) -> bool:
+        """Load recording ratings data (required)."""
+        if not self.recording_ratings_file.exists():
+            self.logger.error(f"❌ Recording ratings file does not exist: {self.recording_ratings_file}")
+            self.logger.error("❌ Recording ratings are required for show integration!")
+            self.logger.error("Please run the recording ratings generation script first:")
+            self.logger.error(f"  make generate-recording-ratings")
+            self.logger.error("  OR")
+            self.logger.error(f"  python scripts/02-generate-data/generate_recording_ratings.py")
+            return False
+        
+        try:
+            with open(self.recording_ratings_file, 'r') as f:
+                self.recording_ratings_data = json.load(f)
+            
+            recording_count = len(self.recording_ratings_data.get('recording_ratings', {}))
+            show_count = len(self.recording_ratings_data.get('show_ratings', {}))
+            self.logger.info(f"✅ Loaded recording ratings: {recording_count} recordings, {show_count} shows")
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"❌ Failed to load recording ratings: {e}")
+            return False
     
     def create_output_directories(self):
         """Create output directories."""
@@ -275,47 +303,6 @@ class JerryGarciaShowIntegrator:
         self.logger.info(f"Successfully loaded {total_recordings} recordings across {len(recordings_by_date)} dates")
         return dict(recordings_by_date)
     
-    def detect_recording_time(self, identifier: str) -> Optional[str]:
-        """
-        Detect show time from recording identifier.
-        Returns: "early", "late", "early-late", or None
-        Examples:
-        - "gd1970-02-13.early.sbd.murphy..." -> "early"
-        - "gd1970-02-13.lateshow.mtx..." -> "late"  
-        - "gd70-02-13.early-late.sbd..." -> "early-late"
-        - "gd1970-02-13.sbd.miller..." -> None
-        """
-        identifier_lower = identifier.lower()
-        
-        if 'early-late' in identifier_lower:
-            return 'early-late'
-        elif 'early' in identifier_lower:
-            return 'early'
-        elif 'late' in identifier_lower or 'lateshow' in identifier_lower:
-            return 'late'
-        else:
-            return None
-    
-    def improve_source_type_detection(self, recording: RecordingMetadata) -> str:
-        """Improve source type detection by checking identifier/filename as well."""
-        identifier = recording.identifier.upper()
-        title = recording.title.upper() if recording.title else ""
-        description = recording.description.upper() if recording.description else ""
-        
-        text = f"{identifier} {title} {description}"
-        
-        if 'SBD' in text or 'SOUNDBOARD' in text:
-            return 'SBD'
-        elif 'MATRIX' in text:
-            return 'MATRIX'  
-        elif 'AUD' in text or 'AUDIENCE' in text or '.AUD.' in identifier:
-            return 'AUD'
-        elif 'FM' in text or 'BROADCAST' in text:
-            return 'FM'
-        elif 'REMASTER' in text:
-            return 'REMASTER'
-        else:
-            return 'UNKNOWN'
     
     def filter_recordings_by_show_time(self, recordings: List[RecordingMetadata], 
                                      show_time: Optional[str]) -> List[RecordingMetadata]:
@@ -333,7 +320,7 @@ class JerryGarciaShowIntegrator:
         filtered_recordings = []
         
         for recording in recordings:
-            recording_time = self.detect_recording_time(recording.identifier)
+            recording_time = detect_recording_time(recording.identifier)
             
             if recording_time is None:
                 # No time modifier - include in both early and late shows
@@ -349,64 +336,6 @@ class JerryGarciaShowIntegrator:
                 filtered_recordings.append(recording)
         
         return filtered_recordings
-    
-    def normalize_venue_name(self, venue: str) -> str:
-        """Normalize venue name for better matching."""
-        if not venue:
-            return ""
-        
-        # Convert to lowercase
-        normalized = venue.lower().strip()
-        
-        # Common venue name normalizations
-        normalized = normalized.replace('theatre', 'theater')
-        normalized = normalized.replace('&', 'and')
-        normalized = normalized.replace('univ.', 'university')
-        normalized = normalized.replace('univ', 'university')
-        normalized = normalized.replace('u.', 'university')
-        normalized = normalized.replace('coll.', 'college')
-        normalized = normalized.replace('coll', 'college')
-        
-        # Remove extra whitespace and punctuation
-        normalized = ' '.join(normalized.split())  # normalize spaces
-        normalized = normalized.replace(',', '').replace('.', '')
-        
-        return normalized
-    
-    def calculate_venue_similarity(self, archive_venue: str, jg_venue: str) -> float:
-        """Calculate similarity score between venue names (0-1)."""
-        arch_norm = self.normalize_venue_name(archive_venue)
-        jg_norm = self.normalize_venue_name(jg_venue)
-        
-        # Exact match
-        if arch_norm == jg_norm:
-            return 1.0
-        
-        # Check if one contains the other (partial match)
-        if arch_norm in jg_norm or jg_norm in arch_norm:
-            return 0.8
-        
-        # Check for key word matches
-        arch_words = set(arch_norm.split())
-        jg_words = set(jg_norm.split())
-        
-        if not arch_words or not jg_words:
-            return 0.0
-        
-        # Calculate word overlap
-        common_words = arch_words.intersection(jg_words)
-        total_words = arch_words.union(jg_words)
-        
-        if len(total_words) == 0:
-            return 0.0
-            
-        similarity = len(common_words) / len(total_words)
-        
-        # Boost score if multiple important words match
-        if len(common_words) >= 2:
-            similarity = min(1.0, similarity + 0.2)
-        
-        return similarity
     
     def should_use_venue_matching(self, shows_on_date: List[Dict[str, Any]]) -> bool:
         """
@@ -424,7 +353,7 @@ class JerryGarciaShowIntegrator:
         
         # Condition 3: Different venues
         venues = [show.get('venue', '') for show in shows_on_date]
-        unique_venues = set(self.normalize_venue_name(v) for v in venues if v)
+        unique_venues = set(normalize_venue_name(v) for v in venues if v)
         if len(unique_venues) <= 1:
             return False  # Same venue, no need for venue matching
         
@@ -481,14 +410,14 @@ class JerryGarciaShowIntegrator:
                 
                 # Check similarity with all shows on this date
                 for show in all_shows_on_date:
-                    similarity = self.calculate_venue_similarity(recording.venue, show.get('venue', ''))
+                    similarity = calculate_venue_similarity(recording.venue, show.get('venue', ''))
                     if similarity > best_similarity:
                         best_similarity = similarity
                         best_match_show = show
                 
                 if best_similarity >= VENUE_MATCH_THRESHOLD:
                     # Strong venue match - check if it matches THIS show
-                    this_show_similarity = self.calculate_venue_similarity(recording.venue, show_venue)
+                    this_show_similarity = calculate_venue_similarity(recording.venue, show_venue)
                     if this_show_similarity >= VENUE_MATCH_THRESHOLD:
                         venue_matched_recordings.append(recording)
                         self.logger.debug(f"    Recording {recording.identifier}: '{recording.venue}' → '{show_venue}' (similarity: {this_show_similarity:.2f})")
@@ -521,7 +450,7 @@ class JerryGarciaShowIntegrator:
         
         # Improve source type detection for all filtered recordings
         for recording in filtered_recordings:
-            improved_source_type = self.improve_source_type_detection(recording)
+            improved_source_type = improve_source_type_detection(recording)
             recording.source_type = improved_source_type
         
         # Sort recordings by preference (FM > SBD > MATRIX > others, then by rating)
@@ -539,17 +468,38 @@ class JerryGarciaShowIntegrator:
         
         best_recording = filtered_recordings[0]
         
-        # Calculate aggregate rating
+        # Calculate ratings using recording ratings data
+        recording_ratings = self.recording_ratings_data.get('recording_ratings', {})
+        
+        # Calculate weighted rating
         total_weight = 0
         weighted_sum = 0
+        raw_rating_sum = 0
+        raw_rating_count = 0
+        total_high_ratings = 0
+        total_low_ratings = 0
         
         for recording in filtered_recordings:
-            weight = recording.review_count * self.source_weights.get(recording.source_type, 0.5)
-            weighted_sum += recording.rating * weight
-            total_weight += weight
+            rating_data = recording_ratings.get(recording.identifier, {})
+            if rating_data:
+                weight = rating_data.get('review_count', 0) * self.source_weights.get(recording.source_type, 0.5)
+                weighted_sum += rating_data.get('rating', 0) * weight
+                total_weight += weight
+                
+                # Accumulate raw rating data
+                raw_rating = rating_data.get('raw_rating', 0)
+                review_count = rating_data.get('review_count', 0)
+                if review_count > 0:
+                    raw_rating_sum += raw_rating * review_count
+                    raw_rating_count += review_count
+                
+                # Sum high and low ratings
+                total_high_ratings += rating_data.get('high_ratings', 0)
+                total_low_ratings += rating_data.get('low_ratings', 0)
         
         avg_rating = weighted_sum / total_weight if total_weight > 0 else 0
-        total_reviews = sum(r.review_count for r in filtered_recordings)
+        show_raw_rating = raw_rating_sum / raw_rating_count if raw_rating_count > 0 else 0
+        total_reviews = sum(recording_ratings.get(r.identifier, {}).get('review_count', 0) for r in filtered_recordings)
         confidence = min(total_reviews / 10.0, 1.0)
         
         # Count source types
@@ -562,8 +512,11 @@ class JerryGarciaShowIntegrator:
             "recordings": [r.identifier for r in filtered_recordings],
             "best_recording": best_recording.identifier,
             "avg_rating": avg_rating,
+            "raw_rating": show_raw_rating,
             "recording_count": len(filtered_recordings),
             "confidence": confidence,
+            "total_high_ratings": total_high_ratings,
+            "total_low_ratings": total_low_ratings,
             "source_types": dict(source_types),
             "matching_method": matching_method,
             "filtering_applied": filtering_applied
@@ -619,6 +572,10 @@ class JerryGarciaShowIntegrator:
         """Process the complete integration."""
         start_time = datetime.now()
         
+        # Load recording ratings if provided
+        if not self.load_recording_ratings():
+            return False
+        
         # Integrate shows
         integrated_shows = self.integrate_all_shows()
         
@@ -648,6 +605,8 @@ def main():
                        help='Directory with Archive.org recording files')
     parser.add_argument('--output-dir', default='stage02-generated-data',
                        help='Output directory for integrated shows')
+    parser.add_argument('--recording-ratings', default='stage02-generated-data/recording_ratings.json',
+                       help='Path to recording ratings JSON file')
     parser.add_argument('--verbose', action='store_true',
                        help='Enable verbose logging')
     
@@ -659,7 +618,8 @@ def main():
     integrator = JerryGarciaShowIntegrator(
         jerrygarcia_dir=args.jerrygarcia_dir,
         archive_dir=args.archive_dir,
-        output_dir=args.output_dir
+        output_dir=args.output_dir,
+        recording_ratings_file=args.recording_ratings
     )
     
     # Validate input
