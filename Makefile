@@ -1,7 +1,7 @@
 # Grateful Dead Archive Data Pipeline
 # Stage-based data collection and processing
 
-.PHONY: help stage01-collect-data stage02-generate-data stage03-generate-search-data collect-archive-data collect-jerrygarcia-shows generate-recording-ratings integrate-shows generate-search-data analyze-search-data all clean
+.PHONY: help stage01-collect-data stage02-generate-data stage03-generate-search-data collect-archive-data collect-jerrygarcia-shows generate-recording-ratings integrate-shows process-collections generate-search-data analyze-search-data all clean
 
 # Default help
 help:
@@ -15,6 +15,7 @@ help:
 	@echo "  collect-jerrygarcia-shows - Collect complete show database from jerrygarcia.com (3-4 hours)"
 	@echo "  generate-recording-ratings- Generate comprehensive recording ratings from cache"
 	@echo "  integrate-shows           - Integrate JG shows with recording ratings"
+	@echo "  process-collections       - Process collections and add to shows"
 	@echo "  generate-search-data      - Generate denormalized search tables for mobile app"
 	@echo "  analyze-search-data       - Development tool: analyze data patterns (manual use)"
 	@echo "  all                       - Run complete pipeline"
@@ -45,6 +46,12 @@ integrate-shows:
 	python scripts/02-generate-data/integrate_jerry_garcia_shows.py --verbose
 	@echo "✅ Show integration complete!"
 
+# Stage 2c: Collections Processing
+process-collections:
+	@echo "📚 Processing collections and adding to shows..."
+	python scripts/02-generate-data/process_collections.py --verbose
+	@echo "✅ Collections processing complete!"
+
 # Stage 3: Search Data Generation
 generate-search-data:
 	@echo "🔍 Generating denormalized search tables for mobile app..."
@@ -61,7 +68,7 @@ analyze-search-data:
 stage01-collect-data: collect-archive-data collect-jerrygarcia-shows
 	@echo "🎉 Stage 1: Data Collection complete!"
 
-stage02-generate-data: generate-recording-ratings integrate-shows
+stage02-generate-data: generate-recording-ratings integrate-shows process-collections
 	@echo "🎉 Stage 2: Data Generation complete!"
 
 stage03-generate-search-data: generate-search-data

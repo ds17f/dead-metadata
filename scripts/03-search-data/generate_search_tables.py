@@ -512,6 +512,7 @@ def generate_shows_index(shows, verbose=False):
             'recording_count': recording_count,
             'song_count': song_count,
             'has_setlist': has_setlist,
+            'collections': show.get('collections', []),  # Add collection membership
             'search_text': ' '.join(search_terms)
         }
     

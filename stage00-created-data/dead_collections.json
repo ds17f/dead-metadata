@@ -135,63 +135,6 @@
       }
     },
     {
-      "id": "donna-absence",
-      "name": "Donna Jean Godchaux Absences",
-      "description": "Shows during Donna Jean Godchaux’s tenure when she did not perform, including maternity leave and Europe ’73 tour absences.",
-      "tags": [
-        "donna",
-        "absence",
-        "vocals",
-        "exclusion"
-      ],
-      "show_selector": {
-        "exclusion_ranges": [
-          {
-            "from": "1973-03-23",
-            "to": "1973-06-24"
-          }
-        ],
-        "exclusion_dates": [
-          "1973-04-07",
-          "1973-04-08",
-          "1973-04-11",
-          "1973-04-14",
-          "1973-04-15",
-          "1973-04-17",
-          "1973-04-18"
-        ]
-      }
-    },
-    {
-      "id": "brent-absence",
-      "name": "Brent Mydland Absences",
-      "description": "Shows during Brent Mydland’s tenure when he did not perform, including early 1986 illness and scattered dates in 1988, 1989, and 1990.",
-      "tags": [
-        "brent",
-        "absence",
-        "keyboard",
-        "exclusion"
-      ],
-      "show_selector": {
-        "exclusion_ranges": [
-          {
-            "from": "1986-01-15",
-            "to": "1986-02-15"
-          }
-        ],
-        "exclusion_dates": [
-          "1988-07-14",
-          "1988-09-10",
-          "1989-06-20",
-          "1989-07-11",
-          "1989-08-09",
-          "1989-08-11",
-          "1989-10-07",
-          "1990-02-16"
-        ]
-      }
-    },
-    {
       "id": "brent-years",
       "name": "The Brent Mydland Years",
       "description": "The period when Brent Mydland was the Grateful Dead’s keyboardist, from April 22, 1979 to July 23, 1990, including brief absences in early 1986 and sporadic shows in 1988, 1989, and 1990.",
@@ -515,8 +458,8 @@
     },
     {
       "id": "download-series-vol-2",
-      "name": "Download Series Vol. 2: Nassau Coliseum, Uniondale, NY 1/18/80 (Live)",
-      "description": "Live performance at Nassau Coliseum in Uniondale, NY on January 18, 1980.",
+      "name": "Download Series Vol. 2: Springer's Inn, Portlan, OR 1/18/70 (Live)",
+      "description": "Live performance at Springer's Inn in Portland, OR on January 18, 1970.",
       "tags": [
         "official",
         "live",
@@ -525,7 +468,7 @@
       ],
       "show_selector": {
         "dates": [
-          "1980-01-18"
+          "1970-01-18"
         ]
       }
     },
@@ -693,22 +636,6 @@
       }
     },
     {
-      "id": "family-dog-at-the-great-highway",
-      "name": "Family Dog at the Great Highway, San Francisco, CA 7/4/70 (Live)",
-      "description": "Live performance at Family Dog at the Great Highway in San Francisco, CA on July 4, 1970.",
-      "tags": [
-        "official",
-        "live",
-        "digital",
-        "spotify"
-      ],
-      "show_selector": {
-        "dates": [
-          "1970-07-04"
-        ]
-      }
-    },
-    {
       "id": "30-trips-around-the-sun",
       "name": "30 Trips Around the Sun",
       "description": "Official career‑spanning box set of 30 previously unreleased complete Grateful Dead concerts—one show from each year 1966 through 1995.",
@@ -852,7 +779,7 @@
       ],
       "show_selector": {
         "dates": [
-          "1971-04-16"
+          "1971-04-27"
         ]
       }
     },
@@ -1209,12 +1136,9 @@
       ],
       "show_selector": {
         "dates": [
-          "1977-06-10",
-          "1977-06-11",
-          "1977-06-12",
-          "1977-06-14",
-          "1977-06-16",
-          "1977-06-19"
+          "1977-06-07",
+          "1977-06-08",
+          "1977-06-09"
         ]
       }
     },
@@ -1315,1899 +1239,6 @@
       }
     },
     {
-      "id": "dicks-picks-vol-1",
-      "name": "Dick's Picks Volume 1",
-      "description": "Complete concert from February 14, 1973 at Nassau Coliseum, Uniondale, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-02-14"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-2",
-      "name": "Dick's Picks Volume 2",
-      "description": "Complete concert from August 31, 1971 at Yale Bowl, New Haven, CT.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1971-08-31"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-3",
-      "name": "Dick's Picks Volume 3",
-      "description": "Complete concert from October 31, 1970 at The Family Dog at the Great Highway, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1970-10-31"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-4",
-      "name": "Dick's Picks Volume 4",
-      "description": "Complete concert from May 21, 1977 at College of William & Mary, Williamsburg, VA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-21"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-5",
-      "name": "Dick's Picks Volume 5",
-      "description": "Complete concert from May 2, 1978 at Swing Auditorium, San Bernardino, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-05-02"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-6",
-      "name": "Dick's Picks Volume 6",
-      "description": "Complete concert from March 28, 1970 at Fillmore East, New York, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1970-03-28"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-7",
-      "name": "Dick's Picks Volume 7",
-      "description": "Complete concert from October 21, 1978 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-10-21"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-8",
-      "name": "Dick's Picks Volume 8",
-      "description": "Complete concert from December 26, 1979 at Nassau Coliseum, Uniondale, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1979-12-26"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-9",
-      "name": "Dick's Picks Volume 9",
-      "description": "Complete concert from November 30, 1973 at Boston Music Hall, Boston, MA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-30"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-10",
-      "name": "Dick's Picks Volume 10",
-      "description": "Complete concert from October 26, 1978 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-10-26"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-11",
-      "name": "Dick's Picks Volume 11",
-      "description": "Complete concert from May 13, 1977 at Raceway Park, Englishtown, NJ.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-13"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-12",
-      "name": "Dick's Picks Volume 12",
-      "description": "Complete concert from March 28, 1970 at Fillmore East, New York, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1970-03-28"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-13",
-      "name": "Dick's Picks Volume 13",
-      "description": "Complete concert from February 18, 1978 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-02-18"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-14",
-      "name": "Dick's Picks Volume 14",
-      "description": "Complete concert from March 26, 1972 at Alexandra Palace, London, England.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-03-26"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-15",
-      "name": "Dick's Picks Volume 15",
-      "description": "Complete concert from October 29, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-10-29"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-16",
-      "name": "Dick's Picks Volume 16",
-      "description": "Complete concert from August 4, 1974 at Seattle Center Coliseum, Seattle, WA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1974-08-04"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-17",
-      "name": "Dick's Picks Volume 17",
-      "description": "Complete concert from November 17, 1973 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-17"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-18",
-      "name": "Dick's Picks Volume 18",
-      "description": "Complete concert from September 17, 1972 at RFK Stadium, Washington, D.C.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-09-17"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-19",
-      "name": "Dick's Picks Volume 19",
-      "description": "Complete concert from May 8, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-08"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-20",
-      "name": "Dick's Picks Volume 20",
-      "description": "Complete concert from December 10, 1979 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1979-12-10"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-21",
-      "name": "Dick's Picks Volume 21",
-      "description": "Complete concert from July 16, 1974 at Campus Stadium, University of California, Santa Barbara, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1974-07-16"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-22",
-      "name": "Dick's Picks Volume 22",
-      "description": "Complete concert from August 6, 1971 at Auditorium Theatre, Chicago, IL.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1971-08-06"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-23",
-      "name": "Dick's Picks Volume 23",
-      "description": "Complete concert from April 2, 1972 at Nassau Coliseum, Uniondale, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-04-02"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-24",
-      "name": "Dick's Picks Volume 24",
-      "description": "Complete concert from October 11, 1972 at Folsom Field, Boulder, CO.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-10-11"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-25",
-      "name": "Dick's Picks Volume 25",
-      "description": "Complete concert from November 18, 1973 at Boston Garden, Boston, MA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-18"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-26",
-      "name": "Dick's Picks Volume 26",
-      "description": "Complete concert from October 31, 1983 at Meadowlands Arena, East Rutherford, NJ.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1983-10-31"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-27",
-      "name": "Dick's Picks Volume 27",
-      "description": "Complete concert from July 24, 1984 at Veterans Memorial Coliseum, New Haven, CT.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1984-07-24"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-28",
-      "name": "Dick's Picks Volume 28",
-      "description": "Complete concert from November 10, 1973 at Boston Garden, Boston, MA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-10"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-29",
-      "name": "Dick's Picks Volume 29",
-      "description": "Complete concert from May 19, 1974 at College of William & Mary, Williamsburg, VA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1974-05-19"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-30",
-      "name": "Dick's Picks Volume 30",
-      "description": "Complete concert from May 26, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-26"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-31",
-      "name": "Dick's Picks Volume 31",
-      "description": "Complete concert from September 16, 1972 at The Spectrum, Philadelphia, PA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-09-16"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-32",
-      "name": "Dick's Picks Volume 32",
-      "description": "Complete concert from October 17, 1973 at Nassau Coliseum, Uniondale, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-10-17"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-33",
-      "name": "Dick's Picks Volume 33",
-      "description": "Complete concert from August 17, 1974 at the Portland Memorial Coliseum, Portland, OR.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1974-08-17"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-34",
-      "name": "Dick's Picks Volume 34",
-      "description": "Complete concert from June 28, 1976 at the Boston Music Hall, Boston, MA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1976-06-28"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-35",
-      "name": "Dick's Picks Volume 35",
-      "description": "Complete concert from May 21, 1977 at Cornell University, Ithaca, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-21"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-36",
-      "name": "Dick's Picks Volume 36",
-      "description": "Complete concert from October 1, 1977 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-10-01"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-1",
-      "name": "Dick's Picks Volume 1",
-      "description": "Complete concert from February 14, 1973 at Nassau Coliseum, Uniondale, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-02-14"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-2",
-      "name": "Dick's Picks Volume 2",
-      "description": "Complete concert from August 31, 1971 at Yale Bowl, New Haven, CT.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1971-08-31"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-3",
-      "name": "Dick's Picks Volume 3",
-      "description": "Complete concert from October 31, 1970 at The Family Dog at the Great Highway, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1970-10-31"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-4",
-      "name": "Dick's Picks Volume 4",
-      "description": "Complete concert from May 21, 1977 at College of William & Mary, Williamsburg, VA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-21"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-5",
-      "name": "Dick's Picks Volume 5",
-      "description": "Complete concert from May 2, 1978 at Swing Auditorium, San Bernardino, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-05-02"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-6",
-      "name": "Dick's Picks Volume 6",
-      "description": "Complete concert from March 28, 1970 at Fillmore East, New York, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1970-03-28"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-7",
-      "name": "Dick's Picks Volume 7",
-      "description": "Complete concert from October 21, 1978 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-10-21"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-8",
-      "name": "Dick's Picks Volume 8",
-      "description": "Complete concert from December 26, 1979 at Nassau Coliseum, Uniondale, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1979-12-26"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-9",
-      "name": "Dick's Picks Volume 9",
-      "description": "Complete concert from November 30, 1973 at Boston Music Hall, Boston, MA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-30"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-10",
-      "name": "Dick's Picks Volume 10",
-      "description": "Complete concert from October 26, 1978 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-10-26"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-11",
-      "name": "Dick's Picks Volume 11",
-      "description": "Complete concert from May 13, 1977 at Raceway Park, Englishtown, NJ.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-13"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-12",
-      "name": "Dick's Picks Volume 12",
-      "description": "Complete concert from March 28, 1970 at Fillmore East, New York, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1970-03-28"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-13",
-      "name": "Dick's Picks Volume 13",
-      "description": "Complete concert from February 18, 1978 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-02-18"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-14",
-      "name": "Dick's Picks Volume 14",
-      "description": "Complete concert from March 26, 1972 at Alexandra Palace, London, England.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-03-26"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-15",
-      "name": "Dick's Picks Volume 15",
-      "description": "Complete concert from October 29, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-10-29"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-16",
-      "name": "Dick's Picks Volume 16",
-      "description": "Complete concert from August 4, 1974 at Seattle Center Coliseum, Seattle, WA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1974-08-04"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-17",
-      "name": "Dick's Picks Volume 17",
-      "description": "Complete concert from November 17, 1973 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-17"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-18",
-      "name": "Dick's Picks Volume 18",
-      "description": "Complete concert from September 17, 1972 at RFK Stadium, Washington, D.C.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-09-17"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-19",
-      "name": "Dick's Picks Volume 19",
-      "description": "Complete concert from May 8, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-08"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-20",
-      "name": "Dick's Picks Volume 20",
-      "description": "Complete concert from December 10, 1979 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1979-12-10"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-21",
-      "name": "Dick's Picks Volume 21",
-      "description": "Complete concert from July 16, 1974 at Campus Stadium, University of California, Santa Barbara, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1974-07-16"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-22",
-      "name": "Dick's Picks Volume 22",
-      "description": "Complete concert from August 6, 1971 at Auditorium Theatre, Chicago, IL.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1971-08-06"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-23",
-      "name": "Dick's Picks Volume 23",
-      "description": "Complete concert from April 2, 1972 at Nassau Coliseum, Uniondale, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-04-02"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-24",
-      "name": "Dick's Picks Volume 24",
-      "description": "Complete concert from October 11, 1972 at Folsom Field, Boulder, CO.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-10-11"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-25",
-      "name": "Dick's Picks Volume 25",
-      "description": "Complete concert from November 18, 1973 at Boston Garden, Boston, MA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-18"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-26",
-      "name": "Dick's Picks Volume 26",
-      "description": "Complete concert from October 31, 1983 at Meadowlands Arena, East Rutherford, NJ.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1983-10-31"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-27",
-      "name": "Dick's Picks Volume 27",
-      "description": "Complete concert from July 24, 1984 at Veterans Memorial Coliseum, New Haven, CT.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1984-07-24"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-28",
-      "name": "Dick's Picks Volume 28",
-      "description": "Complete concert from November 10, 1973 at Boston Garden, Boston, MA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-10"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-29",
-      "name": "Dick's Picks Volume 29",
-      "description": "Complete concert from May 19, 1974 at College of William & Mary, Williamsburg, VA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1974-05-19"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-30",
-      "name": "Dick's Picks Volume 30",
-      "description": "Complete concert from May 26, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-26"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-31",
-      "name": "Dick's Picks Volume 31",
-      "description": "Complete concert from September 16, 1972 at The Spectrum, Philadelphia, PA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-09-16"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-32",
-      "name": "Dick's Picks Volume 32",
-      "description": "Complete concert from October 17, 1973 at Nassau Coliseum, Uniondale, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-10-17"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-33",
-      "name": "Dick's Picks Volume 33",
-      "description": "Complete concert from August 17, 1974 at the Portland Memorial Coliseum, Portland, OR.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1974-08-17"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-34",
-      "name": "Dick's Picks Volume 34",
-      "description": "Complete concert from June 28, 1976 at the Boston Music Hall, Boston, MA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1976-06-28"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-35",
-      "name": "Dick's Picks Volume 35",
-      "description": "Complete concert from May 21, 1977 at Cornell University, Ithaca, NY.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-21"
-        ]
-      }
-    },
-    {
-      "id": "dicks-picks-vol-36",
-      "name": "Dick's Picks Volume 36",
-      "description": "Complete concert from October 1, 1977 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "dicks-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-10-01"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-1",
-      "name": "Dave's Picks Volume 1",
-      "description": "Complete concert from October 31, 1971 at The Palestra, Rochester, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1971-10-31"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-2",
-      "name": "Dave's Picks Volume 2",
-      "description": "Complete concert from February 26, 1977 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-02-26"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-3",
-      "name": "Dave's Picks Volume 3",
-      "description": "Complete concert from June 23, 1974 at the Jai-Alai Fronton, Miami, FL.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1974-06-23"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-4",
-      "name": "Dave's Picks Volume 4",
-      "description": "Complete concert from December 7, 1978 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-12-07"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-5",
-      "name": "Dave's Picks Volume 5",
-      "description": "Complete concert from November 15, 1971 at the Capitol Theatre, Passaic, NJ.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1971-11-15"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-6",
-      "name": "Dave's Picks Volume 6",
-      "description": "Complete concert from March 31, 1972 at the Academy of Music, New York, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-03-31"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-7",
-      "name": "Dave's Picks Volume 7",
-      "description": "Complete concert from September 25, 1976 at the College of William & Mary, Williamsburg, VA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1976-09-25"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-8",
-      "name": "Dave's Picks Volume 8",
-      "description": "Complete concert from April 14, 1978 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-04-14"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-9",
-      "name": "Dave's Picks Volume 9",
-      "description": "Complete concert from November 3, 1973 at Boston Garden, Boston, MA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-03"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-10",
-      "name": "Dave's Picks Volume 10",
-      "description": "Complete concert from July 11, 1978 at the Raceway, Englishtown, NJ.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-07-11"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-11",
-      "name": "Dave's Picks Volume 11",
-      "description": "Complete concert from July 18, 1978 at the Raceway, Englishtown, NJ.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-07-18"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-12",
-      "name": "Dave's Picks Volume 12",
-      "description": "Complete concert from November 17, 1973 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-17"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-13",
-      "name": "Dave's Picks Volume 13",
-      "description": "Complete concert from November 2, 1973 at Boston Garden, Boston, MA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-02"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-14",
-      "name": "Dave's Picks Volume 14",
-      "description": "Complete concert from July 19, 1978 at the Raceway, Englishtown, NJ.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-07-19"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-15",
-      "name": "Dave's Picks Volume 15",
-      "description": "Complete concert from October 31, 1971 at The Palestra, Rochester, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1971-10-31"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-16",
-      "name": "Dave's Picks Volume 16",
-      "description": "Complete concert from May 21, 1977 at Cornell University, Ithaca, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-21"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-17",
-      "name": "Dave's Picks Volume 17",
-      "description": "Complete concert from March 28, 1970 at Fillmore East, New York, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1970-03-28"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-18",
-      "name": "Dave's Picks Volume 18",
-      "description": "Complete concert from July 19, 1978 at the Raceway, Englishtown, NJ.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-07-19"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-19",
-      "name": "Dave's Picks Volume 19",
-      "description": "Complete concert from October 21, 1978 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-10-21"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-20",
-      "name": "Dave's Picks Volume 20",
-      "description": "Complete concert from August 6, 1971 at Auditorium Theatre, Chicago, IL.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1971-08-06"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-21",
-      "name": "Dave's Picks Volume 21",
-      "description": "Complete concert from May 10, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-10"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-22",
-      "name": "Dave's Picks Volume 22",
-      "description": "Complete concert from July 20, 1978 at the Raceway, Englishtown, NJ.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-07-20"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-23",
-      "name": "Dave's Picks Volume 23",
-      "description": "Complete concert from November 20, 1973 at Boston Garden, Boston, MA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-20"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-24",
-      "name": "Dave's Picks Volume 24",
-      "description": "Complete concert from October 21, 1978 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-10-21"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-25",
-      "name": "Dave's Picks Volume 25",
-      "description": "Complete concert from May 15, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-15"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-26",
-      "name": "Dave's Picks Volume 26",
-      "description": "Complete concert from June 17, 1976 at Capitol Theatre, Passaic, NJ.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1976-06-17"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-27",
-      "name": "Dave's Picks Volume 27",
-      "description": "Complete concert from August 24, 1974 at the Portland Memorial Coliseum, Portland, OR.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1974-08-24"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-28",
-      "name": "Dave's Picks Volume 28",
-      "description": "Complete concert from September 25, 1976 at College of William & Mary, Williamsburg, VA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1976-09-25"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-29",
-      "name": "Dave's Picks Volume 29",
-      "description": "Complete concert from August 4, 1974 at Seattle Center Coliseum, Seattle, WA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1974-08-04"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-30",
-      "name": "Dave's Picks Volume 30",
-      "description": "Complete concert from May 11, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-11"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-31",
-      "name": "Dave's Picks Volume 31",
-      "description": "Complete concert from November 10, 1973 at Boston Garden, Boston, MA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-10"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-32",
-      "name": "Dave's Picks Volume 32",
-      "description": "Complete concert from October 27, 1978 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-10-27"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-33",
-      "name": "Dave's Picks Volume 33",
-      "description": "Complete concert from September 17, 1972 at RFK Stadium, Washington, D.C.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-09-17"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-34",
-      "name": "Dave's Picks Volume 34",
-      "description": "Complete concert from May 8, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-08"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-35",
-      "name": "Dave's Picks Volume 35",
-      "description": "Complete concert from May 21, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-21"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-36",
-      "name": "Dave's Picks Volume 36",
-      "description": "Complete concert from October 1, 1977 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-10-01"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-37",
-      "name": "Dave's Picks Volume 37",
-      "description": "Complete concert from July 8, 1972 at the Auditorium Theatre, Chicago, IL.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-07-08"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-38",
-      "name": "Dave's Picks Volume 38",
-      "description": "Complete concert from June 16, 1976 at Capitol Theatre, Passaic, NJ.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1976-06-16"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-39",
-      "name": "Dave's Picks Volume 39",
-      "description": "Complete concert from May 23, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-23"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-40",
-      "name": "Dave's Picks Volume 40",
-      "description": "Complete concert from June 19, 1976 at Capitol Theatre, Passaic, NJ.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1976-06-19"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-41",
-      "name": "Dave's Picks Volume 41",
-      "description": "Complete concert from May 7, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-07"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-42",
-      "name": "Dave's Picks Volume 42",
-      "description": "Complete concert from August 27, 1972 at the Old Speedway, Veneta, OR.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-08-27"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-43",
-      "name": "Dave's Picks Volume 43",
-      "description": "Complete concert from August 6, 1971 at the Auditorium Theatre, Chicago, IL.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1971-08-06"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-44",
-      "name": "Dave's Picks Volume 44",
-      "description": "Complete concert from October 11, 1972 at Folsom Field, Boulder, CO.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1972-10-11"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-45",
-      "name": "Dave's Picks Volume 45",
-      "description": "Complete concert from November 20, 1973 at Boston Garden, Boston, MA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1973-11-20"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-46",
-      "name": "Dave's Picks Volume 46",
-      "description": "Complete concert from October 25, 1978 at Winterland Arena, San Francisco, CA.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1978-10-25"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-47",
-      "name": "Dave's Picks Volume 47",
-      "description": "Complete concert from August 18, 1974 at the Portland Memorial Coliseum, Portland, OR.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1974-08-18"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-48",
-      "name": "Dave's Picks Volume 48",
-      "description": "Complete concert from May 5, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-05"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-49",
-      "name": "Dave's Picks Volume 49",
-      "description": "Complete concert from May 6, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-06"
-        ]
-      }
-    },
-    {
-      "id": "daves-picks-vol-50",
-      "name": "Dave's Picks Volume 50",
-      "description": "Complete concert from May 25, 1977 at Barton Hall, Cornell University, Ithaca, NY.",
-      "tags": [
-        "daves-picks",
-        "official",
-        "live"
-      ],
-      "show_selector": {
-        "dates": [
-          "1977-05-25"
-        ]
-      }
-    },
-    {
-      "id": "warfield-radio-city-1980",
-      "name": "Warfield/Radio City 1980",
-      "type": "box_set",
-      "show_selector": {
-        "kind": "composite",
-        "selectors": [
-          {
-            "kind": "date_range",
-            "from": "1980-09-25",
-            "to": "1980-10-14"
-          }
-        ]
-      },
-      "description": "The acoustic and electric sets performed in fall 1980 (Reckoning/Dead Set era).",
-      "tags": [
-        "1980",
-        "acoustic",
-        "box-set"
-      ]
-    },
-    {
-      "id": "june-1991-tour",
-      "name": "June 1991 Tour Highlights",
-      "type": "tour",
-      "show_selector": {
-        "kind": "composite",
-        "selectors": [
-          {
-            "kind": "date_range",
-            "from": "1991-06-01",
-            "to": "1991-06-30"
-          }
-        ]
-      },
-      "description": "Highlights from the June 1991 tour with Hornsby and Vince.",
-      "tags": [
-        "1991",
-        "hornsby",
-        "vince"
-      ]
-    },
-    {
-      "id": "europe-1981-tour",
-      "name": "Europe 1981 Tour",
-      "type": "tour",
-      "show_selector": {
-        "kind": "composite",
-        "selectors": [
-          {
-            "kind": "date_range",
-            "from": "1981-09-30",
-            "to": "1981-10-19"
-          }
-        ]
-      },
-      "description": "Short European tour with standout performances.",
-      "tags": [
-        "1981",
-        "europe",
-        "tour"
-      ]
-    },
-    {
       "id": "official-picks-dicks",
       "name": "Dick's Picks Vol. 1–36",
       "type": "release_series",
@@ -3276,6 +1307,1394 @@
         "archive",
         "dick's-picks"
       ]
+    },
+    {
+      "id": "dicks-picks-vol-1",
+      "name": "Dick's Picks, Volume 1: Tampa, Florida 12/19/73",
+      "description": "Official Dick's Picks release — Tampa, Florida 12/19/73",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1973-12-19"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-2",
+      "name": "Dick's Picks, Volume 2: Columbus, Ohio 10/31/71",
+      "description": "Official Dick's Picks release — Columbus, Ohio 10/31/71",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1971-10-31"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-3",
+      "name": "Dick's Picks, Volume 3: Pembroke Pines, Florida 5/22/77",
+      "description": "Official Dick's Picks release — Pembroke Pines, Florida 5/22/77",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-05-22"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-4",
+      "name": "Dick's Picks, Volume 4: Fillmore East 2/13/70 & 2/14/70",
+      "description": "Official Dick's Picks release — Fillmore East 2/13/70 & 2/14/70",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1970-02-13",
+          "1970-02-14"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-5",
+      "name": "Dick's Picks, Volume 5: Oakland Auditorium Arena 12/26/79",
+      "description": "Official Dick's Picks release — Oakland Auditorium Arena 12/26/79",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1979-12-26"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-6",
+      "name": "Dick's Picks, Volume 6: Hartford Civic Center 10/14/83",
+      "description": "Official Dick's Picks release — Hartford Civic Center 10/14/83",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1983-10-14"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-7",
+      "name": "Dick's Picks, Volume 7: Alexandra Palace, London, England September 1974",
+      "description": "Official Dick's Picks release — Alexandra Palace, London, England September 1974",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1974-09-09",
+          "1974-09-10",
+          "1974-09-11"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-8",
+      "name": "Dick's Picks, Volume 8: Harpur College, Binghamton, NY 5/2/70",
+      "description": "Official Dick's Picks release — Harpur College, Binghamton, NY 5/2/70",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1970-05-02"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-9",
+      "name": "Dick's Picks, Volume 9: Madison Square Garden 9/16/90",
+      "description": "Official Dick's Picks release — Madison Square Garden 9/16/90",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1990-09-16"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-10",
+      "name": "Dick's Picks, Volume 10: Winterland Arena 12/29/77",
+      "description": "Official Dick's Picks release — Winterland Arena 12/29/77",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-12-29"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-11",
+      "name": "Dick's Picks, Volume 11: Stanley Theater 9/27/72",
+      "description": "Official Dick's Picks release — Stanley Theater 9/27/72",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1972-09-27"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-12",
+      "name": "Dick's Picks, Volume 12: Providence Civic 6/26/74 & Boston Garden 6/28/74",
+      "description": "Official Dick's Picks release — Providence Civic 6/26/74 & Boston Garden 6/28/74",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1974-06-26",
+          "1974-06-28"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-13",
+      "name": "Dick's Picks, Volume 13: Nassau Coliseum 5/6/81",
+      "description": "Official Dick's Picks release — Nassau Coliseum 5/6/81",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1981-05-06"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-14",
+      "name": "Dick's Picks, Volume 14: Boston Music Hall 11/30/73 & 12/2/73",
+      "description": "Official Dick's Picks release — Boston Music Hall 11/30/73 & 12/2/73",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1973-11-30",
+          "1973-12-02"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-15",
+      "name": "Dick's Picks, Volume 15: Englishtown, NJ 9/3/77",
+      "description": "Official Dick's Picks release — Englishtown, NJ 9/3/77",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-09-03"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-16",
+      "name": "Dick's Picks, Volume 16: Fillmore Auditorium 11/8/69",
+      "description": "Official Dick's Picks release — Fillmore Auditorium 11/8/69",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1969-11-08"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-17",
+      "name": "Dick's Picks, Volume 17: Boston Garden 9/25/91",
+      "description": "Official Dick's Picks release — Boston Garden 9/25/91",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1991-09-25"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-18",
+      "name": "Dick's Picks, Volume 18: Dane County Coliseum 2/3/78 & UNI Dome 2/5/78",
+      "description": "Official Dick's Picks release — Dane County Coliseum 2/3/78 & UNI Dome 2/5/78",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1978-02-03",
+          "1978-02-05"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-19",
+      "name": "Dick's Picks, Volume 19: Fairgrounds Arena, Oklahoma City 10/19/73",
+      "description": "Official Dick's Picks release — Fairgrounds Arena, Oklahoma City 10/19/73",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1973-10-19"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-20",
+      "name": "Dick's Picks, Volume 20: Capital Centre 9/25/76 & Onondaga County War Memorial 9/28/76",
+      "description": "Official Dick's Picks release — Capital Centre 9/25/76 & Onondaga County War Memorial 9/28/76",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1976-09-25",
+          "1976-09-28"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-21",
+      "name": "Dick's Picks, Volume 21: Richmond Coliseum, Richmond, VA 11/1/85",
+      "description": "Official Dick's Picks release — Richmond Coliseum, Richmond, VA 11/1/85",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1985-11-01"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-22",
+      "name": "Dick's Picks, Volume 22: Kings Beach Bowl, Lake Tahoe 2/23/68 & 2/24/68",
+      "description": "Official Dick's Picks release — Kings Beach Bowl, Lake Tahoe 2/23/68 & 2/24/68",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1968-02-23",
+          "1968-02-24"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-23",
+      "name": "Dick's Picks, Volume 23: Baltimore Civic Center 9/17/72",
+      "description": "Official Dick's Picks release — Baltimore Civic Center 9/17/72",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1972-09-17"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-24",
+      "name": "Dick's Picks, Volume 24: Cow Palace, Daly City 3/23/74",
+      "description": "Official Dick's Picks release — Cow Palace, Daly City 3/23/74",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1974-03-23"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-25",
+      "name": "Dick's Picks, Volume 25: New Haven 5/10/78 & Springfield 5/11/78",
+      "description": "Official Dick's Picks release — New Haven 5/10/78 & Springfield 5/11/78",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1978-05-10",
+          "1978-05-11"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-26",
+      "name": "Dick's Picks, Volume 26: Electric Theater Chicago 4/26/69 & Labor Temple Minneapolis 4/27/69",
+      "description": "Official Dick's Picks release — Electric Theater Chicago 4/26/69 & Labor Temple Minneapolis 4/27/69",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1969-04-26",
+          "1969-04-27"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-27",
+      "name": "Dick's Picks, Volume 27: Oakland Coliseum Arena 12/16/92",
+      "description": "Official Dick's Picks release — Oakland Coliseum Arena 12/16/92",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1992-12-16"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-28",
+      "name": "Dick's Picks, Volume 28: Salt Palace Salt Lake City 2/28/73 & Pershing Municipal Auditorium Lincoln 2/26/73",
+      "description": "Official Dick's Picks release — Salt Palace Salt Lake City 2/28/73 & Pershing Municipal Auditorium Lincoln 2/26/73",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1973-02-26",
+          "1973-02-28"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-29",
+      "name": "Dick's Picks, Volume 29: Fox Theatre Atlanta 5/19/77 & Lakeland 5/21/77",
+      "description": "Official Dick's Picks release — Fox Theatre Atlanta 5/19/77 & Lakeland 5/21/77",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-05-19",
+          "1977-05-21"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-30",
+      "name": "Dick's Picks, Volume 30: Academy of Music NYC 3/25/72 & 3/28/72",
+      "description": "Official Dick's Picks release — Academy of Music NYC 3/25/72 & 3/28/72",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1972-03-25",
+          "1972-03-28"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-31",
+      "name": "Dick's Picks, Volume 31: Philadelphia Civic Center 8/4/74 & 8/5/74; Roosevelt Stadium 8/6/74",
+      "description": "Official Dick's Picks release — Philadelphia Civic Center 8/4/74 & 8/5/74; Roosevelt Stadium 8/6/74",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1974-08-04",
+          "1974-08-05",
+          "1974-08-06"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-32",
+      "name": "Dick's Picks, Volume 32: Alpine Valley 8/7/82",
+      "description": "Official Dick's Picks release — Alpine Valley 8/7/82",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1982-08-07"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-33",
+      "name": "Dick's Picks, Volume 33: Oakland Coliseum Stadium 10/9/76 & 10/10/76",
+      "description": "Official Dick's Picks release — Oakland Coliseum Stadium 10/9/76 & 10/10/76",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1976-10-09",
+          "1976-10-10"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-34",
+      "name": "Dick's Picks, Volume 34: Community War Memorial Rochester 11/5/77",
+      "description": "Official Dick's Picks release — Community War Memorial Rochester 11/5/77",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-11-05"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-35",
+      "name": "Dick's Picks, Volume 35: San Diego 8/7/71 & Chicago 8/24/71",
+      "description": "Official Dick's Picks release — San Diego 8/7/71 & Chicago 8/24/71",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1971-08-07",
+          "1971-08-24"
+        ]
+      }
+    },
+    {
+      "id": "dicks-picks-vol-36",
+      "name": "Dick's Picks, Volume 36: The Spectrum Philadelphia 9/21/72",
+      "description": "Official Dick's Picks release — The Spectrum Philadelphia 9/21/72",
+      "tags": [
+        "dicks-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1972-09-21"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-1",
+      "name": "Dave's Picks, Volume 1: The Mosque, Richmond, VA · 5/25/77",
+      "description": "Official Dave's Picks release — The Mosque, Richmond, VA · 5/25/77",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-05-25"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-2",
+      "name": "Dave's Picks, Volume 2: Dillon Stadium, Hartford, CT · 7/31/74",
+      "description": "Official Dave's Picks release — Dillon Stadium, Hartford, CT · 7/31/74",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1974-07-31"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-3",
+      "name": "Dave's Picks, Volume 3: Auditorium Theatre, Chicago, IL · 10/22/71",
+      "description": "Official Dave's Picks release — Auditorium Theatre, Chicago, IL · 10/22/71",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1971-10-22"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-4",
+      "name": "Dave's Picks, Volume 4: College of William & Mary, Williamsburg, VA · 9/24/76",
+      "description": "Official Dave's Picks release — College of William & Mary, Williamsburg, VA · 9/24/76",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1976-09-24"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-5",
+      "name": "Dave's Picks, Volume 5: Pauley Pavilion, UCLA, Los Angeles, CA · 11/17/73",
+      "description": "Official Dave's Picks release — Pauley Pavilion, UCLA, Los Angeles, CA · 11/17/73",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1973-11-17"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-6",
+      "name": "Dave's Picks, Volume 6: San Francisco 12/20/69 · St. Louis 2/2/70",
+      "description": "Official Dave's Picks release — San Francisco 12/20/69 · St. Louis 2/2/70",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1969-12-20",
+          "1970-02-02"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-7",
+      "name": "Dave's Picks, Volume 7: Horton Field House, Illinois State, Normal, IL · 4/24/78",
+      "description": "Official Dave's Picks release — Horton Field House, Illinois State, Normal, IL · 4/24/78",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1978-04-24"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-8",
+      "name": "Dave's Picks, Volume 8: Fox Theatre, Atlanta, GA · 11/30/80",
+      "description": "Official Dave's Picks release — Fox Theatre, Atlanta, GA · 11/30/80",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1980-11-30"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-9",
+      "name": "Dave's Picks, Volume 9: Harry Adams Field House, U. of Montana, Missoula, MT · 5/14/74",
+      "description": "Official Dave's Picks release — Harry Adams Field House, U. of Montana, Missoula, MT · 5/14/74",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1974-05-14"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-10",
+      "name": "Dave's Picks, Volume 10: Thelma, Los Angeles, CA · 12/12/69",
+      "description": "Official Dave's Picks release — Thelma, Los Angeles, CA · 12/12/69",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1969-12-12"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-11",
+      "name": "Dave's Picks, Volume 11: Century II Convention Center, Wichita, KS · 11/17/72",
+      "description": "Official Dave's Picks release — Century II Convention Center, Wichita, KS · 11/17/72",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1972-11-17"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-12",
+      "name": "Dave's Picks, Volume 12: Colgate University, Hamilton, NY · 11/4/77",
+      "description": "Official Dave's Picks release — Colgate University, Hamilton, NY · 11/4/77",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-11-04"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-13",
+      "name": "Dave's Picks, Volume 13: Winterland, San Francisco, CA · 2/24/74",
+      "description": "Official Dave's Picks release — Winterland, San Francisco, CA · 2/24/74",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1974-02-24"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-14",
+      "name": "Dave's Picks, Volume 14: Academy of Music, New York, NY · 3/26/72",
+      "description": "Official Dave's Picks release — Academy of Music, New York, NY · 3/26/72",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1972-03-26"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-15",
+      "name": "Dave's Picks, Volume 15: Municipal Auditorium, Nashville, TN · 4/22/78",
+      "description": "Official Dave's Picks release — Municipal Auditorium, Nashville, TN · 4/22/78",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1978-04-22"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-16",
+      "name": "Dave's Picks, Volume 16: Springfield Civic Center, Springfield, MA · 3/28/73",
+      "description": "Official Dave's Picks release — Springfield Civic Center, Springfield, MA · 3/28/73",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1973-03-28"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-17",
+      "name": "Dave's Picks, Volume 17: Selland Arena, Fresno, CA · 7/19/74",
+      "description": "Official Dave's Picks release — Selland Arena, Fresno, CA · 7/19/74",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1974-07-19"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-18",
+      "name": "Dave's Picks, Volume 18: Orpheum Theater, San Francisco, CA · 7/17/76",
+      "description": "Official Dave's Picks release — Orpheum Theater, San Francisco, CA · 7/17/76",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1976-07-17"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-19",
+      "name": "Dave's Picks, Volume 19: Honolulu Civic Auditorium, Honolulu, HI · 1/23/70",
+      "description": "Official Dave's Picks release — Honolulu Civic Auditorium, Honolulu, HI · 1/23/70",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1970-01-23"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-20",
+      "name": "Dave's Picks, Volume 20: CU Events Center, Univ. of Colorado, Boulder, CO · 12/9/81",
+      "description": "Official Dave's Picks release — CU Events Center, Univ. of Colorado, Boulder, CO · 12/9/81",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1981-12-09"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-21",
+      "name": "Dave's Picks, Volume 21: Boston Garden, Boston, MA · 4/2/73",
+      "description": "Official Dave's Picks release — Boston Garden, Boston, MA · 4/2/73",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1973-04-02"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-22",
+      "name": "Dave's Picks, Volume 22: Felt Forum, New York, NY · 12/7/71",
+      "description": "Official Dave's Picks release — Felt Forum, New York, NY · 12/7/71",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1971-12-07"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-23",
+      "name": "Dave's Picks, Volume 23: McArthur Court, U. Of Oregon, Eugene, OR · 1/22/78",
+      "description": "Official Dave's Picks release — McArthur Court, U. Of Oregon, Eugene, OR · 1/22/78",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1978-01-22"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-24",
+      "name": "Dave's Picks, Volume 24: Berkeley Community Theatre, Berkeley, CA · 8/25/72",
+      "description": "Official Dave's Picks release — Berkeley Community Theatre, Berkeley, CA · 8/25/72",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1972-08-25"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-25",
+      "name": "Dave's Picks, Volume 25: Broome County Veterans Memorial Arena, Binghamton, NY · 11/6/77",
+      "description": "Official Dave's Picks release — Broome County Veterans Memorial Arena, Binghamton, NY · 11/6/77",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-11-06"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-26",
+      "name": "Dave's Picks, Volume 26: Albuquerque Civic Auditorium, Albuquerque, NM · 11/17/71",
+      "description": "Official Dave's Picks release — Albuquerque Civic Auditorium, Albuquerque, NM · 11/17/71",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1971-11-17"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-27",
+      "name": "Dave's Picks, Volume 27: BSU Pavilion, Boise State University, Boise, ID · 9/2/83",
+      "description": "Official Dave's Picks release — BSU Pavilion, Boise State University, Boise, ID · 9/2/83",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1983-09-02"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-28",
+      "name": "Dave's Picks, Volume 28: Capitol Theatre, Passaic, NJ · 6/17/76",
+      "description": "Official Dave's Picks release — Capitol Theatre, Passaic, NJ · 6/17/76",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1976-06-17"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-29",
+      "name": "Dave's Picks, Volume 29: Swing Auditorium, San Bernardino, CA · 2/26/77",
+      "description": "Official Dave's Picks release — Swing Auditorium, San Bernardino, CA · 2/26/77",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-02-26"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-30",
+      "name": "Dave's Picks, Volume 30: Fillmore East, New York, NY · 1/2/70",
+      "description": "Official Dave's Picks release — Fillmore East, New York, NY · 1/2/70",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1970-01-02"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-31",
+      "name": "Dave's Picks, Volume 31: Uptown Theatre, Chicago, IL · 12/3/79",
+      "description": "Official Dave's Picks release — Uptown Theatre, Chicago, IL · 12/3/79",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1979-12-03"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-32",
+      "name": "Dave's Picks, Volume 32: The Spectrum, Philadelphia, PA · 3/24/73",
+      "description": "Official Dave's Picks release — The Spectrum, Philadelphia, PA · 3/24/73",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1973-03-24"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-33",
+      "name": "Dave's Picks, Volume 33: Evans Field House, N. Illinois Univ., Dekalb, IL · 10/29/77",
+      "description": "Official Dave's Picks release — Evans Field House, N. Illinois Univ., Dekalb, IL · 10/29/77",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-10-29"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-34",
+      "name": "Dave's Picks, Volume 34: Jai‑Alai Fronton, Miami, FL · 6/23/74",
+      "description": "Official Dave's Picks release — Jai‑Alai Fronton, Miami, FL · 6/23/74",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1974-06-23"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-35",
+      "name": "Dave's Picks, Volume 35: Philadelphia Civic Center, Philadelphia, PA · 4/20/84",
+      "description": "Official Dave's Picks release — Philadelphia Civic Center, Philadelphia, PA · 4/20/84",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1984-04-20"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-36",
+      "name": "Dave's Picks, Volume 36: Hartford Civic Center, Hartford, CT · 3/26/87 & 3/27/87",
+      "description": "Official Dave's Picks release — Hartford Civic Center, Hartford, CT · 3/26/87 & 3/27/87",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1987-03-26",
+          "1987-03-27"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-37",
+      "name": "Dave's Picks, Volume 37: College of William & Mary, Williamsburg, VA · 4/15/78",
+      "description": "Official Dave's Picks release — College of William & Mary, Williamsburg, VA · 4/15/78",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1978-04-15"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-38",
+      "name": "Dave's Picks, Volume 38: Nassau Veterans Memorial Coliseum, Uniondale, NY · 9/8/73",
+      "description": "Official Dave's Picks release — Nassau Veterans Memorial Coliseum, Uniondale, NY · 9/8/73",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1973-09-08"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-39",
+      "name": "Dave's Picks, Volume 39: The Spectrum, Philadelphia, PA · 4/26/83",
+      "description": "Official Dave's Picks release — The Spectrum, Philadelphia, PA · 4/26/83",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1983-04-26"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-40",
+      "name": "Dave's Picks, Volume 40: Deer Creek Music Center, Noblesville, IN · 7/18/90 & 7/19/90",
+      "description": "Official Dave's Picks release — Deer Creek Music Center, Noblesville, IN · 7/18/90 & 7/19/90",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1990-07-18",
+          "1990-07-19"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-41",
+      "name": "Dave's Picks, Volume 41: Baltimore Civic Center, Baltimore, MD · 5/26/77",
+      "description": "Official Dave's Picks release — Baltimore Civic Center, Baltimore, MD · 5/26/77",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-05-26"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-42",
+      "name": "Dave's Picks, Volume 42: Winterland, San Francisco, CA · 2/23/74",
+      "description": "Official Dave's Picks release — Winterland, San Francisco, CA · 2/23/74",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1974-02-23"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-43",
+      "name": "Dave's Picks, Volume 43: San Francisco 11/2/69 · Dallas 12/26/69",
+      "description": "Official Dave's Picks release — San Francisco 11/2/69 · Dallas 12/26/69",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1969-11-02",
+          "1969-12-26"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-44",
+      "name": "Dave's Picks, Volume 44: Autzen Stadium, Eugene, OR · 6/23/90",
+      "description": "Official Dave's Picks release — Autzen Stadium, Eugene, OR · 6/23/90",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1990-06-23"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-45",
+      "name": "Dave's Picks, Volume 45: Paramount Theatre, Portland, OR · 10/1/77 & 10/2/77",
+      "description": "Official Dave's Picks release — Paramount Theatre, Portland, OR · 10/1/77 & 10/2/77",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-10-01",
+          "1977-10-02"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-46",
+      "name": "Dave's Picks, Volume 46: Hollywood Palladium, LA, CA · 9/9/72",
+      "description": "Official Dave's Picks release — Hollywood Palladium, LA, CA · 9/9/72",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1972-09-09"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-47",
+      "name": "Dave's Picks, Volume 47: Kiel Auditorium, St. Louis, MO · 12/9/79",
+      "description": "Official Dave's Picks release — Kiel Auditorium, St. Louis, MO · 12/9/79",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1979-12-09"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-48",
+      "name": "Dave's Picks, Volume 48: Pauley Pavilion, UCLA, Los Angeles, CA · 11/20/71",
+      "description": "Official Dave's Picks release — Pauley Pavilion, UCLA, Los Angeles, CA · 11/20/71",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1971-11-20"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-49",
+      "name": "Dave's Picks, Volume 49: Frost Amphitheatre, Palo Alto, CA · 4/27/85 & 4/28/85",
+      "description": "Official Dave's Picks release — Frost Amphitheatre, Palo Alto, CA · 4/27/85 & 4/28/85",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1985-04-27",
+          "1985-04-28"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-50",
+      "name": "Dave's Picks, Volume 50: The Palladium, New York, NY · 5/3/77",
+      "description": "Official Dave's Picks release — The Palladium, New York, NY · 5/3/77",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1977-05-03"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-51",
+      "name": "Dave's Picks, Volume 51: Scranton Catholic Youth Center, Scranton, PA · 4/13/71",
+      "description": "Official Dave's Picks release — Scranton Catholic Youth Center, Scranton, PA · 4/13/71",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1971-04-13"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-52",
+      "name": "Dave's Picks, Volume 52: The Downs at Santa Fe, Santa Fe, NM · 9/11/83",
+      "description": "Official Dave's Picks release — The Downs at Santa Fe, Santa Fe, NM · 9/11/83",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1983-09-11"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-53",
+      "name": "Dave's Picks, Volume 53: Riverfront Coliseum, Cincinnati, OH · 10/2/76",
+      "description": "Official Dave's Picks release — Riverfront Coliseum, Cincinnati, OH · 10/2/76",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1976-10-02"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-54",
+      "name": "Dave's Picks, Volume 54: Baltimore Civic Center, Baltimore, MD · 3/26/73",
+      "description": "Official Dave's Picks release — Baltimore Civic Center, Baltimore, MD · 3/26/73",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1973-03-26"
+        ]
+      }
+    },
+    {
+      "id": "daves-picks-vol-55",
+      "name": "Dave's Picks, Volume 55: Le Zénith, Paris, France · 10/28/90",
+      "description": "Official Dave's Picks release — Le Zénith, Paris, France · 10/28/90",
+      "tags": [
+        "daves-picks",
+        "official",
+        "live"
+      ],
+      "show_selector": {
+        "dates": [
+          "1990-10-28"
+        ]
+      }
     }
   ]
 }
