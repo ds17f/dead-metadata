@@ -34,7 +34,7 @@ The pipeline follows a 4-stage service-oriented architecture with clear separati
 - **Final Integration**: `integrate_setlists.py` (574 lines) - Links setlists with venue/song IDs → `setlists.json`
 
 ### Stage 4: Deployment
-- **Data Packaging**: `package_datazip.py` (196 lines) - Bundles processed data into compressed mobile-ready package → `data.zip`
+- **Data Packaging**: `package_datazip.py` (437 lines) - Bundles processed data into compressed mobile-ready package with validation → `data.zip`
 
 **Key Insight**: Archive.org data and setlist data remain **separate streams** - Archive data provides ratings, setlist data provides concert structure. They are not integrated, serving different app functions.
 
@@ -89,7 +89,10 @@ python scripts/merge_setlists.py --cmu cmu.json --gdsets gdsets.json --output me
 python scripts/process_venues.py --input raw_setlists.json --output venues.json
 python scripts/process_songs.py --input raw_setlists.json --output songs.json
 python scripts/integrate_setlists.py --setlists raw.json --venues venues.json --songs songs.json --output final.json
-python scripts/package_datazip.py --ratings ratings.json --setlists setlists.json --output data.zip
+# Data packaging with validation
+python scripts/package_datazip.py --output data.zip --verbose
+python scripts/package_datazip.py --analyze  # Data structure analysis only
+python scripts/package_datazip.py --validate # Validate existing package
 ```
 
 ### Testing/Validation
@@ -177,7 +180,7 @@ python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --fix-venues-dry
 8. `integrate_setlists.py` - Link setlists with venue/song IDs → `stage02-processed-data/setlists.json`
 
 **Stage 4 - Deployment:**
-9. `package_datazip.py` - Bundle all processed data → `data.zip`
+9. `package_datazip.py` - Bundle all processed data with validation → `data.zip`
 
 **Final Bundle Contains:**
 - `ratings.json` (from Archive.org stream in `stage02-generated-data/`)

@@ -1,7 +1,7 @@
 # Grateful Dead Archive Data Pipeline
 # Stage-based data collection and processing
 
-.PHONY: help stage01-collect-data stage02-generate-data stage03-generate-search-data collect-archive-data collect-jerrygarcia-shows generate-recording-ratings integrate-shows process-collections generate-search-data analyze-search-data all clean
+.PHONY: help stage01-collect-data stage02-generate-data stage03-generate-search-data collect-archive-data collect-jerrygarcia-shows generate-recording-ratings integrate-shows process-collections generate-search-data analyze-search-data package-data all clean
 
 # Default help
 help:
@@ -18,6 +18,7 @@ help:
 	@echo "  process-collections       - Process collections and add to shows"
 	@echo "  generate-search-data      - Generate denormalized search tables for mobile app"
 	@echo "  analyze-search-data       - Development tool: analyze data patterns (manual use)"
+	@echo "  package-data              - Package all processed data into data.zip for distribution"
 	@echo "  all                       - Run complete pipeline"
 	@echo "  clean                     - Clean generated data"
 
@@ -64,6 +65,12 @@ analyze-search-data:
 	python scripts/03-search-data/analyze_search_data.py --verbose
 	@echo "✅ Search data analysis complete!"
 
+# Stage 4: Data Packaging
+package-data:
+	@echo "📦 Packaging all processed data for distribution..."
+	python scripts/package_datazip.py --output data.zip --verbose
+	@echo "✅ Data packaging complete! Final package: data.zip"
+
 # Stage-based targets
 stage01-collect-data: collect-archive-data collect-jerrygarcia-shows
 	@echo "🎉 Stage 1: Data Collection complete!"
@@ -75,7 +82,7 @@ stage03-generate-search-data: generate-search-data
 	@echo "🎉 Stage 3: Search Data Generation complete!"
 
 # Full pipeline
-all: stage01-collect-data stage02-generate-data stage03-generate-search-data
+all: stage01-collect-data stage02-generate-data stage03-generate-search-data package-data
 	@echo "🎉 Complete pipeline finished!"
 
 # Cleanup

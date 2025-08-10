@@ -249,10 +249,33 @@ Creates denormalized search indexes optimized for mobile applications:
 ### Data Packaging
 **Script**: `scripts/package_datazip.py`
 
-Bundles all processed data into a compressed mobile-ready package:
-- Combines Stage 2 generated data
-- Includes Stage 3 search indexes
-- Creates optimized `data.zip` for Android app consumption
+Advanced packaging system that bundles all processed data into distribution formats:
+
+#### Features
+- **Data Analysis**: Comprehensive structure analysis and statistics calculation
+- **Smart Packaging**: Combines Stage 2 generated data and Stage 3 search indexes
+- **Manifest Generation**: Creates detailed package metadata with usage instructions
+- **Validation**: Integrity checking and content verification
+- **Compression**: Achieves ~85% size reduction (37MB → 6MB typical)
+
+#### Package Contents
+- `manifest.json` - Package metadata and integration guidance
+- `collections.json` - Processed collections with resolved show memberships
+- `recording_ratings.json` - Archive.org ratings data
+- `shows/` - 2,313+ individual show files with complete metadata
+- `search/` - 5 optimized search indexes for mobile consumption
+
+#### Usage Modes
+```bash
+# Create distribution package
+python scripts/package_datazip.py --output data.zip --verbose
+
+# Analyze data structure only
+python scripts/package_datazip.py --analyze
+
+# Validate existing package
+python scripts/package_datazip.py --validate
+```
 
 ## Complete Pipeline Operation
 
