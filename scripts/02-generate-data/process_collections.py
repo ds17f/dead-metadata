@@ -224,12 +224,13 @@ class CollectionProcessor:
         # Generate collection output files
         self._generate_collection_files(processed_collections)
         
-        # Generate failure report
-        self._generate_failure_report(failed_collections)
+        # Generate failure report only if there are failures
+        if len(failed_collections) > 0:
+            self._generate_failure_report(failed_collections)
         
         self.logger.info(f"🎉 Processed {len(processed_collections)} collections total")
         if len(failed_collections) > 0:
-            self.logger.info(f"⚠️ {len(failed_collections)} collections failed - see failures.json for details")
+            self.logger.info(f"⚠️ {len(failed_collections)} collections failed - see collection_failures.json for details")
         
         return True
     
@@ -505,7 +506,7 @@ class CollectionProcessor:
         ]
         
         # Save failure report
-        failures_file = self.output_dir / "failures.json"
+        failures_file = self.output_dir / "collection_failures.json"
         with open(failures_file, 'w', encoding='utf-8') as f:
             json.dump(failure_report, f, indent=2, ensure_ascii=False)
         
