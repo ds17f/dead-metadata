@@ -1,7 +1,7 @@
 # Grateful Dead Archive Data Pipeline
 # Stage-based data collection and processing
 
-.PHONY: help stage01-collect-data stage02-generate-data collect-archive-data collect-jerrygarcia-shows generate-recording-ratings integrate-shows all clean
+.PHONY: help stage01-collect-data stage02-generate-data stage03-generate-search-data collect-archive-data collect-jerrygarcia-shows generate-recording-ratings integrate-shows generate-search-data analyze-search-data all clean
 
 # Default help
 help:
@@ -10,10 +10,13 @@ help:
 	@echo "Available targets:"
 	@echo "  stage01-collect-data      - Run complete Stage 1: Data Collection (5-7 hours)"
 	@echo "  stage02-generate-data     - Run complete Stage 2: Data Generation (fast)"
+	@echo "  stage03-generate-search-data - Run complete Stage 3: Search Data Generation (fast)"
 	@echo "  collect-archive-data      - Collect metadata from Archive.org (2-3 hours)"
 	@echo "  collect-jerrygarcia-shows - Collect complete show database from jerrygarcia.com (3-4 hours)"
 	@echo "  generate-recording-ratings- Generate comprehensive recording ratings from cache"
 	@echo "  integrate-shows           - Integrate JG shows with recording ratings"
+	@echo "  generate-search-data      - Generate denormalized search tables for mobile app"
+	@echo "  analyze-search-data       - Development tool: analyze data patterns (manual use)"
 	@echo "  all                       - Run complete pipeline"
 	@echo "  clean                     - Clean generated data"
 
@@ -42,6 +45,18 @@ integrate-shows:
 	python scripts/02-generate-data/integrate_jerry_garcia_shows.py --verbose
 	@echo "✅ Show integration complete!"
 
+# Stage 3: Search Data Generation
+generate-search-data:
+	@echo "🔍 Generating denormalized search tables for mobile app..."
+	python scripts/03-search-data/generate_search_tables.py --verbose
+	@echo "✅ Search data generation complete!"
+
+# Development tools (run manually as needed)
+analyze-search-data:
+	@echo "🔍 Analyzing search data patterns (development tool)..."
+	python scripts/03-search-data/analyze_search_data.py --verbose
+	@echo "✅ Search data analysis complete!"
+
 # Stage-based targets
 stage01-collect-data: collect-archive-data collect-jerrygarcia-shows
 	@echo "🎉 Stage 1: Data Collection complete!"
@@ -49,8 +64,11 @@ stage01-collect-data: collect-archive-data collect-jerrygarcia-shows
 stage02-generate-data: generate-recording-ratings integrate-shows
 	@echo "🎉 Stage 2: Data Generation complete!"
 
+stage03-generate-search-data: generate-search-data
+	@echo "🎉 Stage 3: Search Data Generation complete!"
+
 # Full pipeline
-all: stage01-collect-data stage02-generate-data
+all: stage01-collect-data stage02-generate-data stage03-generate-search-data
 	@echo "🎉 Complete pipeline finished!"
 
 # Cleanup
