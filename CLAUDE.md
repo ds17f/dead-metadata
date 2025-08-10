@@ -8,7 +8,7 @@ This is a production-ready Grateful Dead concert metadata collection and process
 
 **Coverage**: 2,200+ shows (1965-1995), 484+ venues, 550+ songs with comprehensive ratings data  
 **Status**: Production V1 system actively used by Android app, ready for V2 architecture integration  
-**Pipeline**: 4-stage service-oriented architecture with 6,242+ lines of Python code across 12 specialized scripts
+**Pipeline**: 4-stage service-oriented architecture with 6,812+ lines of Python code across 13 specialized scripts
 
 ## Architecture
 
@@ -22,11 +22,15 @@ The pipeline follows a 4-stage service-oriented architecture with clear separati
 
 ### Stage 2: Data Generation → `stage02-generated-data/` + `stage02-processed-data/`
 - **Archive.org Processing**: `scripts/02-generate-data/generate_archive_products.py` (362 lines) - Processes cached Archive.org data → `stage02-generated-data/ratings.json` + `shows/`
+- **Jerry Garcia Integration**: `scripts/02-generate-data/integrate_jerry_garcia_shows.py` - Integrates JG shows with recording ratings → enhanced `shows/`
+- **Collections Processing**: `scripts/02-generate-data/process_collections.py` (570 lines) - Resolves collection selectors to show IDs, adds collection metadata to shows → `collections.json`
 - **Setlist Merging**: `merge_setlists.py` (489 lines) - Combines CMU + GDSets sources with GDSets priority → `raw_setlists.json`
 - **Venue Normalization**: `process_venues.py` (727 lines) - 484+ venues with smart name normalization → `venues.json`
 - **Song Processing**: `process_songs.py` (643 lines) - 550+ songs with alias and segue handling → `songs.json`
 
-### Stage 3: Integration → `stage02-processed-data/`
+### Stage 3: Search Data Generation → `stage03-search-data/`
+- **Search Tables**: `scripts/03-search-data/generate_search_tables.py` - Generates denormalized search indexes for mobile app optimization
+- **Collections Search**: Auto-generated from Stage 2 collections processing for search integration
 - **Final Integration**: `integrate_setlists.py` (574 lines) - Links setlists with venue/song IDs → `setlists.json`
 
 ### Stage 4: Deployment
@@ -42,9 +46,11 @@ All development is managed through the Makefile. Key commands:
 ```bash
 make collect-archive-data      # Collect metadata from Archive.org (2-3 hours)
 make collect-jerrygarcia-shows # Collect complete show database from jerrygarcia.com (3-4 hours)
-make generate-shows            # Generate show aggregations from cache
-make generate-reviews          # Generate ratings/reviews from cache
-make all                       # Run complete Archive.org pipeline
+make generate-recording-ratings# Generate comprehensive recording ratings from cache
+make integrate-shows           # Integrate JG shows with recording ratings
+make process-collections       # Process collections and add to shows
+make generate-search-data      # Generate denormalized search tables for mobile app
+make all                       # Run complete pipeline
 make clean                     # Clean generated data
 ```
 
@@ -58,6 +64,14 @@ python scripts/01-collect-data/collect_archive_metadata.py --year 1977 --verbose
 python scripts/02-generate-data/generate_archive_products.py --shows-only
 python scripts/02-generate-data/generate_archive_products.py --ratings-only
 python scripts/02-generate-data/generate_archive_products.py --input-dir custom-cache
+
+# Collections processing
+python scripts/02-generate-data/process_collections.py --verbose
+python scripts/02-generate-data/process_collections.py --collections-file custom-collections.json
+
+# Search data generation
+python scripts/03-search-data/generate_search_tables.py --verbose
+python scripts/03-search-data/generate_search_tables.py --analyze
 
 # Jerry Garcia show collection with custom options
 python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --start-page 50 --end-page 60 --delay 3.0
@@ -155,17 +169,22 @@ python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --fix-venues-dry
 
 *Archive.org Stream:*
 4. `scripts/02-generate-data/generate_archive_products.py` - Processes cached Archive.org data → `stage02-generated-data/ratings.json` + `shows/`
+5. `scripts/02-generate-data/integrate_jerry_garcia_shows.py` - Integrates JG shows with ratings → enhanced `shows/`
+6. `scripts/02-generate-data/process_collections.py` - Resolves collections and adds to shows → `collections.json`
 
-**Stage 3 - Integration:**
-7. `integrate_setlists.py` - Link setlists with venue/song IDs → `stage02-processed-data/setlists.json`
+**Stage 3 - Search Data Generation:**
+7. `scripts/03-search-data/generate_search_tables.py` - Generate search indexes → `stage03-search-data/`
+8. `integrate_setlists.py` - Link setlists with venue/song IDs → `stage02-processed-data/setlists.json`
 
 **Stage 4 - Deployment:**
-8. `package_datazip.py` - Bundle all processed data → `data.zip`
+9. `package_datazip.py` - Bundle all processed data → `data.zip`
 
 **Final Bundle Contains:**
 - `ratings.json` (from Archive.org stream in `stage02-generated-data/`)
+- `collections.json` (from collections processing in `stage02-generated-data/`)
 - `setlists.json` (from setlist stream in `stage02-processed-data/`) 
 - `venues.json` + `songs.json` (supporting data in `stage02-processed-data/`)
+- Search indexes (from `stage03-search-data/` for mobile app optimization)
 
 **Note**: The two data streams remain independent - ratings provide recording quality data, setlists provide concert structure data.
 
@@ -224,7 +243,8 @@ The Archive.org collection system has been reorganized into a clean two-stage pi
 - **ProgressState**: Collection progress tracking with resume capability (in `scripts/shared/models.py`)
 - **Venue Database**: Normalized venue data with geographical information and aliases
 - **Song Database**: Song relationships, aliases, segue notation, performance statistics
-- **Collections Framework**: Pre-defined collections in `dead_collections.json` ready for V2 implementation
+- **Collections Framework**: Pre-defined collections in `stage00-created-data/dead_collections.json` with automated processing system
+- **Collections Data**: Resolved collection selectors with show membership and search optimization
 
 ### Integration Points
 - **V1 Android App**: Currently consumes `data.zip` package from this pipeline
