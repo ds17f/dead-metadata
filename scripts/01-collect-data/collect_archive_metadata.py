@@ -382,27 +382,43 @@ class ArchiveMetadataCollector:
             self.logger.error(f"Failed to fetch reviews for {identifier}: {e}")
             return []
 
-    def compute_recording_rating(self, reviews: List[ReviewData], source_type: str) -> Tuple[float, float]:
-        """Compute weighted rating and confidence for a recording."""
+    def compute_recording_rating(self, reviews: List[ReviewData], source_type: str) -> Tuple[float, float, float, int, int, Dict[int, int]]:
+        """Compute weighted rating, confidence, and rating breakdown for a recording."""
         if not reviews:
-            return 0.0, 0.0  # No reviews = 0 rating, 0 confidence
+            return 0.0, 0.0, 0.0, 0, 0, {}  # No reviews = all zeros
             
         # Filter out very low ratings (likely spam)
         valid_reviews = [r for r in reviews if r.stars >= 1.0]
         if not valid_reviews:
-            return 0.0, 0.0
+            return 0.0, 0.0, 0.0, 0, 0, {}
             
-        # Compute basic average
-        avg_rating = sum(r.stars for r in valid_reviews) / len(valid_reviews)
+        # Compute basic average (raw rating)
+        raw_rating = sum(r.stars for r in valid_reviews) / len(valid_reviews)
         
-        # Apply source type weighting
+        # Apply source type weighting  
         source_weight = self.source_weights.get(source_type, 0.5)
-        weighted_rating = avg_rating * source_weight
+        weighted_rating = raw_rating * source_weight
         
         # Confidence based on review count
         confidence = min(len(valid_reviews) / 5.0, 1.0)
         
-        return weighted_rating * (0.5 + 0.5 * confidence), confidence
+        # Calculate rating distribution
+        distribution = {}
+        high_ratings = 0  # 4-5 star reviews
+        low_ratings = 0   # 1-2 star reviews
+        
+        for review in valid_reviews:
+            star_int = int(review.stars)
+            distribution[star_int] = distribution.get(star_int, 0) + 1
+            
+            if review.stars >= 4.0:
+                high_ratings += 1
+            elif review.stars <= 2.0:
+                low_ratings += 1
+        
+        final_weighted_rating = weighted_rating * (0.5 + 0.5 * confidence)
+        
+        return final_weighted_rating, confidence, raw_rating, high_ratings, low_ratings, distribution
 
     def process_recording(self, identifier: str) -> Optional[RecordingMetadata]:
         """Process a single recording and return complete metadata."""
@@ -441,9 +457,9 @@ class ArchiveMetadataCollector:
                 return None
                 
             source_type = self.extract_source_type(title, description)
-            rating, confidence = self.compute_recording_rating(reviews, source_type)
+            rating, confidence, raw_rating, high_ratings, low_ratings, distribution = self.compute_recording_rating(reviews, source_type)
             
-            self.logger.debug(f"  → {len(reviews)} reviews, rating: {rating:.2f}, source: {source_type}")
+            self.logger.debug(f"  → {len(reviews)} reviews, rating: {rating:.2f}, raw: {raw_rating:.2f}, source: {source_type}")
             
             # Create recording metadata
             recording_meta = RecordingMetadata(
@@ -461,7 +477,11 @@ class ArchiveMetadataCollector:
                 rating=rating,
                 review_count=len(reviews),
                 confidence=confidence,
-                collection_timestamp=datetime.now().isoformat()
+                collection_timestamp=datetime.now().isoformat(),
+                raw_rating=raw_rating,
+                distribution=distribution,
+                high_ratings=high_ratings,
+                low_ratings=low_ratings
             )
             
             # Save to cache
