@@ -94,17 +94,20 @@ class DataPackager:
         else:
             analysis['missing_files'].append(str(collections_file))
         
-        # Recording ratings data
-        ratings_file = self.stage2_dir / "recording_ratings.json"
-        if ratings_file.exists():
-            with open(ratings_file, 'r', encoding='utf-8') as f:
-                ratings_data = json.load(f)
-                analysis['stage2_data']['ratings'] = {
-                    'total_ratings': len(ratings_data),
-                    'file_size': ratings_file.stat().st_size
+        # Recording data with track metadata
+        recordings_file = self.stage2_dir / "recordings.json"
+        if recordings_file.exists():
+            with open(recordings_file, 'r', encoding='utf-8') as f:
+                recordings_data = json.load(f)
+                recordings_section = recordings_data.get('recordings', {})
+                total_tracks = sum(len(rec.get('tracks', [])) for rec in recordings_section.values())
+                analysis['stage2_data']['recordings'] = {
+                    'total_recordings': len(recordings_section),
+                    'total_tracks': total_tracks,
+                    'file_size': recordings_file.stat().st_size
                 }
         else:
-            analysis['missing_files'].append(str(ratings_file))
+            analysis['missing_files'].append(str(recordings_file))
         
         # Show files
         shows_dir = self.stage2_dir / "shows"
@@ -172,8 +175,8 @@ class DataPackager:
         manifest = {
             'package': {
                 'name': 'Dead Archive Metadata',
-                'version': '1.0.0',
-                'description': 'Complete Grateful Dead concert metadata with search optimization',
+                'version': '2.0.0',
+                'description': 'Complete Grateful Dead concert metadata with track-level data and search optimization',
                 'created': datetime.now().isoformat(),
                 'generator': 'dead-metadata pipeline v3.0'
             },
@@ -182,7 +185,7 @@ class DataPackager:
                     'description': 'Generated data products from Jerry Garcia shows and Archive.org integration',
                     'files': {
                         'collections.json': 'Processed collections with resolved show memberships',
-                        'recording_ratings.json': 'Comprehensive recording quality ratings from Archive.org',
+                        'recordings.json': 'Comprehensive recording metadata with track-level data and ratings from Archive.org',
                         'shows/': 'Individual show files with complete metadata (2,313+ shows)'
                     }
                 },
@@ -249,11 +252,11 @@ class DataPackager:
                     zipf.write(collections_file, 'collections.json')
                     self.included_files.append('collections.json')
                 
-                # Recording ratings
-                ratings_file = self.stage2_dir / "recording_ratings.json"
-                if ratings_file.exists():
-                    zipf.write(ratings_file, 'recording_ratings.json')
-                    self.included_files.append('recording_ratings.json')
+                # Recording data with tracks
+                recordings_file = self.stage2_dir / "recordings.json"
+                if recordings_file.exists():
+                    zipf.write(recordings_file, 'recordings.json')
+                    self.included_files.append('recordings.json')
                 
                 # Individual show files
                 shows_dir = self.stage2_dir / "shows"
@@ -339,7 +342,7 @@ class DataPackager:
                 expected_critical_files = [
                     'manifest.json',
                     'collections.json',
-                    'recording_ratings.json',
+                    'recordings.json',
                     'search/shows_index.json',
                     'search/collections.json'
                 ]

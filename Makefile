@@ -1,7 +1,7 @@
 # Grateful Dead Archive Data Pipeline
 # Stage-based data collection and processing
 
-.PHONY: help stage01-collect-data stage02-generate-data stage03-generate-search-data collect-archive-data collect-jerrygarcia-shows generate-recording-ratings integrate-shows process-collections generate-search-data analyze-search-data package-data all clean
+.PHONY: help stage01-collect-data stage02-generate-data stage03-generate-search-data collect-archive-data collect-jerrygarcia-shows generate-recordings integrate-shows process-collections generate-search-data analyze-search-data package-data all clean
 
 # Default help
 help:
@@ -13,8 +13,8 @@ help:
 	@echo "  stage03-generate-search-data - Run complete Stage 3: Search Data Generation (fast)"
 	@echo "  collect-archive-data      - Collect metadata from Archive.org (2-3 hours)"
 	@echo "  collect-jerrygarcia-shows - Collect complete show database from jerrygarcia.com (3-4 hours)"
-	@echo "  generate-recording-ratings- Generate comprehensive recording ratings from cache"
-	@echo "  integrate-shows           - Integrate JG shows with recording ratings"
+	@echo "  generate-recordings       - Generate comprehensive recording data with track metadata from cache"
+	@echo "  integrate-shows           - Integrate JG shows with recording data"
 	@echo "  process-collections       - Process collections and add to shows"
 	@echo "  generate-search-data      - Generate denormalized search tables for mobile app"
 	@echo "  analyze-search-data       - Development tool: analyze data patterns (manual use)"
@@ -35,15 +35,15 @@ collect-jerrygarcia-shows:
 	python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --start-page 1 --end-page 111 --delay 2.0 --verbose
 	@echo "✅ Jerry Garcia show database collection complete!"
 
-# Stage 2a: Recording Ratings Generation  
-generate-recording-ratings:
-	@echo "⭐ Generating comprehensive recording ratings from Archive cache..."
-	python scripts/02-generate-data/generate_recording_ratings.py --verbose
-	@echo "✅ Recording ratings generation complete!"
+# Stage 2a: Recording Data Generation  
+generate-recordings:
+	@echo "⭐ Generating comprehensive recording data with track metadata from Archive cache..."
+	python scripts/02-generate-data/generate_archive_recordings.py --verbose
+	@echo "✅ Recording data generation complete!"
 
 # Stage 2b: Show Integration
 integrate-shows:
-	@echo "🎭 Integrating JG shows with recording ratings..."
+	@echo "🎭 Integrating JG shows with recording data..."
 	python scripts/02-generate-data/integrate_jerry_garcia_shows.py --verbose
 	@echo "✅ Show integration complete!"
 
@@ -75,7 +75,7 @@ package-data:
 stage01-collect-data: collect-archive-data collect-jerrygarcia-shows
 	@echo "🎉 Stage 1: Data Collection complete!"
 
-stage02-generate-data: generate-recording-ratings integrate-shows process-collections
+stage02-generate-data: generate-recordings integrate-shows process-collections
 	@echo "🎉 Stage 2: Data Generation complete!"
 
 stage03-generate-search-data: generate-search-data

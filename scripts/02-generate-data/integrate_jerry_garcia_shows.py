@@ -46,14 +46,14 @@ class JerryGarciaShowIntegrator:
     def __init__(self, jerrygarcia_dir: str = "stage01-collected-data/jerrygarcia/shows",
                  archive_dir: str = "stage01-collected-data/archive",
                  output_dir: str = "stage02-generated-data",
-                 recording_ratings_file: str = "stage02-generated-data/recording_ratings.json"):
+                 recordings_file: str = "stage02-generated-data/recordings.json"):
         """Initialize the integrator with input and output directories."""
         self.jerrygarcia_dir = Path(jerrygarcia_dir)
         self.archive_dir = Path(archive_dir) 
         self.output_dir = Path(output_dir)
         self.shows_dir = self.output_dir / "shows"
-        self.recording_ratings_file = Path(recording_ratings_file)
-        self.recording_ratings_data = None
+        self.recordings_file = Path(recordings_file)
+        self.recordings_data = None
         
         # Source weighting for best recording selection
         self.source_weights = {
@@ -114,28 +114,28 @@ class JerryGarciaShowIntegrator:
         
         return True
     
-    def load_recording_ratings(self) -> bool:
-        """Load recording ratings data (required)."""
-        if not self.recording_ratings_file.exists():
-            self.logger.error(f"❌ Recording ratings file does not exist: {self.recording_ratings_file}")
-            self.logger.error("❌ Recording ratings are required for show integration!")
-            self.logger.error("Please run the recording ratings generation script first:")
-            self.logger.error(f"  make generate-recording-ratings")
+    def load_recordings_data(self) -> bool:
+        """Load recordings data (required)."""
+        if not self.recordings_file.exists():
+            self.logger.error(f"❌ Recordings file does not exist: {self.recordings_file}")
+            self.logger.error("❌ Recordings data is required for show integration!")
+            self.logger.error("Please run the recordings generation script first:")
+            self.logger.error(f"  make generate-recordings")
             self.logger.error("  OR")
-            self.logger.error(f"  python scripts/02-generate-data/generate_recording_ratings.py")
+            self.logger.error(f"  python scripts/02-generate-data/generate_archive_recordings.py")
             return False
         
         try:
-            with open(self.recording_ratings_file, 'r') as f:
-                self.recording_ratings_data = json.load(f)
+            with open(self.recordings_file, 'r') as f:
+                self.recordings_data = json.load(f)
             
-            recording_count = len(self.recording_ratings_data.get('recording_ratings', {}))
-            show_count = len(self.recording_ratings_data.get('show_ratings', {}))
-            self.logger.info(f"✅ Loaded recording ratings: {recording_count} recordings, {show_count} shows")
+            recording_count = len(self.recordings_data.get('recordings', {}))
+            show_count = len(self.recordings_data.get('show_ratings', {}))
+            self.logger.info(f"✅ Loaded recordings data: {recording_count} recordings, {show_count} shows")
             return True
             
         except Exception as e:
-            self.logger.error(f"❌ Failed to load recording ratings: {e}")
+            self.logger.error(f"❌ Failed to load recordings data: {e}")
             return False
     
     def create_output_directories(self):
@@ -468,8 +468,8 @@ class JerryGarciaShowIntegrator:
         
         best_recording = filtered_recordings[0]
         
-        # Calculate ratings using recording ratings data
-        recording_ratings = self.recording_ratings_data.get('recording_ratings', {})
+        # Calculate ratings using recordings data
+        recording_ratings = self.recordings_data.get('recordings', {})
         
         # Calculate weighted rating
         total_weight = 0
@@ -573,7 +573,7 @@ class JerryGarciaShowIntegrator:
         start_time = datetime.now()
         
         # Load recording ratings if provided
-        if not self.load_recording_ratings():
+        if not self.load_recordings_data():
             return False
         
         # Integrate shows
@@ -605,8 +605,8 @@ def main():
                        help='Directory with Archive.org recording files')
     parser.add_argument('--output-dir', default='stage02-generated-data',
                        help='Output directory for integrated shows')
-    parser.add_argument('--recording-ratings', default='stage02-generated-data/recording_ratings.json',
-                       help='Path to recording ratings JSON file')
+    parser.add_argument('--recordings', default='stage02-generated-data/recordings.json',
+                       help='Path to recordings JSON file')
     parser.add_argument('--verbose', action='store_true',
                        help='Enable verbose logging')
     
@@ -619,7 +619,7 @@ def main():
         jerrygarcia_dir=args.jerrygarcia_dir,
         archive_dir=args.archive_dir,
         output_dir=args.output_dir,
-        recording_ratings_file=args.recording_ratings
+        recordings_file=args.recordings
     )
     
     # Validate input

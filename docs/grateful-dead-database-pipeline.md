@@ -40,10 +40,10 @@ The pipeline creates a complete database of Grateful Dead concerts by combining 
 │                   STAGE 2: Generation                          │
 │                stage02-generated-data/                         │
 │                                                                 │
-│  shows/                 collections.json    recording_ratings  │
-│  ├── 2,313+ integrated  ├── resolved        └── app-ready      │
-│  ├── with recordings    └── collections         format         │
-│  └── + collection tags                                         │
+│  shows/                 collections.json       recordings.json   │
+│  ├── 2,313+ integrated  ├── resolved           ├── ratings     │
+│  ├── with recordings    └── collections        └── + tracks    │
+│  └── + collection tags                             metadata    │
 └─────────────────────┬───────────────────────────────────────────┘
                       │
                       ▼
@@ -144,13 +144,13 @@ Show Data Recovery:
 
 ## Stage 2: Data Generation
 
-### Recording Ratings Generation
-**Script**: `scripts/02-generate-data/generate_archive_products.py`
+### Recording Data Generation
+**Script**: `scripts/02-generate-data/generate_archive_recordings.py`
 
-Processes the Archive.org cache into application-ready formats:
-- Generates comprehensive ratings data
-- Creates individual show aggregations with recording metadata
-- Produces mobile-optimized output formats
+Processes the Archive.org cache into recordings.json with:
+- Comprehensive rating data with breakdowns (raw_rating, high_ratings, low_ratings)
+- Track-level metadata (track names, durations, formats)
+- Recording quality metadata for integration into shows
 
 ### Show Integration
 **Script**: `scripts/02-generate-data/integrate_jerry_garcia_shows.py`
@@ -261,7 +261,7 @@ Advanced packaging system that bundles all processed data into distribution form
 #### Package Contents
 - `manifest.json` - Package metadata and integration guidance
 - `collections.json` - Processed collections with resolved show memberships
-- `recording_ratings.json` - Archive.org ratings data
+- `recordings.json` - Archive.org ratings data with comprehensive track-level metadata
 - `shows/` - 2,313+ individual show files with complete metadata
 - `search/` - 5 optimized search indexes for mobile consumption
 
@@ -354,10 +354,14 @@ Each show contains complete information from all sources:
 
 Complete collections with resolved show memberships and metadata.
 
-#### App-Ready Ratings
-**Location**: `stage02-generated-data/recording_ratings.json`
+#### Comprehensive Recording Data
+**Location**: `stage02-generated-data/recordings.json`
 
-Simplified recording quality data optimized for mobile applications.
+Complete recording metadata including quality ratings and track-level data optimized for mobile applications. Each recording includes:
+- Quality ratings and review statistics
+- Source type and confidence metrics
+- Complete track listings with durations and formats
+- Multiple file format support (FLAC, MP3, OGG)
 
 ### Stage 3 Outputs (`stage03-search-data/`)
 

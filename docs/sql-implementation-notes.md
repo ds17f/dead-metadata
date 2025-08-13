@@ -113,6 +113,9 @@ CREATE TABLE recordings (
     lineage TEXT,                      -- Recording chain information
     taper VARCHAR(255),                -- Person who recorded/transferred
     description TEXT,                  -- Archive.org description
+    date DATE,                         -- Recording date
+    venue TEXT,                        -- Venue name
+    location TEXT,                     -- City, State, Country
     
     -- Quality metrics
     rating DECIMAL(10,8),              -- Weighted rating for internal ranking
@@ -125,7 +128,36 @@ CREATE TABLE recordings (
     FOREIGN KEY (show_id) REFERENCES shows(show_id) ON DELETE CASCADE,
     INDEX idx_show_id (show_id),
     INDEX idx_source_type (source_type),
-    INDEX idx_rating (rating)
+    INDEX idx_rating (rating),
+    INDEX idx_date (date)
+);
+
+-- Track-level data from Archive.org recordings
+CREATE TABLE tracks (
+    id SERIAL PRIMARY KEY,
+    recording_id VARCHAR(255) NOT NULL,
+    track_number VARCHAR(10) NOT NULL,  -- "01", "02", etc.
+    title TEXT NOT NULL,                -- Song/track title
+    duration DECIMAL(8,2),              -- Duration in seconds
+    
+    FOREIGN KEY (recording_id) REFERENCES recordings(identifier) ON DELETE CASCADE,
+    INDEX idx_recording_id (recording_id),
+    INDEX idx_track_number (recording_id, track_number),
+    INDEX idx_title (title)
+);
+
+-- Multiple format support for each track
+CREATE TABLE track_formats (
+    id SERIAL PRIMARY KEY,
+    track_id INTEGER NOT NULL,
+    format VARCHAR(50) NOT NULL,        -- "Flac", "VBR MP3", "Ogg Vorbis", etc.
+    filename TEXT NOT NULL,             -- Archive.org filename
+    bitrate VARCHAR(20),                -- For compressed formats (e.g., "192")
+    
+    FOREIGN KEY (track_id) REFERENCES tracks(id) ON DELETE CASCADE,
+    INDEX idx_track_id (track_id),
+    INDEX idx_format (format),
+    UNIQUE KEY unique_track_format (track_id, format)
 );
 
 -- Source type distribution per show (from JSON source_types field)
@@ -225,8 +257,35 @@ CREATE TABLE member_search (
 ### JSON to SQL Mapping
 
 1. **Shows**: Direct mapping from `stage02-generated-data/shows/*.json`
-2. **Search Tables**: Import from `stage03-search-data/*.json` files
-3. **Batch Processing**: Process shows in chronological order for better locality
+2. **Recordings**: Import from `stage02-generated-data/recordings.json` with track data extraction
+3. **Search Tables**: Import from `stage03-search-data/*.json` files
+4. **Batch Processing**: Process shows in chronological order for better locality
+
+#### Recording and Track Data Import
+
+The new `recordings.json` structure includes comprehensive track metadata:
+
+```json
+{
+  "recordings": {
+    "gd1970-05-02.138227.sbd.miller.flac1648": {
+      "rating": 2.24,
+      "review_count": 52,
+      "tracks": [
+        {
+          "track": "01",
+          "title": "Tuning",
+          "duration": 107.08,
+          "formats": [
+            {"format": "Flac", "filename": "01Tuning.flac"},
+            {"format": "VBR MP3", "filename": "01Tuning.mp3", "bitrate": "188"}
+          ]
+        }
+      ]
+    }
+  }
+}
+```
 
 ### Sample Import Logic
 
@@ -255,6 +314,60 @@ JOIN JSON_TABLE(s.setlist_json, '$[*]'
         setlist_item JSON PATH '$'
     )
 ) jt;
+
+-- Import recording data with track metadata
+INSERT INTO recordings (
+    identifier, show_id, title, source_type, date, venue, location,
+    rating, raw_rating, review_count, confidence, collection_timestamp
+) 
+SELECT 
+    recording_id,
+    -- Map recording to show_id based on date/venue matching logic
+    COALESCE(s.show_id, CONCAT(
+        JSON_UNQUOTE(JSON_EXTRACT(recording_data, '$.date')), '-',
+        LOWER(REPLACE(JSON_UNQUOTE(JSON_EXTRACT(recording_data, '$.venue')), ' ', '-'))
+    )),
+    JSON_UNQUOTE(JSON_EXTRACT(recording_data, '$.title')),
+    JSON_UNQUOTE(JSON_EXTRACT(recording_data, '$.source_type')),
+    JSON_UNQUOTE(JSON_EXTRACT(recording_data, '$.date')),
+    JSON_UNQUOTE(JSON_EXTRACT(recording_data, '$.venue')),
+    JSON_UNQUOTE(JSON_EXTRACT(recording_data, '$.location')),
+    JSON_EXTRACT(recording_data, '$.rating'),
+    JSON_EXTRACT(recording_data, '$.raw_rating'),
+    JSON_EXTRACT(recording_data, '$.review_count'),
+    JSON_EXTRACT(recording_data, '$.confidence'),
+    NOW()
+FROM recordings_json r
+LEFT JOIN shows s ON s.date = JSON_UNQUOTE(JSON_EXTRACT(r.recording_data, '$.date'))
+                  AND s.venue = JSON_UNQUOTE(JSON_EXTRACT(r.recording_data, '$.venue'));
+
+-- Import track data
+INSERT INTO tracks (recording_id, track_number, title, duration)
+SELECT 
+    r.identifier,
+    JSON_UNQUOTE(JSON_EXTRACT(track_item, '$.track')),
+    JSON_UNQUOTE(JSON_EXTRACT(track_item, '$.title')),
+    JSON_EXTRACT(track_item, '$.duration')
+FROM recordings r
+JOIN JSON_TABLE(r.tracks_json, '$[*]'
+    COLUMNS (
+        track_item JSON PATH '$'
+    )
+) tracks;
+
+-- Import track format data
+INSERT INTO track_formats (track_id, format, filename, bitrate)
+SELECT 
+    t.id,
+    JSON_UNQUOTE(JSON_EXTRACT(format_item, '$.format')),
+    JSON_UNQUOTE(JSON_EXTRACT(format_item, '$.filename')),
+    JSON_UNQUOTE(JSON_EXTRACT(format_item, '$.bitrate'))
+FROM tracks t
+JOIN JSON_TABLE(t.formats_json, '$[*]'
+    COLUMNS (
+        format_item JSON PATH '$'
+    )
+) formats;
 ```
 
 ## Business Rules and Constraints
@@ -283,6 +396,17 @@ ALTER TABLE shows ALTER COLUMN date SET NOT NULL;
 -- Show ID format validation (basic)
 ALTER TABLE shows ADD CONSTRAINT valid_show_id_format
 CHECK (show_id REGEXP '^[0-9]{4}-[0-9]{2}-[0-9]{2}-.+');
+
+-- Track validation
+ALTER TABLE tracks ADD CONSTRAINT valid_duration
+CHECK (duration IS NULL OR duration > 0);
+
+ALTER TABLE tracks ADD CONSTRAINT valid_track_number
+CHECK (track_number REGEXP '^[0-9]+[a-z]?$');
+
+-- Track format validation
+ALTER TABLE track_formats ADD CONSTRAINT valid_bitrate
+CHECK (bitrate IS NULL OR bitrate REGEXP '^[0-9]+$');
 ```
 
 ### Referential Integrity
@@ -294,6 +418,10 @@ FOREIGN KEY (best_recording) REFERENCES recordings(identifier);
 -- Ensure setlist songs reference valid setlists
 ALTER TABLE setlist_songs ADD CONSTRAINT fk_setlist
 FOREIGN KEY (setlist_id) REFERENCES setlists(id) ON DELETE CASCADE;
+
+-- Ensure track formats reference valid tracks
+ALTER TABLE track_formats ADD CONSTRAINT fk_track
+FOREIGN KEY (track_id) REFERENCES tracks(id) ON DELETE CASCADE;
 ```
 
 ## Performance Optimization
@@ -304,6 +432,12 @@ FOREIGN KEY (setlist_id) REFERENCES setlists(id) ON DELETE CASCADE;
 CREATE INDEX idx_shows_date_rating ON shows(date, avg_rating DESC);
 CREATE INDEX idx_shows_venue_date ON shows(venue, date);
 CREATE INDEX idx_songs_performance ON setlist_songs(song_name, setlist_id);
+
+-- Recording and track indexes
+CREATE INDEX idx_recordings_show_rating ON recordings(show_id, rating DESC);
+CREATE INDEX idx_tracks_recording_track ON tracks(recording_id, track_number);
+CREATE INDEX idx_track_formats_track_format ON track_formats(track_id, format);
+CREATE FULLTEXT INDEX idx_tracks_title ON tracks(title);
 
 -- Search indexes
 CREATE FULLTEXT INDEX idx_shows_search ON shows(venue, city);
@@ -333,6 +467,38 @@ WHERE venue LIKE '%Fillmore%'
   AND avg_rating IS NOT NULL
 ORDER BY avg_rating DESC, recording_count DESC
 LIMIT 20;
+
+-- Get all tracks for a specific recording with formats
+SELECT t.track_number, t.title, t.duration,
+       GROUP_CONCAT(tf.format ORDER BY 
+         CASE tf.format 
+           WHEN 'Flac' THEN 1 
+           WHEN 'VBR MP3' THEN 2 
+           ELSE 3 
+         END) as available_formats
+FROM tracks t
+LEFT JOIN track_formats tf ON t.id = tf.track_id
+WHERE t.recording_id = 'gd1977-05-08.sbd.miller.97375.sbeok.flac16'
+GROUP BY t.id, t.track_number, t.title, t.duration
+ORDER BY CAST(t.track_number AS UNSIGNED);
+
+-- Find recordings with specific track by title
+SELECT r.identifier, r.date, r.venue, t.track_number, t.title, t.duration
+FROM recordings r
+JOIN tracks t ON r.identifier = t.recording_id
+WHERE t.title LIKE '%Dark Star%'
+ORDER BY r.date, t.track_number;
+
+-- Get total duration and track count per recording
+SELECT r.identifier, r.date, r.venue, r.source_type,
+       COUNT(t.id) as track_count,
+       SUM(t.duration) as total_duration_seconds,
+       TIME_FORMAT(SEC_TO_TIME(SUM(t.duration)), '%H:%i:%s') as total_duration
+FROM recordings r
+LEFT JOIN tracks t ON r.identifier = t.recording_id
+GROUP BY r.identifier
+ORDER BY total_duration_seconds DESC
+LIMIT 20;
 ```
 
 ## Data Statistics
@@ -342,17 +508,21 @@ Based on the pipeline output:
 - **Shows**: ~2,313 total (1965-1995)
 - **Venues**: ~484 unique venues
 - **Songs**: ~550 unique songs with aliases
-- **Recordings**: 17,790+ Archive.org recordings
+- **Recordings**: 17,790+ Archive.org recordings with complete track metadata
+- **Tracks**: ~300,000+ individual track entries (estimated 15-20 tracks per recording average)
+- **Track Formats**: ~900,000+ format entries (estimated 3 formats per track: FLAC, MP3, OGG)
 - **Members**: ~20+ band members across all eras
 - **Geographic Distribution**: Primarily USA with some Canada shows
 
 ### Storage Estimates
 - **Shows table**: ~500KB (2,313 rows × ~200 bytes avg)
 - **Setlist_songs table**: ~2MB (estimated 40,000+ song performances)
-- **Recordings table**: ~15MB (17,790 rows × ~800 bytes avg)
+- **Recordings table**: ~20MB (17,790 rows × ~1KB avg with track metadata)
+- **Tracks table**: ~40MB (300,000 rows × ~130 bytes avg)
+- **Track_formats table**: ~60MB (900,000 rows × ~70 bytes avg)
 - **Search tables**: ~5MB total (denormalized data)
 
-**Total estimated database size**: 25-30MB for core data, plus indexes.
+**Total estimated database size**: 130-150MB for core data, plus indexes (~200MB total).
 
 ## Integration Notes
 
@@ -365,6 +535,9 @@ Based on the pipeline output:
 - Search tables enable fast mobile app queries
 - Core show data provides complete details for individual views
 - Recording data supports quality-based filtering
+- Track tables enable detailed playback features with format selection
+- Track metadata supports duration calculations and progress tracking
+- Format tables enable quality-based streaming (FLAC vs MP3 preferences)
 
 ### Backup Strategy
 - Regular backups of core shows/setlists (relatively static)
