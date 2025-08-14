@@ -259,6 +259,10 @@ class JerryGarciaShowIntegrator:
         Fixes:
         1. Assembly Hall city standardization: "Champaign-Urbana" → "Champaign"
         2. US venues with missing state fields: move state from country to state field
+        3. US venues with duplicate state in country field: set country to "USA"
+        4. Canadian venues: standardize "BC"/"British Columbia" → "BC", set country to "Canada"
+        5. Canadian province standardization: all provinces to 2-letter codes (ON, MB, AB, etc.)
+        6. International countries: move country names from state field to country field
         """
         venue = show_data.get("venue", "")
         city = show_data.get("city", "")
@@ -284,6 +288,59 @@ class JerryGarciaShowIntegrator:
                 show_data["state"] = country.upper()
                 show_data["country"] = "USA"
                 self.logger.debug(f"Fixed state field for {venue}: moved '{country}' from country to state, set country to 'USA'")
+        
+        # Fix 3: US venues with state code duplicated in country field (e.g., World Music Theater)
+        if (state and country == state and len(country) == 2 and 
+            country.upper() in ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", 
+                               "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD",
+                               "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ",
+                               "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
+                               "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]):
+            show_data["country"] = "USA"
+            # Also fix location_raw if it has duplicate state codes
+            location_raw = show_data.get("location_raw", "")
+            if f", {state}, {state}" in location_raw:
+                show_data["location_raw"] = location_raw.replace(f", {state}, {state}", f", {state}")
+            self.logger.debug(f"Fixed duplicate state in country field for {venue}: '{country}' → 'USA'")
+        
+        # Fix 4: Canadian venues with BC/British Columbia
+        if ((state == "BC" or state == "British Columbia") and 
+            (country is None or country == "")):
+            show_data["state"] = "BC"
+            show_data["country"] = "Canada"
+            # Also standardize location_raw
+            location_raw = show_data.get("location_raw", "")
+            if ", British Columbia" in location_raw:
+                show_data["location_raw"] = location_raw.replace(", British Columbia", ", BC")
+            self.logger.debug(f"Fixed Canadian venue for {venue}: set state to 'BC', country to 'Canada'")
+        
+        # Fix 5: Canadian province standardization (comprehensive)
+        canadian_provinces = {
+            "British Columbia": "BC", "Ontario": "ON", "Manitoba": "MB", 
+            "Manatoba": "MB",  # Fix spelling error
+            "Alberta": "AB", "Saskatchewan": "SK", "Quebec": "QC",
+            "Newfoundland": "NL", "New Brunswick": "NB", "Nova Scotia": "NS", 
+            "Prince Edward Island": "PE", "Yukon": "YT", "Northwest Territories": "NT",
+            "Nunavut": "NU"
+        }
+        if state in canadian_provinces and (country is None or country == ""):
+            standardized_province = canadian_provinces[state]
+            show_data["state"] = standardized_province
+            show_data["country"] = "Canada"
+            # Also standardize location_raw
+            location_raw = show_data.get("location_raw", "")
+            if f", {state}" in location_raw:
+                show_data["location_raw"] = location_raw.replace(f", {state}", f", {standardized_province}")
+            self.logger.debug(f"Fixed Canadian province for {venue}: '{state}' → '{standardized_province}', country to 'Canada'")
+        
+        # Fix 6: International countries incorrectly in state field
+        countries_in_state = [
+            "Netherlands", "Luxembourg", "France", "England", "Egypt", "Denmark"
+        ]
+        if state in countries_in_state and (country is None or country == ""):
+            show_data["state"] = None
+            show_data["country"] = state
+            self.logger.debug(f"Fixed international venue for {venue}: moved '{state}' from state to country field")
     
     def load_jerrygarcia_shows(self) -> Dict[str, Dict[str, Any]]:
         """Load all JerryGarcia show data."""
