@@ -252,6 +252,39 @@ class JerryGarciaShowIntegrator:
         
         return '-'.join(components)
     
+    def apply_venue_data_fixes(self, show_data: Dict[str, Any]) -> None:
+        """
+        Apply venue data quality fixes to address known data issues.
+        
+        Fixes:
+        1. Assembly Hall city standardization: "Champaign-Urbana" → "Champaign"
+        2. US venues with missing state fields: move state from country to state field
+        """
+        venue = show_data.get("venue", "")
+        city = show_data.get("city", "")
+        state = show_data.get("state", "")
+        country = show_data.get("country", "")
+        
+        # Fix 1: Assembly Hall city standardization
+        if (venue == "Assembly Hall, U. of Illinois" and 
+            city == "Champaign-Urbana" and 
+            state == "IL"):
+            show_data["city"] = "Champaign"
+            show_data["location_raw"] = "Champaign, IL"
+            self.logger.debug(f"Fixed Assembly Hall city: 'Champaign-Urbana' → 'Champaign'")
+        
+        # Fix 2: US venues with state code in country field  
+        if (state == "" or state is None) and country and len(country) == 2:
+            # Likely a US state code in the country field
+            if country.upper() in ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", 
+                                  "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD",
+                                  "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ",
+                                  "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
+                                  "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]:
+                show_data["state"] = country.upper()
+                show_data["country"] = "USA"
+                self.logger.debug(f"Fixed state field for {venue}: moved '{country}' from country to state, set country to 'USA'")
+    
     def load_jerrygarcia_shows(self) -> Dict[str, Dict[str, Any]]:
         """Load all JerryGarcia show data."""
         shows = {}
@@ -263,6 +296,9 @@ class JerryGarciaShowIntegrator:
             try:
                 with open(show_file, 'r') as f:
                     show_data = json.load(f)
+                
+                # Apply venue data quality fixes
+                self.apply_venue_data_fixes(show_data)
                 
                 # Parse date and extract show time information
                 if "date" in show_data:
