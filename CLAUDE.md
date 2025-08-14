@@ -50,6 +50,9 @@ make generate-recording-ratings# Generate comprehensive recording ratings from c
 make integrate-shows           # Integrate JG shows with recording ratings
 make process-collections       # Process collections and add to shows
 make generate-search-data      # Generate denormalized search tables for mobile app
+make package-data-versioned    # Create versioned package with auto-detected version
+make package-release VERSION=2.1.0  # Create release package with specified version  
+make package-dev               # Create development build with commit hash
 make all                       # Run complete pipeline
 make clean                     # Clean generated data
 ```
@@ -93,6 +96,11 @@ python scripts/integrate_setlists.py --setlists raw.json --venues venues.json --
 python scripts/package_datazip.py --output data.zip --verbose
 python scripts/package_datazip.py --analyze  # Data structure analysis only
 python scripts/package_datazip.py --validate # Validate existing package
+
+# Versioned packaging options
+python scripts/package_datazip.py --auto-version --verbose        # Auto-detect version from git
+python scripts/package_datazip.py --version 2.1.0 --verbose      # Specify version manually
+python scripts/package_datazip.py --dev-build --verbose          # Development build with commit hash
 ```
 
 ### Testing/Validation
@@ -254,3 +262,37 @@ The Archive.org collection system has been reorganized into a clean two-stage pi
 - **V2 Architecture**: Pipeline outputs provide exact data needed for V2 database entities
 - **API Endpoints**: Can be enhanced to output V2-specific formats
 - **Maintenance Schedule**: Quarterly Archive.org updates, annual venue/song refinements
+
+## Data Packaging and Versioning
+
+The pipeline supports comprehensive versioning for data packages with multiple build types and automatic version detection.
+
+### Versioning Strategy
+- **Semantic Versioning**: MAJOR.MINOR.PATCH format (e.g., 2.1.0)
+- **Automatic Detection**: Git tags → Git commits → Manual override → Default
+- **Build Types**: Release builds, development builds, and manual versions
+- **Output Naming**: `data-v{version}.zip` for versioned builds, `data.zip` for legacy
+
+### Package Creation Commands
+```bash
+# Versioned packaging (recommended)
+make package-data-versioned          # Auto-detects version from git, creates data-v{version}.zip
+make package-release VERSION=2.1.0   # Creates data-v2.1.0.zip with specified version
+make package-dev                     # Creates data-vdev-{hash}-{date}.zip for development
+
+# Legacy packaging
+make package-data                     # Creates data.zip with embedded version metadata
+```
+
+### Version Detection Priority
+1. **Manual Override**: `--version 2.1.0` flag
+2. **Git Tags**: `v2.1.0` tag → version `2.1.0`  
+3. **Git Commits**: Development builds use `dev-{hash}-{date}` format
+4. **Default Fallback**: `2.0.0`
+
+### Enhanced Package Metadata
+Each package includes comprehensive build and version information in `manifest.json`:
+- Package version and type (release/development)
+- Git commit hash, branch, tag, and repository state
+- Build timestamp and host information
+- Data source timestamps and lineage

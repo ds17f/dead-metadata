@@ -18,6 +18,8 @@ from datetime import datetime
 from pathlib import Path
 import argparse
 import logging
+import subprocess
+import re
 
 
 class DataPackager:
@@ -33,11 +35,17 @@ class DataPackager:
     def __init__(self, 
                  stage2_dir: str = "stage02-generated-data",
                  stage3_dir: str = "stage03-search-data",
-                 output_file: str = "data.zip"):
+                 output_file: str = "data.zip",
+                 version: str = None,
+                 auto_version: bool = False,
+                 dev_build: bool = False):
         """Initialize the data packager."""
         self.stage2_dir = Path(stage2_dir)
         self.stage3_dir = Path(stage3_dir)
-        self.output_file = Path(output_file)
+        
+        # Version detection and output file naming
+        self.version = self._detect_version(version, auto_version, dev_build)
+        self.output_file = self._determine_output_file(output_file, auto_version or dev_build)
         
         # Package contents tracking
         self.included_files = []
@@ -45,6 +53,117 @@ class DataPackager:
         
         # Setup logging
         self._setup_logging()
+    
+    def _detect_version(self, version_override: str = None, auto_version: bool = False, dev_build: bool = False) -> str:
+        """
+        Detect package version from various sources.
+        
+        Priority: manual override > git tag > git commit (dev) > default
+        """
+        # Manual override has highest priority
+        if version_override:
+            if self._validate_semver(version_override):
+                return version_override
+            else:
+                self.logger.warning(f"Invalid version format: {version_override}, using auto-detection")
+        
+        # Development build using git commit
+        if dev_build or (auto_version and not self._get_git_tag()):
+            git_hash = self._get_git_commit_hash()
+            if git_hash:
+                timestamp = datetime.now().strftime('%Y%m%d')
+                return f"dev-{git_hash}-{timestamp}"
+        
+        # Try git tag for release builds
+        if auto_version:
+            git_tag = self._get_git_tag()
+            if git_tag:
+                # Remove 'v' prefix if present
+                return git_tag[1:] if git_tag.startswith('v') else git_tag
+        
+        # Default fallback
+        return "2.0.0"
+    
+    def _validate_semver(self, version: str) -> bool:
+        """Validate semantic version format (MAJOR.MINOR.PATCH)."""
+        semver_pattern = r'^(\d+)\.(\d+)\.(\d+)(?:-([0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?(?:\+([0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?$'
+        return bool(re.match(semver_pattern, version))
+    
+    def _get_git_tag(self) -> str:
+        """Get current git tag if available."""
+        try:
+            result = subprocess.run(
+                ['git', 'describe', '--tags', '--exact-match', 'HEAD'], 
+                capture_output=True, text=True, check=True
+            )
+            return result.stdout.strip()
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            return None
+    
+    def _get_git_commit_hash(self) -> str:
+        """Get short git commit hash."""
+        try:
+            result = subprocess.run(
+                ['git', 'rev-parse', '--short', 'HEAD'], 
+                capture_output=True, text=True, check=True
+            )
+            return result.stdout.strip()
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            return None
+    
+    def _get_git_metadata(self) -> dict:
+        """Get additional git metadata for manifest."""
+        metadata = {}
+        
+        # Full commit hash
+        try:
+            result = subprocess.run(
+                ['git', 'rev-parse', 'HEAD'], 
+                capture_output=True, text=True, check=True
+            )
+            metadata['commit'] = result.stdout.strip()
+        except:
+            metadata['commit'] = None
+        
+        # Branch name
+        try:
+            result = subprocess.run(
+                ['git', 'branch', '--show-current'], 
+                capture_output=True, text=True, check=True
+            )
+            metadata['branch'] = result.stdout.strip()
+        except:
+            metadata['branch'] = None
+        
+        # Tag (if any)
+        metadata['tag'] = self._get_git_tag()
+        
+        # Check if working directory is clean
+        try:
+            result = subprocess.run(
+                ['git', 'status', '--porcelain'], 
+                capture_output=True, text=True, check=True
+            )
+            metadata['clean'] = len(result.stdout.strip()) == 0
+        except:
+            metadata['clean'] = None
+        
+        return metadata
+    
+    def _determine_output_file(self, output_file: str, use_versioned_name: bool) -> Path:
+        """Determine the output filename based on versioning preferences."""
+        output_path = Path(output_file)
+        
+        # If user explicitly specified a filename, respect it
+        if output_file != "data.zip":
+            return output_path
+        
+        # For versioned builds, include version in filename
+        if use_versioned_name:
+            return Path(f"data-v{self.version}.zip")
+        
+        # Default behavior
+        return output_path
     
     def _setup_logging(self):
         """Setup logging with console output."""
@@ -194,13 +313,28 @@ class DataPackager:
         
         Returns manifest data to be included in the package.
         """
+        # Get git metadata for enhanced versioning info
+        git_metadata = self._get_git_metadata()
+        
+        # Determine version type
+        version_type = "development" if "dev-" in self.version else "release"
+        
         manifest = {
             'package': {
                 'name': 'Dead Archive Metadata',
-                'version': '2.0.0',
+                'version': self.version,
+                'version_type': version_type,
                 'description': 'Complete Grateful Dead concert metadata with track-level data and search optimization',
                 'created': datetime.now().isoformat(),
                 'generator': 'dead-metadata pipeline v3.0'
+            },
+            'build_info': {
+                'git_commit': git_metadata.get('commit'),
+                'git_branch': git_metadata.get('branch'),
+                'git_tag': git_metadata.get('tag'),
+                'git_clean': git_metadata.get('clean'),
+                'build_timestamp': datetime.now().isoformat(),
+                'build_host': os.uname().nodename if hasattr(os, 'uname') else 'unknown'
             },
             'contents': {
                 'stage2_data': {
@@ -256,6 +390,7 @@ class DataPackager:
             manifest = self.create_package_manifest(analysis)
             
             self.logger.info(f"📦 Creating package: {self.output_file}")
+            self.logger.info(f"🏷️ Package version: {self.version}")
             self.logger.info(f"📊 Total data: {analysis['totals']['total_size_mb']} MB across {analysis['totals']['total_files']} files")
             
             with zipfile.ZipFile(self.output_file, 'w', compression_level) as zipf:
@@ -434,13 +569,23 @@ def main():
     parser.add_argument('--analyze', action='store_true', help='Analyze data structure only')
     parser.add_argument('--validate', action='store_true', help='Validate existing package')
     
+    # Versioning options
+    parser.add_argument('--version', help='Specify package version (e.g., 2.1.0)')
+    parser.add_argument('--auto-version', action='store_true', 
+                        help='Auto-detect version from git tags/commits and use versioned filename')
+    parser.add_argument('--dev-build', action='store_true',
+                        help='Create development build with commit hash and timestamp')
+    
     args = parser.parse_args()
     
     # Initialize packager
     packager = DataPackager(
         stage2_dir=args.stage2_dir,
         stage3_dir=args.stage3_dir,
-        output_file=args.output
+        output_file=args.output,
+        version=args.version,
+        auto_version=args.auto_version,
+        dev_build=args.dev_build
     )
     
     # Set logging level

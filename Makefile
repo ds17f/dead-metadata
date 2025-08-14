@@ -1,7 +1,7 @@
 # Grateful Dead Archive Data Pipeline
 # Stage-based data collection and processing
 
-.PHONY: help stage01-collect-data stage02-generate-data stage03-generate-search-data collect-archive-data collect-jerrygarcia-shows generate-recordings integrate-shows process-collections generate-search-data analyze-search-data package-data all clean
+.PHONY: help stage01-collect-data stage02-generate-data stage03-generate-search-data collect-archive-data collect-jerrygarcia-shows generate-recordings integrate-shows process-collections generate-search-data analyze-search-data package-data package-data-versioned package-release package-dev all clean
 
 # Default help
 help:
@@ -19,6 +19,9 @@ help:
 	@echo "  generate-search-data      - Generate denormalized search tables for mobile app"
 	@echo "  analyze-search-data       - Development tool: analyze data patterns (manual use)"
 	@echo "  package-data              - Package all processed data into data.zip for distribution"
+	@echo "  package-data-versioned    - Create versioned package with auto-detected version"
+	@echo "  package-release VERSION=X - Create release package with specific version"
+	@echo "  package-dev               - Create development build with commit hash"
 	@echo "  all                       - Run complete pipeline"
 	@echo "  clean                     - Clean generated data"
 
@@ -70,6 +73,26 @@ package-data:
 	@echo "📦 Packaging all processed data for distribution..."
 	python scripts/package_datazip.py --output data.zip --verbose
 	@echo "✅ Data packaging complete! Final package: data.zip"
+
+# Versioned packaging targets
+package-data-versioned:
+	@echo "📦 Creating versioned data package with auto-detected version..."
+	python scripts/package_datazip.py --auto-version --verbose
+	@echo "✅ Versioned package created!"
+
+package-release:
+	@echo "📦 Creating release package..."
+	@if [ -z "$(VERSION)" ]; then \
+		echo "❌ VERSION not specified. Usage: make package-release VERSION=2.1.0"; \
+		exit 1; \
+	fi
+	python scripts/package_datazip.py --version $(VERSION) --verbose
+	@echo "✅ Release package v$(VERSION) created!"
+
+package-dev:
+	@echo "📦 Creating development build package..."
+	python scripts/package_datazip.py --dev-build --verbose
+	@echo "✅ Development package created!"
 
 # Stage-based targets
 stage01-collect-data: collect-archive-data collect-jerrygarcia-shows
