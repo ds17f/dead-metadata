@@ -94,20 +94,42 @@ class DataPackager:
         else:
             analysis['missing_files'].append(str(collections_file))
         
-        # Recording data with track metadata
-        recordings_file = self.stage2_dir / "recordings.json"
-        if recordings_file.exists():
-            with open(recordings_file, 'r', encoding='utf-8') as f:
-                recordings_data = json.load(f)
-                recordings_section = recordings_data.get('recordings', {})
-                total_tracks = sum(len(rec.get('tracks', [])) for rec in recordings_section.values())
-                analysis['stage2_data']['recordings'] = {
-                    'total_recordings': len(recordings_section),
-                    'total_tracks': total_tracks,
-                    'file_size': recordings_file.stat().st_size
-                }
+        # Recording data with track metadata (individual files)
+        recordings_dir = self.stage2_dir / "recordings"
+        if recordings_dir.exists():
+            recording_files = list(recordings_dir.glob("*.json"))
+            total_tracks = 0
+            total_file_size = 0
+            
+            # Sample a few files to count tracks (for performance)
+            sample_files = recording_files[:10] if len(recording_files) > 10 else recording_files
+            for sample_file in sample_files:
+                try:
+                    with open(sample_file, 'r', encoding='utf-8') as f:
+                        recording_data = json.load(f)
+                        total_tracks += len(recording_data.get('tracks', []))
+                        total_file_size += sample_file.stat().st_size
+                except Exception:
+                    continue
+            
+            # Estimate total tracks and size
+            if sample_files:
+                avg_tracks_per_recording = total_tracks / len(sample_files)
+                avg_size_per_file = total_file_size / len(sample_files)
+                estimated_total_tracks = int(avg_tracks_per_recording * len(recording_files))
+                estimated_total_size = int(avg_size_per_file * len(recording_files))
+            else:
+                estimated_total_tracks = 0
+                estimated_total_size = 0
+            
+            analysis['stage2_data']['recordings'] = {
+                'total_recordings': len(recording_files),
+                'total_tracks': estimated_total_tracks,
+                'total_files': len(recording_files),
+                'estimated_size': estimated_total_size
+            }
         else:
-            analysis['missing_files'].append(str(recordings_file))
+            analysis['missing_files'].append(str(recordings_dir))
         
         # Show files
         shows_dir = self.stage2_dir / "shows"
@@ -185,7 +207,7 @@ class DataPackager:
                     'description': 'Generated data products from Jerry Garcia shows and Archive.org integration',
                     'files': {
                         'collections.json': 'Processed collections with resolved show memberships',
-                        'recordings.json': 'Comprehensive recording metadata with track-level data and ratings from Archive.org',
+                        'recordings/': 'Individual recording files with track-level data and ratings from Archive.org',
                         'shows/': 'Individual show files with complete metadata (2,313+ shows)'
                     }
                 },
@@ -252,11 +274,24 @@ class DataPackager:
                     zipf.write(collections_file, 'collections.json')
                     self.included_files.append('collections.json')
                 
-                # Recording data with tracks
-                recordings_file = self.stage2_dir / "recordings.json"
-                if recordings_file.exists():
-                    zipf.write(recordings_file, 'recordings.json')
-                    self.included_files.append('recordings.json')
+                # Individual recording files with tracks
+                recordings_dir = self.stage2_dir / "recordings"
+                if recordings_dir.exists():
+                    recording_files = list(recordings_dir.glob("*.json"))
+                    recording_count = 0
+                    
+                    self.logger.info(f"   📄 Adding {len(recording_files)} individual recording files...")
+                    
+                    for recording_file in recording_files:
+                        archive_path = f"recordings/{recording_file.name}"
+                        zipf.write(recording_file, archive_path)
+                        self.included_files.append(archive_path)
+                        recording_count += 1
+                        
+                        if recording_count % 2000 == 0:
+                            self.logger.info(f"   📄 Added {recording_count}/{len(recording_files)} recording files...")
+                    
+                    self.logger.info(f"   ✅ Added {recording_count} recording files")
                 
                 # Individual show files
                 shows_dir = self.stage2_dir / "shows"
@@ -342,7 +377,6 @@ class DataPackager:
                 expected_critical_files = [
                     'manifest.json',
                     'collections.json',
-                    'recordings.json',
                     'search/shows_index.json',
                     'search/collections.json'
                 ]
@@ -356,6 +390,10 @@ class DataPackager:
                 show_files = [f for f in files_in_package if f.startswith('shows/') and f.endswith('.json')]
                 self.logger.info(f"📄 Package contains {len(show_files)} show files")
                 
+                # Count recording files
+                recording_files = [f for f in files_in_package if f.startswith('recordings/') and f.endswith('.json')]
+                self.logger.info(f"📄 Package contains {len(recording_files)} recording files")
+                
                 # Test read a sample show file
                 if show_files:
                     sample_show = zipf.read(show_files[0])
@@ -364,6 +402,16 @@ class DataPackager:
                         self.logger.info(f"✅ Show file format valid: {show_data['show_id']}")
                     else:
                         self.logger.error(f"❌ Invalid show file format")
+                        return False
+                
+                # Test read a sample recording file
+                if recording_files:
+                    sample_recording = zipf.read(recording_files[0])
+                    recording_data = json.loads(sample_recording.decode('utf-8'))
+                    if 'rating' in recording_data and 'tracks' in recording_data:
+                        self.logger.info(f"✅ Recording file format valid with {len(recording_data.get('tracks', []))} tracks")
+                    else:
+                        self.logger.error(f"❌ Invalid recording file format")
                         return False
                 
                 self.logger.info(f"✅ Package validation successful!")

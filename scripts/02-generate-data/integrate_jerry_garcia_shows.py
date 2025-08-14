@@ -46,13 +46,13 @@ class JerryGarciaShowIntegrator:
     def __init__(self, jerrygarcia_dir: str = "stage01-collected-data/jerrygarcia/shows",
                  archive_dir: str = "stage01-collected-data/archive",
                  output_dir: str = "stage02-generated-data",
-                 recordings_file: str = "stage02-generated-data/recordings.json"):
+                 recordings_dir: str = "stage02-generated-data/recordings"):
         """Initialize the integrator with input and output directories."""
         self.jerrygarcia_dir = Path(jerrygarcia_dir)
         self.archive_dir = Path(archive_dir) 
         self.output_dir = Path(output_dir)
         self.shows_dir = self.output_dir / "shows"
-        self.recordings_file = Path(recordings_file)
+        self.recordings_dir = Path(recordings_dir)
         self.recordings_data = None
         
         # Source weighting for best recording selection
@@ -115,9 +115,9 @@ class JerryGarciaShowIntegrator:
         return True
     
     def load_recordings_data(self) -> bool:
-        """Load recordings data (required)."""
-        if not self.recordings_file.exists():
-            self.logger.error(f"❌ Recordings file does not exist: {self.recordings_file}")
+        """Load recordings data from individual files (required)."""
+        if not self.recordings_dir.exists():
+            self.logger.error(f"❌ Recordings directory does not exist: {self.recordings_dir}")
             self.logger.error("❌ Recordings data is required for show integration!")
             self.logger.error("Please run the recordings generation script first:")
             self.logger.error(f"  make generate-recordings")
@@ -126,12 +126,35 @@ class JerryGarciaShowIntegrator:
             return False
         
         try:
-            with open(self.recordings_file, 'r') as f:
-                self.recordings_data = json.load(f)
+            # Load all individual recording files
+            recording_files = list(self.recordings_dir.glob("*.json"))
+            if not recording_files:
+                self.logger.error(f"❌ No recording files found in: {self.recordings_dir}")
+                return False
             
-            recording_count = len(self.recordings_data.get('recordings', {}))
-            show_count = len(self.recordings_data.get('show_ratings', {}))
-            self.logger.info(f"✅ Loaded recordings data: {recording_count} recordings, {show_count} shows")
+            # Create recordings data structure (compatible with existing integration code)
+            self.recordings_data = {
+                "recordings": {},
+                "show_ratings": {}  # Empty since we don't generate shows
+            }
+            
+            self.logger.info(f"Loading {len(recording_files)} individual recording files...")
+            
+            for recording_file in recording_files:
+                try:
+                    with open(recording_file, 'r') as f:
+                        recording_data = json.load(f)
+                    
+                    # Extract recording identifier from filename
+                    recording_id = recording_file.stem
+                    self.recordings_data["recordings"][recording_id] = recording_data
+                    
+                except Exception as e:
+                    self.logger.warning(f"Skipping corrupted recording file {recording_file}: {e}")
+                    continue
+            
+            recording_count = len(self.recordings_data["recordings"])
+            self.logger.info(f"✅ Loaded recordings data: {recording_count} recordings from individual files")
             return True
             
         except Exception as e:
@@ -605,8 +628,8 @@ def main():
                        help='Directory with Archive.org recording files')
     parser.add_argument('--output-dir', default='stage02-generated-data',
                        help='Output directory for integrated shows')
-    parser.add_argument('--recordings', default='stage02-generated-data/recordings.json',
-                       help='Path to recordings JSON file')
+    parser.add_argument('--recordings-dir', default='stage02-generated-data/recordings',
+                       help='Directory with individual recording JSON files')
     parser.add_argument('--verbose', action='store_true',
                        help='Enable verbose logging')
     
@@ -619,7 +642,7 @@ def main():
         jerrygarcia_dir=args.jerrygarcia_dir,
         archive_dir=args.archive_dir,
         output_dir=args.output_dir,
-        recordings_file=args.recordings
+        recordings_dir=args.recordings_dir
     )
     
     # Validate input
