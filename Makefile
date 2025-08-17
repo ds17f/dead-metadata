@@ -1,7 +1,7 @@
 # Grateful Dead Archive Data Pipeline
 # Stage-based data collection and processing
 
-.PHONY: help stage01-collect-data stage02-generate-data stage03-generate-search-data collect-archive-data collect-jerrygarcia-shows generate-recordings integrate-shows process-collections generate-search-data analyze-search-data package-data package-data-versioned package-release package-dev all clean
+.PHONY: help stage01-collect-data stage02-generate-data stage03-generate-search-data collect-archive-data collect-jerrygarcia-shows generate-recordings integrate-shows process-collections generate-search-data analyze-search-data package-data package-data-versioned package-release package-dev release release-dry-run all clean
 
 # Default help
 help:
@@ -22,6 +22,8 @@ help:
 	@echo "  package-data-versioned    - Create versioned package with auto-detected version"
 	@echo "  package-release VERSION=X - Create release package with specific version"
 	@echo "  package-dev               - Create development build with commit hash"
+	@echo "  release [VERSION=X]       - Create GitHub release with auto-detected or specified version"
+	@echo "  release-dry-run [VERSION=X] - Show what would be released without creating it"
 	@echo "  all                       - Run complete pipeline"
 	@echo "  clean                     - Clean generated data"
 
@@ -107,6 +109,51 @@ stage03-generate-search-data: generate-search-data
 # Full pipeline
 all: stage01-collect-data stage02-generate-data stage03-generate-search-data package-data
 	@echo "🎉 Complete pipeline finished!"
+
+# Release Management
+release:
+	@echo "🚀 Creating GitHub release..."
+	@$(call check_gh_cli)
+	@$(call check_git_clean)
+	@DETECTED_VERSION=$$(scripts/detect_version.sh $(VERSION)); \
+	echo "📋 Release version: $$DETECTED_VERSION"; \
+	echo "📝 Release notes preview:"; \
+	scripts/generate_release_notes.sh $$DETECTED_VERSION; \
+	echo ""; \
+	read -p "🤔 Create release v$$DETECTED_VERSION? [y/N] " confirm && [ "$$confirm" = "y" ]; \
+	echo "🏷️  Creating git tag v$$DETECTED_VERSION..."; \
+	git tag -a "v$$DETECTED_VERSION" -m "Release v$$DETECTED_VERSION"; \
+	git push origin "v$$DETECTED_VERSION"; \
+	echo "📡 Creating GitHub release..."; \
+	scripts/generate_release_notes.sh $$DETECTED_VERSION | gh release create "v$$DETECTED_VERSION" --title "Release v$$DETECTED_VERSION" --notes-file -; \
+	echo "✅ Release v$$DETECTED_VERSION created! The GitHub Actions workflow will build and attach the data package."
+
+release-dry-run:
+	@echo "🔍 Dry-run: Showing what would be released..."
+	@$(call check_gh_cli)
+	@$(call check_git_clean)
+	@DETECTED_VERSION=$$(scripts/detect_version.sh $(VERSION)); \
+	echo "📋 Would create release: v$$DETECTED_VERSION"; \
+	echo "📝 Release notes would be:"; \
+	scripts/generate_release_notes.sh $$DETECTED_VERSION; \
+	echo ""; \
+	echo "🏷️  Git tag: v$$DETECTED_VERSION"; \
+	echo "💡 Run 'make release' to actually create the release"
+
+# Helper functions for release management
+define check_gh_cli
+	@command -v gh >/dev/null 2>&1 || { echo "❌ GitHub CLI (gh) is required but not installed. Visit https://cli.github.com/"; exit 1; }
+	@gh auth status >/dev/null 2>&1 || { echo "❌ GitHub CLI not authenticated. Run 'gh auth login'"; exit 1; }
+endef
+
+define check_git_clean
+	@if [ -n "$$(git status --porcelain)" ]; then \
+		echo "❌ Working directory is not clean. Please commit or stash changes first."; \
+		git status --short; \
+		exit 1; \
+	fi
+endef
+
 
 # Cleanup
 clean:
