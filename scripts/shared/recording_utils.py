@@ -39,31 +39,42 @@ def improve_source_type_detection(recording) -> str:
         description = getattr(recording, 'description', '').upper() if getattr(recording, 'description', '') else ""
         source_lineage = getattr(recording, 'source', '').upper() if getattr(recording, 'source', '') else ""
     
-    # Primary analysis: Check source lineage first (most reliable)
+    # Step 1: Start with identifier-based classification (most reliable)
+    base_type = 'UNKNOWN'
+    
+    # Primary classification from identifier patterns
+    if '.SBD.' in identifier or '.SOUNDBOARD.' in identifier or identifier.endswith('.SBD'):
+        base_type = 'SBD'
+    elif '.MTX.' in identifier or '.MATRIX.' in identifier:
+        base_type = 'MATRIX'  
+    elif '.AUD.' in identifier or '.AUDIENCE.' in identifier or identifier.endswith('.AUD') or '.FOB.' in identifier:
+        base_type = 'AUD'
+    elif '.FM.' in identifier or '.BROADCAST.' in identifier or identifier.endswith('.FM'):
+        base_type = 'FM'
+    
+    # Step 2: Check source lineage for upgrades (priority: Matrix > FM > SBD > ON_STAGE_AUD > AUD)
     if source_lineage:
-        if source_lineage.startswith('SBD'):
-            return 'SBD'
-        elif source_lineage.startswith('AUD'):
-            return 'AUD'
-        elif 'MATRIX' in source_lineage:
+        # MATRIX has highest priority - always upgrade to this
+        if 'MATRIX' in source_lineage or 'MTX' in source_lineage:
             return 'MATRIX'
-        elif source_lineage.startswith('FM') or 'FM ' in source_lineage or source_lineage.startswith('BROADCAST'):
+        # FM has second priority - upgrade unless already Matrix
+        elif source_lineage.startswith('FM') or 'FM ' in source_lineage or source_lineage.startswith('BROADCAST') or 'BROADCAST' in source_lineage:
             return 'FM'
-        # Check for microphone indicators (suggests audience recording)
-        elif any(mic in source_lineage for mic in ['MICROPHONE', 'SENNHEISER', 'AKG', 'NEUMANN', 'SONY', 'MIC']):
+        # SBD upgrade - only if source is actually FROM the soundboard (not just near it)
+        elif (source_lineage.startswith('SBD>') or source_lineage.startswith('SBD >') or 
+              'MASTER SOUNDBOARD' in source_lineage or 
+              'SOUNDBOARD>' in source_lineage or 'SOUNDBOARD >' in source_lineage) and base_type in ['AUD', 'UNKNOWN']:
+            return 'SBD'
+        # ON_STAGE_AUD - upgrade AUD or UNKNOWN to this special class
+        elif ('ON STAGE MIC' in source_lineage or 'STAGE MIC' in source_lineage or 'ONSTAGE MIC' in source_lineage) and base_type in ['AUD', 'UNKNOWN']:
+            return 'ON_STAGE_AUD'
+        # Microphone indicators suggest AUD - only downgrade if currently UNKNOWN
+        elif any(mic in source_lineage for mic in ['MICROPHONE', 'SENNHEISER', 'AKG', 'NEUMANN', 'SONY', 'MIC']) and base_type == 'UNKNOWN':
             return 'AUD'
     
-    # Secondary analysis: Check identifier patterns  
-    if '.SBD.' in identifier or '.SOUNDBOARD.' in identifier or identifier.endswith('.SBD'):
-        return 'SBD'
-    elif '.MTX.' in identifier or '.MATRIX.' in identifier:
-        return 'MATRIX'  
-    elif '.AUD.' in identifier or '.AUDIENCE.' in identifier or identifier.endswith('.AUD'):
-        return 'AUD'
-    elif '.FM.' in identifier or '.BROADCAST.' in identifier or identifier.endswith('.FM'):
-        return 'FM'
-    elif '.REMASTER.' in identifier:
-        return 'REMASTER'
+    # Step 3: Return the base type from identifier if we have it
+    if base_type != 'UNKNOWN':
+        return base_type
     
     # Tertiary analysis: Check all text for keywords
     text = f"{identifier} {title} {description} {source_lineage}"
