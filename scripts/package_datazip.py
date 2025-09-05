@@ -3,7 +3,7 @@
 Data Packaging Script
 
 Packages the complete processed data into a compressed file for distribution.
-Combines Stage 2 generated data and Stage 3 search data into a mobile-ready package.
+Combines Stage 2 generated data into a mobile-ready package.
 
 Usage:
     python scripts/package_datazip.py --output data.zip
@@ -26,7 +26,7 @@ class DataPackager:
     """
     Packages processed Dead Archive data into distribution formats.
     
-    Combines all Stage 2 and Stage 3 outputs into optimized packages for:
+    Combines all Stage 2 outputs into optimized packages for:
     - Mobile app consumption
     - Web application deployment
     - Data analysis and research
@@ -34,14 +34,12 @@ class DataPackager:
     
     def __init__(self, 
                  stage2_dir: str = "stage02-generated-data",
-                 stage3_dir: str = "stage03-search-data",
                  output_file: str = "data.zip",
                  version: str = None,
                  auto_version: bool = False,
                  dev_build: bool = False):
         """Initialize the data packager."""
         self.stage2_dir = Path(stage2_dir)
-        self.stage3_dir = Path(stage3_dir)
         
         # Version detection and output file naming
         self.version = self._detect_version(version, auto_version, dev_build)
@@ -193,7 +191,6 @@ class DataPackager:
         analysis = {
             'timestamp': datetime.now().isoformat(),
             'stage2_data': {},
-            'stage3_data': {},
             'totals': {},
             'missing_files': []
         }
@@ -261,29 +258,6 @@ class DataPackager:
         else:
             analysis['missing_files'].append(str(shows_dir))
         
-        # Analyze Stage 3 search data
-        self.logger.info("🔍 Analyzing Stage 3 search data...")
-        
-        search_files = {
-            'shows_index.json': 'shows_search',
-            'collections.json': 'collections_search', 
-            'venues.json': 'venues_search',
-            'songs.json': 'songs_search',
-            'members.json': 'members_search'
-        }
-        
-        analysis['stage3_data'] = {}
-        for filename, key in search_files.items():
-            file_path = self.stage3_dir / filename
-            if file_path.exists():
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    analysis['stage3_data'][key] = {
-                        'total_entries': len(data),
-                        'file_size': file_path.stat().st_size
-                    }
-            else:
-                analysis['missing_files'].append(str(file_path))
         
         # Calculate totals
         total_size = 0
@@ -293,7 +267,7 @@ class DataPackager:
             total_size += analysis['stage2_data']['shows']['directory_size']
             total_files += analysis['stage2_data']['shows']['total_shows']
         
-        for section in [analysis['stage2_data'], analysis['stage3_data']]:
+        for section in [analysis['stage2_data']]:
             for item_data in section.values():
                 if isinstance(item_data, dict) and 'file_size' in item_data:
                     total_size += item_data['file_size']
@@ -345,16 +319,6 @@ class DataPackager:
                         'shows/': 'Individual show files with complete metadata (2,313+ shows)'
                     }
                 },
-                'stage3_data': {
-                    'description': 'Search-optimized indexes for mobile application consumption', 
-                    'files': {
-                        'shows_index.json': 'Denormalized show search index with collection tags',
-                        'collections.json': 'Collection search data with aliases and previews',
-                        'venues.json': 'Venue search index with geographical data',
-                        'songs.json': 'Song search index with performance statistics',
-                        'members.json': 'Band member data with instruments and images'
-                    }
-                }
             },
             'statistics': analysis['totals'],
             'data_sources': [
@@ -445,24 +409,6 @@ class DataPackager:
                     
                     self.logger.info(f"   ✅ Added {show_count} show files")
                 
-                # Add Stage 3 search data
-                self.logger.info("📁 Adding Stage 3 search data...")
-                
-                search_files = [
-                    'shows_index.json',
-                    'collections.json', 
-                    'venues.json',
-                    'songs.json',
-                    'members.json'
-                ]
-                
-                for filename in search_files:
-                    source_file = self.stage3_dir / filename
-                    if source_file.exists():
-                        archive_path = f"search/{filename}"
-                        zipf.write(source_file, archive_path)
-                        self.included_files.append(archive_path)
-                        self.logger.info(f"   📄 Added {filename}")
                 
                 # Calculate final package stats
                 self.package_stats = {
@@ -565,8 +511,6 @@ def main():
     parser.add_argument('--output', default='data.zip', help='Output package filename')
     parser.add_argument('--stage2-dir', default='stage02-generated-data',
                         help='Stage 2 data directory')
-    parser.add_argument('--stage3-dir', default='stage03-search-data',
-                        help='Stage 3 search data directory')
     parser.add_argument('--verbose', action='store_true', help='Enable verbose output')
     parser.add_argument('--analyze', action='store_true', help='Analyze data structure only')
     parser.add_argument('--validate', action='store_true', help='Validate existing package')
@@ -583,7 +527,6 @@ def main():
     # Initialize packager
     packager = DataPackager(
         stage2_dir=args.stage2_dir,
-        stage3_dir=args.stage3_dir,
         output_file=args.output,
         version=args.version,
         auto_version=args.auto_version,
