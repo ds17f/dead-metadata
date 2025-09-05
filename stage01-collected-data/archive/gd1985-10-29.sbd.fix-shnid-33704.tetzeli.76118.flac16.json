@@ -1,13 +1,78 @@
 {
   "identifier": "gd1985-10-29.sbd.fix-shnid-33704.tetzeli.76118.flac16",
-  "title": "Grateful Dead Live at Fox Theatre on 1985-10-29",
-  "date": "1985-10-29",
-  "venue": "Fox Theatre",
-  "location": "Atlanta, GA",
-  "source_type": "UNKNOWN",
-  "lineage": "See info file",
-  "taper": "",
-  "description": "Set 1\n\nFeel Like A Stranger \nFriend Of The Devil \nNew Minglewood Blues \nBird Song \nHell In A Bucket \nDeal\n\nSet 2\n\nMississippi Half-Step Uptown Toodeloo ->\nFranklin's Tower ->\nLost Sailor ->\nSaint Of Circumstance \nCrazy Fingers ->\nDrums ->\nSpace ->\nThe Wheel ->\nThe Other One ->\nWharf Rat ->\nJohnny B. Goode\n\nEncore\nBrokedown Palace",
+  "raw_metadata": {
+    "identifier": "gd1985-10-29.sbd.fix-shnid-33704.tetzeli.76118.flac16",
+    "title": "Grateful Dead Live at Fox Theatre on 1985-10-29",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nFeel Like A Stranger \nFriend Of The Devil \nNew Minglewood Blues \nBird Song \nHell In A Bucket \nDeal\n\nSet 2\n\nMississippi Half-Step Uptown Toodeloo ->\nFranklin's Tower ->\nLost Sailor ->\nSaint Of Circumstance \nCrazy Fingers ->\nDrums ->\nSpace ->\nThe Wheel ->\nThe Other One ->\nWharf Rat ->\nJohnny B. Goode\n\nEncore\nBrokedown Palace",
+    "date": "1985-10-29",
+    "year": "1985",
+    "subject": "Soundboard; Charlie Miller;Paul Scotton;Joani Walker;Bill Tetzeli",
+    "publicdate": "2008-01-27 07:31:09",
+    "addeddate": "2008-01-21 01:53:58",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Fox Theatre",
+    "coverage": "Atlanta, GA",
+    "source": "Pitch-corrected fix of shnid 33704",
+    "lineage": "See info file",
+    "transferer": "Bill Tetzeli",
+    "runtime": "143",
+    "md5s": "775ba0aba18e53deb98ab95e9e652b4a *gd85-10-29d1t01.flac\r\n1ee12d18cab0390a150228f2a8b8191b *gd85-10-29d1t02.flac\r\nb3ec88e899a20c9c047a00ccc8a817ba *gd85-10-29d1t03.flac\r\n3158a1bcb99e29c1064721e163c627a7 *gd85-10-29d1t04.flac\r\n02ece837dfeccc1bd6dc03233e7c071b *gd85-10-29d1t05.flac\r\n6a5ab73cf3a13fe725c5d796bff45a9e *gd85-10-29d1t06.flac\r\n13b4d9fadee914807b2bb5e0c2fde378 *gd85-10-29d1t07.flac\r\n89caf4d5e4cc05644f701920bee5c526 *gd85-10-29d2t01.flac\r\nd165c3a830badb8899d5661f911c5286 *gd85-10-29d2t02.flac\r\nd08d02e5474c903c4e55c15b43715c61 *gd85-10-29d2t03.flac\r\nbbdce2460a86401ab932922b335f8f86 *gd85-10-29d2t04.flac\r\n7754aa45336e43e7453a580262ba902f *gd85-10-29d2t05.flac\r\n9cacb7605eae842e06737c7d8ccdfa16 *gd85-10-29d2t06.flac\r\n32e3c0d3c688f708d201d439047e279d *gd85-10-29d2t07.flac\r\n4e872a7d6df25d6a8f27ed4b72ba3a89 *gd85-10-29d3t01.flac\r\n7f58b85f81b25c6d80d116ad9efe9aac *gd85-10-29d3t02.flac\r\n36c88e2ca80db6d9b54b0cfb40bfa860 *gd85-10-29d3t03.flac\r\ned017d6a1d361cba71edcb6b250361f6 *gd85-10-29d3t04.flac\r\n784136c5877f6cc248bdafc1ae393885 *gd85-10-29d3t05.flac\r\nb5fc5f3dee60828df89f0d74c27b1c5c *gd85-10-29d3t06.flac",
+    "notes": "-------------------------------------------------------------------------------------\nPitch-corrected fix of shnid 33704\n\nAll editing done in CE Pro.  The CE Pro temp directory and the files being worked on were on 2 separate, defragged external drives.\nThis source was pitch/time stretched to 101.5%.  Various tones generated in CE 2000 were compared with Brent's synthesizer played back in CE Pro.  All tracks were worked on individually.  Resulting SBEs were cleaned up using shntool.\nThe patch in drums was redone using the same source as Charlie Miller.  A 5 second crossfade was applied to the beginning and a 2-second crossfade to the end.  The patch source was time/pitch stretched to 97.79% to match the stretched SBD source (AUD source was also a little off-pitch, flat as opposed to the SBD being sharp).  After the crossfade back into the SBD there's a sudden, brief dropoff in volume, that's part of the SBD and not the patch.\nMany thanks to Charlie Miller for the SBD source and to Doug Nawrocki for the fine AUD. CAVEATS: This is as close to the correct pitch as my ears and equipment could make it.  100% correct pitch is not guaranteed but expressly disavowed - this is nearer the target but not a bullseye.  Also, while any decreasing of pitch and speed automatically exaggerates any cassette wow, it's so infinitesimal in the original source as to be nonexistent, so it's not really a problem here.\n\nBill Tetzeli (btet@adelphia.net)8:16 PM 7/25/2006\n-------------------------------------------------------------------------------------",
+    "updatedate": "2008-01-27 07:33:05",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_21",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "another Charlie Miller gem, this show is THE pinnacle of what early/mid-80s GD were all about. \n\nwhile the band was hitting stride with Brent having asserted himself JG was in some bad shape over the preceding summer and his vocals suffered badly for it (which is the lone downside in an otherwise phenomenal summer). \n\nJerry apparently was feeling better come autumn and the two nights at the Fox Theater are proof. \noften overshadowed is the performance from the night before. \n\nhighly recommended is the jam from Crazy Fingers into Drums; hell, the entire second set is a veritable showcase.",
+      "reviewtitle": "'85, He's Still [barely] Alive",
+      "reviewer": "Alex, Geddy, Neil, Jerry, Bobby, Phil, Brent, Mickey, Billy",
+      "reviewdate": "2009-03-02 18:11:44",
+      "createdate": "2009-03-02 18:11:44",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "start from here\n\ndrums is great space is out there and spilled into the wheel",
+      "reviewtitle": "drums>space>wheel",
+      "reviewer": "myhungryhippo",
+      "reviewdate": "2010-10-29 19:46:11",
+      "createdate": "2010-10-29 19:46:11",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "Great sound; great show!",
+      "reviewtitle": "A plus",
+      "reviewer": "barreramusic",
+      "reviewdate": "2012-06-23 06:23:33",
+      "createdate": "2012-06-23 06:23:33",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "I've had this tape since 1985...my first show was the previous night. I've always loved Bobby's scream right after the bridge in Hell in a Bucket. After the last \"Yeah, unable to dance I'll crawl\" line you can hear him scream as he fades away from the mic. Classic Weir move.",
+      "reviewtitle": "Hell in A Bucket Bobby Scream",
+      "reviewer": "tprusin",
+      "reviewdate": "2015-10-30 14:05:37",
+      "createdate": "2015-10-30 14:05:37",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "Love this show--one of the first tapes I collected as a freshman in college back in '88.  My favorite version Sailor>Saint.",
+      "reviewtitle": "Sailor-Saint",
+      "reviewer": "Jonnycat70",
+      "reviewdate": "2016-10-29 05:50:37",
+      "createdate": "2016-10-29 05:50:37",
+      "stars": "5"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2269,41 +2334,6 @@
       "private": "true"
     }
   ],
-  "reviews": [
-    {
-      "stars": 5.0,
-      "review_text": "'85, He's Still [barely] Alive another Charlie Miller gem, this show is THE pinnacle of what early/mid-80s GD were all about. \n\nwhile the band was hitting stride with Brent having asserted himself JG was in some bad shape over the preceding summer and his vocals suffered badly for it (which is the lone downside in an otherwise phenomenal summer). \n\nJerry apparently was feeling better come autumn and the two nights at the Fox Theater are proof. \noften overshadowed is the performance from the night before. \n\nhighly recommended is the jam from Crazy Fingers into Drums; hell, the entire second set is a veritable showcase.",
-      "date": "2009-03-02 18:11:44"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "drums>space>wheel start from here\n\ndrums is great space is out there and spilled into the wheel",
-      "date": "2010-10-29 19:46:11"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "A plus Great sound; great show!",
-      "date": "2012-06-23 06:23:33"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "Hell in A Bucket Bobby Scream I've had this tape since 1985...my first show was the previous night. I've always loved Bobby's scream right after the bridge in Hell in a Bucket. After the last \"Yeah, unable to dance I'll crawl\" line you can hear him scream as he fades away from the mic. Classic Weir move.",
-      "date": "2015-10-30 14:05:37"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "Sailor-Saint Love this show--one of the first tapes I collected as a freshman in college back in '88.  My favorite version Sailor>Saint.",
-      "date": "2016-10-29 05:50:37"
-    }
-  ],
-  "rating": 2.5,
-  "review_count": 5,
-  "confidence": 1.0,
-  "collection_timestamp": "2025-08-13T01:52:19.774354",
-  "raw_rating": 5.0,
-  "distribution": {
-    "5": 5
-  },
-  "high_ratings": 5,
-  "low_ratings": 0
+  "normalized_date": "1985-10-29",
+  "collection_timestamp": "2025-08-26T13:11:14.981834"
 }

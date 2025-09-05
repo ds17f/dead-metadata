@@ -1,13 +1,55 @@
 {
   "identifier": "gd1990-06-15.sbd.ladner.tetzeli.fix-8570.35161.reflac.flac16",
-  "title": "Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15",
-  "date": "1990-06-15",
-  "venue": "Shoreline Amphitheatre",
-  "location": "Mountain View, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\n\nHelp On The Way  ->\nSlipknot!  ->\nFranklin's Tower  \nNew Minglewood Blues  \nJust A Little Light  \nStagger Lee  \nDesolation Row  \nRamble On Rose  \nHell In A Bucket  \n\nSet 2\n\nScarlet Begonias  ->\nFire On The Mountain  ~ Blow Away  ->\nMan Smart, Woman Smarter  ->\nHe's Gone  ->\nDrums   ->\nSpace  ->\nThe Other One %  ->\nWharf Rat ->\nAround And Around \n\nEncore\nKnockin' On Heaven's Door",
+  "raw_metadata": {
+    "identifier": "gd1990-06-15.sbd.ladner.tetzeli.fix-8570.35161.reflac.flac16",
+    "title": "Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\n\nHelp On The Way  ->\nSlipknot!  ->\nFranklin's Tower  \nNew Minglewood Blues  \nJust A Little Light  \nStagger Lee  \nDesolation Row  \nRamble On Rose  \nHell In A Bucket  \n\nSet 2\n\nScarlet Begonias  ->\nFire On The Mountain  ~ Blow Away  ->\nMan Smart, Woman Smarter  ->\nHe's Gone  ->\nDrums   ->\nSpace  ->\nThe Other One %  ->\nWharf Rat ->\nAround And Around \n\nEncore\nKnockin' On Heaven's Door",
+    "date": "1990-06-15",
+    "year": "1990",
+    "subject": "Soundboard;Bill Tetzeli",
+    "publicdate": "2008-08-11 01:54:56",
+    "addeddate": "2008-08-10 07:53:03",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2008-08-11 02:31:16",
+      "2008-11-12 02:31:06",
+      "2008-12-19 18:48:18",
+      "2008-12-19 19:02:50"
+    ],
+    "venue": "Shoreline Amphitheatre",
+    "coverage": "Mountain View, CA",
+    "source": "Fix of shnid 8570",
+    "transferer": "Bill Tetzeli",
+    "runtime": "200:39",
+    "md5s": "8af956280a35ebd2618cba71facedcfa *gd90-06-15d1t01.flac\r\n5f783a64ebb6c31ba3617e1e9ab29670 *gd90-06-15d1t02.flac\r\n153e139786094d97b6a7cba32b122135 *gd90-06-15d1t03.flac\r\n44f5815bdb13dce8469935ab61741dcf *gd90-06-15d1t04.flac\r\n29d95ff10d76bc325d39c5dc137f9c8e *gd90-06-15d1t05.flac\r\nf3a5f13244e329d74352237f7d099b8f *gd90-06-15d1t06.flac\r\nf09bc38a2ea449c05640a37c5ac25643 *gd90-06-15d1t07.flac\r\nbab4debc6c224150c9c3ac9e16a11d19 *gd90-06-15d1t08.flac\r\n09becafb46f87ed99a1043c80f78390f *gd90-06-15d1t09.flac\r\n182ea9987d0c88fea25a65683cde2021 *gd90-06-15d1t10.flac\r\n6fbefb9beffa5e72005b64d741fae152 *gd90-06-15d2t01.flac\r\ndf0678233fe03558630140cc13b66178 *gd90-06-15d2t02.flac\r\n9c372e4f007aced95e4130f439e80161 *gd90-06-15d2t03.flac\r\n2b21d4e80fcdde12c34013244a9d1678 *gd90-06-15d2t04.flac\r\n185e523e475a84fc36ea5933588f9fdf *gd90-06-15d2t05.flac\r\n25eca14ba6beff2a1655ce17c6cb1f65 *gd90-06-15d2t05fade.flac\r\n5a609e68baa84a234fd64590586b0dc5 *gd90-06-15d3t00fade.flac\r\nf4fb80fb11444721e949b585ddf4830c *gd90-06-15d3t01.flac\r\n4b24fab732805bfb2d2c224736ec06bd *gd90-06-15d3t02.flac\r\ncfeec05062a00c263edb0e57261cb628 *gd90-06-15d3t03.flac\r\nade28d7cf90d5c7f98c1ffcbc5a292f1 *gd90-06-15d3t04.flac\r\n480010617b02dcf7cc932306aa3b0880 *gd90-06-15d3t05.flac\r\nc09025b2c6c16614afe5ce7aba9743ac *gd90-06-15d3t06.flac",
+    "notes": "---------------------------------------------------------------------------------------\nFix of shnid 8570\n\nI added a few seconds to the original AUD patch at the end of d2t05 in CE Pro and\ncrossfaded the section just before the two booming drum sounds that announce the\nbeginning of the drum set, making the transition between CDs 2 and 3 seamless. The SHNs were converted to FLAC and SBEs were fixed using shntool.\n\nFade tracks were added to the end of CD 2 and the beginning of CD 3 for those burning to CD. For seamless play, simply remove the fade tracks.\n\nBill Tetzeli (btet@adelphia.net)\n11:24 PM 6/4/2006\n------------------------------------------------------",
+    "backup_location": "ia903602_9"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "Nice well played and explored versions of these songs.\nI like that the Dead started working on the harmonies again.\nThe Brent tunes really stand out.                                              \n(He goes ape-shit in Blow Away)\nIf you had the chance to see the band from Summer of 88 to those last Tinley Park 90 shows.\nIt was Mydland who was energizing the band.",
+      "reviewtitle": "Man smart",
+      "reviewer": "c-freedom",
+      "reviewer_itemname": "@c-freedom",
+      "reviewdate": "2018-06-15 14:08:49",
+      "createdate": "2018-06-15 14:08:49",
+      "stars": "4"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2368,21 +2410,6 @@
       "private": "true"
     }
   ],
-  "reviews": [
-    {
-      "stars": 4.0,
-      "review_text": "Man smart Nice well played and explored versions of these songs.\nI like that the Dead started working on the harmonies again.\nThe Brent tunes really stand out.                                              \n(He goes ape-shit in Blow Away)\nIf you had the chance to see the band from Summer of 88 to those last Tinley Park 90 shows.\nIt was Mydland who was energizing the band.",
-      "date": "2018-06-15 14:08:49"
-    }
-  ],
-  "rating": 1.2,
-  "review_count": 1,
-  "confidence": 0.2,
-  "collection_timestamp": "2025-08-13T04:18:21.465804",
-  "raw_rating": 4.0,
-  "distribution": {
-    "4": 1
-  },
-  "high_ratings": 1,
-  "low_ratings": 0
+  "normalized_date": "1990-06-15",
+  "collection_timestamp": "2025-08-26T16:02:22.923552"
 }

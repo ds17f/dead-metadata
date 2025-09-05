@@ -1,13 +1,47 @@
 {
   "identifier": "gd1987-11-15.sbd.fix.uh_clem.27307.sbeok.flac16",
-  "title": "Grateful Dead Live at Long Beach Arena on 1987-11-15",
-  "date": "1987-11-15",
-  "venue": "Long Beach Arena",
-  "location": "Long Beach, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1:\n\n1.  Aiko-Aiko\n2.  Walkin' Blues\n3.  Candyman\n4.  Me and My Uncle\n5.  Mexicali Blues\n6.  West L.A. Fadeaway\n7.  Cassidy\n8.  Don't Ease Me In\n\nSet 2:\n9.  Scarlet Begonias >\n10. Fire on the Mountain\n\n1.  Looks Like Rain\n2.  He's Gone >\n3.  Drumz >\n4.  Space >\n5.  The Other One >\n6.  Morning Dew >\n7.  Around and Around >\n8.  Watchtower\n\nEncore:\n9.  Black Muddy River",
+  "raw_metadata": {
+    "identifier": "gd1987-11-15.sbd.fix.uh_clem.27307.sbeok.flac16",
+    "title": "Grateful Dead Live at Long Beach Arena on 1987-11-15",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1:\n\n1.  Aiko-Aiko\n2.  Walkin' Blues\n3.  Candyman\n4.  Me and My Uncle\n5.  Mexicali Blues\n6.  West L.A. Fadeaway\n7.  Cassidy\n8.  Don't Ease Me In\n\nSet 2:\n9.  Scarlet Begonias >\n10. Fire on the Mountain\n\n1.  Looks Like Rain\n2.  He's Gone >\n3.  Drumz >\n4.  Space >\n5.  The Other One >\n6.  Morning Dew >\n7.  Around and Around >\n8.  Watchtower\n\nEncore:\n9.  Black Muddy River",
+    "date": "1987-11-15",
+    "year": "1987",
+    "subject": "Soundboard;uh_clem",
+    "publicdate": "2005-06-10 00:53:32",
+    "addeddate": "2005-06-09 13:58:35",
+    "adder": "jon@archive.org",
+    "uploader": "jon@archive.org",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "venue": "Long Beach Arena",
+    "coverage": "Long Beach, CA",
+    "source": "This source is a fixed version of Doug Nawrocki's seed (etree shnid=4750).",
+    "transferer": "uh_clem",
+    "md5s": "f764ee90f82d9d4e3a78806331fd46b8 *gd83-04-16d1t01.flac\r\n1c938108c0ded0cc5f5d5fae05462843 *gd83-04-16d1t02.flac\r\n1eae9403fffcc737ada43fc7162ba4f3 *gd83-04-16d1t03.flac\r\n8754cea93959b64552a5e89a0f832ff3 *gd83-04-16d1t04.flac\r\n7caf0d468c5f7f6f505659f5ff3fd7d3 *gd83-04-16d1t05.flac\r\n59ebafb4c2830f50bf691b5469ccfc52 *gd83-04-16d1t06.flac\r\ne3310762f739f53fa2038dc6efa87a0e *gd83-04-16d1t07.flac\r\n5ba472620ece7c4d0f9c7ecf0c00b405 *gd83-04-16d1t08.flac\r\n51eaaf79f3b5346b21ba5ef2ee2bd1b8 *gd83-04-16d1t09.flac\r\ne4c9b262657c1d3524de86122aefad61 *gd83-04-16d1t10.flac\r\n7ed4eaf978a83714a1385d53c6d45270 *gd83-04-16d2t01.flac\r\ndbd1d7b5b4350b46e2c43cce672d8c53 *gd83-04-16d2t02.flac\r\n28fd4a0d520f845483bcb00dff71f511 *gd83-04-16d2t03.flac\r\n2fbe8937f0e56e3729446d0ac5995dfb *gd83-04-16d2t04.flac\r\n8f25cfe68d19a93b4ce0aab8a5a4db5b *gd83-04-16d2t05.flac\r\n5f943e513f4b98f8525ee0499a3187eb *gd83-04-16d3t01.flac\r\n0764e41987f12727e1e34fe8682e690f *gd83-04-16d3t02.flac\r\n85384bd65e7147a41801d908470b146e *gd83-04-16d3t03.flac\r\nc216d60c394616bb430a157929395c69 *gd83-04-16d3t04.flac\r\nda35c7f4faf173caa3568a68f2a0a925 *gd83-04-16d3t05.flac\r\ne19756476d0782d9b6789251ba5a86fd *gd83-04-16d3t06.flac\r\n1cc184edd2623dd7fc5682c1fee1d4e8 *gd83-04-16d3t07.flac",
+    "notes": "The following fixes were made by uh_clem (12/2004):\n\n- fade-out from Drumz (d2t03) and fade-in to Space (d2t04) were eliminated by joining the tracks together and cutting out redundant material. The transition is now seamless and no music is missing.\n- disc 2 was then joined together and retracked in order to eliminate sector boundary errors.\n- padding was added to the end of d1t08 via shntool in order to correct a sector boundary error.\n- each set was DC offset corrected\n- the resulting wav files were compressed to FLAC (v.1.1.1) for you downloading pleasure.\n\nDoug Nawrocki's source info:\nSBD > MC > Sonic Solutions > Pre-FM Dat @44.1\nTransfer:\nDA-P1 > Delta Audiophile 2496 > Sound Forge 5  > CDWave > mkwACT\nTransfer by Doug Nawrocki",
+    "updatedate": "2008-07-21 19:55:16",
+    "backup_location": "ia903600_8"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "hereing it again brings back such memory's and this is a really good recording....\n",
+      "reviewtitle": "This is my first show and it changed me forever.",
+      "reviewer": "a420dave",
+      "reviewdate": "2012-05-23 16:17:53",
+      "createdate": "2012-05-23 16:17:53",
+      "stars": "5"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2160,21 +2194,6 @@
       "private": "true"
     }
   ],
-  "reviews": [
-    {
-      "stars": 5.0,
-      "review_text": "This is my first show and it changed me forever. hereing it again brings back such memory's and this is a really good recording....\n",
-      "date": "2012-05-23 16:17:53"
-    }
-  ],
-  "rating": 1.5,
-  "review_count": 1,
-  "confidence": 0.2,
-  "collection_timestamp": "2025-08-13T02:57:36.592214",
-  "raw_rating": 5.0,
-  "distribution": {
-    "5": 1
-  },
-  "high_ratings": 1,
-  "low_ratings": 0
+  "normalized_date": "1987-11-15",
+  "collection_timestamp": "2025-08-26T14:27:02.552964"
 }

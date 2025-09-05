@@ -1,13 +1,35 @@
 {
   "identifier": "gd1990-12-27.aud-sbd.tumolo.miller.tetzeli.fix-21928.76115.sbeok.flac16",
-  "title": "Grateful Dead Live at Coliseum Arena on 1990-12-27",
-  "date": "1990-12-27",
-  "venue": "Coliseum Arena",
-  "location": "Oakland, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nJack Straw ->\nSugaree \nNew Minglewood Blues \nIt Must Have Been The Roses \nQueen Jane Approximately \nLoose Lucy \nCassidy ->\nDon't Ease Me In \n\nSet 2\n\nScarlet Begonias ->\nFire On The Mountain \nEstimated Prophet ->\nComes A Time ->\nDrums ->\nSpace ->\nI Need A Miracle ->\nThe Wheel ->\nThrowing Stones ->\nTurn On Your Lovelight \n\nEncore\nIt's All Over Now, Baby Blue",
+  "raw_metadata": {
+    "identifier": "gd1990-12-27.aud-sbd.tumolo.miller.tetzeli.fix-21928.76115.sbeok.flac16",
+    "title": "Grateful Dead Live at Coliseum Arena on 1990-12-27",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nJack Straw ->\nSugaree \nNew Minglewood Blues \nIt Must Have Been The Roses \nQueen Jane Approximately \nLoose Lucy \nCassidy ->\nDon't Ease Me In \n\nSet 2\n\nScarlet Begonias ->\nFire On The Mountain \nEstimated Prophet ->\nComes A Time ->\nDrums ->\nSpace ->\nI Need A Miracle ->\nThe Wheel ->\nThrowing Stones ->\nTurn On Your Lovelight \n\nEncore\nIt's All Over Now, Baby Blue",
+    "date": "1990-12-27",
+    "year": "1990",
+    "subject": "Soundboard;Bill Tetzeli",
+    "publicdate": "2008-05-22 02:35:09",
+    "addeddate": "2008-05-10 03:34:56",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Coliseum Arena",
+    "coverage": "Oakland, CA",
+    "source": "Fix of shnid 21928",
+    "transferer": "Bill Tetzeli",
+    "md5s": "a3cbfa8af65bd228b661130f5aa999af *gd90-12-27d1t01.flac\r\nb45344faa137f554c14072c4eaf728ec *gd90-12-27d1t02.flac\r\n86c1560d15f8fb249cafaff29e15f39d *gd90-12-27d1t03.flac\r\n9e58f9dee5eefe930a8d0ccb52b0bde4 *gd90-12-27d1t04.flac\r\n978464393b8ba2f1976400c3f74fc681 *gd90-12-27d1t05.flac\r\n6e097b61edd42613f7e34a89a520b972 *gd90-12-27d1t06.flac\r\n1fb38a68d9135c5edd14fc81c88b4c64 *gd90-12-27d1t07.flac\r\n740e4f6ad40ad6e34971522c81ce3599 *gd90-12-27d1t08.flac\r\n41bf064b40f92718cc342eb92a56dbe0 *gd90-12-27d1t09.flac\r\nb72ae3e9b07db67326e2d90775a044e9 *gd90-12-27d2t01.flac\r\nf53dbfe2bb6b1170b77d1e9bdad1a865 *gd90-12-27d2t02.flac\r\n6156faad359fa07036e988c8800bf601 *gd90-12-27d2t03.flac\r\n6f218b088549b899bc5f2ba5b51f2a8d *gd90-12-27d2t04.flac\r\n0815e9ec4834164fb13f344ccf549c4c *gd90-12-27d2t05.flac\r\ncb8f67229aa1d8ddbcffc8d6328fee42 *gd90-12-27d2t06.flac\r\n49b9bbe31495de9d880762241ad12ae0 *gd90-12-27d2t07.flac\r\n063e499852889cb7a796affcdab373a9 *gd90-12-27d3t01.flac\r\n76a64a6b7287f28f2ce1179adc118ff7 *gd90-12-27d3t02.flac\r\ne75448a91fce9ec140a752e99d6e4a1a *gd90-12-27d3t03.flac\r\n1f14d2abfd5d18a339864a6a761d703c *gd90-12-27d3t04.flac\r\nd522c903c01f7456e918b66e3c122d6a *gd90-12-27d3t05.flac",
+    "notes": "Just some minor surgery here - I used the AUD from archive.org (shnid 28385) to patch in a brief gap in space in order to make the transition between CDs 2 and 3 seamless.  There was also a gap from :22 to :42 in the right channel of space which I monized by pasting in the left channel.  SHNs were converted to FLACs, shntool used to clean up SBEs.\n\nBill Tetzeli (btet@adelphia.net)\n7:57 PM 7/18/2006",
+    "updatedate": "2008-05-22 02:43:20",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_35",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2377,13 +2399,6 @@
       "private": "true"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T04:41:36.255246",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1990-12-27",
+  "collection_timestamp": "2025-08-26T16:27:07.874248"
 }

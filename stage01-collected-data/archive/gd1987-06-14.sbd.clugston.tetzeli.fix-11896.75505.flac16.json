@@ -1,13 +1,41 @@
 {
   "identifier": "gd1987-06-14.sbd.clugston.tetzeli.fix-11896.75505.flac16",
-  "title": "Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14",
-  "date": "1987-06-14",
-  "venue": "Ventura County Fairgrounds",
-  "location": "Ventura, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nHell In A Bucket  ->\nSugaree  \nTons Of Steel  \nRamble On Rose  \nMe And My Uncle  ->\nMexicali Blues  \nAlthea  \nFeel Like A Stranger  \nMight As Well  \n\nSet 2\n\nScarlet Begonias  ->\nFire On The Mountain  \nPlaying In The Band  ->\nTerrapin Station  ->\nDrums  ->\nSpace  ->\nTruckin'  ->\nWharf Rat  ->\nThrowing Stones  ->\nNot Fade Away  \n\nEncore\nThe Mighty Quinn (Quinn The Eskimo)",
+  "raw_metadata": {
+    "identifier": "gd1987-06-14.sbd.clugston.tetzeli.fix-11896.75505.flac16",
+    "title": "Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nHell In A Bucket  ->\nSugaree  \nTons Of Steel  \nRamble On Rose  \nMe And My Uncle  ->\nMexicali Blues  \nAlthea  \nFeel Like A Stranger  \nMight As Well  \n\nSet 2\n\nScarlet Begonias  ->\nFire On The Mountain  \nPlaying In The Band  ->\nTerrapin Station  ->\nDrums  ->\nSpace  ->\nTruckin'  ->\nWharf Rat  ->\nThrowing Stones  ->\nNot Fade Away  \n\nEncore\nThe Mighty Quinn (Quinn The Eskimo)",
+    "date": "1987-06-14",
+    "year": "1987",
+    "subject": "Soundboard;Bill Tetzeli",
+    "publicdate": "2008-07-21 19:19:18",
+    "addeddate": "2008-07-21 15:42:18",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2008-07-21 19:23:23",
+      "2009-06-19 04:59:24"
+    ],
+    "venue": "Ventura County Fairgrounds",
+    "coverage": "Ventura, CA",
+    "source": "Seamless fix of shnid 11896",
+    "transferer": "Bill Tetzeli",
+    "md5s": "3b2420aeb5dbd306226da800b382ac39 *gd87-06-14d1t01.flac\r\n4d2170f64864a2d94a483e0887d0c6c6 *gd87-06-14d1t02.flac\r\ndd4d22a6a055e8c5dcf4ee8052af65d2 *gd87-06-14d1t03.flac\r\n587d321812c0e487010ce1dd5e6d65d8 *gd87-06-14d1t04.flac\r\n9dc3f2a63227cb73aa523ce2fd8749b0 *gd87-06-14d1t05.flac\r\n84acab52593328e2fd96be7f102e4c67 *gd87-06-14d1t06.flac\r\n72b10ab4746f5f8842b9fd786f0dbaeb *gd87-06-14d1t07.flac\r\n9d78d6cc7490e66e868de529a9de3663 *gd87-06-14d1t08.flac\r\n4d70f1a3bc7310208c671050f63f7bb5 *gd87-06-14d1t09.flac\r\n49455e1a5c7c46cc751fd3ec77b9a816 *gd87-06-14d2t01.flac\r\n318d1a53f0abba60b4e7c2c5830a75a6 *gd87-06-14d2t02.flac\r\n83678a09b5fd767c86b3d142b6cbd9fe *gd87-06-14d2t03.flac\r\n69b0f4c806c265a095f41534ddd6c886 *gd87-06-14d2t04.flac\r\n8e99a4c67f17a66fe6b57c5194e5b3cc *gd87-06-14d2t05.flac\r\nc343e210e7b623a6797ab7c2cbc4bc7c *gd87-06-14d3t01.flac\r\n41ede055fb6f8cfc8e2d84b4b66851c1 *gd87-06-14d3t02.flac\r\nbf03580974531fce6cfc353cbef4e75b *gd87-06-14d3t03.flac\r\n8acb68f8b024f4f669926afd0e9c9a23 *gd87-06-14d3t04.flac\r\na6ff2c44fa6de239205dc2073661b57e *gd87-06-14d3t05.flac\r\nd6de09f4e2d546aa546cdf5b6a9ec7ed *gd87-06-14d3t06.flac",
+    "notes": "----------------------------------------------------------------------------------\nSeamless fix of shnid 11896\n\nI reversed the fade at the end of CD 2 to match the volume of a splice point at the beginning of CD 3, then deleted the redundant material to make the transition seamless.  SBEs in CD 3 were fixed using shntool; the only other SBE comes at the end of CD 1, which didn't seem necessary to fix.  All SHNs were converted to FLAC.\n\nBill Tetzeli (btet@adelphia.net)\n11:54 PM 7/15/2006\n--------------------------------------------------------------------------",
+    "backup_location": "ia903602_7",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2258,13 +2286,6 @@
       "private": "true"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T02:38:28.812430",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1987-06-14",
+  "collection_timestamp": "2025-08-26T14:05:12.610386"
 }

@@ -1,13 +1,36 @@
 {
   "identifier": "gd1987-06-13.sbd.clugston.tetzeli.80715.sbeok.flac16",
-  "title": "Grateful Dead Live at Ventura County Fairgrounds on 1987-06-13",
-  "date": "1987-06-13",
-  "venue": "Ventura County Fairgrounds",
-  "location": "Ventura, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nMississippi Half-Step Uptown Toodeloo  \nWalkin' Blues  \nRow Jimmy  \nWhen I Paint My Masterpiece   \nWhen Push Comes To Shove  \nCassidy  \nFriend Of The Devil  ->\nLet It Grow  \n\nSet 2\n\nShakedown Street  \nSaint Of Circumstance  ->\nShip Of Fools  \nEstimated Prophet  ->\nEyes Of The World  ->\nDrums  ->\nSpace  ->\nThe Other One  ->\nMorning Dew  ->\nSugar Magnolia  \n\nEncore\nBlack Muddy River",
+  "raw_metadata": {
+    "identifier": "gd1987-06-13.sbd.clugston.tetzeli.80715.sbeok.flac16",
+    "title": "Grateful Dead Live at Ventura County Fairgrounds on 1987-06-13",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nMississippi Half-Step Uptown Toodeloo  \nWalkin' Blues  \nRow Jimmy  \nWhen I Paint My Masterpiece   \nWhen Push Comes To Shove  \nCassidy  \nFriend Of The Devil  ->\nLet It Grow  \n\nSet 2\n\nShakedown Street  \nSaint Of Circumstance  ->\nShip Of Fools  \nEstimated Prophet  ->\nEyes Of The World  ->\nDrums  ->\nSpace  ->\nThe Other One  ->\nMorning Dew  ->\nSugar Magnolia  \n\nEncore\nBlack Muddy River",
+    "date": "1987-06-13",
+    "year": "1987",
+    "subject": "Soundboard; Scott Clugston; Bill Tetzeli",
+    "publicdate": "2008-04-15 22:46:32",
+    "addeddate": "2008-04-15 05:28:04",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Ventura County Fairgrounds",
+    "coverage": "Ventura, CA",
+    "source": "SBD > PCM > DAT > CDR",
+    "transferer": "Scott Clugston and Bill Tetzeli",
+    "runtime": "152:19",
+    "md5s": "b50a85ac46b8471a57e7f95896286d36 *gd87-06-13d1t01.flac\r\n5a343496ff0d5d097ad9350b8bb3f24b *gd87-06-13d1t02.flac\r\nc82c7c0b599cd0dc6dae336675abecea *gd87-06-13d1t03.flac\r\nbd2a2d95ca16523d20d556fd474bf37e *gd87-06-13d1t04.flac\r\nc8fc1d0def7e9921f49b98744dd95376 *gd87-06-13d1t05.flac\r\n094fe7c53ae2f0e1eb7214f186aad0f1 *gd87-06-13d1t06.flac\r\n57db026af110505ab0bb0c7c7860aa6e *gd87-06-13d1t07.flac\r\ndc5173e5017d863cc45e089a28bfa7b5 *gd87-06-13d1t08.flac\r\n1e052c8cb3a0f8b6e101edcada1376c6 *gd87-06-13d1t09.flac\r\n10e49b7869e451f57e6c7c6c930383c6 *gd87-06-13d2t01.flac\r\nf379ab7fb292874eaa444e458614ff3a *gd87-06-13d2t02.flac\r\na0852bbd38fa720b5d5ff837ac368252 *gd87-06-13d2t03.flac\r\n35dac6fbb8fe40ffc3dd1a8e3f72fc24 *gd87-06-13d2t04.flac\r\n1a3d87f6222faf0b9c38c6d48a91449d *gd87-06-13d2t05.flac\r\n66a1e1cb5ffbbdb0adef531cfb0d4edc *gd87-06-13d2t06.flac\r\nf51496c307bdffc89f23c057c7bc90af *gd87-06-13d3t01.flac\r\ncecdf20b099b7a606c96cf35017c43c5 *gd87-06-13d3t02.flac\r\n10091178f801708565dda0b7bfc7035a *gd87-06-13d3t03.flac\r\nd09320fce28da52fd565e4338418d694 *gd87-06-13d3t04.flac\r\nd6c99b0cc94b6463a7ecf6e4401c129f *gd87-06-13d3t05.flac",
+    "notes": "Patched fix of shnid 11895\n\nI made the following patches using Tim Alexander's master AUD (shnid 77185):\n\n- Opening tuning and first 38 secs of MS 1/2 Step\n- Patched in 18 secs of missing Space\n- Patched in 4-5 sec dropout in the beginning of Other One\n- Patched 5 second gap in Sunshine Daydream",
+    "updatedate": "2008-04-15 22:50:55",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_31",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2268,13 +2291,6 @@
       "private": "true"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T02:38:12.811050",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1987-06-13",
+  "collection_timestamp": "2025-08-26T14:04:59.395735"
 }

@@ -1,13 +1,71 @@
 {
   "identifier": "gd1970-04-03.119118.sbd.dan.flac16",
-  "title": "Grateful Dead Live at Field House, University of Cincinnati on 1970-04-03",
-  "date": "1970-04-03",
-  "venue": "Field House, University of Cincinnati",
-  "location": "Cincinnati, OH",
-  "source_type": "UNKNOWN",
-  "lineage": "Used Diamond Cut/Forensics 8.1 to clean up the monitor noise (sounds like an unshielded cable) and a little of the over saturation (analog recorder clipping) on the source",
-  "taper": "Unknown",
-  "description": "Set I\nCasey Jones, China Cat Sunflower-> I Know You Rider, Hard To Handle, Dancin' In The Streets, Me & My Uncle\n\nSet II (acoustic)\nFriend Of The Devil, Deep Elem Blues, Candyman, Wake Up Little Susie-> Black Peter, Uncle John's Band, Katie Mae\n\nSet III\nGood Lovin'-> Drums-> Good Lovin'-> Cryptical Envelopement-> Drums-> The Other One-> Cryptical Envelopement-> Cosmic Charlie, Not Fade Away-> Turn On Your Love Light-> We Bid You Good Night",
+  "raw_metadata": {
+    "identifier": "gd1970-04-03.119118.sbd.dan.flac16",
+    "title": "Grateful Dead Live at Field House, University of Cincinnati on 1970-04-03",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set I\nCasey Jones, China Cat Sunflower-> I Know You Rider, Hard To Handle, Dancin' In The Streets, Me & My Uncle\n\nSet II (acoustic)\nFriend Of The Devil, Deep Elem Blues, Candyman, Wake Up Little Susie-> Black Peter, Uncle John's Band, Katie Mae\n\nSet III\nGood Lovin'-> Drums-> Good Lovin'-> Cryptical Envelopement-> Drums-> The Other One-> Cryptical Envelopement-> Cosmic Charlie, Not Fade Away-> Turn On Your Love Light-> We Bid You Good Night",
+    "date": "1970-04-03",
+    "year": "1970",
+    "subject": "Soundboard; Dan McDonald",
+    "publicdate": "2012-02-26 19:39:22",
+    "addeddate": "2012-02-26 19:03:14",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2012-02-26 19:22:02",
+      "2012-02-26 19:24:21",
+      "2012-02-26 19:46:35"
+    ],
+    "venue": "Field House, University of Cincinnati",
+    "coverage": "Cincinnati, OH",
+    "source": "MR>R>FLAC",
+    "lineage": "Used Diamond Cut/Forensics 8.1 to clean up the monitor noise (sounds like an unshielded cable) and a little of the over saturation (analog recorder clipping) on the source",
+    "taper": "Unknown",
+    "transferer": "Dan McDonald",
+    "md5s": "be842b3de7802509ef682890dfb07add *gd1970-04-03S101.flac\r\n8b325fdaaeb52e90a48ed6efd68864d9 *gd1970-04-03S102.flac\r\n671697d6fdcc8bbde50bbd9e4da39cdd *gd1970-04-03S103.flac\r\nbd48b39d8ceff30e331c567cd6bdf9a9 *gd1970-04-03S104.flac\r\ne8b78d5b083875b071ddf097ec380a2d *gd1970-04-03S105.flac\r\nc13ed199354c30dadb6da38ea8164920 *gd1970-04-03S106.flac\r\nd777097b96eb0fa54915924840150dd4 *gd1970-04-03S201.flac\r\nffa848eef0c5389225276931e7018cf9 *gd1970-04-03S202.flac\r\n7b333571ad039e29511fac7e619e5b4c *gd1970-04-03S203.flac\r\nf6d8ae356c5cd96e14ddc87a1e5fba3a *gd1970-04-03S204.flac\r\ne6bfdb863138f750897db32ac62347c3 *gd1970-04-03S205.flac\r\nb3297ccd6206d7e7799ad4645e0f7c4f *gd1970-04-03S206.flac\r\nd7a9aa505e5853e8e142caf800970d08 *gd1970-04-03S207.flac\r\nb68ad4747797e47df4c745e2b9661d2d *gd1970-04-03S208.flac\r\n5010784f75318105702abd6b1afbd3a6 *gd1970-04-03S301.flac\r\n4f24d593d5464ba66381645d3630bcac *gd1970-04-03S302.flac\r\n452e077f205889ed972d75f7a6d158f4 *gd1970-04-03S303.flac\r\n890463df8e78ba4227bb7d9d599da045 *gd1970-04-03S304.flac\r\ne267898ff425d8a0654a7c2384304f08 *gd1970-04-03S305.flac\r\n9a8c7a1410f6ec7e9eff106fa45f29a7 *gd1970-04-03S306.flac\r\n2f7c5bdb37560cd0728c0ec92796ba52 *gd1970-04-03S307.flac\r\na370fa0053bb87fb9ba3e705cb4bde55 *gd1970-04-03S308.flac",
+    "notes": "February, 2012:\nObtained shnid:  114616.  \nUsed Diamond Cut/Forensics 8.1 to clean up the monitor noise (sounds like an unshielded cable) \nand a little of the oversaturation (analog recorder clipping) on the source.\n\nThree Stages:\n1. Concatenated the files into 3 large files (1 for each set).\n2. Upsampled to 88.2 kHz (retained 16-bit) using \"master\" settings with no dithering.\n3. Generated harmonics and overtones using a multifilter with:\n  a. the dynamic noise \"enhancer\" setting (noise threshold 500, filter frequency 3500, \n     attack time 25, release 100, HF gain of 8dB.\n  b. Virtual valve \"harmonic enhancer sweet spot\" settings\n  c. Overtone generator at 2.9 level, frequency of 7966, output level at 0\n4. Used an multifilter for impulse reduction:\n  a. de-clipper set at threshold of 43, slope of .300, 6dB gain reduction\n  b. narrow crackle filter set at 35 threshold, size of 5\n  c. expert impulse set at threshold of 2000, size of 3, tracking at 32, \"universal\" mode, \n     solo/brass checked.\n\n\nThanks to Craig of Diamond Cut for the impulse suggestions; Marc H. for the upsampling idea, \nand Germain for access to the source files.\n\nDan McDonald (droncit@yahoo.com)",
+    "backup_location": "ia903709_16",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "Three Stages:\n1. Concatenated the files into 3 large files (1 for each set).\n\nConcatenated: In computer programming, string concatenation is the operation of joining two character strings end-to-end. For example, the strings \"snow\" and \"ball\" may be concatenated to give \"snowball\". In many programming languages, string concatenation is a binary infix operator.\n\nI learn something new everyday!",
+      "reviewtitle": "sounds great!",
+      "reviewer": "gaZeebo",
+      "reviewdate": "2012-02-27 21:11:24",
+      "createdate": "2012-02-27 21:11:24",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "Reading the explanation of what Dan did made me feel a bit like a dog watching TV:  I know something is going on, but I don't exactly know what it is.  \n\nBut, what I do know, I know as good as anybody.  And I know I really like this a LOT.  \n\nThanks",
+      "reviewtitle": "It does sound great",
+      "reviewer": "Go Faster, Get Rounder",
+      "reviewdate": "2014-07-11 23:37:25",
+      "createdate": "2014-07-11 23:37:25",
+      "stars": "5"
+    },
+    {
+      "reviewtitle": "Thanks for this",
+      "reviewbody": "so stumbled across this site doing something completely different. I have been a fan of the GD for a long time but now I have a gig performed on the day I was born, Thanks.",
+      "stars": "5",
+      "reviewer": "Kliderskope",
+      "reviewdate": "2024-04-26 19:19:13",
+      "createdate": "2024-04-26 19:19:13",
+      "reviewer_itemname": "@kliderskope"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1475,31 +1533,6 @@
       "sha1": "b743eefb05eebc54852711ed5a541b7cdc4fdacf"
     }
   ],
-  "reviews": [
-    {
-      "stars": 5.0,
-      "review_text": "sounds great! Three Stages:\n1. Concatenated the files into 3 large files (1 for each set).\n\nConcatenated: In computer programming, string concatenation is the operation of joining two character strings end-to-end. For example, the strings \"snow\" and \"ball\" may be concatenated to give \"snowball\". In many programming languages, string concatenation is a binary infix operator.\n\nI learn something new everyday!",
-      "date": "2012-02-27 21:11:24"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "It does sound great Reading the explanation of what Dan did made me feel a bit like a dog watching TV:  I know something is going on, but I don't exactly know what it is.  \n\nBut, what I do know, I know as good as anybody.  And I know I really like this a LOT.  \n\nThanks",
-      "date": "2014-07-11 23:37:25"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "Thanks for this so stumbled across this site doing something completely different. I have been a fan of the GD for a long time but now I have a gig performed on the day I was born, Thanks.",
-      "date": "2024-04-26 19:19:13"
-    }
-  ],
-  "rating": 2.0,
-  "review_count": 3,
-  "confidence": 0.6,
-  "collection_timestamp": "2025-08-12T20:45:09.248228",
-  "raw_rating": 5.0,
-  "distribution": {
-    "5": 3
-  },
-  "high_ratings": 3,
-  "low_ratings": 0
+  "normalized_date": "1970-04-03",
+  "collection_timestamp": "2025-08-26T06:39:48.565230"
 }

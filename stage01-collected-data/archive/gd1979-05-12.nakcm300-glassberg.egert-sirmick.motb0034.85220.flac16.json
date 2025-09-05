@@ -1,13 +1,93 @@
 {
   "identifier": "gd1979-05-12.nakcm300-glassberg.egert-sirmick.motb0034.85220.flac16",
-  "title": "Grateful Dead Live at Alumni Stadium - University of Massachusetts on 1979-05-12",
-  "date": "1979-05-12",
-  "venue": "Alumni Stadium - University of Massachusetts",
-  "location": "Amherst, MA",
-  "source_type": "UNKNOWN",
-  "lineage": "MAC > Nakamichi DR-1 > Benchmark ADC-1 > AES > Sound Devices 722 > WAV",
-  "taper": "Barry Glassberg",
-  "description": "",
+  "raw_metadata": {
+    "identifier": "gd1979-05-12.nakcm300-glassberg.egert-sirmick.motb0034.85220.flac16",
+    "title": "Grateful Dead Live at Alumni Stadium - University of Massachusetts on 1979-05-12",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree"
+    ],
+    "type": "sound",
+    "date": "1979-05-12",
+    "year": "1979",
+    "subject": "Barry Glassberg;A. Egert;SIRMick",
+    "publicdate": "2007-12-18 19:13:04",
+    "addeddate": "2007-12-18 19:12:04",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Alumni Stadium - University of Massachusetts",
+    "coverage": "Amherst, MA",
+    "source": "Nakamichi CM300's > Sony 158SD > MAC 50ft. DFC Hand-Held",
+    "lineage": "MAC > Nakamichi DR-1 > Benchmark ADC-1 > AES > Sound Devices 722 > WAV",
+    "taper": "Barry Glassberg",
+    "transferer": "A. Egert, SIRMick",
+    "runtime": "182",
+    "md5s": "27fdef879a8bdf1eb1aca57aab7b5558 *gd1979-05-12.motb.0034.d1t01.flac\r\na64b291426445e54bc4faaec274a175e *gd1979-05-12.motb.0034.d1t02.flac\r\n20daafaf43ed62692eef8feb588c61ec *gd1979-05-12.motb.0034.d1t03.flac\r\n0b21f41033663c7a58ebbeb77ce59dfb *gd1979-05-12.motb.0034.d1t04.flac\r\ne1bff6babfe81e690a11b201f762291d *gd1979-05-12.motb.0034.d1t05.flac\r\n50e7d7747f80babcb3692ad061bceb4b *gd1979-05-12.motb.0034.d1t06.flac\r\nb76cc1cf9166a38f4dde5272dccc0a31 *gd1979-05-12.motb.0034.d1t07.flac\r\n5bd58d40f59cacac1d1c8f53fa3f4d5a *gd1979-05-12.motb.0034.d1t08.flac\r\n5913d4d8a3157cf6486d6866ae71e1ea *gd1979-05-12.motb.0034.d1t09.flac\r\na12041ebef0639d9cfb64603974662dd *gd1979-05-12.motb.0034.d1t10.flac\r\n96e2ddc2eba218f1c698d4e328b9153c *gd1979-05-12.motb.0034.d1t11.flac\r\n7d5e0f13766ab5a81a6209f4b7b84e60 *gd1979-05-12.motb.0034.d2t01.flac\r\n8587785009513aca2156a362b0aad7d8 *gd1979-05-12.motb.0034.d2t02.flac\r\nba4c23e21b976e27a3225ef2d2eb9790 *gd1979-05-12.motb.0034.d2t03.flac\r\n6de2590f95f3ae1ced5d3f963367967f *gd1979-05-12.motb.0034.d2t04.flac\r\ncc86bdda64d34cd53c40e1d9b961021e *gd1979-05-12.motb.0034.d2t05.flac\r\nf8db0946f9a5e39c5173c058552c47c4 *gd1979-05-12.motb.0034.d2t06.flac\r\nea8944c63c77d9fed8a4157ef7e490cb *gd1979-05-12.motb.0034.d2t07.flac\r\nfc3a4a723743eee6e88e5314279816ad *gd1979-05-12.motb.0034.d2t08.flac\r\naa93c1d679319e75f618671fdcd01dd6 *gd1979-05-12.motb.0034.d3t01.flac\r\n1cf4b95c7c5fe3b15076c659a0ab9499 *gd1979-05-12.motb.0034.d3t02.flac\r\nddfe066a030c900683c167b588201a12 *gd1979-05-12.motb.0034.d3t03.flac\r\ne397028150da21fcee9219e5bfed0df8 *gd1979-05-12.motb.0034.d3t04.flac\r\n10cadc63d48ea4fb773efcfae589db70 *gd1979-05-12.motb.0034.d3t05.flac\r\n654650bc8b588935f6b714a159be9811 *gd1979-05-12.motb.0034.d3t06.flac\r\n5487eb7ce8ed9c392c97a42a6a23af16 *gd1979-05-12.motb.0034.d3t07.flac",
+    "notes": "Mastering notes:\n- There are a number of bursts of wind noise throughout.  I have been able to remove some of these completely, and the impact of what remains has been reduced.\n- It appears that the tape was stopped between some songs, I have crossfaded to smooth these spots.\n- (1) there is a cut at 12:56 and an unknown amount missing at the end, I\n      crossfaded to smooth the cut \n  (2) unknown amount missing at start\n  (3) large pop removed in left channel, at 1:45, by copying in right channel, so the sound is briefly in mono\n- Editing with Adobe Audition, Sony Soundforge and Steinberg Wavelab (with iZotope Ozone, Waves X-Crackle & X-Noise)\n- Downsampled to 16/44.1 with Wavelab and dithered with iZotope Ozone (MBIT+ setting)\n- Tracked with CD Wave and flacs encoded with Flac Frontend \n\nComments:\n- * As the song starts Weir says \"Tomorrow's Sunday, we're not gonna be here, so we're going to take advantage of today to give you some inspirational words of advice.\"\n- Deadicated to RET, he would have revelled in this Terrapin!",
+    "updatedate": "2007-12-18 19:16:00",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_17"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "This was the first show I saw with Brett, after many shows with Donna and Keith. It took a little time to get used to the \"new sound.\" Some of our group were set to not like it, but brett's keyboards made the sound richer or fuller, and we really enjoyed the change.\nThe weather looked like it was going to pour all day... damp and not pleasant.  felt bad for the UMass kids since it was their spring fest, and the weather wasn't very \"springy.\"\nIt was a great selection of tunes, with a stellar terrapin",
+      "reviewtitle": "good show",
+      "reviewer": "bradio",
+      "reviewdate": "2009-05-09 03:24:39",
+      "createdate": "2009-05-09 03:24:39",
+      "stars": "4"
+    },
+    {
+      "reviewbody": "We were seniors in High school from Long Island, New York. The five of us drove my \"71 Volkswagon to see the DEAD. Whoow sooo smoky... Got here safe and early. Patti Smith opened the show and the Dead Heads were a bit removed from her powerful show but you know it was 79 and the majority was there to see the DEAD. \nThe Dead opened with a Rockin JACK STRAW. But it was my first show after seeing them through the 70's with Kieth and Donna and Bret was dissapointing. But Jerry, Bob,Phil,Bill,and Mickey prevailed. The show was spirited and when the biker rode up the Football Field to the front of the stage on his Harley it was really unforgetable to this day 31 years later. \nAnything Jerry did will last forever.",
+      "reviewtitle": "Ahmerst- University of Massachusetts",
+      "reviewer": "tnschira",
+      "reviewdate": "2010-03-07 02:34:07",
+      "createdate": "2010-03-07 02:34:07",
+      "stars": "4"
+    },
+    {
+      "reviewbody": "I was a WMass HS Jr and spent the weekend at UMass   I think I saw a great first show and it was a wide-eyed experience for a 16 + year old.  I will always remember the following songs from that show:  jack Straw, Tennessee Jed, Terrapin, Good Lovin, Not Fade Away and Saturday Night.  The bikers, semi nude girls, and top-of-the-wall-walkers are also etched into my mind :)",
+      "reviewtitle": "My First Dead Show",
+      "reviewer": "jcameron3",
+      "reviewdate": "2013-06-19 20:30:08",
+      "createdate": "2013-06-19 20:30:08",
+      "stars": "4"
+    },
+    {
+      "reviewbody": "http://www.dead.net/sites/default/files/fanphotos/thegratefuldeadmay12.1979umassamherststadiumonstage_0.jpg?1384821658\nhttp://www.dead.net/sites/default/files/fanphotos/deadatumassstage.jpg?1384820398\nhttp://www.dead.net/sites/default/files/fanphotos/deadatumassfaraway.jpg?1384819542\n\nThe photo is copeyed from deadnet.",
+      "reviewtitle": "Nice photo 1st show 4 me",
+      "reviewer": "jjg4762",
+      "reviewdate": "2014-08-04 12:16:57",
+      "createdate": "2014-08-04 12:07:13",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "Thanks for Uploading show, I was at the final Sping Concert, Blues Traveler headlined.\nBut this allows me to enjoy my alumni status.\nAnd TICKET PHOTO is SICK!!!!\nThank you again.",
+      "reviewtitle": "Thank you",
+      "reviewer": "SCI-<>-RAT-<>-MATT",
+      "reviewdate": "2016-08-02 11:33:27",
+      "createdate": "2016-08-02 11:33:27",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "Not as good as the two previous shows.",
+      "reviewtitle": "-",
+      "reviewer": "njpg",
+      "reviewdate": "2016-10-25 05:52:10",
+      "createdate": "2016-10-25 05:51:44",
+      "stars": "4"
+    },
+    {
+      "reviewbody": "I attended this show with my first ever boyfriend and I introduced him to my best friend from HS that day. We did some double barrel and had a wonderful time. It was the convolution of punk, R&R and Disco so The Ramones, P Smith and the newly discoed Dead had a day of it. ",
+      "reviewtitle": "UMass Spring Bash!",
+      "reviewer": "JohnnyCB",
+      "reviewer_itemname": "@johnnycb",
+      "reviewdate": "2019-06-04 06:01:36",
+      "createdate": "2019-06-04 06:01:36",
+      "stars": "4"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2887,52 +2967,6 @@
       "sha1": "7aca550b7a208721af53612343432cabcf76ed53"
     }
   ],
-  "reviews": [
-    {
-      "stars": 4.0,
-      "review_text": "good show This was the first show I saw with Brett, after many shows with Donna and Keith. It took a little time to get used to the \"new sound.\" Some of our group were set to not like it, but brett's keyboards made the sound richer or fuller, and we really enjoyed the change.\nThe weather looked like it was going to pour all day... damp and not pleasant.  felt bad for the UMass kids since it was their spring fest, and the weather wasn't very \"springy.\"\nIt was a great selection of tunes, with a stellar terrapin",
-      "date": "2009-05-09 03:24:39"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "Ahmerst- University of Massachusetts We were seniors in High school from Long Island, New York. The five of us drove my \"71 Volkswagon to see the DEAD. Whoow sooo smoky... Got here safe and early. Patti Smith opened the show and the Dead Heads were a bit removed from her powerful show but you know it was 79 and the majority was there to see the DEAD. \nThe Dead opened with a Rockin JACK STRAW. But it was my first show after seeing them through the 70's with Kieth and Donna and Bret was dissapointing. But Jerry, Bob,Phil,Bill,and Mickey prevailed. The show was spirited and when the biker rode up the Football Field to the front of the stage on his Harley it was really unforgetable to this day 31 years later. \nAnything Jerry did will last forever.",
-      "date": "2010-03-07 02:34:07"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "My First Dead Show I was a WMass HS Jr and spent the weekend at UMass   I think I saw a great first show and it was a wide-eyed experience for a 16 + year old.  I will always remember the following songs from that show:  jack Straw, Tennessee Jed, Terrapin, Good Lovin, Not Fade Away and Saturday Night.  The bikers, semi nude girls, and top-of-the-wall-walkers are also etched into my mind :)",
-      "date": "2013-06-19 20:30:08"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "Nice photo 1st show 4 me http://www.dead.net/sites/default/files/fanphotos/thegratefuldeadmay12.1979umassamherststadiumonstage_0.jpg?1384821658\nhttp://www.dead.net/sites/default/files/fanphotos/deadatumassstage.jpg?1384820398\nhttp://www.dead.net/sites/default/files/fanphotos/deadatumassfaraway.jpg?1384819542\n\nThe photo is copeyed from deadnet.",
-      "date": "2014-08-04 12:16:57"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "Thank you Thanks for Uploading show, I was at the final Sping Concert, Blues Traveler headlined.\nBut this allows me to enjoy my alumni status.\nAnd TICKET PHOTO is SICK!!!!\nThank you again.",
-      "date": "2016-08-02 11:33:27"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "- Not as good as the two previous shows.",
-      "date": "2016-10-25 05:52:10"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "UMass Spring Bash! I attended this show with my first ever boyfriend and I introduced him to my best friend from HS that day. We did some double barrel and had a wonderful time. It was the convolution of punk, R&R and Disco so The Ramones, P Smith and the newly discoed Dead had a day of it. ",
-      "date": "2019-06-04 06:01:36"
-    }
-  ],
-  "rating": 2.142857142857143,
-  "review_count": 7,
-  "confidence": 1.0,
-  "collection_timestamp": "2025-08-12T22:33:57.831822",
-  "raw_rating": 4.285714285714286,
-  "distribution": {
-    "4": 5,
-    "5": 2
-  },
-  "high_ratings": 7,
-  "low_ratings": 0
+  "normalized_date": "1979-05-12",
+  "collection_timestamp": "2025-08-26T08:55:28.082008"
 }

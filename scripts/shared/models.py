@@ -25,7 +25,55 @@ class ReviewData:
 
 @dataclass
 class RecordingMetadata:
-    """Complete metadata for a single recording"""
+    """Raw metadata for a single recording from Archive.org"""
+    identifier: str
+    raw_metadata: Dict[str, Any]              # Complete metadata from Archive.org API
+    raw_reviews: List[Dict[str, Any]]         # Raw review data from Archive.org API
+    files: List[Dict[str, Any]]               # Complete files array from Archive.org
+    normalized_date: str                      # Computed YYYY-MM-DD for matching
+    collection_timestamp: str
+    
+    # Convenience properties for commonly accessed fields
+    @property
+    def title(self) -> str:
+        return self.raw_metadata.get('title', '')
+    
+    @property
+    def date(self) -> str:
+        return self.raw_metadata.get('date', '')
+    
+    @property
+    def venue(self) -> str:
+        return self.raw_metadata.get('venue', '')
+    
+    @property
+    def location(self) -> str:
+        return self.raw_metadata.get('coverage', '')
+    
+    @property
+    def description(self) -> str:
+        return self.raw_metadata.get('description', '')
+    
+    @property
+    def lineage(self) -> str:
+        return self.raw_metadata.get('lineage', '')
+    
+    @property
+    def taper(self) -> str:
+        return self.raw_metadata.get('taper', '')
+    
+    @property
+    def source(self) -> str:
+        return self.raw_metadata.get('source', '')
+    
+    @property
+    def runtime(self) -> str:
+        return self.raw_metadata.get('runtime', '')
+
+
+@dataclass 
+class ProcessedRecordingMetadata:
+    """Minimal processed recording metadata for final output"""
     identifier: str
     title: str
     date: str
@@ -34,21 +82,14 @@ class RecordingMetadata:
     source_type: str
     lineage: str
     taper: str
-    description: str
-    files: List[Dict[str, Any]]
-    reviews: List[ReviewData]
-    rating: float                             # Weighted rating (for internal ranking)
+    source: str
+    runtime: str
+    rating: float
     review_count: int
     confidence: float
-    collection_timestamp: str
-    raw_rating: float = 0.0                  # Simple average (for display)
-    distribution: Dict[int, int] = None      # Star rating distribution {1: 7, 2: 6, ...}
-    high_ratings: int = 0                    # Count of 4-5★ reviews
-    low_ratings: int = 0                     # Count of 1-2★ reviews
-    
-    def __post_init__(self):
-        if self.distribution is None:
-            self.distribution = {}
+    raw_rating: float
+    high_ratings: int
+    low_ratings: int
 
 
 @dataclass
@@ -94,3 +135,8 @@ def show_to_dict(show: ShowMetadata) -> Dict[str, Any]:
 def progress_to_dict(progress: ProgressState) -> Dict[str, Any]:
     """Convert ProgressState to dictionary"""
     return asdict(progress)
+
+
+def processed_recording_to_dict(recording: ProcessedRecordingMetadata) -> Dict[str, Any]:
+    """Convert ProcessedRecordingMetadata to dictionary"""
+    return asdict(recording)

@@ -1,13 +1,72 @@
 {
   "identifier": "gd1982-04-12.sbd.miller.tetzeli.fix-32014.35160.reflac.flac16",
-  "title": "Grateful Dead Live at Nassau Coliseum on 1982-04-12",
-  "date": "1982-04-12",
-  "venue": "Nassau Coliseum",
-  "location": "Uniondale, NY",
-  "source_type": "UNKNOWN",
-  "lineage": "Dat (Sony D8) -> VX Pocket 440 -> Sharp MV10 -> Samplitude Professional v8.01 -> FLAC ->CEP -> FLAC",
-  "taper": "",
-  "description": "Set 1:\nd1t01 - Iko Iko\nd1t02 - Minglewood Blues\nd1t03 - Peggy-O\nd1t04 - Mama Tried ->\nd1t05 - Mexicali Blues\nd1t06 - Bird Song\nd1t07 - C C Rider\nd1t08 - Tennessee Jed ->\nd1t09 - Looks Like Rain ->\nd1t10 - Deal\n\nSet 2:\nd2t01 - Man Smart (Woman Smarter) ->\nd2t02 - Sugaree\nd2t03 - Estimated Prophet ->\nd2t04 - Uncle John's Band ->\nd2t05 - Drums ->\nd3t01 - Space ->\nd3t02 - The Other One ->\nd3t03 - Stella Blue ->\nd3t04 - Sugar Magnolia\n\nEncore:\nd3t05 - (I Can't Get No) Satisfaction",
+  "raw_metadata": {
+    "identifier": "gd1982-04-12.sbd.miller.tetzeli.fix-32014.35160.reflac.flac16",
+    "title": "Grateful Dead Live at Nassau Coliseum on 1982-04-12",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1:\nd1t01 - Iko Iko\nd1t02 - Minglewood Blues\nd1t03 - Peggy-O\nd1t04 - Mama Tried ->\nd1t05 - Mexicali Blues\nd1t06 - Bird Song\nd1t07 - C C Rider\nd1t08 - Tennessee Jed ->\nd1t09 - Looks Like Rain ->\nd1t10 - Deal\n\nSet 2:\nd2t01 - Man Smart (Woman Smarter) ->\nd2t02 - Sugaree\nd2t03 - Estimated Prophet ->\nd2t04 - Uncle John's Band ->\nd2t05 - Drums ->\nd3t01 - Space ->\nd3t02 - The Other One ->\nd3t03 - Stella Blue ->\nd3t04 - Sugar Magnolia\n\nEncore:\nd3t05 - (I Can't Get No) Satisfaction",
+    "date": "1982-04-12",
+    "year": "1982",
+    "subject": "Soundboard; Charlie Miller;Bill Tetzeli",
+    "publicdate": "2008-01-17 22:35:02",
+    "addeddate": "2008-01-16 23:12:19",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2008-01-18 02:57:17",
+      "2008-11-12 04:10:13",
+      "2008-11-24 19:30:05",
+      "2008-11-24 19:47:02"
+    ],
+    "venue": "Nassau Coliseum",
+    "coverage": "Uniondale, NY",
+    "source": "SBD -> Cassette Master -> Reel -> Dat (48k)",
+    "lineage": "Dat (Sony D8) -> VX Pocket 440 -> Sharp MV10 -> Samplitude Professional v8.01 -> FLAC ->CEP -> FLAC",
+    "transferer": "Charlie Miller and Bill Tetzeli",
+    "runtime": "163:28",
+    "md5s": "219764610ce6bc43e263d11bcf332f58 *gd82-04-12d1t01.flac\r\ncddaf28ff97ee639a746ecab1ca71c61 *gd82-04-12d1t02.flac\r\nc984d6c86249ad78f874b265c572fef0 *gd82-04-12d1t03.flac\r\ne224b27142ceebe9bbac8408190ffe1d *gd82-04-12d1t04.flac\r\n324ee617c189be933bf940f4a984dc5d *gd82-04-12d1t05.flac\r\n4e8bbc0fa7a51ed30d4fbbb2d8b95a5a *gd82-04-12d1t06.flac\r\na8c95763054d35419716b27663b726e7 *gd82-04-12d1t07.flac\r\n5b547b676e0b53f29e982bf3141dcc50 *gd82-04-12d1t08.flac\r\nd575402ab1f69748d4646a81ded090d1 *gd82-04-12d1t09.flac\r\n7326a7f917efb19b07c51a88fe50be67 *gd82-04-12d1t10.flac\r\nc61ce1bb998dde4e954c14e96cd68788 *gd82-04-12d2t01.flac\r\n280ff08d39be461e925880a171ef64b5 *gd82-04-12d2t02.flac\r\nfc64a0df4804eb37452cc57ce834968a *gd82-04-12d2t03.flac\r\n29b54955aa70e8306fe6068982e49312 *gd82-04-12d2t04.flac\r\nc2cf984d9f4e0a25c6d3107886b960b6 *gd82-04-12d2t05.flac\r\n145c67a522740c0ffbb89f4f3afbdc4a *gd82-04-12d3t01.flac\r\ndaf58ea620c441268edbac8113e17750 *gd82-04-12d3t02.flac\r\nc082f5cf8ff092858ca6b892a75119e7 *gd82-04-12d3t03.flac\r\nb2360099cea753088866c2d264ff3703 *gd82-04-12d3t04.flac\r\na917882e22f45dd0d6a9cfe474c82b35 *gd82-04-12d3t05.flac",
+    "notes": "---------------------------------------------------------------------------------------------------\nFix of shnid 32014\n\nThe AUD patches on the original source were not pitch corrected, so I downloaded the AUD from archive (shnid 9508) and did the pitch correction, then redid the patches in CE Pro. The patches were pitch corrected to match the SBD, the Satisfaction encore was pitch corrected to match the electronic keyboard on my laptop.\n\nBill Tetzeli (btet@adelphia.net)\n7:50 PM 6/20/2006",
+    "backup_location": "ia903601_20",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "I was at this show and it was my least favorite show I've been to. The firs set was very short only six songs. Then they took a 45 minute break. the second set looks impressive but the songs were just blah. Drums was the saving grace for this show. I wouldn't see another show until 3-23-95.",
+      "reviewtitle": "The show that turned me off.",
+      "reviewer": "Blake Oxnard",
+      "reviewdate": "2014-04-12 15:08:46",
+      "createdate": "2014-04-12 15:08:46",
+      "stars": "4"
+    },
+    {
+      "reviewbody": "a good sugaree for the period, ie longer,extra good guitar break. not the 16-18 minute monumental sugarees that 1st started in spring of 77 and continued sporadically from 78-1983,84. the last being at either Lake Placid or Niagra Falls. The great one from 83 was the spring of 83 maine 18 minute extravaganza.\n\ngood stella for the period. nice intro(also extended intro)good outro not up to the late 78(winterland 10/78) and a few 79 versions but one of the good ones for 82.\n\nthe SBD recording is relatively good for the period. relatively good mix, bass, vocals might be a tad 'hot' for my ears but much better than a lot of the 81/82 SBD's\n\nI dont know what the other reviewer was referring to, short 1st set, 6 songs??? he could just scroll up and  see it was a ten song 1st set. also at the time the Aiko-Iko opener was rare and 'exciting' for its time as it more commonly appeared out of space in 80/81/82. it also wasnt played too often in that era as opposed to the late 80's, 90's where it was played often as an opener, in the middle of 1st set etc\n\nthe previous nights Misszippi was lyrically bungled. At this point they played it rarely only 4 or 5 versions in 82 and didnt return until spring of 85 at Nassau coliseum.They were a 'treat' in 82 but dont compare to the spring 77 versions and Englishtown plus numerous 'hot' versions from late 77, 78 or even the better 1981 versions when it was played frequently.",
+      "reviewtitle": "sugaree/stella",
+      "reviewer": "tanman82",
+      "reviewdate": "2015-12-01 17:40:33",
+      "createdate": "2015-12-01 17:40:33",
+      "stars": "3"
+    },
+    {
+      "reviewbody": "Sugaree in the second set is generally rare, and even more so post 1978.\n\nIko Iko was holy grail at this time.  We knew it was played, so it wasn't like Dark Star.  You thought you heard Iko in the first few notes of every Man Smart (Woman Smarter), making for a sort of a let down when it wasn't.  Probably clouds my opinion of MS(WS) to this day... ",
+      "reviewtitle": "bread crumb",
+      "reviewer": "kbmill",
+      "reviewdate": "2016-01-08 19:05:39",
+      "createdate": "2016-01-08 19:05:39",
+      "stars": "0"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2258,27 +2317,6 @@
       "private": "true"
     }
   ],
-  "reviews": [
-    {
-      "stars": 4.0,
-      "review_text": "The show that turned me off. I was at this show and it was my least favorite show I've been to. The firs set was very short only six songs. Then they took a 45 minute break. the second set looks impressive but the songs were just blah. Drums was the saving grace for this show. I wouldn't see another show until 3-23-95.",
-      "date": "2014-04-12 15:08:46"
-    },
-    {
-      "stars": 3.0,
-      "review_text": "sugaree/stella a good sugaree for the period, ie longer,extra good guitar break. not the 16-18 minute monumental sugarees that 1st started in spring of 77 and continued sporadically from 78-1983,84. the last being at either Lake Placid or Niagra Falls. The great one from 83 was the spring of 83 maine 18 minute extravaganza.\n\ngood stella for the period. nice intro(also extended intro)good outro not up to the late 78(winterland 10/78) and a few 79 versions but one of the good ones for 82.\n\nthe SBD recording is relatively good for the period. relatively good mix, bass, vocals might be a tad 'hot' for my ears but much better than a lot of the 81/82 SBD's\n\nI dont know what the other reviewer was referring to, short 1st set, 6 songs??? he could just scroll up and  see it was a ten song 1st set. also at the time the Aiko-Iko opener was rare and 'exciting' for its time as it more commonly appeared out of space in 80/81/82. it also wasnt played too often in that era as opposed to the late 80's, 90's where it was played often as an opener, in the middle of 1st set etc\n\nthe previous nights Misszippi was lyrically bungled. At this point they played it rarely only 4 or 5 versions in 82 and didnt return until spring of 85 at Nassau coliseum.They were a 'treat' in 82 but dont compare to the spring 77 versions and Englishtown plus numerous 'hot' versions from late 77, 78 or even the better 1981 versions when it was played frequently.",
-      "date": "2015-12-01 17:40:33"
-    }
-  ],
-  "rating": 1.2249999999999999,
-  "review_count": 2,
-  "confidence": 0.4,
-  "collection_timestamp": "2025-08-12T23:46:50.655160",
-  "raw_rating": 3.5,
-  "distribution": {
-    "4": 1,
-    "3": 1
-  },
-  "high_ratings": 1,
-  "low_ratings": 0
+  "normalized_date": "1982-04-12",
+  "collection_timestamp": "2025-08-26T10:26:12.024060"
 }

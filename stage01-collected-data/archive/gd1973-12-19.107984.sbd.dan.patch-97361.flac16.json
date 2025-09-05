@@ -1,13 +1,81 @@
 {
   "identifier": "gd1973-12-19.107984.sbd.dan.patch-97361.flac16",
-  "title": "Grateful Dead Live at Curtis Hixon Convention Hall on 1973-12-19",
-  "date": "1973-12-19",
-  "venue": "Curtis Hixon Convention Hall",
-  "location": "Tampa, FL",
-  "source_type": "UNKNOWN",
-  "lineage": "Dat (Sony R500) -> Sound Devices 744T -> Samplitude Professional v10.2 -> FLAC",
-  "taper": "",
-  "description": "Set 1: Promised Land, Sugaree, Mexicali Blues, Sugar Shack, Dire Wolf, Black Throated Wind, Candyman, Jack Straw, Big Railroad Blues, Big River, Here Comes Sunshine, El Paso, Ramble On Rose, Playing In The Band\n\nSet 2: Mississippi Half-Step Uptown Toodeloo, Me And Bobby McGee, Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow, He's Gone > Truckin' > Nobody's Fault But Mine > Truckin' > Stella Blue > Around and Around, Casey Jones",
+  "raw_metadata": {
+    "identifier": "gd1973-12-19.107984.sbd.dan.patch-97361.flac16",
+    "title": "Grateful Dead Live at Curtis Hixon Convention Hall on 1973-12-19",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1: Promised Land, Sugaree, Mexicali Blues, Sugar Shack, Dire Wolf, Black Throated Wind, Candyman, Jack Straw, Big Railroad Blues, Big River, Here Comes Sunshine, El Paso, Ramble On Rose, Playing In The Band\n\nSet 2: Mississippi Half-Step Uptown Toodeloo, Me And Bobby McGee, Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow, He's Gone > Truckin' > Nobody's Fault But Mine > Truckin' > Stella Blue > Around and Around, Casey Jones",
+    "date": "1973-12-19",
+    "year": "1973",
+    "subject": "Soundboard; Charlie Miller; Dan",
+    "publicdate": "2010-06-07 03:25:02",
+    "addeddate": "2010-06-07 01:30:51",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2010-06-07 03:41:14",
+      "2010-06-07 04:19:30"
+    ],
+    "venue": "Curtis Hixon Convention Hall",
+    "coverage": "Tampa, FL",
+    "source": "SBD -> Master Reel -> Dat (44.1k)",
+    "lineage": "Dat (Sony R500) -> Sound Devices 744T -> Samplitude Professional v10.2 -> FLAC",
+    "transferer": "Charlie Miller; Dan",
+    "runtime": "207:28",
+    "md5s": "386e92aa0d3892edbe6338e6104a229a *gd73-12-19d1t01.flac\r\n5b882b163d95edb5673fc2f9cebcb28b *gd73-12-19d1t02.flac\r\na928bf76809cc527aa0dfe0573ba90d3 *gd73-12-19d1t03.flac\r\n56b4ea25b5207dfca7f0a94c42432234 *gd73-12-19d1t04.flac\r\n07533636be1e198eb69ef214ee5fd038 *gd73-12-19d1t05.flac\r\na901008b951198af3402aaf135f069d8 *gd73-12-19d1t06.flac\r\n31d33811fce1250de6ee71446baa6a46 *gd73-12-19d1t07.flac\r\ndf35628de73083c682781e39fd1a2f37 *gd73-12-19d1t08.flac\r\n703e936cc361f3ada4be0d1b150c82d6 *gd73-12-19d1t09.flac\r\n2741bbc31683ee4a8bfd8afda5e16f0e *gd73-12-19d1t10.flac\r\nf42cd99291459254e346ace7dbdd7b65 *gd73-12-19d1t11.flac\r\nb37f71e5b0b786e12ad8b66a81ef1f31 *gd73-12-19d1t12.flac\r\n69f1a4c4810ac935fad8fe35ab71d070 *gd73-12-19d1t13.flac\r\n8acb6c18de9df4e7895ee5fefb728c5f *gd73-12-19d2t01.flac\r\n665ac0a7659afa0fc9f4b4ff4b4a4799 *gd73-12-19d2t02.flac\r\n53dd4a42ce1df65cd0790643e7eb1aa3 *gd73-12-19d2t03.flac\r\nb55812df7cf50bc1c5808f875e8abefe *gd73-12-19d2t04.flac\r\n79ea9bd2328571f173d50cd4f25c230e *gd73-12-19d2t05.flac\r\nc642313e0a0f6c95656b9370d310a061 *gd73-12-19d3t01.flac\r\n616fd6efc40521ff7449f7baae0f40e6 *gd73-12-19d3t02.flac\r\n154c97ec74a93b2e9cf209bbb2a1fbe3 *gd73-12-19d3t03.flac\r\nef340e25368abe9b54bae6d13e238191 *gd73-12-19d3t04.flac\r\n7938b4075185e3696a90b169f6e95c87 *gd73-12-19d3t05.flac\r\n794ca572a7664e321a1071de4837bcbd *gd73-12-19d3t06.flac\r\n10a63d0846e94fe8275a582ab3f88e50 *gd73-12-19d3t07.flac\r\n3c4e8f162fbca16d7fb5db16f336137b *gd73-12-19d3t08.flac",
+    "notes": "Patch source:\nSony EMC-22 mic-> cheap mono cassette (probably Sony) - TDK SD C90s (still strong\nafter 37 years) -> Tascam 112-> M-Audio Audiophile 24/96 at 24 bit, 96 kHz.\n\nConverted to 16-bit, 44.1 kHz and edited using Diamond Cut 7.5 Forensics.  Also\nused DC 7.5 to correct for a slight azimuth alignment problem, cross-fade\\d and\ncut on sector boundaries.\n\nI have added the spoken intro before Promised Land and added the bass solo in between Nobody's Fault But Mine and The other One.\n\nI was sitting in the seats on the right as close to the speakers as I could get\nwithout looking suspicious.  Maybe 50-60 feet.  For what it's worth, that's me\nsaying \"They're a lot more casual tonight\" just before Promised Land (comparing\nit to 12/18/73).",
+    "post_text": "This show has been commercially released as \"Dick's Picks, Vol. 1\"",
+    "backup_location": "ia903605_21",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "A stellar performance all the way around.a big fan of the setlist for both sets.id say having this show in your collection is a no brainer.and ofcourse as always the sound is excellent aa youve come to expect from a charlie miller tranfer.thanks so much charlie its gr8fully appreciated.",
+      "reviewtitle": "Tampa 73!!",
+      "reviewer": "gr8fuldad73",
+      "reviewer_itemname": "@gr8fuldad73",
+      "reviewdate": "2017-12-20 04:24:02",
+      "createdate": "2017-12-20 04:24:02",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "A hot HC Sunshine.\nThis and the previous night\ngive 73 a nice send off.\nThey don't seem to go Across the Rio Grande?\n\nFrom Wikipedia\nCurtis Hixon Hall was Tampa's primary concert venue from the mid-1960s until the early 1980s, \nNotable shows included:\nJimi Hendrix played Curtis Hixon Hall twice in 1968, on August 16 and November 23.\nIn between those dates, The Jimi Hendrix Experience released their #1 charting album Electric Ladyland.\nJanis Joplin was arrested by the Tampa Police for \"obscenity\" while playing a show with B.B. King and others in the hall on November 16, 1969.\nDuane Allman made one of only two public performances with Eric Clapton and Derek and the Dominos in the hall on December 1, 1970.\n*****AND DON\"T FORGET\nThe GRATEFUL DEAD..\nDecember 18 &19 of 1973\nCurtis Hixon Hall was demolished in 1993, and the land was converted into a public park. \nThe park was redesigned and incorporated into the Tampa Riverwalk in 2010, and the facility's former footprint is now home to the Tampa Museum of Art, the Glazer Children\u2019s Museum, and the northern portions of Curtis Hixon Waterfront Park.\n",
+      "reviewtitle": "Wake of the Flood..",
+      "reviewer": "c-freedom",
+      "reviewer_itemname": "@c-freedom",
+      "reviewdate": "2018-12-20 22:01:34",
+      "createdate": "2018-12-20 22:01:34",
+      "stars": "5"
+    },
+    {
+      "reviewtitle": "Dicks Picks #1",
+      "reviewbody": "Yeah, when Dick Latvala picked this show to start his Dicks Picks he definitely picked a good one. He could have done just as well by picking the previous night in my personal opinion. This night & 12-18-73 are actually bookmarked on my phone and I listen to one of them at the very least once a week. That is, in between hearing stuff that \"Wall of Sound\" & \"okiedeadhead\" have put out on YouTube. The best track on here is Here Comes Sunshine. As someone else put it in a different review, the Here Comes Sunshine was well worth the price of admission alone. And o  12-18 Greatest Story Ever Told is one of my favorite tracks. I listen to it quite a lot.",
+      "stars": "5",
+      "reviewer": "Dean1067",
+      "reviewdate": "2023-03-28 06:16:53",
+      "createdate": "2023-03-28 06:16:53",
+      "reviewer_itemname": "@dean1067"
+    },
+    {
+      "reviewtitle": "12 20 2023",
+      "reviewbody": "playing thru Fender Red Knob, what a box of chocolate to open. Ear Candy ",
+      "stars": "5",
+      "reviewer": "ralberty",
+      "reviewdate": "2023-12-20 15:27:33",
+      "createdate": "2023-12-20 15:27:33",
+      "reviewer_itemname": "@ralberty"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -3048,36 +3116,6 @@
       "private": "true"
     }
   ],
-  "reviews": [
-    {
-      "stars": 5.0,
-      "review_text": "Tampa 73!! A stellar performance all the way around.a big fan of the setlist for both sets.id say having this show in your collection is a no brainer.and ofcourse as always the sound is excellent aa youve come to expect from a charlie miller tranfer.thanks so much charlie its gr8fully appreciated.",
-      "date": "2017-12-20 04:24:02"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "Wake of the Flood.. A hot HC Sunshine.\nThis and the previous night\ngive 73 a nice send off.\nThey don't seem to go Across the Rio Grande?\n\nFrom Wikipedia\nCurtis Hixon Hall was Tampa's primary concert venue from the mid-1960s until the early 1980s, \nNotable shows included:\nJimi Hendrix played Curtis Hixon Hall twice in 1968, on August 16 and November 23.\nIn between those dates, The Jimi Hendrix Experience released their #1 charting album Electric Ladyland.\nJanis Joplin was arrested by the Tampa Police for \"obscenity\" while playing a show with B.B. King and others in the hall on November 16, 1969.\nDuane Allman made one of only two public performances with Eric Clapton and Derek and the Dominos in the hall on December 1, 1970.\n*****AND DON\"T FORGET\nThe GRATEFUL DEAD..\nDecember 18 &19 of 1973\nCurtis Hixon Hall was demolished in 1993, and the land was converted into a public park. \nThe park was redesigned and incorporated into the Tampa Riverwalk in 2010, and the facility's former footprint is now home to the Tampa Museum of Art, the Glazer Children\u2019s Museum, and the northern portions of Curtis Hixon Waterfront Park.\n",
-      "date": "2018-12-20 22:01:34"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "Dicks Picks #1 Yeah, when Dick Latvala picked this show to start his Dicks Picks he definitely picked a good one. He could have done just as well by picking the previous night in my personal opinion. This night & 12-18-73 are actually bookmarked on my phone and I listen to one of them at the very least once a week. That is, in between hearing stuff that \"Wall of Sound\" & \"okiedeadhead\" have put out on YouTube. The best track on here is Here Comes Sunshine. As someone else put it in a different review, the Here Comes Sunshine was well worth the price of admission alone. And o  12-18 Greatest Story Ever Told is one of my favorite tracks. I listen to it quite a lot.",
-      "date": "2023-03-28 06:16:53"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "12 20 2023 playing thru Fender Red Knob, what a box of chocolate to open. Ear Candy ",
-      "date": "2023-12-20 15:27:33"
-    }
-  ],
-  "rating": 2.25,
-  "review_count": 4,
-  "confidence": 0.8,
-  "collection_timestamp": "2025-08-12T21:32:29.336450",
-  "raw_rating": 5.0,
-  "distribution": {
-    "5": 4
-  },
-  "high_ratings": 4,
-  "low_ratings": 0
+  "normalized_date": "1973-12-19",
+  "collection_timestamp": "2025-08-26T07:27:41.574448"
 }

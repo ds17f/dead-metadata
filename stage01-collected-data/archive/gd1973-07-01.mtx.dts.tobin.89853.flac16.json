@@ -1,13 +1,37 @@
 {
   "identifier": "gd1973-07-01.mtx.dts.tobin.89853.flac16",
-  "title": "Grateful Dead Live at Universal Amphitheatre on 1973-07-01",
-  "date": "1973-07-01",
-  "venue": "Universal Amphitheatre",
-  "location": "Universal City, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\n\nMississippi Half-Step Uptown Toodeloo  \nMe And My Uncle  \nSugaree  \nThe Race Is On  \nBrown Eyed Women  \nLooks Like Rain  \nDon't Ease Me In  \nBig River  \nChina Cat Sunflower  ->\nI Know You Rider  \nAround And Around  \n\nSet 2\n\n\nPlaying In The Band  \nRow Jimmy  \nEl Paso  \nLoose Lucy  \nTruckin'  ->\nDrums  ->\nThe Other One  ->\nWharf Rat  ->\nMe And Bobby McGee  \nCasey Jones",
+  "raw_metadata": {
+    "identifier": "gd1973-07-01.mtx.dts.tobin.89853.flac16",
+    "title": "Grateful Dead Live at Universal Amphitheatre on 1973-07-01",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\n\nMississippi Half-Step Uptown Toodeloo  \nMe And My Uncle  \nSugaree  \nThe Race Is On  \nBrown Eyed Women  \nLooks Like Rain  \nDon't Ease Me In  \nBig River  \nChina Cat Sunflower  ->\nI Know You Rider  \nAround And Around  \n\nSet 2\n\n\nPlaying In The Band  \nRow Jimmy  \nEl Paso  \nLoose Lucy  \nTruckin'  ->\nDrums  ->\nThe Other One  ->\nWharf Rat  ->\nMe And Bobby McGee  \nCasey Jones",
+    "date": "1973-07-01",
+    "year": "1973",
+    "subject": "Soundboard;Matrix;DTS;Kevin Tobin",
+    "publicdate": "2008-05-15 20:31:38",
+    "addeddate": "2008-05-01 23:23:48",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Universal Amphitheatre",
+    "coverage": "Universal City, CA",
+    "source": "DTS-Audio-CD 5.1 Mix",
+    "transferer": "Kevin Tobin",
+    "runtime": "65",
+    "md5s": "f14b40e428cf39714c843fe3d7de34a0 *gd1973-07-01d1t01.flac\r\ndf50b04386cbfcaa462e441b646e6b8e *gd1973-07-01d1t02.flac\r\n4c94e8ac97f06745ec34307f611435df *gd1973-07-01d1t03.flac\r\n23cfb464b1c049a1850c6026f440ae63 *gd1973-07-01d1t04.flac\r\n8b2c1eb594be37cec50d355a25c5a46c *gd1973-07-01d1t05.flac\r\n4b8a3c4f1be0a807081c6fea334ec719 *gd1973-07-01d1t06.flac\r\ncf34100e8162d7deb0c1e5dbbc801bb0 *gd1973-07-01d1t07.flac\r\n85a46cde39a3f2bce6d5b8c46a64a826 *gd1973-07-01d1t08.flac\r\n7a6e2a84f267906eed56e449b74ebdf7 *gd1973-07-01d1t09.flac\r\nb0dcebf8df84a2c2e2d4646e78c80ebb *gd1973-07-01d1t10.flac\r\n8899e260cdae45fa47cce611b7eb1950 *gd1973-07-01d1t11.flac",
+    "notes": "SBD (shnid = 30362)\nSource: SBD > ? > Ye Olde Cassette Tape\nPatches: AUD, Sony ECM-22P mics > Sony 700 MR > R1 > DAT > CDR > LAMA\n\nNotes:\n\nThe tape was very old and had numerous minor problems. There's a low-level\n\"bump\" noise throughout, which sounds like a reel malfunction. It's only\nnoticeable in the spaces between songs. There were many small drop-outs,\nsome of which I was able to repair with Soundforge. There is noticeable\ntape damage in a few spots: the final 25 seconds of Me & My Uncle, the\nfirst 3 seconds of Sugaree, the first 5 seconds of Looks Like Rain, and\nfrom 1:57 to 2:01 of China Cat. Split the tracks with CD-Wave, verified\nSBE-OK with Trader's Little Helper, and lossless compression with FLAC\nFrontend.\n\nI patched in the audience source from LAMA in the following spots:\nBrown Eyed Women, from 4:00 to 4:08\nBig River, from 4:31 to 4:38\nI Know You Rider, from 3:06 to 5:22\nAround & Around, all of it (5:26)\n\nAUD (shnid = 88528)\nSource: FOB Audience Recording\nMedia: MAR = Unknown, R1 = Maxell UD 35-90\nLineage: Sony ECM-22P > Sony TC-770 > MAR > ?? [Dolby Encode] > R1\nTransfer: R1 > Technics RS-1506 > TEAC AN-300 [Dolby Decode] > Grace Design Lunatec V3 [Pre-Only] > Korg MR-1000 > DSF [1-bit 5.6448 MHz Stereo] > Korg AudioGate > WAV [24/96]\nTaped by: Harv Kaslow and Craig Todd\nMAR > R1 Copy by: Rob Bertrando\nR1 Provided by: Barry Glassberg\nTransfer by: A. Egert\nMastering by: J. Waddell\n\nMastering Notes:\n-- Edited, mastered and downsampled to 16/44.1 on the GEMS Edit Station.\n---------------------------------------------------------\nTech Notes\n\nSHNs were decoded to wave and Audition 3.0 was used to reassemble the tracks back to 1 long wave.  Audition 3.0 was used to align & synch the SBD & AUD sources.  Audition 3.0 used to adjust the volume for AUDs, matrix/CTR and LFE channels.  Surcode CD Pro DTS was used to encode to DTS.\n- Mixed by kevtobin@yahoo.com\n- FLAC conversion 02-FEB-2008  \n---------------------------------------------------------\nAudio Patches:\n\n1) At the beginning of soundboard, 20.316 seconds were missing from the audience source and was filled in with audio from the soundboard source.\n\n2) Between Mississippi Half Step and Me and My Uncle, 1 minute and 00.718 seconds were missing from the audience source and was filled in with audio from the soundboard source.\n\n3) Between Sugaree and The Race is On, 40.917 seconds were missing from the audience source and was filled in with audio from the soundboard source.\n\n4) Between The Race is On and Brown Eyed Women, 51.316 seconds were missing from the audience source and was filled in with audio from the soundboard source.\n\n5) At the end of Brown Eyed Women, 07.644 seconds were missing from the soundboard  source and was filled in with audio from the audience source.\n\n6) Between Brown Eyed Women and Looks Like Rain, 14.419 seconds were missing from the soundboard source and was filled in with audio from the audience source.\n\n7) Between Don't Ease Me In and Big River, 04.761 seconds were missing from the soundboard source and was filled in with audio from the audience source.\n\n8) Between Big River and China Cat Sunflower, 11.806 seconds were missing from the soundboard source and was filled in with audio from the audience source.\n\n9) After 3 minutes into I Know You Rider the soundboard ends, 7 minutes and 43.360 seconds were missing from the soundboard source and was filled in with audio from the audience source.\n---------------------------------------------------------------------------\nDTS-Audio-CD Info\n\nFront  \nLeft Channel SBD  -0db\nRight Channel SBD -0db\n\nCenter\nMixed to mono -2db SBD\n\nSurround\nLeft Channel -2db AUD\nRight Channel -2db AUD\n\nSub/LFE\nMixed to mono -2db SBD\n--------------------------------------------------------------\nMore On DTS\n\nToday's audio standards are moving towards multi-channel\nsound, like DTS and Dolby Digital. While the Audio-CD\nstandard (Red Book) hasn't changed to accommodate these\nnew sound formats, it is still possible to go around the\nspecification and to put a 5.1 surround recording on a\nregular Audio-CD. To play a DTS-Audio-CD you must connect\nyour DVD/CD player via a digital cable (optical or coaxial)\nto your DTS Dolby-Digital receiver. It is not 100% sure\nthat your receiver will recognize a DTS-Audio CD, so the\nfirst time you're trying to playback a DTS-Audio-CD you\nmust do a test to determine if it can. Begin with the\nvolume very low, start the disc and raise the volume\ngradually. NEVER listen to a DTS-Audio-CD through the\nanalog audio outputs of your CD/DVD player.\n\nBurning Instructions\n\nBurn them the absolute same way as you would burn any\nnormal Audio-CD from FLAC files.\n\nBrokedown House Production",
+    "post_text": "This source is a DTS 5.1 mix and is not streamable",
+    "updatedate": "2008-05-15 20:46:31",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_34",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1287,13 +1311,6 @@
       "private": "true"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-12T21:23:58.097762",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1973-07-01",
+  "collection_timestamp": "2025-08-26T07:19:12.520508"
 }

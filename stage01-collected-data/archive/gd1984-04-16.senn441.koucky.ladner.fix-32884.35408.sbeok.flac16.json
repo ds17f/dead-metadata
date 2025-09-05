@@ -1,13 +1,67 @@
 {
   "identifier": "gd1984-04-16.senn441.koucky.ladner.fix-32884.35408.sbeok.flac16",
-  "title": "Grateful Dead Live at Rochester War Memorial on 1984-04-16",
-  "date": "1984-04-16",
-  "venue": "Rochester War Memorial",
-  "location": "Rochester, NY",
-  "source_type": "UNKNOWN",
-  "lineage": "MAC > Nakamichi BX-100 > Panasonic SV3700 DAT > Tascam CD-RW > MCDs extracted with EAC to WAV > FLAC",
-  "taper": "Bill Koucky",
-  "description": "Set I\n01  Shakedown Street (beginning patched)\n02  Little Red Rooster\n03  Peggy-O\n04  Me & My Uncle > (beginning patched)\n05  Mexicali Blues\n06  Dupree's Diamond Blues\n07  Cassidy\n\n08  West LA Fadeaway\n09  Might As Well\n\nSet II              \n01  tuning/crowd\n02  Hell In A Bucket >\n03  Ship Of Fools\n04  Far From Me>\n05  He's Gone > Jam >\n06  Drums\n07  Space (with both Billy and Mickey)\n08  The Other One >\n09  Stella Blue >\n10  Around & Around >\n11  Johnny B. Goode\n\nEncore\n12  Day Job",
+  "raw_metadata": {
+    "identifier": "gd1984-04-16.senn441.koucky.ladner.fix-32884.35408.sbeok.flac16",
+    "title": "Grateful Dead Live at Rochester War Memorial on 1984-04-16",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree"
+    ],
+    "type": "sound",
+    "description": "Set I\n01  Shakedown Street (beginning patched)\n02  Little Red Rooster\n03  Peggy-O\n04  Me & My Uncle > (beginning patched)\n05  Mexicali Blues\n06  Dupree's Diamond Blues\n07  Cassidy\n\n08  West LA Fadeaway\n09  Might As Well\n\nSet II              \n01  tuning/crowd\n02  Hell In A Bucket >\n03  Ship Of Fools\n04  Far From Me>\n05  He's Gone > Jam >\n06  Drums\n07  Space (with both Billy and Mickey)\n08  The Other One >\n09  Stella Blue >\n10  Around & Around >\n11  Johnny B. Goode\n\nEncore\n12  Day Job",
+    "date": "1984-04-16",
+    "year": "1984",
+    "subject": "Audience; Bill Koucky; Chris Ladner; Bill Tetzeli",
+    "publicdate": "2008-02-19 22:04:30",
+    "updater": [
+      "unix:etree",
+      "ewingrr",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2005-12-13 14:58:21",
+      "2008-02-19 22:04:45",
+      "2008-02-21 19:41:00",
+      "2008-02-25 05:29:58",
+      "2009-03-24 21:56:17",
+      "2009-08-03 15:03:56"
+    ],
+    "venue": "Rochester War Memorial",
+    "coverage": "Rochester, NY",
+    "source": "FOB Sennheiser 441s > Sony D5 > D5 > MAC",
+    "lineage": "MAC > Nakamichi BX-100 > Panasonic SV3700 DAT > Tascam CD-RW > MCDs extracted with EAC to WAV > FLAC",
+    "taper": "Bill Koucky",
+    "transferer": "Bill Koucky",
+    "runtime": "144:19.28",
+    "md5s": "836e2cb591747faca2cd883ffc6edf62 *gd84-04-16d1t01.flac\r\nb01c0e42cca74ce93547ef0f3be93744 *gd84-04-16d1t02.flac\r\ne09d54962ca4eb93deb6f0bfae62c02b *gd84-04-16d1t03.flac\r\nebeb047e4362a2e8263e5fb93f01723e *gd84-04-16d1t04.flac\r\nba2e4381346bc59a88b6ecd6dce41768 *gd84-04-16d1t05.flac\r\n17e9a452f990a147422fc84c541fe962 *gd84-04-16d1t06.flac\r\n0c6cd4477357762bb927dc290bd8a13e *gd84-04-16d1t07.flac\r\n28371576dd51b96e59500880ba3b81d2 *gd84-04-16d1t08.flac\r\n663d8a7af0f0f13a217658bf041ebcb4 *gd84-04-16d1t09.flac\r\nff99a25b144231de5052d07a0a8097b6 *gd84-04-16d2t01.flac\r\nfa399cd8ee78ad1c59595077acbd23c3 *gd84-04-16d2t02.flac\r\na119e4851edca6cd3dbfd7443741262c *gd84-04-16d2t03.flac\r\n387252e4603af51238caa516bd632fc0 *gd84-04-16d2t04.flac\r\n62df331a3f271f3cc10d63c8eaaccad6 *gd84-04-16d2t05.flac\r\n619c6c234c11320f91f7b0c58efdb8c7 *gd84-04-16d2t06.flac\r\n3af76fbea9943fdbbdd3b768d6a1213b *gd84-04-16d2t07.flac\r\nece97787b9cff9a45b6218091c604d6f *gd84-04-16d2t08.flac\r\n031da6e149d93ccd15b68b5a262b2d92 *gd84-04-16d2t09.flac\r\n8db044e90f0ce9da96045af8972e3c3d *gd84-04-16d2t10.flac\r\n9eb2d07cfc8cefcae3abc040647d2993 *gd84-04-16d2t11.flac\r\n9af01134a317e98211e2414d3ea867c8 *gd84-04-16d2t12.flac",
+    "notes": "Fix of shnid 32884\n\nBill Tetzeli adjusted the pitch of this source down in CE Pro, doing a time/pitch stretch of 101.86%.  He also patched the beginning of Shakedown Street and Me and My Uncle from the Neumann U-87 recording hosted on archive.org.  The volumes were matched as closely as possible and 4-6 second crossfades were used.  Because these are both AUDs, the patches are very transparent.  Shntool was used to clean up all the SBEs.",
+    "backup_location": "ia903601_24",
+    "addeddate": "2008-02-19 22:04:30"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "excellent quality, and a ferocious Space>Jam>Other One!  Great Shakedown to open show, too.",
+      "reviewtitle": "Nice!",
+      "reviewer": "Bzl",
+      "reviewdate": "2009-03-04 21:34:42",
+      "createdate": "2009-03-04 21:34:42",
+      "stars": "4"
+    },
+    {
+      "reviewtitle": "I like this one...",
+      "reviewbody": "...alot!\n\nI streamed this on 4-16-21; the first set in the morning, and the second set in the evening, after work.  Lots of good stuff here~",
+      "stars": "4",
+      "reviewer": "FellStreetJamPhan",
+      "reviewdate": "2021-04-17 13:04:08",
+      "createdate": "2021-04-17 13:04:08",
+      "reviewer_itemname": "@fellstreetjamphan"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2305,26 +2359,6 @@
       "sha1": "83843b1f9d19b6f464ae1a29cba0c65f92355818"
     }
   ],
-  "reviews": [
-    {
-      "stars": 4.0,
-      "review_text": "Nice! excellent quality, and a ferocious Space>Jam>Other One!  Great Shakedown to open show, too.",
-      "date": "2009-03-04 21:34:42"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "I like this one... ...alot!\n\nI streamed this on 4-16-21; the first set in the morning, and the second set in the evening, after work.  Lots of good stuff here~",
-      "date": "2021-04-17 13:04:08"
-    }
-  ],
-  "rating": 1.4,
-  "review_count": 2,
-  "confidence": 0.4,
-  "collection_timestamp": "2025-08-13T00:45:03.844419",
-  "raw_rating": 4.0,
-  "distribution": {
-    "4": 2
-  },
-  "high_ratings": 2,
-  "low_ratings": 0
+  "normalized_date": "1984-04-16",
+  "collection_timestamp": "2025-08-26T11:42:00.276493"
 }

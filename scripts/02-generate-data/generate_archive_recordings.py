@@ -187,6 +187,29 @@ class ArchiveRecordingsProcessor:
         
         return tracks
     
+    def improve_source_type(self, identifier: str, original_source_type: str) -> str:
+        """Improve source type detection using identifier patterns."""
+        # If we already have a good source type from Archive.org, keep it
+        if original_source_type != 'UNKNOWN':
+            return original_source_type
+            
+        # Check identifier patterns for source type clues
+        identifier_upper = identifier.upper()
+        
+        if '.SBD.' in identifier_upper or '.SOUNDBOARD.' in identifier_upper:
+            return 'SBD'
+        elif '.MTX.' in identifier_upper or '.MATRIX.' in identifier_upper:
+            return 'MATRIX'  
+        elif '.AUD.' in identifier_upper or '.AUDIENCE.' in identifier_upper:
+            return 'AUD'
+        elif '.FM.' in identifier_upper or '.BROADCAST.' in identifier_upper:
+            return 'FM'
+        elif '.REMASTER.' in identifier_upper:
+            return 'REMASTER'
+        
+        # If no patterns found, return original
+        return original_source_type
+
     def save_individual_recordings(self, recordings: List[RecordingMetadata], output_dir: str):
         """Save individual recording files with ratings and track data."""
         self.logger.info("Generating individual recording files with track metadata...")
@@ -196,6 +219,7 @@ class ArchiveRecordingsProcessor:
         recordings_dir.mkdir(parents=True, exist_ok=True)
         
         total_tracks = 0
+        improved_source_types = 0
         
         # Process each recording with track data
         for recording_meta in recordings:
@@ -203,15 +227,22 @@ class ArchiveRecordingsProcessor:
             tracks = self.extract_track_metadata(recording_meta)
             total_tracks += len(tracks)
             
+            # Improve source type detection using identifier patterns
+            improved_source_type = self.improve_source_type(recording_meta.identifier, recording_meta.source_type)
+            if improved_source_type != recording_meta.source_type:
+                improved_source_types += 1
+            
             # Create individual recording data
             recording_data = {
                 "rating": recording_meta.rating,
                 "review_count": recording_meta.review_count,
-                "source_type": recording_meta.source_type,
+                "source_type": improved_source_type,
                 "confidence": recording_meta.confidence,
                 "date": recording_meta.date,
                 "venue": recording_meta.venue,
                 "location": recording_meta.location,
+                "lineage": recording_meta.lineage,
+                "taper": recording_meta.taper,
                 "raw_rating": recording_meta.raw_rating,
                 "high_ratings": recording_meta.high_ratings,
                 "low_ratings": recording_meta.low_ratings,
@@ -228,6 +259,7 @@ class ArchiveRecordingsProcessor:
         
         self.logger.info(f"Generated {len(recordings)} individual recording files: {dir_size:.1f}MB")
         self.logger.info(f"Contains {len(recordings)} recordings with {total_tracks} total tracks")
+        self.logger.info(f"Improved source types for {improved_source_types} recordings using identifier patterns")
         self.logger.info(f"Output directory: {recordings_dir}")
     
     def process_recordings(self, output_dir: str = "stage02-generated-data"):

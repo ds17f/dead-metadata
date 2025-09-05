@@ -1,13 +1,35 @@
 {
   "identifier": "gd1991-09-06.sbd.gardner.tetzeli.fix-5560.82052.sbeok.shnf",
-  "title": "Grateful Dead Live at Richfield Coliseum on 1991-09-06",
-  "date": "1991-09-06",
-  "venue": "Richfield Coliseum",
-  "location": "Richfield, OH",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nFeel Like A Stranger \nBertha \nWang Dang Doodle \nPeggy-O \nJust Like Tom Thumb's Blues \nIt's All Over Now \nBird Song \n\nSet 2\n\nVictim Or The Crime \nCrazy Fingers \nPlaying In The Band ->\nTerrapin Station ->\nDrums ->\nSpace ->\nAll Along The Watchtower ->\nStella Blue ->\nAround And Around \n\nEncore\nKnockin' On Heaven's Door",
+  "raw_metadata": {
+    "identifier": "gd1991-09-06.sbd.gardner.tetzeli.fix-5560.82052.sbeok.shnf",
+    "title": "Grateful Dead Live at Richfield Coliseum on 1991-09-06",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nFeel Like A Stranger \nBertha \nWang Dang Doodle \nPeggy-O \nJust Like Tom Thumb's Blues \nIt's All Over Now \nBird Song \n\nSet 2\n\nVictim Or The Crime \nCrazy Fingers \nPlaying In The Band ->\nTerrapin Station ->\nDrums ->\nSpace ->\nAll Along The Watchtower ->\nStella Blue ->\nAround And Around \n\nEncore\nKnockin' On Heaven's Door",
+    "date": "1991-09-06",
+    "year": "1991",
+    "subject": "Soundboard;Bill Tetzeli",
+    "publicdate": "2008-05-22 02:09:55",
+    "addeddate": "2008-05-10 03:46:33",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Richfield Coliseum",
+    "coverage": "Richfield, OH",
+    "source": "Patch fix of shnid 5560",
+    "transferer": "Bill Tetzeli",
+    "md5s": "63bdff586989573a14d1c002bb8a2601 *gd1991-09-06d1t01.shn\r\n9d401b1af4a35e86873abd92d6691ffc *gd1991-09-06d1t02.shn\r\ned58192c13ff617fcf3edf4af036e31c *gd1991-09-06d1t03.shn\r\n72c01ca3da71b5f1d9251637a6fa3a30 *gd1991-09-06d1t04.shn\r\n01e46d301f8226dc96265bfb14105885 *gd1991-09-06d1t05.shn\r\nc08e0c7a7cf8b3ca0a04dc65440ed602 *gd1991-09-06d1t06.shn\r\nab97b54090e343de6d5385c4b95deadf *gd1991-09-06d1t07.shn\r\nb0547b8f6bd3c10336407c4aeb6f1ec6 *gd1991-09-06d1t08.shn\r\ne862fac603cf48dade11629a3f34b7bc *gd1991-09-06d2t01.shn\r\n4f3da21304beeb8187191eb18b4cbc64 *gd1991-09-06d2t02.shn\r\n85541d6873ea6df6d80e1192c41b13c4 *gd1991-09-06d2t03.shn\r\n8f177a9395751d78f2cd7e1dbfd0822a *gd1991-09-06d2t04.shn\r\n3fe82a3933884382e2599a284069e08d *gd1991-09-06d2t05.shn\r\n0bfe5415b5d20cf3366e0be6042511e9 *gd1991-09-06d2t06.shn\r\n0c428e3d6b6dc6dca28e56884ea5b083 *gd1991-09-06d3t01.shn\r\nab16c9efceec8e9b20f199b0f107b052 *gd1991-09-06d3t02.shn\r\n456fce95ca6d67c0a46f38642d596aa3 *gd1991-09-06d3t03.shn\r\n0a37746f0bb140d148120dc0b2b7c625 *gd1991-09-06d3t04.shn\r\nf667a53e3ffc99aee8db34c1b19f6908 *gd1991-09-06d3t05.shn\r\n5f93219e682e210865dbf0f774aafb97 *gd1991-09-06d3t06.shn",
+    "notes": "Main Source: sbd>dat>c>dat>cdr\nPatch Source: FOB Schoeps CMC4/MK4 (ORTF)> Oade Cap Coupled Supply> Dat\n\n-----------------------------------------------------------------------------------\nPatch fix of shnid 5560\n\nI patched in the missing portion of drums from 7:21-8:24 using the LlaMA AUD source (shnid 28391).  The resulting SBE was cleaned up using shntool.  All editing done in Cool Edit Pro.\n\nBill Tetzeli\n9:14 PM 1/18/2007\n-----------------------------------------------------------------------------------\nsbd>dat>c>dat>cdr",
+    "updatedate": "2008-05-22 02:29:54",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_35",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1578,13 +1600,6 @@
       "width": "0"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T05:04:07.729470",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1991-09-06",
+  "collection_timestamp": "2025-08-26T16:51:11.776500"
 }

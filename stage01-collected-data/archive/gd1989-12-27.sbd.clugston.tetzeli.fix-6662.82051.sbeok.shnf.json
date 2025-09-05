@@ -1,13 +1,35 @@
 {
   "identifier": "gd1989-12-27.sbd.clugston.tetzeli.fix-6662.82051.sbeok.shnf",
-  "title": "Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1989-12-27",
-  "date": "1989-12-27",
-  "venue": "Oakland-Alameda County Coliseum Arena",
-  "location": "Oakland, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nCold Rain And Snow  \nGreatest Story Ever Told  \nNever Trust A Woman  \nAlthea  \nMe And My Uncle  ->\nBig River  \nJust Like Tom Thumb's Blues  % Bird Song  \nThe Promised Land  \n\nSet 2\n\nIko Iko  \nPlaying In The Band  ->\nCrazy Fingers  ->\nUncle John's Band  ->\nDrums  ->\nSpace  ->\nThe Wheel  ->\nI Need A Miracle  ->\nMorning Dew  \n\nEncore\nJohnny B. Goode  \nBlack Muddy River",
+  "raw_metadata": {
+    "identifier": "gd1989-12-27.sbd.clugston.tetzeli.fix-6662.82051.sbeok.shnf",
+    "title": "Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1989-12-27",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nCold Rain And Snow  \nGreatest Story Ever Told  \nNever Trust A Woman  \nAlthea  \nMe And My Uncle  ->\nBig River  \nJust Like Tom Thumb's Blues  % Bird Song  \nThe Promised Land  \n\nSet 2\n\nIko Iko  \nPlaying In The Band  ->\nCrazy Fingers  ->\nUncle John's Band  ->\nDrums  ->\nSpace  ->\nThe Wheel  ->\nI Need A Miracle  ->\nMorning Dew  \n\nEncore\nJohnny B. Goode  \nBlack Muddy River",
+    "date": "1989-12-27",
+    "year": "1989",
+    "subject": "Soundboard;Bill Tetzeli",
+    "publicdate": "2008-05-22 02:09:42",
+    "addeddate": "2008-05-09 03:22:17",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Oakland-Alameda County Coliseum Arena",
+    "coverage": "Oakland, CA",
+    "source": "Patch fix of shnid 6662",
+    "transferer": "Bill Tetzeli",
+    "md5s": "1a1755900939dbb9ed9d4fc83b47c49d *gd89-12-27d1t01.shn\r\n1327bbe17c007d5e8e70c0198ec05d39 *gd89-12-27d1t02.shn\r\n7ac43f6162043ec842d5e98f4377d42a *gd89-12-27d1t03.shn\r\n31b973e41c59a1d60e71693b640a9c15 *gd89-12-27d1t04.shn\r\n7ce25516a77949ef1675255e35f3fc42 *gd89-12-27d1t05.shn\r\n604df225026aa8ec6f4b0d4336e531df *gd89-12-27d1t06.shn\r\n23f5570179a178d85f0ff0ca9b4e60af *gd89-12-27d1t07.shn\r\n18d3697fd3377db6ee291e7ee08194fe *gd89-12-27d1t08.shn\r\nf4ff72740fc7644e66291d1d682e40df *gd89-12-27d1t09.shn\r\n9dc33450df9dadea4f7132f6144d8335 *gd89-12-27d2t01.shn\r\nf528f499222db589a633e433c2a37fd5 *gd89-12-27d2t02.shn\r\n6cfe280b6586c68dffa7a1917f49e338 *gd89-12-27d2t03.shn\r\n5604e0a80b8f18a59e103d53518ced34 *gd89-12-27d2t04.shn\r\n7876a31847a9bba49f7e51f4fed8095e *gd89-12-27d2t05.shn\r\ne470486afcdda9514da8194e4f5cc169 *gd89-12-27d3t01.shn\r\n81c05b63e21fa23dd39fb57be232c7dd *gd89-12-27d3t02.shn\r\n539bb490931a6068d407de23aae2c078 *gd89-12-27d3t03.shn\r\nbdd7457046fedd19a78d07d58017b27a *gd89-12-27d3t04.shn\r\n715c0748da755b3aed20d028f7398482 *gd89-12-27d3t05.shn\r\nacb6f064ce3ce3d6e2088031eb6ed4c8 *gd89-12-27d3t06.shn",
+    "notes": "I patched in about 30 secs that were missing from Drums from the LlaMA FOB (shnid 20785), starting at 5:28.  Both drum tracks were merged into one at the end of d2.  Resulting SBEs were corrected with shntool and the transition between CDs 2 and 3 is now seamless.\n\nMany thanks to Scott Clugston for the SBD source as well as to Chris Ladner for the FOB source.\n\nBill Tetzeli (btet@adelphia.net)\n8:22 AM 11/17/2006\n--------------------------------------------------------------------------------\nMain Source: Dan Healy's Master Soundboard Cassette > CDR\n\n* with Clarence Clemons\n\nmade possible thru the usual group of suspects and mental patients\n\nOriginal CD Mastering by Scott Clugston 11/25/01\n\nPatch Source: Source:  FOB>Shoeps CMC3/mk-4 > DAT > CDR > WAV > SHNv3",
+    "updatedate": "2008-05-22 02:26:41",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_35",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1578,13 +1600,6 @@
       "width": "0"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T04:02:17.452390",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1989-12-27",
+  "collection_timestamp": "2025-08-26T15:44:25.491478"
 }

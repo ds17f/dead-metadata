@@ -1,13 +1,44 @@
 {
   "identifier": "gd1991-08-17.sbd.josephs.fix-497.20696.sbeok.shnf",
-  "title": "Grateful Dead Live at Shoreline Amphitheatre on 1991-08-17",
-  "date": "1991-08-17",
-  "venue": "Shoreline Amphitheatre",
-  "location": "Mountain View, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nHelp On The Way  ->\nSlipknot!  ->\nFranklin's Tower  \nWang Dang Doodle  \nBrown Eyed Women  \nQueen Jane Approximately  \nTennessee Jed  \nThe Music Never Stopped \n\nSet 2\n\nMan Smart (Woman Smarter) \nShip Of Fools \nSmokestack Lightnin' ->\nHe's Gone ->\nJam ->\nDrums ->\nSpace  ->\nDark Star  ->\nMorning Dew \nOne More Saturday Night \n\nEncore\nIt's All Over Now, Baby Blue",
+  "raw_metadata": {
+    "identifier": "gd1991-08-17.sbd.josephs.fix-497.20696.sbeok.shnf",
+    "title": "Grateful Dead Live at Shoreline Amphitheatre on 1991-08-17",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nHelp On The Way  ->\nSlipknot!  ->\nFranklin's Tower  \nWang Dang Doodle  \nBrown Eyed Women  \nQueen Jane Approximately  \nTennessee Jed  \nThe Music Never Stopped \n\nSet 2\n\nMan Smart (Woman Smarter) \nShip Of Fools \nSmokestack Lightnin' ->\nHe's Gone ->\nJam ->\nDrums ->\nSpace  ->\nDark Star  ->\nMorning Dew \nOne More Saturday Night \n\nEncore\nIt's All Over Now, Baby Blue",
+    "date": "1991-08-17",
+    "year": "1991",
+    "subject": "Soundboard;J. Josephs",
+    "publicdate": "2008-05-19 19:28:46",
+    "addeddate": "2008-05-10 03:39:45",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Shoreline Amphitheatre",
+    "coverage": "Mountain View, CA",
+    "source": "SBD -> DAT Master -> DAT Clone -> Tascam DA40 ->(SPDIF)-> SB Live -> SoundForge -> wav -> shn",
+    "transferer": "J. Josephs",
+    "md5s": "eb95888e251d281d283952e9aeb2e5de *gd91-08-17d1t01.shn\r\n4622fd8a0ac71edaebeadb2d3d3b1a27 *gd91-08-17d1t02.shn\r\nd9f04ebf309afca6126e9b947038214a *gd91-08-17d1t03.shn\r\n99f81b010b41cff92e84d8d7e5d7b976 *gd91-08-17d1t04.shn\r\n6ecdaddb745c372634d613f142f2c3a1 *gd91-08-17d1t05.shn\r\n315331420f82988c24b618d9737ebf4c *gd91-08-17d1t06.shn\r\na81bdd49d9fa94807fde29a9ce70783d *gd91-08-17d1t07.shn\r\n7f6b9aeefb1fdc769b9ca0d1ffcb24b7 *gd91-08-17d1t08.shn\r\n332ee05253fe87521817c46b4c60a2dd *gd91-08-17d1t09.shn\r\n53aeb1b1433d8b15161c9e60c780c478 *gd91-08-17d1t10.shn\r\n4687bbed9854fb22153113c73435b7ae *gd91-08-17d2t01.shn\r\n0f422a9c77ac083e7936dd3bdbff5ba5 *gd91-08-17d2t02.shn\r\n5b3623c14354ad852b7d6408c38bdda4 *gd91-08-17d2t03.shn\r\ncc287801b7008ea865a76620197483c5 *gd91-08-17d2t04.shn\r\n46bc6cc0f8ca0e54b7e8c0b5a93b945a *gd91-08-17d2t05.shn\r\n98986add20f7287389820cb7b87b5e44 *gd91-08-17d2t06.shn\r\ne24b3cbbd13ca7b4a8cd6fd5b0acf479 *gd91-08-17d2t07.shn\r\n04d675f1c8fdf80cfe0c5ec0fcf8339b *gd91-08-17d2t08.shn\r\n610a91ba790456675dedc6dd46032f2d *gd91-08-17d2t09.shn",
+    "notes": "Comments:  Original SHNs via J. Josephs.  This set of files represents a SHNTOOL fixed correction of the previously circulating SHN set (http://db.etree.org/shninfo_detail.php?shnid=497).\n\nAll tracks on the previous set had sector boundary errors and also extra chunks when performing a SHNTOOL LEN check.  These were fixed by:\n1.  Converting the SHN > WAV.\n2.  Performing the command 'SHNTOOL FIX *.wav' on each sets wav files (e.g. set 1: d1t01-d1t08, set 2:d1t09 > d2t09).\n3.  Encoding to seekable SHN using shorten 3.4.",
+    "updatedate": "2008-05-19 19:32:02",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_35"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "I sang a little while and then flew on.",
+      "reviewtitle": "bread crumb",
+      "reviewer": "kbmill",
+      "reviewer_itemname": "@kbmill",
+      "reviewdate": "2018-11-12 16:30:27",
+      "createdate": "2018-11-12 16:30:27",
+      "stars": "0"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1485,13 +1516,6 @@
       "width": "0"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T05:02:16.997685",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1991-08-17",
+  "collection_timestamp": "2025-08-26T16:49:16.365658"
 }

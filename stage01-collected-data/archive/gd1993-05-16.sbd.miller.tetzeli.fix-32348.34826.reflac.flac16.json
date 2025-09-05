@@ -1,13 +1,53 @@
 {
   "identifier": "gd1993-05-16.sbd.miller.tetzeli.fix-32348.34826.reflac.flac16",
-  "title": "Grateful Dead Live at Sam Boyd Silver Bowl on 1993-05-16",
-  "date": "1993-05-16",
-  "venue": "Sam Boyd Silver Bowl",
-  "location": "Las Vegas, NV",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nTouch Of Grey \nWalkin' Blues \nAlthea \nWhen I Paint My Masterpiece \nRow Jimmy \nCassidy \n\nSet 2\n\nSamson And Delilah \nHelp On The Way ->\nSlipknot! ->\nFranklin's Tower \nLooks Like Rain ->\nTerrapin Station ->\nDrums ->\nSpace ->\nThe Other One ->\nWharf Rat ->\nThrowing Stones ->\nTurn On Your Lovelight \n\nEncore\nBrokedown Palace",
+  "raw_metadata": {
+    "identifier": "gd1993-05-16.sbd.miller.tetzeli.fix-32348.34826.reflac.flac16",
+    "title": "Grateful Dead Live at Sam Boyd Silver Bowl on 1993-05-16",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nTouch Of Grey \nWalkin' Blues \nAlthea \nWhen I Paint My Masterpiece \nRow Jimmy \nCassidy \n\nSet 2\n\nSamson And Delilah \nHelp On The Way ->\nSlipknot! ->\nFranklin's Tower \nLooks Like Rain ->\nTerrapin Station ->\nDrums ->\nSpace ->\nThe Other One ->\nWharf Rat ->\nThrowing Stones ->\nTurn On Your Lovelight \n\nEncore\nBrokedown Palace",
+    "date": "1993-05-16",
+    "year": "1993",
+    "subject": "Soundboard;Bill Tetzeli",
+    "publicdate": "2008-07-28 20:19:59",
+    "addeddate": "2008-07-27 15:42:38",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2008-07-28 20:22:45",
+      "2008-11-11 17:03:10",
+      "2008-12-20 11:57:29",
+      "2008-12-20 12:24:49",
+      "2008-12-20 12:46:23",
+      "2008-12-20 13:12:58",
+      "2011-03-25 13:52:04",
+      "2011-03-25 14:22:48"
+    ],
+    "venue": "Sam Boyd Silver Bowl",
+    "coverage": "Las Vegas, NV",
+    "source": "Fix of shnid 32348",
+    "transferer": "Bill Tetzeli",
+    "md5s": "gd93-05-16d1t01.flac:634cc99d5ff29d48da32074ff1bccc2c\r\ngd93-05-16d1t02.flac:90266c9aa45ca1002bad5cad72d1e5cc\r\ngd93-05-16d1t03.flac:ad0d7f3ad11bb9d18cf07c55cd5ef6ae\r\ngd93-05-16d1t04.flac:d17a3fd87b361553191e24d795f667fe\r\ngd93-05-16d1t05.flac:cff0cf991ba9d562e5caac63dce21a09\r\ngd93-05-16d1t06.flac:417cb7dd28176615927686a0d9948076\r\ngd93-05-16d1t07.flac:8d30d45e5d63d8446a3903338ab48787\r\ngd93-05-16d2t01.flac:18487014919a2e5c9c74d1efde854828\r\ngd93-05-16d2t02.flac:c4f01cf692888bcef9879284735cf31e\r\ngd93-05-16d2t03.flac:8bb0c4f1c392aa55c3d711a3a6995d74\r\ngd93-05-16d2t04.flac:899fa58cf7469c6758960768f50bf2a8\r\ngd93-05-16d2t05.flac:e14860fe7fde3558c2695dc9f2a46c52\r\ngd93-05-16d2t06.flac:0d8ddcd3c5311ffc5766a4a204085f3f\r\ngd93-05-16d2t07.flac:b3153490677888e553d08a5b79002e70\r\ngd93-05-16d3t01.flac:08d9d7a5aee76fed039237729f114ebe\r\ngd93-05-16d3t02.flac:5288ce241be9509bc20b06bf27984548\r\ngd93-05-16d3t03.flac:a811e1fcfda440ff39fc5d4dcbcdca77\r\ngd93-05-16d3t04.flac:2d4b3e4adebf476534b8e56e29cc5b64\r\ngd93-05-16d3t05.flac:a0bf7c5909dad5dc88d4e3a85b4b5687\r\ngd93-05-16d3t06.flac:7a1172204710bdd61e9c98959a1abf19\r\ngd93-05-16d2t07fade.flac:16d15b95d3e415831f7c97cf8d644925\r\ngd93-05-16d3t00fade.flac:e17f12b2dd542341e7932c98986b0471",
+    "notes": "------------------------------------------------------------------------------------\nFix of shnid 32348\n\nI restored continuity to the transition between CDs 2 and 3.  SBEs resulting from the fix were fixed and verified using shntool.  Overlapping fade tracks were added to the end of CD 2 and the beginning of CD 3.  For seamless playback simply remove the fade tracks.\n\nBill Tetzeli (btet@adelphia.net)\n3/31/2006\n------------------------------------------------------------------------------------",
+    "backup_location": "ia903602_7",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2258,13 +2298,6 @@
       "private": "true"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T05:42:53.677072",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1993-05-16",
+  "collection_timestamp": "2025-08-26T17:31:17.404643"
 }

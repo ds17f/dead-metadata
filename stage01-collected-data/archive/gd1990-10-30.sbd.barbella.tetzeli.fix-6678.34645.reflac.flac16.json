@@ -1,13 +1,55 @@
 {
   "identifier": "gd1990-10-30.sbd.barbella.tetzeli.fix-6678.34645.reflac.flac16",
-  "title": "Grateful Dead Live at Wembley Arena on 1990-10-30",
-  "date": "1990-10-30",
-  "venue": "Wembley Arena",
-  "location": "London, England",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\n\nJack Straw  ->\nBertha  ->\nWang Dang Doodle  \nBrown Eyed Women  ~ Queen Jane Approximately  \nRow Jimmy  \nLet It Grow  ->\nJam  ->\nValley Road  \n\nSet 2\n\n\nPicasso Moon  ->\nFoolish Heart  ->\nLooks Like Rain  ->\nTerrapin Station  ->\nJam  ->\nDrums   ->\nSpace  ->\nThe Wheel  ->\nI Need A Miracle  ->\nBlack Peter  ->\nTurn On Your Lovelight  \n\nEncore\nThe Weight",
+  "raw_metadata": {
+    "identifier": "gd1990-10-30.sbd.barbella.tetzeli.fix-6678.34645.reflac.flac16",
+    "title": "Grateful Dead Live at Wembley Arena on 1990-10-30",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\n\nJack Straw  ->\nBertha  ->\nWang Dang Doodle  \nBrown Eyed Women  ~ Queen Jane Approximately  \nRow Jimmy  \nLet It Grow  ->\nJam  ->\nValley Road  \n\nSet 2\n\n\nPicasso Moon  ->\nFoolish Heart  ->\nLooks Like Rain  ->\nTerrapin Station  ->\nJam  ->\nDrums   ->\nSpace  ->\nThe Wheel  ->\nI Need A Miracle  ->\nBlack Peter  ->\nTurn On Your Lovelight  \n\nEncore\nThe Weight",
+    "date": "1990-10-30",
+    "year": "1990",
+    "subject": "Soundboard;Bill Tetzeli",
+    "publicdate": "2008-05-22 03:14:59",
+    "addeddate": "2008-05-10 03:34:34",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2008-05-22 03:22:31",
+      "2008-11-12 05:22:19",
+      "2008-12-20 09:44:18",
+      "2008-12-20 09:53:13"
+    ],
+    "venue": "Wembley Arena",
+    "coverage": "London, England",
+    "source": "Fix of shnid 6678",
+    "transferer": "Bill Tetzeli",
+    "runtime": "157:38",
+    "md5s": "ca6ab59a80048356d72c56a66a82c507 *gd90-10-30d1t01.flac\r\ndc748b80b31447611f05bafb7b2a19c2 *gd90-10-30d1t02.flac\r\n98f3add21367c90e799ec91a8c78c58f *gd90-10-30d1t03.flac\r\n96917eff719b1d18abd370f57cb4653e *gd90-10-30d1t04.flac\r\n220d81e50416cde86ee305d00f7650df *gd90-10-30d1t05.flac\r\nb6f67bfd850bc0b30873beb6239fd0fd *gd90-10-30d1t06.flac\r\n28693242c4eb15f84d67699b3ca614bb *gd90-10-30d1t07.flac\r\n98a643189241f385f232a0fc909c5b41 *gd90-10-30d1t08.flac\r\ne7137cc7e72a672dc0c7c6200615b007 *gd90-10-30d1t09.flac\r\n8a4ae6135fb72e0b6c51f34354470063 *gd90-10-30d2t01.flac\r\n6c389e63cd1399d2be12f21a571fde20 *gd90-10-30d2t02.flac\r\n46f15b7e9befe09cca8dfede3d94a3fd *gd90-10-30d2t03.flac\r\n4654ac21731832309ad42aa9cdfbca1a *gd90-10-30d2t04.flac\r\nb031f7505c54a6ee193f2b3b82eb1c04 *gd90-10-30d3t01.flac\r\n43f7b879a1c982dfe99823ea86c0382d *gd90-10-30d3t02.flac\r\ncd2a5ac1d30f3e7f8897960f06e6c9c7 *gd90-10-30d3t03.flac\r\n45cb086caffa2430a8f86ba09ef27f99 *gd90-10-30d3t04.flac\r\n147a0097742799eb21bf0c0cfa80fa20 *gd90-10-30d3t05.flac\r\n70792cf276f25e0bd9339c953ebb2272 *gd90-10-30d3t06.flac",
+    "notes": "I made the transition between CDs 2 and 3 seamless, fixed the resulting SBEs with shntool and converted the nonseekable shns to flac.  The unSHNed WAV files had noncanonical headers - since FLAC conversion strips unnecessary header information, I didn't need to use shntool's strip mode to render them canonical.\n\nMany thanks to whomever did the DAT>CD transfer and provided the overlap that made this fix possible.\n\nBill Tetzeli (btet@adelphia.net)\n8:52 PM 4/8/2006",
+    "backup_location": "ia903601_35"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "I sang a little while and then flew on.",
+      "reviewtitle": "bread crumb",
+      "reviewer": "kbmill",
+      "reviewer_itemname": "@kbmill",
+      "reviewdate": "2018-08-14 15:25:18",
+      "createdate": "2018-08-14 15:25:18",
+      "stars": "0"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2150,13 +2192,6 @@
       "private": "true"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T04:37:17.008294",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1990-10-30",
+  "collection_timestamp": "2025-08-26T16:22:45.547485"
 }

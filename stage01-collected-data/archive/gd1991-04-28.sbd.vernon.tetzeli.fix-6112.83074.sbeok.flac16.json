@@ -1,13 +1,35 @@
 {
   "identifier": "gd1991-04-28.sbd.vernon.tetzeli.fix-6112.83074.sbeok.flac16",
-  "title": "Grateful Dead Live at Sam Boyd Silver Bowl on 1991-04-28",
-  "date": "1991-04-28",
-  "venue": "Sam Boyd Silver Bowl",
-  "location": "Las Vegas, NV",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nJack Straw \nCandyman \nWang Dang Doodle \nAlthea \nMe And My Uncle ->\nBig River \nBird Song    \n\nSet 2\n\nFoolish Heart \nSaint Of Circumstance \nCrazy Fingers \nTruckin' \nDeal \nDrums ->\nSpace ->\nThe Other One ->\nWharf Rat ->\nAround And Around \nSunshine Daydream \n\nEncore\nBox Of Rain",
+  "raw_metadata": {
+    "identifier": "gd1991-04-28.sbd.vernon.tetzeli.fix-6112.83074.sbeok.flac16",
+    "title": "Grateful Dead Live at Sam Boyd Silver Bowl on 1991-04-28",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nJack Straw \nCandyman \nWang Dang Doodle \nAlthea \nMe And My Uncle ->\nBig River \nBird Song    \n\nSet 2\n\nFoolish Heart \nSaint Of Circumstance \nCrazy Fingers \nTruckin' \nDeal \nDrums ->\nSpace ->\nThe Other One ->\nWharf Rat ->\nAround And Around \nSunshine Daydream \n\nEncore\nBox Of Rain",
+    "date": "1991-04-28",
+    "year": "1991",
+    "subject": "Soundboard;Matt Vernon;Bill Tetzeli",
+    "publicdate": "2008-05-18 19:05:43",
+    "addeddate": "2008-05-10 03:45:34",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Sam Boyd Silver Bowl",
+    "coverage": "Las Vegas, NV",
+    "source": "Patch fix of shnid 6112",
+    "transferer": "Bill Tetzeli",
+    "md5s": "9b743d98960da8a66f6aea8c6bad73f4 *gd91-04-28d1t01.flac\r\ne8ae4ba087a9e6e34ad188d243c4b02f *gd91-04-28d1t02.flac\r\nb06c381333c6aff19619ee5f10b96b24 *gd91-04-28d1t03.flac\r\ne02c5b8a7370b0f1a74c512d90d58903 *gd91-04-28d1t04.flac\r\n8a569f6fe49af47521e9e91440f87f71 *gd91-04-28d1t05.flac\r\nb72a07ebbd06c8ff88281f4191ee82c0 *gd91-04-28d1t06.flac\r\n28e2de5f84983561d4cc2c6ddd637ddb *gd91-04-28d1t07.flac\r\n0972a606ec466bf3cf84af14e21d79a9 *gd91-04-28d1t08.flac\r\n4749046c5711590a14590900746615b6 *gd91-04-28d2t01.flac\r\na9f4754a37b9089424756a24198373a5 *gd91-04-28d2t02.flac\r\n03d1378c3b51f0cf295d789517c357a4 *gd91-04-28d2t03.flac\r\n262f59c4063434bd544623df1c50d6db *gd91-04-28d2t04.flac\r\n0ad8d3732e4d823b535ec451f37213cc *gd91-04-28d2t05.flac\r\n95bb1304fe8a0c29bee09ef9dac7882d *gd91-04-28d2t06.flac\r\n1c53bf3028aeb9246399160ea772b0d6 *gd91-04-28d3t01.flac\r\nd865c23823beaf2a7b77e0a38573d2db *gd91-04-28d3t02.flac\r\n42f19a6a27bb57ac144b94c49d24868c *gd91-04-28d3t03.flac\r\nb8075a5c52b22ae4061ceaf0e133392f *gd91-04-28d3t04.flac\r\n755653fcf4b5231364380e66cf4a3194 *gd91-04-28d3t05.flac\r\n422008f9a9daec1483be7793a2d5e6e1 *gd91-04-28d3t06.flac",
+    "notes": "-----------------------------------------------------------------------------------\nPatch fix of shnid 6112\n\nI used patch source A to patch several of the flaws listed below (see my bracketed comments), as well as source B at the beginning of Foolish Heart.  Source B was also used to patch in almost 8 minutes from 9:49 of Drums to 7:31 of Space plus the fade in/out between the original CDs 2 and 3 (now 8:12-8:14 of Space in this fix).  Although patch source A is better overall, source B was closer to the SBD during the bass-heavy Drums/Space.  This patch was raised 3.1 dB to ensure smooth transitions between it and the SBD.  To compensate, volume envelopes of varying degrees were used around four different peaks to keep them from clipping.\n\nAll editing was done in Cool Edit 2000 and shntool used to clean up the resulting SBEs.\n\nMany thanks to Matt Vernon for supplying the SBD source, and to him and MattMan for the FOB patch sources.\n\nBill Tetzeli (btet@adelphia.net)\n6:35 PM 2/11/2007\n-----------------------------------------------------------------------------------\nMain source: (purported) SBD> Phil Lesh's cassette master>DAT>CDR>EAC>mkw>SHN\n\nPatch source A: FOB MAC (2 beyerm 160 & 1 Sennheiser 421>Sony TCD5M)>?>SHN (shnid 19161)\n\nPatch source B: FOB Neumann U87's > ? > CDR > EAC(secure) > mkwact(seekable) (shnid 8196)",
+    "updatedate": "2008-05-18 19:50:22",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_35",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2268,13 +2290,6 @@
       "sha1": "c6ef421106e4897f9fdf4b8b0c225f6a21e691be"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T04:53:22.089768",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1991-04-28",
+  "collection_timestamp": "2025-08-26T16:39:41.499055"
 }

@@ -1,13 +1,47 @@
 {
   "identifier": "gd1995-03-18.sbd.ladner.32055.sbeok.flac16",
-  "title": "Grateful Dead Live at The Spectrum on 1995-03-18",
-  "date": "1995-03-18",
-  "venue": "The Spectrum",
-  "location": "Philadelphia, PA",
-  "source_type": "UNKNOWN",
-  "lineage": "SHN > WAV > Addawav > Wavelab 5.0  (see below) > CDWAV 1.9 > FLAC (level 5)",
-  "taper": "",
-  "description": "Set 1\n\nHell In A Bucket \nWest L.A. Fadeaway \nEl Paso \nRamble On Rose \nJust Like Tom Thumb's Blues \nJack-A-Roe \nThe Promised Land \n\nSet 2\n\nIt's All Too Much \nIko Iko \nPlaying In The Band ->\nUncle John's Band ->\nDrums ->\nSpace ->\nThe Last Time ->\nVisions Of Johanna ->\nOne More Saturday Night \n\nEncore\nRain",
+  "raw_metadata": {
+    "identifier": "gd1995-03-18.sbd.ladner.32055.sbeok.flac16",
+    "title": "Grateful Dead Live at The Spectrum on 1995-03-18",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nHell In A Bucket \nWest L.A. Fadeaway \nEl Paso \nRamble On Rose \nJust Like Tom Thumb's Blues \nJack-A-Roe \nThe Promised Land \n\nSet 2\n\nIt's All Too Much \nIko Iko \nPlaying In The Band ->\nUncle John's Band ->\nDrums ->\nSpace ->\nThe Last Time ->\nVisions Of Johanna ->\nOne More Saturday Night \n\nEncore\nRain",
+    "date": "1995-03-18",
+    "year": "1995",
+    "subject": "Chris Ladner",
+    "publicdate": "2008-06-28 00:06:01",
+    "addeddate": "2008-06-18 14:17:08",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "The Spectrum",
+    "coverage": "Philadelphia, PA",
+    "source": "SHN Set ID 1362 (source: \"liberated\" sbd cd > EAC > wav > shn)",
+    "lineage": "SHN > WAV > Addawav > Wavelab 5.0  (see below) > CDWAV 1.9 > FLAC (level 5)",
+    "transferer": "Chris Ladner",
+    "runtime": "142",
+    "md5s": "2b8382fb03109ab63e652f346ef72ced *gd1995-03-18d1t01.flac\r\na7d1a2d6134ed46d002e27c37637a07c *gd1995-03-18d1t02.flac\r\n9443915cf80d602d48a7dbbdb909d647 *gd1995-03-18d1t03.flac\r\nf123e7017a8662e829d0bf7db35c0e11 *gd1995-03-18d1t04.flac\r\nadddd167fe0e00135236169adbdb7a4d *gd1995-03-18d1t05.flac\r\nd6192667243caaaf7eef266df289465b *gd1995-03-18d1t06.flac\r\na06337208ff16ed632085d214f7175bd *gd1995-03-18d1t07.flac\r\nf15af9e344fa8ca95d6bdae26f61e20c *gd1995-03-18d1t08.flac\r\n02e52ac2f7792f117a4c055bdb0515b0 *gd1995-03-18d1t09.flac\r\nd275c9b5542fac25e0806e3e49c94ca0 *gd1995-03-18d2t01.flac\r\n85b94954353fa24fb6d2086e2bf0785f *gd1995-03-18d2t02.flac\r\nebd4c3ab138b38bb83018498e280fa71 *gd1995-03-18d2t03.flac\r\n013968ea54fe3e7d4400672ae402d77f *gd1995-03-18d2t04.flac\r\nea2852e522b2a9135f53f02ba27b1a67 *gd1995-03-18d2t05.flac\r\ne357d6de134163e88fa66a5bc7f26fd2 *gd1995-03-18d2t06.flac\r\n7e20e2da468b932c59e134dfbf9bb736 *gd1995-03-18d2t07.flac\r\n8d00e356519ce98a2d0d2462586a7566 *gd1995-03-18d2t08.flac",
+    "notes": "Original SHN set converted back to WAV, fixed a few small pops with Wavelab pencil tool, restored second set to seamless state (the d1/d2 fade transition in the middle of Playin' had  overlap), then put each set back together as one file with addawav.  The peak levels on each set were normalized to 87% RMS and then re-rendered using the Waves L3 Multimaximizer plugin (-1.0 dB threshold with a peak ceiling of -0.1, ultrashaping, type I dither).  Each set was tracked using CDWAV 1.9 and saved as FLAC (level 5 encoding).",
+    "updatedate": "2008-06-28 00:09:16",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903602_4",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "I sang a little while and then flew on.",
+      "reviewtitle": "bread crumb",
+      "reviewer": "kbmill",
+      "reviewer_itemname": "@kbmill",
+      "reviewdate": "2019-09-26 20:21:57",
+      "createdate": "2019-09-26 20:21:57",
+      "stars": "0"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1942,13 +1976,6 @@
       "private": "true"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T06:13:22.096353",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1995-03-18",
+  "collection_timestamp": "2025-08-26T18:04:17.060474"
 }

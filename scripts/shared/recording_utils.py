@@ -11,33 +11,70 @@ from typing import Optional
 from .models import RecordingMetadata
 
 
-def improve_source_type_detection(recording: RecordingMetadata) -> str:
+def improve_source_type_detection(recording) -> str:
     """
-    Improve source type detection by checking identifier/filename as well as metadata.
+    Improve source type detection by analyzing identifier, metadata, and source lineage.
     
-    This function examines the recording identifier, title, and description to determine
-    the most likely source type, which is more accurate than relying solely on the
-    source_type field from Archive.org.
+    This function examines the recording identifier, title, description, and most importantly
+    the source lineage field to determine the most likely source type, which is more accurate
+    than relying solely on the source_type field from Archive.org.
     
     Args:
-        recording: RecordingMetadata object to analyze
+        recording: RecordingMetadata or ProcessedRecordingMetadata object to analyze
         
     Returns:
         Improved source type string: 'SBD', 'MATRIX', 'AUD', 'FM', 'REMASTER', or 'UNKNOWN'
     """
     identifier = recording.identifier.upper()
-    title = recording.title.upper() if recording.title else ""
-    description = recording.description.upper() if recording.description else ""
     
-    text = f"{identifier} {title} {description}"
+    # Handle both RecordingMetadata (properties) and ProcessedRecordingMetadata (fields)
+    if hasattr(recording, 'title') and callable(getattr(recording, 'title', None)):
+        # RecordingMetadata with properties
+        title = recording.title.upper() if recording.title else ""
+        description = recording.description.upper() if recording.description else ""
+        source_lineage = recording.source.upper() if recording.source else ""
+    else:
+        # ProcessedRecordingMetadata with fields
+        title = getattr(recording, 'title', '').upper() if getattr(recording, 'title', '') else ""
+        description = getattr(recording, 'description', '').upper() if getattr(recording, 'description', '') else ""
+        source_lineage = getattr(recording, 'source', '').upper() if getattr(recording, 'source', '') else ""
+    
+    # Primary analysis: Check source lineage first (most reliable)
+    if source_lineage:
+        if source_lineage.startswith('SBD'):
+            return 'SBD'
+        elif source_lineage.startswith('AUD'):
+            return 'AUD'
+        elif 'MATRIX' in source_lineage:
+            return 'MATRIX'
+        elif source_lineage.startswith('FM') or 'FM ' in source_lineage or source_lineage.startswith('BROADCAST'):
+            return 'FM'
+        # Check for microphone indicators (suggests audience recording)
+        elif any(mic in source_lineage for mic in ['MICROPHONE', 'SENNHEISER', 'AKG', 'NEUMANN', 'SONY', 'MIC']):
+            return 'AUD'
+    
+    # Secondary analysis: Check identifier patterns  
+    if '.SBD.' in identifier or '.SOUNDBOARD.' in identifier or identifier.endswith('.SBD'):
+        return 'SBD'
+    elif '.MTX.' in identifier or '.MATRIX.' in identifier:
+        return 'MATRIX'  
+    elif '.AUD.' in identifier or '.AUDIENCE.' in identifier or identifier.endswith('.AUD'):
+        return 'AUD'
+    elif '.FM.' in identifier or '.BROADCAST.' in identifier or identifier.endswith('.FM'):
+        return 'FM'
+    elif '.REMASTER.' in identifier:
+        return 'REMASTER'
+    
+    # Tertiary analysis: Check all text for keywords
+    text = f"{identifier} {title} {description} {source_lineage}"
     
     if 'SBD' in text or 'SOUNDBOARD' in text:
         return 'SBD'
     elif 'MATRIX' in text:
         return 'MATRIX'  
-    elif 'AUD' in text or 'AUDIENCE' in text or '.AUD.' in identifier:
+    elif 'AUD' in text or 'AUDIENCE' in text:
         return 'AUD'
-    elif 'FM' in text or 'BROADCAST' in text:
+    elif 'FM' in text or 'BROADCAST' in text or 'RADIO' in text:
         return 'FM'
     elif 'REMASTER' in text:
         return 'REMASTER'

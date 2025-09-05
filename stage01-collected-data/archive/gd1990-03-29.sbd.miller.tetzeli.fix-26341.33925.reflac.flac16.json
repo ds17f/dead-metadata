@@ -1,13 +1,80 @@
 {
   "identifier": "gd1990-03-29.sbd.miller.tetzeli.fix-26341.33925.reflac.flac16",
-  "title": "Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1990-03-29",
-  "date": "1990-03-29",
-  "venue": "Nassau Veterans Memorial Coliseum",
-  "location": "Uniondale, NY",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1;\nd1t01 - Jack Straw ->\nd1t02 - Bertha\nd1t03 - We Can Run\nd1t04 - Ramble On Rose\nd1t05 - When I Paint My Masterpiece\nd1t06 - Bird Song ->\nd1t07 - The Promised Land\n\nSet 2:\nd2t01 - Eyes Of The World ->\nd2t02 - Estimated Prophet ->\nd2t03 - Dark Star ->\nd2t04 - Drums ->\nd3t01 - Space ->\nd3t02 - Dark Star ->\nd3t03 - The Wheel ->\nd3t04 - Throwing Stones ->\nd3t05 - Turn On Your Lovelight\n\nEncore:\nd3t06 - Knockin' On Heaven's Door",
+  "raw_metadata": {
+    "identifier": "gd1990-03-29.sbd.miller.tetzeli.fix-26341.33925.reflac.flac16",
+    "title": "Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1990-03-29",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1;\nd1t01 - Jack Straw ->\nd1t02 - Bertha\nd1t03 - We Can Run\nd1t04 - Ramble On Rose\nd1t05 - When I Paint My Masterpiece\nd1t06 - Bird Song ->\nd1t07 - The Promised Land\n\nSet 2:\nd2t01 - Eyes Of The World ->\nd2t02 - Estimated Prophet ->\nd2t03 - Dark Star ->\nd2t04 - Drums ->\nd3t01 - Space ->\nd3t02 - Dark Star ->\nd3t03 - The Wheel ->\nd3t04 - Throwing Stones ->\nd3t05 - Turn On Your Lovelight\n\nEncore:\nd3t06 - Knockin' On Heaven's Door",
+    "date": "1990-03-29",
+    "year": "1990",
+    "publicdate": "2008-05-22 14:08:47",
+    "addeddate": "2008-05-09 03:08:18",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2008-05-22 14:13:06",
+      "2008-05-22 17:30:53",
+      "2008-11-12 05:13:20",
+      "2008-12-19 17:59:38",
+      "2008-12-19 18:09:27",
+      "2010-05-28 05:58:37",
+      "2010-05-28 13:23:31",
+      "2010-09-20 17:51:19",
+      "2010-09-20 18:03:44"
+    ],
+    "venue": "Nassau Veterans Memorial Coliseum",
+    "coverage": "Uniondale, NY",
+    "source": "fix of shnid = 26341",
+    "transferer": "Bill Tetzeli",
+    "runtime": "151:05",
+    "md5s": "6870e8e1fd865c37ed056fb871f82bb4 *gd90-03-29d1t01.flac\r\nba6d989583e83b444f924a2fc45e2b61 *gd90-03-29d1t02.flac\r\na752388e479654395c0101fd052de315 *gd90-03-29d1t03.flac\r\n5da73852685895d845f28a2cf89ae6c4 *gd90-03-29d1t04.flac\r\nae4d8b133b430106fc0cdd435908dd4b *gd90-03-29d1t05.flac\r\nb1fa6bdd5d050bee60db2c705ed3588e *gd90-03-29d1t06.flac\r\n2b4fe00bed296abe7b155e18a4816d62 *gd90-03-29d1t07.flac\r\nb3ca384d5179a1d035d1cee0111b4cd7 *gd90-03-29d2t01.flac\r\nedce9a5d01ec16e33702b0f1b0babfa6 *gd90-03-29d2t02.flac\r\n6122f28ad72f09a5bf2c066fa5bd2253 *gd90-03-29d2t03.flac\r\ncb91e8eedf16a7d79f53eb51e39d5e52 *gd90-03-29d2t04.flac\r\n06a00e6fb95f9151182bb5833473dbee *gd90-03-29d3t01.flac\r\n73c76354135beea7e181ef99e9817715 *gd90-03-29d3t02.flac\r\n17612fe7072b86b3711fae43e2bde02f *gd90-03-29d3t03.flac\r\ne51d931453cca09faa94b342168c6e71 *gd90-03-29d3t04.flac\r\n274ddbc7336cc55f562f991da73384b0 *gd90-03-29d3t05.flac\r\n1a964e78a7723565da282192c25b0b6b *gd90-03-29d3t06.flac",
+    "notes": "At first I wasn't going to fix this because there was no overlap between CDs 2 and 3, but then on a faint hope I went to archive.org looking for a suitable AUD for patch material; sure enough, I very tasty purported FOB of set 2 is sitting there, ripe for the download.  I say purported because it's extremely clean, and per my ears and comments both on archive and etree it's most likely a board or matrix.  The only flaw is Branford is either very low or missing entirely during space, where in the Miller seed he's very prominent.\n\nI used this source to patch in about 15 seconds of missing space between the end of CD 2 and the beginning of CD 3 (1:06-1:20 on the new d3t01) using CE Pro.  Shntool was used to correct resulting SBEs and the SHNs were converted to FLAC (I was going to reconvert them back to seekable shns as they were originally, but after reading about the problems some people have with them I decided on the flac route).",
+    "backup_location": "ia903601_35",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "Branford and the boys bring their \"A\" game! Jazz meets Dead with astounding results. This recording gets my vote as the best soundboard of all the 3-29-90's posted on the Archive. Simply amazing! For the best in latter-day Dead, listen to:\n7-2-89  Foxboro\n7-7-89  Giants\n10-9-89 Hampton\n3-29-90 Nassau",
+      "reviewtitle": "Best sounding board of 3-29-90",
+      "reviewer": "Sir-Mix-Alot",
+      "reviewdate": "2009-03-31 17:46:46",
+      "createdate": "2009-03-31 15:54:44",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "I was going to say the Charlie Miller SBD was the one, but I guess this contains a slight fix to that otherwise identical one.  So this is my favorite of the straight soundboard mixes of this night.",
+      "reviewtitle": "my favorite version (soundboard only) of this show",
+      "reviewer": "samstein66",
+      "reviewdate": "2010-03-29 20:54:50",
+      "createdate": "2010-03-29 20:54:50",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "I am floored! This is a simply outstanding show... especially from Estimated through The Wheel. This is some of the most experimental, hard jazz material I've ever heard from the Dead... and I've been listening since 1976. Aside from Jerry's voice being a wee bit rough (and a lower pitch than when he was younger), this show could easily have come from the early 70's... except that it has this tenacious, driving drone through music... especially Eyes. This one is a must!\n\nAnd BTW - The sound is flipping phenomenal... thank you!",
+      "reviewtitle": "Is This Really 90's Show?",
+      "reviewer": "aybesea69",
+      "reviewdate": "2013-06-24 12:16:15",
+      "createdate": "2013-06-24 12:16:15",
+      "stars": "5"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1952,31 +2019,6 @@
       "private": "true"
     }
   ],
-  "reviews": [
-    {
-      "stars": 5.0,
-      "review_text": "Best sounding board of 3-29-90 Branford and the boys bring their \"A\" game! Jazz meets Dead with astounding results. This recording gets my vote as the best soundboard of all the 3-29-90's posted on the Archive. Simply amazing! For the best in latter-day Dead, listen to:\n7-2-89  Foxboro\n7-7-89  Giants\n10-9-89 Hampton\n3-29-90 Nassau",
-      "date": "2009-03-31 17:46:46"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "my favorite version (soundboard only) of this show I was going to say the Charlie Miller SBD was the one, but I guess this contains a slight fix to that otherwise identical one.  So this is my favorite of the straight soundboard mixes of this night.",
-      "date": "2010-03-29 20:54:50"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "Is This Really 90's Show? I am floored! This is a simply outstanding show... especially from Estimated through The Wheel. This is some of the most experimental, hard jazz material I've ever heard from the Dead... and I've been listening since 1976. Aside from Jerry's voice being a wee bit rough (and a lower pitch than when he was younger), this show could easily have come from the early 70's... except that it has this tenacious, driving drone through music... especially Eyes. This one is a must!\n\nAnd BTW - The sound is flipping phenomenal... thank you!",
-      "date": "2013-06-24 12:16:15"
-    }
-  ],
-  "rating": 2.0,
-  "review_count": 3,
-  "confidence": 0.6,
-  "collection_timestamp": "2025-08-13T04:12:35.002039",
-  "raw_rating": 5.0,
-  "distribution": {
-    "5": 3
-  },
-  "high_ratings": 3,
-  "low_ratings": 0
+  "normalized_date": "1990-03-29",
+  "collection_timestamp": "2025-08-26T15:55:23.420919"
 }

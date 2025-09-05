@@ -1,13 +1,44 @@
 {
   "identifier": "gd1991-03-27.sbd.harrison-braverman.ladner.10310.shnf",
-  "title": "Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1991-03-27",
-  "date": "1991-03-27",
-  "venue": "Nassau Veterans Memorial Coliseum",
-  "location": "Uniondale, NY",
-  "source_type": "UNKNOWN",
-  "lineage": "sbefix of shnid 9405",
-  "taper": "",
-  "description": "Set 1\n\nHell In A Bucket \nCold Rain And Snow \nNew Minglewood Blues \nRow Jimmy \nMama Tried \nMaggie's Farm \nLoose Lucy \nPicasso Moon \nReuben And Cherise \n\nSet 2\n\nScarlet Begonias ->\nFire On The Mountain \nEstimated Prophet \nUncle John's Band \nDrums ->\nSpace ->\nAll Along The Watchtower \nStella Blue \nSugar Magnolia \n\nEncore\nBox Of Rain",
+  "raw_metadata": {
+    "identifier": "gd1991-03-27.sbd.harrison-braverman.ladner.10310.shnf",
+    "title": "Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1991-03-27",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nHell In A Bucket \nCold Rain And Snow \nNew Minglewood Blues \nRow Jimmy \nMama Tried \nMaggie's Farm \nLoose Lucy \nPicasso Moon \nReuben And Cherise \n\nSet 2\n\nScarlet Begonias ->\nFire On The Mountain \nEstimated Prophet \nUncle John's Band \nDrums ->\nSpace ->\nAll Along The Watchtower \nStella Blue \nSugar Magnolia \n\nEncore\nBox Of Rain",
+    "date": "1991-03-27",
+    "year": "1991",
+    "subject": "Soundboard;Chris Ladner;Rob Harrison;Peter Braverman",
+    "publicdate": "2009-04-23 20:35:55",
+    "addeddate": "2009-04-23 02:55:03",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2009-04-23 20:41:36",
+      "2009-04-26 15:23:01",
+      "2009-04-26 15:36:59"
+    ],
+    "venue": "Nassau Veterans Memorial Coliseum",
+    "coverage": "Uniondale, NY",
+    "source": "Soundboard",
+    "lineage": "sbefix of shnid 9405",
+    "transferer": "Chris Ladner",
+    "md5s": "be0a21641343712c6bd958acdbbda77b *gd91-03-27d1t01.shn\r\n3dd9f436e22caf0202dcdb6f0df2b11d *gd91-03-27d1t02.shn\r\n0bfe9cba5a2e7fc99f14b617a5475e57 *gd91-03-27d1t03.shn\r\nc660bed9b5f915880eed1588a1b0c0f3 *gd91-03-27d1t04.shn\r\ndf4033d6e16785dd735415c7d0b9ca50 *gd91-03-27d1t05.shn\r\n70677b5b8201a3c14e54395b4bc7e607 *gd91-03-27d1t07.shn\r\n058332defebc69e0d1e6262508235765 *gd91-03-27d1t08.shn\r\n0cf0fa1a51890ab8638fc2e28a71f5db *gd91-03-27d1t06.shn\r\n0a9bf3e9c7cd3f663a4997fe5c30ab5a *gd91-03-27d1t09.shn\r\n40c867392f8e152c6b1b1d7e81e83180 *gd91-03-27d2t01.shn\r\nb5078d4438bc98cbc397f56a41cdef6b *gd91-03-27d2t02.shn\r\na3f5a11d568ac8f368ce295084960079 *gd91-03-27d2t03.shn\r\n76014bd949911c8b75c33af07924bf5e *gd91-03-27d2t04.shn\r\n95abead81956962dbbc7584a34e1a77c *gd91-03-27d2t05.shn\r\n444a839f47f0ad2743c30a109636bfa4 *gd91-03-27d3t01.shn\r\na384b9d70e7d00174d1f3a19583a0a8f *gd91-03-27d3t02.shn\r\n8fb6cd885290501f7a4a8882c63fa43b *gd91-03-27d3t03.shn\r\n1fad514b47dca957891da15e8ab07623 *gd91-03-27d3t04.shn\r\n95a98d5dbfe8a8c972becb1aea5fe532 *gd91-03-27d3t05.shn",
+    "notes": "Quarter-second dropout at 3:45 of Fire.\nCassette flip between drums and space; I'm guessing not much is missing.\n*Box of Rain is from an audience source: AUD:DAT> CD> SHN\nThanks to Rob Harrison for the discs, and to eD for the encore. \nNormalized and seeded by Peter Braverman (braverman@earthlink.net), May 2002.\n\n** REPAIR NOTES **\nThere were sector boundary errors on d1t09, all of disc 2, and the last 2 tracks of disc 3.  To correct these, the SHN's were converted to WAV and then the resulting wav's were grouped by set (d1 and d2+d3) and fixed using the command \"shntool fix *.wav\" run on all of the wav files for each set.  Shntool 1.01 was used.  Shorten 1.4 was used to make SHN's from the wav's.  \n\nI also removed the dropout from d2t02 using soundforge 5.  The resulting fixed wavs were compressed back to SHN and new md5's were made - Chris L.",
+    "backup_location": "ia903603_1",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1256,13 +1287,6 @@
       "width": "0"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T04:46:49.892329",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1991-03-27",
+  "collection_timestamp": "2025-08-26T16:33:01.899452"
 }

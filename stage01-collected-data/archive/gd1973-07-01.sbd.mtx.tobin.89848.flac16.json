@@ -1,13 +1,45 @@
 {
   "identifier": "gd1973-07-01.sbd.mtx.tobin.89848.flac16",
-  "title": "Grateful Dead Live at Universal Amphitheatre on 1973-07-01",
-  "date": "1973-07-01",
-  "venue": "Universal Amphitheatre",
-  "location": "Universal City, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1 (only)\nd1t01 - Mississippi Half-Step Uptown Toodleloo\nd1t02 - Me And My Uncle\nd1t03 - Sugaree\nd1t04 - The Race Is On\nd1t05 - Brown Eyed Women\nd1t06 - Looks Like Rain\nd1t07 - Don't Ease Me In\nd1t08 - Big River\nd1t09 - China Cat Sunflower >\nd1t10 - I Know You Rider\nd1t11 - Around And Around",
+  "raw_metadata": {
+    "identifier": "gd1973-07-01.sbd.mtx.tobin.89848.flac16",
+    "title": "Grateful Dead Live at Universal Amphitheatre on 1973-07-01",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1 (only)\nd1t01 - Mississippi Half-Step Uptown Toodleloo\nd1t02 - Me And My Uncle\nd1t03 - Sugaree\nd1t04 - The Race Is On\nd1t05 - Brown Eyed Women\nd1t06 - Looks Like Rain\nd1t07 - Don't Ease Me In\nd1t08 - Big River\nd1t09 - China Cat Sunflower >\nd1t10 - I Know You Rider\nd1t11 - Around And Around",
+    "date": "1973-07-01",
+    "year": "1973",
+    "subject": "Soundboard;Matrix;Kevin Tobin",
+    "publicdate": "2008-04-30 14:57:19",
+    "addeddate": "2008-04-29 14:33:04",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Universal Amphitheatre",
+    "coverage": "Universal City, CA",
+    "source": "SBD + AUD Matrix 2 Source Mix (60%-AUD/40%-SBD)",
+    "transferer": "Kevin Tobin",
+    "runtime": "65",
+    "md5s": "4ed06ab16d10109faffabd54569e826a *gd1973-07-01d1t01.flac\r\n1c5fa16d6da67da58c7b9bb54025918e *gd1973-07-01d1t02.flac\r\nddbe34be5bc7163aafbfae832e5d4d0c *gd1973-07-01d1t03.flac\r\n0dc1f3482a7026b93cdf7ef7364f27c9 *gd1973-07-01d1t04.flac\r\n7085dfb59df792b7588aa6107d745b90 *gd1973-07-01d1t05.flac\r\n8d4b1601a26b6d8453446c6a17d90be6 *gd1973-07-01d1t06.flac\r\nb131f79849485e9b6ebe752bb6de5d46 *gd1973-07-01d1t07.flac\r\nc146e4b089ecd79123caeae594665658 *gd1973-07-01d1t08.flac\r\na94436cb41261d223615928c826b0501 *gd1973-07-01d1t09.flac\r\n107a392cf95260fc6cd0000d048a45d1 *gd1973-07-01d1t10.flac\r\n6ceab61cfe6903a8ed409e24e932ec3b *gd1973-07-01d1t11.flac",
+    "notes": "SBD (shnid = 30362)\nSource: SBD > ? > Ye Olde Cassette Tape\nPatches: AUD, Sony ECM-22P mics > Sony 700 MR > R1 > DAT > CDR > LAMA\n\nNotes:\n\nThe tape was very old and had numerous minor problems. There's a low-level \n\"bump\" noise throughout, which sounds like a reel malfunction. It's only \nnoticeable in the spaces between songs. There were many small drop-outs, \nsome of which I was able to repair with Soundforge. There is noticeable \ntape damage in a few spots: the final 25 seconds of Me & My Uncle, the \nfirst 3 seconds of Sugaree, the first 5 seconds of Looks Like Rain, and \nfrom 1:57 to 2:01 of China Cat. Split the tracks with CD-Wave, verified \nSBE-OK with Trader's Little Helper, and lossless compression with FLAC \nFrontend.\n\nI patched in the audience source from LAMA in the following spots:\nBrown Eyed Women, from 4:00 to 4:08\nBig River, from 4:31 to 4:38\nI Know You Rider, from 3:06 to 5:22\nAround & Around, all of it (5:26)\n\nAUD (shnid = 88528)\nSource: FOB Audience Recording\nMedia: MAR = Unknown, R1 = Maxell UD 35-90\nLineage: Sony ECM-22P > Sony TC-770 > MAR > ?? [Dolby Encode] > R1\nTransfer: R1 > Technics RS-1506 > TEAC AN-300 [Dolby Decode] > Grace Design Lunatec V3 [Pre-Only] > Korg MR-1000 > DSF [1-bit 5.6448 MHz Stereo] > Korg AudioGate > WAV [24/96]\nTaped by: Harv Kaslow and Craig Todd\nMAR > R1 Copy by: Rob Bertrando\nR1 Provided by: Barry Glassberg\nTransfer by: A. Egert\nMastering by: J. Waddell\n\nMastering Notes:\n-- Edited, mastered and downsampled to 16/44.1 on the GEMS Edit Station.\n---------------------------------------------------------\nTech Notes\n\nSHNs were decoded to wave and Audition 3.0 was used to reassemble the tracks back to 1 long wave.  Audition 3.0 was used to align & synch the SBD & AUD sources.  Audition 3.0 used to adjust the volume for AUDs, matrix/CTR and LFE channels.  Surcode CD Pro DTS was used to encode to DTS.\n- Mixed by kevtobin@yahoo.com\n- FLAC conversion 02-FEB-2008  \n---------------------------------------------------------\nMultitrack Mixdown Settings\n\nSET ONE\n\nStereo Matrix\nSBD -2.5\nAUD 0\n---------------------------------------------------------\nAudio Patches:\n\n1) At the beginning of soundboard, 20.316 seconds were missing from the audience source and was filled in with audio from the soundboard source.\n\n2) Between Mississippi Half Step and Me and My Uncle, 1 minute and 00.718 seconds were missing from the audience source and was filled in with audio from the soundboard source. \n\n3) Between Sugaree and The Race is On, 40.917 seconds were missing from the audience source and was filled in with audio from the soundboard source. \n\n4) Between The Race is On and Brown Eyed Women, 51.316 seconds were missing from the audience source and was filled in with audio from the soundboard source. \n\n5) At the end of Brown Eyed Women, 07.644 seconds were missing from the soundboard  source and was filled in with audio from the audience source.\n\n6) Between Brown Eyed Women and Looks Like Rain, 14.419 seconds were missing from the soundboard source and was filled in with audio from the audience source. \n\n7) Between Don't Ease Me In and Big River, 04.761 seconds were missing from the soundboard source and was filled in with audio from the audience source. \n\n8) Between Big River and China Cat Sunflower, 11.806 seconds were missing from the soundboard source and was filled in with audio from the audience source. \n\n9) After 3 minutes into I Know You Rider the soundboard ends, 7 minutes and 43.360 seconds were missing from the soundboard source and was filled in with audio from the audience source. \n\nBrokedown House Production",
+    "updatedate": "2008-04-30 15:16:42",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_33",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "Has an early gen.tape from a reel to reel master of this show that was awesome quality...lost it someplace down the line; killer china-rider, great old noodlely, groovy, Europe 72 sound...",
+      "reviewtitle": "GREAT CHINA/RIDER/ GREAT DEAD",
+      "reviewer": "73vw",
+      "reviewdate": "2008-06-12 10:15:37",
+      "createdate": "2008-06-12 10:15:37",
+      "stars": "4"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1287,21 +1319,6 @@
       "private": "true"
     }
   ],
-  "reviews": [
-    {
-      "stars": 4.0,
-      "review_text": "GREAT CHINA/RIDER/ GREAT DEAD Has an early gen.tape from a reel to reel master of this show that was awesome quality...lost it someplace down the line; killer china-rider, great old noodlely, groovy, Europe 72 sound...",
-      "date": "2008-06-12 10:15:37"
-    }
-  ],
-  "rating": 1.2,
-  "review_count": 1,
-  "confidence": 0.2,
-  "collection_timestamp": "2025-08-12T21:23:49.285989",
-  "raw_rating": 4.0,
-  "distribution": {
-    "4": 1
-  },
-  "high_ratings": 1,
-  "low_ratings": 0
+  "normalized_date": "1973-07-01",
+  "collection_timestamp": "2025-08-26T07:19:00.520124"
 }

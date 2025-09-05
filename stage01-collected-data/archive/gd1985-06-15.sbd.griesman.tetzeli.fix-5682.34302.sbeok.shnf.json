@@ -1,13 +1,37 @@
 {
   "identifier": "gd1985-06-15.sbd.griesman.tetzeli.fix-5682.34302.sbeok.shnf",
-  "title": "Grateful Dead Live at Greek Theatre - University of California on 1985-06-15",
-  "date": "1985-06-15",
-  "venue": "Greek Theatre - University of California",
-  "location": "Berkeley, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "? > CD-R > EAC > CD Wave > MKW > SHN",
-  "taper": "",
-  "description": "Set 1\n\nTouch Of Grey \nNew Minglewood Blues \nFriend Of The Devil \nCassidy \nDupree's Diamond Blues \nMe And My Uncle ->\nBig River ->\nMight As Well \n\nSet 2\n\nChina Cat Sunflower ->\nI Know You Rider \nLost Sailor ->\nSaint Of Circumstance \nTerrapin Station ->\nDrums ->\nSpace ->\nThe Wheel ->\nGimme Some Lovin' ->\nThrowing Stones ->\nNot Fade Away \n\nEncore\nShe Belongs To Me \nU.S. Blues",
+  "raw_metadata": {
+    "identifier": "gd1985-06-15.sbd.griesman.tetzeli.fix-5682.34302.sbeok.shnf",
+    "title": "Grateful Dead Live at Greek Theatre - University of California on 1985-06-15",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nTouch Of Grey \nNew Minglewood Blues \nFriend Of The Devil \nCassidy \nDupree's Diamond Blues \nMe And My Uncle ->\nBig River ->\nMight As Well \n\nSet 2\n\nChina Cat Sunflower ->\nI Know You Rider \nLost Sailor ->\nSaint Of Circumstance \nTerrapin Station ->\nDrums ->\nSpace ->\nThe Wheel ->\nGimme Some Lovin' ->\nThrowing Stones ->\nNot Fade Away \n\nEncore\nShe Belongs To Me \nU.S. Blues",
+    "date": "1985-06-15",
+    "year": "1985",
+    "subject": "Soundboard;Bill Tetzeli",
+    "publicdate": "2008-10-18 05:27:29",
+    "addeddate": "2008-10-18 01:51:08",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Greek Theatre - University of California",
+    "coverage": "Berkeley, CA",
+    "source": "SBD > ?",
+    "lineage": "? > CD-R > EAC > CD Wave > MKW > SHN",
+    "transferer": "Bill Tetzeli",
+    "runtime": "148:04.68",
+    "md5s": "5c115b1d9115635db85b9cd988989d1b *gd1985-06-15d1t01.shn\r\n67c6f3605bc77f098895028a8fe293c1 *gd1985-06-15d1t02.shn\r\nf68383672e51bf8a4d61bb3e58f3a687 *gd1985-06-15d1t03.shn\r\n8e8edec0f063d44820d0942aae95973e *gd1985-06-15d1t04.shn\r\n7b71a8e4b2cfdf13c1301e23d4deecb1 *gd1985-06-15d1t05.shn\r\n691b1c75ec880096a8f8febe0362291f *gd1985-06-15d1t06.shn\r\n4d86334c1f57f4783debcd5b7894e905 *gd1985-06-15d1t07.shn\r\n702d923c2739482e9a6108836308acda *gd1985-06-15d1t08.shn\r\nfd91f84a2a44ef42e245dcc21395851e *gd1985-06-15d2t01.shn\r\n7844e1cff41c302b6e805959ea17d52e *gd1985-06-15d2t02.shn\r\nd965feab06a41dd356ef8a16f96690dd *gd1985-06-15d2t03.shn\r\n3d518ffc2b788f2fce44aee836b0b6de *gd1985-06-15d2t04.shn\r\n062552ab86593fa95dc43f37a4c148aa *gd1985-06-15d2t05.shn\r\n28a55d9bcb2cb16cb249494741672d04 *gd1985-06-15d2t06.shn\r\n3e7a3f8a2b97b7e509b8b909ea39a252 *gd1985-06-15d3t01.shn\r\na0e123fa40948862826c89fe9787a44c *gd1985-06-15d3t02.shn\r\na91c935a9b9e4fc0295ecb3225a4964c *gd1985-06-15d3t03.shn\r\n2f397c5f7a7d7e7ec7bb612d273651e9 *gd1985-06-15d3t04.shn\r\n008f48b3eb54997a4b6a734081d6894f *gd1985-06-15d3t05.shn\r\ne5db43e9a5ca427da0ffd14564041c79 *gd1985-06-15d3t06.shn\r\n9ff4db307189a8ed11ed554539da5b13 *gd1985-06-15d3t07.shn",
+    "notes": "Fix of GDLive download source (shnid 5682).  Overlap between CDs 2 and 3 was eliminated in Cool Edit 2000, allowing for a seamless transition between the two - perfect for playing on hard drive or recording to DAT or DVD audio.  The dropout between TStones and NFA was patched using Doug Oade's excellent AUD source.  The AUD was pitch adjusted in CE2K, then the splice was done with fades to ease the transition using DDClip.  Wavmerge was used to merge fixed d2t06/d3t01 combo file with all succeeding files on CD 3 (including the patched TS>NFA), then retracked in CDWave to compensate for \"ripple effect\" on sector boundaries from deleting overlap between discs 2 and 3.\n\nNote: There are 3 loud pops at the beginning of Throwing Stones, most likely from Phil's amp.  Although I originally softened them in Cool Edit, I ended up pasting that section back in from the original GDLive download (being extremely careful to match the beginning and end points in both sources at the sample level - that section is now restored exactly as it was before I touched it).  The pops also appear on the Oade recording, so even though they're annoying they are part of what was heard at the concert and not physically hurtful to ears or equipment, so it should be left as is. - 4/26/06\n\nKnown errors:\nMinor dropout before d2t05.\n[Dropout between d3t04 & d3t05.]-patched",
+    "updatedate": "2008-10-18 05:31:50",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903602_16",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1632,13 +1656,6 @@
       "width": "0"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T01:35:28.293226",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1985-06-15",
+  "collection_timestamp": "2025-08-26T12:47:53.665601"
 }

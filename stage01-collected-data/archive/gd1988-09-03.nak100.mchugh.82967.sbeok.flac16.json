@@ -1,13 +1,44 @@
 {
   "identifier": "gd1988-09-03.nak100.mchugh.82967.sbeok.flac16",
-  "title": "Grateful Dead Live at Capital Centre on 1988-09-03",
-  "date": "1988-09-03",
-  "venue": "Capital Centre",
-  "location": "Landover , MD",
-  "source_type": "UNKNOWN",
-  "lineage": "MC > standalone TDK DA-5800  CD recorder, via Nak BX-300 cassette deck, as long multi-song tracks. Transfer by Dave  Hanscom (dehanscom@hotmail.com) Track-splitting, burning, etc.: EAC to extract to hard drive, CD Wave for  splitting resulting .wav files, mkw to encode  to shn. This is done by Bzl (bzlrbi@aol.com) > flac",
-  "taper": "Boyd McHugh",
-  "description": "Set 1\n\nLet The Good Times Roll \nFeel Like A Stranger ->\nFranklin's Tower ->\nLittle Red Rooster ->\nPeggy-O \nMe And My Uncle ->\nBig River \nBird Song \n\nSet 2\n\nBox Of Rain \nVictim Or The Crime ->\nFoolish Heart ->\nMan Smart, Woman Smarter ->\nEyes Of The World ->\nDrums ->\nSpace ->\nGoin' Down The Road Feeling Bad ->\nI Need A Miracle ->\nMorning Dew \n\nEncore\nOne More Saturday Night \nRipple",
+  "raw_metadata": {
+    "identifier": "gd1988-09-03.nak100.mchugh.82967.sbeok.flac16",
+    "title": "Grateful Dead Live at Capital Centre on 1988-09-03",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nLet The Good Times Roll \nFeel Like A Stranger ->\nFranklin's Tower ->\nLittle Red Rooster ->\nPeggy-O \nMe And My Uncle ->\nBig River \nBird Song \n\nSet 2\n\nBox Of Rain \nVictim Or The Crime ->\nFoolish Heart ->\nMan Smart, Woman Smarter ->\nEyes Of The World ->\nDrums ->\nSpace ->\nGoin' Down The Road Feeling Bad ->\nI Need A Miracle ->\nMorning Dew \n\nEncore\nOne More Saturday Night \nRipple",
+    "date": "1988-09-03",
+    "year": "1988",
+    "subject": "Boyd McHugh;bzl",
+    "publicdate": "2008-04-22 16:05:36",
+    "addeddate": "2008-04-22 05:58:15",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Capital Centre",
+    "coverage": "Landover , MD",
+    "source": "NAK-100s > Sony D-5, using Dolby B > Maxell MX- 90s > recorded by Boyd McHugh  from tapers' section(bfmch@aol.com)",
+    "lineage": "MC > standalone TDK DA-5800  CD recorder, via Nak BX-300 cassette deck, as long multi-song tracks. Transfer by Dave  Hanscom (dehanscom@hotmail.com) Track-splitting, burning, etc.: EAC to extract to hard drive, CD Wave for  splitting resulting .wav files, mkw to encode  to shn. This is done by Bzl (bzlrbi@aol.com) > flac",
+    "taper": "Boyd McHugh",
+    "transferer": "Dave  Hanscom and bzl",
+    "md5s": "421544db02c078e744d95f38bd59fdd6 *gd1988-09-03d1t01.flac\r\n31cb63703698ce1fa936946b6e823f96 *gd1988-09-03d1t02.flac\r\n775dc1b543cad2256bac0c1e4d21b42c *gd1988-09-03d1t03.flac\r\n1d2e6255f9dcecb49914e509ca833d5a *gd1988-09-03d1t04.flac\r\n110da487b4eed2223740b47e44518779 *gd1988-09-03d1t05.flac\r\n5021afdbd108d2ead572299dc3b6f445 *gd1988-09-03d1t06.flac\r\n51fa6be2d069030930bbe3f8421f0d52 *gd1988-09-03d1t07.flac\r\n4477d9dd892f548dc5d920127712c9fc *gd1988-09-03d1t08.flac\r\na65066e3f3b8fcfedcb554e6f74f43af *gd1988-09-03d2t01.flac\r\n0fe45979acf4f5f98acca31cfd9edec6 *gd1988-09-03d2t02.flac\r\n584c25e5d7521d0ea8ac978c11192fc6 *gd1988-09-03d2t03.flac\r\n36cca61673b044bd347209d8ab5d9a24 *gd1988-09-03d2t04.flac\r\n2faccdca47f71ebbd24b889faf794c1b *gd1988-09-03d2t05.flac\r\n6b5de27d6d33448de716a4c2ffe2b56b *gd1988-09-03d2t06.flac\r\n06a4fb52ca0fd311eab5d9d3cd5111be *gd1988-09-03d2t07.flac\r\n1c98c093c188f25acba69c1ce93a2da2 *gd1988-09-03d2t08.flac\r\nb6bfbd353f926a32dcfd2a6566ca9e79 *gd1988-09-03d2t09.flac\r\n856f0476214346bee5050be66b69e00a *gd1988-09-03d2t10.flac\r\n838eb5971f0f704cd4b86e6f20ce388e *gd1988-09-03d2t11.flac\r\nbc74a1318fc55e52d26754381158c21f *gd1988-09-03d2t12.flac\r\n090bcd23c64b6a7d59c08ee9c7ca498a *gd1988-09-03d2t13.flac",
+    "notes": "left channel levels vary for first ~40 secs of Box.\n\nThere is a tape flip before Bird Song. No music missing.\nThere is a tape flip at 5:21.03 of Space which, after editing, is not perceptible to the human ear, at least not to mine!\n\nI received this show in .shn format and converted them to .flac with shntool (shntool conv -o flac *.shn) prior to circulating.  The files were renamed to Etree standards.  Trader's Little Helper was used to generate checksums.  Shntool was used to verify that all tracks were cut on sector boundaries.",
+    "updatedate": "2008-04-22 16:11:04",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_32"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "this was my first show. I was stationed at Bethesda Naval Hospital at the time. \n\nI was blown away. I heard about the make a wish fella and the Ripple request years later. Up to that point I always thought that was the boys welcome to the family to me. LOL. Everyone cried when they pulled out Ripple. It was beautiful. Such an awesome show. ",
+      "reviewtitle": "Wonderful show",
+      "reviewer": "Festitraveler",
+      "reviewdate": "2015-11-16 01:32:03",
+      "createdate": "2015-11-16 01:32:03",
+      "stars": "5"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2314,21 +2345,6 @@
       "sha1": "493a5d966905841612f39e62a111007d0f915707"
     }
   ],
-  "reviews": [
-    {
-      "stars": 5.0,
-      "review_text": "Wonderful show this was my first show. I was stationed at Bethesda Naval Hospital at the time. \n\nI was blown away. I heard about the make a wish fella and the Ripple request years later. Up to that point I always thought that was the boys welcome to the family to me. LOL. Everyone cried when they pulled out Ripple. It was beautiful. Such an awesome show. ",
-      "date": "2015-11-16 01:32:03"
-    }
-  ],
-  "rating": 1.5,
-  "review_count": 1,
-  "confidence": 0.2,
-  "collection_timestamp": "2025-08-13T03:17:50.071771",
-  "raw_rating": 5.0,
-  "distribution": {
-    "5": 1
-  },
-  "high_ratings": 1,
-  "low_ratings": 0
+  "normalized_date": "1988-09-03",
+  "collection_timestamp": "2025-08-26T14:53:46.981772"
 }

@@ -1,13 +1,44 @@
 {
   "identifier": "gd1972-09-26.partial-sbd-patched.powell-ladner.25281.shnf",
-  "title": "Grateful Dead Live at Stanley Theatre on 1972-09-26",
-  "date": "1972-09-26",
-  "venue": "Stanley Theatre",
-  "location": "Jersey City, NJ",
-  "source_type": "UNKNOWN",
-  "lineage": "See info file",
-  "taper": "",
-  "description": "Set 1\n\nThe Promised Land  \nCold Rain And Snow  \nMe And My Uncle  \nHe's Gone  \nMexicali Blues  \nDeal  \nCumberland Blues \nBlack Throated Wind  \nBird Song  \nBig River  \nSugaree \nAround And Around  \nCasey Jones  ()\n\nSet 2\n\nBertha \nPlaying In The Band  () \nYou Win Again  () \nEl Paso \nMississippi Half-Step Uptown Toodeloo  \nGreatest Story Ever Told \nTomorrow Is Forever  \nTruckin' ->\nThe Other One Jam ->\nIt's All Over Now, Baby Blue  \nSugar Magnolia \n\nEncore\nMiles Tuning  () ->\nJohnny B. Goode  ()",
+  "raw_metadata": {
+    "identifier": "gd1972-09-26.partial-sbd-patched.powell-ladner.25281.shnf",
+    "title": "Grateful Dead Live at Stanley Theatre on 1972-09-26",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nThe Promised Land  \nCold Rain And Snow  \nMe And My Uncle  \nHe's Gone  \nMexicali Blues  \nDeal  \nCumberland Blues \nBlack Throated Wind  \nBird Song  \nBig River  \nSugaree \nAround And Around  \nCasey Jones  ()\n\nSet 2\n\nBertha \nPlaying In The Band  () \nYou Win Again  () \nEl Paso \nMississippi Half-Step Uptown Toodeloo  \nGreatest Story Ever Told \nTomorrow Is Forever  \nTruckin' ->\nThe Other One Jam ->\nIt's All Over Now, Baby Blue  \nSugar Magnolia \n\nEncore\nMiles Tuning  () ->\nJohnny B. Goode  ()",
+    "date": "1972-09-26",
+    "year": "1972",
+    "subject": "Soundboard;Chris Ladner;Jim Powell",
+    "publicdate": "2008-02-06 00:09:09",
+    "addeddate": "2008-02-05 02:51:18",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Stanley Theatre",
+    "coverage": "Jersey City, NJ",
+    "source": "Splice upgrade - see info file for details",
+    "lineage": "See info file",
+    "transferer": "Jim Powell and Chris Ladner",
+    "md5s": "cdb5eec0ffae156da535cefbeb6c784f *gd72-09-26d1t07spliced.shn\r\n9699a09b8b8305db34c25856d8195685 *gd72-09-26d3t01spliced.shn",
+    "notes": "Splice upgrade:\n\nPrimary Source:  SBD (probably sbd>mr>dat>cdr) - http://db.etree.org/shninfo_detail.php?shnid=19198\nSplice source:  MAC > Cx > DAT > WAV >SHN (see below).\nCassette>DAT transfer by J.Powell:  Nakamichi DR-2 cassette deck>Tascam DA-30 Mk II.\nDAT>WAV>SHN transfer by C.Ladner:  Sony PCM-R500 > coaxial S/PIDF > M Audio Audiophile 2496/P4 2.0 GHz > WAV recording/editing (Soundforge 6.0) > tracking (CDWave editor)>sector boundaries confirmed (shntool) > SHN (mkwact).\n\nd1t07 - Cumberland Blues  [06:07]\n           - audience splice patches the missing gap on the SBD source  from 02:14 - 03:54.\n\nd3t01 - Truckin' > Other One Jam  [34:51]\n           - audience splice patches the missing gap during TOO jam from the SBD source from 21:30 - 28:13.\n\nthe spliced tracks have been renamed d1t07spliced and d3t07 spliced.  the remainder of the tracks from the entire show have md5s that match the primary source above.\n\nTMNSP 7/04.",
+    "updatedate": "2008-02-06 00:11:32",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_22"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "Thanks for filling in the gap guys.A missing minute or so is okay but 6 or 7 minutes makes for an unsatisfactory listen,so this fleshed out a really nice Truckin'->Other One.",
+      "reviewtitle": "adding the splice",
+      "reviewer": "jerlouvis",
+      "reviewdate": "2009-12-14 22:33:13",
+      "createdate": "2009-12-14 22:33:13",
+      "stars": "0"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -226,13 +257,6 @@
       "width": "0"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-12T21:13:59.250450",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1972-09-26",
+  "collection_timestamp": "2025-08-26T07:08:56.900408"
 }

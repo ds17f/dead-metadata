@@ -1,13 +1,61 @@
 {
   "identifier": "gd1980-11-26.sbd.clugston-edited.patched.82278.shnf",
-  "title": "Grateful Dead Live at The Sportatorium on 1980-11-26",
-  "date": "1980-11-26",
-  "venue": "The Sportatorium",
-  "location": "Pembroke Pines, FL",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "1st Set\n1. Alabama Getaway>\n2. GSET\n3. FOTD\n4. On The Road Again\n5. Jackero\n6. Minglewood Blues\n7. IMHBTR\n8. The Race Is On\n9. Althea>\n10.Lost Sailor>\n11.Saint of Circumstance>\n12.Deal\n\n2nd Set\n1. CR&S\n2. Samson & Delilah\n3. China Cat>\n4. IKYR\n5. Estimated>\n6. Eyes>\n7. Space>\n8. Drums>\n1. Space>\n2. Wharf Rat>\n3. A & A>\n4. Good Lovin'\n\nEncore\n5. Satisfaction",
+  "raw_metadata": {
+    "identifier": "gd1980-11-26.sbd.clugston-edited.patched.82278.shnf",
+    "title": "Grateful Dead Live at The Sportatorium on 1980-11-26",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "1st Set\n1. Alabama Getaway>\n2. GSET\n3. FOTD\n4. On The Road Again\n5. Jackero\n6. Minglewood Blues\n7. IMHBTR\n8. The Race Is On\n9. Althea>\n10.Lost Sailor>\n11.Saint of Circumstance>\n12.Deal\n\n2nd Set\n1. CR&S\n2. Samson & Delilah\n3. China Cat>\n4. IKYR\n5. Estimated>\n6. Eyes>\n7. Space>\n8. Drums>\n1. Space>\n2. Wharf Rat>\n3. A & A>\n4. Good Lovin'\n\nEncore\n5. Satisfaction",
+    "date": "1980-11-26",
+    "year": "1980",
+    "subject": "Live Concert; soundboard; Bill Tetzeli; Jim Wise",
+    "publicdate": "2007-12-16 05:09:44",
+    "addeddate": "2007-12-14 19:42:31",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2007-12-16 05:15:24",
+      "2009-01-04 06:11:52",
+      "2009-01-04 15:02:50"
+    ],
+    "venue": "The Sportatorium",
+    "coverage": "Pembroke Pines, FL",
+    "source": "Master Soundboard Cassette > Cassette > DAT > CDR",
+    "transferer": "Bill Tetzeli",
+    "runtime": "172:37.65",
+    "md5s": "20a4848c56c36e686c5d0a92ed07e280 *gd80-11-26d1t01.shn\r\nc277e8cfa25f14cf9bdd0d54663555fd *gd80-11-26d1t02.shn\r\n3f28abb0fdf22510b28f95b829562c5d *gd80-11-26d1t03.shn\r\n9f9bee04dabec7313ce8046622384e29 *gd80-11-26d1t04.shn\r\n2daacd6be85e4fb065d2d1e26af282d6 *gd80-11-26d1t05.shn\r\nf3a2c85da3c991009dc8bfff7c1709e1 *gd80-11-26d1t06.shn\r\n03cc2ca71c441ea71e9eece874e41724 *gd80-11-26d1t07.shn\r\n4535d11f993a63adbdd66d033254e5d8 *gd80-11-26d1t08.shn\r\n6551c2e1c3b4a434239b4c759dad9b49 *gd80-11-26d1t09.shn\r\ncdb29f6cb8bb96312efb4bc31bba8b70 *gd80-11-26d1t10.shn\r\n91280c0d1fafe8147241a4aaa761a93c *gd80-11-26d1t11.shn\r\ndd6dcf19d8142ea79a7137c5295a4ded *gd80-11-26d1t12.shn\r\n96c4f22173f8953c139d1957e27eeb9f *gd80-11-26d2t01.shn\r\n5f70f0a3c7efa5d38d7a2a1da746d7b6 *gd80-11-26d2t02.shn\r\na2b3000a3781e2f12a50c6e2160981ab *gd80-11-26d2t03.shn\r\nb01b91d74afcfd7af95d619ecd437a81 *gd80-11-26d2t04.shn\r\n64cea9ee441f1523db6b15206d387479 *gd80-11-26d2t05.shn\r\n7530cff9313e990d87b19c5912e35767 *gd80-11-26d2t06.shn\r\nbbf5a4aa670e91cd4d80e6a8e1f8dac7 *gd80-11-26d2t07.shn\r\n225ca47f47639fd9ef75aebe3dcecead *gd80-11-26d2t08.shn\r\n36e6c8c3a39d37b1804ec7ba25243ebd *gd80-11-26d3t01.shn\r\nf94fd594eab3d5b842a938c8bbe697bc *gd80-11-26d3t02.shn\r\n34d298c9e567283689ac93224280c309 *gd80-11-26d3t03.shn\r\ne91d6e3403f457eba85af035361fde84 *gd80-11-26d3t04.shn\r\n1ed5b7512b7d95eea0320df2c8293b16 *gd80-11-26d3t05.shn",
+    "notes": "Patch fix of shnid 3380\n\nI patched in the beginnings of It Must Have Been the Roses, Cold Rain and Snow and Eyes of the World using the Jim Wise AUD (shnid 13065), downloaded from LMA.  2 second fades were used.  Resulting SBEs were fixed using shntool.  Because of the heavy crowd presence in the AUD, the transition between sources is a bit rough in the Eyes patch, less so for Roses and CR&S.\n\nMany thanks to Scott Clugston for the main source and to Jim Wise for the patch source.\n\nBill Tetzeli (laptaper@gmail.com)\n7:32 AM 1/29/2007",
+    "backup_location": "ia903601_17",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "Gets better after that. Great versions of It Must Have Been the Roses and The Race Is On (1st electric since 10/19/74) which seem to have new life following the acoustic shows. On The Road Again (1st electric since 12/1/66) is not so tight but the Jack-A-Roe makes up for it. First Satisfaction too! Well played for the time.",
+      "reviewtitle": "Mix Is ROUGH the first two songs",
+      "reviewer": "NYLifer",
+      "reviewdate": "2008-11-26 19:27:14",
+      "createdate": "2008-11-26 19:27:14",
+      "stars": "4"
+    },
+    {
+      "reviewbody": "Onward into the eighties...",
+      "reviewtitle": "bread crumb",
+      "reviewer": "kbmill",
+      "reviewdate": "2015-05-20 15:53:03",
+      "createdate": "2015-05-20 15:53:03",
+      "stars": "0"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1938,21 +1986,6 @@
       "sha1": "9950d0b984d156cc63329710352b2eeea5c8ec06"
     }
   ],
-  "reviews": [
-    {
-      "stars": 4.0,
-      "review_text": "Mix Is ROUGH the first two songs Gets better after that. Great versions of It Must Have Been the Roses and The Race Is On (1st electric since 10/19/74) which seem to have new life following the acoustic shows. On The Road Again (1st electric since 12/1/66) is not so tight but the Jack-A-Roe makes up for it. First Satisfaction too! Well played for the time.",
-      "date": "2008-11-26 19:27:14"
-    }
-  ],
-  "rating": 1.2,
-  "review_count": 1,
-  "confidence": 0.2,
-  "collection_timestamp": "2025-08-12T23:09:52.256438",
-  "raw_rating": 4.0,
-  "distribution": {
-    "4": 1
-  },
-  "high_ratings": 1,
-  "low_ratings": 0
+  "normalized_date": "1980-11-26",
+  "collection_timestamp": "2025-08-26T09:39:09.125895"
 }

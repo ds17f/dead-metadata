@@ -28,13 +28,13 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Optional, Any, Tuple
 import argparse
 import logging
 
 # Add shared module to path
 sys.path.append(str(Path(__file__).parent.parent))
-from shared.models import RecordingMetadata
+from shared.models import RecordingMetadata, ProcessedRecordingMetadata, processed_recording_to_dict
 from shared.recording_utils import improve_source_type_detection, detect_recording_time, normalize_venue_name, calculate_venue_similarity
 
 
@@ -55,12 +55,21 @@ class JerryGarciaShowIntegrator:
         self.recordings_dir = Path(recordings_dir)
         self.recordings_data = None
         
-        # Source weighting for best recording selection
+        # Source weighting for best recording selection and rating computation
         self.source_weights = {
             'FM': 1.0,
             'SBD': 0.9,
             'MATRIX': 0.8,
             'AUD': 0.7,
+            'REMASTER': 1.0,
+        }
+        
+        # Rating computation weights (for just-in-time processing)
+        self.rating_weights = {
+            'SBD': 1.0,
+            'MATRIX': 0.9,
+            'AUD': 0.7,
+            'FM': 0.8,
             'REMASTER': 1.0,
         }
         
@@ -160,6 +169,103 @@ class JerryGarciaShowIntegrator:
         except Exception as e:
             self.logger.error(f"❌ Failed to load recordings data: {e}")
             return False
+    
+    def improve_source_type(self, identifier: str, raw_metadata: Dict[str, Any]) -> str:
+        """Improve source type detection using identifier patterns and metadata."""
+        # First check identifier patterns (most reliable)
+        identifier_upper = identifier.upper()
+        
+        if '.SBD.' in identifier_upper or '.SOUNDBOARD.' in identifier_upper:
+            return 'SBD'
+        elif '.MTX.' in identifier_upper or '.MATRIX.' in identifier_upper:
+            return 'MATRIX'  
+        elif '.AUD.' in identifier_upper or '.AUDIENCE.' in identifier_upper:
+            return 'AUD'
+        elif '.FM.' in identifier_upper or '.BROADCAST.' in identifier_upper:
+            return 'FM'
+        elif '.REMASTER.' in identifier_upper:
+            return 'REMASTER'
+        
+        # Fall back to title and description search
+        title = raw_metadata.get('title', '')
+        description = raw_metadata.get('description', '')
+        text = f"{title} {description}".upper()
+        
+        if 'SBD' in text or 'SOUNDBOARD' in text:
+            return 'SBD'
+        elif 'MATRIX' in text or 'MTX' in text:
+            return 'MATRIX'  
+        elif 'AUD' in text or 'AUDIENCE' in text:
+            return 'AUD'
+        elif 'FM' in text or 'BROADCAST' in text:
+            return 'FM'
+        elif 'REMASTER' in text:
+            return 'REMASTER'
+        else:
+            return 'UNKNOWN'
+    
+    def compute_recording_rating(self, raw_reviews: List[Dict[str, Any]], source_type: str) -> Tuple[float, float, float, int, int]:
+        """Compute weighted rating, confidence, and rating breakdown from raw reviews."""
+        if not raw_reviews:
+            return 0.0, 0.0, 0.0, 0, 0
+        
+        # Filter and process reviews
+        valid_reviews = []
+        for review in raw_reviews:
+            stars = float(review.get('stars', 0))
+            if stars >= 1.0:
+                valid_reviews.append(stars)
+        
+        if not valid_reviews:
+            return 0.0, 0.0, 0.0, 0, 0
+            
+        # Compute basic average (raw rating)
+        raw_rating = sum(valid_reviews) / len(valid_reviews)
+        
+        # Apply source type weighting  
+        source_weight = self.rating_weights.get(source_type, 0.5)
+        weighted_rating = raw_rating * source_weight
+        
+        # Confidence based on review count
+        confidence = min(len(valid_reviews) / 5.0, 1.0)
+        
+        # Count high/low ratings
+        high_ratings = sum(1 for stars in valid_reviews if stars >= 4.0)
+        low_ratings = sum(1 for stars in valid_reviews if stars <= 2.0)
+        
+        final_weighted_rating = weighted_rating * (0.5 + 0.5 * confidence)
+        
+        return final_weighted_rating, confidence, raw_rating, high_ratings, low_ratings
+    
+    def process_raw_recording(self, raw_recording: RecordingMetadata) -> ProcessedRecordingMetadata:
+        """Process a raw recording into minimal processed format during integration."""
+        # Improve source type detection
+        source_type = self.improve_source_type(raw_recording.identifier, raw_recording.raw_metadata)
+        
+        # Compute ratings from raw reviews
+        rating, confidence, raw_rating, high_ratings, low_ratings = self.compute_recording_rating(
+            raw_recording.raw_reviews, source_type
+        )
+        
+        # Create processed recording with only essential fields
+        return ProcessedRecordingMetadata(
+            identifier=raw_recording.identifier,
+            title=raw_recording.title,
+            date=raw_recording.normalized_date,
+            venue=raw_recording.venue,
+            location=raw_recording.location,
+            source_type=source_type,
+            lineage=raw_recording.lineage,
+            taper=raw_recording.taper,
+            source=raw_recording.source,
+            runtime=raw_recording.runtime,
+            rating=rating,
+            review_count=len(raw_recording.raw_reviews),
+            confidence=confidence,
+            raw_rating=raw_rating,
+            high_ratings=high_ratings,
+            low_ratings=low_ratings
+        )
     
     def create_output_directories(self):
         """Create output directories."""
@@ -398,25 +504,26 @@ class JerryGarciaShowIntegrator:
         return shows
     
     def load_archive_recordings(self) -> Dict[str, List[RecordingMetadata]]:
-        """Load all Archive.org recording metadata grouped by date."""
+        """Load all raw Archive.org recording metadata grouped by date."""
         recordings_by_date = defaultdict(list)
         recording_files = [f for f in self.archive_dir.glob("*.json") 
                           if not f.name.startswith(('progress', 'collection'))]
         
-        self.logger.info(f"Loading {len(recording_files)} Archive recordings...")
+        self.logger.info(f"Loading {len(recording_files)} raw Archive recordings...")
         
         for recording_file in recording_files:
             try:
                 with open(recording_file, 'r') as f:
                     data = json.load(f)
                 recording_meta = RecordingMetadata(**data)
-                recordings_by_date[recording_meta.date].append(recording_meta)
+                # Use normalized_date for grouping
+                recordings_by_date[recording_meta.normalized_date].append(recording_meta)
             except Exception as e:
                 self.logger.warning(f"Skipping corrupted recording file {recording_file}: {e}")
                 continue
         
         total_recordings = sum(len(rec_list) for rec_list in recordings_by_date.values())
-        self.logger.info(f"Successfully loaded {total_recordings} recordings across {len(recordings_by_date)} dates")
+        self.logger.info(f"Successfully loaded {total_recordings} raw recordings across {len(recordings_by_date)} dates")
         return dict(recordings_by_date)
     
     
@@ -584,38 +691,36 @@ class JerryGarciaShowIntegrator:
         
         best_recording = filtered_recordings[0]
         
-        # Calculate ratings using recordings data
-        recording_ratings = self.recordings_data.get('recordings', {})
-        
-        # Calculate weighted rating
+        # Calculate ratings directly from processed recordings (they already have computed ratings)
         total_weight = 0
         weighted_sum = 0
         raw_rating_sum = 0
         raw_rating_count = 0
         total_high_ratings = 0
         total_low_ratings = 0
+        total_reviews = 0
         
         for recording in filtered_recordings:
-            rating_data = recording_ratings.get(recording.identifier, {})
-            if rating_data:
-                weight = rating_data.get('review_count', 0) * self.source_weights.get(recording.source_type, 0.5)
-                weighted_sum += rating_data.get('rating', 0) * weight
+            if hasattr(recording, 'rating') and hasattr(recording, 'review_count'):
+                weight = recording.review_count * self.source_weights.get(recording.source_type, 0.5)
+                weighted_sum += recording.rating * weight
                 total_weight += weight
                 
                 # Accumulate raw rating data
-                raw_rating = rating_data.get('raw_rating', 0)
-                review_count = rating_data.get('review_count', 0)
-                if review_count > 0:
-                    raw_rating_sum += raw_rating * review_count
-                    raw_rating_count += review_count
+                if hasattr(recording, 'raw_rating'):
+                    raw_rating_sum += getattr(recording, 'raw_rating', 0) * recording.review_count
+                    raw_rating_count += recording.review_count
                 
                 # Sum high and low ratings
-                total_high_ratings += rating_data.get('high_ratings', 0)
-                total_low_ratings += rating_data.get('low_ratings', 0)
+                if hasattr(recording, 'high_ratings'):
+                    total_high_ratings += getattr(recording, 'high_ratings', 0)
+                if hasattr(recording, 'low_ratings'):
+                    total_low_ratings += getattr(recording, 'low_ratings', 0)
+                
+                total_reviews += recording.review_count
         
         avg_rating = weighted_sum / total_weight if total_weight > 0 else 0
         show_raw_rating = raw_rating_sum / raw_rating_count if raw_rating_count > 0 else 0
-        total_reviews = sum(recording_ratings.get(r.identifier, {}).get('review_count', 0) for r in filtered_recordings)
         confidence = min(total_reviews / 10.0, 1.0)
         
         # Count source types
@@ -645,9 +750,28 @@ class JerryGarciaShowIntegrator:
         
         return show_data
     
+    def save_minimal_recordings(self, processed_recordings: List[ProcessedRecordingMetadata]):
+        """Save minimal processed recordings during integration."""
+        if not processed_recordings:
+            return
+        
+        # Create recordings directory
+        recordings_dir = self.output_dir / "recordings"
+        recordings_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Save each processed recording
+        for recording in processed_recordings:
+            recording_file = recordings_dir / f"{recording.identifier}.json"
+            with open(recording_file, 'w') as f:
+                json.dump(processed_recording_to_dict(recording), f, indent=2)
+        
+        # Calculate directory statistics
+        dir_size = sum(f.stat().st_size for f in recordings_dir.glob("*.json")) / (1024 * 1024)  # MB
+        self.logger.info(f"Saved {len(processed_recordings)} minimal recording files: {dir_size:.1f}MB")
+
     def integrate_all_shows(self) -> Dict[str, Any]:
         """Integrate all JerryGarcia shows with Archive recordings."""
-        self.logger.info("Starting show integration...")
+        self.logger.info("Starting show integration with just-in-time processing...")
         
         # Load data
         shows_by_date = self.load_jerrygarcia_shows()
@@ -656,21 +780,71 @@ class JerryGarciaShowIntegrator:
         integrated_shows = {}
         total_shows = 0
         shows_with_recordings = 0
+        all_processed_recordings = []
         
-        # Integrate each show
+        # Process all recordings first (just-in-time)
+        self.logger.info("Processing raw recordings with ratings and source type improvements...")
+        for date, raw_recordings in recordings_by_date.items():
+            for raw_recording in raw_recordings:
+                processed_recording = self.process_raw_recording(raw_recording)
+                all_processed_recordings.append(processed_recording)
+        
+        self.logger.info(f"Processed {len(all_processed_recordings)} recordings with enhanced metadata")
+        
+        # Save all minimal processed recordings
+        # TODO: Figure this out
+        # self.save_minimal_recordings(all_processed_recordings)
+        
+        # Create lookup by date for processed recordings
+        processed_by_date = defaultdict(list)
+        for recording in all_processed_recordings:
+            processed_by_date[recording.date].append(recording)
+        
+        # Integrate each show using processed recordings
         for date, show_list in shows_by_date.items():
-            recordings = recordings_by_date.get(date, [])
+            processed_recordings = processed_by_date.get(date, [])
             
             for show_data in show_list:
+                # Convert processed recordings back to RecordingMetadata format for existing integration logic
+                # This is a temporary bridge until we fully refactor the integration methods
+                compat_recordings = []
+                for proc_rec in processed_recordings:
+                    # Create a compatibility RecordingMetadata object with all expected attributes
+                    raw_metadata = {
+                        'title': proc_rec.title,
+                        'venue': proc_rec.venue, 
+                        'coverage': proc_rec.location,
+                        'description': '',  # Not available in processed format
+                        'lineage': proc_rec.lineage,
+                        'taper': proc_rec.taper
+                    }
+                    compat_rec = type('RecordingMetadata', (), {
+                        'identifier': proc_rec.identifier,
+                        'title': proc_rec.title,
+                        'venue': proc_rec.venue,
+                        'location': proc_rec.location,
+                        'source_type': proc_rec.source_type,
+                        'rating': proc_rec.rating,
+                        'review_count': proc_rec.review_count,
+                        'raw_rating': getattr(proc_rec, 'raw_rating', 0),
+                        'high_ratings': getattr(proc_rec, 'high_ratings', 0),
+                        'low_ratings': getattr(proc_rec, 'low_ratings', 0),
+                        'description': '',  # Not available in processed format
+                        'lineage': proc_rec.lineage,
+                        'taper': proc_rec.taper,
+                        'raw_metadata': raw_metadata
+                    })()
+                    compat_recordings.append(compat_rec)
+                
                 # Enrich show with recording data (pass all shows on date for venue matching context)
-                enriched_show = self.enrich_show_with_recordings(show_data.copy(), recordings, show_list)
+                enriched_show = self.enrich_show_with_recordings(show_data.copy(), compat_recordings, show_list)
                 
                 # Use show_id as key for output
                 show_id = enriched_show.get("show_id", f"{date}-unknown")
                 integrated_shows[show_id] = enriched_show
                 
                 total_shows += 1
-                if recordings:
+                if processed_recordings:
                     shows_with_recordings += 1
                 
                 # Save individual show file
@@ -678,7 +852,7 @@ class JerryGarciaShowIntegrator:
                 with open(show_file, 'w') as f:
                     json.dump(enriched_show, f, indent=2, default=str)
         
-        self.logger.info(f"✅ Integrated {total_shows} shows")
+        self.logger.info(f"✅ Integrated {total_shows} shows with processed recordings")
         self.logger.info(f"✅ {shows_with_recordings} shows have Archive recordings")
         self.logger.info(f"✅ {total_shows - shows_with_recordings} shows have no recordings")
         
@@ -688,10 +862,7 @@ class JerryGarciaShowIntegrator:
         """Process the complete integration."""
         start_time = datetime.now()
         
-        # Load recording ratings if provided
-        if not self.load_recordings_data():
-            return False
-        
+        # Skip loading old recordings data - we now work directly with raw archive data
         # Integrate shows
         integrated_shows = self.integrate_all_shows()
         

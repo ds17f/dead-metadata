@@ -1,13 +1,118 @@
 {
   "identifier": "gd1990-03-16.mtx.hansokolow.96549.flac16",
-  "title": "Grateful Dead Live at Capital Centre on 1990-03-16",
-  "date": "1990-03-16",
-  "venue": "Capital Centre",
-  "location": "Landover , MD",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nLet The Good Times Roll \nTouch Of Grey \nNew Minglewood Blues \nPeggy-O \nQueen Jane Approximately \nLoser \nBlack Throated Wind \nBird Song \nBlow Away \n\nSet 2\n\nScarlet Begonias ->\nEstimated Prophet ->\nShip Of Fools ->\nMan Smart, Woman Smarter  \nJam ->\nDrums ->\nSpace ->\nThe Other One ->\nStella Blue ->\nSugar Magnolia  \n\nEncore\nThe Last Time",
+  "raw_metadata": {
+    "identifier": "gd1990-03-16.mtx.hansokolow.96549.flac16",
+    "title": "Grateful Dead Live at Capital Centre on 1990-03-16",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nLet The Good Times Roll \nTouch Of Grey \nNew Minglewood Blues \nPeggy-O \nQueen Jane Approximately \nLoser \nBlack Throated Wind \nBird Song \nBlow Away \n\nSet 2\n\nScarlet Begonias ->\nEstimated Prophet ->\nShip Of Fools ->\nMan Smart, Woman Smarter  \nJam ->\nDrums ->\nSpace ->\nThe Other One ->\nStella Blue ->\nSugar Magnolia  \n\nEncore\nThe Last Time",
+    "date": "1990-03-16",
+    "year": "1990",
+    "subject": "Matrix;Soundboard;hansokolow",
+    "publicdate": "2008-12-29 07:40:10",
+    "addeddate": "2008-12-28 18:24:07",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2008-12-29 07:42:23",
+      "2009-08-12 23:37:32",
+      "2009-08-13 00:20:32"
+    ],
+    "venue": "Capital Centre",
+    "coverage": "Landover , MD",
+    "source": "Matrix mix (SBD/AUD)",
+    "runtime": "166:43.42",
+    "md5s": "57c38cf42e8c0ec0093615b15deee5db *gd90-03-16d1t01.flac\r\n5aec6bde629c1c03f2b941be970dcbe1 *gd90-03-16d1t02.flac\r\nfa956ea412e786e5789fc01e65cbfff7 *gd90-03-16d1t03.flac\r\na3a7b404db91dd3977b944ecd970bf33 *gd90-03-16d1t04.flac\r\n0e82bc7537db8a631e89c7c51a716a66 *gd90-03-16d1t05.flac\r\nadf7de4c75af2760a5b11be057f8b99c *gd90-03-16d1t06.flac\r\n821b7b688093a8eed475d1c51324f3ac *gd90-03-16d1t07.flac\r\n974ca94805d73e1bfc0d365860b8b49f *gd90-03-16d1t08.flac\r\nad33f00c42f82db9540441e52a3011d5 *gd90-03-16d1t09.flac\r\n2f3a0595235a43f2d4bfd32f75b95b4f *gd90-03-16d2t01.flac\r\n4697082dd4e351e6948ed9ab62536a69 *gd90-03-16d2t02.flac\r\n64612313e426413799c4dc2f4cb2c689 *gd90-03-16d2t03.flac\r\nf2a29a21bc0e9f0e25ece62f5ca5697b *gd90-03-16d2t04.flac\r\n61b0ff81c82aeca8a0309d8af264cfa4 *gd90-03-16d2t05.flac\r\n99f85d66979f2dc7bb829be45a7124e6 *gd90-03-16d2t06.flac\r\na02213851e3104ada58b51c5aafc5774 *gd90-03-16d3t01.flac\r\n3312bee22073dde87421ca2191c0ee7e *gd90-03-16d3t02.flac\r\n46e284e6719158d29c6d2751e6a6d746 *gd90-03-16d3t03.flac\r\ned1146812dca494fcbb41e0d9060aae2 *gd90-03-16d3t04.flac\r\n15908c78e04153fafbdc51592ac4a63d *gd90-03-16d3t05.flac",
+    "notes": "This is a matrix, done by hansokolow in ProTools, of the following sources:\n\nSBD: shnid=5227\nsource: sbd > ? > cdr > eac > shn\n\nFix of shnid 5227: The overlap between CDs 2 and 3 was deleted to make the transition seamless.  The SHNs were converted to FLAC and shntool was used to clean up SBEs.  Unfortunately archive does not have an AUD that I could use to take care of some of the problems listed below; if you have it, maybe you'd like to take a shot at it.\n\nThe original fileset included a declicked version of d2t02, as well as the original, so I'm leaving both in.  Pick yer poison.\n\nnotes:\ncut/splice in BTW @2:32 and again @4:11\n2 drops or cuts in Blow Away @4:27 and 4:28\nBTW hung up in EAC - there was a sync error and it took over 6hrs to get this track.  I'm sure it\nain't exactly perfect.\nThere was a bunch of clicks in Estimated from 3:45 to 3:56, I used Cool Edit Pro to remove them.  Hence the 2 versions of d2t2.  Detection thresholds 13, 12, 10; rejection 11, 10, 8.\nshns are from an EAC (secure mode) of audio discs received from Andrew Wigdahl\n\n-----------------------------------\n\nAUD: shnid=83791\nSennheiser 4xx's > Marantz PMDxxx > MC.\n \nPlayback of MCs recording deck (Marantz PMDxxx) > Sony D6 > Maxell XL90s (1st gen).  1st (gen) > Playback on Marantz PRD505 (azimuth adjusted) > Marantz Intergrated Stereo Amp MP-68 > SB Audigy4 on new P4 machine > Sound Forge normalization > WAV > CDWave > WAVs > Flacfrontend 1.7.1 (level 8) > flacs.\n\nRecorded by Jeff Hubbard. Transfered Charles Bandrofcheck\n\n-----------------------------------\n\nMy Notes: The SBD sounds great, but does have the clicks mentioned, especially in Black Throated Wind.  I cleaned it up a little more, but there will be clicks here and there.  As often happens, the first song has phasing issues, but the rest sounds great, even though the AUD was way slow, each song squeezed by as much as 4%.\n\n-Tano (hansokolow@gmail.com)",
+    "backup_location": "ia903602_23",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "I have not listened to this recording yet.  But I have an old one on tape that I havnt seen in at least a decade, and I can tell you this is Brent's strongest and most intense performance ive ever heard.  The Blow Away at the end of set one...Brent had a lot of strong moments in his run, especially in 1990, and the Dead realesed the night before on CD, but this Blow Away is not to be missed, Brent just looses it.",
+      "reviewtitle": "Blow Away",
+      "reviewer": "etrain",
+      "reviewdate": "2008-12-29 15:28:36",
+      "createdate": "2008-12-29 15:28:36",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "Thanks to you, I can delete all the 64 kbps crap I have from my library, and fill it with these crispy matrix shows.\nPeace.",
+      "reviewtitle": "Thank You!",
+      "reviewer": "JerseyHead",
+      "reviewdate": "2009-01-05 04:12:02",
+      "createdate": "2009-01-05 04:12:02",
+      "stars": "4"
+    },
+    {
+      "reviewbody": "i happend to be at this one!! drove my 74\" chevy to the show!!! brent goes off during blow away be sure to check out bird song. jerry was hittin it note for note !!! enjoy:)",
+      "reviewtitle": "sweet 90\"s at the cap center!!",
+      "reviewer": "whirlwind dreamer 65-95",
+      "reviewdate": "2010-01-18 00:49:06",
+      "createdate": "2010-01-18 00:49:06",
+      "stars": "4"
+    },
+    {
+      "reviewbody": "Happy day,\n\nI sing to my son every night...been at it for 10 years now.  Last night I was flipping through the lyric books and decided I'd do some Brent stuff, which is rare for me to do.  Came across Blow Away and it reminded me of this show.\n\nI was at this show and I absolutely agree that this was Brent's strongest performance.  This rendition of Blow Away was incredibly powerful, and as he starts off on his passionate tirade at 6:10, the way Jerry drifts off, and then how Phil comes alive at 7:30...just...wow.  The drummers hitting out their beat...and then the riff that goes off at 9:27 when Brent is practically frothing at the mouth...it brings back so many powerful emotions.\n\nAlthough not necessarily in my top 10 of shows, this tape was played non-stop during two critical time periods of my life and I literally owe my life to it for the power it lent me.\n\nEnough of my raving...thanks for posting this matrix and reminding me why I love the Grateful Dead and why I keep on seeing Furthur.",
+      "reviewtitle": "Lifesaver",
+      "reviewer": "Lord Happy",
+      "reviewdate": "2011-03-26 13:11:00",
+      "createdate": "2011-03-26 13:11:00",
+      "stars": "4"
+    },
+    {
+      "reviewbody": "I also know how the Dead guides us through the thick and thins in life.   Rock on brother",
+      "reviewtitle": "Lord Happy",
+      "reviewer": "mikemet",
+      "reviewdate": "2012-08-07 18:38:01",
+      "createdate": "2012-08-07 18:38:01",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "Three nights in Landover with this being the last....Phils 50 in the middle.  This show had some great jams....The best being Blow away....Brents voice was so loud and filled the Cap Center with that voice....so amazing ....you had to be there..since you cant this is the next best thing...",
+      "reviewtitle": "what a way to start the tour",
+      "reviewer": "huggy bear glass blower",
+      "reviewdate": "2014-01-17 19:12:29",
+      "createdate": "2014-01-17 19:12:20",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "love the mingle blues from this night, and love listening to the crowd sing it with b-dub. and fuckin a, the boys now how to get a guy thru some hardtimes.",
+      "reviewtitle": "mingle",
+      "reviewer": "brentmydland7990",
+      "reviewdate": "2014-05-02 12:22:38",
+      "createdate": "2014-05-02 12:22:38",
+      "stars": "5"
+    },
+    {
+      "reviewtitle": "Great sound",
+      "reviewbody": "This night I was with friends Joe and Trevor. Trevor drove us all in his old F-150 early to check out the fair. On the Cap Center access road riding in some crazy dead head tried to sell us a \u201clarge quantity of Opium\u201d - maybe if we remember correctly it was in an old wooden chest guarded by an opium-eater in culturally appropriate period dress. We declined the opium, but hold the experience of the offer dear in our memories. The fair was super entertaining, walking around after a fried chicken tailgate dinner. I had to get an asphalt egg roll to support some microbus hippies on their adventure. Best egg roll I\u2019ve ever had so far and I am near 50. Also sampled some laughing gas with caution after witnessing a newish hippie gassing out and cracking his head on the bumper of a different microbus. The concert was amazing from the very last row way up the side of the wall. Easier to hide a smuggled pinner with 270 degree field of vision. Thanks to the recorders for this blast of clarity!",
+      "stars": "5",
+      "reviewer": "Joe Gover",
+      "reviewdate": "2021-05-18 19:52:18",
+      "createdate": "2021-05-18 19:52:18",
+      "reviewer_itemname": "@joe_gover"
+    },
+    {
+      "reviewtitle": "BRENT!!!",
+      "reviewbody": "As others have already alluded to, this Blow Away is over the MOON!",
+      "stars": "4",
+      "reviewer": "jdhmaine#1",
+      "reviewdate": "2022-03-17 00:07:38",
+      "createdate": "2022-03-17 00:07:38",
+      "reviewer_itemname": "@jdhmaine_1"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2269,62 +2374,6 @@
       "private": "true"
     }
   ],
-  "reviews": [
-    {
-      "stars": 5.0,
-      "review_text": "Blow Away I have not listened to this recording yet.  But I have an old one on tape that I havnt seen in at least a decade, and I can tell you this is Brent's strongest and most intense performance ive ever heard.  The Blow Away at the end of set one...Brent had a lot of strong moments in his run, especially in 1990, and the Dead realesed the night before on CD, but this Blow Away is not to be missed, Brent just looses it.",
-      "date": "2008-12-29 15:28:36"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "Thank You! Thanks to you, I can delete all the 64 kbps crap I have from my library, and fill it with these crispy matrix shows.\nPeace.",
-      "date": "2009-01-05 04:12:02"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "sweet 90\"s at the cap center!! i happend to be at this one!! drove my 74\" chevy to the show!!! brent goes off during blow away be sure to check out bird song. jerry was hittin it note for note !!! enjoy:)",
-      "date": "2010-01-18 00:49:06"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "Lifesaver Happy day,\n\nI sing to my son every night...been at it for 10 years now.  Last night I was flipping through the lyric books and decided I'd do some Brent stuff, which is rare for me to do.  Came across Blow Away and it reminded me of this show.\n\nI was at this show and I absolutely agree that this was Brent's strongest performance.  This rendition of Blow Away was incredibly powerful, and as he starts off on his passionate tirade at 6:10, the way Jerry drifts off, and then how Phil comes alive at 7:30...just...wow.  The drummers hitting out their beat...and then the riff that goes off at 9:27 when Brent is practically frothing at the mouth...it brings back so many powerful emotions.\n\nAlthough not necessarily in my top 10 of shows, this tape was played non-stop during two critical time periods of my life and I literally owe my life to it for the power it lent me.\n\nEnough of my raving...thanks for posting this matrix and reminding me why I love the Grateful Dead and why I keep on seeing Furthur.",
-      "date": "2011-03-26 13:11:00"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "Lord Happy I also know how the Dead guides us through the thick and thins in life.   Rock on brother",
-      "date": "2012-08-07 18:38:01"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "what a way to start the tour Three nights in Landover with this being the last....Phils 50 in the middle.  This show had some great jams....The best being Blow away....Brents voice was so loud and filled the Cap Center with that voice....so amazing ....you had to be there..since you cant this is the next best thing...",
-      "date": "2014-01-17 19:12:29"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "mingle love the mingle blues from this night, and love listening to the crowd sing it with b-dub. and fuckin a, the boys now how to get a guy thru some hardtimes.",
-      "date": "2014-05-02 12:22:38"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "Great sound This night I was with friends Joe and Trevor. Trevor drove us all in his old F-150 early to check out the fair. On the Cap Center access road riding in some crazy dead head tried to sell us a \u201clarge quantity of Opium\u201d - maybe if we remember correctly it was in an old wooden chest guarded by an opium-eater in culturally appropriate period dress. We declined the opium, but hold the experience of the offer dear in our memories. The fair was super entertaining, walking around after a fried chicken tailgate dinner. I had to get an asphalt egg roll to support some microbus hippies on their adventure. Best egg roll I\u2019ve ever had so far and I am near 50. Also sampled some laughing gas with caution after witnessing a newish hippie gassing out and cracking his head on the bumper of a different microbus. The concert was amazing from the very last row way up the side of the wall. Easier to hide a smuggled pinner with 270 degree field of vision. Thanks to the recorders for this blast of clarity!",
-      "date": "2021-05-18 19:52:18"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "BRENT!!! As others have already alluded to, this Blow Away is over the MOON!",
-      "date": "2022-03-17 00:07:38"
-    }
-  ],
-  "rating": 2.2777777777777777,
-  "review_count": 9,
-  "confidence": 1.0,
-  "collection_timestamp": "2025-08-13T04:06:20.895665",
-  "raw_rating": 4.555555555555555,
-  "distribution": {
-    "5": 5,
-    "4": 4
-  },
-  "high_ratings": 9,
-  "low_ratings": 0
+  "normalized_date": "1990-03-16",
+  "collection_timestamp": "2025-08-26T15:48:28.620630"
 }

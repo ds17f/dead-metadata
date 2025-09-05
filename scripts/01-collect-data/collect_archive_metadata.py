@@ -41,7 +41,7 @@ import logging
 
 # Add shared module to path
 sys.path.append(str(Path(__file__).parent.parent))
-from shared.models import ReviewData, RecordingMetadata, ProgressState, recording_to_dict, progress_to_dict
+from shared.models import RecordingMetadata, ProgressState, recording_to_dict, progress_to_dict
 
 
 class ArchiveMetadataCollector:
@@ -69,17 +69,6 @@ class ArchiveMetadataCollector:
         
         # Create directories
         self.output_dir.mkdir(parents=True, exist_ok=True)
-        
-        # Rating configuration
-        self.source_weights = {
-            'SBD': 1.0,
-            'MATRIX': 0.9,
-            'AUD': 0.7,
-            'FM': 0.8,
-            'REMASTER': 1.0,
-        }
-        
-        self.min_reviews_for_confidence = 3
         
         # Progress tracking
         self.progress_file = self.output_dir / "progress.json"
@@ -165,22 +154,6 @@ class ArchiveMetadataCollector:
         self.logger.warning(f"Unrecognized date format: {date_str}")
         return None
 
-    def extract_source_type(self, title: str, description: str) -> str:
-        """Extract recording source type from title and description."""
-        text = f"{title} {description}".upper()
-        
-        if 'SBD' in text or 'SOUNDBOARD' in text:
-            return 'SBD'
-        elif 'MATRIX' in text:
-            return 'MATRIX'  
-        elif 'AUD' in text or 'AUDIENCE' in text:
-            return 'AUD'
-        elif 'FM' in text or 'BROADCAST' in text:
-            return 'FM'
-        elif 'REMASTER' in text:
-            return 'REMASTER'
-        else:
-            return 'UNKNOWN'
 
     def get_grateful_dead_recordings(self, year: Optional[int] = None, 
                                    date_range: Optional[str] = None) -> List[str]:
@@ -355,8 +328,8 @@ class ArchiveMetadataCollector:
             self.logger.error(f"Failed to fetch metadata for {identifier}: {e}")
             return None
 
-    def fetch_recording_reviews(self, identifier: str) -> List[ReviewData]:
-        """Fetch review data for a single recording."""
+    def fetch_recording_reviews(self, identifier: str) -> List[Dict[str, Any]]:
+        """Fetch raw review data for a single recording."""
         self.rate_limit()
         
         try:
@@ -365,63 +338,15 @@ class ArchiveMetadataCollector:
             response.raise_for_status()
             
             reviews_data = response.json()
-            reviews = []
-            
-            for review in reviews_data.get('result', []):
-                stars = float(review.get('stars', 0))
-                if stars > 0:
-                    reviews.append(ReviewData(
-                        stars=stars,
-                        review_text=review.get('reviewtitle', '') + ' ' + review.get('reviewbody', ''),
-                        date=review.get('reviewdate', '')
-                    ))
-                    
-            return reviews
+            return reviews_data.get('result', [])
             
         except Exception as e:
             self.logger.error(f"Failed to fetch reviews for {identifier}: {e}")
             return []
 
-    def compute_recording_rating(self, reviews: List[ReviewData], source_type: str) -> Tuple[float, float, float, int, int, Dict[int, int]]:
-        """Compute weighted rating, confidence, and rating breakdown for a recording."""
-        if not reviews:
-            return 0.0, 0.0, 0.0, 0, 0, {}  # No reviews = all zeros
-            
-        # Filter out very low ratings (likely spam)
-        valid_reviews = [r for r in reviews if r.stars >= 1.0]
-        if not valid_reviews:
-            return 0.0, 0.0, 0.0, 0, 0, {}
-            
-        # Compute basic average (raw rating)
-        raw_rating = sum(r.stars for r in valid_reviews) / len(valid_reviews)
-        
-        # Apply source type weighting  
-        source_weight = self.source_weights.get(source_type, 0.5)
-        weighted_rating = raw_rating * source_weight
-        
-        # Confidence based on review count
-        confidence = min(len(valid_reviews) / 5.0, 1.0)
-        
-        # Calculate rating distribution
-        distribution = {}
-        high_ratings = 0  # 4-5 star reviews
-        low_ratings = 0   # 1-2 star reviews
-        
-        for review in valid_reviews:
-            star_int = int(review.stars)
-            distribution[star_int] = distribution.get(star_int, 0) + 1
-            
-            if review.stars >= 4.0:
-                high_ratings += 1
-            elif review.stars <= 2.0:
-                low_ratings += 1
-        
-        final_weighted_rating = weighted_rating * (0.5 + 0.5 * confidence)
-        
-        return final_weighted_rating, confidence, raw_rating, high_ratings, low_ratings, distribution
 
     def process_recording(self, identifier: str) -> Optional[RecordingMetadata]:
-        """Process a single recording and return complete metadata."""
+        """Collect raw metadata for a single recording."""
         try:
             # Check if already cached
             cache_file = self.output_dir / f"{identifier}.json"
@@ -435,53 +360,34 @@ class ArchiveMetadataCollector:
                 except Exception as e:
                     self.logger.warning(f"Corrupted cache file {identifier}: {e}, will re-fetch")
             
-            self.logger.info(f"Processing {identifier}")
+            self.logger.info(f"Collecting {identifier}")
             
-            # Fetch metadata and reviews
+            # Fetch raw metadata and reviews
             metadata = self.fetch_recording_metadata(identifier)
             if not metadata:
                 return None
                 
             reviews = self.fetch_recording_reviews(identifier)
             
-            # Extract basic info
-            meta = metadata.get('metadata', {})
-            title = meta.get('title', '')
-            description = meta.get('description', '')
-            date_str = meta.get('date', '')
-            venue = meta.get('venue', '')
-            location = meta.get('coverage', '')
+            # Extract raw metadata
+            raw_metadata = metadata.get('metadata', {})
             
+            # Only normalize date for matching purposes
+            date_str = raw_metadata.get('date', '')
             normalized_date = self.normalize_date(date_str)
             if not normalized_date:
                 return None
-                
-            source_type = self.extract_source_type(title, description)
-            rating, confidence, raw_rating, high_ratings, low_ratings, distribution = self.compute_recording_rating(reviews, source_type)
             
-            self.logger.debug(f"  → {len(reviews)} reviews, rating: {rating:.2f}, raw: {raw_rating:.2f}, source: {source_type}")
+            self.logger.debug(f"  → Raw metadata: {len(raw_metadata)} fields, {len(reviews)} reviews")
             
-            # Create recording metadata
+            # Create raw recording metadata
             recording_meta = RecordingMetadata(
                 identifier=identifier,
-                title=title,
-                date=normalized_date,
-                venue=venue or '',
-                location=location or '',
-                source_type=source_type,
-                lineage=meta.get('lineage', ''),
-                taper=meta.get('taper', ''),
-                description=description,
+                raw_metadata=raw_metadata,
+                raw_reviews=reviews,
                 files=metadata.get('files', []),
-                reviews=reviews,
-                rating=rating,
-                review_count=len(reviews),
-                confidence=confidence,
-                collection_timestamp=datetime.now().isoformat(),
-                raw_rating=raw_rating,
-                distribution=distribution,
-                high_ratings=high_ratings,
-                low_ratings=low_ratings
+                normalized_date=normalized_date,
+                collection_timestamp=datetime.now().isoformat()
             )
             
             # Save to cache

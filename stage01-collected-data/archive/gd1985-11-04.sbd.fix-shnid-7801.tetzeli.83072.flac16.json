@@ -1,13 +1,85 @@
 {
   "identifier": "gd1985-11-04.sbd.fix-shnid-7801.tetzeli.83072.flac16",
-  "title": "Grateful Dead Live at The Centrum on 1985-11-04",
-  "date": "1985-11-04",
-  "venue": "The Centrum",
-  "location": "Worcester, MA",
-  "source_type": "UNKNOWN",
-  "lineage": "SBD:MC> DAT> C> DAT> CD> SHN",
-  "taper": "",
-  "description": "Set 1\n\nAlabama Getaway ->\nThe Promised Land \nIt Must Have Been The Roses \nEl Paso \nWest L.A. Fadeaway \nNew Minglewood Blues \nBig Railroad Blues \nThe Music Never Stopped ->\nMight As Well\n\nSet 2\n\nChina Cat Sunflower ->\nI Know You Rider ->\nPlaying In The Band ->\nTerrapin Station ->\nDrums ->\nSpace ->\nThe Wheel ->\nTruckin' ->\nWharf Rat ->\nSugar Magnolia\n\nEncore\nU.S. Blues",
+  "raw_metadata": {
+    "identifier": "gd1985-11-04.sbd.fix-shnid-7801.tetzeli.83072.flac16",
+    "title": "Grateful Dead Live at The Centrum on 1985-11-04",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nAlabama Getaway ->\nThe Promised Land \nIt Must Have Been The Roses \nEl Paso \nWest L.A. Fadeaway \nNew Minglewood Blues \nBig Railroad Blues \nThe Music Never Stopped ->\nMight As Well\n\nSet 2\n\nChina Cat Sunflower ->\nI Know You Rider ->\nPlaying In The Band ->\nTerrapin Station ->\nDrums ->\nSpace ->\nThe Wheel ->\nTruckin' ->\nWharf Rat ->\nSugar Magnolia\n\nEncore\nU.S. Blues",
+    "date": "1985-11-04",
+    "year": "1985",
+    "subject": "Soundboard;Peter Braverman;Bill Tetzeli",
+    "publicdate": "2008-01-27 08:26:23",
+    "addeddate": "2008-01-21 02:00:46",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2008-01-27 08:29:51",
+      "2010-05-14 15:22:46",
+      "2010-05-14 15:36:58"
+    ],
+    "venue": "The Centrum",
+    "coverage": "Worcester, MA",
+    "source": "Pitch and patch fix of shnid 7801",
+    "lineage": "SBD:MC> DAT> C> DAT> CD> SHN",
+    "transferer": "Bill Tetzeli",
+    "runtime": "133",
+    "md5s": "3e8dee3fdb321ccbc025b9b28d569331 *gd85-11-04d1t01.flac\r\nfd9a6991d635a23e8d583078af1fc5a4 *gd85-11-04d1t02.flac\r\n3f078ee558b8f256c06fd7e6a8dd95c4 *gd85-11-04d1t03.flac\r\n7deaf1743beeea49b39f14182e7ab945 *gd85-11-04d1t04.flac\r\n153d9988801a6f3977c6d6c411c54944 *gd85-11-04d1t05.flac\r\nd9dd6deb612df72bb9abc5c70f17b80e *gd85-11-04d1t06.flac\r\n230d761c85fffca481668a68a9eb1bdc *gd85-11-04d1t07.flac\r\nba97edb0e97be35f70bcef978e867bbe *gd85-11-04d1t08.flac\r\n7eec928913066fc68686db57eb3d5a69 *gd85-11-04d1t09.flac\r\nc6f9fd9a5b4a0afa847468e52f7906c9 *gd85-11-04d2t01.flac\r\n4cc347836decfdf85e660d3e0c7540e6 *gd85-11-04d2t02.flac\r\n53d4911e71e223fca2839de97fcbfd73 *gd85-11-04d2t03.flac\r\n5565dda2162b909f46770d3952766958 *gd85-11-04d2t04.flac\r\n2efdd57d1140e3298595aeffaab0f897 *gd85-11-04d2t05.flac\r\n4dc45447435e62c0db39b5e12d4caaf1 *gd85-11-04d2t06.flac\r\ncfb451a2ea81192b238698e52e06591b *gd85-11-04d2t07.flac\r\n76613472c187ddba537b396e6f6f661c *gd85-11-04d2t08.flac\r\n7c1651831dff1f4936c7fc0bf342b64a *gd85-11-04d2t09.flac\r\nfad3db9f12ee0bc56175ea4296afb603 *gd85-11-04d2t10.flac\r\n63f38e322a43331c6e07af735bb8b523 *gd85-11-04d2t11.flac",
+    "notes": "--------------------------------------------------------------------------------\nPitch and patch fix of shnid 7801\n\nI adjusted this source -50 cents in Wavelab, using tones generated in CE 2000 as a tuning fork.  I also patched in the bridge between Music Never Stopped and Might as Well in Cool Edit Pro using Phil Unger's audience recording (shnid 11880), downloaded from archive.org.  All resulting SBEs and non-canonical headers were fixed using shntool.\n\nCAVEATS: I don't know what artifacts are inherent in using Wavelab for pitch correction - I just do the best I can with the means at my disposal.  I do know there is audible tape wow in the original source, and that it and any other pre-existing flaws will be exaggerated by stretching it out as I have done.  That said, this still sounds quite good to my ears, and definitely preferable to the \"Jerry and the Chipmunks\" quality of a speeded up source.\n\nMany thanks to Peter Braverman for the main source and to Phil Unger for his AUD patch source.\n\nBill Tetzeli (laptaper@gmail.com)5:28 PM 2/2/2007\n--------------------------------------------------------------------------------",
+    "backup_location": "ia903601_21"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "This was the 1st of 3 shows lifetime I didn't get in. It was cold and damp and the parking lot scene didn't help much. But what a show! Great songlist,excellent playing! Both sets start and finish strong. Vocals are very clear. The drum mix is superb! This show should put a smile on your face! Beautiful sdbd Peter and Bill! I'm Grateful to finally be able to hear what I missed. Thanks so much!",
+      "reviewtitle": "Nasty outside,Joyous inside!",
+      "reviewer": "E.R.C. Iceman!",
+      "reviewdate": "2008-04-12 19:20:09",
+      "createdate": "2008-04-12 18:58:59",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "hard to believe they really didn't plan these out ahead of time.",
+      "reviewtitle": "great setlist",
+      "reviewer": "patkelleyPA",
+      "reviewdate": "2011-11-04 12:44:52",
+      "createdate": "2011-11-04 12:44:52",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "Jerry sounds terrible. Everyone else trying to keep it together.  Who gave this 5 stars. that wrecks the rating system if everyone gives any dead show 5 stars because it's a 'dead show.'  Come on - they're all dead shows here.",
+      "reviewtitle": "I couldn't get past Must have been Roses",
+      "reviewer": "TheProdigalSon",
+      "reviewdate": "2013-11-05 02:27:54",
+      "createdate": "2013-11-05 02:27:54",
+      "stars": "2"
+    },
+    {
+      "reviewbody": "I'll give it three plus. The next shows 11/7,8 were superb, especially for a 17 year old.",
+      "reviewtitle": "Three",
+      "reviewer": "Niass200",
+      "reviewdate": "2015-03-26 22:49:30",
+      "createdate": "2015-03-26 22:49:30",
+      "stars": "3"
+    },
+    {
+      "reviewbody": "If you are a critic there is plenty of vocal flubs but then again I would rather listen to this tonight then the soundboard from this night in 1977.\nSometimes the grunge of 1985 is just the ticket.\n I believe this was one of the last fall tours that traveled the road less taken. They start doing those extended runs in fewer but much larger East Coast cities?\nBeing from N.Y.C it cracked me up that this town was not pronounced WAR_CHESTER but WOOOSTA especially when the spelling is Worchester.\nBut be that as it may. to me it was all these shows in the smaller cities of America that made the Dead so special. Stories of High School misfits going to the freak show and finding themselves to finally be home.\nThe Dead were somewhat similar to when the Carnies came to town with the fair. \"Hang it up and see what tomorrow brings.\"\nI tried mostly unsuccessfully to keep one foot on the concrete pavement and the other to barefoot boogie with the Grateful Dead.\nI am listening as i write this. Dead played pretty jagged to start but as they hit Minglewood. I get the vibe that the sound is coming together. Sounds like some Sound board antics with slight Chula Vista forays. The slide is very nice and Brent is slashing.\nOverall good sound quality. Like it is alive and bouncing. I like a soundboard that has enough crowd to get me fired up but none of the stupidity one often encountered dancing around and searching for the sound in the arena.\nBig Railroad sounds just great. Seems like they are clicking now. This is another tune that seems to get forgotten but it is smokin' hot. I kinda like how everyone backs Garcia's lead vocals.\nI had this pegged as a 3 but it has my interest enough now that I could be bumping it up.\nListen to Garcia play his guitar.\nRxR Blues feels so JGB / Chuck Berry\nMusic, Yes indeed. A song that has no place being played in November but then again it is kinda like a Sunshine Daydream, November/ North East.\nGood jam in the MNS.. they are well primed now!\nOh cool, A Might as Well just to rock just a tad harder before break. I really loved Dancing to this song. Another great thing about shows in 1985. Mighty Swell\nSet Two- Express Train and absolutely why I toured.\nThe China>Rider>Playing is 5 star territory.\nTerrapin a little slow getting going.\nI am kinda surprised that over the years Terrapin seems to get some hard knocks.\n i always found it to be very movin' \nwhen it was played live.\nWhat's the line from Believe it or Not\n\"In a world time forgot\"",
+      "reviewtitle": "\"Just look right besides you..\"",
+      "reviewer": "c-freedom",
+      "reviewdate": "2016-11-05 02:11:34",
+      "createdate": "2016-11-05 01:40:56",
+      "stars": "4"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2268,44 +2340,6 @@
       "private": "true"
     }
   ],
-  "reviews": [
-    {
-      "stars": 5.0,
-      "review_text": "Nasty outside,Joyous inside! This was the 1st of 3 shows lifetime I didn't get in. It was cold and damp and the parking lot scene didn't help much. But what a show! Great songlist,excellent playing! Both sets start and finish strong. Vocals are very clear. The drum mix is superb! This show should put a smile on your face! Beautiful sdbd Peter and Bill! I'm Grateful to finally be able to hear what I missed. Thanks so much!",
-      "date": "2008-04-12 19:20:09"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "great setlist hard to believe they really didn't plan these out ahead of time.",
-      "date": "2011-11-04 12:44:52"
-    },
-    {
-      "stars": 2.0,
-      "review_text": "I couldn't get past Must have been Roses Jerry sounds terrible. Everyone else trying to keep it together.  Who gave this 5 stars. that wrecks the rating system if everyone gives any dead show 5 stars because it's a 'dead show.'  Come on - they're all dead shows here.",
-      "date": "2013-11-05 02:27:54"
-    },
-    {
-      "stars": 3.0,
-      "review_text": "Three I'll give it three plus. The next shows 11/7,8 were superb, especially for a 17 year old.",
-      "date": "2015-03-26 22:49:30"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "\"Just look right besides you..\" If you are a critic there is plenty of vocal flubs but then again I would rather listen to this tonight then the soundboard from this night in 1977.\nSometimes the grunge of 1985 is just the ticket.\n I believe this was one of the last fall tours that traveled the road less taken. They start doing those extended runs in fewer but much larger East Coast cities?\nBeing from N.Y.C it cracked me up that this town was not pronounced WAR_CHESTER but WOOOSTA especially when the spelling is Worchester.\nBut be that as it may. to me it was all these shows in the smaller cities of America that made the Dead so special. Stories of High School misfits going to the freak show and finding themselves to finally be home.\nThe Dead were somewhat similar to when the Carnies came to town with the fair. \"Hang it up and see what tomorrow brings.\"\nI tried mostly unsuccessfully to keep one foot on the concrete pavement and the other to barefoot boogie with the Grateful Dead.\nI am listening as i write this. Dead played pretty jagged to start but as they hit Minglewood. I get the vibe that the sound is coming together. Sounds like some Sound board antics with slight Chula Vista forays. The slide is very nice and Brent is slashing.\nOverall good sound quality. Like it is alive and bouncing. I like a soundboard that has enough crowd to get me fired up but none of the stupidity one often encountered dancing around and searching for the sound in the arena.\nBig Railroad sounds just great. Seems like they are clicking now. This is another tune that seems to get forgotten but it is smokin' hot. I kinda like how everyone backs Garcia's lead vocals.\nI had this pegged as a 3 but it has my interest enough now that I could be bumping it up.\nListen to Garcia play his guitar.\nRxR Blues feels so JGB / Chuck Berry\nMusic, Yes indeed. A song that has no place being played in November but then again it is kinda like a Sunshine Daydream, November/ North East.\nGood jam in the MNS.. they are well primed now!\nOh cool, A Might as Well just to rock just a tad harder before break. I really loved Dancing to this song. Another great thing about shows in 1985. Mighty Swell\nSet Two- Express Train and absolutely why I toured.\nThe China>Rider>Playing is 5 star territory.\nTerrapin a little slow getting going.\nI am kinda surprised that over the years Terrapin seems to get some hard knocks.\n i always found it to be very movin' \nwhen it was played live.\nWhat's the line from Believe it or Not\n\"In a world time forgot\"",
-      "date": "2016-11-05 02:11:34"
-    }
-  ],
-  "rating": 1.9,
-  "review_count": 5,
-  "confidence": 1.0,
-  "collection_timestamp": "2025-08-13T01:54:44.823344",
-  "raw_rating": 3.8,
-  "distribution": {
-    "5": 2,
-    "2": 1,
-    "3": 1,
-    "4": 1
-  },
-  "high_ratings": 3,
-  "low_ratings": 1
+  "normalized_date": "1985-11-04",
+  "collection_timestamp": "2025-08-26T13:14:07.383384"
 }

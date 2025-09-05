@@ -13,7 +13,7 @@ help:
 	@echo "  stage03-generate-search-data - Run complete Stage 3: Search Data Generation (fast)"
 	@echo "  collect-archive-data      - Collect metadata from Archive.org (2-3 hours)"
 	@echo "  collect-jerrygarcia-shows - Collect complete show database from jerrygarcia.com (3-4 hours)"
-	@echo "  generate-recordings       - Generate comprehensive recording data with track metadata from cache"
+	@echo "  generate-recordings       - Generate minimal recording data with ratings and enhanced metadata from cache"
 	@echo "  integrate-shows           - Integrate JG shows with recording data"
 	@echo "  process-collections       - Process collections and add to shows"
 	@echo "  generate-search-data      - Generate denormalized search tables for mobile app"
@@ -40,11 +40,11 @@ collect-jerrygarcia-shows:
 	python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --start-page 1 --end-page 111 --delay 2.0 --verbose
 	@echo "✅ Jerry Garcia show database collection complete!"
 
-# Stage 2a: Recording Data Generation  
+# Stage 2a: Minimal Recording Data Generation  
 generate-recordings:
-	@echo "⭐ Generating comprehensive recording data with track metadata from Archive cache..."
-	python scripts/02-generate-data/generate_archive_recordings.py --verbose
-	@echo "✅ Recording data generation complete!"
+	@echo "⭐ Generating minimal recording data from raw Archive cache..."
+	python scripts/02-generate-data/process_recordings_minimal.py --verbose
+	@echo "✅ Minimal recording data generation complete!"
 
 # Stage 2b: Show Integration
 integrate-shows:

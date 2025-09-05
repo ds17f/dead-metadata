@@ -1,13 +1,55 @@
 {
   "identifier": "gd1994-03-06.sbd.sailorsaint.33613.flac16",
-  "title": "Grateful Dead Live at Desert Sky Pavilion on 1994-03-06",
-  "date": "1994-03-06",
-  "venue": "Desert Sky Pavilion",
-  "location": "Phoenix, AZ",
-  "source_type": "UNKNOWN",
-  "lineage": "CDR > EAC > Cakewalk Pyro 5.0.31> FLAC",
-  "taper": "Unknown",
-  "description": "",
+  "raw_metadata": {
+    "identifier": "gd1994-03-06.sbd.sailorsaint.33613.flac16",
+    "title": "Grateful Dead Live at Desert Sky Pavilion on 1994-03-06",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "date": "1994-03-06",
+    "year": "1994",
+    "subject": "Soundboard; Sailor_Saint",
+    "publicdate": "2008-06-27 14:10:47",
+    "addeddate": "2008-06-25 22:57:53",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Desert Sky Pavilion",
+    "coverage": "Phoenix, AZ",
+    "source": "SBD > ? > CDR",
+    "lineage": "CDR > EAC > Cakewalk Pyro 5.0.31> FLAC",
+    "taper": "Unknown",
+    "transferer": "Sailor_Saint",
+    "runtime": "145:55.57",
+    "notes": "Flaws:\n1)  Static and 1.3 second dropout at 3:26 of \"Let It Grow\"\n2)  Static and 0.6 second dropout at 3:32 of \"Let It Grow\"\n3)  1 second dropout at 3:37 of \"Let It Grow\" \n4)  1 second dropout at 2:49 of \"Attics Of My Life\"\n\nNotes: \nThis recording has the same genealogy as the 3/5/94 I recently posted.\n  \nIn the summer of 1999, Dick Latvala cloned the March 4-6 1994 run for a guy who hosted a Grateful Dead-themed radio show; I obtained copies from the radio host.\n\nUnlike 3/5/94, this show was tracked pretty accurately.  I did make minor adjustments to some track markers, again boosted the levels by about 20% (actually, 18% for reasons noted below) and again fixed a duplicated section of the track marker between \"Drums\" and \"Space\".  \n\nThe show had the same low levels problem as noted in 3/5/94.  However, the boost was a problem, since the music itself peaked a few times during \"Drums\", \"Space\", and \"The Last Time\".  Accordingly, it was difficult to do an across-the-board boost, because that would have driven the levels -- at least for those songs, at certain parts -- throught the roof.  So, I acted in the greater good, so to speak, and decided to boost the levels for the benefit of the entire recording.  So, there are a few \"hot\" sections in those songs.\n\nFurthur, there was a BIG problem with the \"Drums\" --> \"Space\" track marker.  On my originals, \"Drums\" was the last song of Disc 2, and \"Space\" was the first song of Disc 3.  Come to find out that when those songs were tracked together, the volume levels didn't match; \"Space\" was quite clearly louder, even the waveforms looked markedly different.  So, the splice was a problem since the levels didn't match.  Again, quite similar to the 3/5 seam, the first 15 or so seconds of \"Space\" was duplicated at the last 15 or so seconds of \"Drums\".  However, when I chopped off the duplicated sections, I still had a marked difference in volume.  So, because I have entered this little project not wanting to fade anything in or out, the volume markedly increases at about 15:28 of \"Space\".  \"It is what it is\", as they say these days.",
+    "updatedate": "2008-06-27 14:43:53",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903602_4",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "Yeah, some of the levels are way too hot. Somebody's bass drum registers as a click, throughout. ",
+      "reviewtitle": "-",
+      "reviewer": "njpg",
+      "reviewer_itemname": "@njpg",
+      "reviewdate": "2019-03-06 19:19:53",
+      "createdate": "2019-03-06 19:19:53",
+      "stars": "0"
+    },
+    {
+      "reviewtitle": "HSF alone worth 4 stars",
+      "reviewbody": "I've only listened to the first set so far.  This show is definitely before the final decline, because Jerry is so freaking ON at the start.  He absolutely nails the transition then delivers torrential volleys of sound all the way through Slipknot! (which well earns its \"!\" here).  He misses a few notes on the repeat of the transition, but even these are trifling.  The high energy continues throughout the first set.  My only quibbles are that the dropouts ruin Jerry's solo in Let It Grow, and then the big jam is kind of rushed.  So is the ending, where Jerry is on fire and clearly wants to keep playing, but the band forces a stop.",
+      "stars": "3",
+      "reviewer": "grateful phishmon",
+      "reviewdate": "2023-03-07 03:11:02",
+      "createdate": "2023-03-07 03:11:02",
+      "reviewer_itemname": "@grateful_phishmon"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2368,21 +2410,6 @@
       "private": "true"
     }
   ],
-  "reviews": [
-    {
-      "stars": 3.0,
-      "review_text": "HSF alone worth 4 stars I've only listened to the first set so far.  This show is definitely before the final decline, because Jerry is so freaking ON at the start.  He absolutely nails the transition then delivers torrential volleys of sound all the way through Slipknot! (which well earns its \"!\" here).  He misses a few notes on the repeat of the transition, but even these are trifling.  The high energy continues throughout the first set.  My only quibbles are that the dropouts ruin Jerry's solo in Let It Grow, and then the big jam is kind of rushed.  So is the ending, where Jerry is on fire and clearly wants to keep playing, but the band forces a stop.",
-      "date": "2023-03-07 03:11:02"
-    }
-  ],
-  "rating": 0.8999999999999999,
-  "review_count": 1,
-  "confidence": 0.2,
-  "collection_timestamp": "2025-08-13T05:57:18.533996",
-  "raw_rating": 3.0,
-  "distribution": {
-    "3": 1
-  },
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1994-03-06",
+  "collection_timestamp": "2025-08-26T17:47:16.580427"
 }

@@ -1,13 +1,45 @@
 {
   "identifier": "gd1974-05-12.sbd.matrix-dts.tobin.90179.flac16",
-  "title": "Grateful Dead Live at University of Nevada on 1974-05-12",
-  "date": "1974-05-12",
-  "venue": "University of Nevada",
-  "location": "Reno, NV",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nPromised Land \nSugaree \nMexicali \nTennessee Jed \nJack Straw \nBrown Eyed Women \nBeat It On Down The Line \nChina Cat Sunflower ->\nI Know You Rider \n\nSet 2\n\nEl Paso \nUS Blues \nGreatest Story Ever Told \nMust Have Been the Roses \nBobby McGee \nDeal \nAround And Around \nMississippi Half-Step Uptown Toodeloo  \n\nSet 3\n\nTruckin'  ->\nNobody's Fault But Mine Jam ->\nThe Other One  ->\nMind Left Body Jam ->\nRow Jimmy  \nBig River  \nShip Of Fools  \nSugar Magnolia",
+  "raw_metadata": {
+    "identifier": "gd1974-05-12.sbd.matrix-dts.tobin.90179.flac16",
+    "title": "Grateful Dead Live at University of Nevada on 1974-05-12",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nPromised Land \nSugaree \nMexicali \nTennessee Jed \nJack Straw \nBrown Eyed Women \nBeat It On Down The Line \nChina Cat Sunflower ->\nI Know You Rider \n\nSet 2\n\nEl Paso \nUS Blues \nGreatest Story Ever Told \nMust Have Been the Roses \nBobby McGee \nDeal \nAround And Around \nMississippi Half-Step Uptown Toodeloo  \n\nSet 3\n\nTruckin'  ->\nNobody's Fault But Mine Jam ->\nThe Other One  ->\nMind Left Body Jam ->\nRow Jimmy  \nBig River  \nShip Of Fools  \nSugar Magnolia",
+    "date": "1974-05-12",
+    "year": "1974",
+    "subject": "Soundboard;Matrix;DTS;Kevin Tobin",
+    "publicdate": "2008-04-23 15:02:30",
+    "addeddate": "2008-04-22 20:06:27",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "University of Nevada",
+    "coverage": "Reno, NV",
+    "source": "DTS Audio 5.1; SBD (shn id 2224) MSR>C>DAT>CDRs>EAC>SHN + AUD (shn id 10529)AUD>?>CDRs>EAC>SHN Shns supplied by Jack Warner - dts mixing by Kevin Tobin",
+    "runtime": "74",
+    "md5s": "54c2716aaf8ab6860e3e69176bdcc2f0 *gd1974-05-12d1t01.flac\r\n300ed886160f258c4caadf19fbd7825e *gd1974-05-12d1t02.flac\r\n024b9d27ea1c5062a885d522176b2311 *gd1974-05-12d1t03.flac\r\nafd509c718013ca2a78b7bcab288ed97 *gd1974-05-12d1t04.flac\r\ncb941e287f8c11f5e59c41249d811022 *gd1974-05-12d1t05.flac\r\n825aa48a9c394e15862ac75c010a3771 *gd1974-05-12d1t06.flac\r\n70d39ebb5dc8b20378c51ddfc3256b3e *gd1974-05-12d1t07.flac\r\n9ff4c1fe0775a49b590a0b5b221d7d45 *gd1974-05-12d1t08.flac\r\nceb75b8be1f36cad61ebf75930b64e52 *gd1974-05-12d1t09.flac",
+    "notes": "Audio Source Information\nSBD (shnid=2224)\nSource: MSR>C>DAT>CDRs>EAC>SHN\nEAC/SHN by darrin (dnsacks@usa.net)\n\nAUD (shnid=10529)\nSource: AUD>?>CDRs>EAC>SHN\nThanks to Jack Warner for the shns!\ntext file and shntool check mvernon54@attbi.com\nFlaws - @1:44 diginoise Mississippi Half Step\nThis is a very nice audience recording from the Wall-of-Sound era.\n---------------------------------------------------------\nTech Notes\n\nSHNs were decoded to wave and Audition 3.0 was used to reassemble the tracks back to 1 long wave.  Audition 3.0 was used to align & synch the SBD & AUD sources.  Audition 3.0 used to adjust the volume for AUDs, matrix/CTR and LFE channels.  Surcode CD Pro DTS was used to encode to DTS.\n- Mixed by kevtobin@yahoo.com\n- FLAC conversion 24-FEB-2008  \n---------------------------------------------------------\nAudio Patches:\n\n1) At the beginning of soundboard, 29.164 seconds were missing from the soundboard source and was filled in with audio from the audience source. This includes the first notes of Mississippi Halfstep.\n\n2) Between Mississippi Halfstep and Truckin', 1 minute and 20.275 seconds were missing from the soundboard source and was filled in with audio from the audience source.\n\n3) 8 minutes into Truckin', 36.150 seconds were missing from the soundboard source and was filled in with audio from the audience source.\n\n4) Near the start of Mind Left Body Jam, 8 minute and 16.296 seconds were missing from the audience source and was filled in with audio from the soundboard source.\n\n5) Between Row Jimmy and Big River, 05.535 seconds was overlapped on the soundboard source and was deleted to match the audience source.\n\n6) Between Big River and Ship Of Fools, 21.025 seconds were missing from the audience source and was filled in with audio from the soundboard source.\n\n7) Between Ship Of Fools and Sugar Magnolia, 13.742 seconds were missing from the audience source and was filled in with audio from the soundboard source.\n\n8) 1 minute before the end of Sunshine Daydream, the soundboard ends abruptly with 1 minute and 6.960 seconds missing that were filled in with audio from the audience source.\n\n9) Matrix\\DTS and Patched Audience were synced using the soundboard as a reference as the audience ran slightly slow at approx .30% or .2 seconds per minute.\n---------------------------------------------------------------------------\nDTS-Audio-CD Info\n\nFront  \nLeft Channel SBD  -0db\nRight Channel SBD -0db\n\nCenter\nMixed to mono -2db SBD\n\nSurround\nLeft Channel -1db AUD\nRight Channel -1db AUD\n\nSub/LFE\nMixed to mono -2db SBD\n--------------------------------------------------------------\nMore On DTS\n\nToday's audio standards are moving towards multi-channel\nsound, like DTS and Dolby Digital. While the Audio-CD\nstandard (Red Book) hasn't changed to accommodate these\nnew sound formats, it is still possible to go around the\nspecification and to put a 5.1 surround recording on a\nregular Audio-CD. To play a DTS-Audio-CD you must connect\nyour DVD/CD player via a digital cable (optical or coaxial)\nto your DTS Dolby-Digital receiver. It is not 100% sure\nthat your receiver will recognize a DTS-Audio CD, so the\nfirst time you're trying to playback a DTS-Audio-CD you\nmust do a test to determine if it can. Begin with the\nvolume very low, start the disc and raise the volume\ngradually. NEVER listen to a DTS-Audio-CD through the\nanalog audio outputs of your CD/DVD player.\n\nBurning Instructions\n\nBurn them the absolute same way as you would burn any\nnormal Audio-CD from FLAC files.\n\nBrokedown House Production",
+    "post_text": "This source is a DTS 5.1 mix and is not streamable",
+    "updatedate": "2008-04-23 16:19:30",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_32",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "Whats The Point... If you can not stream it... Or listen even yet download... What is the point...\nPeace\nJust thought I would say something meaningful...",
+      "reviewtitle": "Whats The Point",
+      "reviewer": "theacridsound",
+      "reviewdate": "2009-07-24 00:54:51",
+      "createdate": "2009-07-24 00:54:51",
+      "stars": "5"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1069,21 +1101,6 @@
       "private": "true"
     }
   ],
-  "reviews": [
-    {
-      "stars": 5.0,
-      "review_text": "Whats The Point Whats The Point... If you can not stream it... Or listen even yet download... What is the point...\nPeace\nJust thought I would say something meaningful...",
-      "date": "2009-07-24 00:54:51"
-    }
-  ],
-  "rating": 1.5,
-  "review_count": 1,
-  "confidence": 0.2,
-  "collection_timestamp": "2025-08-12T21:33:57.314672",
-  "raw_rating": 5.0,
-  "distribution": {
-    "5": 1
-  },
-  "high_ratings": 1,
-  "low_ratings": 0
+  "normalized_date": "1974-05-12",
+  "collection_timestamp": "2025-08-26T07:29:09.243980"
 }

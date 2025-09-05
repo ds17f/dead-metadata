@@ -1,13 +1,35 @@
 {
   "identifier": "gd1989-04-28.sbd.clugston.tetzeli.fix-13755.82050.sbeok.shnf",
-  "title": "Grateful Dead Live at Irvine Meadows Amphitheatre on 1989-04-28",
-  "date": "1989-04-28",
-  "venue": "Irvine Meadows Amphitheatre",
-  "location": "Laguna Hills, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nCold Rain And Snow \nLittle Red Rooster \nPeggy-O \nQueen Jane Approximately \nJust A Little Light \nRamble On Rose \nPicasso Moon \nBird Song \n\nSet 2\n\nCrazy Fingers ->\nPlaying In The Band ->\nUncle John's Band ->\nPlaying In The Band ->\nTerrapin Station ->\nDrums ->\nSpace ->\nThe Wheel ->\nI Need A Miracle ->\nStanding On The Moon ->\nSugar Magnolia ->\nTouch Of Grey \n\nEncore\nThe Mighty Quinn (Quinn The Eskimo)",
+  "raw_metadata": {
+    "identifier": "gd1989-04-28.sbd.clugston.tetzeli.fix-13755.82050.sbeok.shnf",
+    "title": "Grateful Dead Live at Irvine Meadows Amphitheatre on 1989-04-28",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nCold Rain And Snow \nLittle Red Rooster \nPeggy-O \nQueen Jane Approximately \nJust A Little Light \nRamble On Rose \nPicasso Moon \nBird Song \n\nSet 2\n\nCrazy Fingers ->\nPlaying In The Band ->\nUncle John's Band ->\nPlaying In The Band ->\nTerrapin Station ->\nDrums ->\nSpace ->\nThe Wheel ->\nI Need A Miracle ->\nStanding On The Moon ->\nSugar Magnolia ->\nTouch Of Grey \n\nEncore\nThe Mighty Quinn (Quinn The Eskimo)",
+    "date": "1989-04-28",
+    "year": "1989",
+    "subject": "Soundboard;Bill Tetzeli",
+    "publicdate": "2008-05-22 02:09:32",
+    "addeddate": "2008-05-08 03:42:06",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Irvine Meadows Amphitheatre",
+    "coverage": "Laguna Hills, CA",
+    "source": "Patched and seamless fix of shnid 13755",
+    "transferer": "Bill Tetzeli",
+    "md5s": "02b06df12c923520d4d2590d1ae1db1f *gd89-04-28d1t01.shn\r\n49064cc78124eef980c79c99c1e97d65 *gd89-04-28d1t02.shn\r\n53bac33a95575fb5ade58ad1402de0d5 *gd89-04-28d1t03.shn\r\n7d2263de80533a27e5eb2a17e579a574 *gd89-04-28d1t04.shn\r\ndf7e7fb1bd7e36dab2ffc42a6ca3e43d *gd89-04-28d1t05.shn\r\n7cf942bf531b5cf53f18f98f3e4de05c *gd89-04-28d1t06.shn\r\ncc2ed05e0659778161d5cde9f071fe90 *gd89-04-28d1t07.shn\r\n195e4e105657148b61b68b5efd06c672 *gd89-04-28d1t08.shn\r\n27dd36bed4617cca8940d4a38ab3989d *gd89-04-28d1t09.shn\r\ne395ac7c6a35b9a6c140b67152f78b33 *gd89-04-28d2t01.shn\r\nb601276e980eb7299da001c5bc087ed8 *gd89-04-28d2t02.shn\r\n0a6c9cf3416f2eafa11546c8a9b61ccb *gd89-04-28d2t03.shn\r\ncb9a4d221af8c1dab910af8ee9eefed4 *gd89-04-28d2t04.shn\r\n377ea853d570fcb092a82481d3a3cd52 *gd89-04-28d2t05.shn\r\n7fe6862d3b5027ee44605bf8b72ca67d *gd89-04-28d2t06.shn\r\nc6a5a38adcc5bc9b7a6633d514390eb9 *gd89-04-28d3t01.shn\r\nb2d4d945d0bb3fb8d60c0abab670178d *gd89-04-28d3t02.shn\r\nf324e76b848b0c653bea82d5f0168d40 *gd89-04-28d3t03.shn\r\n3834da6408e5012ee9b32e7125032edd *gd89-04-28d3t04.shn\r\n53f46fb9a0995acc86987b0192fd3de8 *gd89-04-28d3t05.shn\r\n559557352aadc729397bbb7e8feceb34 *gd89-04-28d3t06.shn\r\n338986f9eae6724e11895fc18bcf8f9e *gd89-04-28d3t07.shn",
+    "notes": "I patched in 3min 22sec of missing drums and space, starting at 8:38 in drums, using the AUD on LlaMA (shnid 9208).  AUD source was raised about 7 db to match SBD and 4 sec crossfades were used.  The transition between CDs 2 and 3 is now seamless.  Shntool was used to correct resulting SBEs.\n\nThanks to Scott Clugston for the SBD source and to Tim Wiley for the AUD patch source.\n\nBill Tetzeli (btet@adelphia.net)\n2:34 AM 11/17/2006",
+    "updatedate": "2008-05-22 02:23:14",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_35",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1706,13 +1728,6 @@
       "width": "0"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T03:38:11.392565",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1989-04-28",
+  "collection_timestamp": "2025-08-26T15:18:42.313458"
 }

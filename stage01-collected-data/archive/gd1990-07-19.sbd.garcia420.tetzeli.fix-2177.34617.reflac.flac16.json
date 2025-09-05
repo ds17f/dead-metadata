@@ -1,13 +1,45 @@
 {
   "identifier": "gd1990-07-19.sbd.garcia420.tetzeli.fix-2177.34617.reflac.flac16",
-  "title": "Grateful Dead Live at Deer Creek Music Center on 1990-07-19",
-  "date": "1990-07-19",
-  "venue": "Deer Creek Music Center",
-  "location": "Noblesville, IN",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nJack Straw \nThey Love Each Other \nDesolation Row \nRow Jimmy \nPicasso Moon \nAlthea ->\nThe Promised Land \n\nSet 2\n\nVictim Or The Crime ->\nFoolish Heart ->\nPlaying In The Band ->\nChina Doll ->\nUncle John's Band ->\nDrums ->\nSpace ->\nAll Along The Watchtower ->\nBlack Peter ->\nNot Fade Away \n\nEncore\nU.S. Blues",
+  "raw_metadata": {
+    "identifier": "gd1990-07-19.sbd.garcia420.tetzeli.fix-2177.34617.reflac.flac16",
+    "title": "Grateful Dead Live at Deer Creek Music Center on 1990-07-19",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nJack Straw \nThey Love Each Other \nDesolation Row \nRow Jimmy \nPicasso Moon \nAlthea ->\nThe Promised Land \n\nSet 2\n\nVictim Or The Crime ->\nFoolish Heart ->\nPlaying In The Band ->\nChina Doll ->\nUncle John's Band ->\nDrums ->\nSpace ->\nAll Along The Watchtower ->\nBlack Peter ->\nNot Fade Away \n\nEncore\nU.S. Blues",
+    "date": "1990-07-19",
+    "year": "1990",
+    "subject": "Soundboard;Bill Tetzeli",
+    "publicdate": "2008-07-31 22:54:30",
+    "addeddate": "2008-07-31 14:26:25",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2008-07-31 23:00:56",
+      "2008-11-11 21:30:50",
+      "2008-12-20 09:26:47",
+      "2008-12-20 09:38:29"
+    ],
+    "venue": "Deer Creek Music Center",
+    "coverage": "Noblesville, IN",
+    "source": "Fix of shnid 2177",
+    "transferer": "Bill Tetzeli",
+    "runtime": "166:29",
+    "md5s": "f92736805353ddf481dacea39e75c927 *gd90-07-19d1t01.flac\r\nd550d93a7ce156a031f929f720b5ddfa *gd90-07-19d1t02.flac\r\n06927ec45a9fb4d0020657cb08443508 *gd90-07-19d1t03.flac\r\n4059ca7a3842e17ba0e2a10e9475ff1d *gd90-07-19d1t04.flac\r\nba3e98bdd90546ff1db2b3f402a8507d *gd90-07-19d1t05.flac\r\n4cae672c733f8ed2c05c9b4886e1ae81 *gd90-07-19d1t06.flac\r\ncc18005fb4efc790b7dbf22626eeadff *gd90-07-19d1t07.flac\r\naad3c7c05794c1876b9c235d5da5651e *gd90-07-19d2t01.flac\r\n7e11663e3243ca842073208342f6e1ee *gd90-07-19d2t02.flac\r\n23386a3ef1e27dd202ae1a51a47b6758 *gd90-07-19d2t03.flac\r\n91ed540e9dd4d0f8fca28c7b5280bc5d *gd90-07-19d2t04.flac\r\n4cc773a1acc036de62f974c508977f32 *gd90-07-19d2t05.flac\r\n2e2351f4c3393102dfc3e504e4f771a2 *gd90-07-19d2t06.flac\r\n867fd2818ca07136f64f60fe8b323ab5 *gd90-07-19d3t01.flac\r\n0f315aba4e627b0460fa58309b697f60 *gd90-07-19d3t02.flac\r\n2d4a1a5df0f52f47e018c58e0fd1dfb6 *gd90-07-19d3t03.flac\r\nb42d9f18fa38ab600dfc83218cfa4caa *gd90-07-19d3t04.flac\r\n9b530468d72e058abeece67446cb2fc8 *gd90-07-19d3t05.flac",
+    "notes": "-------------------------------------------------------------------------------------\nFix of shnid 2177\n\nI made the transition between CDs 2 and 3 seamless and cleaned up the resulting SBEs with shntool.  I also converted the nonseekable SHNs to FLAC.  Many thanks to whomever did the the DAT>CD transfer for providing the overlap that made this fix possible.\n\nThere is a short segment in the transition between drums and space where the volume is almost inaudible.  This is not a fade, it's part of the original recording.  It seemed an appropriate place to split the tracks.  Also, there is a short burst of static at 11:59 in d2t06.  Although this is right where the splice was made, it's part of the original recording, in both segments of redundant material.\n\nBill Tetzeli (btet@adelphia.net)\n6:40 PM 4/8/2006\n-------------------------------------------------------------------------------------",
+    "backup_location": "ia903602_8"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2041,13 +2073,6 @@
       "private": "true"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T04:26:39.236338",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1990-07-19",
+  "collection_timestamp": "2025-08-26T16:11:54.314910"
 }

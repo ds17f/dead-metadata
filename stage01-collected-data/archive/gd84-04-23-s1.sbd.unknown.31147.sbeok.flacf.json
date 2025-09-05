@@ -1,13 +1,41 @@
 {
   "identifier": "gd84-04-23-s1.sbd.unknown.31147.sbeok.flacf",
-  "title": "Grateful Dead Live at Veterans' Memorial Coliseum on 1984-04-23",
-  "date": "1984-04-23",
-  "venue": "Veterans' Memorial Coliseum",
-  "location": "New Haven, CT",
-  "source_type": "UNKNOWN",
-  "lineage": "SBD > Cassette > Sony TC-D5M (no Dolby) > Soundblaster > Soundforge > TLH > CD-Wave > FLAC16",
-  "taper": "",
-  "description": "Jack Straw, Sugaree, Cassidy, Dupree's Diamond Blues, Hell in a Bucket, Might as Well",
+  "raw_metadata": {
+    "identifier": "gd84-04-23-s1.sbd.unknown.31147.sbeok.flacf",
+    "mediatype": "etree",
+    "subject": "Live concert",
+    "publicdate": "2005-12-24 06:16:51",
+    "creator": "Grateful Dead",
+    "description": "Jack Straw, Sugaree, Cassidy, Dupree's Diamond Blues, Hell in a Bucket, Might as Well",
+    "coverage": "New Haven, CT",
+    "md5s": "73180eccb288864d6d08d841e3129489 *gd1984-04-23d1t01.flac\n0d78eabdbdbf0b62820ae430fec8f77d *gd1984-04-23d1t02.flac\nd077c4d6c99fcab3c713c1effa50967e *gd1984-04-23d1t03.flac\n2d992384e81476af93b1bd4ec563e771 *gd1984-04-23d1t04.flac\n7703325ac94ba7cc6c622382694e9e95 *gd1984-04-23d1t05.flac\n55ec35bb01b2ae94e65091de91153e1f *gd1984-04-23d1t06.flac",
+    "date": "1984-04-23",
+    "uploader": "jon@archive.org",
+    "addeddate": "2005-12-24 05:37:09",
+    "adder": "jon@archive.org",
+    "pick": "0",
+    "updatedate": "2005-12-24 05:45:07",
+    "updater": "Brad Leblanc",
+    "notes": "The first 12 seconds of Jack Straw, and the last 45 seconds of Might as Well are patched-in from the AUD source taken from the archive. I used Sourdforge for some repairs to do the following: add the AUD patches, repair drop-outs, remove some tape hiss, and even-out the levels throughout.",
+    "source": "Soundboard (set 1 only)",
+    "lineage": "SBD > Cassette > Sony TC-D5M (no Dolby) > Soundblaster > Soundforge > TLH > CD-Wave > FLAC16",
+    "venue": "Veterans' Memorial Coliseum",
+    "transferer": "Jacob Feinberg",
+    "discs": "1",
+    "has_mp3": "0",
+    "shndiscs": "1",
+    "itemtype": "concert",
+    "type": "sound",
+    "year": "1984",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "title": "Grateful Dead Live at Veterans' Memorial Coliseum on 1984-04-23",
+    "backup_location": "ia903600_12"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -743,13 +771,6 @@
       "sha1": "19644ae0e8f0e9ef5d0e81fc63a90a2004c375f8"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T00:49:35.831563",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1984-04-23",
+  "collection_timestamp": "2025-08-26T11:47:40.747677"
 }

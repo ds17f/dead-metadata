@@ -1,13 +1,74 @@
 {
   "identifier": "gd71-02-24.sbd.orf.114.sbeok.shnf",
-  "title": "Grateful Dead Live at Capitol Theater on 1971-02-24",
-  "date": "1971-02-24",
-  "venue": "Capitol Theater",
-  "location": "Port Chester, NY",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Casey Jones, Me & My Uncle, Cumberland Blues, Next Time You See Me, Bird Song, Me And Bobby McGee, Bertha, Hard To Handle, Loser, Playin' In The Band, Good Lovin'-> Drums-> Good Lovin' Sugar Magnolia, King Bee, Greatest Story Ever Told-> Johnny B. Goode, Deal, Minglewood Blues, Truckin', Not Fade Away-> Goin' Down The Road Feelin' Bad-> Jam-> Not Fade Away-> Turn On Your Love Light",
+  "raw_metadata": {
+    "identifier": "gd71-02-24.sbd.orf.114.sbeok.shnf",
+    "mediatype": "etree",
+    "subject": "Live concert",
+    "publicdate": "2004-06-14 14:19:37",
+    "creator": "Grateful Dead",
+    "description": "Casey Jones, Me & My Uncle, Cumberland Blues, Next Time You See Me, Bird Song, Me And Bobby McGee, Bertha, Hard To Handle, Loser, Playin' In The Band, Good Lovin'-> Drums-> Good Lovin' Sugar Magnolia, King Bee, Greatest Story Ever Told-> Johnny B. Goode, Deal, Minglewood Blues, Truckin', Not Fade Away-> Goin' Down The Road Feelin' Bad-> Jam-> Not Fade Away-> Turn On Your Love Light",
+    "coverage": "Port Chester, NY",
+    "md5s": "1ff363d723826556372667c9bf58b17e *1_01.shn\nca99f1d3993fc932ea52151b50eddad5 *1_02.shn\n0e0e95b7adb98a3870d9546ab6e1579d *1_03.shn\n5620c776fa389294a16b480f39d2b96c *1_04.shn\n3f73b36c4e4446314090d0aec4befdc0 *1_05.shn\n3a8fdd61fa260bf34cddb382335bf117 *1_06.shn\nbcac929fe5241df3767d4ea0deea3d6b *1_07.shn\ne56705fdc46709c905ca6dfd033d1d02 *1_08.shn\n53a5f9a1c5a15e15a5c1516bdd4dd024 *1_09.shn\n49326f1c63086a8fd504e16fef0f083f *1_10.shn\n2fe9ef248f4756883c5509b407ae31a4 *2_01.shn\n5d38f190b6ae5e9a9db2ba801bd06409 *2_02.shn\n298797e8f5960e4572b2381331f172d9 *2_03.shn\n7c73e266c1d412238ea00742d7226761 *2_04.shn\n2e9ca8fb993d28de598482c7898b3812 *2_05.shn\nb81b4916ec1411bffd020e732dfbfd75 *2_06.shn\nf68f88bab7d75bc5feeeae5cace6ceff *2_07.shn\nf510d9f1b03b249ad32b3fa81af6848e *3_01.shn\nc63639365f275461f7e5062564ccdc07 *3_02.shn\n44d6d3ef0545d9df48876b51469002f4 *3_03.shn\nc459b2cc4f5acfc5dc2df4393d4ba12b *3_04.shn\nef8b5b32367dbb0e40c5025abaf5916d *3_05.shn\n11e3c1a9fe32297926e98e7d78000d50 *3_06.shn",
+    "date": "1971-02-24",
+    "uploader": "jon@archive.org",
+    "addeddate": "2004-06-14 10:19:47",
+    "adder": "jon@archive.org",
+    "pick": "0",
+    "updatedate": "2005-10-16 08:19:36",
+    "updater": "Brad Leblanc",
+    "notes": "via Leigh Orf; <a href=\"http://www.oakland.edu/~crouch/wbotb.htm\" rel=\"nofollow\">WBOTB</a> source > distortion removed digitally (see <a href=\"http://orf.cx/notch.html\" rel=\"nofollow\">notes</a>)\n\nThe short story:\n\n1) I removed the whine (~8000 kHz tone at about +25 dB) from this show that was present with the source reels using Sonic Foundry's Noise Reduction algorithm, as I did with the earlier uploaded Port Chester shows (2/18 and 2/21). For an explanation of the noise and how I removed it, see http://www.mailbag.com/users/orf/notch.html\n\n2) There are a couple of very minor dropouts/glitches which I have cleaned up as well as I can. These occurred when the DAT tape was \"ripped\" to disk.\n\n3) This show is as good as you're gonna get as far as I know because of the NR and the excellent remastering from the orinal reels!\n\n4) I've kept in all the intersong tuning/whatever. I figure others can edit them down if the wish. I like having it there, sometimes funny things are said and done :) plus you can always just hit FFWD on your CD player remote to get to the next song!\n\nThe long story with regards to 2) above:\n\nThe DAT tape, a clone from the \"whatever became of the bettys\" tree a while back, was borrowed and was read in on an old SGI indigo which has firmware which can read DAT audio tapes and dump them to 48 kHz AIFF files. Alas, I do not own a DAT machine and digital sound card, but I am saving my money! Anyhow, the error correction on the SGI DAT drive was pretty crappy, and there were a few dropouts/glitches on the read which lasted anywhere from less than 1/75 s to a second or two.\n\nI have at my behest a professional quality DAT machine at a community radio station I volunteer for (WORT) and brought my home tape deck in which is a Harmon Kardon TD 4600, one of the earlier Dolby S decks (WORT does not have a computer with a digital sound card). It is a very good deck for analogue. The DAT deck at WORT was able to handle *almost* all of the bad spots that were not handled well by the SGI. I made a dobly S copy of the bad spots, and pasted over (using an analogue AWE64 Soundblaster to go A->D) the glitches/droputs on the SGI read using Sound Forge. The result is as good as i could do. You won't even hear most of the original glitches, and the ones that remain were due to bad spots on the DAT, that the WORT deck was unable to handle. Bear in mind that the total amount I had to paste over represent a total of about 15 seconds across the entire show, and I was able to 'fix' 99% of them completely. There are one or two dropouts/bad reads that are very short (mostly in Casey Jones which Betty fucked up anyway ;)\n\nFor the curious I left about 1 second of the original noise that I filtered out. It's at the very very end of track 1 on disk 2 after the crowd noise fades.",
+    "source": "Soundboard",
+    "venue": "Capitol Theater",
+    "transferer": "Leigh Orf",
+    "discs": "3",
+    "has_mp3": "1",
+    "shndiscs": "2",
+    "type": "sound",
+    "year": "1971",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "title": "Grateful Dead Live at Capitol Theater on 1971-02-24",
+    "backup_location": "ia903600_6"
+  },
+  "raw_reviews": [
+    {
+      "review_id": "16420",
+      "reviewbody": "Not my favorite of the 6 nights (see 2/19 and 2/23)but a real rocker! The last night and they really turn Pigpen loose. The Hard to Handle is hot, but the long version of Good Lovin is even better! And in Set Two, he delivers a great King Bee (one of only 7 in 1971) Plus a Lovelight to bring the house down.And the Truckin, NFA>GDTR>NFA has to be experienced to be believed.A great party show. This one will get you down the road with a smile on your face! They released the box of the April Fillmore East shows. Now we need a box set of these great Capitol shows! How about it guys?\nDr. Flashback ;-)",
+      "reviewtitle": "Pigpen!!",
+      "reviewer": "dr. flashback",
+      "reviewdate": "2004-07-11 04:38:12",
+      "createdate": "2004-07-11 04:38:12",
+      "stars": "3"
+    },
+    {
+      "review_id": "66257",
+      "reviewbody": "The still downloadable SBD at the other site sounds pretty good - a bit high on the treble, very crisp, but not shrill.  Good performance.",
+      "reviewtitle": "Grateful for gdlive.com",
+      "reviewer": "jfk62",
+      "reviewdate": "2006-04-09 14:14:33",
+      "createdate": "2006-04-09 14:14:33",
+      "stars": "4"
+    },
+    {
+      "reviewbody": "Dear Fans of Lovelight,\nI remember back in the 70's listening to a Grateful Dead tape of a PigPen and Janis Joplin duet singing Lovelight.  Most of my tapes back then were either Fillmore East or Port Chester.  Does anyone know the date of that show so I can look it up on the Archives?\n\nLove the Archives!  I could spend a lifetime in here.  I plan on donating a percentage of my income to this cause.",
+      "reviewtitle": "Question?",
+      "reviewer": "Wally Gator",
+      "reviewdate": "2007-05-24 18:43:16",
+      "createdate": "2007-05-24 18:43:16",
+      "stars": "4"
+    },
+    {
+      "reviewbody": "Wally - \n\nCheck the 6/7/69 show. First Dire Wolf as well. ",
+      "reviewtitle": "Janis and The Dead",
+      "reviewer": "Mandojammer",
+      "reviewdate": "2008-02-18 22:38:21",
+      "createdate": "2008-02-18 22:38:21",
+      "stars": "5"
+    }
+  ],
   "files": [
     {
       "name": "1_01.afpk",
@@ -1768,38 +1829,6 @@
       "sha1": "5ee5c55cf04eba80f7afc7fa3b12a914d373ca05"
     }
   ],
-  "reviews": [
-    {
-      "stars": 3.0,
-      "review_text": "Pigpen!! Not my favorite of the 6 nights (see 2/19 and 2/23)but a real rocker! The last night and they really turn Pigpen loose. The Hard to Handle is hot, but the long version of Good Lovin is even better! And in Set Two, he delivers a great King Bee (one of only 7 in 1971) Plus a Lovelight to bring the house down.And the Truckin, NFA>GDTR>NFA has to be experienced to be believed.A great party show. This one will get you down the road with a smile on your face! They released the box of the April Fillmore East shows. Now we need a box set of these great Capitol shows! How about it guys?\nDr. Flashback ;-)",
-      "date": "2004-07-11 04:38:12"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "Grateful for gdlive.com The still downloadable SBD at the other site sounds pretty good - a bit high on the treble, very crisp, but not shrill.  Good performance.",
-      "date": "2006-04-09 14:14:33"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "Question? Dear Fans of Lovelight,\nI remember back in the 70's listening to a Grateful Dead tape of a PigPen and Janis Joplin duet singing Lovelight.  Most of my tapes back then were either Fillmore East or Port Chester.  Does anyone know the date of that show so I can look it up on the Archives?\n\nLove the Archives!  I could spend a lifetime in here.  I plan on donating a percentage of my income to this cause.",
-      "date": "2007-05-24 18:43:16"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "Janis and The Dead Wally - \n\nCheck the 6/7/69 show. First Dire Wolf as well. ",
-      "date": "2008-02-18 22:38:21"
-    }
-  ],
-  "rating": 1.8,
-  "review_count": 4,
-  "confidence": 0.8,
-  "collection_timestamp": "2025-08-12T20:55:15.266940",
-  "raw_rating": 4.0,
-  "distribution": {
-    "3": 1,
-    "4": 2,
-    "5": 1
-  },
-  "high_ratings": 3,
-  "low_ratings": 0
+  "normalized_date": "1971-02-24",
+  "collection_timestamp": "2025-08-26T06:49:54.554832"
 }

@@ -1,13 +1,34 @@
 {
   "identifier": "gd1990-04-03.133277.131206-fix.deal-katzeff.flac16",
-  "title": "Grateful Dead Live at The Omni on 1990-04-03",
-  "date": "1990-04-03",
-  "venue": "The Omni",
-  "location": "Atlanta, GA",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "Lance Deal, Ray Katzeff",
-  "description": "Set 1\n\nShakedown Street, Hell in the Bucket > Sugaree, We Can Run When I Paint My Masterpiece, Row Jimmy, Picasso Moon > Tennessee Jed > The Promised Land\n\nSet 2\n\nEstimated Prophet-> Scarlet Begonias-> Crazy Fingers-> Playin' In The Band-> Drums-> Jam-> I Will Take You Home-> Goin' Down The Road Feelin' Bad-> Throwing Stones-> Not Fade Away, E: We Bid You Good Night",
+  "raw_metadata": {
+    "identifier": "gd1990-04-03.133277.131206-fix.deal-katzeff.flac16",
+    "uploader": "mvernon54@yahoo.com",
+    "addeddate": "2015-06-04 11:58:10",
+    "date": "1990-04-03",
+    "curation": "[curator]validator@archive.org[/curator][date]20150604115853[/date][comment]checked for malware[/comment]",
+    "title": "Grateful Dead Live at The Omni on 1990-04-03",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nShakedown Street, Hell in the Bucket > Sugaree, We Can Run When I Paint My Masterpiece, Row Jimmy, Picasso Moon > Tennessee Jed > The Promised Land\n\nSet 2\n\nEstimated Prophet-> Scarlet Begonias-> Crazy Fingers-> Playin' In The Band-> Drums-> Jam-> I Will Take You Home-> Goin' Down The Road Feelin' Bad-> Throwing Stones-> Not Fade Away, E: We Bid You Good Night",
+    "year": "1990",
+    "subject": "Audience;Lance Deal;Craig Hillwig;Lenny Stubbe;Ray Katzeff",
+    "venue": "The Omni",
+    "coverage": "Atlanta, GA",
+    "source": "Source: FOB by Rick Katzeff using Schoeps CMC 44's> Oade p/s> SV 255> 1:1 clone; DAT's provided by Lance Deal; Transfer Info: Fostex D-5 (AES/BU)> Luminuous Monarch> (s/pdif) M-Audio Audiophile 2496> Audacity @ 16/48> 16/44> CD Wav (tracking)> TLH (SBE's/Flac16/md5); fix of SHNID 131206 due to an inverted left channel likely due to a faulty xlr cable in the recording gear chain. Craig Hillwig used xACT 2.35 and Audacity to decode, join files and invert the left channel in a 32 bit float. Lenny Stubbe used Sound Studio 3.6 and xACT 2.35 to add gain, track, tag, encode/align to FLAC and seed",
+    "taper": "Lance Deal, Ray Katzeff",
+    "transferer": "Craig Hillwig;Lenny Stubbe",
+    "runtime": "172:16.00",
+    "md5s": "ad003e166aca4132044720bbff875fe3 *gd90-04-03s1t01.flac 8f89faeb3b47ad2eddebce375c1072d7 *gd90-04-03s1t02.flac 0b8cb0a962b00351e3c76a900a5f16b6 *gd90-04-03s1t03.flac da4bf6435f8baaa4237fdebc7ca19a05 *gd90-04-03s1t04.flac f00067da093977f141bc4358c34cd322 *gd90-04-03s1t05.flac 74c01dd4874b51b38ffefe9411433938 *gd90-04-03s1t06.flac 81b0dbcf68f3041fa2bb3d07b80c6cb5 *gd90-04-03s1t07.flac 16bb904f092f61965618fe5025beb034 *gd90-04-03s1t08.flac 1c0a6115a4948d70fc66993263520530 *gd90-04-03s1t09.flac 285af5358355089705c5d3b2047ea47e *gd90-04-03s1t10.flac eb243e93df362182564556df7a9f6c85 *gd90-04-03s2t01.flac c010247be712103437dc83b1d23e96ba *gd90-04-03s2t02.flac 076ac4da827d9eee2a2322f0a1869043 *gd90-04-03s2t03.flac 3fdd537d83ae13f8ea46a35b096ccb12 *gd90-04-03s2t04.flac df2de7e2bb883e3b9dd24ba81756453c *gd90-04-03s2t05.flac ee7d0c326051e84d5d4e02ee54530f0b *gd90-04-03s2t06.flac 7cf462fcc1de48cc3550f82fbc8cbca3 *gd90-04-03s2t07.flac 373905f6f5cf06a0721868dea292d357 *gd90-04-03s2t08.flac d1473c7c7b6e87c4e2c41649800920fb *gd90-04-03s2t09.flac 3162344b0dfb4579aa3c80762fa88ca8 *gd90-04-03s2t10.flac c9e199bb6951295d3d53871b5f15a580 *gd90-04-03s2t11.flac aca2b243e16646abb743a3c4500f6779 *gd90-04-03s2t12.flac",
+    "notes": "***fix of SHNID 131206 due to an inverted left channel likely due to a faulty xlr cable in the recording gear chain. \nCraig Hillwig used xACT 2.35 and Audacity to decode, join files and invert the left channel in a 32 bit float. \nLenny Stubbe used Sound Studio 3.6 and xACT 2.35 to add gain, track, tag, encode/align to FLAC and seed. \nThanks to Craig for discovering this issue and taking the time to fix. 05/31/2015",
+    "publicdate": "2015-06-06 14:37:41",
+    "backup_location": "ia905306_22"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2498,13 +2519,6 @@
       "sha1": "39023945fa4fe00f41c78926b413e7b0fa0db98e"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T04:14:59.527747",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1990-04-03",
+  "collection_timestamp": "2025-08-26T15:58:27.241601"
 }

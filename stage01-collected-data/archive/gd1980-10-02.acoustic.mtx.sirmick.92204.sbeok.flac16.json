@@ -1,13 +1,54 @@
 {
   "identifier": "gd1980-10-02.acoustic.mtx.sirmick.92204.sbeok.flac16",
-  "title": "Grateful Dead Live at Warfield Theatre on 1980-10-02",
-  "date": "1980-10-02",
-  "venue": "Warfield Theatre",
-  "location": "San Francisco, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "See notes",
-  "taper": "See notes",
-  "description": "Set 1\n\nDark Hollow  \nIko Iko  \nThe Race Is On  \nTo Lay Me Down  \nCassidy  \nJack-A-Roe  \nOn The Road Again \nBird Song  ->\nRipple",
+  "raw_metadata": {
+    "identifier": "gd1980-10-02.acoustic.mtx.sirmick.92204.sbeok.flac16",
+    "title": "Grateful Dead Live at Warfield Theatre on 1980-10-02",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nDark Hollow  \nIko Iko  \nThe Race Is On  \nTo Lay Me Down  \nCassidy  \nJack-A-Roe  \nOn The Road Again \nBird Song  ->\nRipple",
+    "date": "1980-10-02",
+    "year": "1980",
+    "subject": "Matrix; SIRMick",
+    "publicdate": "2008-06-25 23:11:13",
+    "addeddate": "2008-06-22 16:38:38",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Warfield Theatre",
+    "coverage": "San Francisco, CA",
+    "source": "Matrix, See notes",
+    "lineage": "See notes",
+    "taper": "See notes",
+    "transferer": "SIRMick",
+    "runtime": "48:17.29",
+    "md5s": "0cfa63eff83a90de6dfbb3bc2b6257cb *gd1980-10-02d1t01.flac\r\n32fb90d0083c9aacd084414c1a49878c *gd1980-10-02d1t02.flac\r\n6452878264f04e9fe3bdec51ab585558 *gd1980-10-02d1t03.flac\r\n7fdee2243d68eae8c2774f60c78ae484 *gd1980-10-02d1t04.flac\r\n97c0fb26cb30acf89d7dc862b92fdd6a *gd1980-10-02d1t05.flac\r\n61b5c127d454f623364b1854154a7134 *gd1980-10-02d1t06.flac\r\nf70d2c83df53b9a48b3c7a2556f3e22e *gd1980-10-02d1t07.flac\r\n19cbc891a34a9e6b2a33c758bbe73a70 *gd1980-10-02d1t08.flac\r\n2475f8f53d536ee42b007b479ce18ad0 *gd1980-10-02d1t09.flac\r\nfcc2089afaac8e80c7214bd982014b40 *gd1980-10-02d1t10.flac",
+    "notes": "Matrix sources:\n\na) (shnid 8039) sbd > mr > cass > dat > cdr > eac > shn\n      Shn conversion done by Tim Wiley 2/29/02\n      thanks to Paul B. for the cds\n\nb) (shnid 89111) Master Cassette > Nakamichi 700s > Sony TC D-5 >\n     Teac Reel > Transfer to PC tracked & burned to CD\n     Location: FOB either on the floor or 1st row balcony\n     CD Extraction with EAC > TLH > FLAC level 8\n     Recorded and archived by Ron Ellner, the master cassettes were stolen\n     Transfer: Reels to PC by Peter Mandell\n     CD Extraction and seeded by Bill Koucky\n     Green Mountain Bros. December 2007\n\nThere was some tuning/crowd missing from both sources.  These have been patched from the opposite source as appropriate\n\n\nMatrix by\nSIRMick\nJune 2008",
+    "updatedate": "2008-06-25 23:14:02",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903602_3"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "The two sources are out of sync :(\n\nOtherwise nice job!",
+      "reviewtitle": "Latency issue in Jack-a-Roe",
+      "reviewer": "happy420",
+      "reviewdate": "2009-11-30 08:07:11",
+      "createdate": "2009-11-30 08:07:11",
+      "stars": "3"
+    },
+    {
+      "reviewbody": "Actually a pretty pipey-sounding matrix, but an excellent show. Matrixes often sound like they're coming through a plastic tube. Sometimes that's avoided, other times not. ",
+      "reviewtitle": "-",
+      "reviewer": "njpg",
+      "reviewdate": "2013-10-03 07:16:32",
+      "createdate": "2013-10-03 07:16:32",
+      "stars": "3"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1179,26 +1220,6 @@
       "private": "true"
     }
   ],
-  "reviews": [
-    {
-      "stars": 3.0,
-      "review_text": "Latency issue in Jack-a-Roe The two sources are out of sync :(\n\nOtherwise nice job!",
-      "date": "2009-11-30 08:07:11"
-    },
-    {
-      "stars": 3.0,
-      "review_text": "- Actually a pretty pipey-sounding matrix, but an excellent show. Matrixes often sound like they're coming through a plastic tube. Sometimes that's avoided, other times not. ",
-      "date": "2013-10-03 07:16:32"
-    }
-  ],
-  "rating": 1.0499999999999998,
-  "review_count": 2,
-  "confidence": 0.4,
-  "collection_timestamp": "2025-08-12T23:04:24.398385",
-  "raw_rating": 3.0,
-  "distribution": {
-    "3": 2
-  },
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1980-10-02",
+  "collection_timestamp": "2025-08-26T09:32:37.922791"
 }

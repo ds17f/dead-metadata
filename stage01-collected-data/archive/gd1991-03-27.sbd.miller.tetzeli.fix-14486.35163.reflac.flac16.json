@@ -1,13 +1,50 @@
 {
   "identifier": "gd1991-03-27.sbd.miller.tetzeli.fix-14486.35163.reflac.flac16",
-  "title": "The Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1991-03-27",
-  "date": "1991-03-27",
-  "venue": "Nassau Veterans Memorial Coliseum",
-  "location": "Uniondale, NY",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n\nHell In A Bucket \nCold Rain And Snow \nNew Minglewood Blues \nRow Jimmy \nMama Tried \nMaggie's Farm \nLoose Lucy \nPicasso Moon \nReuben And Cherise \n\nSet 2\n\nScarlet Begonias ->\nFire On The Mountain \nEstimated Prophet \nUncle John's Band \nDrums ->\nSpace ->\nAll Along The Watchtower \nStella Blue \nSugar Magnolia \n\nEncore\nBox Of Rain",
+  "raw_metadata": {
+    "identifier": "gd1991-03-27.sbd.miller.tetzeli.fix-14486.35163.reflac.flac16",
+    "title": "The Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1991-03-27",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nHell In A Bucket \nCold Rain And Snow \nNew Minglewood Blues \nRow Jimmy \nMama Tried \nMaggie's Farm \nLoose Lucy \nPicasso Moon \nReuben And Cherise \n\nSet 2\n\nScarlet Begonias ->\nFire On The Mountain \nEstimated Prophet \nUncle John's Band \nDrums ->\nSpace ->\nAll Along The Watchtower \nStella Blue \nSugar Magnolia \n\nEncore\nBox Of Rain",
+    "date": "1991-03-27",
+    "year": "1991",
+    "subject": "Soundboard;Bill Tetzeli",
+    "publicdate": "2008-05-22 03:15:34",
+    "addeddate": "2008-05-10 03:37:35",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2008-05-22 03:30:37",
+      "2008-11-12 05:24:59",
+      "2008-12-20 09:54:15",
+      "2008-12-20 10:04:25",
+      "2011-07-04 14:25:41",
+      "2011-07-04 15:06:13"
+    ],
+    "venue": "Nassau Veterans Memorial Coliseum",
+    "coverage": "Uniondale, NY",
+    "source": "Fix of shnid 14486",
+    "transferer": "Bill Tetzeli",
+    "runtime": "176:53",
+    "md5s": "ab9dbc0f533cbde9c8021d4274a419d1 *gd91-03-27d1t01.flac\r\n4e023eed8171be6901e2ec77952cb673 *gd91-03-27d1t02.flac\r\nc8e866045dffca85d7e3fd9d1e6f1b75 *gd91-03-27d1t03.flac\r\nbfe568f3491e4403cec3237567290b04 *gd91-03-27d1t04.flac\r\n1f81dabe4ed2dd37ad97acdbc7c00531 *gd91-03-27d1t05.flac\r\n4a06963bb3b971e4d2c2883a1f2fdfb6 *gd91-03-27d1t06.flac\r\n62500adfeca64ff4aca511407f66b847 *gd91-03-27d1t07.flac\r\n607dee8fe7a6eb6a7f5d0a5a5743ae20 *gd91-03-27d1t08.flac\r\n3db5e7c96ce1a9ff27a72d38b83ec417 *gd91-03-27d1t09.flac\r\n0cb81fa07a42b6e0bfd028c98739345c *gd91-03-27d2t01.flac\r\n4dab78902c1eec5e81c1dc361fbb4ea1 *gd91-03-27d2t02.flac\r\nf3dd3fc604e77c81e7da5916342bf4ad *gd91-03-27d2t03.flac\r\n2269eab0675e6a24221d44ee04080610 *gd91-03-27d2t04.flac\r\nae8292876385264b80024bf7697aeb30 *gd91-03-27d2t05.flac\r\n9f42af65b709f726787e9b094431be2c *gd91-03-27d3t01.flac\r\n49a5b2f9bb625100e8c577b317b11d41 *gd91-03-27d3t02.flac\r\na82c8b0c38ff6d0648deab498da4fb93 *gd91-03-27d3t03.flac\r\n76c857012efbd42a6c2d65df5c0f7ce9 *gd91-03-27d3t04.flac\r\n73864fbef7886c8c41589c2b9625ea9f *gd91-03-27d3t05.flac",
+    "notes": "I used the FOB on archive.org (shnid 28390) to patch 40 seconds of tape flip in drums (from about 2:00), then to patch another few seconds that were missing in the transition from CD 2 to CD 3. The 2nd set is now seamless. SBEs were fixed using shntool and all SHNs converted to FLAC. I chose a quiet place between drums and space to make the transition between CDs 2 and 3, so no fade tracks were necessary.\n\nAll patches were done in CE Pro with crossfades. AUD patch source was time/pitch stretched to 98.78%.\n\nBill Tetzeli (btet@adelphia.net)\n1:13 PM 6/16/2006",
+    "backup_location": "ia903601_35",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2149,13 +2186,6 @@
       "private": "true"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T04:47:15.403604",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1991-03-27",
+  "collection_timestamp": "2025-08-26T16:33:29.720227"
 }

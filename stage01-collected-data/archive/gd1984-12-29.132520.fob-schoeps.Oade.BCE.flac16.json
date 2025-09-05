@@ -1,13 +1,44 @@
 {
   "identifier": "gd1984-12-29.132520.fob-schoeps.Oade.BCE.flac16",
-  "title": "Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-29",
-  "date": "1984-12-29",
-  "venue": "San Francisco Civic Auditorium",
-  "location": "San Francisco, CA",
-  "source_type": "AUD",
-  "lineage": "Master PCM > DAW (via SEKD Prodif) > Wav; Recorded by the Oade Brothers; Mastering by Dan McDonald & Dave Usborne",
-  "taper": "Oade Brothers",
-  "description": "Set 1\n\nOne More Saturday Night\nFriend Of The Devil\nMy Brother Esau\nBig Railroad Blues\nCassidy\nAlthea\nLet It Grow\n\nSet 2\n\nSamson & Delilah\nTerrapin Station\nPlaying In The Band\nDrums\nSpace\nTruckin'\nStella Blue\nNot Fade Away\nBrokedown Palace\n\nJerry Garcia - Guitar\nBob Weir - Guitar\nBrent Mydland - Keyboards\nPhil Lesh - Bass\nBill Kreutzmann - Drums\nMickey Hart - Drums",
+  "raw_metadata": {
+    "identifier": "gd1984-12-29.132520.fob-schoeps.Oade.BCE.flac16",
+    "uploader": "mvernon54@yahoo.com",
+    "addeddate": "2015-02-27 12:42:39",
+    "date": "1984-12-29",
+    "curation": "[curator]validator@archive.org[/curator][date]20150227124544[/date][comment]checked for malware[/comment]",
+    "title": "Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-29",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree"
+    ],
+    "type": "sound",
+    "description": "Set 1\n\nOne More Saturday Night\nFriend Of The Devil\nMy Brother Esau\nBig Railroad Blues\nCassidy\nAlthea\nLet It Grow\n\nSet 2\n\nSamson & Delilah\nTerrapin Station\nPlaying In The Band\nDrums\nSpace\nTruckin'\nStella Blue\nNot Fade Away\nBrokedown Palace\n\nJerry Garcia - Guitar\nBob Weir - Guitar\nBrent Mydland - Keyboards\nPhil Lesh - Bass\nBill Kreutzmann - Drums\nMickey Hart - Drums",
+    "year": "1984",
+    "subject": "Audience;Oade Brothers;Dan McDonald;BCE;Dave Usborne",
+    "venue": "San Francisco Civic Auditorium",
+    "coverage": "San Francisco, CA",
+    "source": "Source: Schoeps CMC441s (90deg, 17cm) > Oade M118 > Oade mod SONY PCM-F1;",
+    "lineage": "Master PCM > DAW (via SEKD Prodif) > Wav; Recorded by the Oade Brothers; Mastering by Dan McDonald & Dave Usborne",
+    "taper": "Oade Brothers",
+    "transferer": "Dan McDonald and Dave Usborne",
+    "runtime": "157:50.63",
+    "md5s": "1b7565cdaa00f0d59538e15786a2d4f9 *gd1984-12-29.Oade.BCE.t101.flac 3a08d80fe34b47c6a0ecacc3651c42ae *gd1984-12-29.Oade.BCE.t102.flac 88e706132181f883efee5b14d67dbe38 *gd1984-12-29.Oade.BCE.t103.flac 52c56f6390d1f0b29c81b83722426aa7 *gd1984-12-29.Oade.BCE.t104.flac 25a66b337ace54f21ca44b38969ce73b *gd1984-12-29.Oade.BCE.t105.flac beeec75fce6dd5892abd94abf9e7464d *gd1984-12-29.Oade.BCE.t106.flac dea96de7722e82d7428da689397c2410 *gd1984-12-29.Oade.BCE.t107.flac f5e6bb7319ace6c5c73f81e5875d241d *gd1984-12-29.Oade.BCE.t108.flac 5e995d83cdf117ebd2871f1223878870 *gd1984-12-29.Oade.BCE.t201.flac 3a6cc85f8b0e419d2e060f18af438f7f *gd1984-12-29.Oade.BCE.t202.flac d9292f147cfa0a56ceb537e6ae2ad2e4 *gd1984-12-29.Oade.BCE.t203.flac 98e81d3d6bfd63d5a78739096f174f6c *gd1984-12-29.Oade.BCE.t204.flac 8552b924740a57da578604ae3762fdc1 *gd1984-12-29.Oade.BCE.t205.flac 59221d9d9c0c1857befe3f147c62f748 *gd1984-12-29.Oade.BCE.t206.flac 27edcf5101f755736769c2eee2cb6608 *gd1984-12-29.Oade.BCE.t207.flac 5fe463a399d0247371875d0aa97d48b5 *gd1984-12-29.Oade.BCE.t208.flac 483e5ebc4fc70e26930f1eef7c75123e *gd1984-12-29.Oade.BCE.t209.flac 5b5c3babf8753f15799c4f33c535fab6 *gd1984-12-29.Oade.BCE.t210.flac",
+    "notes": "The Wav files for Set I was corrupt and unreadable/unplayable. I read Set I into DC8.5 Forensics \nsoftware, and rewrote the header so that it was listed as 16 bits/44.1kHz. It then played and \nsounded right. After that, the only processing was a little bit of editing (fade in at the beginning \nof the show) and some equalization to counter the pre-emphasis and roll the bass off slightly \nbelow 100 hz to cut down on the boominess.\n\npatches:\n(FOB Schoeps CMC 441 > Oade M118 > Sony TC D5)> DATs > CDR > WAV > SHN (24294)\n106 - Cassidy (entire track)\n107 - Althea (entire track)\n108 - Let It Grow (entire track)\n201 - Samson & Delilah (drop out just before first verse)\nBCE de-emphasis curve (modified PCM de-emphasis) applied\n\nAUD> ? > CDR > EAC > SHN > WAV(re-tracked) > SHN (12296)\n206 - Drums (from about 1:00-12:50)",
+    "publicdate": "2015-03-09 11:42:35",
+    "backup_location": "ia905302_3"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "There were special circumstances surrounding these shows that I won't get into. If you weren't there listen to the playing it was very emotional for the band and the Dead Head's. I'm glad to have this copy even though it has it's share of echo being an audience tape it has it''s moments.",
+      "reviewtitle": "A special show",
+      "reviewer": "deantapes",
+      "reviewdate": "2015-09-09 14:19:45",
+      "createdate": "2015-09-09 14:19:45",
+      "stars": "4"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -2068,21 +2099,6 @@
       "sha1": "3eaca82b05451a10629003337c0f43a79c14efa2"
     }
   ],
-  "reviews": [
-    {
-      "stars": 4.0,
-      "review_text": "A special show There were special circumstances surrounding these shows that I won't get into. If you weren't there listen to the playing it was very emotional for the band and the Dead Head's. I'm glad to have this copy even though it has it's share of echo being an audience tape it has it''s moments.",
-      "date": "2015-09-09 14:19:45"
-    }
-  ],
-  "rating": 1.68,
-  "review_count": 1,
-  "confidence": 0.2,
-  "collection_timestamp": "2025-08-13T01:15:57.115761",
-  "raw_rating": 4.0,
-  "distribution": {
-    "4": 1
-  },
-  "high_ratings": 1,
-  "low_ratings": 0
+  "normalized_date": "1984-12-29",
+  "collection_timestamp": "2025-08-26T12:24:51.743035"
 }

@@ -1,13 +1,66 @@
 {
   "identifier": "gd1983-10-31.sbd.tetzeli.34934.sbeok.shnf",
-  "title": "Grateful Dead Live at Marin County Civic Center on 1983-10-31",
-  "date": "1983-10-31",
-  "venue": "Marin County Civic Center",
-  "location": "San Rafael, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "Master Cassette>DAT>CDR>EAC>CDWAV>SHN",
-  "taper": "",
-  "description": "Set 1\nd1t01 Wang Dang Doodle> \nd1t02 Brother Esau\nd1t03 Peggy O\nd1t04 Little Red Rooster\nd1t05 Brown-Eyed Women\nd1t06 Lost Sailor>\nd1t07 Saint of Circumstance>\nd1t08 Deal\n\nSet 2\nd2t01 Help on the Way>\nd2t02 Slipknot>\nd2t03 Franklin's Tower\nd2t04 Estimated Prophet>\nd2t05 Eyes of the World>\nd2t06 Drums>\nd2t07 (fade out)>\ndt301 (fade in)>\ndt302 Space>\ndt303 St. Stephen*>\ndt304 Throwing Stones>\ndt305 Not Fade Away\n\nEncore:\ndt306 Revolution\n\n*Final Time Played",
+  "raw_metadata": {
+    "identifier": "gd1983-10-31.sbd.tetzeli.34934.sbeok.shnf",
+    "title": "Grateful Dead Live at Marin County Civic Center on 1983-10-31",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\nd1t01 Wang Dang Doodle> \nd1t02 Brother Esau\nd1t03 Peggy O\nd1t04 Little Red Rooster\nd1t05 Brown-Eyed Women\nd1t06 Lost Sailor>\nd1t07 Saint of Circumstance>\nd1t08 Deal\n\nSet 2\nd2t01 Help on the Way>\nd2t02 Slipknot>\nd2t03 Franklin's Tower\nd2t04 Estimated Prophet>\nd2t05 Eyes of the World>\nd2t06 Drums>\nd2t07 (fade out)>\ndt301 (fade in)>\ndt302 Space>\ndt303 St. Stephen*>\ndt304 Throwing Stones>\ndt305 Not Fade Away\n\nEncore:\ndt306 Revolution\n\n*Final Time Played",
+    "date": "1983-10-31",
+    "year": "1983",
+    "subject": "Live Recording; soundboard; Bill Tetzeli",
+    "publicdate": "2008-01-27 23:02:08",
+    "addeddate": "2008-01-26 15:21:52",
+    "uploader": "mvernon54@yahoo.com",
+    "updater": [
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon",
+      "Matthew Vernon"
+    ],
+    "updatedate": [
+      "2008-01-27 23:41:33",
+      "2008-01-28 19:12:45",
+      "2008-01-28 20:08:06",
+      "2009-10-10 13:54:13",
+      "2009-10-10 15:26:39"
+    ],
+    "venue": "Marin County Civic Center",
+    "coverage": "San Rafael, CA",
+    "source": "Soundboard > Cassette",
+    "lineage": "Master Cassette>DAT>CDR>EAC>CDWAV>SHN",
+    "transferer": "Bill Tetzeli",
+    "runtime": "158:23.53",
+    "md5s": "4abf83b9383707ca6921e0ff8a81470f *gd1983-10-31d1t01.shn\r\n9ef86c2bce2c58b9f2f5832fb00d6768 *gd1983-10-31d1t02.shn\r\n9d9b004fa81b9d0332cbf984cb173481 *gd1983-10-31d1t03.shn\r\na6bed85d34f34794ae406d1f4b896cce *gd1983-10-31d1t04.shn\r\n08e479d5faf61cd5c49005aa2e072f7c *gd1983-10-31d1t05.shn\r\n65b37644c33953cb6f36cf10083728f2 *gd1983-10-31d1t06.shn\r\ndccafac3cc795dd882b4d0d41849dc82 *gd1983-10-31d1t07.shn\r\n1f7963695ab76eadd79245914b911108 *gd1983-10-31d1t08.shn\r\nc55f9904b993cfb6e4bab59cd29e7a9a *gd1983-10-31d2t01.shn\r\n5778851e32f55cd4a0c5e36e44d22fe4 *gd1983-10-31d2t02.shn\r\nce7faca591aa3ff98ec30ba47ca8741a *gd1983-10-31d2t03.shn\r\n5b3706a17763a972409014e8f47849d4 *gd1983-10-31d2t04.shn\r\n0191498c582f44f59a3b5a26a36d5a5e *gd1983-10-31d2t05.shn\r\n90dc3727b0cf017e80a646bb33d95221 *gd1983-10-31d2t05fade.shn\r\nc6104946b872133ea3a7fb2dc7881742 *gd1983-10-31d3t01fade.shn\r\n3cb472df571e8e0d04fadccf79e04fa3 *gd1983-10-31d3t01.shn\r\n1e09bf83140204bea1715273f0a8c73c *gd1983-10-31d3t02.shn\r\n317839ebd177293602dd5222d3a79c16 *gd1983-10-31d3t03.shn\r\ncfd272a0c6990fc2a7120f13f7c54fd9 *gd1983-10-31d3t04.shn\r\n29df8eefab5a5f86984097c61995c5c7 *gd1983-10-31d3t05.shn\r\n2b26b89abf3a790eee997cd3716d489e *gd1983-10-31d3t06.shn",
+    "notes": "Fix of shnid 3827\n\nI made the transition between CDs 2 and 3 seamless.  SBEs resulting from the fix were fixed and verified using shntool.  Overlapping fade tracks were added to the end of CD 2 and the beginning of CD 3.  For seamless playback simply remove the fade tracks.",
+    "backup_location": "ia903601_21",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [
+    {
+      "reviewbody": "Nevermind.....lol!",
+      "reviewtitle": "Revolution",
+      "reviewer": "Burnt Rich",
+      "reviewdate": "2012-11-01 04:18:02",
+      "createdate": "2008-11-01 04:06:26",
+      "stars": "0"
+    },
+    {
+      "reviewbody": "It is amazing how different the St. Stephen's back east where from this one. While I love the Dead this one sounds like its on Tylenol PM compared to MSG & Hartford. I was at Hartford (the MSG show was the first MSG show I missed in the 80's!!doooh!) and it was so much more full of energy. I guess that's why most of the breakouts and cool stuff happened on tour and not in Cali (at least during the 80's and 90's).",
+      "reviewtitle": "St. Stephen a little plodding",
+      "reviewer": "Sedula",
+      "reviewdate": "2009-08-26 07:08:31",
+      "createdate": "2009-08-26 07:08:31",
+      "stars": "3"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1652,21 +1705,6 @@
       "sha1": "8f80b4827e62326846660280d37866c29888301b"
     }
   ],
-  "reviews": [
-    {
-      "stars": 3.0,
-      "review_text": "St. Stephen a little plodding It is amazing how different the St. Stephen's back east where from this one. While I love the Dead this one sounds like its on Tylenol PM compared to MSG & Hartford. I was at Hartford (the MSG show was the first MSG show I missed in the 80's!!doooh!) and it was so much more full of energy. I guess that's why most of the breakouts and cool stuff happened on tour and not in Cali (at least during the 80's and 90's).",
-      "date": "2009-08-26 07:08:31"
-    }
-  ],
-  "rating": 0.8999999999999999,
-  "review_count": 1,
-  "confidence": 0.2,
-  "collection_timestamp": "2025-08-13T00:38:42.351436",
-  "raw_rating": 3.0,
-  "distribution": {
-    "3": 1
-  },
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1983-10-31",
+  "collection_timestamp": "2025-08-26T11:33:39.324591"
 }

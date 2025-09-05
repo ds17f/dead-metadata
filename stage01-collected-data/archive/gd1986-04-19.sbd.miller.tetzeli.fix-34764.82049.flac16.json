@@ -1,13 +1,36 @@
 {
   "identifier": "gd1986-04-19.sbd.miller.tetzeli.fix-34764.82049.flac16",
-  "title": "Grateful Dead Live at Berkeley Community Theatre on 1986-04-19",
-  "date": "1986-04-19",
-  "venue": "Berkeley Community Theatre",
-  "location": "Berkeley, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "",
-  "taper": "",
-  "description": "Set 1\n[omitted]\n\nSet 2\n[omitted]\nSugar Magnolia \n\nEncore\nThe Mighty Quinn (Quinn The Eskimo)",
+  "raw_metadata": {
+    "identifier": "gd1986-04-19.sbd.miller.tetzeli.fix-34764.82049.flac16",
+    "title": "Grateful Dead Live at Berkeley Community Theatre on 1986-04-19",
+    "creator": "Grateful Dead",
+    "mediatype": "etree",
+    "collection": [
+      "GratefulDead",
+      "etree",
+      "stream_only"
+    ],
+    "type": "sound",
+    "description": "Set 1\n[omitted]\n\nSet 2\n[omitted]\nSugar Magnolia \n\nEncore\nThe Mighty Quinn (Quinn The Eskimo)",
+    "date": "1986-04-19",
+    "year": "1986",
+    "subject": "Soundboard; Charlie Miller; Bill Tetzeli",
+    "publicdate": "2008-03-31 00:51:19",
+    "addeddate": "2008-03-30 08:27:44",
+    "uploader": "mvernon54@yahoo.com",
+    "venue": "Berkeley Community Theatre",
+    "coverage": "Berkeley, CA",
+    "source": "SHNID 34764 patched with SHNID 34419",
+    "transferer": "Charlie Miller and Bill Tetzeli",
+    "runtime": "14:00",
+    "md5s": "b70fc5acf3bd7c2583c41e1a5d28b9b8 *gd86-04-19d2t08.flac\r\n011dadbf3488e53db3fb82700a0d6003 *gd86-04-19d2t09.flac",
+    "notes": "The last two songs in Charlie Miller's PCM seed of 4/19/86 (shnid 34764), Sugar Mag and The Mighty Quinn, had 3 second dropouts in them. Bill patched the dropouts using Charlie's other seed, the master SBD cassette source (shnid 34419). he .wavs in both channels of the MSC source were inverted to match the PCM source, volume lowered by 1.3 db and both tracks time/pitch stretched to 101.592% (again to match PCM source).  Fades of about a quarter second were used to allow smoothness but avoid phasing problems.  All edits done in Cool Edit Pro.",
+    "updatedate": "2008-03-31 00:54:11",
+    "updater": "Matthew Vernon",
+    "backup_location": "ia903601_28",
+    "access-restricted-item": "true"
+  },
+  "raw_reviews": [],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -306,13 +329,6 @@
       "sha1": "594fd1f5a7385de0b2c6b1b2b3fbb9c561afbff1"
     }
   ],
-  "reviews": [],
-  "rating": 0.0,
-  "review_count": 0,
-  "confidence": 0.0,
-  "collection_timestamp": "2025-08-13T02:13:10.997944",
-  "raw_rating": 0.0,
-  "distribution": {},
-  "high_ratings": 0,
-  "low_ratings": 0
+  "normalized_date": "1986-04-19",
+  "collection_timestamp": "2025-08-26T13:36:55.195758"
 }

@@ -1,13 +1,128 @@
 {
   "identifier": "gd95-02-26.aud.5495.sbeok.shnf",
-  "title": "Grateful Dead Live at Oakland-Alameda on 1995-02-26",
-  "date": "1995-02-26",
-  "venue": "Oakland-Alameda",
-  "location": "Oakland, CA",
-  "source_type": "UNKNOWN",
-  "lineage": "DA-20mkII > Hosa S/PDIF > Delta DiO 2496 > Peak (downsampling) > WAV > SHN (no extraction)",
-  "taper": "",
-  "description": "Let The Good Times Roll, West L.A. Fadeaway, Queen Jane Approximately, Lazy River Road*, Mama Tried**-> Mexicali Blues**, Don't Ease Me In** Drums-> Iko Iko-> Samson & Delilah-> Ship of Fools, Estimated Prophet+-> Eyes Of The World+,++-> Drums++-> Space+-> I Need A Miracle-> The Days Between+-> Not Fade Away+, E: Box Of Rain Mardis Gras parade before second set. * Weir on acoustic, ** Weir on dobro like instrument, + w/ David Murray, ++ w/ Sikiru on talking drum. Other Artist(s): David Murray and Octofunk opened.",
+  "raw_metadata": {
+    "identifier": "gd95-02-26.aud.5495.sbeok.shnf",
+    "mediatype": "etree",
+    "subject": "Live concert",
+    "publicdate": "2004-05-18 19:31:55",
+    "creator": "Grateful Dead",
+    "description": "Let The Good Times Roll, West L.A. Fadeaway, Queen Jane Approximately, Lazy River Road*, Mama Tried**-> Mexicali Blues**, Don't Ease Me In** Drums-> Iko Iko-> Samson & Delilah-> Ship of Fools, Estimated Prophet+-> Eyes Of The World+,++-> Drums++-> Space+-> I Need A Miracle-> The Days Between+-> Not Fade Away+, E: Box Of Rain Mardis Gras parade before second set. * Weir on acoustic, ** Weir on dobro like instrument, + w/ David Murray, ++ w/ Sikiru on talking drum. Other Artist(s): David Murray and Octofunk opened.",
+    "coverage": "Oakland, CA",
+    "md5s": "77b54c6e01d3c26bde25fedc3dc38f91 *gd95-02-26d2t03-fixed.shn\n1389abc35e7601fbca182dc524b6122f *gd95-02-26d1t02-fixed.shn\n84c013ee878b7759bef98e0ca8615f68 *gd95-02-26d1t03-fixed.shn\nf0581542e122ea89e6f13d6f67426f8d *gd95-02-26d1t04-fixed.shn\nfd5617da5b790290503f019824aefe67 *gd95-02-26d1t05-fixed.shn\nc4edfc325036443777de2d7c07e86f0b *gd95-02-26d1t06-fixed.shn\ne678b5ba28761964bd66f89b1ece28c0 *gd95-02-26d1t07-fixed.shn\n11e10d1f9dc026c50ea1ed4a0baf0b12 *gd95-02-26d1t08-fixed.shn\ne2890f275d1fc6bd7c19902c56de9df6 *gd95-02-26d1t09-fixed.shn\nc5b6aa51ea84ebc4f54b362bcac3374c *gd95-02-26d1t10-fixed.shn\nac117a7b331bb71746f0ad54a37b134b *gd95-02-26d2t01-fixed.shn\n0c3b7f2e0b81ac5a7910ceb2d34630c6 *gd95-02-26d2t02-fixed.shn\nc0fc85df287e237728a680c707338e17 *gd95-02-26d1t01-fixed.shn\n21e2dca4501ef5c4f066ede7fb4b0b27 *gd95-02-26d2t04-fixed.shn\n43acfc93f0435f9f90280d5dfc09ef26 *gd95-02-26d2t05-fixed.shn\n1957597112538fc29a747fc322b28013 *gd95-02-26d3t01-fixed.shn\nf45d32ee82a0dcdab75b7e4792e1a507 *gd95-02-26d3t02-fixed.shn\nba3b250884ff45eccdc1c70b2daf97fa *gd95-02-26d3t03-fixed.shn\n5820ffd5136f6376d2008efad61dc338 *gd95-02-26d3t04-fixed.shn\n72dc5ce2d1ad73952a7fbd87ac5b7b67 *gd95-02-26d3t05-fixed.shn",
+    "date": "1995-02-26",
+    "uploader": "jon@archive.org",
+    "addeddate": "2004-05-18 14:24:19",
+    "adder": "jon@archive.org",
+    "pick": "0",
+    "updatedate": "2005-12-02 05:52:39",
+    "updater": "Brad Leblanc",
+    "notes": "shntool-fixed version (by Jeff Kempka?) of <a href=\"http://db.etree.org/shninfo_detail.php?shnid=4778\" rel=\"nofollow\">previous</a> shn set: Unknown Mics > DAT @48k; Transfer: DA-20mkII > Hosa S/PDIF > Delta DiO 2496 > Peak (downsampling) > WAV > SHN (no extraction); Transferred, SHNed, and seeded by Jon Seff; see flaw and tracking notes in info file\n\n* - w/David Murray on sax\n# - w/Sikiru Adepoju on talking drums\n\nNotes: There is some diginoise during the first few minutes of Parade Drums. Also, levels are a bit high during part of Drums/Space. I tracked it this way so it would flow nicely on three normal discs, but there are only fades at the start and end of sets, so you can arrange the discs in any way.\n\nseeded 07.30.01\n\nThere were sector boundary errors on all tracks on the original SHN's.  I performed a SHNTOOL fix on the wav's for each set and re-encoded the tracks to seekable SHN.  The md5s differ from a prior re-release of these SHN's in which the SHNTOOL fix was performed on the entire show, rather than on each set individually.  Also the previously \"fixed\" shns were not seekable - these are.\n\nChris L.",
+    "source": "Audience",
+    "lineage": "DA-20mkII > Hosa S/PDIF > Delta DiO 2496 > Peak (downsampling) > WAV > SHN (no extraction)",
+    "venue": "Oakland-Alameda",
+    "transferer": "Jon Seff and Chris L.",
+    "discs": "3",
+    "has_mp3": "1",
+    "shndiscs": "2",
+    "type": "sound",
+    "year": "1995",
+    "collection": [
+      "GratefulDead",
+      "etree"
+    ],
+    "title": "Grateful Dead Live at Oakland-Alameda on 1995-02-26",
+    "backup_location": "ia903600_5"
+  },
+  "raw_reviews": [
+    {
+      "review_id": "15716",
+      "reviewbody": "This is another disappointing show. It should be good, given that it's Mardi Gras, the 3rd night of a run, and has some special guests, but unfortunatly it makes for a rather unpleasant listening expericence. With the exception of West LA Fadeaway, the first set is pretty lack-lustre at best, while the band trudge through a rather dry setlist. The second set had potential, but David Murray on saxophone kind of detracts from the music with his shrill, manic avant-garde style that doesn't really suit the Dead's music at all. Box of Rain however is a strong show closer, and the sound quality of the recording is quite good. Still, the show itself needs an acquired taste.",
+      "reviewtitle": "Mardi Gras anti-climax.",
+      "reviewer": "Imercator",
+      "reviewdate": "2004-07-01 09:47:48",
+      "createdate": "2004-07-01 09:47:48",
+      "stars": "2"
+    },
+    {
+      "review_id": "34375",
+      "reviewbody": "This was a G/A mardi gras show and I was sitting in the last row on Jerry's side of the stage. Even from that horrific height I was still able to see Jerry slouching and exhausted. I rememeber commenting to the people next to me that it was the worst first set I ever saw- you know it's bad when Mama Tried was the standout.  the second set at least has some effort despite the flaws. Have to say the most interetsing NFA since hornsby left.",
+      "reviewtitle": "the end",
+      "reviewer": "lobster12",
+      "reviewdate": "2005-03-09 17:32:08",
+      "createdate": "2005-03-09 17:32:08",
+      "stars": "2"
+    },
+    {
+      "review_id": "40998",
+      "reviewbody": "I would not argue this is an amazing show and was a small let down (they often blew it on the obvious big nights), but the David Murray segments are pretty fun and interesting.  I especially like the Estimated, and think the post space jamming is strong.  4 stars for the freshness, and not 5 for not living up to it's potential",
+      "reviewtitle": "Guest Stars always help",
+      "reviewer": "markabes",
+      "reviewdate": "2005-05-09 22:03:08",
+      "createdate": "2005-05-09 22:03:08",
+      "stars": "4"
+    },
+    {
+      "review_id": "45287",
+      "reviewbody": "Yeah this was one of those nights..lol. Its not a bad show really..its jus not a great show. the set  list , well..there are some would be highlights. LTGTR is an oldie , but for me personally , not hearing brents voice in this tune makes me wish it was put to rest. Especially after listening to this listless version. There is no life to it at all. West L.A. is a song that always has potential when it is played , but it should not be potentially the best song of the first set. A nice closer like bird song might have done justice for the 1st set this evening, but alas, the boys  settled in with Dont Ease.\n\nThe sound isnt bad or anything. And while i agree Murray doesnt mesh well with the band , i for one am always up for hearing a little outside exploration by a guest ...even if it doesnt turn out ripe. Over all , this was just one of those yawners. There is not spectacular highlights in this show that one could point **altho NFA is nice , but a day late and a dollar short as far as putting effort into this show. \nIts a good listen if you dont have another show burning in your brain that you want to download.",
+      "reviewtitle": "Yawners",
+      "reviewer": "secret8476",
+      "reviewdate": "2005-07-04 21:40:01",
+      "createdate": "2005-07-04 21:40:01",
+      "stars": "2"
+    },
+    {
+      "review_id": "47891",
+      "reviewbody": "The music sounded ... tired. I'd never seen Jerry play before, but it was obvious that the man with the reedy voice and a white beard needed some rest. Nevertheless, the strangeness of the scene more than made up for the mediocre performance. And the Mardis Gras parade was really spectacular, especially since I had no idea it was coming.\n\nThe friend I was supposed to go with got sick, so I had an extra ticket. When I mentioned this to the heads waiting in line with me, and they looked at me with awe. What would this newcomer do with his Miracle? Desperate ticket-seekers were walking up and down the line, flashing rolls of twenty-dollar bills and other less legal enticements. Then I noticed a lone woman in a granny desk standing nearby, one mournful finger raised. I handed her my Miracle without a word. She gave me a big hug and a smile I'll never forget. The crowd around me broke into applause. So easy to Get On The Bus.\n\nI sat in the very back row, where the smoke is thick. Beside me was a college student who never spoke a word until EYES OF THE WORLD, when he looked at me and mumbled blearily, \"This is where it gets 3-dimensional.\" :)",
+      "reviewtitle": "My first and only Grateful Dead show",
+      "reviewer": "Eyecatcher",
+      "reviewdate": "2005-08-08 06:23:51",
+      "createdate": "2005-08-08 06:23:51",
+      "stars": "3"
+    },
+    {
+      "review_id": "55940",
+      "reviewbody": "My last of many dead shows. What can I say I loved them all.  Never had a bad time at a dead show and I sure had a good time at this one.  I give my left nut to be going to a dead show today, but that ain't going to happen.  Five stars because in some way or another every dead show is a five star to somebody. peace!!",
+      "reviewtitle": "this is the end",
+      "reviewer": "238deadshows",
+      "reviewdate": "2005-11-20 01:49:32",
+      "createdate": "2005-11-20 01:49:32",
+      "stars": "5"
+    },
+    {
+      "review_id": "62447",
+      "reviewbody": "I caught some tickets off the float on the floor. I still the remember the password to get down there... the cards were round and the grim reaper was scaaary. mr wizard woulda been proud. its amazing that everyone got home that night.\nThere should be soundboards of the tours after they stopped tapers from patching in. right.\ngood times. I'm young but we all are.",
+      "reviewtitle": "mardi gras",
+      "reviewer": "mutron freak",
+      "reviewdate": "2006-02-16 02:41:51",
+      "createdate": "2006-02-16 02:41:51",
+      "stars": "5"
+    },
+    {
+      "reviewbody": "My last show as well. Sat on the side of the stage -- Phil's side, but could see Jerry very well. And he did look just awful. Possibly the worst show I ever attended, with the possible exception of Boreal Ridge in '85 or whenever that was.\n\nI remember Jerry's fingerpicking on the solo on Lazy River was particularly horrendous, as was his missed cue coming back from one of the solos on Eyes.\n\nGlad at least I got a Box for my last tune...",
+      "reviewtitle": "Awful",
+      "reviewer": "Essephreak",
+      "reviewdate": "2009-01-08 16:53:55",
+      "createdate": "2009-01-08 16:53:55",
+      "stars": "2"
+    },
+    {
+      "reviewbody": "I sat right infront of Jer in my wheelchair. Koons was standing right behind the board infront of me in the exact same black dress as in the photo of her in Jer's bio book, or I never would have known who she was. Jerry was nodding off and bumping into the mic. It was hard to watch him and was this night I knew the buses wheels were going flat. After the parade he was revitalized and actually smiled down on me letting me trade lyrics to the end of NFA with him. Being from Chicago I saw the final show and seeing Jer kick his leg out during a jam and pour his soul into the best So Many Roads, I didnt expect to get that call a month to the day. I was hoping for more on this night but Jer was in a fight with the dragon and loosing during the first set.",
+      "reviewtitle": "Sadness",
+      "reviewer": "Jkstraw79",
+      "reviewdate": "2012-04-14 04:09:33",
+      "createdate": "2012-04-14 04:09:33",
+      "stars": "2"
+    },
+    {
+      "reviewtitle": "This is just for estimated/eyes",
+      "reviewbody": "Holy smoke david Murray wailing all over this & jerry & the boys r trying hard to keep up love it review for estimated/eyes only",
+      "stars": "5",
+      "reviewer": "Liberty1116",
+      "reviewdate": "2024-03-01 23:42:21",
+      "createdate": "2024-03-01 23:42:21",
+      "reviewer_itemname": "@liberty1116"
+    }
+  ],
   "files": [
     {
       "name": "__ia_thumb.jpg",
@@ -1519,69 +1634,6 @@
       "sha1": "51450a352f573847bfafe8a6d666435599e332a3"
     }
   ],
-  "reviews": [
-    {
-      "stars": 2.0,
-      "review_text": "Mardi Gras anti-climax. This is another disappointing show. It should be good, given that it's Mardi Gras, the 3rd night of a run, and has some special guests, but unfortunatly it makes for a rather unpleasant listening expericence. With the exception of West LA Fadeaway, the first set is pretty lack-lustre at best, while the band trudge through a rather dry setlist. The second set had potential, but David Murray on saxophone kind of detracts from the music with his shrill, manic avant-garde style that doesn't really suit the Dead's music at all. Box of Rain however is a strong show closer, and the sound quality of the recording is quite good. Still, the show itself needs an acquired taste.",
-      "date": "2004-07-01 09:47:48"
-    },
-    {
-      "stars": 2.0,
-      "review_text": "the end This was a G/A mardi gras show and I was sitting in the last row on Jerry's side of the stage. Even from that horrific height I was still able to see Jerry slouching and exhausted. I rememeber commenting to the people next to me that it was the worst first set I ever saw- you know it's bad when Mama Tried was the standout.  the second set at least has some effort despite the flaws. Have to say the most interetsing NFA since hornsby left.",
-      "date": "2005-03-09 17:32:08"
-    },
-    {
-      "stars": 4.0,
-      "review_text": "Guest Stars always help I would not argue this is an amazing show and was a small let down (they often blew it on the obvious big nights), but the David Murray segments are pretty fun and interesting.  I especially like the Estimated, and think the post space jamming is strong.  4 stars for the freshness, and not 5 for not living up to it's potential",
-      "date": "2005-05-09 22:03:08"
-    },
-    {
-      "stars": 2.0,
-      "review_text": "Yawners Yeah this was one of those nights..lol. Its not a bad show really..its jus not a great show. the set  list , well..there are some would be highlights. LTGTR is an oldie , but for me personally , not hearing brents voice in this tune makes me wish it was put to rest. Especially after listening to this listless version. There is no life to it at all. West L.A. is a song that always has potential when it is played , but it should not be potentially the best song of the first set. A nice closer like bird song might have done justice for the 1st set this evening, but alas, the boys  settled in with Dont Ease.\n\nThe sound isnt bad or anything. And while i agree Murray doesnt mesh well with the band , i for one am always up for hearing a little outside exploration by a guest ...even if it doesnt turn out ripe. Over all , this was just one of those yawners. There is not spectacular highlights in this show that one could point **altho NFA is nice , but a day late and a dollar short as far as putting effort into this show. \nIts a good listen if you dont have another show burning in your brain that you want to download.",
-      "date": "2005-07-04 21:40:01"
-    },
-    {
-      "stars": 3.0,
-      "review_text": "My first and only Grateful Dead show The music sounded ... tired. I'd never seen Jerry play before, but it was obvious that the man with the reedy voice and a white beard needed some rest. Nevertheless, the strangeness of the scene more than made up for the mediocre performance. And the Mardis Gras parade was really spectacular, especially since I had no idea it was coming.\n\nThe friend I was supposed to go with got sick, so I had an extra ticket. When I mentioned this to the heads waiting in line with me, and they looked at me with awe. What would this newcomer do with his Miracle? Desperate ticket-seekers were walking up and down the line, flashing rolls of twenty-dollar bills and other less legal enticements. Then I noticed a lone woman in a granny desk standing nearby, one mournful finger raised. I handed her my Miracle without a word. She gave me a big hug and a smile I'll never forget. The crowd around me broke into applause. So easy to Get On The Bus.\n\nI sat in the very back row, where the smoke is thick. Beside me was a college student who never spoke a word until EYES OF THE WORLD, when he looked at me and mumbled blearily, \"This is where it gets 3-dimensional.\" :)",
-      "date": "2005-08-08 06:23:51"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "this is the end My last of many dead shows. What can I say I loved them all.  Never had a bad time at a dead show and I sure had a good time at this one.  I give my left nut to be going to a dead show today, but that ain't going to happen.  Five stars because in some way or another every dead show is a five star to somebody. peace!!",
-      "date": "2005-11-20 01:49:32"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "mardi gras I caught some tickets off the float on the floor. I still the remember the password to get down there... the cards were round and the grim reaper was scaaary. mr wizard woulda been proud. its amazing that everyone got home that night.\nThere should be soundboards of the tours after they stopped tapers from patching in. right.\ngood times. I'm young but we all are.",
-      "date": "2006-02-16 02:41:51"
-    },
-    {
-      "stars": 2.0,
-      "review_text": "Awful My last show as well. Sat on the side of the stage -- Phil's side, but could see Jerry very well. And he did look just awful. Possibly the worst show I ever attended, with the possible exception of Boreal Ridge in '85 or whenever that was.\n\nI remember Jerry's fingerpicking on the solo on Lazy River was particularly horrendous, as was his missed cue coming back from one of the solos on Eyes.\n\nGlad at least I got a Box for my last tune...",
-      "date": "2009-01-08 16:53:55"
-    },
-    {
-      "stars": 2.0,
-      "review_text": "Sadness I sat right infront of Jer in my wheelchair. Koons was standing right behind the board infront of me in the exact same black dress as in the photo of her in Jer's bio book, or I never would have known who she was. Jerry was nodding off and bumping into the mic. It was hard to watch him and was this night I knew the buses wheels were going flat. After the parade he was revitalized and actually smiled down on me letting me trade lyrics to the end of NFA with him. Being from Chicago I saw the final show and seeing Jer kick his leg out during a jam and pour his soul into the best So Many Roads, I didnt expect to get that call a month to the day. I was hoping for more on this night but Jer was in a fight with the dragon and loosing during the first set.",
-      "date": "2012-04-14 04:09:33"
-    },
-    {
-      "stars": 5.0,
-      "review_text": "This is just for estimated/eyes Holy smoke david Murray wailing all over this & jerry & the boys r trying hard to keep up love it review for estimated/eyes only",
-      "date": "2024-03-01 23:42:21"
-    }
-  ],
-  "rating": 1.6,
-  "review_count": 10,
-  "confidence": 1.0,
-  "collection_timestamp": "2025-08-13T06:12:40.981902",
-  "raw_rating": 3.2,
-  "distribution": {
-    "2": 5,
-    "4": 1,
-    "3": 1,
-    "5": 3
-  },
-  "high_ratings": 4,
-  "low_ratings": 5
+  "normalized_date": "1995-02-26",
+  "collection_timestamp": "2025-08-26T18:03:34.373482"
 }
