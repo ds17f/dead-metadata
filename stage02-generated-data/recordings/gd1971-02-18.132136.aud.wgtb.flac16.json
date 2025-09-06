@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Lovely, quiet audience recording that makes a less‑favored show sound interesting",
+    "review": "The taper captured an unusually clear and low‑noise audience tape, which the reviewer describes as ‘lovely sound’ and quieter than typical crowd recordings. While the performance itself isn’t highlighted as a favorite, the high‑quality audience source makes it worth listening to.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "low",
+      "rationale": "One enthusiastic five‑star review praises the recording quality but offers little about the musical performance, leading to a modest overall rating that balances an excellent tape with an average show."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Taper positioned in a relatively quiet spot, resulting in clear, low‑noise sound that many find more interesting than board recordings."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T15:57:22.222913+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-02-18.132136.aud.wgtb.flac16"
+  }
 }

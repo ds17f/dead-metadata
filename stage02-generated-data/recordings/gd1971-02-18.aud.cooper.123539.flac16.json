@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Enthusiastic fan recounts a great night despite a bomb scare, with no noted recording issues",
+    "review": "The reviewer describes an unforgettable show, highlighting the excitement of hearing many songs for the first time and even mentioning a bomb scare that forced the audience to leave the theatre during the NRPS set. No technical details about the recording are provided, but the overall sentiment is overwhelmingly positive.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "medium",
+      "rationale": "The single 5‑star review indicates a highly enjoyable performance; lacking recording comments, we assume an average technical quality, yielding a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No specific comments on sound clarity or mix; reviewers did not discuss recording quality."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Not detailed in reviews",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T15:57:40.114259+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-02-18.aud.cooper.123539.flac16"
+  }
 }

@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.75,
   "high_ratings": 19,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of the legendary Feb 18 1971 Capitol Theater show, highlighted by a smoking Dark Star > Wharf Rat > Dark Star sequence and numerous first‑time performances.",
+    "review": "The recording delivers crystal‑clear, classic ’71 soundboard quality that lets listeners hear every nuance of the band’s historic set – from the soaring Dark Star/Wharf Rat jam to the debut of songs like Bertha and Greatest Story Ever Told.  Reviewers rave about the high energy, tight interplay and memorable moments (Jerry’s wah‑wah on Sugar Magnolia, Pigpen’s subtle organ, Mickey’s güiro), with only a few notes about occasional echo‑y sections suggesting a secondary source for a couple of tracks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Over 20 reviews overwhelmingly positive (average ★4.5), consistent praise for both performance and sound quality; only isolated minor complaints."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, classic 1971 soundboard tone with great clarity and balance.  One reviewer notes a slightly echo‑y/mono character on “Hard To Handle” → “Me & My Uncle”, suggesting a secondary source for those tracks, but overall the mix is clean."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > Wharf Rat > Dark Star",
+        "Bertha (first public performance)",
+        "Greatest Story Ever Told (first public performance)",
+        "Truckin'",
+        "Playin' In The Band (first public performance)",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A historic first‑time‑song heavy first set followed by a jam‑laden second set that peaks with the Dark Star/Wharf Rat marathon; the pacing feels adventurous yet cohesive.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his soaring guitar tone, wah‑wah on Sugar Magnolia and engaging dialogue during jams.",
+      "Phil": "Noted for staying locked with Bob during the Wharf Rat jam; fans speak of \"Phil bombs\" in the improvisation.",
+      "Bob": "Highlighted for melodic scaling work in the jam (B‑minor movement) and strong vocal harmonies.",
+      "Keys": "Pigpen’s subtle organ backdrop is mentioned as beautiful; a later note identifies Ned Lagin on amplified clavichord during the Beautiful Jam.",
+      "Drums": "Mickey Hart’s güiro on Dark Star noted, plus overall tight interplay between the dual drummers."
+    },
+    "processed_date": "2025-09-06T15:52:13.615905+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-02-18.sbd.cantor-crouch-diebert-gmb.85478.sbeok.flac16"
+  }
 }
