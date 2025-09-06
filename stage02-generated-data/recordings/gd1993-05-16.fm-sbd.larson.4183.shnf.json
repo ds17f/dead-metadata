@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Great show with strong performance, though the keyboard mix is a little too forward.",
+    "review": "The concert is praised as a great Dead show, with enough energy to earn a solid four‑star rating. Reviewers note that the keyboards (Vince) sit high in the mix, suggesting that dialing them back would have made an already good performance epic. The recording appears to be from a soundboard source but suffers slightly from balance issues.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "low",
+      "rationale": "Only one moderately detailed review; show is rated positively (4 stars) while recording mix concerns lower the overall score, yielding a combined rating around 3.7."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Keyboard volume is notably high; reviewer suggests turning Vince down would improve the listening experience."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keyboards are too prominent; turning Vince down would have made the show epic.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T15:42:30.383011+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1993-05-16.fm-sbd.larson.4183.shnf"
+  }
 }

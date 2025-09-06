@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Review provides no concrete details; only a zero‑star rating hints at dissatisfaction with the recording or performance.",
+    "review": "The sole review is extremely brief and offers no information about song selection, band playing, or audio fidelity. The reviewer gave the release a zero‑star rating and left the show early, suggesting they were not pleased, but without specifics we cannot pinpoint whether the issue was the performance, the recording quality, or both.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.5,
+      "confidence": "low",
+      "rationale": "Only one terse review with a zero‑star rating; insufficient detail to assess show or recording beyond indicating strong dissatisfaction."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "No technical comments were provided; the zero‑star rating implies the reviewer found the audio unsatisfactory."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T15:42:49.226853+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1993-05-16.sbd.miller.32348.sbeok.flac16"
+  }
 }
