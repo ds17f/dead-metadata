@@ -99,25 +99,16 @@ def setup_logging(verbose: bool = False, log_file: Optional[str] = None) -> None
                 return True
         console_handler.addFilter(CleanConsoleFilter())
     else:
-        # Normal mode: only show important stuff
+        # Normal mode: show INFO and above with same filtering
         console_handler = RichHandler(
             console=console, 
             rich_tracebacks=False,
             show_path=False,
             markup=True
         )
-        console_handler.setLevel(logging.WARNING)
-        # Only show warnings and errors on console
-        class MinimalConsoleFilter(logging.Filter):
-            def filter(self, record):
-                # Only warnings, errors, and special info messages
-                if record.levelname in ['WARNING', 'ERROR', 'CRITICAL']:
-                    return True
-                # Allow special markers through
-                if any(marker in record.getMessage() for marker in ['🤖', '🎯', '📋', '🚀', '🏁', '📊']):
-                    return True
-                return False
-        console_handler.addFilter(MinimalConsoleFilter())
+        console_handler.setLevel(logging.INFO)
+        # Apply same clean filter for non-verbose mode
+        console_handler.addFilter(CleanConsoleFilter())
     
     console_formatter = logging.Formatter('%(message)s')
     console_handler.setFormatter(console_formatter)
@@ -381,70 +372,50 @@ class ReviewProcessor:
         # Log batch processing start
         logger.info(f"🚀 Starting batch processing at {datetime.now(timezone.utc).isoformat()}")
         
-        from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, TimeRemainingColumn
+        # Start enhanced console output
+        console.print()  # Add blank line before processing output
         
-        # Create custom progress bar with recording-level tracking
-        console.print()  # Add blank line before progress bar
+        errors_this_session = []
         
-        with Progress(
-            TextColumn("[bold blue]{task.fields[current_show]}", justify="left"),
-            BarColumn(bar_width=None),
-            "[progress.percentage]{task.percentage:>3.1f}%",
-            "•",
-            TaskProgressColumn(),
-            "•", 
-            TimeRemainingColumn(),
-            console=console,
-            refresh_per_second=4,
-        ) as progress:
+        for i, show_file in enumerate(sorted(show_files), 1):
+            show_name = Path(show_file).name
+            show_recording_count = show_recording_counts[show_file]
             
-            task = progress.add_task(
-                "Starting...",
-                total=total_recordings,
-                current_show="Initializing"
-            )
+            # Show-level progress display
+            console.print(f"🎵 Processing Show [{i}/{len(show_files)}]: [bold blue]{show_name}[/bold blue]")
             
-            errors_this_session = []
-            
-            for i, show_file in enumerate(sorted(show_files), 1):
-                show_name = Path(show_file).name
-                show_recording_count = show_recording_counts[show_file]
+            try:
+                # Skip already processed shows
+                if show_recording_count == 0:
+                    console.print(f"   ⏭️  Already processed, skipping...")
+                    logger.debug(f"Skipping already processed show: {show_name}")
+                    continue
                 
-                # Update progress bar with current show
-                progress.update(
-                    task, 
-                    current_show=f"[{i}/{len(show_files)}] {show_name} ({show_recording_count} recordings)"
-                )
+                # Show recording count and estimate
+                console.print(f"   📊 Found {show_recording_count} recordings to process")
+                estimated_minutes = show_recording_count * 2  # Rough estimate: 2 minutes per recording
+                console.print(f"   ⏳ Estimated: ~{estimated_minutes//60}h {estimated_minutes%60}m (varies by review count and LLM speed)")
                 
-                try:
-                    # Skip already processed shows
-                    if show_recording_count == 0:
-                        logger.debug(f"Skipping already processed show: {show_name}")
-                        continue
-                    
-                    # Pass progress info to single show processing
-                    self._process_single_show(Path(show_file), clobber, progress, task)
-                    
-                except Exception as e:
-                    # Log detailed error to file, brief summary for console
-                    logger.error(f"❌ Failed to process {show_name}: {str(e)[:100]}...")
-                    logger.debug(f"   Full error for {show_name}: {e}", exc_info=True)
-                    
-                    # Track error
-                    error_info = {
-                        'show': show_name,
-                        'error': str(e),
-                        'timestamp': datetime.now(timezone.utc).isoformat()
-                    }
-                    self.stats['errors'] += 1
-                    self.stats['failed_shows'].append(error_info)
-                    errors_this_session.append(f"{show_name}: {str(e)[:80]}")
-                    
-                    # Still advance progress for failed recordings
-                    progress.update(task, advance=show_recording_count)
-                    
-            # Clean final update
-            progress.update(task, current_show="Processing complete")
+                # Process the show with enhanced output
+                self._process_single_show_enhanced(Path(show_file), clobber, i, len(show_files))
+                
+            except Exception as e:
+                # Enhanced error display
+                console.print(f"   ❌ [red]Show processing failed:[/red] {str(e)[:100]}...")
+                logger.error(f"❌ Failed to process {show_name}: {str(e)[:100]}...")
+                logger.debug(f"   Full error for {show_name}: {e}", exc_info=True)
+                
+                # Track error
+                error_info = {
+                    'show': show_name,
+                    'error': str(e),
+                    'timestamp': datetime.now(timezone.utc).isoformat()
+                }
+                self.stats['errors'] += 1
+                self.stats['failed_shows'].append(error_info)
+                errors_this_session.append(f"{show_name}: {str(e)[:80]}")
+            
+            console.print()  # Blank line between shows
             
         # Show error summary if there were failures
         if errors_this_session:
@@ -457,6 +428,135 @@ class ReviewProcessor:
         
         logger.info(f"🏁 Batch processing complete at {datetime.now(timezone.utc).isoformat()}")
         self._print_summary()
+    
+    def _process_single_show_enhanced(self, show_path: Path, clobber: bool, show_index: int, total_shows: int) -> None:
+        """Process a single show with enhanced console output."""
+        show_name = show_path.name
+        
+        # Load show data
+        try:
+            with open(show_path) as f:
+                show_data = json.load(f)
+        except Exception as e:
+            raise Exception(f"Failed to load show data: {e}")
+        
+        # Check if already processed
+        if not clobber and show_data.get('ai_show_review', {}).get('processing_status') == 'completed':
+            console.print(f"   ⏭️  Already processed, skipping...")
+            self.stats['shows_skipped'] += 1
+            return
+        
+        # Get recordings list
+        recordings = show_data.get('recordings', [])
+        if not recordings:
+            raise Exception(f"No recordings found in show data")
+        
+        # Stage 1: Process individual recordings with enhanced output
+        recording_analyses = []
+        failed_recordings = []
+        skipped_recordings = []
+        
+        for i, recording_id in enumerate(recordings, 1):
+            try:
+                # Show recording being processed
+                console.print(f"   🎧 [{i}/{len(recordings)}] [cyan]{recording_id}[/cyan]")
+                
+                # Get review count info before processing
+                archive_path = Path(f"stage01-collected-data/archive/{recording_id}.json")
+                review_count = 0
+                if archive_path.exists():
+                    try:
+                        with open(archive_path) as f:
+                            archive_data = json.load(f)
+                        review_count = len(archive_data.get('raw_reviews', []))
+                    except:
+                        pass
+                
+                if review_count == 0:
+                    console.print(f"      📝 No reviews found, skipping...")
+                    skipped_recordings.append(recording_id)
+                    continue
+                elif review_count < self.config.processing.min_reviews_for_processing:
+                    console.print(f"      📝 Only {review_count} reviews (minimum {self.config.processing.min_reviews_for_processing}), skipping...")
+                    skipped_recordings.append(recording_id)
+                    continue
+                else:
+                    confidence_label = "high" if review_count >= 5 else "medium" if review_count >= 3 else "low"
+                    console.print(f"      📝 Processing {review_count} reviews ({confidence_label} confidence data)...")
+                
+                # Process with timing
+                start_time = time.time()
+                analysis = self._process_recording_enhanced(recording_id)
+                processing_time = time.time() - start_time
+                
+                if analysis and analysis != "skip":
+                    # Show results
+                    ai_rating = analysis.get('ai_rating', {})
+                    stars = ai_rating.get('stars', 0)
+                    confidence = ai_rating.get('confidence', 'unknown')
+                    
+                    console.print(f"      🤖 LLM Analysis: {processing_time//60:.0f}m {processing_time%60:.0f}s → ⭐ {stars:.1f} stars ({confidence} confidence)")
+                    console.print(f"      ✅ Recording analysis complete")
+                    
+                    recording_analyses.append(analysis)
+                    self.stats['recordings_processed'] += 1
+                else:
+                    console.print(f"      ⚠️  Processing failed or skipped")
+                    failed_recordings.append(recording_id)
+                    
+            except Exception as e:
+                console.print(f"      ❌ [red]Failed:[/red] {str(e)[:60]}...")
+                logger.debug(f"  Failed to process recording {recording_id}: {e}")
+                failed_recordings.append(recording_id)
+                self.stats['failed_recordings'].append({
+                    'recording': recording_id,
+                    'show': show_name,
+                    'error': str(e),
+                    'timestamp': datetime.now(timezone.utc).isoformat()
+                })
+        
+        # Show recording processing summary
+        successful_count = len(recording_analyses)
+        total_count = len(recordings)
+        skipped_count = len(skipped_recordings)
+        failed_count = len(failed_recordings)
+        
+        if successful_count == 0:
+            raise Exception(f"No successful recording analyses (failed: {failed_count}, skipped: {skipped_count})")
+        
+        # Stage 2: Generate show review with enhanced output
+        console.print(f"   🎭 Generating show review from {successful_count} successful analyses...")
+        
+        try:
+            start_time = time.time()
+            show_review = self._generate_show_review(show_data, recording_analyses)
+            processing_time = time.time() - start_time
+            
+            # Show show review results
+            ai_rating = show_review.get('ratings', {}).get('ai_rating', 0)
+            confidence = show_review.get('ratings', {}).get('confidence', 'unknown')
+            best_recording = show_review.get('best_recording', {}).get('identifier', 'unknown')
+            
+            console.print(f"   🤖 Show Analysis: {processing_time:.0f}s → ⭐ {ai_rating:.1f} stars ({confidence} confidence)")
+            
+            # Update show data
+            show_data['ai_show_review'] = show_review
+            
+            # Save updated show
+            with open(show_path, 'w') as f:
+                json.dump(show_data, f, indent=2, ensure_ascii=False)
+            
+            self.stats['shows_processed'] += 1
+            
+            # Show completion summary
+            console.print(f"   ✅ [green]Show complete:[/green] {show_name.replace('.json', '')} ({successful_count}/{total_count} recordings, {skipped_count} skipped)")
+            if best_recording != 'unknown':
+                # Get recording quality info
+                best_recording_short = best_recording.split('.')[-2] if '.' in best_recording else best_recording[-20:]
+                console.print(f"   📄 Best recording: {best_recording_short} (recommended)")
+            
+        except Exception as e:
+            raise Exception(f"Failed to generate show review: {e}")
     
     def _process_single_show(self, show_path: Path, clobber: bool, progress=None, task=None) -> None:
         """Process a single show through both analysis stages."""
@@ -653,6 +753,12 @@ Please analyze these reviews and respond with a JSON object following the specif
         except Exception as e:
             logger.debug(f"      Failed to process recording {recording_id}: {e}")
             return None
+    
+    def _process_recording_enhanced(self, recording_id: str) -> Optional[Dict[str, Any]]:
+        """Enhanced recording processing that returns results for display."""
+        # Use the existing processing method
+        result = self._process_recording(recording_id)
+        return result
     
     def _generate_show_review(self, show_data: Dict[str, Any], 
                             recording_analyses: List[Dict[str, Any]]) -> Dict[str, Any]:
