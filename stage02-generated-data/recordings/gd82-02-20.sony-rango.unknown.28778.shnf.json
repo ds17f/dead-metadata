@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.4,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A crystal‑clear, front‑heavy Jerry mix makes this high‑energy show sparkle despite an odd split‑personality recording balance.",
+    "review": "Listeners rave about Jerry Garcia’s guitar dominating the performance – from a scorching Franklin's > Sampson to a relentless Big RXR – and praise the overall fire of the night. The recording is unusually clear but heavily weighted toward the front‑row monitor, leaving the rest of the band recessed and the bass thin at the start; still, most reviewers consider it a strong show worth hearing.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is 4.4/5 and 4 of 5 reviews are highly enthusiastic about the music; recording quirks are noted but not enough to outweigh the strong performance."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Front‑row (6th row centre) audience tape with Jerry’s monitor mic dominating, making his guitar crystal clear while other instruments sound recessed or board‑like; bass is muted at the start but opens up later. Overall clarity is high but balance is uneven."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Franklin's Tower > Sampson",
+        "Big River (RXR)",
+        "Brent’s jam with the drummers"
+      ],
+      "poor_songs": [
+        "R&R",
+        "OMSN",
+        "BB"
+      ],
+      "setlist_flow": "First set solid but a bit uneven; second set improves markedly and builds energy, ending on weaker numbers that some felt killed the momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar is described as front‑heavy, insane, resplendent, and the main driver of the show’s excitement.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent's brief jam with the drummers is highlighted as an interesting moment.",
+      "Drums": "The drummer(s) are noted for their interaction with Brent during the jam."
+    },
+    "processed_date": "2025-09-06T16:22:37.452413+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-02-20.sony-rango.unknown.28778.shnf"
+  }
 }

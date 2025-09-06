@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "All‑time great second set highlighted by a smoking Scarlet Begonias, captured on an audience tape of decent but not stellar sound quality.",
+    "review": "Both reviewers rave about the strength of the second‑set list, especially the intense Scarlet Begonias solo. The recording is an audience (AUD) source that isn’t crystal clear but is considered better than many other crowd tapes. Overall the show shines despite modest audio fidelity.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Show quality is rated very high (all‑time great second set) while recording quality is only fair; the weighted average yields a solid 4+ rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Sound quality is not great—some muddiness and crowd noise—but better than many other AUD recordings."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Scarlet Begonias"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "All‑time great second‑set list with strong momentum and tight transitions.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T21:15:45.016642+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-12-27.senn441.koucky.ladner.77463.sbeok.flac16"
+  }
 }

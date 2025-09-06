@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.375,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a wild ’82 show with a killer Uncle John’s Band → Samson → Uncle John’s sequence, standout Althea and Eyes, despite an abrupt first‑set stop.",
+    "review": "The recording is a high‑quality soundboard that delivers crisp mix and lets Phil’s bass roar, though a few audience patches and missing encore bits are noted. Musically the night was memorable – the first set ends abruptly when Weir quits the stage, but the second set rolls on nonstop with a sweet Althea jam, an explosive Uncle John’s Band‑Samson‑UJB sandwich, and a soaring Eyes that lifts the whole show.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4–5 stars, praising both performance (high energy, standout songs) and recording (crisp soundboard). Minor complaints about missing sections and a few rough moments keep the rating just below the top tier."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp, well‑balanced mix with strong bass presence; occasional audience patches and missing encore sections, but overall excellent clarity for an ’82 board."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Althea",
+        "Uncle John's Band > Samson > Uncle John's Band",
+        "Eyes",
+        "Good Lovin'",
+        "Wheel"
+      ],
+      "poor_songs": [
+        "The Other One (Bob missed lyrics)"
+      ],
+      "setlist_flow": "First set stops abruptly when Weir leaves the stage; second set opens with a surprising UJB‑Samson‑UJB sandwich and then flows nonstop, delivering high energy through Eyes into Good Lovin'.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Delivers sweet, muscular lead after Weir quits; standout work on Althea and a beautiful solo on Eyes.",
+      "Phil": "Bass comes through like ‘the beast’, highlighted as a key strength of this board recording.",
+      "Bob": "Forgot lyrics on The Other One and bailed a bit on Althea, but regains eloquence on Good Lovin'.",
+      "Keys": "Brent (keyboards) joins the post‑Weir jam on Althea, adding to the sweet groove.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:42:08.302691+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-09-09.sbd.willy.11735.sbeok.shnf"
+  }
 }

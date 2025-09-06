@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A high‑energy Stanford show that fans rave about, captured in a solid recording that lives up to the legend.",
+    "review": "Listeners are ecstatic about this Oct‑10‑1982 Stanford performance, describing it as a life‑changing experience and praising its classic Dead energy. While no specific technical details are given, the enthusiasm suggests the recording is at least listenable and faithful to the show’s vibe.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "low",
+      "rationale": "Only one 5‑star review; strong positive sentiment about the performance but no concrete data on recording quality, so rating leans high based on fan enthusiasm."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": ""
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:56:59.128638+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-10-10.sbd.tetzeli.ayers.79903.sbeok.flac16"
+  }
 }

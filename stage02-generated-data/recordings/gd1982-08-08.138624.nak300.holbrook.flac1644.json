@@ -14,5 +14,39 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Hot, high‑energy show highlighted by smoking Jerry solos on \"Fire\" and \"They Love Each Other\", captured in a good‑quality (source unknown) recording.",
+    "review": "Both reviewers rave about the performance, calling it “very fun” and noting that Jerry’s solo on \"Fire\" is one of the hottest endings ever, while his improvisation on \"They Love Each Other\" is described as creative and smoking hot. No technical complaints are mentioned, suggesting the audio is at least clear enough to enjoy the tour‑wide ripping vibe.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "medium",
+      "rationale": "Strong positive comments about the musical performance (high energy, standout solos) and no reported recording problems; weighted rating leans toward a high show score with an assumed good recording."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers do not comment on sound quality; absence of complaints implies the audio is clear enough for enjoyment."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Fire on the Mountain",
+        "They Love Each Other"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Reviewers describe the entire concert as \"hot hot hot\" and note the band was ripping throughout the tour, indicating a consistently high‑energy flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Highlighted for an especially fierce solo on \"Fire\" (ending likened to a dog chasing its tail) and a creative, smoking‑hot improvisation on \"They Love Each Other\".",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:16:09.839445+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-08.138624.nak300.holbrook.flac1644"
+  }
 }

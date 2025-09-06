@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.090909090909091,
   "high_ratings": 9,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Decent audience recording captures a focused but short set, highlighted by Jerry’s strong vocals and a standout “He’s Gone” amid an otherwise generic setlist.",
+    "review": "The tape is an audience (FOB) recording that sounds better than expected – clear enough to hear the band’s tight playing and some high‑end sparkle, though occasional annoyance is noted. Musically the show is short and the setlist feels routine, but the Dead were focused; Jerry sang well for ’82, Brent Mydland was on fire on keys, and “He’s Gone” (plus a powerful post‑drums segment) stand out as highlights.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Reviews are split between praise for the band’s focus and specific moments versus criticism of a dull setlist and modest recording quality; weighting show performance higher yields an overall rating in the mid‑range."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Audience (FOB) tape that exceeds expectations for an AUD – clear enough with pleasant high‑end sparkle, though some listeners find it slightly annoying or imperfect."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "He’s Gone",
+        "Sugar Magnolia (referred to as Sugar Mag)",
+        "Post‑drums/NFA segment"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Short, relatively generic setlist that lacks excitement, but the band stays tight and focused throughout.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Good vocal performance, noted as increasingly rare for ’82.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent Mydland on fire; his playing is highlighted as a strong point of the night.",
+      "Drums": "Post‑drums segment described as brooding and intense, adding to the show’s depth."
+    },
+    "processed_date": "2025-09-06T19:32:38.333505+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-08-29.fob-nak300.miller.17957.sbeok.shnf"
+  }
 }

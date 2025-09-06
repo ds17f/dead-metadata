@@ -14,5 +14,40 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy show highlighted by a blazing Scarlet Fire and tight Shakedown groove.",
+    "review": "The recording is a very clean SBD with careful patching of the few cuts, delivering crystal‑clear detail that lets the band's performance shine. The concert bursts into life within a minute of \"Shakedown\", stays energetic through \"Day Job\", and reaches a near‑perfect climax in the closing segment of \"Scarlet Fire\". Reviewers especially praise Brent’s keyboards and the overall precision and beauty of the second set.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Both reviewers give high marks (5 and 4 stars), praising the show’s energy, standout songs and excellent soundboard quality; the weighted average yields a strong rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Very nice SBD with clear, crisp mix; patches of a few cuts are praised as expertly done, no noticeable drop‑outs or muffiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Shakedown",
+        "Day Job",
+        "Scarlet Fire"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Groove locks in within the first minute of \"Shakedown\" and maintains momentum; second set peaks with an especially precise and beautiful closing segment of \"Scarlet Fire\".",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent is highlighted as a great keyboardist, adding fun and energy to the performance.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:26:16.217058+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-20.sbd.miller.88857.sbeok.flac16"
+  }
 }

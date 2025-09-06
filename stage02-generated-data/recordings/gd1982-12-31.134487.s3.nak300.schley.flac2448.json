@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Nice sound on this recording, though performance details are scarce",
+    "review": "The lone review praises the audio quality as \"nice sound,\" giving it a full five‑star rating. No specific comments about the musical performance or setlist were provided.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one brief, positive review focusing on sound quality; no information on show performance, so rating is conservative."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer notes the sound is nice and clear"
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T21:28:48.541055+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-12-31.134487.s3.nak300.schley.flac2448"
+  }
 }

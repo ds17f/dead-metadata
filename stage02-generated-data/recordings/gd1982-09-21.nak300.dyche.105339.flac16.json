@@ -14,5 +14,42 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear audience recording captures a high‑energy 9/21/82 Garden show with smoking Crazy Fingers and Jerry’s blazing guitar work.",
+    "review": "Both reviewers rave about the performance – every song is described as well‑played, with standout renditions of “Crazy Fingers,” “Big River,” “High Time,” “Throwing Stones,” and “Beat It On Down The Line.”  The Dyche audience tape is praised for its matrix‑like clarity: clean mix, no boominess, vocals as clear as a soundboard.  Overall the show is high‑octane from start to finish with no discernible low point.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Consistently five‑star reviews highlight an almost perfect performance and an excellent, near‑studio quality audience recording."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Clean and clear sound with no boominess or echo; vocals cut through like a soundboard mix; audience ambience fades when music starts, giving a matrix‑like feel."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Crazy Fingers",
+        "Big River",
+        "High Time",
+        "Throwing Stones",
+        "Beat It On Down The Line"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Consistently strong throughout; reviewers note no low point and a seamless, high‑energy flow from start to finish.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar blazing with inventive and unexpected lines all night.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:33:13.259101+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-21.nak300.dyche.105339.flac16"
+  }
 }

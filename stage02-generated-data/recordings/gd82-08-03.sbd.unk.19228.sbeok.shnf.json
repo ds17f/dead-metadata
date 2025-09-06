@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.461538461538462,
   "high_ratings": 12,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording of an early‑'80s Starlight show that’s a bit fuzzy but captures a high‑energy, tight performance with standout versions of Mississippi Half‑Step, Shakedown Street and Let It Grow.",
+    "review": "The August 3, 1982 concert is remembered as one of the band’s best early‑’80s outings – Jerry’s vocals were on fire, the second set smoldered from Shakedown Street through a monster Let It Grow > Drums > Space > He’s Gone sequence, and the whole show flowed tightly with superb transitions.  The source is a soundboard cassette that sounds “a little fuzzy” and has some stepped‑on intros, but it still delivers enough clarity to enjoy the fire‑cracker performances.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "The majority of reviewers rate the performance 4–5 stars and praise its energy, while recording quality is consistently described as decent/good but not pristine; the weighted average yields a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Cassette‑derived soundboard copy – slightly fuzzy, occasional speed/tempo quirks, some stepped‑on intros and a noticeable cut on “Cassidy”. A matrix version exists using the SBD side. No major drop‑outs but not a pristine Betty board."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mississippi Half‑Step",
+        "Franklin's Tower",
+        "Shakedown Street",
+        "Let It Grow > Drums > Space > He's Gone",
+        "The Other One",
+        "Casey Jones"
+      ],
+      "poor_songs": [
+        "Cassidy (cut in the board recording)"
+      ],
+      "setlist_flow": "Tight, with seamless segues – e.g., Althea → Cassidy → Big Railroad Blues → Samson → Shakedown – and a strong second‑set arc that builds to Let It Grow and The Other One.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals described as strong and ‘on fire’; guitar tone praised, especially during solos and on Peggy‑O.",
+      "Phil": "",
+      "Bob": "Bobby’s rhythm guitar audible under Jerry’s solo; noted for solid playing throughout.",
+      "Keys": "",
+      "Drums": "Tight beats highlighted, especially in the intense second set."
+    },
+    "processed_date": "2025-09-06T18:50:16.079833+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-08-03.sbd.unk.19228.sbeok.shnf"
+  }
 }

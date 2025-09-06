@@ -14,5 +14,39 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a rare Row Jimmy with Brent’s fiery solo; reviewers praise the youthful guitar and energetic playing despite limited technical commentary.",
+    "review": "The recording, presumed to be a sound‑board source, is praised for its musical moments – notably a gritty, youthful Jerry Garcia lead and a hellacious, angry keyboard solo from Brent Mydland. Reviewers also highlight the rarity of “Row Jimmy” in the 1982 setlist and give a nod to the overall energy of the performance.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Most reviewers gave high star ratings (5, 5, 4) and highlighted strong playing; recording quality is assumed good but not explicitly described."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No specific comments on sound clarity or mix; presumed clear soundboard capture based on file naming."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Row Jimmy",
+        "Beat It Down the Line"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Not described in reviews.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Youthful, gritty guitar work praised as soulful and gritty.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent delivers an angry, hellacious keyboard solo that stands out.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:07:05.456501+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-11.sbd.miller.108852.flac16"
+  }
 }

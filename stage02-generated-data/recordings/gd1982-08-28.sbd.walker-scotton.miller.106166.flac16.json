@@ -14,5 +14,40 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Decent unknown‑source recording of an energetic 1982 outdoor show with debut performances of “Day Job” and “West LA Fadeaway,” strong Jerry vocals and sizzling Brent keyboards.",
+    "review": "The concert is remembered as a solid, clean performance with good song selection; fans especially highlight the first live renditions of “Day Job” and “West LA Fadeaway” plus a glittering “Black Peter.”  While no one mentions technical flaws, the recording is generally considered listenable, though its exact source (soundboard vs. audience) isn’t identified.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Three of four reviewers gave high marks (4‑5 stars) and praised the music, while one gave a zero rating with no musical commentary; overall show quality is good and recording appears acceptable, leading to a mid‑high rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No specific comments on soundboard or audience mix; reviewers note the show sounds clean enough for enjoyment."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Day Job",
+        "West LA Fadeaway",
+        "Black Peter"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Solid set with strong song selection; not consistently 'smokin'' from start to finish but maintains a good flow throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Strong vocals noted, especially after a short break that helped his voice recover.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent's keyboard work described as sizzling.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:29:34.829953+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-28.sbd.walker-scotton.miller.106166.flac16"
+  }
 }

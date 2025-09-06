@@ -14,5 +14,40 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent audience/matrix recording of a high‑energy show with a tight first set and standout Tennessee Jed, Playing in the Band, and Crazy Fingers.",
+    "review": "The fan notes this as possibly the best Dead show of the year, praising a very tight first set and a second set highlighted by a superb Playing in the Band segue into Crazy Fingers. The audience source is described as very good with low crowd noise and even an excellent‑sounding soundboard mix, making the music clear and present.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "medium",
+      "rationale": "Both show performance and recording quality are described as outstanding; a single detailed 5‑star review yields high rating but confidence is medium due to limited sample size."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Very good audience source with low crowd level; music is present and clear. Review also mentions excellent‑sounding soundboard feed in the mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Tennessee Jed",
+        "Playing in the Band",
+        "Crazy Fingers"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set described as fantastic and very tight; second set flows well with a nice Playin' segue into Crazy Fingers.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:59:54.363448+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-10-10.123624.senn421.gans.miller.flac16"
+  }
 }

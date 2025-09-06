@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy show with Bob Weir in a special mood, captured on a clean soundboard recording",
+    "review": "The reviewer is clearly thrilled by the performance, especially noting that “Bobby” (Bob Weir) was in an unusual, upbeat mood that night. The recording is identified as a soundboard source and no flaws are mentioned, suggesting a clear and listenable mix.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one 4‑star review; positive comments about the performance and no reported recording problems, but limited data prevents a higher confidence rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No specific technical complaints; assumed clear soundboard capture."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "Reviewer notes Bob (Weir) was in a special mood, implying an especially lively performance.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:59:21.393072+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-05-28.sbd.tobin.130199.flac16"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crisp soundboard mix brings out the high‑energy Boston Garden show, highlighted by a smoking second set and standout “Samson & Delilah” and encore “It’s All Over Now, Baby Blue”.",
+    "review": "The upgraded Charlie Miller SBD provides clear, punchy audio that captures the crowd’s excitement.  Reviewers rave about the solid first set and an especially high‑energy second set, while noting a few minor flubs (e.g., in “Truckin’”).  Overall the performance shines despite a few mixed comments.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Three strong 5‑star reviews and one 4‑star review praise both the musical performance and the crisp soundboard recording, while a few low‑star comments are unrelated or focus on minor issues, leading to an overall positive but slightly moderated rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix; captures crowd energy well; no reported drop‑outs or major balance problems. Reviewers note the SBD upgrade as a significant improvement over previous audience recordings."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Samson & Delilah",
+        "It's All Over Now, Baby Blue"
+      ],
+      "poor_songs": [
+        "Truckin’ (minor flub noted)"
+      ],
+      "setlist_flow": "Solid first set followed by a high‑energy second set; the band feeds off the enthusiastic Boston Garden crowd and maintains strong momentum through the encore.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Praised for a powerful ‘Phil bomb’ at the start of “Samson & Delilah”.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:19:12.038871+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-18.123051.sbd.miller.flac16"
+  }
 }

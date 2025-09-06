@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear audience tape of a tight Frost Amphitheater show highlighted by an unforgettable Touch of Grey performance.",
+    "review": "The recording, captured with Sony ECM‑220T mics, delivers surprisingly vivid and balanced sound for a three‑decade‑old audience tape, though vocals sit a bit forward in the mix. Musically the band is praised as tight and energetic, with Jerry’s funky vocal on Touch of Grey standing out, while Phil’s bass and Brent’s piano receive criticism for their tone that year. Overall the show is regarded as a strong early‑’82 outing despite a rushed finish.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the performance and tape highly (5‑star enthusiasm) while a few note mix issues and instrument tone problems, yielding an overall strong but not flawless assessment."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Sony ECM‑220T shotgun mics provide crisp, clear capture; some listeners note vocals are a bit prominent, but the tape sounds surprisingly clean for its age."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Touch of Grey"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The band was tight and the set flowed well early on; the show felt a little rushed toward the end.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His vocal on Touch of Grey is described as funky and standout.",
+      "Phil": "Bass tone is criticized as muffled, flat, and buried in the mix compared to earlier years.",
+      "Bob": "",
+      "Keys": "Brent's Yamaha CP‑70 piano sounds weak, flat and toy‑like, lacking the richness of his previous Rhodes work.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:45:14.177804+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-10-09.sonyecm220T.keshavan.miller.93683.sbeok.flac24"
+  }
 }

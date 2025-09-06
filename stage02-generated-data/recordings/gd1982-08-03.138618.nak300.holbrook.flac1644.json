@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience‑sourced Exec Crew tape delivers a solid sound that captures a killer 1982 summer tour performance.",
+    "review": "Both reviewers praise the show as “KILLER” and note that the Exec Crew audience recording is surprisingly clear, even if it carries some minor flaws. The overall vibe is highly positive, with the recording considered nice and better than earlier listening experiences, though no specific songs or band‑member moments are singled out.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Positive comments on both performance (killer show) and recording quality (nice, solid sound), tempered by mention of minor recording flaws; limited detail yields moderate confidence."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and enjoyable audience tape, though reviewers note some recording issues/flaws typical of Exec Crew sources."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific setlist comments; overall described as a killer performance.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:56:18.321085+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-03.138618.nak300.holbrook.flac1644"
+  }
 }

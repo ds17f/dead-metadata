@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 3.6,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear audience recording of a Stanford dayshow that captures superb sound but a shaky performance, with The Other One and Morning Dew standing out.",
+    "review": "The tape is praised as an almost‑stereo board‑quality audience capture – crisp, detailed and one of the best‑sounding 1982 Aud recordings. Musically the night is divisive: several reviewers note sloppy playing, tired vocals and botched transitions, yet a few highlights (The Other One, Morning Dew, Throwing Stones) keep it worth listening to.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.9,
+      "confidence": "high",
+      "rationale": "Recording quality is consistently rated excellent, but show performance is described as below average by most reviewers; weighting the strong tape against the weak playing yields a mid‑range score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Crystal‑clear stereo‑like audience tape, often compared to a soundboard. Phil's bass and Brent's early‑80s electric piano are low in the mix, but overall clarity and detail are superb."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Morning Dew",
+        "Throwing Stones > Touch of Grey (some enjoy)",
+        "Eyes of the World"
+      ],
+      "poor_songs": [
+        "Throwing Stones > Touch of Grey (criticized by some)",
+        "Truckin'",
+        "Estimated Prophet",
+        "First set songs (generally called plain)"
+      ],
+      "setlist_flow": "First set described as flat and plain; second set uneven with a few high points but overall lacking tightness. Transitions feel disjointed for many listeners.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Mixed: some say his voice is blown, guitar tired and forced; others note clear lead articulations and good tone on this tape.",
+      "Phil": "Bass low in the mix with little punch; occasional Fender Jazz bass noted as unsuitable for his style.",
+      "Bob": "Criticized for wrong notes and over‑dramatic singing by several reviewers, but also praised for rhythmic interest and being audible thanks to the great tape quality.",
+      "Keys": "Brent using an early‑80s electric piano that sounds like a cheap Casio; missing Rhodes/B‑3 organ is lamented, though the keyboard is clear in the mix.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:46:13.330458+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-10-09.sonyecm220T.fixed.keshavan.miller.93827.sbeok.flac16"
+  }
 }

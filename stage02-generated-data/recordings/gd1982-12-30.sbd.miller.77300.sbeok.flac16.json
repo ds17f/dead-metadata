@@ -14,5 +14,43 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard transfer with a smoking Franklin's Tower and vibrant new ’82 material.",
+    "review": "The recording benefits from a clean, perfect Charlie transfer of Joani’s MSC tape, delivering crystal‑clear sound. The show is praised for Jerry’s soaring guitar on Franklin’s Tower (joined by Brent’s gleeful keys), strong new‑song moments like Feel Like a Stranger and Dupree’s, and an overall high‑energy performance despite the odd inclusion of Hard to Handle.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "The majority of reviewers give 4–5 stars, highlighting both superb musical moments and excellent recording quality; only one low‑rated comment concerns song choice rather than performance or sound."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Joani’s MSC tape was transferred by Charlie with a clean, perfect result – crisp and clear throughout."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Franklin's Tower",
+        "Feel Like a Stranger",
+        "Dupree's Diamond Blues",
+        "Touch & Thrown Stones"
+      ],
+      "poor_songs": [
+        "Hard to Handle"
+      ],
+      "setlist_flow": "An unusual set‑list with unique song pairings (e.g., Hard to Handle) but overall tight pacing and high excitement, especially in the second set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar shines on Franklin's Tower with extended gleeful licks.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent adds sparkling, complementary keyboard lines alongside Jerry on Franklin's Tower.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T21:23:27.432090+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-12-30.sbd.miller.77300.sbeok.flac16"
+  }
 }

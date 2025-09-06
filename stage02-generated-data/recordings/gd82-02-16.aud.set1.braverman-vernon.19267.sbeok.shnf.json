@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience recording captures a high‑energy jam session with standout Scarlet > Fire and a tasty Friend of the Devil keyboard solo, but bass clarity suffers.",
+    "review": "The show is praised for its hot jamming and strong segues like Scarlet Begonias into Fire on the Mountain, plus a sweet keyboard moment on Friend of the Devil. However, listeners note that the audience‑sourced audio struggles with muddy bass guitar and occasional drum bleed, making the recording only fair despite its lively ambience.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the performance positively (4‑5 stars) and highlight strong musical moments, but multiple comments criticize the recording’s bass clarity, pulling the overall weighted score down to a solid yet not outstanding level."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Bass guitar is hard to hear and often buried; occasional bass‑drum bleed. The ambience feels immersive, but the overall mix lacks clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Scarlet Begonias > Fire on the Mountain",
+        "Friend of the Devil (keyboard solo)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Jam‑friendly flow with smooth transitions, especially the noted Scarlet > Fire pairing.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keyboard solo on Friend of the Devil described as sweet.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T16:07:55.961159+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-02-16.aud.set1.braverman-vernon.19267.sbeok.shnf"
+  }
 }

@@ -14,5 +14,42 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent audience tape captures a high‑energy second set with Boz Scaggs & John Cippolina delivering standout blues jams, while the sound remains clear despite the venue’s acoustics.",
+    "review": "The recording is an audience capture that sounds remarkably clean – crystal‑clear leads and well‑balanced drums thanks to the taper’s Nakamichi mics. The show shines in the second set where Boz Scaggs and John Cippolina join for blazing blues numbers like Walkin' Blues, Death Letter Blues, Lovelight and a ripping Not Fade Away, giving the concert its most memorable moments.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Both reviewers give 4‑star ratings, praise the superb sound quality and highlight an exceptional second set with guest musicians; the combined show (70%) and recording (30%) scores justify a rating just above four stars."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Audience tape recorded with Nakamichi mics; leads are crystal clear, drums and bass sit well in the mix. Venue acoustics were muffled but the taper’s mic placement overcomes this, delivering a very good overall sound."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Walkin' Blues",
+        "Death Letter Blues",
+        "Lovelight",
+        "Not Fade Away",
+        "J.B. Goode"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set is largely unremarkable and suffers from muffled vocals, but the second set erupts with a fast‑paced Walkin' Blues and guest‑filled blues jams that keep the momentum high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Rips two great solos on Not Fade Away and leads blazing guitar sections on Death Letter Blues and Walkin' Blues; his leads are crystal clear throughout.",
+      "Phil": "Bass is prominent in the Space segment and provides a solid, driving foundation during the blues numbers.",
+      "Bob": "Does not take lead vocals on Walkin' Blues (Boz sings) but supplies steady rhythm guitar as usual.",
+      "Keys": "Brent delivers a ripping Hammond B3 solo early in Walkin' Blues and adds another after the first stanza of Death Letter Blues, keeping keyboards front‑and‑center.",
+      "Drums": "Drums are clear and energetic, especially during Space and the rapid Walkin' Blues; the fast tempo is highlighted as \"quick drummers\"."
+    },
+    "processed_date": "2025-09-06T18:00:03.210516+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-05-28.nak300.dgrabski.10974.sbefail.shnf"
+  }
 }

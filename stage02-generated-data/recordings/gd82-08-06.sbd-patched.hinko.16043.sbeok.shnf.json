@@ -14,5 +14,41 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑quality soundboard recording of an energetic ’82 gig with a smoking Lazy Lightning > Supplication segue and standout Saint Stephen jam.",
+    "review": "The show is praised for its frantic, hyped‑up energy and strong second‑set improvisations, especially the Lazy Lightning > Supplication sequence and the extended Saint Stephen jam. The soundboard source delivers clear, “5‑star” audio quality despite the first three songs being missing from the stream.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "All reviewers rate the performance 4–5 stars and highlight strong musical moments; recording quality is described as excellent to good, yielding a combined high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear and well‑balanced sound noted by reviewers; minor issue that the stream omitted the first three songs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lazy Lightning > Supplication",
+        "Saint Stephen (referred to as \"Saint\")",
+        "Scarlet Begonias",
+        "Fire on the Mountain"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set highlighted for sweet, extended jamming; overall set feels frantic and geared toward a hyped crowd.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:04:59.525335+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-08-06.sbd-patched.hinko.16043.sbeok.shnf"
+  }
 }

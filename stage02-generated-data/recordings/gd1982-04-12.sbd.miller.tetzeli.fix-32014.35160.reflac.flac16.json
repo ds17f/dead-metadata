@@ -14,5 +14,41 @@
   "confidence": 0.4,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good soundboard capture of a mixed show with strong Sugaree guitar work and solid drumming, but overall an uneven performance.",
+    "review": "The SBD recording is relatively clear for the era, offering a decent mix though the bass can be a bit hot. Musically the night is split – Jerry delivers an extended guitar break on Sugaree and the drums shine, yet the first set feels truncated and the second‑set material comes off as lackluster for many listeners.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.5,
+      "confidence": "medium",
+      "rationale": "Show quality is uneven with several negative comments, while the recording is judged good; average of reviewer stars (≈2.3) leads to a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Relatively good mix for an early‑80s SBD; bass and vocals a tad hot but clearer than many contemporaneous tapes."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Sugaree",
+        "Stella"
+      ],
+      "poor_songs": [
+        "Mississippi Half-Step (Misszippi)"
+      ],
+      "setlist_flow": "First set unusually short (six songs) followed by a long 45‑minute break, leading to a disjointed flow; second set perceived as bland despite a strong drum segment.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "Extended, extra‑good guitar break on Sugaree noted positively.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Drums were highlighted as the saving grace of an otherwise disappointing show."
+    },
+    "processed_date": "2025-09-06T17:12:37.740717+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-12.sbd.miller.tetzeli.fix-32014.35160.reflac.flac16"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.25,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of a high‑energy 1982 show highlighted by a smoking Crazy Fingers and blazing China Cat Sunflower, despite slight speed/pitch quirks.",
+    "review": "The performance is widely praised as one of the year’s best, with an opening sequence that clicks, a monster Crazy Fingers, and a fiery China Cat Sunflower that even sent a goldfish hopping. The soundboard source sounds crystal clear, though a few listeners note Jerry’s guitar sits low in the mix and the playback runs slightly fast, giving his voice a helium‑like quality.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is 4.25; most comments are glowing about the show’s energy and musical highlights, while recording issues are minor (speed/pitch, slight mix imbalance). Weighted toward strong show quality yields a solid 4.3‑star recommendation."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crystal clear sound with excellent clarity; some reviewers note Jerry's guitar is low in the mix and the tape plays slightly faster than normal, causing pitch/tempo oddities. Overall a well‑balanced SBD despite these minor quirks."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Crazy Fingers",
+        "China Cat Sunflower",
+        "Touch of Grey (early version)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong, tight first set with a great opening four‑song sequence and an oddball but fun overall flow; transitions feel natural and the energy stays high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Some note his guitar sits low in the mix and the speed issue makes his vocals sound thin, but overall his playing is solid and contributes to the show’s fire.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent (keyboards) gets kudos for actually playing piano on Crazy Fingers, adding a special texture.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:31:34.572231+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-09-21.sbd.perkins.13306.sbeok.shnf"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "No concrete details on recording or performance; reviewer requests a different concert tape.",
+    "review": "The lone review offers little insight into the audio quality or musical execution, merely noting that the tapers did a nice job and asking for a copy of the August 1 1982 Zoo show. With no specific comments on soundboard vs. audience sources, clarity, setlist flow, or band performance, the assessment remains indeterminate.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.5,
+      "confidence": "low",
+      "rationale": "Only one vague review with a zero-star rating; no substantive information on show or recording quality to base a higher score."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No reviewer comments about sound clarity, mix balance, or source type."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:11:10.742001+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-07.138623.beyerm201.holbrook.flac2448"
+  }
 }

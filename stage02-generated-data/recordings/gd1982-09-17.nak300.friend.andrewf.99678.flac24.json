@@ -14,5 +14,39 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Decent unknown‑source recording of a fan‑favorite show that shines on Dupree Diamond Blues and Morning Dew.",
+    "review": "Both reviewers rave about the performance, highlighting Dupree Diamond Blues and the classic ballad Morning Dew as standout moments. No specific complaints about the audio are mentioned, suggesting the recording is at least listenable despite its unknown source type.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Strong positive comments on the show (70% weight) and no noted recording flaws (30% weight) lead to a high overall rating, though only two reviews limit confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers did not comment on sound issues, implying the audio is acceptable but source details are unclear."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dupree Diamond Blues",
+        "Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Fans recall an overall great vibe despite a hot venue; the set flows well and keeps energy high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:13:49.457354+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-17.nak300.friend.andrewf.99678.flac24"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent sound captures a classic, high‑energy 1982 show with Brent and Phil on fire and a memorable Crazy Fingers jam.",
+    "review": "Both reviewers rave about the pristine audio quality, calling it “great” and “excellent,” which suggests a top‑notch recording. The performance is described as a classic show with high energy, highlighted by Brent Mydland’s keyboard work, Phil Lesh’s blazing bass, and an especially nice jam at the end of Crazy Fingers. Jerry’s stage positioning shift is also noted, adding to the vivid concert atmosphere.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "All reviews are 5‑star and praise both sound quality and musical performance; no criticism is present, indicating an exceptional show with excellent recording."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers specifically mention great/excellent sound with no reported issues; the mix is described as clear and enjoyable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Crazy Fingers (jam at the end)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Not detailed, but reviewers describe the overall show as classic and consistently strong.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Moved from left side to right side of stage, shifting Phil's position; no specific comment on playing.",
+      "Phil": "Described as \"on fire\" and creating a \"phil zone\" during the show.",
+      "Bob": "",
+      "Keys": "Brent Mydland is noted as being \"on fire\" with strong keyboard work.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:58:47.967695+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-10-10.beyers.stankiewicz.128808.flac16"
+  }
 }

@@ -14,5 +14,39 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Pristine soundboard capture with a pleasantly heavy front‑of‑house reverb showcases an energetic second set highlighted by a soaring Not Fade Away and a crisp The Wheel.",
+    "review": "The recording is praised for its crystal‑clear, punchy sound despite an unusually heavy natural reverb that gives the mix a heavenly sheen. Fans rave about the high energy of the second set, especially the closing Not Fade Away and the tight entrance into The Wheel, making this show one of the standout performances of the 1982 tour.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "All three detailed reviews award 5 stars and consistently highlight both superb audio fidelity and an exciting, high‑energy performance; the strong consensus yields a near‑top rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Front‑of‑house board feed with Sennheiser mics positioned at the desk creates a clean, crisp mix with an unusually heavy but pleasant natural reverb; no dropouts or muddiness reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Not Fade Away",
+        "The Wheel"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set shines, building to a powerful Not Fade Away closer; the transition into The Wheel is tight and energizing.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:52:58.018024+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-12.122169.senn.streeter.miller.flac24"
+  }
 }

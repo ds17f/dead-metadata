@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Atmospheric audience recording captures the Coliseum’s joyous sing‑along, though band detail is fuzzy.",
+    "review": "The reviewer loves the overwhelming sense of joy and the massive crowd singing in unison, describing it as an almost tangible experience that puts you in the middle of the arena. The field‑recording ambience is praised for its immersive quality, but the band itself is noted as being less clearly captured than on other sources.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one brief review with no numeric star rating; reviewer is enthusiastic about the show’s energy and ambience but mentions limited band clarity, leading to an estimated solid but not outstanding overall score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Immersive field‑recording captures crowd vibe excellently; however, the band's sound is less clear than on typical soundboard recordings."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure; focus is on overall audience energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:14:02.734378+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-12.144614.aud.lamarre.berger.flac2496"
+  }
 }

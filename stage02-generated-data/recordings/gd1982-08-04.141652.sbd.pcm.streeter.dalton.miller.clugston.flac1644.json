@@ -14,5 +14,40 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with frequent audience‑patch inserts still delivers a blues‑heavy set highlighted by Looks Like Rain, a Terrapin Station jam into Drums, and a rousing U.S. Blues encore.",
+    "review": "The show offers several inspired moments – the bluesy treatment of Looks Like Rain, an exploratory Terrapin Station → Drums sequence and a rocking U.S. Blues finale – and showcases Brent’s rare Yamaha electric‑grand piano work. The SBD source is marred by a very low Phil bass level and numerous audience‑patch splices that make the listening experience uneven, though the overall mix remains listenable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "low",
+      "rationale": "One detailed 4‑star review points to a good musical performance with standout songs but notes significant recording issues (bass quiet, many audience patches), yielding an overall rating just above average."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Phil’s bass is unusually quiet; the tape contains many audience‑patch insertions that split up the flow, leading to occasional loss of clarity despite overall decent sound."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Looks Like Rain",
+        "Terrapin Station > Drums (jam)",
+        "U.S. Blues"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A mix of blues‑focused numbers and rockers with a strong second half; occasional X‑factor moments pop up despite some unevenness.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised as a perfect instrumental foil to Brent’s piano, indicating solid interplay.",
+      "Phil": "Bass noted as far too quiet in the mix.",
+      "Bob": "",
+      "Keys": "Brent’s Yamaha electric grand piano is highlighted as adept and uniquely expressive for this era.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:59:48.427241+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-04.141652.sbd.pcm.streeter.dalton.miller.clugston.flac1644"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Lively, high‑energy US Festival performance captured from a soundboard source.",
+    "review": "The reviewer recalls an unforgettable, party‑filled day at the US Festival where the Dead delivered a fun and energetic set. While no specific technical details are given, the 5‑star rating and the .sbd designation suggest a solid soundboard recording that fans found enjoyable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "low",
+      "rationale": "Only one enthusiastic review; strong positive sentiment about the show but no concrete data on audio quality, so rating is an estimate."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on clarity or mix; assumed acceptable soundboard quality based on filename and high reviewer rating."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Reviewer mentions a fun, party‑filled atmosphere without detailing set structure.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:37:59.668619+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-05.142714.sbd.healy.streeter.dalton.miller.clugston.flac1648"
+  }
 }

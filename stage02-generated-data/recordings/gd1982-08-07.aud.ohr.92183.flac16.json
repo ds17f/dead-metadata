@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 3.7142857142857144,
   "high_ratings": 5,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Fair‑quality audience tape captures a high‑energy August ’82 show with standout Althea, Let It Grow and a flawless Playin’ → Morning Dew transition.",
+    "review": "The performance is praised for its strong setlist flow, tight jams and high energy – highlights include the opening trio, Althea, the China > Rider segue, a spacey Playin' >> Wheel sandwich and an inspired Let It Grow. The audience recording is mixed: some listeners note clear bass and good levels on the second set, while others complain about noise‑reduction artifacts and a lack of crowd ambience.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Show quality is consistently rated high (standout performances, good flow) while recording quality receives mixed feedback; weighted average yields a solid 4‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Phil's bass is clearer and levels are set right at the start of set 2, but earlier sections suffer from low‑end distortion in other AUDs. Noise‑reduction processing introduces artifacts, and the tape lacks the audience ambience that fans value for segues like Sugaree > Might Not."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Althea",
+        "China",
+        "Rider",
+        "Playin'",
+        "Wheel",
+        "Morning Dew",
+        "Let It Grow",
+        "Sugaree"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Nice, logical flow with strong transitions – opening trio leads into Althea, a hopping China > Rider kicks off set 2, and the Playin' >> Wheel sandwich flows seamlessly into a flawless Morning Dew → Saturday Night close.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Great jamming with Brent during Playin', contributing to an exciting space segment.",
+      "Phil": "Bass is notably clearer on this tape, especially at the start of set 2.",
+      "Bob": "",
+      "Keys": "Brent's keyboard work shines in the spacey sections and the Playin' transition.",
+      "Drums": "Furious, powerful drumming highlighted throughout the show."
+    },
+    "processed_date": "2025-09-06T19:10:39.904971+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-07.aud.ohr.92183.flac16"
+  }
 }

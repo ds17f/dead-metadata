@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.1,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A rain‑soaked Red Rocks show that smokes with Althea, Spanish Jam and Black Peter, captured on a decent soundboard though Jerry’s guitar is buried in the mix.",
+    "review": "Fans rave about the high‑energy second set – the intense Althea, trippy Spanish Jam, soaring Black Peter and a heartfelt Baby Blue encore – even though the monsoonal rain hammered the PA. The SBD source is generally clear and more balanced than the contemporary audience tapes, but the mix leaves Jerry’s guitar low and the keyboards a touch bright, requiring some pitch correction.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "The show is praised for its performance and setlist (70% weight), while the recording is solid but marred by mix issues (30% weight), yielding an overall rating just above four stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear overall, but Jerry’s guitar is often buried and keyboards sit a bit high; occasional pitch‑speed discrepancy noted; no major dropouts but mix balance is uneven."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Althea",
+        "Spanish Jam",
+        "Black Peter",
+        "Sugar Magnolia",
+        "Baby Blue (Encore)",
+        "Deal"
+      ],
+      "poor_songs": [
+        "They Love Each Other"
+      ],
+      "setlist_flow": "Rain forced a gritty first set that built into a marathon second set (~2 hrs) with strong transitions; the weather added drama but occasionally muffled sound.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar often low in the mix, yet his wailing vocals on \"He's Gone\" and emotional delivery on \"Black Peter\" are praised.",
+      "Phil": "Bass work highlighted during the Spanish Jam; some reviewers note Phil’s playing finally cuts through the SBD.",
+      "Bob": "",
+      "Keys": "Brent Mydland's keyboards are audible but a bit high in the mix; his presence is noted positively.",
+      "Drums": "Percussion described as “pounding on a tree log” during the jam; drums are solid though one minute of the drum solo is missing from the SBD."
+    },
+    "processed_date": "2025-09-06T18:20:27.671651+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-28.sbd.browning-feinberg.32707.sbeok.flac16"
+  }
 }

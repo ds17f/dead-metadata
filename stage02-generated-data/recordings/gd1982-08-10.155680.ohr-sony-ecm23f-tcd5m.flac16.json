@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Outstanding audience recording with perfect balance that captures a spectacular, high‑energy Dead show.",
+    "review": "The reviewer hails this OHR Weinberg capture as the best audio available, praising its flawless balance and faithful reproduction of guitar and drum tones. The performance itself is described as “spectacular” and worthy of five stars all day long, indicating an exceptionally lively show despite no specific song mentions.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "low",
+      "rationale": "A single enthusiastic review rates both the music and recording at the highest level; with limited data the confidence is low but the sentiment strongly suggests an exceptional show and excellent audio."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Perfect balance, true-to‑tone guitars and drums, crisp and faithful to what came out of the speakers that night."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific setlist details provided; reviewer emphasizes overall spectacular performance.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:24:54.029330+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-10.155680.ohr-sony-ecm23f-tcd5m.flac16"
+  }
 }

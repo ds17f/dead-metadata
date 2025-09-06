@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a high‑energy Alpine ’82 show featuring a smoking Music > Sugaree > Music sequence, Let It Grow and Althea, though the tape sounds a bit thin for the year.",
+    "review": "The performance is widely praised as one of the band’s finest in the summer of 1982 – Jerry’s voice is on fire, the Sugaree/Music segue is legendary, and Let It Grow is described as “off the charts.” The soundboard recording is solid and clear but carries the characteristic thinness of early‑’80s mixes, which most reviewers find acceptable given the strength of the show.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Consistently high praise for the musical performance (5‑star mentions) combined with generally good but slightly thin soundboard quality yields a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear and balanced overall, but exhibits the typical thin mids of many 1982 board tapes; no major drop‑outs or distortion reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Sugaree (Music > Sugaree > Music segue)",
+        "Althea",
+        "Let It Grow"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong opening with the unique Music>Sugaree>Music sequence sets a high bar, maintaining momentum through tight segues and an especially inspired second‑half.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's voice described as \"on, on, on\" and he “goes into the ninth dimension” during Let It Grow; his tone praised throughout.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:07:29.436282+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-08-07.sbd.serafin.7720.sbeok.shnf"
+  }
 }

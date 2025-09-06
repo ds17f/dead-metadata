@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Awesome audience recording with a great performance, sounding excellent",
+    "review": "Both reviewers rave about the sound quality of this audience (Aud) source, calling it ‘awesome’ and ‘great‑sounding.’ The show itself is described as ‘pretty great’ and ‘Sick,’ indicating high energy and an enjoyable performance despite the lack of specific song details.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "medium",
+      "rationale": "Two consistent, enthusiastic reviews (4★ and 5★) praise both the recording quality and the show’s energy, leading to a high combined rating; limited number of reviews keeps confidence at medium."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers highlight an ‘awesome sounding’ and ‘great‑sounding’ audio capture with no reported issues such as muddiness or dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure; overall performance described positively.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:18:24.841552+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-14.137552.m160.streeter.miller.flac16"
+  }
 }

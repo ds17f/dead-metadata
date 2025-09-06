@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy performance described as scorching hot, captured on an unknown source with generally good sound.",
+    "review": "The reviewer rates the show four stars, calling it \"scorchingly hot\" and noting that it held up well after a wild night in Austin. No specific audio issues are mentioned, so the recording is presumed to be of decent quality, while the musical energy is clearly high.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "low",
+      "rationale": "Only one review (4‑star) praising the show’s energy; no details on recording quality, so rating leans toward a solid but not outstanding overall score."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No specific comments about sound clarity or mix; reviewer did not mention any audio problems."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Reviewer notes the show was good overall and high‑energy, especially given it followed a particularly intense night in Austin.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:46:16.937488+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-01.141594.sbd.healy.streeter.dalton.miller.clugston.flac1644"
+  }
 }

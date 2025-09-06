@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Sweet Greek Theater '82 show with superb soundboard capture and flawless transfer",
+    "review": "Reviewers rave about this May 21 1982 performance, calling it a \"sweet excellent show\" and praising the crystal‑clear SBD source and its clean transfer. The recording is highlighted as top‑notch, making the concert highly enjoyable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "medium",
+      "rationale": "A single 5‑star review enthusiastically praises both the musical performance and the soundboard recording; the strong positive language justifies a high rating despite limited data."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Excellent SBD source with a clean, well‑executed transfer; no issues reported."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:45:29.626986+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-05-21.165067.sbd.claridge.eaton.miller.flac1648"
+  }
 }

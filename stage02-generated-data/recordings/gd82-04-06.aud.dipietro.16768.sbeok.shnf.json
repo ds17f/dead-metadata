@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.36,
   "high_ratings": 23,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Clear audience tape of the snow‑filled 4/6/82 Spectrum show, highlighted by a scorching Shakedown > Lost Sailor > Terrapin Station second set.",
+    "review": "The recording captures a high‑energy Philadelphia concert that many fans recall as one of the best ’80s shows – the opener “Cold Rain & Snow” sets the tone and the second set erupts with Shakedown Street, Lost Sailor, Saint of Circumstance, Terrapin Station, The Other One and Morning Dew.  While most listeners praise the tape’s rich, full sound, a few note occasional level swings and one very low‑quality comment, leaving the overall audio quality solid but not flawless.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Average star rating across 22 reviews is ~4.4; the majority are enthusiastic about both performance and recording, with only a single low‑score complaint about sound quality."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and rich sound with good instrument separation; several reviewers cite “crystal clear” or “rich, full sound”. A few note occasional level fluctuations and one reviewer gave a 1‑star rating for poor audio."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Shakedown Street",
+        "Lost Sailor",
+        "Saint of Circumstance",
+        "Terrapin Station",
+        "The Other One",
+        "Morning Dew",
+        "Cold Rain & Snow"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong opening with Cold Rain & Snow, a powerful first set, then an explosive second set that flows through Shakedown > Lost Sailor > Terrapin Station and finishes with high‑octane jams like The Other One and Morning Dew.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for “delicious lead guitar”, “rings it out”, and perfect tone during the second set.",
+      "Phil": "Described as “bombing” and standing tall, especially on The Other One and in the jam sections.",
+      "Bob": "",
+      "Keys": "Brent (piano) receives strong commendations – “Love Brent in piano mode!”, “interplay between Brent & Jerry”, and being a highlight of the show.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T16:51:49.996785+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-04-06.aud.dipietro.16768.sbeok.shnf"
+  }
 }

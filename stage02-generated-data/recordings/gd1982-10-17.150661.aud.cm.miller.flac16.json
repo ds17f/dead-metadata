@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Great show captured on a nicely recorded audience tape",
+    "review": "The reviewer rates the concert four stars and calls it a \"great show,\" indicating strong musical performance. The audio is praised as a \"really nice Aud,\" suggesting an audience recording of good clarity, though no specific technical issues are noted.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Only one detailed review, but it gives a solid 4‑star rating and positive comments about both the performance and the audio quality."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Nice audience recording with clear sound; no major issues mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure or pacing.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T21:04:15.927245+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-10-17.150661.aud.cm.miller.flac16"
+  }
 }

@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 3.375,
   "high_ratings": 4,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A decent audience tape of a mellow Spectrum show with standout Jack Straw and The Wheel, recording fair but still enjoyable.",
+    "review": "The performance captures a classic early‑80s Dead set – the first set is smooth and mellow while the second bursts into an intense Jack Straw jam and a magical rendition of The Wheel. The Sennheiser audience recording is a bit close to the board with some reverb, hollowness and occasional oversaturation, but overall remains listenable.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "high",
+      "rationale": "Show quality averages around 4/5 (strong jams, good energy) while recording quality averages just above 3/5 (fair with noticeable issues). Weighted combination yields ~3.7 stars."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Too close to the board, a bit out of the sweet spot; slight reverb and hollowness, occasional oversaturation early in set 1. Overall respectable for an audience tape, but not crisp like a soundboard."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Jack Straw",
+        "The Wheel",
+        "Bertha",
+        "Playing In The Band",
+        "Wharf Rat"
+      ],
+      "poor_songs": [
+        "Jack Straw"
+      ],
+      "setlist_flow": "Mellow, smooth first set followed by a high‑energy second set with extended jams (Bertha → Playing In The Band → Ship Of Fools → The Wheel) that give the show its highlight.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for sweet, clear tone and strong vocals; his playing shines especially on the jam sections.",
+      "Phil": "Noted as present in the band, no specific remarks beyond that.",
+      "Bob": "",
+      "Keys": "Brent Mydland’s keyboard jams are highlighted, especially early “Brent Jam #1” and interplay with Jerry.",
+      "Drums": "Bill Kreutzmann’s hi‑hat work and Mickey Hart’s drumming are singled out as powering the jam sections."
+    },
+    "processed_date": "2025-09-06T16:47:34.160645+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-04-05.sennheiser.willy.13612.sbeok.shnf"
+  }
 }

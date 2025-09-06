@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Hand‑held audience recording captures a high‑energy 1982 show with a killer Shakedown Street and soaring Spanish Jam, though the mix leaves Phil’s bass a bit low.",
+    "review": "The performance is highlighted by an incendiary second set – Shakedown Street, Spanish Jam, Space, Uncle John’s Band, Not Fade Away and Baby Blue all receive glowing praise – and the overall energy is described as “top‑shelf” and “killer.” The handheld FOB recording delivers good punch and clarity, but a few reviewers note that Phil’s bass sits low in the mix, preventing a perfectly balanced sound.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4‑5 stars and highlight strong musical moments; recording is generally praised as good with only minor mix issues, yielding a high combined rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Hand‑held FOB captures solid punch and clarity; occasional imbalance (Phil’s bass low in the mix) but overall clean and listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Shakedown Street",
+        "Spanish Jam",
+        "Space",
+        "Uncle John's Band",
+        "Not Fade Away",
+        "Wharf Rat",
+        "Baby Blue"
+      ],
+      "poor_songs": [
+        "Sugaree (early in set)",
+        "Lost Sailor > Saint of Circumstance (mixed reception)"
+      ],
+      "setlist_flow": "First set is uneven and middle‑of‑the‑road, but the second set erupts with tight jams and seamless transitions; the show builds to a high point with Shakedown Street and the extended Spanish/Space sequence.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar is described as clean, full of plucking/plunking, overtone licks and strong vocal delivery; he drives the jams with enthusiasm.",
+      "Phil": "Phil’s bass presence is noted as low in the mix, though his percussive jamming moments are appreciated when heard.",
+      "Bob": "Weir’s vocals are praised for being solid and well‑blended, especially on Bird Song and the second‑set numbers.",
+      "Keys": "Brent Mydland’s piano/keyboard work shines – tasty blues runs, Spanish jam leads, and a standout piano sound on Uncle John’s Band.",
+      "Drums": "The drummers keep a steady groove throughout, providing reliable support for the jams."
+    },
+    "processed_date": "2025-09-06T17:26:31.660901+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-17.fob.nak700.glassberg.78747.sbeok.flac16"
+  }
 }

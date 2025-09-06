@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent front‑of‑house soundboard capture (as good as FOB can get) despite the odd missing mic for Brent, delivering an overall stellar show.",
+    "review": "The reviewer rates both the set list and the sound a perfect five stars, calling this version “as good as F O B can get.” The front‑of‑house recording is praised for its clarity, though it’s noted that Brent’s microphone was inexplicably absent, eliminating his background vocals. Overall enthusiasm is very high, suggesting a high‑energy performance that won’t disappoint first‑time listeners.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "Single enthusiastic review rates both show and recording at the top level; strong praise leads to a high rating, but confidence is low due to only one data point."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp front‑of‑house mix described as 'as good as F O B can get'; the only drawback mentioned is the missing microphone for Brent, resulting in absent background vocals."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Set list praised with a full five‑star rating; no specific flow comments provided.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "No microphone was set up for Brent on this night, so his background vocals are missing.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:14:16.846475+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-17.142824.fob.senn421.wise.miller.clugston.flac2496"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent front‑of‑house recording of an average 1982 show with full bass and a well‑balanced mix.",
+    "review": "Both reviewers rave about the close‑up, rich‑sounding audience (FOB) capture, highlighting the full, distortion‑free bass and overall instrument balance. The performance itself is described as merely average for a 1982 Dead run, though Jerry Garcia’s vocals and guitar work are noted as better than usual. The combination makes for an enjoyable listen despite the unremarkable set.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Recording quality is rated excellent by both reviewers, while the show is judged average; weighting these yields an overall rating around four stars."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Close‑up, rich FOB capture with full bass, no boom or distortion, and well‑balanced instrument mix – described as an audiophile’s dream."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure; reviewers simply label the show as average for the era.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Better than average vocals and decent guitar tone noted for this night.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:47:56.520629+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-10-09.sonyecm220T.keshavan.miller.93682.sbeok.flac16"
+  }
 }

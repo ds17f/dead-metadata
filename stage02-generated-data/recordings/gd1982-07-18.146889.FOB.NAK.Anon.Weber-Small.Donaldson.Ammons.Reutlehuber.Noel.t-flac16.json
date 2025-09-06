@@ -14,5 +14,41 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a powerhouse mid‑summer ’82 show with standout Ship of Fools, Crazy Fingers and a rollicking Franklin’s Tower.",
+    "review": "This recording delivers crystal‑clear PCM quality that showcases the band at peak energy, from Jerry’s sweetly restrained opening on Ship of Fools to his raging runs later, and Bob Weir’s rock‑star swagger on Crazy Fingers. Set II flows joyously with a rollicking Franklin's Tower and the rare Women Is Smarter, while Phil “drops bombs” all night and Brent’s keyboards sit perfectly in the mix.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "The sole review is a glowing 5‑star write‑up praising both the musical performance (high energy, many standout songs) and the recording’s clarity; despite limited data, the combined show and recording quality merit a high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Drawn from a PCM source, the mix is crisp with drums and Brent Mydland's keyboards sounding particularly good; no major flaws reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Ship of Fools",
+        "Crazy Fingers",
+        "Franklin's Tower",
+        "Women Is Smarter"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Set I feels like a 1977‑style bravado despite its ‘standard’ appearance, while Set II is a joyous, continuous flow from start to finish.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Starts reserved and sweet on Ship of Fools, then turns up the heat with raging runs; described as “dancing on water” during Women Is Smarter.",
+      "Phil": "Drops bombs all night; this was his second‑to‑last tour with a four‑string bass and he’s “all over it”.",
+      "Bob": "Described as a complete rock star on this night, especially on Crazy Fingers.",
+      "Keys": "Brent Mydland’s keyboard work is noted as sounding quite good throughout the show.",
+      "Drums": "The drums are praised for sounding very good in the mix."
+    },
+    "processed_date": "2025-09-06T18:09:54.380013+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-18.146889.FOB.NAK.Anon.Weber-Small.Donaldson.Ammons.Reutlehuber.Noel.t-flac16"
+  }
 }

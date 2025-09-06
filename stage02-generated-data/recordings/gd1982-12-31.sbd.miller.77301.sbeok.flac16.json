@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.3,
   "high_ratings": 9,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Crisp soundboard capture of the New Year's Eve 1982 show, highlighted by Tower of Power horns and an Etta James cameo, praised for its audio but split on the third‑set performance.",
+    "review": "The recording delivers a clean, well‑balanced soundboard mix that lets listeners hear every nuance, from the soaring Tower of Power brass to Jerry Garcia’s jam‑packed guitar work. While many fans rave about the energetic first two sets and guest appearances, the third set is described as loose and less compelling, leading to mixed opinions on the overall show.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the crisp soundboard recording and energetic moments (especially guest jams), but a few note a lackluster third set, resulting in an overall good‑to‑great rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix with no reported dropouts or major issues; reviewers repeatedly call the recording \"great\" and note its sound‑board source."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Tower of Power (horns jam)",
+        "Lovelight featuring Etta James"
+      ],
+      "poor_songs": [
+        "Third set (overall considered loose/abominable by some)"
+      ],
+      "setlist_flow": "First two sets are energetic and feature memorable guest jams; the third set feels more laid‑back and less engaging, creating a dip in momentum.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar is praised for being jam‑packed and delivering strong tone throughout the show.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T21:27:27.604963+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-12-31.sbd.miller.77301.sbeok.flac16"
+  }
 }

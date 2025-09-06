@@ -14,5 +14,41 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear soundboard capture of a high‑energy 1982 Rochester show featuring smoking Bird Song, Loser and a standout China > Rider.",
+    "review": "The concert is described as a fantastic, well‑played set with nonstop energy, tight vocals and no flubs. Reviewers especially praise the clean, unprocessed guitar tones on Bird Song and the long, soaring leads from Jerry, while the recording is noted for its clarity and excellent mix thanks to a huge hall sound system. Overall the performance and audio quality make this a must‑listen show.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Strong musical performance (high energy, standout songs) combined with clear, well‑balanced recording; limited number of reviews but consistent positive feedback."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear mix with minimal signal processing; guitars sound clean and articulate, hall's large sound system provides excellent clarity. No reported drop‑outs or major issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bird Song",
+        "Loser",
+        "China > Rider",
+        "To Lay Me Down"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Solid start with Alabama>GSET, smooth transition into Bird Song and a triumphant second set that builds through Loser, Minglewood, China>Rider and wraps up with energetic closers.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for clean tone, long soaring leads on Bird Song and other jams; described as 'in the zone'.",
+      "Phil": "Noted for a big intro on The Other One and solid bass presence during the jam.",
+      "Bob": "Commended for great vocal performance and tight rhythm work throughout.",
+      "Keys": "Brent (keyboardist) highlighted for superb harmony backing on To Lay Me Down.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:03:42.914259+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-09.senn441-eaton.sacks.10918.shnf"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 0.8,
   "raw_rating": 4.75,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear audience recording of a killer ’82 second set with standout Stella Blue and a soaring Casey Jones encore",
+    "review": "The audience (Uher‑240) tape is remarkably clear despite a bit of wind noise and some upper‑mid‑range harshness, delivering an immersive listening experience that puts you right at the show. The performance itself is described as a “BAMF” second set with Jerry at his ’82 best, relaxed band chemistry, and memorable moments like Stella Blue, To Lay Me Down, Let It Grow and a Casey Jones encore.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high praise for both the musical performance (high energy, standout songs) and the recording quality (clear, immersive), yielding a weighted rating near 4.7."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Very clear overall; minor wind noise and burnt‑edge upper mids noted, slight dip where tape flip occurs but largely transparent and immersive."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Stella Blue",
+        "To Lay Me Down",
+        "Let It Grow",
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set is described as a BAMF performance with tight flow, relaxed vibe and strong segues; the encore adds extra excitement.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised as being at his best for ’82 and delivering one of his finest performances.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:54:59.212781+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-03.121407.set2-akg.flac16"
+  }
 }

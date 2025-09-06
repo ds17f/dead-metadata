@@ -14,5 +14,40 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience‑sourced FOB recording praised for stunning sound and highlight performances of Playing in the Band, China Cat Sunflower and He's Gone, though listener opinions on its fidelity are mixed.",
+    "review": "One reviewer lauds the recording’s clarity—calling it “stunning” and highlighting Playin’, China and He’s Gone as show‑highlights. Another notes that the tape is a Jim Wise FOB captured with Sennheiser 421 microphones and rates it poorly, indicating divergent views on its overall quality.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.5,
+      "confidence": "medium",
+      "rationale": "Show receives strong praise for song selection and energy, while recording quality is praised by one reviewer but dismissed by another, leading to a balanced mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "FOB recorded with Jim Wise's Sennheiser 421 mics; some listeners describe the sound as crisp and detailed, while another reviewer gave it a low rating."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing in the Band",
+        "China Cat Sunflower",
+        "He's Gone"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure were provided.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:33:42.284920+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-21.119147.nak300.chasingwilma.flac16"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.8333333333333335,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience‑sourced recording with fair sound captures a high‑energy San Diego show highlighted by a monster Other One and the Lost Sailor suite.",
+    "review": "The performance is praised for its energetic jams – especially The Other One’s thunderous bass line, the Lost Sailor > Saint of Circumstance sequence and lively space work. Recording quality is mixed: many listeners enjoy the overall vibe, but several note thin mids, out‑of‑phase moments and monitor wash that dulls clarity.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Average reviewer rating is ~3.8; show is generally praised (high energy, standout songs) while recording receives mixed feedback, leading to a balanced 4‑star assessment."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Sound described as wonderful by some but also thin on Dire Wolf, out of phase in parts, monitor wash and balance issues near the front of house; occasional vocal drop‑outs and P.A. lag."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Lost Sailor > Saint of Circumstance",
+        "Space"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set uneven with some lackluster moments; second set picks up strong energy, especially in The Other One and space jams.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar is noted for lively solos (e.g., Cassidy) but suffers from occasional out‑of‑phase texture.",
+      "Phil": "Phil’s thunderous bass line on The Other One is highlighted as a rare, powerful moment.",
+      "Bob": "Bob Weir’s vocals are reported as thin or swallowed in spots (e.g., El Paso, Candyman).",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T16:18:40.011501+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-02-19.sony-rango.unknown.28732.shnf"
+  }
 }

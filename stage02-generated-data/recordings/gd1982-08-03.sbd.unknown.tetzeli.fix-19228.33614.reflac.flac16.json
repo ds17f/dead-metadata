@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Pretty good show captured in a very good copy.",
+    "review": "The reviewers describe the performance as \"pretty good\" and note that the tape is a \"very good copy,\" indicating solid musical delivery with a decent, listenable recording. No specific songs or moments are highlighted, but the overall impression is positive.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "low",
+      "rationale": "Only one brief review; it rates the show 4/5 and the recording as very good, leading to an estimated combined rating of around 3.6 stars."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer calls the copy \"very good\"; no detailed comments on clarity or mix."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:54:34.674658+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-03.sbd.unknown.tetzeli.fix-19228.33614.reflac.flac16"
+  }
 }

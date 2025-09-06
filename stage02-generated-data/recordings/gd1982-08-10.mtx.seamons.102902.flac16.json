@@ -14,5 +14,48 @@
   "confidence": 1.0,
   "raw_rating": 4.2,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Top‑notch matrix recording captures a high‑energy 1982 show with blistering Bertha, a legendary China → Rider jam, and soaring vocals.",
+    "review": "The Hunter‑mixed matrix source delivers an enveloping, crystal‑clear sound that lets the band’s intensity shine. Highlights include a record‑fast Bertha, one of the best China → Rider sequences ever, plus standout performances of Roses, Sailor → Saint, Eyes That Follow and Stella Blue. Though the show starts a bit loose and has a few technical quirks, the overall energy is sky‑high.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers praise both the musical performance (high energy, many standout jams) and the matrix recording quality; only one very negative review offsets the average but does not dominate."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Hunter’s matrix mix is enveloping with superb clarity; a brief voice‑panning glitch for Jerry early on and minor drop‑outs are noted, but overall the sound is crisp, balanced and highly listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha",
+        "China > Rider",
+        "Sailor > Saint of Circumstance",
+        "Eyes That Follow (double‑time)",
+        "Stella Blue",
+        "Truckin'",
+        "Sugar Magnolia",
+        "Roses"
+      ],
+      "poor_songs": [
+        "Iko Iko (slow compared to surrounding material)",
+        "B.I.O.D.T.L. (botched beginning)"
+      ],
+      "setlist_flow": "A wildly varied setlist that starts a bit sloppy but quickly gains momentum, delivering powerful second‑set jams and tight transitions.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Expressive, fast playing (notably on Bertha) and emotional solos; brief voice‑panning issue early in the show.",
+      "Phil": "Thumping, gritty bass that drives the band—called his 'finest hour' by reviewers.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:24:31.911024+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-10.mtx.seamons.102902.flac16"
+  }
 }

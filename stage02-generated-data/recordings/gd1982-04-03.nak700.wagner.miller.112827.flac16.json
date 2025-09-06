@@ -14,5 +14,42 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Stellar audience recording of an energetic 1982 show with a smoking Scarlet Begonias → Fire sequence and a superb second set that eclipses the original cassette.",
+    "review": "The three reviewers rave about both the performance and the capture: the show is praised for its high‑energy first set, a standout Scarlet Begonias/Fire segue, and an especially powerful second set, while the audience tape is described as phenomenal and crystal‑clear despite being a crowd source. Minor editing was done to smooth the ending, but no serious sound issues are noted.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high show ratings (average ~4.5) and excellent recording praise (average ~4.8) across three detailed reviews yields a weighted overall rating of about 4.6."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Described as stellar and phenomenal for an audience recording; crisp, well‑balanced capture with only minor post‑production fades at the end, no dropouts or major flaws."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Scarlet Begonias > Fire",
+        "Never Trust a Woman"
+      ],
+      "poor_songs": [
+        "NFA (short and unimpressive)",
+        "OMSN (short and unimpressive)"
+      ],
+      "setlist_flow": "A strong, well‑structured first set followed by an especially powerful second set; pre‑drum segment highlighted as a highlight.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent's keyboard work on 'Never Trust a Woman' is singled out as possibly his best ever on this show.",
+      "Drums": "Pre‑drum solo noted positively, adding to the show's momentum."
+    },
+    "processed_date": "2025-09-06T16:43:29.168915+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-03.nak700.wagner.miller.112827.flac16"
+  }
 }

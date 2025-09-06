@@ -14,5 +14,39 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good-quality audience tape captures a standout Space → The Wheel segue.",
+    "review": "The audience source is praised as good quality, with clear transfer work by Bob Wagner and Charlie Miller. Musically the highlight noted is the smooth, soaring transition from Space into The Wheel, indicating a high‑energy moment in the show.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one 4‑star review; it praises both the audience recording quality and the Space → Wheel performance, leading to an overall positive but limited assessment."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer describes tape as good quality with effective transfer, edit, and post‑processing; no major issues noted."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Space",
+        "The Wheel"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The Space into The Wheel transition is highlighted as a smooth, high‑energy moment that adds momentum to the set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:46:23.371547+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-05-21.nak700.wagner.miller.109334.flac16"
+  }
 }

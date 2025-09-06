@@ -14,5 +14,39 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Fair audience recording captures the vibe of a solid 1982 show with standout Supplication and Birdsong, though boomy venue sound detracts.",
+    "review": "The taping faithfully reproduces the hall’s ambience and crowd energy, delivering a memorable 9‑minute \"Supplication\" and an adventurous \"Birdsong,\" while the second set is praised as one of ’82’s better mixes. The audio is marred by a noticeable boom from the venue, making a soundboard source preferable for pure clarity. Overall the performance is good but not spectacular, leading to mixed feelings about the show.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "low",
+      "rationale": "Only two reviews with divergent opinions; one praises the music and ambience, the other calls the show merely \"good enough\" and notes recording boom."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Captures crowd mood and hall acoustics well, but suffers from a distracting venue boom that reduces clarity; overall decent but not as clean as a board recording."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Supplication",
+        "Birdsong"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set mixes varied material and is regarded among the top shows of ’82, though one reviewer felt the overall concert was not great.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:59:10.456310+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-14.121943.akg414.streeter.miller.flac24"
+  }
 }

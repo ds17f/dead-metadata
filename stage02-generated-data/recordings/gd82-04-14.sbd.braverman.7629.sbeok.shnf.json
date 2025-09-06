@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.303030303030303,
   "high_ratings": 28,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Soundboard recording of solid quality captures a high‑energy 1982 show highlighted by a smoking China Cat and a killer Jack Straw.",
+    "review": "The recording is generally crisp and well‑balanced, though a few reviewers note vocal levels that sit too high in the mix. Musically the concert shines with a standout China‑Rider jam, an incendiary Jack Straw, and a powerful second set featuring Playin' in the Band; the first set is described by some as uneven. Overall the performance is viewed as one of the stronger 1982 dates despite isolated criticisms.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers (over 20) praise both the music and soundboard quality, yielding a strong positive bias; a few critical comments pull the average down, resulting in an overall rating around 4.1."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp and clear overall with well‑articulated guitars; some listeners mention vocals a bit high in the mix, occasional balance issues between instruments, but no major dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat (China‑Rider)",
+        "Jack Straw",
+        "Playin' in the Band",
+        "Deep Elem Blues"
+      ],
+      "poor_songs": [
+        "First set (overall) – noted as sloppy by a few reviewers"
+      ],
+      "setlist_flow": "The first set is described as uneven and sometimes sluggish, while the second set picks up momentum with extended jams and tighter interplay.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for great tone and loud guitar; some critics note occasional hung‑up solo spots and a few sloppy moments.",
+      "Phil": "",
+      "Bob": "Highlighted for strong slide work, \"chromatic wash\" tones, and overall solid playing.",
+      "Keys": "Brent's keyboards are busy and occasionally over‑present in the mix; his vocal range is noted as high but not detrimental.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:16:37.140024+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-04-14.sbd.braverman.7629.sbeok.shnf"
+  }
 }

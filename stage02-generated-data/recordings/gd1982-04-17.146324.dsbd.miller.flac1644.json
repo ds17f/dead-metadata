@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 3.0,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording judged thin and lacking impact, with one reviewer calling it a poor‑sounding SBD while another gives a vague five‑star rating",
+    "review": "The consensus on the audio is mixed: one detailed critic lambastes the tape for its thin organ, missing reverb and overall lack of fullness, deeming it far inferior to Barry Glassberg’s audience recording. A second reviewer offers a brief, enthusiastic five‑star note that does not elaborate on any musical or technical details.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "medium",
+      "rationale": "Only two reviews are present with opposite star ratings and limited detail; the negative commentary on recording quality drags the average down, while the positive five‑star comment lacks substance."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Review mentions no reverb, thin organ sound, lack of sustain and fullness; overall impact described as missing. Considered inferior to known audience (AUD) source."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No comments about set structure or pacing were provided.",
+      "energy_level": "unknown"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:27:47.258018+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-17.146324.dsbd.miller.flac1644"
+  }
 }

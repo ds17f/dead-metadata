@@ -14,5 +14,38 @@
   "confidence": 0.8,
   "raw_rating": 3.25,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording with a nice overall mix but thin bass; the first set shines while the show feels solid yet not spectacular.",
+    "review": "The SBD capture is generally clear and pleasant, though several listeners note a lack of low‑end that makes the bass feel buried. The concert delivers a strong first set (with a highlighted Jack Straw) and an improved second set compared to earlier releases, but many feel the night was a step down from surrounding shows, giving it a mixed energy level.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.3,
+      "confidence": "medium",
+      "rationale": "Average show ratings (2‑4 stars) combined with generally positive comments on the recording quality but a recurring complaint about weak bass lead to a mid‑range overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear and pleasant overall, but bass is noticeably thin in the mix, making low frequencies feel recessed."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Jack Straw"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set praised as strong; second set regarded as an upgrade over a previous version, yet the overall night is seen as less energetic than adjacent concerts.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Jerry's playing is highlighted in the title ('Smokin' Set I') and generally praised.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:19:40.392450+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-18.sbd.fishman.fix-3153.107429.flac16"
+  }
 }

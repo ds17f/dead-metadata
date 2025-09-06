@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.095238095238095,
   "high_ratings": 16,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Good soundboard recording of a mixed‑energy show – first set shines with Jack Straw, Lazy Lightning → Deal and Shakedown Street, while the second set feels sleepy",
+    "review": "The SBD source is clear and well‑balanced, though Baby Blue is patched from another tape. The band delivers a solid first set (Jack Straw, Lazy Lightning → Deal, Touch of Grey, Morning Dew) with a standout Shakedown Street that many fans deem an all‑timer despite vocal flubs. Energy wanes in the second half, with a sluggish Terrapin and a generally tired feel.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the first‑set performance and sound quality (average rating ~4.1), but several note a sleepy second set, yielding an overall positive yet mixed assessment."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear SBD tape with solid clarity; Baby Blue is patched from another B+‑grade SBD source but otherwise the mix is balanced and listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Shakedown Street",
+        "Jack Straw",
+        "Lazy Lightning → Deal",
+        "Touch of Grey",
+        "Morning Dew",
+        "Dire Wolf",
+        "Baby Blue"
+      ],
+      "poor_songs": [
+        "Terrapin Station (flubbed vocals and weak performance)"
+      ],
+      "setlist_flow": "First set is praised for tight playing and strong song choices; second set drags with a sleepy vibe, though the Shakedown Street jam recovers some momentum.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocal flubs on Shakedown and Terrapin noted; however his solo on Shakedown is called brilliant, funky, and a highlight. Some say he sounds “high” or “a little too fast”.",
+      "Phil": "Mentioned as providing a funk‑heartbeat and thumping the groove during Shakedown; praised for deep rhythmic support.",
+      "Bob": "Bobby’s Satisfaction rap line is quoted; his humor about lyric flubs and occasional “rap” adds to the show’s character.",
+      "Keys": "Brent (keyboards) receives praise for fills, mirroring Jerry, and adding flourishes during Shakedown; overall keyboard work described as psychedelic and supportive.",
+      "Drums": "Both drummers are called loose yet funky; noted for deep groove sections in Shakedown and a “wild” feel, though some reviewers felt the drum vibe contributed to the sleepy second set."
+    },
+    "processed_date": "2025-09-06T21:19:22.218259+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-12-28.sbd.hinko.18980.sbeok.shnf"
+  }
 }

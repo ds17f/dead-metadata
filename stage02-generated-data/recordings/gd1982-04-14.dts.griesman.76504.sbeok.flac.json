@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "No performance details provided; review only asks about FLAC playback, leaving recording and show quality unclear",
+    "review": "The sole review is a technical question about how to play the FLAC files rather than an assessment of the concert or audio quality. Consequently there are no comments on the band's performance, setlist, or sound quality.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.3,
+      "confidence": "low",
+      "rationale": "Only one non‑evaluative review; insufficient information to gauge musical or recording quality"
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No comments on sound clarity, mix, or source type in the reviews"
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:18:08.523414+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-14.dts.griesman.76504.sbeok.flac"
+  }
 }

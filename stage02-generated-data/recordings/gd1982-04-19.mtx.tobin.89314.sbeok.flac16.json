@@ -14,5 +14,49 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A killer Baltimore show captured in a superb Kevin Tobin matrix mix, delivering a high‑energy second set with Raven Space, The Wheel‑Truckin’‑Stella Blue run and an emotional Brokedown Palace.",
+    "review": "The April 19 1982 Baltimore concert is praised for its incendiary performance – especially the second‑set sequence of The Wheel into Truckin', Stella Blue, Around And Around, Good Lovin' and a heartfelt Brokedown Palace. The Tobin matrix mix (≈60% soundboard, 40% audience) is described as crisp and “sweet,” though Terrapin Station suffers occasional drop‑outs. Overall the show’s energy and song highlights outweigh these minor flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high ratings (mostly 5★) and enthusiastic comments about both performance and mix; only isolated technical hiccups on one song keep the score just shy of perfect."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Kevin Tobin’s matrix blend (≈60% SBD, 40% AUD) is praised as crisp, balanced and “sweet,” capturing the band’s insanity; minor drop‑outs noted on Terrapin Station."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Raven Space",
+        "The Wheel → Truckin'",
+        "Stella Blue",
+        "Around And Around",
+        "Good Lovin'",
+        "Brokedown Palace",
+        "Peggy-O",
+        "Cassidy",
+        "Feel Like A Stranger"
+      ],
+      "poor_songs": [
+        "Terrapin Station",
+        "Franklin's Tower"
+      ],
+      "setlist_flow": "First set solid but unremarkable; second set flows brilliantly with seamless segues and high‑energy peaks, culminating in a moving encore.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His voice on Peggy-O is called immaculate; guitar phrasing described as exquisite with a long, satisfying solo, though one reviewer found his playing on Franklin's Tower choppy.",
+      "Phil": "Highlighted for an emotional moment after Brokedown Palace – he lingered onstage, arms outstretched, conveying deep connection with the audience.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:35:52.604880+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-19.mtx.tobin.89314.sbeok.flac16"
+  }
 }

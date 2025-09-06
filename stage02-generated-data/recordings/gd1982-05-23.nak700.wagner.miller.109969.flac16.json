@@ -14,5 +14,42 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Top‑notch audience capture of a high‑energy show featuring smoking versions of The Other One, Shakedown Street and Ship of Fools.",
+    "review": "Both reviewers rave about the musical fire of this May 1982 performance – citing a monster The Other One, an inspired Ship of Fools, a blistering Shakedown Street and even a standout LLR with Brent’s surprise verse.  They also note that the recording preserves ambient crowd dialogue while maintaining crystal‑clear sound throughout, making it feel like you’re right in the venue.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "medium",
+      "rationale": "All reviews are 5‑star and praise both the show’s energy and the recording’s clarity; with only two detailed reviews confidence is moderate."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers highlight top‑notch sound quality despite ambient crowd dialogue, indicating a clean audience capture (likely matrix‑style) with no noticeable flaws."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "TLEO",
+        "The Other One",
+        "Ship of Fools",
+        "Shakedown Street",
+        "LLR"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Reviewers describe the concert as building momentum – starting strong, getting better, and ending on an even higher note.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent adds a surprise verse on LLR, earning special mention.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:56:15.486000+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-05-23.nak700.wagner.miller.109969.flac16"
+  }
 }

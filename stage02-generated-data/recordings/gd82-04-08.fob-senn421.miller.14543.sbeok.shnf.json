@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 3.2857142857142856,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Clear audience recording (a touch bassy) captures a mixed‑energy show highlighted by a smoking Let It Grow and a blazing Eyes of the World.",
+    "review": "The performance swings between moments of fire – especially the standout Let It Grow and an unusually speedy Eyes of the World – and sections where the band seemed reluctant, with a weak close on Stranger and choppy transitions. The audience‑recorded tape is generally clear but suffers from a pronounced bass boost and aggressive Dolby compression that can muffle detail. Overall it’s a hidden gem for fans who appreciate Jerry’s committed playing despite the uneven flow.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Reviews are split between strong musical praise and notable recording flaws; the weighted average of show (≈3.5) and recording quality (≈2.8) yields a modest overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Generally clear audience capture, but a bit bass‑heavy on some systems; aggressive Dolby compression can swallow mids and make the sound feel muffled at times."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Let It Grow",
+        "Eyes of the World",
+        "Playing in the Band > Uncle John's Band"
+      ],
+      "poor_songs": [
+        "Stranger"
+      ],
+      "setlist_flow": "Good moments of tight transitions (e.g., Playing in the Band sandwich) are offset by sections where the band struggled to flow between songs, giving the set an uneven feel.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for strong commitment and a \"smoking\" presence on this night.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T16:57:54.951177+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-04-08.fob-senn421.miller.14543.sbeok.shnf"
+  }
 }

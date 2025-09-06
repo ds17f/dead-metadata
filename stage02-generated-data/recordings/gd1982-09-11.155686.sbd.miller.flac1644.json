@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Modest soundboard recording with a highlighted performance of Stella Blue.",
+    "review": "The lone review gives the show a middling three‑star rating and only calls out Stella Blue, suggesting that song stood out while the rest of the concert was unremarkable. No details are provided about the audio fidelity, so the technical quality remains unclear, but the recording appears to be a soundboard source.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "low",
+      "rationale": "Only one brief review with a neutral three‑star rating; limited information on both performance and audio quality leads to a cautious, average overall score."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No specific comments about clarity, mix or any technical issues were provided."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Stella Blue"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:47:30.176852+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-11.155686.sbd.miller.flac1644"
+  }
 }

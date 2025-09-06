@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.8,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑quality matrix mix captures an energetic Hartford show with a smoking Phil earthquake space and standout Black Peter.",
+    "review": "The recording offers crystal‑clear keyboard texture and well‑balanced mix that lets every instrument shine, even if it sits a touch farther back than the very best Seamons matrices. Musically the band is on fire – the first set rolls strong and the second delivers a wild Phil “earthquake” space, a soaring Black Peter and tight transitions like Playing in the Band → Eyes. Overall the performance feels exceptionally tight and joyful.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "All five reviews are overwhelmingly positive, praising both the musical performance (standout jams, high energy) and the recording quality (crisp mix, great keyboard texture). The few minor comments about distance keep the rating just shy of perfect."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Mix is incredibly clear with excellent keyboard texture and balanced levels; some listeners note a slight distance compared to top Seamons matrix mixes, but overall the soundboard‑derived source is very listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Phil earthquake space",
+        "Black Peter",
+        "Let It Grow",
+        "Playing in the Band",
+        "Eyes"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set described as strong and fun; second set features seamless transitions (e.g., Playing in the Band → Eyes) and a powerful Phil‑centered space that lifts the whole performance.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's voice sounded strong and mellow, reflecting his seasoned years; overall guitar work is praised as being on another level.",
+      "Phil": "Phil delivered a wild 'earthquake' space and an epic 'Barbary Coast' rant that many cite as a highlight.",
+      "Bob": "",
+      "Keys": "Keyboard texture is great; Brent Mydland (Bobby) is right where he needs to be, adding depth and color.",
+      "Drums": "Listeners note the overall tightness of the band, with drums fitting perfectly into the layered mix."
+    },
+    "processed_date": "2025-09-06T17:33:05.264580+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-18.mtx.seamons.107090.flac16"
+  }
 }

@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 4.5,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Very good soundboard recording captures a high‑energy 1982 show highlighted by a trippy Raven space and a beautiful Stella Blue, though the second set is viewed as uneven.",
+    "review": "Fans rave about the show's electric vibe – ringing bells, fire‑like energy, and standout moments like the Raven space jam and a gorgeous rendition of Stella Blue. Sound quality is praised as very good, but one reviewer finds the first set mixed and the second set only average. Overall the performance shines despite some inconsistency in the later half.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Three enthusiastic 5‑star reviews praising both music and sound quality plus one moderate 3‑star review yielding an average of 4.5; weighting favors the strong show performance while noting mixed comments on set consistency."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Sound quality described as very good with no major issues; reviewers note clear audio but some feel the mix of the sets is uneven."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Raven",
+        "Stella Blue"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set mixed with moments of awesomeness; second set considered rough‑to‑average by one reviewer, leading to an uneven overall flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:37:48.048415+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-19.sbd.clugston.28291.sbeok.shnf"
+  }
 }

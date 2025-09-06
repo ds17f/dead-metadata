@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a mellow Caribbean‑vibe show with flowing sets and a standout Scarlet jam, only minor glitches in the audio.",
+    "review": "The recording delivers crisp, high‑quality sound (despite a few minute glitches) that lets the relaxed yet energetic vibe of the concert shine through. Reviewers highlight the smooth flow of the sets and especially praise Jerry’s emotive guitar work and Phil’s supportive bass during the “Scarlet” jam, making this a memorable 1982 performance.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Both reviewers rate the show highly (4‑5 stars) and note good to excellent audio quality; the combination of strong musical performance and clear recording yields a rating in the upper‑mid range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Overall clear and balanced sound with only brief minute‑long glitches; no major dropouts or muffiness reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Scarlet Begonias"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Easy, flowing sets that maintain a relaxed Caribbean atmosphere while keeping the energy high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for emotive, energetic soloing over complex chords during the Scarlet jam.",
+      "Phil": "Noted for solid bass support and interplay with Jerry, enhancing the overall groove.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T21:08:19.574457+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-11-26.sbd.fried-lai.1419.sbefail.shnf"
+  }
 }

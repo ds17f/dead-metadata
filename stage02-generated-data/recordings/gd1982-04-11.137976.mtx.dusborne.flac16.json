@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Enthusiastic 5‑star rating indicates a highly appreciated recording and performance despite limited details",
+    "review": "The lone fan review is extremely positive, giving the release a perfect five stars and praising it with a brief “Hot Damn!” comment. No specific information about sound quality, setlist or individual playing is provided, but the high rating suggests overall satisfaction with both the show and the recording.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "low",
+      "rationale": "Only one brief 5‑star review; while enthusiasm is clear, lack of detail limits certainty about specific qualities."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on sound quality or source type were provided."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:07:19.463253+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-11.137976.mtx.dusborne.flac16"
+  }
 }

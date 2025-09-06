@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A beloved show captured in an imperfect but decent recording.",
+    "review": "Both reviewers rate the performance highly, calling it one of their favorites and recalling great vibes from the night. The recording isn’t flawless, yet it’s listenable enough to let the energy of the concert shine through.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "medium",
+      "rationale": "Two solid 4‑star reviews indicate a strong musical performance; recording is noted as imperfect but still enjoyable, yielding an overall rating just under 4."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers note the recording isn’t perfect but no specific issues (e.g., dropouts or muddiness) are mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No detailed comments on set structure; reviewers focus on overall enjoyment.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:20:14.394313+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-18.sbd.lai.2335.shnf"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑quality soundboard capture of a jam‑heavy 1982 show with standout Shakedown, Saint, Not Fade Away and Stella Blue performances.",
+    "review": "The recording, taken from Healy’s AKG mics fed directly from the board, delivers a clear analog picture with only occasional crunchiness. Musically the concert is driven by nonstop \"Playin'\" jams, a killer Shakedown opener, a blistering Saint and sweet renditions of Not Fade Away and Stella Blue, though some listeners note low volume and an over‑prominent Bob slide.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Both reviewers gave five stars and praised the performance; recording is generally good with minor technical quirks, yielding a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Recorded from Healy's AKG mics at the board – crisp analog sound with occasional crunch on louder sections (e.g., Saint, NFA). One reviewer mentions some recording issues but overall considers it a top‑tier audience‑style capture for the era."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Shakedown",
+        "Saint",
+        "Not Fade Away",
+        "Stella Blue"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set is woven together by recurring \"Playin'\" jam themes, moving from Playin' → Crazy Fingers → Playin', through Red Rooster and Roses into Let It Grow, then a powerful second‑set opening with Shakedown that segues back into Playin' before launching into Sailor, Saint, NFA and Stella Blue.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Second reviewer felt Jerry made little impression; no specific praise or criticism beyond general performance notes.",
+      "Phil": "",
+      "Bob": "Bob's slide work was called out as excessive, and he took a bathroom break during Red Rooster; otherwise his playing is appreciated.",
+      "Keys": "Brent Mydland’s keyboards were highlighted as adding an \"auditory assault\" on Red Rooster.",
+      "Drums": "Both reviewers praised the drummers, with one noting this was the only time seeing \"The Beast\" and lauding the drum‑and‑space sections."
+    },
+    "processed_date": "2025-09-06T20:05:14.354678+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-15.akg414.streeter.miller.118449.flac16"
+  }
 }

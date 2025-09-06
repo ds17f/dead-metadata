@@ -14,5 +14,42 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good‑quality audience recording captures an outstanding first set and a well‑played long second set featuring GDTRFB, Wheel and a Jerry ballad.",
+    "review": "The upgraded AUD source delivers clearer sound than the previous circulating version, letting listeners enjoy an outstanding first set and a lengthy, solid second set (aside from the omitted Brent tune). Reviewers note the rarity of hearing GDTRFB, Wheel and a Jerry ballad together in an ’80s post‑drums segment, suggesting high musical merit for this 1982 show.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Review highlights a strong performance (high show quality) and an improved but still audience‑sourced recording (good technical quality). Single detailed review gives moderate confidence."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Significant upgrade from the earlier good‑quality AUD; clearer and more balanced but still an audience capture with typical ambient character."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "GDTRFB",
+        "Wheel",
+        "Jerry ballad (post‑drums)"
+      ],
+      "poor_songs": [
+        "Brent tune (omitted)"
+      ],
+      "setlist_flow": "Outstanding first set followed by a long, well‑played second set; post‑drums segment features rare song combination.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Jerry's ballad is highlighted in the post‑drums sequence and praised by reviewers.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T21:04:45.517732+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-10-17.150542.aud.miller.flac1644"
+  }
 }

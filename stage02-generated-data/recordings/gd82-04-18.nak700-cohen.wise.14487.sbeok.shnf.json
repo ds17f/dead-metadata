@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Superb audience recording captures a high‑energy 4/18/82 show with smoking Bertha, stellar Promised Land and Let It Grow performances.",
+    "review": "The audience tape (AUD) delivers a lively, well‑balanced sound that lets the band’s fire shine through, despite a slightly hollow opening on Bertha and some mislabeled tracks. Musically the concert is a “X Factor” night – Jerry smokes from the first note, Bob drives a powerful Promised Land, Brent adds tasteful keyboard touches, Phil’s quake‑space shines, and the first set rolls with classics like Sugar Magnolia, Let It Grow and Big Railroad Blues.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars, praising performance and sound; recording is generally good with only minor flaws."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Clear audience tape that captures live ambience; early Bertha sounds distant/hollow, track labeling errors cause confusion (Big Railroad Blues mislabeled), but overall clarity is strong."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha",
+        "Promised Land",
+        "Sugar Magnolia",
+        "Let It Grow",
+        "Big Railroad Blues"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set shines with tight playing and high energy; the show maintains momentum throughout, delivering a measured yet powerful performance that many fans call \"X Factor\".",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as 'smoking' from the opening Bertha, tasteful and at his best throughout the night.",
+      "Phil": "His ‘Quake Space’ is highlighted as a standout moment, showcasing powerful bass work.",
+      "Bob": "Nailed Promised Land with strong vocal/guitar presence.",
+      "Keys": "Brent (keyboards) adds fine highlights on Promised Land and other songs.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:31:24.664976+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-04-18.nak700-cohen.wise.14487.sbeok.shnf"
+  }
 }

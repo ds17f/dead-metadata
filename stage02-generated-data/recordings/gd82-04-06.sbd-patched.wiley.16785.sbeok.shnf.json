@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.090909090909091,
   "high_ratings": 18,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "High‑energy Spectrum show with a legendary Shakedown Street and strong performances; the soundboard capture is decent but shows noticeable saturation and occasional distortion.",
+    "review": "Fans describe this early‑80s Spectrum concert as one of the best of the tour, highlighting a scorching Shakedown Street, a soaring Lost Sailor / Saint of Circumstance sequence and an unforgettable The Other One intro.  The SBD source is clear enough to enjoy, though several reviewers note saturation, hot levels and occasional clicks that keep it from being pristine.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "The average star rating across 22 detailed reviews is ~4.1; most comments praise the performance and only a minority criticize the recording, leading to a strong overall score with high reviewer consistency."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Several listeners report saturation and distortion on louder passages, occasional hot‑level clipping, clicks/pops, and a debated pitch issue.  Despite these flaws the tape remains listenable with acceptable instrument separation."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Shakedown Street",
+        "Lost Sailor / Saint of Circumstance",
+        "The Other One (intro)",
+        "Truckin' (Phil solo)",
+        "Cold Rain and Snow"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set singled out as one of the year’s best; the show maintains high momentum from start to finish with strong transitions and a climactic second‑half.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his tone, funk‑y playing on Shakedown Street and overall energetic guitar work throughout the night.",
+      "Phil": "Noted for powerful bass moments, especially a soaring solo during Truckin' that fans called \"Phil swooping down\".",
+      "Bob": "",
+      "Keys": "Brent (keyboards) receives glowing remarks – “killing me” with his playing and tight interplay with Jerry on the Shakedown numbers.",
+      "Drums": "Drummers are highlighted for a fun, space‑filled groove that kept the energy high; several reviewers mention the drums moving the crowd."
+    },
+    "processed_date": "2025-09-06T16:55:08.634610+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-04-06.sbd-patched.wiley.16785.sbeok.shnf"
+  }
 }

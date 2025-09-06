@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.416666666666667,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear, well‑mixed soundboard capture of the May 23 1982 Greek Theatre show with tight jams and several standout moments.",
+    "review": "The recording is praised for its crisp, balanced mix and impressive bass response, though a few listeners note slight over‑saturation in the loudest sections. Musically the concert delivers solid first‑set work (Shakedown Street, Red Rooster, Let It Grow) and a tight second set highlighted by Ship of Fools → Estimated Prophet → Eyes of the World, with relaxed vocals from Jerry and energetic contributions from Brent. Overall the performance is regarded as high‑energy and memorable despite minor setlist preferences and some tape‑flipping quirks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4–5 stars, emphasizing excellent soundboard quality and strong musical execution; minor criticisms are outweighed by consistent praise."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear and crisp mix with great separation and bass response; a few comments about over‑saturation in loud parts and occasional tape‑flip timing issues for tapers."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Shakedown Street",
+        "Red Rooster",
+        "Let It Grow",
+        "Ship of Fools → Estimated Prophet → Eyes of the World",
+        "Rolling Stone (Satisfaction)",
+        "Breakdown Palace",
+        "Scarlet"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set strong and diverse, second set starts a bit softer but quickly gains momentum with tight transitions; encore rounds out the night on a high note.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Relaxed vocal delivery on ‘Crazy Fingers’/‘Jack Straw’; solid guitar work throughout.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent Mydland’s Harley was mic'd up, adding heavy presence on ‘Rooster’ and lead vocals on ‘Red Rooster’.",
+      "Drums": "Mickey Hart interacts with the novelty biker during drums/space; rhythm section described as tight."
+    },
+    "processed_date": "2025-09-06T17:53:20.179182+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-05-23.sbd.miller.96332.sbeok.flac16"
+  }
 }

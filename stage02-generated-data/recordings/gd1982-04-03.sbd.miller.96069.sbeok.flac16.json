@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.3076923076923075,
   "high_ratings": 10,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "High‑energy 1982 show with a scorching Scarlet → Fire transition and solid Peggy‑O, captured on a patchy matrix (soundboard + audience) recording that’s fair but listenable.",
+    "review": "Fans rave about the explosive Scarlet > Fire segue, Jerry’s vocal inflection and guitar licks on Peggy‑O, and strong piano work from Brent. The performance is described as cohesive, exploratory and “hot,” while the recording is a mixed‑source (mostly audience with soundboard patches) that sounds muddy yet remains enjoyable for Deadheads.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "The majority of reviews are 4–5 stars praising the musical performance; recording quality is noted as imperfect but acceptable, leading to an overall strong rating."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Mostly audience tape with patched soundboard sections; audible hiss and occasional mud, but key moments (Scarlet‑Fire, Peggy‑O) are clear enough for enjoyment."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Scarlet > Fire",
+        "Peggy-O",
+        "Estimated > Eyes",
+        "Let It Grow"
+      ],
+      "poor_songs": [
+        "Never Trust a Woman"
+      ],
+      "setlist_flow": "The set flows well, highlighted by the seamless Scarlet‑Fire transition and strong closing jams; overall performance is cohesive and exploratory.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His vocal inflection on Scarlet and guitar licks in Peggy-O are repeatedly praised; his tone and phrasing are described as “scorching.”",
+      "Phil": "Only a brief note about a stage‑position change with Jerry, no specific playing comments.",
+      "Bob": "",
+      "Keys": "Brent’s piano is highlighted – more focused grand‑piano work, especially on the Estimated > Eyes outro.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T16:39:18.481717+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-03.sbd.miller.96069.sbeok.flac16"
+  }
 }

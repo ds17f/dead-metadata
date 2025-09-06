@@ -14,5 +14,46 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience recording delivers a high‑energy early‑80s show with a smoking Scarlet>Fire sequence and standout Dupree’s, while the sound quality is decent enough to enjoy.",
+    "review": "The performance is praised for Jerry Garcia’s soaring guitar work and vocal passion, especially on Scarlet > Fire, Sailor, Terrapin Station and Stella Blue. Brent's keyboards are highlighted as a strong addition, and the set flows smoothly from a rocking first set into an improvisational second set. The audience‑sourced tape is considered clear enough for listening despite no detailed technical notes.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Reviewers consistently praise the musical performance (high energy, many standout songs) and note only minor or unspecified recording issues; weighted average of show (≈4.5) and recording (≈3.0) yields ~4.1."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "No major complaints about clarity; reviewers mention crowd/tuning but overall the tape is listenable and captures the show's energy."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Scarlet > Fire on the Mountain",
+        "Sailor",
+        "Terrapin Station",
+        "Truckin'",
+        "Stella Blue",
+        "Looks Like Rain",
+        "Loser",
+        "Let It Grow",
+        "Dupree's"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set builds with strong rock numbers and tight jams, leading into a high‑octane second set that blends extended segues (Scarlet>Fire) and heartfelt ballads before the encore.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia is described as 'smoking', in overdrive, with passionate vocals and soaring solos throughout the show.",
+      "Phil": "Phil's bass is noted as not being loud enough for the reviewer, likely a playback issue rather than performance.",
+      "Bob": "Bob Weir’s vocal effort is mentioned positively, though no specific instrumental comments.",
+      "Keys": "Brent (keyboards) added significant texture and locked in with Jerry during several jams.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:47:08.898013+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-11.aud.unknown.85854.sbeok.flac16"
+  }
 }

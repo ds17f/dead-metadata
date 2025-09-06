@@ -14,5 +14,48 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent matrix recording captures a high‑energy Baltimore show with a monster second set and standout performances by Jerry, Phil and Brent.",
+    "review": "Both reviewers rave about this April 19 1982 Baltimore concert, calling the band “on fire” from start to finish. The second set – especially Feel Like A Stranger → Franklin’s Tower → Estimated Prophet → Terrapin Station and the Raven/Space segment – is highlighted as one of the best ever, while the matrix mix (60 % soundboard, 40 % audience) is praised as crystal‑clear and perfectly balanced.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "Consistently 5‑star reviews praise both the musical performance (high energy, many standout songs) and the technical quality of the matrix mix, indicating an exceptional show with excellent recording."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "60 % soundboard + 40 % audience blend; reviewers describe it as the best‑sounding source for this concert, crisp and well‑balanced with no noted flaws."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Feel Like A Stranger",
+        "Franklin's Tower",
+        "Estimated Prophet",
+        "Terrapin Station",
+        "Raven (Space)",
+        "The Wheel",
+        "Truckin'",
+        "Stella Blue",
+        "Around And Around",
+        "Good Lovin'",
+        "Brokedown Palace"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set flows flawlessly with tight transitions, especially the Feel Like A Stranger → Franklin’s Tower → Estimated Prophet → Terrapin Station sequence; encore rounds out a strong finish.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals sound as good as ever and guitar work on 'They Love Each Other' and 'Peggy-O' is described as simply amazing.",
+      "Phil": "\"More nitrous!\" – bass is high‑energy and powerful throughout the show.",
+      "Bob": "",
+      "Keys": "Brent Mydland (keys) is \"in high‑gear\", delivering strong keyboard work during the set.",
+      "Drums": "Bill Kreutzmann (referred to as Bobby) is praised for being in high‑gear, driving the performance."
+    },
+    "processed_date": "2025-09-06T17:40:53.125574+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-19.mtx.tobin.89389.flac24"
+  }
 }

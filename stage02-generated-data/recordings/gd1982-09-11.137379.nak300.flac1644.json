@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Strong fall‑tour show captured with a clear audience recording, delivering a fine performance.",
+    "review": "The reviewer rates this concert as one of the best from the fall tour, noting that the show is \"fine\" and the sound is pleasant. The source appears to be an audience (Aud) feed, which the listener describes as having nice sound quality. Overall it’s a solid, enjoyable recording despite the lack of detailed song or performance notes.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "low",
+      "rationale": "Only one moderately detailed review (4‑star) praising both the show and its sound; positive but limited data leads to a low confidence rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer mentions \"Nice sound\" suggesting clear, listenable audience recording with no reported issues."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments; reviewer simply calls it a fine show and one of the fall tour's best.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:49:31.031529+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-11.137379.nak300.flac1644"
+  }
 }

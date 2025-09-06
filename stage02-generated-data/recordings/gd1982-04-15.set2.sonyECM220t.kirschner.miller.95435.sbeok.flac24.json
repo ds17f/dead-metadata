@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard‑style recording that captures a decent but unremarkable performance",
+    "review": "Reviewers rave about the crystal‑clear mix, noting that the engineers made the band “sound right,” while also admitting the show itself was only “good enough” and not especially memorable. The recording quality is praised as great, though one reviewer laments the taping legality rather than the music.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Strong praise for the recording (5‑star review) balanced by a neutral/negative comment about the performance and one 0‑star rating focused on taping issues, leading to an overall solid but not outstanding score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Review highlights a great, clear mix that makes the band sound right; no complaints about muddiness or drop‑outs."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:21:44.304027+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-15.set2.sonyECM220t.kirschner.miller.95435.sbeok.flac24"
+  }
 }

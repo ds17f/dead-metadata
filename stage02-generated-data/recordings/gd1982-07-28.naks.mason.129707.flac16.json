@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A listenable audience recording of the infamous Red Rocks rain‑out night – audio is fair with rain noise, but the performance holds historic charm.",
+    "review": "The tape captures the July 28 1982 Red Rocks show where the band played through a steady rainstorm. Reviewers note that the sound is not as clear as other Mason sources—rain patter is audible—but it remains listenable and the night is fondly remembered despite the weather.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Two reviews give a moderate (3‑4 star) impression; the show is regarded as decent/pleasant while the recording quality is only fair, yielding an overall rating around 3.7."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Audio is less clear than other Mason copies; rain on the tape can be heard, making it a bit muddy but still listenable."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set flow; reviewers simply note the night’s historic vibe despite the rain.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:23:48.307481+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-28.naks.mason.129707.flac16"
+  }
 }

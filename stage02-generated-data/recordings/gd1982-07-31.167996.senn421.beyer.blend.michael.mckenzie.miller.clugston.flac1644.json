@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Well‑played Manor Downs show with exceptional post‑drum moments, recording quality not specified",
+    "review": "The reviewer drove from Charlotte to Manor Downs for the first of a four‑show run and found the performance “very well played” with an especially memorable drum segment. No details about the audio source or clarity are given, so the technical side remains unknown.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Single 4‑star review emphasizes a strong musical performance but provides no information on recording quality, leading to an overall rating of about four stars with low confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Review does not mention sound clarity, mix balance, or source type."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific setlist details provided; reviewer notes overall strong playing.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:43:21.593734+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-31.167996.senn421.beyer.blend.michael.mckenzie.miller.clugston.flac1644"
+  }
 }

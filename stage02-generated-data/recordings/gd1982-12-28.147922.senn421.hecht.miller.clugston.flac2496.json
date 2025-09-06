@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A magical first‑night performance praised by the reviewer, though no details about recording source or sound quality are provided",
+    "review": "The lone fan review describes an unforgettable experience, calling the show \"magic\" and awarding it five stars. No specifics are given about the audio source, clarity, or mix, so the technical quality remains unknown while the overall sentiment is highly positive.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "low",
+      "rationale": "Only one review, but it gives a perfect five‑star rating and enthusiastic language about the show; lack of any recording details limits confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer did not mention soundboard, audience mix, clarity, or any technical issues; recording quality cannot be assessed from this review."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T21:20:26.500691+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-12-28.147922.senn421.hecht.miller.clugston.flac2496"
+  }
 }

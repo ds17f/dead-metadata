@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 3.8,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience cassette of Jerry’s 40th‑birthday show captures a decent second set (Playing > Iko Iko, The Wheel) but suffers from multiple cassette generations and Dolby noise, making the sound only fair.",
+    "review": "The performance is memorable for its birthday context and a strong second set that lifts the heat‑weary night with a smooth transition from Playing in the Band into Iko Iko and a standout version of The Wheel. However, the recording comes from a second‑generation audience cassette with Dolby hiss, so the audio quality is uneven and best suited for fans who were there or who value the ambience over fidelity.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Average star rating (3.8) with reviewers split between praise for the second‑set music and criticism of tape quality; enough reviews to gauge but some contradictions keep confidence at medium."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Second‑generation cassette copies with Dolby noise; sound is decent for an audience tap but shows hiss, generational loss and occasional muffling."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing in the Band > Iko Iko",
+        "The Wheel"
+      ],
+      "poor_songs": [
+        "Lost Sailor / Saint of Circumstance (mentioned as ‘lost’)"
+      ],
+      "setlist_flow": "First set hampered by extreme heat and fatigue, but the second set recovers with a smooth open (Playing > IKO) and solid finishes.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:45:54.636062+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-01.nak700.seligman.ford.82883.sbeok.flac16"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Fantastic Shakedown Street performance captured on a crisp soundboard recording",
+    "review": "Frontfungus raves about Jerry Garcia’s guitar work on “Shakedown Street,” calling the track an overlooked gem even after two decades of listening. The recording, implied to be a sound‑board source, is praised implicitly for its clarity and has no reported technical flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "low",
+      "rationale": "A single 5‑star review praises the musical performance heavily and gives no recording complaints, suggesting both show and audio are excellent; limited data yields low confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No specific technical comments, but absence of criticism and the .sbd file designation imply a clear, well‑balanced capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Shakedown Street"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Not enough detail to assess overall set flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Exceptional guitar work on Shakedown Street, highlighted as a favorite for decades.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:27:25.435166+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-17.141100.set2.sbd.pcm.dalton.miller.clugston.flac1644"
+  }
 }

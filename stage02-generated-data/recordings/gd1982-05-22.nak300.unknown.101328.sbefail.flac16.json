@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent recording captures an outstanding show with top‑notch sound quality",
+    "review": "Reviewers rave that this tape delivers both a superb performance and crystal‑clear audio, describing the recording as excellent and the concert as a standout experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "low",
+      "rationale": "Only one brief 5‑star review, but it praises both the show and the recording highly; limited data reduces confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer calls the recording excellent; no specific technical details provided."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:50:32.982474+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-05-22.nak300.unknown.101328.sbefail.flac16"
+  }
 }

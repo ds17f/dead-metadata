@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 12,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Good‑quality soundboard captures Jerry’s 40th birthday show where a hot first set gives way to a smoking second set – especially the Playin > Iko jam.",
+    "review": "The recording is a solid soundboard tape with clear mids and enough bass presence, though a few low‑level sections and heat‑induced distortion are noted. Musically the band struggled through an uneven first set, but the second set delivers highlights like Playin > Iko, Lost Sailor > Saint, and a tight Tennessee Jed, showing the group finding its groove despite the sweltering conditions.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 3‑5 stars and praise the second‑set flow, while a few note heat‑related slumps and recording quirks; the weighted average yields a solid but not stellar rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and well‑balanced soundboard tape, with occasional low‑level sections and mild heat‑related muddiness; bass notes are audible, no major dropouts reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playin > Iko",
+        "Lost Sailor > Saint",
+        "Tennessee Jed",
+        "China > Rider",
+        "Space > The Wheel"
+      ],
+      "poor_songs": [
+        "China Cat Sunflower (early struggle)"
+      ],
+      "setlist_flow": "First set uneven and hampered by heat, but the second set flows seamlessly with continuous segues, especially the Playin‑Iko transition.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Start of show shows Jerry distressed by heat and wandering solos; later finds groove and delivers strong birthday jam on Iko and solid leads on Tennessee Jed.",
+      "Phil": "Bass is clear in the mix; no specific praise or criticism beyond general sound quality.",
+      "Bob": "Makes a zoo/animal joke before Iko, noted for his vocal presence on Tennessee Jed.",
+      "Keys": "",
+      "Drums": "Drumming highlighted as a strong point by one reviewer ('DON'T SKIP ON THE DRUMS')."
+    },
+    "processed_date": "2025-09-06T18:45:28.729594+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-08-01.sbd.willy.10226.sbeok.shnf"
+  }
 }

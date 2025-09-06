@@ -14,5 +14,48 @@
   "confidence": 1.0,
   "raw_rating": 3.2222222222222223,
   "high_ratings": 3,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "A decent audience tape of the 04‑11‑1982 show captures mixed energy, with Let It Grow and Franklin’s Tower shining despite early set hiccups.",
+    "review": "The recording is a listenable audience capture that suffers from some bumps and early‑set clarity issues but improves as the concert progresses. Musically the night is uneven – the first set starts shaky while the second delivers highlights like Let It Grow, Franklin's Tower, El Paso and a strong Candyman, though other moments (Good Lovin', Half‑Step) feel lackluster.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Reviews are split between praise for standout songs and criticism of both performance lapses and recording imperfections, yielding an overall average rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Overall listenable with a solid mid‑range balance; early set openings are muddy with occasional dropouts, lyric bleed‑through and equipment bumps, but later songs sound clearer."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Let It Grow",
+        "Franklin's Tower",
+        "El Paso",
+        "Althea",
+        "Never Trust A Woman",
+        "Candyman",
+        "Samson"
+      ],
+      "poor_songs": [
+        "Good Lovin'",
+        "Half-Step (first half)",
+        "Black Peter"
+      ],
+      "setlist_flow": "The first set opens shaky with a flubbed Half‑Step but recovers toward the end; the second set is praised for its sparkle by some reviewers while others feel it collapses after a weak Good Lovin' moment.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Reviewers note his relaxed vibe, hot licks, a flubbed line on Half‑Step but strong solos and soulful vocals on Candyman.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent's extended high organ note in Around (and scat‑sing on Rooster) is highlighted; his keyboard work adds color.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:08:12.289314+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-04-11.fob-senn421-wise.sacks.6959.sbefail.shnf"
+  }
 }

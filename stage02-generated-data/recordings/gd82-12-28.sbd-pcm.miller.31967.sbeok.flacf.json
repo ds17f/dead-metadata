@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Solid late‑'82 soundboard capture of a fiery Shakedown with strong playing, though the lack of transition between On the Road Again and Touch of Grey hurts the flow.",
+    "review": "The recording is a decent late‑1982 board offering clear, well‑balanced sound that many reviewers rate around 3½–4 stars. Musically the show shines on the Shakedown – described as smoking, edgy, and a highlight of the set – but suffers from a missing transition between On the Road Again and Touch of Grey and an abrupt jump into Samson.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the performance (especially Shakedown) and rate the sound quality as good for a late‑'82 board; one very negative review pulls the overall sentiment toward mixed, yielding an average around 4.1."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Described as \"ok sound\" and \"excellent for a late '82 board\" with clarity typical of that era; no major drop‑outs noted, though some listeners sense the tape runs slightly fast."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Shakedown"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Missing transition between On the Road Again and Touch of Grey detracts from continuity; an abrupt shift into Samson is noted but overall set feels juicy and energetic.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for edgy, lyrical improvisation on Shakedown, but also called out for a flubbed lyric line that some find sad or amusing.",
+      "Phil": "",
+      "Bob": "Noted for a humorous vocal stumble into Samson, adding \"giggles\" to the performance.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T21:20:07.907987+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-12-28.sbd-pcm.miller.31967.sbeok.flacf"
+  }
 }

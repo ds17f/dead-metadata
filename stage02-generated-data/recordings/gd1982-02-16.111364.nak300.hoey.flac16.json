@@ -14,5 +14,40 @@
   "confidence": 0.8,
   "raw_rating": 3.25,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A historically valuable audience recording with a choked‑off Dolby B sound that captures a smoking 1982 show featuring Terrapin, Althea and Peggy‑O.",
+    "review": "The performance is praised as a \"smokin'\" night with strong renditions of Terrapin Station, Althea and a delightful Peggy‑O, and the set even includes a classic Playing in the Band sandwich. The audio source is an audience tape recorded on a Nakamichi Dragon; reviewers note Dolby B encoding quirks, occasional hiss and a \"choked off\" feel that makes the sound quality range from decent for an audience recording to outright terrible. Overall the show shines despite the mixed technical fidelity.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Show is generally praised with high energy and standout songs, but recording quality is inconsistent and divisive, pulling the overall rating toward the middle of the scale."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Dolby B encoded tape played back on a Nakamichi Dragon; reviewers mention a slight \"choked off\" feeling, hiss, and occasional pocket‑recorder vibe. Some find it decent for an audience source, others deem it terrible."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Terrapin Station",
+        "Althea",
+        "Peggy-O"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Includes a Playing in the Band sandwich and flows well according to listeners, contributing to an overall high‑energy feel.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T16:08:59.697773+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-02-16.111364.nak300.hoey.flac16"
+  }
 }

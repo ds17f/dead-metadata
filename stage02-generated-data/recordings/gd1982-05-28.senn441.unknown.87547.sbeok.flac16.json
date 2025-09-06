@@ -14,5 +14,39 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1982 show with a scorching Boz Scaggs blues set; audience recording is decent but hampered by flat venue acoustics.",
+    "review": "The concert bursts with fast, tight playing and a legendary Boz Scaggs–Cipolina blues segment that many fans cite as the strongest of the night. While the performance shines, the recording reflects the venue’s uneven sound, sounding good when captured from a front‑row spot but flat and muffled farther back.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Reviews praise an energetic show with standout blues set; recording is generally solid but noted as uneven, leading to a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Overall decent capture, but flat and poor room acoustics make the sound spot‑dependent; listeners at the back or sides report muffled clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Boz Scaggs set (blues segment)",
+        "Althea"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Fast, tight first half; blues‑heavy middle with Boz Scaggs/Cipolina; high‑gear second half that kept the crowd roaring.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Stood with his back to the audience on the drum riser, delivering a strong opening riff for \"God's Country\"; fast playing noted.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:58:37.749470+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-05-28.senn441.unknown.87547.sbeok.flac16"
+  }
 }

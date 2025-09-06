@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A rich sound‑board capture of an early‑80s show, highlighted by a superb “Morning Dew” and solid overall playing.",
+    "review": "The post‑April ’82 soundboard source is praised for its clear, bass‑rich mix that avoids the usual muddiness of the era. The concert delivers a consistently good performance – above‑average for ‘82 – with “Morning Dew” singled out as a highlight, while Phil’s night was mixed and a false start on “Me & My Uncle” adds human charm.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Show quality is consistently rated above average with standout moments, and recording quality is described as excellent to good; the weighted assessment yields a strong rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Rich, ambient sound with clear bass; reviewers note it avoids typical early‑80s muffling and has a well‑balanced mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Morning Dew",
+        "Throwing Stones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Consistently good throughout with no single section dominating; the set maintains a steady, above‑average energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised as great throughout; solid guitar work noted by multiple reviewers.",
+      "Phil": "Mixed feedback – some feel his playing was off‑night, while others highlight authoritative bass lines and good mix presence.",
+      "Bob": "Described as great overall but involved in a jam tension with Phil during the Spanish Jam.",
+      "Keys": "Brent Mydland noted for strong organ/piano work and well‑represented in the mix.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:07:54.793167+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-17.sbd.harrison.80770.sbeok.flac16"
+  }
 }

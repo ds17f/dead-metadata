@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.111111111111111,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Solid soundboard capture of an early‑morning US Festival set with a smoking Playin’ > Shakedown transition and tight Minglewood Blues.",
+    "review": "The recording is a generally clear soundboard source that’s only mildly wavy and has some brief piano distortion early on, but it presents the band’s performance very well. The show shines with an energetic opening (Playin' in the Band → Shakedown Street), a hot Minglewood Blues, and one of the best China Cat Sunflower/​Riders medleys of the Brent era, even though the early‑morning heat kept the overall vibe from reaching “epic” levels for some listeners.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is ~4.3 stars; comments consistently praise the setlist and performance while noting only minor recording quirks, yielding a strong positive overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and balanced; a few wavy moments and early‑show piano distortion, plus occasional mix drop‑outs (bass disappearing briefly)."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playin' in the Band",
+        "Shakedown Street",
+        "Minglewood Blues",
+        "China Cat Sunflower > I Need a Miracle (Riders)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong opening sequence Playin' → Shakedown that rolls into Minglewood and then the China/Rider medley; the early‑morning heat is noted but doesn’t break the momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Melts into Shakedown quickly with a solid guitar tone, though some feel the transition is a bit rushed.",
+      "Phil": "Bass presence fluctuates in the mix; noted for testing the PA during the space segment.",
+      "Bob": "",
+      "Keys": "Brent’s piano is noticeably distorted at the start of Shakedown but settles down and sounds fine later.",
+      "Drums": "Strong drumming highlighted, especially the drums‑>encore segment that many reviewers loved."
+    },
+    "processed_date": "2025-09-06T19:37:12.340309+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-09-05.sbd-patched.warner.5490.sbeok.shnf"
+  }
 }

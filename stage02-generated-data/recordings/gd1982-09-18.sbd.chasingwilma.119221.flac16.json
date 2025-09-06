@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard audio captures an awesome, high‑energy set.",
+    "review": "The recording is praised for its crystal‑clear soundboard quality, delivering excellent audio fidelity throughout the concert. The show itself is described as an awesome set with plenty of good energy, making it a must‑listen for Deadheads despite the lack of specific song highlights in the review.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "medium",
+      "rationale": "A single 5‑star review highlights both superb sound quality and a high‑energy performance, indicating an outstanding show and recording; however, with only one detailed comment confidence is limited to medium."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer notes the audio as 'excellent' with no reported issues, implying a clear, well‑balanced mix."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:19:54.835313+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-18.sbd.chasingwilma.119221.flac16"
+  }
 }

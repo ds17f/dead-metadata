@@ -14,5 +14,45 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Crisp soundboard recording with strong Jerry‑led moments (Stella, They Love Each Other) but an uneven, flat performance overall.",
+    "review": "The SBD source is generally praised for its clarity and crispness, though one reviewer notes muffed patches and a need for heavy EQ in places. Musically the show has highlights – especially the Jerry‑centric jams like Stella and the tender They Love Each Other – but suffers from a tired first set, weak mixes, and an uninspired Space that leaves the energy at a medium level.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Three enthusiastic 5‑star reviews praise the sound and overall enjoyment, while one detailed 2‑star review highlights serious mix and performance issues, leading to an average‑to‑good rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Most listeners describe the audio as crisp and great; however, there are reports of muffed patches (e.g., in Truckin'), heavy‑handed EQ needs, and a weak mix early in the set that improves only slightly with matrix sources."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Stella",
+        "They Love Each Other",
+        "Space"
+      ],
+      "poor_songs": [
+        "Might As Well",
+        "Truckin'",
+        "Good Lovin'",
+        "Brokedown"
+      ],
+      "setlist_flow": "First set is described as average to below‑average with flat pacing, while the second set fails to recover, featuring a mix of solid jams and several stilted or ragged moments.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Searches for better tone in Franklin's Tower; his guitar work shines on strong 'Jer' songs like Stella.",
+      "Phil": "Absent early, goes off‑script during Space and is barely audible later in the set.",
+      "Bob": "Adds drama‑vocals throughout (notably on Good Lovin') and contributes slide practice moments.",
+      "Keys": "Brent's keyboards are highlighted as a key element during the strong Jerry jam.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:38:36.383581+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-19.144567.sbd.healy.streeter.smith.miller.clugston.flac1648"
+  }
 }

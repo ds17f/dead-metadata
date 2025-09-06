@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 1.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Recording suffers from tape warp and electrical problems during Loser, making it largely unlistenable.",
+    "review": "The sole review flags a serious technical flaw – an apparent power/electrical issue that caused tape warping on the Loser track. No comments are made about the musical performance, so the show quality cannot be judged from this feedback.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.2,
+      "confidence": "low",
+      "rationale": "Only one low‑star review mentioning a major recording defect; no information on performance to boost rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "Electrical/power problem causing tape warp during Loser; overall sound likely distorted and unreliable."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [
+        "Loser"
+      ],
+      "setlist_flow": "No information provided.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:16:48.343273+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-08.140500.beyer-m160.streeter.miller.sirmick.flac1644"
+  }
 }

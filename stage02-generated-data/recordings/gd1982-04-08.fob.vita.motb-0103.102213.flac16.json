@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 3.5,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Fat, upfront audience tape captures a mixed performance, with the Playin‑>UJB segue standing out despite uneven playing.",
+    "review": "The recording is praised for its surprisingly clear and forward‑leaning sound that belies an audience source, delivering a strong presence even when vocal bleed occurs on tracks like \"Friend of the Devil.\" The show itself divides opinion: some listeners cherish the Syracuse atmosphere and the seamless transition from \"Playing in the Band\" into \"Uncle John's Band,\" while others describe the band as disengaged and label the night one of the weakest of the ’80s.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Positive remarks about recording quality are offset by sharply negative comments on performance; weighted averaging yields a modest overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Very fat and upfront sound with strong presence for an audience tape; occasional vocal bleed during \"Friend of the Devil\" noted but generally clear."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing in the Band",
+        "Uncle John's Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Listeners are split – some enjoy the Syracuse vibe and the Playin->UJB transition, while others feel the band was disengaged throughout.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T16:59:11.765503+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-08.fob.vita.motb-0103.102213.flac16"
+  }
 }

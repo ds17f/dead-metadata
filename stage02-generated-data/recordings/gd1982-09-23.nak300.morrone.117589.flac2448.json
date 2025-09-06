@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent show despite no details on the recording source or sound quality.",
+    "review": "The sole fan review rates this performance a perfect five stars, calling it an \"excellent show.\" No information is provided about the recording method or audio fidelity, so listeners should expect a generally enjoyable concert but cannot gauge technical quality from the feedback.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "A single 5‑star review indicates very high satisfaction with the show; however, lack of any recording details limits confidence in rating the audio quality."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No reviewer comments on sound clarity, mix, or source type."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:36:52.781006+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-23.nak300.morrone.117589.flac2448"
+  }
 }

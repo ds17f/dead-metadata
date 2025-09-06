@@ -14,5 +14,36 @@
   "confidence": 0.6,
   "raw_rating": 2.6666666666666665,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Muddy audience recording with distant mics that barely captures the band, though the show contains a rare pre‑drums jam that adds some energy.",
+    "review": "The source appears to be an audience tape recorded from far away—Jerry's guitar is sometimes the only clear instrument and much of the mix sounds like it was captured from the parking lot. Musically the performance has moments of unusual pre‑drums improvisation that give it a bit of extra spark, but the poor fidelity limits how much can be appreciated.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.8,
+      "confidence": "medium",
+      "rationale": "Show quality is modest with some unique jam energy, but recording quality is very low; weighted average yields a below‑average rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Distant parking‑lot microphones produce a muffled, low‑level mix; instruments other than Jerry's guitar are often indistinct or absent, with significant ambience and lack of clarity."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Unclear due to audio limitations, but reviewers note a pre‑drums jam that hints at a 4‑17‑82 style groove.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar is occasionally the only audible instrument; his tone is heard faintly and sometimes missing ('jerryless' groove).",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Drums enter later in the set, but their presence is hard to discern because of the poor mic placement."
+    },
+    "processed_date": "2025-09-06T16:17:35.823707+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-02-19.sony-unk.willy.13570.sbeok.shnf"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Matrix recording of a stellar 1982 Barn Burner show with great Jerry tones and a solid mix, the earlier Crazy Fingers sync glitch now fixed.",
+    "review": "The performance is described as a “stacked” and “Barn Burner” show, highlighted by Jerry Garcia’s superb guitar tone and high‑energy set flow. The matrix source provides a clean, well‑balanced mix, though reviewers note that a 45‑second segment of Crazy Fingers was originally out of sync before being repaired in this version.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Strong musical praise (70% weight) combined with a generally good matrix recording despite an early sync issue that has been fixed (30% weight) yields a high overall rating."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Mix praised as clear and well‑balanced; original release had a 45 s Crazy Fingers segment out of sync, which has been corrected in the current source."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Barn Burner",
+        "Proceed With Caution",
+        "Forever Grateful > Forever Dead"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Reviewers highlight a tight, high‑energy flow with seamless transitions, especially in the noted standout cuts.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar tone is called out as great throughout the show.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:56:13.269423+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-10-10.mtx.seamons.fix.92058.sbeok.flac16"
+  }
 }

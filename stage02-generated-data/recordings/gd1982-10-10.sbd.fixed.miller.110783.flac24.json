@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.75,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Superb 24‑bit soundboard captures a high‑energy 1982 Frost show highlighted by Brent’s fiery organ, Jerry’s soaring guitar and standout performances of Sugaree, Crazy Fingers, Touch of Grey and Black Peter.",
+    "review": "The recording is a clean 24‑bit SBD with excellent clarity despite a few early balance quirks and a faint hiss. Musically the night bursts with energy – Brent’s organ solo on Minglewood, Jerry’s top‑form guitar work, Phil’s prominent bass, and Bob’s vocal flourishes make for a memorable set that deadheads cite as a classic Frost performance.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Consistently high star ratings (mostly 5) and enthusiastic comments about both the musical performance and the soundboard quality; minor technical hiccups keep it just shy of “exceptional.”"
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "24‑bit SBD praised as crisp and sweet, with a ‘dirty and grindy’ character the reviewer loves. Early balance issues in Minglewood are quickly corrected; a slight hiss and some missing frequency detail noted, but overall very listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Sugaree",
+        "Crazy Fingers",
+        "Touch of Grey",
+        "Black Peter",
+        "Tennessee Jed"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong opening with Minglewood and Rooster, smooth transition into a tight first set that builds through Cassidy and China>Rider. Second set lifts further with Playing in the Band → Crazy Fingers → Touch of Grey, ending on an uplifting double encore of Satisfaction and It's All Over Now, Baby Blue.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as ‘on top of his game’ with a nice guitar tone, added gain for solos, and delivering powerful leads throughout the show.",
+      "Phil": "Highlighted as prominent and present; bass is loud and driving, especially noticeable in the early songs and during transitions.",
+      "Bob": "Vocals receive praise – extra verse on Rooster, spoken‑word flourishes, and ‘cheese points’ for his lyrical improvisations.",
+      "Keys": "Brent’s organ work is called ‘on fire,’ with a standout solo on Minglewood and key contributions to jams like Far From Me and Crazy Fingers.",
+      "Drums": "The drummers are noted as ‘on fire’ closing the set, providing a strong, powerful outro that lifts the energy of the final songs."
+    },
+    "processed_date": "2025-09-06T20:51:06.059902+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-10-10.sbd.fixed.miller.110783.flac24"
+  }
 }

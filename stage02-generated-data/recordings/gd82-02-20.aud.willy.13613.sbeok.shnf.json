@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.25,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1982 Golden Hall show captured on a crisp audience tape, featuring a smoking Let It Grow and flawless Franklin’s > Samson transition",
+    "review": "The concert is praised for its powerful second set – especially the rare Franklin's Tower opening into Samson, an epic 18‑minute Let It Grow, and standout China Cat > I Know You Rider. Reviewers note the audience recording is surprisingly clear and vivid despite occasional sketchy moments, delivering a vivid \"you are there\" experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers gave 4‑5 stars and highlighted both an excellent performance and generally good‑to‑excellent sound quality; the weighted average yields a strong rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Generally crisp and pristine recording that captures the venue ambience; a few reviewers mention occasional sketchy or muffled sections, likely due to handheld mic sources (Sony ECM‑220T vs. other mics)."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "To Lay Me Down",
+        "China Cat Sunflower > I Know You Rider",
+        "Let It Grow",
+        "Franklin's Tower",
+        "Samson and Delilah",
+        "Playing in the Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The first set is praised for strong openings and a superb Let It Grow, while the second set shines with a flawless Franklin’s > Samson transition and high‑energy blues jam, creating an excellent overall flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia is noted for 'tearing up' Let It Grow with inspired guitar work.",
+      "Phil": "",
+      "Bob": "Weir points at security during Samson and adds a memorable vocal cue; his presence adds to the show’s excitement.",
+      "Keys": "Brent Mydland delivers a notable solo jam that flows into the drums, highlighting his keyboard contributions.",
+      "Drums": "The drum work is highlighted in the Brent solo jam and overall tight rhythm section."
+    },
+    "processed_date": "2025-09-06T16:20:48.554078+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-02-20.aud.willy.13613.sbeok.shnf"
+  }
 }

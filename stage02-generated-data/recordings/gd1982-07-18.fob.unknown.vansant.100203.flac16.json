@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear front‑of‑house audience tape captures a high‑energy Ventura show highlighted by a thunderous “Loser” performance.",
+    "review": "The recording offers surprisingly crisp FOB sound with good presence and clear bass, aside from a brief cut in “Ramble On Rose” that has been patched in later versions. Musically the show is praised as tight and powerful, with many fans citing the “Loser” – especially Jerry’s soaring solo and Phil’s booming bass – as a standout moment.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars, praising both performance and sound; minor technical glitches are noted but do not detract from overall enjoyment."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Front‑of‑house capture with clear presence and solid bass; a noticeable cut at 5:35 in “Ramble On Rose” (fixed in later version); overall clarity praised."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Loser"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Tight, well‑structured performance that maintains high energy throughout; fans describe it as a “tight show” with strong momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His solo on “Loser” is described as thundering, haunting and one of the highlights of the night.",
+      "Phil": "Phil’s bass work on “Loser” earns praise for powerful ‘bass bombs.’",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:08:25.237185+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-18.fob.unknown.vansant.100203.flac16"
+  }
 }

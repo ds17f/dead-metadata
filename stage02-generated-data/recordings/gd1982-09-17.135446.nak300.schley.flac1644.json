@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Highly regarded audience recording considered the best available source despite lacking show details",
+    "review": "The sole reviewer rates this tape four stars and calls it the \"best Aud source,\" indicating strong approval of the audio capture. No specific comments are made about the performance, setlist, or band members, so the assessment focuses on the perceived superior audience recording quality.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one brief review; it praises the audio source but provides no information on musical performance, limiting confidence in an overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer describes this as the best available audience recording."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:14:35.896117+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-17.135446.nak300.schley.flac1644"
+  }
 }

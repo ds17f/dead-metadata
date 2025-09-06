@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A decent soundboard capture of a modest show that opens strong but gets sloppy during the China Cat Sunflower → I Know You Rider transition.",
+    "review": "The recording, sourced from Joani’s MSC tape, is generally clear and faithful to the performance. The concert starts off with good energy, but reviewers note that the band rushes the China Cat Sunflower/I Know You Rider segue, making the second half feel a bit sloppy. Overall the show is viewed as average with a few bright moments.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "medium",
+      "rationale": "Show quality is mixed (good start, sloppy middle) while recording quality appears solid; the balance yields an overall average rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Recorded from Joani's MSC tape – clear and well‑balanced with no major glitches, though some reviewers describe the show as quiet."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [
+        "China Cat Sunflower > I Know You Rider"
+      ],
+      "setlist_flow": "Starts strong but loses focus when the band rushes the China/Rider transition, settling into a more relaxed pace afterward.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T21:11:51.254717+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-12-26.sbd.miller.81602.sbeok.flac16"
+  }
 }

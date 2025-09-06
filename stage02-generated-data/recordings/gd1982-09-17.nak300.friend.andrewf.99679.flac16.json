@@ -14,5 +14,41 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy Maine show with stellar Jerry solos and a solid recording that’s “okay” but still very listenable",
+    "review": "Fans rave about this 9/17/82 Portland, ME concert as one of the best they’ve heard – Bertha opens the night, a blistering Morning Dew solo, sweet Deal, a darkly foreboding Estimated Prophet and a killer Dew‑>Sugar finish. The tape’s sound quality is described only as “okay,” with no major flaws noted, making it a worthwhile listen despite not being a pristine soundboard.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All three reviewers gave 5‑star ratings and praised the performance heavily; recording quality is only modestly commented on, so the overall rating leans toward a strong show with decent audio."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer notes the quality as “okay” – no specific issues or source details mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha",
+        "Morning Dew",
+        "Deal",
+        "Estimated Prophet"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong opener with Bertha and a high‑impact closing sequence (Dew > Sugar), with standout moments throughout the set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple mentions of blistering, first‑class solos (Morning Dew, Deal) and overall top performance all night.",
+      "Phil": "",
+      "Bob": "Bobby (Weir) pulled his A‑game alongside Jerry.",
+      "Keys": "Brent did not sing this night; no specific keyboard playing comments.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:13:10.509191+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-17.nak300.friend.andrewf.99679.flac16"
+  }
 }

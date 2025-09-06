@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Reviewer corrects the date to 9/5/82; no information on recording or performance quality.",
+    "review": "The only comment provided flags an incorrect concert date, stating that the show is actually September 5 1982. No remarks are made about the audio source, sound clarity, setlist, or individual musicians.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.0,
+      "confidence": "low",
+      "rationale": "Only a single, brief review that addresses only the date; there are no insights on musical or recording quality, so any rating is highly tentative."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No comments about soundboard vs. audience mix, clarity, or other technical aspects."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No information provided on set structure or pacing.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:39:43.790782+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-05.167111.akg.se5.wiseman.miller.clugston.flac2496"
+  }
 }

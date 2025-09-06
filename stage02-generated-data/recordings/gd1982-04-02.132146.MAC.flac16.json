@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A decent new audience source of a beloved show; floor‑taped with solid clarity despite unknown taper.",
+    "review": "Both reviewers give the recording four stars, praising its honesty and the overall enjoyment of the concert. The tape is an audience capture taken on the floor near the SBD, offering a clear enough mix to be considered better than the uploader’s own masters, though the exact taper remains unidentified. No specific musical moments are called out, but the show is clearly appreciated by listeners.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Both reviews rate the release 4 stars and express enthusiasm for the performance; recording quality is described as good despite unknown source, yielding an overall solid rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Floor audience tape taken near the SBD; crowd chatter and occasional shout are audible, providing a decent mix. Taper is unknown but considered a new source; no major drop‑outs reported."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure or pacing were provided.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T16:36:54.132366+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-02.132146.MAC.flac16"
+  }
 }

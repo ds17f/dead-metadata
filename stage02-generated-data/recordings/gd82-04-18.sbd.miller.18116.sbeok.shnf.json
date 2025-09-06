@@ -14,5 +14,48 @@
   "confidence": 1.0,
   "raw_rating": 4.476190476190476,
   "high_ratings": 20,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A stellar soundboard recording of the 4‑18‑82 Hartford show captures a high‑energy performance highlighted by blistering Let It Grow, soaring Space and a knockout second set.",
+    "review": "The board capture is praised for its crisp, well‑balanced mix that lets every instrument shine, while the concert itself is described as a powerhouse night with an unstoppable second set. Standout moments include Jerry’s epic solo in “Let it Grow,” Phil’s spaced‑out “Space,” and a fiery run through Althea, Big Railroad Blues and Samson.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "The overwhelming majority of reviews award 4–5 stars and extol both the musical performance and the soundboard quality; recording issues are minor, giving a combined high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Consistently described as crisp, well‑balanced and ‘amazing’; board mix praised for clarity. One comment notes an audience version sounds “underwater,” confirming the board is superior."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Let It Grow",
+        "Space",
+        "Althea",
+        "Ramblin' On (Ramble On)",
+        "Big Railroad Blues",
+        "Samson",
+        "Ship of Fools",
+        "Playing in the Band > Eyes of the World",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [
+        "Cold Rain & Snow"
+      ],
+      "setlist_flow": "First set is solid and rocking, but the second set delivers the ‘meat of the show’ with seamless segues (e.g., Sugar Magnolia > Playin' > SSDD) and a high‑octane climax.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple reviewers call his solos “amazing,” especially the Let It Grow solo, noting he was ‘ripping’ throughout.",
+      "Phil": "Praised for his “spaced out” Space jam and the famed “earthquake” vibe that shook the venue.",
+      "Bob": "Highlighted for strong vocals, rhythm work and slide on Samson; praised as a great rhythm guitarist.",
+      "Keys": "Brent’s Hammond organ work is singled out on Big Railroad Blues and RxR Blues, described as ‘slashing’ and ‘ripping.’",
+      "Drums": "The Rhythm Devils receive nods for driving the high‑energy jams; no specific criticisms."
+    },
+    "processed_date": "2025-09-06T17:30:13.738552+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-04-18.sbd.miller.18116.sbeok.shnf"
+  }
 }

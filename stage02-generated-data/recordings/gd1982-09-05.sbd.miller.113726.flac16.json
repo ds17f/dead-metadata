@@ -14,5 +14,36 @@
   "confidence": 0.6,
   "raw_rating": 3.6666666666666665,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A sweet, solid set breezed through with ease, but the piano is over‑mic'd and Brent's keys are distorted, yielding a fair soundboard recording.",
+    "review": "The show is praised as a smooth, enjoyable run of songs that the band handled effortlessly. Recording-wise, listeners note an overly mic’d piano and noticeably distorted keyboards, indicating a need for post‑mix tweaks. Overall the performance shines despite the technical shortcomings.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "Positive comments about the musical flow outweigh the recording flaws, resulting in a good‑ish show (≈4 ★) but only fair audio quality (≈2.5 ★). Combined weighted rating lands around 3.5–3.7."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Piano is overly mic'd and needs tweaking; Brent's keyboards sound distorted, causing noticeable mix issues."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "A sweet, solid run of songs that the band breezed through with ease.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent's keyboards are described as distorted.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:37:42.613388+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-05.sbd.miller.113726.flac16"
+  }
 }

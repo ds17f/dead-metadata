@@ -14,5 +14,42 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Hot day at the Zoo with a solid setlist and smooth playing; recording sounds fine though source is unclear",
+    "review": "The reviewer paints a vivid picture of an August‑heat show that kept the crowd dancing from Jack Straw through a joyous Playing In The Band jam, smooth Lost Sailor, and a heartfelt Black Peter. While no specific technical details are given, the performance is praised throughout, suggesting the audio is at least listenable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "One detailed 4‑star review highlights strong musical moments and no major complaints about sound quality, yielding a solid rating with moderate confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on clarity or mix; reviewer did not note any audio problems, implying the recording is acceptable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing In The Band",
+        "Lost Sailor",
+        "Saint of Circumstance",
+        "The Wheel",
+        "Black Peter"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flowed smoothly from an upbeat opening with Jack Straw through a series of dance‑able jams and heartfelt ballads, keeping the energy high despite the heat.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as easing the temperature with a sweet 'They Love Each Other' and delivering a mournful yet delightful Black Peter, indicating smooth, melodic playing.",
+      "Phil": "",
+      "Bob": "Praised for his fine vocal delivery on 'C.C. Rider', 'Me & My Uncle', and 'Big River'.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:48:05.091584+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-01.155757.ohr-sony-ecm23f-tcd5m.flac1644"
+  }
 }

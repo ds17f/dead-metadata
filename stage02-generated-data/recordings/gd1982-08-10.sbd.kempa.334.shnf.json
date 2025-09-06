@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with some sound problems but a mind‑blowing, high‑energy show featuring a rare double encore.",
+    "review": "The reviewer describes the concert as unforgettable – the crowd even piled chairs and danced, culminating in a double encore. Although the tape suffers from noticeable sound issues, the performance shines through and remains a standout memory for the fan.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "low",
+      "rationale": "Single review gives a solid 4‑star rating; praises the show’s energy and uniqueness while noting recording flaws, leading to an overall high‑ish score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Reviewer mentions \"sound problems\" with the tape despite it being a soundboard source; overall usable but not pristine."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Crowd got increasingly into the music, chairs piled up on the edge and dancing erupted, finishing with a rare double encore – a very high‑energy flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:23:36.203620+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-10.sbd.kempa.334.shnf"
+  }
 }

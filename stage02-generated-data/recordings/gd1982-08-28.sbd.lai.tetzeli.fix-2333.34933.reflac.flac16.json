@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Highly praised recording with enthusiastic fan feedback despite limited details on performance or audio source",
+    "review": "The lone five‑star review is overwhelmingly positive, praising the effort behind the release and implying a strong overall experience. No specific comments are made about the setlist, individual songs, or technical aspects of the recording.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "low",
+      "rationale": "Only one review, but it gives a perfect five‑star rating, indicating both show and recording are well‑received; lack of detail reduces confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer expresses overall appreciation but provides no concrete information on sound clarity, mix, or source type."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:29:46.374042+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-28.sbd.lai.tetzeli.fix-2333.34933.reflac.flac16"
+  }
 }

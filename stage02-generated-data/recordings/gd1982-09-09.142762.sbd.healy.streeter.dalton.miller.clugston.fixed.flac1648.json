@@ -14,5 +14,43 @@
   "confidence": 0.2,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording suffers from pitch‑speed issues and a brief dropout, yet the show shines with a monster Wheel, an inspired Estimated Prophet, and a solid Good Lovin'.",
+    "review": "The tape is a soundboard source that runs noticeably fast and needs several pitch corrections; Space even has a short dropout. Musically the second set redeems the uneven first, delivering a smoking Wheel, a hot Estimated Prophet jam, and an on‑the‑button Good Lovin', while early songs suffer from a muffed Mississippi Half‑Step and an abrupt Althea exit.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.8,
+      "confidence": "medium",
+      "rationale": "The performance is average to good (standout second set) but the recording has serious pitch and balance problems, pulling the overall rating down."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Runs ~3‑4% fast in many sections; requires multiple pitch adjustments. Brief dropout at start of Space, overall balance issues, and occasional muddiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Estimated Prophet",
+        "The Wheel",
+        "Good Lovin'"
+      ],
+      "poor_songs": [
+        "Mississippi Half-Step",
+        "Althea"
+      ],
+      "setlist_flow": "First set uneven with a premature Althea exit; second set builds momentum, delivering strong jams and a memorable encore.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Muffs his place in Mississippi Half‑Step, adds extra parts on Franklin's Tower, drops a solo later, and ends up covering rhythm after Althea.",
+      "Phil": "",
+      "Bob": "Leaves stage during Althea due to equipment problems, interrupting the song.",
+      "Keys": "Brent steps forward after Althea, providing both rhythm figures and lead lines.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:42:43.267100+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-09.142762.sbd.healy.streeter.dalton.miller.clugston.fixed.flac1648"
+  }
 }

@@ -14,5 +14,46 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording of a sunrise beach gig captures a high‑energy set highlighted by a smoking Fire on the Mountain and tight drumming, with overall solid sound.",
+    "review": "The show opens at dawn on the beach and maintains an upbeat vibe through a lively first set, while the second set delivers a standout Fire on the Mountain featuring crisp vocals, aggressive synths and Jerry’s shredding. Recording quality is clean and well‑balanced for a soundboard source, though some vocal moments are noted as weary. Overall the performance is tight, energetic and enjoyable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "One detailed review gives 4 stars; it praises both musical performance (high energy, standout songs) and a clean soundboard recording, leading to a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear and balanced mix with crisp vocals; no major dropouts or muddiness reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Fire on the Mountain",
+        "Not Fade Away",
+        "Black Peter",
+        "Drums (tribal section)",
+        "Althea"
+      ],
+      "poor_songs": [
+        "Let It Grow",
+        "Throwing Stones",
+        "Loser (fast version)"
+      ],
+      "setlist_flow": "First set keeps an upbeat, slightly reggae‑tinged groove; second set builds momentum with a powerful Fire on the Mountain, a concise drums/space segment, and finishes strong with Not Fade Away into Black Peter.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals sound a bit weary early (Althea) but he shreds later in Fire on the Mountain; overall solid guitar work.",
+      "Phil": "Very present and energetic on 'Women are Smarter', adding strong bass lines throughout.",
+      "Bob": "Bobby's growl missing on Throwing Stones, but his vocal harmonies with Brent shine on Not Fade Away and Black Peter.",
+      "Keys": "Brent delivers crisp vocals and an aggressive synthesizer‑driven climax on Fire on the Mountain; organ/guitar harmonies noted as beautiful.",
+      "Drums": "Bill and Mickey produce a tribal‑sounding five‑minute drum segment, followed by a brief, experimental space section."
+    },
+    "processed_date": "2025-09-06T21:08:57.498295+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-11-26.sbd.jakec.34204.sbeok.shnf"
+  }
 }

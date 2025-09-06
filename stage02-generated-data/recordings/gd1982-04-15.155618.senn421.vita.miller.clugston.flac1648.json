@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Positive overall impression with a solid 4‑star rating, though no specifics on recording or performance are provided",
+    "review": "The lone review gives the concert a respectable four‑star score, indicating that the listener enjoyed it enough to call it their first show. However, the reviewer offers no details about the audio source, sound quality, setlist highlights, or individual band members, leaving the technical and musical aspects largely unknown.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Rating based on a single brief review with a 4‑star score; no substantive comments to assess quality in depth"
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No recording details mentioned by reviewer"
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:22:42.241929+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-15.155618.senn421.vita.miller.clugston.flac1648"
+  }
 }

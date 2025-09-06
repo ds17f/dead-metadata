@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Recording suffers from swapped left/right channels; no musical details available.",
+    "review": "The only feedback points out that the stereo channels are reversed (L→R, R→L), which makes the listening experience confusing and detracts heavily from any enjoyment. No comments on the performance, setlist or band members were provided, so the show itself cannot be evaluated.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.0,
+      "confidence": "low",
+      "rationale": "Only a single brief review noting a serious technical flaw (channel swap); no information on musical performance leads to a very low overall rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "Left and right channels are swapped, causing reversed stereo imaging and making the recording difficult to listen to."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T21:00:40.065382+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-10-10.nak700.wagner.miller.109823.flac24"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Immersive audience recording captures a vibrant, high‑energy show with good sound and crowd ambience.",
+    "review": "The reviewer praises the recording for its clear, crowd‑filled mix that makes listeners feel like they’re in the venue, describing the atmosphere as heads open and palm trees swaying. While no specific songs or performance details are mentioned, the overall vibe is highly positive, suggesting a lively concert captured well by the audience source.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "Only one 5‑star review; it highlights strong recording ambience and an energetic show, leading to a high rating despite limited data."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Clear crowd presence gives an immersive feel; sound described as good with the sense of being in the audience."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:04:49.991332+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-17.nak700.Anon-Severson-Poris.98609.flac16"
+  }
 }

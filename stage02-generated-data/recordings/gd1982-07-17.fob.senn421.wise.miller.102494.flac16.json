@@ -14,5 +14,42 @@
   "confidence": 0.6,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A high‑energy 1982 show with rare Playing > China Cat > Rider and a blissful closing stretch, captured on a mixed soundboard/audience source that suffers wind‑noise and level imbalances but still sounds surprisingly good.",
+    "review": "The performance is notable for its unique setlist – the rare Playing → China Cat Sunflower → Dark Star sequence, a smoking Truckin' jam and an unforgettable final five minutes that many reviewers call pure bliss. Recording-wise the Charlie Miller/Jim Wise mix delivers decent clarity, though wind‑affected mics, amp glitches and a lopsided balance (keys and Bob’s guitar dominate) keep it from being pristine.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Strong musical highlights and high energy push the rating up, but recurring technical flaws in the mix lower the overall score."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Wind intermittently hits the microphones, short‑circuit amp noise in set 1, and a noticeable level imbalance (Brent's keys and Bob's guitar louder than Phil's bass). Overall clarity is acceptable but not pristine."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "Playing > China Cat Sunflower > Dark Star",
+        "Baby Blue (closer)"
+      ],
+      "poor_songs": [
+        "Estimated Prophet (butchered)"
+      ],
+      "setlist_flow": "The set flows with high energy, though the transition between Althea and Rooster feels abrupt; a rare second‑set sequence adds uniqueness.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals are in fine form; guitar sometimes buried under louder mix.",
+      "Phil": "Bass is noticeably lower in the mix, making it hard to hear his lines.",
+      "Bob": "His guitar (referred to as Bobby) sits prominently above Jerry's in the mix and drives the sound.",
+      "Keys": "Brent Mydland’s keyboards are unusually forward in the mix, adding a bright texture.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:03:52.102679+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-17.fob.senn421.wise.miller.102494.flac16"
+  }
 }

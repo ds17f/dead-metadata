@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.714285714285714,
   "high_ratings": 20,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Warm, crisp audience tape of a high‑energy Baltimore show where 'Cumberland', the Raven Space and several classics blaze, captured in excellent clarity.",
+    "review": "The audience recording is praised for its clean, balanced sound that even rivals some soundboard releases, preserving the ambience of the Baltimore Civic Center. The performance is described as “smoking” from start to finish, with standout moments like 'Cumberland', a soaring Jack Straw, an explosive Raven Space, and inspired renditions of Peggy‑O, Stella Blue, Estimated Prophet and Franklin’s Tower. Energy runs high throughout, and the tape delivers both musical excitement and vivid sonic detail.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Average rating across 21 reviews is ~4.7; reviewers consistently praise both the show (energy, standout songs) and the recording quality (crisp, warm, audience ambience)."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clean, well‑balanced mix with warm ambience; many note it could be mistaken for a soundboard recording. No major flaws reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cumberland",
+        "Jack Straw",
+        "Stranger",
+        "Raven Space",
+        "Peggy-O",
+        "Stella Blue",
+        "Estimated Prophet",
+        "Franklin's Tower"
+      ],
+      "poor_songs": [
+        "Truckin'"
+      ],
+      "setlist_flow": "Strong first set that builds into an explosive second; seamless transitions and a powerful jam sequence (Raven Space → Estimated Prophet → Franklin's Tower) keep the momentum high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his vocal performance on Stella Blue, strong rhythm work, and overall guitar tone; highlighted on 'Cumberland' and other classics.",
+      "Phil": "Described as booming in the mix with a superb Raven Space; bass noted as powerful throughout.",
+      "Bob": "",
+      "Keys": "Brent’s keyboards receive compliments for crisp interplay with Jerry and clear solo moments.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:37:14.611149+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-04-19.aud-martin.warner.19420.sbeok.shnf"
+  }
 }

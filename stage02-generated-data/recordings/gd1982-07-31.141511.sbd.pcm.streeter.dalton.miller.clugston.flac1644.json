@@ -14,5 +14,51 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording that’s dry and fast‑pitch but still delivers a fun, steady‑galloping show highlighted by Bird Song, Candyman and a soaring Morning Dew.",
+    "review": "The performance is praised for its pacing and energy, with standout moments on Bird Song, Candyman, It’s All Over Now and an inspiring Morning Dew. The SBD source sounds dry and runs fast, requiring pitch correction, and some tracks are cut, so the audio is only fair despite being listenable. Overall the show is enjoyable but uneven, earning mixed sentiment from reviewers.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Two enthusiastic 5‑star reviews highlight a strong performance, while one detailed 3‑star review points out significant recording flaws and uneven playing; the weighted average yields a solid but not exceptional rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Dry SBD mix that runs fast (≈-2% pitch correction needed), some track cuts and boundary issues; matrix or audience sources sound more lively, but the basic soundboard is usable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Candyman",
+        "Bird Song",
+        "It's All Over Now",
+        "Fire on the Mountain",
+        "Eyes of the World",
+        "Space",
+        "Uncle John's",
+        "Truckin'",
+        "Morning Dew",
+        "Dough Knees"
+      ],
+      "poor_songs": [
+        "Alabama Getaway",
+        "Brown Eyed Women",
+        "Scarlet"
+      ],
+      "setlist_flow": "Steady‑gallop first set that builds into a jam‑heavy second set; late start and a long run‑out to 1 am give the show a relaxed but occasionally uneven pacing.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Jer tries hard, is faint on some songs (e.g., Little Red Rooster, Scarlet) and misses verses early on but recovers later in the set.",
+      "Phil": "Phil's bass comes forward on several numbers, notably louder during Little Red Rooster and other mid‑set jams.",
+      "Bob": "",
+      "Keys": "Brent Mydland’s keyboard work is noted for slide practice, harmonics in Space, and a brief jam with the drummers after Drums.",
+      "Drums": "The Drum segment features Garcia & Lesh stepping out while the rhythm section holds down an extended improvisation."
+    },
+    "processed_date": "2025-09-06T18:43:01.830834+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-31.141511.sbd.pcm.streeter.dalton.miller.clugston.flac1644"
+  }
 }

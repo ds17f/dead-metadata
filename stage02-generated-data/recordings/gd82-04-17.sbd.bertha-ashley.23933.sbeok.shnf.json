@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.35,
   "high_ratings": 16,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A solid soundboard capture of a high‑energy 4/17/82 Hartford show, highlighted by a smoking Shakedown, Lost Sailor→Saint, soaring Uncle John’s Band and an emotional Baby Blue encore.",
+    "review": "The recording is a mostly clean SBD (with a brief audience patch early in Sugaree) that delivers clear vocals and well‑balanced instruments, though it isn’t as crisp as some other ’82 tapes. Musically the concert shines – the second set flows like an “express train” with a thunderous Shakedown, a rare Lost Sailor>Saint, a sublime Uncle John’s Band rising out of space, a tight Not Fade Away and a monster Baby Blue that showcases Jerry’s vocal peak. Overall the performance is high‑energy, tightly played, and consistently praised by reviewers.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviews (≈70%) are 4–5 stars praising both the music and the soundboard quality; weighted rating (70 % show, 30 % recording) yields a strong overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear SBD after ~3 min into Sugaree; early portion is an audience (AUD/FOB) patch, some reviewers note slight echo‑yness and less crispness than top‑tier ’82 tapes but overall balanced and listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One (Shakedown)",
+        "Lost Sailor > Saint of Circumcision",
+        "Uncle John's Band",
+        "Not Fade Away",
+        "Baby Blue"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set described as a seamless ‘express train’ with no dead time, strong transitions from space into Uncle John’s and into the encore; first set solid but less remarkable.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for playful riff trades with Brent, crisp guitar tone, ripping runs on Sailor>Saint, powerful vocal delivery on Baby Blue and Sugaree (fanning mode).",
+      "Phil": "Noted goofing behind Bob during Lost Sailor and providing solid bass foundation; occasional “Phil bombs” comments but no detailed critiques.",
+      "Bob": "Vocals highlighted as passionate on Around & Around/OMSN, strong lead on Baby Blue, and generally praised for his presence in the set.",
+      "Keys": "Brent Mydland’s keyboards described as trippy, massive jam‑fuel during Shakedown, subtle color shifts throughout; many reviewers single him out for his performance.",
+      "Drums": "Bill Kreutzmann’s drum space called remarkable and “beautiful” leading into Uncle John’s; overall drum work deemed solid though not overly heavy."
+    },
+    "processed_date": "2025-09-06T17:25:10.366300+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-04-17.sbd.bertha-ashley.23933.sbeok.shnf"
+  }
 }

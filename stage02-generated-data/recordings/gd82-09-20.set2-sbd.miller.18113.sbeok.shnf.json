@@ -14,5 +14,39 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean soundboard capture of a classic ’82 show with a smoking Scarlet > Fire transition and jammy Terrapin Station.",
+    "review": "The recording is praised for its crystal‑clear soundboard quality, though one reviewer notes it runs slightly fast and the bass balance is a bit recessed. Musically the performance is high‑energy – Jerry’s guitar work is “tremendous,” Brent’s keyboards lock in perfectly, and the nearly 12‑minute Scarlet > Fire stretch along with a jam‑filled Terrapin Station are highlighted as show‑stopper moments.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "All three reviewers are enthusiastic (average 4.3★). Show quality is consistently described as classic and high‑energy, while recording quality is noted as clean with only minor speed/balance quirks, yielding a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Very clean and crisp soundboard capture; slight tape‑speed issue makes the mix feel a half‑step fast and bass (Phil) sits a bit back, but overall balance is solid."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Scarlet Begonias > Fire on the Mountain",
+        "Terrapin Station"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows strongly with a jam‑heavy Terrapin and an extended, deliberate Scarlet > Fire transition that showcases tight interplay.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar work described as “tremendous” with killer licks; Jerry is clearly digging the music.",
+      "Phil": "Bass is noted as being pushed to the background and slightly affected by the fast tape speed.",
+      "Bob": "",
+      "Keys": "Brent’s keyboards are praised for being perfectly matched and integral to the transition.",
+      "Drums": "Drumming described as subtle yet deliberate, supporting the long Scarlet jam."
+    },
+    "processed_date": "2025-09-06T20:25:45.515270+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-09-20.set2-sbd.miller.18113.sbeok.shnf"
+  }
 }

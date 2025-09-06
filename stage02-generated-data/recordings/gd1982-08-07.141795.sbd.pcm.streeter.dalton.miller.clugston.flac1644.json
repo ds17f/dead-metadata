@@ -14,5 +14,36 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Recording source unknown and quality unmentioned, but reviewers enthusiastically praise the performance and venue.",
+    "review": "The few available reviews are overwhelmingly positive about the show itself, calling it incredible and highly recommendable, yet they provide no concrete details on the audio source or sound quality. No specific songs, band member performances, or technical notes are mentioned, leaving the recording quality assessment indeterminate.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "High star ratings (average ~4.7) indicate strong enthusiasm for the show, but the lack of any concrete musical or technical commentary limits confidence in assigning a precise rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No reviewers commented on sound clarity, mix balance, or source type."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:09:41.228312+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-07.141795.sbd.pcm.streeter.dalton.miller.clugston.flac1644"
+  }
 }

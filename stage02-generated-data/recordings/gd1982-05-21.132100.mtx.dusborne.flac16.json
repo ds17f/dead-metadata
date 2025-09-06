@@ -14,5 +14,40 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent matrix recording captures a high‑energy 1982 show with standout Playin' > Uncle John’s Band, The Wheel and Black Peter.",
+    "review": "The concert is praised as a solid “sick” performance, highlighted by the seamless Playin' → Uncle John's Band segue, a powerful Wheel, and an engaging Black Peter segment. Dave Usborne’s matrix mix delivers crystal‑clear fidelity that lets the band’s energy shine through.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Both reviewers gave 4‑star ratings, emphasizing strong musical moments and superb recording fidelity; weighting show quality (70%) and recording quality (30%) results in a high average rating."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers note the fidelity is a joy, praising Dave Usborne’s mix for its clarity, balance, and overall superb sound quality."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playin' > Uncle John's Band",
+        "The Wheel",
+        "Black Peter"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth flow with strong segues, especially the Playin' into UJB transition and cohesive mid‑set segments.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:46:02.199529+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-05-21.132100.mtx.dusborne.flac16"
+  }
 }

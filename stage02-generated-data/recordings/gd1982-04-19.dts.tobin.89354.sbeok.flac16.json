@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Review provides no insight into the recording or performance; it only complains about download availability.",
+    "review": "The lone review is focused solely on the inability to download the show and does not comment on sound quality, setlist, or musical performance. Consequently there is insufficient information to assess either the recording fidelity or the concert itself.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 2.0,
+      "confidence": "low",
+      "rationale": "Only one brief review with no content about music or audio quality; rating reflects lack of data rather than an evaluation of the show."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No comments on sound clarity, mix, or source type."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:39:53.995018+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-19.dts.tobin.89354.sbeok.flac16"
+  }
 }

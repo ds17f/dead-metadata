@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Nice recording captures a solid Grateful Dead performance.",
+    "review": "The single reviewer rates the set as a good show and calls the recording nice, indicating an overall enjoyable listening experience. While no specific songs or technical quirks are mentioned, the brief praise suggests both the musical delivery and audio fidelity meet fan expectations for a decent archival capture.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one short review with a 4‑star rating; it expresses general approval of both show and recording, leading to an average‑to‑good overall score."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer describes the audio as \"nice\" but provides no details on clarity, mix, or source."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:28:20.863975+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-20.nak300.morrone.118798.flac2448"
+  }
 }

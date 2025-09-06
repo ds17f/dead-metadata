@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.571428571428571,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy NYC show featuring a smoking Playin’ > Crazy Fingers opener, West LA Fadeaway and High Time.",
+    "review": "The recording is praised for its clear, crisp soundboard quality, making the performance easy to enjoy. The concert shines with an explosive Playin' > Crazy Fingers opening, a funky West LA Fadeaway, a soaring High Time and a shredding Big River, delivering consistently high energy throughout. While some note it sits just below the absolute peak of Fall ’82, it remains a solid, highly enjoyable show.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Reviews consistently rate the show 4‑5 stars and highlight strong musical moments with no recording complaints; weighting gives a high overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers repeatedly mention clear, nice sound with no noted dropouts or mix issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playin' > Crazy Fingers",
+        "West LA Fadeaway",
+        "High Time",
+        "Big River"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A powerful opener (Playin' into Crazy Fingers) sets the tone, followed by a funky West LA and classic High Time, keeping momentum high through the set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:30:10.411404+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-21.sbd.miller.109209.flac16"
+  }
 }

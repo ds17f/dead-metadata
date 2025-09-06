@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Handheld audience recording with fair sound captures a high‑energy, smoking Scarlet > Fire/Not Fade Away and an electrifying China Cat Sunflower > I Know You Rider.",
+    "review": "The show is praised for its intense energy – highlights include a scorching Scarlet Begonias into Fire on the Mountain sequence, a crowd‑singing Not Fade Away, and a buzzing China Cat Sunflower > I Know You Rider. Recording quality is uneven; captured with a hand‑held tape recorder it’s clear enough to convey the vibe but suffers from limited fidelity and occasional muddiness.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Reviews consistently praise the musical performance while noting recording limitations; weighted average yields a strong show rating with decent but not stellar audio."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Hand‑held tape recorder, limited clarity and some muddiness, but captures crowd energy; occasional dropouts noted."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Scarlet Begonias > Fire on the Mountain",
+        "Not Fade Away",
+        "China Cat Sunflower > I Know You Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "High‑energy first and second sets with strong transitions, especially around the Scarlet/Fire segment; a psychedelic undercurrent runs throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T16:39:48.678025+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-04-03.aud.snyder.5314.sbeok.shnf"
+  }
 }

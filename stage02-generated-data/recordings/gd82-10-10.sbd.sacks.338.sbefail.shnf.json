@@ -14,5 +14,48 @@
   "confidence": 1.0,
   "raw_rating": 4.607843137254902,
   "high_ratings": 48,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A crisp sound‑board capture of the legendary 10/10/82 show – fire‑filled playing with smoking Lost Sailor>Saint, Crazy Fingers, Looks Like Rain and a stellar Wheel (minus the missing Space).",
+    "review": "The performance is universally praised: tight first‑set work and an explosive second set highlighted by Lost Sailor → Saint, Crazy Fingers, China Cat → Rider and a soaring The Wheel.  The soundboard source is generally clear and well‑balanced, though this particular file omits the Space segment and the extended Wheel intro and runs slightly fast in some copies.  Overall the musical energy is sky‑high and the recording remains highly enjoyable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "The majority of reviews (≈70) rate the show 4–5 stars and extol its musical highlights; recording quality is described as crisp though with minor flaws, yielding a weighted average around 4.4."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear, balanced mix with good instrument separation. Missing the Space segment and Garcia's extended Wheel intro; one version noted to play slightly fast. Overall listenable and enjoyable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lost Sailor > Saint",
+        "Crazy Fingers",
+        "Looks Like Rain",
+        "The Wheel (extended intro)",
+        "China Cat > Rider",
+        "Sugaree",
+        "Loser",
+        "Far From Me",
+        "Playing in the Band"
+      ],
+      "poor_songs": [
+        "Cassidy"
+      ],
+      "setlist_flow": "A killer first set that builds momentum into an even hotter second set; transitions (e.g., Crazy Fingers → Lost Sailor) flow seamlessly, creating a continuous high‑energy arc.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Shredding solos, ‘angelic’ tone on The Wheel and fire on Crazy Fingers; leads the band with lucid improvisations.",
+      "Phil": "Drops bass bombs especially on Lost Sailor → Saint; booming, solid foundation throughout.",
+      "Bob": "Emotional, ad‑libbed vocals—particularly on Looks Like Rain and The Wheel; strong vocal presence across the set.",
+      "Keys": "Brent’s B3 shines on Crazy Fingers and China Cat; also contributes gritty backing vocals on Rooster and other numbers.",
+      "Drums": "Bill’s tight, driving groove propels Playing in the Band and maintains momentum through the second‑set jams."
+    },
+    "processed_date": "2025-09-06T20:53:01.209315+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-10-10.sbd.sacks.338.sbefail.shnf"
+  }
 }

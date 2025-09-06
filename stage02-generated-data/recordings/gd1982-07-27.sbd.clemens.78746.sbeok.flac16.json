@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy Red Rocks show with a psychedelic second set and a solid soundboard source that suffers from early hiss and mix imbalance",
+    "review": "The performance is widely praised – the Terrapin Station/Playin' in the Band sequence, a gorgeous Stella Blue reprise and an inspired The Other One make the second set a standout.  Recording-wise the sbd capture clears up after the opening hiss, but listeners note Jerry’s guitar buried low while Brent’s keys are pushed forward, giving the mix a uneven feel.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Show quality is consistently rated very high (many 5‑star comments) while recording quality is noted as only fair due to hiss and balance issues; weighted average yields ~4.3 stars"
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Noticeable hiss at the start that clears up later; mix imbalance with Jerry's guitar low and Brent's keyboards high; overall listenable but not pristine."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Terrapin Station",
+        "Playin' in the Band",
+        "Stella Blue (reprise)",
+        "The Other One"
+      ],
+      "poor_songs": [
+        "Jack Straw"
+      ],
+      "setlist_flow": "Second set stays psychedelic from start to finish, weaving long jams that flow smoothly; first set solid but less highlighted.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar often buried low in the mix; midi work praised but sounds distant.",
+      "Phil": "Bass described as high and great, with unique moments on The Other One.",
+      "Bob": "",
+      "Keys": "Brent’s keyboard work is highlighted as spectacular yet turned up too high in the mix.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:14:46.738574+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-27.sbd.clemens.78746.sbeok.flac16"
+  }
 }

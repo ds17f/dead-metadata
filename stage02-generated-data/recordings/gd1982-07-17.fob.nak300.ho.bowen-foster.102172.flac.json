@@ -14,5 +14,40 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent front‑of‑house capture of a high‑energy July 17 1982 show with a smoking Truckin finish and a spacey second set highlighted by Playin’ and a China Rider jam.",
+    "review": "The recording is praised for its “in‑your‑face” clarity, capturing every instrument and crowd nuance thanks to the NAK300 shotgun rig and Sennheiser 441 microphones. The performance itself is described as upbeat and exploratory – the first set closes powerfully with Truckin, while the second set opens with Playin’ and rolls into a fun, improvisational China Rider jam.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "All three reviewers gave five stars, highlighting both superb sound quality and an energetic, memorable performance; the weighted rating (70% show + 30% recording) therefore lands near the top of the scale."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Front‑of‑house NAK300 shotgun rig and Sennheiser 441 mics recorded onto a Marantz CD330; reviewers note the sound is “in your face,” crystal clear, with every instrument audible."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "Playin' (second‑set opener)",
+        "China Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set builds to a strong Truckin finish; second set launches into an open, spacey jam that lets the band explore freely.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "Bob Weir adds extra throws and jams throughout the second set.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:03:01.504254+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-17.fob.nak300.ho.bowen-foster.102172.flac"
+  }
 }

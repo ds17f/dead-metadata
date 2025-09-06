@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Sweet 16‑bit FLAC capture with a floating Jerry Garcia guitar on Peggy‑O.",
+    "review": "The recording is praised as a clear, sweet 16‑bit FLAC source, though one listener wishes for a higher‑resolution (24‑bit) version. Musically the show shines especially on Peggy‑O, where Jerry’s guitar work is described as almost floating away, making it a favorite performance for fans.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "One reviewer rates the show and recording highly (5 stars) while the other provides no star rating but notes only a desire for higher bit‑depth; overall the performance is strong and the audio quality good, leading to an estimated 4‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "16‑bit FLAC files described as 'sweet' and clear; a reviewer requests a 24‑bit version, indicating the recording is solid but limited in resolution."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Peggy-O"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar on Peggy‑O is described as 'floating away' and a favorite moment.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:13:25.533230+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-12.nak300.morrone.113824.flac2448"
+  }
 }

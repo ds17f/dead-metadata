@@ -14,5 +14,39 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a well‑played San Diego show, highlighted by a smoking Space→Other One sequence.",
+    "review": "The concert is praised as a solid, well‑played set that kicked off the new year in San Diego, with the second set standing out—especially the expansive Space>Other One where Phil’s bass shines. Reviewers note this is the best‑sounding copy on the archive, offering clear instrument separation and a notably crisp mix.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "low",
+      "rationale": "Single detailed review rates the show 4/5 overall, highlighting strong musical performance and excellent recording quality; limited data reduces confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear mix with good instrument separation; Phil’s bass is especially audible, indicating a high‑fidelity soundboard source."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Space",
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth progression that built momentum into the second set, delivering a powerful Space>Other One segment.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Highlighted for clear presence and 'all over the place' bass work during Space>Other One.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T16:17:59.195916+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-02-19.nak700_martin.warner.28382.sbeok.flacf"
+  }
 }

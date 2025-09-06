@@ -14,5 +14,45 @@
   "confidence": 0.6,
   "raw_rating": 3.3333333333333335,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Audience tape with decent clarity but noticeable pitch‑speed issues; the concert dazzles with a furnace‑blast first set and an unforgettable “I Need a Miracle” jam.",
+    "review": "The recording captures a solid audience source that is surprisingly clear for a crowd tape, though reviewers note it runs fast and needs several percent of pitch correction. Musically the show is a high‑energy highlight of the run – tight performances of Cassidy/Loser, a powerhouse Samson & Delilah, and a must‑hear “I Need a Miracle” jam leading into an inspired The Other One.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Strong musical performance (high energy, many standout songs) offset by technical recording flaws that require pitch correction; overall rating falls in the good‑to‑great range."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Clear enough for an audience tape but runs fast (+2–3%) and needs pitch correction across sections; occasional AUD chatter, missing drums into Space in some edits, and a “swimmy” headphone feel. Second‑set clarity is better than first."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "New Minglewood Blues",
+        "Cassidy",
+        "Loser",
+        "Samson & Delilah",
+        "I Need a Miracle",
+        "The Other One"
+      ],
+      "poor_songs": [
+        "Might As Well"
+      ],
+      "setlist_flow": "Considered the best of the three‑night run; a tight, furnace‑blast first set followed by a second set that builds through Cold Rain into a massive Miracle jam and a stormy The Other One.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals unusually forward; works hard on Looks Like Rain, matches Bob on Loser, dives into the G‑jam after I Need a Miracle.",
+      "Phil": "Provides his characteristic rumble during The Other One, locking down the band.",
+      "Bob": "Locks in with Jerry on Loser and briefly picks up the Crazy Fingers riff during the Miracle jam.",
+      "Keys": "",
+      "Drums": "Some sources miss drums into Space; overall decent but occasional edits affect continuity."
+    },
+    "processed_date": "2025-09-06T18:27:13.763041+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-29.nak300.morris.102039.sbeok.flac16"
+  }
 }

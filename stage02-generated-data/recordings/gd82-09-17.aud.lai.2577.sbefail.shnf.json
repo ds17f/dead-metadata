@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.888888888888889,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1982 show with a smoking second set (Going Down The Road, Morning Dew, Sugar Magnolia) captured on an audience tape that’s decent but lacks full clarity.",
+    "review": "The concert is remembered for an explosive second set – intense drums/space, Spanish jam, Phil’s “bombs” that reportedly clipped the PA, and standout renditions of Going Down The Road, Morning Dew, Sugar Magnolia and The Other One.  While the performance is universally praised, the audience recording is only fair, missing some of the bass depth and overall polish of matrix sources.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Most reviewers give five‑star ratings and highlight exceptional musical moments; recording complaints are present but not enough to outweigh the show’s strength."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Audience tape captures the concert’s energy but is a bit muddy, lacks the depth of Phil’s bass, and does not match the fidelity of matrix recordings."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Going Down The Road",
+        "Morning Dew",
+        "Sugar Magnolia",
+        "The Other One",
+        "Eyes of the World",
+        "High Time"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set described as marginal; the second set builds into an intense drums‑space segment with a Spanish jam, leading to multiple high‑energy peaks.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His vocals on Going Down The Road and Morning Dew are noted as moving; his presence is felt throughout the show.",
+      "Phil": "Delivers massive “bass bombs,” clips the PA, and shines in the second‑set jams, though the tape doesn’t fully capture his power.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Intense drums/space segment with a Spanish jam is highlighted as a key moment."
+    },
+    "processed_date": "2025-09-06T20:12:44.575212+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-09-17.aud.lai.2577.sbefail.shnf"
+  }
 }

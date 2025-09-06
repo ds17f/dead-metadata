@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.8,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Outstanding audience recording captures a blistering set with a smoking Wheel > Other One > Truckin’ sequence and an all‑time great Althea.",
+    "review": "The audience tape is praised for its vivid, immersive sound that many reviewers say even surpasses the soundboard in authenticity. Musically the show is described as \"blistering\" with a standout Wheel → The Other One → Truckin' stretch and an unforgettable performance of Althea, delivering high energy throughout.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "Consistently glowing 5‑star comments highlight both a superb musical performance and an excellent audience recording; the weighted average of show (≈5) and recording quality (≈4.5) yields a high rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers note vivid, immersive sound that captures the live atmosphere; no complaints about muddiness or dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Wheel",
+        "The Other One",
+        "Truckin'",
+        "Althea"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "High‑energy first set with a smoking Wheel > Other One > Truckin' sequence; Althea highlighted as an all‑time favorite.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:30:24.886212+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-28.nak700.wagner.miller.112955.flac16"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy, well‑played show captured in a good‑quality source",
+    "review": "Both reviewers describe the performance as solid and fun, noting that the band stays loose and on throughout the set, with particular praise for how well it is played up to midway through the second set. The recording itself receives commendation for being done “very well,” though no technical details are offered.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Both reviews are strongly positive (4‑5 stars) and highlight a good performance and satisfactory recording, leading to an overall high rating despite limited detail."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers thank the creator for doing a good job, indicating the audio is clear enough to enjoy, but no specific source (soundboard/audience) or technical issues are mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No detailed comments on set structure; reviewers note the performance stays strong through at least half of the second set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T16:13:59.032837+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-02-17.111448.nak300.hoey.flac16"
+  }
 }

@@ -14,5 +14,39 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent front‑of‑house soundboard capture of a scorching Mississippi Half‑Step and a phenomenal space‑filled Other One, with high energy throughout.",
+    "review": "The reviewer, who attended the concert, praises the recording as sounding like you’re standing FOH—clear, immersive, and professionally mixed. Musically the show shines with a hot Mississippi Half‑Step kicking off set 2 and an especially powerful Space → The Other One sequence that “blew [their] mind.” Overall the performance is described as fiery and the audio quality as great.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "medium",
+      "rationale": "A single, detailed 5‑star review highlights both an outstanding performance and excellent recording quality, warranting a near‑top rating despite limited data points."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Sounds like standing front‑of‑house; clear, well‑balanced mix with no noted flaws."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mississippi Half-Step Uptown Toodeloo",
+        "Space > The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong opening of set 2 with MSWS and a seamless, high‑impact transition from Space into The Other One.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:03:09.799603+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-09.169767.nak700.wagner.miller.clugston.flac2496"
+  }
 }

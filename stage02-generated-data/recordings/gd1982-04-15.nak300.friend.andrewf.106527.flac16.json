@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard‑style recording with depth and reduced crowd noise captures a favorite show highlighted by a standout Brokedown Palace.",
+    "review": "The reviewer calls this one of their favorite Dead shows and notes that the MP3 source is clearer, deeper, and has noticeably less audience bleed than other uploads. The performance shines, especially on Brokedown Palace, though Brent’s lyrics slip a bit at the end. Overall the show and its recording are praised as top‑tier.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "low",
+      "rationale": "A single 5‑star review praises both the musical performance and the audio quality, indicating an exceptional show with excellent recording; limited data reduces confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Less crowd noise, more depth, clearer MP3 than other uploads; overall crisp and balanced sound."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Brokedown Palace"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set pacing were provided.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent messes up the lyrics a little at the end of Brokedown Palace.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:22:26.614158+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-15.nak300.friend.andrewf.106527.flac16"
+  }
 }

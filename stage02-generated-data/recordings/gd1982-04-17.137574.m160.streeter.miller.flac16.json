@@ -14,5 +14,40 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good audience recording that puts you there, featuring a solid set highlighted by Shakedown Street, Spanish Jam and Wharf Rat.",
+    "review": "This audience tape captures the concert’s vibe nicely, giving listeners the feeling of being in the crowd. The show is praised for strong performances of Shakedown Street, the Spanish jam, and Wharf Rat, making it a worthwhile download despite its bootleg nature. Sound quality is described as “really good,” with no major issues noted.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one detailed review, but it rates the show and recording positively (4 stars) and mentions no technical flaws, leading to a solid 4‑star assessment."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Audience tape praised for immersiveness; no complaints about clarity or mix, indicating a decent but not pristine sound."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Shakedown Street",
+        "Spanish Jam",
+        "Wharf Rat"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Overall smooth and enjoyable set; reviewer notes the show is solid throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:28:07.918290+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-17.137574.m160.streeter.miller.flac16"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Enthusiastic 5‑star rating suggests a well‑received show, though reviewers give no concrete detail on recording or performance specifics.",
+    "review": "The lone fan review is upbeat and full of heart emojis, awarding the tape five stars. However, it offers no clear information about sound quality, source type, or musical highlights, leaving the technical and musical assessment largely speculative.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "low",
+      "rationale": "Only one brief, highly positive review; rating leans on the 5‑star score but lacks substantive detail to confirm show or recording quality."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No specific comments about sound clarity, mix, or source were provided."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No information given on set structure or pacing.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:14:52.630477+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-08.144731.sbd.healy.streeter.smith.miller.clugston.flac2496"
+  }
 }

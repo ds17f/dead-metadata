@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 4.5,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Well‑balanced audience recording captures a high‑energy 9/11/82 show highlighted by a smoking Scarlet>Fire and ripping Let It Grow.",
+    "review": "The tape, sourced from the West Palm Beach auditorium audience mix, delivers warm, low‑end‑rich sound that most reviewers find clear and well‑balanced. Musically the concert is praised for its nonstop energy, especially the explosive Scarlet>Fire transition and a powerful Let It Grow through Terrapin Station, making it a strong candidate for an official release.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the performance very highly (5‑star) and note good to excellent sound; only one reviewer flags modest recording issues, yielding an overall weighted score around 4.4."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Warm, well‑balanced with strong low end; clear instrument separation but a few reviewers note level imbalances that could benefit from a matrix mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Scarlet>Fire",
+        "Let It Grow (through Terrapin Station)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "High‑energy flow with the band feeding off audience excitement; seamless transition from Scarlet into Fire and a tight, uplifting second half.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Voice clear and guitar prominent; a few minor bum notes in Scarlet but overall solid performance.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:49:16.358884+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-11.beyerM160.streeter.miller.122155.flac16"
+  }
 }

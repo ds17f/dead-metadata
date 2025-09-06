@@ -14,5 +14,45 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean audience recording captures a smoking MSG show with an inspired 12‑minute Shakedown Street and a strong second set.",
+    "review": "The tape delivers a pretty clean sound that lets the crowd electricity of an MSG night shine through, featuring a 12‑minute, inspired Jerry on Shakedown Street and crisp renditions of El Paso and Terrapin Station. The second set stays solid with Scarlet/Fire, Truckin', The Other One and a plaintive Stella Blue, despite a brief sloppy bridge in Scarlet/Fire.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "One detailed review rates the show 4 stars; musical performance is praised as strong with several standout moments, while recording quality is described as clean and enjoyable."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Sound is pretty clean with good crowd presence; no major drop‑outs mentioned, only typical audience tape ambience."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Shakedown Street (12 min)",
+        "El Paso",
+        "Terrapin Station",
+        "Truckin'",
+        "The Other One",
+        "Stella Blue"
+      ],
+      "poor_songs": [
+        "Scarlet > Fire (bridge sloppiness)"
+      ],
+      "setlist_flow": "First set builds with strong openings and rare gems; second set solidifies with a tight back half despite a minor hiccup.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Inspired 12‑minute performance on Shakedown Street, highlighted as a show highlight.",
+      "Phil": "",
+      "Bob": "Vocals described as staggered but present during the opening.",
+      "Keys": "Brent's vocals noted as staggered; no specific keyboard commentary.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:28:08.719903+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-20.122088.senn421.streeter.miller.flac24"
+  }
 }

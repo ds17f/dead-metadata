@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent behind‑the‑stage audience recording with a crystal‑clear mix and a nicely performed show",
+    "review": "The fan notes that this behind‑the‑stage (audience) tape is the best sounding version on the Archive, praising Birdsong’s dialed‑in mix and overall very good sound quality. The performance itself is described as a \"nice show,\" though no specific songs or moments are highlighted.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one brief review; it rates the recording highly and calls the show nice, leading to an overall solid rating but limited data for precise weighting."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Behind‑the‑stage audience source; very good sound with a mix dialed in by Birdsong, considered the best sounding aud version on the Archive."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments about set structure or flow.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:13:42.982840+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-12.nak300.morrone.113826.flac1644"
+  }
 }

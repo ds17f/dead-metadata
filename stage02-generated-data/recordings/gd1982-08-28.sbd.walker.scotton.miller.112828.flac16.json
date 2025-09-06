@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard captures a festive, high‑energy show with a stellar West LA Fadeaway vocal and a powerful second set, though Brent’s lead on Far From Me falls flat.",
+    "review": "The recording is a clean soundboard mix that lets the band’s joyous playing shine through, highlighted by Jerry’s standout vocals on “West LA Fadeaway” and a punchy second‑set flow. Reviewers rave about the overall performance and classic Bobby moments, with only one song – Brent‑led “Far From Me” – drawing criticism.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Five detailed reviews give consistently high marks (average ~4.6). Show quality is praised as strong with standout moments, and the recording is described as clear soundboard capture, leading to a high combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear, well‑balanced capture; reviewers describe the soundboard as crisp and fun with no noted audio issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "West LA Fadeaway",
+        "Truckin'"
+      ],
+      "poor_songs": [
+        "Far From Me"
+      ],
+      "setlist_flow": "Festive first set followed by a powerful, high‑energy second set that keeps the momentum rolling.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His vocal on West LA Fadeaway is praised as possibly his best ever recorded in the early ’80s.",
+      "Phil": "",
+      "Bob": "\"Classic Bobby\" comment indicates solid rhythm‑guitar and vocal contributions.",
+      "Keys": "Brent’s lead vocals on Far From Me are criticized; some reviewers note mixed feelings about his early‑80s integration.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:28:15.117422+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-08-28.sbd.walker.scotton.miller.112828.flac16"
+  }
 }

@@ -14,5 +14,45 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience recording with good clarity (despite occasional distortion) captures a high‑energy July 28 1982 show featuring monster Shakedown Street, Althea, Let It Grow and a soaring Sunshine Daydream.",
+    "review": "Both reviewers rave about the performance, calling it one of the best ’80s shows with nonstop fire from the opening Shakedown Street through to the closing Baby Blue. The audience tape is generally very good, though it has some distortion from Jerry’s volume and occasional clipped intros, plus rain noise from the tarps. Overall the musical excitement far outweighs the minor technical flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "Show is described as exceptional with many standout songs; recording is good but has noticeable distortion and clipping, leading to a slightly lower rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and energetic capture, but includes occasional distortion from Jerry's high volume, clipped beginnings on some first‑set songs, and audible rain pounding on tarps."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Shakedown Street",
+        "Althea",
+        "Let It Grow",
+        "He's Gone",
+        "Sunshine Daydream",
+        "Deal",
+        "Touching Lightly (TLEO)",
+        "Woman Is Smarter"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The show opens with a monster Shakedown Street and maintains high intensity through the first set, peaks in the second with Althea, Let It Grow and Sunshine Daydream, and finishes strong on Baby Blue.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as far‑out front, nimble, perfect solos; volume was three times louder than usual, giving a ‘73‑level presence that dominates the tape.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:23:08.880810+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-28.134511.nak700.streeter.miller.flac24"
+  }
 }

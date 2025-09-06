@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy summer‑’82 show featuring a smoking Scarlet > Fire transition, tight Estimated > Eyes, and a moving Morning Dew.",
+    "review": "The recording is a pristine DAT transfer from Latvala’s soundboard, delivering crystal‑clear mix and full band balance. Musically the concert shines with classic jams – the Scarlet > Fire segue, an incendiary Estimated > Eyes, and a heartfelt Morning Dew – while the second set consistently outshines the first. Overall the show is remembered as one of the standout summer‑’82 performances.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4–5 stars, praising both performance and audio; only a single non‑informative low rating exists, leading to a strong positive average."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Untouched DAT transfer from Latvala’s tape; reviewers note crisp, clean mix with no dropout or muffling issues and excellent instrument separation."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Scarlet > Fire",
+        "Estimated > Eyes",
+        "Morning Dew",
+        "The Bird Song",
+        "Red Rooster",
+        "Deal",
+        "Truckin'",
+        "Uncle John's Band (high‑energy version)"
+      ],
+      "poor_songs": [
+        "Uncle John's Band (transition into Truckin' noted as a bit off)"
+      ],
+      "setlist_flow": "Both sets are packed with classic jams; the second set is highlighted as tighter and more intense, with smooth segues except for a slightly awkward UJB→Truckin' transition.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Missed by some fans due to his upcoming birthday, but his guitar tone and vocal sweetness are praised throughout the show.",
+      "Phil": "Described as a beast firing away and dropping bass bombs; his playing is a major highlight of the performance.",
+      "Bob": "Vocals and rhythm guitar noted as strong, especially on songs like Scarlet > Fire and the second‑set jams.",
+      "Keys": "Early Brent Mydland era keyboards are solid and supportive, contributing to the 'meat‑n‑potatoes' vibe.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T18:31:38.925156+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-07-31.112575.sbd.LATVALA.GEMS.flac16"
+  }
 }

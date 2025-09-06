@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Highly praised audience recording hailed as one of the best audio captures despite no details on the performance.",
+    "review": "The lone review rates this tape a perfect five stars, calling it the \"best aud\" and emphasizing its outstanding sound quality. No specific comments are made about the musical performance, setlist, or individual players, so the analysis focuses on the exceptional recording fidelity reported by the reviewer.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "A single enthusiastic 5‑star review highlights superb audio quality; lack of performance details limits confidence and lowers the overall rating slightly."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer describes it as the \"best aud\" with no noted flaws, indicating a clear, well‑balanced capture of the concert sound."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:56:32.649378+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-05-23.nak300.unknown.101955.sbefail.flac16"
+  }
 }

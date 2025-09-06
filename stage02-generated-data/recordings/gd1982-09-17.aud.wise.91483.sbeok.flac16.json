@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.714285714285714,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1982 fall show captured on a remarkably clear audience recording, featuring a smoking Bertha opener, the debut of Touch of Grey and a thunderous Phil chant into a monster Other One.",
+    "review": "The concert is remembered as one of the most vibrant shows of the ’82 fall tour – the crowd was electric from the opening Bertha through the second‑set fireworks of Spanish Jam, the Phil chant and a blistering Other One.  The audience (field) recording is praised for its three‑dimensional clarity, making it feel like you’re back in the venue, though a few reviewers note Jerry’s vocals are a bit less nuanced than usual.  Overall the performance and the tape combine to create an especially enjoyable listening experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Consistently high star ratings (mostly 5) and enthusiastic comments about both performance and audio quality; minor vocal critique does not outweigh the strong positive consensus."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Field recording praised for crisp, immersive 3‑D soundstage; described as one of the best audience tapes, with clear instrument separation. Minor note: Jerry’s vocal subtlety is a bit muted."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha",
+        "Althea",
+        "Touch of Grey (debut)",
+        "Going Down the Road / Sugar Magnolia",
+        "U.S. Blues",
+        "Spanish Jam → Phil Chant → The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong opening with Bertha and Althea, solid first set; second set builds momentum with new material and culminates in a high‑energy jam leading into the iconic Phil chant and a monster Other One.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals lack some of their usual subtlety on this date, but he still gives it his all; guitar work remains solid.",
+      "Phil": "Fans erupted in a Phil chant and he delivered \"major bombs\" on bass during the jam.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:08:34.032346+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-17.aud.wise.91483.sbeok.flac16"
+  }
 }

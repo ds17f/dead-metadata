@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.4761904761904763,
   "high_ratings": 13,
-  "low_ratings": 5
+  "low_ratings": 5,
+  "ai_review": {
+    "summary": "Matrix‑sourced recording with audience patches and tape hiss, but captures the historic first Touch of Grey and a blazing Shakedown Street/​Stella Blue second set.",
+    "review": "This September 15, 1982 Capital Centre show is remembered for the debut of Touch of Grey and a high‑octane second set featuring Shakedown Street, Stella Blue and a fiery Saint of Circumstance.  The audio is a patched mix of soundboard and audience sources – clear enough to enjoy the performances but marred by hiss and occasional audience bleed.  Overall the musical performance shines despite the technical imperfections.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.5,
+      "confidence": "medium",
+      "rationale": "Most reviewers praise the show’s energy, historic moments and strong playing (average 4‑star comments), while many note significant recording flaws that keep the overall rating around a solid but not outstanding level."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Portions of Playin' > Crazy Fingers are audience‑patched; noticeable cassette hiss after the patch; otherwise a decent mix with some clear moments but overall not pristine."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Touch of Grey (first ever live performance)",
+        "Shakedown Street",
+        "Stella Blue",
+        "Saint of Circumstance / Sailor > Saint",
+        "Playing in the Band (multiple jams)",
+        "Let It Grow"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Unusual structure with several Playing‑in‑the‑Band jams weaving through the set; first set feels like a second set, while the second half builds into extended jams and a memorable encore.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for smooth, energetic playing – ‘going nuts’ on Saint of Circumstance and delivering a solid Shakedown Street.",
+      "Phil": "Listeners note that the patched SBD mix actually brings out Phil’s bass nicely; his low‑end presence is felt throughout the jams.",
+      "Bob": "His vocal delivery and occasional exclamation (‘what the fuck you gonna do now!’) are highlighted, especially on Saint of Circumstance.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T20:04:19.868711+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-09-15.sbd-patched.clugston.11881.sbeok.shnf"
+  }
 }

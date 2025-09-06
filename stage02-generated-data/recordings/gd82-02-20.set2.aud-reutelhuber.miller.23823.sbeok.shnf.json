@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy show with a rare Brent keyboard jam and solid performance; recording quality not specified",
+    "review": "The lone fan review is enthusiastic, highlighting an unusual Brent Mydland jam that sounds like the never‑recorded \"Only A Fool\"—a piece played only once in New Haven spring ’84. No comments on the audio source or fidelity are given, but the praise suggests a memorable performance despite the unknown recording quality.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "low",
+      "rationale": "Only one 5‑star review focuses on the musical highlight; lack of recording details keeps confidence low, but the strong show praise pushes the rating into the high‑average range."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No reviewer comments about sound clarity, mix, or source; assumed listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "(Brent jam resembling \"Only A Fool\")"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Reviewer notes an impressive Brent Mydland jam that sounds like the rare \"Only A Fool\" piece.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T16:21:54.694591+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd82-02-20.set2.aud-reutelhuber.miller.23823.sbeok.shnf"
+  }
 }

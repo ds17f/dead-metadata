@@ -14,5 +14,45 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a haunting, high‑energy show with standout Peggy‑O, Sugaree, Stella Blue and a scorching Sugar Magnolia.",
+    "review": "The three fan reviews rave about the newly available soundboard source, calling it clear and beautifully balanced compared to the old lo‑fi audience tape. Musically the concert is described as experimentally cohesive and “spooky,” with multiple highlights – Peggy‑O, Estimated Prophet’s unusual outro, Uncle John’s Band, Sugaree, Stella Blue, The Other One, Sugar Magnolia and Satisfaction – and an overall high‑energy second set despite a brief wobble from Jerry early on. ",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All three reviews are strongly positive (average 4.7★), praising both the newly released soundboard quality and the musical performance, with only minor comments about a brief unsettled moment for Jerry."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers note the recording is crisp, clear and far superior to the old low‑end audience tape; no dropouts or mix issues are mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Peggy-O",
+        "Estimated Prophet",
+        "Uncle John's Band",
+        "Sugaree",
+        "Stella Blue",
+        "The Other One",
+        "Sugar Magnolia",
+        "Satisfaction"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong, experimental second set with unusual Estimated Prophet ending, a rare central‑G jam in the outro, and tight transitions that keep the energy high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Sounds tentative after the set break but settles nicely for Sugaree; overall guitar work praised.",
+      "Phil": "",
+      "Bob": "Provides notable vocal utterances during The Other One.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T17:12:00.965148+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-04-12.sbd.miller.32014.sbeok.flac16"
+  }
 }

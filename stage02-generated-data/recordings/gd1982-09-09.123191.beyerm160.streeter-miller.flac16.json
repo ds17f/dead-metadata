@@ -14,5 +14,41 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Lively audience tape from the Saenger ’82 with rambunctious Samson & Delilah and Feel Like a Stranger; sound good but the Uncle John’s‑to‑Samson segue divides listeners.",
+    "review": "The recording captures an energetic 1982 show at the Saenger Theatre, highlighted by wild renditions of “Samson & Delilah” and “Feel Like a Stranger.”  Reviewers praise the clear, lively audience mix—especially the first five songs—but note that the unusual sandwich of Uncle John’s Band into Samson isn’t to everyone’s taste.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Strong show energy and standout performances with good audience sound quality, offset by a few negative comments about set‑list sequencing."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Clear and lively audience tape; first five songs described as sounding 'dam good.' No major flaws noted, though some prefer it over any soundboard mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Samson & Delilah",
+        "Feel Like a Stranger"
+      ],
+      "poor_songs": [
+        "Uncle John's Band"
+      ],
+      "setlist_flow": "The only contentious point is the rare Uncle John’s → Samson sandwich, which some fans find odd.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-06T19:43:14.046452+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1982-09-09.123191.beyerm160.streeter-miller.flac16"
+  }
 }
