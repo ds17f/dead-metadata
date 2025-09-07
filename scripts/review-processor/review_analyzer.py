@@ -226,6 +226,7 @@ class ReviewAnalyzer:
             return
             
         current_show_index = 0
+        show_scroll_position = 0  # Track scroll position across recordings
         
         while current_show_index < len(shows):
             show_path = shows[current_show_index]
@@ -276,18 +277,20 @@ class ReviewAnalyzer:
                                         show_current: int, show_total: int, show_name: str) -> str:
         """Multi-show analysis with show-level and recording-level navigation."""
         current_recording_index = 0
+        show_scroll_position = 0  # Initialize scroll position tracking
         
         while current_recording_index < len(recording_ids):
             recording_id = recording_ids[current_recording_index]
             
-            result = self.enhanced_show_vs_recording_comparison(
+            result, show_scroll_position = self.enhanced_show_vs_recording_comparison(
                 show_data,
                 recording_id, 
                 current_recording_index + 1, 
                 len(recording_ids),
                 show_current,
                 show_total,
-                show_name
+                show_name,
+                show_scroll_position
             )
             
             # Recording-level navigation (N/P/X)
@@ -581,7 +584,7 @@ class ReviewAnalyzer:
             
             layout["show"].update(Panel(
                 show_viewport,
-                title=f"🎭 Show AI Review (S/D to scroll) [{show_scroll+1}-{min(show_scroll+25, len(show_lines))}/{len(show_lines)}]",
+                title=f"🎭 Show AI Review (D/F to scroll) [{show_scroll+1}-{min(show_scroll+25, len(show_lines))}/{len(show_lines)}]",
                 style="blue",
                 subtitle=f"Show: {show_data.get('date', 'Unknown Date')}",
                 border_style="blue"
@@ -591,7 +594,7 @@ class ReviewAnalyzer:
                 recording_viewport,
                 title=f"🎧 Recording Evidence (J/K to scroll) [{recording_scroll+1}-{min(recording_scroll+25, len(recording_lines))}/{len(recording_lines)}]",
                 style="green",
-                subtitle="Controls: H/L=recordings, A/F=shows, S/D=scroll left, J/K=scroll right, Q=quit",
+                subtitle="Controls: H/L=recordings, S/G=shows, D/F=scroll left, J/K=scroll right, Q=quit",
                 border_style="green"
             ))
 
@@ -610,19 +613,19 @@ class ReviewAnalyzer:
                     return "prev"
                 elif key.lower() == 'l':  # next recording
                     return "next" 
-                elif key.lower() == 'a':  # prev show
+                elif key.lower() == 's':  # prev show
                     return "prev"
-                elif key.lower() == 'f':  # next show  
+                elif key.lower() == 'g':  # next show  
                     return "next"
                 elif key.lower() == 'x':  # Jump to specific recording
                     return "jump"
-                elif key.lower() == 's':  # scroll left panel (show review) UP
+                elif key.lower() == 'd':  # scroll left panel (show review) UP
                     old_scroll = show_scroll
                     show_scroll = max(0, show_scroll - 1)
                     if show_scroll != old_scroll:
                         update_display()
                         live.refresh()
-                elif key.lower() == 'd':  # scroll left panel (show review) DOWN
+                elif key.lower() == 'f':  # scroll left panel (show review) DOWN
                     old_scroll = show_scroll
                     show_scroll = min(show_scroll + 1, max(0, len(show_lines) - 25))
                     if show_scroll != old_scroll:
@@ -678,14 +681,28 @@ class ReviewAnalyzer:
         summary = ai_show_review.get('summary', '')
         if summary:
             lines.append(f"[bold cyan]Summary:[/bold cyan]")
-            lines.extend(self.wrap_text(summary, 50))
+            lines.extend(self.wrap_text(summary, 100))
             lines.append("")
         
-        # Full review
-        review = ai_show_review.get('review', '')
-        if review:
-            lines.append(f"[bold blue]Full Show Review:[/bold blue]")
-            lines.extend(self.wrap_text(review, 50))
+        # Blurb
+        blurb = ai_show_review.get('blurb', '')
+        if blurb:
+            lines.append(f"[bold green]📝 Key Details:[/bold green]")
+            lines.extend(self.wrap_text(blurb, 100))
+            lines.append("")
+        
+        # Song highlights
+        song_highlights = ai_show_review.get('song_highlights', [])
+        if song_highlights:
+            lines.append(f"[bold magenta]🎵 Standout Songs:[/bold magenta]")
+            # Format song names in columns for better space usage
+            songs_per_row = 2
+            for i in range(0, len(song_highlights), songs_per_row):
+                row_songs = song_highlights[i:i+songs_per_row]
+                if len(row_songs) == 2:
+                    lines.append(f"  • {row_songs[0]:<25} • {row_songs[1]}")
+                else:
+                    lines.append(f"  • {row_songs[0]}")
             lines.append("")
         
         # Key highlights
@@ -713,8 +730,15 @@ class ReviewAnalyzer:
             for member, analysis in band_performance.items():
                 if analysis and analysis.strip():
                     lines.append(f"  [bold]{member}:[/bold]")
-                    lines.extend(["    " + line for line in self.wrap_text(analysis, 46)])
+                    lines.extend(["    " + line for line in self.wrap_text(analysis, 96)])
                     lines.append("")
+        
+        # Full review at the bottom
+        review = ai_show_review.get('review', '')
+        if review:
+            lines.append(f"[bold blue]📖 Full Show Review:[/bold blue]")
+            lines.extend(self.wrap_text(review, 100))
+            lines.append("")
         
         return lines
     
@@ -803,7 +827,7 @@ class ReviewAnalyzer:
                 header += f" - ⭐ {stars:.1f}"
                 
                 lines.append(f"[bold]{header}[/bold]")
-                lines.extend(self.wrap_text(body, 50))
+                lines.extend(self.wrap_text(body, 100))
                 lines.append("")
                 lines.append("")
         else:
@@ -813,7 +837,8 @@ class ReviewAnalyzer:
     
     def enhanced_show_vs_recording_comparison(self, show_data: Dict[str, Any], recording_id: str, 
                                            recording_current: int, recording_total: int,
-                                           show_current: int, show_total: int, show_name: str) -> str:
+                                           show_current: int, show_total: int, show_name: str, 
+                                           initial_show_scroll: int = 0) -> tuple[str, int]:
         """Enhanced comparison with dual navigation - shows and recordings."""
         # Load recording data
         recording_path = self.recordings_dir / f"{recording_id}.json"
@@ -835,10 +860,10 @@ class ReviewAnalyzer:
                     raw_reviews = archive_data.get('raw_reviews', [])
         except Exception as e:
             self.console.print(f"[red]❌ Error loading recording data: {e}[/red]")
-            return "next_recording"
+            return "next_recording", initial_show_scroll
         
         # Initialize scroll positions
-        show_scroll = 0
+        show_scroll = initial_show_scroll  # Preserve show scroll position
         recording_scroll = 0
         
         # Prepare display data
@@ -861,7 +886,7 @@ class ReviewAnalyzer:
             
             layout["show"].update(Panel(
                 show_viewport,
-                title=f"🎭 Show AI Review (S/D=scroll, A/F=shows, X=jump show) [{show_scroll+1}-{min(show_scroll+25, len(show_lines))}/{len(show_lines)}]",
+                title=f"🎭 Show AI Review (D/F=scroll, S/G=shows, X=jump show) [{show_scroll+1}-{min(show_scroll+25, len(show_lines))}/{len(show_lines)}]",
                 style="blue",
                 subtitle=show_header,
                 border_style="blue"
@@ -885,32 +910,32 @@ class ReviewAnalyzer:
                 key = self.get_key()
                 
                 if key.lower() == 'q':
-                    return "quit"
+                    return "quit", show_scroll
                     
                 # Recording-level navigation (h/l keys)
                 elif key.lower() == 'h':
-                    return "prev_recording"
+                    return "prev_recording", show_scroll
                 elif key.lower() == 'l':
-                    return "next_recording"
+                    return "next_recording", show_scroll
                 elif key.lower() == 'x':
-                    return "jump_recording"
+                    return "jump_recording", show_scroll
                     
-                # Show-level navigation (a/f keys)
-                elif key.lower() == 'a':
-                    return "prev_show"
-                elif key.lower() == 'f':
-                    return "next_show"
+                # Show-level navigation (s/g keys) 
+                elif key.lower() == 's':
+                    return "prev_show", show_scroll
+                elif key.lower() == 'g':
+                    return "next_show", show_scroll
                 elif key.lower() == 'x':
-                    return "jump_show"
+                    return "jump_show", show_scroll
                     
-                # Scrolling controls - s/d for left panel (show review)
-                elif key.lower() == 's':  # scroll left panel (show review) UP
+                # Scrolling controls - d/f for left panel (show review)
+                elif key.lower() == 'd':  # scroll left panel (show review) UP
                     old_scroll = show_scroll
                     show_scroll = max(0, show_scroll - 1)
                     if show_scroll != old_scroll:
                         update_display()
                         live.refresh()
-                elif key.lower() == 'd':  # scroll left panel (show review) DOWN
+                elif key.lower() == 'f':  # scroll left panel (show review) DOWN
                     old_scroll = show_scroll
                     show_scroll = min(show_scroll + 1, max(0, len(show_lines) - 25))
                     if show_scroll != old_scroll:
@@ -1069,7 +1094,7 @@ class ReviewAnalyzer:
             
             layout["ai"].update(Panel(
                 ai_viewport,
-                title=f"🤖 AI Review (S/D to scroll) [{ai_scroll+1}-{min(ai_scroll+25, len(ai_lines))}/{len(ai_lines)}]",
+                title=f"🤖 AI Review (D/F to scroll) [{ai_scroll+1}-{min(ai_scroll+25, len(ai_lines))}/{len(ai_lines)}]",
                 style="blue",
                 subtitle=header,
                 border_style="blue"
@@ -1079,7 +1104,7 @@ class ReviewAnalyzer:
                 raw_viewport,
                 title=f"👥 Raw Reviews (J/K to scroll) [{raw_scroll+1}-{min(raw_scroll+25, len(raw_lines))}/{len(raw_lines)}]",
                 style="green",
-                subtitle="Controls: H/L=recordings, A/F=shows, X=jump, Q=quit",
+                subtitle="Controls: H/L=recordings, S/G=shows, X=jump, Q=quit",
                 border_style="green"
             ))
 
@@ -1098,9 +1123,9 @@ class ReviewAnalyzer:
                     return "prev"
                 elif key.lower() == 'l':  # next recording
                     return "next" 
-                elif key.lower() == 'a':  # prev show
+                elif key.lower() == 's':  # prev show
                     return "prev"
-                elif key.lower() == 'f':  # next show
+                elif key.lower() == 'g':  # next show
                     return "next"
                 elif key.lower() == 'x':  # jump
                     return "jump"
@@ -1116,13 +1141,13 @@ class ReviewAnalyzer:
                     if raw_scroll != old_scroll:
                         update_display()
                         live.refresh()
-                elif key.lower() == 's':  # scroll left panel (AI review) UP
+                elif key.lower() == 'd':  # scroll left panel (AI review) UP
                     old_scroll = ai_scroll
                     ai_scroll = max(0, ai_scroll - 1)
                     if ai_scroll != old_scroll:
                         update_display()
                         live.refresh()
-                elif key.lower() == 'd':  # scroll left panel (AI review) DOWN
+                elif key.lower() == 'f':  # scroll left panel (AI review) DOWN
                     old_scroll = ai_scroll
                     ai_scroll = min(ai_scroll + 1, max(0, len(ai_lines) - 25))
                     if ai_scroll != old_scroll:
@@ -1169,14 +1194,14 @@ class ReviewAnalyzer:
         summary = ai_data.get('summary', '')
         if summary:
             lines.append(f"[bold cyan]Summary:[/bold cyan]")
-            lines.extend(self.wrap_text(summary, 50))
+            lines.extend(self.wrap_text(summary, 100))
             lines.append("")
         
         # Review
         review = ai_data.get('review', '')
         if review:
             lines.append(f"[bold blue]Full Review:[/bold blue]")
-            lines.extend(self.wrap_text(review, 50))
+            lines.extend(self.wrap_text(review, 100))
             lines.append("")
         
         # Sentiment
@@ -1286,7 +1311,7 @@ class ReviewAnalyzer:
             
             lines.append(header)
             lines.append("─" * 50)
-            lines.extend(self.wrap_text(body, 50))
+            lines.extend(self.wrap_text(body, 100))
             lines.append("")
             lines.append("")
         
