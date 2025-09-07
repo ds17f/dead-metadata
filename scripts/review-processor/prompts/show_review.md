@@ -17,6 +17,7 @@ Based on AI analyses of individual recordings from the same show, create a unifi
 
 You will receive:
 - **Show Information**: Date, venue, basic show metadata
+- **Setlist Data**: Complete song listing with exact names and segue information  
 - **Recording Analyses**: Array of ai_review objects from different recordings of the same show, each containing:
   - AI star rating (1.0-5.0) with confidence level
   - Band member performance comments
@@ -29,7 +30,8 @@ Respond with a JSON object matching this exact structure:
 
 ```json
 {
-  "summary": "One-line summary for quick app display (max 100 characters) - VARY your language, avoid 'high-energy', 'monster', 'fire' repeatedly",
+  "summary": "Brief factual summary WITHOUT venue/date (max 80 chars) - focus on musical content and quality",
+  "blurb": "Key details about playing, standout songs, and show quality (2-3 sentences, factual not storytelling)",
   "review": "Comprehensive 1-2 paragraph review combining all insights",
   "ratings": {
     "average_rating": 4.2,
@@ -45,12 +47,18 @@ Respond with a JSON object matching this exact structure:
     "Notable performances or historical significance", 
     "Recording quality notes if relevant"
   ],
+  "song_highlights": [
+    "Exact song names from setlist that are highlights (match setlist exactly)",
+    "Use full song names as they appear in the setlist data",
+    "LLM should match abbreviations like 'Scarlet Fire' to 'Scarlet Begonias > Fire on the Mountain'"
+  ],
   "band_performance": {
     "Jerry": "Summary of Jerry Garcia's performance across recordings",
     "Phil": "Summary of Phil Lesh's performance across recordings",
     "Bob": "Summary of Bob Weir's performance across recordings", 
-    "Keys": "Summary of keyboard performance across recordings",
-    "Drums": "Summary of drum performance across recordings"
+    "Brent": "Summary of Brent Mydland's keyboard performance (or Keith, Vince, etc. - use actual musician name)",
+    "Mickey": "Summary of Mickey Hart's percussion performance",
+    "Billy": "Summary of Billy Kreutzmann's percussion performance"
   }
 }
 ```
@@ -131,11 +139,38 @@ Choose the recommended recording based on:
 
 ### Band Performance Synthesis
 
+**IMPORTANT - Use Specific Musician Names**: 
+- NOT "Keys" → use "Brent", "Keith", "Vince", "Tom" (specific keyboardist name)
+- NOT "Drums" → use "Mickey", "Billy" (individual drummer names)
+- Standard: "Jerry", "Phil", "Bob" are always correct
+
+**Era-Specific Musicians (1982 shows would typically have):**
+- Jerry Garcia (guitar), Phil Lesh (bass), Bob Weir (rhythm guitar)
+- Brent Mydland (keyboards) - primary keyboardist 1979-1990
+- Mickey Hart (drums), Billy Kreutzmann (drums)
+
 Combine band member comments from all recordings:
 - **Consistent Mentions**: If multiple recordings note the same performance aspect, emphasize it
 - **Standout Performances**: Highlight exceptional individual contributions
 - **Empty Fields**: Use empty strings for band members not mentioned across any recordings
 - **Performance Context**: Connect individual performances to overall show quality
+
+### Summary vs Blurb vs Review Structure
+
+**Summary (max 80 chars):**
+- NO venue name or date - user already knows this
+- Focus on musical content: "Stellar Scarlet>Fire and tight jamming throughout"
+- NOT: "Cornell '77 delivers legendary show with perfect Scarlet>Fire"
+
+**Blurb (2-3 sentences, factual):**
+- Key details about the playing and song highlights
+- Mention standout songs and overall quality level
+- Factual assessment, not flowery storytelling
+- Example: "Features exceptional Scarlet>Fire sequence and inspired second set jamming. Jerry's guitar work shines throughout with Phil providing solid foundation. Recommended for the definitive versions of several songs."
+
+**Review (1-2 paragraphs):**
+- Full narrative combining all insights
+- Can be more descriptive and storytelling in nature
 
 ### Key Highlights Selection
 
@@ -144,6 +179,25 @@ Choose 2-4 highlights that capture:
 - **Musical Moments**: Improvisation, segues, energy peaks
 - **Historical Notes**: Rare songs, debuts, significant context
 - **Recording Notes**: If audio quality is exceptional or problematic
+
+### Song Highlights - Setlist Matching
+
+**CRITICAL**: You must match song names EXACTLY to the setlist data provided in the input.
+
+**Important**: Multi-song sequences like "Scarlet Fire" appear as SEPARATE songs in the setlist:
+- "Scarlet Begonias" (with segue_into_next: true)  
+- "Fire on the Mountain" (with segue_into_next: false)
+
+**When highlighting sequences, include ALL component songs:**
+- "Scarlet Fire" → ["Scarlet Begonias", "Fire on the Mountain"]
+- "Help Slip Frank" → ["Help on the Way", "Slipknot!", "Franklin's Tower"]
+- "Estimated Prophet" → ["Estimated Prophet"] (single song)
+
+**Process:**
+1. Identify standout songs/sequences from your analysis
+2. Find the exact matching individual song names in the provided setlist
+3. Include ALL songs that make up highlighted sequences
+4. Use exact names as they appear in the setlist data
 
 ### Writing Variation Guidelines
 
@@ -170,7 +224,8 @@ Average Rating: 4.7
 **Expected Output:**
 ```json
 {
-  "summary": "Legendary Cornell '77 show with transcendent Scarlet>Fire and mesmerizing Dancin'",
+  "summary": "Transcendent Scarlet>Fire and mesmerizing Dancin' with peak ensemble playing",
+  "blurb": "Features what many consider the definitive Scarlet Begonias > Fire on the Mountain with Jerry's crystalline guitar work and Phil's cascading bass lines. The second set's Dancin' in the Streets showcases complete improvisational freedom. Peak Spring '77 performance with exceptional soundboard recordings available.",
   "review": "What unfolds at Barton Hall represents the pinnacle of Spring '77, a performance that still gives listeners chills decades later. The band finds their groove immediately, building toward what many consider the definitive Scarlet Begonias > Fire on the Mountain - Jerry's guitar work soars with crystalline precision while Phil's bass lines cascade beneath in perfect counterpoint. The entire ensemble seems to tap into something deeper than music, creating moments of pure improvisation that feel both spontaneous and inevitable. The second set's Dancin' in the Streets ventures into territory that showcases the Dead's unique ability to blend structure with complete freedom, each musician contributing essential colors to an ever-shifting musical palette.",
   "ratings": {
     "average_rating": 4.7,
@@ -187,12 +242,17 @@ Average Rating: 4.7
     "Pinnacle Spring '77 performance with the entire ensemble in perfect sync",
     "Exceptional soundboard recordings capture every nuance of this historic show"
   ],
+  "song_highlights": [
+    "Scarlet Begonias",
+    "Fire on the Mountain",
+    "Dancin' in the Street"
+  ],
   "band_performance": {
     "Jerry": "Pristine guitar tone throughout, exceptional lead work on Scarlet>Fire sequence",
     "Phil": "Thunderous bass work anchoring the improvisation, particularly strong in Dancin'",
     "Bob": "Solid rhythm guitar work, perfectly locked in with the band",
-    "Keys": "Keith's piano work adds beautiful texture to the extended jams",
-    "Drums": "Kreutzmann provides steady foundation for the band's peak performance"
+    "Keith": "Keith's piano work adds beautiful texture to the extended jams",
+    "Billy": "Billy provides steady foundation for the band's peak performance"
   }
 }
 ```

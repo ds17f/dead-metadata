@@ -16,24 +16,24 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Review provides no insight into the recording or performance; it only complains about download availability.",
-    "review": "The lone review is focused solely on the inability to download the show and does not comment on sound quality, setlist, or musical performance. Consequently there is insufficient information to assess either the recording fidelity or the concert itself.",
-    "sentiment": "negative",
+    "summary": "No performance details provided; review focuses on download availability",
+    "review": "The sole review does not discuss the music or recording quality, only expressing difficulty locating a download. Consequently there is insufficient information to evaluate the show's sound or performance.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.0,
+      "stars": 1.5,
       "confidence": "low",
-      "rationale": "Only one brief review with no content about music or audio quality; rating reflects lack of data rather than an evaluation of the show."
+      "rationale": "Only one review lacking any commentary on audio or performance; unable to assess quality"
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "No comments on sound clarity, mix, or source type."
+      "technical_notes": "No comments on sound clarity, mix, or source type"
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
       "setlist_flow": "",
-      "energy_level": ""
+      "energy_level": "low"
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +42,7 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-06T17:39:53.995018+00:00",
+    "processed_date": "2025-09-07T06:55:39.558292+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-04-19.dts.tobin.89354.sbeok.flac16"
   }

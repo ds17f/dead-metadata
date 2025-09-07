@@ -16,33 +16,35 @@
   "high_ratings": 2,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard capture with a solid first set but noticeably thin bass, delivering an overall decent but uneven show.",
-    "review": "The recording is generally clear and pleasant, though several listeners note the bass is almost absent, making the mix feel thin. The first set receives consistent praise for its energy and Jerry’s guitar work, while the second set is seen as a step up from earlier versions but still not on par with surrounding shows. Overall it’s a respectable performance of the era, hampered mainly by low‑end balance issues.",
+    "summary": "Soundboard capture of a solid 1982 show with a strong first set, but thin bass and an uneven second half keep it from being exceptional.",
+    "review": "The recording is generally clear and benefits from the sound‑board source, though reviewers note a noticeable lack of low end that dulls the mix. Musically the first set shines – even earning “Jerry‑ness” praise – while the second set improves over earlier versions but still feels like a step down from surrounding shows.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 3.5,
       "confidence": "medium",
-      "rationale": "Show quality is average to good (solid first set, mixed second set) while recording quality is decent but suffers from a weak bass mix; the weighted calculation yields ~3.6 stars."
+      "rationale": "Reviews are split between positive remarks about the first‑set performance and overall recording clarity, and negative comments about thin bass and a second set that doesn’t match the band’s peak nights."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear overall sound and pleasant balance, but bass levels are very low, making the mix feel thin for some listeners."
+      "technical_notes": "Clear overall sound with decent balance, but the bass is noticeably recessed in the mix; second set sounds slightly better than the first according to listeners."
     },
     "show_quality": {
-      "standout_songs": [],
+      "standout_songs": [
+        "Jack Straw"
+      ],
       "poor_songs": [],
-      "setlist_flow": "First set praised as strong; second set considered an improvement over previous versions but still not as exciting as adjacent shows.",
+      "setlist_flow": "First set receives strong praise and is considered a highlight; second set shows improvement over earlier versions but feels less exciting compared to adjacent concerts.",
       "energy_level": "medium"
     },
     "band_member_comments": {
-      "Jerry": "First‑set guitar work highlighted positively in several reviews.",
-      "Phil": "Bass noted as too low in the mix, reducing overall impact.",
+      "Jerry": "Praised for ‘Jerry‑ness’ on the first set, indicating strong guitar work.",
+      "Phil": "Criticized for a thin bass presence in the mix, though no performance issues were mentioned.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T00:18:59.064107+00:00",
+    "processed_date": "2025-09-07T09:49:06.189320+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-18.sbd.fishman.fix-3153.107429.flac16"
   }

@@ -16,41 +16,43 @@
   "high_ratings": 13,
   "low_ratings": 5,
   "ai_review": {
-    "summary": "A high‑energy ’82 show with smoking Shakedown Street and a historic first Touch of Grey, but hampered by mostly audience‑type recording quality and noticeable hiss/patches.",
-    "review": "The performance is praised for its relentless energy, standout jams on Shakedown Street, Stella Blue, Saint of Circumstance and the debut of Touch of Grey, with Jerry’s guitar work described as smooth and sometimes “going nuts.”  Recording-wise the tape is largely an audience capture with several AUD patches and a hiss‑filled mid‑set; occasional soundboard bits improve bass presence but overall clarity suffers.",
+    "summary": "Patchy matrix recording with decent clarity captures an energetic 1982 show featuring a scorching Shakedown Street, Sailor > Saint, and the debut of Touch‑of‑Grey.",
+    "review": "The performance is generally praised for its high energy – first‑set highlights like Shakedown Street, Playing in the Band and the fiery Sailor > Saint segue into a memorable Saint of Circumstance, plus the historic first live rendition of Touch‑of‑Grey.  The recording is a soundboard source patched with audience material (notably around Crazy Fingers), giving it a fair but listenable quality despite hiss and occasional mud.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
-      "confidence": "medium",
-      "rationale": "Most reviewers rate the musical performance highly (4–5 stars) while rating the audio lower (2–3 stars). The weighted blend yields a solid overall score despite mixed technical feedback."
+      "stars": 3.7,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars for musical performance, while recording quality averages around 3 stars due to audience patches and hiss; weighted combination yields ~3.7."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "matrix",
       "quality_rating": "fair",
-      "technical_notes": "Predominantly audience tape with noticeable hiss and occasional AUD patches (e.g., Playin' → Crazy Fingers). A few soundboard sections improve bass balance, but overall the mix is muddy and lacks crispness."
+      "technical_notes": "Audience patches appear in the Playin' → Crazy Fingers segment and a noticeable cassette‑tape hiss later; overall mix is acceptable with decent bass presence, but some sections sound muddy or muffled."
     },
     "show_quality": {
       "standout_songs": [
         "Shakedown Street",
-        "Stella Blue",
-        "Saint of Circumstance (Lost > Saint)",
+        "Sailor > Saint (Lost Sailor → Saint of Circumstance)",
+        "Saint of Circumstance",
         "Touch of Grey (first live performance)",
+        "Stella Blue",
         "Playing in the Band",
-        "Crazy Fingers",
-        "Let It Grow"
+        "Crazy Fingers"
       ],
-      "poor_songs": [],
-      "setlist_flow": "First set is described as a powerhouse that felt like a second‑set, with nonstop playing and tight transitions; the second set contains high‑octane jams (NFA, Stella Blue) though some listeners felt it lost momentum toward the end.",
+      "poor_songs": [
+        "Second set overall (as noted by a few reviewers for lacking energy)"
+      ],
+      "setlist_flow": "Jam‑heavy first set that feels like a second set, followed by a second set with strong transitions (Playin' jams, NFA jam) though opinions on its consistency vary.",
       "energy_level": "high"
     },
     "band_member_comments": {
-      "Jerry": "Multiple reviewers note Jerry’s smooth guitar tone and moments where he “goes nuts,” especially on Saint of Circumstance; his nonstop playing is highlighted as a show‑stealer.",
-      "Phil": "A few comments mention the ability to hear Phil’s bass better in soundboard patches, but no specific praise or criticism beyond that.",
-      "Bob": "Bob Weir is noted for swearing during Saint of Circumstance and delivering strong vocal/riff work throughout the set.",
-      "Keys": "Brief nod to “Bobby” (Brent Mydland) on keyboards during the Lost > Saint segment, but otherwise no detailed keyboard commentary.",
+      "Jerry": "Smooth playing noted throughout; 'going nuts' during Saint of Circumstance and described as a cat wailing for tuna in the second set.",
+      "Phil": "Bass heard clearer on the patched SBD sections; no explicit praise or criticism beyond that.",
+      "Bob": "Swore during Saint of Circumstance and contributed prominent riffs throughout the show.",
+      "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T00:04:10.342514+00:00",
+    "processed_date": "2025-09-07T09:33:43.062442+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-09-15.sbd-patched.clugston.11881.sbeok.shnf"
   }

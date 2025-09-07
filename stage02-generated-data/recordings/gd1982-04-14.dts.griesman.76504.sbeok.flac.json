@@ -16,24 +16,24 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "No performance details provided; review only asks about FLAC playback, leaving recording and show quality unclear",
-    "review": "The sole review is a technical question about how to play the FLAC files rather than an assessment of the concert or audio quality. Consequently there are no comments on the band's performance, setlist, or sound quality.",
+    "summary": "Review provides no musical commentary; it only asks how to play the FLAC files.",
+    "review": "The sole review does not discuss the performance or recording quality of this Grateful Dead show. Instead, the reviewer is concerned with technical playback of the DTS‑encoded FLAC files and offers no opinion on the music itself.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.3,
+      "stars": 1.0,
       "confidence": "low",
-      "rationale": "Only one non‑evaluative review; insufficient information to gauge musical or recording quality"
+      "rationale": "Only one brief review focused on file playback, with a 0‑star rating; no information about show or audio quality to justify a higher score."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "No comments on sound clarity, mix, or source type in the reviews"
+      "technical_notes": "No comments on sound clarity or mix; reviewer only asked how to play the FLAC files."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
       "setlist_flow": "",
-      "energy_level": "medium"
+      "energy_level": ""
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +42,7 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-06T17:18:08.523414+00:00",
+    "processed_date": "2025-09-07T06:31:49.216422+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-04-14.dts.griesman.76504.sbeok.flac"
   }

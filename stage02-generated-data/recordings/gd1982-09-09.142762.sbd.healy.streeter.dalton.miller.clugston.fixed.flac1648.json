@@ -16,39 +16,40 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording plagued by pitch‑speed issues yet captures a solid ’82 New Orleans show highlighted by an “awful good” Wheel performance.",
-    "review": "The SBD source is technically compromised – it runs several percent fast, needs extensive pitch correction and has a brief dropout in Space. Musically the concert is uneven: a shaky first set with a muffed Mississippi Half‑Step and an abrupt Althea exit, but the second set builds momentum with a hot Estimated Prophet jam, a monster Wheel, and a classic Good Lovin' ending.",
+    "summary": "Fair‑quality soundboard recording with noticeable pitch and balance problems, but a solid second set highlighted by a monster Wheel and strong Estimated Prophet.",
+    "review": "The patched SBD capture suffers from fast pitch playback, a brief dropout in Space and overall mix imbalance, making the audio only fair. Musically the show picks up after an uneven first set – Jerry muffs Mississippi Half‑Step and Althea is cut short – but the second set delivers a hot Estimated Prophet jam, a legendary Wheel performance and a tight Good Lovin' that justify the show's three‑star rating.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.1,
+      "stars": 3.2,
       "confidence": "medium",
-      "rationale": "One detailed review gives an overall 3‑star rating; the show has notable high points but is marred by performance slips and significant recording pitch problems."
+      "rationale": "Review rates the show 3 stars overall; recording issues pull the technical score down while the second set’s strong performances raise the musical score, yielding an average‑plus rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Pitch runs ~2–3 % fast across most tracks, requiring multiple percentage adjustments; balance needs fixing; brief dropout at start of Space; overall clarity is decent but speed/pitch issues dominate."
+      "technical_notes": "Pitch runs 2‑4% fast across most tracks, requiring correction; brief dropout at start of Space; overall balance needs adjustment; mix is acceptable but not pristine."
     },
     "show_quality": {
       "standout_songs": [
-        "The Wheel",
         "Estimated Prophet",
+        "The Wheel",
         "Good Lovin'"
       ],
       "poor_songs": [
-        "Mississippi Half-Step"
+        "Mississippi Half-Step",
+        "Althea"
       ],
-      "setlist_flow": "First set feels tentative and ends abruptly when Bob quits Althea; second set recovers with strong tempos, extended jams, and a soaring Wheel before a double encore featuring Day Job.",
+      "setlist_flow": "First set is uneven and ends abruptly with Althea cut short; second set recovers with strong tempos, a long jam into Eyes, and an especially memorable Wheel leading into the encore.",
       "energy_level": "medium"
     },
     "band_member_comments": {
-      "Jerry": "Muffed Mississippi Half‑Step, added extra parts on Franklin's Tower, dropped a solo in West L.A., took rhythm lead after Bob left the stage.",
+      "Jerry": "Muffs Mississippi Half-Step, adds extra parts on Franklin's Tower, flubs Feel Like a Stranger, drops solo in West L.A., relies on repeated phrasing during fast Samson, and takes rhythm duties after Althea.",
       "Phil": "",
-      "Bob": "Abruptly exited during Althea due to equipment problems, returning briefly later.",
-      "Keys": "Brent Mydland steps forward on keyboards, leading the band through the second set and encore.",
+      "Bob": "Frustrated by equipment problems, leaves the stage early during Althea, causing an abrupt set end.",
+      "Keys": "Brent Mydland steps forward after Althea; no specific keyboard highlights noted beyond his presence.",
       "Drums": ""
     },
-    "processed_date": "2025-09-06T23:43:04.063625+00:00",
+    "processed_date": "2025-09-07T09:11:41.288210+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-09.142762.sbd.healy.streeter.dalton.miller.clugston.fixed.flac1648"
   }

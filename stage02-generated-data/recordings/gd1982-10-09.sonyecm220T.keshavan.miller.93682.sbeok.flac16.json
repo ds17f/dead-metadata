@@ -16,33 +16,36 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent front‑of‑house recording of an average 1982 show with full bass and a well‑balanced mix.",
-    "review": "Both reviewers rave about the close‑up, rich‑sounding audience (FOB) capture, highlighting the full, distortion‑free bass and overall instrument balance. The performance itself is described as merely average for a 1982 Dead run, though Jerry Garcia’s vocals and guitar work are noted as better than usual. The combination makes for an enjoyable listen despite the unremarkable set.",
-    "sentiment": "positive",
+    "summary": "Excellent front‑of‑house soundboard capture of an average 1982 show, with rich, well‑balanced mix and Jerry’s above‑average vocals shining toward the end.",
+    "review": "Both reviewers rave about the recording – a close‑up FOB feed with full bass, no distortion and superb instrument balance that any audiophile would love. The performance itself is described as merely average for the era, though Jerry Garcia’s vocals are noted as better than usual, especially on the later numbers like the Estimated > segment and U.S. Blues.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.0,
-      "confidence": "high",
-      "rationale": "Recording quality is rated excellent by both reviewers, while the show is judged average; weighting these yields an overall rating around four stars."
+      "confidence": "medium",
+      "rationale": "Recording quality is rated excellent (5 stars) while show quality is average (around 3‑4 stars). Weighted 70% show + 30% recording yields a combined rating near 4.0."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Close‑up, rich FOB capture with full bass, no boom or distortion, and well‑balanced instrument mix – described as an audiophile’s dream."
+      "technical_notes": "Front‑of‑house (FOB) feed described as rich, full bass without boom or distortion, and well‑balanced instrument mix – an audiophile’s dream."
     },
     "show_quality": {
-      "standout_songs": [],
+      "standout_songs": [
+        "Estimated > onward",
+        "U.S. Blues"
+      ],
       "poor_songs": [],
-      "setlist_flow": "No specific comments on set structure; reviewers simply label the show as average for the era.",
+      "setlist_flow": "Generally average flow; reviewer edits out OMSN to fade in U.S. Blues for a stronger ending.",
       "energy_level": "medium"
     },
     "band_member_comments": {
-      "Jerry": "Better than average vocals and decent guitar tone noted for this night.",
+      "Jerry": "Vocals and tone noted as better than average, half‑way decent for this period.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-06T20:47:56.520629+00:00",
+    "processed_date": "2025-09-07T10:18:39.232305+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-10-09.sonyecm220T.keshavan.miller.93682.sbeok.flac16"
   }
