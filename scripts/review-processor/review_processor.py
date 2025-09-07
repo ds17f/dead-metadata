@@ -67,6 +67,27 @@ def setup_logging(verbose: bool = False, log_file: Optional[str] = None) -> None
         file_handler.setFormatter(file_formatter)
         logging.root.addHandler(file_handler)
     
+    # Define console filter class that both modes can use
+    class CleanConsoleFilter(logging.Filter):
+        def filter(self, record):
+            # Skip noisy debug messages
+            if record.levelname == 'DEBUG':
+                return False
+            # Skip API call details (these go to file)
+            message = record.getMessage()
+            if any(skip_phrase in message for skip_phrase in [
+                'LLM API call',
+                'Rate limiting',
+                'API call failed',
+                'HTTPConnectionPool',
+                'Read timed out',
+                'Response received in',
+                'Attempt', 
+                'retrying in'
+            ]):
+                return False
+            return True
+
     # Console handler - much more restrictive, clean output only
     if verbose:
         # In verbose mode, show more but still clean
@@ -77,26 +98,6 @@ def setup_logging(verbose: bool = False, log_file: Optional[str] = None) -> None
             markup=True
         )
         console_handler.setLevel(logging.INFO)
-        # Filter out debug noise
-        class CleanConsoleFilter(logging.Filter):
-            def filter(self, record):
-                # Skip noisy debug messages
-                if record.levelname == 'DEBUG':
-                    return False
-                # Skip API call details (these go to file)
-                message = record.getMessage()
-                if any(skip_phrase in message for skip_phrase in [
-                    'LLM API call',
-                    'Rate limiting',
-                    'API call failed',
-                    'HTTPConnectionPool',
-                    'Read timed out',
-                    'Response received in',
-                    'Attempt', 
-                    'retrying in'
-                ]):
-                    return False
-                return True
         console_handler.addFilter(CleanConsoleFilter())
     else:
         # Normal mode: show INFO and above with same filtering

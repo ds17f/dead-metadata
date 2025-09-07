@@ -29,7 +29,7 @@ Respond with a JSON object matching this exact structure:
 
 ```json
 {
-  "summary": "One-line summary for quick app display (max 100 characters)",
+  "summary": "One-line summary for quick app display (max 100 characters) - VARY your language, avoid 'high-energy', 'monster', 'fire' repeatedly",
   "review": "Comprehensive 1-2 paragraph review combining all insights",
   "ratings": {
     "average_rating": 4.2,
@@ -98,18 +98,36 @@ Choose the recommended recording based on:
 ### Authentic Deadhead Voice
 
 **Language Style:**
-- Use Dead community terminology naturally ("smokin'", "fire", "monster")
+- Use Dead community terminology naturally but **vary your language**
 - Reference musical relationships and improvisational flow
 - Be honest about both excellence and shortcomings
 - Include historical context when relevant
 - Avoid overly technical language
+- **IMPORTANT**: Avoid repetitive words like "high-energy", "monster", "fire", "scorching" - vary your descriptions
 
-**Example Phrases:**
-- "The second set opens with a smokin' Help>Slip>Franklin's"
-- "Jerry's guitar work is particularly inspired throughout"
-- "Phil's bass lines anchor some serious improvisation"
-- "The band seems locked in from the opening notes"
-- "This version of Dark Star explores some beautiful territory"
+**Diverse Energy Descriptions:**
+- **High Energy**: "electric", "blazing", "explosive", "smoking", "cooking", "on fire", "locked in", "tight", "inspired"
+- **Moderate Energy**: "solid", "steady", "flowing", "grooving", "cruising", "smooth", "cohesive", "balanced"
+- **Mellow Energy**: "spacey", "dreamy", "contemplative", "gentle", "introspective", "laid-back", "exploratory"
+- **Song Quality**: "stellar", "standout", "exceptional", "gorgeous", "brilliant", "transcendent", "magical", "inspired"
+
+**Varied Opening Phrases:**
+- "This [venue] show delivers..."
+- "[Date] finds the Dead..."
+- "The band hits their stride at [venue]..."
+- "[Venue] hosts a memorable performance..."
+- "What unfolds at [venue] is..."
+- "The Dead bring their A-game to [venue]..."
+
+**Diverse Example Phrases:**
+- "The second set opens with a stellar Help>Slip>Franklin's"
+- "Jerry's guitar work shines throughout the evening"
+- "Phil's bass lines drive the extended improvisations"
+- "The band finds their groove from the first notes"
+- "This version of Dark Star ventures into beautiful territory"
+- "Brent's keyboards add perfect texture to the jams"
+- "The rhythm section keeps everything perfectly tight"
+- "Bob's vocals carry emotional weight on the ballads"
 
 ### Band Performance Synthesis
 
@@ -127,6 +145,19 @@ Choose 2-4 highlights that capture:
 - **Historical Notes**: Rare songs, debuts, significant context
 - **Recording Notes**: If audio quality is exceptional or problematic
 
+### Writing Variation Guidelines
+
+**Focus on Specific Details Over Generic Energy:**
+- Instead of "high-energy show", describe what made it energetic: "tight interplay", "inspired solos", "seamless transitions"
+- Instead of "monster jam", be specific: "12-minute exploration", "cascading guitar lines", "thunderous bass work"
+- Instead of "scorching Fire", describe the performance: "Jerry's piercing leads", "explosive climax", "soaring guitar work"
+
+**Vary Your Review Structure:**
+- Don't always start with date/venue - try different openings
+- Vary sentence length and structure  
+- Mix technical details with emotional responses
+- Balance song-specific details with overall flow descriptions
+
 ## Example Analysis
 
 **Input:**
@@ -139,8 +170,8 @@ Average Rating: 4.7
 **Expected Output:**
 ```json
 {
-  "summary": "Legendary Cornell '77 show with perfect Scarlet>Fire and definitive Dancin'",
-  "review": "This is the show that many consider the pinnacle of the Spring '77 tour, and for good reason. The band is absolutely locked in from the opening notes, delivering what many consider the definitive version of Scarlet Begonias > Fire on the Mountain. Jerry's guitar tone is pristine, Phil's bass work is thunderous, and the entire band seems to be channeling something special. The second set's Dancin' in the Streets is equally legendary, showcasing the kind of improvisational magic that makes this era so beloved. Multiple excellent soundboard recordings capture every nuance of this historic performance.",
+  "summary": "Legendary Cornell '77 show with transcendent Scarlet>Fire and mesmerizing Dancin'",
+  "review": "What unfolds at Barton Hall represents the pinnacle of Spring '77, a performance that still gives listeners chills decades later. The band finds their groove immediately, building toward what many consider the definitive Scarlet Begonias > Fire on the Mountain - Jerry's guitar work soars with crystalline precision while Phil's bass lines cascade beneath in perfect counterpoint. The entire ensemble seems to tap into something deeper than music, creating moments of pure improvisation that feel both spontaneous and inevitable. The second set's Dancin' in the Streets ventures into territory that showcases the Dead's unique ability to blend structure with complete freedom, each musician contributing essential colors to an ever-shifting musical palette.",
   "ratings": {
     "average_rating": 4.7,
     "ai_rating": 5.0,
@@ -151,10 +182,10 @@ Average Rating: 4.7
     "reason": "Miller soundboard provides exceptional clarity and perfect stereo separation"
   },
   "key_highlights": [
-    "Definitive Scarlet Begonias > Fire on the Mountain sequence",
-    "Legendary Dancin' in the Streets with extended improvisation", 
-    "Peak Spring '77 performance with the band completely locked in",
-    "Multiple excellent soundboard recordings available"
+    "Transcendent Scarlet Begonias > Fire on the Mountain with crystalline guitar work",
+    "Mesmerizing Dancin' in the Streets showcasing complete improvisational freedom", 
+    "Pinnacle Spring '77 performance with the entire ensemble in perfect sync",
+    "Exceptional soundboard recordings capture every nuance of this historic show"
   ],
   "band_performance": {
     "Jerry": "Pristine guitar tone throughout, exceptional lead work on Scarlet>Fire sequence",
