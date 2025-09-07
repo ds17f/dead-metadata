@@ -16,35 +16,33 @@
   "high_ratings": 2,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard recording with a nice overall mix but thin bass; the first set shines while the show feels solid yet not spectacular.",
-    "review": "The SBD capture is generally clear and pleasant, though several listeners note a lack of low‑end that makes the bass feel buried. The concert delivers a strong first set (with a highlighted Jack Straw) and an improved second set compared to earlier releases, but many feel the night was a step down from surrounding shows, giving it a mixed energy level.",
+    "summary": "Soundboard capture with a solid first set but noticeably thin bass, delivering an overall decent but uneven show.",
+    "review": "The recording is generally clear and pleasant, though several listeners note the bass is almost absent, making the mix feel thin. The first set receives consistent praise for its energy and Jerry’s guitar work, while the second set is seen as a step up from earlier versions but still not on par with surrounding shows. Overall it’s a respectable performance of the era, hampered mainly by low‑end balance issues.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.3,
+      "stars": 3.6,
       "confidence": "medium",
-      "rationale": "Average show ratings (2‑4 stars) combined with generally positive comments on the recording quality but a recurring complaint about weak bass lead to a mid‑range overall score."
+      "rationale": "Show quality is average to good (solid first set, mixed second set) while recording quality is decent but suffers from a weak bass mix; the weighted calculation yields ~3.6 stars."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear and pleasant overall, but bass is noticeably thin in the mix, making low frequencies feel recessed."
+      "technical_notes": "Clear overall sound and pleasant balance, but bass levels are very low, making the mix feel thin for some listeners."
     },
     "show_quality": {
-      "standout_songs": [
-        "Jack Straw"
-      ],
+      "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "First set praised as strong; second set regarded as an upgrade over a previous version, yet the overall night is seen as less energetic than adjacent concerts.",
+      "setlist_flow": "First set praised as strong; second set considered an improvement over previous versions but still not as exciting as adjacent shows.",
       "energy_level": "medium"
     },
     "band_member_comments": {
-      "Jerry": "Jerry's playing is highlighted in the title ('Smokin' Set I') and generally praised.",
-      "Phil": "",
+      "Jerry": "First‑set guitar work highlighted positively in several reviews.",
+      "Phil": "Bass noted as too low in the mix, reducing overall impact.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-06T20:19:40.392450+00:00",
+    "processed_date": "2025-09-07T00:18:59.064107+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-18.sbd.fishman.fix-3153.107429.flac16"
   }
