@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.125,
   "high_ratings": 7,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Muddy audience first set vs. crisp soundboard second set, but the show shines with rare Old Old House, wild China Cat and a smoking King Bee.",
+    "review": "The recording is split – an almost unlistenable audience tape of the first set followed by a clean, complete sound‑board capture of the second. Musically the night is a gem: early acoustic numbers, a historic debut of “Mama Tried,” a wild “China Cat” jam, a rare “Old Old House,” and a smoking “King Bee.” Despite the first‑set audio flaws, the performance’s energy and rarity make it worth listening.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Show quality is high with many standout, historic performances; recording quality is uneven (muddy audience tape vs. crisp soundboard), pulling the overall rating to solid‑plus."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "First set is an audience tape – muddy and difficult to follow. Second set is a clear, crisp soundboard recording but only covers the latter half of the concert."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Old Old House (rare)",
+        "King Bee (smoking)",
+        "China Cat (wild jam)",
+        "Mama Tried (first known Dead version)",
+        "Dire Wolf (Bob vocal highlight)",
+        "Cosmic Charlie (opens second set)",
+        "High Time (played twice)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Starts with an acoustic half‑set and early country/folk numbers, then shifts into full‑band psychedelia; the second set picks up in energy and sound quality.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Pedal steel work highlighted on “China Cat” and “Love Light”; his guitar tone described as wild and ripping.",
+      "Phil": "",
+      "Bob": "Lead vocal on “Dire Wolf” noted as a standout moment.",
+      "Keys": "Prominent pedal‑steel/keyboard textures praised throughout, especially in the acoustic portions.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:34:41.135915+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-06-21.early-late.aud-sbd.cotsman.16334.sbeok.shnf"
+  }
 }

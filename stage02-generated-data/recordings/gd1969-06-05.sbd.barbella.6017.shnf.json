@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A wildly cryptic show hailed as one of the band’s best, but hampered by a patchy recording.",
+    "review": "Reviewers rave about the performance, calling it “wicked cryptical” and possibly the second or third best ever, suggesting high energy and memorable moments. However, the audio is described as very patchy, indicating inconsistent sound quality with no clear source type identified.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "low",
+      "rationale": "One strong positive review (4 stars) praises the show’s musical impact, while another (3 stars) criticizes the recording’s patchiness; limited data leads to a moderate overall rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Review mentions the audio is \"very patchy,\" indicating inconsistent clarity and possible drop‑outs; no specifics about soundboard or audience source."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:07:18.651351+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-06-05.sbd.barbella.6017.shnf"
+  }
 }

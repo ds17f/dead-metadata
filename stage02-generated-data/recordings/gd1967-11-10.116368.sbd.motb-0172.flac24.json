@@ -14,5 +14,40 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A solid soundboard capture of a ’67‑era set with crisp audio and classic song choices.",
+    "review": "The recording delivers good, clear sound typical of the era’s SBD tapes, though the track listing is mislabeled. Listeners appreciate the classic material—Viola Lee, Hurts Me Too, Morning Dew—and consider it a nice representation of the band’s ’67 repertoire.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "low",
+      "rationale": "Only one review (4‑star) notes good sound and enjoyable song selection; no major flaws but limited data keeps confidence low."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear, well‑balanced audio for the period; main issue is mislabelled track listing rather than sound problems."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee",
+        "Hurts Me Too",
+        "Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Classic ’67 material presented in a straightforward set; song order mislabeled but overall flow is solid.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T07:26:22.560907+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1967-11-10.116368.sbd.motb-0172.flac24"
+  }
 }

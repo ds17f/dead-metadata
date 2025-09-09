@@ -14,5 +14,36 @@
   "confidence": 0.6,
   "raw_rating": 3.6666666666666665,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Fun night with a solid performance but plagued by faded vocals and crowd‑heavy audience recording",
+    "review": "The concert is remembered fondly by listeners who enjoyed the vibe, calling it a \"fun nite\" and even dubbing it \"Jerry heaven.\" However, the audio suffers – reviewers note that the voices are faded and Jerry’s guitar is almost lost in the crowd noise, indicating a low‑quality audience tape.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Show quality is praised by two reviewers (high energy, good performance) while recording quality is criticized as poor; weighted average yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Voices are faded and the mix is dominated by crowd noise, making Jerry hard to hear."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised as \"Jerry heaven\" by one reviewer, but another says his guitar is barely audible due to poor recording.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:17:58.092702+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-09-15.degen.weiner.7924.sbeok.shnf"
+  }
 }

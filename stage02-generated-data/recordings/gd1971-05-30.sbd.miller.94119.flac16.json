@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.285714285714286,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent hi‑fi soundboard capture of a high‑energy May 30 1971 Winterland set with standout Pigpen‑driven Turn On Your Lovelight and tight performances of Cumberland Blues, Big Boss Man and more.",
+    "review": "The recording is praised as a pristine, front‑of‑house soundboard mix that delivers crystal‑clear detail even though only part of the first set survives as audience tape. The show shines with Pigpen’s incendiary Turn On Your Lovelight, tight unit playing on Cumberland Blues and Big Boss Man, and inventive solos from Jerry Garcia; a few reviewers note an uneven Good Lovin' and a later‑set Lovelight that feels dated.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is ~4.3/5, most comments are enthusiastic about both performance and soundboard quality; only a single mediocre review does not outweigh the strong consensus."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Hi‑Fi stereo SBD with crisp, balanced mix praised as ‘pristine’ and ‘amazing upfront’; some notes about needing minor pitch correction for certain tracks but overall very clean."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Turn On Your Lovelight",
+        "Cumberland Blues",
+        "Big Boss Man",
+        "Next Time You See Me",
+        "Morning Dew",
+        "Deal",
+        "Uncle John's Band"
+      ],
+      "poor_songs": [
+        "Good Lovin' (iffy version)",
+        "Turn On Your Lovelight (second‑set rendition described as cringeworthy by one reviewer)"
+      ],
+      "setlist_flow": "Partial first set survives only as audience tape; the second set captured on soundboard flows tightly with strong transitions and a cohesive, high‑energy quartet feel.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia receives praise for inventive solos (e.g., behind Bobby on Me & My Uncle) and tight, “good” playing throughout; his tone is highlighted as perfect in the Lovelight.",
+      "Phil": "Lesh’s bass is described as a ‘behemoth driving a tank’ on Cumberland Blues, providing powerful drive to the band’s tight unit.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:38:59.785292+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-05-30.sbd.miller.94119.flac16"
+  }
 }

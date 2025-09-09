@@ -14,5 +14,41 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard release captures an energetic Europe ’72 set with a soaring Greatest Story Ever Told and standout new classics.",
+    "review": "The recording, sourced from the soundboard, is praised for its clarity and brings to life a brilliant, high‑energy performance that opened with a powerful rendition of \"Greatest Story Ever Told\" and introduced fresh staples such as \"Tennessee Jed,\" \"Brown Eyed Women,\" and a pedal‑steel‑enhanced \"Looks Like Rain.\" Reviewers note Bob Weir’s expanded second‑guitar work and overall band tightness, making this long‑awaited release a must‑hear.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "Single detailed 5‑star review highlights an exceptional show and implies excellent soundboard quality, leading to a high rating despite limited data."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No specific audio issues mentioned; reviewers emphasize the release’s clarity and overall brilliance."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Greatest Story Ever Told",
+        "Tennessee Jed",
+        "Brown Eyed Women",
+        "Looks Like Rain"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set opened with a high‑impact Greatest Story Ever Told and flowed smoothly into new repertoire pieces, maintaining strong momentum throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "His second guitar parts go beyond mere rhythm, adding depth to the performance.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T23:00:11.270734+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-04-11.sbd.thecore.4640.shnf"
+  }
 }

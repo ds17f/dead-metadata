@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 12,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Hand‑held audience tape captures an electrifying 1969 show with monster Dark Star and a half‑hour Turn On Your Lovelight, surprisingly clear despite crowd chatter.",
+    "review": "The performance is lauded for its raw energy – standout moments include a soaring Dark Star, a marathon Turn On Your Lovelight, and a thunderous The Other One – with seamless segues that keep the momentum high. Although the recording is an audience (AUD) capture using a hand‑held mic, reviewers note it is remarkably listenable, only marred by occasional chatter and limited low‑end fidelity.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "The majority of reviews are 4–5 stars, praising the show’s energy and song quality; recording imperfections are noted but considered minor given the source."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Hand‑held mic captures crowd ambience and occasional chatter (notably a talking female during Dark Star). Sound is clear for an AUD tape, with some low‑end muddiness but overall listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Turn On Your Lovelight",
+        "The Other One",
+        "China Cat Sunflower",
+        "Sitting on Top of the World",
+        "Cryptical Reprise"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth, high‑energy segues (especially China Cat into the rest of the set) keep the momentum; transitions are praised as priceless treasures.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals and guitar described as great; his axe sounds front‑and‑center with perfect tone.",
+      "Phil": "Called a \"monster\" and praised for powerful bass playing.",
+      "Bob": "One reviewer dismissively says \"Bob's who cares,\" otherwise not highlighted.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T11:49:21.069368+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-04-15.aud.miller.31435.sbeok.flacf"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Stellar 1971 show captured on an excellent soundboard recording, delivering high‑energy performance throughout.",
+    "review": "The lone five‑star review praises the concert as a \"stellar night\" and lauds the recording as equally stellar, indicating both top‑notch musical performance and superb sound quality. No specific songs or issues are mentioned, but the overall tone suggests a high‑energy, well‑balanced show that’s worth listening to.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "A single 5‑star review highlights both performance and recording excellence, pointing to an exceptional show with excellent soundboard quality."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer describes the recording as stellar with no noted flaws, implying clear, well‑balanced audio."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No detailed setlist commentary, but the description of a \"stellar night\" suggests strong flow and pacing.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T16:14:58.829412+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-02-19.151881.soundboard.ramrod.miller.flac1644"
+  }
 }

@@ -14,5 +14,39 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good soundboard capture of a mellow Seattle show featuring a brief Dark Star and a rare flute cameo on China Cat Sunflower.",
+    "review": "The recording is a sound‑board source with clear, decent audio quality, though the performance itself is described as mellow and unusually short – the six‑minute Dark Star being a particular oddity. A guest flautist (often credited as Charles Lloyd but likely Gary Larkey) adds an interesting texture to China Cat Sunflower, making that moment the main highlight of an otherwise low‑energy set.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.3,
+      "confidence": "medium",
+      "rationale": "Show quality is rated around average (mellow, not a 'keeper') while recording quality is noted as good; the weighted combination yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers note the sound quality is good and clear; no major issues such as dropouts or muddiness are mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "China Cat Sunflower"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A relaxed, mellow set with a notably brief Dark Star and a rare flute‑enhanced China Cat Sunflower; overall pacing is low‑energy.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:20:52.810283+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-08-21.sbd-part.tremblay.1170.sbeok.shnf"
+  }
 }

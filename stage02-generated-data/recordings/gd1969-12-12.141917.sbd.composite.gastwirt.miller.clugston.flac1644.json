@@ -14,5 +14,47 @@
   "confidence": 0.4,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Decent matrix‑style composite recording with minor pitch and edit quirks, but the show shines thanks to a monster Alligator → Caution stretch and strong organ work.",
+    "review": "The source is a mixed‑source composite that has been re‑pitched and balanced, giving generally clear audio though it runs slightly fast and contains a few reel‑flip edits. Musically the night is uneven – early songs stumble, but the second set delivers a high‑energy Alligator into an epic 24‑minute Caution, plus standout organ on Dire Wolf and a memorable Lovelight. Overall listeners love the psychedelic peaks while noting some loose moments in the first half.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Show quality is rated high (≈4) due to praised Alligator/Caution and organ highlights, while recording quality is solid but with noted speed/pitch issues (≈3). Weighted average yields ~3.8."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Composite of best sources, re‑pitched and balanced; runs about -1% fast requiring pitch correction, contains a few reel‑flip edits and occasional dropouts but overall clear."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Alligator",
+        "Caution",
+        "Dire Wolf (organ)",
+        "Lovelight",
+        "Cumberland Blues"
+      ],
+      "poor_songs": [
+        "Hard to Handle",
+        "High Time",
+        "Easy Wind",
+        "Next Time You See Me"
+      ],
+      "setlist_flow": "Early set is uneven with tempo slips, but the second set builds into a powerful, lengthy Alligator → Caution jam and finishes strong with Bid.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Starts Dark Star but it never fully launches; otherwise no specific remarks.",
+      "Bob": "",
+      "Keys": "Organ on Dire Wolf and Uncle John's Band is highlighted as a strong feature of the night.",
+      "Drums": "Hard to Handle described as 'drummer's soup' with loose playing, while later drumming improves after the Alligator segment."
+    },
+    "processed_date": "2025-09-08T15:48:56.830846+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-12-12.141917.sbd.composite.gastwirt.miller.clugston.flac1644"
+  }
 }

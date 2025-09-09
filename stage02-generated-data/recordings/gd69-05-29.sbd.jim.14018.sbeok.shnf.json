@@ -14,5 +14,36 @@
   "confidence": 1.0,
   "raw_rating": 3.6,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Energetic 1969 show that many fans love, but the recording is plagued by cassette‑generation loss and questionable source authenticity.",
+    "review": "The performances are described as fun, high‑energy and \"rockin' hot,\" with several reviewers calling it a great live Dead show. However, most listeners complain about the audio – citing multiple cassette generations, poor fidelity and even doubts about the tape’s provenance – making the recording far from pristine.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.8,
+      "confidence": "high",
+      "rationale": "Most reviewers (6 of 8) gave low or zero stars, focusing on poor sound quality and source issues, while a few praised the performance. Weighted averaging of show vs. recording points to an overall rating just below average."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "Listeners report at least two cassette generations in the mix, muffled/low‑fidelity sound, and uncertainty about the actual concert date; some claim the tape is a duplicate or spurious."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific setlist commentary; reviewers speak generally of a fun, high‑energy performance despite technical woes.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned as being disgusted with the PA/sound system and frustrated by poor monitoring.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T12:58:37.578597+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-05-29.sbd.jim.14018.sbeok.shnf"
+  }
 }

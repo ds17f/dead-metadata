@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Even though the audience tape is uneven, this early‑68 set explodes with high‑energy jams and a fire‑brand Jerry Garcia.",
+    "review": "The performance captures the raw, primal Dead of spring ’68 – wild, hairy improvisations, a blistering Alligator after drums and that classic Mountain Jam riff. The Good Bear audience recording fluctuates, suffers clipping and muffled vocals, but fans deem it listenable enough to showcase the show’s explosive energy.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "The show is praised for its high‑energy jams and standout Jerry playing (strong show rating), while the recording is consistently described as low‑fidelity but still usable (moderate recording rating). Weighted average yields ~4.1."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Audience tape with noticeable clipping/distortion, fluctuating levels, barely audible Pigpen vocals; overall low fidelity but the essence of the performance comes through."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Alligator",
+        "Mountain Jam"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early‑68 set list runs wild with nonstop jamming, a fiery Alligator after drums and a feedback‑laden finish; the flow is loose but exhilarating.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as \"pure electricity\" and \"fire\" on the Alligator after drums.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Mentioned in context of the post‑drum Alligator jam."
+    },
+    "processed_date": "2025-09-08T08:28:04.680480+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-05-18.aud.goodbear.50.shnf"
+  }
 }

@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a historic Golden Gate Park gig featuring Jerry's moving Good Lovin vocal and a rare Dark Star outro that hints at Weather Report Suite.",
+    "review": "The recording delivers crystal‑clear sound—many reviewers call it the best they’ve ever heard—making every nuance audible, from Jerry’s heartfelt singing on \"Good Lovin\" to Bob’s sneaky guitar intro of the Weather Report Suite in the final seconds of Dark Star. While some felt the band wasn’t at its peak that night, the historical significance and the unique moments give the show a lasting appeal.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Reviews are largely enthusiastic (average 4.25 stars) with strong praise for recording clarity and notable musical moments; weighting favors show quality but both aspects rate highly."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Listeners repeatedly note the pristine, clear sound—able to hear subtle bleed of other songs—indicating a high‑fidelity board mix with no reported dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin",
+        "Dark Star (ending into Weather Report Suite)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A historically significant, impromptu set that may have felt uneven at the time but reveals hidden gems on repeat listening.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his vocal performance on \"Good Lovin\" and emotional delivery.",
+      "Phil": "",
+      "Bob": "Noted for quietly slipping in the guitar intro of Weather Report Suite during Dark Star's closing moments.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T12:39:25.086423+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-05-07.sbd.des.5179.sbeok.shnf"
+  }
 }

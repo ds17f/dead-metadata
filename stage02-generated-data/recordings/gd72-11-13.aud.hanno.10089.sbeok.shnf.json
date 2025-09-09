@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 3.588235294117647,
   "high_ratings": 10,
-  "low_ratings": 5
+  "low_ratings": 5,
+  "ai_review": {
+    "summary": "Rough audience tape but the show shines with an iconic Dark Star > Dew and high‑energy playing.",
+    "review": "The performance is celebrated for its monster Dark Star > Dew stretch, with Phil’s thunderous bass and Jerry’s wailing guitar driving a powerful mid‑show jam. Recording quality varies – Bear’s audience (AUD) segment sounds surprisingly clear while the rest of the set is muddy and occasionally choppy, making it a challenging listen that rewards patience.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the music highly (4‑5 stars) praising Dark Star > Dew and overall energy, while recording quality receives mixed comments; weighting yields a solid 4‑star overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Bear’s AUD portion is clear and well‑balanced; the remainder of the tape is muddy, with occasional dropouts and uneven mic placement that make early songs harder to follow."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set revolves around a long Dark Star/Dew sequence that serves as the high‑point; other parts are solid but less remarkable, creating a flow that builds to an intense jam climax.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Jerry is described as wailing and delivering strong guitar work throughout the show.",
+      "Phil": "Phil’s bass 'thunders' and provides powerful moments, especially during the Dark Star/Dew stretch.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:54:24.665033+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-11-13.aud.hanno.10089.sbeok.shnf"
+  }
 }

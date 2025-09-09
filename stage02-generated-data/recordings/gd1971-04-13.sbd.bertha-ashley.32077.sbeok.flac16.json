@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.571428571428571,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 1971 show with smoking Good Lovin', Second That Emotion, Sugar Magnolia and Hard to Handle, despite minor clipping.",
+    "review": "The remastered soundboard delivers surprising depth and clarity, letting listeners feel the band’s massive presence even though a few song starts/ends are clipped and there is a hint of high‑end peaking. Musically the show bursts with energy – first‑set classics dance‑ready, a wacky groove on Hard to Handle, a raging Sugar Magnolia, hypnotic Truckin', and a monster Good Lovin' jam that rolls into Second That Emotion before a sweet Uncle John’s Band closer. Overall the performance is praised as “outrageous” and “supernova‑level,” with only minor recording quirks noted.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Multiple 5‑star reviews highlight exceptional musical moments and a high‑quality soundboard, with only occasional technical glitches; the weighted average of show (70%) and recording (30%) yields a rating in the top tier."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Remastered depth and clarity, overall crisp mix; minor issues include clipped beginnings/endings of five songs and slight high‑end peaking noted by one listener."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "Second That Emotion",
+        "Sugar Magnolia",
+        "Truckin'",
+        "Hard to Handle",
+        "Uncle John's Band",
+        "Casey Jones (opening)",
+        "Cumberland Blues (Phil leads)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Energetic first set with peppy, dance‑ready versions; second set builds into extended jams (Good Lovin' → Darkness jam → Second That Emotion) and finishes with a sweet Uncle John’s Band, despite a curfew truncation.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar described as glistening, shredding, off the charts throughout; his tone praised heavily.",
+      "Phil": "Bass “sits in your lap”; even takes lead vocal duties at the start of Cumberland Blues.",
+      "Bob": "Strong vocal presence; front‑stage banter with a British spot‑light guy; sings on Casey Jones and other numbers.",
+      "Keys": "Pigpen’s organ is missed by one reviewer but his vocals are highlighted as “on fire” during Good Lovin' and other jams.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:29:29.290084+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-13.sbd.bertha-ashley.32077.sbeok.flac16"
+  }
 }

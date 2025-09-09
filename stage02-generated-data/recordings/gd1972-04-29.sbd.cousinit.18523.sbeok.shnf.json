@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Audience‑sourced tape captures a high‑energy 1972 show with a stellar Dark Star, but the sound quality is uneven.",
+    "review": "The concert delivers classic ’72 magic highlighted by an incendiary Dark Star that many fans compare to legendary 1973 performances. While the musical flow and energy are praised, listeners report that the audience recording suffers from poor fidelity, making parts of the tape difficult to enjoy.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "low",
+      "rationale": "One reviewer rates the show 5 stars for performance while another gives 2 stars due to poor sound; the mixed feedback and only two reviews lead to a modest overall rating with low confidence."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "One reviewer calls the sound \"very poor,\" while another is satisfied enough to enjoy the performance; overall fidelity is uneven, typical of audience tapes from this era."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical 1972 set with solid pacing and a highlight Dark Star that lifts the entire performance.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his powerful, distorted guitar work on Dark Star (“great Gar”, “thundering ending”).",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T23:36:09.462976+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-04-29.sbd.cousinit.18523.sbeok.shnf"
+  }
 }

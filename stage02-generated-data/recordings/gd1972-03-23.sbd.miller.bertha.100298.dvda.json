@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Highly rated recording despite scant details, reviewers gave it a perfect score",
+    "review": "The lone review offers no specifics about the performance or audio fidelity, but awards the tape five stars, indicating an overall positive impression. With no commentary on source type or setlist, both the show and recording quality remain largely undefined.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "low",
+      "rationale": "Only one brief five‑star review; while the rating is high, there is insufficient detail to assess sound quality or musical nuances."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": ""
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:28:55.962358+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-03-23.sbd.miller.bertha.100298.dvda"
+  }
 }

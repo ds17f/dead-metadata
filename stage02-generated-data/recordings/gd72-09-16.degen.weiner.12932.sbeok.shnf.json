@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.4,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Decent soundboard capture of a high‑energy early‑70s set with smoking Bird Song, Dark Star > Brokedown Palace and some of Jerry’s best vocals.",
+    "review": "The show is praised for its big‑number peaks – Bird Song, Morning Dew, Playin', and an expansive Dark Star that rolls into Brokedown Palace – plus a notably strong vocal performance from Garcia. The recording is a partial soundboard mix that is listenable but suffers from a thin low end and occasional audience chatter.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Strong musical performance (high energy, standout jams) weighted heavily; recording is decent but bass‑thin, lowering the overall score slightly."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Partial soundboard with noticeably low bass and some audience clapping/talk; overall clear enough to enjoy but lacks full depth."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bird Song",
+        "Morning Dew",
+        "Playin'",
+        "Dark Star > Brokedown Palace",
+        "Don't Ease Me In (up‑tempo solo)",
+        "Stella Blue"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical early‑70s Dead set with big‑number jams and a guest keyboard appearance that adds texture; the energy builds through the first half and peaks in the second set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s vocals are highlighted as some of his best from this period, with strong singing on Dew, Dark Star and Brokedown Palace.",
+      "Phil": "Bass is thin in the recording, but reviewers note Phil drives the jams (Playin', Dark Star) despite the lack of low‑end presence.",
+      "Bob": "",
+      "Keys": "Guest Ned Lagin adds Wurlitzer electric piano and wah‑wah on Dark Star > Brokedown Palace; Keith Godchaux is implied on acoustic piano.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:21:11.432111+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-09-16.degen.weiner.12932.sbeok.shnf"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 2.4285714285714284,
   "high_ratings": 1,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "Muddy audience tape of a Fall ’69 Fillmore East show with an explosive Dark Star despite poor fidelity.",
+    "review": "The performance is noted as solid – especially the “Holy Trinity” stretch of Dark Star, St. Stephen and The Eleven, where Jerry’s guitar is described as lightning‑fast and on fire. However, the recording itself is an old AUD VBR/OGG source that many reviewers found sub‑par, muffled and hard to listen to in a conventional sense.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Show quality is praised (especially Dark Star) but recording quality is widely criticized; the weighted average of show (≈3.5) and recording (≈2) yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Low‑fidelity AUD tape, VBR/OGG stream described as muddy, muffled and not conventionally listenable; minimal audience noise but overall poor clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "St. Stephen",
+        "The Eleven"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Highlights the classic ‘Holy Trinity’ sequence (Dark Star → St. Stephen → The Eleven) that fans find compelling despite the recording.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Lightning‑fast guitar, “on fire” during Dark Star; performance praised by reviewers.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:44:56.429289+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-09-26.aud.hanno.14856.sbeok.shnf"
+  }
 }

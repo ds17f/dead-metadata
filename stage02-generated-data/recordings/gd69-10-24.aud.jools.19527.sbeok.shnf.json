@@ -14,5 +14,40 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Historically significant show with debut China Cat Sunflower > I Know You Rider and standout High Time, but an audience‑style tape lacking top‑end clarity.",
+    "review": "The performance is praised for its historic first pairing of China Cat Sunflower into I Know You Rider and strong renditions of High Time and Easy Wind, with Jerry Garcia’s guitar cutting through the mix. Recording quality is described as thin on the high frequencies, sounding like old AM radio, yet still listenable enough that fans consider it worth keeping.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Show quality is rated very high (historic setlist and strong playing) while recording quality is fair to poor; the weighted average yields a solid 4‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Lacks top end, muffled/high‑frequency loss reminiscent of 1950s AM radio; Jerry's guitar still cuts through, overall listenable but not crisp."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower > I Know You Rider",
+        "High Time",
+        "Easy Wind"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Historic first appearance of China Cat Sunflower into I Know You Rider provides a memorable flow; the set maintains strong momentum with solid song choices.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar cuts through everything despite the thin recording.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:55:01.730364+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-10-24.aud.jools.19527.sbeok.shnf"
+  }
 }

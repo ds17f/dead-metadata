@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Decent audience recording that improves after the first song, highlighted by a memorable Heart & Soul story segment but marred by obvious gaps between tracks.",
+    "review": "The tape is an audience source that sounds decent on typical speakers and gets noticeably better after the opening number. Reviewers love the rapid‑fire Yellow Dog story woven into the Heart & Soul vamp, though they point out clear stop‑and‑start transitions between Truckin', He's Gone and Sugar Magnolia, which detracts from the flow.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.1,
+      "confidence": "medium",
+      "rationale": "One detailed review gives a moderate 3‑star rating; the show has a standout storytelling moment but suffers from recording glitches and lack of seamless song transitions."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Initial song is faint, then improves; however, there are audible stops with no transitions between Truckin' → He's Gone and He's Gone → Sugar Magnolia. No mention of SBD leftovers."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Heart And Soul (vamp/story)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Clear gaps and stops between several songs, breaking the natural flow of the set.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "Bobby Weir delivers a rapid‑fire Yellow Dog story during the Heart & Soul vamp.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T01:03:25.538126+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-07-22.aud.jems.106930.flac16"
+  }
 }

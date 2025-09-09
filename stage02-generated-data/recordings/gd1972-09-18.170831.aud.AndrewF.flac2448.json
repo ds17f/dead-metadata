@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Submission flagged for incorrect date; reviewers request removal with no commentary on music or recording quality.",
+    "review": "Both reviewers indicate the archive entry has the wrong concert date and ask that it be deleted, offering no insight into the performance or audio fidelity of the recording.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.2,
+      "confidence": "low",
+      "rationale": "Only administrative complaints were made; no information on show or sound quality, so rating is low with minimal confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No comments on audio clarity, mix, or source type provided in the reviews."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:02:20.282664+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-18.170831.aud.AndrewF.flac2448"
+  }
 }

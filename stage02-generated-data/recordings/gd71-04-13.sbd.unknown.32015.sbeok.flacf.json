@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.521739130434782,
   "high_ratings": 21,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a scorching Spring‑71 show with smoking Good Lovin', Sugar Magnolia and Bertha highlights.",
+    "review": "The Scranton Catholic Youth Center concert captures the Dead at a peak of spring‑71 fire – hot, tight playing and a second set that builds to an unforgettable Good Lovin' jam. Reviewers rave about the crystal‑clear soundboard mix, Jerry’s pedal‑steel and wah‑filled guitar work, and Pigpen’s soulful vocals, while only minor vocal flubs are noted.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "The vast majority of 23 reviews rate the show 4–5 stars (average ≈ 4.5). Comments consistently praise both performance and recording, with only a few lower‑rated outliers."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Multiple reviewers describe the mix as clear, rich, crisp and well‑balanced; no serious drop‑outs or distortion are mentioned beyond occasional vocal flubs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "Sugar Magnolia",
+        "Bertha",
+        "Loser",
+        "Hard to Handle",
+        "Playin' in the Band",
+        "Darkness Darkness jam"
+      ],
+      "poor_songs": [
+        "Playin' in the Band (minor vocal/tempo flubs)"
+      ],
+      "setlist_flow": "The first set is praised for its tight pacing and strong song choices; the second set, though shorter, delivers a high‑energy climax with Good Lovin' and an exciting Darkness/Darkness jam.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Highlighted for his scorching tone, wah‑filled Sugar Magnolia solo and pedal‑steel work throughout the set.",
+      "Phil": "Noted for tight interplay with bassist Bobby (Bob) and strong overall groove.",
+      "Bob": "Praised for solid rhythm guitar and vocal contributions; praised in the Bertha/Bobby‑Phil interaction.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:30:53.940015+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-04-13.sbd.unknown.32015.sbeok.flacf"
+  }
 }

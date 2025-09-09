@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.533333333333333,
   "high_ratings": 14,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Muddy audience tape of a scorching 1968 set featuring an all‑time classic Alligator > Caution > Feedback sequence, captured in lo‑fi but electrifying performance.",
+    "review": "The show is hailed as a hidden gem with a smoking Alligator/Caution/Feedback medley and a mind‑bending drum segment that showcases Jerry’s electric guitar work. Although the audience recording is grungy, oversaturated and occasionally clips, fans consider it one of the best spring‑summer ’68 performances despite the technical flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Reviews overwhelmingly praise the musical performance (average ~4.8/5) while consistently noting sub‑par but acceptable lo‑fi audience sound (~3.0/5). Weighted combination yields a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Grungy, muddy tape with over‑saturation from on‑stage mics; some hiss, occasional clipping and distortion, but better than many other 1968 AUDs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Alligator",
+        "Caution (Willie Dixon)",
+        "Feedback",
+        "Drums",
+        "Jam/Alligator reprise"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Tight, fluid transitions between songs; short high‑energy set that builds to a powerful Alligator > Caution > Feedback climax.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as \"pure electricity\" on the Alligator after Drums, delivering one of his most electrifying guitar moments.",
+      "Phil": "",
+      "Bob": "Pigpen’s screaming organ and profane rant (\"Fuck the proletariat!\") are highlighted, though his vocals are barely audible in the mix.",
+      "Keys": "Pigpen’s organ keys are noted for their intensity during Drums; overall keyboard contribution is praised for its wildness.",
+      "Drums": "The drum segment is called \"mind‑bending\" and a major draw of the performance."
+    },
+    "processed_date": "2025-09-08T08:26:20.760918+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-05-18.aud.jools.18216.sbeok.shnf"
+  }
 }

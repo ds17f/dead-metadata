@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 3.5,
   "high_ratings": 4,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Soundboard recording with a rough early set that gives way to a crystal‑clear second set, highlighted by a smoking China Cat Sunflower → I Know You Rider and a monster Casey Jones.",
+    "review": "The tape switches to SBD at \"Playing in the Band\" and the first nine songs are described as terrible, but the second set is praised as “freakin' crystal” and “like a clear bronze bell.” Listeners love the energy of the late‑set jams – especially China Cat Sunflower/I Know You Rider and Casey Jones – while a few critics deem the source inferior to later composites.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "medium",
+      "rationale": "Most reviewers (4‑5 stars) praise the show’s energy and second‑set sound, but a couple of 1‑star reviews criticize the source quality and early set, leading to an overall moderate‑high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "First set rough/terrible; sound switches to SBD at \"Playing in the Band\" and stays decent through NFA. Second set described as crystal‑clear, like a bronze bell. Some claim the tape is inferior to later composite SBD+AUD releases."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower > I Know You Rider",
+        "Casey Jones"
+      ],
+      "poor_songs": [
+        "First nine songs of the first set (unspecified)"
+      ],
+      "setlist_flow": "Rough, low‑fidelity opening half gives way to a brilliantly mixed second half; overall a long, high‑energy performance despite heat and occasional technical hiccups.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:01:16.161628+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-03.sbd.greenberg.powell.18779.shnf"
+  }
 }

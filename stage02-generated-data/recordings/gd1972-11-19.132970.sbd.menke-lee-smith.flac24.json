@@ -14,5 +14,39 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1972 show with a monster Dark Star and a stellar Dolly Parton cover, captured from the soundboard though with slight pitch and noise‑reduction quirks.",
+    "review": "The performance is described as “blistering” with a 20‑minute heavy Dark Star and an unforgettable rendition of \"Tomorrow Is Forever,\" indicating a very high level of band enthusiasm. The recording comes from a two‑generation SBD source using different Dolby decoding equipment, resulting in a good but not pristine sound (minor pitch drift and a hint of noise reduction). Overall the show shines despite these modest technical imperfections.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Strong, high‑energy musical performance (≈4.5) offset by a soundboard source with extra generation and slight pitch issues (≈3.5); weighted average yields ~4.2."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Two‑generation SBD transfer, different Dolby B decoder than the Miller version; slight speed/pitch discrepancy and a faint “noise‑reduced” character noted by reviewer."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star (20+ minute jam)",
+        "Tomorrow Is Forever"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Long, improvisational jams with a strong second‑half focus; the band is clearly having fun and maintains high momentum throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his enthusiastic presence, superb tone, and leading the extended Dark Star jam.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T04:19:00.712082+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-11-19.132970.sbd.menke-lee-smith.flac24"
+  }
 }

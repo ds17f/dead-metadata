@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.8,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear classic ’71 soundboard captures an upbeat, high‑energy show with stellar Garcia tone and three Skull & Roses classics.",
+    "review": "The recording is a pristine soundboard capture that showcases the band at the height of their early‑70s form – tight, lively, and brimming with good‑time music. Reviewers rave about the clean mix, Jerry’s superb guitar tone, and standout performances of “Big Railroad Blues,” “Not Fade Away” and the third Skull & Roses cut. The set flows effortlessly, delivering a fun, well‑rehearsed concert experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All five reviews are overwhelmingly positive (average 4.8 stars), praising both the musical performance and the high‑quality soundboard recording, yielding a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers describe the mix as crisp, clean and upbeat; no dropouts or major issues are noted. Some suggest using EQ for optimal playback, but overall the sound is praised as superb."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Big Railroad Blues",
+        "Not Fade Away",
+        "Good Times Bad Times"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "An energetic, well‑rehearsed set that moves smoothly through the classic ’71 repertoire, delivering a fun and cohesive concert experience.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's guitar tone is highlighted as never better than April 1971 – crystal clear and full of energy.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:03:41.938569+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-05.sbd.orf.117.sbeok.shnf"
+  }
 }

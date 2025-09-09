@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 3.7142857142857144,
   "high_ratings": 4,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Matrix source with mixed sound quality but a fire‑filled second set highlighted by a smoking Truckin’ > Other One > Half Step jam.",
+    "review": "The show is an archetypal early‑'72 Dead performance: the first set suffers from PA hiccups and flat guitar tone, while the second set erupts with a monster Truckin’ → Other One → Half‑Step sequence and a soaring Dew. Recording quality varies – the audience (Bear) tracks are spectacular, the soundboard portions range from clear but bass‑light to worn and over‑compressed – but the highlights more than make up for the technical flaws.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the second‑set jams and overall show energy, while several note significant recording issues; the weighted average of star ratings (≈3.7) reflects a good but imperfect performance/recording."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Audience (Bear) recordings are described as spectacular, first‑set soundboard is clear but bass‑light and slightly flat, later soundboard sections lose clarity due to generational wear. Several reviewers mention over‑compressed Dolby on the first set, echo‑y hall ambience, and occasional PA problems that affect guitar and piano presence."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "The Other One",
+        "Half Step",
+        "Dew"
+      ],
+      "poor_songs": [
+        "Bertha",
+        "Mexicali"
+      ],
+      "setlist_flow": "First set hampered by PA glitches and flat guitar tone, but the second set builds momentum with a seamless jam from Truckin' into The Other One and Half Step, culminating in a powerful Dew; overall flow improves dramatically after the midway point.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar sounded chimey and slightly flat at the beginning due to PA issues, but recovers later in the set.",
+      "Phil": "",
+      "Bob": "Bob's spoken banter during tuning (telling people off the piano riser) is noted; no specific musical critique mentioned.",
+      "Keys": "Keith's piano was intermittent early on because of PA problems, then returned to normal for the remainder of the concert.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:41:24.588909+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-10-27.sbd-aud.cousinit.19630.sbeok.shnf"
+  }
 }

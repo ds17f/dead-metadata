@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 3.8,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good‑quality 1969 tape with a standout High Time and rocking Lovelight, plus a solid second set despite a weak first half.",
+    "review": "The recording captures a decent‑sounding 1969 source—likely an audience tape—with enough clarity to hear Pigpen’s prominent Fender keyboards on “High Time” and the energetic “Lovelight.” Reviewers rave about the second set (China Cat Sunflower → I Know You Rider, Me & My Uncle tease) while noting the first set is less compelling and that a few cuts are imperfect.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Most reviewers rate 3‑5 stars, praising key songs and the second‑set energy while noting recording quirks and a weak first set; overall this yields a solid but not exceptional rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Tape from 1969 shows decent clarity for the era, though some cuts are imperfect and there are occasional track‑gap issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "High Time",
+        "Lovelight",
+        "Me and My Uncle (tease)",
+        "China Cat Sunflower > I Know You Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set considered weak by listeners; second set shines with strong transitions and memorable moments.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen's Fender keyboards are prominent and groovy on “High Time.”",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:25:36.797013+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-11-21.set2.sbd.gmb.96580.flac16"
+  }
 }

@@ -14,5 +14,45 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a rare 1969 Miami show that sounds decent but has cuts and pitch wobble, highlighted by an early jam and solid China Cat/Eleven amid uneven performance.",
+    "review": "The recording is a sound‑board source that generally holds up, though listeners note a 36‑second cut and a brief pitch slowdown. Musically the concert starts strong with an inspired first jam and a good run through China Cat into The Eleven, but later songs lose tempo and the drums feel disconnected, giving the show an overall average to below‑average vibe.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.8,
+      "confidence": "medium",
+      "rationale": "Two enthusiastic 5‑star reviews are offset by a detailed 3‑star critique that calls the show average and points out recording glitches; weighted averaging of show (≈2.5) and recording (≈3) yields a low‑mid rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Generally clear but includes a 36 sec cut, a pitch slowdown of about –2% on a solo, and occasional missing seconds; overall listenable despite these issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat",
+        "The Eleven"
+      ],
+      "poor_songs": [
+        "Doin' That Rag",
+        "Just a Hand to Hold",
+        "Alligator",
+        "Drums",
+        "Stephen"
+      ],
+      "setlist_flow": "Strong early jam and solid middle section, then the performance drifts with sloppy tempos and weak drum interplay.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Brief unique jam around 13:45 noted; also his spoken intro at the end of \"And We Bid You Goodnight\" is mentioned.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Described as 'shoes in the dryer' with little cohesion or interplay."
+    },
+    "processed_date": "2025-09-08T12:56:26.342965+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-05-24.sbd.unknown.10737.sbeok.shnf"
+  }
 }

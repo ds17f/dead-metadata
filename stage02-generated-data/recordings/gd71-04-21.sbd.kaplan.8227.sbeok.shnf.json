@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.571428571428571,
   "high_ratings": 13,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy ’71 show with smoking Wharf Rat, Hard to Handle and The Other One performances.",
+    "review": "The recording is a clean soundboard source that, despite occasional hiss complaints, sounds tight and clear.  Musically the concert shines – Jerry’s sparkling leads on Wharf Rat, the blistering guitar break in Hard to Handle and a tightly‑woven Other One make this a standout early‑’71 performance.  The band is loose enough to stay exciting but disciplined enough to keep every song tight.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Average rating ~4.6 from 14 reviews, overwhelmingly positive comments about both performance and sound quality."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Mostly praised as crisp and tight; a few reviewers note minor hiss typical of the era but it does not detract from overall clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Wharf Rat",
+        "Hard to Handle",
+        "The Other One",
+        "Casey Jones",
+        "Good Lovin'",
+        "Cumberland"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Solid set structure with tight transitions (e.g., Truckin → Drums → Other One) and a balanced mix of blues, folk‑rock and jam sections; second set maintains momentum without any glaring weak spots.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for sparkling leads on Wharf Rat, blistering guitar break on Hard to Handle, strong vocals and overall elevated performance.",
+      "Phil": "Noted driving bass lines especially on Cumberland and during jam sections; praised for ‘flying through’ the set.",
+      "Bob": "Mentioned lyrical contributions and intense vocal phrasing; his rhythm work is highlighted as solid throughout.",
+      "Keys": "Pigpen’s organ/harmonica work and vocals are called out as being at his best, adding a powerful backbone to the show.",
+      "Drums": "Bill Kreutzmann described as ‘on fire’ with wild‑man antics, providing energetic drum breaks that lift the jams."
+    },
+    "processed_date": "2025-09-07T17:52:52.921897+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-04-21.sbd.kaplan.8227.sbeok.shnf"
+  }
 }

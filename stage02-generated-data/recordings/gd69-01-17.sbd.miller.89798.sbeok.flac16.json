@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A soundboard capture of the January 17 1969 show delivers a high‑energy performance with a smoking Dark Star, stellar Eleven and tight drumming, though the tempo feels a touch slow.",
+    "review": "The recording is a clean soundboard mix that lets Jerry’s god‑like guitar tone and Mickey’s punchy bass drum shine, despite occasional cuts and an overly prominent kick. Musically the show shines – Dark Star, The Eleven, St. Stephen and Death Don't Have No Mercy are highlighted, while the first Cosmic Charlie and a sluggish Love Light sit lower in the set. Overall it’s a transcendent early‑’69 performance that most fans rate as essential listening.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "The majority of reviews are 5‑star praising the musical execution and the clean soundboard recording; only minor technical quirks (bass drum level, a cut in St. Stephen) keep it from perfect."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clean mix with clear guitar and vocal detail; bass drum is prominent but not distracting for most listeners. A brief cut in the middle of St. Stephen is noted, and pitch‑correction has been applied to restore original tempo/pitch."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Eleven",
+        "St. Stephen",
+        "Death Don't Have No Mercy"
+      ],
+      "poor_songs": [
+        "Cosmic Charlie (first version)",
+        "Turn on Your Love Light (slow tempo)"
+      ],
+      "setlist_flow": "The early‑’69 set flows tightly, with Dark Star anchoring the performance and seamless transitions into The Eleven and other classics; the energy builds despite a few slower moments.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly called ‘god‑like’; his guitar tone, phrasing and improvisational flow are praised as phenomenal.",
+      "Phil": "His bass riffs are highlighted on Cosmic Charlie and the prominent bass drum mix lets Phil’s lines shine; reviewers note his “fingerprints” on the music.",
+      "Bob": "",
+      "Keys": "Tom Constanten (TC) is present but his keyboards are described as over‑thought and not prominent in the mix; some miss Pigpen’s soulful style.",
+      "Drums": "Mickey Hart’s bass drum is louder than usual but generally praised; snare drums sound crisp and the overall drum work is tight."
+    },
+    "processed_date": "2025-09-08T09:50:26.389051+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-01-17.sbd.miller.89798.sbeok.flac16"
+  }
 }

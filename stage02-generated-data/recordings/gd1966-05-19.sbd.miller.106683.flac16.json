@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.375,
   "high_ratings": 7,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 1966 show with an astounding Cream Puff War, killer Come Back Baby and other classic early‑Dead gems.",
+    "review": "The Miller‑sourced soundboard is praised for its crisp left‑right separation and minimal mic technique, delivering an almost pristine listening experience. The performance radiates the raw excitement of ’66, highlighted by a soaring Cream Puff War, a pig‑pen‑powered Come Back Baby, and tight renditions of Mindbender, Viola Lee Blues and Silver Threads. A few rough spots (Jerry on “Baby Blue” and Bob on “Traditional Minglewood”) don’t detract from the overall fire.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high praise for both musical performance (energy, standout songs) and recording quality (crisp soundboard), with only minor criticisms; weighted rating reflects strong show + excellent source."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers note crystal‑clear left/right vocal‑instrument separation, minimal mic technique that captures the band’s dynamics without clutter; no reported dropouts or muddiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cream Puff War",
+        "Come Back Baby",
+        "Viola Lee Blues",
+        "Mindbender",
+        "Silver Threads"
+      ],
+      "poor_songs": [
+        "Baby Blue (Jerry)",
+        "Traditional Minglewood (Bob)"
+      ],
+      "setlist_flow": "The set flows naturally through early‑Dead material, moving from folk‑rock numbers to bluesy jams; the energy builds and sustains throughout both halves of the concert.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Classic ‘nervous’ tone praised, though his vocal on “Baby Blue” is noted as a weak spot.",
+      "Phil": "",
+      "Bob": "His performance on traditional “Minglewood” receives criticism for being lackluster.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T05:26:22.891535+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1966-05-19.sbd.miller.106683.flac16"
+  }
 }

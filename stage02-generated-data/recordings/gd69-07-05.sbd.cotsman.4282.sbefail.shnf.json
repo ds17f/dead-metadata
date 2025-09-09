@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 3.3333333333333335,
   "high_ratings": 4,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Soundboard recording with noticeable mud and hiss, but a high‑energy 1969 show highlighted by an epic Dark Star and marathon Lovelight.",
+    "review": "The performance is praised as an “effin great” night with standout moments like Dark Star, St. Stephen, China Cat Sunflower > High Time, and a 35‑minute Lovelight that keep the energy high. The soundboard source suffers from muddy mids, tape hiss and occasional wobble – especially on Baby Blue – but most listeners consider it acceptable for a 1969 capture.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars for musical excitement, while recording issues keep the overall average around the mid‑3 range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Muddy mids, prominent tape hiss, occasional wobble and distortion (notably on Baby Blue). Some reviewers note a decent stereo mix for the era but overall clarity is limited."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Lovelight (35‑min version)",
+        "China Cat Sunflower > High Time",
+        "St. Stephen",
+        "The Eleven"
+      ],
+      "poor_songs": [
+        "Baby Blue (sound issues)",
+        "Casey Jones (early prototype feel)"
+      ],
+      "setlist_flow": "Strong opening couple of songs, a few shaky spots in the middle, then a soaring second half culminating in an extended Lovelight closer.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Raw power on Dark Star; some reviewers note he flubs phrases in St. Stephen and The Eleven.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen’s vocals and organ drive the set, especially on Hard To Handle and Turn On Your Love Light.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:53:51.591089+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-07-05.sbd.cotsman.4282.sbefail.shnf"
+  }
 }

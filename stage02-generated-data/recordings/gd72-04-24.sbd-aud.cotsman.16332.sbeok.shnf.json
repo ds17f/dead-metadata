@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.5625,
   "high_ratings": 15,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Even though the AUD source is muddy and degraded, the April 24 1972 Düsseldorf show dazzles with an epic Dark Star > Me & My Uncle > Dark Star > Wharf Rat > Sugar Magnolia suite and a tight, high‑energy first set.",
+    "review": "The performance is consistently praised – the long Dark Star sequence, killer Tennessee Jed solo, and strong vocal work from Bob and Pigpen make this one of Europe ’72’s top shows.  The archive recording is an audience (AUD) capture that many describe as muffled, fast‑paced and with drop‑outs, so it isn’t ideal for audiophiles, but the music still shines through for most listeners.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Average review score is ~4.1/5 across 18 reviews; the vast majority highlight an outstanding performance while noting consistent recording flaws, leading to a strong overall rating with high confidence."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Muffled and slightly fast‑paced AUD patch; drop‑outs and limited clarity especially in first set; missing the full SBD fidelity that official releases provide."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > Me & My Uncle > Dark Star > Wharf Rat > Sugar Magnolia",
+        "Truckin'",
+        "Tennessee Jed (solo)",
+        "Loser",
+        "Black‑Throated Wind",
+        "Next Time You See Me",
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Three‑set concert with a tight, high‑energy first set, a monumental second‑set Dark Star suite, and a varied third set; the pacing keeps momentum throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's tone is repeatedly praised – \"crystalline string work\" and perfect guitar sound on the Dark Star suite.",
+      "Phil": "Bass noted as clear in better mixes; generally solid, underpinning the improvisations.",
+      "Bob": "Strong vocal performance and impressive fills on songs like Loser and Black‑Throated Wind.",
+      "Keys": "Keith's piano echo is highlighted as unique and “pwns” the show, adding a special texture to the performance.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T23:25:23.582038+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-04-24.sbd-aud.cotsman.16332.sbeok.shnf"
+  }
 }

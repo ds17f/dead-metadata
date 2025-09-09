@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.580645161290323,
   "high_ratings": 28,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "A high‑energy Oct 18 1972 Fox Theatre show with a monster Playin > Drums > Dark Star > Morning Dew sequence, captured on a soundboard that’s clear but mixes Bob up and Jerry down.",
+    "review": "The performance is widely hailed as one of ’72’s peak shows – the second‑set suite of Playing in the Band → Drums → Dark Star → Morning Dew → Playing is described as “mind‑blowing” and “warp‑speed mind‑colonic,” with Phil’s bass exploding, Jerry ripping leads, and Bob’s rhythm guitar surprisingly prominent.  The soundboard recording is generally clean (rated an “A” by some), though many note the mix imbalance – Bobby up in the front and Jerry a bit buried – which can be corrected with channel balancing.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Overwhelmingly positive comments about the musical performance (standout jams, high energy) combined with a generally good but slightly uneven soundboard mix produce an overall rating in the high‑four‑star range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear and detailed capture; occasional balance issues – Bob Weir’s rhythm guitar is louder than usual, Jerry Garcia's vocals/guitar sit low in the mix, Keith's keyboards are recessed early on.  Overall listenable with an ‘A‑grade’ feel despite these mix quirks."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing in the Band",
+        "Dark Star",
+        "Morning Dew",
+        "China Cat Sunflower > I Know You Rider",
+        "Bird Song",
+        "Loser",
+        "Jack Straw",
+        "Big River"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set delivers hot standard ’72 material; the second set launches into a seamless, exploratory suite (Playin > Drums > Dark Star > Morning Dew > Playin) that defines the show’s arc and keeps the momentum soaring.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar leads praised; vocals a bit low in the mix but still powerful during solos and the Dark Star climax.",
+      "Phil": "Bass ‘bombs’ heavily lauded – massive solo in Dark Star and driving grooves throughout, described as “colossal” and “shattering.”",
+      "Bob": "Rhythm guitar is unusually prominent (some call it too loud), but adds a strong backbone to the jams; many reviewers enjoy hearing his contribution.",
+      "Keys": "Keith’s keyboards are low in the mix early on, later rise to a solid supporting role with tasteful licks during transitions.",
+      "Drums": "Billy Cobham‑style drum solo highlighted as a perfect segue; overall drumming described as “strong,” “tight,” and essential to the jam flow."
+    },
+    "processed_date": "2025-09-08T03:19:59.445269+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-10-18.sbd.weir.7295.sbeok.shnf"
+  }
 }

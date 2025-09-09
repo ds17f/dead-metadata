@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Decent 1971 show with competent performance but no standout moments; recording quality not detailed",
+    "review": "Both reviewers describe the concert as a solid, typical '71 set that was competently delivered, though one notes there are no real highlights. No specific comments on the audio source or fidelity were provided, leaving the technical quality unclear.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "low",
+      "rationale": "Only two brief reviews; both rate the show modestly (3‑4 stars) and give no recording details, resulting in a moderate overall rating with low confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No reviewers mentioned sound clarity, mix, or source type; unable to assess technical quality beyond assuming average."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T16:42:31.470385+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-03-14.sbd.130581.MrBill.flac16"
+  }
 }

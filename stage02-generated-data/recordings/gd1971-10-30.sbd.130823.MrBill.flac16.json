@@ -14,5 +14,39 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent performance with a standout 'Comes A Time' and lively 'Truckin''; recording quality not described but presumed solid.",
+    "review": "Both reviewers rave about the show, calling it one of the best ever heard and highlighting Jerry Garcia’s witty banter, his string‑scratching intro to \"Truckin'\", and a superb pedal‑steel cameo during the NRPS set. The music is described as an excellent evening of high energy, with no complaints about audio fidelity, suggesting a listenable source despite unknown recording specifics.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Two enthusiastic reviews (5 and 4 stars) focus on strong musical performance with no noted audio problems; limited data yields a moderate confidence level."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers did not mention any sound issues, implying the recording is acceptable though its exact source (soundboard/audience) is unclear."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Comes A Time",
+        "Truckin'"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Reviewers praised the overall flow, especially the transition into \"Truckin'\" and a memorable NRPS segment with Jerry on pedal steel.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Noted for witty comments, sarcastic string‑scratching before \"Truckin'\", and excellent pedal‑steel work during the NRPS set.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:11:41.773451+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-10-30.sbd.130823.MrBill.flac16"
+  }
 }

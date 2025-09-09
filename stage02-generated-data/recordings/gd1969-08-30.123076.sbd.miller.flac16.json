@@ -14,5 +14,39 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear soundboard recording captures a landmark Dark Star and the first Tighten Up jam, showcasing a triumphant performance despite Jerry's broken string.",
+    "review": "The show is hailed as a major turning point, with a soaring Dark Star that pushes the band's improvisational boundaries and an early Tighten Up (Soulful Strut) jam that hints at new directions. Although Jerry Garcia’s guitar suffered a broken string, his recovery fuels a radiant, triumphant passage that reviewers describe as unforgettable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "The single detailed review is overwhelmingly positive about the musical performance and implies good soundboard quality; limited data yields lower confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No specific audio issues mentioned; as a soundboard source it is presumed clear and well‑balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Tighten Up (Soulful Strut)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The performance builds from a daring Dark Star into a tightly woven jam, highlighting the band's evolving interplay.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar string broke early, but his recovery was remarkable and added to the triumphant feel.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:33:00.687961+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-08-30.123076.sbd.miller.flac16"
+  }
 }

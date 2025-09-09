@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with solid audio quality, highlighted by a great Dupree's Diamond Blues and an impressive Phil bass solo.",
+    "review": "Fans rave about the performance, especially noting a stellar rendition of Dupree's Diamond Blues and a memorable 13‑beat Phil instrumental early in the set. The SBD source is described as clean with no reported flaws, though one reviewer lamented the commercial release of yet‑another ’60s era show.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Two enthusiastic 5‑star reviews praise the music (show quality high) while a single 0‑star review objects to the release itself; recording quality is assumed good from the SBD source with no complaints."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No specific audio issues mentioned; reviewers did not note any muddiness or drop‑outs, implying a clean soundboard capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dupree's Diamond Blues"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Details not provided in reviews.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Phil delivers a notable 13‑beat instrumental solo around 3:41, drawing special attention from reviewers.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T10:57:47.332133+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-03-01.sbd.nayfield.60.shnf"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy killer show captured on a soundboard recording that fans rate as excellent",
+    "review": "Both reviewers give the performance five stars, calling it a “killer” and expressing gratitude for the update, indicating a very strong musical showing. The file is a soundboard (sbd) source, and while no specific audio comments are made, the lack of complaints suggests a clean, listenable mix.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "medium",
+      "rationale": "Both reviews are enthusiastic five‑star endorsements of the show; recording quality is assumed solid as it’s a soundboard source, yielding an overall high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No specific audio issues mentioned; presumed clear and well‑balanced given the soundboard source."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T10:16:31.660008+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-02-06.137394.sbd.wise.sirmick.sbeok.flac16"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Enthusiastic fan hails the show as the best rock‑and‑roll band ever; recording quality not discussed",
+    "review": "The lone review is a glowing endorsement, calling the Dead the \"best fu@kin' rock and roll band in the whole world\" and giving a shout‑out to Bob Weir. No details about the audio source or sound quality are provided.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "Only one 5‑star review, extremely positive about performance but lacking any recording‑quality commentary; rating reflects strong show impression with uncertainty on audio fidelity"
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No reviewer comments on sound clarity, mix, or source type"
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "Enthusiastic shout‑out to Bob Weir ('At your service')",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T12:19:31.365475+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-04-23.sbd.miller.98892.sbeok.flac16"
+  }
 }

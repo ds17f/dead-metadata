@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Sweet, high‑energy show highlighted by a scorching \"The Other One\" and an excellent recording with a clear, vocal‑light mix.",
+    "review": "Both reviewers rave about this 1969 performance, especially the powerful jam on The Other One that showcases the band's relentless energy. The sound quality is praised for its crisp mix with more instrumental balance and reduced vocals, making the recording a joy to listen to.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "medium",
+      "rationale": "Both reviews give 5 stars and focus on strong performance and high‑quality sound, indicating an excellent show and recording despite the small sample size."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "excellent",
+      "technical_notes": "Mix noted as having more instrumental balance (more TC) and fewer vocals; described as sweet and enjoyable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Energetic performance with strong improvisational flow, especially in the jam sections.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T12:35:20.693685+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-05-03.139575.pcm.miller.flac16"
+  }
 }

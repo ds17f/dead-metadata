@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 3.25,
   "high_ratings": 8,
-  "low_ratings": 5
+  "low_ratings": 5,
+  "ai_review": {
+    "summary": "Soundboard capture of a fast, early‑1971 set with standout Tennessee Jed and Jack Straw, but marred by digi‑garble, dropouts and an uneven mix.",
+    "review": "The show is remembered for its snappy tempos, tight playing and memorable moments like the rapid Tennessee Jed, an early Jack Straw solo theme and lively banter about ‘Pigs off the stage.’  Technically the recording suffers from digital garbling, splice artifacts and occasional muddiness, though some listeners note that portions sound surprisingly clear after cleanup.  Overall it offers a fascinating snapshot of the Dead’s 1971 energy, but the audio flaws keep it from being a must‑hear performance.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.1,
+      "confidence": "medium",
+      "rationale": "Show quality is moderately positive (fast, tight playing) while recording quality is mixed with many complaints about digi‑garble and dropouts; the weighted average yields a low‑mid rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Several reviewers cite digital garbling, odd mix balance, splice/dropout artifacts, and occasional muddiness. A few note that cleaned‑up sections sound crystal‑clear, but overall the audio is uneven."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Tennessee Jed",
+        "Jack Straw",
+        "Me & My Uncle",
+        "Uncle (Bobbie McGee)",
+        "Pit B"
+      ],
+      "poor_songs": [
+        "Truckin' (recording dropouts)"
+      ],
+      "setlist_flow": "Early‑1971 set is fast and snappy with brief, energetic numbers; banter and crowd interaction are prominent, and the show feels more like a concise snapshot than an extended jam session.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Jerry's guitar work is noted as fast and solid, with good background vocals on Me & My Uncle; some praise his tone despite mix issues.",
+      "Phil": "Phil's bass retains fidelity even through tape degradation, earning occasional mention of its warmth.",
+      "Bob": "Bob (Bobby) is highlighted for vocal contributions on Me & My Uncle and his humorous stage banter.",
+      "Keys": "Early Keith Godchaux’s playing is appreciated, though the mix around keyboards is described as odd.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:26:18.682925+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-11-11.sbd.yubah-dodd.8326.sbeok.shnf"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 0.8,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Peak‑year performance with a soaring 'Wharf Rat' despite mixed opinions on the lo‑fi recording.",
+    "review": "Reviewers rave about this March ’72 show, calling it a peak‑era masterpiece highlighted by an epic ‘Wharf Rat’ that ranges from a whisper to a scream. The audio, however, is divisive – some describe it as wonderful while others liken it to a bathroom‑mic dump, suggesting the source is a non‑board audience capture of modest fidelity.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "The musical performance is consistently praised as outstanding (70% weight), but recording quality receives both high and low marks, pulling the overall rating toward a solid but not exceptional score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Reviews are split: one calls it \"wonderful\" while another says it sounds like a soup‑can mic in a bathroom, indicating low‑fidelity audience capture with noticeable room ambience and occasional clapping."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Wharf Rat"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Not specifically detailed, but reviewers note the band was tightly listening to each other throughout, suggesting a cohesive flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:23:48.797443+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-03-22.aud.partial.19142.sbeok.shnf"
+  }
 }

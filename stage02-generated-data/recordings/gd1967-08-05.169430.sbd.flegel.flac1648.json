@@ -14,5 +14,39 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy show featuring the first known TIFTOO and a favorite Morning Dew.",
+    "review": "Both reviewers rave about this long‑sought recording, highlighting the historic first performance of TIFTOO and the standout rendition of Morning Dew, plus great on‑stage banter. The file’s .sbd tag implies a soundboard source, and while no technical details are given, the excitement suggests an excellent listening experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "Two consistent 5‑star reviews praise both the musical performance and its historic value; inferred soundboard source points to high recording quality, yielding an almost perfect combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No explicit technical commentary, but reviewers treat the find as a superb capture and express no complaints about sound."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Morning Dew",
+        "TIFTOO"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Not described in detail; praised for engaging banter and memorable song moments.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T07:06:43.757780+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1967-08-05.169430.sbd.flegel.flac1648"
+  }
 }

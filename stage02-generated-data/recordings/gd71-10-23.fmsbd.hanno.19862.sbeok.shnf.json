@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Mixed reception: a cassette‑taped FM broadcast with noticeable distortion and speed problems despite one reviewer calling it excellent",
+    "review": "The recordings come from an FM broadcast captured on cassette, which introduces distortion and speed inconsistencies according to one reviewer. While another listener rates the audio as excellent, the overall technical quality is judged fair to poor, and no comments were made about the musical performance itself.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Two reviews (one 5‑star, one 3‑star) give an average of 4 stars; however, the noted distortion and speed issues lower the effective rating, resulting in a moderate overall score."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Cassette taping of FM broadcast introduces distortion and speed problems; one reviewer still found it excellent despite these issues."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:55:49.633667+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-10-23.fmsbd.hanno.19862.sbeok.shnf"
+  }
 }

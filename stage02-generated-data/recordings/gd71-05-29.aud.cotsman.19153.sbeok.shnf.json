@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 3.6,
   "high_ratings": 6,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Audience-sourced tape with fair sound quality captures a legendary, high‑energy acid‑dosed Winterland night featuring standout performances of Hurts Me Too, Hard to Handle and The Other One.",
+    "review": "The recording is an audience (AUD) capture that suffers from muffled highs, occasional drop‑outs and needs slight pitch correction, but it remains listenable for fans interested in the historic moment. Musically the show is remembered as a wild, high‑energy set—acid‑fuelled crowd antics aside—with memorable renditions of Hurts Me Too, Hard to Handle, The Other One, Not Fade Away and Playing in the Band. While the audio quality drags the experience down, the performance itself is celebrated for its groove and historic significance.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the show's energy and unique setlist (≈4‑star show quality) but criticize the tape's poor to fair audio fidelity (≈2½‑star recording quality). Weighted combination yields a solid 3.5‑3.7 overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Muffled mids, occasional drop‑outs, runs slightly fast and needs -1% pitch correction; overall listenable but frustrating for detailed listening."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hurts Me Too",
+        "Hard to Handle",
+        "The Other One",
+        "Not Fade Away",
+        "Playing in the Band"
+      ],
+      "poor_songs": [
+        "Promised Land (early, short version)"
+      ],
+      "setlist_flow": "Starts with a decent early rock set, builds into a high‑groove middle section, peaks with The Other One and Not Fade Away before winding down; overall flow is praised despite some uneven early songs.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Sat out the New Riders pre‑show but played with the Dead later; no specific guitar tone remarks.",
+      "Phil": "Bass work described as \"crazy\" and a highlight on The Other One and Not Fade Away.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:36:23.662630+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-05-29.aud.cotsman.19153.sbeok.shnf"
+  }
 }

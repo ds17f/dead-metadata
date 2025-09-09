@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 21,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Excellent soundboard recording that captures a soaring 1969 set highlighted by a 29‑minute Dark Star and daring, creative jams.",
+    "review": "The tape offers surprisingly crisp, high‑fidelity stereo mix for a late‑60s show, with only minor wobble at the tail end of China Cat. Musically the performance is a psychedelic tour de force – Jerry’s inventive guitar (even through a broken string) drives an unforgettable Dark Star, while St Stephen, The Eleven and Easy Wind provide extra fireworks despite a few uneven moments on China Cat and Doin’ That Rag.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Average star rating is 4.3; most reviewers praise both the music (especially Dark Star) and the recording quality, with only a handful of low‑star critiques."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "High‑quality stereo mix with crisp instrument separation; occasional tape distortion/wobble at the very end of China Cat and beginning of Doin' That Rag, but overall superb for a 1969 source."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "St. Stephen (unique broken‑string version)",
+        "The Eleven",
+        "Easy Wind",
+        "Morning Dew"
+      ],
+      "poor_songs": [
+        "China Cat Sunflower",
+        "Doin' That Rag"
+      ],
+      "setlist_flow": "A sprawling first disc capped by a monumental Dark Star, followed by an off‑kilter second disc that still delivers strong transitions and a compelling close; the set feels adventurous despite occasional rough edges.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for brilliant, creative lead work; his tone, feedback leads and broken‑string recovery are highlighted throughout.",
+      "Phil": "Bass is noted as “making a statement” with tight, melodic jams that lock in with the guitars.",
+      "Bob": "",
+      "Keys": "Tom Constanten’s organ vamp during the broken‑string moment receives specific commendation; overall keyboard work is described as solid.",
+      "Drums": "Drum crash landings and a standout drum solo are mentioned, adding power to The Eleven."
+    },
+    "processed_date": "2025-09-08T14:32:19.042493+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-08-30.sbd.barbella.8594.sbeok.shnf"
+  }
 }

@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.7857142857142856,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording of the Jan 25 1969 Avalon run captures a solid first set (The Eleven, Lovelight) with mixed‑level mix and an uneven second half.",
+    "review": "The show is a snapshot of the Dead warming up for their breakthrough spring ’69 period – the first set delivers strong moments like a smoking The Eleven and a feel‑good Lovelight, while the second set loses momentum. The soundboard source is generally decent but suffers from level imbalances, an overly‑forward organ, and muted vocals on several tracks.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Most reviewers rate the performance 4 stars with a few noting flaws; recording quality is praised as decent but repeatedly called ‘messy’ or ‘high organ mix’, leading to an overall rating just below strong."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Levels are off at the start, organ (TC) is high in the mix, some vocal mics drop out (especially on The Eleven and early Lovelight). Dark Star has noticeable audio glitches, but overall the tape remains listenable for a 41‑year‑old recording."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Eleven",
+        "Lovelight",
+        "Caution"
+      ],
+      "poor_songs": [
+        "Dark Star (audio problems)",
+        "Second set overall (considered lackluster by several reviewers)"
+      ],
+      "setlist_flow": "First set feels classic ‘60s Dead with strong transitions; second set drifts after a promising start, showing the band still ironing out new material like Dupree's Diamond Blues and Doin' That Rag.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Forgot some lyrics early on but delivers solid guitar work; his voice shines in the Feedback → And We Bid You Good Night transition.",
+      "Phil": "Bass is highlighted as a bright spot, especially during Lovelight where reviewers note ‘Phil bombs.’",
+      "Bob": "",
+      "Keys": "Tom Constanten’s organ is unusually high in the mix – praised for its presence by some and called abrasive by others; his runs stand out on several jams.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T10:02:28.413610+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-01-25.sbd.miller.109641.flac16"
+  }
 }

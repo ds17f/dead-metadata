@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 18,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a monster 1969 show with blazing Dark Star, tight jams and stellar guitar work, all delivered in pristine fidelity.",
+    "review": "The recording is widely praised for its crystal‑clear soundboard quality—thanks to Charlie Miller’s careful restoration and patching—making every jam from this spring ’69 run vivid and listenable. Musically the show is described as a “monster” performance with standout Dark Star, He Was A Friend Of Mine intro, The Eleven > Caution sequence, Alligator, Hard To Handle and St. Stephen, delivering high‑energy, inventive setlists that epitomize the band’s peak improvisational period.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "All 20+ reviews are 5‑star, consistently praising both the performance and the soundboard recording; weighting heavily toward show quality yields an almost perfect rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clean mix with patched splice between SS and It's A Sin; cleaned‑up patch removes static, overall fidelity praised as superb."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "He Was A Friend Of Mine",
+        "The Eleven > Caution",
+        "Alligator",
+        "Hard To Handle",
+        "St. Stephen",
+        "It's a Sin"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Inventive setlists with seamless transitions (Jam>Eleven>Gator>Caution), strong song sequencing and memorable bookends.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for stellar guitar work, perfect tone on Dark Star and He Was A Friend Of Mine intro.",
+      "Phil": "",
+      "Bob": "Noted for slide‑guitar work on Hard To Handle and overall strong rhythm contribution.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T12:15:26.305415+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-04-23.sbd.miller.98968.sbeok.flac16"
+  }
 }

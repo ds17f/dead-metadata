@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard tape with noticeable hiss but captures a high‑energy 1969 set featuring smoking Alligator and Uncle John’s jams.",
+    "review": "The recording is a soundboard capture that suffers from tape hiss and a bit of muddiness, yet it remains listenable for a vintage 1969 performance. The show itself is praised for its fiery jams – especially the Alligator jam with Jerry’s solo, Uncle John's Jam, and a raucous Pigpen‑heavy second set – delivering an overall high‑energy experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is 4.5 stars; comments overwhelmingly highlight standout jams and strong performance while noting only moderate tape hiss, resulting in a high overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Prominent tape hiss (“royal hiss”), occasional mud‑dyness, a brief cut in \"Turn On Your Lovelight\"; otherwise typical of 1969 board recordings."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Alligator",
+        "Uncle John's Jam",
+        "Good Lovin'",
+        "Turn On Your Lovelight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Jam‑heavy second set dominated by Pigpen and extended improvisations, with strong transitions between jams.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Soloed over percussion during the Alligator jam; tone praised implicitly.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Tom Constanten (TC) mentioned as playing keyboards on this show.",
+      "Drums": "Ludwig drums and strong percussive jams noted."
+    },
+    "processed_date": "2025-09-08T15:06:22.850093+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-11-01.sbd.cotsman.6298.sbeok.shnf"
+  }
 }

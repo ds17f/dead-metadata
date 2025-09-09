@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Above‑average audience tape captures Good Lovin' and the debut of Bird Song/Deal, though the tape‑flip between The Other One and Wharf Rat is a noticeable hiccup.",
+    "review": "The recording is an audience (AUD) source that benefits from modern taper assistance, delivering a clear enough picture of the 1971 show with decent ambience. Musically the concert offers rare first‑time performances of Bird Song and Deal and a solid rendition of Good Lovin', but the abrupt tape flip between The Other One and Wharf Rat breaks the flow, leaving the overall experience mixed.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the set 3‑5 stars, praising the rarity of certain songs and a generally good audience recording, while noting tape‑flip issues and uneven sound quality that keep it from higher marks."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Above‑average AUD capture with clear crowd ambience; some reviewers note minor muffling and a tape‑flip glitch between The Other One and Wharf Rat, but overall the tape is listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "Bird Song",
+        "Deal"
+      ],
+      "poor_songs": [
+        "The Other One / Wharf Rat transition (tape flip issue)"
+      ],
+      "setlist_flow": "Features first‑time debuts of Bird Song and Deal, but the abrupt tape flip in the middle of the second set disrupts continuity.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T16:15:41.695741+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-02-19.aud.Vadnais.30230.flac16"
+  }
 }

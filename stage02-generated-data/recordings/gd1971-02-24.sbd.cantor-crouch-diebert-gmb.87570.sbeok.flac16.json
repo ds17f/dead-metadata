@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a low‑energy 1971 show with strong first‑set moments (Cumberland, Bird Song) but an overall subdued performance.",
+    "review": "The recording is a soundboard transfer that most listeners find clear and well‑balanced, though a few note minor pitch quirks and occasional channel swaps. Musically the concert is marked by a handful of highlights – notably a fiery \"Cumberland,\" a beautiful \"Bird Song\" and a superb \"Lovelight\" – but the band’s energy wanes through much of the night, making it feel like the weakest outing of the six‑night run.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "Average star rating (~3.5) with a split between enthusiastic praise for specific songs and criticism of overall low energy; recording quality is generally good but has noted technical quirks."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp transfer praised by several reviewers; some mention pitch inconsistencies, channel swaps and speed adjustments needed for certain tracks, but no major drop‑outs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cumberland",
+        "Bird Song",
+        "Lovelight",
+        "Good Lovin'",
+        "Me & My Uncle"
+      ],
+      "poor_songs": [
+        "Hard to Handle",
+        "King Bee",
+        "Minglewood Blues",
+        "Playin'"
+      ],
+      "setlist_flow": "First set opens strong with Me & My Uncle and a blazing Cumberland, then drifts into quieter, less focused material; second set starts sluggish (King Bee) but picks up toward the end with the NFA/GDTRFB suite.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's playing described as choppy early on but later pushes hard, especially during the NFA/GDTRFB outro and adds wah‑infused phrasing.",
+      "Phil": "Bass is noted as buried in the mix and generally subdued, though he steps up briefly during a Hard to Handle instrumental.",
+      "Bob": "Weir is mentioned slashing behind Garcia on Hard to Handle; otherwise no specific comments.",
+      "Keys": "",
+      "Drums": "Mickey’s absence is felt throughout, contributing to the listless vibe; drummers attempt to seg back into NFA toward the end."
+    },
+    "processed_date": "2025-09-07T16:33:25.431675+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-02-24.sbd.cantor-crouch-diebert-gmb.87570.sbeok.flac16"
+  }
 }

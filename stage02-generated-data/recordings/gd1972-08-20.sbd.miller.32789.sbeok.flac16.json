@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 3.0,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Poor soundboard recording with distorted mix and buried instruments; vocals are off‑key and no standout moments are noted.",
+    "review": "Both reviewers criticize the audio, describing distortion and a vocal-heavy mix that masks the band’s playing. There are no specific song highlights mentioned, and the performance is judged as lacking in pitch accuracy, resulting in an overall underwhelming listening experience.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.3,
+      "confidence": "medium",
+      "rationale": "Two reviews give conflicting star scores but both point to serious sound and performance issues; the negative technical feedback outweighs the sarcastic high rating, leading to a low overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Distorted audio, instruments buried under vocals, overall muddied mix."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No comments on set structure; reviewers focus solely on sound problems.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T01:23:16.783285+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-08-20.sbd.miller.32789.sbeok.flac16"
+  }
 }

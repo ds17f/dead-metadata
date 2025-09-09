@@ -14,5 +14,43 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with a muddy mix and occasional balance quirks, but a solid ’72 show highlighted by Bertha, China Cat Sunflower > I Know You Rider, Sugar Magnolia and an inspired Goin' Down the Road Feeling Bad.",
+    "review": "The SBD capture is usable though the mids get muddy after early technical hiccups and one verse of Tennessee Jed is missing. Musically the first set is average, but the second set really clicks with tight playing and standout moments on Bertha, China Cat Sunflower > I Know You Rider, Sugar Magnolia and Goin' Down the Road Feeling Bad.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "The show is judged decent (≈3.5/5) with several high points, while the recording quality is only fair‑good (≈3/5). Weighted average yields about 3.4 stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Early drum channel loss and a mic failure on \"Deal\" cause gaps; overall mix gets muddy after tech fixes, balance is uneven with occasional channel reversal, but the source remains listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha",
+        "China Cat Sunflower > I Know You Rider",
+        "Sugar Magnolia",
+        "Goin' Down the Road Feeling Bad"
+      ],
+      "poor_songs": [
+        "Tennessee Jed (missing first verse)"
+      ],
+      "setlist_flow": "Typical fall ’72 set: a middling first set that gains momentum, followed by a tighter, more energetic second set with strong jams and a concise encore.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Not at peak in the first set; mic issues on \"Deal\"; overuses pinch harmonics on Sugar Magnolia but reverb tone shines in quiet sections.",
+      "Phil": "Bass is buried early (one channel only) then comes forward later, especially on Box of Rain.",
+      "Bob": "Solid throughout; holds his squawks to the end of Sugar Magnolia.",
+      "Keys": "",
+      "Drums": "Billy (Bill Kreutzmann) solid once drums come in; initial missing drum channel makes early songs hard to assess."
+    },
+    "processed_date": "2025-09-08T04:26:53.477963+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-11-24.141266.sbd.menke.lee.smith.miller.clugston.flac1644"
+  }
 }

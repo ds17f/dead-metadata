@@ -14,5 +14,36 @@
   "confidence": 0.6,
   "raw_rating": 3.6666666666666665,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A lively Palladium show captured on audience tape with even, punchy levels, though it suffers from a glitch and missing tracks.",
+    "review": "The recording delivers a raw, high‑energy performance that many fans describe as outstanding, especially after Charlie Miller’s mastering which adds clarity and punch. However, listeners note a noticeable glitch at the start of “Me & My Uncle” and the complete absence of “Not Fade Away” and “Bird Song,” which detracts from an otherwise solid AUD source.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.1,
+      "confidence": "medium",
+      "rationale": "Positive comments about performance and mastering balance negative remarks about technical glitches and missing songs; the average of the four star ratings (5,4,2,0) yields a modest overall score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Even levels with added punch from Miller's mastering; a glitch at ~00:21 in “Me & My Uncle”; both audience and soundboard versions missing “Not Fade Away” and “Bird Song.”"
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Two sets feel like they may come from different sources, but the overall flow is raw and energetic.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:00:46.896002+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-08-05.fob-SonyECM22p.miller.88859.sbeok.flac16"
+  }
 }

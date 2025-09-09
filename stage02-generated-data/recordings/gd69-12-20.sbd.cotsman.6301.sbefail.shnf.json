@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 3.4,
   "high_ratings": 7,
-  "low_ratings": 4
+  "low_ratings": 4,
+  "ai_review": {
+    "summary": "Historic first New Speedway Boogie captured on a rough soundboard tape with noticeable hiss, skips and occasional distortion.",
+    "review": "The show is notable for the debut of New Speedway Boogie, a fiery China Cat Sunflower → I Know You Rider pairing, and an epic Lovelight featuring Pigpen’s wild rap. While the performance has moments of high energy and historical interest, the soundboard recording suffers from tape hiss, CD‑skip artifacts and limited dynamics that make listening uneven.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the historic set (first NSB, strong jams) but criticize the audio quality; weighted average of show (~3.5) and recording (~2.5) yields ~3.2."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Tape hiss between songs, occasional CD‑skip on China Cat, rough dynamics and occasional dropouts; overall usable but far from pristine."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "New Speedway Boogie (first performance)",
+        "Lovelight (Pigpen rap)",
+        "China Cat Sunflower > I Know You Rider",
+        "The Eleven"
+      ],
+      "poor_songs": [
+        "High Time (lyrics bungle)",
+        "Hard to Handle (average version)"
+      ],
+      "setlist_flow": "45‑minute first set followed by a 90‑minute second; early 1970 material is still coalescing but the historic moments (first NSB, strong jams) give the show a clear narrative arc.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Phil starts a Feelin' Groovy jam during Dark Star and contributes to the early New Speedway Boogie development.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:57:05.059035+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-12-20.sbd.cotsman.6301.sbefail.shnf"
+  }
 }

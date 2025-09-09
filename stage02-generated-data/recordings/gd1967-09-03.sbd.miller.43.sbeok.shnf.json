@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a historic 1967 show with stellar Viola Lee Blues and Alligator performances, but a rhythmically shaky Dancin' In The Street.",
+    "review": "The recording offers a clean soundboard source that lets listeners hear the band at a creative peak in ’67, highlighted by an \"out‑friggin’standing\" Viola Lee Blues and a powerful Alligator. While most of the set shines, Bob Weir’s rhythm on Dancin' In The Street draws criticism, though the jam segment is noted for foreshadowing Dark Star riffs. Overall the show is praised for its historical significance and high‑energy blues jams.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Strong musical performance (70% weight) with multiple standout songs and historic value, combined with a clean soundboard recording (30% weight). Minor criticism of one song does not outweigh the overall positive appraisal."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No specific complaints; reviewers imply a clear, listenable source that captures the band's nuances."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee Blues",
+        "Alligator"
+      ],
+      "poor_songs": [
+        "Dancin' In The Street"
+      ],
+      "setlist_flow": "The set blends strong blues jams with a less successful pop cover; despite the stumble on Dancin', the surrounding material lifts the overall flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for great playing on Viola Lee Blues and Alligator, and for trying to steady the chaotic Dancin' performance.",
+      "Phil": "",
+      "Bob": "Described as \"completely clueless rhythmically\" on Dancin' In The Street.",
+      "Keys": "Pigpen's organ/keyboard work highlighted as excellent on Viola Lee Blues and Alligator.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T07:10:06.074095+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1967-09-03.sbd.miller.43.sbeok.shnf"
+  }
 }

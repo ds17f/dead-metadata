@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.5625,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A high‑energy 1971 show with ferocious Cumberland Blues and scorching Hard to Handle, captured on a solid audience tape that’s been nicely remastered despite occasional pitch/speed quirks.",
+    "review": "The performance is praised as one of the band’s tightest early‑’71 outings – standout moments include a monster Hard to Handle, a blistering Cumberland Blues and an emotionally charged Brokedown Palace.  The audience recording has been expertly remastered by Sir Mick, delivering clear crowd ambience and good overall balance, though the first few tracks still suffer from half‑step pitch anomalies.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4‑5 stars and highlight both a powerful show and an enjoyable recording; only a few note minor speed/pitch issues, so the combined weighted rating is strongly positive."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Remastered audience tape with clear crowd presence and decent instrument separation; occasional half‑step pitch/speed problems on early tracks (chipmunk effect) but overall listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cumberland Blues",
+        "Hard to Handle",
+        "Brokedown Palace",
+        "The Lovelight"
+      ],
+      "poor_songs": [
+        "Casey Jones (crowd \"woo‑woo\" distraction)"
+      ],
+      "setlist_flow": "Tight, concise jams with strong transitions – classic early‑71 energy; short song structures but focused playing throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His lead guitar is described as \"screaming\" and the solo on Brokedown Palace draws audience reaction, showcasing his signature fire.",
+      "Phil": "Repeatedly praised for powerful \"Phil bombs\" and solid bass foundation that drives the set.",
+      "Bob": "Noted for a tight rhythm on Hard to Handle and a solved \"Bobby problem\" with staccato attack; also highlighted in the Bobby McGee performance.",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann receives strong commendation as the rhythmic backbone that lifts the entire show."
+    },
+    "processed_date": "2025-09-07T19:15:21.606117+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-08-06.aud.sirmick.30224.sbeok.flacf"
+  }
 }

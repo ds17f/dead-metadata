@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.518518518518518,
   "high_ratings": 24,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Fair‑quality soundboard capture of a historic 1969 Carousel show that thrills with a monster Main Ten jam, an epic Other One, and a bizarre chant‑filled second set.",
+    "review": "The recording suffers from low vocals, hum and occasional drop‑outs typical of early SBD tapes, but the musical payoff more than compensates.  Highlights include a smoking Main Ten > Other One sequence, the first 1968 Not Fade Away, an extended Lovelight, and a 20‑minute crowd chant that makes the set uniquely psychedelic.  Listeners repeatedly note the high energy and historic importance despite the technical flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average star rating across 27 detailed reviews is ~4.5; reviewers overwhelmingly praise the performance while noting consistent recording issues, leading to a strong combined score just below exceptional."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Low vocal levels, hum from a bad electrical connection during Lovelight, occasional drop‑outs and overall 'horrid' SBD fidelity; however the mix is still listenable for the jam content."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Main Ten",
+        "The Other One",
+        "Not Fade Away (first 1968 version)",
+        "Lovelight (extended)"
+      ],
+      "poor_songs": [
+        "Lovelight (vamping long, less focused)"
+      ],
+      "setlist_flow": "Unusual structure with a lengthy crowd chant between sets, followed by an exploratory second set of extended jams; the Main Ten > Other One suite forms the centerpiece.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as shredding and driving the Other One duet with Phil; guitar tone noted as powerful despite recording limits.",
+      "Phil": "Bass described as dancing around Jerry, strong duet on The Other One; occasional yell ('Hey Pigpen…') captured during Lovelight jam.",
+      "Bob": "",
+      "Keys": "Tom Constanten (TC) heard sporadically; organ barely audible but noted in the jam section.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T10:35:03.694207+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-02-19.sbd.cotsman.4511.sbeok.shnf"
+  }
 }

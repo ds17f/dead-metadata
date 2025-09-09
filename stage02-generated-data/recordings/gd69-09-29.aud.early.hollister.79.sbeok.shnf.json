@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.277777777777778,
   "high_ratings": 14,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A rare audience‑tape with muddy, vocal‑poor sound that nevertheless captures the legendary “The Seven” jam in all its mind‑blowing glory.",
+    "review": "Despite the cassette’s hiss, missing vocals and a generally thin mix, this recording is treasured for its historic performance – the once‑in‑a‑lifetime full‑band rendition of The Seven, plus a fiery run from Doin’ That Rag into Good Lovin’. Reviewers rave about the jam’s intensity and the tight interplay of the rhythm section, even as they lament the audio quality.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "The overwhelming majority of reviewers award 5‑star scores for the performance (especially The Seven), while the recording is repeatedly described as poor or muddy; weighting show quality (70 %) over audio (30 %) yields a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Maxell UD cassette tape with heavy hiss, missing/washed‑out vocals, bright but thin EQ, occasional drop‑outs; mix is decent for an audience source but organ buried and overall clarity low."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Seven",
+        "Doin' That Rag > The Seven > Good Lovin'",
+        "St. Stephen > The Eleven"
+      ],
+      "poor_songs": [
+        "Good Lovin' (considered only so‑so by some reviewers)"
+      ],
+      "setlist_flow": "Reviewers praise the seamless segues—especially the transition from Doin’ That Rag into The Seven and then into Good Lovin’. The jam is highlighted as a rare, full‑band moment that justifies the tape’s historic value.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple reviewers note Jerry's leads soaring through The Seven, describing his tone and improvisational fire as a key highlight.",
+      "Phil": "Bass is described as audible and “working it,” with Phil’s lines adding drive to the jam; some call his performance solid throughout.",
+      "Bob": "Bob Weir’s guitar is said to shimmer front‑and‑center in the mix, especially during The Seven, giving him a prominent role.",
+      "Keys": "The organ/keyboard (TC) is reported as buried in tape hiss and not cutting through; overall keyboard presence is limited.",
+      "Drums": "Bill Kreutzmann and Mickey Hart receive high praise for “slicing and dicing,” tight synchronization, and near‑cheetah speed during the jam."
+    },
+    "processed_date": "2025-09-08T14:50:51.563483+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-09-29.aud.early.hollister.79.sbeok.shnf"
+  }
 }

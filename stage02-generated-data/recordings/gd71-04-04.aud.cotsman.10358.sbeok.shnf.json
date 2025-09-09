@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 3.0,
   "high_ratings": 3,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "A historically prized performance with standout Morning Dew, Bobby McGee and St. Stephen, but the audience‑sourced recording is terrible.",
+    "review": "The show is remembered for several magnificent moments – a soaring Bobby McGee solo, an exquisite Morning Dew, a rapturous St. Stephen and an intense Good Lovin' – and many reviewers describe it as one of the best of the spring run. Unfortunately the AUD (audience) source is widely condemned as muddy and low‑fidelity, making the recording difficult to enjoy despite the strong musical content.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the performance (70% weight) while consistently criticizing the audio quality (30% weight). The weighted average of star ratings and qualitative comments yields a rating in the low‑mid 3‑range."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Multiple reviewers call the AUD sound \"terrible\" or \"unacceptable\", noting heavy noise, low fidelity and a problematic noise floor, though a few mention occasional quiet details that are captured."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bobby McGee",
+        "Morning Dew",
+        "St. Stephen",
+        "Good Lovin'",
+        "Loser"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Even with the poor audio, reviewers recall a strong flow with memorable peaks and an overall high‑energy experience typical of the Manhattan Center run.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for beautiful playing, especially during the Bobby McGee solo and the second go‑through where the band follows his lead.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T16:59:55.960353+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-04-04.aud.cotsman.10358.sbeok.shnf"
+  }
 }

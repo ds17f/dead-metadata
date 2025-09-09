@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.8333333333333335,
   "high_ratings": 4,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording of the March 19 1966 Acid Test captures early Dead enthusiasm with Pigpen‑fronted highlights like “You See a Broken Heart,” though listeners debate the audio, calling it either remarkable or muffled and pitched slow.",
+    "review": "The show offers a fascinating snapshot of the band’s formative stage – Pigpen dominates with bluesy numbers that many reviewers cite as standouts, while the overall playing is competent if not yet polished. Audio quality is split: several listeners praise the soundboard source as clear and simple, but at least one notes muffling, pitch issues, and missing material.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Most reviewers rate the performance highly (average ~4‑5 stars) while a single low rating focuses on recording flaws; weighting show quality higher yields an overall rating just above 4."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Some listeners describe the tape as crisp and remarkable sounding, whereas another reviewer calls it muffled, pitched slow, and incomplete; no consensus on a pristine mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "You See a Broken Heart",
+        "Viola Lee Blues",
+        "Next Time You See Me",
+        "Beat It On Down The Line"
+      ],
+      "poor_songs": [
+        "Jam before Death Don't (did not fit the groove)"
+      ],
+      "setlist_flow": "Early‑era Acid Test set mixing blues, folk and experimental jams; praised for its simple, true feel but noted as uneven in places.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned positively for his interplay with Pigpen on “You See a Broken Heart.”",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T05:14:48.412155+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1966-03-12.sbd.bershaw.9516.shnf"
+  }
 }

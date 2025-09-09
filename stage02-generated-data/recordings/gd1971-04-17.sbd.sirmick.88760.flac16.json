@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.714285714285714,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A super‑hot April ’71 college‑gym show captured on a pristine soundboard mix, highlighted by Pigpen’s blazing vocals and a monster Casey Jones.",
+    "review": "The performance is widely praised as tight, high‑energy and full of standout moments – especially Pigpen’s soulful delivery, the searing “Casey Jones” and the psychedelic jam on “Good Lovin’”. The Sirmick‑restored soundboard recording is described as crisp and exceptionally clear for a 1971 source, though one reviewer notes pitch‑correction quirks and occasional speed wobble. Overall the show delivers a thrilling snapshot of the Dead’s early ’71 magic.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviewers award five stars for both performance and audio, citing tight playing and excellent sound quality; a single three‑star review points out pitch issues, pulling the weighted average slightly lower."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Audio praised as crisp, dynamic and well‑balanced for a 1971 college‑gym capture; however one reviewer mentions pitch‑correction problems, speed wobble and occasional channel swaps in some versions."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Casey Jones",
+        "Good Lovin'",
+        "Hard to Handle",
+        "Mama Tried"
+      ],
+      "poor_songs": [
+        "Big Railroad",
+        "Bird Song",
+        "Playin'"
+      ],
+      "setlist_flow": "First set opens solidly with Truckin' and builds through Pigpen‑centric numbers; second set mixes psychedelic jams (Good Lovin') with tight rockers, ending on a high‑energy finale.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar work is praised as tight and expressive, with extra flair noted on “Beat It On Down the Line”.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Ron \"Pig\" McKernan’s organ/keyboard parts are highlighted as high‑caliber, though a few songs are said to sound better without piano.",
+      "Drums": "Bill Kreutzmann’s drumming is described as hot, in the pocket and driving the band with an intense yet relaxed feel."
+    },
+    "processed_date": "2025-09-07T17:41:45.596609+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-17.sbd.sirmick.88760.flac16"
+  }
 }

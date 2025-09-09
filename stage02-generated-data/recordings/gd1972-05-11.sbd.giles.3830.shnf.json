@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture with Garcia surprising fans by playing organ and shredding lead guitar on a standout Good Lovin'.",
+    "review": "The recording is a clean sound‑board source that lets listeners hear the rare moment when Jerry Garcia jumps on the organ while still delivering his signature lead guitar work during Good Lovin’. Reviewers are thrilled by this unique performance, rating it five stars and highlighting the high energy of the jam.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "medium",
+      "rationale": "A single enthusiastic 5‑star review praises both a rare musical moment and implies good soundboard quality, leading to a high combined rating despite limited data."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No specific issues mentioned; assumed clear and balanced due to soundboard source."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia is highlighted for playing organ and delivering lead guitar on Good Lovin'.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T00:01:21.642117+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-05-11.sbd.giles.3830.shnf"
+  }
 }

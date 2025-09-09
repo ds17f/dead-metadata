@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.7272727272727275,
   "high_ratings": 11,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Classic 1969 soundboard recording with a high‑energy show highlighted by a soaring Dark Star, fiery Foxy Lady jam and an epic The Other One.",
+    "review": "The tape captures the raw, “classic ’69” sound that fans love – clear enough for a soundboard from this era and praised as well recorded throughout. Musically the concert bursts with energy after a loose first set, delivering standout moments like Dark Star, The Eleven, a jam‑filled Foxy Lady segue, an intense The Other One and a gorgeous Viola Lee encore. Minor slip‑ups in the early songs are outweighed by the overall fire of the second set.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Consistently high star ratings (mostly 4–5) and enthusiastic comments about both performance and recording quality; show praised as energetic with many standout songs, while the recording is described as well‑captured for its era."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Described as classic 1969 sound, amazingly well recorded for the period; clear enough to hear details like slide guitar, no major drop‑outs or muddiness mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Eleven",
+        "Foxy Lady (jam)",
+        "The Other One",
+        "Viola Lee",
+        "Cryptical (second part)"
+      ],
+      "poor_songs": [
+        "Hard To Handle",
+        "The Alligator"
+      ],
+      "setlist_flow": "First set starts a bit sloppy but quickly gains momentum; second set flows brilliantly with seamless jams and high‑energy transitions, ending with an expansive encore.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Slide guitar on Hard To Handle noted (awesome by some, just interesting by others); Jerry drives the Foxy Lady jam and delivers strong leads throughout.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T12:04:38.772796+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-04-21.sbd.miller.88465.sbeok.flac16"
+  }
 }

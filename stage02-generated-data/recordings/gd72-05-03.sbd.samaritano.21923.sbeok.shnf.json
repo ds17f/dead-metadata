@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.071428571428571,
   "high_ratings": 11,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "High‑energy Europe ’72 show with a smoking Other One and stellar China > Rider, but the SBD copy suffers from left/right channel imbalance.",
+    "review": "Fans rave about this May 3, 1972 performance – The Other One, China > Rider, Sugaree, Good Lovin' and Sugar Magnolia are repeatedly called out as exceptional.  The recording is a sound‑board (SBD) source that many find cleaner than other copies, yet several reviewers note serious left/right channel drift that detracts from an otherwise superb show.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "The overwhelming majority of reviews praise the musical performance (many 5‑star) while noting consistent technical flaws in the SBD copy; weighted scoring yields a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Channel separation issues – left and right channels wander, causing audible imbalance.  Hiss is low and the pop in Truckin' is gone on this copy, but the channel problems are significant enough to lower the overall rating."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "China > Rider",
+        "Sugaree",
+        "Good Lovin'",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A solid first set with a strong Good Lovin' and Sugaree, followed by a second‑set marathon built around an epic Other One; transitions (China > Rider, NFA sequence) are highlighted as seamless.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his fiery playing and “Nashville” feel on Sing Me Back Home; tone described as perfect on several tracks.",
+      "Phil": "Referred to as a god‑like presence; noted for being \"on fire\" during the Other One and NFA sequences.",
+      "Bob": "His vocal on Sugar Magnolia called his best; praised for rhythm work throughout.",
+      "Keys": "",
+      "Drums": "Bill (Mickey) described as \"on fire\" in the jam sections; Pigpen’s voice noted as a bit weak toward the end."
+    },
+    "processed_date": "2025-09-07T23:42:20.472456+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-05-03.sbd.samaritano.21923.sbeok.shnf"
+  }
 }

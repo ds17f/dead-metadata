@@ -14,5 +14,42 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent matrix mix delivers a superb‑sounding 1971 show highlighted by a stellar That's It suite and tight Other One.",
+    "review": "The matrix soundboard/audience blend is praised as balanced, clear and far superior to a straight soundboard, giving listeners an immersive live feel. The performance itself is lauded for its strong 1971 vibe – especially the That’s It suite and a complete Other One – though one reviewer notes that “Not Fade Away” and “Bird Song” are missing from the source material.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Most reviewers give 5‑star praise for both performance and matrix recording, but a single 0‑star comment about missing tracks drags the overall average down; weighted rating reflects strong show and recording quality with some completeness issues."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Balanced mix, superb live sound, clear and immersive. Reviewers call it “far superior to just a soundboard” and “magnificent”. One note mentions that both audience and board copies omit Not Fade Away and Bird Song."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "That's It",
+        "The Other One"
+      ],
+      "poor_songs": [
+        "Not Fade Away (missing)",
+        "Bird Song (missing)"
+      ],
+      "setlist_flow": "Strong flow highlighted by a cohesive That's It suite and a complete Other One, giving the show an energetic 1971 feel.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:02:05.997152+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-08-05.mtx.chappell.97014.flac16"
+  }
 }

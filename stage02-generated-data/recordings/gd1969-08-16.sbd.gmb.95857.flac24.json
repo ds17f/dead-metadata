@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.857142857142857,
   "high_ratings": 5,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording of Woodstock’s August 16 1969 set captures a historic but uneven performance – highlighted by an epic 45‑minute “Turn On Your Lovelight” amid generally mixed musical quality.",
+    "review": "The FLAC24 soundboard source provides decent clarity for a vintage tape, though listeners are advised to use EQ. Musically the show is considered a historical curiosity rather than a peak Dead performance; Pigpen’s marathon “Turn On Your Lovelight” stands out while “High Time” is viewed as a drag, and overall many reviewers find the set less compelling than other 1969 dates.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Show quality is judged average to below‑average by several reviewers, but the soundboard source offers good technical fidelity; the weighted blend yields a modest rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear for an old tape; reviewers suggest using EQ to compensate for age‑related coloration, no major dropouts reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Turn On Your Lovelight"
+      ],
+      "poor_songs": [
+        "High Time"
+      ],
+      "setlist_flow": "Long second‑set jam with a 45‑minute Lovelight dominates; pacing feels uneven and the overall performance is seen as weaker than other ’69 shows.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:15:15.202078+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-08-16.sbd.gmb.95857.flac24"
+  }
 }

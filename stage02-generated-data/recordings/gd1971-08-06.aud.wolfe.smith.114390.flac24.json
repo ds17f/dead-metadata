@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Rare audience taping praised for its existence, though musical details are scarce",
+    "review": "Both reviewers give the recording five stars, focusing on how uncommon it was to have any tapers at this show and expressing excitement about being in the crowd. No specific comments are made about the sound quality or performance, so the assessment relies on the enthusiasm for the tape’s rarity rather than detailed musical analysis.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Two enthusiastic 5‑star reviews boost the rating, but the lack of concrete information about performance and audio quality limits confidence."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers do not discuss clarity, mix or fidelity; they simply note that a taper was present, implying an audience recording of acceptable listenability for fans."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No detailed comments on set structure or pacing were provided.",
+      "energy_level": "unknown"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:19:52.833362+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-08-06.aud.wolfe.smith.114390.flac24"
+  }
 }

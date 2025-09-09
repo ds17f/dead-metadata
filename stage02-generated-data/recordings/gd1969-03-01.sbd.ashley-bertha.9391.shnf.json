@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Fans rave about the performance, calling it essential and one of the greatest runs, but are frustrated by the edited release and limited streaming access.",
+    "review": "The show is praised as a must‑have performance from an iconic run, with at least one reviewer rating it five stars and describing it as \"the best\". However, criticism centers on the way the commercial release was chopped up and not made fully streamable, leaving listeners dissatisfied with the packaging rather than the music itself.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Only one detailed positive rating (5 stars) versus two zero‑star complaints about release handling; musical quality is praised but recording specifics are unknown, leading to a moderate overall score."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Reviews do not mention soundboard vs. audience sources or clarity; no technical comments provided."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific setlist commentary; reviewers only note the show’s overall greatness.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T10:58:07.783476+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-03-01.sbd.ashley-bertha.9391.shnf"
+  }
 }

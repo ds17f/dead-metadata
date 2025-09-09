@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.35,
   "high_ratings": 18,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crisp sound‑board capture of a high‑energy April ’71 Pittsburgh show, highlighted by a smoking Other One, epic Lovelight and tight Phil bass work.",
+    "review": "The recording is an exceptionally clear SBD source that puts the band up close—vocals and instruments are crystal‑clear though the audience is barely audible.  Musically the concert is a standout for 1971, with a blistering second set (Other One → Lovelight, Not Fade Away → Greatest Story → Playing in the Band) and strong Pigpen, Garcia and Phil performances, despite a few tape‑flip cuts that truncate songs like Hard to Handle. ",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average star rating across ~20 detailed reviews is ~4.3; the vast majority praise both performance and sound quality, with only occasional notes of cuts or minor glitches."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Very crisp, close‑miked SBD mix; vocals and instruments sit front‑and‑center. Audience is almost inaudible (a common SBD trait). Reviewers note occasional jumpy spots, tape‑flip cuts (e.g., Hard to Handle) and a few glitches in Cold Rain & Snow, but overall the sound is clear and balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Lovelight",
+        "Not Fade Away > Greatest Story Ever Told > Playing In The Band",
+        "Truckin'",
+        "Sugar Magnolia",
+        "Bertha"
+      ],
+      "poor_songs": [
+        "Hard to Handle (cut mid‑song)",
+        "Wharf Rat (described as a work in progress)"
+      ],
+      "setlist_flow": "First set starts a bit shaky but tightens by Bertha; second set opens strong with Truckin' and a powerful Other One, flows through seamless segues into Lovelight and the NFA → GDTRFB sequence.  Tape‑flip cuts interrupt a few jams, but overall pacing is high‑energy and well‑structured.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia is described as firing up, delivering strong guitar riffs and vocal presence (though occasional lyric slips on Loser).",
+      "Phil": "Repeatedly praised – ‘Phil in high gear’, ‘prominent Phil zone’, ‘totally in charge tonight’.",
+      "Bob": "Noted for tightened rhythm work; drives Hard to Handle and Johnny B. Goode, with strong guitar presence throughout.",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann gets special mention for a white‑hot performance on Lovelight and overall tight drumming."
+    },
+    "processed_date": "2025-09-07T17:27:15.209682+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-04-12.sbd.miller.31960.sbeok.flacf"
+  }
 }

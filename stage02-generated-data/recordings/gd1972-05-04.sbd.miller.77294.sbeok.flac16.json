@@ -14,5 +14,48 @@
   "confidence": 1.0,
   "raw_rating": 4.92,
   "high_ratings": 25,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a high‑energy 1972 Paris show highlighted by a soaring Dark Star and a pristine Sugar Magnolia.",
+    "review": "The Charlie Miller transfer delivers crystal‑clear board sound that captures the band at one of their creative peaks.  Reviewers rave about the tight, jazz‑laden Dark Star, a monster Good Lovin' and an unforgettable Pigpen‑driven Sugar Magnolia, while noting only a few minor setlist dips.  Overall the performance is described as “smoking,” “tight,” and “magical.”",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Over 30 detailed reviews uniformly give 5‑star ratings, praising both the musical performance (70% weight) and the flawless soundboard mix (30% weight).  No significant criticisms were found."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Multiple reviewers call the mix “clean,” “crisp,” and “hardly any crowd noise.”  Charlie Miller’s transfer is repeatedly praised for preserving board clarity without artifacts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Sugar Magnolia",
+        "Good Lovin'",
+        "Sing Me Back Home",
+        "The Stranger",
+        "Mr. Charlie",
+        "It Hurts Me Too",
+        "Jack Straw"
+      ],
+      "poor_songs": [
+        "Brown Eyed & He's Gone",
+        "Casey Jones"
+      ],
+      "setlist_flow": "Set 1 builds a classic early‑E72 vibe; Set 2 launches into an extended Dark Star, followed by tight jams and a spectacular second‑half climax with Good Lovin' and Sugar Magnolia.  Transitions are described as seamless and the band re‑tightens after the long improvisations.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly lauded for inspired, jazzy guitar work—especially during Dark Star and Sugar Magnolia (“Jerry's wah,” “blazing”).",
+      "Phil": "Mentioned for rumbling bass in the Dark Star space segment and occasional atonal moments; praised as part of the “spacey” vibe.",
+      "Bob": "Highlighted for dynamic fills during the drum break in Dark Star and his vocal contribution on Good Lovin'.",
+      "Keys": "Keith’s organ chops are called “angelic,” adding a West Coast flavor; noted as a major driver of the show’s rhythm and excitement.",
+      "Drums": "Bill (Mickey) receives high praise for an exceptional drum solo in the middle of Dark Star, described as “one of Billy's best” and “snappy jazz beat.”"
+    },
+    "processed_date": "2025-09-07T23:46:57.031918+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-05-04.sbd.miller.77294.sbeok.flac16"
+  }
 }

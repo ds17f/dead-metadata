@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.7272727272727275,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent SBD recording captures a high‑energy show highlighted by a smoking Dark Star and superb Good Lovin', with crystal‑clear mix and standout Pigpen moments.",
+    "review": "The performance is a smooth, flowing marathon that starts a bit slow but erupts into a monster second set featuring an unforgettable Dark Star, blazing Good Lovin' and inspired Pigpen organ work. The soundboard source delivers a clean, well‑balanced mix that lets every nuance shine, from Jerry’s rare‑form guitar on Jack Straw to Billy’s stellar drum solo.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "The majority of detailed reviews rate the show 5 stars, praising both musical peaks and the pristine soundboard mix; only one moderate rating mentions a slow start, resulting in an overall very high average."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clean, crisp mix with balanced instrument levels; reviewers note “nice mix”, “clean sound off the board” and “SBD quality”. No major drop‑outs or noise reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Good Lovin'",
+        "Sing Me Back Home",
+        "Two Souls in Communion",
+        "NFA > GDTRFB sequence",
+        "Jack Straw",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early set is a bit sluggish, but the band gains momentum and delivers a seamless second set with tight transitions, especially the Dark Star jam and the high‑energy Good Lovin' opener.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for being in rare form; his guitar on Jack Straw is called a favorite ever and he “lifts the band higher” during Dark Star.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen’s organ chops are highlighted as a special West‑Coast sound, adding a sweet texture throughout the show.",
+      "Drums": "Billy’s drum solo is repeatedly called one of his best—hot from start to finish and a centerpiece of the Dark Star."
+    },
+    "processed_date": "2025-09-07T23:48:03.315376+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-05-04.sbd.hamilton.143.sbeok.shnf"
+  }
 }

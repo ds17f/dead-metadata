@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Highly rated recording with no detailed comments on audio or performance",
+    "review": "The sole review gives a 5‑star rating and simply points listeners to a copy, offering no specifics about the sound quality or the concert itself.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "low",
+      "rationale": "Only one brief positive review; high star suggests strong overall impression but lacks detail on performance or recording."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No technical comments provided"
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No information from reviewers",
+      "energy_level": "unknown"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T04:04:21.650345+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-11-15.112616.sbd.bertha.dvda"
+  }
 }

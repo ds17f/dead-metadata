@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Very good show despite a bit of shakiness from the new keyboardist; recording source unknown.",
+    "review": "The performance is generally praised as very good, though reviewers note that the new keyboard player sounded a little unsettled. No specific comments about the audio fidelity are provided, and the source type remains unclear.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one brief review giving 4 stars; positive remarks about the show but no detail on recording quality."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No explicit comments on sound clarity or mix; source type not identified."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "New keyboardist sounds a bit shaky according to the reviewer.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T09:58:56.929549+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-01-24.sbd.unknown.5650.shnf"
+  }
 }

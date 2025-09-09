@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.333333333333333,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording captures a solid April ’69 Chicago show where Pigpen shines, the Schoolgirl smokes, and Lovelight melts faces despite a sluggish start.",
+    "review": "The six‑song set is heavy on Pigpen with three of his numbers leading the way. After a tentative opening – especially a slide‑laden Hard to Handle – the band finds its groove; The Schoolgirl ignites the energy, Sittin' and Lovelight are highlights, and Morning Dew delivers intensity. Sound quality is consistently good, giving listeners clear access to the daring guitar work and vibrant keyboards.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars, praising strong Pigpen performances and good soundboard quality while noting a sloppy start; weighted average yields a solid 4.3."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Consistently clear and aggressive mix; reviewers note nice sound, crisp guitars and keyboards, with no major drop‑outs or muddiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Schoolgirl",
+        "Sittin' On Top of the World",
+        "Lovelight",
+        "Morning Dew",
+        "What's Become of the Baby"
+      ],
+      "poor_songs": [
+        "Hard to Handle (sloppy start)",
+        "Doin' That Rag (initially sloppy)"
+      ],
+      "setlist_flow": "Starts slow and a bit sloppy, but after The Schoolgirl the band tightens up; Pigpen dominates three of six songs, giving the show strong blues‑rock momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Slide guitar on Hard to Handle and Doin' That Rag is described as weak/sloppy, but later his aggressive, daring playing is praised and he “kills” the vocals on the rag.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Reference to TC (Tom Constanten) on keyboards, noted as a highlight of the performance.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T12:21:57.756332+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-04-25.sbd.2596.sbeok.shnf"
+  }
 }

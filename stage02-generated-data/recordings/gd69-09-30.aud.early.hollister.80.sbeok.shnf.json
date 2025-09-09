@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 3.5454545454545454,
   "high_ratings": 5,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "A historic first China Cat Sunflower → I Know You Rider show that dazzles despite a rough‑around‑the‑edges audience tape.",
+    "review": "The performance is widely praised for its energy and the landmark China > Rider transition, with highlights like an explosive The Other One. Recording quality is inconsistent – most listeners note hiss, muddiness and speed/pitch problems typical of a 1969 AUD, though a few find it surprisingly decent given its age.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the musical performance as excellent or very good (70% weight) while consistently describing the audio as poor to fair (30% weight), resulting in an overall rating just above four stars."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Frequent comments about hiss, muddiness, vocal inaudibility, speed/pitch issues and overall roughness; a few note it sounds surprisingly decent for a '69 AUD."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower > I Know You Rider",
+        "The Other One"
+      ],
+      "poor_songs": [
+        "Alligator (slow, muffled)"
+      ],
+      "setlist_flow": "Noted as a short but sweet set with the historic first China > Rider segue and an intense closing The Other One; transitions feel raw yet compelling.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:53:16.223530+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-09-30.aud.early.hollister.80.sbeok.shnf"
+  }
 }

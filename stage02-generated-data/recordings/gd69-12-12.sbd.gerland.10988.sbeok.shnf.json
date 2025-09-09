@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.464285714285714,
   "high_ratings": 24,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear‑ish audience recording with a few muffled opening tracks captures an incendiary ’69 show highlighted by a smoking Alligator > Caution jam and stellar Lovelight/Black Peter performances.",
+    "review": "The show is widely praised for its high energy, especially the monster Alligator→Caution jam, extended Easy Wind improvisation, and standout versions of Lovelight, Black Peter and the Garcia‑Pigpen duet on Next Time.  Recording quality is mixed – the first five tracks are muffled or noisy, but the remainder sounds remarkably clear for a 1969 audience source, with an overall good balance despite occasional vocal mix quirks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "The majority of reviews (≈80 %) rate the show 4‑5 stars and extol its musical highlights, while recording complaints focus on only the opening tracks; weighting 70 % show quality + 30 % recording quality yields a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "First five tracks are muffled/poor‑quality with hiss; later material is clear and intimate, capturing front‑row ambience.  Some reviewers note vocals too high in the mix and occasional off‑key singing on “Friend of Mine,” but overall the mix is balanced for a 1969 broadcast tape."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Uncle John's Band > He Was A Friend Of Mine",
+        "Alligator > Caution Jam",
+        "Lovelight",
+        "Black Peter",
+        "Easy Wind (extended jam)",
+        "Next Time (Garcia & Pigpen duet)",
+        "Workingman's Dead early versions"
+      ],
+      "poor_songs": [
+        "Friend of Mine (off‑key vocals on some takes)"
+      ],
+      "setlist_flow": "Disc 1 and 2 present a typical ’69 set, while Disc 3 opens with the rare second ever Uncle John’s Band segue and then rolls through nonstop fire – the pacing stays tight despite the early tape hiccups.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His vocal intro to “Bid You Goodnight” is described as chilling; some note his voice sounded a bit rough/sick, but guitar work and vocals on Black Peter are praised as pristine.",
+      "Phil": "Bass shines especially during the Alligator→Caution jam (“Alligator > Phil; smokes”), with a few reviewers calling it “Phil bombs.”",
+      "Bob": "",
+      "Keys": "Organ/keyboard parts are highlighted – Tom Constanten’s contribution is called amazing, and the overall organ sound is described as sweet.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:48:03.108352+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-12-12.sbd.gerland.10988.sbeok.shnf"
+  }
 }

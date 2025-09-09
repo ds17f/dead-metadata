@@ -14,5 +14,44 @@
   "confidence": 0.6,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of the tight 1971 SUNY‑Cortland show, highlighted by a smoking Sugar Magnolia and a monster 24‑minute Good Lovin'.",
+    "review": "The recording is a clean soundboard mix with virtually no crowd bleed, letting the band's bare‑bones arrangements shine. The performance is energetic and concise, featuring standout moments on Sugar Magnolia, Hard to Handle (with Phil’s heavy bass), Truckin', Uncle John’s Band and an epic 24‑minute Good Lovin'. A brief wobble in Loser aside, the show is praised for its tight interplay and Bill Kreutzmann’s funky drumming.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Multiple detailed reviews highlight a strong musical performance and high‑quality soundboard recording; the few minor criticisms do not outweigh the overall enthusiasm."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear, crisp mix with minimal audience bleed; no noticeable dropouts or distortion mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Sugar Magnolia",
+        "Hard to Handle",
+        "Truckin'",
+        "Good Lovin'",
+        "Uncle John's Band"
+      ],
+      "poor_songs": [
+        "Loser"
+      ],
+      "setlist_flow": "A concise, song‑focused set that moves smoothly from tight jams to a sprawling 24‑minute Good Lovin', reflecting the 'bare‑bones' vibe of the early‑1971 college tour.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar tone praised as excellent; delivers strong Chuck Berry riff on Roundx2 and overall great playing.",
+      "Phil": "Heavy, leading bass on Hard to Handle but noted he had less 'elbow room' than usual.",
+      "Bob": "Vocal performance highlighted, including a primal scream that adds intensity.",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann described as 'badass' with deep, funky rhythm driving the show."
+    },
+    "processed_date": "2025-09-07T17:49:48.679103+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-18.sbd.130710.MrBill.flac16"
+  }
 }

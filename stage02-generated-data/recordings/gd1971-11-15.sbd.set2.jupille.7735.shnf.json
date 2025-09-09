@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.333333333333333,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture delivers a high‑energy ’71 set with a smoking Dark Star→El Paso segue and a tight NFA→GD TRFB jam, though some sections suffer from blurry vocals.",
+    "review": "The show shines thanks to an inspired Dark Star into El Paso transition, a killer NFA > GD TRFB medley and spirited jams that showcase Jerry’s soaring leads and Bob’s grounding rhythm. While the soundboard source is generally clear, the El Paso segment and early parts of NFA are noted as blurry, giving the recording a fair‑to‑good technical quality.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the performance highly (4–5 stars) and praise standout songs; recording issues are mentioned but limited, yielding a weighted average around 4.0."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Overall decent soundboard capture, but vocals on El Paso are blurry and early NFA section is muffled before clearing up later."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > El Paso",
+        "NFA > GDTRFB",
+        "Jam leading into China Cat (Jerry solo)",
+        "First set Dark Star"
+      ],
+      "poor_songs": [
+        "El Paso"
+      ],
+      "setlist_flow": "Mixed bag: strong Dark Star → El Paso segue, a slower‑sounding El Paso, then a lively jam that builds into a tight NFA > GDTRFB sequence; overall flow praised despite some uneven moments.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for soaring leads, beautiful China Cat solo, and redefining the jam sound.",
+      "Phil": "Mentioned briefly as soloing off Jerry and adding depth during jams.",
+      "Bob": "Mixed feedback: some criticize his slide guitar and vocals, others defend his grounding role in jams.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:38:39.579938+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-11-15.sbd.set2.jupille.7735.shnf"
+  }
 }

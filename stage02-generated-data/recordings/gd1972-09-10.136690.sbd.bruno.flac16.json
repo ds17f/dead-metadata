@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Muffled soundboard recording that needs EQ work, yet listeners appreciate its authentic feel and Jerry’s spot‑on vocals.",
+    "review": "One reviewer finds the tape too low‑level and muffled, comparing it unfavorably to other 1972 soundboards, while another celebrates the unenhanced, alive quality of the show and praises Jerry’s flawless lyrics. No specific songs or performance issues are mentioned beyond the general vibe.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "medium",
+      "rationale": "The show itself receives no detailed criticism or praise, so its quality is assumed average; recording quality is rated fair due to conflicting opinions, yielding a middle‑of‑the‑road overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Reviewers note low levels, muffled/mono‑like sound and EQ problems that need a boost; however, another reviewer enjoys the raw, unenhanced character of the tape."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure or flow.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Lyrics/vocals described as perfect by one reviewer.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:14:36.870710+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-10.136690.sbd.bruno.flac16"
+  }
 }

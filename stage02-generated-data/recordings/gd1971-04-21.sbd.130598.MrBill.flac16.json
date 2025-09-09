@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 2.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Over‑processed soundboard tape with weird treble and untuned guitars; recording quality is poor and the performance suffers.",
+    "review": "Both reviewers criticize this April 21, 1971 show, noting a processed, harsh treble that sounds like a low‑quality MP3 and guitars that were out of tune. The soundboard source is present but the remastering has degraded the audio, and no musical highlights are mentioned.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.0,
+      "confidence": "low",
+      "rationale": "Only two brief reviews, both highlighting negative aspects of sound quality and tuning; limited data leads to a low confidence rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Weird treble, over‑processed remaster that sounds like a low‑bit MP3; overall lack of clarity and harsh high frequencies."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:54:14.800251+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-21.sbd.130598.MrBill.flac16"
+  }
 }

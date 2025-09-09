@@ -14,5 +14,41 @@
   "confidence": 0.8,
   "raw_rating": 3.25,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Raw, hiss‑laden soundboard capture of a historic Halloween 1969 show featuring the only Cryptical > China Cat Sunflower segue, with a solid performance that shines despite poor audio.",
+    "review": "The recording is a soundboard source plagued by noticeable hiss and low‑fidelity tape noise, making it a rough listen. Musically, the show is praised for strong renditions of Dire Wolf, Cryptical Suite, Rider, Hell and especially the unique Cryptical reprise into China Cat Sunflower – a one‑off moment that gives the performance historic weight.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Reviews average ~3.25 stars; reviewers love the show (especially the rare song combo) but consistently criticize the recording quality, leading to a middling overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Prominent hiss and raw tape noise; overall mix is audible but details are muddy, making listening effortful."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cryptical Suite > China Cat Sunflower",
+        "Dire Wolf",
+        "Rider",
+        "Hell"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows with a rare Cryptical reprise into China Cat Sunflower and solid mid‑set numbers, typical of the late‑60s Dead repertoire, delivering a fun and energetic experience despite audio flaws.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:03:08.634672+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-10-31.sbd.lai.3377.sbefail.shnf"
+  }
 }

@@ -14,5 +14,39 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Fantastic soundboard capture featuring a stellar Dark Star and superb Morning Dew.",
+    "review": "The recording is praised as an awesome, crystal‑clear soundboard source that showcases the entire concert in top form. Highlights include an expansive Dark Star and a powerful rendition of Morning Dew, with the reviewer calling the whole show amazing. No technical flaws are noted, making it a highly enjoyable listen.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "medium",
+      "rationale": "A single detailed 5‑star review emphasizes both an excellent performance and superb soundboard quality; the rating reflects a near‑perfect show with outstanding recording."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer describes the audio as awesome and clear, with no mention of dropouts or muffiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Overall flow described as consistently amazing throughout the concert.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:32:39.019973+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-08-30.122267.upg.sbd.tobin.flac16"
+  }
 }

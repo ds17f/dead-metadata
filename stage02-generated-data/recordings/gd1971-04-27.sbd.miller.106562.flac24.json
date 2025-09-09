@@ -14,5 +14,40 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture with a rough Help Me Rhonda but a strong Pigpen showcase; overall decent early‑70s performance.",
+    "review": "The recording is a soundboard source that sounds fine for most of the set, though one reviewer calls the “Help Me Rhonda” segment terrible. The show itself gets high marks from a fan who praises Ron \"Pigpen\" McKernan’s contribution, while another notes the absence of Dog Chow and only minimal pig‑related material, making it an acceptable performance for its era.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Average star rating (4) with one strong positive comment about Pigpen and a negative note on a specific song’s sound; limited number of reviews yields moderate confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Generally acceptable for the period, but the “Help Me Rhonda” portion is described as sounding like 'shit', indicating noticeable audio issues on that track."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Pigpen (Ron McKernan)"
+      ],
+      "poor_songs": [
+        "Help Me Rhonda"
+      ],
+      "setlist_flow": "No specific flow comments; reviewers consider the set solid for its time with no Dogchows and limited pig‑related material.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Praised Ron \"Pigpen\" McKernan's performance, calling him great and essential to the show.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:14:41.717495+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-27.sbd.miller.106562.flac24"
+  }
 }

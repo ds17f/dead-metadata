@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a high‑energy 1972 show, highlighted by a monster Truckin’ > Other One marathon and scorching Big River.",
+    "review": "The Sept. 17 1972 Hamilton performance is celebrated for its seamless unit playing and soaring improvisations, especially the epic 40‑plus‑minute The Other One and the fiery Truckin' mini‑jam that launches Garcia into a blistering solo. Reviewers rave about the crystal‑clear SBD source, noting every instrument with vivid detail, while only a few minor vocal slips are mentioned.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "All six reviews award five stars and emphasize both an outstanding musical performance and excellent soundboard quality, leaving virtually no doubt of a top‑tier show."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Multiple reviewers praise the SBD source as crisp, clear and well balanced; no significant dropouts or muddiness are reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "The Other One",
+        "Big River",
+        "Loser",
+        "He's Gone",
+        "Sing Me Back Home"
+      ],
+      "poor_songs": [
+        "Sing Me Back Home",
+        "Half-Step Mississippi"
+      ],
+      "setlist_flow": "First set rolls through a packed mix of classics with extra‑tight jams; the second set launches into expansive improvisations, climaxing with an unprecedentedly long The Other One before closing strong with high‑octane encore material.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s “charges out” after lyrics on Truckin’, delivers pure artistry throughout the marathon Other One, and adds scorching Strat leads; reviewers describe his tone as ‘hot’ and his fills as extraordinary.",
+      "Phil": "Phil’s bass is noted for “rumbling not‑the‑usual notes” toward the end of The Other One, adding depth to the jam.",
+      "Bob": "Bob Weir (Bobby) gets shout‑outs for bonus shrieks on the “Playing in the Band” outro and for improvisational interplay with Jerry during Truckin’.",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann’s drumming is highlighted for extra beats on China Cat and a developing style that foreshadows his 1973 approach, especially evident on Loser."
+    },
+    "processed_date": "2025-09-08T02:26:02.848321+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-09-17.sbd.hamilton.154.sbeok.shnf"
+  }
 }

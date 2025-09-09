@@ -14,5 +14,46 @@
   "confidence": 0.8,
   "raw_rating": 5.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 11/19/72 Houston show captured on a soundboard with good clarity despite minor fade issues, featuring smoking Dark Star, China Cat Sunflower and a phenomenal Stella Blue.",
+    "review": "The performance is consistently praised for its fire – Dark Star, China Cat, Playin’ in the Band, Jack Straw and especially Stella Blue are highlighted as standout moments. The soundboard source delivers a clear mix with Jerry’s guitar and Phil’s bass sitting prominently up front, though a few listeners note occasional fade‑outs and “Bertha” drum quirks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All five reviews are 5‑star, emphasizing superb musical moments and a generally clean soundboard recording with only minor technical blemishes."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Overall clear mix with Jerry’s guitar and Phil’s bass prominent; some listeners note occasional fade‑outs and a “Bertha” drum issue, but the sound remains listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > Weather Part One",
+        "China Cat Sunflower",
+        "Playin' in the Band",
+        "Jack Straw",
+        "Stella Blue",
+        "Box of Rain",
+        "Bird Song",
+        "B.I.O.D.T.L.",
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set builds strong momentum and the second set launches into extended jams, delivering a balanced flow from tight song work to expansive improvisation.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "High in the mix; guitar work praised on Bird Song and backing vocals noted on B.I.O.D.T.L.; overall strong presence.",
+      "Phil": "Bass isolated and hot, higher in the mix throughout; phenomenal on Stella Blue and Box of Rain; “Phil bombs” vibe mentioned.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Bertha (Bill Kreutzmann) present but with some sound‑issue comments; overall rhythm section busy."
+    },
+    "processed_date": "2025-09-08T04:18:26.167684+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-11-19.123577.sbd.gans-miller.flac24"
+  }
 }

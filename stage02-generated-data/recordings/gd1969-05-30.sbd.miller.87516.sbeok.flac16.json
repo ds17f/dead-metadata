@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.611111111111111,
   "high_ratings": 16,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 5/30/69 Portland show with smoking Dark Star, The Eleven and a stellar St. Stephen.",
+    "review": "The Charlie Miller soundboard tape delivers crystal‑clear (aside from a faint hiss and the inevitable tape‑runout cut) audio that lets the band’s 1969 brilliance shine through.  Jerry’s soaring SG tone, Phil’s steady thunder‑bass, Bob’s warm vocals and the tight Bill/Mickey rhythm drive a set highlighted by Dark Star, The Eleven and an unusually long St. Stephen intro.  Overall the performance is vibrant, adventurous and one of the era’s must‑have recordings.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Average reviewer rating ≈4.6 with consistent praise for both musical performance (energy, standout songs) and recording quality (soundboard clarity). The large number of detailed reviews yields a high‑confidence positive rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Very clear mix with slight hiss typical of ’69 tapes; occasional tape‑runout cut at the end of Turn On Your Lovelight, but overall crisp and well balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Eleven",
+        "St. Stephen (long intro)",
+        "Cosmic Charlie",
+        "Turn On Your Lovelight",
+        "Doin' That Rag"
+      ],
+      "poor_songs": [
+        "Cosmic Charlie (some reviewers note weak vocals/tuning)"
+      ],
+      "setlist_flow": "Classic 1969 arc – a gentle opener with Morning Dew, building through Me and My Uncle and Doin' That Rag into an expansive Dark Star suite that segues into Cosmic Charlie, St. Stephen and The Eleven before the truncated Lovelight; the set feels cohesive and adventurous.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s SG tone is praised; his solo on Dark Star “turns up intensity” midway, he breaks a string but still delivers soaring bends and powerful leads.",
+      "Phil": "Lesh’s bass described as steady, thunderous and the backbone of the groove throughout the show.",
+      "Bob": "Weir’s vocal work on Me and My Uncle noted as friendly and strong; his “white‑noise” contributions on Lovelight are highlighted.",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann and Mickey Hart play almost in unison, with tight drumming and scattered runs that drive the improvisations."
+    },
+    "processed_date": "2025-09-08T13:01:34.921589+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-05-30.sbd.miller.87516.sbeok.flac16"
+  }
 }

@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.818181818181818,
   "high_ratings": 11,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent 1971 Austin show with a smoking Dark Star and epic Not‑Fade‑Away→Goin’ Down the Road jam, captured in a generally clear stereo broadcast mix despite minor clipping and splice issues.",
+    "review": "The performance is consistently praised as high‑energy and tightly locked, highlighted by a first‑set Dark Star, a flawless Not Fade Away → Goin' Down the Road Feeling Bad sequence, and strong renditions of Ramble On Rose, Cumberland Blues and Sugar Magnolia. The recording, sourced from an FM stereo broadcast (SBD), is described as “very nice sounding” and “wonderful stereo,” though a few reviewers note clipping at 0:52 and abrupt transitions that could benefit from a cleanup. Overall the show shines musically and remains very listenable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "The vast majority of reviews (10 out of 13) award five stars, praising both the musical performance and the sound quality; only minor technical complaints are noted, so the combined show‑plus‑recording score is high."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Stereo broadcast (SBD) with clear, balanced mix; praised as \"very nice sounding\" and \"wonderful stereo recording.\" Some reviewers report clipping around 0:52, abrupt Dark Star/El Paso splice, and missing transitions that could be cleaned up."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star (1st set)",
+        "Not Fade Away → Goin' Down the Road Feeling Bad",
+        "Ramble On Rose",
+        "Cumberland Blues",
+        "Sugar Magnolia",
+        "Truckin'",
+        "Playing In The Band"
+      ],
+      "poor_songs": [
+        "Beat It On Down the Line"
+      ],
+      "setlist_flow": "First set builds nicely with a smooth Truckin' into a standout Dark Star, while the second set delivers an intense NFA → GDTRFB jam and tight ensemble work throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar tone is praised as perfect; he “invests in the lyrics” on Ramble On Rose and shreds on Cumberland Blues.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith's keyboards are noted as being \"in the pocket\" just two months into his tenure, with percussive interplay on Ramble On Rose.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:35:58.947070+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-11-15.sbd.unknown.31607.flac16"
+  }
 }

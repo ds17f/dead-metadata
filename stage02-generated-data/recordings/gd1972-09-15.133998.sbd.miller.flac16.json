@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording of a Fall ’72 show with stellar setlist and heavy‑hitter performances, though early mix issues and a couple of audience‑sourced tracks mar the otherwise great sound.",
+    "review": "The concert is praised for its eclectic setlist – China Cat Sunflower → I Know You Rider, Playing in the Band, He’s Gone, Bird Song, Truckin’ → The Other One > Sugar Magnolia – delivering a high‑energy second half. While most listeners rave about the overall sound, several note monitor problems and a low‑key mix for keyboards early on, plus tape‑warble on the final two audience tracks.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviews are enthusiastic (5‑star) and highlight strong musical performance; a single low rating points out technical flaws that keep the recording from being rated higher."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Early set suffers from monitor bleed causing band to lose groove, keyboards buried in mix until later tracks, fade‑ins on first songs, and distorted audience (AUD) sources for Sugar Magnolia/One More Saturday Night plus tape warble on the final two songs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower > I Know You Rider",
+        "Playing in the Band",
+        "He's Gone",
+        "Bird Song",
+        "Truckin' > The Other One > Sugar Magnolia"
+      ],
+      "poor_songs": [
+        "China Cat Sunflower (tempo too slow early on)"
+      ],
+      "setlist_flow": "Eclectic and heavy‑hitting first set improves dramatically after the early monitor issues; second set builds into a high‑energy, tightly linked sequence.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Tempo slipped on China Cat intro; otherwise guitar work praised implicitly by overall show praise.",
+      "Phil": "",
+      "Bob": "Guitar sounded off on the early China Cat track.",
+      "Keys": "Keyboard (Keith) very low in the mix until later in the first set.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:17:06.039862+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-15.133998.sbd.miller.flac16"
+  }
 }

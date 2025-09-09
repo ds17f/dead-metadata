@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 16,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crisp soundboard capture of a high‑energy 1972 Wichita show featuring smoking Bird Song, a classic The Other One jam and stellar Keith piano work.",
+    "review": "The recording is praised for its crystal‑clear mix, excellent instrument separation and overall superb soundboard quality (with only minor pitch/tempo quirks).  Musically the concert shines – the first set rolls strong and the second set delivers a soaring Bird Song, an exploratory The Other One/Truckin' sequence, a beautiful Brokedown Palace and standout moments from Jerry’s scorching Me & My Uncle and Keith’s jazzy piano solos.  Energy stays high throughout despite a few cuts (Jack Straw, Tennessee Jed).",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "All reviews are 5‑star, consistently praising both the performance and the high‑quality soundboard source; only minor technical quirks are noted."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix with great instrument separation; praised as “high quality” and “better than Dave’s Picks”. Minor issues: slightly sharp pitch for some listeners and a tiny speed increase, plus isolated cuts in Jack Straw."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bird Song",
+        "The Other One",
+        "Truckin'",
+        "Brokedown Palace",
+        "Box of Rain",
+        "Me & My Uncle",
+        "He's Gone"
+      ],
+      "poor_songs": [
+        "Jack Straw (cut)",
+        "Tennessee Jed (partial cut)"
+      ],
+      "setlist_flow": "Solid first set with tight execution and strong vocals; second set builds into exploratory jams, highlighted by a seamless Truckin' → The Other One transition and a mellow Brokedown Palace finale.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s tone described as beautiful and “scorching” on Me & My Uncle; praised for powerful lead work throughout the show.",
+      "Phil": "Phil’s bass and vocals receive high marks – “sounds awesome”, sings Box of Rain like the studio version, and delivers a tight rhythm foundation.",
+      "Bob": "Bob Weir’s songs are noted as shining, with strong vocal delivery on his numbers.",
+      "Keys": "Keith’s piano work highlighted as brilliant, jazzy, and a key melodic driver during The Other One and other jams.",
+      "Drums": "Bill Kreutzmann (Billy) described as unstoppable in the extended jams, keeping the rhythm tight."
+    },
+    "processed_date": "2025-09-08T04:07:31.817623+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-11-17.sbd.lai.1185.shnf"
+  }
 }

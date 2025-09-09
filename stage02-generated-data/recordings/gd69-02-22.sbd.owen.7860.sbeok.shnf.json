@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.617647058823529,
   "high_ratings": 32,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "High‑energy 1969 Dream Bowl show with a smoking Dark Star and excellent soundboard capture that’s clear for its era but a bit muffled in spots.",
+    "review": "This February 22, 1969 performance is praised for its blistering Jerry Garcia leads (especially on Dark Star, The Eleven and Lovelight), tight transitions from acoustic to electric, and a soaring first set.  The SBD source provides surprisingly clean audio for a ’69 tape – most listeners find it very listenable despite occasional muffling or minor distortion.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Out of ~38 reviews the average rating is ≈4.66; the vast majority are glowing about the music and only a few note modest sound‑quality issues, yielding a strong combined show + recording score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear for a 1969 SBD; listeners describe it as “very good” and “cleaned‑up”, though a few note slight muffling, occasional distortion on Dark Star, and a missing patch on Death Don't."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Eleven",
+        "Lovelight",
+        "Doin' That Rag",
+        "St. Stephen",
+        "Mountains of the Moon",
+        "Cryptical Envelopment → Dark Star transition"
+      ],
+      "poor_songs": [
+        "Death Don't (cut/patch missing)"
+      ],
+      "setlist_flow": "Seamless acoustic‑to‑electric segue, strong first set that builds into a marathon Dark Star, followed by a high‑energy second set with tight transitions and extended improvisations.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly called “a man possessed”, praised for soaring leads, flawless tone, and driving the band into cosmic jams.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Mickey’s percussion noted as precise and a key part of the high‑energy flow."
+    },
+    "processed_date": "2025-09-08T10:43:36.913294+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-02-22.sbd.owen.7860.sbeok.shnf"
+  }
 }

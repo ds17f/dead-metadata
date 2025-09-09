@@ -14,5 +14,36 @@
   "confidence": 1.0,
   "raw_rating": 4.333333333333333,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Grainy audience tape of a high‑energy ’72 show with a standout second set despite the poor sound quality.",
+    "review": "The concert captures an energized performance from September 1972, highlighted by a “diamond in the rough” second set that many fans love. While the recording is notably grainy and cruddy—typical of audience sources—the musical vibe shines through, making it worth listening for Deadheads despite its technical shortcomings.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the show’s energy and second‑set strength (70% weight) while consistently noting poor, grainy recording quality (30% weight). The combined weighted assessment yields a solid mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Grainy, cruddy, low‑fidelity audio; many reviewers call it “very grainy” or “poor quality soundwise,” though the vibe of the performance is still audible."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "First set described as OK, second set regarded as a ripping highlight; overall flow praised for its high energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:18:29.558525+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-15.aud-degen.sirmick.31990.flac16"
+  }
 }

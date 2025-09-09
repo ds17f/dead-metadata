@@ -14,5 +14,41 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean soundboard capture of the April 6 1971 Manhattan Center show with a smoking Hog for You Baby, electric Dire Wolf and an unforgettable Pigpen‑driven Midnight Hour.",
+    "review": "The recording is a hi‑fi stereo soundboard mix that many reviewers note as cleaner than other copies, delivering crisp and balanced audio. Musically the performance shines – 24 songs flow together with high energy, highlighted by Hog for You Baby, Dire Wolf (electric), Oh Boy and a legendary midnight‑hour jam where Pigpen, Jerry and Bob lock in perfectly.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All three detailed reviews are 5‑star, praising both the exceptional soundboard quality and a high‑energy, standout performance; weighted rating yields a near‑excellent score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Hi‑Fi stereo soundboard mix praised as cleaner than other copies; crisp, clear balance with no reported dropouts or major flaws."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hog for You Baby",
+        "Dire Wolf (electric)",
+        "Oh Boy",
+        "Midnight Hour jam (Pigpen segment)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A marathon 24‑song set that moves smoothly, maintaining high momentum throughout; the second half builds to a powerful midnight‑hour climax.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Tight synch with Pigpen during the Midnight Hour, delivering seamless improvisation.",
+      "Phil": "",
+      "Bob": "In lockstep with Pigpen and Jerry, providing solid rhythm and vocal support.",
+      "Keys": "Pigpen on organ in top form, driving the intensity of the midnight‑hour segment.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:10:19.597587+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-06.sbd.lai.118.sbefail.shnf"
+  }
 }

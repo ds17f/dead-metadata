@@ -14,5 +14,41 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of a high‑energy ’68 show with a monster Alligator and smoking St. Stephen/The Eleven sequence, marred only by a brief diginoise glitch.",
+    "review": "The Miller/Noel master delivers an exceptionally clean and balanced soundboard recording that lets the band’s 1968 vigor shine through – from the towering Alligator to the precise St. Stephen and the searing The Eleven. Reviewers rave about the snare intro on The Eleven and Jerry’s short‑lived Les Paul tone, though a one‑second diginoise artifact around Alligator and slight early‑set balance quirks are noted.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Show performance is consistently praised (high energy, standout jams) and recording is mostly excellent; a single notable defect lowers the overall average slightly."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear, clean, and well‑balanced with crisp snare detail on The Eleven; minor issues include a ~1 s diginoise glitch at Alligator (16:41) and slightly off balance early in the set."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Alligator",
+        "St. Stephen",
+        "The Eleven",
+        "Death Don't Have To Be"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set builds with a peak Alligator and jammed Cryptical fragment; second set opens with a rare Dark Star>St. Stephen>Eleven sequence that smokes, followed by tight Death Don't and classic ’68 material.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His short‑lived Les Paul tone is highlighted as nice; guitar work generally praised.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Snare drum intro on The Eleven noted; a middle jam featuring Garcia and drums receives special mention."
+    },
+    "processed_date": "2025-09-08T08:45:04.966935+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-08-21.139746.sbd.MasterReel.Gastwirt.Miller.Noel.pcfix.t-flac1644"
+  }
 }

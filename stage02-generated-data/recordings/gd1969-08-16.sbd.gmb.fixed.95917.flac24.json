@@ -14,5 +14,38 @@
   "confidence": 0.8,
   "raw_rating": 3.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Fair soundboard capture of the Woodstock set with Pigpen’s marathon “Turn On Your Lovelight” standing out.",
+    "review": "The recording is an average‑quality soundboard tape that benefits from a bit of EQ work, but it is listenable.  The show itself isn’t hailed as a classic; reviewers note it was “not the worst,” with the 45‑minute Pigpen‑led rendition of “Turn On Your Lovelight” being the only specific highlight.  Overall sentiment is mixed, leaning mildly positive.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Reviews are few and vague; show quality appears average with one notable jam, while recording quality is decent but not exceptional."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Generally clear enough for a soundboard source but listeners are advised to use EQ; no specific drop‑outs or distortion mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Turn On Your Lovelight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "No detailed commentary on set structure; the only highlighted moment is Pigpen’s extended jam, suggesting a fairly average overall flow.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen leads a 45‑minute “Turn On Your Lovelight,” noted as a highlight and evidence he wasn’t on LSD that day.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:17:33.056433+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-08-16.sbd.gmb.fixed.95917.flac24"
+  }
 }

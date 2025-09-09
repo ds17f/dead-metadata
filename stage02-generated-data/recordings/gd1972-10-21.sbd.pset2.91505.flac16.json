@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.333333333333333,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with a bass‑forward, slightly unbalanced mix captures a high‑energy Vanderbilt show highlighted by a soaring Morning Dew and an epic The Other One.",
+    "review": "The set shines thanks to a raw but clean second half where Truckin' morphs into a monster The Other One and culminates in a beautiful Morning Dew.  While the soundboard source is generally clear, reviewers note that Phil’s bass dominates the mix and vocals sit low, with occasional drop‑outs during Bird Song.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average rating of 9 reviews is 4.33; most praise the performance and recording despite some mix imbalance, yielding a strong overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear overall sound but heavily bass‑forward; Jerry’s guitar is high in the mix, vocals are low, and Bird Song suffers an equipment glitch. Some reviewers note the mix could be better balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Morning Dew",
+        "The Other One",
+        "Truckin' > The Other One",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [
+        "Bird Song"
+      ],
+      "setlist_flow": "Second set flows seamlessly from Truckin' into an extended jam, delivering a high‑impact climax with The Other One and Morning Dew; the overall pacing is praised as tight and inspiring.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar sits up in the mix, especially on the Truckin' > The Other One transition, with a tone many describe as nice and prominent.",
+      "Phil": "Bass is front‑and‑center, described as fat, round and “too hot in the mix”; multiple reviewers hail his 1972 playing as amazing.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann is noted as low in the mix; not a focus but mentioned as subdued."
+    },
+    "processed_date": "2025-09-08T03:27:00.134797+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-10-21.sbd.pset2.91505.flac16"
+  }
 }

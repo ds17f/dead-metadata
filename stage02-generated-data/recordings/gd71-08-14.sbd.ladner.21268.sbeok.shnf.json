@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.75,
   "high_ratings": 35,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy August ’71 Berkeley show, highlighted by a monster The Other One jam and scorching Hard to Handle.",
+    "review": "The recording is a soundboard (SBD) source that most listeners describe as clear and well‑balanced, with only occasional mix quirks (Phil’s bass forward, Jerry slightly recessed, Bob’s guitar disappearing at times). Musically the concert is a classic early‑’71 performance – tight first set staples like Bertha, Me & My Uncle and Mr. Charlie flow into a second set dominated by a soaring The Other One > jam, Hard to Handle, Cumberland Blues and a fiery encore. Energy stays high throughout and the band’s interplay is frequently called “smoking” or “blazing.”",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "The vast majority of reviews are 5‑star, praising both performance and sound quality; only a few note minor mix issues or give lower scores, yielding an overall rating in the excellent range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally crisp and well‑balanced SBD tape. Reviewers note Phil’s bass prominent, Jerry a bit recessed, and occasional drop‑outs of Bob Weir’s guitar in the Not Fade Away jam. Some mention minor speed/pitch inconsistencies that can be corrected, but overall the sound is listenable and enjoyable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One > Jam (MLB/Spanish‑Jam style)",
+        "Hard to Handle",
+        "Cumberland Blues",
+        "Bertha",
+        "Me & My Uncle",
+        "Mr. Charlie",
+        "Sugar Magnolia",
+        "Big Railroad Blues"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set rolls through classic early‑’71 numbers with strong vocals and tight playing; the second set builds momentum, peaking at The Other One jam before launching into high‑octane Hard to Handle and finishing with a spirited double encore.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for blazing lead guitar, power chords, sparkling jazzy riffs, and strong background vocals; a few notes that his mix is sometimes a touch back.",
+      "Phil": "Universally lauded – “bombs,” “fat EB3 glory,” bass front‑center in the mix, heavy low‑end runs, and overall driving force of the night.",
+      "Bob": "Noted that his rhythm guitar disappears from the mix during the Not Fade Away jam, which reviewers call a loss; otherwise no specific performance criticism.",
+      "Keys": "Pigpen’s organ/vocals highlighted as “all in” on first set and strong on the NFA reprise; Keith’s piano mentioned positively for adding percussive texture.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:23:55.594536+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-08-14.sbd.ladner.21268.sbeok.shnf"
+  }
 }

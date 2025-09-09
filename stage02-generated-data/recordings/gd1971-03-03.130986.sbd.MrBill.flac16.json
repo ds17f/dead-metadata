@@ -14,5 +14,39 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Matrix‑sourced recording with uneven sound captures an early‑71 Fillmore show where the band is developing its chug‑a‑lug power, highlighted by Pig’s organ on “Loser” and a crowd‑loving “Hard To Handle”.",
+    "review": "Both reviewers note that the audio is far from pristine – described as uneven and sounding like a matrix mix – but they still enjoy hearing this first San Francisco show. The performance shows the Dead in a formative stage, with strong organ work by Pig (Ron McKernan) on “Loser,” an enthusiastic crowd response to “Hard To Handle,” and early hints of the powerful “chug‑a‑lug” sound that would explode later in 1971.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Reviews consistently give 4 stars, praising the musical moments despite noting sub‑par recording quality; weighted rating reflects strong show (≈4.5) and fair recording (≈3.0)."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Uneven sound, not terrific, some mix issues typical of a matrix source; however the recording is still listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard To Handle",
+        "Loser"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early San Francisco set showing the band building toward their iconic mid‑1971 sound; transitions are modest but the energy builds throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pig's organ work praised, especially on “Loser”; reviewers feel his B3 contributions were better than historically credited.",
+      "Drums": "Mickey Hart absent (sans Mickey?), leaving Bill Kreutzmann alone on drums; this is noted but not deemed a major detriment."
+    },
+    "processed_date": "2025-09-07T16:39:22.856273+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-03-03.130986.sbd.MrBill.flac16"
+  }
 }

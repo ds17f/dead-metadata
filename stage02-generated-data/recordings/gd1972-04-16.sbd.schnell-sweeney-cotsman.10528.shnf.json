@@ -14,5 +14,41 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard tape with a touch of hiss delivers a high‑energy show highlighted by a monster Truckin' and an adventurous Other One.",
+    "review": "The recording, captured from the soundboard, shows a modest amount of tape hiss that benefits from good bass response and a solid subwoofer setup. Musically the concert shines in the second set – a ripping Truckin', a wildly inventive The Other One jam, and a high‑octane Me & My Uncle that rank among the tour’s best. Overall the show is praised as an exciting, memorable performance despite the modest recording quirks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "All three reviewers gave 4‑5 stars and highlighted strong musical moments; recording quality is good but not pristine, yielding a solid overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Tape hiss present; benefits from decent subwoofer and volume. Sound is clear enough for the performance, though not immaculate."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "The Other One",
+        "Me and My Uncle",
+        "Good Lovin'"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set dominates with extended jams; first‑set material is solid but less emphasized. Transitions are smooth, especially the NFA > GDTRFB finish.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for a tight duet with Phil on Truckin' and for strumming unique melodic chords during The Other One.",
+      "Phil": "Bass described as percolating and forming an excellent duet with Jerry on Truckin'.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T23:12:11.372383+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-04-16.sbd.schnell-sweeney-cotsman.10528.shnf"
+  }
 }

@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard source with occasional raspiness, yet showcases a fiery Jerry and soaring The Other One > Wharf Rat sequence.",
+    "review": "The show is praised for its high energy – Jerry’s guitar is “on fire,” the band pulls off an impressive The Other One into Wharf Rat, and Ramble on Rose shines. Recording quality is mixed: most listeners find it listenable with sweet moments, though a few note raspy spots and brief drop‑outs.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Five detailed reviews give an average of 4 stars; most comments are positive about performance with only minor recording complaints, yielding a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and listenable soundboard capture, but some reviewers mention raspy spots, occasional drop‑outs, and a slightly muffled section that sounds like a harmonica bleed."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One > Wharf Rat",
+        "Ramble on Rose",
+        "Two Souls"
+      ],
+      "poor_songs": [
+        "Big Railroad Blues (only 45 seconds)"
+      ],
+      "setlist_flow": "Continuous, interesting playing with long intros, a tease of Me & My Uncle, and tight transitions that keep the momentum high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as \"on fire\" and very animated on lyrics; guitar tone praised.",
+      "Phil": "Provides strong backup vocals on Ramble on Rose; overall solid bass support noted.",
+      "Bob": "",
+      "Keys": "Keith (keys) is mentioned sizing up during Ramble on Rose, hinting at active keyboard presence.",
+      "Drums": "Drums highlighted in the long intro to The Other One and noted for keeping the groove."
+    },
+    "processed_date": "2025-09-07T22:18:48.214545+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-03-21.sbd.vernon.9331.sbeok.shnf"
+  }
 }

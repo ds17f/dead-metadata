@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.583333333333333,
   "high_ratings": 23,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of an intimate, high‑energy ’71 Allegheny College show with Garcia shredding and several standout jams.",
+    "review": "The recording is a superb soundboard source that presents the band in crystal‑clear form despite a few missing songs.  The performance is electric – the boys are smoking on classics like Bertha, Deal, Big Boss Man, El Paso and Good Lovin’, with Garcia delivering razor‑sharp solos and a powerful Pigpen‑led vibe throughout.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is ~4.6, overwhelmingly positive comments on both show energy and soundboard quality; only a single low‑star outlier does not shift the overall assessment."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, superb mix with clear instrument separation.  Reviewers note a few missing songs and one comment about a slightly veiled sound, but overall the audio is considered top‑notch."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha",
+        "The Other One (Deal)",
+        "Big Boss Man",
+        "El Paso",
+        "Good Lovin'",
+        "Next Time You See Me",
+        "Second That Emotion"
+      ],
+      "poor_songs": [
+        "Sugar Magnolia (noted as a screw‑up)"
+      ],
+      "setlist_flow": "Intimate small gym setting with the crowd close to the band; the show builds after Pigpen’s Good Lovin’, delivering an upbeat, trippy flow that keeps momentum high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia is praised for shredding, powerful tone and lightning‑fast solos on several numbers (Bertha, Deal).",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:38:40.161472+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-04-15.sbd.eD.11652.sbeok.shnf"
+  }
 }

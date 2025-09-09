@@ -14,5 +14,41 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Decent (though hissy and bright) soundboard with some audience‑sourced cuts, capturing a hungry Winterland show highlighted by Promised Land, Sugar Magnolia and Sunshine Daydream.",
+    "review": "The performance is described as rehearsed, ready and \"hungry,\" delivering solid 72‑minute sets that include rare moments like \"Tomorrow Is Forever\" and classic crowd‑pleasers such as \"Promised Land\" and \"Sugar Magnolia.\" Recording quality is mixed: most of the show comes from a soundboard that many find acceptable but others rate as extremely hissy and overly bright, with a few tracks (Promised Land, Sugar Magnolia, Sunshine Daydream) sourced from audience recordings. Overall the show shines musically despite technical shortcomings.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "Show is praised for energy and setlist, but recording quality receives conflicting feedback (some find it decent, others rate it among the worst), resulting in a moderate overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Several reviewers note hissy, overly bright EQ and occasional drop‑outs; three songs (Promised Land, Sugar Magnolia, Sunshine Daydream) are audience recordings, giving a mixed‑source feel."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Promised Land",
+        "Sugar Magnolia",
+        "Sunshine Daydream",
+        "Tomorrow Is Forever"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Solid 72‑minute performance with a professional, rehearsed feel; occasional audience‑sourced tracks interrupt the soundboard continuity but do not detract from overall momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T04:36:42.353415+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-12-11.sbd.cousinit.100398.flac16"
+  }
 }

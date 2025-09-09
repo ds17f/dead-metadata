@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 1.8,
   "high_ratings": 0,
-  "low_ratings": 5
+  "low_ratings": 5,
+  "ai_review": {
+    "summary": "Muddy audience recording of a Wembley ’72 show where the second‑set Truckin' and The Other One shine despite near‑unlistenable sound.",
+    "review": "The performance includes several musical high points – an excellent Truckin' with a strong Garcia solo, a superb The Other One suite and a noteworthy China/Rider transition – but the two audience sources are described as extremely muddy and virtually unlistenable. Listeners appreciate the historical value and the few standout moments, yet the poor audio quality dominates the overall experience.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 2.3,
+      "confidence": "medium",
+      "rationale": "Show contains several strong performances (Truckin', The Other One, China/Rider) but recording is consistently described as terrible and unlistenable; low star ratings across reviews drive the overall rating down."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Both audience sources are extremely muddy, with frequent drop‑outs and a 'tennis match' of sounds; reviewers call it unlistenable, muffled and barely listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "The Other One",
+        "China/Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set largely unremarkable; second set launches with a strong Truckin' segueing into a superb The Other One suite with melodic space and jazzy reprise, highlighted by Garcia solo work.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's solo on Truckin' is praised; interplay with keyboards noted during The Other One.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith contributes a melodic space segment and jazzy interplay in The Other One reprise.",
+      "Drums": "A notable drum break precedes the transition into The Other One."
+    },
+    "processed_date": "2025-09-07T22:51:14.146405+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-04-07.aud.sirmick.31329.sbeok.flacf"
+  }
 }

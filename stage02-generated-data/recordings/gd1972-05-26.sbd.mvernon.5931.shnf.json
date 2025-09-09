@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of the May 26 1972 show with a monster first set and an epic Truckin’/The Other One suite featuring soaring Garcia and stellar Keith work.",
+    "review": "Reviewers rave about the pristine, full‑spectrum soundboard tape – calling it the best circulating version with virtually no patches or muffiness. Musically the concert is described as monumental: a blistering first set highlighted by Cumberland Blues, Jack Straw, China > Rider and an extended Playin’ in the Band, followed by a second‑set marathon of Truckin’, The Other One (35+ minutes) and a breathtaking Morning Dew Prelude jam. Energy is consistently high and every band member receives praise, especially Keith’s keyboard wizardry and Garcia’s soaring leads.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "All five reviews award 5 stars, emphasizing both an outstanding performance and near‑perfect soundboard quality; the consistency and detail across multiple reviewers justify a top‑tier rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Described as crystal clear, full spectrum, with no noticeable patches. Minor cuts/blips are mentioned but do not detract from overall clarity; one tape flip in the Dew is noted."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cumberland Blues",
+        "Jack Straw",
+        "China > Rider",
+        "Playin' in the Band (extended)",
+        "Dire Wolf",
+        "Truckin' > The Other One > Epilogue",
+        "Morning Dew (with Prelude jam)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A monster 19‑song first set flows seamlessly into a second set that opens with an extended jam suite, culminating in the legendary Truckin’/The Other One marathon and a transcendent Morning Dew finale.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s tone is praised as soaring and perfectly locked in with Keith; his leads are described as 'smoking' and 'tight'.",
+      "Phil": "Phil’s bass solo before The Other One intro is highlighted, and his counterpoint work during the Prelude jam receives commendation.",
+      "Bob": "Bob contributes solid rhythm and counterpoint throughout; reviewers note his interplay with Garcia and Phil.",
+      "Keys": "Keith’s playing is called extraordinary—creating themes out of nothing, sounding like Steve Winwood, and delivering the most compelling keyboard moments of the night.",
+      "Drums": "The drum solo after The Other One intro is noted as great, supporting the high‑energy flow of the second set."
+    },
+    "processed_date": "2025-09-08T00:32:43.607619+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-05-26.sbd.mvernon.5931.shnf"
+  }
 }

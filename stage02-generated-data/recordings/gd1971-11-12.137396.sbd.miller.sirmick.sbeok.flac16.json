@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 1.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Heavily distorted recording with an out‑of‑tune performance makes this show difficult to enjoy.",
+    "review": "The sole reviewer describes the audio as very distorted and notes that the band sounded out of tune throughout, indicating both technical and musical shortcomings. With no redeeming moments mentioned, the recording offers little value for listeners seeking a clear Dead experience.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.2,
+      "confidence": "low",
+      "rationale": "Only one 1‑star review citing severe distortion and tuning problems; both show and recording quality are judged poor."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "Reviewer calls it a very distorted recording, implying heavy noise/muddiness and lack of clarity."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:29:44.121003+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-11-12.137396.sbd.miller.sirmick.sbeok.flac16"
+  }
 }

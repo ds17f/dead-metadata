@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording that respects song continuity (notably Good Lovin'), delivering a smooth listening experience.",
+    "review": "The reviewer gave the release a full five stars, chiefly applauding Mike Lai for keeping Good Lovin' intact rather than chopping it into multiple tracks. While no specific comments about audio clarity or performance are made, the praise of the track handling implies a clean, well‑mixed soundboard source that lets the show flow naturally.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "Only one review (5 stars) praising the recording’s presentation; limited detail on performance leads to a strong but cautious rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer highlights sensible track splitting, indicating a clean and well‑mixed soundboard source with no noted audio issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The review emphasizes the importance of keeping songs whole, suggesting the set flows naturally without disruptive track breaks.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:21:10.098962+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-08.sbd.lai.fix-120.23732.sbeok.shnf"
+  }
 }

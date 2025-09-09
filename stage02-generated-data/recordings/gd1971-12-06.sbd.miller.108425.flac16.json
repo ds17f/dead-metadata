@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.333333333333333,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean Miller soundboard captures a high‑energy New York show with standout performances of Mr. Charlie, Wharf Rat and a rare Run Rudolph Run.",
+    "review": "The recording is a solid Miller soundboard mix that, despite a brief intro glitch and some listener‑level complaints about track splits, presents the band clearly with Jerry’s soaring guitar tone front and center. The concert itself is praised for its palpable energy, highlighted by Pigpen’s work on Mr. Charlie and Next Time You See Me, gorgeous renditions of Wharf Rat and Black Peter, and a high‑octane Truckin' opener that keeps the vibe smoking all night.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4–5 stars and highlight strong musical performance; recording is described as clean and well‑balanced, yielding an overall high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear Miller soundboard with a brief intro sound issue; mix favors Jerry’s guitar while Phil’s bass is noted as lower than desired; several reviewers complain about the artificial track splits for Cryptical Envelopment/Drums/The Other One."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mr. Charlie",
+        "Next Time You See Me",
+        "Wharf Rat",
+        "Truckin'",
+        "Run Rudolph Run"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong, high‑octane opener with Truckin', smooth mid‑set flow (China Cat Sunflower > I Know You Rider), and a satisfying book‑end with Casey Jones and Freight Train jams.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Soaring guitar tone praised on Mr. Charlie, Black Peter, Wharf Rat; overall lead work described as gorgeous.",
+      "Phil": "Bass noted as solid but some reviewers wish his mix level higher.",
+      "Bob": "Weir’s vocals and rhythm guitar highlighted on Jack Straw and other numbers; Pigpen’s harp and vocal contributions praised.",
+      "Keys": "Organ and piano parts mentioned as nice, with specific nod to Keith's piano work.",
+      "Drums": "Few drum solos noted; Billy's solo split creates listening gaps that some find distracting."
+    },
+    "processed_date": "2025-09-07T21:06:52.593957+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-12-06.sbd.miller.108425.flac16"
+  }
 }

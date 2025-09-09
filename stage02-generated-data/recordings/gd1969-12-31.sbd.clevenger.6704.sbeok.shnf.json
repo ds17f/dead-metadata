@@ -14,5 +14,42 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑fidelity soundboard capture of a fiery New Year’s Eve set featuring electric Seasons, Alligator > Caution, and a blistering Not Fade Away.",
+    "review": "The recording delivers crystal‑clear soundboard quality—listeners even call the Seasons mix the best they’ve heard—while the performance bursts with energy. Highlights include an electric rendition of the acoustic‑type tunes (Seasons, Race Is On, Silver Threads), a tight Alligator → Caution stretch, and a hard‑jammed Not Fade Away with Weir and Pigpen sharing vocals. The crowd’s excitement is palpable and the band clicks on all cylinders.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Both reviewers gave 5‑star ratings, praising the show’s energy, standout songs, and excellent soundboard clarity; no criticisms were noted."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear, crisp mix with especially praised fidelity on the Seasons performance; no dropouts or balance issues reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Seasons",
+        "Alligator > Caution",
+        "Not Fade Away",
+        "High Time",
+        "Merry Go Round (Dark Star tease)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Acoustic‑type songs placed at the end but performed electrically, creating an unusual yet exciting arc; transitions flow smoothly and the band maintains high momentum throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals described as “cool” and especially strong on High Time.",
+      "Phil": "Bass noted for a cello‑like tone during Caution.",
+      "Bob": "Pigpen shares vocals with Weir on Not Fade Away; his presence highlighted throughout the set.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T16:20:57.822529+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-12-31.sbd.clevenger.6704.sbeok.shnf"
+  }
 }

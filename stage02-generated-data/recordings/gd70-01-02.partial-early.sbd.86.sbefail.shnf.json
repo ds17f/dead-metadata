@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.714285714285714,
   "high_ratings": 21,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Superb soundboard recording captures a high‑energy, late‑1970 show highlighted by an epic Dark Star, fiery St. Stephen, thunderous Eleven and soaring Lovelight.",
+    "review": "The partial early set delivers one of the most celebrated Dark Stars of the era, with layered spacey jams, a standout Eleven and a rapturous Lovelight that showcase Jerry’s melodic fire and Pigpen’s organ brilliance.  The soundboard source is praised for crystal‑clear cymbals, front‑center drums and an overall crisp mix, despite a brief hiss and a cut in St. Stephen due to the recording being incomplete.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Consistently high star ratings (mostly 5) and repeated praise for both performance and audio quality indicate an exceptional show with excellent recording, offset only by its truncated nature."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, front‑forward cymbals and snare; superb mix and clarity. Minor hiss from tape source and a cut in St. Stephen noted, but overall no significant dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "St. Stephen",
+        "The Eleven",
+        "Lovelight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Partial early set presented as Dark Star → St. Stephen → Lovelight; despite being truncated, the flow remains powerful and cohesive.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple reviewers highlight Jerry’s beautiful, melodic playing late in Dark Star and his overall fire throughout the set.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "References to Tom Constanten’s organ presence on Dark Star and Pigpen’s rare organ solo during Lovelight are noted.",
+      "Drums": "Cymbals, snare and overall drum mix are praised as front‑and‑center and very clear."
+    },
+    "processed_date": "2025-09-08T18:09:15.068908+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-01-02.partial-early.sbd.86.sbefail.shnf"
+  }
 }

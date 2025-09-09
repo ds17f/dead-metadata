@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.75,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard transfer that captures a high‑energy May ’71 show highlighted by a primal “The Other One” and a fiery NFA > GDTRFB > NFA sequence.",
+    "review": "The Charlie Miller SBD is praised for its thick, crystal‑clear mix with Phil’s bass sitting prominently in the front, delivering a vivid ‘living‑room’ feel. Musically the partial show shines on “The Other One,” the NFA‑GDTRFB jam and classic psychedelic moments like Wharf Rat, offering an unmistakably high‑octane 1971 vibe. While one reviewer notes set‑list confusion, the overwhelming consensus is that both performance and recording are top‑tier.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average star rating across nine reviews is ~4.2; most comments praise the show’s energy and the superb soundboard transfer, with only a single outlier complaint about set‑list errors."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Transfer by Charlie Miller described as gorgeous, thick, and crystal‑clear; Phil’s bass is unusually forward in the mix, creating a vivid ‘in‑the‑room’ experience. No dropout or muffling issues reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "NFA > GDTRFB > NFA",
+        "Wharf Rat"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Partial show of core ’71 material; strong, trippy first‑half energy with a particularly primal second‑set jam flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Noted for a standout solo on “Loser” and generally praised within the psychedelic melt‑down vibe.",
+      "Phil": "Prominently featured – described as ‘fat’, ‘way high in the mix’, and delivering thunderous, primal bass throughout.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:35:29.140946+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-05-29.sbd.miller.110324.flac16"
+  }
 }

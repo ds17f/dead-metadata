@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Solid 1971 show captured on a clean soundboard tape with a strong performance.",
+    "review": "Both reviewers praise the concert as a solid four‑star outing and note that the SBD source sounds better than many other tapes from the era. The recording is described as great and clearer than comparable board mixes, making the music easy to enjoy.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Two consistent 4‑star reviews highlight both a good performance and a quality soundboard recording; with limited data the rating stays at an even 4."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers say the tape sounds better than other SBDs, describing it as a great and clear recording with no noted flaws."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure; reviewers simply note an overall solid performance.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:15:43.497638+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-07.136892.sbd.GEMS.flac16"
+  }
 }

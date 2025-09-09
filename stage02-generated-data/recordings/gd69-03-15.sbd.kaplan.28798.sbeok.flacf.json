@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 3.6,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience tape with hiss/roar that still captures an honest show, highlighted by a smoking Eleven and a slide‑laden Hard to Handle.",
+    "review": "The recording is an audience source from Bear’s private stash; it isn’t pristine and contains noticeable hiss and occasional roar, but the overall mix is listenable. Musically the concert is solid – Jerry’s lead work on The Eleven and his slide on Hard to Handle draw particular praise, while the early songs and Schoolgirl are viewed as weaker spots.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Five reviews provide a consistent moderate‑to‑positive picture (average 3.6 stars). Show performance is praised for specific moments, while recording quality is noted as imperfect but acceptable, leading to an overall rating near 4."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Hiss and roar present; not a pristine reel‑sourced tape. Recorded from Bear’s personal audience collection, so the mix is raw but generally clear enough for enjoyment."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Eleven",
+        "Hard to Handle"
+      ],
+      "poor_songs": [
+        "Schoolgirl",
+        "first couple of songs (early set)"
+      ],
+      "setlist_flow": "A straightforward, honest performance that feels like the band is playing for the dancing crowd rather than a perfect live‑recording audience.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Slide work on Hard to Handle and lead passages on The Eleven are highlighted as smiles‑inducing moments.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T11:05:33.817954+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-03-15.sbd.kaplan.28798.sbeok.flacf"
+  }
 }

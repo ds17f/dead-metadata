@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "FM‑sourced tape delivers a muddy first set but an upbeat second set highlighted by Keith's piano work.",
+    "review": "The recording is taken from an FM broadcast, resulting in low‑fidelity sound on the first set (muted highs and occasional drop‑outs) while the second set sounds noticeably cleaner. Musically the show is described as upbeat with a strong keyboard presence and a compelling cryptic suite, making it a worthwhile listen despite the technical flaws.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "Two reviews show moderate appreciation of the performance (4‑star upbeat set) but note significant recording issues on the first half, leading to a blended rating weighted toward show quality."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "First set very poor – muddy, muted highs, possible low‑grade FM taping; second set clearer. Truckin' cut off a few seconds. Not an audience tape."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cryptical Suite (cryptical suite)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical 1971 show flow – first set suffers from recording issues, second set recovers with higher energy and tighter playing.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith's piano is praised as nice and adds to the upbeat vibe.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:07:39.854691+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-10-29.fm.cotsman.10357.sbeok.shnf"
+  }
 }

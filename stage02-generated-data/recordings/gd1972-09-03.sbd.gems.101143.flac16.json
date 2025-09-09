@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1972 Boulder show with standout He's Gone > Other One > Wharf Rat and solid soundboard capture, though a few patches and EQ tweaks are needed.",
+    "review": "The three‑set performance from September 3, 1972 at Folsom Field is praised for its fire‑filled jams—especially the He’s Gone → Other One → Wharf Rat sequence, Mexicali Blues, China Cat Sunflower and Playing In The Band.  The soundboard MP3 source is considered one of the best available on the Archive, but listeners note occasional patchwork sections and recommend EQ adjustments to smooth out the mix.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars for musical performance, highlighting strong jams and set flow; recording quality is generally good with minor patch/EQ issues, leading to an overall rating above average."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "MP3 soundboard source praised as the best on IA for this show; some reviewers mention occasional patches (Cold Rain and Snow, Wharf Rat, Rockin' Pneumonia) and recommend using EQ to improve clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "He's Gone > Other One > Wharf Rat",
+        "Mexicali Blues",
+        "China Cat Sunflower",
+        "Playing In The Band",
+        "dp36 filler tunes (e.g., Dark Star / Space segments)"
+      ],
+      "poor_songs": [
+        "Cold Rain and Snow (patched)",
+        "Wharf Rat (patched in some sections)",
+        "Rockin' Pneumonia (patches)"
+      ],
+      "setlist_flow": "Three‑set monster with a strong third set; transitions flow well, though the encore (One More Saturday Night) is uncertain.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Backing vocals from Phil are noted as impassioned on several tracks.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:00:45.874248+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-03.sbd.gems.101143.flac16"
+  }
 }

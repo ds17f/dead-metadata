@@ -14,5 +14,50 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1972 show with historic first performances and solid playing, captured on a soundboard SBD that has hum and channel quirks but is overall listenable.",
+    "review": "The concert is praised for its playful, focused musicianship – standout moments include the debut of “Looks Like Rain” (Garcia on pedal steel), the first “Stranger”, an epic Truckin’ > The Other One stretch, and a hyper‑charged “One More Saturday Night”.  The SBD source sounds good after modest hum reduction and EQ, though it suffers from occasional buzz, clipped starts and a missing Chinatown track.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Multiple detailed 5‑star reviews highlight an exceptional performance with many historic firsts; recording is solid soundboard but needs minor cleaning, leading to a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Hum/buzz present in parts, some clipped track beginnings and missing Chinatown segment; channels need swapping and modest EQ/pitch correction. Reviewers note the SBD is clearer than most and improves with simple hum‑reduction."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Looks Like Rain",
+        "Greatest Story Ever Told (first great arrangement)",
+        "Tennessee Jed",
+        "Playing in the Band (expanded jam)",
+        "Next Time You See Me",
+        "Ramble on Rose",
+        "Big Railroad Blues",
+        "Not Fade Away",
+        "Goin' Down the Road Feeling Bad",
+        "One More Saturday Night"
+      ],
+      "poor_songs": [
+        "Me & My Uncle (described as “punching down”)",
+        "Some short songs in second set (noted as less engaging)"
+      ],
+      "setlist_flow": "First set runs nearly two hours with early‑era '72 material and several first‑time debuts; second set builds into a long Truckin’ > The Other One sequence and finishes with an upbeat Saturday Night, keeping momentum high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s pedal steel on “Looks Like Rain” is called ‘utterly sublime’; his solo ending on “Greatest Story Ever Told” is highlighted.",
+      "Phil": "",
+      "Bob": "\"Bobby's rhythm is incredible\" (praise for Bob Weir’s rhythm guitar throughout the set).",
+      "Keys": "Keith (keyboardist) disappears from the mix during Chinatown and most of the set; channels need swapping.",
+      "Drums": "One reviewer notes they \"didn't discern drumming during drums\", indicating a weak drum presence in parts."
+    },
+    "processed_date": "2025-09-07T22:19:59.762031+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-03-21.136670.sbd.sirmick.flac16"
+  }
 }

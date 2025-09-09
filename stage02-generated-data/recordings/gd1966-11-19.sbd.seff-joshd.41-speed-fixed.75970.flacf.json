@@ -14,5 +14,40 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Clear soundboard capture of a high‑energy show with an early Smokestack Lightnin' jam into King Bee and a standout Cold Rain & Snow.",
+    "review": "The recording is praised for its solid, clear soundboard quality with no noticeable flaws. The performance is described as very high energy, highlighted by an impressive early version of Smokestack Lightnin' that flows into King Bee and a powerful rendition of Cold Rain & Snow. While one reviewer found the overall show merely “meh,” the majority celebrate it as a fantastic, memorable concert.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers gave 5‑star ratings and highlighted exceptional musical moments; recording quality is noted as good with no complaints, yielding a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Listeners comment on overall quality and clarity; no specific issues such as drop‑outs or muddiness are mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cold Rain & Snow",
+        "Smokestack Lightnin'",
+        "King Bee"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows well with energetic jams, especially the early Smokestack that segues into King Bee; the overall pacing is described as very high energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "A playful reference to \"Bill Sommers\" highlights Bill Kreutzmann's drumming style, noted by reviewers."
+    },
+    "processed_date": "2025-09-08T06:06:29.752538+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1966-11-19.sbd.seff-joshd.41-speed-fixed.75970.flacf"
+  }
 }

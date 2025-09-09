@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.142857142857143,
   "high_ratings": 6,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "High‑energy 1972 European show with a smoking Dark Star > Sugar Magnolia transition; audience tape is muddy but still listenable.",
+    "review": "The performance shines – Dark Star into Sugar Magnolia and the Good Lovin' sandwich are repeatedly called “outstanding,” with Billy Kreutzmann’s drumming hailed as godlike and Jerry Garcia’s pedal‑steel work praised. The recording, an audience source from ’72, is described as cloudy, boomy and at times muddy with dropouts, yet several listeners find it rich enough to enjoy the music.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show very highly (5‑star) for performance; recording quality receives mixed comments, lowering the overall weighted score to around 4.2."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Muddy, boomy and cloudy sound with pitch warbling and dropouts (especially in Truckin' and Dark Star); keyboards and drums can dissolve into mush, but some note a rich, warm ambience."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > Sugar Magnolia",
+        "Good Lovin' sandwich (Good Lovin' / NFA > GDTRFB > NFA)",
+        "Playin' in the Band",
+        "China Cat tease"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set bursts with high energy, tight transitions and extended jams; the Dark Star segue into Sugar Magnolia is a highlight of the night.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Pedal‑steel on LLR praised; his Strat tone cuts through the murky mix and is described as sharp and inspiring.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keyboards noted as muddy in the recording, but no specific performance criticism.",
+      "Drums": "Billy Kreutzmann “on fire” throughout, especially on NFA > GDTRFB > NFA segment; drumming called godlike."
+    },
+    "processed_date": "2025-09-07T23:07:26.870424+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-04-14.aud.vernon.23662.sbeok.shnf"
+  }
 }

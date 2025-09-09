@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 9,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Despite a sub‑par microphone‑captured FM broadcast (mono mix, occasional boom and splices), the show bursts with high energy, highlighted by a smoking \"The Other One\" and a memorable Ramble On Rose encore.",
+    "review": "This recording preserves an exuberant late‑1971 performance where Jerry rides a three‑hour marathon, Keith’s piano shines, and the band locks into fierce jams, especially on The Other One. Technically the source is a mic‑recorded FM broadcast with mono mix, boomy bass and tape splices that limit fidelity, but the musical fire more than compensates for those flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is 4.0 stars; most praise the show’s energy and jams while repeatedly noting recording shortcomings, leading to a strong overall impression but tempered by technical issues."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Microphone capture of an FM broadcast; mono mix with occasional boomy bass, hiss and tape splices; some sections break off after a splice; overall listenable but below professional soundboard standards."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Ramble On Rose"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Energetic throughout with a high‑octane first set and a jam‑heavy second set; the band stays tightly locked, delivering powerful transitions especially into The Other One.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as on a roll for three hours, animated, bluegrass‑style picking, and generally delivering high energy throughout the show.",
+      "Phil": "Noted as particularly active in jams, pushing riffs during The Other One and maintaining strong interplay with the rest of the band.",
+      "Bob": "",
+      "Keys": "Keith's piano praised for beautiful playing and instantly adapting to drive the jams.",
+      "Drums": "Billy (Bill) described as an animal throughout the performance."
+    },
+    "processed_date": "2025-09-07T20:41:20.070359+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-11-17.fm.cotsman.10285.sbeok.shnf"
+  }
 }

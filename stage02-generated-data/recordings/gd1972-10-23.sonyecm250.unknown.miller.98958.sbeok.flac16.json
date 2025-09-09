@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.555555555555555,
   "high_ratings": 8,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Warm audience cassette captures a high‑energy 1972 show with standout performances of Stella Blue, Deal and an epic Dark Star.",
+    "review": "The recording is an audience tape that, despite some cloudiness and the need for careful editing between sources, delivers surprising depth and warmth. The concert itself is described as a high‑energy two‑hour first set featuring gorgeous renditions of Stella Blue, a sick Deal, and a truly epic Dark Star, making it a fan favorite.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers praise both the musical performance (high energy, standout songs) and the recording quality (warm, clear enough), yielding a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Audience cassette with some cloudy sound and tape‑editing between sources, but overall warm, clear depth; praised for being surprisingly crisp for an audience recording."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Stella Blue",
+        "Deal",
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Two‑hour first set with high energy and smooth transitions, highlighted by strong performances of the noted songs.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:30:39.008110+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-10-23.sonyecm250.unknown.miller.98958.sbeok.flac16"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 0.6,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear soundboard restoration delivers crisp audio, highlighted by a laid‑back Friend of Mine and overall high‑energy rocking, though the organ on It’s All Over Now sounds off‑key.",
+    "review": "The recording benefits from an excellent soundboard source and careful restoration, giving a clean and balanced listening experience. Musically the show is a solid rocker with a standout, relaxed rendition of Friend of Mine, but it feels somewhat incomplete and the organ on It’s All Over Now appears out of key, tempering enthusiasm.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Reviews praise the soundboard quality and a strong performance of Friend of Mine while noting an incomplete show and a problematic organ part; overall rating reflects good musical energy with minor flaws."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Nice sound and solid restoration noted by multiple reviewers; generally clear mix, though one reviewer perceives the organ/keyboards sounding in the wrong key on a specific song."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Friend of Mine"
+      ],
+      "poor_songs": [
+        "It's All Over Now"
+      ],
+      "setlist_flow": "Show feels incomplete and missing some momentum, but retains a rocking vibe throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His solo described as thick and twangy, complementing the laid‑back feel of Friend of Mine.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Nice keys accompany Jerry on Friend of Mine; however organ on It's All Over Now sounds possibly out of key.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:40:13.122063+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-09-06.134413.sbd.samaratino.droncit.flac16"
+  }
 }

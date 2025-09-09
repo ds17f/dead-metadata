@@ -14,5 +14,39 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a high‑energy Anthem era show featuring a smoking Cryptical / Other One and soaring Jerry Garcia guitar",
+    "review": "The tape captures an outstanding February ’68 Anthem‑era performance with tight, musical playing and a high‑octane Cryptical / Other One that even includes a rare Clementine jam. Reviewers praise the soundboard source as clear and give the show a full five‑star rating despite some uncertainty about whether it’s the complete 2/2 concert or a compiled collection.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "low",
+      "rationale": "Single detailed review gives a perfect 5‑star rating, highlighting both superb musical performance and good soundboard quality; limited sample size lowers confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No complaints about clarity or mix; reviewers imply a clean, crisp capture typical of sbd sources."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cryptical/Other One",
+        "Clementine"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Possibly a compiled set (Clementine > New Potato edit), but the performance remains tight and musical throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Soars on guitar after his first verse of vocals; highlighted for energetic playing.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T07:48:30.034549+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-02-02.sbd.jools.20299.sbeok.shnf"
+  }
 }

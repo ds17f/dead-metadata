@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 3.142857142857143,
   "high_ratings": 2,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Soundboard capture of Woodstock’s chaotic 1969 set – historic Dark Star and a monster 45‑minute Turn On Your Lovelight, but plagued by technical mishaps.",
+    "review": "The recording is a soundboard feed that, despite the infamous microphone feedback, power cuts and stage wobble, delivers surprisingly clear audio with a strong audience presence. Musically the show is a mixed bag: Dark Star shines and Pigpen’s extended Lovelight is a highlight, yet the performance is uneven – St. Stephen aborts early and the band sounds distracted by on‑stage chaos.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Reviews range from 1 to 5 stars; several praise the historic performance and sound quality, while others condemn the chaotic playing, yielding an overall average around 3‑ish."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear enough to hear details; audience bleed adds atmosphere. Noted mic feedback, power outages and occasional muddiness but generally listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Turn On Your Lovelight"
+      ],
+      "poor_songs": [
+        "St. Stephen"
+      ],
+      "setlist_flow": "Historic Woodstock set with typical Dead improvisation; performance hampered by technical distractions, resulting in a uneven flow.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "Pigpen’s Lovelight praised as a 45‑minute highlight, though another reviewer calls his sound terrible and mentions a mic incident that injured him.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:15:46.832741+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-08-16.sbd.dfinney.6103.shnf"
+  }
 }

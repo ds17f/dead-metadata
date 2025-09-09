@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.166666666666667,
   "high_ratings": 9,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Near‑perfect soundboard capture of an iconic ’71 set with standout Oh Boy! and Playing in the Band, though second‑set vocals are uneven.",
+    "review": "The recording is largely praised for its crisp, near‑studio quality straight from the Stephens SBD, with only occasional glitches and a need for minor pitch correction. Musically the show shines on early‑set classics like Oh Boy!, I’m a Hog (for you baby) and Playing in the Band, but the second set suffers from lackluster vocals and some flat instrumental moments. Overall fans feel the performance is memorable despite its flaws.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Average star rating ~4.2 across 12 reviews; most comments are positive about sound and many songs, with a few detailed criticisms that temper the overall enthusiasm."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp, near‑perfect mix praised by several reviewers; occasional glitches (e.g., 26‑second drop) and pitch‑correction needed on parts of the first set; overall listenable with slight noise/incompleteness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Oh Boy!",
+        "I'm a Hog (for you baby)",
+        "Playing in the Band",
+        "Casey Jones",
+        "Loser-SS"
+      ],
+      "poor_songs": [
+        "Second‑set vocal performances (notably Truckin', Johnny B. Goode, Not Fade Away)",
+        "General second‑set singing"
+      ],
+      "setlist_flow": "First set is solid and energetic with tight raves; second set drifts, featuring uneven vocals and occasional sloppy moments.",
+      "energy_level": "medium-high"
+    },
+    "band_member_comments": {
+      "Jerry": "Generally praised for his tone, but some reviewers note he sounded tired and off‑tune on the later part of the show.",
+      "Phil": "Loved by fans for his stage presence; one reviewer criticized his backup vocals as weak on several tracks.",
+      "Bob": "Vocals described as harsh or flat by a few listeners (especially on Truckin' and Johnny B. Goode), though his energy was appreciated by others.",
+      "Keys": "Pigpen’s Hammond organ was highlighted as a highlight early in the concert, yet later his vocals were called flat by some reviewers.",
+      "Drums": "Consistently praised; described as 'awesome' and driving the performance."
+    },
+    "processed_date": "2025-09-07T17:09:41.607634+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-04-06.sbd.stephens.18735.sbeok.shnf"
+  }
 }

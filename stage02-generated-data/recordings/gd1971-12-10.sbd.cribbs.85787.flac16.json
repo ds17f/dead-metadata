@@ -14,5 +14,40 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good‑quality theater sound captures a laid‑back yet emotionally charged 1971 show with standout performances of Big Railroad, Comes A Time and The Other One, but excessive track indexing creates listening hiccups.",
+    "review": "The recording delivers clear, sweet theater‑room sound that lets the relaxed but emotionally powerful playing shine, especially on Big Railroad, Comes A Time and an inspired stretch of The Other One. Reviewers praise the performance overall, though several complain about the way the set has been split into many tiny tracks, which causes audible gaps on non‑gapless players.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Most reviewers rate the show highly (4–5 stars) and highlight strong musical moments, while a few lower ratings focus on editing/track‑index issues rather than audio quality, resulting in an overall positive but cautious rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Sound described as 'sweet' and clear; main complaints relate to excessive track splitting (short indexed gaps) that cause hiccups on car stereos or gapless‑unaware players."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Big Railroad",
+        "Comes A Time",
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Laid‑back and emotionally charged set, but the over‑segmented track list disrupts the natural flow for listeners using non‑gapless playback.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T21:16:30.122020+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-12-10.sbd.cribbs.85787.flac16"
+  }
 }

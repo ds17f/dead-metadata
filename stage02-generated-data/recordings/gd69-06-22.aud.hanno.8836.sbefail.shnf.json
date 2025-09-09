@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.1666666666666665,
   "high_ratings": 3,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Muddy audience recording of an ultra‑high‑energy Central Park gig, with smoking jams like “Silver Threads & Golden Needles” and “Me & My Uncle.”",
+    "review": "The tape is a classic lo‑fi audience capture – full of hiss, mud and even some loud obscenities – but beneath the noise lies a barn‑burning performance. Reviewers rave about the hot jams, especially the pedal‑steel‑laced “Silver Threads & Golden Needles” and “Me and My Uncle,” while noting that the audio fidelity is far from pristine.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Show quality is consistently praised as high‑energy with standout songs, but recording quality is described as muddy and noisy; the weighted average yields a solid 4‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Very lo‑fi: prominent hiss, mud, occasional dropouts, and extremely loud audience obscenities. Despite the noise, reviewers say the jams still come through."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Silver Threads & Golden Needles",
+        "Me and My Uncle",
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Loose, free‑concert vibe with a flowing set that keeps the energy high despite the recording's roughness.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:37:20.856533+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-06-22.aud.hanno.8836.sbefail.shnf"
+  }
 }

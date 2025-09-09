@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 5,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard capture of a high‑energy show with a smoking Lovelight suite and stellar Dark Star, though early portions suffer from compression and muddiness.",
+    "review": "The performance is a real treat – Jerry rips out an outstanding Bertha, Pigpen shines on the Lovelight suite and Dark Star rolls on flawlessly in the second set. The soundboard source is generally clear, but the first half is marred by compression, clipping and some muddiness that clears up after Dark Star.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate 4‑5 stars and praise the musical energy and standout songs; recording issues are noted but limited to early portions, yielding an overall strong rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Early tracks are compressed, clipped and a bit muddy; guitars sit low in the mix while Keith's piano is clear. From Dark Star onward the source changes to a cleaner feed with excellent clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lovelight > King Bee > I'm A Man > Lovelight suite",
+        "Bertha",
+        "Mr. Charlie",
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First half suffers from audio flaws but the playing remains solid; the second set shines with a powerful Dark Star and tight transitions, delivering high‑energy momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Ripping Bertha, smoking on the Lovelight suite, bluesy lead on I'm A Man – overall a good night on guitar.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith's piano comes through clearly despite mix issues early in the show.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T21:27:19.708089+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-12-15.sbd.cotsman.12615.sbeok.shnf"
+  }
 }

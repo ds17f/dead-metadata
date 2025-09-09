@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear soundboard capture with a touch of hiss, showcasing a smoking Morning Dew, The Same Thing jam and an epic Death Don't.",
+    "review": "The recording is a solid sound‑board source – vocals and guitars are crisp despite a bit of hiss and no drop‑outs. Musically the show shines: early‑Dead energy, standout performances of Smokestack Lightning, Morning Dew, The Same Thing (with an inspired Jerry jam) and a remarkable Death Don't that many reviewers call one of the best versions.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All six reviews are favorable, with an average of 4.7 stars; performance is praised as exceptional while recording quality is noted as good but not pristine."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear vocal and guitar presence, a bit of hiss described as \"funky sound,\" no drop‑outs or tape‑speed issues; one reviewer notes it’s decent but another mentions a better alternative exists."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Smokestack Lightning",
+        "Morning Dew",
+        "The Same Thing",
+        "Death Don't"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early‑Dead set with fast‑paced, tightly linked songs; a long jam in The Same Thing and an especially powerful Death Don't close the night.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Creative, bending guitar work during the long jam in The Same Thing; one reviewer notes he isn’t enamored with his Guild Starfire tone but still impressive.",
+      "Phil": "Brilliant bass playing highlighted as a major strength of this early show.",
+      "Bob": "Described as \"droolingly breathless\" – vocal performance noted positively.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T06:38:52.274846+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1967-03-18.sbd.sacks.1594.shnf"
+  }
 }

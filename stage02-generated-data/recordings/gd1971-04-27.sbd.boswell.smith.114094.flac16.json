@@ -14,5 +14,43 @@
   "confidence": 0.8,
   "raw_rating": 4.75,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear soundboard capture of a spotty‑energy show, highlighted by an incredible Uncle John’s → Lovelight and strong early‑set moments.",
+    "review": "The Boswell‑Smith soundboard tape is notably clear (though a touch EQ‑heavy) and preserves the quirks of this three‑night run.  The first set delivers jazzy Truckin', a tight Dire Wolf and an undubbed Bobby McGee, while the Beach Boys interlude drags the momentum down before the band rebounds with one of the top‑five Lovelight performances of the era.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rave about both performance and recording; only one detailed review notes middling set quality and a single zero‑star index complaint, yielding an overall strong but not flawless rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Boswell‑Smith tape sounds clearer than other sources; slight EQ coloration noted but generally clear and well balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Uncle John’s > Lovelight",
+        "China Cat Sunflower > Rider",
+        "Bobby McGee (undubbed original guitar)",
+        "Dire Wolf"
+      ],
+      "poor_songs": [
+        "Beach Boys middle‑set numbers (noted as disastrous and excised)"
+      ],
+      "setlist_flow": "First set is jazzy and tight, but the Beach Boys interlude breaks the flow; after they leave the second set lifts, culminating in a stellar Lovelight.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Original guitar tone highlighted on the undubbed Bobby McGee version.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:13:03.645454+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-27.sbd.boswell.smith.114094.flac16"
+  }
 }

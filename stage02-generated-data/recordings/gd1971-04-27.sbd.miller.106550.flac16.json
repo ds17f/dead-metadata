@@ -14,5 +14,40 @@
   "confidence": 0.8,
   "raw_rating": 5.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a legendary 4/27/71 concert with smoking Bertha, Help Me Rhonda and a raw Ron‑Pigpen‑driven Searchin'.",
+    "review": "The recording is a lossless soundboard (SBD) that listeners describe as crystal‑clear and “pure gold,” making the entire show instantly enjoyable.  Fans rave about the energy of Bertha, the playful cover Help Me Rhonda and especially Ron \"Pigpen\" McKernan’s raw vocal/keyboard addition on Searchin', calling the performance an epic West Coast showcase.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "All four reviews are 5‑star, uniformly praising both the musical performance and the flawless soundboard source."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Lossless FLAC stream from a SBD transfer; reviewers note crystal‑clear mix with no audible flaws or dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha",
+        "Help Me Rhonda",
+        "Searchin'"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A seamless, high‑energy set that blends upbeat covers with classic Dead material, delivering a quintessential West Coast vibe.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Ron \"Pigpen\" McKernan's organ work and lead/backup vocals are highlighted, especially his raw contribution on Searchin'.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:13:31.259094+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-27.sbd.miller.106550.flac16"
+  }
 }

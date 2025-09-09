@@ -14,5 +14,48 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy show with standout Truckin', El Paso, Cumberland Blues, Sugar Magnolia and a soaring Dark Star.",
+    "review": "The recording is praised for its crystal‑clear soundboard quality, despite a few volume spikes and occasional cuts. Musically the concert shines – early Truckin' bites hard, El Paso is beautifully slow, Cumberland Blues is called the reviewer’s favorite, and the second set builds to a phenomenal Dark Star before closing with an electrifying Not Fade Away. Minor hiccups (a miscue on Cryptical and a bass‑heavy Bertha) do not detract from the overall excitement.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "medium",
+      "rationale": "One detailed, enthusiastic review rates both show and recording at five stars; the show is highlighted as exceptional with many standout moments, while recording quality is described as great overall."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Sound quality described as “really great” and crisp; occasional bass volume spike on Bertha, a cut at the end of that track, missing Wharf Rat, and a truncated Other One are noted but do not dominate the listening experience."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "El Paso",
+        "Cumberland Blues",
+        "Ripple",
+        "Me & Bobby McGee",
+        "Sugar Magnolia",
+        "Dark Star",
+        "St. Stephen"
+      ],
+      "poor_songs": [
+        "Cryptical (miscue)",
+        "Bertha (bass volume spike and cut at end)"
+      ],
+      "setlist_flow": "First set flows from a punchy Truckin' through thoughtful ballads and tight harmonies, while the second set builds with Deal, Hard to Handle, and a powerful Dark Star before an exuberant Not Fade Away finale.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for strong guitar tone on Truckin', beautiful playing on El Paso, vocal corrections, and a soaring performance during Dark Star.",
+      "Phil": "Bass highlighted as “great” and “bonafide”; Phil’s commentary and zone are noted as highlights.",
+      "Bob": "Vocals praised on Loser, Me & Bobby McGee, King Bee; strong harmonies on Cumberland Blues mentioned.",
+      "Keys": "Tom Constanten’s (T.C.) keyboard work described as excellent during the mid‑section of Dark Star and other jams.",
+      "Drums": "Drum section receives compliments for keeping the energy high throughout the show."
+    },
+    "processed_date": "2025-09-07T18:21:52.754985+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-28.sbd.gems.102859.flac24"
+  }
 }

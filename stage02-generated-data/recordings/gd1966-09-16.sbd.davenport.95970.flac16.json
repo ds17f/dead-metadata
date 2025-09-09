@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.333333333333333,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crisp, near‑flawless soundboard capture of the 1966 Dead with standout early tracks like “Stealin'” and “Lindy,” delivering a tight, high‑energy performance.",
+    "review": "The recording is praised for its superior treble, minimal hiss and clicking, and overall sharpness – a clear upgrade over other releases. Listeners highlight the early‑era magic of the band, especially the classic performances of “Stealin'” and “Lindy,” noting the group was tight and full of energy. Overall the show is regarded as essential listening for anyone interested in 1966 Grateful Dead material.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers gave 4‑5 stars and highlighted both excellent sound quality and strong early‑Dead performances; only one moderate review, so the weighted average is high."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp treble, very little hiss or clicking, sharp clean licks; reviewers note this version sounds superior to other releases."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Stealin'",
+        "Lindy"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early Dead set praised for tight playing and classic folk‑rock material; no specific flow comments but overall energy described as high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T05:53:22.982245+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1966-09-16.sbd.davenport.95970.flac16"
+  }
 }

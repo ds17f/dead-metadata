@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 3.3076923076923075,
   "high_ratings": 6,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "Muddy audience tape of a raw early‑'70s show; despite lo‑fi sound the set delivers spirited Hard to Handle, Pig, Brokedown Palace and a lively Casey Jones opener.",
+    "review": "The recording is an audience capture on reused reel‑to‑reel tape that suffers from distortion, hiss and a weak drum mix, making it only fair to listen to without EQ work. Musically the performance is uneven – some reviewers find the jams uninspired while others praise Jerry’s solo on Hard to Handle, the bluesy Pig medley and the heartfelt Brokedown Palace – giving the show an overall mixed but historically interesting feel.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.1,
+      "confidence": "medium",
+      "rationale": "Show quality is average to good (≈3.5/5) while recording quality is poor to fair (≈2/5). Weighted by the 70 % show / 30 % recording split this yields an overall rating just above three stars."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Tape was recorded on a previously used reel‑to‑reel, resulting in muddy, distorted sound with noticeable hiss and a weak drum mix; some listeners improve it with EQ but overall clarity is limited."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard to Handle",
+        "Pig",
+        "Brokedown Palace",
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The fragmentary tape captures a raw, psychedelic Warlocks‑era set; the band swings between loose improvisation and moments of tightness, giving an uneven but historically vivid flow.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "His solo on Hard to Handle is highlighted – described as a train‑like lead that some listeners love despite the muddy mix.",
+      "Phil": "Mentioned for taking over the jam when the theme fell apart and for urging the band back into sync; his bass presence is noted but often buried in the tape.",
+      "Bob": "Weir’s vocal on Casey Jones is described as “all in a tizzy,” indicating a lively rhythm‑guitar/vocal contribution.",
+      "Keys": "",
+      "Drums": "Mickey’s drumming is hard to hear due to the poor mix; one reviewer notes the sound board was turned up so loud it caused physical discomfort."
+    },
+    "processed_date": "2025-09-07T16:08:22.780415+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-01-22.sbd.cotsman.12592.sbeok.shnf"
+  }
 }

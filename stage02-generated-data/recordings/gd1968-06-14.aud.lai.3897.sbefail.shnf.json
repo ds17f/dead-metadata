@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.375,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Rare early St. Stephen show with smoking The Eleven and powerful Jerry, but hampered by a ragged audience recording.",
+    "review": "This 1968 performance is prized for its historic early St. Stephen sequence, a smoking The Eleven segue, and an inspired lead from Jerry Garcia that lifts the entire set despite the low‑fidelity tape. Reviewers note the unusual feedback sandwich opening/closing and quirky transitions (Alligator → Lovelight), while repeatedly calling out the poor audio quality – clipping, muffled vocals and overall raggedness – as a drawback that can be endured with good headphones.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Show is consistently praised (standout performances, high energy) while recording quality is uniformly described as poor/fair; weighting the strong show (≈4.5) against weak audio (≈2) yields a combined rating around 3.8."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Audio is ragged with clipping, barely audible vocals and low‑fidelity sound; however some reviewers find it listenable on headphones despite the noise."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "St. Stephen",
+        "The Eleven",
+        "Alligator"
+      ],
+      "poor_songs": [
+        "Lovelight"
+      ],
+      "setlist_flow": "Features a rare feedback sandwich (opening and closing with feedback) and unusual segues such as feedback → The Eleven → St. Stephen and Alligator → Lovelight; overall flow is unique but can feel disjointed due to tape quirks.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's lead guitar and vocal performance are highlighted as exceptional, carrying the show even through poor sound quality.",
+      "Phil": "Occasional bass fills are noted, adding depth to the performance.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T08:37:39.796833+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-06-14.aud.lai.3897.sbefail.shnf"
+  }
 }

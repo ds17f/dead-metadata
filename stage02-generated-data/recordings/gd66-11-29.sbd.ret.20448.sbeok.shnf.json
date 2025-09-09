@@ -14,5 +14,48 @@
   "confidence": 1.0,
   "raw_rating": 3.9,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A historically rich but uneven 1966 show with rare early tracks; the soundboard tape is hollow and mis‑matched, yet the rarities shine through.",
+    "review": "The recording captures a noteworthy slice of Dead history – first Me & My Uncle, Mindbender, Lindy and other early‑era gems – but suffers from a thin, tin‑can sound, multi‑generation distortion and a mislabeled first set taken from another date. Performance quality is uneven: Jerry has flashes of brilliance while Bob’s vocals are weak, and several songs feel sloppy, though the rare numbers provide plenty of excitement for ’66 fans.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Show is historically interesting with several standout rarities (≈3.8/5) but the recording is thin, distorted and partially mis‑sourced (≈2.5/5); weighted average yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "First eight tracks are from 5/19/66, causing mis‑labeling; overall sound described as hollow, tin‑can like with distortion and multi‑generation artifacts; some cuts (Me & My Uncle, Viola Lee Blues) noted; despite age it is still listenable for fans."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Me and My Uncle",
+        "Mindbender",
+        "Lindy",
+        "Standing on the Corner",
+        "Sick and Tired",
+        "Down So Long",
+        "One Kind Favor (See That My Grave Is Kept Clean)",
+        "\"I Just Want to Make Love With You\""
+      ],
+      "poor_songs": [
+        "Same Thing",
+        "Viola Lee Blues (cut mid‑song)"
+      ],
+      "setlist_flow": "The tape mixes two different dates, confusing the set order; once the genuine 11/29 material is isolated it flows well with rare early numbers, but the mis‑matched first half disrupts continuity.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Shows spots of brilliance but also repeats licks and struggles on some songs (Same Thing, Viola Lee Blues).",
+      "Phil": "",
+      "Bob": "Vocals sound weak on this early recording; overall performance described as uneven.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T06:09:22.118462+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd66-11-29.sbd.ret.20448.sbeok.shnf"
+  }
 }

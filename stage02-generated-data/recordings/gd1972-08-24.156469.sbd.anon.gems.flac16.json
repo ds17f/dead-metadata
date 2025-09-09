@@ -14,5 +14,45 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with solid clarity despite occasional channel crackle, capturing a summer‑'72 set highlighted by Tennessee Jed, Mississippi Half-Step > Uptown Toodeloo, Truckin', and an intense Morning Dew.",
+    "review": "The upgraded soundboard source is generally dynamic and well‑balanced, though the left channel cracks on a few tracks and there are minor tape glitches. Musically the show shines in the second set with tight interplay and standout moments, while the first set offers solid but occasionally flubbed performances.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "The review praises many musical highlights and a good‑quality soundboard source, offset by noted technical flaws and some uneven playing; overall rating aligns with the 4‑star reviewer score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Dynamic upgrade fixes channel swaps and level issues, but left channel crackles on several songs (e.g., One More Saturday) and tape problems appear in Sing Me Back Home."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Tennessee Jed",
+        "Mississippi Half-Step > Uptown Toodeloo",
+        "Truckin'",
+        "Morning Dew"
+      ],
+      "poor_songs": [
+        "Jack Straw (faltered solo)",
+        "Sing Me Back Home (tape issues)",
+        "One More Saturday (left‑channel crackle)"
+      ],
+      "setlist_flow": "First set runs a standard run‑through with solid moments, while the second set delivers the '72 quasar shine, tight jams and experimental stretches.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Playing a Strat; tone noted as solid throughout.",
+      "Phil": "Introduces early Elastic Jazz riff at 5:45 (and again at 22:00) showing incipient development.",
+      "Bob": "On an ES‑335, provides strong interplay especially on Mississippi Half-Step and Uptown Toodeloo.",
+      "Keys": "Keith delivers a Down by the Riverside/Bushel solo after Beat It On Down the Line and a Peck tuning; contributes heavily to second‑set dynamics.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T01:39:53.136375+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-08-24.156469.sbd.anon.gems.flac16"
+  }
 }

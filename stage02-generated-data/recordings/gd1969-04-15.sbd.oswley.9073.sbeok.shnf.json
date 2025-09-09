@@ -14,5 +14,40 @@
   "confidence": 0.6,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good-quality tape despite a brief cut of “It’s a Sin,” highlighted by a rocking Doin' That Rag performance",
+    "review": "The recording is generally praised for its sound quality, though the \"It's a Sin\" segment is truncated and the show feels short, leaving out what reviewers consider the best part. The standout moment is an especially energetic rendition of \"Doin' That Rag,\" which many call the most rocking version they've heard.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "All three reviewers gave 4‑star ratings, noting good sound quality but a missing segment; the show is positively received for its energy on at least one song."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Clear overall tape, but \"It's a Sin\" cuts out after ~30 seconds and the set feels shortened; reviewers note this as the main flaw."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Doin' That Rag"
+      ],
+      "poor_songs": [
+        "It’s a Sin (truncated)"
+      ],
+      "setlist_flow": "The tape is short, omitting what fans consider the best part of the concert; however the included material flows well.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T11:50:27.788636+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-04-15.sbd.oswley.9073.sbeok.shnf"
+  }
 }

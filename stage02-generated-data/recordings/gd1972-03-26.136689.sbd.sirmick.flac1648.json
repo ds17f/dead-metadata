@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Highly praised recording with no detailed comments on source or performance",
+    "review": "The lone five‑star review expresses strong enthusiasm but offers no specifics about the audio source, sound quality, setlist, or individual performances, leaving the technical and musical details unknown.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "Only one review, but it gives a perfect five‑star rating; lack of detail limits confidence in assessing quality."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on soundboard or audience mix; the high star rating suggests overall satisfaction."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No information provided in the review.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:39:29.660211+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-03-26.136689.sbd.sirmick.flac1648"
+  }
 }

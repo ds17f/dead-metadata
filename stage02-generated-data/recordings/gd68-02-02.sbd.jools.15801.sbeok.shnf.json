@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.885714285714286,
   "high_ratings": 35,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Rough but lively soundboard capture of an early‑68 fire‑filled set featuring a monster Viola Lee Blues and soaring Clementine.",
+    "review": "The recording is a soundboard tape that, while a bit muddy and rough around the edges, still delivers clear enough audio to enjoy the primal energy of this February ’68 show. Reviewers rave about the blistering Viola Lee Blues, the jazzy‑laden Clementine, a tight Other One suite and Pigpen’s bluesy Schoolgirl, all delivered with high voltage performance. Overall the show is praised as one of the standout early‑68 concerts despite modest technical fidelity.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Over 40 consistent, enthusiastic reviews highlight exceptional performance (high show weight) while noting only moderate recording issues (moderate recording weight). Weighted average yields a rating above 4½."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Described as muddy and rough compared to later ’68 tapes, but still clear enough; some note ‘sound B+’ and occasional pitch quirks yet overall listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee Blues",
+        "Clementine",
+        "The Other One",
+        "Good Morning Little Schoolgirl"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A compact early‑68 set that jumps from psychedelic jams to blues and jazzy numbers, showcasing the band’s evolving confidence and diverse styles.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar is repeatedly called wailing, soaring, blistering and perfect in tone—especially on Viola Lee Blues and throughout the set.",
+      "Phil": "Phil’s bass work is highlighted for counting time on Clementine and providing a solid, powerful foundation (‘Phil bombs’ vibe).",
+      "Bob": "",
+      "Keys": "Brent (and occasional Keith) receive brief nods; keyboards add texture but are not a focal point in the reviews.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T07:47:06.906301+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-02-02.sbd.jools.15801.sbeok.shnf"
+  }
 }

@@ -7,12 +7,45 @@
   "source_type": "AUD",
   "lineage": "MAR>> Akai GX 636>Apogee Mini Me(24/96)>Apogee Mini DAC(monitoring/mastering)>Lynx One soundcard>wavelab 5.0>DVD/FLAC",
   "taper": "Will Boswell and Randy Smith",
-  "source": "Unknown mic(mono)\u00a0>> unknown deck >> MAR",
+  "source": "Unknown mic(mono) >> unknown deck >> MAR",
   "runtime": "172:03.12",
   "rating": 2.2049999999999996,
   "review_count": 3,
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Stereo audience tape captures a classic, well‑rounded 4/17 show with the standout “Good Lovin'” performance.",
+    "review": "The recording is an audience capture that surprisingly presents in stereo (despite being labeled mono) and sits on par with other famed 1971 tapes. Reviewers describe the show as unique, well‑rounded and classic, highlighting a strong “Good Lovin’” moment, and overall deem it a great listen even if the soundboard version would be superior.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "All three reviewers praise both the musical performance (classic show, unique set) and the audio quality (stereo audience tape comparable to top‑rated recordings). The only outlier is a zero star rating that conflicts with positive comments, but the consensus is strongly favorable."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Stereo audience recording despite notes saying mono; clear and nicely balanced, on a level similar to the renowned 8/6/71 audience tape."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Described as well‑rounded and unique; classic 1971 set that flows naturally and keeps the energy high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:44:33.647435+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-17.aud.boswell-smith.motb-0136.107075.flac16"
+  }
 }

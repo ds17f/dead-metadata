@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Great‑sounding recording of a smoking show, highlighted by an epic Smokestack Lightning performance.",
+    "review": "The reviewer raves that the tape sounds great and describes the concert as a total smokeshow, with Smokestack Lightning standing out so much it “made my head fall off.” No technical flaws are mentioned, and the energy is portrayed as high‑octane throughout the set.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "low",
+      "rationale": "Only one brief review; it is enthusiastic about both the music and sound quality, suggesting a strong show with good recording, but limited data keeps confidence low."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer says “sounds great,” indicating clear, listenable audio with no noted issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Smokestack Lightning"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:51:45.207273+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-12-02.141202.fm.pcm.dalton.miller.clugston.flac1644"
+  }
 }

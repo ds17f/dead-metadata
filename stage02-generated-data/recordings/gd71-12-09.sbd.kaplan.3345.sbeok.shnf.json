@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.416666666666667,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crisp soundboard capture of a high‑energy 1971 show with a smoking Casey Jones, powerhouse Black Peter and Keith’s piano‑driven Ramble On Rose.",
+    "review": "The recording is praised for its clear, crisp mix despite the era‑typical hiss, and even highlights an amusing piano distortion on “Ramble On Rose.” The performance itself is described as high‑octane – a standout Casey Jones, one of the best Black Peter renditions, solid Tennessee, and a scorching second set that keeps fans raving.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviewers give 5‑star ratings, emphasizing excellent playing and a very good soundboard source; only a few lower scores note minor flaws."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Vocals and instruments are crisp and clean with only the usual vintage hiss; piano on “Ramble On Rose” is noticeably distorted (in a fun way); overall mix is well balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Casey Jones",
+        "One More Saturday Night",
+        "Black Peter",
+        "Tennessee",
+        "Ramble On Rose"
+      ],
+      "poor_songs": [
+        "Brown Eyed Women"
+      ],
+      "setlist_flow": "Strong start to finish with lively banter, a fire‑filled second set and seamless transitions that keep the momentum high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Flubs the first verse of “Brown Eyed Women” but otherwise delivers a solid performance.",
+      "Phil": "Lots of Phil – bass is prominent and powerful throughout.",
+      "Bob": "",
+      "Keys": "Keith’s piano is highlighted as essential for new songs; his playing adds sparkle and even a fun distortion on “Ramble On Rose.”",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T21:12:31.933998+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-12-09.sbd.kaplan.3345.sbeok.shnf"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 4.333333333333333,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good soundboard capture of a thrilling first‑show performance, highlighted by an exceptional, jam‑filled “He's Gone.”",
+    "review": "The recording offers a clear enough soundboard mix that lets Phil’s bass shine—far better than many ’66 tapes—while the show itself is remembered as a magical first Dead concert. Reviewers rave about the sweet Jerry solo on “He’s Gone,” even quoting “First There Is a Mountain,” and overall describe the night as an unforgettable, high‑energy experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Consistently positive comments about both the musical performance (standout Jerry solo, memorable first show) and the recording quality (clearer than typical ’66 tapes), yielding a high weighted average."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Audio is described as fine and clearer than most 1966 recordings; Phil’s bass is audible throughout, indicating a solid soundboard mix with no major issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "He's Gone"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Fans recall the concert as a memorable inaugural show with strong energy and smooth transitions throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Obscenely sweet jamming on “He’s Gone,” including a ‘First There Is a Mountain’ quotation around the twelve‑minute mark.",
+      "Phil": "Bass is clear and prominent, praised for being audible where it often isn’t in other recordings from this era.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:27:33.931483+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-10-21.set2-partial.sbd.rbbert.fix-94410.94453.flac16"
+  }
 }

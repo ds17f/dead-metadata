@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 3.7,
   "high_ratings": 6,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Mellow 1969 show with standout Black Peter, Baby Blue and a haunting closing; audience tape is scratchy and noisy but still enjoyable.",
+    "review": "The performance is remembered for Garcia’s countrified, almost pedal‑steel guitar tone on songs like Black Peter and Baby Blue, plus Pigpen’s organ that shines through the mix. The AUD source is noticeably gritty – digi‑noise, a loose 1/8\" mic plug and overall scratchiness are mentioned – yet most listeners find it listenable enough to appreciate the classic set.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Show quality is generally praised (standout songs, strong playing) giving a high score, while recording issues lower the overall rating; weighted average yields ~3.8."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Scratchy and noisy with digi‑noise on early tracks (Me & My Uncle, Casey Jones) and a poorly seated 1/8\" mic plug that muffles the first few songs; overall still considered a decent listen."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Black Peter",
+        "Baby Blue",
+        "Hurts Me Too",
+        "Cumberland Blues"
+      ],
+      "poor_songs": [
+        "Me & My Uncle",
+        "Casey Jones"
+      ],
+      "setlist_flow": "Classic late‑'60s set that closes with the prophetic \"It's All Over Now Baby Blue\" just before Altamont, giving a mournful yet satisfying finish.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s countrified guitar work is highlighted as sublime, with beautiful pedal‑steel‑like tones and no need for a b‑bender.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen’s organ is plainly audible on every song and howls during Hurts Me Too.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:31:53.928814+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-12-05.sbd.cotsman.11256.sbeok.shnf"
+  }
 }

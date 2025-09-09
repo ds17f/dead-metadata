@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 3.6,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Poor‑quality FM soundboard capture of a high‑energy show with standout jams on Other One > Ramble On > Sugar Magnolia.",
+    "review": "The recording suffers from low‑fidelity FM/soundboard issues, but the band's performance shines through with hot playing and an especially profound sequence of The Other One, Ramble On, and Sugar Magnolia. While the first set is described as uneven, the overall energy remains high and fans recall the show fondly despite the technical shortcomings.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the musical performance (average ~4 stars) while consistently noting poor recording quality (average ~2–3 stars); weighted combination yields a solid mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Multiple reviewers call the sound quality 'bad' or 'pretty poor' for an SBD/FM source; muffled, low fidelity but still listenable enough to feel the energy."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One > Ramble On > Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Overall uneven—first set described as not stellar—but a strong second‑set jam trio makes the show memorable.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith was fairly new to the band; his keyboard work is noted in recollections of the show.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:44:07.925523+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-11-20.fm.willy.8806.sbeok.shnf"
+  }
 }

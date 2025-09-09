@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.083333333333333,
   "high_ratings": 10,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Clear soundboard capture of a high‑energy 1969 barn show highlighted by an epic He Was A Friend of Mine solo and strong early jams.",
+    "review": "The recording, sourced from the original soundboard, is generally clear with only occasional distortion or clipping. The performance bursts with late‑night energy, featuring standout versions of He Was A Friend of Mine, Morning Dew, High Time and country‑flavored tunes, though the set opens a bit ragged and tuning hiccups are noted. Overall fans rave about the vibe despite a few off‑night criticisms.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show highly (average ~3.8 stars) and praise the soundboard quality; negative comments are fewer, leading to a solid above‑average combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally crisp soundboard audio with good instrument separation; some listeners note occasional distortion, clipping of the MAMU track, and ragged tuning affecting early sections."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "He Was A Friend of Mine",
+        "Morning Dew",
+        "High Time",
+        "Green Green Grass Of Home",
+        "Slewfoot"
+      ],
+      "poor_songs": [
+        "High Time (ragged start)"
+      ],
+      "setlist_flow": "The concert opens with country‑flavored material and pedal steel, starts a bit rough due to tuning issues, then gels into strong jams and a soaring second half, maintaining momentum through the late‑night hours.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's guitar tone and solo on He Was A Friend of Mine are repeatedly praised as incredible.",
+      "Phil": "Phil struggled with tuning early in the set, even having to retune his guitar; he also took a mic for a humorous interjection later.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:47:23.908390+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-07-03.sbd.miller.92771.sbeok.flac16"
+  }
 }

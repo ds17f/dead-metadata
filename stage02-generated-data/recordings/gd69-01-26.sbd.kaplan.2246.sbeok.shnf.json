@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 23,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean soundboard capture of a high‑energy 1969 show highlighted by a smoking Eleven → Lovelight and an inspired Clementine",
+    "review": "The performance is consistently praised for its manic energy, with the Eleven/Lovelight sequence, a fierce Death Don't Have No Mercy, and a standout Clementine jam earning top marks. The soundboard source is described as clean and well‑balanced, though a few reviewers note occasional mix fluctuations and limited high‑end “crunch”. Overall the show shines despite minor recording quirks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "The vast majority of reviews (30+) give 4–5 stars and celebrate the musical intensity, while recording comments are mostly positive with only occasional mix complaints, yielding a strong combined score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clean and balanced overall; missing some high‑end crunch, early‑show mix fluctuations, and occasional treble‑muddy sections, but generally solid for the era."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Eleven",
+        "Lovelight",
+        "Clementine",
+        "Death Don't Have No Mercy",
+        "Spoonful (within Lovelight)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Reviewers note a seamless flow, especially the natural transition from Clementine into Dark Half/Help‑like jam and the tight Eleven → Lovelight pairing.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for ripping his Gibson, delivering intense lead work (e.g., Dark Star pace, powerful soloing).",
+      "Phil": "Described as a beast; highlighted for bass lines like the So What quote in Clementine and overall “phil is a beast” performance.",
+      "Bob": "Mentioned for joining Phil on a Spoonful jam during Lovelight (“Phil and Bobby hitting Spoonful”).",
+      "Keys": "Keyboard balance noted positively (Pigpen organ and keyboards well‑recorded), though no specific player named.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T10:06:39.877068+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-01-26.sbd.kaplan.2246.sbeok.shnf"
+  }
 }

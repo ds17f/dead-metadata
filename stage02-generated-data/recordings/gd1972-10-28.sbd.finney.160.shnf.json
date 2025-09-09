@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording with a high‑energy show highlighted by a strong Phil Lesh performance",
+    "review": "The lone five‑star review is enthusiastic, noting a \"philo stomp\" that points to an especially powerful bass presence. While no specific songs or technical details are mentioned, the rating and the .sbd designation suggest a crisp soundboard source and a high‑energy performance.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "medium",
+      "rationale": "A single five‑star review indicates strong approval of both the music and recording, but limited commentary reduces confidence to medium."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No specific technical comments; presumed clear and well‑balanced given the .sbd source and five‑star rating."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Described as \"philo stomp\" indicating a powerful, driving bass performance.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:47:20.696192+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-10-28.sbd.finney.160.shnf"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.833333333333333,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a classic ’72 show with a smoking Truckin’ bass solo and a tight, high‑energy performance despite a minor Bertha flub.",
+    "review": "The tape captures a superb 1972‑era Dead concert with crystal‑clear Betty Cantor‑Jackson soundboard quality. Highlights include Phil’s soaring bass solo out of “Truckin’” and Jerry’s tasteful finish to “Bertha” after a brief flub, while the band settles into a tight, high‑energy groove for the rest of the set.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently glowing reviews (mostly 5‑star) praise both performance and audio, indicating a top‑tier show with excellent soundboard recording; only minor comments about a flub keep the rating just below perfect."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Multiple reviewers call the sound quality \"excellent\" and thank Betty Cantor‑Jackson; no complaints of muddiness, dropouts or balance issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin' (bass solo)",
+        "Bertha (Jerry’s ending fill)"
+      ],
+      "poor_songs": [
+        "Bertha (flub early in the song)"
+      ],
+      "setlist_flow": "Classic 1972 vibe with a smooth flow; the band tightens up after the brief Bertha flub and maintains high energy throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his white Strat tone and for adding a tasteful fill at the end of \"Bertha\" after a flub.",
+      "Phil": "Highlighted for an impressive bass solo during \"Truckin'.\"",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T01:42:41.491942+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-08-25.sbd.miller.bertha.94218.flac16"
+  }
 }

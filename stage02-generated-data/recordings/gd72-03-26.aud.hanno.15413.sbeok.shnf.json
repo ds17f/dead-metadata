@@ -14,5 +14,36 @@
   "confidence": 1.0,
   "raw_rating": 1.3333333333333333,
   "high_ratings": 0,
-  "low_ratings": 5
+  "low_ratings": 5,
+  "ai_review": {
+    "summary": "A high‑energy show is unfortunately buried under a painfully noisy audience recording.",
+    "review": "The performance itself is praised as lively and full of breathtaking moments, but the AUD source is described as extremely poor—crusty, muffled, and overwhelmed by crowd noise, with an early drop‑out on “Loser.” While listeners can make out the music, the recording quality severely limits enjoyment.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.5,
+      "confidence": "medium",
+      "rationale": "Reviewers consistently rate the audio as terrible (1‑star) but give high marks to the show itself (5‑star). Weighted averaging of strong show quality and weak recording yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Excessive crowd noise, muffled/crusty sound, early drop‑out on \"Loser,\" described as recorded from restroom/toilet; overall barely listenable."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:39:12.476657+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-03-26.aud.hanno.15413.sbeok.shnf"
+  }
 }

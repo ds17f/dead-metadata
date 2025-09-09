@@ -14,5 +14,43 @@
   "confidence": 0.2,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent Miller soundboard captures a solid ’71 show with standout Hard to Handle, Morning Dew and Me & My Uncle despite a mixed first set.",
+    "review": "The 24‑bit Miller soundboard source is praised for its clarity and completeness, though the older 16‑bit cut has a noticeable edit. Musically the concert sits just above average for the era – a strong second set highlighted by Hard to Handle, Morning Dew and the famed Me & My Uncle, while the first set runs a bit thin with some shaky encore material.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Show quality is rated around 3¼ stars (slightly above average) while the recording is described as excellent; weighted combination yields a ~3.8‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "24‑bit Miller sbd is pitch‑accurate and clear; the older 16‑bit version has a cut, but the 24‑bit retains the full performance."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Me & My Uncle",
+        "Hard to Handle",
+        "Morning Dew"
+      ],
+      "poor_songs": [
+        "Encore (Bid You Goodnight)",
+        "Bertha (not the best of the week)"
+      ],
+      "setlist_flow": "First set is uneven (B‑ grade) with solid jams but some weaker moments; second set is strong (C+ including encores, B+ without them) and runs over two hours ending in a triple encore.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Snarly tone on his first Alembic custom guitar noted on Bertha; possible steel‑sounding sitar on Dark Hollow; overall strong lead work.",
+      "Phil": "Bass highlighted in It Hurts Me (great Pig) and the desire for more presence during Sugar Magnolia; solid foundation throughout.",
+      "Bob": "Vocals on Truckin' are praised (“Bobby gets ’em right”).",
+      "Keys": "",
+      "Drums": "Drums transition into a forward‑looking jam before GDT RFB, rated B+; overall tight and driving."
+    },
+    "processed_date": "2025-09-07T18:31:34.124121+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-29.sbd.miller.105925.flac24"
+  }
 }

@@ -14,5 +14,42 @@
   "confidence": 0.4,
   "raw_rating": 3.0,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording suffers from hiss and distortion, yet the restored version captures a high‑energy 1972 show with rare Baby Blue and Cryptical Envelopment moments.",
+    "review": "The performance is praised for its flawless first set, surprising inclusion of rarely played songs like It’s All Over Now, Baby Blue and Cryptical Envelopment, and an intense second set that many reviewers describe as sublime. However, the original recording exhibits noticeable hiss, a wobbling bass distortion, and other damage, though the Droncit restoration improves clarity considerably.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "medium",
+      "rationale": "Show quality is consistently praised (high energy, rare songs) while recording quality is divided between damage and a successful restoration; weighted average yields a solid but not outstanding rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Original tape has rising/falling hiss, bass sounds octave‑distorted, overall damaged sound; Droncit restoration described as 'fabulous' with clearer mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Big River",
+        "Bertha",
+        "It’s All Over Now, Baby Blue",
+        "Cryptical Envelopment",
+        "Wharf Rat"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Flawless first set opening with Big River, balanced two‑set structure, rare deep cuts in second set; overall flow described as theater‑like and sublime.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:40:30.009856+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-23.135287.sbd.jeffm.restore.droncit.flac16"
+  }
 }

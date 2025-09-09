@@ -14,5 +14,38 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good‑quality recording of a fun, high‑energy show – the highlight being a standout Casey Jones.",
+    "review": "Listeners rave that this performance captures the band in top form, describing the whole concert as “a bunch of fun” with the group clearly enjoying themselves. The most frequently praised moment is an exceptional version of \"Casey Jones,\" and while no technical details are given, the positive ratings suggest a listenable source.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Four reviews (three ≥4 stars) indicate strong show enjoyment; lack of technical commentary limits confidence, but overall impression is a good performance with decent recording quality."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No specific comments on sound clarity or mix; high star ratings imply the recording is listenable and satisfactory to fans."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Reviewers note a consistently fun vibe throughout, suggesting a well‑paced set that kept energy high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:40:23.766409+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-06-27.sbd.finney.10344.shnf"
+  }
 }

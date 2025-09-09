@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.909090909090909,
   "high_ratings": 11,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Superb early‑68 Carousel Ballroom show with a smoking New Potato Caboose and soaring Dark Star, captured in an open‑feel matrix recording that sounds crystal clear.",
+    "review": "The March 29 1968 performance is hailed as one of the band’s most swinging early shows – standout moments include a sublime New Potato Caboose solo by Jerry, a powerful Death Don't Have No Mercy and an exploratory Dark Star.  Charlie Miller’s matrix transfer delivers exceptional clarity with stage‑mic ambience, only punctuated by occasional crowd chatter.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "The majority of reviews (13) are 5‑star and praise both the musical performance and the audio quality; only a few low‑rating comments note minor audience‑type artifacts, leading to an overall rating well above 4.5."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Early soundboard/stage‑mic matrix with crystal‑clear instrument separation; occasional hall echo and crowd chatter are audible but do not detract from the overall superior clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "New Potato Caboose",
+        "Dark Star",
+        "Death Don't Have No Mercy"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A swinging, high‑energy set that feels like the early ’68 carousel shows; an announcer appears after Morning Dew suggesting a brief break or possible two‑set structure.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s solo on New Potato Caboose is described as sublime and one of his best ever; he also explores Dark Star with adventurous improvisation.",
+      "Phil": "",
+      "Bob": "Good Morning Little School Girl highlighted for its tasty vocal delivery; Bob’s (or Ron’s) vocal moments are praised.",
+      "Keys": "Keyboard/organ sounds are noted as crystal clear on Dark Star and a mournful tone on Death Don't Have No Mercy; Pigpen’s organ cursing is audible in one segment.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T08:15:29.736181+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-03-29.sbd.miller.108993.flac16"
+  }
 }

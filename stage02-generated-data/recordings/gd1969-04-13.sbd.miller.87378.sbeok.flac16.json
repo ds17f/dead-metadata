@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.285714285714286,
   "high_ratings": 19,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Miller sound‑board capture of the 4/13/69 Boulder show delivers a high‑energy performance highlighted by an epic Dark Star, soaring Morning Dew and a fiery The Eleven.",
+    "review": "The recording is a well‑preserved Miller sound‑board transfer that, despite occasional hiss and brief cuts, sounds clear and listenable. Musically the night is a showcase of late‑'60s psychedelia – Jerry’s guitar roars on Dark Star, Pigpen’s harp shines in Schoolgirl, and the band rides powerful jams through Morning Dew, The Eleven and St. Stephen. Overall the show is praised as one of the era’s hidden gems with an unmistakably high energy level.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Average star rating ~4.1 from 22 reviews, overwhelmingly positive comments about both performance and recording; strong weight on show quality pushes the AI rating slightly above the raw average."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Miller transfer noted as clear with a slight hiss and a few minor drop‑outs/cuts, but overall very listenable and faithful to the original board mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Morning Dew",
+        "The Eleven",
+        "St. Stephen",
+        "Death Don't Have No Mercy"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong, jam‑heavy flow with seamless transitions (e.g., Dark Star into The Eleven). Minor tape cuts affect the tail of Alligator but do not disrupt overall momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for a massive tone, Allman‑style licks, and an extended solo intro on Dark Star; described as ‘on fire’ and ‘blinding.’",
+      "Phil": "Noted for deep, immersive bass work – “Phil bombs” and sounds like he’s in another musical world.",
+      "Bob": "Mixed mentions: one reviewer wonders where his vocals are; otherwise not a focus of praise.",
+      "Keys": "Pigpen’s harp on Schoolgirl and organ on Alligator receive strong commendation; a few critiques about Garcia occasionally drowning him out.",
+      "Drums": "Mickey’s clapping in Dark Star highlighted, drummers praised for tight, intertwining interplay throughout the jams."
+    },
+    "processed_date": "2025-09-08T11:45:56.006047+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-04-13.sbd.miller.87378.sbeok.flac16"
+  }
 }

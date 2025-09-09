@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Exceptional capture of a wonderful show with outstanding sound quality.",
+    "review": "The single five‑star review praises the recording as an exceptional capture, calling the performance ‘wonderful.’ While no specific songs or technical details are mentioned, the reviewer’s enthusiasm suggests both high musical energy and very good audio fidelity.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "Only one review is available; it rates the show and recording five stars, indicating strong positive sentiment, but lack of detail limits certainty."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer states the recording captures the show exceptionally well, implying clear and balanced audio despite no specific technical commentary."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No detailed comments on set structure; reviewer simply describes the overall show as wonderful.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T01:31:40.326812+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-08-21.171524.sonytc124.menke.miller.flac1648"
+  }
 }

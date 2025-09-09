@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.4545454545454546,
   "high_ratings": 6,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "Audience recording of a lively 1972 show with strong energy and memorable moments, but the tape is tinny and uneven in clarity.",
+    "review": "The performance is praised for its upbeat vibe, a standout \"Mind‑Left‑Body\" moment in Good Lovin' and classic jams like China Cat Sunflower, delivering high Dead energy despite the unknown setlist. The audience source captures hall ambience and stage chatter, yet many listeners report muddy sections, drop‑outs and a generally tinny mix that makes parts of the show hard to follow.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.5,
+      "confidence": "medium",
+      "rationale": "Show quality is consistently described as energetic and enjoyable, but recording quality ranges from terrible to merely acceptable; averaging these factors yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Tinny hall noise, occasional drop‑outs and muddiness noted; some reviewers find it barely listenable while others say it’s more than usable with clear instrument separation in parts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "China Cat Sunflower",
+        "\"Going Down the Road\" (Feeling Bad)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Set list is described as nice and bouncy, with good pacing that keeps momentum from start to finish.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:15:05.884402+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-03-05.aud.miller.20704.sbeok.shnf"
+  }
 }

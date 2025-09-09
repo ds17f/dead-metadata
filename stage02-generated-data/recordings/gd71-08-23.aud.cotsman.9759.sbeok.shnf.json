@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 2.2222222222222223,
   "high_ratings": 1,
-  "low_ratings": 5
+  "low_ratings": 5,
+  "ai_review": {
+    "summary": "Almost unlistenable low‑fidelity recording of an otherwise decent show that includes the first \"Brown Eyed Women\" and a Cryptical → Wharf Rat segment.",
+    "review": "The performance itself is regarded as solid – fans note the early appearance of “Brown Eyed Women” and the Cryptical into Wharf Rat sequence – but the tape quality is described as cheap, muffled and often unlistenable. The recording appears to be a partial audience capture with severe fidelity problems that overwhelm the music.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 2.4,
+      "confidence": "medium",
+      "rationale": "Reviews consistently condemn the audio as poor or unlistenable, while a few acknowledge the show’s musical merit; weighted average of strong negative recording feedback and modestly positive show comments yields a low‑mid rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Described as recorded with a cheap tape player/mic, muffled, weak, and often unlistenable; appears to be an incomplete partial capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Brown Eyed Women (first appearance)",
+        "Cryptical",
+        "Wharf Rat"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Partial set; missing several expected tracks (e.g., China Cat, I Know You Rider, Truckin', Sugaree) leading to confusion about the full show order.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:31:50.679721+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-08-23.aud.cotsman.9759.sbeok.shnf"
+  }
 }

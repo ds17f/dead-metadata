@@ -14,5 +14,43 @@
   "confidence": 0.8,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A solid soundboard recording captures a chemistry‑filled show highlighted by a quirky St. Stephen, a distinctive Schoolgirl, and an expansive, guest‑enhanced drums segment.",
+    "review": "The tape is a mostly clean soundboard source with only slight hiss and some heavy Mickey trap, delivering enough clarity to enjoy the band’s off‑the‑cuff moments. Musically the performance is unique – Schoolgirl veers into Alligator territory, St. Stephen features Jerry’s priceless laughter, and the half‑hour drums groove feels hypnotic thanks to extra percussionists, though The Eleven runs short and some listeners find the drums a bit meandering.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Show quality is moderately high with several standout moments, while recording quality is generally good; weighted average yields about four stars and the consistent detail across four reviews gives confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Mostly top‑notch soundboard capture; slight hiss, heavy Mickey trap on drums, occasional spotty sections but overall clear and listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "St. Stephen",
+        "Schoolgirl",
+        "The Eleven (short but good)",
+        "Drums"
+      ],
+      "poor_songs": [
+        "The Eleven (shorter than usual)"
+      ],
+      "setlist_flow": "Shows a quirky flow with Schoolgirl leading into St. Stephen, then a brief The Eleven and an extended drums jam featuring guest tabla players; the chemistry feels loose yet compelling.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Laughs during the middle of St. Stephen, adding priceless humor; also engages in vocal banter.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Long (≈25 min) hypnotic section with four percussionists, praised for interplay and guest tabla player despite some listeners finding it plodding."
+    },
+    "processed_date": "2025-09-08T09:04:17.170430+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-09-20.sbd.miller.32900.sbeok.flac16"
+  }
 }

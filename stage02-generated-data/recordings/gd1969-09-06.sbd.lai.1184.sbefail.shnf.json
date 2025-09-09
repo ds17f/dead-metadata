@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A mysterious ’69 show with a rare Jerry‑lead Good Lovin' that fans love, though the recording’s source and fidelity remain unclear.",
+    "review": "Reviewers highlight the unique moment of Jerry Garcia taking lead on Good Lovin’, calling it fabulous, while noting the absence of classic jams like Dark Star. No technical details about the tape are given, leaving the sound quality ambiguous, and overall sentiment is mixed due to one enthusiastic five‑star rating versus a neutral three‑star rating.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "One reviewer gives a glowing 5‑star endorsement of the performance, another rates it modestly at 3 stars; with limited technical commentary the average lands around 4 stars and confidence is medium due to only two reviews."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Reviewers did not mention soundboard, audience mix, clarity, or any audio flaws; recording quality cannot be assessed from the comments."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Review notes the lack of expected jams (Dark Star/St. Stephen/Lovelight, Anthem, Workingman's) but still captures an “indescribable something” vibe.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Rare instance of Jerry singing lead on Good Lovin', described as fabulous.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:40:35.487564+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-09-06.sbd.lai.1184.sbefail.shnf"
+  }
 }

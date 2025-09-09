@@ -14,5 +14,41 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard mix with crystal‑clear organ, featuring smoking Saint Stephen and Cumberland jams",
+    "review": "The recording captures a superb 1971 performance highlighted by a blazing Saint Stephen jam after the Alligator/Drums segment and an inspired Cumberland jam. Reviewers rave about the clear organ and overall great mix, though one notes that the Alligator jam isn’t as strong as earlier years.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Two enthusiastic 5‑star reviews praise both musical performance and recording clarity; a single 3‑star review offers mild criticism, yielding an overall strong rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Great mix with crystal‑clear organ; reviewers describe the sound as clear and well balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Saint Stephen",
+        "Cumberland"
+      ],
+      "poor_songs": [
+        "Alligator"
+      ],
+      "setlist_flow": "Jam after Alligator/Drums transitions into a standout Saint Stephen performance; overall flow is tight with high‑energy peaks.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Ron’s organ (keyboard) is described as clear and a highlight of the mix.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:29:53.079017+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-29.sbd.boswell.smith.114145.flac16"
+  }
 }

@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.363636363636363,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 10/21/71 show with a smoking Dark Star > Sittin’ On Top Of The World > Dark Star sandwich; soundboard recording is clear and album‑ready though Keith’s piano sometimes overpowers the mix.",
+    "review": "The concert delivers a tight, energetic performance highlighted by the lengthy Dark Star/SOTOTW/Dark Star medley, ripping versions of Cumberland, Jack Straw, Cold Rain & Snow, and a fast‑paced Tennessee Jed. Reviewers rave about the band’s chemistry—especially Keith’s piano interplay with Jerry—and note the set flows smoothly despite the stripped‑down lineup (no Pig or Mickey). The soundboard source is generally crisp and “album/CD ready,” but a few listeners find the piano level too high, making Jerry’s guitar less audible at times.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4–5 stars and praise both the musical performance (standout jams, high energy) and the recording quality (clear, album‑ready), with only minor mix complaints lowering the rating slightly."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp, balanced sound that many call album/CD ready; however, Keith’s piano is occasionally too high in the mix, which can mask Jerry’s guitar on the Dark Star segment."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > Sittin' On Top Of The World > Dark Star",
+        "Cumberland",
+        "Jack Straw (2nd ever performance)",
+        "Cold Rain and Snow",
+        "Beat It On Down the Line",
+        "Me & My Uncle",
+        "Tennessee Jed"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows tightly with a powerful Dark Star sandwich in the middle, followed by energetic mid‑set numbers and a strong encore; stripped‑down lineup (no Pig or Mickey) makes the band feel especially tight.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar tone is praised as hypnotic and echo‑laden; some note he gets buried when Keith’s piano dominates.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith’s piano shines, often “jumping in” and creating insane interplay with Jerry, though a few say it sits too high in the mix.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:47:51.229140+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-10-21.sbd.cotsman.5071.sbeok.shnf"
+  }
 }

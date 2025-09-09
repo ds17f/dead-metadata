@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.75,
   "high_ratings": 16,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A historically rich soundboard capture of the 1966 Acid Test set with tight, blues‑heavy performances and generally good audio despite some noise.",
+    "review": "The supplement presents an early‑era Dead show that feels soulful and high‑energy, highlighted by a rousing Viola Lee Blues, a fiery Next Time You See Me, and Jerry’s surprising licks in In the Midnight Hour.  The soundboard source is reasonably clear—tight and listenable—though a few reviewers note occasional background hiss or “garbage” noise.  Overall the recording is prized for its historical value as much as its musical punch.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Most reviewers give five‑star ratings and praise both the performance and historic significance; recording quality is described as tight but with some noise, yielding a solid combined score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally tight mix and clear enough for listening; a few mentions of background hiss/garbage noise but no major dropouts or balance issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee Blues",
+        "Next Time You See Me",
+        "In The Midnight Hour",
+        "It's A Sin",
+        "Beat It On Down The Line (BIODTL)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early blues‑heavy set that flows through traditional numbers and jam sections; the band moves from acoustic roots to electrified jams with a cohesive, soulful vibe.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Noted for surprising lead licks in In The Midnight Hour and strong vocal on It's A Sin; praised for his early‑era playing.",
+      "Phil": "Mentioned having choppier bass notes than later versions, still enjoying the groove.",
+      "Bob": "Pigpen’s vocals highlighted on Beat It On Down The Line (BIODTL) and contribution to the blues feel.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T05:13:12.020285+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd66-acid-test-supplement.sbd.unknown.9514.shnf"
+  }
 }

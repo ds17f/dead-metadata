@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.533333333333333,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording of the April 26 1971 Fillmore East show delivers a high‑energy performance with Duane Allman’s legendary solos on It Hurts Me Too and Hard to Handle, captured in good but not flawless sound quality.",
+    "review": "The show is praised for its fiery second‑set jams – especially the dueling guitar work on It Hurts Me Too and a scorching Hard to Handle – as well as strong first‑set moments like Dark Star → Wharf Rat. The soundboard source is generally clear, though listeners note a long tuning intro on Sugar Magnolia, a cut‑off of I Know You Rider, and occasional song‑order quirks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4–5 stars, highlighting standout performances and decent sound quality; only a few technical complaints lower the average slightly."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp start and clear instrument separation, but includes lengthy tuning on Sugar Magnolia, a truncated I Know You Rider track, and minor song‑order issues; overall listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "It Hurts Me Too (Bertha)",
+        "Hard to Handle",
+        "Good Lovin > Drums > Good Lovin",
+        "Dark Star > Wharf Rat",
+        "Casey Jones"
+      ],
+      "poor_songs": [
+        "Sugar Magnolia (considered okay but not earth‑shaking)",
+        "I Know You Rider (cut off)"
+      ],
+      "setlist_flow": "Strong first set with a classic Dark Star and tight jams, followed by a second set highlighted by Duane Allman’s guest solos and an energetic Good Lovin jam; overall pacing keeps the momentum high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned as laying back while dueling with Duane; not blown off stage but his interplay is noted.",
+      "Phil": "Praised for earth‑shaking bass bombs and powerful stomping during jams.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Drums segment leading into Good Lovin praised for its funky, twisty jam."
+    },
+    "processed_date": "2025-09-07T18:06:04.492276+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-04-26.sbd.murphy.4991.sbefail.shnf"
+  }
 }

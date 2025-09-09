@@ -14,5 +14,48 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy Fall ’72 show with smoking Bird Song, Cumberland Mines and a standout Playing in the Band.",
+    "review": "The recording is a crisp SBD tape that lets the band’s evolving mellow‑garage vibe shine through, even if the drum mix sits a bit low at times. Musically the concert is a firecracker – the first set “off the hook” with Bird Song, Cumberland Mines and a monster Playing in the Band, while the second set delivers solid jams (China→Rider transition) despite a few weaker moments like Tomorrow Is Forever. Overall it’s a highly enjoyable snapshot of the Dead’s mature 1972 sound.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high praise for both performance and sound quality across many detailed reviews; minor mix quirks do not detract from an overall excellent experience."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear SBD capture with prominent keys and guitar; drums a bit recessed for some listeners; occasional mix balance notes but no major dropouts or noise."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bird Song",
+        "Playing in the Band",
+        "Cumberland Mines",
+        "China > Rider (transition jam)",
+        "Stella Blue",
+        "Truckin'",
+        "Tomorrow Is Forever (duet) – noted for its novelty"
+      ],
+      "poor_songs": [
+        "Tomorrow Is Forever (some reviewers disliked it)",
+        "Promised Land (lacked pep)",
+        "He's Gone (energy dip)"
+      ],
+      "setlist_flow": "First set rolls on a tight, high‑energy groove with several epic jams; second set remains solid with extended explorations but has a few uneven spots toward the end.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for a fat, soaring tone, inventive noodling and strong solos (water‑wavy tones on PITB).",
+      "Phil": "Noted for powerful bass lines that drive jams, solid backing vocals on Cumberland and strong presence in the China→Rider transition.",
+      "Bob": "Comments range from playful “out‑of‑tune” guitar texture to tight staccato chords and good interplay with Jerry during jams.",
+      "Keys": "Keys (Keith) praised for being forward in the mix; some reviewers note he’s a bit subdued but generally adds nice color, especially on transitions.",
+      "Drums": "Bill's drumming is occasionally hard to hear in this Miller SBD, but overall rhythm section supports the high‑energy feel."
+    },
+    "processed_date": "2025-09-08T03:08:39.371457+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-10-02.sbd.gans.miller.112864.flac16"
+  }
 }

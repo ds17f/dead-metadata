@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.72,
   "high_ratings": 14,
-  "low_ratings": 4
+  "low_ratings": 4,
+  "ai_review": {
+    "summary": "Pigpen’s farewell at the Hollywood Bowl delivers a historic first‑ever Stella Blue and a wild Other One, but the audience tape is riddled with dropouts and muffled sound.",
+    "review": "The show is celebrated for its sentimental weight – Pigpen’s last appearance, the debut of Stella Blue, and an adventurous Other One that many fans call “spacey” and “jazz‑like.”  Musically the band was high‑energy, with strong vocals from Bob, tight interplay between Jerry and Phil, and a memorable China Cat Sunflower jam, yet the recording is an old audience tape plagued by skips, low fidelity mics and occasional silence that makes large portions difficult to listen to.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the performance (average 4‑5 stars for musical value) but consistently criticize the audio quality (average 2‑3 stars). Weighted combination yields a ~3.8 overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Muffled mids, frequent skips and dropouts, occasional audience chatter; some sections (Stella Blue, later second set) become clearer but overall the tape is hard to follow."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Stella Blue (first performance with Pigpen on organ)",
+        "The Other One (spacey/jazzy version)",
+        "Playing in the Band (strong jam)",
+        "China Cat Sunflower > I Know You Rider jam",
+        "Black Throated Wind (Bob’s vocal)",
+        "Truckin' (notable “watch the wires!” incident)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set swings hard with solid vocals and tight playing; second set becomes more exploratory, featuring extended space in The Other One and a memorable China Cat Sunflower jam before closing.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for strong vocal and guitar work on songs like Loser and overall tight lead playing.",
+      "Phil": "Noted for solid bass lines (“Phil bombs”) and good interplay with Jerry, especially in the jam sections.",
+      "Bob": "In good vocal form on Black Throated Wind; also famously warned “watch the wires!” during Truckin'.",
+      "Keys": "Pigpen’s organ shines on Stella Blue – a unique organ‑vocal blend; Keith Godchaux’s piano adds fullness to the sound.",
+      "Drums": "Bill Kreutzmann highlighted as the driving force, with occasional nods to Mickey Hart but overall drum work praised."
+    },
+    "processed_date": "2025-09-08T00:41:09.642916+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-06-17.aud.hanno.16470.sbeok.shnf"
+  }
 }

@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.875,
   "high_ratings": 5,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A cleaned‑up soundboard captures a smoking Other One suite and strong Pigpen/Keith moments, though noise‑reduction artifacts and occasional low organ mix keep the recording from being perfect.",
+    "review": "The performance is widely praised – the Other One suite is called one of the best of ’71, and Pigpen and Keith add a rare syncopated fire that drives the show. The newly cleaned soundboard is generally clear and crisp, but some listeners note digit‑noise from heavy noise reduction and an uneven Pigpen organ level, plus missing track labels in the stream.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show highly (4‑5 stars) for musical energy and rare Pigpen/Keith moments, while a few point out recording artifacts and mix issues; weighting shows 70% performance and 30% audio gives an overall rating just above four."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Hiss removed and overall clarity improved after cleaning; however, aggressive noise‑reduction adds digi‑noise artifacts, Pigpen's organ drops low in the mix after Truckin', and some streams lack track labels or suffer from poor transfer quality."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Truckin'",
+        "Mr. Charlie",
+        "Black Peter",
+        "Wharf Rat",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set delivers solid, above‑average material with a transcendent Black Peter; second set builds momentum through a powerful Other One suite and finishes with high‑energy jams on Wharf Rat and Sugar Magnolia.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s tone is highlighted as perfect, especially his explosive solo in The Other One and the aggressive chops that drive GDTRFB.",
+      "Phil": "Phil’s bass work is noted as a “TOO bomb” intro and strong throughout; his low‑end anchors the jams.",
+      "Bob": "",
+      "Keys": "Keith’s organ shines early (high in Truckin') but becomes subdued later, likely due to mix decisions; his syncopation adds rhythmic depth.",
+      "Drums": "Billy’s drumming is described as solid and pocket‑groove heavy, keeping the band swinging from start to finish."
+    },
+    "processed_date": "2025-09-07T21:21:43.521038+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-12-14.sbd.cantor-orf.133.shnf"
+  }
 }

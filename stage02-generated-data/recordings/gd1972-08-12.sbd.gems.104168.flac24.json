@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with a good mix despite some cuts and unevenness, capturing a high‑energy show highlighted by “Cumberland”, “Truckin” and a soaring “Playin’ in the Band”.",
+    "review": "The performance is lively and fun, with the band feeding off a rowdy crowd; standout moments include a blazing “Cumberland”, a tight “Truckin”, and an orbital “Playin’ in the Band”. The Bear‑mixed soundboard tape is generally clear but suffers from occasional uneven balance and noticeable cuts (El Paso, Jack Straw, GSET).",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Four out of five reviewers give 4+ stars and praise the musical energy and several standout songs; recording issues are noted but not severe enough to outweigh the strong show."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Great Bear mix overall, though reviewers mention an uneven mix in places, minor sound glitches, and missing portions of El Paso, Tennessee Jed and Jack Straw (plus a brief GSET cut)."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cumberland",
+        "Truckin'",
+        "Bird Song",
+        "Playin' in the Band",
+        "Half Step",
+        "Black Peter"
+      ],
+      "poor_songs": [
+        "Casey Jones (described as a disaster)",
+        "El Paso (cut early)",
+        "Jack Straw (painful cut)"
+      ],
+      "setlist_flow": "The set moves smoothly between high‑tempo rockers and more exploratory jams, with the second set building momentum and delivering strong transitions.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia delivers solid solos, perfect riffs on several numbers, and is ‘fully in the driver’s seat’ during high‑energy jams.",
+      "Phil": "Phil Lesh “bombs” into the TO (Truckin) jam, providing powerful bass foundation.",
+      "Bob": "Bob Weir sings confidently and even chastises flashbulb‑wielding fans; his rhythm work is solid throughout.",
+      "Keys": "Keith Godchaux’s jazzy influence is noted as a fresh addition, marking his formal introduction on this night.",
+      "Drums": "A brief but effective drum segment follows the “Gone” jam, adding to the flow."
+    },
+    "processed_date": "2025-09-08T01:17:01.955170+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-08-12.sbd.gems.104168.flac24"
+  }
 }

@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy first set (Dancin', He Was a Friend of Mine, China Cat → New Potato) with solid recording quality despite minor pitch quirks.",
+    "review": "The recording is a well‑preserved soundboard source that sounds crisp and balanced, though listeners note a slight speed/pitch issue on “Dancing in the Street” and occasional low‑level mic for Wayne. Musically the show shines in the first set – a smoking Dancin', gorgeous “He Was a Friend of Mine,” and an unforgettable China Cat → New Potato sequence – while the second set is more uneven, with “Lovelight” cited as weak but still offering highlights like Cryptical Envelopment → The Other One → Cosmic Charlie.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4‑5 stars and praise the performance, especially the first set, while a few note second‑set flaws and minor recording pitch issues; the balance yields an overall strong rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp soundboard mix with clear instrument separation. Minor speed/pitch anomalies on “Dancing in the Street” need slight correction; one comment about Wayne's vocal mic being low, but overall clean and listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dancin' (Dancing in the Street)",
+        "He Was a Friend of Mine",
+        "China Cat Sunflower → New Potato Caboose",
+        "Cryptical Envelopment → The Other One → Cosmic Charlie"
+      ],
+      "poor_songs": [
+        "Lovelight"
+      ],
+      "setlist_flow": "First set flows tightly with seamless transitions and high energy; second set is more fragmented due to dosing, but still contains a strong mid‑set suite.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar tone praised as “perfect” and “far‑away weeping”; his vocal cracks noted on Dancin' outro; sat out briefly during the dosed second set.",
+      "Phil": "Lesh’s bass described as “crazy,” “blazing,” with unique chord work and a memorable solo on New Potato; praised for “Phil bombs.”",
+      "Bob": "Bob’s harmonies highlighted as sweet and supportive, especially on “He Was a Friend of Mine.”",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:17:50.206857+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-06-08.123986.sbd.miller.flac16"
+  }
 }

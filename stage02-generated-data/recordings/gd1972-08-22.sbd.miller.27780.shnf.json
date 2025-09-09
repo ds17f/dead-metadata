@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Superb soundboard capture of a scorching August ’72 Berkeley set featuring a rare slide‑driven Hey Bo Diddley, an epic Other One and crystal‑clear vocals.",
+    "review": "The Miller transfer delivers an excellent two‑track off‑the‑board mix that is crisp, balanced and virtually free of major glitches. Musically the band is on fire – Jerry’s dizzying licks, Keith’s vibey keys and Phil’s thunderous bass solo on The Other One lift a mellow first set into a high‑energy second set highlighted by a rare Hey Bo Diddley segue into Not Fade Away.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "The overwhelming majority of reviews (9 out of 11) rate the show 4–5 stars and praise both performance and recording; technical notes are uniformly positive, giving a strong combined score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear two‑track off‑the‑board mix with Miller's superb remaster; reviewers note crisp vocals and instruments, minor glitches mentioned but not detracting from overall listenability."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hey Bo Diddley",
+        "The Other One",
+        "Black Throated Wind",
+        "Not Fade Away"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Starts mellow, builds into a high‑octane second set; rare slide‑driven Hey Bo Diddley bridges into Not Fade Away, with the Other One serving as an epic centerpiece.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as ripping dizzying fluttering licks and delivering a squeaking white Strat that drives the band forward.",
+      "Phil": "Praised for being on top of his game, laying a groove foundation and delivering an impressive bass solo/workout in The Other One.",
+      "Bob": "Noted for a solid groove‑laced foundation and engaging Gibson counter‑punching against Jerry's lead.",
+      "Keys": "Keith joins the vibe early, adding to the rising intensity; the venue’s acoustics let the keyboards shine.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T01:35:38.698779+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-08-22.sbd.miller.27780.shnf"
+  }
 }

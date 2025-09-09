@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.375,
   "high_ratings": 14,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Phenomenal 1968 audience tape with crisp Dark Star and a high‑energy four‑song set featuring standout performances of Sittin' On Top, Death Don't Have No Mercy and Good Morning Schoolgirl.",
+    "review": "The recording captures an early‑68 show that sounds astonishingly clear for an audience source – the mix is crisp, the crowd virtually disappears, and the Dark Star is especially mellow and dreamy. Musically the band delivers a loose but kick‑butt performance; four songs flow with high energy, highlighted by a fiery Sittin' On Top Of The World and a blues‑rooted Death Don't Have No Mercy.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high praise for both the musical performance (standout songs, high energy) and the surprisingly excellent audience recording quality across >15 detailed reviews."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear sound with minimal crowd noise; superb balance for a 1968 audience tape. Minor flaws are noted but do not detract from overall listenability."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Sittin' On Top Of The World",
+        "Death Don't Have No Mercy",
+        "Good Morning (Sweet) Schoolgirl"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Four‑song set that feels loose yet tight; a mellow Dark Star opens, followed by an energetic Sittin' On Top, then solid performances of Good Morning Schoolgirl and Death Don't Have No Mercy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for deep‑throated, expressive vocals and strong guitar work, especially on Death Don't Have No Mercy.",
+      "Phil": "His post‑Sittin' vocal quip is noted; otherwise no specific instrumental comments.",
+      "Bob": "",
+      "Keys": "Simple keyboard accompaniment mentioned on Death Don't Have No Mercy; adequate for the era.",
+      "Drums": "Both Bill Kreutzmann and Mickey Hart are present, providing solid rhythmic foundation despite occasional single‑drummer feel."
+    },
+    "processed_date": "2025-09-08T08:16:47.258031+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-03-29.aud.cotsman.6029.sbeok.shnf"
+  }
 }

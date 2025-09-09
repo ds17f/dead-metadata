@@ -14,5 +14,40 @@
   "confidence": 0.2,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Muddy audience tape of a tired, low‑energy show with Hard To Handle as the only real highlight.",
+    "review": "The recording is an audience capture with noticeable sound‑quality issues that can be harsh on the ears. Musically the band sounds sluggish and still adjusting to the two‑drummer format, making for a generally sloppy performance, though the rendition of Hard To Handle stands out as a bright spot.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.5,
+      "confidence": "low",
+      "rationale": "Only one brief review; it notes poor recording fidelity and low show energy, with a single highlight, leading to an overall below‑average rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Sound quality described as harsh and potentially painful to listeners; likely a raw audience tape with limited clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard To Handle"
+      ],
+      "poor_songs": [
+        "The Other One"
+      ],
+      "setlist_flow": "Setlist appears complete but track ordering is slightly off; the set break statement is missing, causing minor confusion.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T16:55:35.672517+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-03-24.aud.sirmick.95869.sbeok.flac16"
+  }
 }

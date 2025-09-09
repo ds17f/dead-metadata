@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 3.8125,
   "high_ratings": 11,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Muddy, slow‑speed soundboard tape, but the Europe ’72 Beat Club show burns with a blazing Truckin → Drums → The Other One and scorching solos.",
+    "review": "The recording suffers from hiss, pitch‑slowdown and occasional drop‑outs that mask the band’s playing, yet listeners repeatedly praise the performance – especially the ferocious Truckin > Drums > The Other One sequence, tight Playin' in the Band and fiery Jerry Garcia leads.  While the audio quality is judged poor to fair, the musical energy is high, making it a worthwhile listen for devoted fans despite its technical flaws.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Most reviewers love the music (high‑energy jams, standout Truckin/Other One) but criticize the recording quality (slow speed, hiss, drop‑outs). The blend of strong show praise and poor sound yields a mid‑to‑high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Hissy, muffled audio with noticeable slowdown/pitch problems (drag), occasional drop‑outs and feedback during Loser; overall tape sounds degraded and antique."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin > Drums > The Other One",
+        "Playin' in the Band",
+        "Mr. Charlie",
+        "Bertha",
+        "Black Throated Wind"
+      ],
+      "poor_songs": [
+        "Sugaree (false start)"
+      ],
+      "setlist_flow": "Jam‑heavy set with a tight first half, a few false starts (e.g., Sugaree) but an explosive second half; the Truckin/Other One stretch stands out as a highlight.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for extraordinary leads and \"wildfire\" solos during The Other One and Truckin sequence.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "The drum segment in the Truckin > Drums > Other One stretch is noted as powerful."
+    },
+    "processed_date": "2025-09-07T23:22:24.356244+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-04-21.fm.vernon.9380.sbeok.shnf"
+  }
 }

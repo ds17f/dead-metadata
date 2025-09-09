@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.391304347826087,
   "high_ratings": 22,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a historic acoustic‑electric transition show with a smoking Dark Star, stellar New Speedway Boogie and standout Lovelight",
+    "review": "This archive capture showcases the Grateful Dead’s rare early‑‘69 acoustic set followed by an electric second half that builds into a high‑energy climax. Reviewers rave about the crystal‑clear acoustic guitars, Tom Constanten’s organ work and Garcia’s classic 1969 tone, while noting a few tape cuts in the middle of Rain and Snow/China Cat. The performance shines on Dark Star, New Speedway Boogie and an unforgettable Lovelight, making it one of the most prized late‑’69 shows.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "The majority of reviews (20+) are 4–5 stars and praise both the musical performance and recording clarity; only a few minor complaints about cuts or song pacing temper the score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clean stereo mix, crisp acoustic guitars, strong organ presence. A handful of reviewers note brief drop‑outs (Rain/Snow and early China Cat) but overall the tape is clear and well balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "New Speedway Boogie",
+        "Lovelight",
+        "Black Peter",
+        "Gathering Flowers for the Master's Bouquet"
+      ],
+      "poor_songs": [
+        "Hard to Handle",
+        "Casey Jones"
+      ],
+      "setlist_flow": "An impromptu acoustic first set (Bill late) segues into a slower‑to‑fire electric second half; energy ramps up after the early electric songs and peaks with Dark Star → New Speedway Boogie → Lovelight.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s classic ’69 guitar tone is praised throughout; his vocals on ‘Gathering Flowers’ and solo work on Dark Star receive high marks.",
+      "Phil": "Bass comes in strong, especially noticeable during the China/DS jam; a few reviewers note he was late but later locks in solidly.",
+      "Bob": "Acoustic guitars are described as clear and “nice”; Bobby’s vocal harmonies (e.g., on ‘Gathering Flowers’) are highlighted as surprisingly on‑key.",
+      "Keys": "Tom Constanten’s organ is lauded for texture on Dark Star, New Speedway Boogie, and Lovelight; Pigpen’s organ work also receives specific praise.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T16:02:46.325897+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-12-26.sbd.murphy.1821.sbeok.shnf"
+  }
 }

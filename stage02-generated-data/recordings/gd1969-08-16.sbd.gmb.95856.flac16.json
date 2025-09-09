@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 3.857142857142857,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of Woodstock's infamous show, highlighted by a monster 45‑minute Lovelight despite an uneven overall performance.",
+    "review": "The recording is praised as a remarkable upgrade – crystal‑clear soundboard audio that makes even the chaotic Woodstock environment listenable. Musically the set is notorious for its early missteps (a two‑minute St Stephen, a limp Mama Tried and a Dark Star that never really launches), but Pigpen’s 45‑minute Turn On Your Lovelight and Jerry’s soaring guitar leads turn it into a memorable slice of history.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Multiple reviewers give the recording top marks for sound quality (5‑star praise) while opinions on the performance range from “worst ever” to enthusiastic love of Lovelight; the strong technical score and standout moments outweigh the overall uneven show."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix with a notable upgrade over previous releases; no major drop‑outs reported, captures long Lovelight and occasional crowd ambience cleanly."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Turn On Your Lovelight (45‑minute version)",
+        "Dark Star (for some listeners)",
+        "Mama Tried (noted as good by a reviewer)"
+      ],
+      "poor_songs": [
+        "St. Stephen (extremely brief opener)",
+        "Dark Star (fails to launch according to one review)",
+        "Mama Tried (described as limp by another reviewer)"
+      ],
+      "setlist_flow": "Chaotic early set with a very short St Stephen, a long break, radio‑crosstalk and a sprawling Lovelight that dominates the second half; transitions feel uneven but the epic Lovelight provides a unifying climax.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for his guitar work – “every note” and “stinging leads” were highlighted as highlights of the show.",
+      "Phil": "Noted for bizarre radio transmissions from his bass amp during Lovelight, adding a quirky moment to the performance.",
+      "Bob": "",
+      "Keys": "The Hammond organ is described as “swirly psychedelic” and beautiful, especially on Dark Star.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:14:35.132355+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-08-16.sbd.gmb.95856.flac16"
+  }
 }

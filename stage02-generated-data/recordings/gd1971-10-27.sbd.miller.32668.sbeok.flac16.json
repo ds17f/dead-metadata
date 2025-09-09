@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.545454545454546,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Pristine soundboard capture of a classic 1971 set with a smoking Cumberland, Truckin', and an unforgettable Casey Jones opener.",
+    "review": "This recording delivers crystal‑clear Miller soundboard audio that lets the band’s 1971 energy shine through. Highlights include a blazing \"Cumberland,\" tight \"Truckin'\"/\"NFA/GDTRFB\" medley, and a memorable opening with NRPS and Jerry on pedal steel, while Keith’s piano adds fresh texture. Overall the show is regarded as a high‑energy, quintessential early‑’71 performance.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "The majority of reviews are 4–5 stars and praise both the performance and audio quality; only a few outliers rate low, so the weighted average reflects a strong show with excellent soundboard recording."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear, pristine Miller sbd tape with no reported dropouts or mix issues; reviewers note the audio sounds “pristine” and captures the band’s dynamics well."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cumberland",
+        "Truckin'",
+        "Not Fade Away / Going Down The Road Feeling Bad",
+        "Casey Jones",
+        "Me & My Uncle (notable intro)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical early‑'71 two‑set structure with a strong first set opener and tight transitions; the second set stays focused without long jams but ends on a high note.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for expressive vocals (especially on \"Comes a Time\") and his pedal‑steel cameo with NRPS; fans note his tone and presence throughout the show.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith is highlighted as a welcome addition on piano, helping to solidify the new material and adding fresh texture to the set.",
+      "Drums": "Bill Kreutzmann’s drumming gets special mention with visual fireworks during \"Casey Jones,\" underscoring his driving energy."
+    },
+    "processed_date": "2025-09-07T20:03:48.305477+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-10-27.sbd.miller.32668.sbeok.flac16"
+  }
 }

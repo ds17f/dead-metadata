@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.166666666666667,
   "high_ratings": 9,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard capture of a high‑energy 1969 show with standout Dark Star and Turn On Your Love Light, but marred by hiss and occasional mix quirks.",
+    "review": "The performance shines thanks to an expansive Dark Star, a fiery Turn On Your Love Light and a solid Hard to Handle, with Tom Constanten’s organ dominating the mix. While the soundboard source delivers moments of clarity, listeners must contend with hiss, low volume and a half‑step pitch shift that keep the recording from being pristine.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4–5 stars and praise the musical highlights; technical complaints are present but do not outweigh the strong show quality."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Organ (TC) sits unusually high in the mix; hiss, low volume and a half‑step pitch shift are noted. One reviewer mentions a mono switch mid‑song and a tape flip loss, but overall the sound is considered decent for a 1969 capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Turn On Your Love Light",
+        "Hard to Handle"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows through organ‑driven jams, with Dark Star providing a spacey centerpiece and the high‑energy rock of Hard to Handle keeping momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar work praised in Hard to Handle; generally tight playing noted.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Tom Constanten’s organ is prominently mixed throughout and highlighted on Dark Star and other jams; Pigpen’s organ contributions (e.g., Turn On Your Love Light) are also celebrated.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:24:01.173436+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-08-23.sbd.2196.sbeok.shnf"
+  }
 }

@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 3.8,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Early‑66 Vernon set shines on Hey Little One and See That My Grave Is Kept Clean; soundboard is clear but suffers missing songs, wow‑flutter and pitch quirks.",
+    "review": "The performance captures a high‑energy early‑summer 1966 show with standout moments from Jerry’s crooning on “Hey Little One” and a historic rendition of “See That My Grave Is Kept Clean.” The soundboard source is generally clear, though reviewers note tape flutter, slight speed issues and the fact that four songs are absent, giving the release an overall mixed feel.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Average star rating across five reviews is ~3.7; strong musical praise (high show weight) balanced by consistent complaints about missing material and recording quirks (recording weight)."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Decent clarity overall, but noticeable wow‑flutter on “Dancing in the Street,” slight speed/pitch inconsistencies requiring correction, and trimmed banter. Four songs are missing from this version."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hey Little One",
+        "See That My Grave Is Kept Clean"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set opens a bit tentative on “Dancing in the Street,” warms up with \"Cold Rain & Snow,\" then builds momentum through early Jerry wails and solid folk‑blues numbers, ending with a historically significant rendition of \"See That My Grave Is Kept Clean.\"",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Powerful early wailing; praised for crooning on “Hey Little One.”",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T05:48:11.801874+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd66-07-30.sbd.vernon.9387.sbeok.shnf"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Muddy soundboard recording that’s still worth a listen, highlighted by a monster 35‑minute Other One and strong Keith transition work.",
+    "review": "The show is praised for its long, flowing jams – especially the colossal >35 min “That’s It For The Other One,” a tight ‘Friend of the Devil,’ and an inspired “He’s Gone.” While the performance earns high marks from fans, the SBD mix is described as muddy, with guitars, drums and keyboards buried beneath vocals and Phil’s bass, requiring some EQ tweaking.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Reviewers consistently rate the musical performance above average (average show‑related stars ≈4.3) but note a muddy, low‑fidelity mix (recording rating ≈2.5). Weighted combination yields ~3.8."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Mix is muddy; guitars and drums sit low, keyboards nearly inaudible. Only vocals and Phil’s bass cut through clearly. Listeners report needing EQ adjustments to achieve a balanced sound."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "That's It For The Other One (35+ minute version)",
+        "Friend of the Devil",
+        "He's Gone",
+        "Playin' in the Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Transitional late‑‘72 set with extended jams and new material that would define ’73‑’74 shows; long, cohesive sequences despite occasional missed transitions.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Excellent lead guitar work noted, especially during the Other One and He's Gone.",
+      "Phil": "Bass cuts through clearly and is praised even in the muddy mix.",
+      "Bob": "Vocals stand out; also does a notable Truckin tease at the end of He’s Gone.",
+      "Keys": "Keith's transition turns are highlighted, but keyboards are largely buried in the mix.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:05:53.205498+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-09-09.sbd.popi.14086.sbeok.shnf"
+  }
 }

@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.111111111111111,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Beautiful soundboard recording highlighted by a stellar second‑set featuring China Cat > I Know You Rider, Good Lovin' and Ripple.",
+    "review": "The fans rave about the crystal‑clear soundboard source, calling it the best or “beautiful” capture of this concert. Musically the show shines in the second set – Bob’s coyote howl intro to a tight China Cat > I Know You Rider segue and a grooving Good Lovin' that even survives Pigpen’s slip‑up on Easy Wind, capped off by a sweet Ripple. While some note the first set is uneven and the jams modest, the overall vibe is positive and enjoyable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Consistently high star ratings (mostly 4‑5) and enthusiastic comments about both performance and recording quality drive a strong rating; the few lower notes are outweighed by the positive consensus."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Repeated praise for the recording as \"beautiful\" and \"best of this show\"; no complaints about dropouts or muddiness, indicating a clean, well‑balanced soundboard capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower > I Know You Rider",
+        "Good Lovin'",
+        "Ripple"
+      ],
+      "poor_songs": [
+        "Easy Wind (Pigpen slip‑up)"
+      ],
+      "setlist_flow": "Second set opens with Bob urging the crowd to howl like a coyote, then launches into a tight China Cat > I Know You Rider; the set maintains momentum through a solid Good Lovin' and ends on a mellow Ripple.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "Bob Weir famously asks the audience to howl like a coyote before the China Cat > I Know You Rider segment.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T16:25:12.200398+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-02-21.sbd.miller.116618.flac16"
+  }
 }

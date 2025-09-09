@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A stellar soundboard capture of one of Europe ’72’s hottest nights – blazing Dark Star, smoking Caution and a tour‑best Playing in the Band.",
+    "review": "The Miller 83714 SBD provides crystal‑clear, well‑balanced audio that lets the band’s fire shine through.  The show is consistently high‑energy with standout performances of Dark Star (including the famed Mind‑Left‑Body jam), Caution, Playing in the Band, Good Lovin’, Looks Like Rain and a ripping Mr. Charlie, while the first set flows smoothly from Bertha to Casey Jones.  Minor quirks such as missing intros or brief cuts do not detract from an overall exceptional listening experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Overwhelmingly positive 5‑star comments praise both the musical performance and the soundboard quality; only minor technical complaints are noted, leading to a high combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear multitrack mix with superb instrument separation.  Some reviewers note missing intro/announcements and occasional piano drop‑outs, but overall the recording is considered top‑tier for this era."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Caution",
+        "Playing in the Band",
+        "Good Lovin'",
+        "Looks Like Rain",
+        "Mr. Charlie"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The first set builds momentum from a sparkling Bertha through tight jams and strong closes, while the second set delivers an epic Dark Star > Caution sequence followed by powerful finishes.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for blistering leads, pedal‑steel work on Looks Like Rain, and a ‘smoking’ solo in Caution; his interplay with Phil is highlighted as mind‑boggling.",
+      "Phil": "Noted for deep, intertwining dialogue with Jerry during Playing in the Band and overall powerful bass presence.",
+      "Bob": "Mentioned as part of the full‑band tour de force; his feedback “Olympic solo” joke is cited.",
+      "Keys": "Keith’s piano is called the ‘magic ingredient’ on several tracks, though occasionally faint or missing in the mix.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:53:36.175145+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-04-08.sbd.miller.83714.sbeok.flac16"
+  }
 }

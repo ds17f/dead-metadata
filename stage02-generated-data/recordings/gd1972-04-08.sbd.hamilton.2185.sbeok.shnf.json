@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy Europe ’72 performance captured on a clean soundboard, delivering a husky, unforgettable night.",
+    "review": "The lone five‑star review celebrates the show as a quintessential piece of the Europe ’72 tour, describing it with enthusiastic, husky excitement. While no specific details about the mix are given, the “sbd” tag and the glowing rating imply a solid soundboard recording that faithfully conveys the band’s energy.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "Only one enthusiastic five‑star review; strong positive sentiment suggests high overall quality, but limited data lowers confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on audio clarity or mix; rating inferred from soundboard source and reviewer’s five‑star score."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Not described in the review.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:55:29.041971+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-04-08.sbd.hamilton.2185.sbeok.shnf"
+  }
 }

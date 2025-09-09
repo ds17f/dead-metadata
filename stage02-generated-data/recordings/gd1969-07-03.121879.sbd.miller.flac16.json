@@ -14,5 +14,39 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a stellar set highlighted by a unique Casey Jones and a beautiful He Was a Friend of Mine.",
+    "review": "Fans rave that this recording sounds crystal‑clear, with every instrument and vocal line distinct thanks to Charlie Miller’s mastering. The show itself is described as one of the best of the era, featuring an especially memorable take on Casey Jones followed by a gorgeous rendition of He Was a Friend of Mine. Overall the performance feels high‑energy and tightly executed.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "All three reviews give 5‑star ratings, praising both the musical performance and the pristine soundboard recording; consistency across multiple detailed comments yields a near‑perfect rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix where every instrument and voice can be heard distinctly; reviewers credit Charlie Miller for the superb sound."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Casey Jones",
+        "He Was a Friend of Mine"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth flow with a warm‑up Casey Jones leading into a beautifully rendered He Was a Friend of Mine; overall set feels tight and engaging.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:47:46.564039+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-07-03.121879.sbd.miller.flac16"
+  }
 }

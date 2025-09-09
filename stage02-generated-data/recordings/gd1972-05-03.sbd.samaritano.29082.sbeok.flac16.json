@@ -14,5 +14,51 @@
   "confidence": 0.8,
   "raw_rating": 4.75,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy May ’72 Olympia show with a smoking Other One and Me & My Uncle, captured on a solid soundboard despite a brief Casey Jones glitch.",
+    "review": "The performance is consistently praised as one of the tour’s highlights – the first set is described as supernaturally tight with standout moments like Me & My Uncle, China Cat > Rider and an inspired Other One sandwich. The soundboard source is generally clear, though reviewers note a minor glitch on Casey Jones and some overdub artifacts, but these do not detract from the overall listening experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Reviews uniformly rate the show 5 stars for musical excellence; recording is rated good with only minor issues, yielding a combined high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Overall clear and well‑balanced soundboard capture. Notable glitch on Casey Jones (4:25‑4:30) and occasional overdub artifacts (ghost vox on Jack Straw), but the mix is crisp for the rest of the set."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Me & My Uncle",
+        "The Other One > Me & My Uncle > Bobby McGee",
+        "China Cat Sunflower > I Know You Rider",
+        "Beat It On Down the Line",
+        "He's Gone",
+        "Playin' in the Band",
+        "Tennessee Jed (undubbed)",
+        "Not Fade Away",
+        "Goin' Down the Road Feeling Bad",
+        "One More Saturday Night"
+      ],
+      "poor_songs": [
+        "Black Throated Wind",
+        "Wharf Rat",
+        "Jack Straw (overdub issues)"
+      ],
+      "setlist_flow": "A marathon 4‑hour concert with a tightly locked first set and a second set that stays strong despite a few looser moments; transitions flow well and the overall pacing keeps the energy high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for insane fills, wah‑pedal work, double bends, but noted a brief loss of two rounds on Casey Jones; his guitar drives many highlights.",
+      "Phil": "Described as \"ON\" during He's Gone and launching the rumble in The Other One, providing powerful bass support.",
+      "Bob": "",
+      "Keys": "Keith is highlighted as being on‑point throughout (especially on He's Gone), adding rich keyboard texture.",
+      "Drums": "Bill Kreutzmann noted for rapid 32nd‑note tom rolls on Not Fade Away; overall drumming tight and energetic."
+    },
+    "processed_date": "2025-09-07T23:43:20.931487+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-05-03.sbd.samaritano.29082.sbeok.flac16"
+  }
 }

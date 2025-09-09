@@ -14,5 +14,41 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a magical Pigpen & Keith Winterland show with standout Good Lovin' and high‑energy performances.",
+    "review": "The set captures a rare Pigpen‑and‑Keith night at Winterland, highlighted by an extended, spell‑binding Good Lovin' and tight renditions of You Win Again, Casey Jones and the encore One More Saturday Night. The soundboard mix is crisp and well‑balanced (reviewers even suggest EQ tweaks), making the performance easy to enjoy despite a minor track‑order glitch in the download list.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Three detailed reviews consistently praise the musical performance (high energy, standout songs) and note an excellent soundboard mix; weighting show quality (70%) and recording quality (30%) yields a strong combined score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix with good balance; reviewers recommend using an equalizer for optimal listening. No major audio flaws noted, only a playlist order issue unrelated to sound."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "You Win Again",
+        "Casey Jones",
+        "One More Saturday Night"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A classic Pigpen‑and‑Keith Winterland set; the band rides a smooth, high‑energy groove with magical moments, though some note it feels like a transitional period for the group.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Nice riffs and solid guitar work; his playing is described as relaxed and effective.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith's piano shines, adding sparkle; Pigpen on organ receives praise for his vocal phrasing.",
+      "Drums": "Bill Kreutzmann is highlighted as hot and effortless, delivering fluid one‑handed 16th‑note runs."
+    },
+    "processed_date": "2025-09-07T22:15:48.846977+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-03-05.sbd.jools.12152.sbeok.shnf"
+  }
 }

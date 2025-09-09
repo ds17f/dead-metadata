@@ -14,5 +14,40 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A solid soundboard remaster with decent clarity and a standout Playing in the Band, though Grace Slick’s cameo feels under‑used.",
+    "review": "The recording is a soundboard source that sounds generally good but shows some hiss and high‑end compression artifacts; listeners still appreciate the clear mix of Jerry, Bob, Phil and Bill. Musically the show is respectable – “Playing in the Band” shines – but the overall performance is uneven, lacking the experimental spark typical of great Dead nights and featuring a guest blues number that many felt missed the mark.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "Show quality averages around good (≈3.5) with mixed remarks, while recording quality is slightly better (≈3.8). Weighted combination yields ~3.6 stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Background hiss and compression artifacts on cymbals/high‑end frequencies noted; overall mix is praised as clear enough to hear all band members despite age‑related master issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing in the Band"
+      ],
+      "poor_songs": [
+        "Blues track featuring Grace Slick"
+      ],
+      "setlist_flow": "Generally solid with sweet moments, but overall a bit sloppy and lacking the usual experimental daring; guest appearance feels under‑utilized.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Mix allows clear hearing of Jerry’s guitar work throughout the set.",
+      "Phil": "Some criticism of Phil’s vocal contribution, especially on the Grace Slick blues number.",
+      "Bob": "Bob’s rhythm guitar and vocals are audible and well‑balanced in the mix.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:13:20.770912+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-10-09.sbd.130494.MrBill.flac16"
+  }
 }

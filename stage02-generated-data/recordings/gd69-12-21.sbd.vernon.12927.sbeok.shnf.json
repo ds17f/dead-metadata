@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.111111111111111,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Decent soundboard capture of a high‑energy Dec 21 1969 Fillmore set with a smoking Not Fade Away and strong Black Peter.",
+    "review": "The recording is a stereo soundboard mix that sounds clear and well balanced for its era, though it omits the first six songs of the concert. Musically the show shines on a monster Not Fade Away, a powerful Black Peter and an inspired The Other One, while later tracks like Cumberland Blues feel a bit tired. Overall the performance is lively enough to merit repeated listening despite the incomplete set.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Most reviewers praise the musical highlights (Not Fade Away, Black Peter) and rate the soundboard mix as good, giving a solid show rating; missing songs and occasional fatigue lower the score slightly."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Stereo soundboard with a decent 1969 mix; clear overall but incomplete (first six songs missing). No major drop‑outs reported, and reviewers note the sound is nice to excellent for the period."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Not Fade Away",
+        "Black Peter",
+        "The Other One"
+      ],
+      "poor_songs": [
+        "Cumberland Blues"
+      ],
+      "setlist_flow": "Missing opening six numbers; the recorded portion jumps from Good Lovin' into The Other One and ends after Cumberland Blues, giving an abrupt but interesting flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s solo on Not Fade Away is praised for smooth licks and a great tone; he also replies “Thank You!” at the close.",
+      "Phil": "Only noted saying “Good Night Folks, Merry Christmas” after Cumberland Blues.",
+      "Bob": "",
+      "Keys": "Pigpen’s harmonica on Not Fade Away (and backup vocals) is highlighted as a treasure.",
+      "Drums": "Drum solo in Good Lovin' receives specific praise; overall drumming noted as solid."
+    },
+    "processed_date": "2025-09-08T15:59:07.364089+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-12-21.sbd.vernon.12927.sbeok.shnf"
+  }
 }

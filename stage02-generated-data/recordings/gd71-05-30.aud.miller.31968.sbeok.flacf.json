@@ -14,5 +14,41 @@
   "confidence": 0.8,
   "raw_rating": 2.5,
   "high_ratings": 0,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Rough audience recording with uneven sound but a solid show that lifts after the early tracks, highlighted by a bass‑heavy Loser and a decent Morning Dew.",
+    "review": "The tape is an audience source with noticeable hiss and drop‑outs—especially before Bertha and around Lovelight—making parts of it hard to follow. Musically the concert recovers in the second half, delivering a strong Loser, solid energy throughout, and a respectable Morning Dew, though the early set suffers from poor fidelity.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.6,
+      "confidence": "medium",
+      "rationale": "Reviewers consistently note serious recording problems and several low‑star ratings, but they also praise the show’s energy and specific performances, leading to a below‑average overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Hissy tape with noticeable drop‑outs (especially before Bertha and around Lovelight), muffled mids, but improves slightly after the early tracks."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Loser",
+        "Morning Dew"
+      ],
+      "poor_songs": [
+        "Lovelight"
+      ],
+      "setlist_flow": "Early portion (first set) is marred by bad sound and low energy, but the performance lifts after Bertha, delivering tighter playing and stronger songs in the second half.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:39:22.976344+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-05-30.aud.miller.31968.sbeok.flacf"
+  }
 }

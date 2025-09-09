@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.428571428571429,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Fair‑sounding soundboard tape of a high‑energy ’71 outdoor show with standout Pigpen moments and an unforgettable Empty Pages",
+    "review": "The performance is widely praised for its vibrant setlist, powerful Pigpen showcases, and emotional highlights like Empty Pages and Saint Stephen. While the second set shines and the band is described as being at “one of its highest peaks,” the recording suffers from occasional drop‑outs and a heavily distorted bass that make the first half uneven.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Show quality is consistently rated 4–5 stars with many glowing comments; recording quality is noted as problematic in one review, lowering the overall weighted score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Bass often distorted and tape goes in and out, especially early in the show; second set sounds clearer but overall there are noticeable drop‑outs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard to Handle",
+        "Empty Pages",
+        "Saint Stephen",
+        "Uncle John's Band",
+        "Sugar Magnolia",
+        "Good Lovin'",
+        "Other One",
+        "Bobby McGee"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A fresh, high‑energy outdoor set with many new or rarely‑recorded tunes; the first half is a bit uneven but the second half builds into a strong, cohesive climax.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Interesting rhythm patterns on Truckin' and occasional vocal phrasing quirks (\"punches up T\").",
+      "Phil": "Bass work described as \"bombs like elephants walk,\" indicating a powerful low‑end presence.",
+      "Bob": "Weir takes lead on a line in Rider, marking a notable vocal moment for him.",
+      "Keys": "Subtle and polished keyboard textures noted behind Bobby McGee; Pigpen’s organ adds flavor throughout.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:34:33.695719+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-08-26.sbd.miller-rolfe.32303.flac16"
+  }
 }

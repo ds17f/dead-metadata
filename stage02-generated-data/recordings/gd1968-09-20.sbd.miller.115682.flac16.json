@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A modestly rated recording with no detailed feedback on sound or performance.",
+    "review": "The sole review gives the set a solid four‑star rating, indicating an overall satisfactory experience. However, the reviewer provides no commentary on the audio source, mix quality, or specific moments of the show, leaving the musical and technical details unclear.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Rating is based on a single 4‑star review with no descriptive content; therefore the assessment relies solely on the numeric score."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No specific comments about sound quality, clarity, or mix were provided."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T09:04:32.908398+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-09-20.sbd.miller.115682.flac16"
+  }
 }

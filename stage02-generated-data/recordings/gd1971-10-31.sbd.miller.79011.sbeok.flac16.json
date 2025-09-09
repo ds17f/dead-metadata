@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.75,
   "high_ratings": 12,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑quality soundboard capture of an energetic 1971 show featuring a smoking Dark Star and standout El Paso, with crisp Keith piano despite minor mix quirks.",
+    "review": "The recording delivers clear instrument separation and a crisp Keith Godchaux piano, making the first set a pleasure to hear even though a few mix anomalies (Keith too forward early on, occasional channel swaps) are noted. Musically the night is a highlight of the fall‑71 era – Dark Star soars, El Paso shines, and Jack Straw grooves, with the audience feeding the band’s high energy.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently glowing reviews (12 total) praise both performance (standout Dark Star, El Paso, overall energy) and recording quality (crisp piano, good separation), with only minor mix complaints, yielding a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp Keith piano and solid instrument separation; occasional mix issues such as Keith being overly high in the early Bertha and unexpected left/right channel swaps for Bobby and Jerry."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "El Paso",
+        "Jack Straw",
+        "Loser"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical fall ’71 first‑set flow with brisk pacing; a few deliberately slower renditions (e.g., Casey Jones) add variety but the overall momentum stays high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s improvisational riffs are highlighted, especially in Dark Star and El Paso, earning praise for inventive solos.",
+      "Phil": "Phil’s bass provides a tight foundation and he joins the vocal harmonies on Jack Straw, noted as solid and supportive.",
+      "Bob": "",
+      "Keys": "Keith Godchaux’s piano is crisp and present throughout, though the mix makes it too forward early in the set before being corrected later.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:14:38.666162+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-10-31.sbd.miller.79011.sbeok.flac16"
+  }
 }

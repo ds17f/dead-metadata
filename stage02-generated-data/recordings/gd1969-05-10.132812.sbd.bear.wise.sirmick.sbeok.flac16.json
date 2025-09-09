@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 2.8,
   "high_ratings": 3,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Soundboard source plagued by severe diginoise after 14:00, yet the Dark Star segment burns with high‑energy playing.",
+    "review": "The show’s musical heart – especially a red‑hot Dark Star that showcases tight interplay and soaring organ work – is praised by several listeners. Unfortunately the recording suffers from heavy tape degradation, metallic doubling of Garcia's guitar and intermittent over‑saturation, making a large portion almost unlistenable.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Show performance (especially Dark Star) is rated positively while the recording quality is widely criticized; weighted average yields a modest overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Severe diginoise and metallic doubling of Garcia's guitar from ~14:00 onward, tape degradation, interference and occasional over‑saturation; early portion clearer but overall marred."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Limited commentary on set structure; Dark Star and the closing medley are highlighted as special despite technical setbacks.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's guitar is both praised for responsive interplay and criticized for metallic doubling noise after 14:00.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Organ work described as ‘really nice’ and a clear cue for Jerry’s improvisation during Dark Star.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T12:43:04.141521+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-05-10.132812.sbd.bear.wise.sirmick.sbeok.flac16"
+  }
 }

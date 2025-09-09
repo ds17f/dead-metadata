@@ -14,5 +14,48 @@
   "confidence": 1.0,
   "raw_rating": 4.1,
   "high_ratings": 7,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "High‑energy 7/22/72 show shines with stellar RR Blues and Stella Blue, captured on a clear soundboard tape despite occasional treble quirks.",
+    "review": "The performance is widely praised for its fire—Jerry’s soaring solos on RR Blues and Mississippi Half‑Step, a knockout Stella Blue, and standout moments from Yellow Dog and the Bird Song. The SBD source delivers generally crisp and balanced sound, though a few listeners note level swings, a harsh treble boost and missing first‑set tracks that affect continuity.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is ~4.2/5 with most comments highlighting strong playing and good sound; only a few negative points about treble boost or missing songs, giving confidence in a solid positive assessment."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and crisp SBD recording; some reviewers note level fluctuations, occasional harsh treble boost, and hiss on older copies, but overall the mix is balanced and listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "RR Blues",
+        "Stella Blue",
+        "Mississippi Half Step",
+        "Yellow Dog",
+        "Bird Song"
+      ],
+      "poor_songs": [
+        "Bertha (missing)",
+        "Me & My Uncle (missing)",
+        "You Win Again (missing)",
+        "Jack Straw (missing)",
+        "Playin' in the Band (partial/missing jam)"
+      ],
+      "setlist_flow": "First set is praised as superior, though missing early songs disrupts flow; second set maintains momentum with strong jams and a memorable finish.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia gets into it on RR Blues and Mississippi Half Step, delivers peak solos and even playful Chopsticks noodling; praised for soulful leads throughout.",
+      "Phil": "Phil’s baritone vocals are highlighted as great, with backing harmonies noted positively.",
+      "Bob": "Weir steps up with solid vocal delivery and energetic guitar work, leaving it all out on stage.",
+      "Keys": "Keith contributes humorously on Yellow Dog and shares the Chopsticks moment; keyboards add texture to the set.",
+      "Drums": "Bill's drumming is praised for tightness in jam sections and overall interaction with the band."
+    },
+    "processed_date": "2025-09-08T01:01:18.227189+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-07-22.sbd.vernon.13562.sbeok.shnf"
+  }
 }

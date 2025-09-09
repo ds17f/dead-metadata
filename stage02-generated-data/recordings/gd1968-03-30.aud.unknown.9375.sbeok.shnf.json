@@ -14,5 +14,45 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Muffled but solid soundboard capture of an intense early‑68 show, highlighted by a smoking Other One → Dark Star and a fiery Eleven.",
+    "review": "The performance is praised for its high energy, with The Other One flowing into one of the finest pre‑8/68 Dark Stars, plus a hot Eleven and sparkling China Cat. Recording quality is decent for a 1968 soundboard – a bit muffled and distant, and Pigpen's keyboards are muted, but overall it remains listenable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Reviews consistently note strong musical moments (high show rating) while acknowledging some muffled audio and keyboard issues (moderate recording rating). Weighted average yields ~4.3."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Muffled, distant ‘airy’ sound typical of early SBDs; Pigpen's keyboard muted; some transitions (China Cat → Eleven, Born Cross‑Eyed → Spanish Jam) not perfectly smooth."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Dark Star",
+        "Eleven",
+        "China Cat Sunflower",
+        "Morning Dew",
+        "Born Cross‑Eyed > Spanish Jam"
+      ],
+      "poor_songs": [
+        "Lovelight"
+      ],
+      "setlist_flow": "Overall strong set with high‑energy jams, though a few song transitions (e.g., China Cat → Eleven) are less smooth.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Intense guitar work; solo style noticeably different from 1966 versions, praised for fire on The Other One and Dark Star.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen's keyboard is muted, reducing the typical 1968 organ presence.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T08:21:43.205081+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-03-30.aud.unknown.9375.sbeok.shnf"
+  }
 }

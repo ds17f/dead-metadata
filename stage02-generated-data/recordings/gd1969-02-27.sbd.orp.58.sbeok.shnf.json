@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a rare 1969 Dead show, noted for its historic value but with no concrete comments on performance or audio fidelity.",
+    "review": "The handful of reviews focus more on the archival availability and personal grievances than on the music itself. One enthusiastic reviewer gives it five stars, calling the ’69 recording \"necessary,\" while the rest complain about access issues and commercial releases, leaving little detail on sound quality or setlist highlights.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "low",
+      "rationale": "Only one review actually praises the recording; the majority are non‑musical complaints, giving insufficient data to assess performance or audio quality."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "No reviewer mentioned clarity, mix balance, or specific technical issues; comments were limited to availability concerns."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T10:47:59.645225+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-02-27.sbd.orp.58.sbeok.shnf"
+  }
 }

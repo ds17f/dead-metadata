@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Highly rated show thanks to an intact Good Lovin' and the memorable bomb‑threat moment at the end of MAMU",
+    "review": "Both reviewers gave this recording five stars, praising that “Good Lovin’” was left untouched and noting a dramatic bomb‑threat incident during the closing of MAMU. While no specific technical details are offered, the lack of complaints suggests the audio is at least listenable. Overall sentiment is enthusiastic despite the unknown recording source.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "medium",
+      "rationale": "Two consistent 5‑star reviews highlight a standout song and unique event, indicating a strong show; absence of recording comments leads to a modest deduction."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers did not mention any sound issues, implying the recording is acceptable though no details are provided."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T16:34:51.978503+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-02-24.sbd.clevenger.6189.sbefail.shnf"
+  }
 }

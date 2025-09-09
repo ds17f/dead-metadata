@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.2727272727272725,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording of decent clarity captures a solid transitional 1972‑73 show highlighted by a stellar Truckin’ → Dark Star → Morning Dew sequence and strong second‑set jams.",
+    "review": "The performance is a respectable snapshot of the band’s evolution toward 1973, with the Truckin' > Dark Star > Morning Dew suite receiving unanimous praise and several standout moments like Box of Rain, Sugar Magnolia, Playin’ in the Band and Candyman. The soundboard source is generally clear but suffers from occasional hiss, glitches and a few splices that keep it from being pristine. Overall the show’s energy and improvisational depth outweigh the modest recording flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4‑5 stars and highlight exceptional jams, while noting only moderate sound issues; the weighted average of show (70%) and recording (30%) yields a solid 4.2."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear with decent balance, but reviewers mention hiss, occasional glitches, spliced opening tracks and a few drop‑outs that prevent it being excellent."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin' > Dark Star > Morning Dew",
+        "Box of Rain",
+        "Sugar Magnolia",
+        "Playin' in the Band",
+        "Candyman"
+      ],
+      "poor_songs": [
+        "Dark Star (average performance according to one reviewer)"
+      ],
+      "setlist_flow": "Long opening set with some splices; second set delivers extended jams that hint at the band's 1973 direction, creating a cohesive flow despite minor inconsistencies.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's guitar licks are described as tasty and his tone praised on several tracks, especially during the jam sections.",
+      "Phil": "Phil’s bass work receives specific kudos for ‘cool notes’ and ‘squeaks’, adding excitement to the improvisations.",
+      "Bob": "",
+      "Keys": "Keith (keys) is noted for atonal, Miles‑Davis‑like runs that enhance the Dark Star segment.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T04:44:18.316340+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-12-15.sbd.hollister.17186.sbeok.shnf"
+  }
 }

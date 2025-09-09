@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Pretty good soundboard recording; reviewers note decent audio but give no specific show highlights.",
+    "review": "The lone review praises the audio as “pretty good,” expressing a preference for older‑site recordings and the classic Dead sound. No details about the performance, setlist, or individual musicians are provided, so the musical quality remains unassessed beyond this general approval.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one five‑star review mentions acceptable sound quality with no specifics on performance; rating reflects good recording but limited information about the show."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer says it 'sounds pretty good' and prefers the older‑site sound; no complaints about clarity or mix."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T04:19:20.711582+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-11-19.122783.sbd.miller-gans.flac16"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 0.6,
   "raw_rating": 3.0,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Great show with a smoking St. Stephen jam, but the audience‑recorded clapping makes the audio largely unlistenable.",
+    "review": "Fans rave about the performance – especially the extended St. Stephen jam – and agree the concert was a standout night. Unfortunately the recording is an audience capture overwhelmed by nonstop stadium applause, rendering much of the music hard to hear and often unlistenable.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.5,
+      "confidence": "medium",
+      "rationale": "The show itself is consistently praised as excellent, but all reviewers note severe recording problems (excessive clapping, muffled mix) that greatly diminish listenability, pulling the overall rating down."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Sound is decent in places but constantly buried under thunderous stadium clapping; many sections become unlistenable due to the crowd noise overwhelming the band."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "St. Stephen"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Overall high‑energy performance with strong jams, though the recording masks much of the flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:01:22.517821+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-28.aud.berger.99843.sbeok.flac16"
+  }
 }

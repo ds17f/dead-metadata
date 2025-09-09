@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 3.5,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "High‑quality soundboard capture of a classic ’72 show highlighted by a smoking Dark Star→Morning Dew sequence and stellar Jerry/Phil performances.",
+    "review": "The recording is a complete soundboard (sbd) source with an excellent mix, though a slight speed correction introduces minor hiss and a touch of distortion. Musically the concert shines – the Dark Star into Morning Dew segue is described as flawless, and two‑souls in Communion is singled out as definitive, with Jerry’s guitar accents and Phil’s bass tone earning special praise.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Three detailed positive reviews (4‑5 stars) highlight a great performance and generally good soundboard quality; the lone low rating critiques review style rather than the music or audio, so overall rating reflects strong show quality with minor recording quirks."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Mix is praised as excellent and vocals less distant; however one reviewer notes a speed‑correction that adds slight hiss, marginal distortion, and a subtle loss of fidelity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star → Morning Dew",
+        "Two Souls in Communion"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Seamless transitions, especially the gentle segue from Dark Star into Morning Dew; overall set is tight and energetically cohesive.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar accents between verses and solo are highlighted as evidence of his greatness as a lead guitarist/singer.",
+      "Phil": "Bass tone on the Dark Star/Morning Dew stretch is specifically praised.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T00:20:59.356188+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-05-23.sbd.unicorn.16750.sbeok.shnf"
+  }
 }

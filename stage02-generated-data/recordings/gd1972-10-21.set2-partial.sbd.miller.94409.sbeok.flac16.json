@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Partial soundboard recording of a prime 1972 show with a soaring \"The Other One\"; Phil's bass is front‑and‑center while keyboards and drums sit low, but the performance shines.",
+    "review": "The set captures an outstanding late‑Fall ’72 performance highlighted by an epic jam on The Other One.  Reviewers love the thunderous Phil Lesh bass that dominates the mix, even if Keith’s organ and Bill’s drums are noticeably recessed; overall the audio is clear enough to enjoy despite the imbalance.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Consistently high star ratings (average 4.6) and praise for the musical performance outweigh mix‑balance issues, yielding a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Phil’s bass is overly forward in the mix; Keith’s organ and Bill’s drums are far back, leading to an unbalanced but still clear sound. No major dropouts reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Partial second‑set excerpt; despite being incomplete it retains the high energy and tight sequencing typical of late‑1972 shows.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Bass is exceptionally loud and powerful, especially during The Other One where he 'slaughters' the sound; reviewers describe it as a rib‑cage‑rattling highlight.",
+      "Bob": "",
+      "Keys": "Organ is noticeably low in the mix, almost buried beneath the bass.",
+      "Drums": "Bill’s drumming is recessed, making the rhythm section feel thin despite the strong performance."
+    },
+    "processed_date": "2025-09-08T03:26:14.734359+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-10-21.set2-partial.sbd.miller.94409.sbeok.flac16"
+  }
 }

@@ -6,7 +6,7 @@
   "location": "San Francisco, CA",
   "source_type": "SBD",
   "lineage": "Transfer: Cassette > Tascam 122 MK3 > Korg MR2000S > DFF @5.6 MHz > Audiogate > wav 24/96. Lineage: wav 24/96 > iZotope RX8 Advanced > wav 16/44.1 > CD Wave > Flac 16",
-  "taper": "This is Mark Cohen\u2019s tape (Judy Lee\u2019s brother) who worked for Electra records. It was given to Mark by Hail Milgraham, who was a colleague at Electra.",
+  "taper": "This is Mark Cohen’s tape (Judy Lee’s brother) who worked for Electra records. It was given to Mark by Hail Milgraham, who was a colleague at Electra.",
   "source": "Soundboard *",
   "runtime": "79:52.48",
   "rating": 2.4,
@@ -14,5 +14,46 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording of a rare 1966 Matrix show packed with early‑Dead rarities (Me & My Uncle, Cold Rain & Snow, Down So Long) – great performance but needs slight pitch correction.",
+    "review": "The set is hailed as one of the year’s best snapshots of ’66, delivering historic performances of Me & My Uncle, The Same Thing and a slew of deep‑cut numbers that deadheads prize. The soundboard source is clear and well‑balanced though it runs a bit slow and requires about +1 % pitch adjustment. Overall the musical energy is high and the rarity factor makes it a standout despite the missing first set.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "The review rates the show 4 ★, praising many rare songs and overall performance while noting minor recording speed/pitch issues; combined weighting yields a strong >4‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear soundboard mix but runs slightly slow, needs channel swap and about +1 % pitch correction; otherwise an upgrade over previous copies."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Me & My Uncle",
+        "The Same Thing",
+        "Stealin'",
+        "One Kind Favor",
+        "Early Morning Rain",
+        "Cold Rain & Snow",
+        "Down So Long",
+        "There's Something on Your Mind",
+        "I Just Want to Make Love to You"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set launches with Me & My Uncle and rolls through a string of rarities; third set continues the deep‑cut theme with Down So Long, overseas Stomp, and an eclectic finish. The flow feels like a curated showcase of obscure material rather than a conventional hit‑driven set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia was suffering from a cold and stepped back from vocals, asking Phil to sing; his guitar work is still noted as solid on tracks like Cold Rain & Snow.",
+      "Phil": "Called upon to handle vocals due to Jerry’s cold, but no specific comment on bass playing.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T06:10:49.670274+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1966-11-29.152151.sbd.hance.sirmick.flac16"
+  }
 }

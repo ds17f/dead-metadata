@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy show featuring a flowing Sugar Magnolia > Caution > jam > Uncle John's Band sequence, captured on a clear soundboard recording.",
+    "review": "The sole fan review celebrates the concert’s standout moments – a seamless transition from Sugar Magnolia into Caution (Do Not Stop On Tracks), an engaging jam, and a spirited Uncle John’s Band – indicating a high‑energy performance. Although the reviewer does not comment on technical details, the .sbd source suggests a soundboard capture of good fidelity, matching the five‑star enthusiasm.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "Only one brief but glowing 5‑star review; strong show praise and implied soundboard source lead to a high rating, but limited data reduces confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No specific comments, but the .sbd designation implies a clean, well‑balanced mix; reviewer’s perfect score suggests satisfactory audio quality."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Sugar Magnolia > Caution (Do Not Stop On Tracks) > Jam > Uncle John's Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth segue from Sugar Magnolia into Caution and an extended jam leading into Uncle John's Band, indicating strong set pacing.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:24:04.399840+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-03-22.136682.sbd.sirmick.flac1648"
+  }
 }

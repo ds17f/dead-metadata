@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 4.5,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a high‑energy ’67 show with a smoking Viola Lee Blues and New Potato Caboose, though the tape runs slightly fast.",
+    "review": "The recording documents an early‑Dead experiment where Jerry and Phil lock into improvisational counterpoint on Viola Lee Blues, ending in one of the first extended feedback passages. Reviewers rave about the intensity of “Viola Lee” and the groove of “New Potato Caboose,” while noting that the soundboard playback is a bit fast, a flaw that can be corrected without ruining the overall experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Consistently high reviewer scores (4‑5 stars) and enthusiastic comments about performance outweigh a minor speed issue in the soundboard, yielding an overall strong rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Audio is clear but runs noticeably fast, causing songs to be slightly ahead of their original tempo; otherwise no major fidelity problems reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee Blues",
+        "New Potato Caboose"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early‑Dead set that experiments with feedback endings and vaudeville outtro, showcasing a tight yet exploratory vibe.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for strong improvisational counterpoint and guitar work on Viola Lee Blues.",
+      "Phil": "Noted as an essential counterpoint voice alongside Jerry during the extended jam.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T07:00:13.344615+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1967-08-04.10355.sbd.hurwitt.shnf"
+  }
 }

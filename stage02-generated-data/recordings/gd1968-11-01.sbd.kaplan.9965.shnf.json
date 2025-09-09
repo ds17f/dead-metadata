@@ -14,5 +14,39 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A high‑energy 1968 performance highlighted by a monumental The Other One, recorded from the soundboard with excellent early clarity that wanes after New Potato.",
+    "review": "The show is praised for its ferocious energy and especially the blistering The Other One, as well as standout moments in Caution > Feedback > Goodnight. Reviewers note that the soundboard source sounds crisp at the start but degrades after New Potato Caboose, with Bob Weir’s guitar often buried in the mix. Overall the musical performance far outweighs the modest recording flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Both reviewers gave 5‑star scores, emphasizing an exceptional performance; minor sound quality drop after New Potato reduces the rating slightly."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear and crisp early in the set; sound quality noticeably drops after New Potato, with Bob Weir's guitar often buried in the mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Caution > Feedback > Goodnight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong first half with superb interplay; recording deteriorates mid‑set but musical flow remains compelling.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for off‑the‑charts creative interplay with Phil and a monumental performance on The Other One.",
+      "Phil": "Highlighted for brilliant interaction with Garcia, contributing to the ferocious vibe.",
+      "Bob": "Guitar noted as mostly buried in the mix after New Potato, though no criticism of his playing.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T09:26:07.568660+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-11-01.sbd.kaplan.9965.shnf"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.416666666666667,
   "high_ratings": 12,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1972 Springfield show featuring a killer Truckin' > Nobody's Fault > Feelin' Groovy sequence, captured on a decent soundboard tape with some hiss and muffling.",
+    "review": "The performance is praised as classic ’72 Dead—tight first and second sets, soaring moments like the Truckin' jam, China Cat Sunflower, and Tomorrow Is Forever—with an almost palpable wall of Jerry’s guitar. The recording is generally clear and well‑balanced but suffers from tape hiss and occasional muffling, keeping it in the \"good\" rather than \"excellent\" range.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4‑5 stars, highlighting strong musical performance and only modest recording flaws; the weighted average of show (70%) and sound quality (30%) yields a high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Noticeable tape hiss and some muffling, but instruments are clear and well spaced; no major drop‑outs reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin' > Nobody's Fault > Feelin' Groovy",
+        "China Cat Sunflower",
+        "Tomorrow Is Forever",
+        "Cold Rain and Snow"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Classic two‑set structure with a strong opener (Cold Rain and Snow) and an exhilarating second set; transitions flow smoothly and the energy builds throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar is described as a \"wall of sound\" that resonated through the audience, with superb tone on many songs though he is notably absent from the Truckin' jam.",
+      "Phil": "Phil's bass shines in the post‑drums jam, contributing to a Weir‑and‑Phil showcase; his playing is praised as powerful.",
+      "Bob": "",
+      "Keys": "Keith (or other keyboardist) adds depth to the mix and is highlighted for great contribution during the jam sections.",
+      "Drums": "Bill Kreutzmann’s drumming is called \"sick\" and drives the impressive Truckin' sequence."
+    },
+    "processed_date": "2025-09-08T03:09:43.244820+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-10-02.sbd.lai.158.sbefail.shnf"
+  }
 }

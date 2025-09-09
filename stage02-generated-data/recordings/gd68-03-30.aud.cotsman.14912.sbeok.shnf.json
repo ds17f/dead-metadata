@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.157894736842105,
   "high_ratings": 17,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "A surprisingly clear 1968 audience tape captures a hot 3/30/68 set highlighted by a smoking Dark Star, The Other One and rare Born Cross‑Eyed moments.",
+    "review": "Despite being an AUD source, the recording is remarkably clear for a 1968 audience tape, with only occasional mud and a brief source‑switch that most listeners overlook. Musically the show is high‑energy, featuring standout performances of Dark Star, The Other One, Spanish Jam, China Cat > Eleven and the rare Born Cross‑Eyed/Spanish Jam combo, though the second half of Lovelight loses steam for some fans.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers praise both the performance and the surprisingly good audio; the show is energetic with several rare jams, while the recording quality is consistently described as very good for its era."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Clear and detailed for a 1968 AUD tape; occasional murkiness and a source switch around 2:34, plus muted Pigpen keyboards noted by one reviewer."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Dark Star",
+        "Spanish Jam",
+        "Born Cross‑Eyed",
+        "China Cat > Eleven"
+      ],
+      "poor_songs": [
+        "Lovelight (second half runs out of steam for some listeners)"
+      ],
+      "setlist_flow": "Rare song pairings and transitions (e.g., Born Cross‑Eyed into Spanish Jam) give the set a historic feel; a few transitions are noted as less smooth, but overall pacing is strong.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for dynamic soloing style distinct from ’66, engaging banter, and leading audience participation (democratic song‑choice scheme).",
+      "Phil": "",
+      "Bob": "Keyboard muted in the mix (a noted drawback); his vocal mumbling referenced in later tracks.",
+      "Keys": "Pigpen's organ/keyboard presence is reduced due to muting; otherwise no specific comments on other keyboardists.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T08:21:08.897682+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-03-30.aud.cotsman.14912.sbeok.shnf"
+  }
 }

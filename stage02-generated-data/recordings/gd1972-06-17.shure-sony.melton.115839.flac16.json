@@ -14,5 +14,40 @@
   "confidence": 0.8,
   "raw_rating": 5.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1972 show with stellar Pigpen organ and standout Truckin’/Other One, captured on a decent audience tape that’s a bit cloudy in the second set.",
+    "review": "Fans rave about this being possibly the best ’72 performance – Pigpen’s final appearance shines, China Cat glows, and the linked Truckin’→The Other One jam is described as stunning. The recording is an audience capture; while generally good, listeners note some pops, pitch flaws in the original transfer and a cloudy second‑set sound.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "The show receives overwhelming praise for performance and energy, outweighing modest recording imperfections; weighted rating reflects strong musical quality with decent but not pristine audio."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Original tape has pops, pitch issues and a slightly cloudy sound in the second set; overall listenable for an audience recording."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower",
+        "Truckin'",
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Jams are linked together rather than split, giving the show a seamless flow; despite some audio cloudiness the musical continuity is praised.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen's resolute organ riffs are highlighted as beautiful and powerful.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T00:41:46.347952+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-06-17.shure-sony.melton.115839.flac16"
+  }
 }

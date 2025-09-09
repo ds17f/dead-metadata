@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.6875,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1972 Hollywood Bowl show with a standout first‑time Stella Blue and clear Keith organ, captured in an excellent front‑row audience tape.",
+    "review": "Fans rave about the historic performance – Pigpen’s last appearance on organ, the debut of Stella Blue, and tight playing throughout – while noting the recording is a well‑balanced front‑row audience capture with surprisingly clear organ and Garcia’s guitar. A few reviewers mention minor drop‑outs and pitch quirks that were later fixed, but overall the tape is praised as highly listenable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "The majority of reviews (≈90%) are 4‑5 stars and highlight both strong musical performance and good audio quality; only a handful of zero‑star or critical notes exist, leading to a solid 4.2 rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Front‑row box seat capture gives clear organ and Garcia’s guitar; mic placement makes Pigpen’s organ unusually prominent. Minor dropout in The Other One was spliced, and a few reviewers note slight speed/pitch inconsistencies that have been corrected."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Stella Blue (first performance with Pigpen)",
+        "Playin' (The Band)",
+        "China Cat Sunflower",
+        "Me & My Uncle",
+        "The Other One",
+        "Ramble On Rose",
+        "Truckin'",
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical Europe ’72 set, shortened but well‑paced; warm‑up first set with solid transitions, a concise second set that keeps the momentum without lingering.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar is captured directly from his amp, sounding clear and powerful; fans note his humorous “help prevent forest fires” quip.",
+      "Phil": "Phil opens with a bronchitis joke, provides solid bass throughout, and his spoken bits are heard early in the show.",
+      "Bob": "Bob’s banter about the hat incident and audience interaction is mentioned by several reviewers.",
+      "Keys": "Keith’s organ work is prominently featured – especially on Stella Blue and other songs – thanks to favorable mic placement; his presence is a highlight of the tape.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T00:43:24.313802+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-06-17.shure.melton.miller.116272.flac16"
+  }
 }

@@ -14,5 +14,39 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent FM broadcast capture of a high‑energy New Year's Eve show, highlighted by a wild Not Fade Away reprise and a soaring Casey Jones.",
+    "review": "Both reviewers rave about the upgraded FM source – the hum is gone and the mix is clear, with the DJ’s brief interlude adding character. Musically the concert burns, especially the NFA reprise with Pigpen and Bob and a monster performance of Casey Jones, making it one of the favorite New Year's shows.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "medium",
+      "rationale": "Consistently high praise (5‑star) for both sound quality and performance; standout songs noted, no complaints, yielding an almost perfect combined score."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Buzz/hum eliminated in the upgraded FM broadcast; clear, crisp mix with brief DJ comments; no reported drop‑outs or muffiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Not Fade Away (reprise)",
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth, high‑energy flow that builds through the first set into a wild second set; DJ interlude adds to the New Year's atmosphere.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as \"throwing it down like lightning bolts\" – strong, electrifying guitar work.",
+      "Phil": "",
+      "Bob": "Mentioned in the wild NFA reprise with Pigpen, indicating a lively contribution.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T21:32:40.205231+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-12-31.142687.fm.dalton.miller.sirmick.flac1644"
+  }
 }

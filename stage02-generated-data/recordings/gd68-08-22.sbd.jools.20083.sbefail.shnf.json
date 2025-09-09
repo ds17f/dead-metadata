@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of an inventive 1968 Fillmore West set featuring a standout Feedback and one of the best drum solos ever recorded.",
+    "review": "The Jools half‑show from August 22, 1968 is praised for its superb soundboard quality – listeners note crystal‑clear mix and balanced levels – and for the musical fire of the performance, especially the inventive rendition of “Feedback” and a drum solo that many call the best to date.  Although the excerpt omits several key numbers from the full concert, the material present delivers high energy and showcases the Dead at their peak.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Consistently high praise for both performance (standout songs, strong energy) and recording quality (crystal‑clear soundboard), with only minor deductions for the incomplete nature of this version."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Multiple reviewers describe the audio as crystal clear, A+++ and classic 68' Fillmore soundboard quality; the only drawback noted is that the file is incomplete, missing several songs from the second half."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Feedback",
+        "The Other One > New Potato (mentioned as stellar)",
+        "Dark Star",
+        "Drum solo (highlighted as best to date)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second‑half excerpt captures strong transitions and high energy, though it omits several key numbers like St. Stephen, The Eleven, Dark Star, and Others.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Praised as the best drum solo to date with crystal‑clear sound."
+    },
+    "processed_date": "2025-09-08T08:49:06.311619+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-08-22.sbd.jools.20083.sbefail.shnf"
+  }
 }

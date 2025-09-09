@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 2.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Limited streaming availability sparked a negative reaction; reviewers gave no details on the music or recording quality.",
+    "review": "The sole review rates this release only two stars and complains about it being stream‑only, implying frustration with access rather than the performance itself. No information is provided about the concert’s musical strengths, set flow, or the technical fidelity of the recording.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 2.0,
+      "confidence": "low",
+      "rationale": "Rating is based on a single 2‑star review that offers no substantive detail; therefore the AI can only infer a low overall appraisal with minimal confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No comments about sound clarity, mix, or source type were provided."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No information supplied by reviewers.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:59:32.377506+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-24.143958.sbd.boswell.smith.miller.clugston.flac1648"
+  }
 }

@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.764705882352941,
   "high_ratings": 49,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a high‑energy 1972 Berkeley show highlighted by a monster Dark Star→El Paso→Space→Deal sequence and superb Playing in the Band.",
+    "review": "This SBD capture delivers crystal‑clear, album‑quality sound with only the faint tape hiss typical of the era. The performance is electric – the second set’s Dark Star/El Paso/Space/Deal saga, a blazing Playing in the Band and tight China Cat → Rider jams make it one of the standout shows of ’72. Reviewers repeatedly praise Jerry’s wah‑wah guitar, Keith’s piano firepower and Phil’s booming bass, confirming both musical and technical excellence.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Over 50 detailed reviews, the vast majority 4‑5 stars, rave about both show energy and recording clarity; only a few minor complaints, yielding an overall rating near the top of the scale."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, balanced mix described as 'album‑quality' and 'top‑notch'. A slight tape hiss is noted by some but does not detract from listenability."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > El Paso > Space > Deal",
+        "Playing in the Band",
+        "China Cat > The Rider",
+        "Stella Blue",
+        "Greatest Story Ever Told",
+        "Black Throated Wind",
+        "Sugaree",
+        "Jack Straw"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows seamlessly, especially the second‑set medley from Dark Star into El Paso and Space, with tight transitions and a strong first‑set that mirrors Europe ’72 energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for scorching wah‑wah guitar runs, powerful vocals on Stella Blue, and driving the Dark Star jam.",
+      "Phil": "Noted for massive bass 'bombs', strong backing harmonies (especially on Jack Straw), and keeping the groove solid during jams.",
+      "Bob": "His vocal clarity highlighted on Playing in the Band and other numbers; praised for tight enunciation.",
+      "Keys": "Keith's piano described as sparkling, jazzy, and a driving force behind many jams (China Cat, Rider, El Paso).",
+      "Drums": "One‑drummer era (Bill Kreutzmann) cited for looser, more organic grooves that let the band breathe."
+    },
+    "processed_date": "2025-09-08T01:30:41.673393+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-08-21.sbd.hamilton.150.sbeok.shnf"
+  }
 }

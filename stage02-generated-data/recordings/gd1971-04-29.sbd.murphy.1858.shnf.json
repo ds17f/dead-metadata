@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Recording is criticized for being a commercial source rather than a true soundboard or audience capture; no musical details are provided.",
+    "review": "Both reviewers focus on the recording itself, lamenting that the available file appears to be taken from a commercial release and lacks the live ambience of an audience tape. No comments are made about the performance quality, setlist flow, or individual musicians.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.5,
+      "confidence": "medium",
+      "rationale": "Both reviews express dissatisfaction with the recording and give zero stars; no positive information about the show is offered, leading to a low overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Reviewers note it seems derived from a commercial product, lacking the live feel of an audience recording; one reviewer prefers a separate audience tape that sounds better."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "unknown"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:31:53.340783+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-29.sbd.murphy.1858.shnf"
+  }
 }

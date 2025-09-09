@@ -14,5 +14,41 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear, well‑mixed recording that captures soaring Bird Song and a magical The Other One with the group's best vocal performances.",
+    "review": "Reviewers rave about the superb singing—Bob’s vocals are in tune, Donna’s harmonies shine, and Keith’s keys sit nicely in the mix. The show is highlighted by Bird Song, The Other One, Box of Rain and Sugar Magnolia, delivering high energy throughout, though a few wish the bass was more prominent. Recording quality is praised as solid with clear vocals but not identified as soundboard or audience.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Strong musical performance (high‑energy, standout songs) weighted at 70% and generally good recording quality weighted at 30% produce an overall rating around 4.3; confidence is medium due to one low‑star review that conflicts with its positive text."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Clear vocal mix, Keith's keyboards prominent; reviewers note the bass could be louder but overall balance is solid."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bird Song",
+        "The Other One",
+        "Box of Rain",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Energetic start that builds into a magical second half, with vocal harmonies and instrumental peaks highlighted throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Bass interaction praised; reviewer wishes it were louder for full impact.",
+      "Bob": "Vocals described as the best singing heard, perfectly in tune and timed.",
+      "Keys": "Keith's keyboards are noted as being up in the mix and contributing to the intensity.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T04:41:48.200817+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-12-12.sbd.gorinsky.5802.sbeok.shnf"
+  }
 }

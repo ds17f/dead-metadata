@@ -14,5 +14,47 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear‑ish soundboard capture with strong performances – Sugaree, Dark Star, I Know You Rider and Not Fade Away shine despite a forward vocal mix.",
+    "review": "The recording is a patched SBD that delivers crystal‑clear vocals and a punchy piano, though the mix often pushes Bobby’s voice ahead of the instruments and mutes Keith and Phil at times. Musically the show is solid ’72 material with highlights such as Sugaree, Dark Star, I Know You Rider, Tennessee Jed, Me & My Uncle, Ramble On Rose and a fiery Not Fade Away → One More Saturday Night stretch.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Two substantive reviews: one rates the show and recording 5‑star, the other 3‑star citing mix problems but good playing. Averaging with a heavier weight on performance yields ~4.2."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Vocals are unusually forward, often louder than guitars; slight background hiss; Keith’s keyboards and Phil’s bass are buried; a few audible skips/cuts (e.g., Beat It On Down the Line). Overall louder than other SBDs but missing balance."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Sugaree",
+        "Dark Star",
+        "I Know You Rider",
+        "Tennessee Jed",
+        "Me & My Uncle",
+        "Ramble On Rose",
+        "Not Fade Away > One More Saturday Night"
+      ],
+      "poor_songs": [
+        "Casey Jones (cut)",
+        "Brown Eyed Women (missing solo/bridge)"
+      ],
+      "setlist_flow": "A typical mid‑'72 two‑set layout with a long second set and noticeable gaps between songs; several tracks need balance adjustments, but the overall arc stays solid.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Jerry’s guitar work is described as solid, especially pulling Dark Star back together at the end.",
+      "Phil": "Phil’s banter is highlighted, but his bass is often buried in the mix and occasionally out of sync with the beat.",
+      "Bob": "Bob’s vocals dominate the board mix; he repeatedly asks Owsley to raise his level, making his voice louder than the instruments.",
+      "Keys": "Keith’s piano accompaniment on Sugaree and Ramble On Rose is praised, yet the keyboards are largely inaudible due to the front‑heavy vocal mix.",
+      "Drums": "Bill’s bass drum and ride cymbal cut through clearly; however, Billy (the drummer) appears slightly behind or ahead of the beat in places, suggesting onstage monitoring issues."
+    },
+    "processed_date": "2025-09-08T01:12:16.712342+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-07-26.sbd-patched.long.34803.flac16"
+  }
 }

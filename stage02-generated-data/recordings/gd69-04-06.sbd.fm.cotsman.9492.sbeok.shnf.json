@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.4375,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A rough‑but‑listenable soundboard captures a manic 1969 Avalon show highlighted by an explosive Viola Lee Blues and a fire‑filled The Other One.",
+    "review": "The performance is praised for its high‑octane, psychedelic energy – Baby Blue, Death Don't Have No Mercy, King Bee and especially the legendary Viola Lee Blues with its power‑outage ending make this a fan favorite.  The recording is a soundboard tape that suffers from high‑frequency distortion, occasional drop‑outs and a two‑minute guitar silence, but it remains sharp enough to enjoy the historic jams.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4–5 stars and highlight its intense performance; recording issues are noted but not enough to outweigh the musical strengths, yielding a weighted rating around 4.2."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "High‑frequency distortion, occasional drop‑outs (e.g., Garcia’s guitar cuts out for ~2 min), power outage noise at the end of Viola Lee Blues; overall sharp but not balanced or pristine."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee Blues",
+        "The Other One",
+        "Death Don't Have No Mercy",
+        "Baby Blue",
+        "King Bee"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early‑Dead set with extended jams; the show builds into a wild, manic climax highlighted by Viola Lee Blues and The Other One suite.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar briefly cuts out during Viola Lee Blues but his vocals are solid throughout.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Hot, sweet organ work on Viola Lee Blues (likely Pig Pen) praised by several listeners.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T11:34:02.038030+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-04-06.sbd.fm.cotsman.9492.sbeok.shnf"
+  }
 }

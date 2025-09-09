@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Problematic recording with right‑hand channel issue and no musical details provided",
+    "review": "The only review points out a flaw in the right‑hand channel of this capture, making the audio uneven and hard to enjoy. No comments are given about the performance itself, so listeners have no sense of the show’s quality.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.0,
+      "confidence": "low",
+      "rationale": "A single brief review gives a zero‑star rating and mentions a serious channel problem; there is no information on the musical performance."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "Right‑hand (right) channel has a problem, causing imbalance/muted audio on that side."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:50:30.086805+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-26.136691.sbd.bruno.flac16"
+  }
 }

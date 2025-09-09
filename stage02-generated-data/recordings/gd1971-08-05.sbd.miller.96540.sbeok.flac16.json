@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 4.285714285714286,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Hybrid soundboard‑audience matrix captures a high‑energy ’71 show with a smoking “The Other One” and solid performance, though the later audience mix is less crisp and a few songs are missing.",
+    "review": "The recording blends pristine early‑set soundboard tracks with an audience‑sourced second set, delivering classic 1971 Dead energy – especially highlighted by Phil’s bass drive into a seamless “The Other One.” While reviewers rave about the playing and banter, the audience portion is noted as less clear and the tape omits Bird Song (and Not Fade), preventing it from being a flawless document.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Strong consensus of five‑star performance praise, solid soundboard quality, and only moderate recording drawbacks (audience mix, missing tracks) lead to a high overall rating."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Soundboard tracks are crisp through Sugar Magnolia; the remainder is audience‑sourced and less clear. Missing Bird Song (and Not Fade) noted by several reviewers; track splits for The Other One affect seamless playback."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early set benefits from clean soundboard mix, while the second set relies on audience recording, making transitions feel less smooth but retaining the era’s high energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "His bass line leading into The Other One is praised for its seamless transition and drive.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:59:08.400197+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-08-05.sbd.miller.96540.sbeok.flac16"
+  }
 }

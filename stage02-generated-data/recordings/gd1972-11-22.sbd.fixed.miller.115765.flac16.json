@@ -14,5 +14,42 @@
   "confidence": 0.8,
   "raw_rating": 5.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 1972 fall show featuring a smoking \"The Other One\", an epic He’s Gone → Truckin’ sequence and a brilliant Playing in the Band jam.",
+    "review": "Reviewers rave about both the pristine, upgraded soundboard mix and the band’s inspired playing. Highlights include a calm‑intensity take on The Other One, one of the best He's Gone performances of the tour, an expansive 10‑minute Bird Song (Playing in the Band) and a fiery Truckin' → Other One transition. The recording is praised as crystal‑clear with only occasional minor quirks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "All five reviews are 5‑star, emphasizing superb musical performance and an upgraded soundboard mix; the few minor sound issues do not detract from the overall excellence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Upgraded sound over previous versions; tones praised as clear and crisp. Minor occasional unevenness (e.g., \"El Paso\") but generally very clean vocal and instrumental mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "He's Gone",
+        "Truckin'",
+        "Playing in the Band",
+        "Stella Blue"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set flows He’s Gone → Truckin' → drums → The Other One → Stella; seamless transitions and long, exploratory jams (16‑minute PITB). First set includes solid renditions of Bird Song, Casey Jones, Big River, etc.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia is described as \"ripping it up\" with sweet a‑capella vocals on Stella and strong lead throughout.",
+      "Phil": "Multiple mentions of great Phil riffs, bass leading the charge in The Other One (12‑minute solo), and backing vocals.",
+      "Bob": "Weir noted for ripping it up alongside Garcia and his vocal contributions during He’s Gone.",
+      "Keys": "Keith Miller praised for showing his chops during the Playing in the Band jam; keyboards highlighted as a key part of the psychedelic sound.",
+      "Drums": "Clean drumming noted, with Bill’s drum break after Truckin' leading into The Other One."
+    },
+    "processed_date": "2025-09-08T04:23:38.549273+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-11-22.sbd.fixed.miller.115765.flac16"
+  }
 }

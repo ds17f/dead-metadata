@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.625,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A soundboard capture with good clarity that showcases an incendiary, 20‑minute rendition of Viola Lee Blues, the highlight of this early ’67 fragment.",
+    "review": "The recording is a soundboard source that sounds generally clear with only a faint hiss; several reviewers note it as “pretty much perfect.” Musically the show is dominated by a spectacular Viola Lee Blues that many call one of the best from 1967, with Jerry’s guitar work described as “smoking” and tightly locked in with the band. Other cuts such as New Potato Caboose and Born Cross‑Eyed are viewed as merely adequate, and the fragment ends abruptly, leaving the rest of the concert unknown.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "The majority of reviews (mostly 5‑star) praise the performance—especially Viola Lee Blues—and describe the recording as good to excellent, outweighing a few mixed comments about other songs."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and balanced; minor hiss noted by some listeners but no major drop‑outs. One reviewer rates the sound at “70%,” indicating a slight imperfection, yet overall regarded as very listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee Blues"
+      ],
+      "poor_songs": [
+        "Born Cross-Eyed",
+        "New Potato Caboose"
+      ],
+      "setlist_flow": "Fragmentary – only a few songs are present; the tape cuts off during Viola Lee Blues, leaving the rest of the set unknown. The available material flows into an extended, high‑energy jam.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for “smoking” leads, inventive licks, and a compelling solo that drives the Viola Lee Blues.",
+      "Phil": "Mentioned in passing as providing counterpoint on the improvisation; some note his bass work complements the jam.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T06:59:00.660727+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd67-08-04.sbd.hanno.16752.sbeok.shnf"
+  }
 }

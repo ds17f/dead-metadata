@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 4.833333333333333,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Cleaned‑up soundboard capture of the Dec 1 1966 Matrix show with high energy and a standout Alice D. Millionaire, though some track‑order quirks remain.",
+    "review": "The recording is a soundboard source that has had the original tape hiss removed, but listeners note a slight loss of high‑end sparkle. Musically the band is in good form, delivering an early‑Dead set highlighted by a fiery Alice D. Millionaire; a few reviewers point out confusing ordering of Lindy/Dancin' in the Street/Me & My Uncle.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the performance and the cleaned‑up audio, while a few note technical shortcomings (high‑end loss) and metadata/track‑order issues; overall the show is strong and the recording solid enough for a >4‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Original tape hiss has been removed in this source, but reviewers mention a loss of high‑end detail after cleaning; overall clarity is solid with no major dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Alice D. Millionaire"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Three‑set early‑Dead setlist featuring many 1966 staples; some listeners note that Lindy, Dancin' in the Street and Me & My Uncle are mixed up, causing a confusing track order.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T06:13:01.878628+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1966-12-01.sbd.32800.shnf"
+  }
 }

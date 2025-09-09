@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.384615384615385,
   "high_ratings": 11,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "High‑energy 8/27/72 show with stellar Dark Star > El Paso and Birdsong, captured in a Bertha soundboard remaster that’s polished but heavy on studio processing.",
+    "review": "The August 27 1972 concert is hailed as legendary – Dark Star > El Paso, Birdsong, Jack Straw, Promised Land and Playin’ In the Band are repeatedly called cosmic or outstanding. The Bertha SBD remaster sounds clear and powerful, especially Phil’s bass, but many note the heavy EQ, compression and added reverb that give the vocals a synthetic feel. Overall the performance shines despite the studio‑processed mix.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Show quality is consistently praised as exceptional; recording quality is good but marred by heavy processing, leading to a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear and powerful mix with excellent bass presence, but heavy equalization, compression and added reverb make vocals sound synthetic and reduce the dry live feel."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > El Paso",
+        "Birdsong",
+        "Jack Straw",
+        "Promised Land",
+        "Greatest Story Ever Told",
+        "Playin' In The Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Tight, bouncy performance with seamless transitions; the band stays locked in from start to finish.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Almost flawless guitar work, hardly any flubs; described as painting fractals across the summer sky.",
+      "Phil": "Powerful, booming bass that drives the show; highlighted for its presence and energy.",
+      "Bob": "Vocals sound synthetic with added echo/reverb; some find it distracting while others enjoy his comedic banter.",
+      "Keys": "Keith’s keyboards are noted as especially into the performance, adding depth to the jams.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T01:55:46.722524+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-08-27.sbd.bertha-ashley.21619.sbeok.shnf"
+  }
 }

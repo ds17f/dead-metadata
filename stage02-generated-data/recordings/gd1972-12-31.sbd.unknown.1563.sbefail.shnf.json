@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Unknown source recording receives a solid 4‑star rating but offers no detailed feedback.",
+    "review": "The lone 4‑star review gives the tape a positive nod, though it provides no specifics on sound quality or musical performance. With no comments on the setlist or audio, listeners should treat the rating as a general endorsement rather than an informed assessment.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Rating derived solely from a single 4‑star review with no descriptive content; therefore the score reflects only the expressed star rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": ""
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T04:52:03.524326+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-12-31.sbd.unknown.1563.sbefail.shnf"
+  }
 }

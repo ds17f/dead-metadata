@@ -14,5 +14,44 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a top‑tier ’72 performance with sparkling versions of Mexicali Blues, Good Lovin’, Dark Star and more; the recording is clear, well‑speed‑corrected and highly listenable.",
+    "review": "The show is praised as a “top tier ’72” concert with standout renditions of Mexicali Blues, Good Lovin', Dark Star, Morning Dew, Sugar Magnolia, Comes A Time and Uncle John’s. Reviewers note the soundboard source sounds perfect and may be speed‑corrected, delivering a crisp listening experience. Overall the energy is high and Jerry Garcia’s playing is described as primed.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "medium",
+      "rationale": "Two detailed, enthusiastic reviews highlight both stellar musical performance and clean recording; other comments are about accessibility rather than quality, so the combined impression is strongly positive."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Listeners describe the audio as “pretty perfect” and possibly speed‑corrected; no major flaws or dropouts reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mexicali Blues",
+        "Good Lovin'",
+        "Dark Star",
+        "Morning Dew",
+        "Sugar Magnolia",
+        "Comes A Time",
+        "Uncle John's"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Energetic set with strong transitions; the show maintains a high‑energy momentum throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as “primed” and delivering sparkling guitar work.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T00:20:21.005255+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-05-23.sbd.jackson.smith-GEMS.97816.flac16"
+  }
 }

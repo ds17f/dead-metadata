@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good-quality recording of a great set with high energy.",
+    "review": "The reviewer rates this performance 4 stars, calling it a \"Great set\" and noting the overall good quality of the audio. While no specific songs or technical details are mentioned, the positive tone suggests both the music and the capture are solid enough for enjoyment.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one brief review; it rates the show and recording at 4 stars, indicating a good but not exceptional performance and audio quality."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer describes the audio as \"Good quality\" but provides no further technical details."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "The set is described simply as great, implying a strong flow throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:44:38.206867+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-07-02.118485.pre-FMwithFMdedication.flac16"
+  }
 }

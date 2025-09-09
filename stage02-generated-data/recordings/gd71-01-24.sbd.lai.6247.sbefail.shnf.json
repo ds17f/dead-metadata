@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.52,
   "high_ratings": 23,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A high‑energy Seattle 1/24/71 show packed with Pigpen’s Lovelight magic, captured on a decent soundboard tape.",
+    "review": "The recording preserves an incendiary late‑night performance highlighted by multiple Lovelights, a scorching Hard to Handle and a standout Sunshine Daydream. Reviewers rave about the powerful Pigpen organ and vocals, strong Garcia leads, and tight rhythm section, while noting occasional vocal saturation and a bit of tape flutter. Overall the show is described as hot, seamless and unforgettable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "27 reviews overwhelmingly give 4‑5 stars, praising both performance and sound quality; a few low‑star comments note tape quirks but do not outweigh the positive consensus."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear soundboard capture (crisp Sunshine Daydream, clean organ), though some listeners mention occasional distortion/over‑saturated vocals, slight flutter and mono mix quirks."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lovelight",
+        "Good Lovin'",
+        "Hard to Handle",
+        "Sunshine Daydream"
+      ],
+      "poor_songs": [
+        "Good Lovin'"
+      ],
+      "setlist_flow": "Mixed‑up setlist with multiple Lovelights and seamless transitions; the band kept the energy high even after a curfew break, extending into early morning.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s lead work shines early (Cumberland Blues solo, strong tone) and drives the show, though some later sections are noted as sloppy.",
+      "Phil": "Phil’s bass is powerful (“Phil bombs”) and anchors the jams, especially during transitions into Uncle John’s Band.",
+      "Bob": "Weir provides solid rhythm guitar and vocal harmonies; early vocals were a bit high but overall strong.",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann delivers stellar foot‑pedal work and a standout solo; Mickey Hart adds his signature cowbell and the duo’s drum duet is highlighted as a rare, energetic moment."
+    },
+    "processed_date": "2025-09-07T16:11:09.029114+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-01-24.sbd.lai.6247.sbefail.shnf"
+  }
 }

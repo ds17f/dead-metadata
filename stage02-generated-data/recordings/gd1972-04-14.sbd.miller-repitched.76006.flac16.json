@@ -3,7 +3,7 @@
   "title": "Grateful Dead Live at Tivolis Koncertsal on 1972-04-14",
   "date": "1972-04-14",
   "venue": "Tivolis Koncertsal",
-  "location": "K\u00f8benhavn (Copenhagen), D\u00e4nemark (Denmark)",
+  "location": "København (Copenhagen), Dänemark (Denmark)",
   "source_type": "SBD",
   "lineage": "Dat (Sony R500) -> SEK'D Prodif Plus -> Samplitude Profesional v8.01 -> FLAC",
   "taper": "",
@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 1972 Europe ’72 show with smoking Dark Star, pedal‑steel Looks Like Rain and standout Jerry Garcia solos.",
+    "review": "Fans rave that this Miller‑fixed soundboard recording is crystal‑clear and perfectly balanced, letting the band’s tight groove and soaring improvisations shine. The concert delivers nonstop excitement—from a punchy first set into a second set highlighted by Dark Star > Sugar Mag, Looks Like Rain on pedal steel, and fiery Pig Pen moments—making it one of the most celebrated Europe ’72 dates.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "All seven reviews are overwhelmingly positive (5‑star), praising both performance and sound quality; the recording is a Miller‑fixed soundboard, and the show is described as high‑energy with multiple standout songs."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Miller‑fixed SBD source noted as \"better\" and \"crisp\"; listeners comment on clear mix, good instrument separation and no major dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > Sugar Mag",
+        "Looks Like Rain (pedal steel)",
+        "Truckin'",
+        "Brown‑Eyed Women",
+        "Hurts Me Too"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A tight, bouncy first set flows seamlessly into an inspired second set, maintaining high excitement from start to finish.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for phenomenal solos, especially his pedal‑steel on Looks Like Rain and jazzy fills throughout the show.",
+      "Phil": "Noted for solid bass work (e.g., on Casey Jones) that helped lock in the groove.",
+      "Bob": "",
+      "Keys": "Keith’s playing highlighted as a standout—great on Chinatown, El Paso and Beat It On Down the Line.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T23:03:11.061625+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-04-14.sbd.miller-repitched.76006.flac16"
+  }
 }

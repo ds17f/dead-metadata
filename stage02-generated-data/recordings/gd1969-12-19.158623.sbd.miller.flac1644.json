@@ -14,5 +14,42 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Great‑sound soundboard recording of a fun show featuring an acoustic opener and the debut of “Mason’s Children”.",
+    "review": "The tape captures a lively concert with Jerry Garcia and Bob Weir kicking things off on acoustic guitars, delivering four rarely‑heard numbers while Phil Lesh arrived late. Highlights include the first ever performance of “Mason’s Children” and a clean audience patch that preserves the whole “Casey Jones”. Recording quality is praised as great, with the soundboard source remaining clear throughout.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "low",
+      "rationale": "Review is enthusiastic about both the performance (unique acoustic set and debut song) and the audio quality, but only a single brief review limits certainty."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Overall great sound; an audience‑source patch is used for “Casey Jones” to preserve the full song without noticeable drop‑outs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mason's Children",
+        "Monkey",
+        "Little Sadie",
+        "Long Black Limousine",
+        "I've Been All Around This World"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Acoustic opener by Jerry and Bob due to Phil’s late arrival, followed by the main set; smooth transitions and a special first‑time performance.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Opened with an acoustic set alongside Bob, delivering clear guitar work on early‑show numbers.",
+      "Phil": "",
+      "Bob": "Joined Jerry for the acoustic opener; solid rhythm and vocal contributions.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:54:26.238252+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-12-19.158623.sbd.miller.flac1644"
+  }
 }

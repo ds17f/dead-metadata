@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear soundboard capture of a high‑energy 1969 Avalon show highlighted by an epic New Potato Caboose and a mesmerizing Dark Star.",
+    "review": "The recording delivers clear, well‑balanced soundboard audio that lets the band’s fire shine through, especially on the legendary New Potato Caboose and the long Dark Star. While a few listeners note a rough start to the mix and the power‑cut ending of Lovelight, the overall performance is praised for its soaring improvisations and relentless 1969 energy.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars, praising standout performances and generally good sound quality; a few note mix issues, yielding an overall strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Instruments and vocals are clear and well‑placed; some reviewers mention early‑mix roughness or typical 16‑track artifacts, but overall the SBD is solid."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "New Potato Caboose",
+        "Dark Star",
+        "The Other One"
+      ],
+      "poor_songs": [
+        "Lovelight"
+      ],
+      "setlist_flow": "Strong flow with a powerful New Potato after The Other One, a lengthy Cosmic Ether segue, and an adventurous Dark Star; the set ends abruptly due to a power cut during Lovelight.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar work is praised for amazing jams and symphonic phrasing, especially on New Potato Caboose and throughout Dark Star.",
+      "Phil": "Lesh delivers thunderous, extended solos on New Potato Caboose; his lead after verses is highlighted as spectacular.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Mickey Hart and Bill Kreutzmann keep the music moving during the Lovelight power‑cut, adding extra drive to the performance."
+    },
+    "processed_date": "2025-09-08T09:57:19.817283+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-01-24.sbd.kaplan.7922.sbeok.shnf"
+  }
 }

@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 1971 show highlighted by a soaring Dark Star and tight, inspired playing from the entire band.",
+    "review": "The recording is praised as clean, crisp and spacious – a classic sound‑board source that lets every nuance shine.  The concert itself bursts with kinetic energy, featuring a smoking Dark Star, punchy Garcia riffs on El Paso, and vibrant contributions from Keith Godchaux, Phil Lesh and Bill Kreutzmann, making it a standout performance of the early‑'71 era.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "Overwhelmingly positive 5‑star comments focus on both superb soundboard quality and a high‑energy, musically rich show; no substantive criticisms were noted."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers describe the audio as clean, crisp, spacious and much clearer than balcony recordings – no drop‑outs or muddiness reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Sugar Magnolia",
+        "El Paso",
+        "Tennessee Jed",
+        "Jack Straw",
+        "St. Stephen > Johnny B. Goode"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set is praised for its seamless flow and relentless drive, with new material and the fresh keyboard presence adding excitement throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s playing is described as fleet, nimble, with perfect tone (Alligator Strat speculation) and stellar licks throughout the Dark Star and other numbers.",
+      "Phil": "Phil Lesh delivers \"body‑shaking\" bass runs, powerful backing vocals on songs like Mexico City Sunset and provides a solid harmonic foundation.",
+      "Bob": "Bob Weir is noted for strong vocal moments (e.g., “Thank You, Friends”) and energetic rhythm work on tracks such as Jack Straw and Tennessee Jed.",
+      "Keys": "Keith Godchaux’s early‑stage high‑energy contributions are highlighted; reviewers note the fresh piano adds a new vibe to the 1971 material.",
+      "Drums": "Bill Kreutzmann is praised for aggressive, “punching the gas pedal” drumming that drives the second half, especially during the Dark Star climax."
+    },
+    "processed_date": "2025-09-07T19:58:05.439922+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-10-24.sbd.miller.125887.flac16"
+  }
 }

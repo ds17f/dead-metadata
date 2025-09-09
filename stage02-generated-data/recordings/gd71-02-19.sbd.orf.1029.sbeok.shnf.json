@@ -14,5 +14,49 @@
   "confidence": 1.0,
   "raw_rating": 4.363636363636363,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean soundboard capture of the Feb 19 1971 Port Chester show, highlighted by smoking Smokestack Lightning, an iconic Easy Wind and a tight China>Rider, with excellent audio fidelity.",
+    "review": "The recording is praised as one of the cleanest of the Betty Board era – a crisp sound‑board source that requires only minor pitch tweaks. Musically the night shines with Pigpen’s powerhouse on Smokestack Lightning and Easy Wind, a sparkling China Cat > Rider, and strong early versions of Bird Song and Deal, though a few lyrical flubs and a brief cut in Bird Song keep it from being flawless.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is ~4.36/5, most comments are enthusiastic about both performance and sound quality; only a few moderate critiques exist."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Very clean Betty Board sound‑board capture; some versions show minor pitch drift and a short cut in Bird Song, but overall crisp with minimal noise."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Smokestack Lightning",
+        "Easy Wind",
+        "China Cat Sunflower > I Know You Rider",
+        "The Other One",
+        "Good Lovin'",
+        "Bird Song (debut)",
+        "Deal (debut)",
+        "Dark Hollow (electric)"
+      ],
+      "poor_songs": [
+        "Cumberland (lyrical flubs)",
+        "Loser (wobbly)",
+        "Bird Song (cut in some versions)"
+      ],
+      "setlist_flow": "First set sparkles and closes with a smoking China>Rider; second set launches with high‑energy Bird Song debut and tight transitions, delivering strong Pigpen‑driven moments throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s solos are highlighted – soaring bends on Know You Rider, wailing leads on Bird Song, and a superb tone that many compare to Clarence White.",
+      "Phil": "Bass is described as melodic and supportive, often “bombing” under the band’s grooves.",
+      "Bob": "Bob Weir receives praise for his psychedelic‑blues guitar work and energetic fills that push the group forward.",
+      "Keys": "Pigpen’s organ is a focal point – driving the jams on Smokestack Lightning, Easy Wind and Good Lovin'.",
+      "Drums": "Bill Kreutzmann’s drumming is called “thunderous” and tightly locked; despite Mickey Hart’s recent departure, the rhythm section holds strong."
+    },
+    "processed_date": "2025-09-07T16:13:43.643858+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-02-19.sbd.orf.1029.sbeok.shnf"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Super‑duper 1972 soundboard capture with a smoking Pigpen set and tight band playing – crystal‑clear mix and high‑energy performance.",
+    "review": "Both reviewers rave about the pristine soundboard source, calling the mix “classic” and “crisp,” while praising the entire show as “sparkly,” “hard ridin’,” and “in the pocket.” Standout moments include Pigpen’s soaring rendition of “The Stranger (Two Souls In Communion)” and the fiery sequence The Stranger > Ramblin Rose > Me and My Uncle > Goin' Down the Road. The band is described as tight, with smooth Jerry guitar, fierce Bob vocals, tight drums, and Keith on keys.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "Both reviews give 5‑star ratings, highlighting an excellent soundboard recording and a high‑energy, flawless performance."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Mix described as crisp, solid, and “in the pocket”; no dropouts or muffiness mentioned. Reviewers recommend EQ tweaks to further enhance already superb sound."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Stranger (Two Souls In Communion)",
+        "Ramblin Rose",
+        "Me and My Uncle",
+        "Goin' Down the Road"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Tight, sparkly flow with Pigpen leading a fiery early sequence; overall set feels solid and well‑coordinated.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as “smooth as silk” guitar work.",
+      "Phil": "",
+      "Bob": "\"Crazy‑sexy‑fierce\" vocals and presence.",
+      "Keys": "Keith Godchaux praised for his playing alongside Pigpen; band knows the changes.",
+      "Drums": "Drums are \"so tight just right.\""
+    },
+    "processed_date": "2025-09-07T22:20:28.380252+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-03-21.set2-sbd.Samaritano.32370.sbeok.flac16"
+  }
 }

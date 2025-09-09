@@ -14,5 +14,41 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A solid show highlighted by a smoking \"The Other One\" captured on an excellent Charlie Miller soundboard, though audience‑heavy cuts of \"Cumberland\" and \"Bobby McGee\" detract from the listening experience.",
+    "review": "The performance shines with a powerful rendition of \"The Other One\" that silences the East Coast crowd, and most of the set sounds clear thanks to Charlie Miller's soundboard source. However, two songs are plagued by heavy audience bleed and aggressive edits, making parts of the tape difficult to enjoy. Overall the show is decent but the inconsistent recording quality leaves listeners divided.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Show quality is generally praised (especially \"The Other One\"), but recording quality is split between an excellent soundboard and problematic audience‑heavy cuts, yielding a middling combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Charlie Miller's soundboard feed is clear and well‑balanced; however \"Cumberland\" and \"Bobby McGee\" are audience‑heavy and heavily edited, resulting in noticeable drop‑outs and reduced fidelity for those tracks."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One"
+      ],
+      "poor_songs": [
+        "Cumberland",
+        "Bobby McGee"
+      ],
+      "setlist_flow": "Overall solid set; two tracks suffer from audience bleed and aggressive editing, but the rest flows well with a high‑impact second‑half.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:40:05.104250+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-08-26.126297.cooper-berger.flac16"
+  }
 }

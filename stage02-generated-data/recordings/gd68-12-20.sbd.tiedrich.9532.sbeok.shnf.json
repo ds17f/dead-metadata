@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Rare acoustic rendition of Mountains of the Moon captured on a hiss‑laden soundboard tape; despite the noise the early‑68 set delivers solid folk‑rock with standout Lovelight and Line on You.",
+    "review": "The recording is a soundboard source that suffers from noticeable tape hiss, but it remains listenable enough to showcase an historic December 1968 show. Fans love the rarity of Mountains of the Moon played acoustically by Jerry, Phil’s strong Lovelight bass work, and the summer‑classic Line on You, though the overall energy feels more typical than explosive for that era.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Reviews praise the musical moments (rare song, solid playing) while noting consistent hiss; combined show and recording quality yields an overall four‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Noticeable tape hiss throughout; occasional muffled sections but generally balanced mix. No major dropouts reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mountains of the Moon",
+        "Lovelight",
+        "Line on You"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early‑68 folk‑rock set with a rare acoustic number and typical early Dead repertoire; flows naturally though lacks the power of later ’69‑’70 shows.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Acoustic guitar on Mountains of the Moon noted as a very nice take.",
+      "Phil": "Praised for strong playing on Lovelight.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T09:37:35.834023+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-12-20.sbd.tiedrich.9532.sbeok.shnf"
+  }
 }

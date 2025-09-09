@@ -14,5 +14,44 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy show with a smoking Bird Song, monster Other One and tight Playing in the Band, captured on a solid soundboard despite a slightly low vocal mix.",
+    "review": "The concert is praised for its intense second‑set flow – the Bird Song kicks off deep‑water improvisation, followed by a sizzling PITB, an epic ~30 minute Other One and fiery renditions of He’s Gone, Wharf Rat and Johnny B. Reviewers note that the soundboard source is generally clear, though vocals sit low in the mix and playback sounds a touch slow in places.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Multiple 5‑star reviews highlight an outstanding performance; technical comments note only minor mix/tempo issues, leading to a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear soundboard capture. Vocals (e.g., Bertha) are low in the mix and there is a slight slowdown noted on part of the recording, but overall balance is solid."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bird Song",
+        "Playing In The Band",
+        "He's Gone",
+        "Wharf Rat",
+        "Other One (≈30 min)",
+        "Johnny B.",
+        "Bertha"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A deep‑water first set leads into a jam‑heavy second set with extended improvisations, culminating in an epic third set. Transitions feel natural and the energy builds throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar is back strong; described as \"going ape shit\" and he even sings flat‑out on Wharf Rat.",
+      "Phil": "Broken string noted, but Phil’s bass provides wisdom from the \"Phil zone\", high‑end backing vocals and stabilizes the jam.",
+      "Bob": "Bob Weir nails lyrics, takes most of the backup vocal duties, and contributes strong rhythm work.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:02:04.640586+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-03.166363.sbd.bear.gems.flac1648"
+  }
 }

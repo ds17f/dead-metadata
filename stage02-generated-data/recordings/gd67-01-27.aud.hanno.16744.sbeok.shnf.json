@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.369565217391304,
   "high_ratings": 25,
-  "low_ratings": 10
+  "low_ratings": 10,
+  "ai_review": {
+    "summary": "Muddy audience cassette capture of an early‑67 Dead show, but the performance shines with a ferocious Viola Lee Blues, blistering Alligator and soaring New Potato Caboose.",
+    "review": "The tape is a low‑fidelity, hand‑held mono audience recording that many find almost unlistenable, yet it preserves a historic 1967 set where the band erupts in raw energy.  Highlights repeatedly mentioned are the volcanic Viola Lee Blues, the monster Alligator > Caution stretch and a powerful New Potato Caboose, with Pigpen’s organ and Jerry Garcia’s fiery guitar leading the charge.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "high",
+      "rationale": "Over thirty reviews provide a clear consensus: the musical performance is praised (high‑energy jams, standout songs) while the recording quality is widely criticized as poor.  The combined weighting yields an overall mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Hand‑held mono cassette tape; very muddy, low‑fidelity and often described as unlistenable, though a few listeners say it becomes tolerable after the ears adjust."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee Blues",
+        "Alligator > Caution",
+        "New Potato Caboose",
+        "Morning Dew"
+      ],
+      "poor_songs": [
+        "Cold Rain (mentioned as less compelling)"
+      ],
+      "setlist_flow": "Early‑67 set with long improvisational stretches; the band moves from tight, high‑energy jams into extended psychedelic explorations, typical of the pre‑Wall of Sound era.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple reviewers note his fiery, overdriven guitar tone and soaring solos on Viola Lee Blues and Morning Dew.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen’s organ is repeatedly praised as a dominant, swirling force throughout the show.",
+      "Drums": "Kreutzmann’s drumming is cited as low in the mix by one reviewer; later comments mention a two‑drummer setup on the Alligator > Caution segment."
+    },
+    "processed_date": "2025-09-08T06:26:52.524239+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd67-01-27.aud.hanno.16744.sbeok.shnf"
+  }
 }

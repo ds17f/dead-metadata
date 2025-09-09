@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 3.5833333333333335,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard tape with a muddy mix and noticeable cuts, but still delivers a hot “Other One” and a jam‑filled Hard to Handle amid an odd summer‑tour setlist.",
+    "review": "The recording is a soundboard capture that suffers from muddiness, a nasty cut in the Pig’s BB Man harp intro and tape drop‑outs at the end of Lovelight, making it only fair technically. Musically the show is uneven – the setlist feels unusual for ’69, with weaker numbers like “Slewfoot” and “Silver Strings,” yet highlights such as a scorching “Other One” and an extended jam on “Hard to Handle” keep it worthwhile.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Reviews are split between praise for standout songs (average 4‑star comments) and criticism of the recording quality (multiple mentions of mud, cuts, and tape loss). The show is judged average with a few high points, leading to a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Muddy overall mix, nasty cut in Pig’s BB Man harp intro, tape dropouts especially before the Lovelight outro; otherwise a decent capture for a 1969 soundboard."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Hard to Handle"
+      ],
+      "poor_songs": [
+        "Slewfoot",
+        "Silver Strings"
+      ],
+      "setlist_flow": "Unusual and odd setlist for the summer ’69 tour, missing the typical DS > SS > '11 sequence; several rarely‑played songs appear making the flow feel disjointed.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "One reviewer notes Jerry’s steel pedal guitar work and his birthday‑related antics, but no specific comments on his lead playing.",
+      "Phil": "",
+      "Bob": "A ‘cool harp intro’ on Pig’s BB Man is mentioned, referencing Bob’s harp contribution.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:07:03.729482+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-08-02.sbd.miller.30651.sbeok.flacf"
+  }
 }

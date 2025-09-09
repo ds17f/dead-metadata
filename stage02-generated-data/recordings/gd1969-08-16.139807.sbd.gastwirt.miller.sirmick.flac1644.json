@@ -14,5 +14,43 @@
   "confidence": 0.6,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of the five‑song Woodstock set delivers solid performance with standout Dark Star, Mama Tried and High Time despite radio chatter and a brief dropout.",
+    "review": "The recording is a clean soundboard source that presents the short festival set clearly, though occasional radio interference on “High Time” and a two‑second drop are audible. Musically the show shines on Dark Star, Mama Tried and High Time, while the extended Lovelight drags a bit and St Stephen feels truncated. Overall the performance is enjoyable and historically significant, even if not a peak Dead night.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Three reviews ranging from 3‑5 stars show generally positive impressions of both the music and the soundboard recording; average rating ~4 with detailed commentary gives high confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Cleanest/most complete SBD source, clear overall mix; noticeable radio interference on “High Time”, a two‑second dropout around 24:10, and distortion from the guest mic during Lovelight."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Mama Tried",
+        "High Time"
+      ],
+      "poor_songs": [
+        "Lovelight",
+        "St Stephen (truncated)"
+      ],
+      "setlist_flow": "A brief five‑song festival set with a long, meandering Lovelight; typical late‑’69 flow that balances concise numbers with an extended jam.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Blistering guitar tone praised, especially on Dark Star and High Time.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Tom Constanten’s keyboards described as squeezing out strange auras during the jam.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:16:48.762813+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-08-16.139807.sbd.gastwirt.miller.sirmick.flac1644"
+  }
 }

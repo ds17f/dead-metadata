@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.083333333333333,
   "high_ratings": 9,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard tape with mix glitches but a high‑energy 1971 set featuring a monster Truckin’/The Other One and standout Pigpen organ work.",
+    "review": "The show captures the Dead in an exuberant early‑'71 period – highlights include a smoking Truckin’, a mammoth The Other One, and a fiery Good Lovin’ with Pigpen’s organ front‑and‑center.  The stereo soundboard source suffers from occasional dropouts, level dips on the final three tracks and an overly high organ mix, but most listeners find the performance compelling enough to overlook these flaws.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars and praise the musical energy, while a minority note serious recording glitches; the weighted average yields a solid above‑average rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Stereo soundboard with occasional glitches, cuts and patches; organ sits high in the mix; last three tracks have lower volume and tape hiss; overall clarity is acceptable but not pristine."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "The Other One",
+        "Good Lovin'",
+        "Wharf Rat"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A solid early‑1971 set that flows well despite a few edit cuts; the energy builds through the second half with extended jams.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Uses a sunburst Les Paul early in the show and employs his wah‑wah pedal on Greatest Story Ever Told and Sugar Magnolia; praised for tone despite mix issues.",
+      "Phil": "Bass line at the start of The Other One is cut out due to an edit, otherwise no specific comments.",
+      "Bob": "",
+      "Keys": "Pigpen’s Hammond organ is prominently featured and praised as a highlight of the performance.",
+      "Drums": "Bill Kreutzmann receives commendation for his powerful drumming; drums are noted as a strong element of the mix."
+    },
+    "processed_date": "2025-09-07T16:38:44.093410+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-03-03.sbd.lai.6248.sbefail.shnf"
+  }
 }

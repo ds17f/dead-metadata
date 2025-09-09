@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard copy of an April ’71 show with smoking Hard To Handle, Good Lovin’, Morning Dew and tight jams throughout.",
+    "review": "The recording is praised as crystal‑clear and near‑perfect, a true Matera soundboard capture that even seasoned archivists note for its superb mix (despite some track‑splitting quirks). Musically the night shines – Hard To Handle and Good Lovin’ are called “ultimate” jams, Morning Dew and Second That Emotion get special shout‑outs, and the band is described as scorching, tight and full of high‑octane energy.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Overwhelmingly positive comments on both performance (standout jams, high energy) and recording quality (excellent soundboard capture). Weighted rating yields a strong 4.6/5."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, near‑perfect sound; reviewers note excellent mix and clarity but mention that some sections were split into separate tracks, requiring manual reassembly for a seamless experience."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard To Handle",
+        "Good Lovin'",
+        "Morning Dew",
+        "Second That Emotion",
+        "Sing Me Back Home"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth set with high‑energy first half and extended, tightly‑woven jams in the second, highlighted by seamless transitions into improvisational passages.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Scorching lead guitar on Hard To Handle; tight solo work throughout; noted working a bit harder on lyrics but jam stays tight.",
+      "Phil": "Constant bass riffing praised; complimented for not isolating drums in Good Lovin' and overall solid groove.",
+      "Bob": "Rhythm guitar described as ukulele‑like on Hard To Handle, adding a playful texture.",
+      "Keys": "Pig (keyboard) adds color on China > Rider and other sections; noted for key contributions throughout the jam.",
+      "Drums": "Billy (Bill Kreutzmann) letting loose on the skins; drums highlighted in Good Lovin' with good mix decisions."
+    },
+    "processed_date": "2025-09-07T18:02:04.734151+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-25.sbd.matera.113038.sbeok.flac16"
+  }
 }

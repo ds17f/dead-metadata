@@ -14,5 +14,42 @@
   "confidence": 0.6,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A sprawling, jazzy Dark Star and strong late‑show jams shine through a sub‑par SBD tape.",
+    "review": "The performance is musically satisfying – a near‑30‑minute Dark Star that wanders into Sugar Magnolia and a sizzling Caution, plus hot versions of Good Lovin' and Uncle John’s Band with Keith's fine piano work. The recording suffers from a degraded SBD source (B‑ grade) and needs EQ and a slight speed tweak, but it remains listenable for fans who prioritize the music over fidelity.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Show quality is praised (high energy, standout Dark Star and jams) while recording quality is noted as poor; weighted average yields a moderate rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Degraded SBD tape rated B‑, muffled/subdued sound, requires EQ tweaking and ~2.8% speed correction; overall listenable but not clear."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Sugar Magnolia",
+        "Caution",
+        "Good Lovin'",
+        "Uncle John's Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Long exploratory Dark Star segues into Sugar Magnolia and a sizzling Caution, maintaining strong momentum through the second half; transitions are praised.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith's fine piano work is highlighted as a highlight of the performance.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T23:35:37.754172+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-04-29.sbd.vernon.17026.sbeok.shnf"
+  }
 }

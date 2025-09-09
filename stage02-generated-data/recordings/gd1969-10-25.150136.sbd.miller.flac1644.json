@@ -14,5 +14,40 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of an electrifying 1969 show highlighted by a soaring High Time, Dark Star and Pigpen front‑and‑center.",
+    "review": "Reviewers rave about the crystal‑clear soundboard recording made by Charlie Miller, calling it “out of this world.” The performance is praised for its high energy, with standout moments like a powerful High Time, an early Dark Star voyage, and a vibrant Pigpen presence. Overall the set flows smoothly despite being a single‑set show.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "medium",
+      "rationale": "Both musical performance and recording quality receive high praise; only one ambiguous low rating slightly lowers certainty."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Listeners describe the audio as “out of this world” with crisp, clear mix throughout."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "High Time",
+        "Dark Star",
+        "China Cat Sunflower > I Know You Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "One‑set show that builds from early jams into a strong Dark Star segment and climaxes with High Time; transitions praised.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Two keyboards noted, adding texture to the performance",
+      "Drums": "Two drummers present, contributing to a thick rhythmic foundation"
+    },
+    "processed_date": "2025-09-08T14:59:18.858557+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-10-25.150136.sbd.miller.flac1644"
+  }
 }

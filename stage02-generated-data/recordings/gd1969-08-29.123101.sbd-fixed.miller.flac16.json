@@ -14,5 +14,43 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a brilliant 1969 show, highlighted by an epic 30‑minute Lovelight and strong early renditions of Easy Wind and High Time.",
+    "review": "The recording delivers clear, well‑balanced soundboard quality that lets the band's performance shine. Reviewers praise the brilliance of the overall set, especially the marathon Lovelight, while noting some tentative moments in early Working Man’s Dead material and a forced vocal on Dire Wolf. Jerry’s blues chops and the organ’s vibrato are singled out as high points.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All three reviews are 4‑5 stars, emphasizing strong musical moments and good sound quality; the weighted average of show (70%) and recording (30%) yields a high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Consistently clear audio with no reported drop‑outs or major issues; reviewers describe the sound as good and enjoy the mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lovelight (30 min jam)",
+        "Easy Wind",
+        "High Time"
+      ],
+      "poor_songs": [
+        "Early Working Man’s Dead era tunes (tentative/sloppy)",
+        "Dire Wolf (vocals forced)"
+      ],
+      "setlist_flow": "Starts a bit tentative but builds into a brilliant performance, culminating in an extended Lovelight that showcases the band's improvisational strength.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Greases up his blues chops on Easy Wind; voice sounds forced on Dire Wolf but overall guitar work praised.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Organ provides cool vibrato on High Time.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:28:35.540864+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-08-29.123101.sbd-fixed.miller.flac16"
+  }
 }

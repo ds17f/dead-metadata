@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.4,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A solid balcony audience tape from Winterland with decent sound (drums a bit low, bass a touch muddy) that captures a great 1972 performance highlighted by an amazing Dark Star.",
+    "review": "The recording is an audience‑balcony capture that, while not pristine, remains listenable – the mix lets Jerry’s white Strat shine and Keith’s keyboards stand out, though the drums sit low and the bass can be boomy. The show itself is praised for its tight playing and especially the Dark Star (with a strong Stella Blue), delivering the classic high‑energy vibe of late‑1972.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Most reviewers praise the musical performance and highlight Dark Star, while noting only moderate recording flaws; the combined weighting yields a strong positive rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Clear enough for enjoyment; drums are slightly recessed in the mix, bass can be boomy/mushy, some ambient echo and mild distortion noted, but overall listenable and among the better 1972 audience tapes."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Stella Blue"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical of the era with a relaxed yet attentive crowd; the performance flows well and maintains consistent energy throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "White Strat noted for its bright, squawky tone; guitar work praised as central to the performance.",
+      "Phil": "Bass described as a bit boomy and mushy – likely a recording issue rather than playing deficiency.",
+      "Bob": "Rhythm guitar called “exfoliates” Jerry’s leads, indicating solid supportive playing.",
+      "Keys": "Keith consistently delivered strong keyboard parts; praised by reviewers.",
+      "Drums": "Only one drummer heard (Bill Kreutzmann); drums are a little low in the mix."
+    },
+    "processed_date": "2025-09-08T04:38:22.850658+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-12-11.108946.aud.menke.motb.flac16"
+  }
 }

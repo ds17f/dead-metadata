@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A raw audience recording captures a scorching early‑1968 show with a smoking “Alligator” and a fully formed Mountain Jam despite the poor vocal mix.",
+    "review": "The performance is described as high‑energy, wild, and ‘hairy,’ highlighted by Jerry Garcia’s electrifying guitar on Alligator and an extended Mountain Jam. Recording quality is consistently noted as raw, low‑fidelity and with recessed vocals, but listeners deem it worth the experience for its historic intensity.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the show’s energy and standout jams (show weight ~70%), while acknowledging a consistently poor‑to‑fair recording quality (recording weight ~30%). The weighted average yields an overall rating just above four stars."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Very raw sound with stage‑mic limitations; vocals, especially Pigpen’s, are recessed or low. Overall clarity is poor but the recording remains listenable for its historical value."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Alligator",
+        "Mountain Jam"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A brief, two‑song set typical of early ’68 shows that builds from powerful drumming into a scorching Alligator and ends with an expansive Mountain Jam.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as 'pure electricity' on the Alligator after Drums, delivering a high‑octane guitar performance.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Strong drumming leading into the Alligator segment is highlighted as part of the high‑energy flow."
+    },
+    "processed_date": "2025-09-08T08:27:26.656986+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-05-18.aud.jorma.gmb.sbeok.94591.flac16"
+  }
 }

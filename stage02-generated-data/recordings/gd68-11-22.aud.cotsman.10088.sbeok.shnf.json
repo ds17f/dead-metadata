@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.411764705882353,
   "high_ratings": 6,
-  "low_ratings": 4
+  "low_ratings": 4,
+  "ai_review": {
+    "summary": "Muddy audience recording of a high‑energy 1968 Veterans Memorial show – Jerry on fire, Dark Star and Morning Dew shine despite poor sound.",
+    "review": "The performance is widely praised as a classic late‑summer ’68 set with searing Jerry Garcia guitar work, a soaring Dark Star and a powerful Morning Dew.  The source is an audience (AUD) tape that many describe as muddy and muffled, though a later remaster has cleaned it up enough to be listenable.  Overall the show’s musical excitement outweighs the technical shortcomings.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Show quality consistently rated 4‑5 stars (high energy, standout jams) while recording quality is repeatedly called poor/muddy; weighted average yields ~4.0."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Muffled and muddy overall; lyrics and guitar still audible, occasional drop‑outs; later remaster improves warmth but the tape remains limited by era’s AUD fidelity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Morning Dew",
+        "Dark Star (late summer ’68)",
+        "New Potato"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical ‘68 set with a tight first half, extended jams in the middle (Dark Star) and a strong closing; transitions flow naturally despite the small venue.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as “on fire”, searing‑hot guitar throughout, especially on Morning Dew and Dark Star.",
+      "Phil": "Bass noted as sometimes muddled; overall solid but his tone is less clear due to recording issues.",
+      "Bob": "",
+      "Keys": "Organ/keyboards barely audible; Tom Constanten’s first show mentioned but not prominent in the mix.",
+      "Drums": "Billy absent, Mickey handling all drums – “power percussion” and a driving groove noted."
+    },
+    "processed_date": "2025-09-08T09:30:26.285405+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-11-22.aud.cotsman.10088.sbeok.shnf"
+  }
 }

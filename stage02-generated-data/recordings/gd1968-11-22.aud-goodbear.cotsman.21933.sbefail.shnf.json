@@ -14,5 +14,41 @@
   "confidence": 0.8,
   "raw_rating": 3.5,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A harsh, primitive audience tape of the Dead’s first Ohio show captures a high‑energy performance with blistering Morning Dew and a monster Dark Star.",
+    "review": "The show is widely praised for its ferocious playing – Jerry’s guitar is described as a snarling beast, Morning Dew is top‑notch, and Dark Star rolls out a fast, spacey exploration. The recording, however, suffers from an empty‑hangar audience sound, mids‑only tone and tape‑flange artifacts that make it difficult to listen to without effort.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Reviewers consistently rate the musical performance very highly (average show rating ~4.7) while rating the audio quality low (average recording rating ~2.2). Weighted combination yields a solid 4‑star overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Harsh, mids‑only sound with little bass or treble; described as sounding like an unmodified Ibanez Tube Screamer plus tape flange. Ambient noise resembles an empty airplane hangar, making the mix muddy and difficult to follow."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Morning Dew",
+        "Dark Star",
+        "The Other One > Cryptical Envelopment",
+        "New Potato"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early‑night Ohio debut delivers a raw, late‑68 “crusading” vibe; high‑energy jams flow tightly despite the rough recording environment.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as a snarling, beast‑like tone that rips through the set; guitar work is a major highlight.",
+      "Phil": "Bass often muddled or buried in the mix, though his playing underpins the powerful jams.",
+      "Bob": "",
+      "Keys": "Organ barely audible on New Potato; overall keyboard presence is faint due to recording limitations.",
+      "Drums": "Kreutzmann was absent for this show; no specific drum comments beyond the lack of a full kit sound."
+    },
+    "processed_date": "2025-09-08T09:31:17.018545+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-11-22.aud-goodbear.cotsman.21933.sbefail.shnf"
+  }
 }

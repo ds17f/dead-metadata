@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.7,
   "high_ratings": 20,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with some early hum and mix quirks, but a high‑energy 1972 show highlighted by a smoking “Looks Like Rain” and an epic Play‑In‑The‑Jam.",
+    "review": "This March 21 ‘72 performance captures the Dead in transition – the bar‑room blues of “Cumberland Blues,” “Big Railroad Blues,” and “Truckin’” feel fresh, while the second set erupts into a soaring Play‑In‑The‑Jam that many fans call a monster.  The source is a soundboard tape; listeners note an initial hum, buzz and a front‑heavy Bobby mix, but later mastering work has cleared up much of the imbalance, making the show overall very enjoyable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Consistently high praise for musical performance (many 5‑star comments) outweighs moderate technical complaints about early mix and hum."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Early part of the set has noticeable hum, buzz and a Bobby‑forward mix with Jerry’s guitar/voice low; later mastering improves clarity. Overall tape is listenable and clearer than many early‑70s releases."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Looks Like Rain",
+        "Cumberland Blues",
+        "Big Railroad Blues",
+        "Truckin'",
+        "Playin' Jam (PITB)",
+        "Greatest Story Ever Told",
+        "Black Throated Wind",
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set opens strong with bar‑room blues and tight playing despite mix issues; the second set builds into a lengthy, exploratory jam (Play‑In‑The‑Jam) before winding down, showing the band’s evolving energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar tone is praised (especially wah on “Greatest Story”) but early mix buried his vocals and lead; later sections sound more balanced.",
+      "Phil": "Repeatedly noted for strong bass work and even singing on “Looks Like Rain”; reviewers say \"Phil rocks\".",
+      "Bob": "Bobby’s pedal steel and organ are highlighted, though the mix initially puts him too far forward.",
+      "Keys": "Ron’s keyboards are present (organ on “Big Railroad Blues”), but some note his energy wanes in the second set.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:18:14.381509+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-03-21.sbd.miller.92395.sbeok.flac16"
+  }
 }

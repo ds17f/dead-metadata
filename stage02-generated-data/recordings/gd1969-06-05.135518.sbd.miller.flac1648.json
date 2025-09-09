@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy soundboard recording highlights a fan‑favorite, jam‑filled Hard to Handle performance.",
+    "review": "The sole review praises the extended jamming on Hard to Handle, calling it a favorite moment of the show. While no specific recording comments are given, the fact that it’s a soundboard (sbd) source suggests a clean capture, and the enthusiastic tone indicates a high‑energy performance.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "medium",
+      "rationale": "A single 5‑star review emphasizes strong show energy and a standout jam; recording is a soundboard source, implying good technical quality despite lack of explicit detail."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on clarity or mix; assumed typical soundboard fidelity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard to Handle"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Insufficient information from reviews to evaluate overall set flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:06:57.439533+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-06-05.135518.sbd.miller.flac1648"
+  }
 }

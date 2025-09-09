@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Decent mix balance on an uncertain source; performance details are vague.",
+    "review": "Reviewers note a well‑balanced mix that sounds good to the ear, though one reviewer is confused about the date and provenance of the cut. No specific musical highlights or issues are mentioned, leaving the show quality largely undefined.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.6,
+      "confidence": "low",
+      "rationale": "Only two brief reviews; one praises the mix while the other is confused about the recording's date. No concrete comments on performance, so rating leans toward average."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Mix is nicely balanced and works well to the reviewer’s ears; no mention of clarity issues or source type."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No comments on set structure or pacing.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T05:18:25.253069+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1966-03-19.153760.scotton.sirmick.remaster.flac16"
+  }
 }

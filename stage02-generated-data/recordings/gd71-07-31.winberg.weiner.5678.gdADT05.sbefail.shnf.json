@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.117647058823529,
   "high_ratings": 12,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Audience recording plagued by loud crowd screams, yet it captures the legendary July 31 1971 Yale Bowl show with a monster Dark Star and standout Pigpen moments.",
+    "review": "The tape is an audience (AUD) capture whose biggest flaw is the intrusive crowd noise – especially the scream that opens Dark Star – but once past those peaks the music shines.  The performance is high‑energy, featuring a long, soaring Dark Star, a beautiful Bird Song, the first‑ever Sugaree and a fiery Pigpen “Big Boss Man”, making it a must‑hear despite its technical shortcomings.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the musical performance (many 4–5 star comments) while consistently noting crowd‑noise issues; weighted average of strong show quality and fair recording yields a solid 4‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Crowd screams dominate the mix, especially at the start of Dark Star; mid‑level frequencies are a bit off and occasional chatter masks instruments, but overall the recording remains listenable once volume is managed."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Bird Song",
+        "Sugaree (first performance)",
+        "Big Boss Man (Pigpen)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early‑70s setlist with strong sequencing; Dark Star anchors the show, followed by tight jams and a surprising drop into Bird Song that keeps momentum high despite external chaos.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for ample space to work during Dark Star and overall guitar brilliance.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Bill (drums) noted as coming through instrumentally despite the audience mix."
+    },
+    "processed_date": "2025-09-07T18:52:37.671607+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-07-31.winberg.weiner.5678.gdADT05.sbefail.shnf"
+  }
 }

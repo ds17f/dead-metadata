@@ -14,5 +14,38 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Fair soundboard capture of a mostly lackluster concert that only comes alive during Pigpen‑boosted Lovelight.",
+    "review": "The recording is an enjoyable listen but suffers from a mid‑song power loss that muddies the audio, making the early part feel flat. Pigpen’s harmonica and the electrified Lovelight rescue the performance, providing the sole highlight of an otherwise unremarkable show.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.6,
+      "confidence": "low",
+      "rationale": "Only one brief review; shows mixed feelings with a few positive moments but overall low energy and technical issues keep the rating near the lower end."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Power loss during Lovelight causes a drop in audio; otherwise decent clarity, but the interruption makes the recording uneven."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lovelight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early set feels lackluster with whiffed talking and flat energy; momentum only picks up after the power restores for Lovelight.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s electric guitar is needed to revive Lovelight after the power outage, but no specific praise of his playing elsewhere.",
+      "Phil": "",
+      "Bob": "Bob Weir's spoken intro is described as a whiff and not very good.",
+      "Keys": "Pigpen’s harmonica (and organ) lifts the show during Lovelight, providing the main highlight.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:23:25.476964+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-11-15.141256.sbd.tiedrich.miller.clugston.pitch.corrected.flac1644"
+  }
 }

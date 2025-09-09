@@ -3,7 +3,7 @@
   "title": "Grateful Dead Live at Tivolis Koncertsal on 1972-04-14",
   "date": "1972-04-14",
   "venue": "Tivolis Koncertsal",
-  "location": "K\u00f8benhavn (Copenhagen), D\u00e4nemark (Denmark)",
+  "location": "København (Copenhagen), Dänemark (Denmark)",
   "source_type": "SBD",
   "lineage": "Dat (Sony R500) -> SEK'D Prodif Plus -> Samplitude Profesional v8.01 -> FLAC",
   "taper": "",
@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.8,
   "high_ratings": 14,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A pristine sound‑board capture of a fire‑filled Europe ’72 show, highlighted by an epic Dark Star, soaring Looks Like Rain on pedal steel and a flawless mix.",
+    "review": "The performance is repeatedly called one of the best of the tour – intense, energetic, with virtually every song standing out, especially Dark Star, Looks Like Rain (pedal‑steel), Good Lovin'/Caution sandwich and Casey Jones.  Charlie Miller’s meticulous soundboard edit delivers sparkling clarity; only minor vocal hiccups on “Goin’ Down The Road” and a patchy Cumberland Blues are noted.  Overall the show and its recording are celebrated as near‑perfect.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "Over a dozen enthusiastic 5‑star reviews praise both the musical performance (high energy, multiple standout songs) and the soundboard recording (sparkling mix, careful editing). Minor criticisms are few and do not detract from the overall excellence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Charlie Miller’s SBD edit is described as sparkling, well‑balanced with organ up in the mix, minimal drop‑outs (patched in Cumberland Blues), and overall pristine clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Looks Like Rain",
+        "Good Lovin' / Caution (sandwich)",
+        "Casey Jones",
+        "Playin' in the Band"
+      ],
+      "poor_songs": [
+        "Goin' Down The Road (Donna's vocal issues)",
+        "Cumberland Blues (patches needed)"
+      ],
+      "setlist_flow": "Two‑set marathon with three climactic peaks – Dark Star > Sugar Magnolia, Good Lovin' > Kitchen Sink > Lovin' Reprise, and NFA > Goin' Down The Road > NFA – delivering a seamless, high‑impact progression.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his soaring pedal‑steel on Looks Like Rain and his telepathic link with the band throughout; tone described as perfect.",
+      "Phil": "",
+      "Bob": "Mentioned as part of the tight, telepathically linked ensemble.",
+      "Keys": "Keith Godchaux’s organ is highlighted as being high in the mix and complementing the band; Pipgen’s (organ) work noted positively.",
+      "Drums": "Bill Kreutzmann praised for his freedom as the sole drummer on this show."
+    },
+    "processed_date": "2025-09-07T23:06:50.014507+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-04-14.sbd.miller.34552.sbeok.flac16"
+  }
 }

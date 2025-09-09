@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A great recording capturing one of the Dead's most fun and highly regarded shows.",
+    "review": "The lone five‑star review praises both the performance and the tape, calling it a “great recording” of one of the band’s “funnest & best” concerts. No specific details about song highlights, sound source, or individual musicians are offered, but the enthusiasm suggests high energy and an enjoyable listening experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "low",
+      "rationale": "Only one enthusiastic five‑star review; while it signals a strong show and solid recording, the lack of detail limits certainty about technical quality."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer describes the recording as \"great\" with no noted issues."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure were provided.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:14:11.715968+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-27.141129.sbd.pcm.lubar.dalton.miller.clugston.flac1644"
+  }
 }

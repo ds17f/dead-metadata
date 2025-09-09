@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.125,
   "high_ratings": 6,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard capture of the early‑psychedelic 5/19/66 Avalon benefit show – highlights include a vibey Mindbender and the “Tastebud” track, but Garcia’s tone draws mixed opinions.",
+    "review": "The recording is a soundboard (SBD) source that delivers clear, listenable audio with no reported technical flaws. Musically the concert is a snapshot of the Dead’s early psychedelic period; reviewers praise the vibrato‑laden Mindbender and the rare “Tastebud” performance, yet some feel Jerry Garcia had not yet settled on his signature tone, making the overall show feel mixed.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Average star rating across eight reviews is ~4.1; most comments are positive about the recording and specific songs, but there are notable criticisms of Garcia’s tone, leading to a balanced overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No complaints about clarity or mix; reviewers focus on musical aspects rather than audio flaws, indicating the SBD capture is clean and listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mindbender",
+        "Tastebud"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The concert was part of a multi‑media benefit event at the Avalon, blending music with poetry and theater; set pacing is not specifically described in reviews.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Opinions diverge – one reviewer calls Garcia’s tone “indifferent,” while another defends it as typical of early ’66 playing, noting less powerful solos compared to later years.",
+      "Phil": "Mentioned using vibrato on vocals during Mindbender, indicating a notable contribution in that song.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T05:27:03.768522+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1966-05-19.sbd.miller.106828.flac16"
+  }
 }

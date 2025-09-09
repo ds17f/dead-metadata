@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.714285714285714,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording captures a high‑energy 1971 Cortland show with a monster Good Lovin’ and standout Jerry Garcia vocals and guitar.",
+    "review": "The April 18, 1971 Cortland performance is praised for its soaring Jerry Garcia singing, vivid wah‑wah on Sugar Magnolia, and an epic, marathon‑like second set highlighted by a superb Good Lovin’. Reviewers uniformly note the crisp, well‑balanced soundboard mix, making the show both musically and technically exceptional.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high reviewer stars (mostly 5, some 4) and unanimous praise for both the performance and the soundboard mix lead to a strong rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Mix is described as crisp, clear and superb; no drop‑outs or balance issues were reported. Reviewers gave top marks for the recording and transfer."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "Second That Emotion",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Long, marathon‑like set with a particularly strong second half; Good Lovin' anchors the show and the overall pacing keeps energy high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals described as powerful and effortless (like '66), guitar tone praised, notable wah‑wah on Sugar Magnolia.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann singled out for his drumming on Good Lovin', receiving enthusiastic applause."
+    },
+    "processed_date": "2025-09-07T17:47:21.082216+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-18.sbd.lai.6251.sbefail.shnf"
+  }
 }

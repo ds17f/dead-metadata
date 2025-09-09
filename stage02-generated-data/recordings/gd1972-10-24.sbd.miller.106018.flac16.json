@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.8,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent Miller‑mastered soundboard capture of a fire‑filled 1972 show highlighted by a monster The Other One and a soaring Phil “stomp”.",
+    "review": "The recording is praised across the board for its superb, near‑perfect mix – long uninterrupted jams, barely‑noticeable patches and crystal‑clear balance of Jerry, Bob, Phil and Bill. Musically the performance shines with an epic The Other One, a jam‑heavy He's Gone and what reviewers call one of the best “Philo stomps” of the fall‑’72 era, delivering high energy from start to finish.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "All five reviews are 4–5 stars and unanimously praise both the musical performance (standout jams, The Other One) and the recording quality (superb Miller mix)."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Miller’s masterful soundboard mix is described as crisp, superb and nearly perfect; patches are seamless and the longer tracks preserve uninterrupted jams."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "He's Gone"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A flowing, expansive set with extended improvisations; the Phil‑centric jam (the “Philo stomp”) and the climactic end of He's Gone drive the momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned positively as part of the flawless mix – guitar tone praised implicitly.",
+      "Phil": "Repeatedly highlighted for gorgeous bass themes and a standout “Philo stomp” that defines this show.",
+      "Bob": "Included in the praise for the overall balanced mix; no specific performance comment.",
+      "Keys": "",
+      "Drums": "Bill’s drumming noted as part of the superb mix, though without detailed remarks."
+    },
+    "processed_date": "2025-09-08T03:32:54.198272+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-10-24.sbd.miller.106018.flac16"
+  }
 }

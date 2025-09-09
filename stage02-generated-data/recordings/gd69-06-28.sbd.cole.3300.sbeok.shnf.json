@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.375,
   "high_ratings": 7,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of a classic ’69 setlist with smoking Doin' That Rag, King Bee, Turn On Your Love Light and stellar country numbers.",
+    "review": "The recording is praised for its crisp, clear soundboard quality that lets every instrument shine, even if a touch of Dolby noise reduction would improve it. Musically the show is hailed as a quintessential 1969 performance – Jerry’s steel on Slewfoot and Silver Threads, Phil’s booming bass, Bob’s soulful vocals and Mickey’s double‑drum magic drive an energetic, roots‑infused set that deadheads describe as unforgettable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Consistently high reviewer scores (average ~4.4) and overwhelmingly positive comments about both the performance and sound quality outweigh a single low‑rating complaint."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix with high levels; some reviewers note minor noise‑reduction (Dolby) needs but overall the sound is exceptionally clean."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Doin' That Rag",
+        "High Time",
+        "Slewfoot",
+        "Silver Threads and Golden Needles",
+        "King Bee",
+        "Turn On Your Love Light",
+        "Mama Tried"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A classic ’69 setlist that moves smoothly from country‑flavored numbers to bluesy jams, showcasing the band’s transition from anthem‑rock to organic American roots music.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Plays steel guitar on Slewfoot and Silver Threads; vocal stretches praised; pedal work noted as exceptional.",
+      "Phil": "Bass described as “rocks the bass like it's a baby in his arms,” delivering powerful low‑end support.",
+      "Bob": "Vocals called youthful, soulful and central to the cowboy/roots feel of the set.",
+      "Keys": "",
+      "Drums": "Mickey’s double‑drum magic noted; drums described as firecracker‑like and energetic."
+    },
+    "processed_date": "2025-09-08T13:44:31.144577+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-06-28.sbd.cole.3300.sbeok.shnf"
+  }
 }

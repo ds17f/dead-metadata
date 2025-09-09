@@ -14,5 +14,48 @@
   "confidence": 1.0,
   "raw_rating": 4.416666666666667,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture with crisp mix (minor channel quirks) showcases a high‑energy August ’71 set highlighted by monster Other One jams and a soaring Wharf Rat.",
+    "review": "The Berkeley 8/15/71 recording is a soundboard source that sounds generally clear and well‑balanced, though listeners note some left‑channel hiss and occasional drop‑outs of Bob Weir’s guitar. Musically the show is a classic summer ’71 performance – the Other One jams are “smoking,” Wharf Rat is a standout, and the band delivers strong renditions of Lovelight, Cumberland Blues, China Cat > Rider, and Casey Jones despite a few first‑set hiccups.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the musical performance (high energy, standout jams) and consider the recording good to excellent despite minor mix issues; weighted average of show (≈4.5) and recording (≈4) yields a 4.3 rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp overall sound with clear instrument separation; left channel has hiss, Jerry sometimes buried in mix, Bob’s guitar disappears at points, and a few pitch‑correction anomalies are noted. Mix is generally praised but not flawless."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Wharf Rat",
+        "Turn On Your Lovelight",
+        "Cumberland Blues",
+        "China Cat Sunflower > I Know You Rider",
+        "Casey Jones",
+        "Truckin'",
+        "Me & My Uncle"
+      ],
+      "poor_songs": [
+        "Playin'",
+        "Boss Man"
+      ],
+      "setlist_flow": "The first set has a rough start (tuning issues, broken string) but builds into solid grooves; the second set is fire‑filled with back‑to‑back Other One jams and a long, flowing Wharf Rat sequence that ties the show together.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Tone described as thin (Les Paul vs. Strat debate); sometimes low in mix and left‑channel hiss noted; overall praised for strong solo work during jams.",
+      "Phil": "Bass is front‑and‑center, especially brilliant on the Other One jams; several reviewers call his playing \"excellent\" and a highlight of both nights.",
+      "Bob": "Weir’s rhythm guitar drops out in parts of the mix, notably during the Not Fade Away jam, reducing his usual rhythmic glue.",
+      "Keys": "Keith’s piano noted for influencing Jerry’s tone, but no specific performance comments beyond that.",
+      "Drums": "Bill Kreutzmann’s drumming is generally praised; no detailed critiques beyond standard rhythm‑section strength."
+    },
+    "processed_date": "2025-09-07T19:27:39.219109+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-08-15.sbd.ladner.21780.sbeok.shnf"
+  }
 }

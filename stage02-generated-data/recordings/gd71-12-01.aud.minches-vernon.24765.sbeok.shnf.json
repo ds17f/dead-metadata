@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 3.1666666666666665,
   "high_ratings": 7,
-  "low_ratings": 4
+  "low_ratings": 4,
+  "ai_review": {
+    "summary": "Mixed‑quality audience recording of a 1971 show that captures high energy and a standout Cryptical → Other One segment, but suffers from distant and uneven sound.",
+    "review": "The tape offers an authentic feel of the 1971 concert with enthusiastic crowd reactions and a memorable Cryptical > The Other One > Uncle John’s Band sequence. Opinions on the audio are split – some listeners praise its clarity for an audience source, while others find it muffled and distant. Overall the performance is solid, but the inconsistent recording quality limits its appeal.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "medium",
+      "rationale": "Star ratings range from 0 to 5 with many low scores for sound quality and several high scores praising the show, resulting in an average around 2.7; weighted consideration of both performance and recording yields a moderate 3‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Reviews mention distant, muffled vocals and overall awful sound, but others describe clear vocals and crisp mix for an audience tape; inconsistency suggests a fair‑to‑poor technical presentation."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cryptical > The Other One > Uncle John’s Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set is the only part available in this AUD; second set exists as an SBD elsewhere. Listeners note energetic crowd interaction and a solid flow despite limited source material.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:48:07.865892+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-12-01.aud.minches-vernon.24765.sbeok.shnf"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 16,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a quintessential 1972 set featuring a smoking Dark Star, seamless Uncle John's Band → Wharf Rat transition and soaring Sugar Magnolia.",
+    "review": "This one‑disc SBD delivers an iconic 1972 performance where the band rides a lush, spacey Dark Star that builds into a jazzy jam before resolving into a classic Sugar Magnolia. The recording is clear with well‑placed mics despite minor tape degradation, and the energy throughout is high, highlighted by Jerry Garcia’s fiery solo work and tight interplay between Keith and Billy.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Overwhelmingly positive reviews praise both the musical performance (standout Dark Star, seamless transitions) and a generally good soundboard recording; many detailed comments provide strong evidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Slight tape degradation noted but overall very clear; mics are well placed, mix is balanced and captures the nuance of the jam."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Uncle John's Band",
+        "Wharf Rat",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Seamless transitions (UJB → Wharf Rat → Dark Star → Sugar Magnolia) create a flowing, trippy journey; the long Dark Star jam is highlighted as a high‑point.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar chops are described as 'on fire' and his solo on Dark Star is called second‑to‑none, showcasing peak performance.",
+      "Phil": "Phil's bass work is noted as soulful, tight, and a driving force during the Dark Star jam.",
+      "Bob": "",
+      "Keys": "Keith’s piano shines in interplay with the drums, adding jazzy texture to the extended jam.",
+      "Drums": "Billy Kreutzmann keeps a quick, resonating beat that propels the high‑octane energy of the set."
+    },
+    "processed_date": "2025-09-08T00:30:10.298119+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-05-25.psbd.hamilton.147.sbeok.shnf"
+  }
 }

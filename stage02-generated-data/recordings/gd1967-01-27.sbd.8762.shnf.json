@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.0,
   "high_ratings": 4,
-  "low_ratings": 4
+  "low_ratings": 4,
+  "ai_review": {
+    "summary": "High‑energy ’67 show with a scorching Viola Lee Blues, but the sped‑up audience tape sounds chipmunk‑like and often unlistenable.",
+    "review": "The performance captures an intense early‑Dead set – frantic Viola Lee Blues, powerful Pigpen vocals and raw urgency that many fans love. Unfortunately the source is a fast‑forwarded audience recording, giving high‑pitched, almost unintelligible vocals and burying Phil’s bass, so the listening experience suffers unless the tape is slowed down.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Show quality is praised (high energy, standout jams) while recording quality is widely criticized for speed and pitch issues; the weighted average yields a solid‑mid rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Tape is sped up causing chipmunk‑like vocals, high‑pitched Jerry and Pigpen, loss of Phil's bass depth; occasional clarity improvements over other sources but overall muddy and difficult to listen to without pitch correction."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee Blues",
+        "Alligator",
+        "Cold Rain and Snow"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Reviewers note the song order is wrong and the set list appears butchered, but the music itself flows with frantic intensity.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His voice sounds high‑pitched due to speed; some reviewers still praise his primal guitar work.",
+      "Phil": "Deep bass often gets lost in the sped‑up recording, though his playing is noted as solid when audible.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T06:24:13.259554+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1967-01-27.sbd.8762.shnf"
+  }
 }

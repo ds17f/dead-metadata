@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.545454545454546,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with a slightly quiet, hiss‑y mix but an electrifying 1971 show highlighted by a monster Other One → Big Railroad Blues and tight group playing.",
+    "review": "The performance captures the raw energy of late‑71 Dead, with the band firing on all cylinders – Jerry’s voice is strong, Phil’s bass is front‑and‑center, and Keith’s fresh piano adds sparkle.  The soundboard source is generally well balanced though a few listeners note reduced volume, compression and occasional hiss.  Standout moments include the soaring Other One into Big Railroad Blues, a punchy Jack Straw, Black Peter and an exuberant Truckin' opener.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "The majority of reviews (10 out of 12) are 4‑5 stars praising the musical performance; only one mentions recording problems and another gives a middling 3‑star rating for compression issues.  Show quality is rated high, recording quality good but not perfect, yielding an overall 4.2‑star score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Mix is generally well balanced with piano, drums and bass proportioned correctly; several reviewers note the show sounds a bit quiet/compressed and has some hiss, but overall it is listenable and captures the band clearly."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One > Big Railroad Blues",
+        "Jack Straw",
+        "Black Peter",
+        "Truckin'"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Solid first set that builds into a powerful second half; the show opens with Truckin', moves through tight group numbers, and climaxes with an extended Other One jam leading into Big Railroad Blues.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Most reviewers say his voice is great all night; one comment complains it sounds unusually quiet/compressed.",
+      "Phil": "Bass lines are praised as “snappy” and “front‑and‑center,” with Phil’s lead bass work highlighted throughout the set.",
+      "Bob": "Weir’s vocals are generally praised, noting only a single flub on Jack Straw; his rhythm guitar anchors the group.",
+      "Keys": "New keyboardist Keith is singled out for an up‑front piano sound that adds sparkle and uniqueness to the performance.",
+      "Drums": "Billy (Bill Kreutzmann) receives compliments for a snappy, driving beat that locks tightly with Phil’s bass."
+    },
+    "processed_date": "2025-09-07T20:28:26.077606+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-11-12.sbd.clugston.4759.sbeok.shnf"
+  }
 }

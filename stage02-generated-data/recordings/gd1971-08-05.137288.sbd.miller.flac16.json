@@ -14,5 +14,45 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good soundboard capture of a high‑energy August ’71 show with a classic “That's It for the Other One” suite, stellar Bird Song and tight Sugar Magnolia.",
+    "review": "The recording is a clean soundboard (SBD) source with only minor clipping at the starts of Truckin' and Not Fade Away, making it very listenable. The performance itself is strong – the first set rolls on for two hours and the second set delivers spacey jams and standout moments like “That's It for the Other One,” Bird Song, and a tight Sugar Magnolia, though “Big Boss” falls a bit flat.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Show quality is solid (≈3.7/5) with many highlights; recording quality is good (≈4.0/5). Weighted average yields ~3.8 stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and balanced SBD capture; a few clipped intros (Truckin', Not Fade Away) and early mic issues on Bertha, but overall crisp with no major drop‑outs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "That's It for the Other One",
+        "Casey Jones",
+        "Loser",
+        "Sugar Magnolia",
+        "Bird Song",
+        "Not Fade Away"
+      ],
+      "poor_songs": [
+        "Big Boss"
+      ],
+      "setlist_flow": "Two‑hour first set with solid rock and blues; second set opens strong, moves through spacey improvisation (notably the Other One suite) and closes with high energy jams. The dance‑venue setting kept the momentum lively throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Starts verses on Bertha after an initial mic delay; no further specific comments.",
+      "Phil": "Frequently praised – ‘on the button’ during Good Lovin', Not Fade Away, and throughout the set.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:01:32.619897+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-08-05.137288.sbd.miller.flac16"
+  }
 }

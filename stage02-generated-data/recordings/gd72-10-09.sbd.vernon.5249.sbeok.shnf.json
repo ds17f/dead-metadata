@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.357142857142857,
   "high_ratings": 13,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "High‑fidelity soundboard capture of a fire‑filled 1972 Winterland set, highlighted by a smoking Box of Rain, The Other One > Wharf Rat sequence and an epic Playing in the Band jam.",
+    "review": "The recording is a clean soundboard mix that delivers the crisp energy of a classic fall‑72 Winterland benefit, despite occasional hiss and a brief cut in the Playin' jam. Musically the show is intense and memorable – Jerry’s guitar and vocals soar, Keith’s improvisational fills sparkle, and Bob Weir delivers slashing leads, with standout moments including Box of Rain, the Other One > Wharf Rat stretch, Sugar Magnolia and an extraordinary Playing in the Band jam.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Most reviewers (13/15) give 4‑5 stars and praise both performance intensity and sound quality; only a few note minor issues, leading to a weighted average of ~4.5."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix with strong instrument separation; occasional hiss and a brief cut in the Playin' jam are the only notable imperfections."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Box of Rain",
+        "The Other One > Wharf Rat",
+        "Sugar Magnolia",
+        "Playing in the Band (jam)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical fall‑72 Winterland flow with a solid first set and an explosive second set that builds through The Other One into Wharf Rat, then peaks with Sugar Magnolia and the legendary Playin' jam.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for powerful vocals and jaw‑dropping guitar interplay; his tone is described as great throughout the show.",
+      "Phil": "",
+      "Bob": "Highlighted for slashing lead lines and otherworldly passages, especially during the Playin' jam.",
+      "Keys": "Keith’s jazzy, spiraling fills are called otherworldly and among his wildest improvisations of the era.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:12:38.133036+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-10-09.sbd.vernon.5249.sbeok.shnf"
+  }
 }

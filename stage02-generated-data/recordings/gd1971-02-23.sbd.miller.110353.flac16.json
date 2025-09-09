@@ -14,5 +14,48 @@
   "confidence": 1.0,
   "raw_rating": 4.2727272727272725,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording with high‑energy 1971 show highlighted by a smoking Bird Song and the first Truckin' > Drums > Other One > Wharf Rat suite.",
+    "review": "The performance captures the band at a creative peak in early ’71, delivering powerful versions of Uncle John's Band, Morning Dew, Bird Song and an historic Truckin'‑Drums‑Other One‑Wharf Rat sequence. The soundboard source is clear and lively—near CD quality—with punchy drums and thumping bass, though a few songs start a bit scratchy and the guitars wander out of tune at times.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is ~4.3; most comments praise both the musical performance and the near‑CD sound quality, with only minor technical or set‑list criticisms."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Lively mix with crisp clarity, punchy drums and thumping bass; near CD‑quality sound. Some early songs are a bit scratchy and occasional guitar tuning issues are noted."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bird Song",
+        "The Other One > Wharf Rat",
+        "Uncle John's Band",
+        "Morning Dew",
+        "Good Lovin'",
+        "Johnny B. Goode"
+      ],
+      "poor_songs": [
+        "Uncle John's Band (rough start)",
+        "Truckin' (sketchy start)",
+        "Good Lovin' (lacks jam)",
+        "NFA > GDTRFB suite (unexciting)"
+      ],
+      "setlist_flow": "Strong first set with classics and a fiery Morning Dew; second set builds intensity, featuring the debut Truckin'>Drums>Other One>Wharf Rat sequence and solid closers.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his sunburst Les Paul tone, staccato intro notes and sustained leads; emotive vocal performance noted as a “headlight” moment.",
+      "Phil": "Consistently praised for punchy/thumping bass lines throughout the show, especially in Morning Dew and The Other One.",
+      "Bob": "Acknowledged for clean segues (e.g., China/Rider) and solid rhythm work.",
+      "Keys": "Blue Ron on Hammond B‑3 sounds good; Pigpen’s subtle organ fills receive positive mention.",
+      "Drums": "Bill's drumming described as punchy; the Drums > Other One segment highlighted as a highlight of the second set."
+    },
+    "processed_date": "2025-09-07T16:29:38.437622+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-02-23.sbd.miller.110353.flac16"
+  }
 }

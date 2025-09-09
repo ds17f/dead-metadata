@@ -14,5 +14,43 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑quality soundboard capture of the Avalon ‘68 show, highlighted by a near‑perfect Dark Star and a soaring The Eleven.",
+    "review": "The recording delivers clear, well‑balanced sound that lets listeners fully appreciate an intense second‑set surge – especially the mind‑melting Dark Star and the fiery run through The Eleven. While the first set is generally stronger, the performance shines with tight interplay among Jerry, Phil and the drummers, despite a few average moments like New Potato and a less compelling drum segment.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "medium",
+      "rationale": "Both reviewers are enthusiastic (4‑5 stars) and praise the musical performance highly; recording is described as good quality with no major flaws, yielding a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Listeners report clear, well‑rendered audio and overall good quality across copies; the only technical comment is an abrupt splice between New Potato and Drums, but no major distortion or dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Eleven",
+        "Death Don't Have No Mercy"
+      ],
+      "poor_songs": [
+        "New Potato",
+        "Drums"
+      ],
+      "setlist_flow": "First set generally stronger; second set builds momentum with a solid Other One and then falters slightly at the abrupt New Potato → Drums transition, ending with calming feedback/space.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Top‑notch guitar work throughout, especially on Dark Star and Death Don't Have No Mercy; vocal delivery described as full of soul.",
+      "Phil": "Bass feeding off the rest of the band; praised for tight interplay with Jerry and the drummers.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Fabulous early drum work noted, though later drum segment deemed less interesting."
+    },
+    "processed_date": "2025-09-08T09:18:43.864180+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-10-13.sbd.oleynek.revell.1027.shnf"
+  }
 }

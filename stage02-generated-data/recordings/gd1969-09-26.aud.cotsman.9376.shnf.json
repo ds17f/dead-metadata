@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 3.0,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Mixed feelings: life‑changing music for some, but a poor‑quality tape plagued by audible duplication issues.",
+    "review": "The show resonates strongly with at least one listener who calls it a life‑changing first experience, yet the recording itself is widely criticized for being a reused tape that audibly repeats on \"King Bee\" and around 6:12 of \"Death Don't Have No Mercy,\" making the audio quality poor.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.0,
+      "confidence": "medium",
+      "rationale": "One enthusiastic 5‑star review balances two strongly negative ratings that cite serious recording flaws; with limited musical detail, the overall rating leans low."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "Tape appears to have been used twice; audible duplication on \"King Bee\" and a clear artifact at 6:12 of \"Death Don't Have No Mercy\" indicates significant degradation."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:45:17.285320+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-09-26.aud.cotsman.9376.shnf"
+  }
 }

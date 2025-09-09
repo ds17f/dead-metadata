@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 3.75,
   "high_ratings": 5,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A soft, distant audience tape that still delivers a monster \"The Other One\" jam and an overall high‑energy show.",
+    "review": "Listeners note the recording is thin, with distant vocals and a cloudy mix typical of early ’72 field recordings, but once acclimated the performance shines. The second set – especially the Philo‑stomp on \"The Other One\" – is repeatedly praised, earning this concert a spot among many fans' favorites despite its sonic flaws.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "high",
+      "rationale": "Show quality is rated very high (standout jam, strong energy) while recording quality is only fair (soft mix, distant vocals). Weighted combination yields a solid 3.9‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Distant, almost inaudible vocals; overall soft mix; thin bass and venue acoustics make the sound cloudy, though no major dropouts reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set is less repeatable due to recording limitations, but the second set flows strongly with a highlight jam on \"The Other One\".",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:33:28.716865+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-10-24.sonyecm250.unknown.miller.97614.sbeok.flac16"
+  }
 }

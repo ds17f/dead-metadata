@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.363636363636363,
   "high_ratings": 10,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard capture of the historic Monterey Pop set – occasional muddiness and interview inserts, but a fiery Viola Lee Blues plus standout Cold Rain & Snow.",
+    "review": "This recording preserves the legendary June 18‑1967 Monterey Pop performance.  While the soundboard source suffers from occasional mud on Jerry’s solos and some jumbled interview clips, the music shines – especially the ripping Viola Lee Blues, driving Cold Rain and Snow, and the energetic Caution (Do Not Step On The Tracks).  Overall the show is high‑energy and historically significant despite a few technical hiccups.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the performance (4–5 ★) while noting recording flaws (muddy sound, interview splices).  Weighted rating (70 % show + 30 % recording) yields a solid mid‑high score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Occasionally muddy sound, especially on Jerry's solos; some interview excerpts and stage announcements are inserted, causing jumbled content.  A few sound‑system glitches are mentioned, but overall the capture is listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee Blues",
+        "Cold Rain and Snow",
+        "Caution (Do Not Step On The Tracks)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Viola Lee Blues opens, followed by Cold Rain & Snow; some sources have the order reversed, but the energy stays high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar work is amazing and fiery, though a bit muddy on some solos.",
+      "Phil": "Was upset about filming rights at Monterey; no specific performance comment.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T06:51:58.824203+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd67-06-18.sbd.hollister.42.sbeok.shnf"
+  }
 }

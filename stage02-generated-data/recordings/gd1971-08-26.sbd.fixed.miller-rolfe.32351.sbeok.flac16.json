@@ -14,5 +14,49 @@
   "confidence": 1.0,
   "raw_rating": 4.4,
   "high_ratings": 19,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy August 1971 Bronx show featuring a smoking Hard to Handle and an unforgettable Empty Pages, captured on a solid patched soundboard mix.",
+    "review": "The August 26, 1971 Gaelic Park concert is widely praised for its fiery first set – highlighted by Hard to Handle, Mr. Charlie and Pigpen’s organ work – and a second‑set that rolls through classic jams like The Other One, Saint Stephen > Not Fade Away > Goin’ Down the Road.  The Charlie Miller‑Rolfe SBD has been patched, leveled and generally described as clear with only minor hiss or tape‑warble, making the performance very listenable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average fan rating ≈ 4.4 stars; most reviewers highlight strong musical moments and a good‑quality soundboard source, with only occasional minor tape hiss noted."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Patched/leveled SBD from Charlie Miller; generally clear and balanced.  Listeners note a faint hiss that fades after CD burning and occasional tape‑warble, but no major dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard to Handle",
+        "Empty Pages",
+        "Bertha",
+        "Good Lovin'",
+        "Sugar Magnolia",
+        "Mr. Charlie",
+        "Hurts Me Too",
+        "The Other One",
+        "Saint Stephen > Not Fade Away > Goin' Down the Road Feeling Bad"
+      ],
+      "poor_songs": [
+        "El Paso (flat‑ish)",
+        "Beat It On Down the Line-6 (average)"
+      ],
+      "setlist_flow": "Tight, song‑by‑song flow with a strong Pigpen‑centric first set and a jam‑heavy second set that builds to a memorable Saint Stephen/Not Fade Away sequence.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "String broke during Rider; guitar briefly muted but otherwise solid playing and characteristic snarl.",
+      "Phil": "Stepped up for lead‑bass work on Rider, delivering a notable solo (“Sun Don't Shine”) in classic Phil fashion.",
+      "Bob": "Handled the vocal “headlight” part of Rider after Jerry’s string break and backed Pigpen on organ‑driven numbers.",
+      "Keys": "",
+      "Drums": "Drummers (Bill/Kreutzmann) generally strong; brief drum segment noted, occasional raggedness attributed to venue acoustics."
+    },
+    "processed_date": "2025-09-07T19:36:29.033665+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-08-26.sbd.fixed.miller-rolfe.32351.sbeok.flac16"
+  }
 }

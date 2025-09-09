@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a fiery 1968 performance highlighted by a ripping The Eleven and a superb William Tell jam.",
+    "review": "Listeners rave about the high‑energy jams, especially the seamless transition from William Tell into The Eleven, calling the band’s playing “purely rip”. The recording, sourced from Charlie Miller’s soundboard tape, is praised for its clarity and lack of audible flaws, making it a prized gift from ’68.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All five reviews are 4‑5 stars and focus on strong musical moments with no complaints about the audio, indicating both a great show and a solid soundboard recording."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear, well‑balanced capture; reviewers note no issues with clarity or mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Eleven",
+        "William Tell (jam into The Eleven)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Set flows strongly with powerful jams; reviewers suggest skipping Dark Star/St. Stephen as a warm‑up, but praise the transition from William Tell into The Eleven.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T09:18:01.465136+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-10-13.sbd.miller.115606.flac16"
+  }
 }

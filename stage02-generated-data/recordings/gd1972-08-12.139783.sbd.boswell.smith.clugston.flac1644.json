@@ -14,5 +14,45 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "An exceptional August 12‑1972 Sacramento performance captured on an excellent soundboard, with only a handful of splice cuts.",
+    "review": "The show is hailed as one of the quintessential post‑Europe ’72 concerts – tight, high‑energy playing with standout moments like “Black Throated Wind,” “Playing In The Band,” and a ferocious “One More Saturday Night.”  The soundboard source is praised for its clarity and overall quality, though several songs contain noticeable cuts that slightly detract from the listening experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Review rates the show 5 stars and describes it as a near‑perfect performance; recording is rated excellent despite minor splice issues, yielding an overall rating in the high‑range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear and balanced soundboard, but several splices cut portions of El Paso, Tennessee Jed, Jack Straw, Greatest Story intro, The Other One, and Sugar Magnolia."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Black Throated Wind",
+        "Playing In The Band",
+        "Greatest Story Ever Told",
+        "Stella Blue",
+        "He's Gone",
+        "The Other One",
+        "Truckin'",
+        "One More Saturday Night"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Tight, well‑sequenced set with seamless transitions; early songs build momentum leading to extended jams and a high‑octane second set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple mentions of his massive solo work, wah‑pedal tone in Playing In The Band, ferocious solos on many tunes, and emotive vocals on Black Peter.",
+      "Phil": "Highlighted for explosive bass runs (especially the iconic intro to The Other One) and wild playing throughout the jams.",
+      "Bob": "Praised for powerful vocal performances on songs like Beat It On Down The Line and One More Saturday Night.",
+      "Keys": "Keith Godchaux lauded for “killer jazzy piano leads,” perfect piano licks on Black Throated Wind, Stella Blue, and other moments; described as playing his balls off.",
+      "Drums": "Bill Kreutzmann’s drumming called aggressive, technical, kick‑ass, and driving the band hard through jams."
+    },
+    "processed_date": "2025-09-08T01:18:44.906442+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-08-12.139783.sbd.boswell.smith.clugston.flac1644"
+  }
 }

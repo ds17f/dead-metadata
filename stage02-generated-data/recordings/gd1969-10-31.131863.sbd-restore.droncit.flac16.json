@@ -14,5 +14,40 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A superb early‑'69 Halloween show with every song solid (highlighting a ripping \"That's It For the Other One\"), captured on a cloudy recording that needs a cleanup.",
+    "review": "Both reviewers rave about the musical performance – noting tight playing, strong vocals and standout moments like “Easy Wind,” the early China→Riders transition and an epic “That’s It For the Other One.” The audio is described as \"cloudy\" with hiss and in need of cleaning, but still listenable enough to showcase the show’s high energy.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Show quality is rated very high (consistent praise, standout songs) while recording quality is moderate (cloudy, hiss, needs cleanup). Weighted average yields ~4.1 stars."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Cloudy sound with noticeable hiss; reviewers note the need for a clean‑up job but consider it listenable and better than many other '69 tapes."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Easy Wind",
+        "China Cat Sunflower → Riders on the Storm (early version)",
+        "That's It For the Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Every song is described as solid and well‑played; the set flows smoothly with strong vocal harmonies and tight instrumentation throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Funny vocal moment ('cuz I'm hunting on top of the world') and generally praised for strong singing.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:03:39.352802+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-10-31.131863.sbd-restore.droncit.flac16"
+  }
 }

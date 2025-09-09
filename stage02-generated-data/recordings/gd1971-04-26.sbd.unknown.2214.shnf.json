@@ -14,5 +14,49 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "An excellent‑sounding soundboard capture of a legendary ’71 show with Duane Allman’s guest spot on Sugar Magnolia and multiple standout Pigpen moments.",
+    "review": "Reviewers rave about the astonishing performance – highlighting Big Boss Man, Loser, Dark Star, Casey Jones, and the Duane Allman‑enhanced Sugar Magnolia – and praise the stereo‑phonic hi‑fi soundboard mix as “excellent.” A few notes mention a slowdown artifact in the Archive’s mastering and minor audio anomalies on Wharf Rat, giving the technical picture a mixed edge.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "The musical performance is consistently praised as high‑energy and historic (70% weight), while recording quality is mostly described as excellent but with some complaints about speed alteration and occasional glitches (30% weight)."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Stereo‑phonic hi‑fi mix praised as crisp and clean; a handful of reviewers note a slowdown artifact from the Archive’s remaster and a few audio anomalies on Wharf Rat."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Big Boss Man",
+        "Loser",
+        "Playing In The Band",
+        "Hard To Handle",
+        "Dark Star",
+        "Casey Jones",
+        "Sugar Magnolia (Duane Allman)",
+        "It Hurts Me Too",
+        "Good Lovin'",
+        "China Cat Sunflower > I Know You Rider"
+      ],
+      "poor_songs": [
+        "Wharf Rat (audio anomalies)"
+      ],
+      "setlist_flow": "The show opens with a full New Riders of the Purple Sage set, then launches into an electrifying Dead second half that blends bluesy covers, soaring jams and multiple Pigpen showcases.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen’s harmonica/vocals are highlighted as exceptional on several tracks (e.g., It Hurts Me Too, classic Pigpen moments).",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:06:44.207450+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-26.sbd.unknown.2214.shnf"
+  }
 }

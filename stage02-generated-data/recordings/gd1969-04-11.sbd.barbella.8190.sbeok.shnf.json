@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 3.5714285714285716,
   "high_ratings": 4,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording of the 1969 Tucson show is quiet and uneven but still captures a powerful Dark Star, St. Stephen, The Eleven and a monster “It’s a Sin.”",
+    "review": "The set delivers several classic moments – Dark Star, St. Stephen (though recorded at low level), The Eleven and an inspired Pig Pen‑driven “It’s a Sin” – but the mix is inconsistent, with the first half clearer than the second and occasional chaotic drumming. Jerry’s guitar work is repeatedly praised as “monster,” while Phil’s rig gets a nod, making the performance worthwhile despite the technical shortcomings.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Reviews are split between high praise for musical moments and criticism of low volume/uneven sound; overall rating hovers just above average."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Low recording levels on Dark Star & St. Stephen, generally quiet mix, tape hiss present, second half noticeably worse with chaotic drumming; some listeners report being able to boost volume in post‑processing."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "St. Stephen",
+        "The Eleven",
+        "It's a Sin"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First half clearer, second half considered the stronger performance musically despite poorer sound; transitions not specifically noted.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly called a monster electric‑guitar player with legendary Fender tone.",
+      "Phil": "Mentioned positively regarding his rig, though no specific playing details.",
+      "Bob": "",
+      "Keys": "Pig Pen’s harmonica on “It’s a Sin” praised; no direct keyboard comments.",
+      "Drums": "Chaotic drumming noted in the second half."
+    },
+    "processed_date": "2025-09-08T11:36:49.022465+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-04-11.sbd.barbella.8190.sbeok.shnf"
+  }
 }

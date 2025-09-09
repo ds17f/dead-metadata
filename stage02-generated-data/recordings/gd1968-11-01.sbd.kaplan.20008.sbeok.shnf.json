@@ -14,5 +14,40 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture with mixed fidelity – early parts shine and The Other One is ferocious, though the mix collapses after New Potato.",
+    "review": "The performance is hailed as a monumental version of The Other One, with blistering interplay between Garcia and Lesh that blows listeners away. Recording quality is solid at the start but deteriorates after \"New Potato\" and Bobby's guitar sits low in the mix, yet the surviving sections (Cryptical > TOO, Caution > Feedback > Goodnight) are sonically rewarding.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "low",
+      "rationale": "The review is overwhelmingly positive about the musical performance (standout, high‑energy shows) but notes significant recording drop‑outs after one song, leading to a strong show rating offset by moderate recording quality."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Sound quality is clear at the start but plummets after \"New Potato\"; Bobby's guitar is buried in the mix, though later tracks (Caution>Feedback>Goodnight) retain good sonics."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Cryptical > The Other One",
+        "Caution > Feedback > Goodnight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong early set with a spectacular second‑set sequence; recording issues interrupt continuity after New Potato but the remaining material flows tightly and energetically.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's interplay with Lesh described as off‑the‑charts brilliant; praised as proof of his guitar mastery.",
+      "Phil": "Lesh’s bass playing highlighted for its creative brilliance alongside Garcia.",
+      "Bob": "Bobby Weir’s guitar is noted as being mostly buried in the mix, though not criticized for performance.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T09:28:08.480274+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-11-01.sbd.kaplan.20008.sbeok.shnf"
+  }
 }

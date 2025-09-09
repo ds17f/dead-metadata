@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 3.0,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Fair‑quality audience tape of a high‑energy 1966 show with standout “One Kind Favor” and the infamous Ice Cream Break, though the mix is uneven.",
+    "review": "The performance captures an early Acid Test era Dead that’s rocking hard, highlighted by Bob Weir’s nascent guitar work on One Kind Favor and Ron “Pig” McKernan’s vibrant organ/vocals during the Ice Cream Break. The recording is an audience capture with noticeable balance problems – Jerry’s guitar dominates while Phil’s bass and Bob’s rhythm are often buried, plus a few cuts common to tapes of that period.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Reviews range from 1 to 4 stars; most praise the musical performance while noting significant recording imbalances, yielding an overall average in the low‑mid range."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Low volume and uneven mix – Jerry’s guitar is overly loud, Phil’s bass and Bob’s rhythm are muffled; a couple of cuts are present, typical of mid‑60s audience tapes."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "One Kind Favor",
+        "Bobby's Ice Cream Break"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early‑Dead acid‑test vibe with solid playing throughout; occasional disjointed moments but overall a cohesive, high‑energy set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar is excessively forward in the mix yet his surf‑tone runs are praised.",
+      "Phil": "Bass sounds muffled and gets lost when volume is lowered due to recording balance issues.",
+      "Bob": "Shows his early trademark guitar style with nice note‑threading, though often buried in the mix.",
+      "Keys": "Ron \"Pig\" McKernan delivers strong organ, vocal, and harmonica work; highlights of the show.",
+      "Drums": "Bill Kreutzmann’s drumming is present but tends to disappear when the overall volume is reduced."
+    },
+    "processed_date": "2025-09-08T05:15:32.269378+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1966-03-12.doherty.winters.17681.shnf"
+  }
 }

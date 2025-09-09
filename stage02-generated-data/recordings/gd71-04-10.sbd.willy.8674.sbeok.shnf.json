@@ -14,5 +14,49 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A mostly crystal‑clear soundboard capture that leans guitar‑heavy, preserving a high‑energy 1971 show with standout performances of Good Lovin', Cumberland Blues and Loser.",
+    "review": "The April 10, 1971 Franklin & Marshall concert shines thanks to Jerry Garcia’s incendiary lead work, tight rhythm from Bob Weir and Phil Lesh’s “Phil bomb” bass lines, plus a set that keeps the crowd dancing from Good Lovin' through Sugar Magnolia. The soundboard source is generally clean and crisp, though the mix favors guitars over vocals and has a few brief drop‑outs (notably at the start of Truckin'). Overall the recording is very listenable and the performance is celebrated by fans as a classic early‑Seventies show.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Consistently strong praise for musical energy and several standout songs (≈70% weight) combined with mostly good technical quality, offset by occasional mix‑balance complaints (≈30% weight)."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear, crisp board recording but heavily guitar‑forward; vocals sit low in the mix, a few brief drop‑outs on Truckin' and occasional muddiness noted. Overall listenable with no major distortion."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "Cumberland Blues",
+        "Loser",
+        "China Cat Sunflower > I Know You Rider",
+        "Sugar Magnolia",
+        "Midnight Hour",
+        "Truckin'",
+        "U.B. (Uncle Bill's)",
+        "Casey Jones (mentioned as OK)"
+      ],
+      "poor_songs": [
+        "Bertha (noted as weak by one reviewer)",
+        "Casey Jones (called ‘meh’ by a reviewer)"
+      ],
+      "setlist_flow": "The first set builds momentum with strong jams on MABM and NTYSM, while the second set is described as “on fire” throughout, delivering sustained high energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for ‘playing his ass off’, guitar turned up to 11, heavy solo work, and even opening doors on stage; some reviewers note his mix dominates the sound.",
+      "Phil": "Noted for powerful bass “bombs”, driving jam intensity especially in the second set, and generally tight rhythm section contribution.",
+      "Bob": "Recognized for solid rhythm guitar riffs and strong interplay with Jerry; praised during China Cat and other jams.",
+      "Keys": "",
+      "Drums": "Mickey absent (1971), Billy’s drumming described as funky groove but often lower in the mix; overall drum feel described as solid."
+    },
+    "processed_date": "2025-09-07T17:24:08.315177+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-04-10.sbd.willy.8674.sbeok.shnf"
+  }
 }

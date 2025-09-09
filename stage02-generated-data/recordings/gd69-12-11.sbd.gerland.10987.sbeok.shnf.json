@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 3.5,
   "high_ratings": 4,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Raw vintage Dead performance with standout Dark Star and a Bach minuet interlude, but the soundboard source is plagued by poor audio quality.",
+    "review": "Fans love the 1969 show for its eclectic mix of R&B, country, and psychedelic jams – highlights include Dark Star, Hard to Handle, Mama Tried and a surprising Bach minuet snippet.  However, the recording itself is widely criticized as low‑fidelity, with digital errors and a bad CD burn that make it hard to handle despite being a soundboard (SBD) source.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Show quality is praised by several reviewers (high energy, strong song selection), but recording quality is consistently described as poor, pulling the overall rating down."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Low fidelity, muffled and noisy; significant digital errors from a bad CD burn; hard to handle for listening despite being an SBD source."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Hard to Handle",
+        "Mama Tried",
+        "Yellow Dog Story (narrative)",
+        "Bach minuet interlude"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Fans appreciate the early‑Dead vibe and the eclectic mix of R&B, country and psychedelic jams; the set feels loose but exciting despite audio issues.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:41:26.949559+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-12-11.sbd.gerland.10987.sbeok.shnf"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.833333333333333,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of a historic 1969 show featuring a soaring Dark Star and guest horn/violin magic, despite a few rough opening numbers.",
+    "review": "The recording is praised for its exceptional clarity and immersive mix, likely sourced from the original half‑track master transferred by Rob Eaton. Musically the concert shines after an uneven start, with a breathtaking Dark Star that leads into an inspired Other One and memorable guest sax/violin contributions, making it a standout document of this era.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "All six reviewers are overwhelmingly positive (five 5‑star, one 4‑star), highlighting both superb sound quality and exceptional performances; the weighted average therefore sits near the top of the scale."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers repeatedly note crystal‑clear, immersive audio with no major glitches; a few mention the first couple of songs sound rough but overall the mix is pristine."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Other One"
+      ],
+      "poor_songs": [
+        "Opening tracks (described as rough)"
+      ],
+      "setlist_flow": "Starts a bit uneven, then launches into an epic Dark Star that sets a high‑energy tone for the rest of the set, highlighted by guest horn/violin textures and strong Pigpen numbers.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:08:50.397010+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-08-03.137368.sbd.eaton.miller.flac16"
+  }
 }

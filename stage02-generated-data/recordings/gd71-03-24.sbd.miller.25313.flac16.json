@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.4,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy spring ’71 show featuring a smoking Hard To Handle and rare King Bee, with crisp audio and standout performances.",
+    "review": "The recording delivers a clear, full‑show soundboard mix that showcases the band’s hot spring‑1971 vibe. Highlights include an early‑version Bertha, a blistering Hard To Handle solo exchange between Jerry and Phil, a rare King Bee, and a thrilling Truckin > Drums > Other One sequence. The audio is clean with a characteristic heavy‑bass low end, making the performance very enjoyable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show and recording highly (5‑star), praising both musical moments and sound quality; only one moderate rating tempers the average slightly."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Full‑show board mix, clear and balanced with a heavy ’71‑era bass presence; no major dropouts or muddiness reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha (early version)",
+        "Hard To Handle",
+        "King Bee",
+        "Truckin > Drums > The Other One",
+        "Johnny B. Goode"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Complete, mostly in order set; reviewers note the show flows strongly with high energy throughout and a particularly tight second‑set sequence.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His solo on Hard To Handle is described as intense, with expressive string bends and classic 1971 tone.",
+      "Phil": "Heavy bass noted; praised for climbing the fretboard, intense chording, and a standout jam that pre‑figures later B A D F# motifs.",
+      "Bob": "Vocals (Pig Pen) are \"right on\" and Bob Weir’s solo is called one of his best, adding to the song’s impact.",
+      "Keys": "",
+      "Drums": "The Drum segment within Truckin>Drums>Other One is highlighted as a pleasure, contributing to the show’s momentum."
+    },
+    "processed_date": "2025-09-07T16:55:07.719275+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-03-24.sbd.miller.25313.flac16"
+  }
 }

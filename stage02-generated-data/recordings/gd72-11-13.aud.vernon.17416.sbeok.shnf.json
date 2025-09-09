@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A low‑fidelity audience recording that captures an incredible Dark Star→Morning Dew jam, but the poor sound quality overshadows the performance.",
+    "review": "Reviewers agree the music—especially the Dark Star into Morning Dew sequence—is powerful and worth hearing, yet the recording is described as muffled, pocket‑recorder level audio that detracts from enjoyment. The show itself isn’t heavily detailed beyond that highlight, and the overall listening experience suffers from the subpar capture.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 2.6,
+      "confidence": "medium",
+      "rationale": "Mixed comments: one strong endorsement of a specific jam versus two harsh critiques of recording quality, leading to an overall low rating with moderate confidence."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Muffled, pocket‑recorder level capture; lack of clarity and audible ambience; described as 'complete shit' by reviewers."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Limited commentary on the overall set; the only specific praise is for the Dark Star→Morning Dew sequence.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:54:58.412821+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-11-13.aud.vernon.17416.sbeok.shnf"
+  }
 }

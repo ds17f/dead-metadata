@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.714285714285714,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1972 show with standout performances of Casey Jones, The Other One and Brown Eyed Woman, captured on a mostly clear soundboard tape despite some hiss and occasional drop‑outs.",
+    "review": "The concert is praised for its fun, tight playing – Phil’s bass is described as “phat” and the second set a “joy ride,” with highlights like Casey Jones, The Other One, Bertha and Brown Eyed Woman. The soundboard source offers decent stereo separation (left‑channel Garcia guitar) but begins with noticeable hiss that clears up and contains a few drop‑outs.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Consistently high reviewer scores (mostly 4–5 stars) emphasize strong musical performance and generally good sound quality, with only minor technical flaws."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Noticeable hiss at the start that fades; a few drop‑outs reported later. Left channel Garcia guitar is clear; overall mix balances guitars and Phil’s bass well."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Casey Jones",
+        "The Other One",
+        "Bertha",
+        "Around & Around",
+        "Brown Eyed Woman",
+        "Uncle John's Band",
+        "Box of Rain (Donna vocal)",
+        "He's Gone"
+      ],
+      "poor_songs": [
+        "Sugar Magnolia (intro missing)"
+      ],
+      "setlist_flow": "Smooth transitions throughout; the second set described as a joy‑ride with effortless movement between tunes.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Good buzz on guitar, warm‑up noted, clear left‑channel tone.",
+      "Phil": "Bass is deep, phat, runs in the “Phil Zone,” and drives the core of the vibe.",
+      "Bob": "Weir cuts across the grain on Bertha; occasional backstage comment about tempo during Truckin'.",
+      "Keys": "Donna joins for vocals (Box of Rain) and adds strong moxie to the performance.",
+      "Drums": "One‑drummer setup mentioned, no specific complaints."
+    },
+    "processed_date": "2025-09-08T03:58:57.519735+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-11-14.sbd.miller.22024.sbeok.shnf"
+  }
 }

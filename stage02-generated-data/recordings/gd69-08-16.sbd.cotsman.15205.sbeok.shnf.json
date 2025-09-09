@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.086956521739131,
   "high_ratings": 33,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "Soundboard‑sourced recording with good clarity captures a historically pivotal Woodstock set – Dark Star and the epic Lovelight shine despite occasional monitor glitches and babble.",
+    "review": "The SBD capture is generally clear, offering crisp instrument separation that lets Jerry’s ringing guitar tone and Pigpen’s powerful vocals cut through even when stage chatter intrudes. Musically the show is highlighted by a soaring Dark Star and a marathon Turn‑On‑Your‑Love‑Light, while St. Stephen suffers a premature cutoff; overall the band pushes through technical hiccups with solid energy.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "high",
+      "rationale": "A large body of reviews (30+) consistently praises the recording’s clarity and the standout Dark Star/Lovelight performances while noting only modest flaws; weighted toward show quality gives a near‑4‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp, clear mix with occasional monitor problems, audience bleed and brief drop‑outs; babbling between songs is audible but does not drown the music."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Turn On Your Love Light (Lovelight)",
+        "Mama Tried"
+      ],
+      "poor_songs": [
+        "St. Stephen (cut off early)"
+      ],
+      "setlist_flow": "The set is a bit uneven – an abrupt St. Stephen start, followed by strong mid‑set jams and an expansive Lovelight that anchors the performance.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple reviewers note his guitar ringing like a bell and sounding perfect on Dark Star and Lovelight.",
+      "Phil": "Phil’s bass is praised indirectly (\"Phil gives account\"), but no explicit comments on playing beyond that.",
+      "Bob": "Pigpen’s vocal power on Turn On Your Love Light is highlighted; one reviewer mentions he may have taken an electrical shock onstage.",
+      "Keys": "",
+      "Drums": "Mickey’s drums are mentioned in the context of a speaker blow‑out near his kit; otherwise no detailed comments."
+    },
+    "processed_date": "2025-09-08T14:13:30.022503+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-08-16.sbd.cotsman.15205.sbeok.shnf"
+  }
 }

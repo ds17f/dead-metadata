@@ -14,5 +14,36 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a highly praised show, though details are scarce",
+    "review": "All three reviewers gave the recording five stars, indicating strong enthusiasm for both the performance and the audio quality. The .sbd file suggests a clean sound‑board source, but no specific musical or technical comments were provided.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "medium",
+      "rationale": "Uniform 5‑star ratings show clear positivity, but the lack of descriptive feedback limits precision in assessing show and recording nuances."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No explicit comments; rating inferred from unanimous 5‑star reviews suggesting a clear, well‑balanced capture."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T11:12:58.806340+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-03-28.108240.sbd.bear.menke.motb0123.flac24"
+  }
 }

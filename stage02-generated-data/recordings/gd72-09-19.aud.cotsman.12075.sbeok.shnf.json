@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.2857142857142856,
   "high_ratings": 3,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Mediocre audience tape of a 1972 show with a stellar He's Gone→Other One jam, but plagued by poor recording quality and weather‑hit performance.",
+    "review": "The concert features an outstanding He's Gone > Other One segue (called the best ever by a reviewer) plus strong Half‑Step and Stella Blue moments, yet the audience recording is thin, cut up and missing sections, making many songs sound muddy. Weather was miserable and caused brief breaks, which together with the tape’s flaws give the show a mixed but still enjoyable character for deadheads who value the improvisation.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "medium",
+      "rationale": "Show quality is moderate‑high thanks to exceptional jams, but recording quality is poor/fair and many reviewers note missing tape sections, pulling the overall rating down."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Old outside audience tape; cut into every song causing missing notes, cloudy/muddy sound, one reel missing from the original board source, occasional drop‑outs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "He's Gone > Other One (noted as best jam)",
+        "Stella Blue",
+        "Half Step (early version)",
+        "Bird Song (highlight despite poor tape)"
+      ],
+      "poor_songs": [
+        "Bird Song (recording quality issues)"
+      ],
+      "setlist_flow": "Weather‑induced mini breaks between songs; NRPS opened the tour; typical 1972 set pacing with strong second‑set improvisations.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:29:15.515993+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-09-19.aud.cotsman.12075.sbeok.shnf"
+  }
 }

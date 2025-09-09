@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.8125,
   "high_ratings": 12,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "High‑energy 1972 show with a half‑hour Dark Star and stellar jams, captured on a soundboard but hampered by a hot drum mix and low‑volume guitars.",
+    "review": "The performance shines – long, deep explorations of Dark Star, Playin', Attics and classics like Box of Rain and Jack Straw earn rave praise and make the show a strong contender for the fall‑1972 era. The Bertha soundboard source is clean after remastering, yet many listeners note an over‑powerful kick drum, bright vocals and a recessed Jerry guitar that detract from an otherwise excellent recording.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers celebrate the musical highs (70% weight) while repeatedly calling out mix problems, especially the hot drum and low guitar levels (30% weight). The weighted average yields a solid 4‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Remastered Bertha tape is clearer than earlier copies, but the mix is unbalanced – Billy's kick drum is excessively loud, vocals are overly bright and often clash with the bass drum, and Jerry's guitar (and sometimes Phil's bass) sit low in the front‑of‑mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Playin'",
+        "Attics",
+        "Box of Rain",
+        "Jack Straw",
+        "Candyman"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows through extended jams (notably Dark Star and Playin') with tight transitions into concise classics, delivering a cohesive, high‑energy arc typical of the fall‑1972 period.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Often praised for his tone and riffs, but many note his guitar is buried in the mix, making it hard to hear.",
+      "Phil": "Lauded for a “Phil earthquake” on Dark Star and strong interplay with Donna; some mention his bass gets lost under the hot drum mix.",
+      "Bob": "Vocals described as bright and sometimes battling the drums; other reviewers enjoy his vocal delivery on songs like Candyman and Jack Straw.",
+      "Keys": "Keith is mentioned sporadically – some feel his piano is missing from the mix, while others note his solid playing later in the set.",
+      "Drums": "Billy’s kick drum is repeatedly called out as too hot/loud; however, drummers appreciate his technique, even if it can be overwhelming for casual listening."
+    },
+    "processed_date": "2025-09-08T03:46:31.533385+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-10-28.sbd.ashley-bertha.20405.sbeok.shnf"
+  }
 }

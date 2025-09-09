@@ -14,5 +14,43 @@
   "confidence": 0.6,
   "raw_rating": 3.0,
   "high_ratings": 1,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "A poorly recorded transitional ’69 show riddled with tape hiss and splices, but the Casey Jones performance stands out.",
+    "review": "The recording suffers from noticeable tape hiss, numerous cuts and splices, and a gnarly sound after “Me & My Uncle,” making most of the set difficult to enjoy. Musically it captures an early‑stage July 4, 1969 show with experimental versions of songs, yet the highlight is a lively Casey Jones that reviewers praise for its organ backdrop and Jerry’s guitar tone.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.8,
+      "confidence": "medium",
+      "rationale": "Two low‑star reviews focus on severe audio problems while one high‑star review praises a single song; the show is average with a notable highlight, and the recording quality is poor."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Tape hiss throughout, numerous cuts & splices, especially bad after “Me & My Uncle”; overall sound described as gnarly and barely listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Casey Jones",
+        "Lovelight (ending)"
+      ],
+      "poor_songs": [
+        "Me & My Uncle",
+        "Slewfoot",
+        "Let Me In"
+      ],
+      "setlist_flow": "Transitional early‑'69 set with experimental versions of songs that would later become staples; inconsistent flow due to recording issues.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar tone and vocals on Casey Jones are praised as sounding good despite overall poor audio.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Calliope‑like organ background noted on Casey Jones.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:51:46.734080+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-07-04.sbd.cotsman.4360.sbeok.shnf"
+  }
 }

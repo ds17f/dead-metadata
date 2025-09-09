@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.533333333333333,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 1971 backyard gig with smoking Hard To Handle, The Other One and Wharf Rat.",
+    "review": "The Miller transfer delivers an intimate, crystal‑clear soundboard recording that lets every instrument breathe – the electric piano adds a fresh flavor, Bill Kreutzmann’s drumming shines, and Jerry Garcia’s guitar and vocals are front‑and‑center. Musically the show is a classic ’71 performance: Hard To Handle smokes, The Other One and Wharf Rat are monster versions, and Morning Dew is a revelation, with only a brief miscommunication on Casey Jones. Overall the energy is high and the vibe feels like an unforgettable house‑party at a French chateau.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Consistently strong 4–5 star reviews praising both performance and sound quality; weighted average of show (70%) and recording (30%) yields a high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, intimate and clear mix with full instrument separation; every nuance of Jerry's guitar and vocals is audible. No major drop‑outs or muddiness reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard To Handle",
+        "The Other One",
+        "Wharf Rat",
+        "Morning Dew"
+      ],
+      "poor_songs": [
+        "Casey Jones"
+      ],
+      "setlist_flow": "Typical ’71 set delivered in a relaxed backyard setting; the flow feels natural with strong transitions and highlights spaced throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Insanely good playing, crystal‑clear guitar tone, vocal performance spot on, subtleties evident in mix.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pig’s electric piano adds interesting texture; no organ present, giving a unique keyboard sound for 1971.",
+      "Drums": "Bill Kreutzmann praised as the real star of the night; powerful and dynamic drumming throughout."
+    },
+    "processed_date": "2025-09-07T18:41:39.771429+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-06-21.sbd.miller.94356.flac16"
+  }
 }

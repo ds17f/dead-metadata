@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.214285714285714,
   "high_ratings": 22,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Clean soundboard captures a high‑energy 1971 Fox show highlighted by a stellar Caution and powerful Other One, despite occasional tape cuts.",
+    "review": "The recording delivers a clear soundboard mix that showcases the band’s fiery spring‑71 performance at the Fox Theatre. Highlights include an incendiary Caution, a soaring Other One suite and tight renditions of Wharf Rat, Not Fade Away and Bertha, while a few first‑set cuts and occasional hiss remind listeners it’s an early‑70s tape. Overall the show is praised for its energy and Pigpen’s organ/vocal contributions, making it a must‑listen for fans of this era.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers award 4–5 stars and emphasize strong musical performance with only minor recording flaws; the weighted average of show (≈70%) and recording (≈30%) yields a rating in the high‑four range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clean, well‑balanced soundboard tape with occasional hiss, tape‑flip/cut sections (Other One, Truckin', Casey Jones) and a few level issues (Jerry’s guitar low in the mix). Overall very listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Caution",
+        "The Other One > Jam > Caution suite",
+        "Wharf Rat",
+        "Not Fade Away",
+        "Bertha"
+      ],
+      "poor_songs": [
+        "Casey Jones (opening cut)",
+        "Truckin' (early cut)",
+        "First‑set songs with out‑of‑tune sections"
+      ],
+      "setlist_flow": "Two solid two‑hour sets; the first set is strong but a bit uneven, while the second set builds momentum with a blazing Other One suite leading into the iconic Caution. Transitions are generally tight despite the occasional missing segment.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals praised as “excellent” and “slicing”; guitar tone noted as good though occasionally low in the mix, experimental on some jams.",
+      "Phil": "",
+      "Bob": "Bob Weir’s runs described as “overdrive,” vocal contributions highlighted; his rhythm work praised especially on NFA > GDTRFB.",
+      "Keys": "Pigpen’s organ and pedal‑steel work on Wharf Rat and other numbers singled out as a major highlight; keyboards generally noted as solid.",
+      "Drums": "Percussion solo remembered as lengthy and impressive; overall drum work considered solid though not heavily commented."
+    },
+    "processed_date": "2025-09-07T16:46:37.792897+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-03-18.sbd.yerys.1663.sbeok.shnf"
+  }
 }

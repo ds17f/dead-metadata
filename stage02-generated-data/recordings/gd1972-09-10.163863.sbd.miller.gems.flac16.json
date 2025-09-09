@@ -14,5 +14,43 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crisp soundboard recording of a high‑energy 1972 Palladium show, highlighted by a smoking Playing In The Band, an expansive Dark Star and a fiery Truckin’ jam.",
+    "review": "Both reviewers gave the set five stars, praising the show’s powerful energy and tight musicianship. KatfishJohn notes the crisp remaster and standout performances of PITB, Dark Star, Truckin’, and Sing Me Back Home, while Dan Tintor recalls his first Dead experience and flags Dark Star as a bit long for his taste. The recording is a clean soundboard capture that lets the band’s interplay shine.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "Both reviews are enthusiastic (5‑star) and comment on excellent performance plus high‑quality soundboard audio, yielding a top‑tier rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp remaster with clear mix; no reported dropouts or muffiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing In The Band",
+        "Dark Star",
+        "Truckin'",
+        "Sing Me Back Home"
+      ],
+      "poor_songs": [
+        "Dark Star (some found it overly long)"
+      ],
+      "setlist_flow": "Strong first half leading into a soaring second set; seamless transitions and extended jams keep momentum high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Haunting tone, frenzied wah‑wah work, silky guitar runs praised throughout the show.",
+      "Phil": "",
+      "Bob": "Sharp vocal accents noted during PITB and other sections.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:14:12.609744+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-10.163863.sbd.miller.gems.flac16"
+  }
 }

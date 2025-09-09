@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 1.5,
   "high_ratings": 0,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Very poor sound quality – playback is too fast and muffled – while the setlist itself is decent but unverified musically.",
+    "review": "All three reviewers flag serious audio problems, describing the tape as running far too fast and sounding like a low‑fidelity FM broadcast. No specific musical strengths or weaknesses are mentioned beyond noting that the setlist is nice; one reviewer even points to an alternate CM version with far better sound. In short, the recording is essentially unlistenable for most fans.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.8,
+      "confidence": "high",
+      "rationale": "Consistently low star ratings (0‑2) and unanimous criticism of audio quality drive the rating down; there is no positive commentary on performance to offset the technical flaws."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "Playback runs too fast, appears dragged or pulled from a radio/FM source, resulting in muffled and unbalanced sound; listeners recommend seeking an alternate CM version."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Setlist described as nice but no details on flow or pacing are given.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:55:15.297014+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-10-23.fm.sbd.wizard.18666.sbeok.shnf"
+  }
 }

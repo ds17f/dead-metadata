@@ -14,5 +14,38 @@
   "confidence": 0.8,
   "raw_rating": 3.5,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "High‑energy debut of \"Casey Jones\" that gets the crowd dancing, yet the recording is a poor, incomplete audience capture.",
+    "review": "Fans rave about the historic first performance of Casey Jones and the infectious dancing vibe, calling it a truly wonderful show. Unfortunately, multiple reviewers note that the audio is hopelessly bad – an incomplete audience (AUD) tape that detracts heavily from the listening experience.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "The show itself receives strong praise for energy and a standout Casey Jones, but the recording is repeatedly described as bad or hopeless, pulling the overall rating down to a moderate level."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Several reviewers call the tape \"bad and incomplete\" and \"hopeless,\" indicating low fidelity, missing sections, and generally unusable audio quality."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The show is highlighted for its dancing atmosphere and the excitement of a first‑time performance, though no detailed set structure is given.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:36:31.177656+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-06-22.sbd.kaplan.17892.sbeok.shnf"
+  }
 }

@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.2,
   "high_ratings": 4,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Excellent Miller soundboard capture of a jazzy, swing‑filled set featuring the first Clementine, Spanish Jam and stellar Pigpen keyboards.",
+    "review": "The recording is praised for its crystal‑clear Miller soundboard source that lets every instrument be heard with superb clarity. Musically the show is described as a rare, high‑energy performance with smooth transitions, highlighted by the debut of Clementine, a fiery Spanish Jam, New Potato and Born Cross‑Eyed, and an impressive Pigpen on keyboards.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Four out of five detailed reviews rate the show and recording at the highest level, noting exceptional musical moments and excellent sound quality; only one brief negative comment about missing track info does not outweigh the consensus."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Miller source praised as the best available, with crystal‑clear mix and full instrument separation; reviewers note “audio is excellent” and that you can hear every instrument."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Clementine (first performance)",
+        "Spanish Jam",
+        "New Potato",
+        "Born Cross‑Eyed",
+        "Dark Star fragment"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Transitions described as smooth and effortless, with a jazzy swing feel that carries the set from one jam to the next.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for spacious New Potato guitar tone and lead vocals on Clementine.",
+      "Phil": "Noted as writer of Clementine and cited for his Coltrane‑inspired influence; no specific bass performance comment.",
+      "Bob": "",
+      "Keys": "Pigpen highlighted as being in top form on keyboards throughout the show.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T07:41:35.913509+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-01-20.sbd.ward.47.sbeok.shnf"
+  }
 }

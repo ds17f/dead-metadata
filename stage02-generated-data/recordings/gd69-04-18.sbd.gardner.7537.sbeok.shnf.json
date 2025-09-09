@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.8333333333333335,
   "high_ratings": 5,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording of a 1969 show with good‑to‑excellent audio; the performance shines on the Cryptical > Other One sandwich, Lovelight and King Bee despite some mixed feelings about overall energy.",
+    "review": "Most fans rate this concert highly, highlighting the tight Cosmic Charlie/Other One sandwich, an epic Lovelight, and strong renditions of Hard to Handle, King Bee and Morning Dew. The soundboard source is generally clear with only a slight hiss, though one reviewer called it mediocre. A few listeners note sluggishness and flat bass, but the consensus leans positive.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Show quality is praised by the majority (4‑star+ comments) while recording quality is described as good to excellent; only one low rating drags the average down slightly."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear soundboard capture with a little hiss; most reviewers find it listenable and often excellent, though one calls it mediocre."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cosmic Charlie > Other One > Cosmic Charlie sandwich",
+        "Sitting On Top Of the World",
+        "Lovelight",
+        "Hard to Handle",
+        "King Bee",
+        "Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows well, especially the tight Cryptical‑Other One‑Cryptical sequence and the extended Lovelight. A power outage interrupted Hard to Handle early on but the band resumed without losing momentum.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "DanK notes Phil's bass was flat and sluggish during this show.",
+      "Bob": "",
+      "Keys": "Multiple reviewers praise Pigpen’s bluesy organ/vocals on King Bee, Hard to Handle and other songs.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T11:57:52.333002+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-04-18.sbd.gardner.7537.sbeok.shnf"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 3.0,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Audience tape captures a soaring Playing in the Band with vivid crowd vibe, but sound clarity is uneven.",
+    "review": "The recording is an audience source that many listeners feel conveys the three‑dimensional intensity of the band’s jam on “Playing in the Band,” even surpassing the soundboard’s crispness. However, some reviewers report difficulty hearing details, suggesting inconsistent audio quality. Overall the show is praised for its high energy while the tape’s fidelity varies.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "medium",
+      "rationale": "Show performance is highlighted as energetic and standout, but recording quality receives mixed feedback; average of review stars (2.0) adjusted for strong musical praise yields a moderate rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Captures vivid crowd ambiance and the jam's intensity, but several listeners find the tape hard to hear clearly; occasional muddiness and lack of definition compared to soundboard."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing in the Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:45:53.846854+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-24.aud.berger.99860.flac16"
+  }
 }

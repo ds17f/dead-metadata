@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.2727272727272725,
   "high_ratings": 8,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Excellent 1969 soundboard capture of a high‑energy Purdue show with standout Hard to Handle, The Other One and a soaring Morning Dew, overall crisp mix despite occasional missing Jerry and a few spliced tracks.",
+    "review": "The concert is praised for its driven energy and tight blues‑heavy set, highlighted by Hard to Handle, The Other One (presented without the usual interruptions) and an epic Morning Dew. The Charlie Miller soundboard transfer is generally lauded as clear and well‑balanced, though a few reviewers note that Jerry’s guitar sometimes disappears and the last three songs may be sourced from another show.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the performance highly (average ~4.9) and describe the recording as excellent, with only occasional mix glitches; weighted combination yields a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp, classic 1969 soundboard mix praised by many; some listeners note Jerry Garcia is buried at times and the final three tracks sound like they were taken from a different source, giving an outdoor‑venue feel. A circuit‑breaker failure caused a brief dead spot during one song."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard to Handle",
+        "The Other One",
+        "Morning Dew",
+        "Brown Eyed Woman",
+        "Lovelight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Compact, blues‑heavy set with Pigpen’s organ driving numbers like Hard to Handle and King Bee; the energy builds into a fast‑paced Other One and culminates in a jumbo Morning Dew. Minor interruptions (circuit break) do not detract from overall tight performance.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar is occasionally buried in the mix; otherwise his playing is praised as part of the high‑energy set.",
+      "Phil": "Strong, “bombing” bass work noted especially on The Other One opening.",
+      "Bob": "",
+      "Keys": "Pigpen’s organ/keyboard work highlighted as a bluesy highlight throughout the show.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T11:56:51.918356+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-04-18.sbd.miller.88867.sbeok.flac16"
+  }
 }

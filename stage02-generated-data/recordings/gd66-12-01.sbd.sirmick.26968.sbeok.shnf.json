@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.148148148148148,
   "high_ratings": 20,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A high‑energy 1966 Matrix blues showcase captured on a cleaned‑up soundboard tape that still suffers from pitch glitches and occasional hiss.",
+    "review": "The performance is a fire‑filled early‑Dead set brimming with rare gems – a scorching Cream Puff War, the historic Betty & Dupree, and Pigpen‑driven blues that showcase Jerry’s soaring solo work. The soundboard source has been cleaned up but still exhibits pitch errors, hiss and occasional drop‑outs, requiring EQ work to enjoy fully. Overall the musical excitement outweighs the technical imperfections.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the show’s energy and rare tracks (70%+ positive sentiment) while noting consistent recording flaws; weighted average of show (~4.5) and recording (~3.0) yields ~4.1."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Cleaned‑up mix still has hiss, pitch‑shift errors on several fragments, occasional drop‑outs and a need for EQ; better than many early ’66 tapes but not pristine."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cream Puff War",
+        "Betty & Dupree",
+        "Death Don't Have No Mercy",
+        "Me & My Uncle (M&MU)",
+        "Big Boy Pete"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A blues‑heavy set dominated by early R&B numbers and rare cuts; the flow is loose but keeps momentum with Pigpen‑centric jams and a few extended solos.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple reviewers highlight Jerry’s stellar solo on Cream Puff War and his vocal/guitar work on Death Don't Have No Mercy.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen’s organ/keyboard presence is repeatedly praised as the driving force behind the blues numbers.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T06:14:28.307237+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd66-12-01.sbd.sirmick.26968.sbeok.shnf"
+  }
 }

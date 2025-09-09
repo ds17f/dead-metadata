@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.117647058823529,
   "high_ratings": 13,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Warm, well‑balanced soundboard captures a relaxed early‑71 set with Jerry’s soaring lead on “Going Down the Road” and a standout Hard to Handle solo, though the performance is uneven.",
+    "review": "The Miller‑remastered SBD delivers rich, warm tones and excellent instrument balance that let every nuance of the 1971 show shine. While the band sounds relaxed and offers highlights like Bob’s jazzy Hard to Handle solo and Jerry’s fiery lead on Going Down the Road, several reviewers note tentative playing and a few sloppy moments, making the concert a mixed‑bag musically.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Average reviewer rating ~4.1 combined with consistently praised soundboard quality and divided opinions on performance yields a solid 4‑star overall assessment."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Warm, well‑balanced mix; clear vocals and instruments; no harshness or muddiness noted. Reviewers repeatedly call it “rich”, “superlatively wonderful” and “not too harsh or jangly”."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard to Handle",
+        "Going Down the Road",
+        "Morning Dew",
+        "Casey Jones"
+      ],
+      "poor_songs": [
+        "Easy Wind (ending a bit off)",
+        "Hard to Handle (some feel unsynchronized)"
+      ],
+      "setlist_flow": "Mostly short‑sweet songs with occasional longer jams; pacing is relaxed but interspersed with moments of mis‑tightness.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Smooth, soulful voice and guitar described as “Tennessee whiskey”; delivers a fiery lead on Going Down the Road, though one reviewer found his solo short and uninspired.",
+      "Phil": "Low‑key, subtle, tasty bass work; a few reviewers note timing slips at the end of Easy Wind.",
+      "Bob": "Beautiful jazz‑like ringing tone; impressive Hard to Handle solo that surprised listeners.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T16:59:11.188413+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-04.sbd.miller.110325.flac16"
+  }
 }

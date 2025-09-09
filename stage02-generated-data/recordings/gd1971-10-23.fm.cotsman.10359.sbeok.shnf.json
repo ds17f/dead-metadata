@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Low‑generation audience recording of an autumn ’71 show with a modest setlist but subdued performance",
+    "review": "The fan notes that the FM capture is “low gen” and not worth downloading, citing a lackluster vibe on songs like Bertha. While the set list was generous and Jerry’s post‑set reassurance (“Everything's gonna be alright”) is appreciated, the overall energy feels muted.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.5,
+      "confidence": "low",
+      "rationale": "Only one review; it praises the setlist but criticizes recording fidelity and performance energy, leading to an average combined rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Reviewer describes the tape as \"low gen\" and says they won't download or burn it; suggests noticeable degradation and lack of clarity."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [
+        "Bertha"
+      ],
+      "setlist_flow": "Setlist was generous and didn’t short‑change the audience, showing professionalism despite low energy.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "Delivered a spoken message after the first set: \"Everything's gonna be alright.\"",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:55:34.428090+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-10-23.fm.cotsman.10359.sbeok.shnf"
+  }
 }

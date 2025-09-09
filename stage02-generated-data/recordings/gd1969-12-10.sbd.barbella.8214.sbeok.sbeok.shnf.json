@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Historic late‑1969 show featuring Stephen Stills on Black Queen, captured on a decent soundboard recording.",
+    "review": "The concert is prized for its historical significance – it captures the Dead road‑testing material from Live/Dead and includes a guest appearance by Stephen Stills on Black Queen. Reviewers praise the jams and the unique blend of Stills' style with the band, while noting that the soundboard source is solid but not pristine, earning mixed grades for audio fidelity.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Overall high show ratings (mostly 5‑star) combined with generally positive comments about the performance, tempered by a few remarks that the soundboard quality is only average."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Most reviewers describe the tape as a nice 1969 soundboard with clear enough detail; one reviewer rates the board at three stars, suggesting modest fidelity and some vintage tape limitations."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Black Queen"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A historically interesting set that includes a guest spot by Stephen Stills; reviewers find the flow engaging despite only part of the show being present.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Miss Ron and Jerry so much (nostalgic comment, no specific performance note).",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:37:50.206499+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-12-10.sbd.barbella.8214.sbeok.sbeok.shnf"
+  }
 }

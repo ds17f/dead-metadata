@@ -14,5 +14,38 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a Port Chester show featuring a pristine Good Lovin! and strong closing numbers.",
+    "review": "The three reviewers rave about the clean, unedited capture of Good Lovin! and praise the vivid stereo imaging that places Bobby’s guitar on the right and the “Trailmix” element on the left. The performance is highlighted as a Pig‑steal with memorable set closers, giving the show a high‑energy feel throughout.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "All three reviews are positive (4–5 stars), note excellent soundboard quality and strong musical moments, giving a combined high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No song chopping (Good Lovin! intact) and praised stereo imaging with clear left/right separation; overall clean mix and faithful capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin!"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth set flow with especially strong closing numbers that the reviewers highlighted.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "Bobby's guitar is prominently placed in the right channel and noted for its clarity.",
+      "Keys": "Ron \"Pig\" McKernan (keys) is praised for stealing the show with the set closers.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T16:34:32.069719+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-02-24.121065.sbd.miller.digitalrbb.flac16"
+  }
 }

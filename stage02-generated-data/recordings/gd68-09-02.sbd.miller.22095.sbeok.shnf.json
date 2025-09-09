@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.25,
   "high_ratings": 12,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean soundboard capture of a high‑energy ’68 set highlighted by a smoking Dark Star, The Eleven and the Alligator→Caution pairing.",
+    "review": "The Miller source delivers a generally crisp and well‑balanced soundboard recording, despite occasional vocal level quirks and a few track‑listing mishaps. Musically the show shines with powerhouse jams – Dark Star, St. Stephen, The Eleven, Alligator, Caution and an intense Other One suite – delivering the high‑octane energy Dead fans associate with late‑summer ’68 performances.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is 4.25; most comments praise the performance and note clean sound, with only minor technical complaints, indicating a strong show captured on a good‑quality soundboard."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally super‑clean balance and crisp presence; occasional vocal level issues, drums emphasized in mix, sporadic mic turn‑offs and glitches; track‑listing metadata is a mess but does not affect audio fidelity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "St. Stephen",
+        "The Eleven",
+        "Alligator",
+        "Caution",
+        "Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Despite a chaotic track‑listing, the concert flows powerfully with back‑to‑back jam sequences (Dark Star→St. Stephen→The Eleven, Alligator→Caution) that keep the momentum high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar work is highlighted as \"flying\" through extended jams, especially on Dark Star and The Eleven.",
+      "Phil": "Bass provides solid rhythmic shifts and underpins the jam sections; a few reviewers note his changes in key during transitions.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Drums are prominent in the mix (sometimes overly loud) and drive the energy on Caution and other high‑octane moments."
+    },
+    "processed_date": "2025-09-08T09:00:59.365130+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-09-02.sbd.miller.22095.sbeok.shnf"
+  }
 }

@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.6666666666666665,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A decent matrix mix of a late‑'69 show that captures an intimate vibe with strong Dark Star and Eleven performances, though the tape has hiss, limited high‑end and occasional speed quirks.",
+    "review": "The recording is a composite soundboard/audience (matrix) capture that sounds surprisingly clear for a mono handheld source, despite some hiss, frequency roll‑off above ~8 kHz and a few reel‑flip cuts. Musically the band delivers a relaxed yet engaging set – highlights include Dark Star, The Eleven, Morning Dew and Next Time You See Me – but the overall energy sits at a comfortable medium level rather than a full‑blown firecracker.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "high",
+      "rationale": "Show quality is solid with several standout jams, while recording quality is good but marred by hiss and speed issues; the balance of these factors yields a rating just under 4 stars."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Hissy mono handheld ambience, limited high‑frequency response (≈8 kHz), occasional speed/pitch issues and reel‑flip cuts; overall surprisingly clear for the source."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Eleven",
+        "Morning Dew",
+        "Next Time You See Me",
+        "Sittin' on Top of the World",
+        "Black Peter"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Set appears out‑of‑order and includes a quirky snippet of \"Somebody to Love,\" but the relaxed pacing lets the jams breathe, giving the concert an intimate, low‑pressure feel.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Noted for his jam work (e.g., staying in Dark Star’s middle) and occasional tone comments; generally solid but not as hard‑hitting as earlier ’69 shows.",
+      "Phil": "Praised for virtuosity on The Eleven and strong bass presence throughout the set.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Drummers nailed a subtle break in The Eleven; overall drum work described as tight but not highlighted beyond that."
+    },
+    "processed_date": "2025-09-08T15:42:44.723604+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-12-11.sbd-aud.cotsman.8998.sbeok.shnf"
+  }
 }

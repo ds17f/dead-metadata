@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Recording appears incomplete with missing tracks, leading to a shorter runtime than expected",
+    "review": "The sole reviewer notes that the download runs only 2h 19m and is missing several tracks compared to other versions of this concert, indicating an incomplete source. No comments are made about the musical performance or audio fidelity.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.0,
+      "confidence": "low",
+      "rationale": "Only one brief review, rating effectively zero, focused on missing material; no positive aspects mentioned."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "Download length is shorter than expected; reviewers report tracks are missing, suggesting an incomplete capture."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:08:47.696698+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-09.aud.131474.berger.flac24"
+  }
 }

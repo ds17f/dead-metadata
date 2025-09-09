@@ -14,5 +14,41 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑fidelity soundboard capture of a solid ’71 Fillmore show featuring a smoking Other One, strong Dark Star and standout Pigpen numbers.",
+    "review": "The recording is praised as an excellent soundboard source with spacious, open acoustics though a little hard‑edged compared to later years. Musically the show is regarded as fairly good – the Other One (the “Skullfuck” version) and Dark Star shine, while the attempted That's It suite falls short of the band’s peak that night.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Both reviewers are largely favorable (5★ and 4★); show quality is solid with standout tracks, recording is described as excellent to good, yielding a combined rating around 4.2."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Spacious and open sound with crisp clarity; some reviewers note a hard‑edged, brittle character lacking the warmth of later years but no major flaws."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Dark Star"
+      ],
+      "poor_songs": [
+        "Cryptical 1"
+      ],
+      "setlist_flow": "Fairly good overall; the band attempted the full That's It suite but Cryptical 1 was omitted, making the show a notch below the two nights prior.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:20:42.456622+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-28.126262.sbd.boswell.smith.flac16"
+  }
 }

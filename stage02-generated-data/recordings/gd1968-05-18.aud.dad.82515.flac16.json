@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑voltage 1968 performance with Jerry’s blazing Alligator jam, captured on a decent audience tape despite muffled Pigpen vocals.",
+    "review": "The show is described as wild, hairy and full of electricity – especially Jerry Garcia’s post‑drums Alligator/‘Mountain Jam’ that leaves the crowd buzzing. Recording quality is only fair for its era; the vocal from Pigpen is low and the tape is a bit ragged, but the raw energy shines through.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Four detailed reviews consistently praise the high‑energy performance (70% weight) and note only modest recording flaws (30% weight), resulting in an overall strong rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Reasonable for 1968 but vocals (Pigpen) are low, tape is ragged at points and a bit muffled; some feedback at the end adds character."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Alligator (post‑drums jam)",
+        "Mountain Jam theme"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set builds with high voltage throughout, culminating in a feedback‑laden ending that tapers off on a cymbal.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly called pure electricity, on fire, and delivering a masterful Alligator/Mountain Jam after the drums.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Mentioned as the launch point for the post‑drums jam and ending with a single cymbal tap."
+    },
+    "processed_date": "2025-09-08T08:28:34.683645+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-05-18.aud.dad.82515.flac16"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.230769230769231,
   "high_ratings": 12,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience tape of the famed “Flatbed Truck” free show delivers a manic, high‑energy Pigpen blues marathon (Viola Lee, Smokestack Lightning, Lovelight, Hurts Me Too), with rough but listenable recording quality.",
+    "review": "The performance is celebrated for its explosive 21‑minute Viola Lee Blues and extended blues covers that kept the Haight crowd in a frenzy; reviewers repeatedly call it a historic, manic spectacle. The tape is an audience recording made by Steve Brown with a cheap mic and limited battery life, resulting in occasional drop‑outs and modest clarity but still far superior to many early ’68 board tapes.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Average reviewer rating ≈3.9, with strong praise for the show’s energy and standout jams; recording is noted as imperfect but acceptable, leading to an overall solid 4‑star assessment."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Audience tape recorded with a cheap microphone; battery died before the end, causing drop‑outs and limited clarity. Still considered better than other early 1968 board recordings."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee Blues",
+        "Smokestack Lightning",
+        "Turn On Your Lovelight",
+        "Hurts Me Too"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Impromptu free concert on Haight Street featuring an extended Pigpen‑centered blues set; the band rode a wave of high crowd energy with long, improvisational jams.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned as part of the “flatbed” vibe and noted for his freedom‑spirit rather than specific playing details.",
+      "Phil": "Praised for a distinct, magical bass line that stood out during the jams.",
+      "Bob": "Noted taking over parts of Lovelight; some reviewers felt his contribution was less impressive than Pigpen’s.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T08:08:33.733619+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-03-03.aud.jools.19904.sbeok.shnf"
+  }
 }

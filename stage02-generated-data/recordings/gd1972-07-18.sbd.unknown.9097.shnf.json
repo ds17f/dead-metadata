@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture with generally great sound despite occasional glitches, highlighted by a smoking Truckin > Dark Star > Comes‑A‑Time sequence and soaring Garcia guitar.",
+    "review": "The show is praised for its high energy and memorable jams – especially the Truckin → Dark Star → Comes A Time stretch, plus standout renditions of Sing Me Back Home and the NFA/Going Down The Road Feeling Bad close.  While most listeners describe the sound as clear and enjoyable, a few note small squeaks, buzzes and an early cut on Stella Blue, suggesting a good‑but‑not‑perfect soundboard source.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Strong musical performance (many 5‑star comments) weighted at 70% and generally good recording quality with minor glitches weighted at 30% yields a high overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Overall clear and enjoyable sound; occasional squeaks, buzzing (notably during Truckin'), small stage bleed, and an early cut on Stella Blue. Most reviewers describe the audio as great despite these minor issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "Dark Star",
+        "Comes A Time",
+        "Sing Me Back Home",
+        "New Minglewood Blues > Going Down The Road Feeling Bad",
+        "Half Step"
+      ],
+      "poor_songs": [
+        "Stella Blue (cut early)"
+      ],
+      "setlist_flow": "Smooth transitions with a powerful second‑set jam sequence; third‑set (encore) highlighted by Donna Godchaux's vocals and solid closing numbers.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s playing is described as unstoppable, perfect tone, and a transcendent force especially on Dark Star and the Truckin' jam.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith's piano/keyboard work noted as a turning point for the band’s sound in summer ’72; praised for adding new texture.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T00:52:21.734195+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-07-18.sbd.unknown.9097.shnf"
+  }
 }

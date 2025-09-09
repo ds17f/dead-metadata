@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.4,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture with solid clarity delivers a wildly energetic show highlighted by a standout Morning Dew and Black Peter, despite a rough first half.",
+    "review": "The recording is praised for its nice, clear sound – likely a sound‑board source – that lets the high‑octane performance shine. Reviewers rave about the “fucking ragin flow,” the unorthodox arrangement of Morning Dew, and a memorable Black Peter, while noting the first half feels a bit rough before building to a brilliant finish with guest Stephen Stills.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Strong musical performance (high energy, standout songs) weighted heavily; recording quality is good but not flawless, leading to an overall rating just above four stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Listeners describe the sound as \"nice\" and clear, though one reviewer calls the first half rough; no major drop‑outs reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Morning Dew",
+        "Black Peter"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Ragged and vocal‑focused first half gives way to a brilliant, high‑energy second half with unusual arrangements and guest Stephen Stills adding jug‑band flair.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned jamming with Stephen Stills in a jug‑band style; his playing is highlighted as part of the unorthodox Dew arrangement.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:38:21.713243+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-12-10.sbd.gerland.10986.sbeok.shnf"
+  }
 }

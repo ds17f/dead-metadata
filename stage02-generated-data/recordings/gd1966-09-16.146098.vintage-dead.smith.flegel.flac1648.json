@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent vintage capture featuring a smoking \"Dancin' in the Streets\" performance, though recording source details are unclear.",
+    "review": "The reviewer raves that the rendition of \"Dancin' in the Streets\" is the best 1966 Dead recording they have heard—pure, hot fire. No specifics about the audio quality are given, so while the musical moment shines, the technical side remains unknown.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "A single enthusiastic 5‑star review highlights an outstanding performance; lack of recording details prevents a higher confidence rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No comments on sound clarity, mix, or source; reviewers did not address technical aspects."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dancin' in the Streets"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Not described in reviews",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T05:54:10.035833+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1966-09-16.146098.vintage-dead.smith.flegel.flac1648"
+  }
 }

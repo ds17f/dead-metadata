@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.833333333333333,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording that captures a high‑energy 1968 show highlighted by a smoking Dark Star, The Eleven and an epic Other One suite.",
+    "review": "The performance is a standout example of the Dead’s 1968 psychedelic peak – the first set shines with a gorgeous Dark Star, tight Eleven and powerful Death Don't Have No Mercy, while the second set delivers a memorable Cryptical>Other One transition despite the noticeable lack of keyboards. The soundboard source is praised for its crystal‑clear stereo image, though some listeners note a slightly high percussion mix. Overall the show radiates youthful vigor and superb improvisation.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Reviews consistently rate the show 4‑5 stars, praising both musical performance (exceptional jams, high energy) and recording quality (excellent soundboard stereo). Minor criticisms (missing Pigpen, percussion balance) keep it just shy of perfect."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, detailed stereo image with excellent panning; some listeners mention the guiro/percussion sits a bit high in the mix but overall clarity is superb."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Eleven",
+        "That's It for the Other One (Cryptical > The Other One suite)",
+        "Death Don't Have No Mercy",
+        "Saint Stephen"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set is deemed stronger with seamless transitions; second set has a solid start but suffers from a rough transition into New Potato and the absence of keyboards, yet still delivers powerful jams.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Great vocal performance on Dark Star and Death Don't; guitar tone praised as excellent throughout.",
+      "Phil": "Astonishing Thirteens‑style solo during New Potato; tight bass work noted in The Eleven.",
+      "Bob": "Nice vocal contribution on New Potato.",
+      "Keys": "Pigpen/organ largely absent, making the lack of keyboards noticeable in the second set.",
+      "Drums": "Rough drum transition into New Potato and percussion (guiro) a bit high in the mix."
+    },
+    "processed_date": "2025-09-08T09:12:26.019435+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-10-12.sbd.gans.miller.owen.9385.shnf"
+  }
 }

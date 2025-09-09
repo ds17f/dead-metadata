@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.882352941176471,
   "high_ratings": 17,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Pristine soundboard capture of a high‑energy 1971 show with smoking Hard To Handle, Morning Dew and Dark Star, plus crystal‑clear organ and drums",
+    "review": "The Miller‑sourced soundboard delivers exceptionally clear audio that showcases Ron’s organ, Jerry’s soaring guitar tone and Bill’s killer drum solo, despite a few minor tape‑speed quirks. Musically the concert is a fire‑starter – Hard To Handle, Morning Dew, Bird Song and an expansive Dark Star/Other One suite are repeatedly singled out as definitive performances, while only Playin’ suffers noticeable flubs.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "Out of 18 reviews the average rating is ~4.9 stars; the vast majority praise both performance and sound quality, with only a couple of modest critiques."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clean mix that reveals subtle flaws (minor tape‑speed irregularities, occasional level dip on Hard To Handle) but overall delivers a clear, balanced listening experience."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard to Handle",
+        "Morning Dew",
+        "Bird Song",
+        "Dark Star",
+        "The Other One",
+        "Truckin'",
+        "Bertha"
+      ],
+      "poor_songs": [
+        "Playin'"
+      ],
+      "setlist_flow": "First set fires up with tight, uptempo numbers and a soaring Dew; second set moves into more cerebral, introspective territory culminating in an epic Dark Star/Other One suite.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for perfect tone, prime form, occasional out‑of‑tune moments noted but overall stellar guitar work.",
+      "Phil": "Described as laying down ‘bombs’ and picked harmonics; solid bass foundation throughout.",
+      "Bob": "Highlighted for a standout solo on Hard To Handle and inspired fills on Bertha.",
+      "Keys": "Ron’s organ is loud, clear and “perfect”; Tom Constanten’s texture mentioned in the Dark Star mix.",
+      "Drums": "Bill’s drum solo called ‘ridiculously killer’; overall drumming praised as tight and powerful."
+    },
+    "processed_date": "2025-09-07T18:18:25.785254+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-28.sbd.miller.106099.flac16"
+  }
 }

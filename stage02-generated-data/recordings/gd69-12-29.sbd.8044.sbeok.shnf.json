@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Decent soundboard capture with a bit of muddiness and hiss but lively room ambience, showcasing a high‑energy show highlighted by a monster Hard to Handle, stellar Mason’s Children, and Jerry’s gritty guitar on Dancing in the Street.",
+    "review": "The recording is a solid soundboard source that isn’t pristine – it has some mud and hiss yet retains enough stage ambience to feel present. Musically the concert bursts with energy, delivering standout performances of Hard to Handle, Mason's Children, Black Peter, Easy Wind and a dirty, juicy rendition of Dancing in the Street driven by Jerry’s ferocious guitar work.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Consistently high praise for the musical performance (energy, standout songs) combined with generally good but not flawless soundboard quality yields a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Somewhat muddy with a little hiss; noticeable room ambience adds a live feel. Overall clear enough for enjoyable listening despite the modest imperfections."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard to Handle",
+        "Mason's Children",
+        "Black Peter",
+        "Easy Wind",
+        "Dancing in the Street"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Energy builds toward New Year's, with solid first‑set work and a seamless flow despite some confusion over song order; banter and audience interaction add extra charm.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar is described as dirty, nasty, and juicy – especially on Dancing in the Street where he 'pushes it deep and hard.' Also noted encouraging the crowd to sing along.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T16:08:50.978020+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-12-29.sbd.8044.sbeok.shnf"
+  }
 }

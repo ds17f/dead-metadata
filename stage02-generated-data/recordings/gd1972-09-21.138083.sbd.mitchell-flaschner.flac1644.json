@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy show with a wildly exciting second set; recording quality not specified",
+    "review": "Reviewers rave about this performance, calling it \"truly awesome\" and describing the second set as a wild ride that leaves them begging for more. While the musical excitement is clear, there are no details provided about the source or clarity of the audio, so listeners should assume an average‑to‑good sound quality typical of many archive releases.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "Only one five‑star review is available, praising the show but offering no technical details; high enthusiasm for the performance drives a strong rating despite unknown recording quality."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No specific comments about soundboard vs. audience, clarity, or mix; recording source not identified."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Second set highlighted as a high‑energy, \"wild ride\" that sustains excitement throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:34:58.808399+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-21.138083.sbd.mitchell-flaschner.flac1644"
+  }
 }

@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with good transfer despite vocal‑mic and drum mix quirks; the show shines with a monster Caution → Uncle John’s jam, stellar Mr. Charlie and a soaring China Cat > Rider.",
+    "review": "The Miller SBD captures a historically important March ’72 Academy of Music run. While the vocal mics sit forward and the drums are a bit hot, the overall transfer is clean enough to enjoy the transcendent jams – especially the beautiful Caution‑UJB segue, the fiery Mr. Charlie, and the tight China Cat Sunflower / I Know You Rider. The performance is high‑energy with a few first‑set hiccups but many standout moments.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Show quality is consistently praised (many 5‑star comments) while recording quality has notable mix issues; weighted average yields a strong 4.2 rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clean Miller transfer, but vocal mics are overly prominent and drums sit too loud; occasional monitor buzz and early‑set dropouts noted."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mr. Charlie",
+        "China Cat Sunflower > I Know You Rider",
+        "Sugar Magnolia > Caution > Uncle John's Band (jam)",
+        "Looks Like Rain",
+        "Two Souls"
+      ],
+      "poor_songs": [
+        "Deal (early version runs off the rails)",
+        "Big Boss Man",
+        "Jack Straw",
+        "Loser (monitor problems)"
+      ],
+      "setlist_flow": "Long two‑hour sets with early technical hiccups; first set recovers after a rough start, second set delivers extended jams and smooth segues.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar shines on Mr. Charlie and he experiments with a volume pedal during the RR Blues segment; overall strong lead work.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith contributes organ/piano textures, especially in the beautiful jam leading into Uncle John's Band.",
+      "Drums": "Bill Kreutzmann’s drumming is praised as great and driving, though the drum mix is a bit too forward."
+    },
+    "processed_date": "2025-09-07T22:23:23.479572+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-03-22.132726.sbd.miller.flac16"
+  }
 }

@@ -14,5 +14,44 @@
   "confidence": 0.8,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Fair‑quality soundboard capture of a high‑energy show with standout jams on The Other One, Playin', Truck and Philo Stomp.",
+    "review": "The recording is a soundboard source that suffers from low levels, some hiss and an occasional vocal cut, but remains listenable. Musically the concert is adventurous and lively, highlighted by a marathon 25‑minute \"Playin'\", fiery renditions of The Other One, Truck, Philo Stomp and a melting Space jam. Overall fans praise the performance despite the modest technical fidelity.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Four detailed reviews give an average of 4 stars; reviewers note strong musical moments and only moderate recording flaws, leading to a rating just above the mean."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Low overall levels, some hiss and distant sound, occasional vocal cut (Spanish Lady), tape‑flip artifacts; mix is acceptable but not crisp."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playin'",
+        "The Other One",
+        "Truck",
+        "Philo Stomp",
+        "Space"
+      ],
+      "poor_songs": [
+        "Spanish Lady (cut vocal)"
+      ],
+      "setlist_flow": "A loose but adventurous set with long improvisational passages; the second half builds into extended jams that maintain momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Sharp leads, shredding guitar on The Other One and other jams; \"JBG - the shredder\" noted.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:34:13.297584+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-10-24.pset2-sbd.hamilton.159.sbeok.shnf"
+  }
 }

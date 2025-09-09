@@ -14,5 +14,48 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 31,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A legendary Bickershaw show with a monster Dark Star→Other One suite captured on mixed soundboard/audience sources – superb playing, occasional tuning hiccups and early‑set murkiness.",
+    "review": "The May 7 1972 Bickershaw concert is hailed as one of the high points of Europe ’72: a soaring Dark Star that melts into an epic Other One, blistering Turn On Your Lovelight and a legendary Mr. Charlie solo.  The recording is a matrix (soundboard plus audience) – discs 3‑4 are crystal‑clear soundboard while the first two discs suffer from muddy audience bleed and occasional out‑of‑tune guitars, but the musical payoff more than outweighs those flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Over 30 reviews, the vast majority are 4‑5 stars and praise the performance; only a few low‑star comments focus on recording flaws.  Show quality (70% weight) is clearly exceptional, while recording quality (30%) is mixed but overall listenable."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Discs 1‑2 are audience tapes – muffled, some drop‑outs and out‑of‑tune guitars.  Discs 3‑4 are master soundboard reels – crisp, well‑balanced mix with excellent instrument separation.  Overall the set is listenable, but early‑set clarity suffers."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star → Drums → The Other One",
+        "Turn On Your Lovelight",
+        "Mr. Charlie (Jerry solo)",
+        "Good Lovin'",
+        "China Cat > Rider",
+        "Playin' in the Band",
+        "Jack Straw",
+        "Sugar Magnolia (GDTRFB/NFA segment)"
+      ],
+      "poor_songs": [
+        "Sing Me Back Home (out‑of‑tune piano/guitar)",
+        "Early first‑set numbers (murky audience recording)"
+      ],
+      "setlist_flow": "A solid, jam‑heavy first set that suffers from tape quality but contains tight playing; the second set explodes with a 20‑minute Dark Star into an even longer Other One, followed by high‑energy lovelight/road medley and a rousing encore.  The flow is praised for its seamless transitions despite weather challenges.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly lauded for his soaring solos – Dark Star, Mr. Charlie, Sugar Mag (second solo) and the Turn On Your Lovelight lead guitar work are called \"monster\" and \"perfect\".",
+      "Phil": "Cited as delivering a \"bomb\" on bass during The Other One; several reviewers note his standout improvisation making the jam “priceless.”",
+      "Bob": "Pigpen’s organ on Turn On Your Lovelight is described as “blended” and “on‑key”; his vocal delivery on Lovelight is highlighted as a high point of the night.",
+      "Keys": "Keith’s organ fills are praised throughout – especially during Good Lovin', Mr. Charlie and the Lovelight jam; one reviewer calls his playing \"gorgeous\".",
+      "Drums": "Bill Kreutzmann’s drumming on The Other One is noted as a “birthday solo” and an essential part of the epic jam suite."
+    },
+    "processed_date": "2025-09-07T23:52:07.555369+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-05-07.sbd-aud.clugston.9193.sbeok.shnf"
+  }
 }

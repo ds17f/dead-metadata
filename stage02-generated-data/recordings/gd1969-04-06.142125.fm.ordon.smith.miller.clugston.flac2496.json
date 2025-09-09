@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 2.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Mono recording of limited fidelity; performance details not mentioned",
+    "review": "The only feedback notes that the mono source is \"not bad for mono,\" implying modest sound quality given its limitations. No comments were made about the band's playing, so the musical aspect remains unknown.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 2.0,
+      "confidence": "low",
+      "rationale": "A single brief review with a 2‑star rating focuses on recording limitations and provides no positive show information, leading to a low overall score."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Mono source; reviewer finds it acceptable only relative to its mono format, suggesting limited clarity and depth."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T11:33:04.045406+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-04-06.142125.fm.ordon.smith.miller.clugston.flac2496"
+  }
 }

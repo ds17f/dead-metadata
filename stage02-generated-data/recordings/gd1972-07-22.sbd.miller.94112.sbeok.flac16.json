@@ -14,5 +14,47 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A lovingly patched soundboard capture of a solid summer‑'72 set with a smoking You Win Again, Bird Song and an epic Morning Dew despite some warbly tape artifacts.",
+    "review": "The recording is a composite of the Bear and Betty front‑of‑house/soundboard tapes, cleaned up but still showing water‑damage wavering and occasional reel wobble. Musically the show is strong – fans point to You Win Again, Bird Song, China Cat Sunflower > I Know You Rider and an unforgettable Morning Dew as highlights, while a few songs suffer from muffed vocals or mix issues.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show highly (4‑5 stars) and praise its musical moments; recording quality is good overall but notes some technical flaws, yielding a strong combined score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Front‑of‑house/soundboard tapes patched from Bear and Betty sources; slight warble and water‑damage artifacts, occasional vocal muffs, reel wobble on Sugar Magnolia, but overall clear mix with strong vocal balance."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "You Win Again",
+        "Bird Song",
+        "China Cat Sunflower > I Know You Rider",
+        "Stella Blue",
+        "Morning Dew",
+        "Uncle John's Band"
+      ],
+      "poor_songs": [
+        "Beat It On Down the Line (flawed compared to other nights)",
+        "Black Throated Windshield (cut early)",
+        "Sugar Magnolia (reel wobble and fade‑out)"
+      ],
+      "setlist_flow": "The concert feels like two first sets back‑to‑back, with loose transitions and abundant stage banter; the second set builds into tighter jams despite a few mix hiccups.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Leaves his heart onstage, vamping passionately during jams and delivering emotive solos.",
+      "Phil": "Strong vocal presence with humorous banter; sounds solid throughout the night.",
+      "Bob": "Omnipresent, powerful guitar that drives the show, though occasional muffs are noted.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T01:02:32.861451+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-07-22.sbd.miller.94112.sbeok.flac16"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 0.8,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a historic Fillmore West closing show, but split‑track editing and noticeable tuning problems keep the experience from being fully satisfying.",
+    "review": "The FLAC capture delivers crystal‑clear soundboard quality, preserving the energy of the 1971 Fillmore West broadcast. While Good Lovin' and the jammed sections of The Other One shine, extended periods of out‑of‑tune guitar and bass, plus the eight‑track split of The Other One, detract from an otherwise notable performance.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "Recording quality is excellent (soundboard), but show performance is uneven with tuning issues and track‑splitting complaints; weighted average yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear, crisp soundboard capture. Main criticism is the artificial splitting of The Other One into eight separate tracks, which breaks seamless listening."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "The Other One (jam section)"
+      ],
+      "poor_songs": [
+        "Playin'"
+      ],
+      "setlist_flow": "Historically important Fillmore West closing set, but the fragmented track layout and early‑set tuning woes interrupt the natural flow.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar was out of tune for an extended period, often unnoticed by the band.",
+      "Phil": "Bass suffered similar tuning problems during the first half of the show.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:47:02.903447+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-07-02.sbd.unknown.18289.flac16"
+  }
 }

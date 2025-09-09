@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy set 2 with a priceless Truckin’ jam captured on a clean soundboard recording",
+    "review": "The reviewer raves about the second set, especially the extended Truckin' jam and its outro, calling it \"priceless\". The soundboard source is described as a great version with clear guitar work, though the vocal harmonies are noted as slightly off.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "low",
+      "rationale": "Only one detailed review but it is enthusiastic (5 ★) and praises both performance and recording, leading to a high rating with low confidence due to limited sample size."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer calls it a \"Great Version\" with clear guitar; no major audio complaints, only minor note about off‑key harmonies."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin' (jam before reprise and outro)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Set 2 is highlighted as a classic jam‑heavy segment; the reviewer urges listeners to check out the rest of the set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for the \"wha, wha\" guitar finish on Truckin'",
+      "Phil": "",
+      "Bob": "Vocals/harmonies noted as off during the performance",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T23:12:35.855571+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-04-16.pset2-sbd.vernon.9196.sbeok.shnf"
+  }
 }

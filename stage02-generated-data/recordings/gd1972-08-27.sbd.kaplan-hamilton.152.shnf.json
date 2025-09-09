@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 4.75,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of a monster show highlighted by an iconic Dark Star and a standout Greatest Story Ever Told.",
+    "review": "The Kaplan–Hamilton tape delivers an exceptionally clean, well‑balanced soundboard mix that lets every instrument shine. Reviewers rave about the high energy performance – especially Jerry’s crisp guitar work, Bob’s tight interplay with him, and a career‑defining Dark Star – making this one of the band’s top shows. The recording quality is praised as the best available for this concert.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "All four detailed reviews are highly positive (4‑5 stars), praising both an outstanding musical performance and excellent, crystal‑clear soundboard audio."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crystal clear mix with superb instrument balance, clean vocals, no noticeable hiss or dropouts; minor EQ tweaks optional but overall pristine."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Greatest Story Ever Told"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Tight and flowing set with seamless transitions, highlighted by an extended Dark Star that showcases the band's improvisational peak.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Crisp guitar tone and playing praised; standout performance throughout.",
+      "Phil": "",
+      "Bob": "Amazing interplay with Jerry, tight rhythm work noted.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T01:56:12.492055+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-08-27.sbd.kaplan-hamilton.152.shnf"
+  }
 }

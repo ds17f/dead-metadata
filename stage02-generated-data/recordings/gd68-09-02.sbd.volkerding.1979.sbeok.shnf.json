@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A stellar 1968 performance with a smoking Dark Star and an epic 69‑minute Eleven, but the Volkerding soundboard tape suffers from mix imbalances, buzz and occasional clipping.",
+    "review": "The show is praised as a high‑energy continuation of the August ’68 concerts, featuring standout renditions of Dark Star, St. Stephen and a marathon The Eleven that many fans call timeless.  The Volkerding soundboard source is listenable but marred by a weak mix (Bob’s vocals and Phil’s bass are often buried), noticeable buzz and occasional clipping.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the performance very highly (5‑star) while noting consistent recording flaws; weighting show quality heavily yields a strong overall rating despite technical issues."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Mix is unbalanced – Bob’s guitar/vocals and Phil’s bass are low in the mix; some buzz and clipping present, but overall audible and comparable to other 1968 tapes."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "St. Stephen",
+        "The Eleven"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Follows the high‑energy, fast‑paced setlists of the August shows with strong transitions and sustained momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Mix down makes his bass barely audible, though his playing is noted as strong in the performance.",
+      "Bob": "Vocals and rhythm guitar are often buried in the mix, reducing their presence.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T09:01:37.921388+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-09-02.sbd.volkerding.1979.sbeok.shnf"
+  }
 }

@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.416666666666667,
   "high_ratings": 23,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A high‑energy Wichita ‘72 show captured on a soundboard with generally clear audio (despite occasional noise‑reduction patches), highlighted by scorching “Cumberland Blues”, “He’s Gone”, “The Other One” and a soaring “Bird Song”.",
+    "review": "This recording delivers one of the standout performances from the fall‑1972 tour – Jerry’s ferocious lead on Cumberland and He’s Gone, Phil’s bass‑line fireworks on The Other One, and a rare, fire‑breathing Bird Song.  The SBD source is mostly crisp; a few murky patches, speed quirks and splice gaps are noted but do not detract from the overall listening experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Consistently enthusiastic comments about the musical performance (≈4.5/5) and generally good soundboard quality with only minor technical flaws (≈3.8/5) yield a weighted average of ~4.3."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Mostly crisp and clear SBD; some reviewers note a 30‑second murky patch, occasional noise‑reduction artifacts, minor static/splices and slight speed issues that require pitch correction."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cumberland Blues",
+        "He’s Gone",
+        "The Other One",
+        "Bird Song",
+        "Truckin’ > The Other One > Brokedown Palace",
+        "Sugar Magnolia",
+        "Box of Rain"
+      ],
+      "poor_songs": [
+        "Jack Straw (gap/splice noted)"
+      ],
+      "setlist_flow": "First set builds with strong openings (China>Rider, Bird Song) and rare Box of Rain; second set launches with a blistering Cumberland Blues leading into an epic He’s Gone → Truckin’ → The Other One jam sequence, ending smoothly with Brokedown Palace.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for ferocious, original playing; “underwater” filter tone on Cumberland; superb leads on He’s Gone and The Other One; overall guitar work described as scorching and inventive.",
+      "Phil": "Noted for “Miles Davis Footprints”‑style bass lines; strong, melodic support during The Other One; occasional “bass bombs” that drive the jams.",
+      "Bob": "Recognized for rhythmic brilliance on Sugaree and other cuts; some reviewers call his rhythm bordering on a second lead; highlighted as original rhythm guitarist.",
+      "Keys": "Keith’s jazz‑inflected improvisation (Round Midnight reference) and tight interplay with Jerry noted; praised for finding his way and adding texture throughout the set.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T04:08:49.166039+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-11-17.sbd.warner.15982.sbeok.shnf"
+  }
 }

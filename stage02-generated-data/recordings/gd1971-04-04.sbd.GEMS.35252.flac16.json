@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.4,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Superb soundboard capture of the April 1971 NYC show with crisp mix and classic ‘71 vibe, highlighted by a smoking Easy Wind and an intense Loser.",
+    "review": "The recording is praised as a “Superduper 71 Soundboard” with crystal‑clear clarity that lets every nuance shine. Musically the show delivers standout moments – especially an epic Easy Wind and a powerful Loser – while overall feeling a bit mellow and uneven at times. Fans love Pigpen’s organ work and Phil’s upfront, hollow‑bass presence.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show and recording very highly (5‑star praise for sound quality and performance), with only one moderate (3‑star) comment noting unevenness, yielding an overall rating in the strong‑good range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix repeatedly described as ‘fabulous’ and a ‘Superduper 71 Soundboard’; no dropout or muffling issues mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Easy Wind",
+        "Loser"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Solid set with many ’71 favorites in the pocket; overall vibe a bit mellow and uneven, but energy peaks on highlighted jams.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Up‑front throughout, noted for his hollow‑bass tone and leading the mellow feel of the show.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T16:57:59.289262+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-04.sbd.GEMS.35252.flac16"
+  }
 }

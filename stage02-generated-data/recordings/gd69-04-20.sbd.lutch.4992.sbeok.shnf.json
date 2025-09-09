@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.545454545454546,
   "high_ratings": 20,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Even with a hissy, low‑volume soundboard, the 4/20/69 Clark University show shines thanks to a smoking Dark Star, soaring Mountains of the Moon and Jerry Garcia’s stellar vocals.",
+    "review": "The performance is widely praised for its luminous Dark Star, powerful Dark Star–Rag sequence, and memorable renditions of Mountains of the Moon and Death Don't Have No Mercy, while the recording suffers from noticeable hiss, occasional muddiness and a low overall level. Despite these technical flaws, listeners find the show enjoyable and historically significant, especially given the rarity of a 1969 Clark concert.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Average star rating across 25 reviews is 4.2; most reviewers highlight strong musical moments while noting consistent recording issues, leading to a solid but not flawless overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Low volume, noticeable hiss and occasional muddiness; a bad cut on Eleven; some reviewers note the mix is still listenable and better than other available versions."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Mountains of the Moon",
+        "Doin' That Rag",
+        "Death Don't Have No Mercy"
+      ],
+      "poor_songs": [
+        "Eleven (bad cut)"
+      ],
+      "setlist_flow": "The concert flows through a mellow yet compelling arc, featuring multiple Dark Stars in succession and a balanced mix of psychedelic jams and tighter songs; listeners describe it as an epic four‑night “mass” with a satisfying overall pacing.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s vocals are described as heavy lifting; his solo on Dark Star and the Rag is praised for energy and tone, though one reviewer notes an out‑of‑tune acoustic guitar in Mountains of the Moon.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T12:02:13.882346+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-04-20.sbd.lutch.4992.sbeok.shnf"
+  }
 }

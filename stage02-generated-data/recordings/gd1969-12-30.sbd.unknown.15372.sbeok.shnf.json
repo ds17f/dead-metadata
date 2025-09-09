@@ -14,5 +14,41 @@
   "confidence": 0.8,
   "raw_rating": 4.5,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of the original Boston Tea Party show with a tender Jerry solo on Uncle John’s Band and an overdriven Other One, though the tape is missing several sections.",
+    "review": "The set showcases strong late‑1969 chemistry – Pigpen dominates many numbers, Uncle John’s Band gets a gorgeous, poignant intro from Jerry, and The Other One drives the show into high gear. The recording is a soundboard source that sounds clear but suffers from incomplete tracks and odd indexing, making it feel a bit unfinished.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most detailed reviews are very positive about the performance (especially Jerry’s solo and The Other One) while noting missing portions; recording is a decent soundboard but incomplete, leading to an overall strong but not flawless rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear soundboard mix overall, but several tracks are incomplete or mis‑indexed (e.g., missing start of Alligator, fragmented Dark Star). No major distortion reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Uncle John's Band",
+        "The Other One",
+        "Dark Star (incomplete)",
+        "Cumberland Blues"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Pacing shifts from laid‑back organ‑driven numbers to high‑energy jams; The Other One pushes the concert into overdrive, though some listeners note a lack of overall spirit in parts.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "His intro and solo on Uncle John's Band are described as gorgeously tender and poignant; also noted for his distinctive tone throughout.",
+      "Phil": "",
+      "Bob": "Weir’s vocal presence is highlighted on Me and My Uncle, with the reviewer noting his voice stands out.",
+      "Keys": "The organ/keyboard sound is described as more laid‑back than later Keith‑era playing, giving the band a different texture.",
+      "Drums": "Alligator track is mentioned mainly for its drum segment; no specific praise or criticism of drumming overall."
+    },
+    "processed_date": "2025-09-08T16:13:23.087179+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-12-30.sbd.unknown.15372.sbeok.shnf"
+  }
 }

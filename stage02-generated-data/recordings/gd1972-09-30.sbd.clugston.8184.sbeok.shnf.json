@@ -14,5 +14,38 @@
   "confidence": 0.8,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Hi‑Fi soundboard capture of a high‑energy 1972 show with a standout China Cat Sunflower, though the mix can be uneven and overly bright.",
+    "review": "The recording delivers crisp Hi‑Fi stereo and an excellent overall mix that many fans love, showcasing 23 strong performances including a memorable China Cat Sunflower. However, several listeners note an uneven balance—Bob Weir’s rhythm guitar sits too high while Keith’s piano and Jerry’s lead can be buried—and the ultra‑clean 71‑72 system sounds brittle to some ears.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Four detailed reviews (two 5‑star, two 3‑star) give a balanced view; strong musical performance offsets noted mix issues, landing the rating around four stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Hi‑Fi stereo and excellent overall mix praised, but several comments about an uneven balance (Bob’s guitar too forward, Keith’s piano subdued) and a brittle, overly clean sound characteristic of the 71‑72 system."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set pacing; reviewers note consistent energy throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His lead guitar can be hard to hear in the mix, though it remains present.",
+      "Phil": "",
+      "Bob": "Bob Weir’s rhythm guitar is unusually prominent, sometimes overpowering other instruments.",
+      "Keys": "Keith's piano solo on Big River is buried under the mix.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:05:36.224239+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-30.sbd.clugston.8184.sbeok.shnf"
+  }
 }

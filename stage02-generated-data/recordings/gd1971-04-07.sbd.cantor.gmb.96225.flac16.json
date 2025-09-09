@@ -14,5 +14,38 @@
   "confidence": 0.6,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a short, solid set; the post‑drums jam is the only low point.",
+    "review": "The three reviewers find the performance competent and concise, giving it an overall solid impression but noting that the jam after the drums feels weak. No specific songs stand out as highlights, and there are no comments on audio fidelity beyond the expectation of a typical soundboard source.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Average star rating is 4/5 across three reviews; reviewers are generally positive but note a lack of highlights and a weak jam, leading to a solid but not exceptional overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on sound clarity or mix; assumed typical soundboard quality with no reported issues."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [
+        "Jam after drums"
+      ],
+      "setlist_flow": "Short, concise set that runs smoothly but lacks memorable peaks.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:15:19.137186+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-07.sbd.cantor.gmb.96225.flac16"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.4,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy set highlighted by a smoking Truckin' and an epic 28‑minute Other One.",
+    "review": "The Miller source delivers crystal‑clear instrument separation with only a brief glitch in the middle of The Other One, making it one of the cleaner recordings of this era. Musically the show is a powerhouse – Jerry tears into Truckin', the band launches into a spacey, 28‑minute Other One, and finishes strong with He's Gone, all delivered at a consistently high intensity.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "All reviewers rate the show 4–5 stars and praise both performance (high energy, standout Truckin' and Other One) and recording clarity; minor glitches are noted but do not detract from overall excellence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Very clear mix with each instrument distinct; slight feedback on Truckin' and a brief glitch at ~14 min in The Other One, otherwise clean."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "The Other One",
+        "He's Gone"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Four‑track set (Truckin' → Drums → The Other One → He's Gone) with a strong opening, an expansive middle jam and a solid closer; reviewers note the second set as dynamite.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Rips on Truckin', turns up reverb for an intense Other One, tone described as perfect despite slight feedback.",
+      "Phil": "Bass is present and solid; one reviewer notes missing vocal harmonies on He's Gone but otherwise no specific criticism.",
+      "Bob": "Provides slashing leads on Truckin' and contributes a brief wah‑wah phrase; guitar work praised throughout the jam.",
+      "Keys": "Keith's piano and Pigpen's organ are highlighted as crystal‑clear, adding eerie fills and melodic depth to the jams.",
+      "Drums": "Billy (Bill) delivers jazzy, powerful drumming, especially during The Other One’s extended section."
+    },
+    "processed_date": "2025-09-08T00:05:06.320917+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-05-13.psbd.miller.21725.sbeok.shnf"
+  }
 }

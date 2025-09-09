@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording of a rocking second set, though the track divisions could be combined for smoother listening.",
+    "review": "Both reviewers rave about the energetic, \"rockin'\" performance captured on this soundboard tape, giving it high marks. The only criticism is the way certain songs are split into separate tracks, which some feel should be merged. Overall the audio sounds solid and the show delivers a strong second‑set vibe.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Both reviews are positive (4–5 stars) praising the show's energy and showing no audio complaints, indicating a good performance and decent recording."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit sound quality issues mentioned; reviewers note that tracks 1‑3 and 5‑6 should be merged, suggesting the split is a minor annoyance rather than an audio flaw."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Divided into separate tracks; some suggest merging sections for continuity, but overall the set flows well and feels very rocking.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:07:56.579927+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-10-29.sbd-set2.gardner.4090.shnf"
+  }
 }

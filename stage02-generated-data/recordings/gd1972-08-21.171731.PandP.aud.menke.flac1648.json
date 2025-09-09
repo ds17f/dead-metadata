@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "No substantive review content available to assess recording quality or show performance.",
+    "review": "The only comment submitted requests deletion of a duplicate upload and provides no information about the audio source, sound quality, or musical performance. Consequently there is insufficient data to evaluate either the recording or the concert itself.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.0,
+      "confidence": "low",
+      "rationale": "Only one non‑evaluative review was provided; no details on performance or audio quality allow a meaningful rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No technical comments were made in the available review."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T01:31:58.907354+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-08-21.171731.PandP.aud.menke.flac1648"
+  }
 }

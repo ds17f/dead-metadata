@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.533333333333333,
   "high_ratings": 13,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear soundboard capture of a tight 1971 Felt Forum show, highlighted by soaring Jerry solos and the monster Other One > B McGee > Other One jam.",
+    "review": "The recording is generally crisp for a 1971 SBD source, with only occasional piano‑mic distortion and a brief kick‑drum buzz. Musically the band is tight and energetic, delivering standout performances of Loser, Truckin', Black Peter, Ramble On and an extended Other One > B McGee > Other One sequence that smokes. Overall the show feels high‑energy and well‑structured, making it a favorite among fans despite minor sound quirks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average star rating across 15 reviews is ~4.2; most reviewers praise both performance and sound quality, with only a few noting minor audio flaws."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and crisp for an analog 1971 SBD, but occasional piano‑mic distortion (Keith), brief buzz on the kick drum, and a cut at the intro of Casey Jones are mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Loser",
+        "Truckin'",
+        "Black Peter",
+        "Ramble On",
+        "The Other One > B McGee > The Other One",
+        "Mr. Charlie"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Tight, well‑structured set with strong song transitions; the band sounds cohesive and the performance mirrors the later European ’72 vibe.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Soaring solo work praised; takes more spotlight with standout ballads and improvisations.",
+      "Phil": "Hooks up tightly with Jerry and Keith during extended jams, providing strong bass foundation.",
+      "Bob": "",
+      "Keys": "Keith’s piano mic shows occasional distortion, but his keyboards churn out tumbling rhythms and are noted as having found their place in the band’s sound.",
+      "Drums": "Kick drum buzz noted briefly; overall drumming supports the high‑energy flow."
+    },
+    "processed_date": "2025-09-07T21:05:45.410198+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-12-06.sbd.kaplan.2418.sbeok.shnf"
+  }
 }

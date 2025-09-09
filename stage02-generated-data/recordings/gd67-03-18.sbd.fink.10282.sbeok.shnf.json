@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.709090909090909,
   "high_ratings": 52,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a high‑energy 1967 Winterland show – the band roars through The Same Thing, Viola Lee Blues and Dancin’ in the Streets, with generally good tape quality despite occasional hiss and volume quirks.",
+    "review": "This recording delivers one of the most exciting early‑Dead performances, highlighted by a blistering take on The Same Thing and rare renditions of Golden Road, Cream Puff War and Viola Lee Blues.  While the tape shows the expected 1967 hiss, drop‑outs and occasional over‑loud guitar, it remains listenable and showcases the band’s fast, tight playing at the height of their psychedelic surf‑blues period.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "The overwhelming majority of reviews are 4‑ or 5‑star, praising the show’s energy and standout songs while noting only moderate recording flaws; the weighted average (70 % show + 30 % recording) yields a strong rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear for a 1967 tape but exhibits hiss, occasional drop‑outs and moments where Jerry’s guitar is overly loud; volume adjustments can be distracting but the recording remains listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Same Thing",
+        "Viola Lee Blues",
+        "Dancin' in the Streets",
+        "Golden Road",
+        "Cream Puff War"
+      ],
+      "poor_songs": [
+        "He Was a Friend of Mine (weak vocal)",
+        "Death Don't Have No Mercy (cut off end)"
+      ],
+      "setlist_flow": "A fast, frenetic set that mixes early blues covers with rare originals; the first set builds momentum with tight, rapid‑tempo playing while the second set delivers historic rarities and extended jams.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for scorching, fiery solos and his distinctive Guild/Starfire hollow‑body tone; occasionally too loud in the mix but generally a highlight of the night.",
+      "Phil": "Recognized for strong, developing bass work – especially dueling with Jerry on Viola Lee Blues – marking an early breakthrough in his playing.",
+      "Bob": "Vocals described as warbly and out of tune on several numbers, limiting his contribution despite solid rhythm guitar.",
+      "Keys": "Pigpen’s organ and vocal blues are highlighted (though the organ is faint early in the set, becoming clearer later); no mention of other keyboardists.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T06:38:02.695090+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd67-03-18.sbd.fink.10282.sbeok.shnf"
+  }
 }

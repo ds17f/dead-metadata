@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.681818181818182,
   "high_ratings": 20,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with some hiss and early‑stage feedback, yet captures a high‑energy 1969 show highlighted by a smoking Dark Star and a monster Lovelight.",
+    "review": "The audience‑sourced soundboard tape is raw – noticeable hiss and a brief bout of feedback in the opening minutes – but it remains clear enough to enjoy. Musically the concert erupts after a shaky start, delivering an incendiary Dark Star, a soaring Eleven, and arguably the best Lovelight of the era, with Pigpen driving the crowd and Jerry’s guitar soaring. Overall the performance is energetic and memorable despite a few rough early numbers.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "The majority of reviews are 4‑5 stars, praising the show’s energy and standout jams while noting only minor recording flaws; this consensus yields a strong positive rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Raw tape with noticeable hiss and early‑set feedback, but overall clear and listenable; occasional roughness in the first four songs does not detract from the main performance."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Lovelight",
+        "Eleven"
+      ],
+      "poor_songs": [
+        "Mama Tried (trainwreck)",
+        "Casey Jones (early rough version)",
+        "High Time (vocal issues)"
+      ],
+      "setlist_flow": "The first few songs are a bit rough, but the band quickly gains momentum; the second set builds into extended jams that drive the concert to a high‑energy climax.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar work is praised (especially in Lovelight) and he provides strong backing vocals on Mama Tried, though his early‑set vocals are noted as rough.",
+      "Phil": "",
+      "Bob": "Pigpen’s stage antics, off‑key shouts, and crowd‑working during Lovelight are highlighted; also mentioned hobbling with a cast earlier in the show.",
+      "Keys": "Tom Constanten’s organ contributions shine on the Eleven and add texture throughout the set.",
+      "Drums": "The drum intro to Lovelight is described as groovy and syncopated, with tight playing overall."
+    },
+    "processed_date": "2025-09-08T13:57:05.477245+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-07-07.sbd.clugston.3116.sbeok.shnf"
+  }
 }

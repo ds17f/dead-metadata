@@ -7,12 +7,46 @@
   "source_type": "SBD",
   "lineage": "Transfer info: Tascam DA-302 > Sound Devices 722 (digital transfer)",
   "taper": "Recorded by Augustus Owsley Stanley III (aka Bear)",
-  "source": "Bear\u2019s Ampex cassette (or possibly reel) SBD master > DAT (provided by Anon)",
+  "source": "Bear’s Ampex cassette (or possibly reel) SBD master > DAT (provided by Anon)",
   "runtime": "141:28.31",
   "rating": 3.733333333333334,
   "review_count": 3,
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Stunning 1969 show highlighted by an epic Baby Blue and definitive Friend of Mine, captured on a soundboard transfer that suffers from noticeable hiss.",
+    "review": "The performance is universally praised – the whole concert is described as stunning with Baby Blue soaring and Friend of Mine delivered as a definitive version. The soundboard source provides a clear picture of the band, though one reviewer notes added hiss compared to earlier transfers, making the audio quality only fair.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "medium",
+      "rationale": "High praise for musical performance (≈4.8) offset by a consistent complaint about hiss in the recording (≈3.5); weighted average yields ~4.4."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Increased hiss compared to earlier transfers; some loss of warmth, but overall still listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Baby Blue",
+        "Friend of Mine"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Cohesive and high‑energy set that flows naturally, delivering psychedelic peaks throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:04:26.682314+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-05-31.167820.sbd.anon.gems.flac16"
+  }
 }

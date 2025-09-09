@@ -14,5 +14,43 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a blistering 1968 psychedelic set, highlighted by Dark Star, The Eleven, a massive Spanish jam and an epic The Other One.",
+    "review": "The three five‑star reviews rave about the pristine, well‑preserved soundboard tape that lets every organ swirl and Garcia’s vocals shine. Musically the show is described as “hot” and high‑energy, featuring rare early versions of future classics, long psychedelic passages, and seamless transitions between sets.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "All reviewers give 5 stars, praising both the stellar musical performance (high energy, standout jams) and the excellent recording quality; consistent positive feedback yields a near‑perfect rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Described as amazing and well‑preserved for a 45‑year‑old tape; clear, crisp mix with no major flaws mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Eleven",
+        "Spanish Jam (15‑minute improvisation)",
+        "The Other One",
+        "Schoolgirl",
+        "New Potato"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong psychedelic flow with a vivid first‑set jam leading into a tightly linked Cryptical > The Other One > Cryptical sequence; transitions praised as seamless and the overall pacing described as blazing.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar tone and passionate vocal delivery are highlighted throughout, especially on Dark Star and The Other One.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Organ work is noted as good and adds to the psychedelic texture of the jams.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T07:35:28.462214+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-01-17.sbd.jeff.3927.shnf"
+  }
 }

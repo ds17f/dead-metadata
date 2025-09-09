@@ -14,5 +14,42 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a wild 1969 show featuring stellar guests and a mind‑blowing Dark Star/Caution marathon",
+    "review": "The recording, sourced from the soundboard, delivers crystal‑clear audio that lets listeners soak in the chaotic yet inspired first half and the soaring second‑set jams. Reviewers rave about the guest fiddler/saxophonist, David Nelson’s Mama Tried solo, the beautiful High Time, and especially the incendiary Lounge Lizard → Dark Star → 40‑minute free‑jazz Caution stretch.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "low",
+      "rationale": "Single 5‑star review praises both the musical performance (high energy, standout jams) and indicates a high‑quality soundboard source; limited data reduces confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No technical complaints; soundboard FLAC24 provides clear, detailed mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "High Time",
+        "Lounge Lizard",
+        "Dark Star",
+        "Caution (free‑jazz stretch)",
+        "Mama Tried (David Nelson solo)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First half described as organized chaos with vocal duels, transitioning into a beautiful full‑band High Time before launching into an extended, experimental jam sequence.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia is highlighted for sharing verses on Hi‑Heel Sneakers and his overall presence in the chaotic first half.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:10:24.332215+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-08-03.137365.sbd.miller.eaton.flac24"
+  }
 }

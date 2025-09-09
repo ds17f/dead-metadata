@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a tasty electric set with solid performance and clear recording.",
+    "review": "The electric portion of this show is described as “mighty tasty,” indicating a strong, enjoyable performance. The recording is a soundboard (sbd) source and no technical complaints are noted, suggesting good clarity and mix quality.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "A single 4‑star review highlights a pleasing performance and acceptable soundboard quality; limited data keeps confidence at medium."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No specific issues mentioned; reviewer implies the soundboard capture is clear enough for enjoyment."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Electric set flows well with tasty cuts, though no detailed song breakdown is provided.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T16:03:03.739391+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-12-26.136636.electric.sbd.mr.cass.sirmick.flac1648"
+  }
 }

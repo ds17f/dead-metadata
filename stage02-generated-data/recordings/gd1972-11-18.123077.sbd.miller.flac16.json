@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.875,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 11/18/1972 Houston show with a smoking Playing in the Band and solid soundboard source that’s good overall despite minor speed/pitch quirks",
+    "review": "The performance is hailed as one of the band’s peak ’72 shows – Phil “bombs” on bass, Jerry’s wah‑infused tone shines, and the second set (Deal → Playing in the Band → Uncle John’s) is described as a relentless, joyous groove. The recording is a soundboard (SBD) that most listeners find clear and balanced, though a few note slight wow and pitch‑shift issues on certain tracks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Overwhelmingly enthusiastic comments about the music (standout jams, high energy) combined with generally favorable notes on the soundboard quality (clear but with minor speed/pitch quirks) yield a strong rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear SBD mix, but some listeners report slight wow in early tracks and pitch‑correction needs on Jack Straw/He's Gone; occasional cuts in Sugar Magnolia."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing In The Band",
+        "Deal",
+        "Uncle John's Band",
+        "Greatest Story Ever Told",
+        "Bertha",
+        "He's Gone"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set is the highlight, building from a mellow Bertha into a rapturous Greatest Story and then a marathon Playing In The Band that drives the night’s momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His wah‑infused tone and big grin are repeatedly praised; his guitar work is called “incredible” and “locked in”.",
+      "Phil": "Described as an \"absolute animal\" who \"bombs\" on bass, providing the driving force throughout the jam.",
+      "Bob": "Vocal phrasing noted as locked perfectly with Bill’s drumming; praised for his melodic contributions.",
+      "Keys": "Keith's tasteful fills are highlighted during the improvisational sections.",
+      "Drums": "Bill Kreutzmann’s drumming is called tight and supportive, helping keep the groove solid."
+    },
+    "processed_date": "2025-09-08T04:10:43.558190+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-11-18.123077.sbd.miller.flac16"
+  }
 }

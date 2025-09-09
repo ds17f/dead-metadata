@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a very good show, highlighted by the memorable power‑out moment during Lovelight where the drums kept rolling.",
+    "review": "Both reviewers gave the recording five stars, praising the overall performance and noting the unique incident when the lights went out during the Lovelight segment while the drummers continued playing. No specific complaints about audio fidelity were mentioned, suggesting the soundboard source is clear enough for enjoyment.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "medium",
+      "rationale": "High star ratings and enthusiastic comments indicate a strong show; recording quality is assumed good given the .sbd source and lack of negative remarks."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on sound issues; reviewers' high ratings imply acceptable clarity and balance."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Not detailed in reviews.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T09:58:37.661026+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-01-24.sbd.miller.109640.flac16"
+  }
 }

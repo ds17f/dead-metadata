@@ -14,5 +14,42 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Great audience recording that captures long, hot jams on Playin', Truckin' and The Other One with a memorable Stars & Stripes encore.",
+    "review": "The tape offers a listenable audience sound – loud sections are clear while the keyboards slip into mush during quieter moments. Musically the show is a classic fall‑72 performance featuring extended jams, an impassioned Stella Blue, and a plucky Stars & Stripes finale despite Phil’s early exit.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Three consistent reviews (two 4‑star, one 5‑star) praise the show’s energy and jams while noting only minor recording quirks, yielding a solid above‑average rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Loud sections are clear and punchy; keyboards get lost in the mush during quiet passages, especially near the end of Playin'. Overall a listenable audience capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playin' in the Band",
+        "Truckin'",
+        "The Other One",
+        "Stella Blue",
+        "Stars & Stripes"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Long, flowing jams with extended improvisations; a spacey section after The Other One and an energetic encore that kept the momentum high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Featured in the plucky Stars & Stripes rendition; no specific performance critique beyond presence.",
+      "Phil": "Absent for most of the show, reportedly left backstage early.",
+      "Bob": "",
+      "Keys": "Keyboards become muffled in quieter sections, especially near the end of Playin'.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:08:16.852241+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-09.aud.sirmick.32036.flac16"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.75,
   "high_ratings": 6,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording with noticeable mud, hiss and splices, but captures a fiery set highlighted by Dark Star, The Eleven and Doin’ That Rag.",
+    "review": "The performance is widely praised – the second half of Dark Star unfolds beautifully, The Eleven roars, and Doin’ That Rag shines – giving the show a high‑energy, “holy trinity” feel.  The soundboard source suffers from muddy mids, occasional hiss and splice edits that remove bits of material, so while the music is compelling, the listening experience is somewhat compromised.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the musical performance 4‑5 stars, but several flag serious recording flaws (muddy sound, splices, missing sections). Weighted average of show (≈4.2) and recording (≈3.0) yields a combined rating around 3.8."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Mud‑filled mids likened to old Ampex tape, hissy background and missing bits, noticeable splices that cut out a chunk of Dark Star; low tom‑cymbal mix noted as beneficial; listeners suggest EQ tweaks for better clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Eleven",
+        "Doin' That Rag"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong second‑half momentum with the classic Dark Star → St. Stephen → The Eleven “holy trinity” sequence; transitions feel tight and exploratory.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s solo work is described as “trippy” and a highlight of the show.",
+      "Phil": "Lesh’s bass is praised for its power (“boom bass bombs”) and sits well low in the mix.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T11:16:31.353418+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-03-29.sbd.vinson.1764.sbeok.shnf"
+  }
 }

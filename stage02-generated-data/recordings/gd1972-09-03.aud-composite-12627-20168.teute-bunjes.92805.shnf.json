@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 1.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Negative one‑star rating with vague comment; no concrete details on recording or performance quality",
+    "review": "The sole review is a brief, one‑star remark that offers no specifics about the soundboard source, mix clarity, or musical highlights. With such limited feedback it’s impossible to assess the show’s setlist, energy, or individual player contributions, other than noting the reviewer’s overall dissatisfaction.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.2,
+      "confidence": "low",
+      "rationale": "Only a single, terse 1‑star review is available; it provides no detail beyond a negative impression, so the rating reflects the reviewer’s low score with minimal confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "No explicit comments on sound quality or source; reviewer gave a negative rating without elaboration."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T02:02:23.495340+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-03.aud-composite-12627-20168.teute-bunjes.92805.shnf"
+  }
 }

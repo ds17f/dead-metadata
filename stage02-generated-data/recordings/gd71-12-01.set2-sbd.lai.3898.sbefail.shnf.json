@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 4.75,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard stereo capture that puts Keith front‑and‑center, highlighted by a smoking Cryptical → Drums → The Other One > Me & My Uncle > The Other One sequence and high energy throughout.",
+    "review": "This set delivers a high‑energy performance anchored by an outstanding Cryptical/Other One suite that many reviewers call pure magic. The soundboard recording is clean, well‑balanced and stereo‑rich, with Keith’s keyboards shining while Bob’s rhythm guitar is slightly buried. Overall the show is praised as astounding and the technical quality is superb.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Consistently high praise for both musical performance (standout sequences, high energy) and recording clarity; minor comment about Bob's rhythm guitar does not detract significantly."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear, clean stereo mix with excellent definition; Keith’s keyboards are prominent and not washed out. Some reviewers note Bob Weir's rhythm guitar is hard to hear, but overall the recording is crisp and well balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cryptical Envelopment > Drums > The Other One > Me and My Uncle > The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Seamless segue through the Cryptical/Other One suite creates a magical second‑set flow; reviewers describe the whole set as astounding and pure magic.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Tight, lock‑step playing that contributes to the 'smoking fire' feel of the performance.",
+      "Phil": "Leads the interplay during the Cryptical/Other One segment; bass work praised as strong and central.",
+      "Bob": "Rhythm guitar is difficult to discern in the mix; no specific musical praise noted.",
+      "Keys": "Keith's keyboards are front‑and‑center, not washed out; many call this his best performance.",
+      "Drums": "Solid, tight drumming (referred to as an '8‑armed serpent' feel); provides a strong backbone for the segues."
+    },
+    "processed_date": "2025-09-07T20:47:21.266641+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-12-01.set2-sbd.lai.3898.sbefail.shnf"
+  }
 }

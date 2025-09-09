@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 30,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "An excellent soundboard capture of one of ’69’s most electrifying shows, highlighted by a cosmic Dark Star, soaring St. Stephen and blistering Eleven/Lovelight.",
+    "review": "The recording is a clean, open‑sounding soundboard tape with a slightly forward drum mix that lets every nuance shine. Musically the performance is pure fire – Mountains of the Moon segues into a legendary Dark Star, followed by an incendiary St Stephen/William Tell and the thunderous Eleven/Lovelight pair, plus the wild Cryptical > O‑1 > Cryptical suite and a monster Doin’ That Rag jam. Energy is consistently high and the band is locked in, making this a benchmark 1969 concert.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "Over 30 enthusiastic reviews (virtually all 5‑star) praise both the musical performance and the audio quality; only minor non‑musical complaints appear, so the combined show + recording rating is near top‑tier."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, open mix with good instrument separation; Bobby’s drums are a touch louder than on Live/Dead but add excitement. No noticeable drop‑outs or muddiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "St. Stephen / William Tell",
+        "The Eleven",
+        "Lovelight",
+        "Mountains of the Moon → Dark Star transition",
+        "Cryptical Envelopment > O‑1 > Cryptical (Other One suite)",
+        "Doin' That Rag jam"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Seamless transitions – Mountains of the Moon sets up Dark Star, which leads into a powerful St. Stephen/William Tell; the second set builds with The Eleven and Lovelight before the sprawling Other One suite, keeping momentum high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His solo on Dark Star is described as soaring, jazzy, and ‘cosmic’; co‑leads with the organ are praised.",
+      "Phil": "Called a “thunder” on bass during The Eleven; his playing is highlighted as a key driver of the show’s intensity.",
+      "Bob": "Noted for fluid right‑hand rhythmic fills and strong vocal contributions, especially on Doin' That Rag.",
+      "Keys": "Organ interplay with Jerry is called stellar (especially on The Other One suite).",
+      "Drums": "Bobby (the drummer) is louder in the mix than on Live/Dead; his introductions and “Thumpy & Drumstick” banter are celebrated."
+    },
+    "processed_date": "2025-09-08T10:46:18.960038+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-02-27.sbd.16track.kaplan.6315.sbeok.shnf"
+  }
 }

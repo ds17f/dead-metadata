@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.3,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 1971 show highlighted by a monster “The Other One” suite and strong second‑set jams.",
+    "review": "This recording is widely praised as one of Charlie Miller’s best soundboard tapes, delivering clear, crisp audio despite occasional tape hiss and a slightly recessed Jerry mix. Musically the concert shines with an expansive “The Other One” sequence, standout renditions of “Me & Bobby McGee,” “Black Peter,” and “Comes A Time,” and a generally high‑energy performance that places this night among the band’s peak ’71 outings.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "The majority of reviews (8+ out of 12) award 4–5 stars and highlight both superb playing and a high‑quality recording; only minor criticisms about mix balance keep the rating just shy of perfect."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear sound with good instrument separation; occasional tape hiss on first set and Jerry’s guitar sits a bit low in the mix for some listeners."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One (monster suite)",
+        "Me & Bobby McGee",
+        "Black Peter",
+        "Comes A Time",
+        "Johnny B. Goode",
+        "Bertha (notable solo)"
+      ],
+      "poor_songs": [
+        "Bertha (first set not tight)"
+      ],
+      "setlist_flow": "First set is uneven but solid, featuring a strong “Me & Bobby McGee” and decent new material; second set is the highlight with an extended, high‑impact ‘The Other One’ and tight transitions.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Often described as 'on' with great tone, though a few reviewers note his guitar is buried in the mix.",
+      "Phil": "Consistently praised for powerful, “great” bass work throughout the show.",
+      "Bob": "Recognized for solid rhythm and vocal contributions; highlighted on ‘Me & Bobby McGee.’",
+      "Keys": "Keith Godchaux’s early piano playing is noted as impressive yet still learning; some wish organ had been present on ‘Playing In The Band.’",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:52:14.102360+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-10-22.sbd.gans.miller.112821.flac16"
+  }
 }

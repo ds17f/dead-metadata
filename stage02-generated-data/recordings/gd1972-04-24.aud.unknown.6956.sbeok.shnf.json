@@ -14,5 +14,40 @@
   "confidence": 0.8,
   "raw_rating": 2.75,
   "high_ratings": 1,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Muddy audience tape with noticeable hiss, but a laid‑back Dark Star sequence shines through",
+    "review": "The recording is an audience‑sourced cassette that suffers from hiss and muffled vocals, making it difficult to listen to for many fans. Musically the show offers a relaxed Dark Star > Me & My Uncle > Dark Star > Wharf Rat stretch that some reviewers enjoy, though the poor audio masks much of the performance.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.5,
+      "confidence": "medium",
+      "rationale": "Show quality is modest with a few standout moments, but recording quality is consistently described as poor or unlistenable, pulling the overall rating down."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Heavy cassette hiss, muffled vocals and instruments, occasional drop‑outs; listeners note it is not easily listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Me & My Uncle",
+        "Wharf Rat"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Loose and laid‑back, with a long Dark Star segment that feels spaced out rather than tight.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith's playing is noted as fitting right in despite the poor sound quality.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T23:25:44.306413+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-04-24.aud.unknown.6956.sbeok.shnf"
+  }
 }

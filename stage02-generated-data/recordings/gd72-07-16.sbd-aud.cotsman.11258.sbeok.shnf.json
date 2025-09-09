@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.333333333333333,
   "high_ratings": 24,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Matrix recording with mixed sound quality captures a legendary Allman‑Dead jam and Dickey Betts guests, delivering a hot, high‑energy set.",
+    "review": "The show is celebrated for its explosive second‑set jams – especially the NFA > Good Lovin' > Hey Bo Diddley sequence, the massive Truckin’ → The Other One stretch and the first ever performance of “Mississippi Half‑Step Uptown Toodleloo.”  While the soundboard portions are solid, the audience tracks are hissy and uneven, giving the recording a fair overall fidelity.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the musical performance (high‑energy jams, special guests) despite noting mixed technical quality; weighted average of show (~4.5) and recording (~3.0) yields ~4.1."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Soundboard sections are decent but contain hiss; audience portions are low‑fidelity, especially early tracks. Mix is uneven – Phil’s bass and Keith’s keyboards sometimes overpower other instruments."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Not Fade Away (NFA)",
+        "Good Lovin' (GDTRFB)",
+        "Hey Bo Diddley",
+        "Truckin'",
+        "The Other One",
+        "Cumberland Blues",
+        "Mississippi Half‑Step Uptown Toodleloo (first performance)",
+        "Stella Blue"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Three‑part show with a strong first set, an epic second set jammed with Allman Brothers guests, and a memorable encore; the flow builds to a fiery climax.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Ripping leads like a madman; notable call‑and‑response with Dickey Betts during the jams.",
+      "Phil": "Bass is massive and pushed forward in the mix, especially on the Allman jam sections.",
+      "Bob": "",
+      "Keys": "Keith’s keyboards are very high in the mix to the point of distortion on some tracks.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T00:47:02.622058+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-07-16.sbd-aud.cotsman.11258.sbeok.shnf"
+  }
 }

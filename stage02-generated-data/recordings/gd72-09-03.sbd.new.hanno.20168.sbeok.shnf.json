@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.315789473684211,
   "high_ratings": 15,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A historic 1972 Boulder show bursting with monster jams like The Other One and China>Rider, captured on a mixed audience/soundboard tape that’s rough at the start but shines after the rain‑interrupted first set.",
+    "review": "The performance is legendary – three sets of high‑energy playing, rain‑soaked improvisations, and memorable moments such as The Other One (30 min), Cold Rain & Snow opening the post‑storm set, and a scorching Not Fade Away/Go to Heaven jam. Recording quality varies: early audience tracks are muddy with dropouts, but once the soundboard feed takes over the mix becomes clear and vivid. Fans overwhelmingly praise the show despite the technical quirks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Average user rating is ~4.5; reviewers consistently rave about the musical performance (≈4.8) while noting mixed technical quality (≈3.5). Weighted blend yields a 4.4‑star overall rating."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "First eight tracks are audience recordings with mud, dropouts and occasional “under water” sound due to rain‑related arcing; from Bertha onward the tape switches to a soundboard feed that is much clearer. Overall listenable but inconsistent."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "China > I Know You Rider",
+        "Cold Rain & Snow",
+        "Not Fade Away / Good Times Bad Times / Not Fade Away",
+        "Truckin'",
+        "Johnny B. Goode"
+      ],
+      "poor_songs": [
+        "Casey Jones (average)",
+        "Bertha (early mix issues)"
+      ],
+      "setlist_flow": "Three‑set marathon interrupted by a rainstorm; the first set is raw but builds, the second set recovers after the break with soaring jams, and the third set delivers fire‑starter performances. The rain added an unusual ambience that the band turned into kinetic energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for blistering guitar tone, “tiger guitar” on The Other One, wailing solos on China>Rider and Not Fade Away; described as flawless and beyond human.",
+      "Phil": "Noted for strong bass work and a tight realignment with Billy during The Other One; occasional “Phil bombs” vibe mentioned.",
+      "Bob": "Bob Weir introduced new members Keith & Donna, delivered humorous banter (Tina Turner impression) and solid vocals on several numbers.",
+      "Keys": "Keith (and Donna) highlighted as the newest keyboard players, adding fresh texture; no further specific comments.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T01:59:58.320436+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-09-03.sbd.new.hanno.20168.sbeok.shnf"
+  }
 }

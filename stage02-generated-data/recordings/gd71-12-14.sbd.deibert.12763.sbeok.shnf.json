@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.8,
   "high_ratings": 49,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A crystal‑clear Betty Cantor soundboard capture of a high‑energy late‑1971 Ann Arbor show featuring smoking versions of Sugaree, Mr. Charlie, The Other One and Wharf Rat.",
+    "review": "The recording is an outstanding Betty Cantor soundboard mix – every instrument sits perfectly with crisp drums and brilliant piano/organ balance. Musically the band is in top form: tight first‑set playing gives way to a marathon Other One suite and a soaring Wharf Rat, with Jerry’s voice, Phil’s bass runs and Keith’s expressive keys all shining. Overall the show feels like one of the peak moments of the 1971 period.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "Over 90 % of reviews are 5‑star, consistently praising both the superb soundboard mix and the show’s high energy and standout performances; only a single low‑rating comment is unrelated to performance."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Betty Cantor board, crisp and clear throughout; every instrument – especially Bill's drums – is well defined. Minor tape‑glitches noted by a few reviewers but they do not detract from the overall superb fidelity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Sugaree",
+        "Mr. Charlie",
+        "The Other One (suite)",
+        "Wharf Rat",
+        "Jack Straw",
+        "Lovelight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Tight, well‑structured first set leading into an expansive second set with seamless transitions (NFA → GDTRFB, Cryptical → Drumz → Other One). The marathon Other One suite and the climactic Wharf Rat provide a powerful arc.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals are among his best; guitar tone is sweet on the Strat, interweaving leads with Bob during Truckin' and strong solo work throughout.",
+      "Phil": "Bass runs are angular and powerful, especially in the middle jam of The Other One suite.",
+      "Bob": "Rhythmic playing is funky and tight; shares lead moments with Jerry on Truckin'.",
+      "Keys": "Keith Godchaux delivers delicate, expressive piano/organ work; Pigpen’s soulful organ and vocal contributions (e.g., Mr. Charlie, Black Peter) are highlighted.",
+      "Drums": "Bill Kreutzmann's drums are crystal clear in the mix, driving the band with a swinging, tight feel."
+    },
+    "processed_date": "2025-09-07T21:20:39.643039+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-12-14.sbd.deibert.12763.sbeok.shnf"
+  }
 }

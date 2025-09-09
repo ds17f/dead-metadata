@@ -14,5 +14,38 @@
   "confidence": 0.8,
   "raw_rating": 3.5,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Great 1972 performance with a highlight on “Loser,” but the grainy, audience‑heavy recording makes it hard to enjoy.",
+    "review": "Fans rave about the energy of this 1972 show and single out “Loser” as an excellent moment, even describing it as a great introduction to the Dead. Unfortunately, multiple reviewers note that the sound is very dodgy – low vocals, grainy fidelity, and an audience mix that drowns out the band – rendering the recording difficult for most listeners.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.6,
+      "confidence": "medium",
+      "rationale": "While the musical performance receives high praise from a few reviewers, the overwhelming consensus is that the recording quality is poor, heavily lowering overall enjoyment."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Grainy, low‑level vocals, audience sounds too high in the mix; overall dodgy and difficult to listen to."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Loser"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure; reviewers focus on overall vibe rather than transitions.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:43:18.966264+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-03-27.aud.hanno.15816.sbeok.shnf"
+  }
 }

@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.933333333333334,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A high‑energy November 1971 Harding Theatre show captured on a FM‑matrix feed – fuzzy in spots but brimming with smoking renditions of Me & My Uncle, Dark Star/Other One and the classic NFA→Goin’ Down The Road Feeling Bad→NFA run.",
+    "review": "The performance is consistently described as one of the band’s finest of ’71, highlighted by a scorching Me and My Uncle, an epic Dark Star → The Other One suite and flawless transitions like Not Fade Away → Goin’ Down the Road Feeling Bad → Not Fade Away.  Technically the recording suffers from FM‑broadcast interference, occasional drop‑outs and a bit of keyboard distortion, but listeners deem it still very listenable and worth repeated spins.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Over ten detailed 5‑star reviews praise the musical performance with only minor, consistent comments about audio fuzziness; the weighted average of show (≈5) and recording (≈4) yields a high overall rating."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "FM broadcast feed introduces extra‑heterodynamic interference, occasional dropouts and slight keyboard distortion; overall clarity is acceptable but not pristine."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Me and My Uncle",
+        "Dark Star > The Other One",
+        "Not Fade Away > Goin' Down the Road Feeling Bad > Not Fade Away",
+        "Comes a Time (Jerry vocal falsetto)",
+        "Tennessee Jed",
+        "Day Tripper",
+        "White Rabbit"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set is praised for seamless segues—especially the NFA→GDTRFB→NFA sequence and the Other One/Me & My Uncle/Other One sandwich—creating a flowing, high‑impact marathon that kept the audience enthralled.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His '57 Strat is described as guttural, solar‑plexus‑punching and he delivers a falsetto vocal on Comes a Time; overall guitar work is highlighted as smoking throughout.",
+      "Phil": "Noted for his banter and bass presence; no specific criticism of his playing.",
+      "Bob": "",
+      "Keys": "Keith’s piano is mentioned positively despite occasional distortion; reviewers note this was early in his tenure but still strong.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:21:30.176396+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-11-07.sbd.lai.2580.shnf"
+  }
 }

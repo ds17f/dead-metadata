@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.6923076923076925,
   "high_ratings": 12,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of a fire‑hot 1969 show, highlighted by an epic The Eleven and soaring Dark Star",
+    "review": "This upgraded soundboard release finally delivers the crisp, bright clarity that earlier muddy transfers lacked, despite a modest amount of tape hiss. Musically the concert is a high‑energy masterpiece—The Eleven is repeatedly called “epic,” Dark Star and Morning Dew receive glowing praise, and Phil’s bass is noted as being fired up while the drums drive the improvisations forward. Overall the performance is regarded as one of the band’s early‑period peaks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "The vast majority of reviews are 5‑star, praising both the upgraded recording quality and the show’s exceptional performances; only one low rating mentions hiss, so the weighted average is very high."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, bright sound with reduced muddiness compared to older copies; some reviewers note a persistent tape hiss but overall clarity is praised."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Eleven",
+        "Dark Star",
+        "Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth transitions (notably Lovelight) and a powerful second‑half arc; the show builds to an intense improvisational peak.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar work is highlighted as spectacular, especially during The Eleven and Dark Star, with moments of break but overall blazing speed and fluidity.",
+      "Phil": "Phil Lesh is described as “fired up” and his bass intro on Lovelight is praised.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "The drumming in The Eleven is called ‘crazy’ and the Dark Star outro features inspired, powerful playing."
+    },
+    "processed_date": "2025-09-08T10:38:43.460396+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-02-21.sbd.miller.111780.flac16"
+  }
 }

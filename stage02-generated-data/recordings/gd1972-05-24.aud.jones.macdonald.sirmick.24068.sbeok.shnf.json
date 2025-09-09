@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A rough but more listenable version of the show, hailed as the best among available recordings.",
+    "review": "The reviewer rates this tape four stars and calls it the \"gem\" compared to other posted versions, noting that while the audio is still a bit rough it is considerably more listenable. No specific musical moments are highlighted, but the overall impression is positive despite technical imperfections.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one review (4 stars) available; reviewer praises the recording as the best version despite calling it rough, leading to a solid but cautious rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Described as a 'rough listen' but more listenable than other versions; no specific details on soundboard or audience source."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T00:25:18.276837+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-05-24.aud.jones.macdonald.sirmick.24068.sbeok.shnf"
+  }
 }

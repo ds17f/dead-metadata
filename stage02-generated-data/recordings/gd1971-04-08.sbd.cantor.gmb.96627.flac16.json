@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A solid 1971 performance highlighted by a powerhouse Good Lovin' and an incredible Not Fade Away → Great Day Tripper → Not Fade Away run, with a short gorgeous Dark Star; recording quality isn’t commented on but the source appears to be a standard soundboard capture.",
+    "review": "The show is generally praised for its high‑energy moments – especially Good Lovin', the NFA>GDTRFB>NFA sequence and a tight Dark Star – while the Playin' in the Band fell flat for some listeners. Reviewers note only two Pigpen numbers (organ/B‑3) and debate whether Ned Lagin is on piano, but overall they consider it a good 1971 show worth hearing.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "All five reviews are 4‑star and focus on strong musical highlights with minor criticisms; recording quality is not mentioned, so the rating leans on show performance."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No reviewer comments on audio fidelity; filename suggests a soundboard source but this isn’t confirmed in the reviews."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "Not Fade Away > Great Day Tripper > Not Fade Away",
+        "Dark Star",
+        "I Second That Emotion"
+      ],
+      "poor_songs": [
+        "Playin' in the Band"
+      ],
+      "setlist_flow": "The set has a few high‑impact peaks (Good Lovin', NFA/GT/Fade, Dark Star) but overall feels uneven for 1971 standards; still regarded as an enjoyable, cohesive performance.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar work on the opening 'I Second That Emotion' is described as crunchy and solid.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Debate over piano – some claim Pigpen, others identify Ned Lagin playing cautiously in the background.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:20:21.904903+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-08.sbd.cantor.gmb.96627.flac16"
+  }
 }

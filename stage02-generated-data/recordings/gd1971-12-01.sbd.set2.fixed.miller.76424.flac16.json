@@ -14,5 +14,40 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1971 show highlighted by a monster Other One suite, captured on a solid soundboard recording with only minor technical quirks.",
+    "review": "Reviewers rave about the sprawling Other One sequence—cryptical envelopment, multiple drum and space sections, and Me & My Uncle jams—that they describe as a 30‑minute highlight of the Fall ’71 era. The soundboard source is generally praised for its clarity, though one user notes an odd duration mismatch between playback programs. Overall the performance is deemed “pure bliss” with strong contributions from Keith, Phil and Bob.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "The show receives enthusiastic praise for musical depth and energy, while the recording is mostly clean but has reported timing glitches; combined these yield a strong yet not flawless rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally crisp and well‑balanced; one reviewer reports a ~20% shorter duration when opened in Audacity versus media players, suggesting possible file‑handling oddities."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One (extended suite)",
+        "Me & My Uncle jam",
+        "Not Fade Away > Great Train Robbery > Not Fade Away"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A massive, multi‑part Other One adventure dominates the second set, weaving in drums, space, and Me & My Uncle sections; the flow is described as thrillingly unpredictable yet cohesive.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Noted for enjoying the new dynamics and being insistent on where the jams should go during the Other One sequence.",
+      "Bob": "Plays a nod to Weather Report Suite within the second Other One, adding a surprising melodic twist.",
+      "Keys": "Keith's entrance is highlighted as a “cowboy sandwich” that fuels the jam; his organ work adds flavor throughout.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:46:02.118320+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-12-01.sbd.set2.fixed.miller.76424.flac16"
+  }
 }

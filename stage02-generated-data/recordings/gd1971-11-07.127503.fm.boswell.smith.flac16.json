@@ -14,5 +14,40 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent FM broadcast of a high‑energy 1971 show with smoking Cumberland Blues and a barn‑burning Saturday Night/NFA combo.",
+    "review": "Both reviewers rave about the crystal‑clear FM source, calling it one of the best recordings of 1971. The performance is described as “high energy” with standout moments like a scorching \"Cumberland Blues\" and the legendary Not Fade Away > Good… > Not Fade Away sequence, plus a barn‑burner Saturday Night. Keith Godchaux’s fresh presence on keyboards adds an extra spark to the night.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "Both reviews give 5 stars, praising both the musical performance and the flawless FM recording; consistent high praise yields a near‑perfect rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "FM broadcast is described as crystal‑clear and excellent with no noted flaws or dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cumberland Blues",
+        "Saturday Night",
+        "Not Fade Away > Good... > Not Fade Away combo"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows with relentless energy, highlighted by fresh keyboard work and tight transitions, especially in the NFA/Good…/NFA sequence.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith Godchaux’s first tour brings fresh energy to many songs.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:19:26.233611+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-11-07.127503.fm.boswell.smith.flac16"
+  }
 }

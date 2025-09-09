@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.25,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear early‑70s soundboard capture of a classic Detroit show with standout Cumberland Blues and jammy Truckin, but mixed energy due to a restless audience",
+    "review": "The Miller‑sourced soundboard recording is generally crisp and captures the early ’71 tone that fans love, aside from a brief FM glitch in “Bertha”. Musically the concert delivers solid performances—blazing Cumberland Blues, a jammy Truckin, and an exciting NFA/GDTR sequence—but the night was marred by a vocal, demanding crowd and fewer segues than usual, giving it a mixed‑feel vibe.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Weighted average of show (≈4) and recording quality (≈4.5) yields ~4.2; many positive reviews with consistent praise for sound and performance, balanced by a few strong negative comments."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear early‑70s soundboard capture with crisp tone; occasional brief FM interference in \"Bertha\" noted but overall very listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cumberland Blues",
+        "Truckin'",
+        "NFA/GDTR (Not Fade Away / The Other One segment)",
+        "Big Railroad Blues"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Classic early‑71 setlist with solid playing, but the show suffered from long tuning breaks and a lack of segues, reflecting tension between band and audience.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his early ’70s guitar tone; occasional quirky lyric moment noted in \"Tennessee Jed\".",
+      "Phil": "Lesh’s dry remarks were highlighted, suggesting a slightly disengaged vibe.",
+      "Bob": "",
+      "Keys": "Early Keith (first tour) playing appreciated; keyboards add the period flavor.",
+      "Drums": "Billy Cobham‑style drumming praised; fans love the shows with just Billy on drums."
+    },
+    "processed_date": "2025-09-07T19:54:49.796185+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-10-23.sbd.miller.111673.flac16"
+  }
 }

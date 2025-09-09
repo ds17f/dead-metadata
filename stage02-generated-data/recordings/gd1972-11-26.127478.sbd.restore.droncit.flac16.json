@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Restored soundboard captures a fiery 1972 Texas show with smoking Dark Star > Me & Bobby McGee, Playin', Bird Song and tight band energy.",
+    "review": "The restored sound‑board source is generally clear and listenable, though a few listeners note occasional muffled sections and noise‑reduction artifacts. Musically the concert shines – Jerry ramps up the first set, Keith opens a jazzy second set, and the band delivers standout performances of Dark Star/Me & Bobby McGee, Playin', Bird Song, Box of Rain, Around And Around and Big River, keeping the energy high throughout.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Most reviewers give 5‑star ratings praising both performance and the dramatic restoration; only one gives a lower score due to sound issues, yielding an overall strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Restoration dramatically improves fidelity; generally crisp but some listeners note noise‑reduction artifacts and occasional muffled passages before 'Jack Straw'. Still fully listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > Me & Bobby McGee",
+        "Playin' in the Band",
+        "Bird Song",
+        "Box of Rain",
+        "Around And Around",
+        "Big River"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set builds momentum with Jerry gaining steam; second set opens with a jazzy Keith‑led 'Playin'', flows through extended jams (Bird Song, Dark Star) and tight rockers, ending on a high note.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Pulled into maelstroms and vortexes, picks up steam toward the end of the first set and delivers strong, soaring guitar work.",
+      "Phil": "Provides a walking bass line that drives 'Casey Jones', offers a tasteful solo in Dark Star; listeners are advised to boost his bass for full impact.",
+      "Bob": "Weir tears into 'Around And Around' and gives an impassioned vocal on 'Box of Rain'.",
+      "Keys": "Keith's jazzy playing opens the second set, adding vibrant, melodic keys throughout the show.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T04:29:09.634176+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-11-26.127478.sbd.restore.droncit.flac16"
+  }
 }

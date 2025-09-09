@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Exciting show with a jazzy China Cat Sunflower and solid soundboard recording",
+    "review": "Reviewers rave about the unusual, three‑minute jazzy intro to China Cat Sunflower on this July 12, 1969 performance, calling it one of the most amazing moments they’ve heard. The .sbd source suggests a clean soundboard capture that listeners find enjoyable, though no specific technical issues are noted.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Both reviewers gave high star ratings (5 and 4) and highlighted a standout performance; the recording is likely a clean soundboard source, but limited commentary reduces confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on clarity or flaws; filename indicates a soundboard capture that listeners found satisfactory."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Not described, but the highlighted jazzy intro suggests an engaging and unusual moment in the set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T14:04:12.787298+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-07-12.123433.sbd.latvala-lee-smith.flac24"
+  }
 }

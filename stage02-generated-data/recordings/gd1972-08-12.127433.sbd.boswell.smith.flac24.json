@@ -14,5 +14,42 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy ’72 show with a smoking Bird Song and Donna’s vocal on Across the Rio Grande, captured on a soundboard that suffers from cuts in Other One and Sugar Magnolia.",
+    "review": "The performance shines with a fiery first set – especially Bird Song, Playing In The Band and a spirited Ramble On – and a second‑set jam highlighted by Donna Jean’s soaring vocals on Across the Rio Grande. Recording quality is solid soundboard but marred by noticeable cuts in the middle of Other One and Sugar Magnolia, pulling the overall rating down to a high 4‑star level.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Review praises strong musical moments and energy (70% weight) while noting significant recording gaps (30% weight), resulting in a high‑four rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Generally clear mix with Phil’s bass audible, but the recording has cuts missing portions of Other One and Sugar Magnolia, reducing continuity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bird Song",
+        "Playing In The Band",
+        "Ramble On",
+        "Across the Rio Grande (Donna Jean vocal)",
+        "Sugar Magnolia (though cut)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong, punchy first set that lights up the crowd; second set settles into a relaxed jam vibe with memorable vocal moments.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Calls out Sugar Magnolia ('She can make happy any man alive') and is noted for his presence despite the cut in the song.",
+      "Phil": "Bass sits neatly in the mix, highlighted by reviewers as 'pretty neat'.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T01:19:37.695460+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-08-12.127433.sbd.boswell.smith.flac24"
+  }
 }

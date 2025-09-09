@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy show highlighted by a stellar Dark Star and the early “Main Ten” jam.",
+    "review": "Fans rave about the soaring jams, especially the Dark Star trek and the rare Main Ten (an embryonic Playing In The Band) that showcase the band at a creative peak. The soundboard source is praised as clear and well‑balanced, with no technical complaints beyond missing tracks in the archive. Overall it’s regarded as an outstanding 1969 performance.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high praise for both musical performance (70% weight) and soundboard clarity (30% weight) across multiple reviews."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No listeners noted audio flaws; the soundboard is described as clear and well‑balanced. Complaints focus on missing songs in the archive, not on the recording itself."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "\"Main Ten\" (early Playing In The Band jam)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Epic flow with a remarkable Dark Star journey and a seamless Main Ten segment; fans consider the set list unbeatable for this era.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:18:49.641237+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-11-08.sbd.wise.17433.shnf"
+  }
 }

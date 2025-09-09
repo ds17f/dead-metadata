@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of the 1971 Davis Gym show with a killer setlist, though one reviewer is baffled by a strange comment.",
+    "review": "The recording (a sound‑board source) is generally assumed to be clear and well‑balanced, typical for the era. Fans rave about the overall setlist and performance, calling it “killer,” while another listener posted an odd, negative remark without detail. No specific technical flaws or musical missteps were noted.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "low",
+      "rationale": "One enthusiastic 5‑star review praises the setlist and performance, while a second 0‑star comment offers no concrete criticism; limited data leads to a cautious mid‑high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on sound quality; assumed typical clear soundboard mix for the period."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Positive remarks highlight a strong, enjoyable setlist overall.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:35:12.318228+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-14.132733.sbd.matthews.wise-droncit.flac1648"
+  }
 }

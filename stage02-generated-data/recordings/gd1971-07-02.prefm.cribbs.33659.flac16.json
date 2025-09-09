@@ -14,5 +14,39 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of a solid night, highlighted by a smoking Hard to Handle and The Other One.",
+    "review": "Both reviewers rave about the pristine mix – organ and guitars sit up front, Bob’s rhythm is audible, and Phil’s bass sings with resonant reverb. The performance itself is described as “solid” and worthy of a historic Fillmore West finale, with Hard to Handle and The Other One standing out as the night’s peaks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "Consistently high praise for both the musical performance (high energy, standout songs) and the recording quality (excellent clarity), though only two reviews limit confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Excellent sound quality and instrument separation; organ not buried, Bob’s guitar clear, superb bass resonance with reverb intact after many years."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard to Handle",
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A solid, consistently engaging set that feels like a fitting final Fillmore West show; transitions smooth and energy sustained throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Praised for superb reverb‑rich bass resonance and overall powerful presence.",
+      "Bob": "Clearly mixed and audible, contributing to the solid overall sound.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:45:00.081499+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-07-02.prefm.cribbs.33659.flac16"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.2,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good‑sound soundboard capture of a 1971 show with solid playing but noticeable track‑gap hiccups and some untuned guitars.",
+    "review": "The recording is generally clear and “excellent” sounding, though several listeners note annoying two‑second gaps when the player jumps between tracks (Truckin', The Other One, Wharf Rat) that disrupt the flow. Musically the show is decent – Pigpen gets a nod as “Pig’s best,” but untuned guitars are mentioned, giving the performance a mixed‑energy feel.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "medium",
+      "rationale": "Positive remarks on sound quality and some standout moments balance against criticisms of track gaps and tuning issues; overall rating falls in the good‑to‑fair range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear, crisp audio praised as \"excellent sound,\" but listeners report two‑second hiccups when advancing tracks and a brief glitch on Bobby McGee, indicating minor digital stitching issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "The Other One",
+        "Wharf Rat"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Set flows well musically but is interrupted by track‑change gaps that break the listening experience.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Phil reportedly called this \"Pig's best\" in a band history book, highlighting Pigpen’s contribution.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:53:24.020123+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-21.sbd.lai.2578.sbefail.shnf"
+  }
 }

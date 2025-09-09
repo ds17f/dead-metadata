@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Review notes an incorrect date tag; no information on audio or performance quality.",
+    "review": "The sole reviewer points out that the recording is mislabeled and should be dated 2/27/69 (Set 1). No comments are made about the soundboard, audience mix, or musical performance, leaving the actual recording and show quality undefined.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.0,
+      "confidence": "low",
+      "rationale": "Only one brief review with a zero‑star rating; no substantive data on music or audio quality to support a higher rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No reviewer comments on clarity, mix, or source type."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T10:48:35.582234+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-02-27.153339.PandP-aud.martin.tobin.flac16"
+  }
 }

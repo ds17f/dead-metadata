@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.333333333333333,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Pristine flat‑transfer soundboard capture of a fiery ’69 San Francisco show, highlighted by an acoustic Dupree's Diamond, a smoking The Eleven and a monster Other One.",
+    "review": "The multi‑track SBD transfer is praised for its crystal‑clear, “flat” fidelity that lets every vocal nuance and instrumental detail shine, despite occasional pitch‑correction quirks. Musically the performance is high‑energy with standout moments in Dupree's Diamond (acoustic), The Eleven, Other One and Lovelight, though Hey Jude falls flat. Overall listeners find the show exhilarating and the recording superb.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high praise for both performance (energy, standout songs) and technical sound quality; only minor negative notes on a few songs and occasional patchiness."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Flat transfer praised as the cleanest possible copy – crisp, clear vocals and instruments, well‑balanced mix. Some reviewers note pitch‑correction adjustments and occasional patchy sections, but overall the sound is superb."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dupree's Diamond Blues (acoustic)",
+        "Mountains of the Moon",
+        "The Eleven",
+        "Other One",
+        "Lovelight"
+      ],
+      "poor_songs": [
+        "Hey Jude",
+        "Dark Star"
+      ],
+      "setlist_flow": "First set opens strong and moves smoothly into an acoustic‑rich second set; transitions are solid, with the high point being The Eleven followed by a tight Lovelight before a weaker Hey Jude finale.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for his soaring tone, acoustic work on Dupree's and Mountains, and dominant presence throughout; described as “dwarfing” the band in talent.",
+      "Phil": "Noted for a standout solo on New Potato and inspired licks alongside Jerry during The Eleven (“Phil/Jer axis”).",
+      "Bob": "Weir highlighted for blazing trails in The Eleven’s first half, though not heavily featured elsewhere.",
+      "Keys": "Organ at 15:05 singled out as “prime time” by a reviewer; overall keyboard work appreciated on Lovelight and other jams.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T10:56:57.405398+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-03-01.132657.healy-latvala-wise.sbd.multi.track.flac16"
+  }
 }

@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.451612903225806,
   "high_ratings": 25,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Hissy soundboard recording of a historic June‑7 1969 show that delivers a smoking Love Light with Janis Joplin and a blazing Dark Star, despite lo‑fi audio.",
+    "review": "This tape captures one of the most talked‑about Dead concerts – the legendary Love Light duet with Janis Joplin and a ferocious ’69 Dark Star that burns with classic fire and brimstone.  The performance is high‑energy and full of standout moments (Love Light, Dark Star, The Eleven, Sittin’ on Top of the World, Dire Wolf), but the soundboard source suffers from hiss, limited dynamics and occasional tin‑can‑like sections.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Overwhelmingly enthusiastic comments about the musical performance (many 5‑star reviews) offset by consistent complaints about poor, hissy soundboard audio; weighted average yields a solid 4‑plus rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Noticeable tape hiss and limited dynamic range; some sections (Me & My Uncle) sound tin‑can like, and reviewers suspect multiple sources for disc 2 leading to inconsistent fidelity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Love Light (with Janis Joplin)",
+        "Dark Star",
+        "The Eleven",
+        "Sittin' on Top of the World",
+        "Dire Wolf (first known performance)",
+        "Dupree's Diamond Blues",
+        "Me & My Uncle"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong early set followed by a monster second set; guest appearance fuels an ecstatic climax, with the Dark Star and Eleven delivering classic ’69 fire.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeated praise for his beautiful tone, nimble soloing and focused, exploratory playing (especially on Love Light and Me & My Uncle).",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:12:41.643258+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-06-07.sbd.kaplan.9074.sbeok.shnf"
+  }
 }

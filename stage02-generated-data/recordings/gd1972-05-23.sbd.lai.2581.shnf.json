@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with some hiss, yet tight playing and great tone make for a killer performance.",
+    "review": "The fan notes a fair amount of hiss in the soundboard capture but praises the band’s tight playing and overall great tone, especially for a 1972 show. While the audio isn’t pristine, the musical execution shines through, delivering an enjoyable listening experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "low",
+      "rationale": "Only one review; it gives a 4‑star rating and mentions both modest recording noise and strong performance, leading to an overall good but not exceptional score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Fair amount of hiss present; otherwise clear tone and decent balance for a 1972 soundboard source."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T00:21:19.468003+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-05-23.sbd.lai.2581.shnf"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Solid soundboard capture with a standout \"The Other One\" performance, though the first set feels thin.",
+    "review": "The recording delivers clear soundboard quality and showcases an impressive rendition of \"The Other One,\" which the reviewer highlights as the show’s high point. While the early portion of the concert is described as getting thin, the overall energy and musicality earn a solid four‑star rating.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "low",
+      "rationale": "Based on a single 4‑star review, the show is viewed positively with a notable standout song; recording quality inferred as good from the soundboard source but no explicit technical comments."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No specific audio issues mentioned; assumed clear due to soundboard source."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set described as thin, but the highlight later lifts the overall impression.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T11:34:46.295963+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-04-06.142814.sbd.miller.flac1648"
+  }
 }

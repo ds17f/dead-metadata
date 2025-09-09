@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.166666666666667,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Superb soundboard capture of a high‑energy 1972 set featuring a smoking Playing in the Band and standout renditions of Brokedown Palace, Mexicali, Me & Bobby McGee, and Wharf Rat.",
+    "review": "The recording is an excellent soundboard (Charlie Miller) mix with crystal‑clear separation that lets Jerry’s legendary guitar work shine. The show bursts with high energy – a monster Playing in the Band, tight transitions, and memorable performances of Brokedown Palace, Mexicali, Me & Bobby McGee, and an exceptional Wharf Rat. Keyboardist Keith Godchaux also receives praise for his playing.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviewers (5‑star and 4‑star) highlight outstanding musical performance and excellent soundboard quality; weighted average of show (≈4.2) and recording (≈4.8) yields ~4.4."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Charlie Miller mix praised as superb, with stellar clarity, excellent instrument separation, and no noted dropouts or major flaws."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing in the Band",
+        "Brokedown Palace",
+        "Mexicali",
+        "Me & Bobby McGee",
+        "Wharf Rat"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set described as a bit thin overall but still high‑energy with tight transitions and a powerful finish; the show maintains strong momentum throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for smoking his guitar (Tiger/Strat), delivering fluid, fabulous notes that \"drip\" and carry the performance.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith Godchaux’s playing is called exceptional, adding to the tightness of the set.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T04:03:26.262082+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-11-15.sbd.set2.miller.91760.sbeok.flac16"
+  }
 }

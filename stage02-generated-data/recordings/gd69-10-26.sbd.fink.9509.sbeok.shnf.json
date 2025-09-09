@@ -14,5 +14,36 @@
   "confidence": 1.0,
   "raw_rating": 3.142857142857143,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a low‑energy Sunday show with an intriguing opening instrumental and relaxed band banter.",
+    "review": "The SBD tape captures the October 26, 1969 Winterland set with crystal‑clear, fantastic sound quality that reviewers rave about. Musically the performance is seen as modest – the band sounds a bit tired after a hectic weekend, offering a laid‑back mood rather than fire, highlighted only by an unnamed opening instrumental reminiscent of Jorma’s style.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Recording quality is rated excellent (≈4.5/5) while show performance is viewed as average to below‑average (≈2.5/5); weighted combination yields a mid‑range overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Multiple reviewers call the sound \"fantastic,\" \"great\" and \"crisp\" with no noted dropouts or mix problems. No audience bleed issues mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Partial show; set appears to be a low‑energy Sunday performance after a busy weekend, with the most notable moment being an opening instrumental that some liken to Jorma or Runaround Sue.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "His onstage banter notes a \"long, weird weekend\" and suggests the band was not in great shape, but they were having fun.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T15:01:29.568037+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-10-26.sbd.fink.9509.sbeok.shnf"
+  }
 }

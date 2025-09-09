@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.535714285714286,
   "high_ratings": 26,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A lo‑fi audience tape that still captures the incendiary Fillmore East debut, highlighted by a monster 24‑minute “Caution” and wild feedback sandwich.",
+    "review": "This AUD recording is far from pristine – drums and vocals are often buried, the mix is oversaturated and at times muddy – but the performance shines through. The show is legendary for its opening and closing feedback blasts, the blistering 24‑minute \"Caution\", and a rare Space → The Eleven → St. Stephen sequence that fans describe as pure primal energy. For anyone chasing the most extreme 1968 Dead experience, the music outweighs the technical flaws.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "The majority of reviews praise the show’s historic intensity and standout performances (high show weight), while consistently noting poor to fair audio quality (low recording weight). Weighted average yields a solid but not stellar rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Oversaturated, muddy AUD tape; drums and vocals often inaudible, Phil’s bass faint, but Jerry’s guitar cuts through. Some reviewers call it \"atrocious\" while others say it’s decent for a 1968 audience recording."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "\"Caution (Do Not Stop On Tracks)\" – ~24 min",
+        "Feedback (opening & closing)",
+        "Alligator → Lovelight transition",
+        "Space → The Eleven → St. Stephen",
+        "Morning Dew (noted by an attendee)"
+      ],
+      "poor_songs": [
+        "\"Lovelight\" (mentioned as less exceptional by one reviewer)"
+      ],
+      "setlist_flow": "The set opens with a wall of feedback, moves through chaotic psychedelic jams, and closes with another feedback burst – a true \"feedback sandwich\" that frames the wild improvisations.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Consistently audible; described as “unconscious” on guitar, tone loud and dominant throughout the tape.",
+      "Phil": "Praised for powerful \"bombs\" despite being barely audible in the mix.",
+      "Bob": "Drums largely buried; mentioned as “almost inaudible” but still part of the primal wall of sound.",
+      "Keys": "",
+      "Drums": "Bill & Kreutzmann’s playing is difficult to hear, yet reviewers note the overall percussive intensity."
+    },
+    "processed_date": "2025-09-08T08:36:50.934837+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-06-14.aud.cotsman.16532.sbeok.shnf"
+  }
 }

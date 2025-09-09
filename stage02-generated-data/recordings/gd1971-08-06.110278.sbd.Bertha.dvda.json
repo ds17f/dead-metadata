@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Insufficient information to assess recording or show quality",
+    "review": "The sole review provides only a link and no commentary on the performance or audio, leaving both the musical and technical aspects of this recording undefined.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.5,
+      "confidence": "low",
+      "rationale": "Only one non‑descriptive review with a zero‑star rating; no concrete details to evaluate show or recording quality."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No specific comments about sound clarity, mix, or source type were provided."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No information available from reviews.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:17:18.483565+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-08-06.110278.sbd.Bertha.dvda"
+  }
 }

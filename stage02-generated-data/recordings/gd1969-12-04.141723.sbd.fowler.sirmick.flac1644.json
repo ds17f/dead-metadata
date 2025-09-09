@@ -14,5 +14,43 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A rough‑soundboard capture of a December 1969 show that glows on an epic Dark Star and high‑energy second half, despite early raggedness and tape defects.",
+    "review": "The recording is a soundboard source that suffers from tape hiss and occasional drop‑outs, but the recent restoration work makes the latter portion surprisingly clear. Musically the concert starts unevenly, yet from Dark Star onward it erupts into a primal Dead performance with standout moments on Dark Star, High Time, Schoolgirl, Good Lovin' and Uncle John’s Band.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Show is praised for its Dark Star and second‑half energy (70% weight) while recording quality is noted as flawed but partially restored (30% weight), yielding an overall above‑average rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Tape hiss, defects and occasional muffled sections are mentioned; however a recent recovery effort has dramatically improved clarity on the latter 80 minutes, making the Dark Star segment especially listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > High Time",
+        "Schoolgirl",
+        "Good Lovin'",
+        "Uncle John's Band"
+      ],
+      "poor_songs": [
+        "Black Peter"
+      ],
+      "setlist_flow": "The early part of the show is short and ragged, but from Dark Star onward the performance gains momentum, delivering a powerful second half with seamless transitions.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s Strat‑tone on Dark Star is highlighted as “spooky” and his humorous intro to Uncle John’s Band is noted.",
+      "Phil": "Bass lines are described as “slugging Jack Casady‑like,” indicating a strong, driving low end.",
+      "Bob": "",
+      "Keys": "Tom Constanten’s “rosy fills” and the characteristic 60s keyboard texture are mentioned.",
+      "Drums": "The drumming is called “seesaw‑style,” reflecting the shifting dynamics of the performance."
+    },
+    "processed_date": "2025-09-08T15:29:01.423476+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-12-04.141723.sbd.fowler.sirmick.flac1644"
+  }
 }

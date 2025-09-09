@@ -14,5 +14,39 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording delivers a high‑energy segue from He's Gone into a noodling The Other One, with clear audio and strong performance.",
+    "review": "The show is praised for an exciting transition that lands on a jam-packed The Other One, highlighted by Phil’s extended noodle while Bill and Mickey lock in the groove. Reviewers note no technical flaws, implying the soundboard source provides a clean and listenable mix.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Single positive review emphasizing standout performance; recording quality not explicitly critiqued but assumed solid."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No issues reported; reviewers imply clear, balanced sound typical of a soundboard source."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "He's Gone",
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Exciting segue from He's Gone into The Other One with an extended jam that lifts the set’s momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Left to noodle extensively during The Other One, noted as a highlight.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Bill and Mickey maintain tight rhythm throughout the jam."
+    },
+    "processed_date": "2025-09-08T03:02:04.417882+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-28.136692.sbd.sirmick.flac16"
+  }
 }

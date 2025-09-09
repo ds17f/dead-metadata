@@ -14,5 +14,44 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard source captures a solid ’69 Dead show with a notable Uncle John’s Band/Main Ten jam and decent overall audio quality.",
+    "review": "The recording is a sound‑board capture that sounds clear enough for the era, though it omits part of the China Cat > Rider sequence. Musically the concert sits in the middle of the 1969 spectrum – first set average but the second half delivers tight jams, especially the rare Main Ten and an engaging Uncle John’s Band.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Two enthusiastic 5‑star reviews praise key songs and overall performance, while one detailed 3‑star review notes an average first set and some missing material; recording quality is generally good but not flawless."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear SBD tape with typical vintage warmth; no major dropouts mentioned, though the release is completed from Dick's 16 and lacks the full Rider jam, making it slightly incomplete."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Uncle John's Band",
+        "The Eleven",
+        "Main Ten",
+        "China Cat > Rider"
+      ],
+      "poor_songs": [
+        "Dire Wolf",
+        "Cumberland"
+      ],
+      "setlist_flow": "First set is described as average and tentative, while the second half ramps up with tighter jamming, a rare Main Ten, and strong transitions between China Cat and Rider.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Noted for early phrasing on Dire Wolf and an unfinished Mama Tried arrangement; guitar work described as tentative but promising.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Good Lovin' features a drum solo; overall rhythm section is solid though not highlighted beyond that."
+    },
+    "processed_date": "2025-09-08T15:19:55.634091+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-11-08.sbd.wise.82.sbeok.shnf"
+  }
 }

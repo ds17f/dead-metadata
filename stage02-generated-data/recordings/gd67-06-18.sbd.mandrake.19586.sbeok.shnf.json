@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.3076923076923075,
   "high_ratings": 21,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of the historic Monterey set, highlighted by a scorching Viola Lee Blues and fiery Alligator > Caution despite a rogue harmonica.",
+    "review": "The recording is unusually clean for a 1967 source – an 8‑track stereo soundboard mix that places you right in the audience.  The performance bursts with high energy, especially on Viola Lee Blues, Alligator and Caution, though the occasional off‑key harmonica and a sloppy Cold Rain & Snow keep it from being flawless.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers (over 30) rate the set 4‑5 stars, praising its historic significance and high energy while noting only minor technical flaws.  The show quality (70% weight) is strong; recording quality (30% weight) is good to excellent, yielding an overall rating in the low‑mid 4s."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp, clean 8‑track stereo mix; many call it 'perfect' or 'crisp'.  A few note occasional dropouts and the odd harmonica bleed, but overall the audio is very listenable for a 1967 source."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee Blues",
+        "Alligator (instrumental)",
+        "Caution (Do Not Step On The Tracks)"
+      ],
+      "poor_songs": [
+        "Cold Rain and Snow",
+        "Alligator (harmonica issues) "
+      ],
+      "setlist_flow": "A short, high‑octane set that moves smoothly from the bluesy Viola Lee into the experimental Alligator > Caution; despite a few rough spots, the momentum stays strong throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for breakneck, out‑of‑control guitar work (some mention of occasional tuning slip).",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen’s organ is praised on Caution; his mic was dead at the start of Alligator and a non‑Pigpen harmonica player ruins several moments.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T06:53:16.593414+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd67-06-18.sbd.mandrake.19586.sbeok.shnf"
+  }
 }

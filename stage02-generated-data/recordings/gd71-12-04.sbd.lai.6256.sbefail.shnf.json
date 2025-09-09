@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.384615384615385,
   "high_ratings": 11,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "High‑energy 12/4/71 Felt Forum show with a smoking Smokestack Lightning and tight band play captured on a solid soundboard recording despite minor bass‑drum distortion.",
+    "review": "The December 4, 1971 Felt Forum performance is hailed for its blues‑rock fire, especially Pigpen’s incendiary “Smokestack Lightning” and the rolling Other One → Mexicali Blues → Other One sequence.  The soundboard source delivers overall clear mix and excellent instrument separation, though a few listeners note occasional bass‑drum mic distortion and brief cuts between songs.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars, praising performance and only citing minor recording glitches; weighted average of strong show quality (≈4.6) and good soundboard quality (≈4.0) yields a ~4.4 rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear, well‑balanced mix; occasional bass‑drum microphone distortion and a few song‑to‑song cuts noted by some listeners."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Smokestack Lightning",
+        "The Other One > Mexicali Blues > The Other One",
+        "Truckin' (lead intro)",
+        "One More Saturday Night"
+      ],
+      "poor_songs": [
+        "Jack Straw"
+      ],
+      "setlist_flow": "Blues‑rock heavy set with classic early‑70s Dead material; the sequencing feels natural despite a slightly shuffled track list noted by one reviewer.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Jerry's guitar tone on the first Truckin' lead is described as sweet and BB King‑like.",
+      "Phil": "Phil’s bass is praised for its pounding power, though a battery/mic issue caused occasional distortion.",
+      "Bob": "Bob is mentioned as part of a tight rhythm section; no specific solo remarks.",
+      "Keys": "Keith is noted as fully integrated and delivering solid organ work; piano shows some distortion peaks.",
+      "Drums": "Billy's bass‑drum mic picks up a funky distortion/vibration at times."
+    },
+    "processed_date": "2025-09-07T20:56:01.477871+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-12-04.sbd.lai.6256.sbefail.shnf"
+  }
 }

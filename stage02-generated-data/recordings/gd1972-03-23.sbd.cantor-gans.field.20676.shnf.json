@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of the March 23, 1972 Academy of Music show with a smoking Dark Star, blazing Phil on bass and a tight, high‑energy second set.",
+    "review": "The Betty board recording is praised as crystal‑clear and “great sound,” delivering an exceptionally vivid listening experience. The performance is described as one of the hottest of the era – a tight second set highlighted by a sublime Dark Star, fiery Phil on fire, and the wild Pig‑and‑Bob finale on Not Fade Away. Overall the show feels like a preview of the band’s imminent European tour.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "All five reviews are 5‑star, emphasizing both superb soundboard quality and an outstanding musical performance; the consensus is uniformly enthusiastic."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Betty board source noted as crisp and clear throughout; reviewers repeatedly call the sound \"great\" with no mention of major flaws."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Two Souls In Communion",
+        "Dark Star",
+        "Not Fade Away"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Tight, high‑energy second set with seamless transitions; the show is described as a taste of the upcoming European tour.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Described as \"on fire\" and delivering one of his hottest bass performances.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Pig (Bill Kreutzmann) and Bob (Mickey Hart) provide an intense, screaming finale on Not Fade Away."
+    },
+    "processed_date": "2025-09-07T22:26:08.936819+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-03-23.sbd.cantor-gans.field.20676.shnf"
+  }
 }

@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 3.25,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard remaster with a solid stereo mix early on, capturing a raw July 4 1969 set that ripples with Hard To Handle, The Other One and a standout King Bee.",
+    "review": "The recording is a sound‑board source that sounds clear and well‑balanced through the first half of the show, though it develops hiss and left‑channel drop‑outs after “Doin’ That Rag.” Musically the set bursts with high‑energy early rockers like Hard To Handle and The Other One, while Bobby Weir’s vocals dominate a country‑cowboy segment that includes King Bee, Dire Wolf and Casey Jones.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the energetic performance and several standout songs, while noting consistent recording issues in the latter half; overall the show is above average but technical flaws keep the rating from reaching the high‑end."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Excellent stereo mix and clarity through the first set; after “Doin That Rag” the tape shows pulsing drop‑outs, hiss on the left channel, and overall degradation that makes later sections hard to listen to."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard To Handle",
+        "The Other One",
+        "King Bee",
+        "St Stephen",
+        "Love Light",
+        "Cryptical > High Time",
+        "Casey Jones"
+      ],
+      "poor_songs": [
+        "Doin That Rag",
+        "Let Me In 83968"
+      ],
+      "setlist_flow": "The show opens with a ripping Hard To Handle, moves into a country‑cowboy segment led by Bobby (including King Bee and Dire Wolf), then expands into extended psychedelic jams like The Other One before closing with tight St Stephen/Love Light. Audio quality deteriorates in the middle but the musical flow remains engaging.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Plays pedal steel on several numbers; a humorous note that he “swallowed a frog” while trying to sing High Time.",
+      "Phil": "",
+      "Bob": "Dominates the set with lead vocals on most songs, including Dire Wolf and other Bobby‑led numbers; his presence is highlighted throughout.",
+      "Keys": "Constanten appears on Casey Jones, adding distinctive keyboard texture.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T13:51:06.931204+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-07-04.sbd.sirmick.remaster.29294.shnf"
+  }
 }

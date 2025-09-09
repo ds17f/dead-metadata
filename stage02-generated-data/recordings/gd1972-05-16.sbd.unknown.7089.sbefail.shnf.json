@@ -14,5 +14,41 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Tight, high‑energy Luxembourg ’72 show captured on a crisp soundboard tape with standout Truckin’ > Drums > The Other One and laser‑focused Jerry",
+    "review": "This recording documents an exceptionally tight performance from the Europe ’72 run in Luxembourg. Reviewers praise the band’s focus, especially the explosive Truckin’→Drums→Other One sequence and a consistently powerful Mr. Charlie, while noting the soundboard source is clear and well‑balanced. Overall the show feels high‑energy and the audio quality lets that energy shine through.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Most reviewers give 4–5 stars and highlight strong playing and a clear soundboard recording; one outlier rating does not outweigh the consensus."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix with no noticeable drop‑outs; captures the band tightly and balances instruments well."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin' > Drums > The Other One",
+        "Mr. Charlie",
+        "Playing in the Band",
+        "One More Saturday Night"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A compact three‑hour set that moves smoothly from a focused first set into an explosive second set, with strong transitions and no major lulls.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as freakin' focused; all over the neck on Mr. Charlie; tight fills throughout the show.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Early drum segment leads into The Other One; solid, driving performance."
+    },
+    "processed_date": "2025-09-08T00:08:26.212918+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-05-16.sbd.unknown.7089.sbefail.shnf"
+  }
 }

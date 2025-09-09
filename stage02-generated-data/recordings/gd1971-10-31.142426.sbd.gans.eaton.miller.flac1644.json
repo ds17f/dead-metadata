@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.4,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a legendary Halloween show – fresh Keith, smoking Dark Star/Deal and a second‑set that ignites the night.",
+    "review": "The recording captures a high‑energy October 31, 1971 performance with crisp, incendiary soundboard quality. Reviewers rave about the fresh Keith on keyboards, Jerry’s soaring guitar tone, and a second set that delivers Dark Star, Deal, Playing in the Band and a blistering Not Fade Away/Going Down the Road jam. Minor channel‑swap quirks are noted but do not detract from an overall superb listening experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All five reviews are strongly positive (4–5 ★), praising both the musical performance and the soundboard recording; only minor technical notes appear, so a high rating with strong confidence is warranted."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Incendiary, crisp mix with clear instrument separation. Some reviewers mention channel‑swap quirks and a needed pitch correction on J.B. Goode, but overall the sound is clean and well balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Deal",
+        "Playing in the Band",
+        "El Paso",
+        "Not Fade Away",
+        "Goin' Down The Road",
+        "Johnny B. Goode"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set solid and varied; second set fires on all cylinders with a monster Dark Star opening and seamless transitions that keep the momentum high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His tone is praised as 'perfect' and he 'takes off the best he can' after the mix settles.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith is highlighted repeatedly as fresh, great, and a key factor in the show's strength.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:15:10.962712+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-10-31.142426.sbd.gans.eaton.miller.flac1644"
+  }
 }

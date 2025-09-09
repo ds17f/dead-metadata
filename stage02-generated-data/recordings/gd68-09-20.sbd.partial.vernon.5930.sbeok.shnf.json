@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.4285714285714284,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording of the 9/20/68 Berkeley show captures clear stage banter and strong drum work, but the musical performance is only moderately engaging.",
+    "review": "The SBD capture is praised for its clarity—stage chatter comes through cleanly and the overall tape quality is decent for a late‑1968 source. Musically the set is highlighted by an extended Drums segment and a solid St. Stephen that mirrors the Aoxomoxoa sessions, yet many reviewers note a lack of fire compared to the hotter August shows, describing the Eleven as shorter and less energetic.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Show quality is judged average to below‑average (energy low, some songs noted as weak) while recording quality is good; the weighted combination yields a modest overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear stage banter and generally decent fidelity for the era; no major dropouts reported, though some reviewers give a modest 3‑star personal quality assessment."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "St. Stephen",
+        "The Eleven",
+        "Drums"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical late‑summer set with extended drum improvisation; transitions are serviceable but the overall energy feels subdued compared to peak shows of the period.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "His vocal laughter is noted and a strange vibrating guitar part (likely his) appears during St. Stephen.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Long (≈25 min) drum segment featuring Vince Delgado and Shankar Ghosh; praised by drum enthusiasts despite being described as not especially interesting."
+    },
+    "processed_date": "2025-09-08T09:03:27.769737+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-09-20.sbd.partial.vernon.5930.sbeok.shnf"
+  }
 }

@@ -14,5 +14,47 @@
   "confidence": 0.8,
   "raw_rating": 5.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Outstanding soundboard capture of a high‑energy two‑set show packed with rare covers and monster jams like the 22‑minute Lovelight.",
+    "review": "The recording is praised as crystal‑clear and “outstanding” – a true soundboard source that lets listeners hear every nuance.  Musically the night is legendary: one‑off covers (How Sweet It Is, Are You Lonely For Me), blistering Pigpen leads, soaring vocals from Donna Jean, and marathon jams such as Playin’ and a 22‑minute Lovelight make it a must‑hear performance.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Reviews overwhelmingly praise both the show (unique covers, high energy, long jams) and the recording quality (outstanding soundboard). A few low‑star comments note unusual set flow, but they do not outweigh the strong positive consensus."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix with no reported dropouts or muddiness; reviewers describe it as “outstanding quality.”"
+    },
+    "show_quality": {
+      "standout_songs": [
+        "How Sweet It Is (cover)",
+        "Are You Lonely For Me (Fredie King cover)",
+        "Next Time You See Me (Pigpen lead)",
+        "Brown Eyed Women",
+        "Smokestack Lightning (14‑min jam)",
+        "Beat It On Down the Line",
+        "Bertha",
+        "Mr. Charlie",
+        "Playin' (face‑melting version)",
+        "Lovelight (22 min, instrumental powerhouse)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Two sets heavy on rare covers and improvisation; the first set feels spontaneously assembled, while the second builds into extended jams and a monumental Lovelight finale.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "Intense rhythm‑guitar work on Lovelight compensates for his reduced vocal presence that night.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:31:21.310578+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-03-25.133593.sbd.miller.flac1648"
+  }
 }

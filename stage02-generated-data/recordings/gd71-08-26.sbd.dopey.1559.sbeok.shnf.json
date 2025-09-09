@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.290322580645161,
   "high_ratings": 27,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Good audience tape captures a high‑energy Bronx show with smoking Bertha, St. Stephen, Good Lovin' and an unforgettable Mister Charlie.",
+    "review": "The recording is an audience‑sourced tape that, despite occasional cable hum, channel imbalance and drop‑outs, delivers a clear picture of one of the most beloved 1971 Bronx concerts.  The band was on fire – Jerry’s vocals soar, Phil “bombs” on bass, Mickey sits out while Bill drives the beat, and the setlist rolls through Bertha, St. Stephen, Good Lovin’, Hard to Handle and a legendary Mister Charlie.  Overall the performance is remembered as high‑energy and iconic, and listeners forgive the modest technical flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average star rating across ~30 reviews is 4.1; most comments praise the performance and only note moderate recording issues, yielding a strong combined show‑plus‑recording score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Tape‑derived audience mix with occasional cable hum/static, left/right channel imbalance on early discs, and sporadic dropouts.  Overall listenable and captures the live vibe despite these imperfections."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha",
+        "St. Stephen",
+        "Good Lovin'",
+        "Hard to Handle",
+        "Mister Charlie"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Three‑set outdoor Bronx gig that kicks off strong, builds into a jam‑heavy second set and closes with an emotive encore; the flow feels natural and keeps the energy high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals described as soaring; guitar tone noted as low in the mix but performance praised.",
+      "Phil": "\"Phil bombs\" – bass highlighted, sometimes mixed too loud but generally praised for powerful lines.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Mickey on sabbatical (absent); Bill Kreutzmann provides steady drumming throughout."
+    },
+    "processed_date": "2025-09-07T19:38:28.208966+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-08-26.sbd.dopey.1559.sbeok.shnf"
+  }
 }

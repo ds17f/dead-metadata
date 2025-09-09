@@ -14,5 +14,42 @@
   "confidence": 0.8,
   "raw_rating": 5.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A fire‑brand soundboard recording of the August 15, 1971 show captures a high‑energy set with standout Truckin → Other One sequences and glowing performances from Jerry, Phil and Pigpen.",
+    "review": "The recording, sourced directly from the board, is praised as sounding “soooo good” despite occasional anomalies, delivering clear and engaging audio. The concert itself is described as an “engaging firebrand,” with high‑octane renditions of Truckin, The Other One, Me & My Uncle, Wharf Rat and Turn On Your Lovelight, and strong contributions from Jerry, Phil and Ron (Pigpen). Overall the show is celebrated as one of 1971’s finest performances.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All five reviews are 5‑star and uniformly enthusiastic about both the musical performance and the soundboard quality; minor recording quirks keep the rating just shy of perfect."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Listeners note a few anomalies and occasional flubs in the tape, but the overall mix is clear, balanced and very listenable; EQ adjustments are recommended for optimal playback."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin",
+        "The Other One",
+        "Me & My Uncle",
+        "Wharf Rat",
+        "Turn On Your Lovelight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A solid first set flows into a second set packed with extended jams (Truckin → Drums → Other One) and classic sing‑along numbers, creating an exciting arc that keeps the energy high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his “Scurvy Les Paul” tone and firebrand playing throughout the show.",
+      "Phil": "Highlighted as shining on this night, delivering strong bass work.",
+      "Bob": "",
+      "Keys": "Pigpen (Ron) is noted to be in good health and delivering a powerful performance.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:28:13.876305+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-08-15.sbd.gustin.131.sbeok.shnf"
+  }
 }

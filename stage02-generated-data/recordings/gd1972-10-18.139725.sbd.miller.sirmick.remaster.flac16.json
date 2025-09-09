@@ -14,5 +14,42 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording with crystal‑clear mix highlighting Bob's lead‑filled guitar work and a thrilling Playin jam that drives the show’s high energy.",
+    "review": "The remastered soundboard capture is superb – Charlie Miller and SIRMick’s engineering brings out every nuance, especially Bob Weir’s surprisingly audible lead fills on tracks like Bertha and Brown Eyed Women. Musically the concert shines with a focused “Playin sandwich,” an exhilarating jam that feeds into a strong Dark Star and the first Philo Stomp, keeping the energy consistently high throughout.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Three reviews (two clear 5‑star endorsements) praise both the performance and the remastered soundboard quality; only one ambiguous low rating does not detract from overall enthusiasm."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Remaster is crisp, balanced and unusually clear on Bob's guitar; no reported dropouts or muddiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha",
+        "Don't Ease Me In",
+        "Brown Eyed Women",
+        "Playin Jam (the 'Playin sandwich')",
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows tightly around a central Playin jam that leads into a thematic Dark Star, creating an engaging narrative arc.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "First Philo Stomp highlighted as great, showing strong bass presence.",
+      "Bob": "Audible lead‑filled guitar work praised; Bob's fills are a highlight on several songs.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:22:03.104067+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-10-18.139725.sbd.miller.sirmick.remaster.flac16"
+  }
 }

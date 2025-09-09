@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 7,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A vibrant 1971 show featuring a smoking Not Fade Away and heartfelt Brokedown Palace, captured on a soundboard that is generally clear but suffers from occasional channel noise.",
+    "review": "The performance shines with standout moments like the second‑half surge of Not Fade Away, a beautifully rendered Brokedown Palace, and powerful renditions of Uncle John's Band, Sugaree and The Other One. Reviewers praise Phil Lesh’s booming bass and the band’s tight vocals, while noting that the soundboard mix is mostly crisp despite a shrill right‑channel glitch on one track. Overall the show is high‑energy and enjoyable, with only minor recording hiccups.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviewers highlight strong musical performance and many commend the recording; a few note specific channel noise, yielding an overall rating just below excellent."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally crisp and well‑balanced soundboard mix with clear instrument separation; however one reviewer reports a shrill, harsh noise in the right channel on the 'Cumberland' track."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Brokedown Palace",
+        "Me & Bobby McGee",
+        "Not Fade Away (second half)",
+        "Uncle John's Band",
+        "Sugaree",
+        "The Other One"
+      ],
+      "poor_songs": [
+        "Cumberland (recording issue)"
+      ],
+      "setlist_flow": "First set praised for its solid start, second set builds momentum with a wild Not Fade Away and strong mid‑set jams; overall pacing keeps the energy high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned playing a happy‑birthday riff on guitar during the David Crosby birthday shout‑out, adding a fun moment to the show.",
+      "Phil": "Repeatedly lauded for crisp, warm bass tones and \"earth‑thumping\" bombs throughout; described as a highlight for Lesh fans.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T19:24:48.464424+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-08-14.sbd.trip.1451.sbeok.shnf"
+  }
 }

@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 2.75,
   "high_ratings": 1,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Rough audience hand‑held recording of the 1972 London show with a brilliant Mexican Hat Dance and a surprisingly strong The Other One despite low fidelity.",
+    "review": "The tape was captured on an inexpensive handheld recorder in a crowded Lyceum, so expect lo‑fi sound, crowd chatter and occasional vocal bleed. Musically the band delivers creative, hot playing – highlighted by a killer Mexican Hat Dance cover and a relatively clear rendition of The Other One – but the overall listening experience is hampered by poor audio quality.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.9,
+      "confidence": "high",
+      "rationale": "Reviews average ~2.8 stars; show performance is praised in parts (Mexican Hat Dance, The Other One) but the recording is widely described as low‑fi and difficult to listen to, pulling the overall rating into the average range."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Hand‑held recorder from the audience; very limited fidelity, crowd noise, occasional bleed of a fan singing, and generally muffled sound. Some sections (e.g., The Other One) are clearer than others."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mexican Hat Dance",
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Part of a three‑night London run; the set mixes experimental jams with tight moments, but the poor audio masks some transitions.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T00:25:55.953753+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-05-24.pye-jones.harper-sirmick.87027.flac16"
+  }
 }

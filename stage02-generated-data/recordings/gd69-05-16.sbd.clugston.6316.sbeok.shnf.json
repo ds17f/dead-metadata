@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 2.789473684210526,
   "high_ratings": 5,
-  "low_ratings": 8
+  "low_ratings": 8,
+  "ai_review": {
+    "summary": "Hissy gym recording of a ragged high‑school gig where Pigpen shines but the band’s energy falters, with Good Morning Little School Girl and Lovelight as the few bright spots.",
+    "review": "The tape captures a raw, audience‑sourced performance at Campolindo High School that suffers from hissy acoustics, occasional cuts and generally low energy. While Pigpen’s blues numbers and the opening Good Morning Little School Girl plus a decent Lovelight provide highlights, the set is marred by sloppy playing, out‑of‑tune moments and a notorious flop of Hard To Handle. A few reviewers note that recent restoration work improves clarity, but overall the show feels more like a historical curiosity than a must‑listen concert.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.7,
+      "confidence": "medium",
+      "rationale": "Reviews are split: many give 1–2 stars citing poor performance and hissy sound, while a minority award 4–5 stars for occasional jams and sentimental value. The weighted average lands around 2.8, so the AI rating reflects a mixed but generally below‑average assessment."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Hissy, gym acoustics and occasional cuts (e.g., Lovelight) are noted; some listeners mention that recent cleanup improves clarity, but overall the mix is raw and not well balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Morning Little School Girl",
+        "Lovelight",
+        "Pigpen blues numbers"
+      ],
+      "poor_songs": [
+        "Hard To Handle"
+      ],
+      "setlist_flow": "The set feels uneven, with a sluggish start, a few bright moments in the middle and an abrupt end due to curfew; transitions are not particularly tight.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "Often out of tune and lacking passion; occasional nice lines on his Gibson SG; banned from smoking which affected his performance.",
+      "Phil": "",
+      "Bob": "Credited with rescuing the show, delivering bright guitar work and solid vocals that kept the audience engaged.",
+      "Keys": "Pigpen praised for powerful blues singing and organ playing; carries much of the show's momentum.",
+      "Drums": "Drummers provide some interesting grooves despite occasional timing issues; Mickey Hart noted as not keeping perfect time but still contributing to the feel."
+    },
+    "processed_date": "2025-09-08T12:48:43.972575+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-05-16.sbd.clugston.6316.sbeok.shnf"
+  }
 }

@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.352941176470588,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with a muddy, organ‑heavy mix, but an electrifying show featuring a monster Dark Star → The Eleven → Lovelight and a ferocious Alligator>Caution.",
+    "review": "The performance is consistently praised – the Dark Star/Eleven/Lovelight suite and the ripping Alligator>Caution are called “smoking” and “primal”.  However, the recording suffers from a very uneven mix: TC’s Vox Continental swamps the band, vocals and Garcia’s lead guitar disappear at times, and there are hints of an added synth‑track on Dark Star.  Despite these flaws the show shines through with high energy and standout jams.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Show quality is rated very high (≈4.5/5) while recording quality is mediocre (≈2.8/5). Weighted average yields ~4.0 stars; many detailed reviews give a consistent picture."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Mix is uneven – organ (TC) far too forward, vocals and Garcia's lead buried in Dark Star, occasional synth‑like overlay that sounds like an added track. Some sections (Dupree’s, Alligator) sound clearer, but overall the tape is “screwy” with feedback and hum."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Eleven",
+        "Lovelight",
+        "Alligator",
+        "Caution",
+        "Dupree's Diamond Blues"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early set hampered by mix but musically solid; second set straightens out with explosive Alligator>Caution and a seamless Dark Star → The Eleven → Lovelight suite.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar is praised when audible, described as “fantastic” but noted to be buried or low in the mix during Dark Star.",
+      "Phil": "",
+      "Bob": "Bob Weir’s vocals are reported as clear in later songs; his rhythm work is solid throughout.",
+      "Keys": "TC’s organ dominates (Vox Continental), often too loud, leading to a “cheesy chrome” sound; speculation about added synth track on Dark Star. Pigpen’s occasional organ/harmonica noted but mostly mixed far back.",
+      "Drums": "Billy and Mickey are described as playing their A$$ off; drums drive the high‑energy moments (Alligator, Caution)."
+    },
+    "processed_date": "2025-09-08T10:01:37.209087+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd69-01-25.sbd.kaplan.7923.sbeok.shnf"
+  }
 }

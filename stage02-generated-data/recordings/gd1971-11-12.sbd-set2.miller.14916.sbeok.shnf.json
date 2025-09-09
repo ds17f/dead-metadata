@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 5.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording with a high‑energy show highlighted by a smoking Other One suite and a storming Big Railroad Blues.",
+    "review": "The set captures one of the strongest fall‑71 performances, with every member on fire – especially Jerry’s solid guitar work and Phil’s tasty tone. Keith’s piano sits prominently in the mix early on but adds inspired color throughout, and Charlie Miller (and possibly Mr. Fink) deliver crystal‑clear sound quality.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "All four reviewers gave five stars, praising both the musical performance and the pristine soundboard recording; weighting yields a near‑perfect rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crystal‑clear mix with Keith’s piano slightly high in early tracks (not a problem), Charlie Miller and Mr. Fink ensure top‑tier sound; no dropouts or muffiness reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Big Railroad Blues"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set praised as one of the best of ’71, second set builds to an extraordinary Other One suite; overall pacing is tight and consistently high‑energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Sounds good all night; solid guitar work noted.",
+      "Phil": "Tone around this period described as really tasty.",
+      "Bob": "",
+      "Keys": "Piano is high in the mix early but perfectly played and inspired, fitting in from the start.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:28:49.809489+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-11-12.sbd-set2.miller.14916.sbeok.shnf"
+  }
 }

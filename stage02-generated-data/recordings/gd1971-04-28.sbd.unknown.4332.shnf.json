@@ -14,5 +14,40 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Pristine soundboard recording captures a historic show with New Riders' set, Jerry Garcia on pedal steel, and the last Dark Star segueing into St. Stephen.",
+    "review": "The recording is praised as pristine‑sounding, likely a high‑quality soundboard source that lets listeners enjoy every nuance. The concert is notable for the New Riders’ set featuring Jerry Garcia on pedal steel, the rare Truck‑Drivin Man performance, and the final Dark Star leading into St. Stephen – a historic moment for fans.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "Enthusiastic review highlights excellent recording fidelity and historically significant performances, but only one brief review limits confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Described as pristine‑sounding; clear, balanced mix with no noted flaws."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truck-Drivin Man",
+        "Dark Star",
+        "St. Stephen"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Includes a New Riders set with Jerry Garcia on pedal steel, followed by a historic Dark Star that transitions into the final performance of St. Stephen – a unique and memorable sequence.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Highlighted for playing pedal steel guitar with the New Riders during this set.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T18:22:33.552128+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-28.sbd.unknown.4332.shnf"
+  }
 }

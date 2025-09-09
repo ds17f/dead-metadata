@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.2,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Rough‑aged '69 audience tape, but the show burns bright with a smoking Cryptical > Dark Star, a ballistic The Other One, and standout China Cat Sunflower jams.",
+    "review": "The performance is praised for its high energy and wild improvisations, especially the Cryptical‑Dark Star sequence and an incendiary Other One. While the recording suffers from vintage audience tape limitations—garage‑band grit, occasional harshness, and a need for EQ—it remains listenable enough to showcase the band’s power. Overall fans consider the musical experience far outweighs the technical shortcomings.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars and highlight exceptional performances, while recording quality averages around 3‑3.5 stars; weighted combination yields a ~4‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Vintage audience tape with garage‑band sounding grit, muffled mids and occasional harshness (e.g., Eleven cut). Listeners note it could benefit from EQ but remains acceptable for a 1969 capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cryptical > Dark Star",
+        "The Other One",
+        "China Cat Sunflower",
+        "Eleven"
+      ],
+      "poor_songs": [
+        "Eleven (harsh cut)"
+      ],
+      "setlist_flow": "Strong second‑set flow with back‑to‑back jams; notable second Cryptical and a wild Main Ten/Playing segment within Dark Star.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen’s harp appears on a rare song, adding texture to the performance.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T11:50:03.994677+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-04-15.aud.sbd-patch.komar.miller.31939.sbeok.flac16"
+  }
 }

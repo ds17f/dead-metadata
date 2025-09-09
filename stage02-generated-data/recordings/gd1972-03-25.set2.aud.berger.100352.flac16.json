@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.6666666666666665,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience tape with a tin‑can sound captures rare Jerry pedal‑steel on “Looks Like Rain” and a smoky jam, delivering a solid but imperfect 1972 Academy of Music set.",
+    "review": "The second set is notable for the unusual pedal‑steel cameo on \"Looks Like Rain,\" an inspired Smokestack jam that borders on Truckin', and several strong Pigpen blues. While the performance is generally well‑played and energetic, the audience recording suffers from chatter, cuts and a thin “tin‑can” quality that makes it only fair for critical listening.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Reviewers praise the musical moments and rare performances (70% weight) but repeatedly note thin, chattery audio quality (30% weight), leading to a good‑but‑imperfect overall score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Tin‑can sounding mix with noticeable chatter and occasional cuts; overall clarity is limited but the tape is still listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Looks Like Rain (pedal steel)",
+        "Smokestack",
+        "Pigpen blues segment"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Set features a mix of rare moments and solid blues; transitions are decent though some cuts interrupt continuity.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Rare pedal‑steel work on \"Looks Like Rain\" highlighted by reviewers.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen's blues (organ/harmonica) noted as a highlight.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:34:52.369264+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-03-25.set2.aud.berger.100352.flac16"
+  }
 }

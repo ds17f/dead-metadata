@@ -14,5 +14,39 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of an electrifying 1969 Ark show, highlighted by a smoking \"Other One\" and a superb rendition of \"Hard to Handle.\"",
+    "review": "The three five‑star reviews rave about both the audio fidelity and the vibe of this April 23, 1969 performance at the Ark.  Listeners note great sound quality and describe the show as fun, lively, and “Jerry was alive,” with the Other One and Hard to Handle standing out as marquee moments.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "All reviews are five‑star, consistently praising both the high‑energy performance and the remarkable soundboard quality; thus the combined show (70%) and recording (30%) rating is near the top of the scale."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers call the sound \"great\" and a \"remarkable recording for the period,\" noting clarity and recommending EQ tweaks to further enhance an already crisp mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Hard to Handle"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Listeners describe the concert as a fun, high‑spirited experience that captures the joyous atmosphere of the late‑60s Ark shows.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as \"alive\" and central to the night’s excitement; his playing on The Other One is especially praised.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T12:18:32.122997+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-04-23.sbd.fixed.cribbs.28297.sbeok.shnf"
+  }
 }

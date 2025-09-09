@@ -14,5 +14,42 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Super‑72 soundboard capture of a scorching Luxembourg 1972 set, highlighted by a rippin' Playin' in the Band, classic Pigpen on \"It Hurts Me Too\" and a slam‑dance Promised Land finale.",
+    "review": "Both reviewers rave about this European show, praising the crystal‑clear soundboard mix and the high‑energy first set that blasts through Playin' in the Band into a powerful Promised Land closer. The performance shines with Pigpen’s “It Hurts Me Too” and overall tight groove, despite a few vocal hiccups on Truckin'.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "medium",
+      "rationale": "Both reviews give 5‑star ratings, highlighting an exceptional performance and excellent soundboard quality; limited number of reviews keeps confidence at medium."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Described as a \"Super 72' Soundboard\" with crisp mix, well‑produced and balanced audio; no notable flaws reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "It Hurts Me Too",
+        "Playin' in the Band",
+        "Promised Land"
+      ],
+      "poor_songs": [
+        "Truckin'"
+      ],
+      "setlist_flow": "Condensed overview of Europe ’72; first set builds hot momentum with a rippin' Playin' in the Band and ends on an explosive Promised Land closer.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His on‑stage banter is called \"cheesy\" but his vocal performance is praised except for Truckin'.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T00:09:20.913067+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-05-16.sbd.23825.sbeok.shnf"
+  }
 }

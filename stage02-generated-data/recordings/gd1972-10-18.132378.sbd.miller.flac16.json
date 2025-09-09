@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.8,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 1972 show highlighted by a smoking Playin’ > Dark Star > Dew > Playin' suite, with good overall recording despite some hiss and mix quirks.",
+    "review": "The performance is consistently praised as powerful and “smoking,” especially the seamless Playin’ → Dark Star → Dew → Playin’ sequence that many reviewers call a highlight of the night. The soundboard source delivers clear audio; listeners note a slight hiss in the second set and occasional mix imbalance between Bob and Keith, but overall the recording is considered very good. Individual players receive kudos – Phil’s bass solo, Bob’s distinctive “bite” tone, and Keith’s audible keyboards round out an unforgettable show.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "All seven reviews are overwhelmingly positive about the music; most give 5‑star ratings, and the few technical criticisms (hiss, mix balance) are minor, leading to a strong combined show/recording score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Minor hiss in the second set; occasional prominence of Bob's guitar over Keith's keyboards, but overall clear and well‑balanced soundboard recording."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playin' > Dark Star > Dew > Playin'",
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth transitions, especially the unique and powerful Playin' → Dark Star → Dew → Playin' sequence; energy builds throughout both sets.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Bass solo praised as sweet, telepathic interplay, with notable thematic references during the solo.",
+      "Bob": "Guitar tone described as having an extra \"bite\" of distortion that adds character; often prominent in the mix.",
+      "Keys": "Keith's keyboards are audible and good, though sometimes the mix favors Bob over Keith.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:18:09.922720+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-10-18.132378.sbd.miller.flac16"
+  }
 }

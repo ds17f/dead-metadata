@@ -14,5 +14,43 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A listenable but low‑volume soundboard recording captures an August 1968 set that shines with a beautiful Dark Star, a soaring Eleven, and strong Lovelight.",
+    "review": "The performance is highlighted as one of the high points of ’68, with Dark Star, St. Stephen, Eleven and Lovelight receiving enthusiastic praise, though Death Don't Have No Mercy falls flat. The audio is described as listenable yet below‑par, suffering from low volume and a lack of polish. Overall the show’s musical strengths outweigh its technical shortcomings.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Show quality is rated high (≈4.5) due to standout performances, while recording quality is low (≈2). Weighted average yields ~3.8 stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Listenably clear but noticeably low volume; overall below‑par fidelity with no major dropouts mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "St. Stephen",
+        "The Eleven",
+        "Lovelight"
+      ],
+      "poor_songs": [
+        "Death Don't Have No Mercy"
+      ],
+      "setlist_flow": "A single set that starts high‑energy, peaks with a spectacular Eleven, dips on Death Don't Have No Mercy, then recovers with Lovelight.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for beautiful Dark Star solo, flying through Eleven at \"mach speed\", and solid jamming on Lovelight.",
+      "Phil": "Noted as staying close behind Jerry during the Eleven, providing strong bass support.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T08:56:44.378830+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-08-28.sbd.vernon.10162.sbeok.shnf"
+  }
 }

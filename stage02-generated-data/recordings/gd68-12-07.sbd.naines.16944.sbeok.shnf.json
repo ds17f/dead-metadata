@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.464285714285714,
   "high_ratings": 27,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture with decent clarity (despite hiss and cuts) highlights a rare Rosemary performance, a smoking Dark Star and an intense Other One suite.",
+    "review": "The show is celebrated for its historic rarity – the only known live Rosemary – and strong improvisations on Dark Star, New Potato (Caboose) and the Other One suite. While the soundboard source is generally good for a 1968 recording, reviewers note noticeable hiss and several edit cuts that affect continuity. Overall the musical moments outweigh the technical flaws, making it a valued gem of the late‑'68 era.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Most reviewers (4–5 stars) praise the performance and rarity of songs, while acknowledging recording hiss and cuts; weighted combination of strong show quality (~4.2) and decent but imperfect recording (~3.5) yields an overall ~4‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear for a '68 tape, but noticeable hiss throughout and multiple partial cuts/editing glitches (especially early set). Morning Dew > Bid You Goodnight segment is highlighted as especially clean."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Rosemary",
+        "Dark Star",
+        "New Potato (Caboose)",
+        "That's It For the Other One suite",
+        "Morning Dew > Bid You Goodnight"
+      ],
+      "poor_songs": [
+        "Morning Dew (criticized by some as weak)"
+      ],
+      "setlist_flow": "First set considered solid but not extraordinary; second set ramps up with an intense Other One suite and strong jams, though occasional sloppiness is noted. Overall flow moves from mellow opening to a fiery middle‑to‑late segment.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for blazing guitar work, intergalactic Dark Star tones, risky volume‑knob experiments and stellar solos throughout the show.",
+      "Phil": "Noted for a “nasty” bass jam in New Potato and powerful thunder on The Other One suite; some reviewers highlight his classical‑like turn.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T09:33:39.085831+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd68-12-07.sbd.naines.16944.sbeok.shnf"
+  }
 }

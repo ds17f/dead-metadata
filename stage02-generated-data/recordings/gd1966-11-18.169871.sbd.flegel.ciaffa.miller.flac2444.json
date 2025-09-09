@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑resolution 24‑bit/44.1k FLAC available, but no performance details provided",
+    "review": "The sole review is a brief note directing listeners to a Google Drive folder where the recording can be downloaded in 24‑bit/44.1 kHz quality. No comments are made about the concert’s musical performance or the technical characteristics of the audio beyond its resolution, so both show and recording qualities remain unclear.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.5,
+      "confidence": "low",
+      "rationale": "Only one brief, neutral‑informative review with a 4‑star rating; insufficient detail to assess musical or audio quality, so a moderate rating is assigned with low confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Review mentions the file is available in 24‑bit/44.1 kHz FLAC, but gives no insight into source (soundboard/audience) or clarity."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No information provided",
+      "energy_level": "unknown"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T06:01:56.426160+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1966-11-18.169871.sbd.flegel.ciaffa.miller.flac2444"
+  }
 }

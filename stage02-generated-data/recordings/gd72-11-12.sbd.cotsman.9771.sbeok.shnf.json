@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 3.3,
   "high_ratings": 4,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "A rough soundboard mix with barely‑there vocals and missing keyboards, but the Fall‑1972 band delivers strong playing and standout second‑set moments.",
+    "review": "The performance is solid – the band is tight, Phil’s bass bombs and Jerry’s machine‑gun licks shine through, especially on tracks like \"Stella\", \"Not Fade Away\", \"Bertha\" and \"Big River\".  The soundboard recording, however, suffers from severe mix problems: vocals are low or absent, keyboards disappear, the bass is often over‑saturated and overall clarity is poor.  Listeners who value musical interplay may overlook the technical flaws.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the musical performance (≈4/5) while condemning the recording quality (≈2/5). Weighted combination yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Vocals are very low or missing, keyboards largely absent, bass often over‑saturated, overall mix uneven and muddy; some sections have only drums, guitar and bass audible."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Stella Blue",
+        "Not Fade Away",
+        "Bertha",
+        "Big River",
+        "Tennessee Jed",
+        "El Paso",
+        "Friend of the Devil"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second‑set creativity is highlighted, though one reviewer felt the latter half fell apart; overall set feels a mix of high energy jams and a somber vibe.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for machine‑gun pace licks and killer solo on \"Bertha\"; his guitar shines thanks to the sparse mix.",
+      "Phil": "Described as dropping bombs with a great groove, especially on \"Bertha\"; bass tone is sometimes over‑saturated in the recording.",
+      "Bob": "Interplay with Jerry and Phil noted as exquisite; lack of keyboards lets his rhythm work come through clearer.",
+      "Keys": "Keyboards are largely missing from the mix; some reviewers view this as a flaw, others appreciate the focus on guitars and bass.",
+      "Drums": "Bill's drumming is solid but often buried in the mix; occasional sections have only drums audible."
+    },
+    "processed_date": "2025-09-08T03:51:50.822286+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-11-12.sbd.cotsman.9771.sbeok.shnf"
+  }
 }

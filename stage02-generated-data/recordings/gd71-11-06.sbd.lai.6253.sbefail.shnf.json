@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.3636363636363638,
   "high_ratings": 5,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Soundboard capture with noticeable Keith piano distortion, yet the show shines thanks to an epic Bertha and a double‑Cryptical The Other One.",
+    "review": "The performance is praised for its extended Bertha, the two Cryptical sections within The Other One, and a heartfelt Comes A Time, delivering high energy despite occasional sonic hiccups. Technically the SBD suffers from intermittent piano mic distortion that some listeners find tolerable while others deem it unlistenable. Overall the music outweighs the flaws, making it a worthwhile listen for Deadheads.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Show quality is generally high with several standout moments (weight 70%), but recording issues—especially Keith's piano distortion—drag the overall experience down (weight 30%). Mixed reviewer scores and comments lead to a medium confidence rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Intermittent static/distortion on Keith's piano channel; distortion comes and goes, affecting many tracks but some songs (e.g., Sing Me Back Home, end of Too → Cryptical, Comes A Time) are relatively clean."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha",
+        "The Other One (with two Cryptical sections)",
+        "Comes A Time"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Setlist mirrors the following night with added Bertha and Black Peter; transitions are solid, especially the long The Other One suite leading into Comes A Time.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "One reviewer notes that Jerry seemed aware of the song choices (“Comes A Time is a very appropriate song for this show”).",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith's piano suffers from intermittent distortion/static throughout, degrading the listening experience.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T20:17:43.494885+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd71-11-06.sbd.lai.6253.sbefail.shnf"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording with a decent mix but noted bass deficiencies; historic early show that fans find interesting yet unremarkable musically.",
+    "review": "The recording is a sound‑board source that many listeners prefer over other releases, though one reviewer notes it lacks the extra bass and punch of an FM radio version. The concert itself is praised for its historical significance rather than specific musical highlights, resulting in a mixed impression overall.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.3,
+      "confidence": "medium",
+      "rationale": "Limited commentary on the performance (mostly historical appreciation) combined with mixed opinions on audio quality leads to an average rating; enough reviews for a moderate confidence level."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Mix is generally praised versus other postings, but one reviewer mentions weaker bass and lower overall levels compared to the FM radio version."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure; reviewers focus on the show's historical value rather than musical flow.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T05:27:28.795028+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd66-05-19.sbd.sonicsolutions.82844.flac"
+  }
 }

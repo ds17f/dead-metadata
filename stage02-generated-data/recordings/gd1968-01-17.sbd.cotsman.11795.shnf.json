@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.7,
   "high_ratings": 20,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture that’s surprisingly clear for ’68, highlighted by a monster Spanish Jam and historic debuts (Dark Star, China Cat, Eleven, Born Cross‑Eyed).",
+    "review": "This January 17 1968 show bursts with raw energy as the Dead roll out a slew of first‑time performances – the 16‑minute Spanish Jam, the earliest Dark Star on Archive.org and debut versions of China Cat, Eleven and Born Cross‑Eyed. The soundboard source is remarkably listenable for its era, though listeners note occasional hum, buzz, hiss and a muddy low‑end bass mix.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Average rating across 23 reviews is ~4.7 ★; the vast majority praise the musical performance and consider the recording good despite minor technical flaws."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and surprisingly crisp for 1968, but exhibits a faint hum, occasional buzz, hiss in quiet passages, muddy bass definition and drums slightly low in the mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Spanish Jam (16 min)",
+        "Dark Star (earliest archive version)",
+        "China Cat",
+        "Eleven",
+        "Born Cross‑Eyed",
+        "The Other One",
+        "Schoolgirl",
+        "New Potato",
+        "Cryptical Envelopment",
+        "Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A debut‑heavy early‑68 set that strings together historic firsts (China Cat→Eleven, Dark Star→China Cat) and builds to a soaring Spanish Jam; the pacing feels raw yet purposeful.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar work described as 'smoking', tone strong though still reaching for low‑range notes; overall praised.",
+      "Phil": "Bass noted as present but muddy and low‑defined, requiring volume boost to hear clearly.",
+      "Bob": "Pigpen’s vocals and harp singled out as top‑form and gritty, though one reviewer mentions vocal mix issues.",
+      "Keys": "Keyboards reported as clear and well‑balanced in the mix.",
+      "Drums": "Drums are described as low in the mix but otherwise present."
+    },
+    "processed_date": "2025-09-08T07:34:47.843282+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1968-01-17.sbd.cotsman.11795.shnf"
+  }
 }

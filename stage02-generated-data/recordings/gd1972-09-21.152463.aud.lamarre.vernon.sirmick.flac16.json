@@ -14,5 +14,39 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Vibrant audience tape captures a high‑energy 9/21/72 set with a smoking Dark Star > Morning Dew sandwich and an explosive Playing in the Band.",
+    "review": "The recording is an audience source that, despite the inherent lo‑fi ambience, delivers surprisingly clear and lively sound, letting listeners soak up the raw vibe of the night. Musically the show shines – Jerry’s tonal command, Phil’s crisp bass tone, and a thunderous Playing in the Band lead into a standout Dark Star > Morning Dew sandwich that many fans will call “stainless”.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "medium",
+      "rationale": "Review is glowing (5 stars) and highlights an exceptional performance; recording is praised as vibrant though not the absolute best audience capture, yielding a high combined rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Tape is surprisingly vibrant for a 1972 audience recording; captures full ambience and room feel with modest lo‑fi character but no major dropouts or distortion mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > Morning Dew",
+        "Playing in the Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Even though the reviewer skipped much of the first set, the described moments flow organically with a powerful second‑half surge, highlighting a strong musical chemistry throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia is praised for holding the entire structure with superb tonal control and shaping the improvisational landscape.",
+      "Phil": "Phil's bass tone is noted as clear, crisp, and even closer than typical soundboard captures.",
+      "Bob": "Bob is mentioned as part of the cohesive ensemble that functions like fingers on the same hand.",
+      "Keys": "Keith (keys) is included in the description of the unified band texture.",
+      "Drums": "Bill Kreutzmann's drumming contributes to the overall cosmic blanket feel, though no specific drum commentary is given."
+    },
+    "processed_date": "2025-09-08T02:35:32.942428+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-09-21.152463.aud.lamarre.vernon.sirmick.flac16"
+  }
 }

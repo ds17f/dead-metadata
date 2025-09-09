@@ -14,5 +14,41 @@
   "confidence": 0.8,
   "raw_rating": 4.5,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture with crystal‑clear Pigpen organ, featuring standout Truckin' → The Other One → Wharf Rat sequence and a high‑energy, tightly‑grooving show.",
+    "review": "The recording is praised for its clear, crisp sound – especially the organ work on Cold Rain & Snow – and plays seamlessly despite track splits. Fans highlight the laid‑back yet powerful first set and a monster second‑set flow of Truckin', The Other One and Wharf Rat, calling it one of the best shows of the era. Overall the performance is high‑energy and the audio quality is solid.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Consistently positive comments on both musical performance (high energy, standout songs) and recording clarity lead to a strong combined rating; the few minor criticisms do not outweigh the overall praise."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear organ presence, crisp overall mix, seamless playback despite three track interruptions; no major drop‑outs or distortion reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cold Rain & Snow",
+        "Truckin'",
+        "The Other One",
+        "Wharf Rat"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set described as laid‑back, measured and grooving; second set flows smoothly with a highlighted Truckin' → The Other One → Wharf Rat sequence.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen's organ is heard very clearly and praised for its richness, especially on Cold Rain & Snow.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:04:49.990858+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-05.sbd.fixed.miller.110185.flac16"
+  }
 }

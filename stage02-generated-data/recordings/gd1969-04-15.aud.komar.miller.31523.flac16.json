@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.375,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Warm audience recording of a high‑energy 1969 show highlighted by a monster Dark Star and fiery Other One despite modest sound quality.",
+    "review": "The performance is praised for its powerful Other One and an unforgettable Dark Star, with Jerry Garcia’s guitar work described as “on fire.”  Though captured on a handheld mic with limited fidelity, the recording conveys the intimate atmosphere of the Music Box and is considered enjoyable by listeners.  Overall the show delivers high energy after a slow start, making it a standout early‑Dead concert.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Reviews consistently give 4–5 stars for the musical performance; the show is rated very highly while recording quality is noted as modest, yielding a weighted average around 4.1."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Handheld mic capture with limited detail and some muddiness; warmth and atmosphere are present but fidelity is low compared to soundboard sources."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Starts a bit tentative for the first two numbers, then quickly builds into high‑energy playing with a soaring Dark Star and a fiery Other One, reflecting the intimate crowd interaction at the Music Box.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple reviewers note Jerry’s guitar is on fire, with expressive pedal‑steel‑inspired leads and double bends.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T11:51:42.812063+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-04-15.aud.komar.miller.31523.flac16"
+  }
 }

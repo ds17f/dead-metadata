@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience recording captures a strong show highlighted by a jaw‑dropping \"The Other One\", but muddy sound makes the listening experience difficult.",
+    "review": "The performance itself gets high marks – reviewers rave about an incredible rendition of \"The Other One\" and consider the concert a great show. However, the AUD source suffers from poor fidelity and imbalance that many listeners find hard to sit through, limiting overall enjoyment.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Show quality is praised (especially The Other One) while recording quality is criticized as muddy; weighted combination yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Sound is muddy and uneven, making the show hard to get through; some moments are audible but overall fidelity is low."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set pacing; reviewers focus on individual song quality.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T16:30:25.066907+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-02-23.aud.weinberg.moore.berger.98406.flac16"
+  }
 }

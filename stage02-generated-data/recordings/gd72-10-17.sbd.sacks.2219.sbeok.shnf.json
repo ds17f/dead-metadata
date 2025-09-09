@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.285714285714286,
   "high_ratings": 13,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear soundboard capture of a high‑energy 1972 show with a smoking Playin' and stellar PitB highlights.",
+    "review": "The recording is generally clean and well‑balanced, though it suffers from a noticeable cut in Black Peter and several missing songs. Musically the performance is vibrant – the first set shines with a monster Playin', half‑step and Sugar Magnolia, while the second set delivers a powerful PitB and solid jams despite some uneven moments.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the show’s energy and key performances (Playin', PitB, Sugar Magnolia) while noting only minor recording glitches and missing tracks; this yields a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear and crisp sound overall; occasional cut in the middle of Black Peter and several omitted songs, but no major distortion or noise issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing In The Band",
+        "Half‑Step Toward Heaven",
+        "Sugar Magnolia",
+        "China Cat Sunflower",
+        "Cumberland Blues",
+        "The Other One (NFA > GDTRFB > NFA sequence)",
+        "Bird Song"
+      ],
+      "poor_songs": [
+        "Missing: Strawberry, Fire on the Mountain, Big River, Jack Straw, Foolish Heart, etc."
+      ],
+      "setlist_flow": "First set is tight and high‑energy with strong segues; second set holds its own with a monster PitB but some reviewers felt it lacked a deep jam vehicle compared to the first.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for an inspiring solo and overall great tone throughout the night.",
+      "Phil": "\"On fire\" – bass work highlighted as exceptional by multiple reviewers.",
+      "Bob": "Tasty guitar licks noted; occasional vocal quirks mentioned but overall solid contribution.",
+      "Keys": "Keith (or other keyboardist) singled out as a star of the performance in one detailed review.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T03:15:50.261922+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-10-17.sbd.sacks.2219.sbeok.shnf"
+  }
 }

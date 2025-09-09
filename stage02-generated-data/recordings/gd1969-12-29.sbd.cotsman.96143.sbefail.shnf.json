@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.25,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording is clear and decent while the New Year's Eve ’69 Boston show delivers high‑energy performances with standout versions of “Dancing In The Streets,” “Mason’s Children,” and “Easy Wind.”",
+    "review": "The mix is praised as crisp with only minor quirks – vocals sit a touch high and a mic‑grab incident adds some chaos – but overall the soundboard capture is solid. Musically the band is tight, rolling through a vibrant set that highlights a 15‑minute “Dancing In The Streets,” a fiery “Mason’s Children,” and an especially sweet “Easy Wind,” keeping the energy high throughout.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Consistently strong praise for both performance (high‑energy, tight playing, several standout songs) and recording quality (good mix, clear soundboard). Weighted average of show (≈4) and recording (≈4.5) yields ~4.2."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Decent clarity with a crisp mix; vocals are slightly high, occasional mic‑grab noise, but overall listenable without major dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dancing In The Streets",
+        "Mason's Children",
+        "Easy Wind",
+        "High Time",
+        "Good Lovin' (groovy version)",
+        "Rain & Snow"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "New Year's Eve run starts chill with Rain & Snow and Mama Tried, builds momentum through Easy Wind and Uncle John’s Band, peaks with a hot High Time and Mason's Children, and closes on a spirited Good Lovin' that sets the mood for the remainder of the night.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Thick \"TC\" keyboard runs noted; Pigpen’s vocal shouts and organ work highlighted throughout.",
+      "Drums": "Bill's drumming described as solid; Mickey Hart mentioned in a comment about his later diminishing role."
+    },
+    "processed_date": "2025-09-08T16:09:42.112613+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1969-12-29.sbd.cotsman.96143.sbefail.shnf"
+  }
 }

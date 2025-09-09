@@ -14,5 +14,43 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Superb soundboard capture (with occasional hum) of a scorching Pennsylvania ’71 show, highlighted by a blazing China Cat solo, funky Rider, expansive Bird Song and killer Sugar Magnolia.",
+    "review": "The performance is described as one of the best the Dead ever played in Pennsylvania, with high‑energy first‑set numbers and a second set that builds from an extended Bird Song into a funk‑charged Rider and a spectacular Sugar Magnolia. The soundboard recording is overall superb despite some static, low‑frequency hum and inaudible keyboards, and it isolates solos (Bobby and Jerry) beautifully.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "medium",
+      "rationale": "Both reviewers gave 5 stars and praise the musical performance heavily; recording issues are minor, leading to a high combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Overall superb sound with occasional static, distortion and low‑frequency hum typical of early ’71 tapes; keyboards largely buried, giving room for audience bleed, but solos are well isolated."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower",
+        "Riders (funky version)",
+        "Second That Emotion",
+        "Casey Jones",
+        "Bird Song",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set builds strong energy, ending with Second That Emotion and Casey Jones; second set opens with a long Bird Song, followed by an engaging mix of funkier Rider and a guiro‑enhanced Sugar Magnolia, with the rest flowing naturally.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Uses crybaby pedal on Sugar Magnolia, provides lead lines in Bird Song; solo on China Cat noted as perfunctory but mix isolates him well.",
+      "Phil": "Ron \"Pig\" McKernan’s keyboards are mostly inaudible, limiting his presence to a few vocal contributions and brief tuning bits.",
+      "Bob": "Bobby's solo in China Cat is described as a bona fide, riff‑laden performance that drives the band; his funkiness shines on Rider.",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann locks into a funky groove on Rider and maintains tight drumming throughout; overall drum work noted as tight (Johnny B. Good)."
+    },
+    "processed_date": "2025-09-07T17:34:49.741133+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-14.132543.sbd.mathews.reel.wise.flac16"
+  }
 }

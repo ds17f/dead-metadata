@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Average soundboard capture of a well‑played jam with decent performance.",
+    "review": "The single review rates the show as a solid, well‑executed set, noting that the musicians were in good form. No specific comments on the audio fidelity are provided, but the filename suggests a soundboard source, likely offering a clear but unremarkable mix. Overall the recording is deemed average and suitable for listeners looking for a competent performance rather than a standout concert.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "low",
+      "rationale": "Only one brief, 3‑star review; it mentions decent playing but gives no detail on recording quality, leading to an average overall rating with low confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "No explicit comments about sound clarity or mix; presumed typical soundboard fidelity without notable issues."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Not described; review only notes the overall jam was well‑played.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T16:35:24.229504+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-02-24.sbd.clevenger.6190.sbefail.shnf"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Recording quality not specified, but the show is described as dynamite with an exciting post‑drums jam that unfortunately gets cut short.",
+    "review": "Fans rave about the overall energy of this performance, calling it \"dynamite\" and praising a powerful jam after the drum solo. However, one reviewer notes that the best part of the set— the jam following the drums— is abruptly truncated, which detracts from an otherwise high‑energy show.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Both reviewers gave high marks (5 and 4 stars) indicating a strong musical performance, but the missing jam segment prevents a higher rating; recording quality is not discussed, limiting confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No explicit comments on sound source or audio clarity were provided in the reviews."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T17:16:23.000577+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1971-04-07.141029.betty.dalton.miller.sirmick.flac1644"
+  }
 }

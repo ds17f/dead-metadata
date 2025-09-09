@@ -14,5 +14,38 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy performance with a standout Playin' in the Band, captured on a good but cut‑affected recording.",
+    "review": "The show is described as bursting with energy and tight interplay, especially highlighted by an intense Playin' in the Band segment and a beautiful Phil harmonic improv in the closing minutes. Reviewers praise Jerry’s guitar work, Phil’s bass harmonics, and the rhythm section, though several note that the recording suffers from a noticeable cut that detracts from an otherwise solid soundboard‑like source.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show highly (5 stars) and commend its energy and musicianship; recording quality is generally good but a cut is repeatedly mentioned, pulling the overall rating down slightly."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Overall clear and energetic sound, but a significant cut in the middle of the performance is noted as a drawback."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playin' in the Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Energy builds steadily throughout, culminating in an especially strong final five‑minute improvisational stretch.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for evolving riffs and intense playing that 'compress diamonds' with Phil.",
+      "Phil": "Highlighted for a harmonic bass line that leads into beautiful improv toward the end.",
+      "Bob": "Described as sounding amazing, contributing solid rhythm/vocals.",
+      "Keys": "",
+      "Drums": "Billy (Bill Kreutzmann) noted as sounding amazing and locked in with the band’s rhythm."
+    },
+    "processed_date": "2025-09-08T04:04:03.174534+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd72-11-15.psbd.cotsman.10916.sbeok.shnf"
+  }
 }

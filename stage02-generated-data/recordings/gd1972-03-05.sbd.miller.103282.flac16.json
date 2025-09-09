@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 3.6153846153846154,
   "high_ratings": 9,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Fair matrix recording with hiss, splices and occasional wow‑flutter but captures a spirited Winterland benefit highlighted by a smoking Good Lovin' and early Mind Left Body jam.",
+    "review": "The show is an uneven benefit set – the first half swings between sloppy moments and energetic highlights like Good Lovin', Tennessee Jed and a lively You Win Again, while the second set delivers a concise but sweet Not Fade Away → Goin' Down the Road sequence. The audio is a mixed soundboard/audience composite with noticeable hiss, splices and pitch irregularities that require EQ work, yet it remains listenable for fans interested in the early versions of several 1972 songs.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.5,
+      "confidence": "medium",
+      "rationale": "Average star rating (~3.6) reflects a show with notable musical moments but inconsistent performance and a recording that is fair at best, leading to a mid‑range overall score."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Hissy, suppressed sound with occasional splices of audience material; some wow‑flutter and pitch issues; overall listenable but not crisp soundboard quality."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "Mind Left Body Jam (early version)",
+        "You Win Again",
+        "Tennessee Jed",
+        "Not Fade Away > Goin' Down the Road Feeling Bad"
+      ],
+      "poor_songs": [
+        "Mr. Charlie",
+        "Sugaree",
+        "Casey Jones"
+      ],
+      "setlist_flow": "Benefit format with long opening acts truncated the Dead's set; first set uneven, second set short but sweet, overall pacing mixed.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Strong bass work noted, especially on Jack Straw and driving Tennessee Jed.",
+      "Bob": "",
+      "Keys": "Keith Godchaux adds piano/organ pizzazz; Pigpen's organ featured prominently on Good Lovin' and You Win Again.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-07T22:14:31.967478+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-03-05.sbd.miller.103282.flac16"
+  }
 }

@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.625,
   "high_ratings": 14,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of the fiery 5/25/72 London show with a smoking Good Lovin' jam, soaring Uncle John's Band and powerful Wharf Rat, presented in an excellent mix despite missing parts of the second set.",
+    "review": "The recording is a high‑quality soundboard tape that showcases the band on fire – Jerry’s guitar is in top form, Keith’s piano adds bright accents and Pigpen’s organ/voice shines on Good Lovin'.  Highlights include a monster Uncle John's Band > Wharf Rat sequence and an emotional final Sittin’ on Top of the World, although the second‑set conclusion is absent.  Overall the performance is energetic and memorable, with only a few weaker moments such as a flat Casey Jones and a less‑focused Dark Star.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "The vast majority of reviews are 5‑star, praising both the musical performance and the sound quality; only a few note minor flaws or missing portions, leading to a strong positive overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, well‑balanced mix with clear piano/organ separation and strong guitar presence; the only technical limitation is the incomplete second‑set capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "Uncle John's Band",
+        "Wharf Rat",
+        "Sittin' on Top of the World"
+      ],
+      "poor_songs": [
+        "Casey Jones",
+        "Dark Star"
+      ],
+      "setlist_flow": "A slow‑burning first set that builds into a high‑energy second set; the band hits several peaks before the tape cuts out after Sugar Magnolia, leaving the finale missing.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for his finest‑era guitar tone and soaring solos; his vocal work on the final ballad is noted as especially emotive.",
+      "Phil": "Mixed feedback – some reviewers highlight interesting, bass‑driven jams in Dark Star, while others feel he never 'unleashes' full muscle here.",
+      "Bob": "Acknowledged for strong rhythm guitar and organ interplay, particularly on Good Lovin' where his organ counterpoint shines.",
+      "Keys": "Keith’s piano is described as grand, excited (double trills) and adds the final touches that fire up the band.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-08T00:29:22.213416+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1972-05-25.sbd.miller.87682.sbeok.flac16"
+  }
 }
