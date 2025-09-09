@@ -31,7 +31,7 @@ Respond with a JSON object matching this exact structure:
 ```json
 {
   "summary": "Brief factual summary WITHOUT venue/date (max 80 chars) - focus on musical content and quality",
-  "blurb": "Key details about playing, standout songs, and show quality (2-3 sentences, factual not storytelling)",
+  "blurb": "Key details about playing, standout songs, and show quality WITHOUT venue/date (2-3 sentences, factual not storytelling)",
   "review": "Comprehensive 1-2 paragraph review combining all insights",
   "ratings": {
     "average_rating": 4.2,
@@ -119,7 +119,7 @@ Choose the recommended recording based on:
 - **Mellow Energy**: "spacey", "dreamy", "contemplative", "gentle", "introspective", "laid-back", "exploratory"
 - **Song Quality**: "stellar", "standout", "exceptional", "gorgeous", "brilliant", "transcendent", "magical", "inspired"
 
-**Varied Opening Phrases:**
+**Varied Opening Phrases (for full review only - NOT for summary/blurb):**
 - "This [venue] show delivers..."
 - "[Date] finds the Dead..."
 - "The band hits their stride at [venue]..."
@@ -163,7 +163,8 @@ Combine band member comments from all recordings:
 - NOT: "Cornell '77 delivers legendary show with perfect Scarlet>Fire"
 
 **Blurb (2-3 sentences, factual):**
-- Key details about the playing and song highlights
+- NO venue name or date - avoid wasting space with redundant information
+- Key details about the playing and song highlights without location references
 - Mention standout songs and overall quality level
 - Factual assessment, not flowery storytelling
 - Example: "Features exceptional Scarlet>Fire sequence and inspired second set jamming. Jerry's guitar work shines throughout with Phil providing solid foundation. Recommended for the definitive versions of several songs."
@@ -171,6 +172,7 @@ Combine band member comments from all recordings:
 **Review (1-2 paragraphs):**
 - Full narrative combining all insights
 - Can be more descriptive and storytelling in nature
+- Venue and date references acceptable here for context and flow
 
 ### Key Highlights Selection
 

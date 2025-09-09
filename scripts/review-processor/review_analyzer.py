@@ -14,6 +14,9 @@ import json
 import sys
 import termios
 import tty
+import subprocess
+import tempfile
+import difflib
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 from glob import glob
@@ -22,10 +25,11 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 from rich.text import Text
-from rich.prompt import Prompt, IntPrompt
+from rich.prompt import Prompt, IntPrompt, Confirm
 from rich.columns import Columns
 from rich.layout import Layout
 from rich.live import Live
+from rich.syntax import Syntax
 
 
 class ReviewAnalyzer:
@@ -192,6 +196,7 @@ class ReviewAnalyzer:
                 "3. View All Recording Reviews", 
                 "4. Compare Recording AI vs Raw Reviews",
                 "5. View Raw Reviews for Recording",
+                "6. Refine AI Review Language (Fix Repetitive Terms)",
                 "0. Back to Show Selection"
             ]
             
@@ -214,6 +219,8 @@ class ReviewAnalyzer:
                     self.compare_recording_reviews(recordings)
                 elif choice == 5:
                     self.display_raw_reviews(recordings)
+                elif choice == 6:
+                    self.refine_show_review(show_path, show_data)
                 else:
                     self.console.print("[red]Invalid option[/red]")
                     
@@ -227,6 +234,13 @@ class ReviewAnalyzer:
             
         current_show_index = 0
         show_scroll_position = 0  # Track scroll position across recordings
+        
+        # Add batch refinement option
+        self.console.print(Panel.fit(
+            "📋 [bold cyan]Multi-Show Analysis Mode[/bold cyan]\n"
+            "Press [bold yellow]B[/bold yellow] at any time during navigation for batch refinement",
+            style="cyan"
+        ))
         
         while current_show_index < len(shows):
             show_path = shows[current_show_index]
@@ -248,7 +262,8 @@ class ReviewAnalyzer:
                     recordings, 
                     current_show_index + 1, 
                     len(shows),
-                    show_path.name
+                    show_path.name,
+                    shows  # Pass all shows for batch refinement
                 )
                 
                 if result == "next_show":
@@ -274,7 +289,8 @@ class ReviewAnalyzer:
                 continue
     
     def multi_show_vs_recordings_analysis(self, show_data: Dict[str, Any], recording_ids: List[str], 
-                                        show_current: int, show_total: int, show_name: str) -> str:
+                                        show_current: int, show_total: int, show_name: str, 
+                                        all_shows: List[Path]) -> str:
         """Multi-show analysis with show-level and recording-level navigation."""
         current_recording_index = 0
         show_scroll_position = 0  # Initialize scroll position tracking
@@ -308,6 +324,29 @@ class ReviewAnalyzer:
                         current_recording_index = jump_to - 1
                 except (ValueError, KeyboardInterrupt):
                     continue
+            elif result == "stay":
+                # Stay on current recording (after refinement)
+                continue
+            elif result == "batch_refine":
+                # Handle batch refinement - clear screen and start batch process
+                self.console.print(f"[yellow]DEBUG: Multi-show function got 'batch_refine' result[/yellow]")
+                self.console.clear()
+                self.console.print("\n[bold yellow]🔧 Starting Batch Refinement[/bold yellow]")
+                
+                try:
+                    instruction = Prompt.ask(
+                        "Enter refinement instruction for all shows",
+                        default="Replace overused terms like 'high energy', 'monster', 'fire', 'scorching', 'tight' with more varied and specific language."
+                    )
+                    
+                    if Confirm.ask(f"Apply refinement to all {len(all_shows)} shows?"):
+                        self.batch_refine_reviews(all_shows, instruction)
+                except Exception as e:
+                    self.console.print(f"[red]❌ Batch refinement error: {e}[/red]")
+                    input("Press Enter to continue...")
+                
+                # Continue with current show after batch refinement
+                continue
                     
             # Show-level navigation (Shift+N/P/X)
             elif result == "next_show":
@@ -536,6 +575,24 @@ class ReviewAnalyzer:
                         current_index = jump_to - 1
                 except (ValueError, KeyboardInterrupt):
                     continue
+            elif result == "refine":
+                # Handle individual show refinement
+                self.console.print(f"[yellow]DEBUG: Got 'refine' in default view[/yellow]")
+                show_id = show_data.get('show_id', 'unknown')
+                show_path = Path(f"stage02-generated-data/shows/{show_id}.json")
+                try:
+                    self.refine_show_review(show_path, show_data)
+                except Exception as e:
+                    self.console.print(f"[red]❌ Refinement error: {e}[/red]")
+                    input("Press Enter to continue...")
+                # Stay on current recording
+                continue
+            elif result == "batch_refine":
+                # Handle batch refinement - not really applicable in single show view
+                self.console.print(f"[yellow]DEBUG: Got 'batch_refine' in default view - not applicable[/yellow]")
+                self.console.print("[yellow]⚠️  Batch refinement only available in multi-show mode[/yellow]")
+                input("Press Enter to continue...")
+                continue
     
     def interactive_show_vs_recording_comparison(self, show_data: Dict[str, Any], recording_id: str, current: int, total: int) -> str:
         """Show interactive comparison between show AI review and recording evidence."""
@@ -594,7 +651,7 @@ class ReviewAnalyzer:
                 recording_viewport,
                 title=f"🎧 Recording Evidence (J/K to scroll) [{recording_scroll+1}-{min(recording_scroll+25, len(recording_lines))}/{len(recording_lines)}]",
                 style="green",
-                subtitle="Controls: H/L=recordings, S/G=shows, D/F=scroll left, J/K=scroll right, Q=quit",
+                subtitle="Controls: H/L=recordings, S/G=shows, D/F=scroll left, J/K=scroll right, R=refine, B=batch, Q=quit",
                 border_style="green"
             ))
 
@@ -619,6 +676,18 @@ class ReviewAnalyzer:
                     return "next"
                 elif key.lower() == 'x':  # Jump to specific recording
                     return "jump"
+                elif key.lower() == 'r':  # Refine review language
+                    # Exit the Live context before showing debug
+                    live.stop()
+                    self.console.print(f"[yellow]DEBUG: R key pressed - returning 'refine'[/yellow]")
+                    input("Press Enter to continue...")
+                    return "refine"
+                elif key.lower() == 'b':  # Batch refinement
+                    # Exit the Live context before showing debug
+                    live.stop()
+                    self.console.print(f"[yellow]DEBUG: B key pressed - returning 'batch_refine'[/yellow]")
+                    input("Press Enter to continue...")
+                    return "batch_refine"
                 elif key.lower() == 'd':  # scroll left panel (show review) UP
                     old_scroll = show_scroll
                     show_scroll = max(0, show_scroll - 1)
@@ -643,6 +712,12 @@ class ReviewAnalyzer:
                     if recording_scroll != old_scroll:
                         update_display()
                         live.refresh()
+                else:
+                    # Debug: show what key was actually pressed
+                    live.stop()
+                    self.console.print(f"[yellow]DEBUG: Unhandled key pressed: '{key}' (ASCII: {ord(key) if len(key) == 1 else 'multi-char'})[/yellow]")
+                    input("Press Enter to continue...")
+                    return "quit"
     
     def interactive_show_vs_recording(self, show_data: Dict[str, Any], recording_id: str):
         """Single recording comparison with show review."""
@@ -953,6 +1028,29 @@ class ReviewAnalyzer:
                     if recording_scroll != old_scroll:
                         update_display()
                         live.refresh()
+                elif key.lower() == 'b':  # Batch refinement
+                    # Exit the Live context before batch refinement
+                    live.stop()
+                    return "batch_refine", show_scroll
+                elif key.lower() == 'r':  # Refine review language
+                    # Exit the Live context before refinement
+                    live.stop()
+                    
+                    # Handle refinement request
+                    self.console.print(f"[yellow]DEBUG: Enhanced function handling refinement[/yellow]")
+                    # Extract show path from show_name - construct proper filename
+                    if not show_name.endswith('.json'):
+                        show_path = Path(f"stage02-generated-data/shows/{show_name}.json")
+                    else:
+                        show_path = Path(f"stage02-generated-data/shows/{show_name}")
+                    
+                    try:
+                        self.refine_show_review(show_path, show_data)
+                    except Exception as e:
+                        self.console.print(f"[red]❌ Refinement error: {e}[/red]")
+                        input("Press Enter to continue...")
+                    # Continue with current view after refinement
+                    return "stay", show_scroll
 
     def compare_recording_reviews(self, recording_ids: List[str]):
         """Compare AI review with raw reviews for a selected recording."""
@@ -1619,6 +1717,356 @@ class ReviewAnalyzer:
             self.console.print(f"[red]❌ Error loading raw reviews: {e}[/red]")
         
         input("\nPress Enter to continue...")
+
+    def refine_show_review(self, show_path: Path, show_data: Dict[str, Any]):
+        """Interactive review refinement with local LLM processing."""
+        ai_review = show_data.get('ai_show_review', {})
+        if not ai_review:
+            # Clear the current display and show error
+            self.console.clear()
+            self.console.print("[red]❌ No AI review found for this show[/red]")
+            input("Press Enter to continue...")
+            return
+        
+        # Clear the current display for refinement interface
+        self.console.clear()
+            
+        self.console.print(Panel.fit(
+            "🔧 [bold cyan]AI Review Language Refinement[/bold cyan]\n"
+            "Fix repetitive terms and improve language variety using local LLM",
+            style="cyan"
+        ))
+        
+        while True:
+            # Display current review sections
+            self.display_review_sections(ai_review)
+            
+            # Get refinement instructions
+            self.console.print("\n[bold green]Refinement Instructions:[/bold green]")
+            self.console.print("  Enter specific instructions like:")
+            self.console.print("  - 'Replace high energy with more varied terms'")
+            self.console.print("  - 'Use different words instead of monster and fire'")
+            self.console.print("  - 'Vary the language in the summary'")
+            self.console.print("  - 'all' to apply standard language variety fixes")
+            self.console.print("  - 'quit' to return to main menu")
+            
+            instruction = Prompt.ask("Refinement instruction").strip()
+            
+            if instruction.lower() in ['quit', 'q', 'exit']:
+                break
+            elif instruction.lower() == 'all':
+                instruction = "Replace overused terms like 'high energy', 'monster', 'fire', 'scorching', 'tight' with more varied and specific language. Avoid repetitive phrases and use diverse descriptive terms throughout all fields."
+            elif not instruction:
+                self.console.print("[yellow]Please enter a refinement instruction[/yellow]")
+                continue
+                
+            # Process with LLM
+            try:
+                refined_review = self.process_refinement_with_llm(ai_review, instruction, show_data)
+                if refined_review:
+                    # Show changes and get user decision
+                    decision = self.review_refinement_changes(ai_review, refined_review)
+                    
+                    if decision == 'accept':
+                        # Update the show data
+                        show_data['ai_show_review'] = refined_review
+                        self.save_refined_review(show_path, show_data)
+                        self.console.print("[green]✅ Review updated successfully![/green]")
+                        break
+                    elif decision == 'refine':
+                        # Get additional refinement instructions
+                        additional_instruction = Prompt.ask("Additional refinement instruction")
+                        if additional_instruction.strip():
+                            refined_review = self.process_refinement_with_llm(
+                                refined_review, additional_instruction, show_data
+                            )
+                            if refined_review:
+                                decision = self.review_refinement_changes(ai_review, refined_review)
+                                if decision == 'accept':
+                                    show_data['ai_show_review'] = refined_review
+                                    self.save_refined_review(show_path, show_data)
+                                    self.console.print("[green]✅ Review updated successfully![/green]")
+                                    break
+                    # If reject, continue to next iteration
+                    
+            except Exception as e:
+                self.console.print(f"[red]❌ Refinement failed: {e}[/red]")
+                input("Press Enter to continue...")
+
+    def display_review_sections(self, ai_review: Dict[str, Any]):
+        """Display the current AI review sections for refinement preview."""
+        sections = [
+            ("Summary", ai_review.get('summary', '')),
+            ("Blurb", ai_review.get('blurb', '')),
+            ("Key Highlights", '\n'.join(ai_review.get('key_highlights', []))),
+            ("Song Highlights", ', '.join(ai_review.get('song_highlights', []))),
+            ("Review Preview", ai_review.get('review', '')[:200] + '...' if len(ai_review.get('review', '')) > 200 else ai_review.get('review', ''))
+        ]
+        
+        for title, content in sections:
+            if content:
+                self.console.print(Panel(
+                    content,
+                    title=f"[bold cyan]{title}[/bold cyan]",
+                    style="white"
+                ))
+
+    def process_refinement_with_llm(self, original_review: Dict[str, Any], instruction: str, show_data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+        """Process review refinement using existing LLM infrastructure."""
+        self.console.print("\n[yellow]🤖 Processing with LLM...[/yellow]")
+        
+        try:
+            # Add current directory to Python path to import review_processor  
+            current_dir = Path(__file__).parent  # review-processor directory
+            sys.path.insert(0, str(current_dir))
+            
+            # Import and initialize the existing LLM client
+            from review_processor import Config, LLMClient
+            
+            # Load configuration
+            config_path = current_dir / "config.json"
+            if not config_path.exists():
+                self.console.print(f"[red]❌ LLM configuration file not found at {config_path}[/red]")
+                self.console.print("Please set up the review processor configuration first.")
+                input("Press Enter to continue...")
+                return None
+            
+            config = Config.load(config_path)
+            provider_config = config.providers[config.default_provider]
+            llm_client = LLMClient(provider_config)
+            
+            # Load refinement prompt
+            prompt_path = current_dir / "prompts" / "refine_review.md"
+            if not prompt_path.exists():
+                raise FileNotFoundError(f"Refinement prompt not found at {prompt_path}")
+                
+            with open(prompt_path) as f:
+                system_prompt = f.read()
+            
+            # Create user prompt with the refinement data
+            user_prompt = f"""## Input Data
+
+**Original Review:**
+```json
+{json.dumps(original_review, indent=2)}
+```
+
+**Refinement Instruction:**
+{instruction}
+
+**Show Context:**
+- Date: {show_data.get('date', 'Unknown')}
+- Venue: {show_data.get('venue', 'Unknown')}
+- Location: {show_data.get('location_raw', 'Unknown')}
+
+Please provide the refined review as a complete JSON object with the same structure as the original, but with improved language based on the refinement instruction."""
+
+            # Call the LLM using existing infrastructure
+            response = llm_client.generate_response(system_prompt, user_prompt)
+            
+            # Extract content from response
+            if 'content' in response:
+                content = response['content']
+            else:
+                raise Exception("Invalid response format from LLM")
+            
+            # Extract JSON from response (handle markdown code blocks)
+            if '```json' in content:
+                start = content.find('```json') + 7
+                end = content.find('```', start)
+                json_str = content[start:end].strip()
+            elif '```' in content:
+                start = content.find('```') + 3
+                end = content.find('```', start)
+                json_str = content[start:end].strip()
+            else:
+                json_str = content.strip()
+            
+            refined_review = json.loads(json_str)
+            
+            # Validate structure
+            required_fields = ['summary', 'blurb', 'review', 'ratings', 'best_recording', 
+                             'key_highlights', 'song_highlights', 'band_performance']
+            
+            for field in required_fields:
+                if field not in refined_review:
+                    raise ValueError(f"Missing required field: {field}")
+            
+            self.console.print("[green]✅ Successfully processed refinement with LLM[/green]")
+            return refined_review
+            
+        except FileNotFoundError as e:
+            self.console.print(f"[red]❌ File not found: {e}[/red]")
+        except json.JSONDecodeError as e:
+            self.console.print(f"[red]❌ Failed to parse LLM response as JSON: {e}[/red]")
+            self.console.print(f"[dim]Raw response: {content[:200] if 'content' in locals() else 'N/A'}...[/dim]")
+        except ImportError as e:
+            self.console.print(f"[red]❌ Failed to import review processor: {e}[/red]")
+            self.console.print("Make sure the review processor is properly set up.")
+        except Exception as e:
+            self.console.print(f"[red]❌ LLM processing failed: {e}[/red]")
+        
+        input("Press Enter to continue...")
+        return None
+
+    def review_refinement_changes(self, original: Dict[str, Any], refined: Dict[str, Any]) -> str:
+        """Show changes and get user decision on refinement."""
+        self.console.print(Panel.fit(
+            "📋 [bold cyan]Review Refinement Changes[/bold cyan]",
+            style="cyan"
+        ))
+        
+        # Show side-by-side comparison for key fields
+        fields_to_compare = ['summary', 'blurb', 'review']
+        
+        for field in fields_to_compare:
+            if field in original and field in refined:
+                original_text = original[field]
+                refined_text = refined[field]
+                
+                if original_text != refined_text:
+                    self.console.print(f"\n[bold yellow]{field.upper()} Changes:[/bold yellow]")
+                    
+                    # Create diff
+                    diff_lines = list(difflib.unified_diff(
+                        original_text.split('\n'),
+                        refined_text.split('\n'),
+                        fromfile='Original',
+                        tofile='Refined',
+                        lineterm=''
+                    ))
+                    
+                    if diff_lines:
+                        diff_text = '\n'.join(diff_lines[2:])  # Skip headers
+                        
+                        # Color code the diff
+                        colored_diff = Text()
+                        for line in diff_lines[2:]:
+                            if line.startswith('+'):
+                                colored_diff.append(line + '\n', style="green")
+                            elif line.startswith('-'):
+                                colored_diff.append(line + '\n', style="red") 
+                            else:
+                                colored_diff.append(line + '\n', style="white")
+                        
+                        self.console.print(Panel(colored_diff, title=f"{field} Changes"))
+                    else:
+                        # Fallback: show before/after
+                        self.console.print(Panel(
+                            f"[red]BEFORE:[/red] {original_text}\n\n[green]AFTER:[/green] {refined_text}",
+                            title=f"{field} Comparison"
+                        ))
+        
+        # Show other changes
+        other_changes = []
+        for key in ['key_highlights', 'song_highlights']:
+            if key in original and key in refined:
+                if original[key] != refined[key]:
+                    other_changes.append(f"{key}: Modified")
+        
+        if other_changes:
+            self.console.print(f"\n[bold yellow]Other Changes:[/bold yellow] {', '.join(other_changes)}")
+        
+        # Get user decision
+        self.console.print("\n[bold green]Decision Options:[/bold green]")
+        self.console.print("  [green]accept[/green] - Apply these changes")
+        self.console.print("  [yellow]refine[/yellow] - Make additional refinements")
+        self.console.print("  [red]reject[/red] - Discard and try again")
+        
+        while True:
+            decision = Prompt.ask("Your decision", choices=['accept', 'refine', 'reject'])
+            if decision in ['accept', 'refine', 'reject']:
+                return decision
+
+    def save_refined_review(self, show_path: Path, show_data: Dict[str, Any]):
+        """Save the refined review back to the show file."""
+        try:
+            with open(show_path, 'w') as f:
+                json.dump(show_data, f, indent=2, ensure_ascii=False)
+        except Exception as e:
+            self.console.print(f"[red]❌ Failed to save refined review: {e}[/red]")
+            raise
+
+    def get_key(self) -> str:
+        """Get a single key press from the user."""
+        try:
+            fd = sys.stdin.fileno()
+            old_settings = termios.tcgetattr(fd)
+            tty.setraw(sys.stdin.fileno())
+            key = sys.stdin.read(1)
+            termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
+            
+            # Handle special keys and control sequences
+            if key == '\x1b':  # Escape sequence
+                try:
+                    key += sys.stdin.read(2)
+                    if key == '\x1b[A':  # Up arrow - show navigation
+                        return 'UP_ARROW'
+                    elif key == '\x1b[B':  # Down arrow - show navigation
+                        return 'DOWN_ARROW'
+                    elif key == '\x1b[C':  # Right arrow - show navigation
+                        return 'RIGHT_ARROW' 
+                    elif key == '\x1b[D':  # Left arrow - show navigation
+                        return 'LEFT_ARROW'
+                except:
+                    pass
+            
+            # Return the raw key - uppercase letters indicate Shift was pressed
+            return key
+        except:
+            return 'q'  # Fallback to quit on any error
+
+    def batch_refine_reviews(self, shows: List[Path], instruction: str):
+        """Apply refinement instruction to multiple shows."""
+        self.console.print(Panel.fit(
+            f"🔧 [bold cyan]Batch Review Refinement[/bold cyan]\n"
+            f"Applying refinement to {len(shows)} shows",
+            style="cyan"
+        ))
+        
+        successful_refinements = []
+        failed_refinements = []
+        
+        for i, show_path in enumerate(shows, 1):
+            self.console.print(f"\n[bold yellow]Processing {i}/{len(shows)}: {show_path.name}[/bold yellow]")
+            
+            try:
+                # Load show data
+                with open(show_path) as f:
+                    show_data = json.load(f)
+                
+                ai_review = show_data.get('ai_show_review', {})
+                if not ai_review:
+                    self.console.print(f"[yellow]⚠️  No AI review found, skipping...[/yellow]")
+                    continue
+                
+                # Process refinement
+                refined_review = self.process_refinement_with_llm(ai_review, instruction, show_data)
+                
+                if refined_review:
+                    # Update and save
+                    show_data['ai_show_review'] = refined_review
+                    self.save_refined_review(show_path, show_data)
+                    successful_refinements.append(show_path.name)
+                    self.console.print(f"[green]✅ Successfully refined[/green]")
+                else:
+                    failed_refinements.append(show_path.name)
+                    self.console.print(f"[red]❌ Failed to refine[/red]")
+                    
+            except Exception as e:
+                failed_refinements.append(show_path.name)
+                self.console.print(f"[red]❌ Error: {e}[/red]")
+        
+        # Summary
+        self.console.print(Panel(
+            f"[bold green]Successful refinements:[/bold green] {len(successful_refinements)}\n"
+            f"[bold red]Failed refinements:[/bold red] {len(failed_refinements)}\n\n"
+            f"[dim]Successful: {', '.join(successful_refinements[:5])}" + 
+            ("..." if len(successful_refinements) > 5 else "") + "[/dim]",
+            title="Batch Refinement Summary"
+        ))
+        
+        input("Press Enter to continue...")
 
 
 def main():

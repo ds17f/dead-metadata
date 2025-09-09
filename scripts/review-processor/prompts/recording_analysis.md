@@ -80,8 +80,8 @@ Respond with a JSON object matching this exact structure:
 - Look for reviewer comments about "crisp", "muddy", "clear", "muffled", etc.
 
 ### Show Quality Indicators
-- **High Energy**: References to "smoking", "fire", "incredible", "monster" performances
-- **Low Energy**: Comments about "sluggish", "tired", "off night", "lackluster"
+- **Positive**: References to "smoking", "fire", "incredible", "monster" performances
+- **Negative**: Comments about "sluggish", "tired", "off night", "lackluster"
 - **Standout Songs**: Specific mentions of exceptional performances
 - **Issues**: References to flubbed lyrics, tuning problems, tempo issues
 
