@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy three‑set show with a killer Morning Dew opener captured on a solid audience recording",
+    "review": "The performance is described as magical and tightly played, highlighted by an unusual Morning Dew opener and a jammed encore featuring Jerry. Although the tape is an audience (AUD) source and lacks the full clarity of a soundboard, reviewers note that Phil’s bass is especially prominent and the overall listening experience remains very strong.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Both reviewers gave five stars, praising the show as one of the best ever while only noting minor loss of tightness due to the audience source. The musical performance is exceptional and the recording quality is good enough for enjoyment."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "AUD tape captures the atmosphere well; Phil’s bass is unusually forward, likely due to proximity of the taper's mic. Some tightness is lost compared to a soundboard, but overall clarity and balance are sufficient."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Three blissful sets with a rare Morning Dew opener; the energy stays high throughout, culminating in an encore jam featuring Jerry.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Jam on the encore noted positively",
+      "Phil": "Bass comes through strongly, possibly because the taper was near his monitor",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T06:19:38.905679+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-10.aud.barry-gadsden.tobin.90796.flac16"
+  }
 }

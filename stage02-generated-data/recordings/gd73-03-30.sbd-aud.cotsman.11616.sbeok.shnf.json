@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Half‑SBD (matrix) recording offers a clean, download‑worthy second half with a smoking Truckin' > Eyes jam, though the early audience portion is muddy.",
+    "review": "The show shines in its second set – concise Play In The Band, a groovy China Rider transition and an epic Truckin' → Eyes of the World jam that showcase the band’s hot ’73 energy. Recording-wise the soundboard feed from Playin’ onward is crisp and enjoyable, while the preceding audience tape suffers from hum and muddiness but remains listenable for completists.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Consistently high praise for musical performance (standout jams, hot keys, uplifting vibe) outweighs the mixed recording quality of the early audience portion."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Soundboard feed from Playin' onward is clean and clear; earlier audience tape is sketchy, muddy, with a hum but still marginally listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin' > Eyes of the World",
+        "China Rider",
+        "Greatest Show on Earth",
+        "Play In The Band",
+        "Eyes of the World",
+        "US Blues"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong second half with concise PITB, smooth transitions (China Rider jam) and a powerful Truckin' jam; first set solid but marred by poor audience recording.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Hot 73 keyboard work highlighted, especially Keith's interesting piano during the Truckin' jam.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T05:14:13.257297+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-03-30.sbd-aud.cotsman.11616.sbeok.shnf"
+  }
 }

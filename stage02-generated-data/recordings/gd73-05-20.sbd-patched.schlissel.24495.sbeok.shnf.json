@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.7368421052631575,
   "high_ratings": 19,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 1973 UCSB show, highlighted by a smoking Here Comes Sunshine and a killer Truckin→Other One→Eyes sequence.",
+    "review": "The patched SBD recording delivers crystal‑clear mix quality with only a faint buzz in the first set, making the performance easy to enjoy.  The concert is praised for its relentless energy, tight playing and standout moments such as Here Comes Sunshine, Row Jimmy, Looks Like Rain, and an epic Truckin→Other One→Eyes→Stella Blue→Sugar Magnolia stretch.  Overall the show is regarded as one of the best from the Dead’s golden 1973 year.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Over 20 reviews uniformly rate the show 4–5 stars, highlight numerous standout songs and strong performance, and praise the soundboard recording despite a minor buzz issue."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, well‑balanced mix throughout; patched to fix gaps. A faint high‑frequency buzz (likely bass or equipment) appears in the first set but does not detract from overall clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Here Comes Sunshine",
+        "Row Jimmy",
+        "Looks Like Rain",
+        "Truckin' > The Other One > Eyes > Stella Blue > Sugar Magnolia",
+        "Playin' in the Band",
+        "China Cat Sunflower > I Know You Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows smoothly with a powerful first set, an explosive second set and a third set described as having “wings,” delivering continuous momentum and memorable transitions.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Voice sounds strained/affected by a cold but guitar work remains strong; audible cold noted.",
+      "Phil": "Listeners mention a subtle buzzing in the first set that may stem from his bass.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T05:37:09.610417+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-05-20.sbd-patched.schlissel.24495.sbeok.shnf"
+  }
 }

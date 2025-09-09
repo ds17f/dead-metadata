@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.625,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent matrix mix captures a tight June 30 1973 set with standout Dark Star, Playing in the Band and vibrant vocals.",
+    "review": "The recording is praised as a superb matrix blend of soundboard clarity and audience ambience, delivering balanced instruments, deep bass and crisp drums. The show itself is described as tight and energetic, highlighted by a sweet Dark Star jam, an outstanding Playing in the Band, and powerful vocal performances from Jerry and Bob. Overall the performance and mix are consistently rated highly by reviewers.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All eight reviews are 4–5 stars, uniformly praising both the musical performance and the matrix/soundboard recording quality."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Balanced matrix mix with clear instrument separation, pleasant crowd presence, deep bass, crisp drums, and a warm overall tone; reviewers note the sound is not overly crisp but very enjoyable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Playing in the Band",
+        "Sugar Magnolia",
+        "Stella Blue",
+        "Eyes of the World"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set described as well‑played with strong transitions (e.g., Playing in the Band into Dark Star), second set a bit shorter but still tight; overall flow praised.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Great vocal performance noted on Black Peter and throughout; wah‑wah peaks add color to his guitar work.",
+      "Phil": "Bass described as deep and solid for a ’73 recording, providing a strong foundation.",
+      "Bob": "Vocals blend nicely with Jerry; rhythm guitar praised for firework‑like playing.",
+      "Keys": "Keith’s Rhodes piano (misidentified by one reviewer as Moog) adds sweet texture; experimental touches appreciated.",
+      "Drums": "Bill's drumming described as crisp and tight, driving the band's energy."
+    },
+    "processed_date": "2025-09-09T06:46:06.432853+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-30.sbd.sbvol9.chappell.29753.flac16"
+  }
 }

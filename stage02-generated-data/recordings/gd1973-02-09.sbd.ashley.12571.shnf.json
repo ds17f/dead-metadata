@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.774193548387097,
   "high_ratings": 30,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of Stanford’s historic Feb 9 1973 show, featuring smoking first‑time renditions of They Love Each Other, Loose Lucy and a monster Eyes of the World.",
+    "review": "The Ashley‑produced sbd tape delivers an unusually crisp and balanced mix that lets every instrument shine – even the kick drum is startlingly clear. Musically the concert is a landmark, packed with first‑time performances (They Love Each Other, Loose Lucy, Here Comes Sunshine, Row Jimmy, Wave That Flag) and a monster 18‑minute Eyes of the World, all delivered with high energy and historic excitement.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "The vast majority of reviews rate the show 4–5 stars and praise both performance and sound quality; only one outlier gave a zero rating unrelated to the music, yielding an overall average of ~4.6 which translates to a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Consistently described as crisp, clear and well‑balanced; excellent headphone mix, very good instrument separation, kick drum audible. A few reviewers mistakenly called it “non‑soundboard” but the consensus is that the sbd source is top‑notch."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "They Love Each Other",
+        "Loose Lucy",
+        "Here Comes Sunshine",
+        "Row Jimmy",
+        "Eyes of the World",
+        "Big River",
+        "Wave That Flag"
+      ],
+      "poor_songs": [
+        "Ramble On Rose (rhythm glitch)",
+        "Off‑key backup vocals on Eyes of the World and China Doll"
+      ],
+      "setlist_flow": "Historic first‑time material dominates the set, making the first half feel like a warm‑up while the second set erupts with tight jams and groundbreaking arrangements.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's tone repeatedly called “prime”, “awesome” and “fattened Strat sound”; his solos noted as inverted and superb.",
+      "Phil": "",
+      "Bob": "Bob Weir’s counter‑rhythm praised as never better; his rhythm work highlighted throughout.",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann’s kick drum is especially clear and punchy; overall drumming described as solid."
+    },
+    "processed_date": "2025-09-09T03:31:30.792574+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-02-09.sbd.ashley.12571.shnf"
+  }
 }

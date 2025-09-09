@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy show featuring a smoking Weather Report Suite, soaring Dark Star and majestic Morning Dew.",
+    "review": "The concert is celebrated for Garcia’s lyrical guitar work, vibrant horns and standout moments such as the Weather Report Suite, Dark Star, Let It Grow and an emotional Morning Dew. The soundboard source delivers crystal‑clear guitar tones and a well‑balanced mix, with only a brief audience‑source cut during the end jam that does not detract from the overall listening experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Reviews consistently praise both the musical performance (high energy, many standout songs) and the recording quality (clear soundboard capture). Minor technical hiccup noted but overall excellence yields a strong rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear, crisp mix with wonderful guitar tones; balanced instrument levels. A short cut to an audience source appears during the end‑jam but does not significantly affect overall clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Promised Land",
+        "Loser",
+        "Weather Report Suite (Prelude & Part One)",
+        "Dark Star",
+        "Let It Grow",
+        "Morning Dew",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [
+        "China > I Know You Rider (off the rails)"
+      ],
+      "setlist_flow": "First set launches with a powerhouse Promised Land and Loser, includes a wild China>Rider, then settles into a strong second set built around the Weather Report Suite, a concise Dark Star, Let It Grow, and culminates in an emotional Morning Dew followed by a rousing Sugar Magnolia.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s melodic, lyrical solos are highlighted; his guitar tone is praised as wonderful and sweet licks are noted especially in Morning Dew.",
+      "Phil": "Noted for strong interplay with Jerry throughout the show, adding depth to jams.",
+      "Bob": "",
+      "Keys": "Keith Godchaux’s rare vocal spot “Let Me Sing Your Blues Away” is praised, along with his piano work and interaction with guest horn players.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:45:42.341587+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-11.113051.sbd.GoodBear.flac16"
+  }
 }

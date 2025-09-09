@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.2727272727272725,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Matrix recording with mixed sound quality but a solid 1973 show highlighted by an epic Mountain Jam and standout Here Comes Sunshine.",
+    "review": "The Watkins Glen performance is praised for its strong setlist, historic vibe, and especially the soaring Mountain Jam and crisp Here Comes Sunshine.  The source is a hybrid soundboard/audience matrix that suffers from occasional static, dig‑noise and spliced audience cuts, requiring some EQ work, but it remains listenable.  Overall fans view the show as a “gem” of ’73 despite its technical quirks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is ~4.3; most comments praise the musical performance while noting consistent but manageable recording flaws, leading to a strong combined score."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Mix includes soundboard core with audience splices; distortion/static in Truckin', dig‑noise in He's Gone/Truckin', and occasional audience cuts that need EQ adjustment, but overall the audio is listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mountain Jam",
+        "Here Comes Sunshine",
+        "He's Gone > Truckin'",
+        "China Cat Sunflower > I Know You Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Solid, historically significant set with a well‑balanced first set and a jam‑heavy second set; encore noted as sweet.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for his improvisational work on Mountain Jam (\"taking on Duane\") and generally strong guitar performance.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith's keyboards receive high marks; reviewers note a second keyboardist (likely Garth Hudson) during Around & Around segment.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:11:53.891097+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-07-28.sbd.weiner.181.shnf"
+  }
 }

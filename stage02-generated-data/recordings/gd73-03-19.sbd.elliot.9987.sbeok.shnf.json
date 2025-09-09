@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.5,
   "high_ratings": 4,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording with generally good fidelity, highlighted by a sweet Box of Rain, powerful He's Gone tribute, and an especially loopy Loose Lucy.",
+    "review": "The set captures a classic early‑'73 Dead show – the band is in solid form, delivering standout moments like Box of Rain, China Cat Sunflower’s intro, He’s Gone (dedicated to Pigpen), Trucking, The Other One and a slow‑burning Loose Lucy.  Most listeners praise the tape’s clear levels and decent soundboard quality, though one reviewer initially thought the playback was too fast.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviews rate the show 3‑5 stars and note good to excellent soundboard quality; only a single low‑star comment about speed, which is contradicted by later reviewers."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear levels and near‑perfect instrument/vocal balance; some listeners perceived pitch/speed issues, but others confirm the tape plays at correct speed. Slight volume loss likely due to tape age."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Box of Rain",
+        "He's Gone (Pigpen dedication)",
+        "China Cat Sunflower (intro)",
+        "Trucking",
+        "The Other One",
+        "Loose Lucy"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second‑set focused show with strong transitions; many fans recall the China Cat intro leading into He’s Gone and a smooth flow through Trucking, The Other One and Loose Lucy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "One reviewer felt Jerry sounded 'chipmunk‑like' due to perceived speed issues; another says his tone was fine and the tape playback is correct.",
+      "Phil": "Praised Phil’s bass (and piano) trading licks and noted his vocals were surprisingly on key during Box of Rain.",
+      "Bob": "",
+      "Keys": "Keyboard work highlighted in the Box of Rain interplay and the slower, looser version of Loose Lucy; levels for keyboards reported as near perfect.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:39:00.156025+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-03-19.sbd.elliot.9987.sbeok.shnf"
+  }
 }

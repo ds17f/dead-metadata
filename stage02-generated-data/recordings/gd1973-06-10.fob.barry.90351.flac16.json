@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 12,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "An outstanding audience (FOB) recording that captures the Wall‑of‑Sound at RFK Stadium, paired with a high‑energy set featuring standout performances of Dark Star, Morning Dew, Playing In The Band and other classics.",
+    "review": "Monte’s in‑field tape delivers crystal‑clear, atmospheric sound that many reviewers call the benchmark AUD for this era, despite occasional chatter and a brief clipping glitch. The show itself is praised for its soaring energy, long jams and exceptional interplay—especially Jerry’s guitar tone and Phil’s bass fireworks—with highlights like Dark Star, Morning Dew, Playing In The Band, Here Comes Sunshine, Eyes of the World and Looks Like Rain.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All 12 reviews are overwhelmingly positive (mostly 5‑star), highlighting both superb recording fidelity and a memorable, high‑energy performance; minor technical quirks keep the rating just below perfect."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, atmospheric FOB tape that captures stadium echo and Wall‑of‑Sound dynamics; occasional audience chatter, clapping and a brief clipping artifact but overall superb clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Morning Dew",
+        "Playing In The Band",
+        "Here Comes Sunshine",
+        "Eyes of the World",
+        "Looks Like Rain"
+      ],
+      "poor_songs": [
+        "Dark Star"
+      ],
+      "setlist_flow": "A marathon 4‑5 hour set that moves fluidly through expansive jams, with the first set building tension and the second delivering extended improvisations and a climactic fireworks moment.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for perfect guitar tone and strong interplay with Phil throughout the show.",
+      "Phil": "Described as being on top of his game, delivering powerful bass solos that dominate sections of Dark Star and Playing In The Band.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T06:19:15.827254+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-10.fob.barry.90351.flac16"
+  }
 }

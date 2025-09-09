@@ -14,5 +14,40 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A nicely‑sounding audience recording captures a tight, high‑energy show highlighted by an ecstatic Morning Dew, a marathon Birdsong jam and a fireworks‑capped Playing in the Band.",
+    "review": "The AUD source is praised as one of the better crowd recordings, with Charlie’s transfer delivering clear detail despite the usual ambient noise. Musically the performance is described as “on” and tightly locked, featuring standout moments like Morning Dew, an extended Birdsong jam, and a dramatic Playing in the Band that ended with fireworks; the third set’s Dark Star (and guest‑filled jam) also earned special mention. Overall the show feels vibrant and memorable even if it slightly trails the previous night’s legendary outing.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Most detailed reviews are highly positive about both the music and the audience recording quality; limited number of substantive reviews keeps confidence at medium."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Described as one of the nicest‑sounding AUDs, with a clear Charlie transfer; some loss of studio‑like tightness but overall crisp and listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Morning Dew",
+        "Birdsong",
+        "Playing in the Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set builds to a fireworks‑capped Playing in the Band; third set features an expansive Dark Star/jam that many felt stole the night, giving the concert a strong arc and sustained high energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T06:20:40.552896+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-10.121031.barry.smith.AUD-fob.flac2496"
+  }
 }

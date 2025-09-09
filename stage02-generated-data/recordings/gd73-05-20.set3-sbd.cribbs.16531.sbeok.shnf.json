@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a high‑energy ’73 set with off‑the‑chain playing and decent audio despite low volume and hiss",
+    "review": "Both reviewers rave about the performance, calling it \"off the chain\" and full of moxy, with especially strong Garcia vocals. The soundboard source is generally clear but suffers from modest low‑level hiss and a slightly reduced volume, which some listeners may notice on earbuds.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Show quality is rated around 4/5 based on enthusiastic comments; recording quality is about 3/5 due to noted hiss and low level. Weighted average (70% show, 30% recording) yields ~3.7 stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Mild issues: slightly low volume and a bit of hiss, but overall clear and listenable."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Energetic prime‑time ’73 set with strong momentum throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's vocals described as hoarse but crispy and his voice praised as \"wow\".",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T05:37:38.146029+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-05-20.set3-sbd.cribbs.16531.sbeok.shnf"
+  }
 }

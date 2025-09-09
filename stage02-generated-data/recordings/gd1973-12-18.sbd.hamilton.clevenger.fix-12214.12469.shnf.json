@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard captures a high‑energy, jazzy 1973 show with standout Dark Star, Eyes and The Other One",
+    "review": "The recording is a pristine soundboard source that delivers crisp, clear audio despite some re‑tracking. Musically the concert is celebrated as one of the band’s best of ’73 – a jazzy second set highlighted by an expansive Dark Star, a soaring Eyes, and an eager push toward The Other One.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All five reviewers praise the performance; most rate it 5 stars and note excellent sound quality, yielding a high combined show (≈70%) and recording (≈30%) score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Listeners repeatedly describe the audio as clear and crisp; minor re‑tracking is noted but does not detract from overall fidelity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Eyes",
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set praised for its jazzy improvisations and seamless transitions, creating a flowing, space‑filled experience.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Guides Dark Star with steady leadership, steering the band into verse after an extended jam.",
+      "Phil": "Hints at wanting to launch into The Other One during Dark Star, showing his eager bass drive.",
+      "Bob": "",
+      "Keys": "Keyboard work described as subtle noodling that adds texture throughout the improvisations.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T10:42:44.971632+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-18.sbd.hamilton.clevenger.fix-12214.12469.shnf"
+  }
 }

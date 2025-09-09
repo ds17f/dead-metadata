@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good soundboard recording marred by off‑key Donna Jean vocals, but nostalgic performance earns high marks",
+    "review": "The recording captures a solid soundboard mix with generally clear instrument balance, yet Donna Jean's vocal is noticeably out of key and sits oddly in the mix, prompting listeners to wish it could be edited out. The reviewer rates the show four stars largely for the personal nostalgia of being there and praises the superb sound check from the previous night.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "low",
+      "rationale": "Only one review; a 4‑star rating with both praise (nostalgia, sound check) and criticism (vocals), leading to an overall near‑average score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear overall mix but Donna Jean's vocals are out of key and overly prominent, likely due to monitor issues; reviewer wishes they could be removed."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:13:21.777835+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-07-28.136693.sbd.sirmick.flac16"
+  }
 }

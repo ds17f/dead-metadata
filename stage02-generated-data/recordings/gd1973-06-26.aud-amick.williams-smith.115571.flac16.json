@@ -14,5 +14,40 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy ’73 show with a smoking Truckin’ → The Other One and a standout Here Comes Sunshine; audience tape is warm but bass‑thin and a bit muddy yet enjoyable.",
+    "review": "The concert bursts with unbelievable energy, especially the second‑set jam that drives through a brilliant Truckin' into The Other One. Reviewers rave about the tight playing and the vivid rendition of Here Comes Sunshine, while noting the audience recording lacks low end, has harsh mids and can get muddy when cranked up.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "All three reviews are very positive (4‑5 stars); the performance is described as high‑energy with standout songs, while recording quality is praised overall despite some bass and midrange issues."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Hardly any bass; upper mids harsh and a bit muddy, not ideal for high volume. Still considered an excellent‑sounding tape from ’73 by listeners."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "The Other One",
+        "Here Comes Sunshine"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set builds into an insane, tight‑sounding jam that maintains high intensity throughout; the show feels loose‑fun yet remarkably cohesive.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Higher frequencies of Phil's bass are audible even though overall low end is weak.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T06:40:28.636999+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-26.aud-amick.williams-smith.115571.flac16"
+  }
 }

@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 3.142857142857143,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard capture of a brief 1973 Garden show with strong Bertha, Mexicali Blues and China Cat / I Know You Rider moments despite an abbreviated set and missing material.",
+    "review": "The recording is a sound‑board source that fans describe as clear and of good quality, though only a fragment of the concert is available.  Musically the show is praised for standout performances of Bertha, Mexicali Blues, Big River, Eyes of the World and the China Cat / I Know You Rider pairing, but the set was unusually short and some songs (e.g., Promised Land) fell flat or are missing entirely.  Overall listeners feel the music shines while the incomplete nature of the tape limits its appeal.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "medium",
+      "rationale": "Reviews are split between high praise for individual songs and recording quality and disappointment over the short, incomplete set; averaged star rating is ~2.8, yielding a moderate overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Listeners note the tape is in great vault quality with clear sound; no specific issues like drop‑outs or muddiness are mentioned, only that only part of the concert is present."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha",
+        "Mexicali Blues",
+        "Big River",
+        "Eyes of the World",
+        "China Cat Sunflower > I Know You Rider",
+        "Brokedown Palace",
+        "Casey Jones"
+      ],
+      "poor_songs": [
+        "Promised Land"
+      ],
+      "setlist_flow": "The first set is described as short but energetic; the second set was abbreviated, with some songs feeling sluggish and several tracks missing from the archive release.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s solos on Bertha, Mexicali Blues and during Truckin' are highlighted as “jaw‑dropping” and “leaves it all on stage”.",
+      "Phil": "A brief nod to Phil’s playing on Eyes of the World (“check Phil”).",
+      "Bob": "Bobby is mentioned for missing chord changes early in the set and later earning his bell‑bottoms during the reprise.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T10:12:07.386655+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-12-04pt.sbd.elliot.11799.sbeok.shnf"
+  }
 }

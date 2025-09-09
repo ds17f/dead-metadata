@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.583333333333333,
   "high_ratings": 11,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard recording of a 1973 Dead show that shines with an incendiary Eyes of the World and a tight, soaring second set.",
+    "review": "The tape is praised for its crystal‑clear, well‑balanced mix and superb instrument separation, making every nuance—from Jerry’s soaring guitar to Bobby’s piano work—readily audible. Musically the concert is highlighted by a monster Eyes of the World, a fiery China Doll, textbook Truckin' and an expansive Other One, delivering a high‑energy, tightly locked performance throughout.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently five‑star comments praise both the recording fidelity and the musical performance; only one mixed review tempers the overall rating, leading to a strong combined score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crystal‑clear mix with superb instrument separation; no reported dropouts or major flaws."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Eyes of the World",
+        "China Doll",
+        "Truckin'",
+        "The Other One",
+        "Bertha > Greatest Show on Earth",
+        "Brokedown Palace"
+      ],
+      "poor_songs": [
+        "Wharf Rat"
+      ],
+      "setlist_flow": "First set is tight and sharp, leading into an explosive second set with seamless transitions (e.g., Bertha > GSET) and extended jams that maintain high momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar tone and chords are described as \"off the hook\"; vocal performance is called one of his best.",
+      "Phil": "Drops a huge bass bomb on China Doll and shines on several jams, though not highlighted as often as others.",
+      "Bob": "Piano/keyboard work is praised for clarity and jazz‑infused chordal structures, especially on Truckin' and The Other One.",
+      "Keys": "Keith's playing is noted as being perfectly in sync with Jerry, providing jangling ivories and spacey textures throughout the set.",
+      "Drums": "Bill’s drumming drives the intense Other One jam and contributes to a powerful rhythmic foundation."
+    },
+    "processed_date": "2025-09-09T08:41:25.780217+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-10-29.sbd.kaplan.1070.shnf"
+  }
 }

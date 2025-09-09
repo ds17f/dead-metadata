@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a beautifully mellow Dead show, though the first song is missing.",
+    "review": "Both reviewers praise this recording for its lush, airy sound and fine vocals that make it one of the most beautiful and mellow performances in the archive. The soundboard source provides clear audio, but the first track is absent, requiring listeners to seek it elsewhere. Overall, the show is highly regarded despite the incomplete beginning.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "Two detailed reviews both give high marks (4‑5 stars), highlighting a superb mellow performance and clear sound, with only one technical drawback (missing first song). Weighted toward show quality, the rating lands in the upper‑mid range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "First song missing from the recording; otherwise clear and well‑balanced sound typical of a soundboard source."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure; reviewers describe the overall vibe as mellow, beautiful, and light.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T10:27:51.194970+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-08.sbd.unknown.7586.shnf"
+  }
 }

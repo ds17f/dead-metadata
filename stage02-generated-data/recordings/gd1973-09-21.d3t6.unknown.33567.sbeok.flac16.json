@@ -14,5 +14,38 @@
   "confidence": 0.8,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Audience tape of a long, high‑energy 9/21/73 show with standout “Casey Jones”; recording is incomplete and cut short.",
+    "review": "The performance is described by reviewers as a \"freaking smoke\" night with new horn players that added excitement, highlighted by a strong rendition of Casey Jones. The source appears to be an audience tape that suffers from a mid‑song cutoff, limiting its technical quality despite the enthusiastic musical content.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Show is praised for energy and unique horns (70% weight), but recording suffers from a noticeable cut, lowering overall enjoyment (30% weight)."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Tape source; one track is truncated halfway through the second chorus, resulting in an incomplete listening experience."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Long marathon set (7 pm‑2 am) with new horn players adding fresh textures; exact flow unclear.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:07:07.351487+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-21.d3t6.unknown.33567.sbeok.flac16"
+  }
 }

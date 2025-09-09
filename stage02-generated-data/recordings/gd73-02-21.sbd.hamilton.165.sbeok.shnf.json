@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 3.3333333333333335,
   "high_ratings": 4,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Soundboard recording sounds good despite some noise and a confusing mix of two shows, while the performance shines with back‑to‑back Dark Stars and a stellar Eyes of the World transition.",
+    "review": "The show is widely praised for its tight playing and standout moments – especially the extended Eyes of the World jam that morphs into a smooth Stella Blue segue and the back‑to‑back Dark Stars across the two nights. The SBD source offers clear balance, though listeners note slight noisiness and out‑of‑sync sections caused by the inadvertent combination of the 2/21 and 2/22 performances.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "medium",
+      "rationale": "Most reviewers commend the musical performance (high energy, strong solos) but criticize the confusing merge of two shows, which lowers overall enjoyment despite a generally good soundboard recording."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear and well‑balanced overall with slight noisiness; occasional out‑of‑sync or mismatched sections because material from two consecutive shows was combined."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Eyes of the World",
+        "Stella Blue",
+        "Good Lovin'"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong flow highlighted by back‑to‑back Dark Stars and a memorable Eyes → Stella Blue transition, but the intermingling of two dates makes the overall set sequence feel disjointed.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Delivers a concise, nice solo after the Eyes jam before the melody resumes.",
+      "Phil": "Shows off a powerful, extended solo during the Eyes of the World transition.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:09:24.103212+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-02-21.sbd.hamilton.165.sbeok.shnf"
+  }
 }

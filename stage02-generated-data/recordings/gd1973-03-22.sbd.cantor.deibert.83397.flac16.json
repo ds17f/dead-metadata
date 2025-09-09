@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Typical good 1973 performance but the recording sounds inferior and is less complete than other available sources.",
+    "review": "Reviewers note that the concert delivers a solid, \"typical\" 1973 Dead show with the expected energy and tight playing. However, the sound quality is considered sub‑par and the tape appears incomplete when compared to alternative recordings of the same gig.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "low",
+      "rationale": "One brief review gives a positive nod to the show but criticizes the recording's fidelity and completeness; weighting the good performance (70%) against the poorer audio (30%) yields an overall mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Sound is noted as less clear than other versions and appears incomplete, suggesting dropouts or missing portions of the set."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on flow; described as a typical 1973 set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:51:14.250922+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-22.sbd.cantor.deibert.83397.flac16"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.8,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean Miller soundboard captures a smoking ’73 show with unstoppable Big River, a monster Playing in the Band and The Other One, plus sublime China → Rider.",
+    "review": "The recording is an excellent Miller‑board soundboard capture—crisp, clear and expertly transferred. Musically the night shines with a high‑energy set highlighted by Big River, a blistering Playing in the Band > The Other One sequence, and a beautifully voiced China → Rider, while even the slower Loose Lucy feels right on the money.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "All six reviews praise both the musical performance and the soundboard quality; standout songs are repeatedly mentioned, and no technical flaws are noted, warranting a top‑tier rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clean Miller board mix, crisp clarity, superb transfer; reviewers note no dropouts or muddy frequencies."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Big River",
+        "Playing in the Band > The Other One",
+        "China > The Rider",
+        "Loose Lucy"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong flow with a driving first half, a relaxed tempo on Loose Lucy, then building into an explosive Playing in the Band/Other One sequence; transitions feel natural and energetic.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for jamming hard on Big River (“Jer could have not liked it and jammed on it like that”).",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T06:53:53.038739+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-07-01.127028.sbd.miller.flac16"
+  }
 }

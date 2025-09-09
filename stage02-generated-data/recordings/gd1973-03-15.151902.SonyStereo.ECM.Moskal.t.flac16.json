@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A rough‑sounding recording that nonetheless delivers one of the best Dead-era setlists.",
+    "review": "The reviewer notes the audio is a little rough, suggesting a less than pristine source, but praises the show as featuring the band's peak era and an outstanding setlist. Overall the performance shines despite modest recording quality.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "The single 4‑star review is enthusiastic about the music (high show value) while flagging only minor sound issues, leading to a strong combined rating with moderate confidence due to limited data."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Reviewer describes the sound as \"a little rough,\" indicating some clarity or balance issues but no severe dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Highly regarded setlist, described as one of the best the band ever played.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:30:23.114254+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-15.151902.SonyStereo.ECM.Moskal.t.flac16"
+  }
 }

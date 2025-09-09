@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.375,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy 1973 fall show with Keith’s stellar keys and a solid soundboard capture despite occasional tape hiss.",
+    "review": "The performance shines with Keith’s exceptional piano work, tight drumming and memorable moments on songs like Here Comes Sunshine, El Paso and the Weather Report Suite > Let It Grow.  The sound‑board source is generally clear but suffers from some tape hiss, a splice on Wharf Rat and occasional static glitches.  Overall listeners rave about the band’s chemistry and energy, rating the show as one of the stronger fall ’73 dates.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4‑5 stars and praise the musical performance; recording issues are noted but do not dominate, yielding a strong combined score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear soundboard mix with occasional tape hiss, static, and a splice on Wharf Rat; some reviewers note the recording isn’t totally crystal‑clear but remains listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Here Comes Sunshine",
+        "El Paso",
+        "Cumberland Blues",
+        "Weather Report Suite > Let It Grow",
+        "He's Gone > Truckin'",
+        "Playing In The Band > Half-Step > Big River"
+      ],
+      "poor_songs": [
+        "Here Comes Sunshine (poor sound quality in this version)"
+      ],
+      "setlist_flow": "First set is a bit uneven with some sound‑quality hiccups, but the band builds momentum; second set flows stronger with seamless transitions and high‑energy jams.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Pleasant lead vocals and sweet guitar work noted throughout, especially on El Paso and in the jam sections.",
+      "Phil": "Provides a solid bass foundation; praised for laying down \"base bones\" early and delivering a huge, deep‑sounding bass in later jams.",
+      "Bob": "Steady rhythm guitar strumming and vocal contributions are mentioned as keeping the band grounded.",
+      "Keys": "Keith’s piano/keyboard playing is highlighted as exceptional throughout the show, with standout moments on El Paso and the Weather Report Suite, though occasional piano noise is noted.",
+      "Drums": "Bill Kreutzmann’s drumming is described as jazzy, high in the mix, and \"insane\" on Black Throated Wind, driving the overall energy of the performance."
+    },
+    "processed_date": "2025-09-09T08:23:28.655805+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-10-21.sbd.fishman.8191.sbeok.shnf"
+  }
 }

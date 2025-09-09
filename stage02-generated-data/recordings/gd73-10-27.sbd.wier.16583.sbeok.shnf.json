@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 19,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording clears up after the first tunes, delivering crisp audio of a high‑energy 1973 Indianapolis show highlighted by smoking Truckin', incendiary China > Rider and Keith’s stellar keyboard work.",
+    "review": "The performance is widely praised for its fire‑filled setlist – standout moments include a dirty Truckin', an explosive China > Rider transition, the Big River → Playin' reprise, Loose Lucy and a killer Beat It On Down The Line keyboard solo.  The SBD source is a bit muddied at the very start and suffers occasional drop‑outs near the end, but for most of the concert the mix is clear, bright and well balanced.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is 4.6/5; comments describe a strong musical show (≈4.7) with generally good but not flawless sound quality (≈4.0). Weighted average yields ~4.5."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Initial muddiness and a few drop‑outs early on; improves by the second tune and stays clear/bright for most of the set. Noted source switch from SBD to AUD during Wharf Rat adds brief inconsistency."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "China > Rider",
+        "Big River > Playin' reprise",
+        "Loose Lucy",
+        "Beat It On Down The Line"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth transitions with highlighted jams (China>Rider, Big River→Playin') and a strong second set; the crowd’s enthusiasm fuels an energetic pacing throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple reviewers note Jerry “smokin’”, extra chops and perfect tone, especially on Truckin' and other jams.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith’s playing is repeatedly praised – “bangs on the keys like there’s no tomorrow” and his solo on Beat It On Down The Line called the best ever.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:37:32.116250+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-10-27.sbd.wier.16583.sbeok.shnf"
+  }
 }

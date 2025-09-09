@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience‑sourced tape delivers a brilliant second set despite a weaker first half.",
+    "review": "The reviewer rates the show five stars, calling the second set \"brilliant\" while suggesting the first set could be skipped. No specific comments on the audio fidelity are provided, but the high rating implies the recording is at least listenable. Overall sentiment is strongly positive for the musical performance, especially the latter half of the concert.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "A single 5‑star review highlights an excellent second set; with no recording details, rating leans on show quality while assigning low confidence due to limited data."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments about sound clarity or mix; high overall rating suggests the tape is at least acceptable for listening."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Second set praised as brilliant, first set deemed less engaging and possibly skippable.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:17:32.706006+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-26.aud.tobin.80665.sbeok.flac16"
+  }
 }

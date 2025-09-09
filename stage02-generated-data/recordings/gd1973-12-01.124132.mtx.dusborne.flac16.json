@@ -14,5 +14,42 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Brilliant matrix recording captures a high‑energy show with a smoking 'Playing in the Band > Uncle John’s Band' sequence and strong finishes, though a few listeners note occasional sound thinning.",
+    "review": "The Dusborne MTX blend is praised as crystal‑clear and well balanced, delivering an immersive listening experience. Musically the concert shines on the extended 'Playing in the Band' segue into 'Uncle John’s Band' and a powerful finish, while one reviewer mentions a slight drop‑out of detail during 'Row Jimmy'. Overall sentiment leans positive despite a lone critical note.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Most reviewers rate the show and recording highly (4‑5 stars) highlighting superb performance and excellent matrix sound, offset by one zero‑star comment about occasional thin audio; weighted average yields ~4.3."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Dusborne MTX blend praised as brilliant and very well balanced; clear overall with only minor thinning of sound on certain tracks (e.g., Row Jimmy)."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing in the Band > Uncle John's Band > Playin' reprise",
+        "Row Jimmy",
+        "Greatest Story Ever Told"
+      ],
+      "poor_songs": [
+        "Row Jimmy"
+      ],
+      "setlist_flow": "Second set launches with a tight 'Playin' in the Band' segue into an expansive 'Uncle John's Band', then weaves back to familiar themes before closing strong; audience banter adds to the flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar work is highlighted, especially his riff that drives the strong finish of the 'Playing' sequence.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith contributes supportive textures during the final jam, reinforcing Garcia’s lead.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T10:01:27.311049+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-01.124132.mtx.dusborne.flac16"
+  }
 }

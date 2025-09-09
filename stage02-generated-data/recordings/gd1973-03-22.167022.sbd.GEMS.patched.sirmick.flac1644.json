@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Recording missing track titles, making navigation difficult; performance and sound quality cannot be assessed from reviews",
+    "review": "The sole reviewer notes that the release does not label individual songs, which hampers usability for listeners who want to locate specific moments. No comments are made about the audio fidelity or musical performance, leaving those aspects indeterminate.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 2.0,
+      "confidence": "low",
+      "rationale": "Only a single brief complaint about missing song titles; no information on show quality or recording fidelity, so rating is low with low confidence"
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Review mentions lack of track labeling; no comments on clarity, mix, or source type."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "unknown"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:50:52.698737+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-22.167022.sbd.GEMS.patched.sirmick.flac1644"
+  }
 }

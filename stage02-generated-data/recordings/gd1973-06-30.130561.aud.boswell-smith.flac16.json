@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 1.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Recording quality is questionable due to suspected down‑sampling and poor documentation, with no musical highlights mentioned.",
+    "review": "The lone review focuses almost entirely on the myriad versions of this show and the lack of clear notes explaining what makes this particular transfer unique. The reviewer suspects the file has been down‑sampled, suggesting a downgrade in audio fidelity, and gives it a one‑star rating. No comments are provided about the performance itself.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.2,
+      "confidence": "low",
+      "rationale": "Only one brief, negative review (1 star) that criticizes the recording; no information on show quality, so rating is driven by poor perceived audio and lack of documentation."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Reviewer notes possible down‑sampling (file sizes ~¼ of comparable versions) and complains about missing explanatory notes, implying reduced fidelity or at least uncertainty about the audio quality."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T06:51:36.448840+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-30.130561.aud.boswell-smith.flac16"
+  }
 }

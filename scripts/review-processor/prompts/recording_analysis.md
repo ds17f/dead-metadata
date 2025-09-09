@@ -141,8 +141,8 @@ Review 2: "Great show but the recording has some dropout issues in the first set
 ## Important Notes
 
 - Only include band member comments if explicitly mentioned in reviews
-- Use empty strings for band members not mentioned
 - Be conservative with standout/poor song lists - only include if specifically mentioned
+- Use empty strings for band members not mentioned
 - Maintain authentic Deadhead voice in summary and review text
 - Focus on both musical performance and recording technical quality
 - If no reviews mention recording quality, use "unknown" for source_type

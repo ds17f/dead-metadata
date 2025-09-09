@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a mixed‑review 1973 show that many fans deem a standout despite a few harsh critiques",
+    "review": "The recording is a soundboard (sbd) source that delivers clear, listenable audio, though reviewers give no detailed technical feedback. Musical reactions are split – one fan calls it a “standout performance of ’73” with a strong California vibe and high energy, another rates it poorly and urges listeners to seek the 2‑15‑73 Madison show instead, while a third offers a neutral three‑star comment.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Reviews range from 0 to 5 stars; two reviewers praise the show heavily, one is very negative. Assuming decent soundboard quality, the overall weighted impression lands in the low‑mid “good” range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on clarity or mix; filename indicates a sbd source, and no issues were reported by reviewers."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Eyes of the World"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "No specific commentary on set structure; reviewers focus on overall vibe rather than individual transitions.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T03:37:34.445768+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-02-09.150166.sbd.miller.flac1644"
+  }
 }

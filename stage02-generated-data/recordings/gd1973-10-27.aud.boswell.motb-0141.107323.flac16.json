@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.285714285714286,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience recording captures a country‑rock flavored 1973 show with standout Loose Lucy, Wharf Rat > Stella and a smoking Greatest Story, delivered in decent but lively sound.",
+    "review": "The concert is praised for its solid setlist and energetic moments – funky Loose Lucy, the flowing Wharf Rat > Stella sequence and a scorching rendition of The Greatest Story Ever Told – while Jerry’s emotive vocals on Sugaree shine.  The audience‑sourced tape isn’t pristine, but it conveys the barn‑like ambience and liveliness that fans love.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate 4–5 stars, highlighting strong performances and a lively vibe; recording quality is decent but not flawless, yielding an overall high rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Decent clarity with some ambient barn resonance; not the cleanest tape but captures the live energy and avoids the antiseptic sound of early soundboard recordings."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Loose Lucy",
+        "Wharf Rat > Stella",
+        "The Greatest Story Ever Told",
+        "Sugaree",
+        "Promised Land"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth transitions, notably Big River flowing into Playing Reprise and Wharf Rat into Stella; overall country‑rock feel with rock‑and‑roll lifts.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Emotive vocal and guitar work highlighted on Sugaree and throughout the set.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith (keyboard) described as \"on fire\" during the performance.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:38:42.927350+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-10-27.aud.boswell.motb-0141.107323.flac16"
+  }
 }

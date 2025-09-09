@@ -14,5 +14,36 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 5,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "High‑energy 1973 show with a blistering second set, captured from an audience source that is cloudy but conveys the live vibe.",
+    "review": "Reviewers rave about the explosive second set and overall fire of this ’73 concert, noting that Jerry, Bob and Phil were locked in from start to finish. The recording is an audience tap, described as “cloudy” or “not pristine,” yet many appreciate its ability to transport listeners into the crowd atmosphere. While the sound quality isn’t audiophile‑grade, the performance itself is consistently praised.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "The musical performance receives high marks (most reviewers give 4–5 stars) while the audio quality is viewed as mediocre to poor, pulling the overall rating toward a solid but not outstanding score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Listeners describe the tape as cloudy, muffled and not suitable for pristine listening; however it captures crowd ambience well. No dropouts reported, but clarity is limited compared to a soundboard."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "First set solid as usual, then the second set launches into nonstop energy and maintains momentum to the end.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly noted as being on top of his game throughout the show.",
+      "Phil": "Praised for strong playing; reviewers say he’s “on top of it” in the second set.",
+      "Bob": "Mentioned as locked in and delivering a great performance.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T09:40:26.785728+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-11-21.finley.warner.22096.sbeok.shnf"
+  }
 }

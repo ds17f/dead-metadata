@@ -14,5 +14,49 @@
   "confidence": 1.0,
   "raw_rating": 3.9411764705882355,
   "high_ratings": 13,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Soundboard source with noticeable pitch‑speed issues, but a thrilling second‑set sandwich (Playin' → Uncle John’s → Morning Dew) that makes the show worth listening to.",
+    "review": "The recording is a soundboard capture that suffers from a half‑step fast‑up pitch and occasional level spikes, especially around the U.J.B. segment, making it a bit rough technically. Musically the concert shines in the second set – the extended Playin' > Uncle John’s > Morning Dew sequence is repeatedly praised as “smoking” and “breathtaking,” while the first set is viewed as uneven but still contains highlights like Jack Straw and Bertha.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Average star rating ≈3.7, but detailed positive comments about the second‑set jam outweigh the technical complaints; many reviewers give 4–5 stars and describe the music as exceptional."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Pitch runs roughly a half‑step high (≈+5 % speed), noticeable wow & flutter on cassette source, occasional volume spikes at the U.J.B. section, but overall intelligible and balanced mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playin' In The Band",
+        "Uncle John's Band",
+        "Morning Dew",
+        "Jack Straw",
+        "Bertha",
+        "Mexicali",
+        "Big River",
+        "Stella Blue",
+        "Truckin'",
+        "Wharf Rat"
+      ],
+      "poor_songs": [
+        "First‑set material (early songs) – described as sluggish or lackluster"
+      ],
+      "setlist_flow": "The first set builds slowly and is uneven, but gains momentum around Deal and Mexicali. The second set erupts into a marathon jam sandwich that carries the concert’s energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly described as ‘raging’, delivering masterful swirls, perfect tone, and hot soloing throughout the show.",
+      "Phil": "",
+      "Bob": "Bob (Bobby) noted for solid rhythm work and “mind‑meld” moments on Big River; occasional vocal strain later in the set.",
+      "Keys": "Keith’s cascading keyboard riffs highlighted during Wharf Rat; overall keyboards praised for adding texture.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:58:44.303710+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-11-10.sbd.unknown.3290.sbeok.shnf"
+  }
 }

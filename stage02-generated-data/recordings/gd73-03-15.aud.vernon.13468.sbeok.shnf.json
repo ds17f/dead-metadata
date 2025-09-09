@@ -14,5 +14,39 @@
   "confidence": 0.8,
   "raw_rating": 3.0,
   "high_ratings": 2,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "A mixed‑quality soundboard recording that suffers from subpar audio but delivers a standout Other One performance and an emotionally charged He's Gone.",
+    "review": "The show is praised for an under‑the‑radar, monster rendition of The Other One and the intense delivery of He's Gone, yet several listeners note that the overall sound quality is below what composite sources provide. While the SBD portion captures the high points, the recording as a whole is considered only fair in clarity.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "Two reviewers give high marks for performance (4‑5 stars) while two rate the audio poorly (1‑2 stars); the weighted average of show and recording quality lands in the mid‑range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Reviewers say the composite source sounds better, indicating this tape is a bit muddy or thin; however the SBD portion is noted as usable for key songs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "He's Gone"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Limited commentary, but highlights suggest strong moments around The Other One and a poignant He's Gone.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:30:07.747750+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-03-15.aud.vernon.13468.sbeok.shnf"
+  }
 }

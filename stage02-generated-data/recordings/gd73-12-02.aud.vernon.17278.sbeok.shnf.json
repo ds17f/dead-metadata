@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.884615384615385,
   "high_ratings": 26,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A vibrant 12/02/73 Boston show captured on a surprisingly clear audience tape, highlighted by a monster second set with Wharf Rat, Half‑Step and a soaring Playing > Other One jam.",
+    "review": "The performance is praised for an inspired, high‑energy second set – the Wharf Rat → Half Step → Playing in the Band transition, the extended MLB jam and standout Let It Grow and Morning Dew are repeatedly called out.  While the first set is described as looser or “average,” the audience recording is noted to be warm, fairly crisp and full of room ambience, with only minor EQ tweaks suggested.  Overall the show is regarded as one of the best of ’73.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "Over two‑dozen enthusiastic reviews (average ~4.9 stars) consistently praise the musical performance and note good audience recording quality, yielding a high combined rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Warm, fairly crisp audience tape with pleasant room ambience; some reviewers mention a thin low end or suggest slight EQ (cut around 2 kHz, boost at 8 kHz and ~125 Hz) but overall the sound is enjoyable and captures crowd energy."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Wharf Rat",
+        "Half Step",
+        "Playing in the Band > The Other One (MLB jam)",
+        "Let It Grow",
+        "Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set described as loose and average, but the second set flows seamlessly with tight transitions (Wharf Rat → Half Step → Playing in the Band) leading into an exploratory MLB jam that many call mind‑bending.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for phenomenal, all‑time guitar work throughout the show.",
+      "Phil": "Noted for a spotlight moment in the banter and for “bombing” on bass during the second set.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T10:06:48.667015+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-12-02.aud.vernon.17278.sbeok.shnf"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording of decent quality captures a unique 1973 show where horns joined the Dead for an energetic second set featuring standout Truckin' and Weather Report Suite moments.",
+    "review": "The SBD capture is clear enough to enjoy the unusual horn‑filled second set, which many fans describe as high‑energy and experimental. Highlights include Keith Godchaux’s fiery jam on “Truckin’,” a memorable “Sugar Magnolia” vocal line from Jerry, and an expansive Weather Report Suite, while the horns divide opinion. Recording quality is solid with no major flaws.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4‑5 stars and praise the performance; a few 3‑star reviews note personal dislike of horns but no serious technical issues, leading to an overall strong rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers mention good sound quality and no major dropouts; the venue’s acoustics are noted as poor but that does not affect the SBD clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "Weather Report Suite",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set is distinctive for the unexpected horn section on Wake of the Flood material, creating an experimental yet effective flow that many fans remember vividly.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Jerry sings a memorable line from “Sugar Magnolia” that reviewers singled out.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith Godchaux’s energetic jam on “Truckin'” is praised as a highlight.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:58:42.999860+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-09-17.sbd.cotsman.14473.d3fixed.sbeok.shnf"
+  }
 }

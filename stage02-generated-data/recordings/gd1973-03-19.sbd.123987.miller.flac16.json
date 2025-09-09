@@ -14,5 +14,38 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with good sound captures a great song selection, featuring a 16‑minute Playing In The Band and a strong 15‑song second set.",
+    "review": "The reviewer praises the show’s extensive setlist, highlighting the lengthy PITB and the energetic fifteen‑song second set. They also note that the release is a true soundboard source with good overall sound quality and tight harmonies. No technical flaws are mentioned.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one review, but it is enthusiastic about both the performance and the soundboard recording; limited data prevents higher confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer describes the sound as good with clear harmonies; no specific issues or mix problems reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing In The Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Show starts with the last song of the first set, a 16‑minute PITB, then moves into an extensive 15‑song second set, providing solid momentum throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:39:56.519034+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-19.sbd.123987.miller.flac16"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A nice 1973 audience tape that captures a solid but not spectacular Dead show.",
+    "review": "The recording is an audience (aud) source from ’73 that listeners find generally clear, though one reviewer calls it only “okay.” The performance itself is described as great by one fan and merely acceptable by another, leading to mixed impressions of the music’s energy and impact.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "low",
+      "rationale": "Both reviewers are brief; one rates it 5 stars praising both sound and show, the other gives a 3‑star, lukewarm take on the audio and music. Combined weighting of show (70%) and recording (30%) yields an overall rating just under 4."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear for an audience tape, but some listeners feel it is only okay and lacks the fidelity expected for higher praise."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:14:01.251024+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-24.128997.aud.candelario.smith.flac16"
+  }
 }

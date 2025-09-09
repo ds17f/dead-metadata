@@ -14,5 +14,42 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A pristine 1973 soundboard capture with crisp mix and a smoking Here Come Sunshine plus the legendary Playin' In The Band sandwich.",
+    "review": "The recording is a superb, crystal‑clear soundboard source that even beats other IA copies, despite a few patched sections. Musically the show is tight and high‑energy, highlighted by an inspired Here Come Sunshine, soaring China Cat > I Know You Rider, emotive Looks Like Rain, and the monumental Playin' In The Band → Uncle John's Band → Morning Dew medley.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "All detailed reviews praise both the performance (tight, high‑energy, standout songs) and the recording (crisp, superior soundboard), yielding a near‑perfect combined score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clean mix with excellent balance; some reviewers note minor splices/patches but overall superior to other IA versions."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Here Come Sunshine",
+        "Looks Like Rain",
+        "China Cat Sunflower > I Know You Rider",
+        "Morning Dew (within the Playin' In The Band sandwich)",
+        "Playin' In The Band > Uncle John's Band > Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set launches without a warm‑up, staying tight and on cue; the famed Playin' In The Band sandwich provides a seamless, high‑impact climax.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia delivers soaring solos and picking that lift the performance; his tone is praised as perfect.",
+      "Phil": "",
+      "Bob": "Bob Weir supplies cool rhythm fills that enhance tracks like Tennessee Jed and the Playin' sandwich.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T09:26:41.797279+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-11-17.sbd.patched.bec.22799.flac16"
+  }
 }

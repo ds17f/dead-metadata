@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.266666666666667,
   "high_ratings": 13,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Vault‑remastered soundboard of the 10/19/73 Oklahoma City show delivers crisp Jerry tone and a smoking Dark Star→MLB jam, despite an uneven first set.",
+    "review": "The performance shines on the second half with a monster Playing In The Band, a spacey Dark Star that segues into the first ever Mind‑Left‑Body jam, and soaring Morning Dew, Eyes of the World and Stella Blue.  The soundboard mix is generally clear after an early balance hiccup where keyboards were too forward, and the remastering restores instrument separation nicely.  Overall the show is praised as a high‑energy highlight of the fall ’73 tour.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Average reviewer rating ≈4.3, strong consensus on standout jams and decent remastered soundboard; recording quality good, show quality very good."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Remastered SBD provides clear separation (Jerry vs. Weir spread left‑right). Early first‑set balance issues – keys too prominent, guitars recessed – are corrected shortly thereafter."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Mind Left Body Jam",
+        "Playing In The Band",
+        "Morning Dew",
+        "Eyes of the World",
+        "Stella Blue",
+        "Playin'"
+      ],
+      "poor_songs": [
+        "Tennessee Jed",
+        "Looks Like Rain"
+      ],
+      "setlist_flow": "First set is uneven and low on energy, but picks up with Don't Ease Me In and a strong Playing In The Band.  Second set erupts with the historic Dark Star→MLB jam and maintains high intensity through Morning Dew, Sugar Magnolia and an inspired encore.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for crisp, dexterous tone and soaring crescendos, especially during Dark Star, MLB jam and the closing solos.",
+      "Phil": "Noted for powerful \"Phil bombs\" and a superb bass solo that lifts the Dark Star/MLB section.",
+      "Bob": "",
+      "Keys": "Early mix had keyboards forward; later sections show tight sync with Jerry, especially during the China>Rider transition.",
+      "Drums": "Bill's drumming described as extra‑limbed and driving, keeping a solid tempo throughout the high‑energy jams."
+    },
+    "processed_date": "2025-09-09T08:20:55.018652+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-10-19.sbd.nayfield.187.sbeok.shnf"
+  }
 }

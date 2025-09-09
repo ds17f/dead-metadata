@@ -14,5 +14,43 @@
   "confidence": 0.8,
   "raw_rating": 4.5,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 1973 three‑set show featuring a monster “The Other One” and “Eyes of the World”, though the second set drags in places.",
+    "review": "Fans rave about the overall power and rock‑and‑roll feel of this 1973 performance, especially the blazing “Other One” and the soaring “Eyes of the World”. The recording is praised as a clean, well‑balanced soundboard tape, but several reviewers note that Jerry’s guitar is lazy early in the second set (Half‑Step → Truckin' → He's Gone) before snapping back. Despite those hiccups, the concert remains a favorite for its classic ’73 vibe.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Show quality is generally strong (≈4/5) with standout moments and only a modest dip in the second set; recording quality is praised as excellent (≈5/5). Weighted average yields ~4.3 stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Multiple reviewers commend the clarity and balance of the tape, calling it a great recording with no noted drop‑outs or muddiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Eyes of the World"
+      ],
+      "poor_songs": [
+        "Half-Step Through My Dreams",
+        "Truckin'",
+        "He's Gone (early part)"
+      ],
+      "setlist_flow": "Three‑set marathon that rocks hard overall; first set solid, second set uneven with a weak middle before picking up again in the later jams.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Mixed – lazy and lackluster from Half‑Step through Truckin' and early He's Gone, then revs up to god‑like playing later in the set.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T05:52:46.165785+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-05-26.sbd.cantor.diebert.83438.sbeok.flac16"
+  }
 }

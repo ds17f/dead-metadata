@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.576923076923077,
   "high_ratings": 24,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Pristine soundboard capture of a high‑energy 1973 spring show, highlighted by an epic Dark Star → Eyes of the World → Playing in the Band marathon and tight second‑set flow.",
+    "review": "The Miller‑restored SBD delivers crystal‑clear vocals, punchy bass and a clean mix that lets the band’s fire shine through.  The concert bursts with excitement—especially the hour‑long Dark Star/Eyes/Playing sequence—but also offers strong first‑set work (Box of Rain, Jack Straw, Stella Blue) despite a few slower moments.  Overall the performance and recording are consistently praised by fans.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Over two dozen reviews overwhelmingly rate the show 4‑5 stars, repeatedly praising both the music (especially the long second‑set jams) and the immaculate soundboard restoration; only a few mixed or low ratings appear."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Miller’s SBD restoration is described as pristine, crisp vocals, strong bass presence and clear instrument separation.  A brief glitch in the first song is noted by one reviewer, but overall the mix is clean with no audience bleed."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Eyes of the World",
+        "Playing in the Band",
+        "Weather Report Prelude",
+        "Jack Straw",
+        "Stella Blue",
+        "Box of Rain"
+      ],
+      "poor_songs": [
+        "You Ain't Woman Enough"
+      ],
+      "setlist_flow": "A lively first set that builds momentum into a spectacular second set; the Weather Report Prelude leads into an uninterrupted Dark Star → Eyes → Playing suite, creating a seamless, high‑energy arc.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for inventive, scorching guitar work and ‘possessed’ solos that lock in with Weir during the long jams.",
+      "Phil": "Noted for solid, “excellent” bass lines on Box of Rain and overall tight rhythm foundation.",
+      "Bob": "Commended for rhythmic leads that sound like additional leads in Playing, and for strong vocal contributions.",
+      "Keys": "Keith’s interplay with Jerry is highlighted as a key factor in the band’s 1973 sound; his playing is described as clear and powerful throughout.",
+      "Drums": "Bill's drumming is referenced positively, with reviewers noting a crisp, solid one‑drummer groove that drives the jams."
+    },
+    "processed_date": "2025-09-09T05:06:00.446303+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-28.sbd.miller.86459.sbeok.flac16"
+  }
 }

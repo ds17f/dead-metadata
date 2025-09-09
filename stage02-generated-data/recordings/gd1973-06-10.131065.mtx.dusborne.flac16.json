@@ -14,5 +14,40 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑quality matrix capture of a legendary 1973 show, highlighted by an epic Birdsong jam and soaring Morning Dew.",
+    "review": "Fans rave that this matrix recording faithfully conveys the heat‑filled magic of the June 1973 concert, with Charlie Miller’s transfer preserving the power of the band despite a slight loss of tightness. The performance shines on songs like Morning Dew, Birdsong and Playing in the Band, and the visual fireworks at the show’s climax are still vivid in listeners’ memories.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "All three reviewers speak enthusiastically about the show; two give 5‑star ratings and praise the matrix source, while the lone low rating lacks detail. The consensus points to an exceptional performance with a good‑to‑excellent recording."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Charlie Miller’s transfer is praised for clarity; reviewers note the matrix captures most of the live energy though some tightness is slightly lost."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Morning Dew",
+        "Birdsong",
+        "Playing in the Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The first set builds to a dark, fireworks‑capped climax with PITB ending it; the second set continues the high energy with extended jams.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Morning Dew described as giving goosebumps, indicating strong Garcia guitar work.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T06:18:18.439177+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-10.131065.mtx.dusborne.flac16"
+  }
 }

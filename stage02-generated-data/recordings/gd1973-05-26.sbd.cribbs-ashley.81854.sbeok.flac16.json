@@ -14,5 +14,43 @@
   "confidence": 0.8,
   "raw_rating": 4.75,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard remaster captures a high‑energy May ’73 show highlighted by a smoking ‘Here Comes Sunshine’ and the legendary He’s Gone → Truckin' → The Other One → Eyes sequence.",
+    "review": "This recording delivers crystal‑clear, well‑balanced sound thanks to a superb soundboard source and careful remastering, letting every instrument shine—from Keith's newly audible vocals to Phil's perfectly articulated bass solo. Musically the show is fire‑hot, with Jerry’s inventive guitar work, Bob’s wailing rhythm fills, and an unforgettable third‑set run of He’s Gone, Truckin’, The Other One, Eyes and China Doll.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All four reviews are high (4‑5 stars) and praise both performance and sound quality; only one reviewer offers mild criticism, so the combined rating is strong."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Remastered version is crisp and balanced; bass is articulated to perfection, Keith’s vocals are unusually prominent, overall clean with no noted drop‑outs or muffiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Here Comes Sunshine",
+        "He's Gone",
+        "Truckin'",
+        "The Other One",
+        "Eyes",
+        "China Doll"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second and third sets are described as riveting, especially the seamless He’s Gone → Truckin' → The Other One → Eyes → China Doll sequence; first set is solid but receives less specific praise.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as “all over under and around himself,” delivering gorgeous, divergent guitar styles throughout the show.",
+      "Phil": "Bass is perfectly articulated with a wonderful solo in The Other One; praised for inventive playing.",
+      "Bob": "His wailing rhythm guitar and unusual chording/fills are highlighted as riveting.",
+      "Keys": "Keith’s singing stands out unusually clearly on this recording, adding an earthy layer to the vocal blend.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T05:53:28.875167+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-05-26.sbd.cribbs-ashley.81854.sbeok.flac16"
+  }
 }

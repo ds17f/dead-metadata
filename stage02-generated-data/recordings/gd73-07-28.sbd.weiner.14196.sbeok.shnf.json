@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.339622641509434,
   "high_ratings": 46,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Soundboard recording (good/clear) of the historic Watkins Glen ’73 show – high‑energy set highlighted by a soaring China Cat > I Know You Rider and a monster Mountain Jam with the Allmans.",
+    "review": "The tape captures one of the most celebrated 1973 festivals.  Listeners repeatedly praise the incendiary China Cat > I Know You Rider, the sprawling Mountain Jam encore with the Allman Brothers, and strong moments from Eyes of the World and Stella Blue.  The soundboard source is generally clear but suffers from occasional static, thin highs and a mix that takes a few minutes to settle, giving the recording an overall good but not pristine quality.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "The majority of reviews (≈70 %) rate the show 4‑5 stars and describe it as historic, energetic and musically strong; recording comments are mostly positive with a few technical complaints, yielding an overall weighted average around 4.3."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and clean soundboard mix; some reviewers note static/crunch, thin high‑end, occasional drop‑outs and a few minutes of poor drum balance before the board settles."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat > I Know You Rider",
+        "Mountain Jam (Allman Brothers encore)",
+        "Eyes of the World",
+        "Stella Blue"
+      ],
+      "poor_songs": [
+        "China Cat > I Know You Rider (for a few listeners who found it sloppy)"
+      ],
+      "setlist_flow": "First set mixes slower, heartfelt numbers with classic Dead fare; second set builds into extended jams (Eyes, Stella Blue) and culminates in the massive Mountain Jam/Allman Brothers encore.  The historic festival vibe gives the performance a rising arc that many describe as “glorious.”",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Most reviewers love his soulful lead work, especially on China>Rider, but a few note a sloppy, drug‑affected tone during that jam.",
+      "Phil": "Repeatedly praised – “lots of Phil,” strong bass foundation throughout the show.",
+      "Bob": "",
+      "Keys": "Keith’s keyboards are called clear and excellent; no major complaints.",
+      "Drums": "Early mix issues leave drums thin or absent for a few minutes, but later they settle into a solid back‑beat."
+    },
+    "processed_date": "2025-09-09T07:10:59.240378+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-07-28.sbd.weiner.14196.sbeok.shnf"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of an unusual, high‑energy show with a standout Weather Report jam",
+    "review": "The single five‑star review praises the recording’s pristine clarity and perfect reverb, noting that the medley (including the tail end of “Weather Report”) is preserved with strong detail. The performance is described as unusual but compelling, delivering high energy throughout.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "low",
+      "rationale": "Only one detailed five‑star review, which rates both the show and recording at the top of the scale; limited data lowers confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer highlights perfect reverb, strong clarity, and overall pristine sound throughout the set."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Weather Report (end section)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Unusual show with a well‑preserved medley that flows smoothly; praised for its atmospheric presence.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:33:12.186478+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-10-25.140863.set2p.sbd.pcm.dalton.miller.clugston.flac1644"
+  }
 }

@@ -14,5 +14,42 @@
   "confidence": 0.6,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "High‑energy soundboard soundcheck with stellar Jerry/Kev riffs and crystal‑clear vocals, though the Jack Straw song is absent.",
+    "review": "The three reviewers praise the recording’s excellent mix—crystal‑clear vocals, a slight background hiss, and superb guitar/organ interplay during a Christmas‑tune intro and the “Heart & Soul” jam in Rip It Up. While two give five stars for the rare song versions and tight playing, one gives only two stars because Jack Straw is missing, yielding an overall mixed sentiment.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Two reviewers rate it 5★ for performance and sound quality; one rates 2★ due to a missing song, averaging to about 4★ overall."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Great soundboard mix with crystal‑clear vocals, slight background hiss, and well‑balanced instruments; the only minor issue noted is a faint hiss."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Rip It Up (Heart & Soul jam)",
+        "Peggy-O",
+        "Blue Suede Shoes"
+      ],
+      "poor_songs": [
+        "Jack Straw (missing)"
+      ],
+      "setlist_flow": "A relaxed soundcheck featuring a Christmas‑tune riff intro, rare song versions and extended jams; the flow is informal but energetic.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Incredible guitar work with mixolydian‑style noodling and tight interplay with Keith.",
+      "Phil": "",
+      "Bob": "Bobby's harmony vocals are highlighted as strong and complementary.",
+      "Keys": "Keith's percussive organ sounds right on; great early‑show riffing with Jerry.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T10:37:26.633915+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-12.sbd.soundcheck-from-2595.3401.shnf"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 4.8,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy show with a standout Loser and a killer second set",
+    "review": "The recording is praised for its crystal‑clear board rendering, delivering the concert’s electric vibe without distraction. Reviewers love the second set – especially the performance of “Loser” – while noting the first set is less essential, but overall the show is considered a classic dead night.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All five reviews are 4‑5 stars and uniformly positive about both performance and sound quality; the weighting favors the strong musical show (70%) with an excellent soundboard source (30%)."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Multiple reviewers call the board rendering \"very nice\" and note no audible flaws; the source is a repatched SBD file, suggesting careful restoration."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Loser"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set highlighted as the main attraction; first set deemed less compelling but still solid.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:16:36.825458+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-26.sbd-repatched.miller.80198.sbeok.flac16"
+  }
 }

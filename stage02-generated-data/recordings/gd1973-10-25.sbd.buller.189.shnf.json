@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording of an average show with no major flaws noted",
+    "review": "The lone fan review rates the performance as a \"not bad\" show, giving it a middling three‑star rating. No specific comments about song highlights or recording issues were provided, and the filename suggests a soundboard source.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "low",
+      "rationale": "Only one brief review with a neutral three‑star rating; insufficient detail to assess performance or audio beyond a moderate overall impression."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "No explicit comments on sound quality; presumed typical soundboard clarity but unverified."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:33:23.799819+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-10-25.sbd.buller.189.shnf"
+  }
 }

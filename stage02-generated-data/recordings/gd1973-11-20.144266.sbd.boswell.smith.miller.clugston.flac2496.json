@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A grateful fan praises the recording effort, though provides no specific details on sound or performance.",
+    "review": "The lone review is overwhelmingly positive, thanking the archivist for making the show available. No comments are made about the audio source, clarity, or musical highlights, so both recording and show quality remain undefined.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "low",
+      "rationale": "Only one enthusiastic 5‑star review is present, but it lacks any concrete information about the performance or audio quality, limiting the ability to assign a precise rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No reviewer comments on sound clarity, mix, or source type."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T09:32:26.394151+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-11-20.144266.sbd.boswell.smith.miller.clugston.flac2496"
+  }
 }

@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.681818181818182,
   "high_ratings": 21,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard capture of a high‑energy ’73 show highlighted by the legendary Playin’ > El Paso > Playin’ > Wharf Rat > Playin’ > Morning Dew jam sandwich.",
+    "review": "The performance is widely praised for its soaring energy, tight transitions and an all‑time great jam sandwich that threads Playin' through El Paso, Wharf Rat and Morning Dew. Reviewers note a clean, crisp soundboard recording with only minor pitch‑shift quirks and occasional splices, making the show both musically and technically enjoyable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "22 reviews overwhelmingly 4–5 stars (average ≈ 4.7); most comment on superb playing and clear sound, with only minor technical complaints."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crystal‑clear, crisp mix; occasional half‑step pitch raise, a few level adjustments and splices noted; overall very clean with good instrument separation. Minor tuning slips mentioned but do not detract from listenability."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playin' In The Band > El Paso > Playin' > Wharf Rat > Playin' > Morning Dew",
+        "Here Comes Sunshine",
+        "Half Step",
+        "Jack Straw",
+        "Big River",
+        "Weather Report Suite",
+        "Brokedown Palace"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong first set with tight segues (Jack Straw, Here Comes Sunshine, Brokedown Palace) leading into the epic second‑set jam sandwich; Weather Report Suite and Truckin' close the show smoothly.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s lead is often described as forward in the mix, exploratory, inventive (especially on Jack Straw and the jam sandwich), though a few reviewers note missed notes/tuning slips.",
+      "Phil": "Lesh delivers solid bass lines with occasional “fuzzy‑fat” tones; some mention missed notes but overall praised for supporting the jam dynamics.",
+      "Bob": "Weir’s rhythm work and vocal harmonies highlighted on Big River and Jack Straw; noted for near‑solo moments and strong presence in the mix.",
+      "Keys": "Keith’s keyboard work gets kudos for a great break in Big River and overall contribution to the jam textures.",
+      "Drums": "Bill’s drumming praised for its snap on Big River and tight feel throughout the extended jams."
+    },
+    "processed_date": "2025-09-09T09:38:11.100892+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-11-21.sbd.barrick.192.sbeok.shnf"
+  }
 }

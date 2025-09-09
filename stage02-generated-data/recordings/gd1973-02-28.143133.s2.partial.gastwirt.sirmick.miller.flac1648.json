@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Terrific Other One with high energy; recording appears solid though details are scarce",
+    "review": "The reviewer gave a glowing five‑star rating, calling the performance of \"The Other One\" terrific. While no specific technical comments are provided, the enthusiasm suggests both the show and its capture are enjoyable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "Only one brief five‑star review; strong positive sentiment but no concrete details on recording quality, so rating is an estimate favoring the show."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments; reviewer’s high rating implies acceptable clarity and balance."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:26:00.395794+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-02-28.143133.s2.partial.gastwirt.sirmick.miller.flac1648"
+  }
 }

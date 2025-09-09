@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.4,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Tremendous soundboard capture of a high‑energy ’73 show, highlighted by an explosive Playing in the Band and scorching Me & My Uncle.",
+    "review": "The recording delivers crystal‑clear soundboard quality with every instrument distinct, letting the band’s fire shine through especially on the uptempo Playing in the Band, Me & My Uncle and Eyes of the World. While a few minor glitches (a Dark Star glitch and a brief cut on Goin’ Down the Road) are noted, the overall performance is vigorous and full of standout moments.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars and praise both the musical energy and sound quality; only one review is moderate, and technical glitches are minor, leading to a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Sound is described as tremendous and clear; occasional glitch in Dark Star at 4:42 and a slight cut on the first verse of Goin' Down the Road are noted."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing in the Band",
+        "Me & My Uncle",
+        "Eyes of the World",
+        "They Love Each Other"
+      ],
+      "poor_songs": [
+        "Wave That Flag (equipment problems)",
+        "Dark Star (glitch at 4:42)",
+        "Goin' Down the Road (first‑verse cut)"
+      ],
+      "setlist_flow": "Two‑set show with a strong first set featuring early ‘They Love Each Other’ and an aggressive Playing; second set offers high points like Me & My Uncle and Eyes of the World but includes some average material.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Aggressive lead guitar work highlighted during Playing in the Band and the twin‑guitar sections.",
+      "Phil": "",
+      "Bob": "Provides tight rhythm/dual‑guitar weave on Eyes of the World and other jams.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:13:18.001506+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-02-22.sbd.elliot.10963.sbeok.shnf"
+  }
 }

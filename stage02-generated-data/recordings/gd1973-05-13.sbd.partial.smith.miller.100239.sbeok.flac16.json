@@ -14,5 +14,36 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard upgrade with crystal‑clear audio, featuring Jerry’s new Wolf guitar and Phil’s bomb‑dropping bass on a fire‑hot May 13 1973 Iowa State Fair show.",
+    "review": "The upgraded soundboard source is praised for its hiss‑free, killer clarity – a true Charlie Miller masterpiece. The performance is described as one of the band’s best in 1973, highlighted by Jerry’s new Wolf guitar tone and Phil’s relentless bass bombs, making the show feel on fire.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "All three detailed reviews give 5‑star ratings, emphasizing superb recording quality and a standout performance; weighting yields an almost perfect score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No hiss, crystal‑clear sound, significant improvement over previous releases; praised as a clean Charlie Miller audio master."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "New 'Wolf' guitar sounds awesome, noted as a highlight of the show.",
+      "Phil": "\"Dropping bombs\" left and right – powerful bass performance.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T05:30:38.716491+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-05-13.sbd.partial.smith.miller.100239.sbeok.flac16"
+  }
 }

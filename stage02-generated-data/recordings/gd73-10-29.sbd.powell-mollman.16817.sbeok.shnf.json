@@ -14,5 +14,38 @@
   "confidence": 0.6,
   "raw_rating": 3.6666666666666665,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience‑only recording with occasional mix quirks captures a high‑energy 1973 show highlighted by a stellar Dark Star.",
+    "review": "The performance is praised as a “slammin’” and “wicked” 1973 outing, with Dark Star standing out as the night’s centerpiece. The recording is an audience tape that suffers from some odd audio artifacts and a weak mix on Wharf Rat, but it still delivers the classic Dead vibe for listeners who enjoy ’73 shows.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Show quality is rated high (energetic, standout Dark Star) while recording quality is fair due to audience source and mix issues; weighted average yields ~3.7 stars."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Audience‑only tape with occasional funny audio artifacts; Bill Kreutzmann's drum mix is noted as poor, especially on Wharf Rat; stage mics were not used."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical 1973 set structure with strong momentum throughout, though exact sequencing is unknown.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:43:39.801500+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-10-29.sbd.powell-mollman.16817.sbeok.shnf"
+  }
 }

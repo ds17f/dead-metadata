@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.454545454545454,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A high‑energy 12/12/73 Omni soundboard (with mild hiss) captures a loose, fun set highlighted by the debut of Peggy‑O, scorching Jerry Garcia work and standout China Rider, Eyes of the World and Looks Like Rain.",
+    "review": "The Miller soundboard delivers a consistently listenable recording despite a pronounced tape hiss; his remaster removes fades and keeps the mix clear. Musically the show is praised for its loose, joyous vibe, first‑time Peggy‑O, exceptional China Rider, Wharf Rat, Eyes of the World, Morning Dew and a superb Looks Like Rain with Keith’s Rhodes shining. The only notable omission is the missing Sugar Magnolia/Casey Jones encore.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the performance 4‑5 stars and praise the recording, yielding a strong weighted average (70 % show + 30 % recording). Consistent positive comments across >10 reviews give high confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Pronounced tape hiss throughout, but Miller's remaster removes fading artifacts and provides a clear, well‑balanced mix; soundcheck captured cleanly."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Peggy-O (first performance)",
+        "China Rider",
+        "Wharf Rat",
+        "Eyes of the World",
+        "Morning Dew",
+        "Looks Like Rain",
+        "Tennessee Jed",
+        "1/2 Step > Me & Bobby McGee"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Loose, mellow first set that builds into a high‑energy second set; seamless transitions (e.g., 1/2 Step into Me & Bobby McGee) and a marathon closing with two Jerry ballads, Eyes of the World and Morning Dew.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Scorching guitar work throughout; broke a string during the show (noted by Bob); praised for tone, loose yet inspired playing, especially on Peggy‑O and Morning Dew.",
+      "Phil": "Delivers massive bass bombs before the bridge of Morning Dew, adding power to the performance.",
+      "Bob": "Briefly mentioned informing the audience about Jerry’s broken string; no other specific remarks.",
+      "Keys": "Keith's Rhodes shines on Looks Like Rain and his Moog adds texture on Row Jimmy; strong keyboard presence overall.",
+      "Drums": "Drums noticeably faster on Peggy‑O than later versions; solid rhythmic drive throughout."
+    },
+    "processed_date": "2025-09-09T10:34:58.992985+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-12.sbd.miller.105561.flac16"
+  }
 }

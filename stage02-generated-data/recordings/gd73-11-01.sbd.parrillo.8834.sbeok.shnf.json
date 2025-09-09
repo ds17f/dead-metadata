@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.636363636363637,
   "high_ratings": 11,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑quality soundboard capture of a stellar second set featuring Morning Dew, Playing In The Band, Uncle John’s Band and Wharf Rat.",
+    "review": "The recording is a clean soundboard source that conveys the power of the band’s famous Wall‑of‑Sound era.  Reviewers rave about the flowing second‑set sandwich (Morning Dew → Playing In The Band → Uncle John’s Band) and highlight Garcia’s “unbelievable” guitar work, Phil’s prominent bass, and Bill’s jazzy drumming.  Aside from a brief gap before “Fly Away,” the set is praised as high‑energy and flawless.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Over a dozen reviews, most 5‑star, consistently praise both performance and sound quality; only minor technical quibbles are noted."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear, natural mix with the characteristic Wall‑of‑Sound presence; a short 10–20 s gap before “Fly Away” and missing first set are the only drawbacks."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Morning Dew",
+        "Playing In The Band",
+        "Uncle John's Band",
+        "He's Gone",
+        "Wharf Rat",
+        "Truckin'",
+        "Mississippi Half‑Step"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set flows seamlessly with natural transitions – the classic Dew → Playing sandwich leads into extended jams and a powerful Wharf Rat climax.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's playing described as \"unbelievable\" and tight; his vocal on Wharf Rat noted as strong.",
+      "Phil": "Bass is high in the mix – “Phil Zone” praised, with several reviewers calling it prominent and powerful.",
+      "Bob": "Weir’s vocals are more prominent than usual; an anecdote about a corneal abrasion is mentioned but no criticism of his playing.",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann delivers a jazzy groove on Mississippi Half‑Step, noted as a highlight compared to later drumming styles."
+    },
+    "processed_date": "2025-09-09T08:53:09.531701+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-11-01.sbd.parrillo.8834.sbeok.shnf"
+  }
 }

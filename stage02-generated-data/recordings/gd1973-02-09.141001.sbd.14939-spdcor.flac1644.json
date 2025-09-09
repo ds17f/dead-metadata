@@ -14,5 +14,39 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Super‑clean soundboard capture of a solid show highlighted by a smoking \"El Paso\" and strong Phil backing vocals.",
+    "review": "The recording is praised for its crystal‑clear, crisp sound – likely a high‑quality soundboard (or matrix) mix with well‑balanced vocals and instruments. The performance itself is described as a solid set with standout moments on \"El Paso\" and notably good vocal support from Phil. Overall the show feels energetic and collectible.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Reviewers consistently praise the pristine recording quality (≈4.5/5) and note a good, if not legendary, performance (≈3.5/5). Weighted combination yields ~3.8 stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Described as super clean, crisp, with clear vocal‑instrument balance; possible matrix but essentially a high‑fidelity board capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "El Paso",
+        "B.E."
+      ],
+      "poor_songs": [],
+      "setlist_flow": "No detailed comments on flow, but reviewers imply a cohesive, strong opening that set the tone for the night.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Backing vocals highlighted as a key strength of the performance.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T03:37:07.335753+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-02-09.141001.sbd.14939-spdcor.flac1644"
+  }
 }

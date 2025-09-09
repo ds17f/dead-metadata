@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.1,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 9/7/73 show featuring Let It Grow’s debut, Jerry’s Wolf guitar, and an epic Eyes of the World jam.",
+    "review": "The recording is a clean soundboard mix with great balance and only occasional tape‑hiss quirks, making the band’s performance easy to enjoy.  The concert shines thanks to the first-ever Let It Grow, the debut of Jerry’s Wolf guitar on Truckin’, a scorching Playin', and a legendary ~20‑minute Eyes of the World that keeps the energy soaring throughout.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is 4.1; most comments praise both the musical performance and the sound quality, with only minor technical or sloppy moments noted."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp, well‑balanced mix with clear keyboard tone; a few reviewers note slight tape warble/dropout and wish for a matrix blend, but overall the sound is very listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Eyes of the World",
+        "Let It Grow (first performance)",
+        "Truckin' (Wolf guitar debut)",
+        "Playin'",
+        "Here Comes Sunshine",
+        "Bird Song"
+      ],
+      "poor_songs": [
+        "Let It Grow (tentative/sloppy in spots)",
+        "Playin' (out‑of‑tune moments)",
+        "Row Jimmy (lackluster)"
+      ],
+      "setlist_flow": "First set is a solid 1973 opener that builds to a high‑energy Bird Song/Playing close; second set bursts with jams—Truckin' into Drums, Other One and the monumental Eyes of the World—ending on a triumphant note.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for soaring solos on Eyes, the debut Wolf guitar delivering extra octane, and generally “top form” throughout; his tone is highlighted as exceptional.",
+      "Phil": "Bass described as deep, dirty and driving the jam’s momentum; noted at the front of the train during Other One and occasional lead moments.",
+      "Bob": "Neck‑and‑neck with Jerry, gritty distortion adds “perfect mud”; quirky stage interaction but solid rhythm/vocal work overall.",
+      "Keys": "Keith's organ/B‑3 on Truckin' and Rhodes tones are clearly audible; keyboard backdrop noted as notable and melodic throughout the jams.",
+      "Drums": "Bill’s kick drum described as deep and dirty; drums keep the band together with a solid, steady pulse."
+    },
+    "processed_date": "2025-09-09T07:36:19.045814+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-09-07.sbd.cotsman.19893.sbeok.shnf"
+  }
 }

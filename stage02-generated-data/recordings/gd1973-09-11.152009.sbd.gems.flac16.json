@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "First‑class soundboard recording with impeccable clarity, though the second set is viewed as uneven",
+    "review": "The fan praises the recording’s pristine, first‑class sound quality, calling it immaculate and noting no technical flaws. Musically, the reviewer dislikes the horn sit‑ins early in the second set and finds much of that half skippable, resulting in a mixed impression of the show itself.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "low",
+      "rationale": "Only one detailed review; it rates the recording as excellent (5 stars) but expresses disappointment with the second‑set performance, leading to a weighted estimate around 3.6."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Impeccable clarity and crispness; no dropouts or muddiness noted."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Second set perceived as weaker due to horn sit‑ins and sections the reviewer would skip.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:46:01.038721+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-11.152009.sbd.gems.flac16"
+  }
 }

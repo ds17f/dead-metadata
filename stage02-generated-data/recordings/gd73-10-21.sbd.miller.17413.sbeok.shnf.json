@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.3,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a high‑energy 1973 show with smoking Here Comes Sunshine, Weather Report Suite and killer Jerry leads, generally excellent sound despite occasional crackle.",
+    "review": "The performance is praised for its relentless energy – highlights include a blazing Here Comes Sunshine, an under‑appreciated Weather Report Suite, and powerful renditions of Black Throated Wind, El Paso and Let It Grow. The recording is mostly clear and well‑balanced (soundboard), though listeners note some crackling, tape stops and an overly bright drum mix. Overall the show is considered one of the standout 1973 dates.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is 4.3/5; comments emphasize strong musical performance and mostly good soundboard quality, with only minor technical quirks."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and well‑balanced; many note great overall sound. Some listeners report crackling, tape stops, hiss and an overly high drum mix that can mask other instruments."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Here Comes Sunshine",
+        "Weather Report Suite",
+        "Black Throated Wind",
+        "El Paso",
+        "Let It Grow",
+        "Wharf Rat",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Solid throughout with a particularly fire‑filled second set; transitions flow smoothly and the band maintains high momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "His leads on Let It Grow and the Weather Report Suite are described as emotional, awesome and \"sacred ground\"; vocals also praised.",
+      "Phil": "Bass moments noted as huge and deep, with Phil disappearing into “high harmonics and feedback” during the second set.",
+      "Bob": "Bobby’s vocal presence is highlighted – up in the mix, powerful wailing on Black Throated Wind and strong contributions throughout.",
+      "Keys": "Keith's piano is mentioned repeatedly, sometimes sounding noisy or \"sneezing electricity,\" but still a key part of the performance.",
+      "Drums": "Billy’s drums are mixed very high, described as “insane” on Black Throated Wind and driving much of the show’s energy."
+    },
+    "processed_date": "2025-09-09T08:24:28.279141+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-10-21.sbd.miller.17413.sbeok.shnf"
+  }
 }

@@ -14,5 +14,45 @@
   "confidence": 0.6,
   "raw_rating": 3.6666666666666665,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of an average 1973 show with a monster Eyes of the World jam, solid Big River and Me & My Uncle, recorded cleanly by Charlie Miller.",
+    "review": "The three‑track SBD from the Cincinnati Gardens delivers clear, well‑balanced sound that most listeners praise as “masterpiece” material, though a few edits and missing sections are noted. Musically the concert sits in the middle of the 1973 curve – rough at the start, picking up with tight moments like Me & My Uncle and Big River, and peaking on an extended, rainbow‑lava Eyes of the World > Sugar Magnolia sequence.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Show quality averages around a 3½‑star performance with notable highlights, while the recording is generally rated good to excellent; weighted combination yields ~3.7 stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp mix praised by reviewers (especially Charlie Miller’s transfer); a few tuning edits and a brief missing segment are noted, but overall clarity and balance are strong."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Eyes of the World > Sugar Magnolia",
+        "Big River",
+        "Me & My Uncle",
+        "Johnny B. Goode (opening)",
+        "China Cat Sunflower"
+      ],
+      "poor_songs": [
+        "Stella Blue (flubbed vocal)",
+        "Sugaree (tempo dragging)"
+      ],
+      "setlist_flow": "Very late start caused a rough, sluggish first set that gradually tightened; second set was shortened but featured an explosive Eyes of the World jam before winding down.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Weaves his guitar through the extended Eyes jam, delivering bright “rainbow lava” leads.",
+      "Phil": "Bass is highlighted as a driving force – “bombs” and steering the band during the Eyes of the World segment.",
+      "Bob": "",
+      "Keys": "Keith’s playing praised overall; noted as great on most songs despite a flubbed Stella Blue.",
+      "Drums": "Bill (Mickey) briefly stops during the long improvisation, then re‑enters, adding to the ebb‑and‑flow of the set."
+    },
+    "processed_date": "2025-09-09T10:13:48.472072+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-04.sbd.miller.86839.sbeok.flac16"
+  }
 }

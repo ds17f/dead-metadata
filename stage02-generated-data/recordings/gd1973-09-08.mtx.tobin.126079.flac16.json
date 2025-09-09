@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A comforting early‑1970s show highlighted by a strong Bertha intro, captured in a well‑mixed matrix that adds intimacy despite occasional crowd bleed.",
+    "review": "Both reviewers praise the performance as one of the most comforting and energetic Dead shows they’ve heard, especially noting Phil’s powerful opening on “Bertha” and Jerry’s early‑era Strat tone. The recording is a matrix mix where audience sound is integrated nicely, though some chatter can intrude on the band’s detail. Overall the show and its capture are received very positively.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "low",
+      "rationale": "Strong positive comments about the musical performance (high energy, standout Bertha) combined with a good‑quality matrix recording; limited to two reviews."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Audience crowd is mixed in well and adds intimacy, but occasional conversation and screaming \"rolling papers\" can mask band details."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bertha"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Comforting build‑up with the band gradually joining after Phil’s intro; overall flow praised for its nostalgic feel.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Early‑era Strat tone praised by reviewer",
+      "Phil": "Strong opening on \"Bertha\" highlighted",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:41:23.795457+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-08.mtx.tobin.126079.flac16"
+  }
 }

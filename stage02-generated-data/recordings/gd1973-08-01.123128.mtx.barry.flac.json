@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Great show captured on a mixed‑quality matrix recording",
+    "review": "Both reviewers praise the performance, calling it a \"great show,\" but their opinions diverge on the matrix source – one loves the sound while another says this MTX is not among his favorites. The musical energy is high, though no specific songs or moments are singled out. Overall the recording is usable, but its sonic character may appeal more to some ears than others.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "low",
+      "rationale": "Show quality receives strong positive feedback (70% weight) while recording quality is split between praise and criticism (30% weight), yielding an overall rating just above four stars."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Opinions on the matrix are divided – one reviewer finds it unappealing, another loves it; no specific technical faults (dropouts, mud) are mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No detailed comments on set structure; reviewers simply note the show was great.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:29:41.372911+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-08-01.123128.mtx.barry.flac"
+  }
 }

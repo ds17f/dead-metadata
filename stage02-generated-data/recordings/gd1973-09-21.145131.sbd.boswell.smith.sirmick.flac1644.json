@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent 1973 show captured on a soundboard with Keith’s lively keyboards",
+    "review": "Reviewers rave about this concert, calling it a great show and highlighting the energetic performance of Keith on keys. No specific recording issues are mentioned, suggesting the soundboard source is at least clear enough to enjoy the music fully. Overall the vibe is high‑energy and very positive.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "medium",
+      "rationale": "A single 5‑star review emphasizes a great performance and lively keyboards; with no negative comments about the audio, we infer both strong show quality and acceptable soundboard recording."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit remarks on clarity or mix; assumed typical soundboard fidelity without noted problems."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Not detailed in the review",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Keith's playing is described as very lively.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:07:25.983951+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-21.145131.sbd.boswell.smith.sirmick.flac1644"
+  }
 }

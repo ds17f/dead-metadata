@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Mixed recording quality with Dolby‑processing complaints but a great 1973 soundboard show.",
+    "review": "The two reviewers agree the concert is a solid performance, calling it a \"killer SBD\" and praising the overall show. However, the audio processing is divisive – one reviewer notes excessive Dolby‑ization that ate the high end, while the other appreciates the cleaned‑up hiss‑free tape. The result is an enjoyable show hampered by contentious mastering choices.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Show quality is praised (≈4 stars) while recording quality receives mixed feedback (≈2.5–3 stars); weighted average yields ~3.7."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Hiss removed but Dolby‑ization removes high end, making the sound overly processed; some listeners appreciate the cleaned‑up tape despite these issues."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure; reviewers simply note it was a great show.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T05:31:25.009203+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-05-13.sbd.smith-lee.GEMS.97558.flac16"
+  }
 }

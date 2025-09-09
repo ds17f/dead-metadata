@@ -14,5 +14,40 @@
   "confidence": 0.4,
   "raw_rating": 3.0,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Flat, slightly muffled soundboard capture of a typically great 1973 show with a psychedelic Other One → Eyes transition.",
+    "review": "The recording suffers from noise‑reduction artifacts that leave the first three discs sounding flat and muffled, though it improves after the opening of \"He's Gone.\" Musically the concert is praised as a classic ’73 performance with beautiful renditions, a killer psychedelic jam on \"The Other One\" that segues into \"Eyes,\" and overall high energy throughout.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Show is described as a great 1973 performance with standout jams, but both reviewers note flat/muffled sound; the positive show weight outweighs the technical flaws, leading to a rating just below four stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Noise‑reduction on first three discs creates muffled, flat sound; compared unfavorably to an alternative cassette version that is hissy but more dynamic. Slight improvement noted after the start of \"He's Gone.\""
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Eyes",
+        "He's Gone"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Beautiful renditions of the entire set with a notable transition from \"The Other One\" into \"Eyes,\" maintaining strong momentum throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T05:31:52.697554+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-05-13.sbd.minches.7270.sbeok.shnf"
+  }
 }

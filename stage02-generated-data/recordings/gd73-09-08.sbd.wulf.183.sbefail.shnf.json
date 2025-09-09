@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 29,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy 9/8/73 show highlighted by soaring Eyes, Let It Grow, a stellar Weather Report Suite and an unforgettable He's Gone.",
+    "review": "The September 8 1973 performance is praised for its relentless groove, tight interplay and several standout moments – especially the expansive Eyes jam, the hypnotic Let It Grow, a beautifully executed Weather Report Suite and one of the most beloved renditions of He’s Gone.  The sbd recording is consistently described as crisp, clean and well‑separated, with only minor “aged” coloration noted by a few listeners.  Overall the show ranks among the year’s top concerts despite an unconventional setlist.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Over 30 reviews overwhelmingly positive (majority 5‑star), with consistent praise for both musical performance and sound quality; the weighted average of show (≈70%) and recording (≈30%) yields a near‑excellent rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers repeatedly note crystal‑clear instrument separation, clean mix and top‑grade fidelity; a few mention slight “aging” of the tape but no major dropouts or muddiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Eyes of the World",
+        "Let It Grow",
+        "Weather Report Suite",
+        "He's Gone",
+        "China Cat Sunflower > I Know You Rider",
+        "Truckin'",
+        "Sugaree"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Unconventional but cohesive; the band maintains a relaxed groove that builds into powerful jams, with the Weather Report Suite serving as a centerpiece and the second‑half jams keeping momentum high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for articulate lead work, especially his soaring solos in Eyes and overall “best ever” playing throughout the show.",
+      "Phil": "Noted for deep “mind‑synch” with Bob and a thunderous “Phil bomb” that drives the groove.",
+      "Bob": "Highlighted for a memorable solo within Eyes and solid rhythm/vocal contributions, despite occasional minor flubs.",
+      "Keys": "Keith (and later Brent) receive accolades for inventive organ solos – a Hancock‑style passage in the Weather Report Suite and strong presence throughout the mix.",
+      "Drums": "Billy (Bill Kreutzmann) is lauded for locking down a tight groove, providing a steady, driving foundation that fuels the band’s high energy."
+    },
+    "processed_date": "2025-09-09T07:39:44.266245+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-09-08.sbd.wulf.183.sbefail.shnf"
+  }
 }

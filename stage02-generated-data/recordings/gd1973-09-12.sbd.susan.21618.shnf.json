@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 3.857142857142857,
   "high_ratings": 5,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording with a low‑volume mix but clear sound, showcasing a solid set highlighted by Bird Song, Weather Report Suite and an energetic Eyes of the World.",
+    "review": "The board tape captures a pleasant, if modestly mastered, audio picture – occasional dropouts and a mislabeled track aside, it’s listenable. Musically the show is uneven: some fans call it pedestrian, yet others praise the soaring Bird Song, jazzy Weather Report Suite and a high‑energy Eyes of the World, plus strong moments on Let It Grow and Sing Your Blues Away.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Most reviewers note decent performance with several standout songs, but recording issues (low volume, drop‑outs, labeling error) and divergent opinions keep the overall score in the upper‑mid range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Low master volume gives a subdued feel; occasional audio glitches reported. One track mislabeled (Ramble On Rose vs Tennessee Jed) and an early‑set cut affecting Eyes of the World."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bird Song",
+        "Weather Report Suite",
+        "Eyes of the World",
+        "Let It Grow",
+        "Sing Your Blues Away"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set maintains a soulful, steady groove; second set appears truncated and suffers from an early cut, but still contains high‑energy peaks.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for crazed rhythm guitar with Bobby and for adding new slide phrases after Eyes of the World; overall strong playing noted.",
+      "Phil": "",
+      "Bob": "Mentioned sharing a wild, dual‑guitar attack on Let It Grow and possibly delivering the encore announcement.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:51:47.851411+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-12.sbd.susan.21618.shnf"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording of Jerry Garcia’s birthday show at Roosevelt Stadium delivers solid playing and excellent sound.",
+    "review": "The August 1, 1973 Roosevelt Stadium gig captures a high‑energy performance celebrating Jerry’s birthday, with the band “nailing” the set and Jerry’s guitar work described as solid and professional. The SBD source provides clear, well‑balanced audio—listeners note great sound but suggest an EQ boost for optimal fidelity.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "medium",
+      "rationale": "All three reviews are enthusiastic (average 4.7★) and highlight both strong musical performance and good sound quality; limited detail keeps confidence at medium."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear, solid mix with typical tape coloration; reviewers note great sound overall but recommend using an EQ to fine‑tune the playback."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Smooth flow throughout the concert with high energy maintained from start to finish.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as all smiles, solid and professional playing; his tone hit the spot for fans.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:28:42.418333+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-08-01.sbd.kaplan.11813.shnf"
+  }
 }

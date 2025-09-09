@@ -14,5 +14,47 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A gorgeous matrix recording captures a high‑energy late‑1973 show highlighted by an epic Here Comes Sunshine and a massive Other One jam.",
+    "review": "The Dusborne/Droncit matrix source delivers crystal‑clear production that lets the band’s powerhouse performance shine. Highlights include a flawless Here Comes Sunshine, a blistering He’s Gone > Truckin’ > The Other One sequence, and soaring slide work on Row Jimmy, while a few slower numbers like Sugaree and Candyman feel sluggish. Overall the show is vibrant and memorable despite minor setlist unevenness.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Three detailed reviews average 4.67 stars; reviewers praise both musical performance and recording quality, with only occasional song‑level critiques."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Gorgeous production praised by multiple reviewers; matrix provides completeness and clarity, though one reviewer notes the soundboard mix is even clearer."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Here Comes Sunshine",
+        "The Other One (meltdown jam)",
+        "He’s Gone > Truckin’ > The Other One",
+        "Row Jimmy",
+        "Big Railroad Blues",
+        "Big River"
+      ],
+      "poor_songs": [
+        "Sugaree (slow)",
+        "Candyman (sloppy)",
+        "Around and Around (weak vocal)"
+      ],
+      "setlist_flow": "First set mixes solid rockers with a few mid‑tempo missteps; second set builds into an extended jam suite that dominates the show's momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Delivers soaring wah‑heavy solo on Candyman, crisp slide guitar on Row Jimmy, and magical phrasing on Stella Blue; occasional critique of solo focus but overall strong.",
+      "Phil": "Shows experimental side with a noisy bass jam and the Decon Jam; low‑frequency explosions add power to Ramble On Rose and other jams.",
+      "Bob": "Provides inspired vocal moments (e.g., The Other One) and solid rhythm work, though his vocals on Around and Around are critiqued as over‑the‑top.",
+      "Keys": "Keith hammers prickly chords, adds bluesy tritone stingers on Big River, and drives the harmonic texture throughout the set.",
+      "Drums": "Bill Kreutzmann’s snare shines on Big Railroad Blues and Big River, anchoring the band’s high‑energy moments."
+    },
+    "processed_date": "2025-09-09T10:52:20.797149+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-19.126124.mtx.dusborne.droncit.flac16"
+  }
 }

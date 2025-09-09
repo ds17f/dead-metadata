@@ -14,5 +14,50 @@
   "confidence": 1.0,
   "raw_rating": 4.533333333333333,
   "high_ratings": 14,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑quality soundboard capture of a mellow 1973 show, highlighted by a soaring Here Comes Sunshine and jazzy Dark Star/Mind Left Body sequence.",
+    "review": "The Miller‑remastered SBD delivers clear, well‑balanced guitars and keyboards with only occasional tape‑noise quirks, while the band offers a relaxed, space‑filled performance. Standout moments include a radiant Here Comes Sunshine, an extended Dark Star → Mind Left Body jam, and superb renditions of Eyes of the World and Playing in the Band; the first set feels tighter than the second, which drifts into a dreamy, jazz‑inflected vibe.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "The majority of reviews are 4–5 stars praising both performance and sound; only a few note minor technical flaws or slower tempos, yielding an overall strong consensus."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp, well‑balanced mix with clear guitars and keys. Reviewers mention occasional high‑pitched tape “kettle” noise on the Miller source, a slightly over‑driven bass and minor vocal tuning issues, but overall the SBD is listenable and enjoyable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Here Comes Sunshine",
+        "Dark Star > Mind Left Body > Dark Star",
+        "Eyes of the World",
+        "Playing in the Band",
+        "Jack Straw",
+        "Mexicali",
+        "El Paso",
+        "Row Jimmy",
+        "Big River",
+        "Stella"
+      ],
+      "poor_songs": [
+        "Looks Like Rain (tuning/flub)",
+        "Rider (slow, less engaging)"
+      ],
+      "setlist_flow": "First set is tight and energetic, building nicely into a spacey second set that leans toward jazzy, relaxed improvisation. The transition from Dark Star through MLB to Eyes of the World forms the centerpiece, followed by a mellow winding‑down to the encore.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s leads are praised as hot, melodic and harmonically rich (especially on Dark Star/MLB), though he was slightly out of tune on Looks Like Rain.",
+      "Phil": "Lesh’s bass is noted as deep and booming; highlighted for strong presence in the Dark Star intro and MLB jam, but occasionally over‑driven.",
+      "Bob": "Weir’s rhythm work and vocals receive mixed notes – solid rhythm on Jack Straw and Row Jimmy, but three‑part vocal blend was a bit off on Looks Like Rain. Guitar contributions later in the set are described as interesting and supportive.",
+      "Keys": "Keith’s organ/keyboard is lauded for jazzy big‑band textures, strong comping throughout, occasional repetitive riff toward the end of Eyes, and overall balance with guitars.",
+      "Drums": "Bill’s drumming is generally described as steady and appropriate to the relaxed vibe; no specific criticisms noted."
+    },
+    "processed_date": "2025-09-09T08:50:03.018535+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-10-30.sbd.miller.32367.sbeok.flac16"
+  }
 }

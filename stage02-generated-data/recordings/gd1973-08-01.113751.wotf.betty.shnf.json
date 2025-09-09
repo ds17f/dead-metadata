@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A fan‑rated five‑star performance that’s praised enthusiastically despite no specific technical details",
+    "review": "The lone review is glowing – a perfect five‑star rating and an exuberant comment that suggests the show captured the listener’s imagination. No concrete information about the source or sound quality is given, but the positive tone implies both the music and recording were well received.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "low",
+      "rationale": "Only one five‑star review; strong enthusiasm indicates a great show and acceptable recording, but lack of detail limits certainty."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on sound clarity, mix or source; rating inferred from overall five‑star enthusiasm."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:30:52.466224+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-08-01.113751.wotf.betty.shnf"
+  }
 }

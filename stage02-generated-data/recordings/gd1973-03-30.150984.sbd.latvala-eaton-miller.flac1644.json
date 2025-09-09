@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Mixed feedback; some reviewers love the show while others criticize first‑set sound quality.",
+    "review": "The few reviews available are largely vague, with one fan giving a glowing five‑star endorsement and another expressing disappointment about the need for a sound update on the first set. A moderate four‑star comment notes enthusiasm for Rochester shows but offers no specifics about performance or recording. Overall sentiment is mixed due to contrasting praise and criticism of audio quality.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.9,
+      "confidence": "low",
+      "rationale": "Ratings range from 0 to 5 with little detail; positive comments are generic while a zero‑star review flags sound problems, leading to an average rating near the low‑mid range."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "One reviewer mentions the first set needs a 'sound update,' suggesting audio issues; no concrete details about source or overall clarity."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure or pacing.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T05:14:37.977690+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-30.150984.sbd.latvala-eaton-miller.flac1644"
+  }
 }

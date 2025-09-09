@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "No substantive information on recording or performance; review comments only on display technology.",
+    "review": "The lone review does not discuss the music, setlist, or audio quality of this Grateful Dead recording. It merely suggests using more modern review‑display technology and provides no insight into the show's musical merits or the recording's technical characteristics.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 2.5,
+      "confidence": "low",
+      "rationale": "Only one brief, unrelated review with a zero‑star rating; insufficient data to assess show or recording quality."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No comments about soundboard vs. audience source, clarity, or mix."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T06:20:56.478939+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-10.121030.barry.smith.AUD-fob.flac16"
+  }
 }

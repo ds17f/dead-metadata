@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Miller soundboard captures a brief but high‑energy Cincinnati ’73 set, highlighted by an epic Eyes of the World and a killer Truckin' > Stella Blue transition.",
+    "review": "The show may have been short and started late, but the band delivered a punchy, happy first half that segued into a dark, soaring Eyes of the World jam. The Miller SBD is generally crisp with only minor balance quirks on One More Saturday Night, letting listeners enjoy standout moments like Johnny B. Goode, Truckin' > Stella Blue and Sugar Magnolia.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "All five reviewers gave 5‑star ratings and praised both the performance (high energy, standout jams) and the soundboard quality (crisp with minor issues), yielding a strong combined score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally crisp Miller SBD capture; occasional balance hiccup on One More Saturday Night but overall clear and listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Eyes of the World",
+        "Truckin' > Stella Blue",
+        "Johnny B. Goode",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Short, late‑starting show that opens with upbeat numbers before diving into a deep, dark Eyes of the World jam; transitions (notably Truckin' > Stella Blue) are praised and the set closes on a high note with Sugar Magnolia and One More Saturday Night.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Shredding lead on Johnny B. Goode; engages in a sci‑fi duet with Phil during Eyes of the World, his notes orbiting Phil's bass bombs.",
+      "Phil": "Delivers powerful \"bombs\" on bass, especially in the Eyes of the World jam where he and Jerry lock into an extended duet.",
+      "Bob": "Provides vocal drive on Sugar Magnolia and contributes to the upbeat early songs; noted for picking up the energy after the long Eyes jam.",
+      "Keys": "Keith Godchaux adds well‑placed chords throughout, seasoning the Eyes jam and supporting the transitions.",
+      "Drums": "Bill Kretschmann \"jackhammer\" snare work highlighted in the Eyes of the World, maintaining a solid groove even as the band ventures into spacey improvisation."
+    },
+    "processed_date": "2025-09-09T10:11:19.147297+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-04.sbd.miller.86845.flac16"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture featuring an astonishing \"The Other One\" and a variable, intensely charged performance.",
+    "review": "Reviewers rave about the powerful rendition of \"The Other One,\" calling it one of the most astonishing performances they've heard. The recording is praised for its great sound quality, likely a clean sound‑board source. Overall the show is described as variable and intense, delivering high energy throughout.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "Single enthusiastic 5‑star review highlights both a stellar performance (especially \"The Other One\") and excellent sound quality, leading to a high rating despite limited data."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer notes \"Great Sound,\" indicating a clear, well‑balanced capture typical of soundboard recordings."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Variable pacing with intense moments throughout the set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T06:30:37.104600+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-22.sbd.cribbs.88347.flac16"
+  }
 }

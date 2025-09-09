@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 3.5714285714285716,
   "high_ratings": 4,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A tight 1973 performance with stellar horn work and a standout “Nobody’s Fault > Eyes > Let It Grow” finale, recorded on a mixed‑quality matrix source.",
+    "review": "Fans rave about the show’s high energy, tight playing, and the late‑'73 horn section that shines on the second‑set climax. The recording is a matrix (soundboard + audience) that many find muddy or even awful in parts, though some listeners consider it good enough to enjoy the music.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "medium",
+      "rationale": "Show is praised as one of the best of ’73 (high show rating), but recording quality receives mixed to poor feedback, pulling the overall weighted score down."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Reviews mention a muddy, awful‑sounding first few songs and overall low fidelity; some find it acceptable after the intro, but many label it poor or bad."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Nobody's Fault (In My Own Two Hands) > Eyes of the World > Let It Grow",
+        "Wake of the Flood material"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong second‑set climax with horns, regarded as a platform of greatness; overall tight and energetic performance.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:11:04.516951+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-09-24.sbd-aud.cotsman.11620.sbeok.shnf"
+  }
 }

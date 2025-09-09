@@ -14,5 +14,38 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Mislabelled early “U.S. Blues” (dubbed “Wave That Flag”) and a weak rendition make this recording disappointing.",
+    "review": "Both reviewers note that the track listed as U.S. Blues is actually an early, lyrically rough version known as Wave That Flag, describing it as under‑developed and unsuitable as an encore. No comments about the audio source or sound quality are provided, so the criticism focuses solely on the performance and mislabeling.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.0,
+      "confidence": "high",
+      "rationale": "Both reviews gave a zero‑star rating and consistently criticized the song’s quality and labeling; no positive aspects were mentioned."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "No reviewer comments on audio fidelity; criticism is limited to mislabeling and weak performance, implying recording value is low."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [
+        "U.S. Blues / Wave That Flag"
+      ],
+      "setlist_flow": "",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:14:32.005922+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-02-22.sbd.hamilton.166.shnf"
+  }
 }

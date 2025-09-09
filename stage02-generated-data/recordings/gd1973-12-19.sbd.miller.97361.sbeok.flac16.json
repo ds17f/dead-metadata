@@ -14,5 +14,40 @@
   "confidence": 0.8,
   "raw_rating": 5.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Great soundboard transfer (though missing the Phil solo) captures a high‑energy Tampa show highlighted by a smoking Here Comes Sunshine and an epic The Other One.",
+    "review": "The 19 December 1973 Tampa concert is praised for its tight playing and standout performances of “Here Comes Sunshine,” “Playing in the Band” and a monster “The Other One.” Reviewers note that the soundboard transfer sounds great overall, but the Phil Lesh solo preceding “The Other One” was not patched into this version. The energy level throughout the show is described as high, with the band clearly “on.”",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Consistently enthusiastic comments about the musical performance and a solid soundboard transfer outweigh the single issue of a missing Phil solo."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Transfer praised as great and crisp; however, the Phil Lesh solo before “The Other One” is not patched in, making the recording slightly incomplete."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Here Comes Sunshine",
+        "Playing In The Band",
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set highlighted by a strong Here Comes Sunshine and tight playing; second set carries the momentum with an epic Other One, keeping the show’s momentum high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Solo before The Other One is missing in this transfer.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T10:49:48.354067+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-19.sbd.miller.97361.sbeok.flac16"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Stunning late‑1973 Winterland show with a surprise vocal burst into the finale and solid audience recording",
+    "review": "Both reviewers rave about this performance, highlighting the magical moment at the end when Bob says goodnight and Garcia launches an unexpected vocal into the closing jam – calling it one of the best shows of ’73.  No specific technical complaints are made, suggesting the audience tape is listenable enough to let the music shine.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "medium",
+      "rationale": "Both reviews give 5‑star ratings and focus on the musical high points; with only two brief comments, recording quality cannot be fully assessed but no issues are noted."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No explicit remarks about clarity or mix; reviewers did not mention drop‑outs or muffiness, implying the tape is at least listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "(closing jam leading into WBYG)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The show builds to a memorable finale where Garcia surprises the band with vocals, creating an uplifting close.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s surprise vocal into the final jam is highlighted as a standout moment.",
+      "Phil": "",
+      "Bob": "Bob Weir’s good‑night shout is noted as part of the memorable ending.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T09:04:50.625295+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-11-11.166325.aud.Winterland.Conner.gems.flac2496"
+  }
 }

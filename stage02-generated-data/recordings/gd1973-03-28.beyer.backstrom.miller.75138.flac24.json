@@ -14,5 +14,45 @@
   "confidence": 0.8,
   "raw_rating": 5.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A stellar 1973 show – killer first set, monster Dark Star > Eyes > Playing stretch – captured on a vivid audience tape that still sounds clear despite the crowd.",
+    "review": "Fans rave about this performance, calling the first set “killer” and highlighting the 32‑minute Dark Star/Eyes/Playing sequence as a show‑stopper. The audience recording is praised for its surprisingly clean capture of the band’s tight‑and‑trippy playing, even though one reviewer noted the heavy Northeastern clapping in the background.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high praise for both musical performance and recording quality across multiple 5‑star reviews, with only one dissenting comment about crowd noise."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Clear and vivid capture of the band despite noticeable audience clapping; no major dropouts or distortion reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cumberland Blues",
+        "Here Comes Sunshine",
+        "Row Jimmy",
+        "Looks Like Rain",
+        "Stella Blue",
+        "Dark Star > Eyes > Playing"
+      ],
+      "poor_songs": [
+        "\"Downward jam\" between China Cat Sunflower and Rider"
+      ],
+      "setlist_flow": "First set rolls on strong with tight, energetic renditions; second set stays competent, anchored by a long Dark Star that builds into an intense Eyes → Playing finale.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar shines – perfect tone on Looks Like Rain and wild Crybaby wah‑wah work throughout the show.",
+      "Phil": "Lesh delivers atom‑splitting bass, especially during the Dark Star/Eyes passages.",
+      "Bob": "",
+      "Keys": "Keith uses a volume pedal for piano, adding quirky textures; keyboards contribute to the trippy atmosphere.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T05:11:05.667934+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-28.beyer.backstrom.miller.75138.flac24"
+  }
 }

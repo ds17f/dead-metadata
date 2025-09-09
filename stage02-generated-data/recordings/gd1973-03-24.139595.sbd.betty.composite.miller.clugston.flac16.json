@@ -14,5 +14,45 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard captures a marathon 1973 Spectrum show with a smoking Truckin' / Spanish Jam and a stellar second set.",
+    "review": "The recording is a pristine soundboard capture that lets the listener hear every nuance of this four‑hour 1973 performance. The band is in high gear, delivering an epic Truckin' (over 30 minutes) with a Spanish Jam, tight harmonies, and a second set that many reviewers call “amazing all the way through.” Minor vocal flubs are noted but do not detract from the overall fire and musicianship.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Consistently five‑star reviews praise both the musical performance (exceptional energy, standout jams) and the recording quality (crisp, detailed soundboard). Weighted blend of show (≈70%) and recording (≈30%) yields a high overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, delicate edges; clean mix with no reported drop‑outs or major issues. Reviewers note the Alligator mods add depth but remain clear."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "Spanish Jam (within Truckin')",
+        "Row Jimmy",
+        "Cumberland",
+        "Box of Rain",
+        "Jack Straw",
+        "Sugar Magnolia",
+        "Goodnight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A massive four‑hour set that balances a gigantic first set with an exploratory, high‑energy second set; transitions flow naturally and the band maintains momentum throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Leads the way with sizzling guitar work and perfect vocals (especially on Truckin' and Goodnight).",
+      "Phil": "Adds free‑style noodling and deep, orchestral bass lines that complement Jerry's solos.",
+      "Bob": "Provides strong harmonies throughout, highlighted on Sugar Magnolia and Goodnight.",
+      "Keys": "",
+      "Drums": "Bill's drumming is described as sounding like an entire orchestra, anchoring the long improvisations."
+    },
+    "processed_date": "2025-09-09T04:58:10.611624+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-24.139595.sbd.betty.composite.miller.clugston.flac16"
+  }
 }

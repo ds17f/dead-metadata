@@ -14,5 +14,38 @@
   "confidence": 0.8,
   "raw_rating": 3.0,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Audience tape captures an energetic 6/30/73 show with a roaring Promised Land, but the mud‑dy, noise‑reduced sound limits clarity.",
+    "review": "The performance is praised as lively and well‑played, opening with a powerful The Promised Land that sets a high‑energy tone for the night. Recording quality is mixed – some listeners describe it as smooth, while others note noticeable muddiness and loss of high‑end detail due to noise reduction. Overall the show shines despite the less‑than‑ideal audio.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "Show quality is consistently rated high (energetic, well played) while recording quality receives mixed feedback (smooth vs muddy/NR). Weighted average of reviewer stars (~3.0) adjusted for strong performance yields a ~3.5‑4 rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Listeners note the tape is smooth in parts but overall muddy and lacking high‑end presence, likely due to noise reduction or tape age."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Promised Land"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong, energetic opening that maintains momentum throughout the set.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T06:50:37.939479+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-06-30.aud.weiner.gdADT.6019.sbefail.shnf"
+  }
 }

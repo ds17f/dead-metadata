@@ -14,5 +14,47 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture is a bit patchy and uneven, but the show delivers smoky jams and standout performances like Eyes, Playing in the Band and a fiery Sugaree.",
+    "review": "The recording is an SBD that suffers from balance issues and occasional muddiness, making it sound “patchy” at times. Musically, the concert shines with long, exploratory jams (18‑minute \"Eyes\", a full‑blown Playing in the Band) and several dance‑floor favorites such as \"Deal\", \"Sugaree\" and \"Loose Lucy\". Overall the performance is mellow yet adventurous, offset by the imperfect tape quality.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Both reviewers gave 4‑star scores; the musical content is praised with many standout jams, while the recording is described as patchy and unbalanced, leading to a solid but not perfect rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Patchy, messy tape; balance never quite right throughout; some sections sound fat and clear, others are muddy or unbalanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Eyes (18‑minute version)",
+        "Playing in the Band",
+        "Sugaree",
+        "Deal",
+        "Loose Lucy",
+        "Mexicali",
+        "El Paso"
+      ],
+      "poor_songs": [
+        "Row Jimmy (needs a tune up)",
+        "B.T.W. (Weir’s lyric changes felt forced)"
+      ],
+      "setlist_flow": "First set feels like a rehearsal with many new tunes, second set builds into long improvisations and a strong jam marathon.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia shreds with prolific licks; his voice is described as pristine on Sugaree.",
+      "Phil": "Phil’s bass is highlighted for its “fat sound” and thunderous presence; he even sings on Mexicali.",
+      "Bob": "Weir’s lyric changes on B.T.W. didn’t flow naturally, but his rhythm work is noted throughout.",
+      "Keys": "Keith (the keyboards) finally appears in the mix, adding depth to the overall sound.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T03:38:15.162048+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-02-09.134398.sbd.menke-lee-smith.flac16"
+  }
 }

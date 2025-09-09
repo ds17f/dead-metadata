@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Decent recording but reviewers note an incorrect song order in the track listing.",
+    "review": "The sole review gives the set a solid four‑star rating, indicating overall satisfaction despite a minor complaint about the song sequence being wrong. No specific comments on audio fidelity or performance are provided, so listeners can expect a generally acceptable soundboard capture with no known technical flaws beyond the listed ordering issue.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one brief review; it rates the show 4 stars and mentions a track‑order mistake but gives no detail on sound quality or performance, limiting confidence in the rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No explicit comments on audio clarity or mix; only an issue with incorrect song order is mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Reviewer flagged that the songs are listed in the wrong order.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:50:20.542400+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-10-30.sbd.19809.shnf"
+  }
 }

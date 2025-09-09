@@ -14,5 +14,39 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent old‑soundboard recording with a young, high‑energy band and standout performances of China Doll and Greatest Story Ever Told.",
+    "review": "The three fan reviews are uniformly enthusiastic, praising the warm, “yummy” Jerry Garcia tone and the classic soundboard source. The set list is highlighted as terrific, with special love for a standalone \"China Doll\" and a fine rendition of \"Greatest Story Ever Told\" from 1973. No technical flaws are mentioned, making this both a musically and sonically satisfying capture.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All three reviewers give high marks (4‑5 stars) and comment positively on both performance and sound quality; the weighting of a strong show and excellent soundboard yields a rating near 4.6."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Listeners note the classic, warm sound of an old soundboard with no reported drop‑outs or muddiness; the capture is clear and balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Doll",
+        "Greatest Story Ever Told"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Terrific set list praised for its flow and variety, showcasing a youthful band at peak energy.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as “yummy sounding” with a great tone; highlighted throughout the show.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:11:27.186616+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-24.sbd.stephens.5839.shnf"
+  }
 }

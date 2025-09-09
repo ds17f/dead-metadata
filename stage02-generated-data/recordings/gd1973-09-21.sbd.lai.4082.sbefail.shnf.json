@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.8,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean matrix recording captures a high‑energy 1973 show with tight Jack Straw, a soaring Let It Grow jam and a perfect Black Peter.",
+    "review": "The performance is praised for its loose‑Lucy swagger, an exploratory Here Comes Sunshine, a tight Jack Straw opening, an amazing Let It Grow jam and a flawless Black Peter. Reviewers note the matrix source is clean and well balanced, though one mentions a slightly dragged ending to Let It Grow and a cut‑off intro on Sing Your Blues. Overall the show feels high‑energy and quintessentially 1973.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show highly (average 4★) and highlight excellent matrix sound quality, while a single low‑star review points out minor performance issues; combined weighting yields a strong 4.4 rating."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Clean, balanced mix noted as \"clean, balanced\" by reviewers; matrix source combines soundboard clarity with audience ambience. No major drop‑outs reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Loose Lucy",
+        "Here Comes Sunshine",
+        "Jack Straw",
+        "Let It Grow",
+        "Black Peter",
+        "Weather Report Suite"
+      ],
+      "poor_songs": [
+        "Sing Your Blues (cut at beginning)",
+        "Let It Grow (dragged end, mushy)"
+      ],
+      "setlist_flow": "Standard first set with a rare Black Peter addition; second set flows through horns‑enhanced numbers and tight transitions, highlighted by an expansive Let It Grow jam.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:04:27.667676+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-21.sbd.lai.4082.sbefail.shnf"
+  }
 }

@@ -14,5 +14,36 @@
   "confidence": 1.0,
   "raw_rating": 3.5,
   "high_ratings": 4,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Fair audience tape of a high‑energy 1970s show that captures the historic crowd vibe despite primitive recording quality.",
+    "review": "The performance is remembered by many reviewers as a memorable, marathon concert with an enthusiastic massive audience, though some note it felt insipid at times. The source is an audience recording made on cheap equipment – not crisp like a soundboard but surprisingly listenable for its era. Overall the tape offers a valuable historical snapshot even if the audio fidelity is only fair.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Show quality receives mostly positive remarks (high energy, memorable) while recording quality is described as mediocre to surprisingly good; weighted average yields a ~3.7‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Recorded on a cheap tape deck with noticeable muffiness and limited clarity, but retains crowd ambience and enough detail to follow the music."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure; reviewers focus on overall marathon nature of the concert.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:12:43.661838+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-07-28.siniawsky-smith.weiner-gdADT11.11474.sbeok.shnf"
+  }
 }

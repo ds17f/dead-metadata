@@ -14,5 +14,47 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good soundboard capture of a chilly 1973 show with an intense horn‑filled second set, though the tape suffers from noticeable cuts and missing sections.",
+    "review": "The performance shines on a long, jam‑heavy second set that weaves He's Gone, Truckin', The Other One, Wharf Rat and Row Jimmy together, with horns adding a unique flavor. Reviewers praise Garcia’s tone and the overall energy, but multiple cuts (Sugaree, Big River, Playin' in the Band, etc.) and missing portions of The Other One keep the recording from being pristine.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Show quality is consistently praised (high energy, standout jams), while recording quality is marred by cuts and missing material; the weighted average yields a solid 4‑star rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Harsh cuts in Sugaree, Big River, Playin' in the Band and other tracks; portions of The Other One missing; occasional vocal level issues but overall a decent transfer."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "He's Gone",
+        "Truckin'",
+        "The Other One",
+        "Wharf Rat",
+        "Row Jimmy",
+        "Playing In The Band"
+      ],
+      "poor_songs": [
+        "Sugaree",
+        "Big River",
+        "Playin' in the Band"
+      ],
+      "setlist_flow": "A tight first set capped by a driving Playing In The Band, followed by an hour‑long second‑set marathon that adds horns after a brief break and builds to a climactic jam before a horn‑accented Casey Jones encore.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar tone described as perfect; vocal work solid, helping steady the overall mix.",
+      "Phil": "Phil’s bass line on The Other One is highlighted as coming out of ‘nowhere’, providing a strong low‑end foundation.",
+      "Bob": "",
+      "Keys": "Keith’s vocals are noted as slightly off in places but his playing helps deliver the full sound, especially with the horns.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:08:14.990042+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-21.127548.boswell.smith.flac24"
+  }
 }

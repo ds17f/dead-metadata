@@ -14,5 +14,36 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Reviewer corrects the date to 3/30/73; no information on recording or performance quality.",
+    "review": "The only comment flags an incorrect labeling, stating the show is from March 30 1973 rather than September 30. No remarks are made about the soundboard source, audio clarity, setlist flow, or musical highlights.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.0,
+      "confidence": "low",
+      "rationale": "A single brief review provides only a date correction and gives no insight into the music or recording quality, resulting in an uncertain rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No comments on sound quality, clarity, or mix."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T05:14:58.467077+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-30.154328.aud-composite.flac1644"
+  }
 }

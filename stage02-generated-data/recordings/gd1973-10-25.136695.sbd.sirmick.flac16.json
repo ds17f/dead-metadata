@@ -14,5 +14,39 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a wildly energetic late‑73 show featuring Jerry’s soaring bends, a spectacular Weather Report Suite, and Bob’s vocal flourishes on Saturday Night.",
+    "review": "Fans rave that this recording is a top‑10 performance, calling it insane, freaky and out‑of‑this‑world. The soundboard source delivers crystal‑clear audio with no noted flaws, letting Jerry’s late‑song string bends and Bob Weir’s vocal flourishes shine, while the Weather Report Suite stands out as a highlight of the set.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "medium",
+      "rationale": "All three reviews are highly positive (4‑5 stars) and praise both the musical performance and recording quality; with a strong show weight and an assumed soundboard source, the rating leans toward the high end."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No complaints about drop‑outs or muddiness; reviewers imply a clean, crisp capture typical of a well‑mixed soundboard tape."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Weather Report Suite",
+        "Saturday Night"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows with adventurous improvisations and strong transitions, highlighted by late‑song explorations that keep the energy high throughout.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Noted for his expressive string bends toward the end of a tune, showcasing his soaring guitar tone.",
+      "Phil": "",
+      "Bob": "Praised for vocal flourishes at the end of Saturday Night, sounding much better than his later falsetto style.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:32:27.184551+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-10-25.136695.sbd.sirmick.flac16"
+  }
 }

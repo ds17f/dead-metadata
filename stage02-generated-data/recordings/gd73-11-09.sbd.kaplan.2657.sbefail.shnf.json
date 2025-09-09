@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy Winterland ’73 show captured on a soundboard with decent but imperfect audio, highlighted by stellar versions of They Love Each Other, Playing in the Band and Eyes of the World.",
+    "review": "The November 9, 1973 Winterland performance is widely praised for its tight playing, soaring solos and memorable setlist – especially the second‑set marathon featuring Playing in the Band → Bertha, WRS → Eyes of the World and a monster Here Comes Sunshine. The SBD source is solid overall but suffers from pitch‑speed issues, occasional mono punches and digi‑static, which keeps the technical rating just shy of flawless.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers award 5‑star ratings for performance; recording flaws are noted but not enough to outweigh the show’s excellence, yielding a strong combined score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear SBD mix but with pitch‑speed errors (needs ~‑2.5% correction), occasional mono punches that drop instruments, digi‑static/fuzzed sections and a few drop‑outs; still listenable and enjoyable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "They Love Each Other",
+        "Playing in the Band > Get to B> (Bertha)",
+        "Eyes of the World",
+        "Here Comes Sunshine",
+        "To Lay Me Down",
+        "Big River",
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A solid first set that builds momentum, followed by a marathon second set with multiple climaxes and seamless segues; the show feels like several mini‑shows stitched together.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s tone and loopy licks are repeatedly praised; his solos on Eyes of the World and Here Comes Sunshine are called \"insane\" and \"monster\".",
+      "Phil": "Phil’s bass is highlighted as “the man” with strong thumping and harmonic work, especially during Playing in the Band and Eyes of the World.",
+      "Bob": "Bob Weir gets credit for solid rhythm guitar on PitB and vocal harmonies on Rider; his fills are noted as standout moments.",
+      "Keys": "Keith’s piano/keyboard work is praised on Me & My Uncle, Here Comes Sunshine and other spots, described as “great” and “on”.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:55:55.430044+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-11-09.sbd.kaplan.2657.sbefail.shnf"
+  }
 }

@@ -14,5 +14,39 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Sweet, mellow Denver show with standout Broken Down Palace and Half‑Step Toward Heaven; recording source unknown but presumed solid.",
+    "review": "The November 1973 Denver concert is praised as a creative high point, with the band delivering sweet, mellow performances throughout. Reviewers single out Broken Down Palace and Half‑Step Toward Heaven as highlights and commend every member's contribution. No specific recording issues are mentioned, suggesting an acceptable listening experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "A single 5‑star review lauds the musical performance strongly while giving no details on recording quality; rating reflects excellent show with assumed decent recording."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No specific comments about sound clarity or mix; reviewers did not note any issues, implying an acceptable recording."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Broken Down Palace",
+        "Half‑Step Toward Heaven"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Overall sweet and mellow vibe with a creative high that the band rides throughout the night.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Weaves his web of never‑ending magic all night long.",
+      "Phil": "Adds his distinctive sound to each song.",
+      "Bob": "Sounds great throughout the performance.",
+      "Keys": "Keith adds his distinctive sound to each song.",
+      "Drums": "Billy is the backbone as always."
+    },
+    "processed_date": "2025-09-09T09:41:33.969814+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-11-21.133522.mtx.dusborne.flac16"
+  }
 }

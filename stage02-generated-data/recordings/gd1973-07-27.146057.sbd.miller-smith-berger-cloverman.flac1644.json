@@ -14,5 +14,40 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture with pristine clarity but a confusing sound‑check vibe; strong jams like Bird Song and Wharf Rat offset pitch quirks.",
+    "review": "The first reviewer raves about the crystal‑clear soundboard source, recalling how early Dead tapes shaped their love of the band. The second reviewer is less certain – they suspect this is a sound‑check and note odd pitch distortions, yet still praise the wild, free‑form jams that include Bird Song, Big River and Wharf Rat.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.8,
+      "confidence": "medium",
+      "rationale": "One enthusiastic 4‑star review highlights excellent recording quality; the other gives a 0‑star rating complaining about sound issues and uncertainty about the source, pulling the average down to roughly a 3‑star level."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Described as having “pristine clarity” by one reviewer; another notes pitch distortions and possible sound‑check ambience, suggesting occasional oddities but overall a clean board mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bird Song",
+        "Big River",
+        "Wharf Rat"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Reviewer mentions an opening with \"Promised\" (likely “Promised Land”) and closing with \"Around\" (probably “Around and Around”), plus a long, free‑form jam that drifts through Bird Song, Wharf Rat and other themes.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "Weir is praised for ‘blazing the lyrics’ during his vocal sections.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:03:57.916326+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-07-27.146057.sbd.miller-smith-berger-cloverman.flac1644"
+  }
 }

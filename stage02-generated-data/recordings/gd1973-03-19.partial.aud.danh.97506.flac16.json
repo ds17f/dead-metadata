@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A clear audience tape that’s praised for its sound quality but disappoints with only a handful of songs.",
+    "review": "Both reviewers note that this audience recording sounds better than other circulating crowd tapes, calling it a great capture of what is present. However, the set is severely truncated, leaving listeners wishing they’d heard the full “caught” episode and more of the concert. The performance itself isn’t critiqued beyond the desire for more material.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.1,
+      "confidence": "low",
+      "rationale": "Two brief, 3‑star reviews give modest praise to the recording quality but express disappointment about missing portions; insufficient data for a higher confidence rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Described as superior to other audience recordings; clear and listenable with no reported drop‑outs or major flaws."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Only a fragment of the concert is captured, leading reviewers to lament the missing “caught” episode and overall brevity.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:40:36.274473+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-19.partial.aud.danh.97506.flac16"
+  }
 }

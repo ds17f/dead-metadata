@@ -14,5 +14,43 @@
   "confidence": 0.8,
   "raw_rating": 4.75,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy late‑'73 show with smoking Playing in the Band sequences and a powerful Truckin’ > Nobody’s Fault but Mine, captured on a patched soundboard that’s generally good despite some hiss and occasional dropouts.",
+    "review": "The performance is praised for its inventive set flow – moving Playing in the Band out of the first‑set closer opens up a stellar second set highlighted by Here Comes Sunshine, a blazing Truckin’ > Nobody’s Fault but Mine transition and a thunderous One More Saturday Night. The soundboard source sounds solid overall, though listeners note noticeable hiss and a few nasty patches that slightly detract from an otherwise excellent recording.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Four detailed reviews give consistently high marks for the show (standout sequences, strong setlist) and note only minor recording flaws; weighted average of show (≈4.5) and recording (≈3.8) yields ~4.4."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear with decent balance, but exhibits noticeable hiss and occasional nasty patches/dropouts, especially during the Truckin' segment."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playing in the Band",
+        "Here Comes Sunshine",
+        "Truckin' > Nobody's Fault but Mine",
+        "One More Saturday Night"
+      ],
+      "poor_songs": [
+        "Uncle John's Band (encore version)"
+      ],
+      "setlist_flow": "Moving Playing out of the first‑set closer creates fresh possibilities; second set flows tightly with strong transitions, especially the Truckin' > NFBM sequence.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T09:41:11.273636+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-11-21.sbd-patched.warner.22097.sbeok.shnf"
+  }
 }

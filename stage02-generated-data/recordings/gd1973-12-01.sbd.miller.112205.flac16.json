@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 7,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Soundboard recording with clear vocals and crisp mix captures a solid ’73 show highlighted by Uncle John’s Band, T.L.E.O., and a standout Playin > UJB > Playin sequence.",
+    "review": "The Charlie Miller sound‑board transfer is generally clean and articulate, though a few listeners note a slight graininess or low volume. Musically the concert is respectable – Uncle John’s Band, T.L.E.O., and a tight Playin > UJB > Playin sandwich shine, while some feel the overall pacing is a bit sluggish compared to neighboring shows.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Ten detailed reviews give an average rating of ~3.6; most praise the recording and several songs, but a few note low volume and sluggish energy, leading to a mixed overall impression."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp, clear sound with excellent vocal separation; some listeners mention slight graininess or low volume but overall consider it the best available source for this show."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Uncle John's Band",
+        "T.L.E.O.",
+        "Playin > Uncle John's Band > Playin",
+        "Brokedown Palace"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows well with lively second‑set banter; Bobby and Phil work the crowd after Me and My Uncle, creating a memorable storytelling vamp that adds character to the performance.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Calms the crowd after Bobby’s outburst, gently swaying heads back to their seats.",
+      "Bob": "Gets visibly angry at audience members getting too close, screaming twice during Me and My Uncle; engages in humorous banter throughout the set.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T09:58:45.090648+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-01.sbd.miller.112205.flac16"
+  }
 }

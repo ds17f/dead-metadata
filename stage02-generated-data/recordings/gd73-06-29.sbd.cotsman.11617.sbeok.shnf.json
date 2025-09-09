@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.428571428571429,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a June ’73 show highlighted by a monster Truckin’ → The Other One jam and a soaring The Other One performance.",
+    "review": "The recording, taken from the original 1973 soundboard, is generally clear with especially clean vocals and keyboards, though one listener notes a slight muddiness. Musically the second set shines – the extended Truckin' jam that morphs into The Other One, plus a powerful Morning Dew – delivering high energy despite several missing portions of the first set.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4‑5 stars and praise both the performance (standout jams, high energy) and the soundboard quality; only one mentions mild muddiness, keeping the overall rating in the strong‑good range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear vocal and instrument mix (Bobby, Billy) with nice Fender Rhodes backing; a single comment notes the tape is \"a little muddy,\" but overall sound is praised as great."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin' > The Other One (jam)",
+        "The Other One",
+        "Playin'",
+        "Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Missing large portions of Set 1, but the remaining material—especially the second set—flows tightly with strong transitions and extended improvisations.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Melts away the Truckin' theme into a new jam, provides melodic leads in The Other One, introspective wah‑wah work in Playin'.",
+      "Phil": "",
+      "Bob": "Patiently starts the jam, offers Wes Montgomery‑style chordal backing and strong vocals.",
+      "Keys": "Keith delivers tasteful Fender Rhodes accompaniment during the Playin' jam; overall keyboard texture praised.",
+      "Drums": "Billy (Bill) is noted as clear and well‑balanced in the mix."
+    },
+    "processed_date": "2025-09-09T06:43:53.555590+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-06-29.sbd.cotsman.11617.sbeok.shnf"
+  }
 }

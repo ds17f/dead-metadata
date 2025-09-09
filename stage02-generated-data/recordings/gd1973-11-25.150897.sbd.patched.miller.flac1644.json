@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Smokin' show captured on a patched soundboard release with great, crystal‑clear sound.",
+    "review": "Both reviewers rave that the concert is a \"smokin'\" performance and praise the superb audio quality after Miller’s upgrades. The soundboard source delivers a clean, well‑balanced mix that lets the high energy of the night shine through.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "medium",
+      "rationale": "Both reviewers gave 5‑star ratings and highlighted both the show’s intensity and the excellent sound quality, indicating a top‑tier performance and recording despite the limited number of reviews."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Great sound; Miller's patched restoration yields clear, crisp audio with no noted issues."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T09:49:50.127482+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-11-25.150897.sbd.patched.miller.flac1644"
+  }
 }

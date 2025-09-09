@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.714285714285714,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording with crystal‑clear mix, featuring a high‑energy show highlighted by smoking Eyes → Morning Dew and classic Peggy‑O performances",
+    "review": "The remastered soundboard captures the band in top form – Jerry is at his peak, Phil and Bill lock in tight, and Bob provides solid support. Reviewers rave about the crystal‑clear mix that lets every instrument breathe, especially on the standout Eyes → Morning Dew sequence and a classic Peggy‑O, while noting the only drawback is the missing Sugar Magnolia and Casey Jones.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high 4–5 star reviews praise both the musical performance (energy, standout songs) and the soundboard recording quality; weighting yields a rating in the upper‑range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers describe the audio as crisp and well‑balanced with all instruments prominent; one note about Phil’s bass dropping out likely due to headphones, but overall mix is superb."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Eyes > Morning Dew",
+        "Peggy-O",
+        "Jack Straw",
+        "China Cat Sunflower > I Know You Rider",
+        "Big River",
+        "Deal"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The first and middle portions flow tightly, with the sound check included; missing two late‑show numbers (Sugar Magnolia, Casey Jones) does not detract from the overall pacing or momentum.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as being at his peak with perfect tone and leading the band superbly.",
+      "Phil": "Praised for owning the low end alongside Bill; occasional drop‑outs noted but likely headphone issue.",
+      "Bob": "Mentioned as providing solid accompaniment to Jerry, complementing the lead guitar work.",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann (Billy) highlighted for tight, driving drumming that locks in with Phil."
+    },
+    "processed_date": "2025-09-09T10:33:39.962822+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-12.sbd.remaster.102910.flac16"
+  }
 }

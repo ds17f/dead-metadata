@@ -14,5 +14,42 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crisp soundboard recording that’s a bit bass‑light and windy, but the show is a gem with standout versions of China Cat Sunflower, Rider and Eyes.",
+    "review": "The two reviewers rave about the performance, calling it a “gem of a show” and highlighting scorching renditions of China Cat Sunflower, Rider and Eyes. The soundboard source is clear and crisp, though listeners note a thin low‑end, noticeable wind noise and an over‑present whine on the “He’s Gone > Truckin’” segue.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Both reviewers give 5 stars, praising the musical performance while noting only moderate recording quirks; strong show weight (70%) and decent technical quality (30%) push the rating into the high‑range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp overall but a bit bassless, needs EQ; noticeable wind noise; whine/distortion on the \"He's Gone > Truckin'\" transition."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower",
+        "Rider",
+        "Eyes"
+      ],
+      "poor_songs": [
+        "He’s Gone > Truckin’"
+      ],
+      "setlist_flow": "Smooth flow with strong transitions; the second set (including the highlighted jams) is especially praised.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:14:08.832118+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-07-28.aud.weiner.106793.flac24"
+  }
 }

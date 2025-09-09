@@ -14,5 +14,45 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "An excellent soundboard capture of a high‑energy 1973 show with smoking Playin’ in the Band, Dark Star and magical jams throughout.",
+    "review": "The recording is praised as an almost flawless soundboard tape – crisp, clear and directly sourced from the Dead’s own crew.  The performance itself is described as one of the band’s finest summer‑1973 outings, packed with inspired Jerry solos, Phil “bombs”, tight Keith piano work and a second set that erupts on The Greatest Story Ever Told, Dark Star and Playin’ in the Band.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "All three reviewers are highly enthusiastic (5, 4, 5 stars).  The show is highlighted as a standout 1973 performance and the recording is called “incredible” and a favorite SBD, indicating both musical and technical excellence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear soundboard tape taken directly from the Dead’s crew; reviewers note no drop‑outs or muddiness and call the mix ‘incredible’."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playin' in the Band",
+        "Dark Star",
+        "Eyes of the World",
+        "Bird Song",
+        "Cumberland Blues",
+        "The Greatest Story Ever Told",
+        "Ramble On Rose",
+        "Stella Blue"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A solid first set that builds into a soaring second set; opener The Greatest Story Ever Told launches the band into high gear, with seamless transitions and extended jams leading to an uplifting close with Sugar Magnolia and One More Saturday Night.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for soaring solos, perfect tone, inspiring playing and emotive harmonics throughout the show.",
+      "Phil": "Described as “dropping bombs” with syncopated intensity; highlighted on several jams including Playin' and Dark Star.",
+      "Bob": "Noted for weaving a tapestry of sound alongside Jerry, Keith and Billy during extended improvisations.",
+      "Keys": "Keith’s piano is called out for twinkling accents, perfect melding with the guitars, and sharing spotlight in later jams.",
+      "Drums": "Bill Kreutzmann (Billy) “kicks into his zone” delivering a powerful rhythmic foundation, especially on Playin' and Dark Star."
+    },
+    "processed_date": "2025-09-09T06:50:02.606440+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-30.aud.weiner.100346.flac16"
+  }
 }

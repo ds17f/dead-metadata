@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Brilliant Seattle show captured on a cloudy audience recording",
+    "review": "Both reviewers rave about the high‑energy performance, calling it a brilliant show despite the recording being a \"cloudy\" audience (AUD) capture. The audio is not pristine but remains listenable and enjoyable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "medium",
+      "rationale": "Show quality is rated excellent by reviewers, while the recording is only modestly clear; weighted average yields a strong rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Cloudy audience recording with some muffling/ambient noise but generally listenable."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure provided.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T06:39:54.127542+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-26.aud.jems.105840.flac16"
+  }
 }

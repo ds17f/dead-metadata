@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.3,
   "high_ratings": 9,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Harsh audience tape but captures a high‑energy show highlighted by a soaring Morning Dew and an unforgettable Eyes of the World.",
+    "review": "The recording is an audience (AUD) source that suffers from hiss, occasional drop‑outs and a thin bass response, yet it still conveys the concert’s excitement. Musically the performance shines – a powerful Morning Dew opener, blazing Big River, tight Bertha > Promised Land, and one of the best Eyes of the World jams of 1973, plus a memorable Dark Star and Weather Report suite. Despite the rough sound, reviewers overwhelmingly recommend this show for its stellar setlist and energy.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Show quality is consistently praised with many standout moments; recording quality is noted as flawed but still listenable, yielding a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Noticeable hiss, harsh/jangly tone, bass‑light mix, occasional drop‑outs (e.g., Sugar Magnolia cuts out), and crowd‑heavy sections; overall usable but not hi‑fi."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Morning Dew",
+        "Black Throated Wind",
+        "Bertha > Promised Land",
+        "Eyes of the World",
+        "Dark Star (≈10 min jam)",
+        "Weather Report Suite"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong opener with a long, beautiful Morning Dew, followed by a mix of rockers and ballads; second set kicks off high‑energy with Bertha > Promised Land and builds into expansive jams.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T09:54:42.245691+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-11-30.aud.vernon.17277.sbeok.shnf"
+  }
 }

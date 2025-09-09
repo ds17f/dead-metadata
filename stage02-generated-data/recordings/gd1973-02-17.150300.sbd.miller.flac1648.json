@@ -14,5 +14,42 @@
   "confidence": 0.8,
   "raw_rating": 5.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent sound‑board capture of a high‑energy early‑73 show highlighted by the smoking Here Comes Sunshine → China Cat → Rider segue and blistering solos.",
+    "review": "The three‑hour, 29‑song performance is praised as one of the strongest from early ’73, with standout moments like HCS > China Cat > Rider, a hot Playing in the Band solo, and soaring vocals throughout. The soundboard source is generally crisp and clear, though a few listeners note occasional bumps and vocal isolation on certain tracks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Consistently high ratings (5‑star) and enthusiastic comments about both the music and the soundboard quality, offset only by a single negative note about occasional bumps."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Overall crisp and balanced mix with clear instrument separation; some listeners mention occasional bumpy sections and overly isolated vocal tracks on specific songs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Here Comes Sunshine > China Cat Sunflower > Rider",
+        "Playing in the Band",
+        "Box of Rain",
+        "Truckin'",
+        "Big River"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A tight three‑hour marathon with seamless segues (notably HCS → China Cat → Rider) and strong transitions that keep the momentum high.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for hot, deft solos on Playing in the Band and overall shredding throughout the set.",
+      "Phil": "Noted for a solid, bouncing bass foundation and standout moments like his intro on Box of Rain.",
+      "Bob": "Shines on vocal duties (especially on Little Light/LLR) and provides strong counterpoint to Jerry's guitar.",
+      "Keys": "Keith delivers subtle flourishes throughout, with a notable solo during Big River and supportive backing on the HCS segue.",
+      "Drums": "Bill's solid backbeat is highlighted as providing a reliable rhythmic foundation."
+    },
+    "processed_date": "2025-09-09T03:58:18.849617+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-02-17.150300.sbd.miller.flac1648"
+  }
 }

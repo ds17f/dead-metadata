@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 2.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Partial, cloudy recording that cuts off much of the show, resulting in a disappointing listening experience.",
+    "review": "The review notes that only part of the concert is present and describes the audio as \"cloudy,\" implying muffled or unclear sound. With no details on performance quality and an incomplete set, listeners are left with a sub‑par recording that offers little musical insight.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 2.0,
+      "confidence": "low",
+      "rationale": "Only one brief, low‑star review mentioning a partial and cloudy recording; no positive comments to offset the negative assessment."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "Described as \"cloudy\" and only a partial show; likely muffled with missing portions of the performance."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Recording is incomplete, making it impossible to evaluate set flow or pacing.",
+      "energy_level": "unknown"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T10:28:56.041421+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-08.aud.moore.berger.106139.flac16"
+  }
 }

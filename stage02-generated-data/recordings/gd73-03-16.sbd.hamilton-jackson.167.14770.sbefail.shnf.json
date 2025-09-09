@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.566666666666666,
   "high_ratings": 29,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Crystal‑clear soundboard recording of a smoking 1973 show – blazing China Cat > Rider, epic Playin' in the Band and a soaring Dark Star > Truckin' > Morning Dew.",
+    "review": "The recording is praised for its crisp, well‑balanced mix that lets every instrument shine, with only occasional streaming hiccups noted. Musically the night is described as a “something for everyone” performance – tight jams, exploratory improvisation and high energy throughout, highlighted by the opening China Cat / Rider, the monster Playin' in the Band, and a fire‑filled Dark Star → Truckin' → Morning Dew sequence.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Over 30 reviews overwhelmingly positive about both performance (standout jams, high energy) and sound quality (crisp, perfect sounding). Weighted blend of show (≈4.5) and recording (≈4.0) yields ~4.3."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Multiple reviewers call the mix crisp, perfect‑sounding and well balanced; a few mention minor streaming/buffering issues but no significant dropouts or distortion."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower > I Know You Rider",
+        "Playin' in the Band",
+        "Dark Star > Truckin' > Morning Dew",
+        "Bird Song",
+        "Box of Rain",
+        "The Promised Land > Bertha > Greatest Story Ever Told",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong opening sandwich (China Cat/Rider) leads into a jam‑rich second set; the first set builds momentum with Bird Song and Box of Rain, while the second set delivers extended improvisations and a tight close.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for his soaring guitar tone, inventive solos (especially on Playin' and Dark Star) and vibrant vocal delivery on Morning Dew.",
+      "Phil": "Highlighted as deep‑zen bass player, “bombing” with powerful lines; several reviewers note tight interplay with Jerry and the rhythm section.",
+      "Bob": "His rhythm work gets special mention during the China Cat / Rider transition and overall contribution to the band’s groove.",
+      "Keys": "Keith is noted for sparring with Jerry, balancing the mix, and contributing melodic depth throughout the jams.",
+      "Drums": "Bill (Mickey) receives acclaim for driving the jams, especially during Dark Star and Playin', creating a primal yet tight rhythmic foundation."
+    },
+    "processed_date": "2025-09-09T04:34:52.731732+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-03-16.sbd.hamilton-jackson.167.14770.sbefail.shnf"
+  }
 }

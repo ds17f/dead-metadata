@@ -14,5 +14,48 @@
   "confidence": 0.2,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with mix and balance issues, but the show delivers solid performances – especially the China Cat > Rider jam, Mississippi Half‑Step and a strong second set.",
+    "review": "The remastered soundboard capture is usable yet suffers from a muddy mix, volume imbalances and occasional clipping, making the matrix source preferable in places. Musically the concert is respectable; the first set has some flat moments but highlights like “They Love Each Other,” “Big River” and the China Cat > Rider sequence shine, while the second set recovers with “Mississippi Half‑Step,” “Eyes of the World” and a lively finish.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "The reviewer notes many strong song performances (show quality ~4) but also points out significant recording mix problems (recording quality ~2). Weighted combination yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Mix is uneven with low volume and balance issues; clipping at the start of China Cat Sunflower; some sections sound better on matrix. Pitch correction needed for certain matrix sources."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "They Love Each Other",
+        "Mexicali Blues",
+        "Big River",
+        "China Cat Sunflower > I Know You Rider",
+        "Mississippi Half-Step",
+        "Eyes of the World"
+      ],
+      "poor_songs": [
+        "Sugaree (tempo drops)",
+        "Ramble On Rose (cut and sluggish start)",
+        "China Doll (too dry/spare)",
+        "Weather Report Suite (mediocre)"
+      ],
+      "setlist_flow": "First set starts warm but includes a few flat spots; second set recovers after an uneven opening, building momentum with strong mid‑set jams and ending on a high note.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:12:04.425380+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-24.150275.sbd.remastered.miller.flac1644"
+  }
 }

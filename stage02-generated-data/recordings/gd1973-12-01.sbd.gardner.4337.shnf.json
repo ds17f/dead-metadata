@@ -14,5 +14,43 @@
   "confidence": 0.2,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Matrix source with decent clarity but slight wobble captures a mixed‑energy 1973 show highlighted by a hot Mexicali Blues and a joyous Goin' Down the Road Feeling Bad.",
+    "review": "The Gardner matrix tape offers clearer sound than other available sources, though it has a little wobble, pitch‑correction needs and some wow‑flutter. Musically the concert sits in the middle of the Wang Theater run – the first set is flat early on, while the second set picks up with strong moments like Mexicali Blues, They Love Each Other, Me & My Uncle and an exuberant Goin' Down the Road Feeling Bad, but fire‑code interruptions break the flow.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.1,
+      "confidence": "low",
+      "rationale": "Review gives a moderate 3‑star overall rating; performance is average with several highlights, and recording quality is decent but has noted wobble and pitch issues."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Matrix provides better width/hall with slight wobble; Gardner source clearer than Clugston but needs -1% pitch correction; Miller version adds wow & flutter from transport fluctuation."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mexicali Blues",
+        "Big River",
+        "They Love Each Other",
+        "Me & My Uncle",
+        "Uncle John's Band",
+        "Goin' Down the Road Feeling Bad"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set starts flat and stays below average; second set is broken by fire‑code interruptions and banter but gains momentum after They Love Each Other.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Races the tempo early, starts Uncle John's Band in a different key/scale, and delivers strong, firing guitar work throughout the second set.",
+      "Phil": "",
+      "Bob": "Backs into Keith's hot‑rod energy on Mexicali Blues; later appears to forget lyrics during Me & My Uncle.",
+      "Keys": "Provides hot‑rod keyboard drive supporting the band; no specific issues noted.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T10:00:36.882113+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-01.sbd.gardner.4337.shnf"
+  }
 }

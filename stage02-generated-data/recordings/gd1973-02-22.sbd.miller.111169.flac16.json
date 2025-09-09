@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.461538461538462,
   "high_ratings": 12,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Good‑quality stage‑mix recording of a solid 1973 show with standout Dark Star, Eyes of the World and Bird Song, though opinions on the performance vary.",
+    "review": "The tape is a cleaned‑up matrix feed (not a true soundboard) that captures clear vocals and crisp guitars, thanks to Charlie Miller’s work. Listeners rave about the inspired Dark Star, the soaring Eyes of the World and beautiful Bird Song, but some feel the show lacks the forward momentum of nearby dates, giving the overall impression a mixed but generally positive vibe.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.5,
+      "confidence": "high",
+      "rationale": "A large number of reviews (18) provide detailed feedback; most are highly positive while a few note shortcomings, yielding an average around 3.2–3.5 and strong confidence in the assessment."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Stage‑mix feed from the mains (not a true soundboard) cleaned up by Charlie Miller; vocals are clear, guitar tone crisp, with some ambient crowd presence but no major dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Eyes of the World",
+        "Bird Song"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong first set followed by a sweet second set; transitions are smooth and the pacing feels solid despite occasional comments about lack of forward progress.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple reviewers praise Jerry's guitar tone and inspired solo work, especially during Dark Star.",
+      "Phil": "Phil's bass is noted for its clarity and presence; some mention his backing vocal contributions.",
+      "Bob": "Bob receives compliments for rhythm guitar drive and vocal parts throughout the set.",
+      "Keys": "Keith (or other keyboardists) are referenced for piano counterpoint and underlying texture in several comments.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:12:25.929867+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-02-22.sbd.miller.111169.flac16"
+  }
 }

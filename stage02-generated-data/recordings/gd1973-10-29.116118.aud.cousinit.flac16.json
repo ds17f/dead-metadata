@@ -14,5 +14,36 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A nice '73 audience recording that thrills despite noticeable static and wind noise",
+    "review": "Both reviewers praised the performance, calling it a delightful slice of heaven from an otherwise hard‑to‑find 1973 audience tape. The recording captures the concert well enough to be enjoyable, though one listener notes a fair amount of static and background wind that colors the sound.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Two positive reviews (4‑ and 5‑star) indicate a strong show, but limited detail and noted static keep confidence at medium."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Noticeable static throughout and wind noise that adds a ‘freight train’ ambience; overall listenable but not pristine."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on set structure or pacing were provided.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:44:31.730920+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-10-29.116118.aud.cousinit.flac16"
+  }
 }

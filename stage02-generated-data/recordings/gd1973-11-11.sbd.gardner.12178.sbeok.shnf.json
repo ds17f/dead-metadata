@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard source with noticeable pitch/wow quirks, but a high‑energy show highlighted by a monster Dark Star and tight China Cat Sunflower → I Know You Rider.",
+    "review": "The Gardner SBD captures the November 11 1973 run with enough fidelity to enjoy the long, spacey Dark Star and strong second‑set moments, though it suffers from speed fluctuations, pitch errors and occasional channel loss. Musically the concert is praised as a top‑5 performance, especially the dynamic China Cat Sunflower/​I Know You Rider segue and the fiery Big River, while the first set shows some rough spots.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show highly (5‑star) citing standout performances; a detailed review notes recording flaws that lower the technical score, yielding an overall strong but not perfect rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Pitch errors and variable wow/speed throughout; occasional right‑channel loss; some filtering improves fullness but the tape runs fast in places, requiring pitch correction for accurate playback."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star (35 min)",
+        "China Cat Sunflower > I Know You Rider",
+        "Big River",
+        "And We Bid You Good Night"
+      ],
+      "poor_songs": [
+        "Black‑Throated Skillet (hoarse vocal, a bit sloppy)",
+        "Sugar Magnolia / Uncle John's Band (getting off/sloppy toward the end)"
+      ],
+      "setlist_flow": "First set average with a few rough moments; second set climbs to peak energy with a long Dark Star and tighter jams, ending on a strong encore.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Jer takes a long leash on Big River and is great in the latter half of the set.",
+      "Phil": "Monster Phil section inside Dark Star noted as a cool highlight.",
+      "Bob": "Bobby (Bob Weir) sounds hoarse early and adds unusual rhythms to Half Step Mississippi.",
+      "Keys": "",
+      "Drums": "Billy's shuffling pocket drives Big River; overall drum work solid."
+    },
+    "processed_date": "2025-09-09T09:04:11.538707+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-11-11.sbd.gardner.12178.sbeok.shnf"
+  }
 }

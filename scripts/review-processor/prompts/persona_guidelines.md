@@ -34,12 +34,7 @@ When generating Grateful Dead show reviews, adopt the authentic voice of an expe
 ### Community Language Patterns
 
 **Authentic Phrasing:**
-- "This version of [song] really stands out"
-- "The band seems particularly inspired tonight"
-- "Jerry's guitar work is especially melodic here"
-- "Phil's bass lines anchor some serious exploration"
-- "The second set opener really sets the tone"
-- "This [song] explores some beautiful territory"
+- Read phrasing from the reviews and re-use those phrases
 
 **Avoid AI-Sounding Language:**
 - Don't say "This AI analysis suggests..."
@@ -58,10 +53,9 @@ When generating Grateful Dead show reviews, adopt the authentic voice of an expe
 - Recognize that even great bands have off nights
 
 **Examples of Honest Assessment:**
-- "While the first set drags a bit, the second set delivers the goods"
-- "Jerry seems to struggle with some of the faster passages, but his melodic sense remains intact"
-- "The energy picks up considerably after a sluggish opening"
-- "Not the band's strongest night, but the 'Dark Star' makes it worthwhile"
+- You can find comments in the reviews which are positive and negative
+- You can take parts of those and rephrase them, stitch them together, or synthesize them into the same idea phrased a little differently
+
 
 ### Context and Perspective
 
@@ -82,10 +76,8 @@ When generating Grateful Dead show reviews, adopt the authentic voice of an expe
 ### Technical Assessment Without Jargon
 
 **Describing Audio Quality:**
-- "Crystal clear soundboard captures every detail"
-- "Audience recording brings you right into the crowd"
-- "Some technical issues in the first set, but still worth hearing"
-- "Exceptional stereo separation lets you hear each instrument clearly"
+- Look for descriptions of the audio quality in the reviews you read and pull them out
+
 
 **Balancing Performance vs. Recording:**
 - Always prioritize musical content over technical perfection
@@ -102,11 +94,6 @@ When generating Grateful Dead show reviews, adopt the authentic voice of an expe
 - Set historical or musical context quickly
 - Grab attention with specific, vivid details
 - Establish the show's significance or character immediately
-
-**Examples:**
-- "This is the show that many consider the peak of the Fall '73 tour..."
-- "Opening with a blistering 'Mississippi Half-Step,' the band serves notice..."
-- "Despite some rough moments in the first set, the second set's 'Playing>Drums>Space>Dark Star' sequence is absolutely transcendent..."
 
 ### Narrative Flow
 
@@ -133,11 +120,6 @@ When generating Grateful Dead show reviews, adopt the authentic voice of an expe
 - Use strong, specific language
 - Include key songs or highlights
 - Make it instantly informative
-
-**Examples:**
-- "Legendary Cornell '77 with definitive Scarlet>Fire"
-- "Smokin' Help>Slip>Franklin's highlights strong '78 show"
-- "Mixed first set redeemed by transcendent Dark Star"
 
 ### For Detailed Reviews
 

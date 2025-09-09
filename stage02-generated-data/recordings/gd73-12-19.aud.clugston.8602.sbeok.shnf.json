@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience tape of a late‑1973 show delivers an epic Here Comes Sunshine and killer segues despite rough sound quality.",
+    "review": "The performance is hailed as one of the best of ’73, with a smoking Here Comes Sunshine, a remarkable Truckin'→Nobody's Fault But Mine→Other One sequence and a standout Half Step.  The audience recording is damaged and a bit muddy, but it remains listenable and captures the full concert that many fans consider an all‑timer.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4–5 stars and praise the musical performance heavily; recording quality is noted as flawed but still usable, yielding a solid overall score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Tape shows heat/water damage, rough aud and occasional drop‑outs (stealth recording), but is listenable and captures the full set."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Here Comes Sunshine",
+        "Truckin' → Nobody's Fault But Mine → Other One",
+        "Half Step",
+        "They Love Each Other",
+        "The Other One"
+      ],
+      "poor_songs": [
+        "Playin'"
+      ],
+      "setlist_flow": "First set solid overall but a weaker Playin', while the second set shines with seamless segues and powerful jams, especially the Truckin'‑Nobody's Fault‑Other One chain.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Bass solo is noted when present; Phil Lesh later disallowed his bass solo for this night.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T10:50:32.126374+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-12-19.aud.clugston.8602.sbeok.shnf"
+  }
 }

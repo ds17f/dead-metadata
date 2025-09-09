@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.714285714285714,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear audience recording captures a smoking second set highlighted by Dark Star, Let It Grow and Bob Weir’s soaring guitar work.",
+    "review": "The audience tape is astonishingly clean – minimal crowd bleed, superb instrument separation and a spacious mix that even outshines the soundboard.  The show’s second set is repeatedly called one of the best ever, with Dark Star, Eyes, Let It Grow and Wharf Rat (Row Jimmy) standing out, driven by an unhinged Bob Weir and a fierce rhythm section.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Nearly all reviewers gave 5‑star ratings praising both the performance (especially the second set) and the audio quality; only one lower rating noted minor balance issues, resulting in a high combined score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Crystal‑clear instrument separation, minimal hiss or crowd noise, spacious and warm mix; occasional balance quirks (bass/piano low early, drums a bit subdued at the start)."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Eyes",
+        "Let It Grow",
+        "Wharf Rat (Row Jimmy)",
+        "China Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set flows superbly with seamless transitions and a high‑energy arc; the band builds to an intense, furious climax.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Generally well mixed but sometimes sits behind Weir in the front of the mix; his playing is solid throughout.",
+      "Phil": "Bass can be buried early on, but when audible it delivers a fat, swampy tone that drives the set.",
+      "Bob": "Praised repeatedly for his complex, unconventional guitar work and powerful vocals; dominates many moments, especially on Let It Grow and Dark Star.",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann’s drumming is highlighted as “fabulous” and “drilling” on Row Jimmy; early drums a bit low but overall punchy."
+    },
+    "processed_date": "2025-09-09T10:45:19.197417+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-12-18.122508.aud.adamg.droncit.flac16"
+  }
 }

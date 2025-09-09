@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.75,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A stellar Betty soundboard captures a monster ’73 show – smoking He's Gone, Spanish Jam and Dark Star ignite the night.",
+    "review": "The recording is a clean Betty‑board source with only occasional hiss and tape‑damage artifacts, making it very listenable. Musically the concert is a high‑energy beast: the second set is magical, highlighted by an epic He's Gone, a soaring Spanish Jam that morphs into Dark Star and finishes with a blazing Sugar Magnolia. While the first set has a few fluffed lyrics and uneven moments, the band’s interplay – especially Jerry’s vocals and guitar, Phil’s bass bombs, Keith’s keys, and Bill’s steady drumming – is superb throughout.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Consistently high praise for both performance (many 5‑star comments) and recording quality (Betty soundboard praised), with only minor technical hiccups noted."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Betty board provides crisp, balanced mix; occasional hiss and tape‑damage SQ issues on a few tracks (e.g., Promised Land), but overall clear and enjoyable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "He's Gone",
+        "Spanish Jam",
+        "Dark Star",
+        "Sing Me Back Home",
+        "Sugar Magnolia"
+      ],
+      "poor_songs": [
+        "Playin' in the Band (first set)",
+        "First‑set songs with fluffed lyrics"
+      ],
+      "setlist_flow": "First set starts unevenly but recovers; second set is a seamless, high‑energy journey with superb transitions (e.g., China > Rider, Truckin' > Spanish Jam > Dark Star).",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals praised as powerful; guitar solos described as bending/slidy, trading with Keith, and driving the jams.",
+      "Phil": "Bass highlighted for heavy ‘bombs’, constant presence, and driving the groove throughout both sets.",
+      "Bob": "Rhythm guitar and vocals noted as solid, especially on Big River and Playin' in the Band; praised for tight rhythm work.",
+      "Keys": "Keith’s keyboard work lauded for trading with Jerry early and crushing the JBG solo; contributes richly to jams.",
+      "Drums": "Bill Kreutzmann kept perfect time, providing a steady, driving foundation that kept the band tight."
+    },
+    "processed_date": "2025-09-09T04:56:17.519556+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-24.sbd.cantor.deibert.83407.sbeok.flac16"
+  }
 }

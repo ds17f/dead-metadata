@@ -14,5 +14,43 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Mr. Miller's pristine soundboard captures a soaring first set with legendary solo passages, though some listeners note occasional lyrical mumbling.",
+    "review": "The recording benefits from Mr. Miller’s high‑fidelity soundboard source, delivering crystal‑clear instrument separation and no reported dropouts. Musically the show is hailed as one of the best first sets of ’73, highlighted by soaring solos on “He’s Gone,” “They Love Each Other,” “Box of Rain” and a wild “Playing in the Band,” while a few fans find the vocal delivery on “Wave That Flag” uneven.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Strong musical performance (≈4.5) and excellent soundboard recording (≈5), tempered by a single very negative review that lowers the overall average."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Praised as a ‘godsend’ from Mr. Miller; clear, balanced mix with no major issues mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "He's Gone",
+        "They Love Each Other",
+        "Box of Rain",
+        "Playing in the Band"
+      ],
+      "poor_songs": [
+        "Wave That Flag"
+      ],
+      "setlist_flow": "Consistent momentum and superb sequencing; first set flows beautifully with inspired song order.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Noted for soaring solo passages and an enthusiastic vocal exclamation ('Whoo! Walk on waves!').",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T04:39:33.661410+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-19.141309.patched.sbd.mr.miller.flac1644"
+  }
 }

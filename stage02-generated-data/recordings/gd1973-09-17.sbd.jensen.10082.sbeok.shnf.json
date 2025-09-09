@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 3.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard source with clear audio but a severe pitch/tempo issue that makes the performance feel sluggish.",
+    "review": "The tape is a soundboard recording that generally sounds clean, yet it suffers from a noticeable pitch problem that slows everything down dramatically. Reviewers appreciate the overall fidelity but say the off‑pitch playback overwhelms any musical merits, leaving a mixed impression of the show.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.5,
+      "confidence": "low",
+      "rationale": "Both reviewers focus on the same pitch/tempo flaw; one rates it 0 stars and the other 3, indicating a low‑energy show despite decent sound quality."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Clear overall sound but pitch is way off, causing an unnaturally slow playback; no other major audio issues mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "The excessive slowdown makes the set feel sluggish and hampers natural flow.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:59:34.435885+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-17.sbd.jensen.10082.sbeok.shnf"
+  }
 }

@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.5625,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy ’73 show with stellar Eyes of the World and China Doll, captured on a crisp soundboard mix despite some audience patches.",
+    "review": "The performance is consistently praised for its soaring energy, tight interplay and standout moments like the immaculate Eyes > China Doll sequence, an incendiary Other One, and powerful renditions of Bertha, Truckin' and Brokedown Palace. The recording is a soundboard source with excellent instrument separation and a great overall mix, though a few audience‑sourced patches (especially on “El Paso”) and slight pitch drift keep it from being flawless.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "The vast majority of reviews rate the show 4‑5 stars, highlighting exceptional musical moments and a generally high‑quality soundboard recording; only minor criticisms about audience patches keep the rating just below perfect."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp instrument separation and solid mix praised, but several reviewers note rough audience patches (notably on El Paso) and a slight pitch inconsistency; one comment mentions Bob’s guitar being too forward in the mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Eyes of the World",
+        "China Doll",
+        "The Other One",
+        "Truckin'",
+        "Bertha",
+        "Brokedown Palace"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Honky‑tonk first set with surprise highlights (Tennessee Jed, Mexicali Blues) leading into a high‑energy second set that builds intensity through a superb Eyes > China Doll transition and jazzy jams on Truckin' and The Other One.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple reviewers praise his unique, tuba‑like guitar tones and relentless solo work throughout the show.",
+      "Phil": "Credited with a booming transition into China Doll and strong jazz‑inflected playing on Truckin' and The Other One.",
+      "Bob": "One reviewer notes his rhythm guitar is mixed too far forward; otherwise his contributions are generally appreciated.",
+      "Keys": "Keith's piano work is highlighted for jazzy, McCoy‑Tyner‑style chords that drive the Truckin' outro and other improvisations.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T08:42:39.077694+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-10-29.sbd.miller.32352.sbeok.flac16"
+  }
 }

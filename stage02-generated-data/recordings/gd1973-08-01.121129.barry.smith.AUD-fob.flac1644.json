@@ -14,5 +14,40 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Atmospheric audience recording of a powerful Dark Star‑El Paso‑Eyes‑Dew run, with a mixed first set but a standout second set despite murky sound.",
+    "review": "The show is remembered as a personal favorite, highlighted by an extended Dark Star > El Paso > Eyes > Dew sequence that lifts the crowd to soaring heights. While the first set is described as unremarkable, the second set shines if you can cut through the warm but indistinct recording. The audience‑sourced tape captures the Wall of Sound from all directions, though it lacks clarity for critical listening.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Reviewers rate the performance highly (4‑5 stars) but note significant recording muddiness; weighting show quality higher yields a solid mid‑high rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Warm and atmospheric but not clear or distinct; sounds muffled on car stereos, yet conveys the music from all directions."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > El Paso > Eyes > Dew"
+      ],
+      "poor_songs": [
+        "First set (unspecified)"
+      ],
+      "setlist_flow": "First set considered weak, but second set is a gem that shines despite recording limitations.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:30:17.786153+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-08-01.121129.barry.smith.AUD-fob.flac1644"
+  }
 }

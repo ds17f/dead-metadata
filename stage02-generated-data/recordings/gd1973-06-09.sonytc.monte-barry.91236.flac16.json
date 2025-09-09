@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.6,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience recording captures a high‑energy 1973 show with an epic 49‑minute He's Gone > Truckin' > Playing in the Band sequence, though the tape shows some fuzz and limited fidelity.",
+    "review": "The concert is remembered as a scorching, crowd‑filled night at RFK Stadium, highlighted by a marathon He's Gone → Truckin' → Playing in the Band stretch that many reviewers call epic. The tape is an audience recording made on a Sony TC deck; it delivers the excitement of the night but exhibits typical tape‑age fuzz and occasional loss of clarity.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Strong show performance with standout jam sequence earns high show score; recording is decent audience tape with some fuzz, leading to a solid overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Audience tape recorded on Sony TC deck; generally clear enough to enjoy the performance but shows tape‑age fuzz and occasional muddiness, no wall‑of‑sound PA."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "He's Gone",
+        "Truckin'",
+        "Playing in the Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Long, flowing jam sequence (He’s Gone > Truckin' > Playing) dominates the second half; overall pacing kept high energy throughout the massive stadium crowd.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T06:01:27.075713+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-09.sonytc.monte-barry.91236.flac16"
+  }
 }

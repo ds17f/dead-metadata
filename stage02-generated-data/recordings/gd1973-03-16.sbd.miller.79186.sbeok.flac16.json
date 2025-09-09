@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.588235294117647,
   "high_ratings": 16,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture with a crisp mix (though the board runs hot early) of a high‑energy 1973 Nassau show that smokes on Dark Star, Bird Song and a monster Playing in the Band.",
+    "review": "This Charlie Miller SBD delivers excellent mastering and clear soundstage, aside from occasional clipping caused by overly hot board levels in the first set. Musically the performance is quintessential ’73 – the band is tight, the energy is high and standout moments include Dark Star, Bird Song, the China→Rider sandwich with a Feelin’ Groovy jam, and a thunderous Playing in the Band/Truckin' → Morning Dew finale.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Average reviewer rating ≈4.6★, with consistent praise for both performance and sound; only minor technical complaints (clipping) keep it from perfect."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp, clean mastering typical of Miller releases; occasional hot board levels cause clipping in the first set but improve as the music quiets in the second set."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Bird Song",
+        "Playing in the Band > The Wheel > Truckin' > Morning Dew",
+        "China > Rider (with Feelin’ Groovy jam)",
+        "Promised Land > Bertha > Greatest"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Classic 1973 two‑set flow – a punchy first set with strong openers and a soaring closer, followed by a second set that builds from Promised Land into an expansive Dark Star and finishes with a powerful Truckin' → Morning Dew.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s tone is praised as perfect; his soloing is described as “serious licks” that drive the jams.",
+      "Phil": "Phil’s bass work repeatedly called a “smoke‑show,” with several reviewers noting he “bombs” and adds strong backing vocals.",
+      "Bob": "Weir’s vocal performance gets positive nods (e.g., strong lead on ‘Looks Like Rain’), but no specific instrumental commentary.",
+      "Keys": "Keith’s piano/keyboard contributions are highlighted as a showcase, adding mojo to jams and the second‑set transitions.",
+      "Drums": "Bill Kreutzmann’s drumming is praised for its intensity and “great drumming” throughout the show."
+    },
+    "processed_date": "2025-09-09T04:33:35.609220+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-03-16.sbd.miller.79186.sbeok.flac16"
+  }
 }

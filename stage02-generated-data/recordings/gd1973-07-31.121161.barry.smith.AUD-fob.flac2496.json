@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A clear audience recording with solid, professional performances though the set runs unusually short.",
+    "review": "The Barry Smith audience tape offers superior clarity and instrument separation compared to other sources, making it a pleasant primary source despite some missing tunes. The show delivers professional versions of each song, but most tracks stay under ten minutes, which is atypical for this era.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "medium",
+      "rationale": "Both reviewers are favorable; the recording quality is praised as clear and superior, while the musical performance is described as professional though unusually concise, leading to a solid but not outstanding overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Noted for excellent separation and clarity; however, some portions of the concert are missing, requiring supplementation from other sources."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Songs are concise, with few exceeding ten minutes, which is unusual for the period but still delivered professionally.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:20:43.797854+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-07-31.121161.barry.smith.AUD-fob.flac2496"
+  }
 }

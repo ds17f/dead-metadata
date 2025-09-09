@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.85,
   "high_ratings": 19,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a high‑energy 1973 show highlighted by a monster Dark Star→Eyes→China Doll sequence and superb playing throughout.",
+    "review": "The performance is widely celebrated for its soaring Dark Star > Eyes of the World > China Cat Sunflower → I Know You Rider suite, tight jams on Row Jimmy and Playing in the Band, and vibrant renditions of Here Comes Sunshine and Box of Rain.  The soundboard source is generally clear and lively, though a few reviewers note balance quirks and slight speed/pitch issues that can be corrected with modest EQ or pitch‑adjustment.  Overall the show’s musical power far outweighs any technical imperfections.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "The vast majority of reviews (16/18) give five stars, praising the music; only a handful mention recording flaws.  With strong show quality (≈70% weight) and good‑to‑excellent soundboard fidelity (≈30% weight), the composite rating lands in the high‑4‑star range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear and bright overall with crisp guitars, keyboards and drums; occasional balance issues (vocals too high, low bass), minor speed/pitch quirks on the original SBD that are mitigated in matrix releases.  No major drop‑outs, but some listeners note a ‘crap’ feeling compared to later mastered versions."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > Eyes of the World > China Cat Sunflower > I Know You Rider",
+        "Row Jimmy",
+        "Playing in the Band",
+        "Here Comes Sunshine",
+        "Box of Rain"
+      ],
+      "poor_songs": [
+        "Looks Like Rain"
+      ],
+      "setlist_flow": "The first set builds momentum with strong, upbeat numbers; the second set delivers a monumental jam suite that peaks with Dark Star/Eyes/China Doll before closing on high‑energy rockers.  Transitions (e.g., China/Rider) are noted as seamless.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for gritty, down‑and‑dirty tone, country‑flavored phrasing and several “perfect” solos (especially on Dark Star and Row Jimmy).",
+      "Phil": "Repeatedly highlighted as being in the ‘Phil zone’ with a long, great bass solo that anchors the Dark Star/Eyes jam.",
+      "Bob": "Noted for strong rhythm work and tasteful fills, especially on Bertha and Playing in the Band.",
+      "Keys": "Keith is called “great pianist” with perfect accompaniment; Donna’s keyboard tone receives specific praise in several reviews.",
+      "Drums": "Bill Kreutzmann receives glowing remarks for immaculate tom tuning, bell accents, and overall drumming excellence throughout the show."
+    },
+    "processed_date": "2025-09-09T03:43:06.200558+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-02-15.sbd.hall.1580.shnf"
+  }
 }

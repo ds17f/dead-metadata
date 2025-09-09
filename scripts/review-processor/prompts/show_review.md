@@ -113,18 +113,17 @@ Choose the recommended recording based on:
 - Avoid overly technical language
 - **IMPORTANT**: Avoid repetitive words like "high-energy", "monster", "fire", "scorching" - vary your descriptions
 
-**Diverse Energy Descriptions:**
-- **High Energy**: "electric", "blazing", "explosive", "smoking", "cooking", "on fire", "locked in", "tight", "inspired"
-- **Moderate Energy**: "solid", "steady", "flowing", "grooving", "cruising", "smooth", "cohesive", "balanced"
-- **Mellow Energy**: "spacey", "dreamy", "contemplative", "gentle", "introspective", "laid-back", "exploratory"
-- **Song Quality**: "stellar", "standout", "exceptional", "gorgeous", "brilliant", "transcendent", "magical", "inspired"
+Synthesize your review from the ones that you read
+- Don't make stuff up, base what you say on what you read
+- Try to get a feel for the show and the recording from the reviews
+- Give more weight to multiple reviews which say the same thing
+
 
 **Varied Opening Phrases (for full review only - NOT for summary/blurb):**
 - "This [venue] show delivers..."
 - "[Date] finds the Dead..."
 - "The band hits their stride at [venue]..."
 - "[Venue] hosts a memorable performance..."
-- "What unfolds at [venue] is..."
 - "The Dead bring their A-game to [venue]..."
 
 **Diverse Example Phrases:**
@@ -154,6 +153,7 @@ Combine band member comments from all recordings:
 - **Standout Performances**: Highlight exceptional individual contributions
 - **Empty Fields**: Use empty strings for band members not mentioned across any recordings
 - **Performance Context**: Connect individual performances to overall show quality
+- When you describe the band member's performance, just summarize as if you wrote it.  Don't mention that many reviews describe the playing in a way.  Just state it as if you thought of it.
 
 ### Summary vs Blurb vs Review Structure
 

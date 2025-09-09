@@ -14,5 +14,49 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Matrix‑style composite with generally good sound (some static) captures a marathon ’73 show highlighted by a monster Truckin'>The Other One>Sugar Magnolia sequence and standout China Cat Sunflower.",
+    "review": "The recording blends audience, monitor and Betty Board sources into a matrix that is mostly clear but suffers from occasional left‑channel static and balance issues on tracks like “Bertha.” Musically the show is uneven – a slower first set with sparse moments – but erupts in a spectacular second half featuring a smoking Truckin'>The Other One>Sugar Magnolia marathon, killer “China Cat Sunflower,” and tight “Playing in the Band” jam. Overall listeners love the depth of material despite the technical quirks.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "Weighted average of show quality (≈3.8) and recording quality (≈3.2) from three detailed reviews; mixed comments produce a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Composite of audience, monitor and Betty Board sources; occasional static/distortion in left channel, poor balance on “Bertha,” but overall clear with a sublime recent transfer."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Jack Straw",
+        "China Cat Sunflower",
+        "Playing in the Band",
+        "Truckin' > The Other One > Sugar Magnolia"
+      ],
+      "poor_songs": [
+        "Bertha (mix issue)",
+        "Bird Song (sparse)",
+        "Here Comes Sunshine (lyric flubs)",
+        "Promised Land (early bail)",
+        "Brown Eyed Women",
+        "El Paso",
+        "Black Peter (rote)"
+      ],
+      "setlist_flow": "Two‑hour marathon; first set uneven with some low‑energy moments, second set builds into a massive jam suite culminating in an epic Truckin' > The Other One > Sugar Magnolia sequence.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Careful not to step on Bob during jams; pistons throughout “Big River,” starts GDtRFB riff in A, drives the second‑set improvisations.",
+      "Phil": "Shows his new split‑channel pickup ability; vocal flubs on “Here Comes Sunshine”; engages in a fierce battle with Billy later in the set.",
+      "Bob": "Delivers a unique jam on “China Cat Sunflower,” strong guitar work throughout, especially on the Sugar Magnolia climax.",
+      "Keys": "Keith excels on “Race Is On,” provides brilliant step‑into signature and overall solid keyboard textures.",
+      "Drums": "Billy’s ride/hi‑hat is loud early; one drummer works better here, notable slow‑down section in “Playing in the Band”; occasional balance issues affect drum presence."
+    },
+    "processed_date": "2025-09-09T06:29:39.349267+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-22.140897.sbd.pcm.composite.dalton.miller.clugston.fixv3.flac1644"
+  }
 }

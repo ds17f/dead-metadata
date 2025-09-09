@@ -14,5 +14,45 @@
   "confidence": 0.8,
   "raw_rating": 5.0,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean, bright soundboard capture of a strong ’73 Hollister show featuring a stellar China > Rider and an epic The Other One sandwich.",
+    "review": "The recording has been cleaned up and brightened, delivering a clear soundboard source despite some channel‑swap and pitch‑correction quirks. Musically the concert is praised for its standout second set – the China Cat Sunflower / I Know You Rider segue, multiple The Other One sandwiches, Eyes of the World, Big River and Wharf Rat – though one listener feels the band sounds a bit tired in places.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "All four reviews are 5‑star and detail both strong musical moments and solid (though not flawless) recording quality, giving a clear consensus of a high‑quality show with good technical presentation."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Cleaned up and brighter than older copies; channels are switched and several tracks need slight pitch correction, but overall the SBD is clear with minimal drop‑outs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower > I Know You Rider",
+        "The Other One (multiple appearances)",
+        "Eyes of the World",
+        "Big River",
+        "Wharf Rat",
+        "Truckin'"
+      ],
+      "poor_songs": [
+        "Tennessee"
+      ],
+      "setlist_flow": "Second set flows brilliantly with tight segues and a memorable The Other One sandwich, while the first set has solid high‑points but occasional pacing lulls.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Angular, almost ’76‑style guitar on China Cat Sunflower; hot playing on Eyes of the World.",
+      "Phil": "Phil’s bass shines during The Other One sandwiches (noted as ‘smoking’ alongside Bob).",
+      "Bob": "Strong vocal performance throughout, especially on Black Throated Wind, Truckin' and Saturday Night; his trademark “cat‑calling” highlighted.",
+      "Keys": "Keith’s keyboards are tight, particularly in the latter part of Eyes of the World and on Brown‑Eyed Women.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T09:19:34.645331+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-11-14.sbd.hollister.14716.sbeok.shnf"
+  }
 }

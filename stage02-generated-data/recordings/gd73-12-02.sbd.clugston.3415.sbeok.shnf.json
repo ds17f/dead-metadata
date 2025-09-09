@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 9,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A warm, dark audience tape captures a mellow yet remarkable 1973 show, highlighted by the Weather Report Suite and a psychedelic Wharf Rat > Half‑Step jam.",
+    "review": "Fans rave about the performance – calling it one of the top‑5 shows of ’73 with a flawless Weather Report Suite, a hypnotic “Playin’” jam and an unforgettable Wharf Rat > Half‑Step sequence. The audience recording is praised for its atmospheric ambience and clear instrument separation, though one reviewer bemoans the release’s editing choices. Overall the music shines despite the mixed feelings about packaging.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "The majority of reviews are enthusiastic (10/11) and rate the show highly, while the recording is generally praised as a good audience source; only one low‑star review criticizes editing, resulting in a strong but slightly moderated overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Listeners note the warm, dark ambience of the audience tape, with clear separation of instruments (Keith and Bob) that adds to the vibe. No major sound issues are reported, though one reviewer mentions a ‘cut‑and‑paste’ edit in the release."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Weather Report Suite",
+        "Wharf Rat > Half Step",
+        "Playin'",
+        "Mississippi Half Step (Half‑Step jam)",
+        "Morning Dew (encore)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set described as warm and mellow with strong piano work; second set labeled ‘weird’ but rewarding, especially the Playin' jam that transitions into spacey improvisation.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s riffing during the \"Can't You See\"/Mind Left Body jam is highlighted; overall guitar work praised as part of the psychedelic flow.",
+      "Phil": "Phil’s bass is called ‘battling giant dinosaurs’ and later noted as being “all over it,” with strong, hypnotic presence in Weather Report and Playin'.",
+      "Bob": "Interplay between Bob (Weir) and Keith is singled out for its clarity; Bob’s rhythm work receives positive mention.",
+      "Keys": "Keith's piano is praised for ‘nice things’ on the first set and adds warmth to the overall sound.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T10:05:30.771606+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-12-02.sbd.clugston.3415.sbeok.shnf"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 0.6,
   "raw_rating": 1.3333333333333333,
   "high_ratings": 0,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "Terrible audience‑heavy recording drowns a solid ’73 show, though the Playin' > Uncle John's > Playin' sequence shines.",
+    "review": "The consensus among reviewers is that this AUD tape suffers from horrible crowd‑filled sound and overall poor fidelity, making it almost unlistenable. Musically the night isn’t condemned – the Playin'>Uncle John’s>Playin' stretch is repeatedly praised as a highlight – but the recording quality overwhelms any appreciation of the performance.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.4,
+      "confidence": "high",
+      "rationale": "All four reviewers condemn the audio, rating it 1‑2 stars; only one brief comment notes a decent musical moment. The heavy weighting toward show quality cannot overcome the uniformly poor recording assessment."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Audible crowd is described as 'horrid' and 'crowd‑heavy', with muffled instruments and overall awful fidelity; multiple reviewers call for a better source (SBD)."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Playin' > Uncle John's > Playin'"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "No detailed comments on set pacing; only the aforementioned sequence is highlighted as a high point.",
+      "energy_level": "low"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T09:59:18.085306+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-12-01.aud.vernon.18094.sbeok.shnf"
+  }
 }

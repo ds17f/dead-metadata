@@ -14,5 +14,43 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Smooth soundboard recording (with minimal audience patches) captures a high‑energy 1973 show featuring a smoking Jack Straw, inventive Other One → Bobby McGee jam and a superb Playin' in the Band.",
+    "review": "The SBD source is generally crisp with excellent stereo separation and a punchy kick drum, though a few splice glitches and a slightly tinny audience patch are noted. Musically the band is at the height of its powers – Jerry “smokes,” Phil “kills it” on PITB, Keith’s Rhodes shines, and the set flows effortlessly from Jack Straw through Here Comes Sunshine into an inspired Other One/Bobby McGee sequence.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All three reviewers are enthusiastic (4‑5 stars), highlighting both a strong performance and high‑quality soundboard audio; detailed comments give confidence in the rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Exceptional fidelity with nice even mix and strong stereo; occasional splice/skip in Bertha and a slightly tinny audience patch, missing Black Peter board segment, some digital hiss reduction applied."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Jack Straw",
+        "Here Comes Sunshine",
+        "Playin' in the Band",
+        "He's Gone",
+        "Truckin' → The Other One",
+        "Other One > Bobby McGee"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Smooth transitions (e.g., China Cat → Rider, Truckin' → The Other One) keep the momentum high; audience patches fill missing board parts without breaking flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as “smoking,” turned up loud on several songs, and providing strong harmonies throughout.",
+      "Phil": "“Kills it” during Playin' in the Band, huge presence in the mix, picks up slack when other parts dip, excellent bass work noted.",
+      "Bob": "Vocals praised – “Bobby nails the vocals,” with tight rhythm guitar support.",
+      "Keys": "Keith Godchaux’s Rhodes highlighted (splattering on walls, perfect on He's Gone), though briefly buried during some jams.",
+      "Drums": "Kick drum noted for extra ‘umph’; overall drum work solid and supportive."
+    },
+    "processed_date": "2025-09-09T06:39:05.022517+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-06-26.sbd.GoodBear.80602.flac16"
+  }
 }

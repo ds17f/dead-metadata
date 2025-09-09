@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 12,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear matrix tape of a legendary ’73 show with a monster Dark Star→Eyes of the World→China Doll stretch and killer performances throughout.",
+    "review": "The recording captures the concert in exceptional matrix quality – a seamless blend of board and audience that many reviewers call “among the finest” and “crisp”. The performance is hailed as one of the band’s best of ’73, highlighted by a 47‑minute Dark Star → Eyes of the World → China Doll journey, a gritty Loose Lucy opener, and Donna Jean’s standout take on “You Ain’t Woman Enough”. Energy is off the charts, with a juicy Phil bass solo and high‑octane jams that keep listeners “oozing with life”.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Overwhelmingly positive reviews praise both the show (energy, standout Dark Star sequence) and the matrix recording’s clarity; only a single low‑star comment concerns track cueing, not performance quality."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers describe the sound as crisp, lifelike, and among the best matrix recordings; one note mentions a brief blip/hesitation at track transitions that some listeners dislike."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Loose Lucy",
+        "Dark Star",
+        "Eyes of the World",
+        "China Doll",
+        "You Ain't Woman Enough (Donna Jean vocal)",
+        "Phil's bass solo (between Dark Star and Eyes)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong first set builds into a soaring second set; the centerpiece is a 47‑minute Dark Star → Eyes of the World → China Doll suite that showcases deep improvisational flow.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Praised for a juicy bass solo between Dark Star and Eyes of the World; noted as a highlight of the night.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T03:54:16.305486+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-02-15.124360.mtx.dusborne.flac16"
+  }
 }

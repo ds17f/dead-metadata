@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.181818181818182,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A crisp soundboard capture of the September 7 1973 New York show delivers high‑energy highlights like Eyes, Bird Song and Here Comes Sunshine, though miscues and a few editing quirks keep it from being flawless.",
+    "review": "The recording is praised for its clear, well‑balanced mix – a true soundboard quality that lets the band’s nuances shine. Musically the night shines on Jerry’s soaring solo work (especially on Eyes) and strong moments such as Bird Song and Here Comes Sunshine, but listeners note sloppy Let It Grow, a ragged Big River and occasional Bob Weir missteps that dent an otherwise lively performance.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars, highlighting excellent soundboard quality and several standout performances; a few lower‑rated comments point to miscues, giving an overall strong but not perfect combined score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, focused mix with well‑balanced instruments; a few reviewers complain about post‑release track splitting/editing (extra tracks #19‑20) but audio fidelity remains high."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Eyes of the World",
+        "Bird Song",
+        "Here Comes Sunshine",
+        "Truckin > Drums > Other One Jam > Eyes"
+      ],
+      "poor_songs": [
+        "Let It Grow (sloppy)",
+        "Big River (disjointed)"
+      ],
+      "setlist_flow": "Generally flows well with a seamless second‑set segue, though some feel the overall pacing is uneven due to miscues and editing choices.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for cascading jazzy licks, extra octane on Eyes, sustained note work, and debut of his “wolf” guitar tone.",
+      "Phil": "",
+      "Bob": "Criticized for several mistakes, especially a botched Truckin that required redemption attempts.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:34:14.157747+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-09-07.sbd.goodbear.1126.sbeok.shnf"
+  }
 }

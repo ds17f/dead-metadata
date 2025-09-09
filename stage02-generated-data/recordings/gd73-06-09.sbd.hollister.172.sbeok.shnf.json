@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.548387096774194,
   "high_ratings": 29,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑quality soundboard capture of the hot June 9 1973 show, highlighted by stellar performances of Eyes, Loose Lucy and China Doll.",
+    "review": "This SBD recording delivers a clear, punchy mix that conveys the wall‑of‑sound vibe of the summer ’73 tour. The concert is remembered for its high energy and far‑out improvisations, with standouts like “Eyes,” “Loose Lucy,” “China Doll,” “Playing” and a soaring “Truckin’.” While the first set is described as routine, the second half shines and the overall listening experience is overwhelmingly positive.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "The majority of reviews are 4‑5 stars praising both performance and sound quality; only a few low or mixed comments exist, so the combined show (70%) + recording (30%) rating is strong."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally crisp and well‑balanced mix; many note a “thick, gelatinous” wall‑of‑sound feel. A few early‑track flatness comments but overall the SBD is clear with minimal noise."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Eyes",
+        "Loose Lucy",
+        "China Doll",
+        "Playing",
+        "Truckin'",
+        "He's Gone"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First set described as routine, but transitions (e.g., Truckin' → Playing) are praised; the second set builds into extended jams and strong vocal moments.",
+      "energy_level": "high"
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's voice is called smooth and innovative; a brief lyric flub is noted but overall his singing is praised.",
+      "Phil": "Phil’s bass work receives accolades, especially on “Eyes” where he ‘does a great job.’",
+      "Bob": "Bob is mentioned both positively (singing chorus at “He's Gone”) and negatively (“worst in Truckin'”), reflecting mixed impressions.",
+      "Keys": "",
+      "Drums": "One reviewer notes an overhead mic on drums that adds life to the mix; no major complaints."
+    },
+    "processed_date": "2025-09-09T05:58:20.516083+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-06-09.sbd.hollister.172.sbeok.shnf"
+  }
 }

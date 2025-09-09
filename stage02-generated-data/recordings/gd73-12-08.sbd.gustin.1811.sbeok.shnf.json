@@ -14,5 +14,50 @@
   "confidence": 1.0,
   "raw_rating": 3.4285714285714284,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Clear soundboard capture of a spiritually charged 1973 show with standout China‑Rider and an epic Other One, though the performance swings between inspired jams and some lackluster moments.",
+    "review": "The recording is a solid soundboard mix that most listeners find clear, despite a slightly lower overall volume that may have been normalized. The concert delivers several high points—especially the loose China > Rider run, a fiery B.E. Woman, a long, exploratory Other One and an effective Outer Limits segment with Ned Lagin—but also drifts through weaker jams after He’s Gone, leaving some fans feeling the energy was uneven.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "Show quality is mixed (average ~3.5) while recording quality is good (~4); weighting yields a combined rating around 3.6."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and well‑balanced soundboard recording; volume appears slightly lower than typical ’73 releases, possibly due to normalization. No major dropouts reported, though a filler segment from another date is present."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China > Rider",
+        "B.E. Woman",
+        "Big River",
+        "Candyman",
+        "Let It Grow",
+        "Truckin' > Nobody's Fault",
+        "Other One (≈30 min)",
+        "Outer Limits (with Ned Lagin synth)",
+        "Wharf Rat",
+        "Uncle John's Band (encore)"
+      ],
+      "poor_songs": [
+        "He's Gone",
+        "Truckin'"
+      ],
+      "setlist_flow": "First set starts subdued but builds with B.E. Woman, Big River and a hot China > Rider close; Disc Three shines with an extended Other One and spacey Outer Limits, while the early second‑set jam from He’s Gone feels less focused.",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "Described as meandering in the second set but praised for a strong delivery on 'B.E. Woman' and overall fire in the band.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Ned Lagin’s synth contributions on the Outer Limits segment are noted as effective, though no specific comments about the main keyboardist.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T10:26:58.223978+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd73-12-08.sbd.gustin.1811.sbeok.shnf"
+  }
 }

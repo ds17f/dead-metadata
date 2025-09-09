@@ -14,5 +14,36 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Highly regarded audience recording, praised as the best available for this show.",
+    "review": "The reviewer gave this AUD a perfect five‑star rating and calls it their favorite version of the concert, indicating strong appreciation for both the performance and the tape quality despite offering no specific details.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "low",
+      "rationale": "Based on a single 5‑star review that enthusiastically recommends this audience recording, suggesting both good show and tape quality."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer describes it as their favorite AUD of the show, implying clear and enjoyable sound relative to other audience tapes."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "",
+      "energy_level": "medium"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-09T07:30:35.147917+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1973-08-01.112572.aud-moore.berger.flac16"
+  }
 }
