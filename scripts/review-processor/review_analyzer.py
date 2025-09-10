@@ -780,6 +780,35 @@ class ReviewAnalyzer:
                     lines.append(f"  • {row_songs[0]}")
             lines.append("")
         
+        # Must-listen sequences
+        must_listen_sequences = ai_show_review.get('must_listen_sequences', [])
+        if must_listen_sequences:
+            lines.append(f"[bold red]🎧 Must-Listen Sequences:[/bold red]")
+            for i, sequence in enumerate(must_listen_sequences, 1):
+                if len(sequence) == 1:
+                    # Single song
+                    lines.append(f"  {i}. {sequence[0]}")
+                else:
+                    # Multi-song sequence
+                    sequence_text = " > ".join(sequence)
+                    # Wrap long sequences nicely
+                    if len(sequence_text) <= 90:
+                        lines.append(f"  {i}. {sequence_text}")
+                    else:
+                        lines.append(f"  {i}. {sequence[0]} >")
+                        current_line = "     "
+                        for song in sequence[1:]:
+                            if len(current_line + song + " > ") <= 90:
+                                if current_line == "     ":
+                                    current_line += song
+                                else:
+                                    current_line += " > " + song
+                            else:
+                                lines.append(current_line + " >")
+                                current_line = "     " + song
+                        lines.append(current_line)
+            lines.append("")
+        
         # Key highlights
         highlights = ai_show_review.get('key_highlights', [])
         if highlights:
@@ -1843,7 +1872,33 @@ class ReviewAnalyzer:
             with open(prompt_path) as f:
                 system_prompt = f.read()
             
+            # Collect source reviews for authentic language
+            source_reviews = []
+            for recording_id in show_data.get('recordings', []):
+                archive_path = Path(f"stage01-collected-data/archive/{recording_id}.json")
+                if archive_path.exists():
+                    try:
+                        with open(archive_path) as f:
+                            archive_data = json.load(f)
+                            raw_reviews = archive_data.get('raw_reviews', [])
+                            for review in raw_reviews[:3]:  # Include up to 3 reviews per recording
+                                review_text = review.get('reviewbody', '').strip()
+                                if review_text and len(review_text) > 20:  # Only meaningful reviews
+                                    source_reviews.append({
+                                        'reviewer': review.get('reviewer', 'Anonymous'),
+                                        'text': review_text[:500]  # Limit length
+                                    })
+                    except:
+                        continue
+            
             # Create user prompt with the refinement data
+            source_reviews_text = ""
+            if source_reviews:
+                source_reviews_text = "\n**Original Fan Reviews (Source Material for Authentic Language):**\n"
+                for i, review in enumerate(source_reviews[:10], 1):  # Max 10 reviews
+                    source_reviews_text += f"{i}. {review['reviewer']}: \"{review['text']}\"\n\n"
+                source_reviews_text += "**IMPORTANT**: Use the language and expressions from these original reviews when refining the AI review. Draw authentic terminology and descriptions directly from how these fans described the show.\n"
+            
             user_prompt = f"""## Input Data
 
 **Original Review:**
@@ -1854,12 +1909,14 @@ class ReviewAnalyzer:
 **Refinement Instruction:**
 {instruction}
 
+{source_reviews_text}
+
 **Show Context:**
 - Date: {show_data.get('date', 'Unknown')}
 - Venue: {show_data.get('venue', 'Unknown')}
 - Location: {show_data.get('location_raw', 'Unknown')}
 
-Please provide the refined review as a complete JSON object with the same structure as the original, but with improved language based on the refinement instruction."""
+Please provide the refined review as a complete JSON object with the same structure as the original, but with improved language based on the refinement instruction and the authentic language from the original fan reviews."""
 
             # Call the LLM using existing infrastructure
             response = llm_client.generate_response(system_prompt, user_prompt)

@@ -9,7 +9,7 @@ You are an expert Grateful Dead concert analyst with deep knowledge of the band'
 Analyze the provided fan reviews for a single Grateful Dead recording and create a structured analysis focusing on:
 
 1. **Recording Quality**: Technical aspects of the audio (soundboard vs. audience, clarity, mix quality)
-2. **Show Quality**: Musical performance (energy, playing quality, standout moments, issues)
+2. **Show Quality**: Musical performance (playing quality, standout moments, issues)
 3. **Key Highlights**: Specific songs, performances, or moments that reviewers mention
 4. **Band Member Performance**: Comments about individual members' playing
 5. **Overall Sentiment**: Whether reviewers felt positive, negative, or mixed about this show/recording
@@ -43,8 +43,7 @@ Respond with a JSON object matching this exact structure:
   "show_quality": {
     "standout_songs": ["Song Name 1", "Song Name 2"],
     "poor_songs": ["Song with issues"],
-    "setlist_flow": "Comments on set structure and pacing",
-    "energy_level": "high|medium|low"
+    "setlist_flow": "Comments on set structure and pacing"
   },
   "band_member_comments": {
     "Jerry": "Comments on Jerry Garcia's guitar work, if mentioned",
@@ -60,7 +59,7 @@ Respond with a JSON object matching this exact structure:
 
 ### AI Rating System
 - **Stars**: 1.0-5.0 scale based on combined show quality and recording quality
-- **Show Weight**: 70% (musical performance, energy, standout moments)
+- **Show Weight**: 70% (musical performance, standout moments)
 - **Recording Weight**: 30% (technical quality, clarity, listenable)
 - **Confidence Levels**:
   - **High**: 5+ reviews with consistent ratings and detailed comments
@@ -75,23 +74,21 @@ Respond with a JSON object matching this exact structure:
 
 ### Recording Quality Assessment
 - **Soundboard**: Professional mixing desk recording, usually clear and balanced
-- **Audience**: Recorded from the crowd, may have ambient noise but captures energy
+- **Audience**: Recorded from the crowd, may have ambient noise but captures atmosphere
 - **Matrix**: Combination of soundboard and audience sources
 - Look for reviewer comments about "crisp", "muddy", "clear", "muffled", etc.
 
-### Show Quality Indicators
-- **Positive**: References to "smoking", "fire", "incredible", "monster" performances
-- **Negative**: Comments about "sluggish", "tired", "off night", "lackluster"
-- **Standout Songs**: Specific mentions of exceptional performances
-- **Issues**: References to flubbed lyrics, tuning problems, tempo issues
+### Show Quality Assessment
+- **Positive Indicators**: Look for enthusiastic language, superlatives, and recommendations in reviewer text
+- **Negative Indicators**: Look for critical language, disappointment, or mentions of problems
+- **Standout Songs**: Specific songs that reviewers highlight as exceptional
+- **Issues**: Any problems reviewers mention (technical, performance, or recording-related)
 
 ### Deadhead Language Recognition
-- "Smokin'" = excellent performance
-- "Phil bombs" = powerful bass playing  
-- "Jerry's tone" = guitar sound quality
-- "Spacey" = experimental/psychedelic segments
-- "Tight" = well-coordinated playing
-- "Loose" = sloppy or improvisational
+- Pay attention to authentic Deadhead terminology as used by reviewers
+- Note specific musical descriptions and fan expressions in the reviews
+- Recognize patterns in how the community describes different aspects of performances
+- Use reviewers' own language when summarizing their observations
 
 ### Sentiment Analysis
 - **Positive**: Enthusiastic language, high ratings (4-5 stars), recommendations
@@ -125,8 +122,7 @@ Review 2: "Great show but the recording has some dropout issues in the first set
   "show_quality": {
     "standout_songs": ["Help on the Way > Slipknot! > Franklin's Tower", "The Other One"],
     "poor_songs": [],
-    "setlist_flow": "Strong second set with excellent song transitions",
-    "energy_level": "high"
+    "setlist_flow": "Strong second set with excellent song transitions"
   },
   "band_member_comments": {
     "Jerry": "Perfect guitar tone noted by reviewers",

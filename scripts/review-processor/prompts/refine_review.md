@@ -16,7 +16,7 @@ Take an existing show review and apply specific refinement instructions to impro
 
 You will receive:
 - **Original Review**: Complete JSON review object with all fields
-- **Refinement Instructions**: Specific changes requested (e.g., "Replace 'high energy' with more varied language")
+- **Refinement Instructions**: Specific changes requested (e.g., "Use more varied language for repetitive terms")
 - **Show Context**: Basic show information for reference
 
 ## Output Format
@@ -27,16 +27,18 @@ Return the complete refined review as a JSON object with the exact same structur
 
 ### Language Variety Enhancement
 
-**Overused Terms to Replace:**
-- Identify and replace repetitive words like "high energy," "monster," "fire," "scorching," "tight," and "solid"
-- Draw replacement language from the original fan reviews and recording analyses that were used to create this show review
-- Use specific musical terminology and authentic Deadhead language found in the source material
-- Focus on the actual musical elements and performance qualities described in the original reviews
+**Source-Based Language Replacement:**
+- Identify repetitive or generic language in the current review
+- **IMPORTANT**: The original fan reviews and recording analyses contain the authentic language you should use for replacements
+- Search those source materials for how different reviewers described similar qualities
+- Use the actual expressions and terminology from the fan community
+- Preserve the authentic voice and specific observations from the source reviews
 
-**Performance Descriptions:**
-- Use the specific language and descriptions from fan reviews rather than generic terms
-- Incorporate musical terminology and authentic expressions from the Deadhead community
-- Draw from the recording analyses to describe actual musical elements and performance qualities
+**Authentic Reviewer Language:**
+- Fan reviews contain varied, authentic descriptions of the same performances
+- Different reviewers will have used different language to describe playing quality and musical elements
+- Draw from this variety rather than inventing new language
+- Maintain the community voice by using reviewer expressions directly
 
 ### Refinement Principles
 
@@ -46,16 +48,13 @@ Return the complete refined review as a JSON object with the exact same structur
 4. **Keep Authenticity**: Maintain the Deadhead community voice and terminology
 5. **Improve Variety**: Avoid repetition of terms within the same review
 
-### Common Refinement Patterns
+### Refinement Approach
 
-**Before**: "High-energy show with tight playing and monster jams"
-**After**: "Electrically charged performance with seamless ensemble work and transcendent improvisations"
-
-**Before**: "Scorching Fire on the Mountain with high energy throughout"
-**After**: "Incandescent Fire on the Mountain with blazing intensity throughout"
-
-**Before**: "Solid playing from start to finish, tight rhythms"
-**After**: "Consistent musicianship from start to finish, locked-in rhythmic foundation"
+When refining repetitive language:
+- Look to the original fan reviews for authentic alternative expressions
+- Use specific descriptions from reviewers rather than generic terms
+- Find varied ways reviewers described similar qualities
+- Preserve the authentic voice and terminology from the source material
 
 ## Special Instructions
 
@@ -74,13 +73,14 @@ When refining multiple reviews:
 - Avoid creating new repetitive patterns
 - Maintain each show's unique character while improving language consistency
 
-## Example Refinement
+## Refinement Process
 
-**Original Summary**: "High-energy show with monster Scarlet>Fire and tight jamming"
-**Refined Summary**: "Electric performance with transcendent Scarlet>Fire and seamless improvisation"
-
-**Original Blurb**: "High-energy performance with tight playing throughout. Monster second set with scorching jams. Solid recording quality."
-**Refined Blurb**: "Blazing musicianship with cohesive ensemble work throughout. Exceptional second set with brilliant improvisational sequences. Excellent recording quality."
+**Source-Based Refinement:**
+1. Identify repetitive or generic language in the current review
+2. Reference the original fan reviews that were used to create the show review
+3. Find specific, varied language from those reviews to replace generic terms
+4. Ensure the refined language maintains the same meaning and assessment
+5. Use authentic reviewer expressions rather than invented alternatives
 
 ## Quality Control
 

@@ -23,6 +23,9 @@ from datetime import datetime, timezone
 import time
 import sys
 
+# Import sequence extraction functionality
+from sequence_extractor import extract_must_listen_sequences
+
 # Third-party imports (will be available after pip install)
 try:
     import requests
@@ -861,6 +864,25 @@ Please synthesize this information into a comprehensive show review following th
                     'identifier': recording_analyses[0].get('recording_id', ''),
                     'reason': 'Default selection - first available recording'
                 }
+            
+            # Extract must-listen sequences from song highlights and setlist
+            try:
+                song_highlights = show_review.get('song_highlights', [])
+                setlist = show_data.get('setlist', [])
+                
+                if song_highlights and setlist:
+                    must_listen_sequences = extract_must_listen_sequences(song_highlights, setlist)
+                    if must_listen_sequences:
+                        show_review['must_listen_sequences'] = must_listen_sequences
+                        logger.debug(f"      ✅ Extracted {len(must_listen_sequences)} must-listen sequences")
+                    else:
+                        logger.debug(f"      ℹ️  No must-listen sequences extracted")
+                else:
+                    logger.debug(f"      ℹ️  Skipping sequence extraction - missing song_highlights or setlist")
+                    
+            except Exception as e:
+                logger.warning(f"      ⚠️  Failed to extract must-listen sequences: {e}")
+                # Don't fail the whole process if sequence extraction fails
             
             logger.debug(f"      ✅ Generated show review with AI rating: {show_review.get('ratings', {}).get('ai_rating', 'N/A')}")
             return show_review

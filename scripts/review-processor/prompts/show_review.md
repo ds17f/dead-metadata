@@ -71,7 +71,7 @@ When you have multiple recordings of the same show:
 - **Focus on Musical Performance**: The show itself doesn't change between recordings
 - **Prioritize Best Recording**: Emphasize insights from the highest quality recording
 - **Note Quality Differences**: If recording quality varies significantly, mention this
-- **Combine Insights**: Merge standout songs, band member comments, and energy assessments
+- **Combine Insights**: Merge standout songs, band member comments, and performance assessments
 
 ### AI Rating Assignment
 
@@ -79,7 +79,7 @@ Calculate the AI rating by analyzing recording-level AI ratings:
 - **Primary Method**: Weight recording ratings by their confidence levels and recording quality
 - **High Confidence Recordings**: Give more weight to ratings with "high" confidence
 - **Recording Quality Factor**: Slightly favor ratings from better quality recordings
-- **Musical Excellence**: Quality of playing, standout performances, energy level
+- **Musical Excellence**: Quality of playing, standout performances
 - **Historical Significance**: Important shows, rare songs, milestone performances  
 - **Consistency**: Well-played throughout vs. mixed quality
 
@@ -106,35 +106,20 @@ Choose the recommended recording based on:
 ### Authentic Deadhead Voice
 
 **Language Style:**
-- Use Dead community terminology naturally but **vary your language**
-- Reference musical relationships and improvisational flow
-- Be honest about both excellence and shortcomings
-- Include historical context when relevant
-- Avoid overly technical language
-- **IMPORTANT**: Avoid repetitive words like "high-energy", "monster", "fire", "scorching" - vary your descriptions
+- **Synthesize directly from the fan reviews provided** - use the actual language, expressions, and descriptions that reviewers wrote
+- When reviewers use similar language consistently, adopt that terminology in your review
+- Quote or paraphrase specific reviewer observations when they capture something important
+- Draw varied language from different reviewers to avoid repetition
+- Include historical context when reviewers mention it
+- Be honest about both excellence and shortcomings as reflected in the reviews
+- Let the authentic Deadhead voice emerge from the source material rather than imposing artificial language
 
-Synthesize your review from the ones that you read
-- Don't make stuff up, base what you say on what you read
-- Try to get a feel for the show and the recording from the reviews
-- Give more weight to multiple reviews which say the same thing
-
-
-**Varied Opening Phrases (for full review only - NOT for summary/blurb):**
-- "This [venue] show delivers..."
-- "[Date] finds the Dead..."
-- "The band hits their stride at [venue]..."
-- "[Venue] hosts a memorable performance..."
-- "The Dead bring their A-game to [venue]..."
-
-**Diverse Example Phrases:**
-- "The second set opens with a stellar Help>Slip>Franklin's"
-- "Jerry's guitar work shines throughout the evening"
-- "Phil's bass lines drive the extended improvisations"
-- "The band finds their groove from the first notes"
-- "This version of Dark Star ventures into beautiful territory"
-- "Brent's keyboards add perfect texture to the jams"
-- "The rhythm section keeps everything perfectly tight"
-- "Bob's vocals carry emotional weight on the ballads"
+**Source-Based Writing Approach:**
+- Base every statement on what you actually read in the reviews
+- If multiple reviewers describe something similarly, give that more weight
+- Use reviewers' own words and expressions when they're particularly vivid or accurate
+- Don't invent language - draw it from the source material
+- Vary your descriptions by pulling from different reviewers' perspectives
 
 ### Band Performance Synthesis
 
@@ -178,7 +163,7 @@ Combine band member comments from all recordings:
 
 Choose 2-4 highlights that capture:
 - **Standout Songs**: Exceptional versions mentioned across recordings
-- **Musical Moments**: Improvisation, segues, energy peaks
+- **Musical Moments**: Improvisation, segues, performance peaks
 - **Historical Notes**: Rare songs, debuts, significant context
 - **Recording Notes**: If audio quality is exceptional or problematic
 
@@ -203,16 +188,15 @@ Choose 2-4 highlights that capture:
 
 ### Writing Variation Guidelines
 
-**Focus on Specific Details Over Generic Energy:**
-- Instead of "high-energy show", describe what made it energetic: "tight interplay", "inspired solos", "seamless transitions"
-- Instead of "monster jam", be specific: "12-minute exploration", "cascading guitar lines", "thunderous bass work"
-- Instead of "scorching Fire", describe the performance: "Jerry's piercing leads", "explosive climax", "soaring guitar work"
+**Use Reviewer-Specific Language:**
+- When reviewers describe excitement or performance quality, use their specific language rather than generic terms
+- If reviewers mention specific musical elements (solos, jams, playing style), incorporate their descriptions
+- Draw from the variety of expressions reviewers use to describe the same performance
 
 **Vary Your Review Structure:**
-- Don't always start with date/venue - try different openings
-- Vary sentence length and structure  
-- Mix technical details with emotional responses
-- Balance song-specific details with overall flow descriptions
+- Let the structure emerge from what reviewers emphasized most
+- Vary sentence length and structure based on the source material
+- Balance specific reviewer observations with overall synthesis
 
 ## Example Analysis
 
@@ -221,43 +205,19 @@ Choose 2-4 highlights that capture:
 Show: 1977-05-08, Barton Hall, Cornell University
 Recordings Analyzed: 3 (2 soundboards, 1 audience)
 Average Rating: 4.7
+
+Sample Fan Review Language:
+- "The Scarlet>Fire is absolutely incredible, Jerry is on fire"
+- "This show is legendary, the band is totally locked in"
+- "Miller soundboard is crystal clear, captures every note"
+- "Second set is pure magic, they take you on a journey"
 ```
 
-**Expected Output:**
-```json
-{
-  "summary": "Transcendent Scarlet>Fire and mesmerizing Dancin' with peak ensemble playing",
-  "blurb": "Features what many consider the definitive Scarlet Begonias > Fire on the Mountain with Jerry's crystalline guitar work and Phil's cascading bass lines. The second set's Dancin' in the Streets showcases complete improvisational freedom. Peak Spring '77 performance with exceptional soundboard recordings available.",
-  "review": "What unfolds at Barton Hall represents the pinnacle of Spring '77, a performance that still gives listeners chills decades later. The band finds their groove immediately, building toward what many consider the definitive Scarlet Begonias > Fire on the Mountain - Jerry's guitar work soars with crystalline precision while Phil's bass lines cascade beneath in perfect counterpoint. The entire ensemble seems to tap into something deeper than music, creating moments of pure improvisation that feel both spontaneous and inevitable. The second set's Dancin' in the Streets ventures into territory that showcases the Dead's unique ability to blend structure with complete freedom, each musician contributing essential colors to an ever-shifting musical palette.",
-  "ratings": {
-    "average_rating": 4.7,
-    "ai_rating": 5.0,
-    "confidence": "high"
-  },
-  "best_recording": {
-    "identifier": "gd1977-05-08.sbd.miller.97166.sbeok.flac16",
-    "reason": "Miller soundboard provides exceptional clarity and perfect stereo separation"
-  },
-  "key_highlights": [
-    "Transcendent Scarlet Begonias > Fire on the Mountain with crystalline guitar work",
-    "Mesmerizing Dancin' in the Streets showcasing complete improvisational freedom", 
-    "Pinnacle Spring '77 performance with the entire ensemble in perfect sync",
-    "Exceptional soundboard recordings capture every nuance of this historic show"
-  ],
-  "song_highlights": [
-    "Scarlet Begonias",
-    "Fire on the Mountain",
-    "Dancin' in the Street"
-  ],
-  "band_performance": {
-    "Jerry": "Pristine guitar tone throughout, exceptional lead work on Scarlet>Fire sequence",
-    "Phil": "Thunderous bass work anchoring the improvisation, particularly strong in Dancin'",
-    "Bob": "Solid rhythm guitar work, perfectly locked in with the band",
-    "Keith": "Keith's piano work adds beautiful texture to the extended jams",
-    "Billy": "Billy provides steady foundation for the band's peak performance"
-  }
-}
-```
+**Approach:**
+- Draw language directly from reviewer descriptions ("absolutely incredible", "totally locked in", "pure magic")
+- Use reviewer-specific observations about recording quality ("crystal clear")
+- Synthesize multiple reviewers' perspectives rather than inventing new language
+- Let the authentic fan voice guide the review tone and terminology
 
 ## Important Guidelines
 
