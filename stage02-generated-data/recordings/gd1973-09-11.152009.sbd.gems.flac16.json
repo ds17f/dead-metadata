@@ -16,24 +16,25 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "First‑class soundboard recording with impeccable clarity, though the second set is viewed as uneven",
-    "review": "The fan praises the recording’s pristine, first‑class sound quality, calling it immaculate and noting no technical flaws. Musically, the reviewer dislikes the horn sit‑ins early in the second set and finds much of that half skippable, resulting in a mixed impression of the show itself.",
+    "summary": "First‑class soundboard recording, though the second set (especially the horn sit‑ins) is considered skippable by many listeners.",
+    "review": "The recording quality of this 1973 show is described as impeccable and crystal‑clear, earning top marks for its soundboard source. However, the reviewer notes that the early horn‑filled section of the second set—and much of that set overall—fails to engage them, making it largely skippable. The contrast leaves the overall impression mixed despite the stellar audio.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 3.2,
       "confidence": "low",
-      "rationale": "Only one detailed review; it rates the recording as excellent (5 stars) but expresses disappointment with the second‑set performance, leading to a weighted estimate around 3.6."
+      "rationale": "Excellent soundboard recording (5‑star praise) but a second set that many find uninteresting; with only one review, confidence is low and the mixed show quality drags the overall rating down."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Impeccable clarity and crispness; no dropouts or muddiness noted."
+      "technical_notes": "Impeccable, crisp, first‑class sound; no noted flaws or dropouts."
     },
     "show_quality": {
       "standout_songs": [],
-      "poor_songs": [],
-      "setlist_flow": "Second set perceived as weaker due to horn sit‑ins and sections the reviewer would skip.",
-      "energy_level": "medium"
+      "poor_songs": [
+        "Second set (horn sit‑ins)"
+      ],
+      "setlist_flow": "First set not commented on; early portion of the second set with horn sit‑ins is deemed less compelling, making much of that set feel skippable."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +43,7 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T07:46:01.038721+00:00",
+    "processed_date": "2025-09-10T02:23:56.531270+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-09-11.152009.sbd.gems.flac16"
   }

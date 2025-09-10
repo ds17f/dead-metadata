@@ -16,24 +16,23 @@
   "high_ratings": 0,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Recording quality is questionable due to suspected down‑sampling and poor documentation, with no musical highlights mentioned.",
-    "review": "The lone review focuses almost entirely on the myriad versions of this show and the lack of clear notes explaining what makes this particular transfer unique. The reviewer suspects the file has been down‑sampled, suggesting a downgrade in audio fidelity, and gives it a one‑star rating. No comments are provided about the performance itself.",
+    "summary": "Poorly documented audience transfer that appears down‑sampled; musical performance not discussed.",
+    "review": "The reviewer is frustrated by the lack of clear notes explaining why this version exists and suspects the file has been heavily down‑sampled, resulting in reduced audio fidelity. No comments are made about the actual performance, leaving the show quality indeterminate. Overall the release is judged negatively due to inadequate documentation and questionable sound quality.",
     "sentiment": "negative",
     "ai_rating": {
       "stars": 1.2,
       "confidence": "low",
-      "rationale": "Only one brief, negative review (1 star) that criticizes the recording; no information on show quality, so rating is driven by poor perceived audio and lack of documentation."
+      "rationale": "Only one low‑star review focusing on missing information and possible downsampling; no positive musical comments, so rating is near the bottom of the scale."
     },
     "recording_quality": {
-      "source_type": "soundboard",
-      "quality_rating": "fair",
-      "technical_notes": "Reviewer notes possible down‑sampling (file sizes ~¼ of comparable versions) and complains about missing explanatory notes, implying reduced fidelity or at least uncertainty about the audio quality."
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Reviewer notes file size is ~¼ of comparable versions, suggesting down‑sampling; lacks clear documentation of transfer process, leading to perceived loss of fidelity."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "",
-      "energy_level": ""
+      "setlist_flow": ""
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,7 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T06:51:36.448840+00:00",
+    "processed_date": "2025-09-10T01:22:09.183439+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-06-30.130561.aud.boswell-smith.flac16"
   }

@@ -16,41 +16,43 @@
   "high_ratings": 6,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard source with noticeable pitch/wow quirks, but a high‑energy show highlighted by a monster Dark Star and tight China Cat Sunflower → I Know You Rider.",
-    "review": "The Gardner SBD captures the November 11 1973 run with enough fidelity to enjoy the long, spacey Dark Star and strong second‑set moments, though it suffers from speed fluctuations, pitch errors and occasional channel loss. Musically the concert is praised as a top‑5 performance, especially the dynamic China Cat Sunflower/​I Know You Rider segue and the fiery Big River, while the first set shows some rough spots.",
+    "summary": "Soundboard capture of the famed 11/11/73 Winterland show – a Dark Star‑centric, high‑energy performance with solid second‑set flow despite noticeable pitch‑wow and occasional channel issues.",
+    "review": "Fans rave about this November ’73 set, especially the 35‑minute Dark Star, the fiery China Cat Sunflower > I Know You Rider segue and a powerful Big River. The Gardner SBD source sounds generally clear and full, but reviewers note pitch drift, a slow wow and brief right‑channel loss that require correction. Overall the music outweighs the technical quirks, landing the show among the band’s top performances of the era.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show highly (5‑star) citing standout performances; a detailed review notes recording flaws that lower the technical score, yielding an overall strong but not perfect rating."
+      "rationale": "Most reviewers give five‑star praise for the musical performance (strong Dark Star, A+ set ratings) while a detailed review points out pitch/wow flaws that lower the recording score; weighting 70% show + 30% recording yields ~4.2."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "fair",
-      "technical_notes": "Pitch errors and variable wow/speed throughout; occasional right‑channel loss; some filtering improves fullness but the tape runs fast in places, requiring pitch correction for accurate playback."
+      "quality_rating": "good",
+      "technical_notes": "Clear overall mix but suffers from consistent pitch errors (‑1% to ‑3% across tracks), a slow/long wow, occasional fast‑speed sections, and a brief right‑channel loss in the Eyes segment; listeners often apply pitch correction or mono fallback."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star (35 min)",
         "China Cat Sunflower > I Know You Rider",
         "Big River",
-        "And We Bid You Good Night"
+        "And We Bid You Good Night",
+        "Eyes (second solo)",
+        "China Doll"
       ],
       "poor_songs": [
-        "Black‑Throated Skillet (hoarse vocal, a bit sloppy)",
-        "Sugar Magnolia / Uncle John's Band (getting off/sloppy toward the end)"
+        "Black-Throated (hoarse vocal, rough start)",
+        "Ramblin' Rose (sloppy execution)",
+        "Sugar Magnolia / Uncle John's Band (off/sloppy toward end)"
       ],
-      "setlist_flow": "First set average with a few rough moments; second set climbs to peak energy with a long Dark Star and tighter jams, ending on a strong encore.",
-      "energy_level": "high"
+      "setlist_flow": "First set is a typical '73 mix—average with some rough spots—but the second set flips the script, delivering the show's high point early with Dark Star and maintaining momentum through strong mid‑set jams before closing on a heartfelt Good Night."
     },
     "band_member_comments": {
-      "Jerry": "Jer takes a long leash on Big River and is great in the latter half of the set.",
-      "Phil": "Monster Phil section inside Dark Star noted as a cool highlight.",
-      "Bob": "Bobby (Bob Weir) sounds hoarse early and adds unusual rhythms to Half Step Mississippi.",
+      "Jerry": "Jer takes a long leash on Big River and shines in the second half (Dark Star, China Doll), though later parts become a bit sloppy.",
+      "Phil": "The ‘monster Phil section’ in Dark Star is highlighted as a cool moment; his bass work throughout gets strong mentions.",
+      "Bob": "Bobby’s hoarse voice on Black‑Throated and his rhythmic additions on Half Step Mississippi are noted, with mixed feelings about early set performance.",
       "Keys": "",
-      "Drums": "Billy's shuffling pocket drives Big River; overall drum work solid."
+      "Drums": "Bill's shuffling pocket is praised during Big River; overall drum work supports the high‑energy second set."
     },
-    "processed_date": "2025-09-09T09:04:11.538707+00:00",
+    "processed_date": "2025-09-10T03:49:29.413665+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-11-11.sbd.gardner.12178.sbeok.shnf"
   }

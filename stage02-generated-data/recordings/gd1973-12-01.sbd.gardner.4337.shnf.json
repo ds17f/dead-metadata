@@ -16,18 +16,18 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Matrix source with decent clarity but slight wobble captures a mixed‑energy 1973 show highlighted by a hot Mexicali Blues and a joyous Goin' Down the Road Feeling Bad.",
-    "review": "The Gardner matrix tape offers clearer sound than other available sources, though it has a little wobble, pitch‑correction needs and some wow‑flutter. Musically the concert sits in the middle of the Wang Theater run – the first set is flat early on, while the second set picks up with strong moments like Mexicali Blues, They Love Each Other, Me & My Uncle and an exuberant Goin' Down the Road Feeling Bad, but fire‑code interruptions break the flow.",
+    "summary": "Decent soundboard recording with slight wobble, featuring hot moments like Mexicali Blues and a joyous Goin' Down the Road Feeling Bad amid a flat start and fire‑code interruptions.",
+    "review": "The Gardner matrix‑derived soundboard capture is generally clear but shows some width issues, wobble and minor pitch quirks. Musically the concert starts sluggishly, picks up with an uptempo Mexicali Blues, and delivers highlights such as They Love Each Other, Me & My Uncle, a uniquely keyed Uncle John’s Band, and a rousing Goin' Down the Road Feeling Bad, though fire‑code pauses disrupt the set flow.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.1,
-      "confidence": "low",
-      "rationale": "Review gives a moderate 3‑star overall rating; performance is average with several highlights, and recording quality is decent but has noted wobble and pitch issues."
+      "stars": 3.0,
+      "confidence": "medium",
+      "rationale": "One detailed review points to an average show (flat start, interruptions) with several standout songs, and a decent but not flawless recording; combined weighting yields a mid‑range rating."
     },
     "recording_quality": {
-      "source_type": "matrix",
+      "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Matrix provides better width/hall with slight wobble; Gardner source clearer than Clugston but needs -1% pitch correction; Miller version adds wow & flutter from transport fluctuation."
+      "technical_notes": "Clear Gardner matrix source, slightly better width/hall than pure soundboard, minor wobble and pitch correction needed; other sources suffer wow & flutter."
     },
     "show_quality": {
       "standout_songs": [
@@ -38,18 +38,19 @@
         "Uncle John's Band",
         "Goin' Down the Road Feeling Bad"
       ],
-      "poor_songs": [],
-      "setlist_flow": "First set starts flat and stays below average; second set is broken by fire‑code interruptions and banter but gains momentum after They Love Each Other.",
-      "energy_level": "medium"
+      "poor_songs": [
+        "Early warm‑up songs (first few of set 1)"
+      ],
+      "setlist_flow": "First set starts flat and warms up by Mexicali Blues, then drifts into below‑average material; second set is broken up by fire‑code interruptions and banter but recovers with strong performances."
     },
     "band_member_comments": {
-      "Jerry": "Races the tempo early, starts Uncle John's Band in a different key/scale, and delivers strong, firing guitar work throughout the second set.",
+      "Jerry": "Garcia races through the early songs, fires everyone on Uncle John's Band with a different key/diatonic scale, delivering high energy throughout.",
       "Phil": "",
-      "Bob": "Backs into Keith's hot‑rod energy on Mexicali Blues; later appears to forget lyrics during Me & My Uncle.",
-      "Keys": "Provides hot‑rod keyboard drive supporting the band; no specific issues noted.",
+      "Bob": "Weir backs into the hot‑rod feel and adds vocal character (bottle/jaw) though lyric recall is fuzzy at times.",
+      "Keys": "Keith's keyboards contribute to the hot rod momentum, especially on early uptempo numbers.",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T10:00:36.882113+00:00",
+    "processed_date": "2025-09-10T04:45:17.732542+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-12-01.sbd.gardner.4337.shnf"
   }

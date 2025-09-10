@@ -16,24 +16,23 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Reviewer corrects the date to 3/30/73; no information on recording or performance quality.",
-    "review": "The only comment flags an incorrect labeling, stating the show is from March 30 1973 rather than September 30. No remarks are made about the soundboard source, audio clarity, setlist flow, or musical highlights.",
+    "summary": "Date correction noted; no information on performance or audio quality.",
+    "review": "The only comment flags the recording as mislabeled – it should be dated 3/30/73, not 9/30/73. Reviewers provide no insight into the band's playing or the sound quality, so an evaluation of the show or recording cannot be derived from this feedback.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.0,
+      "stars": 2.5,
       "confidence": "low",
-      "rationale": "A single brief review provides only a date correction and gives no insight into the music or recording quality, resulting in an uncertain rating."
+      "rationale": "Only a single review that addresses metadata, not musical or technical aspects; insufficient data to rate the show or recording accurately."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "No comments on sound quality, clarity, or mix."
+      "technical_notes": "No comments on sound clarity, mix balance, or source type; recording quality cannot be assessed."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "",
-      "energy_level": ""
+      "setlist_flow": ""
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,7 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T05:14:58.467077+00:00",
+    "processed_date": "2025-09-09T23:45:01.439406+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-03-30.154328.aud-composite.flac1644"
   }
