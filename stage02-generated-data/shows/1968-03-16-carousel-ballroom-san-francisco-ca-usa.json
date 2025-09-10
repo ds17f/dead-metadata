@@ -148,9 +148,9 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy early ’68 set with soaring Dark Star and fierce Alligator > Caution",
-    "blurb": "The March 16, 1968 Carousel Ballroom show delivers a blistering Dark Star, tight The Eleven, and an electrifying Alligator > Caution sequence. Jerry’s solos cut deep while Phil anchors the jams despite a muddy low‑end. Both soundboard sources capture the raw power of this early‑68 performance.",
-    "review": "March 16, 1968 finds the Dead in top form at San Francisco's Carousel Ballroom, feeding off the psychedelic buzz of the era. The first set launches with a Dark Star that rides a crystalline lead line from Jerry and a relentless rhythmic push from Mickey and Bill, segues into a bright China Cat Sunflower and then rockets through a thunderous Eleven before winding down with Good Morning Little School Girl. Set two kicks into high gear; after a bluesy It Hurts Me Too the band rolls into the iconic Cryptical → The Other One drum duet—the first recorded segue of its kind—then collapses into a blistering Alligator that morphs seamlessly into Caution (Do Not Stop On Tracks) and an experimental Feedback burst, showcasing Pigpen’s wild organ textures even if they’re not highlighted in the analysis. The encore closes with a haunting Morning Dew, giving the night a reflective finish after a night of relentless improvisation. Both Miller and Vernon soundboard captures are surprisingly clear for 1968, with Miller’s version offering slightly cleaner imaging and fewer tape glitches, making it the go‑to source for this historic set.",
+    "summary": "Alligator>Caution climax, tight Dark Star and stellar segues",
+    "blurb": "The set rocks with a smoking Alligator → Caution sequence and a tightly executed Dark Star. Highlights include The Eleven, the Cryptical‑>The Other One drum segue and an uplifting Morning Dew encore. Recording quality is good despite occasional tape cuts.",
+    "review": "On March 16, 1968 at San Francisco’s Carousel Ballroom, the Dead turned in a high‑energy performance that still feels fresh. Set 1 opens with a focused Dark Star that flows into a bright China Cat Sunflower before collapsing into the rhythmic surge of The Eleven and a soulful rendition of Good Morning Little School Girl. After a brief It Hurts Me Too, the band launches into an extended Cryptical Envelopment → The Other One suite, highlighted by Mickey Hart’s seamless drum segue that keeps the momentum alive despite a few tape glitches. The second set builds to a thunderous Alligator → Caution (Do Not Stop On Tracks) climax, punctuated with wild Feedback and a gentle Good Night send‑off, while the encore Morning Dew showcases Jerry’s soaring lead work and Phil’s dancing bass lines. Both Miller soundboard captures preserve the era’s raw ambience; the Miller SBD (gd1968-03-16.sbd.miller.109944.flac16) stands out for its clearer image and fewer drops, making it the preferred listen.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.5,
@@ -158,13 +158,13 @@
     },
     "best_recording": {
       "identifier": "gd1968-03-16.sbd.miller.109944.flac16",
-      "reason": "Miller soundboard provides the clearest image, fewer tape cuts and the most reliable stereo separation among available sources."
+      "reason": "Clearer soundboard with fewer tape cuts; captures the full Alligator → Caution sequence and drum segue in a single track."
     },
     "key_highlights": [
-      "Alligator > Caution sequence with searing Garcia leads",
-      "Tight Dark Star that builds into a soaring improvisational peak",
-      "First recorded drum segue between Cryptical Envelopment and The Other One",
-      "Powerful Eleven showcasing intricate rhythmic interplay"
+      "Smoking Alligator → Caution climax with Feedback",
+      "Tight Dark Star opening set",
+      "Cryptical Envelopment → The Other One drum segue",
+      "Strong performances of The Eleven, China Cat Sunflower and Morning Dew"
     ],
     "song_highlights": [
       "Dark Star",
@@ -178,16 +178,37 @@
       "Morning Dew"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s solos are a highlight, especially on Alligator, the Eleven and the opening Dark Star; his lead lines cut through with crystalline intensity.",
-      "Phil": "Lesh’s bass is heavy and muddy at times but he drives the Eleven and The Other One with solid, propulsive grooves that lock in tightly with the drums.",
-      "Bob": "Weir provides steady rhythm guitar throughout, anchoring the jams and keeping the band grounded during the extended improvisations.",
-      "Brent": "",
-      "Mickey": "Hart’s drumming shines in the first recorded segue between Cryptical Envelopment and The Other One, adding excitement and precision to the transition.",
-      "Billy": "Kreutzmann pairs tightly with Hart, maintaining a solid foundation that lets the band explore freely without losing momentum."
+      "Jerry": "Garcia delivers soaring lead work, especially the “mountain jam” licks in Alligator and fiery phrasing toward the end of The Eleven; a minor stumble is noted at the start of China Cat.",
+      "Phil": "Lesh’s bass sounds heavy‑muddy at times but shines on The Eleven and dances with Jerry during Morning Dew, providing a solid low‑end foundation throughout.",
+      "Bob": "",
+      "Ron \"Pigpen\" McKernan": "Pigpen adds characteristic harp‑bottle texture and strong vocal presence on Good Morning Little School Girl, enhancing the early set’s blues feel.",
+      "Mickey": "Hart crafts an impressive drum segue between Cryptical Envelopment and The Other One, keeping the flow tight despite tape imperfections.",
+      "Billy": "Kreutzmann supplies steady, propulsive drumming that underpins the extended jams, though no specific moments are singled out in the reviews."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-08T08:14:18.771722+00:00",
+    "processed_date": "2025-09-10T19:00:20.043292+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Dark Star",
+        "China Cat Sunflower",
+        "The Eleven"
+      ],
+      [
+        "Cryptical Envelopment",
+        "The Other One",
+        "Cryptical Envelopment"
+      ],
+      [
+        "Alligator",
+        "Caution (Do Not Stop On Tracks)",
+        "Feedback",
+        "And We Bid You Good Night"
+      ],
+      [
+        "Morning Dew"
+      ]
+    ]
   }
 }

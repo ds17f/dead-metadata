@@ -16,37 +16,39 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording of the 9/20/68 Berkeley show captures clear stage banter and strong drum work, but the musical performance is only moderately engaging.",
-    "review": "The SBD capture is praised for its clarity—stage chatter comes through cleanly and the overall tape quality is decent for a late‑1968 source. Musically the set is highlighted by an extended Drums segment and a solid St. Stephen that mirrors the Aoxomoxoa sessions, yet many reviewers note a lack of fire compared to the hotter August shows, describing the Eleven as shorter and less energetic.",
+    "summary": "Good‑quality soundboard capture that shines on St. Stephen and the extended drum segment, though the partial show is uneven.",
+    "review": "The recording – a sound‑board source from the September 20 1968 Berkeley show – sounds clear for its era, with stage banter audible and the drums captured in surprising detail. Musically the highlight is the fiery St. Stephen and an unusually long drum improvisation featuring Vince Delgado and Shankar Ghosh; The Eleven feels a bit short and low‑energy, and some material (e.g., Schoolgirl) is missing or muted. Overall it’s a decent snapshot of a transitional period rather than a classic full‑show performance.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.2,
+      "stars": 3.6,
       "confidence": "medium",
-      "rationale": "Show quality is judged average to below‑average (energy low, some songs noted as weak) while recording quality is good; the weighted combination yields a modest overall rating."
+      "rationale": "Reviewers give an average of ~3.5 stars; most praise the drum work and decent soundboard clarity, while noting missing tracks and uneven performance, leading to a moderate‑high rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear stage banter and generally decent fidelity for the era; no major dropouts reported, though some reviewers give a modest 3‑star personal quality assessment."
+      "technical_notes": "Clear stage banter, overall crispness for a late‑60s board tape; some vocal sections (Schoolgirl) are low in the mix and a few tracks are missing."
     },
     "show_quality": {
       "standout_songs": [
         "St. Stephen",
         "The Eleven",
-        "Drums"
+        "Drums (Vince Delgado & Shankar Ghosh)"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Typical late‑summer set with extended drum improvisation; transitions are serviceable but the overall energy feels subdued compared to peak shows of the period.",
-      "energy_level": "medium"
+      "poor_songs": [
+        "The Eleven (shorter, less energy)",
+        "Drums (long and not compelling for some listeners)"
+      ],
+      "setlist_flow": "Partial set with a strong opening (St. Stephen) followed by an extended drum jam; the flow feels uneven due to missing pieces and shorter versions of songs."
     },
     "band_member_comments": {
-      "Jerry": "His vocal laughter is noted and a strange vibrating guitar part (likely his) appears during St. Stephen.",
+      "Jerry": "Laughs during his vocal on St. Stephen and uses a strange vibrating‑guitar effect reminiscent of the Aoxomoxoa sessions.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Long (≈25 min) drum segment featuring Vince Delgado and Shankar Ghosh; praised by drum enthusiasts despite being described as not especially interesting."
+      "Drums": "Extended drum improvisation is highlighted as a rarity, featuring Vince Delgado and Shankar Ghosh; praised by drum enthusiasts though some find it overly long."
     },
-    "processed_date": "2025-09-08T09:03:27.769737+00:00",
+    "processed_date": "2025-09-10T19:48:08.850010+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd68-09-20.sbd.partial.vernon.5930.sbeok.shnf"
   }

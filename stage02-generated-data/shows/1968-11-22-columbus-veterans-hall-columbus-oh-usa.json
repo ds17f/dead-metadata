@@ -131,42 +131,61 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy ’68 set with blazing Morning Dew and expansive Dark Star",
-    "blurb": "The Columbus Veterans Hall show delivers a scorching Morning Dew and a marathon Dark Star that capture the band at peak intensity. New Potato Caboose and the The Other One → Cryptical Envelopment suite add depth to an otherwise raw, audience‑only recording. Despite muddy fidelity, the performance remains a vivid snapshot of late‑1968 Dead power.",
-    "review": "The November 22, 1968 Columbus Veterans Hall concert finds the Dead in full‑blown improvisational mode. Jerry’s guitar is on fire from the opening chords of Morning Dew through an unrelenting Dark Star that stretches into the second half of the set, while Phil’s bass underpins the chaos despite being buried in the tape’s haze. The band weaves a seamless suite—Saint Stephen into The Eleven, then into Turn On Your Lovelight—before diving into the double‑Cryptical Envelopment/Other One sequence, culminating in a gritty New Potato Caboose that showcases their willingness to push boundaries. Mickey Hart carries all percussion duties on the first tape, delivering a driving groove that compensates for Bill’s absence; Pigpen’s organ and harmonica are barely audible through the audience mic, but his presence is felt in the overall texture. Though the recordings are far from pristine, the raw energy and daring improvisations make this show an essential listen for fans of the Dead’s late‑summer ’68 era.",
+    "summary": "Searing Dark Star and fiery Morning Dew despite muddy tape",
+    "blurb": "The set kicks off with a blistering Morning Dew that rolls straight into an expansive Dark Star where Jerry’s guitar burns and Mickey Hart supplies a solo‑driven groove. Turn On Your Lovelight lifts the second half, and New Potato Caboose adds a rare moment of early‑'68 charm, though the organ is almost inaudible.",
+    "review": "Columbus Veterans Hall on November 22, 1968 captures the Dead at a pivotal late‑summer point. Even though both surviving recordings are audience tapes with the usual ’68 hiss and mud, the performance shines through. Jerry Garcia’s guitar is described as “searing‑hot” and a “snarling beast,” especially on Dark Star and Morning Dew, while Mickey Hart’s solo drumming carries the set when Bill Kreutzmann was sidelined by illness. Phil Lesh holds down a solid bass foundation that feels right despite being buried in the mix, and Pigpen’s organ is barely audible but still present. Highlights such as Turn On Your Lovelight gain surprising clarity later in the tape, and the rare New Potato Caboose provides a glimpse of early‑'68 experimentation. Listeners willing to brave the lo‑fi ambience will be rewarded with one of the era’s most intense live moments.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.5,
-      "confidence": "medium"
+      "ai_rating": 4.3,
+      "confidence": "high"
     },
     "best_recording": {
       "identifier": "gd68-11-22.aud.cotsman.10088.sbeok.shnf",
-      "reason": "Fair‑quality audience tape with a slightly clearer mix and later remaster that adds warmth, making the high‑energy performance more listenable than the poorer alternative."
+      "reason": "Fair‑quality audience tape with a recent remaster that adds warmth, preserving Jerry’s searing guitar and the epic Dark Star while keeping most of the set intact."
     },
     "key_highlights": [
-      "Blazing Morning Dew that showcases Jerry’s incendiary lead work",
-      "Extended Dark Star jam that captures the band’s late‑’68 improvisational peak",
-      "The Other One → Cryptical Envelopment suite with tight transitions",
-      "New Potato Caboose adds a gritty, experimental edge despite limited keyboard audibility"
+      "Epic Dark Star featuring Mickey Hart’s solo drumming",
+      "Jerry’s scorching Morning Dew performance",
+      "Turn On Your Lovelight gains surprising clarity in the latter half",
+      "Rare New Potato Caboose appears despite faint organ presence"
     ],
     "song_highlights": [
-      "Morning Dew",
       "Dark Star",
-      "The Other One",
-      "Cryptical Envelopment",
-      "New Potato Caboose"
+      "Morning Dew",
+      "Turn On Your Lovelight",
+      "New Potato Caboose",
+      "Saint Stephen",
+      "The Other One"
     ],
     "band_performance": {
-      "Jerry": "Guitar is snarling and on fire, especially during Morning Dew and Dark Star, cutting through the muddy mix.",
-      "Phil": "Solid bass foundation that drives the jams, though often obscured by recording limitations.",
+      "Jerry": "Searing‑hot, snarling guitar that rips through Dark Star and Morning Dew, delivering both caressing melodies and fierce attacks.",
+      "Phil": "Solid bass foundation that feels right even though the tape muddies his low end; underpins the jams with reliable groove.",
       "Bob": "",
-      "Brent": "",
-      "Mickey": "Handles all drum duties on the first tape, providing a powerful, driving groove throughout.",
-      "Billy": "Absent from this show; his usual rhythmic interplay is missing."
+      "Pigpen": "Organ is barely audible on this audience recording; faint presence on tracks like New Potato Caboose, but largely lost in the mix.",
+      "Mickey": "Drums alone for most of the set, delivering powerful straight‑ahead percussion and a standout solo that defines the show’s unique feel.",
+      "Billy": "Absent due to illness for part of the night; when present his playing is masked by poor tape quality, leaving a thinner overall drum texture."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-08T09:32:19.126278+00:00",
+    "processed_date": "2025-09-10T20:17:43.175949+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Dark Star",
+        "Saint Stephen",
+        "The Eleven",
+        "Turn On Your Lovelight"
+      ],
+      [
+        "Morning Dew"
+      ],
+      [
+        "Cryptical Envelopment",
+        "The Other One",
+        "Cryptical Envelopment",
+        "The Other One Jam",
+        "New Potato Caboose"
+      ]
+    ]
   }
 }
