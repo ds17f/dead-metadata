@@ -137,46 +137,63 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy blues set with standout Hard To Handle and The Other One",
-    "blurb": "The show bursts with a driving blues feel, highlighted by a ripping Hard To Handle, an intense The Other One, and a soaring Morning Dew. Pigpen’s organ fuels the groove on King Bee and Turn On Your Lovelight, while Phil provides bomb‑heavy bass throughout. Two soundboard sources capture the performance well, though the Miller recording offers the clearest mix.",
-    "review": "April 18, 1969 at Purdue's Memorial Union Ballroom finds the Dead in top‑form, delivering a compact yet fiery first set that leans hard into blues territory. The band launches with a scorching Hard To Handle before soaring into an emotional Morning Dew, then dives into the classic Cryptical Envelopment → The Other One → Cryptical sandwich that showcases Phil’s thundering bass and Jerry’s searing leads despite occasional mix‑level quirks. Pigpen’s organ shines on I’m A King Bee, Turn On Your Lovelight, and the gritty Doin’ That Rag, keeping the groove relentless even when a brief circuit‑breaker hiccup cuts out part of a song. The set closes with Cosmic Charlie and Beat It On Down The Line, leaving the audience buzzing for more. Among the existing recordings, the Miller soundboard capture (gd69-04-18.sbd.miller.88867.sbeok.flac16) stands out for its crisp 1969 mix and overall completeness, making it the go‑to source for reliving this high‑octane night.",
+    "summary": "Groovy blues set with Hard To Handle, King Bee and seamless Other One",
+    "blurb": "The April‑18 1969 Purdue show rides a steady groove, highlighted by Pigpen’s rousing Hard To Handle, a scorching King Bee and an uninterrupted Other One sandwich. Lovelight soars in the second half while Morning Dew closes the set on a high note. Overall playing is strong despite occasional mix quirks.",
+    "review": "On April 18, 1969 the Grateful Dead took over Purdue’s Memorial Union Ballroom with a blues‑heavy first set that still feels fresh today. Pigpen leads the charge on “Hard To Handle” and “I’m A King Bee,” his organ buzz‑saw riffs cutting through a mix that, while generally crisp thanks to Charlie Miller’s transfer, occasionally buries Jerry’s guitar – though his slide work on the opener shines. Phil Lesh provides a deep, resonant foundation, especially during the soaring opening of The Other One after the drum solo, even if one listener noted a flatter tone on this night. The centerpiece is the Cryptical Envelopment → Drums → The Other One → Cryptical sandwich, a seamless 20‑minute journey that builds into a powerful “Morning Dew.” The set rounds out with an epic “Turn On Your Lovelight” and a playful “Cosmic Charlie,” leaving the audience buzzing despite a mid‑first‑song power outage that briefly halted the flow. Both available soundboard recordings capture the energy well, but Miller’s version offers the clearest overall picture of this groove‑laden performance.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
+      "ai_rating": 4.5,
       "confidence": "high"
     },
     "best_recording": {
       "identifier": "gd69-04-18.sbd.miller.88867.sbeok.flac16",
-      "reason": "Crisp 1969 soundboard mix with the fullest capture of the band’s high‑energy performance"
+      "reason": "Highest clarity soundboard mix with crisp balance; captures the full set without dropouts."
     },
     "key_highlights": [
-      "Ripping Hard To Handle that kicks off the set with raw blues power",
-      "Intense The Other One framed by Cryptical Envelopment sandwiches, featuring bomb‑heavy bass",
-      "Soaring Morning Dew that lifts the show into a transcendent climax",
-      "Pigpen’s organ‑driven grooves on I’m A King Bee and Turn On Your Lovelight"
+      "Pigpen‑driven blues showcase on Hard To Handle and King Bee",
+      "Seamless Cryptical Envelopment → Drums → The Other One sandwich",
+      "Lovelight soars in the second half, leading into a powerful Morning Dew",
+      "Good overall soundboard quality despite occasional buried guitar"
     ],
     "song_highlights": [
       "Hard To Handle",
       "Morning Dew",
       "Cryptical Envelopment",
+      "Drums",
       "The Other One",
-      "Sitting On Top Of The World",
       "I'm A King Bee",
-      "Doin' That Rag",
-      "Turn On Your Lovelight",
-      "Cosmic Charlie"
+      "Turn On Your Lovelight"
     ],
     "band_performance": {
-      "Jerry": "Shows his trademark searing leads on The Other One and Morning Dew; occasional mix burial but overall high‑energy playing.",
-      "Phil": "Delivers bomb‑heavy, driving bass especially during The Other One; solid foundation throughout despite a few flat moments noted in the second source.",
-      "Bob": "Provides steady rhythm guitar work that locks into the blues groove.",
-      "Pigpen": "Organ shines on Hard To Handle, I’m A King Bee and Turn On Your Lovelight, adding gritty blues texture and vocal grit.",
-      "Mickey": "Keeps a tight, propulsive pulse alongside Bill, reinforcing the set’s relentless drive.",
-      "Billy": "Offers solid drumming foundation; together with Mickey maintains the show’s momentum even through the brief circuit‑breaker interruption."
+      "Jerry": "Slide work on Hard To Handle shines, though his guitar can dip into the background in places.",
+      "Phil": "Bass is solid and especially luminous during The Other One opening; one note of flatness mentioned but overall strong.",
+      "Bob": "",
+      "Brent": "Pigpen delivers bluesy buzz‑saw organ riffs on Hard To Handle, King Bee and Lovelight with vocal enthusiasm throughout.",
+      "Mickey": "",
+      "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-08T11:59:33.439255+00:00",
+    "processed_date": "2025-09-10T22:45:09.636571+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Hard To Handle"
+      ],
+      [
+        "Morning Dew"
+      ],
+      [
+        "Cryptical Envelopment",
+        "Drums",
+        "The Other One",
+        "Cryptical Envelopment",
+        "Sitting On Top Of The World",
+        "I'm A King Bee"
+      ],
+      [
+        "Turn On Your Lovelight"
+      ]
+    ]
   }
 }

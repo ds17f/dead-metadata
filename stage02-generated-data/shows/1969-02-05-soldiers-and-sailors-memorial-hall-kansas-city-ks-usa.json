@@ -126,9 +126,9 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Incendiary Eleven > Caution suite and soaring Dark Star",
-    "blurb": "Features a blazing Eleven > Caution sequence and an expansive Dark Star. Jerry’s inventive guitar shines throughout, while the set closes with the gentle “And We Bid You Good Night.” The soundboard capture is well‑balanced for ’69, offering solid instrument separation despite typical mud.",
-    "review": "The February 5, 1969 show at Soldiers' and Sailors' Memorial Hall captures the Dead in a high‑energy stride. From the gritty opener of “Turn On Your Lovelight” through a fluid middle that weaves Dark Star into Saint Stephen, the band builds momentum into an incendiary Eleven > Caution suite where Jerry’s scorching guitar work is nothing short of “tremendous.” The set then eases into a tranquil close with “And We Bid You Good Night,” providing a balanced arc of intensity and calm. Listeners benefit from a well‑balanced soundboard tape that, while bearing the era's characteristic mud, delivers clear instrument separation and preserves the fire‑filled spirit of this early ’70s transition period.",
+    "summary": "High‑octane Eleven→Caution suite and fiery Dark Star",
+    "blurb": "The show bursts with early‑Feb ’69 energy, highlighted by a scorching The Eleven into Caution jam and a powerful Dark Star that rides the band’s tight interplay. Jerry’s guitar shreds throughout, while the second half maintains momentum despite a muffled Cryptical cut‑off.",
+    "review": "On February 5, 1969 at Soldiers' and Sailors' Memorial Hall in Kansas City, KS, the Dead delivered a high‑energy set that still crackles on the solid soundboard capture (gd69-02-05.sbd.cotsman.8993.sbeok.shnf). The first half builds through a tight “Dark Star → Saint Stephen” transition into an electrifying “The Eleven → Caution (Do Not Stop On Tracks)” suite where Jerry Garcia’s shredding is on full display. The band keeps the momentum rolling with a spirited “And We Bid You Good Night”, though the earlier “Cryptical Envelopment” suffers from a muffled mix and an abrupt cut‑off. Overall, despite minor technical hiccups, the performance showcases the group’s early‑’70s improvisational firepower and makes for a compelling listen.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.5,
@@ -136,22 +136,23 @@
     },
     "best_recording": {
       "identifier": "gd69-02-05.sbd.cotsman.8993.sbeok.shnf",
-      "reason": "Well‑balanced soundboard capture that highlights the Eleven > Caution suite and Dark Star with solid separation despite typical ’69 tape mud."
+      "reason": "Solid soundboard source that captures the high‑energy performance with clear detail, despite minor muffling."
     },
     "key_highlights": [
-      "Incendiary Eleven > Caution suite with scorching guitar work",
-      "Expansive Dark Star journey showcasing inventive improvisation",
-      "Tight rhythm section drives the high‑energy set",
-      "Soundboard recording balances era mud with clear instrument separation"
+      "Scorching The Eleven → Caution jam showcases Jerry’s shredding.",
+      "Dark Star delivers a powerful, exploratory flight.",
+      "Strong transitions keep the set flowing, especially DS→SS→Eleven.",
+      "Soundboard capture is solid but Cryptical ends abruptly."
     ],
     "song_highlights": [
       "The Eleven",
       "Caution (Do Not Stop On Tracks)",
       "Dark Star",
+      "The Other One",
       "And We Bid You Good Night"
     ],
     "band_performance": {
-      "Jerry": "Inventive, scorching guitar work throughout; praised as “tremendous” especially during the Eleven > Caution suite.",
+      "Jerry": "Garcia delivers relentless shredding, especially during the intense The Eleven into Caution jam.",
       "Phil": "",
       "Bob": "",
       "Brent": "",
@@ -159,8 +160,23 @@
       "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-08T10:15:21.257883+00:00",
+    "processed_date": "2025-09-10T21:09:08.199150+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Dark Star",
+        "Saint Stephen",
+        "The Eleven",
+        "Caution (Do Not Stop On Tracks)",
+        "Feedback",
+        "And We Bid You Good Night"
+      ],
+      [
+        "Cryptical Envelopment",
+        "The Other One",
+        "Cryptical Envelopment"
+      ]
+    ]
   }
 }
