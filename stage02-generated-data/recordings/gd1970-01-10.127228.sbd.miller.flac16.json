@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording captures an average early‑1970 show with a standout Me & My Uncle and solid Black Peter, but the overall performance feels pedestrian.",
+    "review": "The Miller 127228 soundboard source finally offers a clear picture of this first‑time‑at‑the‑venue set, fixing earlier balance and speed problems. Musically the concert is run‑of‑the‑mill for Jan ’70, with the highlight being a lively Me & My Uncle and an enjoyable Black Peter, while the rest drifts into typical early‑Dead territory.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Show is described as average with a few highlights; recording quality improved over older versions but still has minor issues, leading to an overall mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Miller's updated 127228 version fixes previous balance, image and speed problems; earlier sources were muddy or pitched slow. Some sections still sound a bit rickety."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Me & My Uncle",
+        "Black Peter"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First show at the venue felt rushed due to nervous staff, with no major jam sequences; overall an average early‑70 set that lacks landmark moments."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:11:24.314797+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-01-10.127228.sbd.miller.flac16"
+  }
 }

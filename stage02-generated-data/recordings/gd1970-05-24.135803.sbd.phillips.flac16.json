@@ -14,5 +14,46 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a historic 1970 England show, highlighted by a soaring Dark Star and tight Hard to Handle.",
+    "review": "Both reviewers rave about the superb sound quality provided by Simon Phillips' sound‑board source, calling it “fabulous” despite some post‑show tuning edits. The performance itself is praised for its varied setlist, with Dark Star, Hard to Handle, Me and My Uncle, The Other One and the striking Attics transition standing out, while a few early numbers are described as merely passable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "Two detailed, high‑rating reviews highlight an outstanding performance and excellent soundboard recording; limited sample size keeps confidence low."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Fabulous, clear mix with no noticeable flaws; reviewer notes only minor post‑show tuning edits between songs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Hard to Handle",
+        "Me and My Uncle",
+        "The Other One",
+        "Attics (transition)",
+        "Good Lovin'",
+        "Rain & Snow"
+      ],
+      "poor_songs": [
+        "Casey Jones",
+        "China Cat Sunflower > Rider"
+      ],
+      "setlist_flow": "A varied, deliberately paced set that builds momentum—early mellow moments give way to a powerful Hard to Handle and an expansive Dark Star, with memorable transitions such as the Attics segue."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar grooves on Dark Star are praised, and his aggressive lead on Hard to Handle is noted as picking up the pace.",
+      "Phil": "Phil Lesh’s vocal contributions are highlighted as a standout element of the show.",
+      "Bob": "Bob Weir delivers solid rhythm work and vocals on Me and My Uncle and The Other One; ensemble singing at the end receives praise.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T08:30:10.011513+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-05-24.135803.sbd.phillips.flac16"
+  }
 }

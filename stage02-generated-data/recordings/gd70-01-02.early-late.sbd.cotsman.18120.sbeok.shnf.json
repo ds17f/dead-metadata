@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 41,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Crisp sound‑board capture of an iconic early‑1970 Fillmore East set highlighted by a blazing Dark Star → St. Stephen → Eleven → Lovelight sequence and stellar performances throughout.",
+    "review": "This recording delivers a clear, well‑balanced sound‑board mix that lets the band’s improvisational fire shine—particularly on the monumental Dark Star/Eleven/Lovelight stretch.  The show is praised for its hot jams (Mason’s Children, Casey Jones, High Time) and the tight rhythm section, though a few listeners note vocal level quirks, channel swaps and minor speed‑waver glitches.  Overall it stands as one of the most celebrated early‑70 performances.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "The vast majority of reviews (40+) are 4–5 stars and extol both musical moments and recording clarity; only a handful cite minor flaws, yielding an overall weighted rating around 4½."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Sound‑board source is generally crisp with clear instrument separation.  Reviewers note occasional vocal level being too low, right‑channel vocals on some tracks, and a few speed/pitch waver issues that require correction, but overall the mix is clean and listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "St. Stephen",
+        "Eleven",
+        "Lovelight",
+        "Mason's Children",
+        "Casey Jones",
+        "High Time"
+      ],
+      "poor_songs": [
+        "Cumberland Blues"
+      ],
+      "setlist_flow": "The early set opens with the iconic Also‑Sprach‑Zarathustra intro and a solid first half; the late set erupts into deep, funk‑laden improvisations, culminating in a seamless Dark Star → St. Stephen → Eleven → Lovelight sequence that many reviewers cite as the show’s high point."
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar work is repeatedly praised – tight licks on Dark Star, memorable riffs on Lovelight, and a playful chuckle during the jam.",
+      "Phil": "Bass lines are highlighted as full and driving, especially on Lovelight where Phil’s “big fat bass” shines.",
+      "Bob": "Bob (Bobby) gets shout‑outs for vocal call‑and‑response in Lovelight and strong singing throughout the set.",
+      "Keys": "Keyboard textures from Tom Constanten/Keith are noted as vibrant (‘TC’ organ, trippy synths), adding depth to jams; Pigpen’s keys also receive mention.",
+      "Drums": "Bill and Mickey earn kudos for powerful drumming, with especially tight Eleven runs and dynamic rhythms that drive the late‑set improvisations."
+    },
+    "processed_date": "2025-09-11T04:57:10.257995+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-01-02.early-late.sbd.cotsman.18120.sbeok.shnf"
+  }
 }

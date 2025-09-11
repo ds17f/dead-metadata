@@ -14,5 +14,37 @@
   "confidence": 0.8,
   "raw_rating": 4.75,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a rare 1970 show with two NRPS sets, plenty of covers and Pig's entertaining Lovelight rap – a smoking‑hot evening on solid recording.",
+    "review": "Listeners rave about this unusual gig: the band is on fire, the night is peppered with two New Riders of the Purple Sage sets and a slew of cover tunes that give the concert a unique flavor.  Pig Pagan’s spoken‑word rap in “Lovelight” is singled out as a memorable moment, and although reviewers don’t detail the audio fidelity, the high ratings suggest a clear, well‑balanced soundboard source.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high reviewer stars (mostly 5) and enthusiastic comments about the performance indicate an excellent show; recording quality is inferred as good from the .sbd designation and lack of complaints."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit remarks on clarity or mix, but reviewers’ high scores imply a clean, balanced soundboard capture with no noticeable issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lovelight (Pig’s rap)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strange, cover‑heavy sets bookended by two NRPS performances; the band stays energetic throughout, with strong stage banter and a generally upbeat pacing."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T10:49:52.548830+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-10-30.121126.sbd.deluca.digitalrbb.miller.flac16"
+  }
 }

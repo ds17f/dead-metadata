@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 4.3076923076923075,
   "high_ratings": 12,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording with crystal‑clear vocals and a classic Uncle John's Band, highlighted by a fiery Me & My Uncle performance.",
+    "review": "The snippet offers an exceptionally clean soundboard capture – crisp instruments, lush room reverb and standout vocal clarity. Musically the set is solid, featuring a classic Uncle John's Band and a hot Jerry Garcia solo on Me & My Uncle, though the incomplete nature of the source leaves listeners wanting the full show.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is ~4.3 stars; most comments praise both sound quality and performance, with only mild criticisms about incompleteness, yielding a strong positive overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Very good to perfect sound for the era – crisp mix, excellent vocal presence, pleasing room reverb; occasional low placement of Garcia on Hard to Handle but overall balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Uncle John's Band",
+        "Me & My Uncle"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Tasty overall performance but the snippet is incomplete; setlist confusion noted, yet the material presented flows well and keeps interest."
+    },
+    "band_member_comments": {
+      "Jerry": "Great picking on Me & My Uncle; a bit low in the mix on Hard to Handle but otherwise solid tone.",
+      "Phil": "Driving bass force throughout; praised for strong presence (even noted on four‑string bass in some comments).",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:51:30.939357+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-12-23.sbd.vernon.10376.sbeok.shnf"
+  }
 }

@@ -14,5 +14,37 @@
   "confidence": 0.8,
   "raw_rating": 4.75,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard excerpt with crystal‑clear audio and a stellar Love Light performance, but only a short fragment of the concert is available.",
+    "review": "The recording captures about thirty minutes of a 1970 show with superb sound quality – reviewers rave about its clarity and the band’s inspired playing. Jerry’s feedback solo around the 18‑minute mark is highlighted as a standout moment, though fans are left wanting the missing Dark Star > St. Stephen segment and the rest of the set.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Reviews consistently praise the audio fidelity and musical performance (average star rating ~3.8, with four 5‑star comments). The strong recording quality and enthusiastic band playing outweigh the disappointment of an incomplete show."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix; reviewers describe the sound as ‘excellent sq’ despite the excerpt being short. No notable drop‑outs or muddiness mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Love Light"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Only a ~30‑minute snippet is present, featuring an energetic Love Light segment with strong transitions; reviewers note the missing remainder of the concert (Dark Star > St. Stephen and beyond) as a major loss."
+    },
+    "band_member_comments": {
+      "Jerry": "Feedback solo around 18:00 highlighted as a highlight.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:21:34.868227+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-04-11.132470.sbd.bear.latvala.wise.flac16"
+  }
 }

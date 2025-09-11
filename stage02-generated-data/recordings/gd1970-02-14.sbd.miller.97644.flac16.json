@@ -14,5 +14,48 @@
   "confidence": 1.0,
   "raw_rating": 4.8,
   "high_ratings": 15,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crisp soundboard recording captures a peak February 1970 Dead show with a smoking Dark Star, The Eleven and explosive drummers.",
+    "review": "The 2/14/70 performance is consistently praised as one of the band’s finest transitional shows – highlights include High Time, Alligator, a classic Dark Star, St. Stephen → The Eleven → Lovelight sandwich and an incendiary drum section. Charlie Miller’s remastered soundboard source is clear and “extra‑crispy,” though the early set suffers from a few missing edits. Overall the music and audio quality combine for a must‑hear experience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Majority of reviews are 5‑star, many detailed praises of both performance and soundboard quality; only one low rating unrelated to the music."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Remastered by Charlie Miller – clear, crisp mix with “extra‑crispy” fidelity. Early‑show has missing portions (beginning of St. Stephen and The Eleven) and occasional glitches, but overall very listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "High Time",
+        "Alligator",
+        "The Eleven",
+        "Dark Star",
+        "St. Stephen",
+        "Lovelight",
+        "Hard to Handle",
+        "Not Fade Away",
+        "Caution",
+        "Black Peter",
+        "Dark Hollow",
+        "Uncle John's Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Two shows (early concise set and later expansive three‑set blowout) flow smoothly; strong transitions especially in the electric second set and the classic Dark Star/Eleven/Lovelight sandwich."
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for fluid, perfect guitar tone and soaring solos throughout the night.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Drummers described as “on point” and “explosive,” with post‑drum sections highlighted as a peak moment."
+    },
+    "processed_date": "2025-09-11T06:33:12.540261+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-14.sbd.miller.97644.flac16"
+  }
 }

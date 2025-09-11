@@ -14,5 +14,35 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Restored tape brings the intense, jam‑filled flavor of late‑1970 Dead with surprisingly good sound despite an unknown source.",
+    "review": "Both reviewers rave about the performance, calling it a favorite ’70 show with flowing, intense jams and great playing. Recent restoration work has lifted the recording from its earlier “crappy” state to a listenable level, though the exact source (soundboard vs audience) isn’t specified.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "low",
+      "rationale": "Two detailed positive reviews (4 and 5 stars) highlight excellent musical performance and a cleaned‑up recording, leading to an overall high rating but limited sample size keeps confidence low."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Recent restoration work has improved clarity and reduced earlier tape issues; still no explicit mention of soundboard or audience source."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Set list described as tricky but the jams flow intensely, creating a compelling musical arc throughout the show."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:26:20.044307+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-11-08.aud.garrett-evans.3339.shnf"
+  }
 }

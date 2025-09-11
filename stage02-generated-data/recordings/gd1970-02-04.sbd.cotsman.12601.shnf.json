@@ -14,5 +14,40 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear soundboard recording delivers an electrifying half‑hour burst of classics—from Cold Rain and Snow to a soaring China Cat Sunflower > I Know You Rider sequence.",
+    "review": "Even though the tape is only about 30 minutes long, reviewers rave that it captures one of the dead’s best short sets, packed with tight transitions and standout moments such as the China Cat Sunflower → I Know You Rider medley and the St. Stephen > Not Fade Away > St. Stephen sandwich. The soundboard source is generally praised as clean, making the rapid-fire performance easy to enjoy.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Three strong positive reviews (5‑star) highlight an exceptional mini‑set; one low rating concerns labeling, not sound or performance. Recording quality is inferred as good from the sbd tag."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit complaints; reviewers imply clarity and balance typical of a soundboard capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower → I Know You Rider",
+        "St. Stephen → Not Fade Away → St. Stephen",
+        "Cold Rain And Snow",
+        "Uncle John's Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A compact, high‑energy half hour that weaves together many classics with seamless transitions, delivering a punchy and memorable performance."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:45:03.803482+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-04.sbd.cotsman.12601.shnf"
+  }
 }

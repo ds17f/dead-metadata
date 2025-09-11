@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 18,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "A legendary 1970 Fillmore East show with a stellar acoustic set and explosive NFA‑Caution jam, captured on a hiss‑laden but listenable soundboard tape.",
+    "review": "The performance is widely celebrated – the acoustic set (Uncle John’s Band, Ripple, Lay Me Down, etc.) shines, and the second‑set highlights like Not Fade Away > Caution > Feedback and an inspired Easy Wind keep fans raving. The recording suffers from tape hiss, occasional level clipping and uneven mixes due to mixed sources, but most listeners find it still enjoyable, especially after recent remasters that tame some of the noise.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers (≈70%) give 4‑5 stars and praise the musical performance; recording complaints are common but do not outweigh the show’s strength, yielding a strong overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Tape hiss is pervasive; occasional over‑driven levels (especially on Caution) cause distortion and level fluctuations. The source is a mix of tapes, leading to uneven volume but remains listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Not Fade Away > Caution > Feedback",
+        "Easy Wind",
+        "Acoustic set (Uncle John’s Band, Ripple, Lay Me Down, Rosalie McFall)",
+        "China > Rider",
+        "Big Boy Pete"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A beautiful acoustic opening segues into a high‑energy electric second set; the jam flow from NFA into Caution/Feedback is especially praised, making the concert feel like a cohesive journey."
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar work described as crisp and solid; leads the band through both acoustic and electric sections.",
+      "Phil": "",
+      "Bob": "Noted for an excellent solo on Easy Wind and strong vocal contributions.",
+      "Keys": "Listeners hear piano/organ (likely Pigpen) in the first set; mandolin guest adds texture to the acoustic set.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T10:13:36.010776+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-09-20.sbd.sacks.1190.sbefail.shnf"
+  }
 }

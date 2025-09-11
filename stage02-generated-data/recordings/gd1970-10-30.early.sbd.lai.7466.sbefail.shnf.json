@@ -14,5 +14,40 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Super‑duper ’70 soundboard captures a classic, in‑tune 1970 show with standout Sugar Magnolia, Cumberland Blues and Garcia’s vocal duet with Pigpen.",
+    "review": "The recording is a pristine 1970 soundboard tape that highlights the era’s warm mix – vocals sit high, the guitars are deliciously thick and even a Wah‑Wah on Sugar Magnolia shines through. Musically the Dead are tight, in tune and full of energy, delivering rare moments like Cumberland Blues sandwiched between Good Lovin’ and an impromptu Garcia/Pigpen duet. The audience banter about the second show adds historic flavor but does not detract from the overall superb performance.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "All reviews are 5‑star, praising both the musical excellence and the crystal‑clear soundboard source; no negatives were noted."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Vocals high in the mix, a slight volume lift on Sugar Magnolia, clear instrument separation; no dropouts or muddiness reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Sugar Magnolia",
+        "Cumberland Blues",
+        "Good Lovin'",
+        "Next Time You See Me"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A tight, in‑time set that flows naturally; the band even pauses to explain the upcoming second show, adding a charming live‑show atmosphere."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's guitar sound is described as delicious and his Wah‑Wah pedal work on Sugar Magnolia is highlighted.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T10:46:41.683021+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-10-30.early.sbd.lai.7466.sbefail.shnf"
+  }
 }

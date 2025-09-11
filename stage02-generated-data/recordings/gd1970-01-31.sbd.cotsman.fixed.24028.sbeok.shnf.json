@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.833333333333333,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Top‑notch soundboard capture of a quirky early‑Dead show with a unique acoustic set and standout Pigpen moments despite Phil’s amp failure.",
+    "review": "The recording is a clean soundboard source that fans describe as “TOPS” and “excellent,” letting the unusual acoustic segment shine through.  Musically the band turned equipment woes into an off‑the‑cuff performance, highlighted by Pig Pen’s solo acoustic guitar on “Katie Mae,” strong blues/bluegrass moments from Jerry and Bob, and a memorable second set featuring “Hard to Handle” and “Cold Rain and Snow.”",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Consistently high reviewer stars (average ~4.8), enthusiastic comments about both the performance and the crisp soundboard recording, with only minor technical setbacks noted."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewers repeatedly call the tape \"TOPS\" and praise its clarity; no drop‑outs or mix issues are mentioned."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Katie Mae (acoustic solo)",
+        "Hard to Handle",
+        "Cold Rain and Snow",
+        "Long Black Limousine",
+        "Seasons of the Heart"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The first set is hampered by Phil’s amp failure, prompting an early acoustic segment that became a historic moment.  The band rolls with the issue, delivering a quirky, blues‑heavy second set that feels like an early‑Dead “essential experience.”"
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for bluegrass/folk contributions (Little Sadie) and solid acoustic work; noted as the \"bluegrass\" soul of the show.",
+      "Phil": "His amp blew after the first set and his bass failed, forcing the band into an acoustic format.",
+      "Bob": "Delivered strong country‑flavored vocals on Long Black Limousine, Seasons of the Heart, Saw Mill, and Bound In Memories.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:32:52.508521+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-01-31.sbd.cotsman.fixed.24028.sbeok.shnf"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.363636363636363,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑quality soundboard capture of a stellar early‑1970 set highlighted by the NFA → Lovelight sequence and an electrifying Easy Wind.",
+    "review": "The February 27, 1970 Family Dog show shines with Jerry’s peak guitar work, Pigpen’s wild organ/vocals and memorable moments like NFA → Lovelight, Easy Wind and a uniquely quirky Cold Rain and Snow intro. Charlie Miller’s transfer delivers a crisp, well‑balanced mix despite the tape run‑out at the very end, making it a must‑have for collectors.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "high",
+      "rationale": "Most reviewers praise both performance and recording; weighted average (70 % show quality ≈4.1, 30 % recording quality ≈3.4) yields ~3.9 stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crisp mix praised by several reviewers; Charlie Miller’s transfer highlighted as excellent. Minor issues noted: tape runs out a few seconds at the end and early‑show monitor problems mentioned by one reviewer."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One > Lovelight (NFA → Lovelight transition)",
+        "Easy Wind",
+        "Cold Rain and Snow (unique intro)",
+        "China > Rider > High Time",
+        "Me and My Uncle"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong early momentum with smooth transitions, especially the celebrated NFA→Lovelight sequence; the set maintains high energy throughout and closes on a triumphant Lovelight."
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for playing his finest guitar work of the era, delivering crisp tone and inventive solos.",
+      "Phil": "",
+      "Bob": "Weir’s vocal delivery on Me and My Uncle noted as melodic; his backing vocals with Pigpen highlighted during Lovelight.",
+      "Keys": "Pigpen’s organ/vocals described as peak, adding wild energy and unique rap sections.",
+      "Drums": "One reviewer called the separate ‘Drums’ track absurd, but no further comments on drumming performance."
+    },
+    "processed_date": "2025-09-11T06:40:12.597652+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-27.sbd.miller.28833.sbeok.flac16"
+  }
 }

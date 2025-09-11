@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 8,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Fair‑sounding matrix broadcast of a vintage studio set that shines on Easy Wind, Candyman and Brokedown Palace despite muddied audio.",
+    "review": "The recording captures a short 1970 studio session (the KQED/Calibrations TV program) with a mixed‑source quad broadcast that leaves the sound uneven—muddy in places, low bass and occasional distortion. Musically the set is praised for its high‑energy Easy Wind jam, the first slowed‑down Candyman arrangement, and a standout Brokedown Palace vocal from Jerry, making it an appealing vintage snippet even if it serves more as filler than a full concert.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Average reviewer rating is 4.0; many highlight strong performances but note consistent recording flaws, leading to a blended score weighted toward show quality."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Audio is split‑channel quad broadcast with uneven mixing—muddy and distorted spots, bass from Phil mixed too low, volume waffling, but still clearer than some contemporary video tapes."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Easy Wind",
+        "Candyman",
+        "Brokedown Palace",
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A brief studio set that feels like filler material; the band delivers high‑energy jams (notably Easy Wind) and a memorable slowed‑down Candyman, giving the recording vintage appeal despite its limited length."
+    },
+    "band_member_comments": {
+      "Jerry": "His vocal performance is highlighted on Brokedown Palace and Candyman; reviewers call his voice mesmerizing.",
+      "Phil": "Bass is mixed too low in the broadcast, which detracts from the overall balance.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:53:34.501574+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-08-30.fm.jupile.12762.sbeok.shnf"
+  }
 }

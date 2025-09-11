@@ -14,5 +14,37 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Exceptionally clean soundboard capture of a legendary Fillmore night featuring guest artists and Jerry’s rare piano on “To Lay Me Down”.",
+    "review": "The recording is praised for its immaculate restoration – listeners describe it as crystal‑clear, a true \"peerless\" listening experience. The show itself is hailed as one of the greatest, highlighted by Nelson and Grisman’s surprise appearances, Phil Lesh’s electric bass on the acoustic set, and Jerry Garcia’s piano work on “To Lay Me Down”.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "All three reviewers gave five stars, emphasizing both outstanding musical performance and flawless restoration of the soundboard source."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Restored from original sbd tape with pristine clarity; no noticeable noise, drop‑outs, or muddiness – described as \"beautiful\" and \"amazing\" by reviewers."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "To Lay Me Down"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Memorable night with seamless flow; guest spots (Nelson, Grisman) and unique moments like Phil’s electric bass on the acoustic set add excitement."
+    },
+    "band_member_comments": {
+      "Jerry": "Rare piano performance on “To Lay Me Down” noted by reviewers.",
+      "Phil": "Added his electric bass to the acoustic set, a highlighted moment.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T10:19:37.551372+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-09-20.136729.sbd.GEMS.flac16"
+  }
 }

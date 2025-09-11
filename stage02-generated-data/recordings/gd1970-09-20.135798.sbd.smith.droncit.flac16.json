@@ -14,5 +14,37 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Mixed‑quality audience recording of a superb acoustic show with guests, highlighted by an improved “Caution” segue despite some balance quirks.",
+    "review": "The performance is praised for its acoustic set featuring Phil Lesh on bass and guest mandolinists David Grisman and David Nelson, with the “Caution” transition singled out as especially strong. Recording-wise the source is an audience‑type stealth rig that suffers minor imperfections, a warbled middle section and uneven instrument balance (reduced Pigpen harp/vocals, boosted organ), but overall remains listenable.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Two reviewers give five‑star praise for the musical performance while two give zero stars citing recording flaws; weighting the strong show heavily (70%) and the mixed technical quality lightly (30%) yields a rating just above four."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Stealth‑rig audience tape with occasional location changes, minor audio imperfections, warbled middle section on “Caution”, reduced Pigpen harp/vocal mic and boosted organ, but overall acceptable clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Caution"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The acoustic portion shines with guest mandolinists; the transition into “Caution” is noted as especially clean, though the recording’s shifting mic placement introduces minor glitches."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Phil Lesh is highlighted for playing bass on this acoustic set.",
+      "Bob": "",
+      "Keys": "Organ work appears unusually boosted in this source, affecting balance with Pigpen's harp and vocals.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T10:20:16.844848+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-09-20.135798.sbd.smith.droncit.flac16"
+  }
 }

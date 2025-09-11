@@ -14,5 +14,39 @@
   "confidence": 0.6,
   "raw_rating": 2.6666666666666665,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard capture of the Festival Express offers historical novelty with a few standout tracks, but the audio is only fair and the performance uneven.",
+    "review": "The recording provides a rare glimpse of the infamous Festival Express train jam, featuring moments like \"Hard to Handle\" and \"New Speedway Boogie\" that fans find noteworthy. However, reviewers note the sound quality is modest and the overall musical delivery is mixed, making it more of a collector’s curiosity than a definitive live experience.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.9,
+      "confidence": "medium",
+      "rationale": "Three reviews give an average of ~2.7 stars; comments highlight historical interest and a few good songs but criticize overall sound quality and performance, leading to a modest rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "No explicit technical commentary, but reviewers imply the audio is not great; likely a rough soundboard capture with limited fidelity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard to Handle",
+        "Don't Ease Me In",
+        "New Speedway Boogie"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The clip is described as a disjointed excerpt from the Festival Express, valued more for its novelty than cohesive set pacing."
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned as funny in the performance but no specific musical appraisal.",
+      "Phil": "Described as funny; no detailed playing comments.",
+      "Bob": "Referred to as \"Bobby\" and noted for humor, without musical specifics.",
+      "Keys": "",
+      "Drums": "The drummer (referred to as \"Pig\") is said to say little, implying a low-profile presence."
+    },
+    "processed_date": "2025-09-11T09:19:48.614511+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-07-01.sbd.cotsman.9624.sbeok.shnf"
+  }
 }

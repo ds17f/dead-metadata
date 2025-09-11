@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.294117647058823,
   "high_ratings": 14,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Rough audience‑tape quality can't dim the brilliance of this 1970 show – a spacey Dark Star, fiery Other One and killer Not Fade Away sequence steal the spotlight.",
+    "review": "The performance is widely praised for its cosmic Dark Star, high‑energy Other One and tight Not Fade Away→Goin' Down The Road→Not Fade Away jam, with Garcia’s blues‑y guitar work and Phil’s rumbling bass highlighted.  However, listeners repeatedly note the AUD recording suffers from hiss, muffled mids and a distorted low end that makes it hard to enjoy without EQ tricks.  Overall fans love the show but are divided on its listenability.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "high",
+      "rationale": "Show quality scores cluster around 5 stars (excellent performance), while recording quality is consistently rated poor‑to‑fair, pulling the weighted average down to the high‑mid range."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Heavy hiss and tape grain, bass overly distorted/rumbly, mids muffled; occasional cuts in Not Fade Away sequence.  Listeners report needing EQ (reduce bass, add high‑end) to make it tolerable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Other One",
+        "Not Fade Away → Goin' Down The Road → Not Fade Away",
+        "St. Stephen",
+        "Lovelight (noted as less energized but still strong)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Shows a classic late‑1970 arc: Pigpen opener, high‑octane Other One into a deep‑space Dark Star, followed by the explosive Not Fade Away jam and a fiery St. Stephen, giving the night a cohesive, space‑filled momentum."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia delivers bluesy, Coltrane‑like riffs; top form on guitar throughout especially during Dark Star and Not Fade.",
+      "Phil": "Bass described as rumbly, funky and rolling blues bottom runs; some reviewers suggest turning the bass down for comfort.",
+      "Bob": "Weir (Bobby) noted for crisp rhythm chops that “stop them on a dime” during transitions.",
+      "Keys": "Keith piano mentioned in Dark Star; Ned Lagin appears on keys for Other One/Dark Star but is barely audible.",
+      "Drums": "Mickey Hart’s absence noted; drum work generally praised but no specific criticism."
+    },
+    "processed_date": "2025-09-11T11:05:27.210966+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-11-05.aud.warner.17182.sbeok.shnf"
+  }
 }

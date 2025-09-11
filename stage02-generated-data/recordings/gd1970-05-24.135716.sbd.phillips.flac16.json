@@ -14,5 +14,35 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑rating show captured from a soundboard, praised by reviewers despite lack of detail",
+    "review": "Both reviewers gave the recording five stars, calling it beautiful and great, indicating strong overall satisfaction. No specific comments were made about song performance or audio nuances, but the .sbd tag suggests a clean soundboard source that listeners found enjoyable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "low",
+      "rationale": "Both reviews are five‑star and enthusiastic, implying an excellent performance and recording; however only two brief comments limit certainty."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit remarks on audio fidelity; presumed clear soundboard capture given the file type."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T08:29:26.011011+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-05-24.135716.sbd.phillips.flac16"
+  }
 }

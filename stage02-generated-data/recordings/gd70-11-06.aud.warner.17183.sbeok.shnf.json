@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.32,
   "high_ratings": 21,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "A legendary Capitol Theatre show with soaring jams (Alligator, Caution‑Lovelight) captured on a decent but gritty audience tape.",
+    "review": "The performance is hailed as one of the peak 1970 Dead shows – blistering “Alligator”, a monster “Caution → Lovelight” stretch, plus standout Pigpen harp and acoustic moments.  The recording is an audience (AUD) source; listeners note hiss, boom‑y low end and occasional fuzz, but most agree it’s listenable for its era and the music outweighs the sonic flaws.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Average user rating is ~4.3/5; the show receives strong praise while sound quality draws consistent criticism, leading to a high‑confidence mixed‑sentiment rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Typical 1970 AUD tape – hissy highs, boomy lows, occasional fuzzy passages and source switches between crowd recordings.  Some sections (second‑set jams) are clearer than others; overall listenable with EQ."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Alligator",
+        "Good Lovin'",
+        "Caution → Lovelight",
+        "Mountain Jam",
+        "Waggin' Jam/Tail",
+        "Candyman",
+        "Acoustic set (El Paso, New Riders)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Acoustic opener leads into a high‑energy electric set; the second set is jam‑heavy with seamless transitions, delivering a relentless, “radioactive” flow that many reviewers cite as a highlight of the Capitol Theatre run."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar is described as popping, snap‑crackle soloing, and his smile/fun onstage are repeatedly noted.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "The Rhythm Devils’ tone gets special praise for driving the jams."
+    },
+    "processed_date": "2025-09-11T11:09:38.832685+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-11-06.aud.warner.17183.sbeok.shnf"
+  }
 }

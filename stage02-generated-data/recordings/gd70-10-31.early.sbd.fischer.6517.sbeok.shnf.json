@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 3.6,
   "high_ratings": 8,
-  "low_ratings": 5
+  "low_ratings": 5,
+  "ai_review": {
+    "summary": "Decent soundboard capture of the early Stony Brook matinee with a fiery Viola Lee > Cumberland jam, but overall reactions to the performance are split.",
+    "review": "The recording is a solid sound‑board source that generally sounds clear, though a few listeners note tape‑speed quirks and occasional muddiness. Musically the show delivers some high points – the blistering Viola Lee Blues → Cumberland Blues transition, a scorching Hard to Handle, and standout drum work on The Other One – but many fans find it uneven, calling portions lackluster or average compared with other 1970 dates.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.3,
+      "confidence": "medium",
+      "rationale": "Average star rating (~3) and mixed commentary on performance; recording quality is generally good, giving a weighted score around 3.3."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Overall clear and balanced soundboard tape; some reviewers mention occasional tape‑speed issues, minor muffiness or “sound bumps,” but most find the audio listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Viola Lee Blues > Cumberland Blues",
+        "Hard to Handle",
+        "The Other One (drums)",
+        "Dire Wolf",
+        "Dark Hollow"
+      ],
+      "poor_songs": [
+        "Till The Morning Comes"
+      ],
+      "setlist_flow": "Early‑show matinee that feels like a warm‑up; solid jams punctuate an otherwise uneven set, with high energy on the blues numbers and quieter moments elsewhere."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia delivers fiery leads on the Cumberland jam and shines on several cuts, but some listeners note off‑key chords and a laid‑back “don’t give a fuck” vibe.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Mickey’s drumming is praised, especially the extended drum break on The Other One, though a few feel he overplays in places."
+    },
+    "processed_date": "2025-09-11T10:57:26.845502+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-10-31.early.sbd.fischer.6517.sbeok.shnf"
+  }
 }

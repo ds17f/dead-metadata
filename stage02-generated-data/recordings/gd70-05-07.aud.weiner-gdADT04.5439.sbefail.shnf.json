@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.2,
   "high_ratings": 13,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A rough audience tape of a legendary early‑70 show, marred by hiss and muffled mix but rescued by an incendiary Lovelight and scorching early‑set jams.",
+    "review": "Despite the grainy AUD recording that leaves some instruments buried in hiss, this performance shines thanks to a monster Lovelight, fiery second‑set openings (Good Lovin', Cold Rain, Easy Wind) and a classic Cryptical > The Other One > Cosmic Charlie sequence. Jerry’s guitar work is repeatedly praised – from an explosive solo that “shreds” to his steel‑guitar cameo with NRPS – making the show a must‑listen for fans of the young, adventurous Dead.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "The overwhelming majority of reviewers celebrate the musical performance and highlight several standout moments; recording quality is consistently described as poor to fair but not enough to outweigh the show's strength."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Heavy tape hiss, muffled instrument isolation and occasional drop‑outs make the audio challenging; vocals remain audible and the overall energy comes through despite the lo‑fi mix."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lovelight",
+        "Good Lovin'",
+        "Cold Rain and Snow",
+        "Easy Wind",
+        "Cryptical Envelopment > The Other One > Cosmic Charlie",
+        "St. Stephen jam",
+        "Black Peter",
+        "Me and My Uncle"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Three‑set structure (acoustic, NRPS with Jerry on steel, electric) showcases the band's youthful adventurousness; acoustic set sets a relaxed tone, the NRPS interlude adds novelty, and the electric second set bursts with high‑energy improvisations."
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple reviewers note his incendiary solo early in the second electric set and laud his steel‑guitar work with NRPS, calling it beautiful and ‘shredding.’",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:59:31.933554+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-05-07.aud.weiner-gdADT04.5439.sbefail.shnf"
+  }
 }

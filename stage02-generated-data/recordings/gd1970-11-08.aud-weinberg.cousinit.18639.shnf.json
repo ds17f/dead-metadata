@@ -14,5 +14,37 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good‑quality recording that captures a nostalgic show remembered for Pigpen’s soaring organ on “Operator”.",
+    "review": "Fans are clearly enamored with this performance, recalling high‑school nights and even personal encounters with the band. The recording is described as good, though no technical details about source type are given.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "All three reviewers gave high marks (5, 5, 4 stars) and speak positively about the music and recording; limited specifics keep rating modest but clearly above average."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "One reviewer explicitly says the recording quality is good; no comments on soundboard, audience bleed, or other technical issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Operator"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "No specific commentary on set structure; reviewers focus on personal memories rather than song order."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen’s organ work ('Operator') is highlighted as a memorable moment.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:26:43.974027+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-11-08.aud-weinberg.cousinit.18639.shnf"
+  }
 }

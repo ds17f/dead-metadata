@@ -14,5 +14,37 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a feral, high‑energy Lovelight performance with superb Jerry Garcia playing",
+    "review": "The reviewer raves about the show’s nonstop energy and highlights a delightfully feral minor‑mode take on \"Lovelight,\" calling it possibly their all‑time favorite. The recording is praised implicitly by the 5‑star rating and, given the .sbd. tag, is presumed to be a clean soundboard source with no audible flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "low",
+      "rationale": "Single enthusiastic 5‑star review indicates an outstanding performance and likely excellent recording; limited data yields low confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "No complaints; presumed crisp and clear soundboard capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lovelight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Consistently high energy throughout the concert, with no noted lulls."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia is described as playing in a delightfully feral minor mode.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:21:53.558957+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-04-11.136668.sbd.sirmick.flac1644"
+  }
 }

@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.3,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a high‑energy Hawaiian show with wailing Jerry Garcia, standout China Cat Sunflower and Black Peter performances.",
+    "review": "The Goodbear SBD delivers crystal‑clear audio that lets you hear every cowbell, Pigpen’s organ and Jerry’s soaring guitar. The concert bursts with 1969‑era energy – a ripping China Cat Sunflower, dynamite Black Peter, a powerful Hard to Handle (despite a lyric slip) and a phenomenal Lovelight. Overall the performance is vibrant and the recording quality is top‑notch.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Consistently high reviewer scores (average 4.3) combined with repeated praise for excellent soundboard audio and a strong, energetic performance; only minor lyrical slip noted."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "SBD is described as crystal‑clear, well‑balanced with crisp organ, cowbells and Jerry’s guitar tone; no significant dropouts or muddiness reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower",
+        "Black Peter",
+        "Hard to Handle",
+        "Lovelight",
+        "Cryptical Envelopment"
+      ],
+      "poor_songs": [
+        "Hard to Handle"
+      ],
+      "setlist_flow": "High‑energy, 1969‑style set that flows smoothly and captures the fun of a Hawaiian gig; strong transitions and vibrant vibe throughout."
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for wailing guitar tone and leading vocals, especially on China Cat Sunflower.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen's organ highlighted as top form, adding texture to the early songs.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:27:21.324290+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-01-23.sbd.goodbear.88.sbeok.shnf"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.1,
   "high_ratings": 9,
-  "low_ratings": 8
+  "low_ratings": 8,
+  "ai_review": {
+    "summary": "Poor, tin‑can audience recording captures a rare Dark Star→Dancin' sequence with standout jams despite the awful sound.",
+    "review": "The tape is notorious for its muffled, distorted audio – reviewers liken it to a mic in a tin can or an overloaded bass monitor.  Nonetheless the performance shines, especially the long Dark Star that segues into Dancin’ In The Streets, plus a fiery Good Lovin' and a memorable Uncle John’s that many fans deem essential listening for this era.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Most reviewers condemn the recording quality (poor‑to‑unlistenable) but praise the rarity and strength of the Dark Star/Dancin' segment and other jams; weighting show quality higher yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Muffled, tin‑can like sound; heavy distortion, overloaded bass, low fidelity mic placement near stage/monitor; occasional moments of clarity in Dark Star but overall hard to listen."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Dancin' In The Streets",
+        "Good Lovin'",
+        "Uncle John's"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Fragmented recording but the highlighted Dark Star→Dancin' transition is praised as unique; other parts of the set are considered less compelling, yet overall the rare 1970 material is valued by collectors."
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar work on Dark Star and Good Lovin' receives high praise, described as soaring and smoldering.",
+      "Phil": "A short bass solo in Good Lovin' is noted; overall Phil's playing is mentioned positively in a few reviews.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T08:02:26.944333+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-05-08.aud.miller.32056.sbeok.flacf"
+  }
 }

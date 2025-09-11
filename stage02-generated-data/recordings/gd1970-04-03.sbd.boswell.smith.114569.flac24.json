@@ -14,5 +14,37 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Highly praised show and recording from ’70 with a memorable acoustic Wake Up Little Susie, though limited details leave some ambiguity.",
+    "review": "Fans rave about this concert as one of their favorite 1970 performances and cite the recording as among the best of that year. The standout moment highlighted is Jerry and Bob’s acoustic rendition of “Wake Up Little Susie,” which left listeners blown away, even if technical specifics are scarce.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "One reviewer gives a perfect 5‑star rating praising both show and tape; another rates it 0 stars despite enthusiastic prose, creating mixed signals that lower confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "excellent",
+      "technical_notes": "Described as one of the best recordings from 1970, implying clear and well‑balanced sound, though no concrete details about source or mix are provided."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Wake Up Little Susie"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on overall set structure; focus is on the acoustic moment early in the show."
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned wearing matching jeans and a white tee, playing an acoustic Martin that thrilled the reviewer.",
+      "Phil": "",
+      "Bob": "Praised for his acoustic contribution alongside Jerry during Wake Up Little Susie; also noted for matching stage attire.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:14:34.162629+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-04-03.sbd.boswell.smith.114569.flac24"
+  }
 }

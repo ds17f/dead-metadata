@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.444444444444445,
   "high_ratings": 26,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Rare 1970 all‑acoustic set featuring a stellar El Paso and Ballad of Casey Jones, captured on a hiss‑y soundboard that’s fair but still rewarding.",
+    "review": "The show is praised as one of the finest early‑70s acoustic performances – listeners highlight the beautiful rendition of El Paso, Rosalie McFall, Cocaine Blues, Deep Elem Blues and the moving Ballad of Casey Jones.  The recording comes from a soundboard source that suffers from noticeable hiss, a muddy mix and an over‑prominent mandolin, which keeps the technical quality at a fair level but doesn’t diminish the historic value.  Overall fans consider it a treasured gem despite the vocal and mix shortcomings.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers (30+) give 4–5 stars, praising the performance while noting consistent recording flaws; the strong musical merit outweighs technical issues."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Noticeable tape hiss and a muddy mix; mandolin sits too high in the spectrum, vocals are low on several tracks, but overall sound is listenable for an acoustic set."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "El Paso",
+        "Rosalie McFall",
+        "Cocaine Blues",
+        "Deep Elem Blues",
+        "Ballad of Casey Jones",
+        "Mama Tried"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Laid‑back, almost church‑like pacing that lets the acoustic instrumentation breathe; the set feels like a relaxed campfire performance rather than a high‑energy rock show."
+    },
+    "band_member_comments": {
+      "Jerry": "Mandolin work is highlighted (debated whether Jerry or David Nelson), guitar tone praised especially on \"Lay Me Down\".",
+      "Phil": "Bass described as restrained yet providing just enough weight for the acoustic texture.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Mixed opinions – some note Kreutzmann's drumming as too busy, others think Mickey is behind the kit with a lighter, more diagonal feel."
+    },
+    "processed_date": "2025-09-11T09:40:08.649362+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-08-05.sbd.jupile.17271.sbeok.shnf"
+  }
 }

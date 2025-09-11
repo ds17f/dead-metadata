@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.242424242424242,
   "high_ratings": 25,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Crisp soundboard capture of a fiery 1970 set highlighted by a scorching “Dancin’ in the Streets” and soaring Viola Lee Blues.",
+    "review": "The recording, taken from a well‑mixed 16‑track soundboard, delivers clear, present audio with only minor annoyances like occasional three‑second gaps between tracks. Musically the show is a standout of the era – Jerry’s “snaky” guitar work on a blistering Dancin’, a thunderous Viola Lee Blues, deep‑grooving Deep Elem and a soulful Black Peter make this one of the better 1970 performances. While a few transitions (notably China > Rider) feel sloppy and some listeners dislike the track pauses, the overall flow is tight and the band sounds inspired by the co‑headlining Miles Davis night.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "The majority of reviews (30+) are 4‑5 stars praising both performance and sound; only a few low scores focus on minor technical annoyances, yielding an overall high rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Crystal‑clear mix with strong presence and balance (16‑track SBD). Minor issues: occasional 3‑second gaps between tracks, a few patch noises, but overall very listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dancin' in the Streets",
+        "Viola Lee Blues",
+        "Deep Elem (Deep Ellum) Blues",
+        "Black Peter",
+        "Man's World",
+        "Schoolgirl"
+      ],
+      "poor_songs": [
+        "China > Rider transition"
+      ],
+      "setlist_flow": "Generally praised for smooth pacing; candyman → Viola Lee flow noted as especially seamless. The only disruption mentioned is the artificial 3‑second pauses between tracks."
+    },
+    "band_member_comments": {
+      "Jerry": "Described as ‘snaky’, blazing, and uniquely creative on Dancin' with a standout solo that drives the jam.",
+      "Phil": "Solid, pounding bass throughout; highlighted for his contribution to the Dancin' groove and occasional pre‑Mind Left Body jam.",
+      "Bob": "",
+      "Keys": "Organ (Pigpen) unusually forward in the mix, adding weight to Viola Lee and Dancin'; keyboards noted as more prominent than typical 1970 tapes.",
+      "Drums": "Drum break highlighted as a high point; overall tight rhythmic foundation supporting the extended jams."
+    },
+    "processed_date": "2025-09-11T07:24:43.031908+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-04-12.sbd.kaplan.3820.sbeok.shnf"
+  }
 }

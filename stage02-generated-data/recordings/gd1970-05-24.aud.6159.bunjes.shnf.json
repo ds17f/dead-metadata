@@ -14,5 +14,37 @@
   "confidence": 1.0,
   "raw_rating": 4.375,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Rough but listenable audience tape of the Dead’s historic first European gig, highlighted by a breathtaking Dark Star.",
+    "review": "The recording captures the energy of Grateful Dead’s inaugural European appearance at the Hollywood Festival, with fans raving about the high‑octane performance and an especially transcendent Dark Star. The audio is an old audience (aud) source – not pristine, but the ambience and “attics” placement give it a vivid feel despite some roughness.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Reviews are uniformly enthusiastic about the historic show (70% weight) and note only average‑to‑fair audio quality (30% weight), yielding a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Rough, middle‑of‑the‑road sound typical of an old audience tape; some reviewers praise the attic mic placement and overall ambience, but others note muddiness and lack of clarity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Historic first‑European festival set with nonstop energy; a few minor technical glitches didn’t dampen the excitement."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia is noted for his soaring Dark Star and possibly using a Gibson SG for the first time, delivering an inspiring tone.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T08:30:42.480850+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-05-24.aud.6159.bunjes.shnf"
+  }
 }

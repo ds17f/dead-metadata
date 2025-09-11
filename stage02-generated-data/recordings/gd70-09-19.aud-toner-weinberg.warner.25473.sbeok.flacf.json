@@ -14,5 +14,37 @@
   "confidence": 0.8,
   "raw_rating": 2.75,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Muffled, bass‑overloaded audience tapes obscure a potentially legendary show, though the Dark Star from the second‑set matrix shines.",
+    "review": "The recordings are audience (AUD) sources that suffer from severe muffling and excessive low‑end, making much of the performance difficult to evaluate. Despite the poor sound, reviewers repeatedly point out that the second‑set Dark Star is a standout, even ranking among the top ten versions they’ve heard. The show’s musical moments are praised, but the audio quality limits enjoyment for most listeners.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Show performance is regarded as strong (especially Dark Star), but recording quality is consistently described as poor/muffled; weighted average yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Both Weinberg and Toner AUD tapes are described as muffled, with overwhelming bass and low fidelity; only a small portion (Sugar Magnolia → Love Light) is noted to come from an SBD source. A matrix of the second half of the second set offers slightly better balance but overall remains sub‑par."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Reviewers highlight a strong second set, especially the Dark Star, but the poor audio makes it hard to assess the rest of the show; the best‑recorded segment (Sugar Magnolia through Love Light) is noted as the high point."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T10:09:23.560720+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-09-19.aud-toner-weinberg.warner.25473.sbeok.flacf"
+  }
 }

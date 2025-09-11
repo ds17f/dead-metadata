@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 2.8333333333333335,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Historic Sep‑1970 Fillmore East show with the debut of Box of Rain and a monumental Dark Star, recorded on a noisy audience tape that clears up after the first few minutes.",
+    "review": "The performance is praised for its historic moments – the very first live rendition of \"Box of Rain\" and an expansive Dark Star that many fans cite as a highlight. Recording quality is generally described as hissy, quiet and chorus‑like, with the early portion especially rough, though it improves noticeably later in the set. Overall the music shines despite the sub‑par audio source.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Reviews consistently praise the playing (high show quality) while criticizing the tape (low recording quality). Weighted combination yields a solid but not outstanding rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Hissy and quiet mix, early minutes sound muffled and chorus‑like; overall tape is an AUD rather than true SBD, but clarity improves after the first few minutes."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Box of Rain",
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early part suffers from poor audio, but the performance picks up, featuring the historic debut of \"Box of Rain\" and a strong Dark Star that carries the second half."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "His vocal delivery and lyrics on \"Box of Rain\" are highlighted as emotionally resonant.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:58:11.690418+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-09-17.aud.cbass.15983.sbeok.shnf"
+  }
 }

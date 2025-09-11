@@ -14,5 +14,37 @@
   "confidence": 0.4,
   "raw_rating": 3.0,
   "high_ratings": 1,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Atmospheric audience recording with mixed reception; standout Phil and Jerry moments but overall poor sound quality",
+    "review": "The tape captures the concert’s live feel better than the original soundboard, delivering a raw atmosphere that fans love, especially the strong playing from Phil Lesh and Jerry Garcia. However, reviewers criticize the technical flaws – wobble, muffled tones, and a cardboard‑tube like quality – making it one of the weaker sources for this show.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.8,
+      "confidence": "medium",
+      "rationale": "Show performance gets some praise (Phil/Jerry tour de force) but the recording is widely regarded as poor; mixed reviewer scores lead to a modest overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Technical flaws and wobble, muffled/boxy sound described as hearing music through a cardboard tube with pillow stuffing; lacks the clarity of a proper soundboard."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mama Tried"
+      ],
+      "poor_songs": [],
+      "setlist_flow": ""
+    },
+    "band_member_comments": {
+      "Jerry": "Described as part of a \"tour de force\" with strong playing.",
+      "Phil": "Praised alongside Jerry for an outstanding performance.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T10:21:31.343106+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-09-20.aud.weinberg.bunjes.81728.flac16"
+  }
 }

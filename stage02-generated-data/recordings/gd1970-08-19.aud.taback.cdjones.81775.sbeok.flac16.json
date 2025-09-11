@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.363636363636363,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑quality audience cassette capture of a stellar 1970 acoustic set and a looser electric half, highlighted by Lovelight and a ripping Good Lovin'.",
+    "review": "The tape, sourced from Gene Taback’s audience master, offers surprisingly crisp separation and vivid bass definition for a 1970 recording, though the electric half shows occasional tuning roughness. Musically the show shines on the acoustic side—Candyman, How Long Blues, Lovelight and Pigpen’s piano‑driven Truckin’ are repeatedly praised—while the electric set delivers a fire‑stoked Good Lovin’ and strong jams despite some uneven moments.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "The majority of reviews are 4–5 stars, emphasizing excellent vocal harmonies, standout acoustic performances and a surprisingly clean audience recording; only a few note minor tuning issues in the electric set."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Taback’s mic placement yields clear separation and bright mids; reviewers note crisp bass, clean piano and overall liveliness, with some vintage tape coloration and occasional rough edges in the electric portion."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lovelight",
+        "Good Lovin'",
+        "Candyman",
+        "How Long Blues",
+        "Cocaine Blues",
+        "Ripple",
+        "Brokedown Palace",
+        "China Cat Sunflower"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A superb acoustic half (Pigpen on piano, strong vocal harmonies) followed by a more relaxed electric half that still delivers high energy jams despite occasional tuning slips."
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for expressive solos, pedal‑steel work and dynamic guitar; his piano/keyboard presence is highlighted as a key texture.",
+      "Phil": "Bass noted for lively, tight definition thanks to the clean audience capture.",
+      "Bob": "Weir’s rhythm guitar and vocal contributions are mentioned positively, especially on Good Lovin' and Minglewood.",
+      "Keys": "Pigpen’s upright piano (and occasional speculation about other keyboardists) receives strong commendation; overall keyboard presence is clear and vibrant.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:49:54.161290+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-08-19.aud.taback.cdjones.81775.sbeok.flac16"
+  }
 }

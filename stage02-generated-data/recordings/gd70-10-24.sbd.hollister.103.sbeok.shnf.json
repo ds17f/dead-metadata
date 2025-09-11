@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.6666666666666665,
   "high_ratings": 6,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "Soundboard recording but painfully unbalanced and mono; still the raw early‑Dead energy shines on Attics, Lovelight and Good Lovin'.",
+    "review": "The SBD capture of the 10/24/70 show suffers from a muddy, mono mix that many listeners describe as “listening through a wall,” yet the performance itself carries the bristling rawness of early Dead with standout moments like the rare live Attics, a hot Lovelight and an enthusiastic Good Lovin'. Opinions on the set are split – some fans rave about the band’s locked‑in pocket and Pigpen’s organ work, while others find the overall show lackluster.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.1,
+      "confidence": "high",
+      "rationale": "Show quality is mixed with strong positive highlights but many negative comments; recording quality is consistently described as poor, pulling the overall rating down to just above average."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Unbalanced mix, mono sound that needs EQ, often sounds like listening through a wall; clarity is low and frequency response is muddy despite being an SBD source."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Attics",
+        "Lovelight",
+        "Good Lovin'",
+        "Dancing in the Streets"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Set flows from a raw early‑Dead vibe into tighter pocket playing; notable transition from Not Fade Away into a strong Lovelight finale, though some feel the overall pacing is uneven."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Phil’s onstage banter (explaining tour fatigue and flipping off a heckler) is highlighted as a memorable moment.",
+      "Bob": "",
+      "Keys": "Pigpen’s organ work and vocals receive praise, especially on “Oran” and during Lovelight.",
+      "Drums": "Mickey’s unusual cymbal/gong flourish at the end of Lovelight is noted as a unique, attention‑grabbing moment."
+    },
+    "processed_date": "2025-09-11T10:41:22.818245+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-10-24.sbd.hollister.103.sbeok.shnf"
+  }
 }

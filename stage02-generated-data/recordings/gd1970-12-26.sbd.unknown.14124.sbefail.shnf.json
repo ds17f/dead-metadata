@@ -14,5 +14,40 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Warm, solid ’70 show with great song selection, but the soundboard is muddy on the first set and the second set is cut short.",
+    "review": "The concert captures a classic early‑1970 setlist – four cuts from the debut album, several gems from Workingman's Dead, American Beauty and Skull & Roses, plus a standout China Cat Sunflower. Reviewers praise the pacing and overall warmth of the performance, yet note that Ron’s organ is buried in the mix and the first‑set audio is “fraught with sound biffetta,” while most of the promising second set was lost in the recording.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Show quality is rated high (solid song selection, good pacing) but recording suffers from muddiness and missing portions, pulling the overall rating down."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "First set described as having poor sound (“sound biffetta”), Ron’s organ not clearly audible; second set largely cut from the tape. Overall warm tone but significant fidelity issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower",
+        "Selections from Workingman's Dead",
+        "Selections from American Beauty",
+        "Songs from Skull & Roses"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong pacing and diverse song selection make for an engaging set, but the loss of most of the second set and first‑set sound problems disrupt the listening experience."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Ron’s organ is buried in the mix; reviewer wishes it were clearer.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:55:32.458976+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-12-26.sbd.unknown.14124.sbefail.shnf"
+  }
 }

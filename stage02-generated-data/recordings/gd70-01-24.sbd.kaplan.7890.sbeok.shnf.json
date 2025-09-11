@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.846153846153846,
   "high_ratings": 13,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean sound‑board capture of a short, mellow January 1970 Hawaii set highlighted by a stellar Mason's Children and Pigpen’s King Bee.",
+    "review": "The recording delivers surprisingly crisp audio for a 1970 soundboard source, with only occasional drop‑outs and minor pitch quirks noted by one reviewer. Musically the show is praised for its relaxed flow, a slower‑than‑usual Me & My Uncle, a powerhouse Pigpen finale, and standout performances of Mason's Children, Cumberland Blues, Black Peter and Good Lovin'.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers give 5‑star ratings and highlight both excellent performance moments and high‑quality sound; only a single detailed review notes minor dropouts, keeping the overall score in the good‑to‑excellent range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clean and clear for a 1970 SBD; reviewers call it \"awesome\" and \"the cleanest Mason's I've found\", with one note about occasional drop‑outs and slight pitch correction needed."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Mason's Children",
+        "Cumberland Blues",
+        "King Bee",
+        "Me & My Uncle (slower version)",
+        "Black Peter",
+        "Good Lovin'",
+        "Feedback > And We Bid You Goodnight"
+      ],
+      "poor_songs": [
+        "Good Lovin' (contains a cut)"
+      ],
+      "setlist_flow": "A short, single‑set show with a mellow early flow that builds into an energetic Pigpen finale; the pacing feels natural despite its brevity."
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for inventive phrasing on Black Peter, strong guitar work on Mason's Children and Good Lovin', and a slower, tasteful Me & My Uncle.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:29:38.905461+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-01-24.sbd.kaplan.7890.sbeok.shnf"
+  }
 }

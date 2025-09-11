@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 3.4444444444444446,
   "high_ratings": 5,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Energetic NYE show with a stellar Good Lovin' and strong second‑half jams, but the recording is uneven and often poor.",
+    "review": "The performance captures the high‑energy vibe of a 1970 New Year's Eve concert – listeners rave about the climax on Good Lovin', the Cryptical Envelopment → Drums → The Other One sequence and tight moments like Black Peter and Sugar Magnolia. Unfortunately the source is a patchwork of degraded FM‑stereo, audience bleed and occasional soundboard tracks, making the first five songs sound fast, muddy or out‑of‑tune, while later cuts are crystal‑clear stereo.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Show quality is decent with several highlighted jams, but recording problems dominate many reviews; the weighted average yields a modest rating."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "First five tracks are described as fast, degraded and poorly balanced; pitch‑shift issues on Truckin', Cold Rain & Snow, Easy Wind and Cumberland Blues. Later songs (Dire Wolf, Cryptical Envelopment, Black Peter, Sugar Magnolia, Uncle John's Band) are praised as excellent stereo soundboard with some tape hiss. Audience bleed and occasional cuts are also noted."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "The Other One > Cryptical Envelopment > Drums",
+        "Black Peter",
+        "Sugar Magnolia",
+        "Monkey & the Engineer"
+      ],
+      "poor_songs": [
+        "Easy Wind",
+        "Cumberland Blues",
+        "Cold Rain & Snow",
+        "Truckin' (out of tune)"
+      ],
+      "setlist_flow": "One‑set NYE party with a lo‑fi opening that smooths into tighter, high‑energy jams in the middle and a strong finish; several source mismatches cause cuts and pitch anomalies but overall the band maintains an upbeat flow."
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned busting a taper during the show; no specific guitar tone comments.",
+      "Phil": "No direct bass commentary, though pitch problems on some tracks are noted (affecting overall mix).",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Drums highlighted as a strong part of the Cryptical Envelopment → The Other One sequence."
+    },
+    "processed_date": "2025-09-11T12:07:31.324366+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-12-31.sbd-fm.7283.sbeok.shnf"
+  }
 }

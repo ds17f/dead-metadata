@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.818181818181818,
   "high_ratings": 11,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A remarkable Fillmore East show with standout Pigpen performances captured on a rough but listenable audience tape.",
+    "review": "Fans rave about the July 1970 Fillmore East concert – especially the acoustic Pigpen set, “It's A Man’s World”, “Turn On Your Lovelight” and the tight Tighten‑Up jam – calling it one of the band’s best late‑summer shows. The recording is an audience source with hand‑claps, occasional muffled sections and a slight speed issue, but listeners find it enjoyable with EQ or a modest speed boost.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "The show is universally praised (most 5‑star reviews) while the audience recording is noted as uneven but still enjoyable, leading to a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Audience tape with hand‑clapping and lobby ambience; some sections are muffled or hard to hear, occasional tape‑speed slowdown noted. EQ and slight speed correction improve listenability."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Attics of My Life",
+        "It's A Man's World",
+        "Turn On Your Lovelight",
+        "Dancing In The Street",
+        "Tighten Up Jam",
+        "Tell It To Me"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Acoustic Pigpen set opens the midnight show, followed by a New Riders interlude with Garcia on steel, then the electric Dead take over in the early‑morning hours. The pacing is praised as magical and well‑balanced."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s steel‑guitar work with the New Riders is highlighted; fans note he was 'dosed' like the audience but his playing remains a highlight.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:27:58.342634+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-07-12.aud.unknown.sirmick.24663.sbefail.shnf"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a smokin 1970 show with tight jams on Good Lovin', Black Peter, Hard to Handle, St. Stephen and Not Fade Away.",
+    "review": "Both reviewers rave about the performance, calling it one of the band’s best shows and noting the flawless pacing that moves smoothly from tune to tune. The set shines on Good Lovin', Black Peter, Hard to Handle, St. Stephen and a crisp, jam‑heavy Not Fade Away, and the soundboard source delivers clear, balanced audio with no noticeable flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "Two detailed 5‑star reviews praise both the musical performance and the recording quality; the show is highlighted as exceptional and the source is a clean soundboard, justifying an almost top‑tier rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear, crisp mix with seamless transitions; no reported dropouts or muddiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "Black Peter",
+        "Hard to Handle",
+        "St. Stephen",
+        "Not Fade Away"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Excellent pacing; the set moves smoothly from one tune into the next, with tight playing and energetic jams."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T06:19:33.636645+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-13.early.sbd.gans.2208.sbeok.shnf"
+  }
 }

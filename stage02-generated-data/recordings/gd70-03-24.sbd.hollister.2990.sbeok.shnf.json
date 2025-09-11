@@ -14,5 +14,47 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean soundboard recording with an odd instrument‑vs‑vocal panning captures a stellar early‑70 set highlighted by Dark Star, Good Lovin', High Time and seamless segues.",
+    "review": "The show is praised as a prime example of the Dead in 1970, featuring inspired performances of Dark Star, Good Lovin', High Time, The Other One, St. Stephen, NFA, Lovelight and Me & My Uncle. Reviewers note Jerry’s soulful guitar work, Bob Weir’s standout rhythm/vocals and jazzy drumming, while the soundboard is generally clean despite a quirky stereo mix that puts most instruments on one side and vocals on the other.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Consistently high reviewer scores (average ~4.3) and strong positive language about both performance and sound quality, with only minor mix quirks mentioned."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clean overall sound but unusual stereo separation (most instruments on one channel, vocals on the other). Opening Dew is cut short; otherwise no major drop‑outs or muddiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Good Lovin'",
+        "High Time",
+        "The Other One",
+        "St. Stephen",
+        "Not Fade Away (NFA)",
+        "Lovelight",
+        "Me and My Uncle",
+        "Cold Rain & Snow"
+      ],
+      "poor_songs": [
+        "Morning Dew (cut short)"
+      ],
+      "setlist_flow": "The set is praised for inventive segues—High Time → Dark Star → The Other One → St. Stephen → Drums → NFA → Lovelight → Me and My Uncle—creating a flowing, exploratory journey."
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar tone and soulful playing are highlighted, especially on High Time and the expansive Dark Star jam.",
+      "Phil": "",
+      "Bob": "Weir receives high praise for his rhythm guitar work and vocal delivery, notably on the Good Lovin' jam and a beautiful Cold Rain & Snow.",
+      "Keys": "",
+      "Drums": "Jazzy, creative drumming is noted in the jam into Good Lovin' and the transition to NFA."
+    },
+    "processed_date": "2025-09-11T07:10:44.177671+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-03-24.sbd.hollister.2990.sbeok.shnf"
+  }
 }

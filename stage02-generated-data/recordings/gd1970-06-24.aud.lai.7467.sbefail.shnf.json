@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.3,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A legendary June‑24‑1970 show with scorching Alligator > Other One jams and rare Attics runs, captured on a rough audience tape.",
+    "review": "Fans rave about the performance – multiple Attics renditions, an incendiary Alligator > Other One sequence, a sweet second Dark Star and standout early cuts of Cold Rain & Snow and Good Lovin' > China > Rider.  The recording is an audience capture with noticeable muddiness, drop‑outs and limited fidelity, but listeners accept the trade‑off for the historic set.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers give high marks (5 stars) for the show itself; only a few note poor sound quality, yielding an overall weighted average around 4.3."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Sound is not great – muffled, occasional drop‑outs and low fidelity; reviewers call it a 1‑star SQ or “not great” but still valuable for the missing material."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Alligator > Other One (jam)",
+        "Attics (three versions – acoustic & electric)",
+        "Cold Rain and Snow",
+        "Dark Star (second set, unique)",
+        "Good Lovin' > China > Rider > Good Lovin'",
+        "Men And My Uncle (gunshot/fireworks moment)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early set praised for its energy; the band weaves in and out of jams, delivering a powerful second half with multiple Attics reprises and a standout Alligator jam that ties the two shows together."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:15:31.553203+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-06-24.aud.lai.7467.sbefail.shnf"
+  }
 }

@@ -14,5 +14,45 @@
   "confidence": 0.8,
   "raw_rating": 3.25,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience tape captures a hot electric set with standout NFA > Lovelight, but the acoustic portion is muffled and the recording has some high‑end distortion.",
+    "review": "The show delivers high‑energy electric playing – classic versions of Cold Rain & Snow and Easy Wind, plus an electrifying Not Fade Away → Lovelight that many reviewers call a five‑star moment. The audience‑recorded source sounds clear on the electric side but struggles with the acoustic set and shows occasional distortion and tape drop‑outs, leading to mixed feelings about overall fidelity.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "high",
+      "rationale": "Four detailed reviews give an average of ~3.25 stars; strong musical moments are balanced by recording limitations, resulting in a moderate‑high rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Electric set is loud and clear; acoustic portion is muffled. Reviewers note some high‑end distortion, tape hiss, and occasional drop‑outs, especially on guest vocals (Crosby/Nelson)."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cold Rain & Snow",
+        "Easy Wind",
+        "Not Fade Away > Lovelight",
+        "Cryptical Envelopment / The Other One",
+        "I Know You Rider",
+        "Black Peter",
+        "Cocaine Blues (rare)"
+      ],
+      "poor_songs": [
+        "Hard to Handle (flubbed beginning)"
+      ],
+      "setlist_flow": "The acoustic set suffers from recording issues, but the electric half picks up momentum with tight, concise jamming and a high‑spirited second half that keeps the show lively."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen's piano is prominent and gritty on acoustic numbers; organ is barely audible. Guest vocalists (Crosby/Nelson) are faint but affect the jam direction.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:50:34.057166+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-08-19.aud.cotsman.11797.sbeok.shnf"
+  }
 }

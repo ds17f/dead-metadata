@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.083333333333333,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Fair audience tape of the legendary July 11 1970 Fillmore East show, highlighted by an electrifying Easy Wind opener, a rare acoustic set with “So Sad” and “Rosa Lee”, plus a high‑energy New Riders appearance.",
+    "review": "The performance is widely praised – the electric set bursts out with Easy Wind and a sprawling Dancing‑Cryptical‑Other One medley, while the acoustic half delivers standout moments like the Everly Brothers cover “So Sad”, the gospel trio and Rosa Lee. The recording is an audience capture from 1970 that suffers from left‑channel dominance, tape hiss and a cassette‑bootleg feel, but listeners accept its historical value and raw atmosphere.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers rave about the musical performance (many 5‑star comments) while noting consistent, though modest, audio limitations; weighted rating yields a solid >4 score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Left channel carries the first nine songs, right channel is mostly tape hiss; overall low‑fidelity cassette feel with noticeable hiss and occasional dropouts but acceptable for a 1970 audience recording."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Easy Wind",
+        "Dancing > Cryptical > Other One > Cryptical > Lovelight (medley)",
+        "So Sad (To Watch Good Love Go Bad) – Everly Brothers cover",
+        "Rosa Lee",
+        "Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Acoustic set opens with three gospel numbers, includes the rare Everly Brothers cover and Rosa Lee; electric set kicks off with Easy Wind and a sprawling medley, culminating in high‑energy jams and a powerful New Riders segment."
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for heavy guitar work, pedal‑steel moments and possibly an early wah‑wah effect; his presence drives the high energy of both acoustic and electric portions.",
+      "Phil": "",
+      "Bob": "Noted singing on \"Good Lovin'\" and vocal harmonies on the line “out where the horses were tied”.",
+      "Keys": "Pigpen is mentioned playing keyboards (solo set) despite laryngitis; his keyboard contributions are highlighted.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:25:18.236813+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-07-11.aud.cotsman.9379.sbefail.shnf"
+  }
 }

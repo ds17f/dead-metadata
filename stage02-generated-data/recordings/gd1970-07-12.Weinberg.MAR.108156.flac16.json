@@ -14,5 +14,35 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Mislabeled tape that’s mostly New Riders with a fun midnight acoustic set but harsh electric sound and confusing date.",
+    "review": "The recording is largely a New Riders of the Purple Sage performance mistakenly filed as a Grateful Dead show, with a pleasant acoustic segment recorded at midnight but an electric portion that listeners describe as abrasive and poorly mixed. Recording quality is uneven, the concert date appears to be July 11 1970 (not July 12), and the content leaves many Dead fans disappointed.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.1,
+      "confidence": "medium",
+      "rationale": "Two low‑star reviews criticize the mislabeling and sound issues, while one 5‑star review only notes a date correction; overall rating falls toward the lower end despite limited data."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Electric portion sounds harsh and nerve‑racking; acoustic set is clearer. Reviewers note confusion over track list, mixing of New Riders material, and possible mislabeling."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Midnight start with a fun acoustic set followed by an electric portion that listeners found abrasive; overall the show contains very little Dead material and feels more like a New Riders gig."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:28:59.126223+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-07-12.Weinberg.MAR.108156.flac16"
+  }
 }

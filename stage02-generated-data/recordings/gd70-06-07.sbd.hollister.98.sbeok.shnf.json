@@ -14,5 +14,46 @@
   "confidence": 1.0,
   "raw_rating": 4.523809523809524,
   "high_ratings": 20,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording with a warm acoustic set and a stellar Cryptical > Drums > Other One sequence, despite some bass‑heavy tape warble.",
+    "review": "The June 7 1970 Fillmore West show captures an intimate three‑set performance that shines on the acoustic opener and the second‑set Cryptical Envelopment → Drums → The Other One → Cryptical Reprise stretch. Jerry’s voice soars on New Speedway Boogie while his guitar work dazzles on Casey Jones, and the Good Lovin’ drum jam is a highlight. The SBD source is generally clear but exhibits heavy bass, occasional hiss and a splice glitch in Cumberland Blues.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers (20+) give 4‑5 stars and praise the performance; recording issues are noted but do not dominate, yielding a strong overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Warm SBD capture with noticeable bass boost, occasional tape warble/hiss and a splice glitch in Cumberland Blues; unmiked crowd voice during drums adds character but overall fidelity is solid."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cryptical Envelopment > Drums > The Other One > Cryptical Reprise",
+        "Good Lovin' > Drums > Good Lovin' jam",
+        "Casey Jones",
+        "Friend of the Devil",
+        "New Speedway Boogie",
+        "Cumberland Blues",
+        "Sugar Magnolia (first version, slower tempo)"
+      ],
+      "poor_songs": [
+        "Silver Threads and Golden Needles (ragged performance)",
+        "Sugar Magnolia (slow tempo, deemed weakest by some reviewers)"
+      ],
+      "setlist_flow": "The concert opens with a breezy acoustic set that sets a relaxed vibe, followed by a powerful second set highlighted by the Cryptical‑drums‑Other One suite and expansive jams. The third set continues the momentum with tight rockers and classic finishes, delivering a well‑balanced three‑set arc."
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals shine on New Speedway Boogie (though a few reviewers note slight strain); guitar work praised especially on Casey Jones; also appears on pedal steel during the show.",
+      "Phil": "Generally solid bass foundation, but his vocal harmonies are described as off on Silver Threads and Golden Needles.",
+      "Bob": "Provides strong harmony on Me & My Uncle and adds humorous stage banter about audience song requests.",
+      "Keys": "",
+      "Drums": "Strong, especially in the quiet transition between Cryptical and The Other One; Good Lovin' drum jam highlighted; occasional unmiked woman voice heard during drums."
+    },
+    "processed_date": "2025-09-11T08:49:34.003029+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-06-07.sbd.hollister.98.sbeok.shnf"
+  }
 }

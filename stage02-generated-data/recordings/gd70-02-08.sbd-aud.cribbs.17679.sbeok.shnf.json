@@ -14,5 +14,42 @@
   "confidence": 0.6,
   "raw_rating": 3.6666666666666665,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A mixed‑quality matrix tape that starts hazy but clears up after the board switch, delivering a monster Smokestack Lightning and an adventurous Dark Star.",
+    "review": "The recording begins as a low‑gen audience capture before transitioning to a clean soundboard feed, resulting in variable clarity but ultimately solid audio for the second half. Musically the show shines with Pigpen’s 15‑minute Smokestack Lightning, a wandering yet compelling Dark Star, and a lively Lovelight, though St. Stephen is noted as chaotic by some listeners.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "medium",
+      "rationale": "Show quality is strong with several standout performances; recording quality varies but improves later, leading to an overall rating just under 4 stars."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Starts as a vintage low‑gen audience tape, then switches to a clean board source mid‑show. Early Dark Star is described as horrible sounding, but after about 20 minutes the sound becomes super good and stays that way through St. Stephen."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Smokestack Lightning",
+        "Dark Star",
+        "Lovelight",
+        "St. Stephen"
+      ],
+      "poor_songs": [
+        "St. Stephen"
+      ],
+      "setlist_flow": "Rough, low‑fidelity opening that gains momentum when the board feed comes in; the second half flows well with high energy and strong jams."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "Bob's vocal scream during St. Stephen is noted as chaotic.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:58:49.677973+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-02-08.sbd-aud.cribbs.17679.sbeok.shnf"
+  }
 }

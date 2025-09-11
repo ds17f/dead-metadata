@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.315789473684211,
   "high_ratings": 16,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good‑quality soundboard capture of a rare 1970 show brimming with acoustic gems and obscure tunes like Saw Mill and Hard to Handle.",
+    "review": "The SBD source is generally clear with only a little hiss, making the many rare moments audible.  Fans rave about the acoustic set, the surprise appearance of songs such as Saw Mill, Hard to Handle and Katie May, and Jerry’s intense playing, while Phil’s busted amp adds an odd but memorable twist.  Overall the performance is celebrated for its emotional depth despite a few short‑song sections.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "20 reviews give a solid average of ~4 stars; most praise the show’s rare acoustic material and Jerry’s playing, while recording comments note only minor hiss."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Standard SBD quality – clear overall with a bit of hiss; acceptable for capturing the acoustic set and rare songs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Saw Mill",
+        "Hard to Handle (1970 version)",
+        "Katie May",
+        "The Race Is On",
+        "Acoustic set gems (e.g., Little Sadie, Seasons, Black Peter)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A rich acoustic first half followed by a tighter electric second set; Phil’s amp mishap forced a shorter, punchier feel but the band turned it into a memorable performance."
+    },
+    "band_member_comments": {
+      "Jerry": "Intensity and strong guitar tone noted; fans say he never ceases to amaze.",
+      "Phil": "Bass amp blew mid‑show, leading to a short‑song set but praised for turning mishap into gold.",
+      "Bob": "",
+      "Keys": "Pigpen reportedly back on organ, adding depth to the acoustic material.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:34:08.676442+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-01-31.sbd.cotsman.7045.sbefail.shnf"
+  }
 }

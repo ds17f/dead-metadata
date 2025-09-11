@@ -14,5 +14,38 @@
   "confidence": 0.8,
   "raw_rating": 4.5,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A three‑set powerhouse with a blistering 'Other One' captured on an audience tape of modest fidelity.",
+    "review": "The performance is described as tight, energetic and full of wow moments – especially the soaring 'Other One' and a punchy opening with 'Casey Jones'.  The recording sounds like an audience source from Portchester; it’s listenable but suffers from lower‑grade taping and occasional song cuts.  Overall the show shines despite the technical limitations.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Strong musical praise (70% weight) outweighs modest recording quality (30% weight), yielding a high overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Lower‑grade taping with some song cuts; drums are distinctive but overall mix is not crisp or balanced like a soundboard."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Three sets – electric opener, an acoustic middle set with the New Riders, and a high‑energy closing set.  The vibe is described as tight and powerful, with crowd energy feeding into the band."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Drums are noted for their unmistakable, strong presence throughout the performance."
+    },
+    "processed_date": "2025-09-11T09:16:50.358537+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-06-24.aud.cooper.coopernicus.32710.flac16"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 2.857142857142857,
   "high_ratings": 2,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "A rough, noisy audience recording that nonetheless captures a lively free concert with standout Good Lovin' and Lovelight moments.",
+    "review": "The show is remembered fondly as a free, hillside concert with an acoustic opening, NRPS set and solid Dead performances – especially Good Lovin', Lovelight, Hard To Handle and China/Rider. However, the audience‑taped source is plagued by heavy crowd noise and low fidelity, making many sections difficult to hear despite occasional clear spots.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "medium",
+      "rationale": "Most reviewers praise the performance but consistently criticize the recording quality; averaging the mixed star ratings yields a mid‑range score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Very noisy and muffled, with crowd din drowning the band for much of the set; occasional moments (e.g., Lovelight) are clearer but overall fidelity is low and far from soundboard quality."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "Lovelight",
+        "Hard To Handle",
+        "China/Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "An informal free concert with an acoustic Garcia/Weir opening, a New Riders set, and the Dead taking the stage amid political announcements; flow is uneven due to spoken interruptions but overall energetic."
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned as part of the acoustic opening; no specific guitar commentary.",
+      "Phil": "Referenced only in the acoustic lineup (Lesh) without performance detail.",
+      "Bob": "Cited in the acoustic opening with Weir; no further remarks on his playing.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:46:27.061790+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-05-03.aud.cotsman.9378.sbeok.shnf"
+  }
 }

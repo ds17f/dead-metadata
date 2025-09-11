@@ -14,5 +14,41 @@
   "confidence": 0.4,
   "raw_rating": 3.5,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording praised for its crisp clarity, capturing a fiery Dark Star → Other One stretch and solid early‑70s psychedelic jams.",
+    "review": "The sbd source is described as “top notch” and even “crispy,” indicating a clean, well‑balanced capture. Reviewers highlight the high‑energy Dark Star/Other One sequence along with classic numbers like St. Stephen and Not Fade Away, though comments are scattered and overall sentiment is mixed.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.5,
+      "confidence": "medium",
+      "rationale": "Positive remarks about sound quality and several standout songs offset by vague, low‑rated and disjointed feedback; limited number of reviews yields moderate confidence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers note \"top notch\" and \"crispy\" sound with no reported drop‑outs or distortion; overall a clear, well‑mixed capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Other One",
+        "St. Stephen",
+        "Not Fade Away",
+        "Me & My Uncle"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A rapid‑fire, mojo‑filled set that jumps between keys and moods, delivering classic psychedelic peaks despite a somewhat rambling description."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s urgent lead on The Other One is specifically praised.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:11:13.670187+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-03-24.136667.sbd.sirmick.flac1648"
+  }
 }

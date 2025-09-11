@@ -14,5 +14,45 @@
   "confidence": 1.0,
   "raw_rating": 4.771428571428571,
   "high_ratings": 35,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a legendary 1970 Alfred acoustic set (Me & My Uncle, Mama Tried, Monkey & the Engineer) with a scorching Speedway Boogie electric finish.",
+    "review": "The recording is a high‑quality soundboard mix that brings out the crystal‑clear harmonies and Jerry Garcia’s razor‑sharp guitar on the acoustic classics while still delivering a powerful electric second set. Reviewers rave about the acoustic gems—Deep Elem Blues, Me & My Uncle, Mama Tried—and the fiery Speedway Boogie, noting only occasional low‑frequency muddiness and minor tape‑speed quirks. Overall it is regarded as an essential document of the early‑'70 Dead in their raw, pre‑corporate era.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Over 30 reviews, most 4–5 stars, consistently praising the performance and noting only minor technical flaws; strong show quality (70%) plus good recording quality (30%) yields a high overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Stereo soundboard mix praised as crisp and excellent; occasional oversaturation below ~125 Hz, mic‑noise on I Know You Rider, a cardboard‑box beat on one track, and minor tape‑speed/pitch issues on a few songs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Me & My Uncle (acoustic)",
+        "Mama Tried (acoustic)",
+        "Deep Elem Blues",
+        "Monkey & the Engineer",
+        "Speedway Boogie (electric)",
+        "The Other One"
+      ],
+      "poor_songs": [
+        "Cryptical Envelopment (muddy low end)",
+        "I Know You Rider (mic noise)"
+      ],
+      "setlist_flow": "A superb acoustic first set that many call one of the best ever, followed by a high‑energy electric second set; occasional cuts and missing moments noted but overall pacing praised."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar tone described as perfect on the acoustic songs and shredding on Speedway Boogie; also noted for an extra lyrical line on I Know You Rider.",
+      "Phil": "Mentioned briefly in context of early rehearsals of I Know You Rider and his selection of the show for a compilation; no specific performance comments.",
+      "Bob": "",
+      "Keys": "NRPN (New Riders) members such as Marmaduke provide backing vocals on Mama Tried and Me & My Uncle; keyboards not specifically highlighted.",
+      "Drums": "No direct commentary on Bill Kreutzmann or Mickey Hart beyond general praise of the band's interplay."
+    },
+    "processed_date": "2025-09-11T07:36:32.005396+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-05-01.sbd.miller.95683.sbeok.flac16"
+  }
 }

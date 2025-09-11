@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 2.6,
   "high_ratings": 0,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "A jumbled matrix recording with spotty sound quality, but a decent Cold Rain & Snow and solid Good Lovin' performance.",
+    "review": "The tape is an odd mixture of sound‑board (SBD) and audience (AUD) sources from two different dates (3/20/70 and 11/11/70), which makes the set order confusing and the audio inconsistent – the opening tracks are muddy while later sections are clearer. Musically the only clear high point is a strong Cold Rain & Snow with a nice Jerry solo, and Good Lovin' sounds fine; otherwise the show offers no standout moments to outweigh the technical mess.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.8,
+      "confidence": "medium",
+      "rationale": "Multiple reviewers note serious recording problems and a confusing track order, but a few highlight decent musical spots; the weighted average of star scores (≈2.2) and the mixed commentary lead to a low‑mid rating."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Tracks switch between SBD (soundboard) and AUD (audience) sources, causing inconsistent clarity – early tracks are described as “bad sound” or “muddy,” later electric sections are noted as “fine.” The tape is jumbled, with duplicate filler from another show."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cold Rain & Snow",
+        "Good Lovin'"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Confusing; the recording stitches together parts of two different concerts (3‑20‑70 and 11‑11‑70), resulting in a disjointed set order that makes following the show difficult."
+    },
+    "band_member_comments": {
+      "Jerry": "Nice solo on Cold Rain & Snow noted by reviewers.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T06:59:39.349370+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-03-20.sbd.yerys.1315.sbeok.shnf"
+  }
 }

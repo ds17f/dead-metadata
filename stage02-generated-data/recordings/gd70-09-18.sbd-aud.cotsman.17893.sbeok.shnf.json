@@ -14,5 +14,43 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A legendary 1970 set with monster Dancin' and a stellar St. Stephen > NFA > Good Lovin', but the matrix recording is plagued by muffled, static‑filled audience sections.",
+    "review": "The show shines with extraordinary jamming – Bob Garcia’s lead work on Dancin', the epic St. Stephen > NFA > Good Lovin' run and a powerful Other One – and fans rave about the band’s energy. Unfortunately the AUD portions are riddled with drop‑outs, static and inaudible vocals, so listeners are urged to stick to the soundboard tracks for the best experience.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Show performance is praised as exceptional (multiple 5‑star comments) while recording quality is frequently called poor; weighted average yields a solid 4.2 rating."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Muffled sound, static and channel panning issues; severe dropouts on Candyman and the first Cryptical make those tracks nearly unlistenable; operator vocals almost inaudible; audience‑only sections are low fidelity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dancin'",
+        "St. Stephen > Not Fade Away > Good Lovin'",
+        "The Other One",
+        "Man's World"
+      ],
+      "poor_songs": [
+        "Candyman (due to dropouts)",
+        "Cryptical (first version, due to dropouts)"
+      ],
+      "setlist_flow": "A wild 1970 Dead set that builds into a second‑set climax with Dancin' and the classic St. Stephen > NFA > Good Lovin' sequence, showcasing generous solo trading between Jerry and Bob."
+    },
+    "band_member_comments": {
+      "Jerry": "Very generous, letting Bob take many solos; shredding in unison with Bob during jams.",
+      "Phil": "",
+      "Bob": "Takes lead guitar duties on several songs, delivering great leads on Dancin', Good Lovin' and the NFA segment.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T10:02:41.906582+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-09-18.sbd-aud.cotsman.17893.sbeok.shnf"
+  }
 }

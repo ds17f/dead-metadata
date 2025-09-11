@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.625,
   "high_ratings": 5,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "Despite a severely compromised soundboard tape, the concert is remembered for an electrifying set featuring Cosmic Charlie, Dark Star and The Eleven amidst a chaotic chimp‑opened night.",
+    "review": "The performance itself gets high marks – fans rave about a soaring rendition of Cosmic Charlie, a wild Dark Star, The Eleven and Uncle John’s Band, plus the novelty of a chimp opening act and New Riders support.  However, the recording is widely described as poor to non‑existent, with heavy distortion, tape flaws and even questions about its authenticity, making it barely listenable.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Show quality is praised strongly while recording quality is consistently criticized; the weighted average (70% show, 30% recording) lands in the low‑mid range."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Multiple reviewers call the sound \"non‑existent\" or heavily distorted; tape flaws and possible mislabeling are noted, making it barely listenable even in a car."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cosmic Charlie (Cryptical)",
+        "Dark Star",
+        "The Eleven",
+        "Uncle John's Band"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Chaotic opening with a chimp act and New Riders of the Purple Sage, then a classic Dead set that builds into powerful jams; overall pacing praised despite the unusual first act."
+    },
+    "band_member_comments": {
+      "Jerry": "Vocals (and guitar) noted as passionate – \"both Jerry and Bobby are singing like they mean it\".",
+      "Phil": "Bass described as sweet and bouncy, especially on the Cryptical return.",
+      "Bob": "Weir's vocals praised alongside Jerry’s; his presence adds to the energy.",
+      "Keys": "Ned (keyboardist) is mentioned as present but poorly captured in the tape.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:41:49.997647+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-11-21.sbd.cotsman.17033.sbeok.shnf"
+  }
 }

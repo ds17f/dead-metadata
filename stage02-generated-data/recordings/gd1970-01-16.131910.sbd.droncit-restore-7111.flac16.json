@@ -14,5 +14,41 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Restored soundboard tape offers clear, strong sound on the second half with standout renditions of Easy Wind, Dire Wolf and an epic Uncle John's Band intro.",
+    "review": "The recording shows a noticeable dip in clarity and tempo during the first fifteen tracks, but the cleanup work shines through on the final ten songs, delivering crisp audio. Musically the show is praised for hot performances of Easy Wind, Dire Wolf, Anthem of the Sun and an extended jam (Cryptical > Drums > The Other One > Cryptical), with Jerry’s guitar intro on Uncle John's Band highlighted as a highlight.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Most reviewers rate the show highly (4‑5 stars) and praise the later‑half performance and restoration, while one reviewer criticizes the early tracks; overall the musical quality is strong and the recording is good after cleanup."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Early portion sounds fast and muddy with some cuts, but restoration work improves clarity on later tracks; overall the tape is listenable with a clean finish."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Easy Wind",
+        "Dire Wolf",
+        "Uncle John's Band (intro)",
+        "Anthem of the Sun",
+        "Cryptical > Drums > The Other One > Cryptical"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "First half feels rushed and suffers from poorer sound, but momentum builds into a strong second half with tight transitions and high‑energy jams."
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar intro on Uncle John's Band praised; overall playing described as \"over the top\".",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Jam sequence (Cryptical > Drums > The Other One) highlighted, indicating strong drum work."
+    },
+    "processed_date": "2025-09-11T05:19:26.627966+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-01-16.131910.sbd.droncit-restore-7111.flac16"
+  }
 }

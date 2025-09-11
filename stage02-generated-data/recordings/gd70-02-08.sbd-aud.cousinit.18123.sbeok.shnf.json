@@ -14,5 +14,38 @@
   "confidence": 0.8,
   "raw_rating": 3.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Strong show highlighted by an epic Smokestack Lightning, captured on a rough ’70 audience tape that’s listenable despite occasional sound issues.",
+    "review": "The performance is praised for its rare and powerful Smokestack Lightning – called the best ever – plus a unique St. Stephen > Not Fade Away > St. Stephen sandwich. While the recording is an old‑school audience tap with some muddiness and dropouts, reviewers find it sufficiently clear to enjoy the music.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Multiple detailed reviews highlight standout musical moments (especially Smokestack Lightning) while noting only moderate recording flaws; the weighted average of show quality and recording quality yields a strong rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Occasional muffled sections and drop‑outs typical of a 1970 audience tape, but overall the mix is listenable; sound issues noted at times."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Smokestack Lightning",
+        "St. Stephen > Not Fade Away > St. Stephen"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Setlist praised for its rarity and flow, with a unique St. Stephen/NFA sandwich that adds intrigue despite some early‑show hesitation."
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar duel with Bob during the final break of Smokestack Lightning is highlighted as a high point.",
+      "Phil": "",
+      "Bob": "Featured in the guitar duel on Smokestack Lightning; contributes to the standout moment.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:58:10.349884+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-02-08.sbd-aud.cousinit.18123.sbeok.shnf"
+  }
 }

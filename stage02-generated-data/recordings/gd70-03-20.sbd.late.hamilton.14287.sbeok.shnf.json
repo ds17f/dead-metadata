@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 3.4,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording with generally good sound despite occasional low‑quality sections, highlighted by a bang‑off opening Casey Jones and an electric set featuring a smoking Good Lovin'/Not Fade Away/Drums sandwich and scorching Viola Lee Blues.",
+    "review": "The show is widely praised for its energetic setlist – an explosive start with Casey Jones, a classic China Cat Sunflower > I Know You Rider transition, and a second electric half that many call \"smoking\" thanks to Good Lovin', Not Fade Away, drums, Viola Lee Blues and a heartfelt High Time.  The recording is mostly clear and captures the live atmosphere, though listeners note inconsistent levels on the early tracks and some low‑quality moments.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "high",
+      "rationale": "Reviews range from 1 to 5 stars; most are positive about the performance while noting recording inconsistencies, yielding a moderate overall rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Overall clear and live‑feel soundboard capture, but early tracks suffer from low‑level/mic issues and occasional muffled sections; acoustic portion sounds better than the first electric tracks."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Casey Jones",
+        "China Cat Sunflower > I Know You Rider",
+        "Good Lovin' / Not Fade Away / Drums",
+        "Viola Lee Blues",
+        "High Time",
+        "We Bid You Goodnight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong opening, smooth transition to an acoustic segment (with mic level changes), then a high‑energy electric second set that many reviewers describe as smoking."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Praised for tight, driving performance in the Good Lovin'/Not Fade Away/Drums sequence."
+    },
+    "processed_date": "2025-09-11T06:56:18.654398+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-03-20.sbd.late.hamilton.14287.sbeok.shnf"
+  }
 }

@@ -14,5 +14,38 @@
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Lo‑fi acoustic recording captures a magical set with standout How Long Blues and Attics of My Life, despite cassette‑grade sound.",
+    "review": "Both reviewers rave about the intimate acoustic portion of this early Dead show – highlighting an “off the charts” dancing finale, a rare How Long Blues, and a beautiful rendition of Attics of My Life. The recording itself is noted as cassette‑quality (a definite “C”), so while the performance shines, the audio fidelity is only fair.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Strong enthusiasm for the musical moments (high show rating) but clear comments about low‑fidelity cassette sound lower the overall score."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Reviewer calls the sound a “definite C,” indicating cassette‑grade lo‑fi audio; no specific mention of soundboard or audience mic, but fidelity is limited."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "How Long Blues",
+        "Attics of My Life"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Acoustic set builds to an ecstatic dancing finale; the flow is praised for its intimacy and energy despite limited recording clarity."
+    },
+    "band_member_comments": {
+      "Jerry": "Singing “don’t murder me” (vocals noted by reviewer).",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pig Pen appears, asks for a harmonica and is remembered riding in a horse‑drawn carriage.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:28:28.611550+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-07-12.aud.mysteryreel.cloverman.smith.GEMS.108002.flac16"
+  }
 }

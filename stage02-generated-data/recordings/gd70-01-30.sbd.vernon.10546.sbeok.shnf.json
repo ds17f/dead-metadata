@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.222222222222222,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑fidelity soundboard capture of an underrated 1970 show featuring razor‑sharp Jerry leads, stellar High Time/Easy Wind and a smoking Other One despite a rough Cosmic Charlie cut.",
+    "review": "The recording is a clean SBD source that many reviewers describe as “great” and “sound is also great,” delivering a clear mix that lets the band’s interplay shine. Musically the show stands out for its tight, melodic set – Black Peter, High Time, Easy Wind and an inspired Other One segue into Cosmic Charlie are repeatedly praised, while the occasional rough edit (the Cosmic cut) is noted but doesn’t detract from the overall performance.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4‑5 stars, highlight strong performances and good sound quality; weighting favors show quality (70%) with solid recording assessment (30%)."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Consistently described as clear and great sounding; minor complaint about a rough Cosmic Charlie edit, but no major dropouts or muffiness."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "High Time",
+        "Easy Wind",
+        "Black Peter",
+        "Other One",
+        "Cosmic Charlie",
+        "China Cat Sunflower",
+        "Cumberland"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows from energetic early numbers (Casey Jones, Me & My Uncle) into a mellow groove with ballads and strong segues, highlighted by a powerful Other One → Cosmic Charlie sequence despite a brief cut."
+    },
+    "band_member_comments": {
+      "Jerry": "Leads described as razor‑sharp, perfect tone on High Time and Other One.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Tom Constanten’s last show; his playing is audible but occasionally muddled, yet shines on China Cat and High Time.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:31:00.525900+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-01-30.sbd.vernon.10546.sbeok.shnf"
+  }
 }

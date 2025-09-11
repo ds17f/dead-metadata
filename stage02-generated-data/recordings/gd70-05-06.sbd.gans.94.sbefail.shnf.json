@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.695652173913044,
   "high_ratings": 43,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A superb May 6 1970 MIT free‑show captured from the band’s feed – crystal‑clear soundboard tape of a fire‑filled set highlighted by an iconic Dancin’, monster Good Lovin’ and soaring St. Stephen.",
+    "review": "The recording, sourced directly from the MIT radio feed (essentially a sound‑board capture), is remarkably clear for a 1970 tape with only occasional rough edges and a brief mic glitch at the start of Good Lovin’. Musically the show is often described as one of the band’s finest of the year – Jerry’s ferocious guitar on Dancin’, Phil’s lead‑bass interplay, Pigpen’s vital organ/vocals, and inspired jams on St. Stephen, Not Fade Away and Morning Dew make it a must‑hear performance.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Over 40 reviews consistently praise both the musical performance (standout jams, tight set flow) and the recording quality (soundboard source, crisp sound). The few minor complaints do not outweigh the overwhelming enthusiasm."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear, balanced mix from the MIT radio feed; occasional tape‑saturation warmth and a brief microphone glitch at the start of Good Lovin'. Some reviewers note a slight roughness in spots but overall excellent for the era."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dancin'",
+        "Good Lovin'",
+        "St. Stephen",
+        "Not Fade Away",
+        "Morning Dew",
+        "China Cat (or China Rider)",
+        "Casey Jones"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set rolls with high energy despite cold weather, moving from a tight first half into sprawling jams; the Good Lovin’/St. Stephen/NFA sequence is highlighted as a seamless, improvisational peak."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar is described as ferocious, metallic‑twang, ripping on Dancin' and driving the jam on Good Lovin', with many noting his tone was perfect.",
+      "Phil": "Phil’s bass work receives glowing praise for its lead‑bass quality and the telepathic interplay with Jerry that fuels the show’s improvisational fire.",
+      "Bob": "Weir is mentioned mainly for vocal contributions on Not Fade Away and Next Time You See Me, and a fun vocal duel with Pigpen during Good Lovin'.",
+      "Keys": "Ron \"Pigpen\" McKernan’s organ/vocals are highlighted as vital, especially on Good Lovin' (despite an early mic problem) and the overall soulful texture he adds.",
+      "Drums": "Bill Kreutzmann’s drumming is praised for its powerful, atmospheric support throughout the jams, adding a solid rhythmic foundation."
+    },
+    "processed_date": "2025-09-11T07:54:26.278547+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-05-06.sbd.gans.94.sbefail.shnf"
+  }
 }

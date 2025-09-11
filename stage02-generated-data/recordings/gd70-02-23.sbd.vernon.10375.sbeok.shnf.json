@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 3.75,
   "high_ratings": 9,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Fair soundboard capture of an intimate acoustic‑electric hybrid set with strong Little Sadie, Seasons of My Heart, High Time and a fiery Not Fade Away, but the mix is muddy and parts are missing.",
+    "review": "The recording offers a rare glimpse of a short, almost half‑acoustic show sandwiched between electric numbers, delivering highlights like Little Sadie, Seasons of My Heart, High Time and an unstoppable Not Fade Away. While the performance is praised for its intimacy and Pigpen’s organ on Black Peter, listeners note a slightly muddy mix, hum between songs, and missing portions that make the flow feel disjointed.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the musical moments (average ~3.8/5) while noting consistent recording flaws and missing material (recording quality ~3.0/5). Weighted combination yields a solid mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Several reviewers mention a slightly muddy mix, hum between songs, uneven mono balance and occasional drop‑outs (e.g., Mason's cut), but overall the soundboard source is usable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Little Sadie",
+        "Seasons of My Heart",
+        "High Time",
+        "Not Fade Away",
+        "Me & My Uncle",
+        "Black Peter"
+      ],
+      "poor_songs": [
+        "Mason's"
+      ],
+      "setlist_flow": "Acoustic set placed between electric material makes the show feel oddly segmented; missing opening and closing portions leave a sense of incompleteness, yet the intimate acoustic moments are praised."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia is noted playing his sunburst Strat with a gnarlier tone; jokes onstage and a broken string moment are highlighted.",
+      "Phil": "Phil drives the 'train' during Not Fade Away and provides strong bass foundation throughout.",
+      "Bob": "Bob Weir leads a solo Me & My Uncle, delivers vocal humor (\"yellow dog\" joke), and is praised for front‑center presence on that track.",
+      "Keys": "Pigpen's organ is audible and louder than usual on Black Peter and Not Fade Away, adding a dirgelike texture.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T06:37:14.192311+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-02-23.sbd.vernon.10375.sbeok.shnf"
+  }
 }

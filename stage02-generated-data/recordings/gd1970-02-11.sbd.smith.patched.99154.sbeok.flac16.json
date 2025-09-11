@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A high‑energy 1970 show with Greg Allman & Pigpen lighting up Lovelight and a legendary Spanish Jam, captured on a mostly crisp soundboard that sounds a bit tinny in places.",
+    "review": "The performance is celebrated for its all‑star guest appearances – especially the fire‑filled Lovelight featuring Greg Allman and Pig Pen, plus one of the best Spanish Jams ever heard. Reviewers rave about the laid‑back Dark Star and overall band chemistry, while noting that the soundboard source is generally clear but occasionally harsh or tinny, requiring a bit of EQ. Overall the show shines despite minor recording quirks.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Consistently high praise for the musical performance (exceptional guest jams, standout songs) combined with generally good soundboard quality; only minor recording complaints lower the score slightly."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Most reviewers describe the board as crisp and classic 'Super‑70' sound, though a few note tinny/harsh tonal balance and suggest EQing, especially before Dark Star."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lovelight",
+        "Spanish Jam",
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows through a memorable second‑set jam sequence with guest musicians, highlighted by Lovelight and the Spanish Jam; the overall pacing is praised as laid‑back yet exhilarating."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's guitar work described as \"on fire\" and gentle during Dark Star, central to the show's energy.",
+      "Phil": "Mentioned only in reference to his written account of the show; no specific performance comments.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T06:08:54.925220+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-11.sbd.smith.patched.99154.sbeok.flac16"
+  }
 }

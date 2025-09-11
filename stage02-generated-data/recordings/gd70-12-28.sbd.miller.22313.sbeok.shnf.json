@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.5,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with a rough mix but still delivers a blues‑laden set highlighted by “Good Lovin’”, “Morning Dew” and an ethereal “Other One”.",
+    "review": "The show is praised for its strong blues numbers, a beautifully understated rendition of “Other One”, a bouncy “Good Lovin’” and a “Morning Dew” that ranks among the year’s best. While the mix is uneven—vocals sit too high and some instruments are hard to hear—the performance shines through for most listeners.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars and highlight exceptional performances; recording issues are noted but not enough to outweigh the musical strength, yielding a weighted average around 4.2."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Mix is uneven – vocals too prominent, instruments recessed; some listeners need EQ adjustments. Despite these flaws the tape captures the band well enough to enjoy the performance."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Good Lovin'",
+        "Morning Dew",
+        "Other One (soft version)",
+        "It Hurts Me Too",
+        "Smokestack Lightning"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early portion leans into slower blues feels, while tracks 7‑20 deliver the high points of the night; overall set praised for its cohesive, blues‑heavy vibe."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T12:02:13.904579+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-12-28.sbd.miller.22313.sbeok.shnf"
+  }
 }

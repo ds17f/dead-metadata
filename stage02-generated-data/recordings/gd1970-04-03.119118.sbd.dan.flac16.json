@@ -14,5 +14,35 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent‑sounding soundboard recording of the 1970 show that listeners rave about, even though specific musical details are scarce.",
+    "review": "All three reviewers gave five stars and repeatedly say the recording “sounds great” and that they love it.  The file is a .sbd (soundboard) capture that has been concatenated into three set files, but no listener mentions any audio flaws or performance problems, indicating a clean, enjoyable listening experience despite the lack of detailed musical commentary.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Uniform 5‑star ratings and enthusiastic language point to a highly regarded show and recording; however, reviewers provide no concrete musical analysis, so the rating reflects strong listener satisfaction but limited detail."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Listeners describe the sound as great with no reported issues; the recording has been concatenated into three set files, suggesting a clean, well‑balanced capture."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific comments on song order or pacing; reviewers only note overall enjoyment of the performance."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:14:09.576806+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-04-03.119118.sbd.dan.flac16"
+  }
 }

@@ -14,5 +14,35 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Fan‑favorite show praised enthusiastically, though recording details are unknown",
+    "review": "The lone five‑star review hails this performance as one of the reviewer’s favorites and wishes a happy Valentine’s Day, indicating strong positive sentiment. No specifics about the audio source or musical highlights are provided, so the recording quality remains unclear.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "A single enthusiastic five‑star review suggests a highly regarded show, but lack of any technical or musical detail limits confidence in the rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": ""
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T06:34:30.295723+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-14.141007.late.show.sbd.pcm.dalton.miller.clugston.flac1644"
+  }
 }

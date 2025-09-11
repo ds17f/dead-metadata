@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 3.857142857142857,
   "high_ratings": 9,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "A fair‑quality audience tape that captures a raw 1970 Dead show with incendiary Alligator→The Other One and a soaring NFA finale.",
+    "review": "Listeners describe the recording as a typical 1970 audience source – cloudy and lo‑fi but surprisingly listenable, with crowd ambience that puts you in the hallway of the venue. The performance itself is praised for its high‑energy segues, standout moments like Cold Rain and Snow, Alligator→The Other One, The Attic and an extraordinary NFA closer, even though a few note Mickey’s snare hiccup and occasional sloppy playing.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "high",
+      "rationale": "Most reviewers love the show (many 4‑5 star comments) while consistently noting that the audience tape is only fair; the weighted average of scores and content yields a solid above‑average rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Cloudy, blurry tape with noticeable crowd noise and occasional mic bleed, but music remains audible; low end present, some snare issues, overall typical raw 1970 AUD sound."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cold Rain and Snow",
+        "Alligator > The Other One",
+        "The Attic",
+        "Not Fade Away",
+        "Dark Star > Saint Stephen > Not Fade Away > Love Light",
+        "Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Fans note enthusiastic 1970 energy, seamless segues and powerful improvisations; despite a few rough spots the set flows well and showcases the band at the top of its game."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar tone is highlighted as melodic and soaring, especially on the NFA where he blends with Weir in a ‘mind‑meld.’",
+      "Phil": "",
+      "Bob": "Weir’s vocal/guitar interplay with Garcia on the NFA is praised for its melodic synergy.",
+      "Keys": "",
+      "Drums": "Mickey Hart’s snare problems are mentioned, but overall drumming is regarded as solid for the period."
+    },
+    "processed_date": "2025-09-11T09:22:17.781532+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-07-10.aud.cotsman.17351.sbeok.shnf"
+  }
 }

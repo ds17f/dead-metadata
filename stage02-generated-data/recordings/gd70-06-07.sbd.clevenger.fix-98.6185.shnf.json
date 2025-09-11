@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.444444444444445,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard capture of a loose 1970 free‑form set with standout Cumberland Blues, The Other One and an early Sugar Magnolia, delivered in clear, crisp audio.",
+    "review": "The recording is praised for its crystal‑clear soundboard quality that even preserves the spontaneous anti‑war protest spoken during drums. Musically the show is a wild, unstructured ’70s jam featuring a fiery Cumberland Blues, a powerful The Other One with period‑appropriate commentary, and a rough but historic first Sugar Magnolia.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Consistently high praise for both performance (free‑form jams, standout songs) and sound quality; minor technical complaints do not outweigh the overall excellence."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Clear, crisp mix that captures crowd ambience and spoken protest bits. Minor criticisms focus on track‑splitting and a missing few seconds of Cumberland Blues rather than audio fidelity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cumberland Blues",
+        "The Other One",
+        "Sugar Magnolia (early version)",
+        "Cryptical Envelopment / Jam"
+      ],
+      "poor_songs": [
+        "Sugar Magnolia (first version noted as rough by one reviewer)"
+      ],
+      "setlist_flow": "Loose, free‑form 70s vibe with acoustic/electric shifts, long chatter sections and spontaneous anti‑war commentary; overall unstructured but engaging."
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned for his role in the protest speech and playing between acoustic and electric sets.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Drums segment noted for its powerful energy and the crowd‑shouting anti‑war remarks captured during the solo."
+    },
+    "processed_date": "2025-09-11T08:50:13.222205+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-06-07.sbd.clevenger.fix-98.6185.shnf"
+  }
 }

@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Cleaned‑up soundboard capture delivers a solid early‑1970 Dead show with a killer acoustic set, a scorching Lovelight, and raunchy Viola Lee Blues.",
+    "review": "The SBD source has been stripped of much tape hiss and offers decent instrument separation, though some distortion and low organ levels remain. Musically the concert is an above‑average early‑’70 performance – the acoustic segment shines, Black Peter is tight, and the electric set delivers a fiery Viola Lee Blues and a memorable Lovelight with classic Pigpen banter.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Strong musical moments and an improved soundboard transfer boost the rating, but lingering tape hiss, occasional distortion, and uneven song quality keep it from higher marks."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Hiss reduced and instruments more separated after new transfer; still some distortion and Pigpen organ low in the mix, with occasional tape cuts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lovelight",
+        "Viola Lee Blues",
+        "Deep Elem Blues (acoustic)",
+        "Friend of the Devil (alternate lyrics)",
+        "Black Peter"
+      ],
+      "poor_songs": [
+        "Hard to Handle",
+        "Good Lovin'"
+      ],
+      "setlist_flow": "Acoustic set opens strong with flawless folk numbers, followed by an electric first set that builds into a blues‑heavy second half; occasional tape glitches interrupt but the overall pacing remains engaging."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Sings loudly and on key; high harmonies noted but often buried in the mix.",
+      "Bob": "",
+      "Keys": "Pigpen's organ is low in the mix, though his rap during Lovelight is highlighted as priceless.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T06:59:05.543452+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-03-20.sbd.smith.99182.sbeok.flac16"
+  }
 }

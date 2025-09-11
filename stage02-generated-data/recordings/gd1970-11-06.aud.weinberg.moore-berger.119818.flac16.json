@@ -14,5 +14,40 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A monster late‑1970 show captured in a good‑quality audience tape – crisp sound with slight speed quirks, highlighted by a magical jam into NFA and powerful Good Lovin' > Main Ten sequences.",
+    "review": "The recording delivers clear, listenable audio that most reviewers consider an improvement over earlier sources, despite occasional perceived fast spots and the fact it only covers the final thirty minutes of the concert. Musically the performance is praised as “monster,” especially the jam into New Farm (NFA) and the tight Good Lovin' > Main Ten > Good Lovin' flow, making it a must‑listen for Deadheads who can tolerate the missing early songs.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Show quality is rated very high (standout jams, strong set) while recording quality is good but not flawless; weighting yields a solid 4.3 overall."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and crisp with an improvement over older sources, slight perception of fast tempo in spots, pitch appears correct, but only the last ~30 minutes are present."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Jam into NFA (New Farm)",
+        "Good Lovin'",
+        "Main Ten",
+        "Alligator"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong, monster second‑set flow highlighted by the Good Lovin' > Main Ten > Good Lovin' sequence and a magical NFA jam; however the recording omits the early part of the concert."
+    },
+    "band_member_comments": {
+      "Jerry": "One reviewer notes an unusual lyric line ('Mama told me don't go down there') sung by Jerry, suggesting a rare vocal moment.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:11:22.195621+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-11-06.aud.weinberg.moore-berger.119818.flac16"
+  }
 }

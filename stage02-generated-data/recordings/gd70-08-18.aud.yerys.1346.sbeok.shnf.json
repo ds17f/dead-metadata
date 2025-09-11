@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.068965517241379,
   "high_ratings": 23,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Historic 8/18/70 Fillmore West show with the first performances of Ripple, Brokedown Palace and others, captured on a lo‑fi audience tape that’s rough but surprisingly listenable.",
+    "review": "The concert is famed for its four song debuts – Ripple, Brokedown Palace, Operator and Truckin' – and an inspired acoustic set, making it a must‑hear for Deadheads.  The recording is an audience capture with noticeable boominess, tape hiss and occasional drop‑outs, yet most listeners find it sufficiently clear to enjoy the music.  Overall the performance shines despite the technical limitations of the source.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Show quality is consistently praised (historical firsts, strong acoustic set, several standout jams) while recording quality is uniformly described as lo‑fi but listenable; the weighted average yields a solid mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Pocket‑recorder audience tape from 1970 – muffled, boomy (especially around 960 Hz), occasional drop‑outs and limited fidelity, but overall listenable for the era."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Ripple",
+        "Brokedown Palace",
+        "Operator",
+        "Truckin'",
+        "Cryptical > The Other One",
+        "Attics",
+        "Man's World",
+        "Dancing in the Streets"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Acoustic set opens the show strong and historic; electric set follows with solid jams and the four debut songs, maintaining a good pacing despite occasional uneven moments."
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar tone described as amazing; noted for volume‑knob swells during Attics and for switching to electric on New Speedway; his voice praised as classic Dead.",
+      "Phil": "Mentioned in context of possibly being late but otherwise provides steady bass foundation throughout.",
+      "Bob": "",
+      "Keys": "Piano heard on several songs (Truckin', Ripple, New Speedway); reviewers speculate guest players Howard Wales or Ned Lagin rather than Pigpen.",
+      "Drums": "Bill Kreutzmann (and occasionally Mickey Hart) keep a solid beat; no specific praise beyond keeping time."
+    },
+    "processed_date": "2025-09-11T09:45:39.930911+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-08-18.aud.yerys.1346.sbeok.shnf"
+  }
 }

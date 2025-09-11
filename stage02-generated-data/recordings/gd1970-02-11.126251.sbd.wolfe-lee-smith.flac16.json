@@ -14,5 +14,42 @@
   "confidence": 0.6,
   "raw_rating": 4.666666666666667,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A solid soundboard composite captures an historic two‑show Fillmore East night with a scorching Spanish jam and classic early‑set highlights.",
+    "review": "This recording is the best‑ever composite of the February ’70 Fillmore East double‑bill, pulling together the partial early set and the guest‑filled late show. While the mix is generally clear, one track (Uncle John’s) is mono‑centered and benefits from a mono switch. Musically the night is memorable for the wild Spanish‑jam moment, tight Cold Rain improvisation, and solid renditions of Dire Wolf and Casey Jones.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "Three detailed reviews are uniformly enthusiastic (two 5‑star, one 4‑star). The show is praised for historic significance and standout jams, while the recording is noted as good with only minor balance issues."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Composite of several sources; generally clear but some balance problems (e.g., Uncle John's in one channel, recommend mono switch). Considered the best‑ever version of this show."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Spanish Jam (Soleá/Spanish)",
+        "Cold Rain",
+        "Dire Wolf",
+        "Casey Jones"
+      ],
+      "poor_songs": [
+        "Lovelight"
+      ],
+      "setlist_flow": "Two‑show format: an early partial set followed by a late show featuring guests (Allman Brothers, Love, Peter Green). The transition between the two halves is historically interesting but the tapes are incomplete."
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned in passing during Uncle John's; no specific praise.",
+      "Phil": "Praised for strong playing alongside Bobby McFerrin during the Cold Rain jam.",
+      "Bob": "",
+      "Keys": "Hammond burst at ~7:00 in the Spanish jam is highlighted as a frenzy‑launching moment.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T06:10:22.529727+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-11.126251.sbd.wolfe-lee-smith.flac16"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 9,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Good‑quality soundboard capture of a brief, folk‑filled acoustic set highlighted by “To Lay Me Down” and “Rosalie McFall,” though the bass is a bit over‑present.",
+    "review": "The recording is a clear soundboard source but suffers from an overly loud bass that makes the mix muddy in places. Musically the show shines as a short, relaxed acoustic set from July 30 1970, featuring standout performances of “To Lay Me Down,” “Rosalie McFall,” “I Hear a Voice Calling” and “Swing Low Sweet Chariot,” with warm vocals and gentle banter.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the acoustic performance and give 4‑5 stars, while a few note significant recording issues; the weighted average of the scores yields a solid mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Clear soundboard capture overall, but bass is often too loud causing muddiness; some high‑end harshness and occasional banter noise detract from guitar detail."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "To Lay Me Down",
+        "Rosalie McFall",
+        "I Hear a Voice Calling",
+        "Swing Low Sweet Chariot"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A short, folk‑centric acoustic set that feels relaxed and reverent; the sequence flows simply with gospel touches, though the limited length leaves listeners wishing for more."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s picking is praised, his vocal on “Swing Low” noted, and a brief curse at a heckler is mentioned.",
+      "Phil": "Bass described as rich and warm by one reviewer.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:37:09.891836+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-07-30.sbd.cotsman.17077.sbeok.shnf"
+  }
 }

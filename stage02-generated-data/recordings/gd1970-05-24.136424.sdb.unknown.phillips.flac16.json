@@ -14,5 +14,35 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience recording praised for sounding better than a board tap, though the source is cut short and suffers from vintage equipment limitations.",
+    "review": "The sole reviewer gives the tape a glowing five‑star rating, noting that the audience capture actually outshines typical soundboard mixes. While the taper did an excellent job given the era’s poor gear, the recording is truncated, which detracts slightly from its overall usefulness.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "low",
+      "rationale": "Only one review, but it rates the tape 5 stars and highlights strong audio quality despite being an audience source; lack of show commentary limits confidence."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Reviewer says the audience recording beats typical board sound, praising clarity given the era’s equipment. However, it is cut short and suffers from vintage gear limitations."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T08:31:01.084864+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-05-24.136424.sdb.unknown.phillips.flac16"
+  }
 }

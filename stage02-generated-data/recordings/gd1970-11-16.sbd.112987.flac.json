@@ -14,5 +14,37 @@
   "confidence": 0.2,
   "raw_rating": 1.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Incomplete, out‑of‑order recording with an ominously beautiful 'Cold Rain and Snow' featuring Garcia’s wah‑wah.",
+    "review": "Both reviewers note that the tape is missing sections and is mis‑sequenced, making it hard to enjoy as a full concert document. Despite the technical shortcomings, the rendition of “Cold Rain and Snow” is praised for its moody atmosphere and Jerry Garcia’s expressive wah‑wah guitar work.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.8,
+      "confidence": "medium",
+      "rationale": "Low star ratings and comments about incompleteness dominate, though a positive note on one song prevents the rating from being at the absolute bottom."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "Reviewers describe the file as incomplete and out of order; no information about soundboard vs. audience or clarity is provided."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cold Rain and Snow"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set appears fragmented due to missing/ mis‑sequenced material, limiting overall flow."
+    },
+    "band_member_comments": {
+      "Jerry": "Great wah‑wah playing on 'Cold Rain and Snow' noted by reviewers.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:37:29.276916+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-11-16.sbd.112987.flac"
+  }
 }

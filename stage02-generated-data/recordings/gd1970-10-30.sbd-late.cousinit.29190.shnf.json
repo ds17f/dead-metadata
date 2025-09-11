@@ -14,5 +14,42 @@
   "confidence": 0.6,
   "raw_rating": 5.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a classic 1970 set with standout St. Stephen, Dancing In The Streets, Smokestack Lightnin' and seamless segues into Turn On Your Love Light.",
+    "review": "The recording delivers crystal‑clear 1970 soundboard quality that lets the band’s tight playing shine. Highlights include a monster St. Stephen > NFA > GDTRFB > Not Fade Away > Turn On Your Love Light run, an epic 77‑minute stretch of Dancing In The Streets, and powerful performances from Pigpen and Garcia. Reviewers rave about the flow and energy with no noted audio flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "All three reviewers gave 5‑star ratings, praising both the musical performance (standout songs, tight flow) and the clear soundboard recording; no negative comments were found."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Classic 1970 soundboard sound described as crisp and balanced; no issues such as dropouts or muddiness reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "St. Stephen > Not Fade Away > Turn On Your Love Light",
+        "Dancing In The Streets",
+        "Smokestack Lightnin'",
+        "Candyman",
+        "Friend of the Devil",
+        "Lovelight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Reviewers highlight a superb flow with multiple seamless segues (St. Stephen into NFA into GDTRFB into Not Fade Away into Turn On Your Love Light) and an extended, inspired Dancing In The Streets."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar work is praised for its 'wheel turning' energy and a marathon 77‑minute stretch on Dancing In The Streets.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Ron \"Pigpen\" McKernan is noted as being in good form, delivering strong organ/vocal contributions.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T10:51:39.638550+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-10-30.sbd-late.cousinit.29190.shnf"
+  }
 }

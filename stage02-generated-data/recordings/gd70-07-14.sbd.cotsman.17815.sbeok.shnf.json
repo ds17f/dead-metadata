@@ -14,5 +14,44 @@
   "confidence": 0.4,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Soundboard recording with buzzing mix issues on the electric set, but a superb acoustic half featuring How Long Blues and a rare David Crosby jam.",
+    "review": "The acoustic portion of this show shines – banter, a rare \"How Long Blues\" performance and an unexpected guest spot by David Crosby make it a keep‑list favorite. The electric side suffers from mix problems and buzzing, with missing \"Frozen Logger\" and a cut in \"Easy Wind,\" though moments like the \"China > Rider\" transition and thick 1970‑style drums on \"The Other One\" still stand out.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.7,
+      "confidence": "medium",
+      "rationale": "Both reviewers gave 4‑star ratings, praising the acoustic set while noting significant flaws in the electric mix; weighted toward show quality (70%) yields a solid but not outstanding score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Electric set plagued by buzzing and mix problems; acoustic set sounds clear with good banter. No major drop‑outs reported, but overall balance is uneven."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "How Long Blues",
+        "China > Rider",
+        "El Paso",
+        "The Other One",
+        "Uncle John's"
+      ],
+      "poor_songs": [
+        "Frozen Logger (missing)",
+        "Easy Wind (cut)"
+      ],
+      "setlist_flow": "Acoustic half is tight and engaging, while the electric half feels uneven – solid highlights are offset by missing pieces and mix issues."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "Takes his time with lyrics on \"El Paso,\" giving a unique vocal delivery.",
+      "Keys": "",
+      "Drums": "\"The Other One\" features thick‑nice 1970 style drumming."
+    },
+    "processed_date": "2025-09-11T09:31:47.092917+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-07-14.sbd.cotsman.17815.sbeok.shnf"
+  }
 }

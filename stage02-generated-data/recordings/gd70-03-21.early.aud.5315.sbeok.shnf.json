@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 5,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Audience tape with decent but imperfect sound captures a historic early‑1970 set featuring rare gems like “Friend of the Devil” and a standout Viola Lee Blues > The Seven.",
+    "review": "This recording offers a fascinating glimpse of the Dead’s early‑1970 era, highlighted by the first known performance of “Friend of the Devil,” a haunting version of “He Was A Friend Of Mine,” and a rare Viola Lee Blues → The Seven sequence. While the audience source is far from pristine—right‑channel wobble, bassy mix, and some tape‑curl issues—it remains one of the cleaner early‑show tapes and conveys the raw energy of the night.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Show is praised as historic with many standout songs; recording is mixed but generally listenable, yielding an overall strong rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Right channel wavers, mix leans bassy, muddy vocals and occasional tape‑curl; needs EQ/pitch correction but still captures crowd ambience well."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "He Was A Friend Of Mine",
+        "Friend of the Devil (first known performance)",
+        "Viola Lee Blues > The Seven",
+        "Me & My Uncle",
+        "Dire Wolf",
+        "Death Don't Have No Mercy"
+      ],
+      "poor_songs": [
+        "Walking the Dog (noted as sloppy by one reviewer)"
+      ],
+      "setlist_flow": "A single long early‑show set packed with rare material; audience interaction is vivid, and the band moves from folk‑rock newcomers to tighter jams, making for a historically significant but uneven performance."
+    },
+    "band_member_comments": {
+      "Jerry": "Described as ‘all over the place’ early in the night and ‘not used to NYC lack of restraint’, yet his guitar work shines on the rare songs.",
+      "Phil": "Noted for launching into a Cumberland jam during The Seven, showing his improvisational spark.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:01:44.336035+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-03-21.early.aud.5315.sbeok.shnf"
+  }
 }

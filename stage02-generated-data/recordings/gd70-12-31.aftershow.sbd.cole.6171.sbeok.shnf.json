@@ -14,5 +14,41 @@
   "confidence": 0.8,
   "raw_rating": 3.5,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard recording of a post‑show Hot Tuna jam with decent audio and a few fun moments like “Rock Me Baby,” though the performance feels more casual than thrilling.",
+    "review": "The tape captures an after‑show set where Bob Weir joined Hot Tuna for a loose run through classics such as “Rock Me Baby,” “I Know You Rider,” and “Johnny B. Goode.” Reviewers generally rate the soundboard source as clear and enjoyable, giving it 4‑star marks, but one reviewer finds the musical excitement lacking, resulting in a mixed overall impression.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "Average of the four review scores is 3.5; most reviewers praise the recording quality and novelty, while one calls the performance unexciting, leading to a modestly above‑average rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear soundboard tape with no major complaints; some reviewers note it sounds like a Hot Tuna mix, and one mentions the cassette‑to‑digital conversion but no serious dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Rock Me Baby",
+        "I Know You Rider",
+        "Johnny B. Goode",
+        "Around And Around",
+        "Not Fade Away"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "An informal post‑concert jam featuring Hot Tuna and Weir, running through a handful of rock & roll classics with loose transitions rather than a structured Dead set."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "Weir is highlighted as part of the after‑show jam, joining Hot Tuna on several numbers.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T12:08:03.233734+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-12-31.aftershow.sbd.cole.6171.sbeok.shnf"
+  }
 }

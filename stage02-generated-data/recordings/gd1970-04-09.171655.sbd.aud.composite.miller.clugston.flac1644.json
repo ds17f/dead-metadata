@@ -14,5 +14,37 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Positive review highlighting a standout Cowboy‑style song, with an overall good listening experience despite limited technical details",
+    "review": "The reviewer praises the 'Cowboy Song' for its reminiscent vibe of the Marshall Tucker Band’s later ‘Hillbilly Band,’ indicating a memorable performance. No specific comments on recording fidelity are provided, but the five‑star rating suggests the listener found the audio satisfactory.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "Only one detailed review, but it gives a perfect 5‑star rating and highlights a notable song, implying strong show quality; recording details are absent."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": ""
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cowboy Song"
+      ],
+      "poor_songs": [],
+      "setlist_flow": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:18:04.740041+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-04-09.171655.sbd.aud.composite.miller.clugston.flac1644"
+  }
 }

@@ -14,5 +14,44 @@
   "confidence": 1.0,
   "raw_rating": 4.083333333333333,
   "high_ratings": 9,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Muddy audience tape of a historic New Jersey show with a stellar Dark Star and classic ’70 set, listenable despite low‑fidelity recording",
+    "review": "The performance is widely praised for its powerful Dark Star, tight Dancin' In The Street jam, and a string of early‑’70 classics such as Till the Morning Comes, Candyman, Sittin' on Top of the World and St. Stephen. Recording quality is decidedly muddy and cloudy—typical of an audience (AUD) source—but many reviewers say the show’s musical merits outweigh the technical flaws.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the music 4‑5 stars while noting poor but tolerable sound quality; weighted average of show (≈4.5) and recording (≈2.5) yields a ~4‑star overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Very muddy, cloudy, low‑fidelity sound with hiss and limited clarity; typical audience ambience captured but overall listenable for fans who can tolerate the grit."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Dancin' In The Street",
+        "Till the Morning Comes",
+        "Candyman",
+        "Sittin' on Top of the World",
+        "Morning Dew",
+        "Beat It On Down the Line",
+        "St. Stephen"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early‑’70 Fall vibe: countrified, robust first half followed by a classic Dark Star jam and a late‑show closing sequence (NFA → Good Times Bad Times? → NFA) that caps an otherwise flawless set."
+    },
+    "band_member_comments": {
+      "Jerry": "Extended wah‑filled weirdness on Dark Star with great tone; his playing is highlighted as “ass‑kickin’”.",
+      "Phil": "Notable solo during the Dancin' jam, especially around the \"stuck in the mud\" section.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T10:32:37.608507+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-10-11.aud.cotsman.9500.sbeok.shnf"
+  }
 }

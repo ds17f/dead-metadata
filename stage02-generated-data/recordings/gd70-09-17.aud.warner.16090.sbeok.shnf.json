@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 3.857142857142857,
   "high_ratings": 7,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A muffled audience recording of a legendary Fillmore night packed with rare acoustic gems – especially an unforgettable acoustic Box of Rain – but the sound quality seriously hurts enjoyment.",
+    "review": "The performance captured on this tape is often hailed as a highlight of the September‑1970 Fillmore run, featuring an all‑acoustic set with a historic version of \"Box of Rain\", several American Beauty cuts and a soaring Dark Star. Unfortunately the source is an audience tape that sounds “muffled” and “wrapped in a shirt”, with prominent crowd noise and occasional tape splices that make many songs hard to hear. Listeners who can look past the technical flaws will still find a memorable show, but most reviewers rate the recording itself as poor.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "high",
+      "rationale": "Most reviewers love the acoustic set and rare song performances (show quality ~4‑5), but repeatedly criticize the muffled, audience‑only source (recording quality ~2). Weighted 70 % show + 30 % recording yields a combined rating around 3.4."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Sound described as muffled, like the mic was wrapped in a shirt; heavy audience chatter; occasional drop‑outs and tape splices; no soundboard (SBD) available."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Box of Rain (acoustic)",
+        "Dark Star",
+        "American Beauty acoustic medley (e.g., Brokedown, Box of Rain, etc.)",
+        "Rosalie McFall"
+      ],
+      "poor_songs": [
+        "Friend of the Devil (recorded very badly)"
+      ],
+      "setlist_flow": "Starts with an all‑acoustic set featuring Jerry on piano and pedal steel, followed by a New Riders interlude, then the Dead take over around midnight for a marathon show that runs into the early morning. Tape cuts in Dark Star interrupt the flow, but overall the night is praised for its rare acoustic material."
+    },
+    "band_member_comments": {
+      "Jerry": "Plays piano and sings on the acoustic \"Box of Rain\", adds pedal steel on NRPS numbers; his playing is highlighted as a key part of the show.",
+      "Phil": "Delivers strong vocals on \"Box of Rain\" and plays acoustic guitar in the set; bass work is noted as solid elsewhere.",
+      "Bob": "Provides vocal harmonies on the acoustic songs; contributes rhythm guitar throughout.",
+      "Keys": "",
+      "Drums": "Bill Kreutzmann (and occasionally Mickey Hart) keep the beat; drumming is mentioned positively during the late‑night portion."
+    },
+    "processed_date": "2025-09-11T09:56:35.925179+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-09-17.aud.warner.16090.sbeok.shnf"
+  }
 }

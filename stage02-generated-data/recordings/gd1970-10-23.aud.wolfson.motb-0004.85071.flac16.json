@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.416666666666667,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clear audience recording of the 10/23/70 Georgetown show captures a high‑energy set highlighted by Hard To Handle, Good Lovin', and Jerry’s wah‑wah guitar on Sugar Magnolia.",
+    "review": "The tape offers surprisingly crisp sound for an audience source, with the band well balanced and crowd noise kept in the background. Musically the concert is praised for its raw energy, especially Pigpen’s powerhouse Hard To Handle and a soaring Good Lovin' that leads into a series of high‑octane jams.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "The majority of reviews are 4‑5 stars, highlighting both an excellent performance and an unusually clear audience recording; only a few modest‑star notes note minor volume or wobble issues."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Clear mix with audible bass, drums and vocals; background hand‑claps are low‑level. Some listeners mention occasional wobble and a desire for higher volume, but overall the sound is considered top‑notch for an audience tape."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Hard To Handle",
+        "Good Lovin'",
+        "Sugar Magnolia",
+        "Truckin' > The Other One > Not Fade Away > Good Times Bad Times (GDTRFB jam)",
+        "Casey Jones (opening)",
+        "Uncle John's Band (closer)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The concert opens strong with Casey Jones, builds through energetic rockers like Hard To Handle and Good Lovin', and peaks in the extended jam sequence of Truckin' into The Other One. Reviewers note a slightly off‑beat drumming feel on Good Lovin' but overall describe a consistently high‑energy, well‑paced set."
+    },
+    "band_member_comments": {
+      "Jerry": "Wah‑wah guitar on Sugar Magnolia and pedal steel work with the NRPS opener are highlighted.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "A notable drum solo during Good Lovin' and strong, funky rhythmic drive throughout the show."
+    },
+    "processed_date": "2025-09-11T10:37:31.226591+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-10-23.aud.wolfson.motb-0004.85071.flac16"
+  }
 }

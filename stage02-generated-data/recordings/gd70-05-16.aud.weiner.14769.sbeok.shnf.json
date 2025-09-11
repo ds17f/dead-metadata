@@ -14,5 +14,37 @@
   "confidence": 1.0,
   "raw_rating": 3.5,
   "high_ratings": 4,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Rough audience‑sourced tape with noisy, muddy mix but captures a brief, high‑energy 1970 Temple Stadium set that shines on New Speedway Boogie.",
+    "review": "The recording is an audience cassette with plenty of crowd chatter and a generally muddy balance—Jerry Garcia’s guitar cuts through, while vocals sit low. Musically the show is short yet lively, remembered for its historic context (the same bill as Jimi Hendrix) and a particularly strong rendition of New Speedway Boogie. Listeners who can overlook the lo‑fi sound find it an enjoyable snapshot of the Dead in 1970.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.1,
+      "confidence": "medium",
+      "rationale": "Show is praised for its energy and historic value, but recording quality is widely criticized as noisy and muddy; the mixed feedback yields a modest overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Heavy audience noise, low vocal levels, generally muddy mix; however Jerry's guitar is clear. Some reviewers note occasional drop‑outs and an uneven balance typical of a cassette taping."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "New Speedway Boogie"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A short, sub‑hour set that kept high energy throughout; the band delivered joyous, lively playing despite the brief runtime and historic circumstances of sharing the bill with Hendrix."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's guitar comes across very clear on this tape.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T08:26:24.349984+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-05-16.aud.weiner.14769.sbeok.shnf"
+  }
 }

@@ -14,5 +14,37 @@
   "confidence": 1.0,
   "raw_rating": 3.4285714285714284,
   "high_ratings": 5,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "A mixed‑quality soundboard that captures a transcendent, fan‑favorite Dark Star performance.",
+    "review": "The show is repeatedly praised for an exceptional Dark Star that stretches over 28 minutes and showcases the band’s intuitive interplay. While several reviewers describe the mix as spot‑on and perfectly in‑tune, others condemn it as the worst‑sounding board in the archive, leading to a split opinion on the recording’s fidelity.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.5,
+      "confidence": "medium",
+      "rationale": "Show quality is consistently high (many 4–5‑star comments about Dark Star), but recording quality receives both glowing and very negative feedback, pulling the overall rating to an average level."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Reviews are divided: some call it \"spot on\" with perfect pitch and great acoustics (likely due to Bob Heil's system), while others describe it as the worst‑sounding board in the archive, citing muffled or distorted sound."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set features a rare stretch of four consecutive Jerry‑lead songs (including Dark Star) and an unusual placement of Lovelight after Mason's Children, creating a unique but cohesive flow."
+    },
+    "band_member_comments": {
+      "Jerry": "Multiple reviewers highlight Garcia’s tone and the transcendent quality of his playing on Dark Star.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:40:50.475379+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-02-02.psbd.cousinit.18122.sbeok.shnf"
+  }
 }

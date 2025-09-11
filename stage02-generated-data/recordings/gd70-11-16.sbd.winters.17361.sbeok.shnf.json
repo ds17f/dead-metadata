@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.260869565217392,
   "high_ratings": 20,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Pristine soundboard capture of the legendary Fillmore East 11/16/70 set, highlighted by a blazing The Other One, soaring Uncle John’s Band and guest‑filled jams.",
+    "review": "The recording is an excellent‑to‑pristine soundboard transfer that preserves a surprisingly clear mix despite some channel quirks. Musically the show shines with standout moments such as The Other One, Uncle John’s Band, China Cat > I Know You Rider and a fiery Hard To Handle featuring Steve Winwood on organ, while a few reviewers find Truckin’ or the guest‑led NFA vocal section weaker. Overall the performance is praised for its energy, historic guest appearances and solid set flow despite lingering setlist‑order confusion.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4–5 stars, praising both the superb soundboard quality and strong musical moments; only a few note minor performance or setlist issues, leading to a high‑confidence rating around 4.4."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Pristine clarity noted by multiple reviewers; interesting mix with some channel imbalances (Bobby up front left, Jerry right), but overall clean, A‑to‑D transfer from first‑gen 10\" reels. No major dropouts."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One",
+        "Uncle John's Band",
+        "China Cat > I Know You Rider",
+        "Hard To Handle (with Steve Winwood)",
+        "Cold Rain and Snow"
+      ],
+      "poor_songs": [
+        "Truckin' (considered unremarkable by some reviewers)"
+      ],
+      "setlist_flow": "Generally praised for its energetic jam flow, though several fans note confusion over the exact set order and mislabeling of the venue/date; guest segments (Traffic/Hot Tuna) add unique flavor."
+    },
+    "band_member_comments": {
+      "Jerry": "Mix places Jerry farther back on right channel; no specific performance critique beyond general band praise.",
+      "Phil": "Mentioned goofing off‑mic during Frozen Logger and brief banter before Mama Tried.",
+      "Bob": "Sings Frozen Logger off‑mic; vocal presence noted in that snippet.",
+      "Keys": "Steve Winwood (guest) provides organ on Hard To Handle and through Not Fade Away; Will Scarlet adds harp; Pigpen largely absent, occasional Traffic percussion noted.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:37:06.342376+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-11-16.sbd.winters.17361.sbeok.shnf"
+  }
 }

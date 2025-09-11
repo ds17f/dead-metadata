@@ -14,5 +14,43 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a tight early‑May 1970 show featuring soaring Dancin’ in the Streets, a monster Morning Dew and crisp, energetic playing throughout.",
+    "review": "Both reviewers rave about the performance – Jerry’s guitar is described as “a self‑generating source of electricity,” Phil’s bass drives the band on Good Lovin' and Morning Dew, and Pigpen’s harp adds fire. The soundboard recording is praised for its clarity and balance, with only a minor cut between St. Stephen and Not Fade Away that slightly interrupts the flow.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "Two detailed 5‑star reviews highlight an outstanding musical performance and a clean soundboard mix, with only minor recording hiccups."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, well‑balanced mix; occasional subtle cut between St. Stephen and Not Fade Away that mildly affects continuity but does not detract from overall listenability."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dancin' in the Streets",
+        "Morning Dew",
+        "Good Lovin'",
+        "Casey Jones",
+        "St. Stephen",
+        "Not Fade Away",
+        "China > Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Short, tight set packed with high‑energy numbers and strong vocal harmonies; flow is mostly seamless apart from a tiny edit between St. Stephen and Not Fade Away."
+    },
+    "band_member_comments": {
+      "Jerry": "Described as electrifying, \"self‑generating source of electricity\"; delivers powerful solos on Morning Dew and tears into the set.",
+      "Phil": "Very present on Good Lovin' and Morning Dew, first back in the mix after vocal breaks, lets loose with bass lines.",
+      "Bob": "Shares lead vocals on Dancin' in the Streets and other tunes; noted for solid rhythm work.",
+      "Keys": "",
+      "Drums": "Strong drum intro on Good Lovin', steady groove throughout, drums used to warm hands during the chilly show."
+    },
+    "processed_date": "2025-09-11T07:55:04.121624+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-05-06.sbd.gmb.95816.flac16"
+  }
 }

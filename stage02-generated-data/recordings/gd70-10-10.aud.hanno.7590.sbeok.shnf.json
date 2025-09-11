@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 3.375,
   "high_ratings": 4,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Muddy but listenable audience tape of a classic 1970 show that shines on the The Other One → NFA jam and an electric Deep Elem Blues.",
+    "review": "The performance is solid – fans repeatedly point out the monster The Other One into Nothing Fixed About sequence, a rare electric Deep Elem Blues, and deep‑time jams that capture the ’70 Dead vibe.  The audience recording is typical of early‑70 AUDs: hissy, a bit muddy and sometimes distant (recorded from a projection booth), with a few missing tracks, but it still conveys the concert’s energy.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the musical content (especially The Other One → NFA) while noting consistent audio shortcomings; weighted blend of strong show quality and fair recording yields a ~4.2 rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Typical AUD hiss and muddiness, distant sound from a projection‑booth mic, occasional drop‑outs, and several missing songs (e.g., Viola Lee Blues, later set)."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "The Other One → Nothing Fixed About",
+        "Deep Elem Blues (electric version)",
+        "Hard to Handle (extended jam)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "One‑set show typical of early 1970 concerts; strong mid‑set jam flow with The Other One/NFA as the high point, but the recording cuts off several closing numbers."
+    },
+    "band_member_comments": {
+      "Jerry": "His tentative vocal on Deep Elem and a repetitive three‑note phrase on Viola Lee Blues are noted; otherwise his guitar work during the jams is praised.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "The drum segment leading into NFA is highlighted (some call it ‘Crptical>Drums>TOO>NFA!’) but described as nothing special."
+    },
+    "processed_date": "2025-09-11T10:29:46.906964+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-10-10.aud.hanno.7590.sbeok.shnf"
+  }
 }

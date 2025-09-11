@@ -14,5 +14,35 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Amazing performance captured in an unknown‑source recording",
+    "review": "The lone reviewer rates this Hollister show highly, calling it “amazing” and giving it four stars. No specific details about the setlist, individual songs, or technical aspects are provided, so the praise is taken at face value while the recording source remains unclear.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "low",
+      "rationale": "Only one brief review with a 4‑star rating; positive sentiment but no concrete information on sound quality or performance specifics."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No comments about clarity, mix, or source type were given."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:11:56.251565+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-01-10.sbd.hollister.17345.shnf"
+  }
 }

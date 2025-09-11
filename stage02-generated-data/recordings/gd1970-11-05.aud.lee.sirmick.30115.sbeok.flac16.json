@@ -14,5 +14,39 @@
   "confidence": 0.6,
   "raw_rating": 3.3333333333333335,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A decent audience remaster captures a classic 1970 Dark Star/Other One highlight, though the sound has noticeable flaws.",
+    "review": "This release is an audience recording that’s been nicely remastered, offering better clarity than earlier tapes but still suffering from legitimate sound issues and occasional tone inconsistencies. Musically the show shines with a creepy, abstract Dark Star that morphs into a beautiful jam, a standout 21‑minute Other One, and a soaring Lovelight to close, making it a must‑hear snapshot of the 1970 era.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Reviewers praise the performance (especially Dark Star/Other One) but note consistent audio problems; weighting show quality higher yields a solid above‑average rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Remastered audience tape sounds better than earlier copies, but still has dropouts, tone differences (especially on Jerry's guitar), and overall muddiness that limits full enjoyment."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Other One",
+        "Lovelight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical 1970 set with strong rockers early, a long, exploratory Dark Star/Other One mid‑section, and an uplifting Lovelight finale; overall pacing praised despite the missing acoustic set."
+    },
+    "band_member_comments": {
+      "Jerry": "Reviewers note a distinct tone difference on his guitar, especially during Dark Star.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:06:19.498034+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-11-05.aud.lee.sirmick.30115.sbeok.flac16"
+  }
 }

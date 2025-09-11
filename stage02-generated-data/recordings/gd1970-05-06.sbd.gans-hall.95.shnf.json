@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.769230769230769,
   "high_ratings": 12,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Sharp mono soundboard captures a blistering MIT performance highlighted by an incendiary Dancing in the Streets and soaring Morning Dew.",
+    "review": "The May 6, 1970 MIT show is repeatedly called a “top‑ten” performance, with the band feeding off the tense post‑Kent State atmosphere to deliver scorching versions of Dancing in the Streets, Morning Dew, Not Fade Away and a fiery St. Stephen/China Rider stretch.  The recording is a mono soundboard feed – raw at times but surprisingly clear and sharp despite noted distortion and mic problems.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers give 5‑star praise for the musical intensity and only a few note technical flaws; the average rating across reviews is ~4.2, indicating a strong show with good but not flawless recording quality."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Mono board feed with occasional distortion, mic and mixing glitches; overall clear, sharp, and surprisingly listenable despite raw edges."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dancing in the Streets",
+        "Morning Dew",
+        "Not Fade Away",
+        "St. Stephen",
+        "China > Rider",
+        "Next Time You See Me"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The concert bursts with angry, high‑energy playing fueled by the recent Kent State tragedy and cold weather; the band stays in a relentless zone, delivering intense jams that keep momentum from start to finish."
+    },
+    "band_member_comments": {
+      "Jerry": "Thrashing on his SG, especially during Not Fade Away and the high‑octane jams.",
+      "Phil": "Delivers one of his most devastating bass runs on Dancing in the Streets.",
+      "Bob": "Adds vocal urgency, noted for announcing the free show and commenting on the cold conditions.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:49:50.021007+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-05-06.sbd.gans-hall.95.shnf"
+  }
 }

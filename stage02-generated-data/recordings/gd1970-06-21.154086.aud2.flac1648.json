@@ -14,5 +14,39 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Echoey audience recording of a mixed‑quality show with a novel Not Fade Away→St Stephen segue and strong St Stephen, but overall uneven performance.",
+    "review": "The tape captures an audience‑only sound in a cavernous hall that is often muddy and echo‑filled, lacking any soundboard feed. Musically the concert has moments of interest – notably a rare NFA into St Stephen transition, a shredding Easy Wind, and a powerful St Stephen – yet many listeners find the set uneven and the show forgettable overall.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.8,
+      "confidence": "low",
+      "rationale": "One strongly negative review highlights poor recording quality and a bland performance, while another praises a unique song segue; with limited data the combined weighted score yields an average‑below‑mid rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Cavernous hall sound with pronounced echo, no soundboard source, occasional gunshot/pigpen noise, abrupt ending; overall muddy and less clear."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Easy Wind",
+        "Not Fade Away",
+        "St. Stephen"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Unusual NFA→St Stephen segue flips the typical order, providing a fresh jam structure; pacing is uneven and the concert ends abruptly."
+    },
+    "band_member_comments": {
+      "Jerry": "His vocal moans on Candyman are noted by reviewers.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T08:56:36.702143+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-06-21.154086.aud2.flac1648"
+  }
 }

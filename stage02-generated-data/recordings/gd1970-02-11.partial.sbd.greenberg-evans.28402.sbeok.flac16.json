@@ -14,5 +14,38 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a stellar 2/11/70 show featuring a soaring Lovelight with Pigpen‑Allman vocal trade and a fierce Spanish Jam.",
+    "review": "The recording is a pristine soundboard source that delivers crystal‑clear audio, letting listeners hear every nuance of the performance. The concert shines on Lovelight, where Pigpen and Gregg Allman swap vocals, and on an electrifying Spanish Jam that many reviewers cite as a highlight. Overall the show is praised as one of the best, with no notable flaws reported.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Five out of six reviews award 5 stars and rave about both the music and the source quality; the single low rating appears to be an outlier while still expressing enthusiasm for the performance."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Multiple reviewers describe the source as 'awesome' and 'crisp', with no complaints about drop‑outs, muddiness, or balance issues."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lovelight",
+        "Spanish Jam"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The concert is consistently praised as great from start to finish, with particular excitement around the Lovelight vocal trade and the intense Spanish Jam; reviewers note a tight, cohesive performance throughout."
+    },
+    "band_member_comments": {
+      "Jerry": "Traded vocals with Gregg Allman during Lovelight, noted positively.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen’s vocal contributions are highlighted and celebrated.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T06:06:51.778899+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-11.partial.sbd.greenberg-evans.28402.sbeok.flac16"
+  }
 }

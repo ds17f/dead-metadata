@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A solid matrix recording that captures a vibrant Fillmore West show, highlighted by an intimate acoustic set and firecracker‑driven St. Stephen transition.",
+    "review": "Listeners rave about the warm, home‑y feel of this matrix source, noting that it fills the gaps left by the incomplete soundboard for the acoustic portion. The performance shines with standout moments like Attics of My Life, a drum‑driven St. Stephen > Not Fade Away > Midnight Hour sequence, and an especially moving Swing Low Sweet Chariot and Baby Blue.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All six reviews are highly positive, praising both the musical performance (standout songs, tight transitions) and the recording quality despite a noted SBD gap; this yields a strong combined rating."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Matrix blend compensates for a sizable SBD gap in the acoustic set; pure audience (AUD) sections are clear, with drum‑driven transitions sounding lively."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Attics of My Life",
+        "St. Stephen > Not Fade Away > Midnight Hour",
+        "All Over Now Baby Blue",
+        "Swing Low Sweet Chariot"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The show flows from a relaxed acoustic half‑set into a high‑energy electric set, featuring memorable transitions (e.g., drum‑driven firecracker on St. Stephen) that keep the momentum strong."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Firecracker/cherry‑bomb effect on St. Stephen and overall drum‑driven transitions praised"
+    },
+    "processed_date": "2025-09-11T08:35:11.872073+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-06-04.123799.mtx.olsen.droncit.dusborne.flac16"
+  }
 }

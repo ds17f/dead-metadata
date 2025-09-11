@@ -14,5 +14,39 @@
   "confidence": 0.4,
   "raw_rating": 1.5,
   "high_ratings": 0,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Poor-quality studio recording of a slow, lackluster performance; only the Candyman segment shines.",
+    "review": "The consensus is that this KQED Studios capture suffers from sluggish pacing and sub‑par audio/video fidelity, making it an unpleasant listen for most fans. Reviewers note that the opening \"Easy Wind\" is virtually unwatchable due to psychedelic visual effects, while the later Candyman portion offers a brief redeeming moment. Overall the recording quality is judged poor and the musical performance fails to live up to typical 1970 shows.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.8,
+      "confidence": "high",
+      "rationale": "All three reviewers rate the release 0‑2 stars, citing both bad audio/video quality and a weak performance; consistent negative feedback gives high confidence in a low rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "poor",
+      "technical_notes": "Muffled, slow mix with psychedelic visual effects that make the video difficult to watch; overall audio is considered unlistenable compared to other 1970 releases."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Candyman"
+      ],
+      "poor_songs": [
+        "Easy Wind"
+      ],
+      "setlist_flow": "The set feels sluggish and uninspired, with the early material suffering most; only a later segment provides any highlight."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:53:56.738547+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-08-30.sbd.backus.12750.sbeok.shnf"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.0,
   "high_ratings": 3,
-  "low_ratings": 3
+  "low_ratings": 3,
+  "ai_review": {
+    "summary": "A uniquely historic show with a strong setlist, but captured on a lo‑fi audience tape that many find painfully noisy.",
+    "review": "The performance itself is praised by several reviewers for its rare Jorma appearance and standout moments like the Cryptical → Sugar Magnolia transition and Ode to Billie Dean. However, the recording is widely described as muddy, twisted and difficult to listen to, with many callers calling it the worst tape they own and suggesting heavy EQ or simply learning to “listen past the noise.” The clash between a compelling show and abysmal audio leaves listeners divided.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.1,
+      "confidence": "medium",
+      "rationale": "Reviews are split: many condemn the sound quality while a few celebrate the setlist and uniqueness, resulting in an overall moderate rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Described as the worst recording ever, with twisted ambience, heavy noise, muffled sections (especially around The Other One) and requiring EQ to become tolerable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cryptical",
+        "Sugar Magnolia",
+        "Ode to Billie Dean",
+        "The Other One"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Setlist is lauded as incredible and unique (Jorma guest), with smooth transitions noted, though the poor audio masks much of the enjoyment."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:33:15.541823+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-11-11.aud.sirmick.31154.sbeok.flacf"
+  }
 }

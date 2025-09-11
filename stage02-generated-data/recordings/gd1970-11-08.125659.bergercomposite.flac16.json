@@ -14,5 +14,46 @@
   "confidence": 0.8,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A well‑edited matrix composite of a November ’70 run that captures a playful show with highlights like Rosalie McFall, Casey Jones, Truckin’ and an inventive Dark Star.",
+    "review": "The compilation blends the best available soundboard and audience sources, pitch‑corrected where needed, delivering a generally listenable recording despite occasional edits and missing crowd ambience. Musically the night is quirky – an acoustic first set with solid folk renditions followed by an electric second set that climbs from average early cuts to high points on Casey Jones, Truckin’ and a sci‑fi Dark Star jam.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "medium",
+      "rationale": "Reviews are split between strong praise for the upgraded composite and criticism of heavy editing; overall performance is viewed as above average with a good but not flawless recording."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "good",
+      "technical_notes": "Composite of multiple sources, pitch‑corrected (+1% in places); generally clear and listenable but suffers from occasional missing crowd noise, edited-out tunings, and a noisy audience bleed on Ripple."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Rosalie McFall",
+        "Ripple",
+        "Friend of the Devil (early arrangement)",
+        "Uncle John's Band",
+        "Casey Jones",
+        "Truckin'",
+        "Dark Star",
+        "Goin' Down the Road"
+      ],
+      "poor_songs": [
+        "Operator (final version, noted as not one of the better takes)"
+      ],
+      "setlist_flow": "Acoustic first set is quirky and folk‑focused; electric second set starts average but gains momentum with Casey Jones and Truckin', peaking in a creative Dark Star jam before winding down with experimental new material."
+    },
+    "band_member_comments": {
+      "Jerry": "Jerry’s solo on Mystery Train is highlighted as a classic solo moment.",
+      "Phil": "",
+      "Bob": "Bob Weir “gives his all” on New Orleans, even shouting ‘slow down!’ during the performance.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:25:23.375362+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-11-08.125659.bergercomposite.flac16"
+  }
 }

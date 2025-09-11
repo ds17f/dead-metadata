@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.590909090909091,
   "high_ratings": 15,
-  "low_ratings": 5
+  "low_ratings": 5,
+  "ai_review": {
+    "summary": "Fair‑quality audience tape captures a fiery 1970 performance highlighted by an epic China > Rider > High Time and soaring Lovelight.",
+    "review": "Despite the lo‑fi, crackly AUD source, this show shines with high energy and tight playing. Reviewers rave about the Black Peter opening, the blistering China > Rider > High Time sequence, a monster The Other One, and an unforgettable 25‑minute Lovelight, while noting pops, hiss and occasional pitch issues that keep it from being pristine.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers give 4–5 stars for the performance; recording quality is consistently described as average/fair but still listenable, yielding a strong overall score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Crackles, hiss, occasional pops and splices; some reviewers note pitch being too sharp. Still considered listenable for a 1970 AUD with decent instrument separation."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Black Peter",
+        "China > Rider > High Time",
+        "The Other One",
+        "Lovelight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong early set with Black Peter and a high‑octane China>Rider>High Time, followed by an intense NFA → Drums → Good Lovin' → The Other One → NFA → Lovelight sequence; reviewers praise the seamless transitions and relentless energy despite tape cuts."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar tone on High Time praised as perfect; his vocal on Black Peter called emotional, and his fast, frenetic solo on The Other One highlighted.",
+      "Phil": "Lesh’s bass intro into Good Lovin' described as “machine‑gun” and a driving force that punches through the wall between sections.",
+      "Bob": "Weir’s burning guitar work noted especially in the China > Rider transition; his rhythm playing praised throughout.",
+      "Keys": "Pigpen’s vocal performance lauded (especially on Black Peter and Good Lovin'); occasional organ solos absent but his showmanship acknowledged.",
+      "Drums": "Mickey Hart and Bill Kreutzmann’s drum segment described as tribal, “Zulu‑tribe” energy with powerful, stomping playing."
+    },
+    "processed_date": "2025-09-11T06:49:39.262267+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-03-07.aud.hanno.6156.sbeok.shnf"
+  }
 }

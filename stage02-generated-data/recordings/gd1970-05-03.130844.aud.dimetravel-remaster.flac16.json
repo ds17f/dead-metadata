@@ -14,5 +14,35 @@
   "confidence": 0.2,
   "raw_rating": 2.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Low‑grade audience recording of an incomplete show with minimal performance detail",
+    "review": "The tape is considered a low‑grade capture of an incomplete concert, offering little in the way of sound clarity or completeness. Reviewers note that even more complete versions are still lower grade, indicating both recording and show quality are subpar.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 2.0,
+      "confidence": "low",
+      "rationale": "Only one brief review rating the recording as low‑grade and incomplete; no positive comments to offset, leading to a low overall rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Low‑grade capture, incomplete show, likely poor fidelity and missing portions"
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Show is incomplete; no specific comments on pacing or song flow"
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:47:35.956078+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-05-03.130844.aud.dimetravel-remaster.flac16"
+  }
 }

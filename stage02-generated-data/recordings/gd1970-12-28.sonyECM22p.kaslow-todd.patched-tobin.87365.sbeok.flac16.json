@@ -14,5 +14,40 @@
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Crystal‑clear audience recording of a solid 1970 set that smolders and explodes, highlighted by a smoking 'That's It for the Other One > Sugar Magnolia' and powerful Pigpen moments.",
+    "review": "The tape is praised as one of the best‑sounding 1970 audience recordings, with the patches and mastering delivering a surprisingly crisp and sweet sound despite its source. Musically the show is described as a fun, smoldering performance featuring standout renditions of 'That's It for the Other One > Sugar Magnolia', a tight 'Good Lovin'', and an inspired Pigpen presence, though it isn’t hailed as a landmark concert.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Reviewers consistently rate the recording itself very highly (5‑star comments on clarity) while describing the show as good to great with several standout moments; weighted averaging of show (≈4.0) and recording (≈4.8) yields ~4.2."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Audience tape patched and mastered to a level of clarity rare for the era; reviewers note it as one of the best‑sounding 1970 audience recordings, with only an odd squawking wah‑pedal artifact at the start of Sugar Magnolia."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "That's It for the Other One > Sugar Magnolia",
+        "Good Lovin'",
+        "Smokestack Lightning (intro)",
+        "Deep Elem Blues (intro)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Typical late‑1970/early‑1971 setlist that flows well, with a strong second half driven by Pigpen’s vocal leadership and several high‑energy jams."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia's Strat neck & mid‑tone on the Other One is described as sweet; his wah‑pedal mishap at the start of Sugar Magnolia is noted, but overall his playing is praised.",
+      "Phil": "",
+      "Bob": "Bob Weir gets a nod for \"good Bob rockers\" and solid contributions to the set.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T12:04:09.683732+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-12-28.sonyECM22p.kaslow-todd.patched-tobin.87365.sbeok.flac16"
+  }
 }

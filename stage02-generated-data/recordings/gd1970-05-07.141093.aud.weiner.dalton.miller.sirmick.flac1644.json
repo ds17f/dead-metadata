@@ -14,5 +14,35 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Enthusiastic fans hail this MIT 1970 show as a joyous, off‑the‑rails performance; recording quality is not described.",
+    "review": "The lone review gushes about the May 7 1970 MIT concert, calling it “off the rails” and a pure joy, awarding five stars. No details are given about the source or sonic clarity of the tape, so the technical side remains unknown.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "Only one highly positive review mentions the musical excitement but provides no recording details; rating leans heavily on show enthusiasm."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No comments about sound clarity, mix, or source type were provided."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "No specific commentary on set structure; reviewer simply expresses overall joy."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:59:46.726954+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-05-07.141093.aud.weiner.dalton.miller.sirmick.flac1644"
+  }
 }

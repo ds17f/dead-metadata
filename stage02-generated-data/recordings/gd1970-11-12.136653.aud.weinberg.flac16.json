@@ -14,5 +14,35 @@
   "confidence": 0.0,
   "raw_rating": 0.0,
   "high_ratings": 0,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Poor‑quality audience tape of uncertain provenance; difficult to listen to.",
+    "review": "Both reviewers question whether the recording is from a legitimate 46th Street run and note that the audio quality is so bad it hampers listening. No musical details are offered, indicating the performance itself cannot be evaluated from these comments.",
+    "sentiment": "negative",
+    "ai_rating": {
+      "stars": 1.3,
+      "confidence": "low",
+      "rationale": "Both reviews give zero stars and criticize the sound quality and provenance; with no positive show commentary, the rating is very low and confidence is limited due to only two brief reviews."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Audio is hard to listen to due to bad sound quality; possible tape hiss, muffled mix, and questionable source identification."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:34:46.143208+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-11-12.136653.aud.weinberg.flac16"
+  }
 }

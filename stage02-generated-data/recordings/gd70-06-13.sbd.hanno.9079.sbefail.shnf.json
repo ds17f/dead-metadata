@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 3.5555555555555554,
   "high_ratings": 13,
-  "low_ratings": 4
+  "low_ratings": 4,
+  "ai_review": {
+    "summary": "A rare 1970 Hawaiian show with standout Easy Wind, New Speedway and Love Light jams, captured on a patchwork matrix that swings from muddy audience to crystal‑clear soundboard.",
+    "review": "The performance is often described as hot‑blooded and inspired – Phil’s bass drives the famed Easy Wind sequence, New Speedway shines, and the Love Light jam burns slow and deep.  The recording, however, is a mixed bag: early audit portions are lo‑fi and static‑filled while later soundboard tracks are crisp, but the overall mix is uneven with snare buzz and occasional balance quirks.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.5,
+      "confidence": "high",
+      "rationale": "Most reviewers love the musical moments (average show rating ~4) but consistently criticize the recording quality (average rating ~2). Weighted combination yields a mid‑range score."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Patchwork of audience (AUD) and soundboard (SBD) sources; early sections muddy, static‑y and low‑fi, later sections crystal clear. Mix is odd – bass and vocals sometimes buried or overly forward, snare buzz and room boom present."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Easy Wind > Uncle John’s Band > Easy Wind",
+        "New Speedway",
+        "Good Lovin' (jam)",
+        "Love Light",
+        "Me & My Uncle",
+        "Pigpen piano moments"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set feels like a high‑energy Hawaiian vacation, with the band clearly enjoying themselves.  Some listeners note an odd duplication of Easy Wind/Uncle John’s that may stem from splicing different sources, but overall the pacing is lively and the jams flow well."
+    },
+    "band_member_comments": {
+      "Jerry": "Often pushed to the back in the mix, but his lead lines are still sharp; some note he’s backgrounded for much of the show.",
+      "Phil": "His bass on Easy Wind is described as ‘driving it down hard’, a highlight for many listeners.",
+      "Bob": "Bobby’s rhythm guitar and vocals sit high in the mix during jams, sometimes leading the improvisation.",
+      "Keys": "A guest keyboardist (likely Keith) appears on New Speedway; reviewers mention this as an enjoyable addition.",
+      "Drums": "Drummers are praised as ‘razor‑sharp’, though a few note a faint snare buzz and a tap‑in‑the‑background feel in the audience portions."
+    },
+    "processed_date": "2025-09-11T08:53:54.978595+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-06-13.sbd.hanno.9079.sbefail.shnf"
+  }
 }

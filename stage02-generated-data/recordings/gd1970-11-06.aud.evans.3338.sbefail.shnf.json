@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 9,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent 1970 Capitol show with stellar Pigpen jams and a solid acoustic/electric set, captured on a good‑quality audience tape despite occasional flaws.",
+    "review": "Fans rave about this late‑1970 Capitol Theater concert – highlighting the extended Pigpen jam sequence, classic numbers like Casey Jones, Good Lovin', Alligator and King Bee, plus an inspiring acoustic set. The recording is an audience capture that, for its era, offers surprisingly clear sound overall, though a few sections suffer from noticeable dropouts or muddiness.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Consistently high reviewer stars (mostly 5) and enthusiastic comments about the performance outweigh minor recording flaws, yielding a strong combined score."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear for a 1970 audience tape; many sections are top‑notch, but there are some truly horrible moments and occasional dropouts that affect continuity."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Casey Jones",
+        "Good Lovin'",
+        "Alligator",
+        "King Bee (Pigpen harp)",
+        "Extended Pigpen jam sequence"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The concert blends a respectful acoustic soundcheck, an early electric set, and a powerful late‑night electric climax with the Pigpen jams, creating a dynamic arc that many reviewers describe as one of the high‑water marks of the 1970 era."
+    },
+    "band_member_comments": {
+      "Jerry": "Noted for his wicked blues riffs during the jam sections.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:10:41.510415+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-11-06.aud.evans.3338.sbefail.shnf"
+  }
 }

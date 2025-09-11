@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 3.6,
   "high_ratings": 6,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Rough, tinny audience recording that’s been cleaned up enough to showcase a stellar Dark Star and an electrifying Eleven.",
+    "review": "The tape is an early‑1970 AUD with limited fidelity – listeners report tinny mids, bottomless lows and occasional pitch quirks, though Sir Mick’s cleanup makes it tolerable. Musically the show shines, especially the second set where a classic Dark Star flows into a soaring St. Stephen and one of the era’s finest renditions of The Eleven, with Easy Wind and Friend of the Devil also highlighted.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the performance (especially Dark Star, The Eleven, Easy Wind) despite consistent complaints about the low‑fidelity audience source; weighted average yields a strong rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Tinny, bottomless sound with limited frequency range; occasional pitch fluctuations. Sir Mick’s remaster reduces some issues but the recording remains rough and requires patience."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Eleven",
+        "St. Stephen",
+        "Easy Wind",
+        "Friend of the Devil"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Second set flows tightly with Dark Star into St. Stephen and The Eleven; acoustic set is weaker but still captures the band’s early‑1970 vibe."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s guitar cuts through clearly; reviewers note he “goes OFF” on Dark Star and delivers an intense Eleven.",
+      "Phil": "Hard to hear Phil’s bass in the acoustic portion, but no major complaints about his playing elsewhere.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:33:08.067733+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-04-24.aud.remaster.sirmick.27205.sbeok.shnf"
+  }
 }

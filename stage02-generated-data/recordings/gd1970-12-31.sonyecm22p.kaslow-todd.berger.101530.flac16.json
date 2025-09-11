@@ -14,5 +14,39 @@
   "confidence": 0.6,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Stunning 1970 audience tape with crisp sound and an outstanding Cold Rain and Snow, though a few cuts interrupt the flow.",
+    "review": "The three reviewers rave about the surprisingly high‑fidelity audience recording for a 1970 show, calling it “sweet” and even “STUNNING AUD”.  The band is described as ripping it up, with Cold Rain and Snow singled out as a highlight, while an audible cut in Easy Wind is the only notable blemish.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Overall strong praise for both performance and recording (average 4‑star rating, with one 5‑star review) but limited number of reviews keeps confidence at medium."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Very clear for a 1970 audience source; sweet setup yields crisp detail.  Some cuts are present, most noticeably in Easy Wind."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cold Rain and Snow"
+      ],
+      "poor_songs": [
+        "Easy Wind (cut)"
+      ],
+      "setlist_flow": "Energetic performance that keeps momentum despite the occasional gap; overall flow is strong and enjoyable."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T12:08:51.476346+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-12-31.sonyecm22p.kaslow-todd.berger.101530.flac16"
+  }
 }

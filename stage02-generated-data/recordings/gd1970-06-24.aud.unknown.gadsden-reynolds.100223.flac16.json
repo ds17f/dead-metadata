@@ -14,5 +14,37 @@
   "confidence": 0.4,
   "raw_rating": 2.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Mediocre audience‑sourced recording with a lackluster St. Stephen performance.",
+    "review": "The tape is an unknown‐source audience recording that suffers from sub‑par sound quality, though it does capture some crowd enthusiasm. Reviewers focus almost entirely on the disappointing rendition of \"St. Stephen,\" with one calling it the worst they’ve heard and another noting a weak execution of its signature “lady‑fingers” section. No other songs or moments receive praise.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 1.5,
+      "confidence": "medium",
+      "rationale": "Three brief reviews give mixed but largely negative feedback; the show lacks standout moments and the recording is only fair, resulting in a low overall rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Sound quality described as not too good; audience ambience present but overall clarity is limited."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [
+        "St. Stephen"
+      ],
+      "setlist_flow": "No comments on set structure; focus is on the weak St. Stephen performance and general disappointment."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:17:33.738094+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-06-24.aud.unknown.gadsden-reynolds.100223.flac16"
+  }
 }

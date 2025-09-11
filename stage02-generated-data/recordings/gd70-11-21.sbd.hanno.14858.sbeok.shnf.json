@@ -14,5 +14,38 @@
   "confidence": 0.6,
   "raw_rating": 4.0,
   "high_ratings": 2,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Rough audience‑sourced cassette from the 11‑21‑70 Boston University show – listenable but low‑fi, with standout Cryptical and Cosmic Charlie moments despite missing drums and an incomplete set.",
+    "review": "The tape captures a fragment of the November 21, 1970 Sargent Gym concert that Deadheads love for its intense vocal work from Jerry and Bob on “Cryptical” and a soaring “Cosmic Charlie.”  Sound quality is far from pristine – it’s distorted, missing much of the drum track and only offers a single portion of the performance – but the energy of the band shines through enough to make it worth repeated spins for collectors.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "Reviewers praise the musical highlights (especially Cryptical and Cosmic Charlie) but repeatedly note poor, distorted audio and missing portions; weighting show quality higher than recording yields a mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Distorted cassette tape sound, limited clarity, noticeably thin drum presence and only a partial segment of the concert is present."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cryptical",
+        "Cosmic Charlie"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The recorded portion jumps from Cryptical into an abbreviated Other One and ends with Cosmic Charlie; the overall flow feels fragmented due to missing drums and omitted songs."
+    },
+    "band_member_comments": {
+      "Jerry": "Sings with conviction early in Cryptical, noted as a highlight.",
+      "Phil": "",
+      "Bob": "Vocals are described as \"very high\" and somewhat strained during Cryptical.",
+      "Keys": "",
+      "Drums": "Commented that there is little to no drum presence; the drum track feels missing."
+    },
+    "processed_date": "2025-09-11T11:42:30.519245+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-11-21.sbd.hanno.14858.sbeok.shnf"
+  }
 }

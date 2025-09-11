@@ -14,5 +14,40 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience‑taped recording with okay overall sound that truly shines on the second‑set Dark Star > St. Stephen > Turn On Your Love Light, delivering a classic ’70s Dead experience.",
+    "review": "The tape captures a quintessential early‑’70s show with a stellar set list – Morning Dew, Easy Wind and an expansive Dark Star > St. Stephen > Darkness sequence that culminates in a fiery Turn On Your Love Light. Sound quality is mixed; the first set suffers from equipment hiccups, but from Dark Star onward the audience recording is remarkably clear and immersive.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "One detailed 5‑star review praises the musical performance heavily while noting only modest sound issues, leading to a strong overall rating but limited data for high confidence."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Overall okay sound; first set muted due to equipment trouble, second‑set (Dark Star onward) is clear and vivid with strong audience presence."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Morning Dew",
+        "Easy Wind",
+        "Dark Star > St. Stephen > Darkness",
+        "Turn On Your Love Light"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Classic ’70s set‑list with patient, jam‑heavy pacing; the second set delivers high energy and memorable transitions."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T10:09:50.512278+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-09-19.sbd.buller.102.shnf"
+  }
 }

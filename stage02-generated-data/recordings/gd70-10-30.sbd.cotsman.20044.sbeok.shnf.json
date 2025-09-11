@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 3.7142857142857144,
   "high_ratings": 4,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Soundboard source with spotty, sometimes muffled audio, but the early set burns bright with Truckin' vocals and a fire‑starter Good Lovin'/Drums despite later weariness.",
+    "review": "The recording is an SBD that suffers from inconsistent fidelity – drops between discs, occasional cut‑offs and out‑of‑tune guitars – yet the performance still shines for many fans. Highlights include Bob Weir’s standout Truckin' vocals, a scorching Good Lovin'/Drums segment and a memorable (though unfinished) Rider, while the second half feels weary. Overall listeners are divided: some praise the historic vibe, others criticize the technical flaws.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Reviews show a split between strong emotional appreciation of the show and consistent complaints about recording quality; average star rating ~3.7 leads to a rounded 3.8."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Spotty sound with noticeable drop in fidelity between discs, occasional cut‑off (mid‑Rider), guitars out of tune in places, and overall lack of clarity compared to typical SBDs."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin'",
+        "Good Lovin'",
+        "Cumberland",
+        "Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Early show is tight and energetic, highlighted by strong vocals and fire‑starter jams; the later portion feels weary and less focused, mirroring the uneven recording quality."
+    },
+    "band_member_comments": {
+      "Jerry": "Guitar tone noted as lacking in places; some reviewers mention out‑of‑tune guitars.",
+      "Phil": "",
+      "Bob": "Weir's Truckin' vocals praised as a highlight of the early set.",
+      "Keys": "",
+      "Drums": "Good Lovin'/Drums segment described as catching fire."
+    },
+    "processed_date": "2025-09-11T10:50:41.660348+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-10-30.sbd.cotsman.20044.sbeok.shnf"
+  }
 }

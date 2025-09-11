@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.8,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard recording of a stellar 1970 St. Louis show highlighted by an epic Dark Star and fierce Mason's Children.",
+    "review": "Fans rave about the soaring Dark Star, calling it one of the best after 2/13/70, and they appreciate the crisp, high‑quality soundboard source that brings out every nuance. The brief but ferocious Mason’s Children and a noted Pigpen moment in Lovelight add extra sparkle, while only a tiny glitch (“cut”) is mentioned.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "All but one review are 4‑5 stars and praise both the performance (especially Dark Star) and the high‑quality recording; the lone 0‑star appears to be an outlier."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Listeners describe a \"nice, high quality copy\" with crystal‑clear sound; one reviewer notes a small cut in Mason's Children but overall the mix is clean and well balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Mason's Children",
+        "Lovelight"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The show is centered around an extended, improvisational Dark Star that sets a high bar; the brief but intense Mason’s Children and the emotive Lovelight provide dynamic contrast."
+    },
+    "band_member_comments": {
+      "Jerry": "His guitar work on Dark Star is described as beautiful and fiery.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen’s soulful contribution during Lovelight is highlighted in the liner‑note tribute.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:39:32.639677+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-02-02.sbd.vernon.10374.sbeok.shnf"
+  }
 }

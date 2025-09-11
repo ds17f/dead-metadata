@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.2,
   "high_ratings": 5,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Decent soundboard capture of the June 5 1970 Fillmore West show, highlighted by jam‑filled Saint Stephen, Easy Wind and Man’s World, though the audio has occasional patches that benefit from EQ.",
+    "review": "The performance is praised for its high energy and strong jams—especially a fully stretched Saint Stephen and the rare pairing of Easy Wind with Man's World. While listeners note some sound‑board quirks and the need for EQ to tame occasional drop‑outs, the overall vibe remains enjoyable and memorable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Strong musical performance (≈4.5/5) offset by modest recording issues (≈3/5); weighted average yields ~4.1 stars."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "fair",
+      "technical_notes": "Audience‑portion excerpt with occasional patchy sections; reviewers mention needing EQ and note some drop‑outs, but the capture is still listenable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Saint Stephen",
+        "Easy Wind",
+        "Man's World"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows with solid early‑1970 energy; despite a few technical hiccups the band stays tight and delivers extended jams that keep the momentum high."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T08:38:13.001813+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-06-05.sbd.bunjes-evans.28653.flac16"
+  }
 }

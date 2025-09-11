@@ -14,5 +14,37 @@
   "confidence": 0.4,
   "raw_rating": 2.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Rough audience recording with harsh, cloudy sound and an incomplete set, but Black Peter stands out",
+    "review": "The tape is an audience capture that suffers from a harsh and cloudy mix and is missing portions of the concert, making it far less enjoyable than better‑sourced recordings. Still, reviewers note the presence of a solid Black Peter performance, offering a small musical highlight amid the technical shortcomings.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 2.6,
+      "confidence": "low",
+      "rationale": "Only two reviews, one very negative about sound quality and another moderate; show content is average with a single highlighted song, while recording quality is poor."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Harsh, cloudy mix; incomplete recording with missing portions of the set."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Black Peter"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Incomplete and fragmented; reviewers note it isn’t on par with fuller recordings."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T06:19:50.757612+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-13.early.aud.unknown.holmes-Oleynick.109535.sbeok.flac16"
+  }
 }

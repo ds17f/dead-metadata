@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 3.5833333333333335,
   "high_ratings": 7,
-  "low_ratings": 2
+  "low_ratings": 2,
+  "ai_review": {
+    "summary": "Patchy audience tape of the mysterious 1970 Action House show – great moments like Attics of My Life and Deep Elem Blues, but marred by very poor sound quality.",
+    "review": "The performance shines with a gorgeous rendition of “Attics of My Life,” a funky, soulful “Deep Elem Blues,” and an upbeat “Walkin’ the Dog,” showing why those New York ’70 shows are beloved. Unfortunately the recording is an uneven audience capture – often wretched, with drop‑outs and variable fidelity that makes large sections hard to enjoy. Listeners who can look past the audio will find a rare glimpse of a lost show, but most will struggle with the technical mess.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "medium",
+      "rationale": "Show quality is praised (standout songs, energetic performance) while recording quality is repeatedly described as poor or wretched; weighted average of these factors yields an overall middling rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Often described as wretched, muddy, and with drop‑outs; quality varies wildly between tracks, likely a compilation of audience tapes from different dates rather than a single coherent board recording."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Attics of My Life",
+        "Deep Elem Blues",
+        "Walkin' the Dog"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Reviewers note the tape is a patchwork of selections rather than a full set, but the included songs flow well and capture the high‑energy vibe typical of 1970 New York shows."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "His bass on “Deep Elem Blues” is described as jack‑hammer‑like and driving.",
+      "Bob": "Bob Weir’s second‑guitar work (referred to as ‘young Robert Weir’) shines on the deep blues numbers.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:29:20.388509+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-11-09.aud.hanno.7591.sbeok.shnf"
+  }
 }

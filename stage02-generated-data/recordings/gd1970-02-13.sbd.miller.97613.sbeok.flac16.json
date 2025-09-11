@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 5.0,
   "high_ratings": 10,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Pristine soundboard capture of the Feb 13 1970 Fillmore show, highlighted by a soaring Dark Star → The Other One → Lovelight sequence and tight acoustic set.",
+    "review": "The recording is praised as a “pristine document” with crystal‑clear mix and excellent balance – DP4 quality that even seasoned archivists laud. Musically the night delivers a relaxed first set that builds into an electric marathon featuring Dark Star, The Other One, Lovelight and a monster Smokestack Lightning, earning unanimous acclaim from listeners.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "All ten reviews give five‑star ratings and consistently praise both the performance (standout jams, tight playing) and the soundboard recording quality, leaving little doubt of an exceptional show."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crystal‑clear, balanced mix; reviewers call it “pristine” and “beyond compare,” noting only a slight brightness that some listeners tweak with EQ."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "The Other One",
+        "Lovelight",
+        "Smokestack Lightning",
+        "Uncle John's Band",
+        "Bear's Choice (acoustic)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "A relaxed acoustic set that segues into a high‑energy electric set; the band builds momentum with tight jams and seamless transitions, culminating in an iconic Dark Star → The Other One → Lovelight stretch."
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised for his lead work on Dark Star and overall guitar brilliance.",
+      "Phil": "Noted for a strutting bass riff and playing lead alongside Jerry; described as tight and perfect.",
+      "Bob": "Highlighted as being at his best, receiving credit for strong rhythm/vocal contributions.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T06:22:33.537534+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-13.sbd.miller.97613.sbeok.flac16"
+  }
 }

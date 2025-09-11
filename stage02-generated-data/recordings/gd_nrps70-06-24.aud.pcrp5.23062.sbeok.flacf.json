@@ -14,5 +14,42 @@
   "confidence": 1.0,
   "raw_rating": 4.806451612903226,
   "high_ratings": 60,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A legendary audience tape from the Capitol Theatre that captures a near‑perfect late‑show performance – Dark Star/Attics/Sugar Magnolia magic and high‑energy jams – with surprisingly clear sound for an AUD source.",
+    "review": "This recording is an audience (AUD) capture of the June 24, 1970 Capitol Theatre concert.  While not a pristine soundboard tape, reviewers repeatedly note its clarity, vivid crowd ambience and minimal drop‑outs, making it one of the best audience recordings of that era.  Musically the show is described as transcendent: a monster Dark Star suite (Dark Star → Attics → Dark Star → Sugar Magnolia → Dark Star), blistering Not Fade Away→Easy Wind, soaring St. Stephen > China Cat > I Know You Rider and an emotional Swing Low Sweet Chariot encore.  The energy of the band and audience is repeatedly called “magical” and “the soundtrack of a lifetime.”",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high",
+      "rationale": "The overwhelming majority of reviews are 5‑star, praising the performance as one of the best ever; recording quality is consistently described as good to excellent for an audience tape.  Weighted (70 % show + 30 % recording) this yields a rating around 4.7."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers highlight surprisingly clear instrument separation, vivid crowd reactions and occasional minor glitches (disc‑order confusion, brief drop‑outs).  The tape captures the venue’s reverberation, giving a strong “being there” feel despite not being a soundboard."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star (multi‑part suite)",
+        "Attics of My Life (inside Dark Star)",
+        "Sugar Magnolia (early version)",
+        "Not Fade Away > Easy Wind",
+        "St. Stephen > China Cat Sunflower > I Know You Rider",
+        "Swing Low, Sweet Chariot (encore)"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The early acoustic set is solid but the real high point comes with the late electric set.  Seamless segues – Not Fade Away into Easy Wind, Dark Star into Attics and back, then into Sugar Magnolia – create a continuous, high‑energy arc that builds to a climactic St. Stephen/China Cat/Rider sequence before winding down with an emotional encore."
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly described as ‘smoking’, delivering transcendent leads during Dark Star and the China Cat segment; his tone and improvisational fire are highlighted as the centerpiece of the night.",
+      "Phil": "Noted for a sustained bass note that opens a quiet space in Dark Star and for harmonic support throughout the jams; praised for “beautiful” low‑end work.",
+      "Bob": "Recognized for rhythmic guitar work that weaves around Garcia’s leads, especially during China Cat Sunflower and I Know You Rider.",
+      "Keys": "",
+      "Drums": "Mickey’s gong intro is mentioned; Bill’s driving tom‑tom feel on Not Fade Away is praised as part of the “manic” rhythm foundation."
+    },
+    "processed_date": "2025-09-11T09:13:10.463303+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd_nrps70-06-24.aud.pcrp5.23062.sbeok.flacf"
+  }
 }

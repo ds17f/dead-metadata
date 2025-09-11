@@ -14,5 +14,40 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Atmospheric audience recording with vivid crowd moments and strong Jerry vocals, though Dark Star is cut short",
+    "review": "The reviewer loves the show’s emotional peaks – laughing and crying during St. Stephen and the jovial feel of Uncle John’s Band captured by the audible crowd. Jerry’s backing vocals and his rare pedal‑steel work are highlighted, while a recording glitch cuts off the Dark Star, leaving that moment unfinished.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "low",
+      "rationale": "Single enthusiastic 5‑star review praises performance and atmosphere; minor recording loss prevents a perfect score"
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Crowd is clearly audible, adding atmosphere; however the Dark Star segment clips out, indicating a brief dropout."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "St. Stephen",
+        "Uncle John's Band"
+      ],
+      "poor_songs": [
+        "Dark Star (recording cut)"
+      ],
+      "setlist_flow": "Emotional early set with St. Stephen drawing strong audience reaction, followed by a lively Uncle John’s Band; overall pacing feels engaging despite the missing Dark Star portion."
+    },
+    "band_member_comments": {
+      "Jerry": "Backing vocals praised; rare pedal‑steel playing noted as a highlight",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T08:23:46.389145+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-05-15.136575.late.aud.cooper.berger.flac16"
+  }
 }

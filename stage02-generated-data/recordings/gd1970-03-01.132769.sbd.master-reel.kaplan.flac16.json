@@ -14,5 +14,44 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Great‑sounding soundboard capture with solid performance highlights like Cumberland Blues and The Big Boy Pete, though the show runs a bit mellow.",
+    "review": "The recording is praised as clear and outstanding despite brief cuts, making it one of the better sources for this era. Musically the night is described as okay overall – standout moments include a blazing \"Big Boy Pete,\" superb \"Cumberland Blues\" and a tight \"King Bee,\" while the down‑tempo take on \"Uncle John’s Band\" and feedback‑laden \"The Other One\" feel less inspired.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "medium",
+      "rationale": "Strong recording quality (high marks) balanced against an average‑to‑good performance with both highlights and slower, less engaging moments."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Overall great sound; brief cuts are unobtrusive. Some feedback on \"The Other One\" forced the band to lower volume, but the mix remains clear and balanced."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Cumberland Blues",
+        "The Big Boy Pete",
+        "High Cotton",
+        "Peaches and Cream",
+        "King Bee"
+      ],
+      "poor_songs": [
+        "Uncle John's Band (down‑tempo)",
+        "The Other One (feedback/volume issues)"
+      ],
+      "setlist_flow": "The set leans toward a mellow, down‑tempo vibe after early feedback problems; highlights are interspersed with slower, less energetic numbers."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T06:46:17.135938+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-03-01.132769.sbd.master-reel.kaplan.flac16"
+  }
 }

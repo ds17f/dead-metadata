@@ -14,5 +14,35 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Audience-sourced recording captures a raw 1970 performance with Jerry’s dynamic guitar work, offering good sound despite its vintage audience origin.",
+    "review": "The tape is an audience copy from the spring‑1970 era that lets listeners hear the band cutting loose right after their Fillmore run. Jerry Garcia’s playing swings from thunderous leads to delicate passages, giving the set a vivid, authentic feel even if the recording carries typical crowd ambience.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "low",
+      "rationale": "Only one detailed review; it rates the show 4 stars and praises the performance and overall sound, leading to a solid but not outstanding rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Vintage audience recording that is surprisingly clear for its type; listeners can hear Jerry’s guitar dynamics, though ambient crowd noise is present as expected."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Shows taken right after the Fillmore run are described as ‘cutting loose’, with a relaxed yet energetic vibe throughout."
+    },
+    "band_member_comments": {
+      "Jerry": "Described as thundering on the lead and softly in quieter moments, highlighting his dynamic range.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:55:36.247209+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-05-06.156178.msr.zootype.flac16"
+  }
 }

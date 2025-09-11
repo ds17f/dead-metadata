@@ -14,5 +14,37 @@
   "confidence": 0.8,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Sweet Jerry vocals and a standout Black Peter shine in this well‑played acoustic set captured on a clear mono audience recording.",
+    "review": "Reviewers rave about the acoustic portion of the show, calling it an outstanding performance with Jerry’s voice sounding especially sweet and Black Peter highlighted as a high point. The mono tape source is praised for its exceptional clarity despite being missing the opening song and having a brief cut in “Swing Low”.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Four detailed reviews consistently praise the musical performance and audio quality, yielding an overall strong rating with only one moderate‑star comment."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Mono tape likely from a Taper's Section source; clear and sweet sound but missing the first song and contains a cut in “Swing Low”. Overall clarity is described as exceptional."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Black Peter"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Acoustic set flows smoothly, with strong playing throughout; reviewers note the entire segment feels nicely executed and enjoyable."
+    },
+    "band_member_comments": {
+      "Jerry": "His voice is described as sweet, lovely, and a highlight of the performance.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T08:34:07.349750+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-06-04.119921.sbd.acou.unk.miogi.flac16"
+  }
 }

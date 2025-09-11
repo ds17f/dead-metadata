@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 4.2,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent soundboard capture of a 1970 Fillmore West show with standout China Cat Sunflower / I Know You Rider, Uncle John’s Band and Black Peter, though the second half feels a bit flat for some listeners.",
+    "review": "The recording is a superb 1970‑era soundboard mix that delivers crystal‑clear guitar tones, rich pedal‑steel work and minimal hiss, making it one of the better transfers from this period. Musically the show shines early with the country‑western trio, China Cat Sunflower / IKYR, High Time and a superb Uncle John’s Band into Black Peter, but several reviewers felt the latter portion lost momentum. Overall the performance is praised for its tasteful playing and unique pedal‑steel moments despite a few uninspired stretches.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Most reviewers give 5‑star ratings highlighting both the high‑quality soundboard source and strong musical moments; only a few note mild performance dips, yielding an overall weighted rating around 4.2."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, well‑balanced mix praised by multiple reviewers; occasional slight tape hiss noted but no major dropouts or distortion."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower > I Know You Rider",
+        "Uncle John's Band",
+        "Black Peter",
+        "High Time",
+        "Green Grass"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Begins with a country‑western trio that showcases Garcia’s pedal steel, moves through a tight mid‑set (China Cat > IKYR, High Time) and peaks with Uncle John’s Band into Black Peter; the later portion is described by some as less inspired."
+    },
+    "band_member_comments": {
+      "Jerry": "Pedal‑steel work on the opening trio is highlighted as a unique treat; his lead guitar throughout is called effortless, rich and full‑tone.",
+      "Phil": "Mentioned for contributing distinct vocals on Uncle John’s Band; no specific bass commentary beyond solid support.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Drums noted as present but without notable issues or standout moments."
+    },
+    "processed_date": "2025-09-11T05:53:52.761578+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-07.sbd.bean.3912.sbeok.shnf"
+  }
 }

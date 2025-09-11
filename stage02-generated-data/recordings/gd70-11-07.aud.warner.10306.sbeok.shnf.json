@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.0,
   "high_ratings": 3,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Audience tape with uneven levels yet captures a magical Capitol Theater show highlighted by an epic Truckin > drums > Other One jam.",
+    "review": "The recording is an audience source that suffers from dramatic volume swings, occasional conversational bleed and a generally \"cloudy\" sound, though listeners note it improves with EQ. Musically the performance shines – the acoustic set is praised, and the electric set delivers a standout Truckin > drums > Other One sequence that rolls into a sweet Casey Jones, plus early‑stage development of the iconic \"gone, gone, gone\" phrasing in I Know You Rider.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Show receives strong praise (multiple 5‑star comments) while recording quality is split between rave and critical remarks, leading to a solid combined score around 4.0."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Volume levels bounce dramatically, causing listeners to constantly adjust gain; conversation bleed is audible; some describe the sound as \"cloudy\" or muffled, though others claim the tape sounds amazing after proper EQ."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Truckin",
+        "The Other One",
+        "Casey Jones",
+        "I Know You Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Acoustic set opens the show and is well‑received; electric set builds momentum with a long Truckin > drums > Other One jam (over 16 minutes) that segues into Casey Jones, showcasing dynamic pacing and strong improvisational flow."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "A notably long drum segment (~16 min) leading into The Other One is highlighted as a centerpiece of the electric set."
+    },
+    "processed_date": "2025-09-11T11:13:45.355115+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-11-07.aud.warner.10306.sbeok.shnf"
+  }
 }

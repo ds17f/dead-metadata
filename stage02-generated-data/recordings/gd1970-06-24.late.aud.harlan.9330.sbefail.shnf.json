@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.666666666666667,
   "high_ratings": 6,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A high‑quality audience tape captures a legendary June ’70 set highlighted by a soaring Dark Star, St. Stephen and an incendiary Not Fade Away.",
+    "review": "Fans rave about this late‑June 1970 show, calling the Dark Star > Ken>Mark>Jim jam and St. Stephen among the finest performances of the era, with Phil’s bass on Not Fade Away described as “banging away.” The audience recording is praised as surprisingly clear for its source, preserving the power and timeless aura of the performance.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All six reviews are strongly positive (average 4.7★) and emphasize both outstanding musical moments and a good‑quality audience recording, yielding a high combined rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Reviewers note the tape is a \"good recording\" for an audience source—clear enough to enjoy the band’s dynamics despite typical crowd ambience; no major dropouts or distortion reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star > Ken>Mark>Jim jam",
+        "St. Stephen",
+        "Not Fade Away",
+        "Easy Wind"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Described as \"the set\" and a \"truly special, powerful, awesome show,\" with seamless transitions that keep the energy high throughout."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "Phil’s bass is \"banging away\" on Not Fade Away.",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T09:14:50.874257+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-06-24.late.aud.harlan.9330.sbefail.shnf"
+  }
 }

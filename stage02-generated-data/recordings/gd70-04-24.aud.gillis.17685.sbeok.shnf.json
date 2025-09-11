@@ -14,5 +14,37 @@
   "confidence": 0.4,
   "raw_rating": 2.0,
   "high_ratings": 0,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "A sub‑par, slightly slowed recording marred by tracking glitches, but the Dark Star still shines.",
+    "review": "Both reviewers agree the tape suffers from poor sound quality – it sounds a bit slow, has pitch issues and obvious tracking flaws such as a false start and a broken string.  Despite these technical problems, the performance of Dark Star is praised as a highlight that makes the set worth listening to for dedicated fans.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.0,
+      "confidence": "low",
+      "rationale": "Two reviews note serious recording problems but also give moderate praise to Dark Star; overall impression is average, leading to a mid‑range rating with low confidence due to the small sample size."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "poor",
+      "technical_notes": "Pitch appears slightly slower than reference shows, tracking flaws include a false start and broken string, overall sound is muddy but not completely disastrous."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set is interrupted by technical glitches and a slower pitch, which affects continuity, though the Dark Star segment remains compelling."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:33:36.483647+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-04-24.aud.gillis.17685.sbeok.shnf"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 3.3,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Muddy audience tape captures a superb acoustic set highlighted by Box of Rain and a soaring Dark Star, while the electric portion is clouded by noise.",
+    "review": "The performance shines in its early acoustic half – featuring an exceptional Box of Rain, strong vocals from Phil, and a powerful Dark Star – but the later electric set suffers from a noisy, high‑pitched whine that masks much of the playing. Reviewers praise the historic value and the New Riders guest spots, yet repeatedly note the recording’s limited clarity, especially on the electric material.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Show quality is consistently praised (acoustic set, Dark Star, guest musicians) while recording quality is uniformly described as poor to fair; the weighted average yields a solid mid‑range rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Audible high‑pitched whine throughout, muffled electric portion, some parts clearer (acoustic set). Noise reduction applied but ineffective; overall noisy and clouded."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Box of Rain",
+        "Dark Star",
+        "Friend of the Devil",
+        "Ripple",
+        "Brokedown Palace"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Strong, well‑developed acoustic set with New Riders guests; electric set is historically interesting but hampered by recording issues, making its flow harder to assess."
+    },
+    "band_member_comments": {
+      "Jerry": "Acoustic piano and guitar work noted as solid; Garcia’s tone praised on the acoustic numbers.",
+      "Phil": "Vocals described as strong and emotionally resonant, especially on Box of Rain.",
+      "Bob": "",
+      "Keys": "Pedal steel and piano audible on Box of Rain; Pigpen’s piano contribution mentioned.",
+      "Drums": "Bill Kreutzmann’s drumming called ‘rocking’; Mickey Hart’s percussion noted in guest section."
+    },
+    "processed_date": "2025-09-11T09:57:21.192437+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-09-17.aud.remaster.sirmick.27591.sbeok.shnf"
+  }
 }

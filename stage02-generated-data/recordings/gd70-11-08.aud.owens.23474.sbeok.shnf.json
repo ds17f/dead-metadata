@@ -14,5 +14,40 @@
   "confidence": 1.0,
   "raw_rating": 4.222222222222222,
   "high_ratings": 14,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Fair audience recording captures one of the wildest ’70 electric sets, highlighted by a soaring Dark Star and an epic Main Ten jam.",
+    "review": "The performance is widely praised as a landmark 1970 show – the electric set delivers a smoking Dark Star, a unique Truckin’→Other One→Dancin’ in the Streets transition and a thunder‑thick Main Ten jam that many fans rank among the year’s best.  The Owens composite is an audience tape: it offers moments of crystal‑clear detail (notably the Dark Star chimes) but suffers from muddier sections, limited hall ambience and inconsistent source quality that can distract from the music.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show highly (4‑5 stars) for its musical brilliance, while recording quality is described as uneven/fair; weighted average yields a solid 4.1."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Audience tape with clear moments (Dark Star chimes) but overall muddier sections, especially during Dancin' in the Streets; limited hall ambience and inconsistent source mixes make listening uneven."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Truckin' > The Other One > Dancin' in the Streets (unique transition)",
+        "Main Ten jam (early Play‑in‑the‑Band)",
+        "Morning Dew"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The electric set is praised for its continuous, high‑energy flow and rare transitions; acoustic portion is less discussed but the overall pacing builds to a powerful second‑set climax."
+    },
+    "band_member_comments": {
+      "Jerry": "Several reviewers note Jerry's guitar tone and chimes on Dark Star as exceptional.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "One reviewer mentions a “nice xylophone from Mickey” during Dark Star, highlighting the percussion."
+    },
+    "processed_date": "2025-09-11T11:22:22.230958+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-11-08.aud.owens.23474.sbeok.shnf"
+  }
 }

@@ -14,5 +14,40 @@
   "confidence": 0.4,
   "raw_rating": 5.0,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Great vintage performance with standout Dark Star and Black Peter, captured in a good‑but‑vague recording",
+    "review": "Reviewers rave about the historic vibe of this early‑1970 show, highlighting a smoking Dark Star, powerful drumming, and classic numbers like Black Peter and Wake Up Little Suzie. The audio is described as an echo from the past – clear enough to enjoy but with no concrete technical details – while one reviewer notes the setlist doesn’t match other copies of the Feb‑14‑1970 show.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Two enthusiastic 5‑star reviews praise the musical performance and overall vibe; a single 0‑star comment raises setlist concerns, leading to a solid but not flawless rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Described as an echo from the past – vintage feel, generally clear, no specific issues noted"
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star",
+        "Black Peter",
+        "Wake Up Little Suzie",
+        "Katie Mae"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Overall praised, though one reviewer notes the setlist differs from other known copies of the Feb 14 1970 show"
+    },
+    "band_member_comments": {
+      "Jerry": "Mentioned cranking out ‘Wake Up Little Suzie’, implying strong guitar work",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": "Drummers are particularly impressive according to reviewers"
+    },
+    "processed_date": "2025-09-11T06:35:02.206669+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-14.124495.cooper-berger.flac16"
+  }
 }

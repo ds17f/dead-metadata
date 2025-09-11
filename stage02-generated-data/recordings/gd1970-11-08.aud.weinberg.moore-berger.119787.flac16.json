@@ -14,5 +14,39 @@
   "confidence": 1.0,
   "raw_rating": 4.428571428571429,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "High‑energy performance featuring a stunning Jerry solo, a complete and immersive Morning Dew, and a powerful Baby Blue cover captured on an excellent audience tape.",
+    "review": "The show is celebrated for its dynamic playing – especially Jerry Garcia’s all‑time favorite solo, Pigpen’s confident vocal on “Operator,” and an uncut, emotionally charged “Morning Dew” that even includes backstage banter. Reviewers also single out the tender ending of the “Baby Blue” cover as a highlight. The recording is an audience tape with remarkable clarity and atmosphere, making listeners feel like they’re in the room despite its non‑soundboard source.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Consistently high praise for both performance (standout solos, unique moments) and recording quality (immersive, clear audience tape), yielding a strong weighted average."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "excellent",
+      "technical_notes": "Audience tape with vivid ambient sound; uncut Morning Dew intro adds historic value. Reviewers note superb dynamics and room‑feel, though the source is not a professional soundboard."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Operator",
+        "Morning Dew",
+        "Baby Blue"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The concert builds to an emotional peak with Pigpen’s vocal showcase, a legendary Jerry solo, and a moving Baby Blue ending, creating a memorable arc despite the unknown set order."
+    },
+    "band_member_comments": {
+      "Jerry": "All‑time favorite Garcia solo praised as “monstrous” and “beyond humanly possible.”",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Pigpen’s bold, confident vocals on “Operator” highlighted; also noted for his keyboard presence throughout.",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:24:18.374803+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-11-08.aud.weinberg.moore-berger.119787.flac16"
+  }
 }

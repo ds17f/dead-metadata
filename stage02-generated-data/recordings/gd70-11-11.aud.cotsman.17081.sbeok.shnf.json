@@ -14,5 +14,37 @@
   "confidence": 1.0,
   "raw_rating": 3.8,
   "high_ratings": 6,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Rough audience tape of a high‑energy Brooklyn show – stellar performance (notably China Cat Sunflower → I Know You Rider) despite muddy sound.",
+    "review": "The four‑night Brooklyn run captures the Dead at a peak of intensity and community vibe, with fans recalling epic jams, a memorable China Cat Sunflower → I Know You Rider sequence and even Hot Tuna guests. The recording is an audience tape that suffers from muffled, uneven fidelity, but listeners repeatedly note that the excitement of the performance outweighs the technical flaws.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the show 4‑5 stars and praise the musical energy, while consistently noting poor but tolerable sound quality; the weighted blend of strong show performance (70%) and subpar recording (30%) yields a solid above‑average rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "fair",
+      "technical_notes": "Many reviewers describe the tape as 'poor', 'muddy', 'rough' and 'dismal'; sound is uneven with dropouts, yet the ambiance of the crowd comes through."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "China Cat Sunflower > I Know You Rider"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Four consecutive nights featuring two electric sets and encores; shows were noted for high intensity, strong audience interaction, and occasional guest jams (Hot Tuna, Jorma/Kasady)."
+    },
+    "band_member_comments": {
+      "Jerry": "Repeatedly praised – fans recall his steel‑guitar work with NRPS, hanging out with the crowd, and overall great playing.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T11:32:26.386009+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-11-11.aud.cotsman.17081.sbeok.shnf"
+  }
 }

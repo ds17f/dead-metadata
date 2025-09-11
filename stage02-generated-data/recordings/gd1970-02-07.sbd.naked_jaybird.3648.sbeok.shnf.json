@@ -14,5 +14,35 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Reviewer’s favorite of the two existing recordings, highlighted as a great show despite limited technical details.",
+    "review": "The lone review rates this performance four stars and calls it the reviewer’s favorite of the two available tapes, indicating strong overall enjoyment. No specific comments about sound quality or musical moments are provided, so the recording is presumed decent but uncharacterized.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 3.9,
+      "confidence": "low",
+      "rationale": "Only one brief review (4‑star) with vague praise; positive sentiment suggests a good show, but lack of detail on recording quality limits confidence."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No specific comments about sound clarity, mix, or source type were given."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": ""
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T05:55:05.471696+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-02-07.sbd.naked_jaybird.3648.sbeok.shnf"
+  }
 }

@@ -14,5 +14,43 @@
   "confidence": 1.0,
   "raw_rating": 4.375,
   "high_ratings": 8,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent 1970 soundboard recording featuring a rare first‑ever Candyman, stellar Pigpen moments and sweet Garcia vocals, with overall good audio fidelity for the era.",
+    "review": "The show is consistently praised as one of the best early‑70s performances, highlighted by Jerry’s unusually sweet singing on Deep Elem Blues, Candyman and Black Peter, Pig Pen’s fiery Good Lovin’ and Love Light, and a rare acoustic set with the first Candy and FOD.  The soundboard source delivers solid clarity for its time, with only occasional buzzing in the acoustic section, making it both historically significant and highly enjoyable.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All eight reviews are favorable (4‑5 stars).  Show quality is described as top‑tier with multiple standout moments, while recording quality is noted as good to strong for the period, yielding a high combined rating."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and strong for a 1970 board tape; occasional buzzing on the acoustic set but no major drop‑outs or distortion."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Deep Elem Blues",
+        "Candyman",
+        "Black Peter",
+        "Good Lovin'",
+        "Lovelight",
+        "Katie Mae (acoustic)",
+        "\"Dancin'\""
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The set flows smoothly, featuring a historic acoustic segment with the first ever Candyman and FOD, followed by powerful pig‑centric numbers; the interplay between Jerry and Phil is highlighted throughout."
+    },
+    "band_member_comments": {
+      "Jerry": "Described as singing unusually sweetly on Deep Elem, Candyman, and Black Peter; guitar work noted as very good.",
+      "Phil": "Called amazing as usual, locked in with Jerry for the entire show, providing solid bass foundation.",
+      "Bob": "Mentioned only in context of Good Lovin' and Love Light paying homage to Pigpen; no specific critique of his playing.",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:13:47.377482+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd70-04-03.sbd.cotsman.4283.sbefail.shnf"
+  }
 }

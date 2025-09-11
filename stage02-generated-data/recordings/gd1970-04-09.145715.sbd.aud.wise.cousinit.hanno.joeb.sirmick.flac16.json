@@ -14,5 +14,37 @@
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Good audience‑recorded tape captures a high‑energy 1970 Dead set despite a scrambled setlist listing.",
+    "review": "The recording is an audience patch that fans note as a solid, state‑of‑the‑art 1970 taping. The show itself is praised for its frantic, jazz‑inflected energy and a powerful second half after the odd “Cowboy Song” stretch. Overall the performance feels like a full‑throttle Dead concert worth hearing.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "One detailed 4‑star review highlights strong musical energy and an adequately captured audience recording, leading to a solid combined rating."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Audience patch described as well‑taped and state‑of‑the‑art for 1970; no major sound issues noted, though the setlist in the metadata is scrambled."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [
+        "Cowboy Song"
+      ],
+      "setlist_flow": "Performance flows from a chaotic opening into an intense, full‑throttle second half; reviewers note a particularly energetic post‑\"Cowboy Song\" segment."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:18:30.309817+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-04-09.145715.sbd.aud.wise.cousinit.hanno.joeb.sirmick.flac16"
+  }
 }

@@ -14,5 +14,41 @@
   "confidence": 1.0,
   "raw_rating": 3.9166666666666665,
   "high_ratings": 8,
-  "low_ratings": 1
+  "low_ratings": 1,
+  "ai_review": {
+    "summary": "Clear soundboard capture of an intimate show with standout Lovelight and Black Peter, but the unknown guest’s closing set drags the performance down.",
+    "review": "The recording is a well‑balanced soundboard tape that many reviewers describe as crisp and excellent for an SBD. Musically the concert shines early on – the acoustic “Black Peter” and a hot “Lovelight” are repeatedly praised – yet the surprise guest who takes over the last three songs is widely condemned, leaving the show feeling uneven. Overall the performance is enjoyable apart from that disruptive finale.",
+    "sentiment": "mixed",
+    "ai_rating": {
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Most reviewers love the sound quality and early part of the concert (show strength), but a strong negative reaction to the unknown singer’s closing songs lowers the overall score."
+    },
+    "recording_quality": {
+      "source_type": "soundboard",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, well‑balanced SBD transfer; praised for clarity and lack of noticeable dropouts. No major technical complaints beyond normal tape hiss."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Lovelight",
+        "Black Peter"
+      ],
+      "poor_songs": [
+        "Impromptu Blues (aka Wake Me Shake Me) performed by the unknown guest",
+        "Closing three songs with the guest singer"
+      ],
+      "setlist_flow": "Intimate venue and strong acoustic set early on, building a hot mid‑show, but the surprise guest’s appearance on the final three numbers disrupts the momentum and leaves many listeners dissatisfied."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T06:52:36.132236+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-03-08.sbd.miller.113359.flac16"
+  }
 }

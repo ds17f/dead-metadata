@@ -14,5 +14,44 @@
   "confidence": 0.6,
   "raw_rating": 4.333333333333333,
   "high_ratings": 3,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Remastered audience tape of the March 1970 late show delivers a solid early‑70s performance with standout versions of Casey Jones, Dancing in the Street, Cosmic Charlie and St. Stephen, while the cleaned‑up source still shows some pitch wobble.",
+    "review": "The three‑set concert is praised for its high‑energy jams – especially Casey Jones, Dancing in the Street, Katie Mae, Cosmic Charlie and a stellar St. Stephen sequence – though the third set loses momentum with a lackluster Midnight Hour. The recording is an audience capture (no soundboard) that has been patched and EQ’d; it sounds good overall but retains noticeable speed/pitch irregularities that require correction.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Show is consistently described as one of early‑70s best with many highlights; recording, while cleaned up, has pitch/speed issues but remains listenable. Weighted average (70% show, 30% recording) yields ~4.0 stars."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "No soundboard source; patched and EQ’d from Sony f95 tape. Pitch/speed wobble present (needs +1‑2% correction in several tracks), occasional patch at 7:31, but overall clarity is respectable for an audience capture."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Casey Jones",
+        "Dancing In The Street",
+        "Katie Mae",
+        "Cosmic Charlie",
+        "St. Stephen",
+        "Not Fade Away"
+      ],
+      "poor_songs": [
+        "Midnight Hour"
+      ],
+      "setlist_flow": "Three‑set show with an early acoustic set, followed by two electric sets. The first and second sets maintain high energy; the third set starts strong (Cosmic Charlie, St. Stephen) but tapers off toward the end."
+    },
+    "band_member_comments": {
+      "Jerry": "Praised for tight, crisp playing on Casey Jones and inventive riffs on Not Fade Away; noted to meander on single notes during Midnight Hour.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "processed_date": "2025-09-11T07:07:02.090850+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1970-03-21.144604.late.sonyf95.remaster.lee.hance.sirmick.flac1644"
+  }
 }
