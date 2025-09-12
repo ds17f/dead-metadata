@@ -16,18 +16,18 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Muddy audience tape captures a superb acoustic set highlighted by Box of Rain and a soaring Dark Star, while the electric portion is clouded by noise.",
-    "review": "The performance shines in its early acoustic half – featuring an exceptional Box of Rain, strong vocals from Phil, and a powerful Dark Star – but the later electric set suffers from a noisy, high‑pitched whine that masks much of the playing. Reviewers praise the historic value and the New Riders guest spots, yet repeatedly note the recording’s limited clarity, especially on the electric material.",
+    "summary": "Muddy audience tape but features an outstanding acoustic set highlighted by Box of Rain and a soaring Dark Star.",
+    "review": "The recording is an old‑generation audience capture that suffers from muffled mids, a persistent high‑pitched whine and limited instrument separation, especially in the electric portion.  Despite the sonic flaws, listeners rave about the historic acoustic set – the only known full‑band rendition of \"Box of Rain\" – and praise the Dark Star, Friend of the Devil and Ripple as show‑highlights.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 3.6,
       "confidence": "high",
-      "rationale": "Show quality is consistently praised (acoustic set, Dark Star, guest musicians) while recording quality is uniformly described as poor to fair; the weighted average yields a solid mid‑range rating."
+      "rationale": "The performance is repeatedly praised (acoustic set, Box of Rain, Dark Star) while the audio quality is consistently described as poor; weighting show quality higher yields a rating above average but not stellar."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "fair",
-      "technical_notes": "Audible high‑pitched whine throughout, muffled electric portion, some parts clearer (acoustic set). Noise reduction applied but ineffective; overall noisy and clouded."
+      "quality_rating": "poor",
+      "technical_notes": "Muddy mids, barely audible pedal steel and piano on Box of Rain, persistent high‑pitched whine throughout, electric set clouded and difficult to discern; overall listenable but far from clean."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,19 +35,52 @@
         "Dark Star",
         "Friend of the Devil",
         "Ripple",
-        "Brokedown Palace"
+        "Brokedown Mountain",
+        "St. Stephen"
       ],
       "poor_songs": [],
-      "setlist_flow": "Strong, well‑developed acoustic set with New Riders guests; electric set is historically interesting but hampered by recording issues, making its flow harder to assess."
+      "setlist_flow": "A superb, fully‑realized acoustic first set (with NRPS guests) is the highlight; the electric second set is energetically performed but hampered by the recording's cloudiness."
     },
     "band_member_comments": {
-      "Jerry": "Acoustic piano and guitar work noted as solid; Garcia’s tone praised on the acoustic numbers.",
-      "Phil": "Vocals described as strong and emotionally resonant, especially on Box of Rain.",
+      "Jerry": "Garcia’s piano on Box of Rain is faintly audible and praised for adding depth to the acoustic set.",
+      "Phil": "Phil Lesh’s vocal lead on Box of Rain is noted as strong; his bass work isn’t specifically discussed due to recording limits.",
       "Bob": "",
-      "Keys": "Pedal steel and piano audible on Box of Rain; Pigpen’s piano contribution mentioned.",
-      "Drums": "Bill Kreutzmann’s drumming called ‘rocking’; Mickey Hart’s percussion noted in guest section."
+      "Keys": "Pedal steel and piano (Pigpen) can be almost made out on Box of Rain, though the overall keyboard presence is muffled.",
+      "Drums": "Drums receive praise for energy during Dark Star and the jam sections, despite being clouded in the mix."
     },
-    "processed_date": "2025-09-11T09:57:21.192437+00:00",
+    "song_mentions": {
+      "Box of Rain": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Friend of the Devil": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Ripple": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Brokedown Mountain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:49:44.038710+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-09-17.aud.remaster.sirmick.27591.sbeok.shnf"
   }

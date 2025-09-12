@@ -16,18 +16,18 @@
   "high_ratings": 10,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Pristine soundboard capture of the Feb 13 1970 Fillmore show, highlighted by a soaring Dark Star → The Other One → Lovelight sequence and tight acoustic set.",
-    "review": "The recording is praised as a “pristine document” with crystal‑clear mix and excellent balance – DP4 quality that even seasoned archivists laud. Musically the night delivers a relaxed first set that builds into an electric marathon featuring Dark Star, The Other One, Lovelight and a monster Smokestack Lightning, earning unanimous acclaim from listeners.",
+    "summary": "Pristine soundboard capture of a tight 1970 Fillmore set, highlighted by an epic Dark Star and soaring Other One.",
+    "review": "The recording (DP‑4) is a crystal‑clear soundboard source that many fans describe as “pristine” with only minor brightness that can be tamed with EQ. Musically the show shines – an acoustic mini‑set feeds into a powerhouse electric second set featuring Dark Star, The Other One and Lovelight, plus a monster Smokestack Lightning and a sweet Uncle John’s Band. Reviewers rave about the band’s tightness, Jerry’s soaring lead, Phil’s bass prominence and Bob Weir’s standout rhythm work.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.9,
+      "stars": 4.8,
       "confidence": "high",
-      "rationale": "All ten reviews give five‑star ratings and consistently praise both the performance (standout jams, tight playing) and the soundboard recording quality, leaving little doubt of an exceptional show."
+      "rationale": "All reviews are five‑star, praising both the performance (standout jams, tight playing) and the superb soundboard quality; consistency across >10 reviews gives high confidence."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Crystal‑clear, balanced mix; reviewers call it “pristine” and “beyond compare,” noting only a slight brightness that some listeners tweak with EQ."
+      "technical_notes": "Crisp, pristine DP‑4 soundboard capture; a little bright but easily corrected with EQ. No dropout or muddiness reported."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,20 +35,51 @@
         "The Other One",
         "Lovelight",
         "Smokestack Lightning",
-        "Uncle John's Band",
-        "Bear's Choice (acoustic)"
+        "Uncle John's Band"
       ],
       "poor_songs": [],
-      "setlist_flow": "A relaxed acoustic set that segues into a high‑energy electric set; the band builds momentum with tight jams and seamless transitions, culminating in an iconic Dark Star → The Other One → Lovelight stretch."
+      "setlist_flow": "Acoustic mini‑set (Bear's Choice material) leads into a high‑energy electric set – Dark Star > The Other One > Lovelight – with seamless transitions and a tight, confident performance throughout."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly praised for his lead work on Dark Star and overall guitar brilliance.",
-      "Phil": "Noted for a strutting bass riff and playing lead alongside Jerry; described as tight and perfect.",
-      "Bob": "Highlighted as being at his best, receiving credit for strong rhythm/vocal contributions.",
+      "Jerry": "Praised for his soaring lead tone on Dark Star and overall guitar brilliance.",
+      "Phil": "Highlighted as playing lead‑style bass alongside Jerry, adding to the tightness of the jam.",
+      "Bob": "Noted as playing at his best, providing strong rhythm and vocal work.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T06:22:33.537534+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Lovelight": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Smokestack Lightning": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T00:03:08.178833+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-02-13.sbd.miller.97613.sbeok.flac16"
   }

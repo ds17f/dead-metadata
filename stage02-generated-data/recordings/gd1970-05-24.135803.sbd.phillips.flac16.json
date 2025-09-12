@@ -16,43 +16,90 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a historic 1970 England show, highlighted by a soaring Dark Star and tight Hard to Handle.",
-    "review": "Both reviewers rave about the superb sound quality provided by Simon Phillips' sound‑board source, calling it “fabulous” despite some post‑show tuning edits. The performance itself is praised for its varied setlist, with Dark Star, Hard to Handle, Me and My Uncle, The Other One and the striking Attics transition standing out, while a few early numbers are described as merely passable.",
+    "summary": "Excellent soundboard capture of the Dead’s first European gig, highlighted by a soaring Dark Star and punchy Hard‑to‑Handle.",
+    "review": "Both reviewers rave about the superb soundboard mix – clear, balanced and even forgiving of the extra tuning between songs. Musically the show shines with a mesmerizing Dark Star, a high‑energy Hard‑to‑Handle, and strong renditions of The Other One, Good Lovin’ and Rain & Snow, while a few early numbers like Casey Jones fall a bit flat.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.6,
-      "confidence": "low",
-      "rationale": "Two detailed, high‑rating reviews highlight an outstanding performance and excellent soundboard recording; limited sample size keeps confidence low."
+      "confidence": "medium",
+      "rationale": "Two detailed reviews give consistently high marks (5 ★ and 4 ★). The performance is praised overall with only minor song‑specific criticisms, and the soundboard recording is described as fabulous."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Fabulous, clear mix with no noticeable flaws; reviewer notes only minor post‑show tuning edits between songs."
+      "technical_notes": "Fabulous clarity and balance; a few extra tuning edits between tracks are noted but do not detract. Minor festival stage announcements audible, but overall mix is crisp."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "Hard to Handle",
-        "Me and My Uncle",
         "The Other One",
-        "Attics (transition)",
         "Good Lovin'",
-        "Rain & Snow"
+        "Rain & Snow",
+        "Me and My Uncle",
+        "Attics of My Life"
       ],
       "poor_songs": [
         "Casey Jones",
-        "China Cat Sunflower > Rider"
+        "China Cat Sunflower > I Know You Rider"
       ],
-      "setlist_flow": "A varied, deliberately paced set that builds momentum—early mellow moments give way to a powerful Hard to Handle and an expansive Dark Star, with memorable transitions such as the Attics segue."
+      "setlist_flow": "The set unfolds at a deliberate early pace, then builds momentum in the second half with fluid transitions (notably into The Other One) and a powerful Dark Star that ties the show together."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar grooves on Dark Star are praised, and his aggressive lead on Hard to Handle is noted as picking up the pace.",
-      "Phil": "Phil Lesh’s vocal contributions are highlighted as a standout element of the show.",
-      "Bob": "Bob Weir delivers solid rhythm work and vocals on Me and My Uncle and The Other One; ensemble singing at the end receives praise.",
+      "Jerry": "Garcia’s guitar is front‑and‑center – a tight groove on Dark Star and an extra burst of energy on Hard‑to‑Handle.",
+      "Phil": "Phil’s vocal contributions are highlighted as a sweet, vulnerable touch early in the set.",
+      "Bob": "Weir delivers a solid Me and My Uncle and adds strong rhythm/vocal work throughout.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T08:30:10.011513+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me and My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Attics of My Life": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Rain & Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T03:29:19.397932+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-24.135803.sbd.phillips.flac16"
   }

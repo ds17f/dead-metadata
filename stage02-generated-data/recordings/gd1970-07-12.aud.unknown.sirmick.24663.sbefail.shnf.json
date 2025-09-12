@@ -16,39 +16,65 @@
   "high_ratings": 11,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A remarkable Fillmore East show with standout Pigpen performances captured on a rough but listenable audience tape.",
-    "review": "Fans rave about the July 1970 Fillmore East concert – especially the acoustic Pigpen set, “It's A Man’s World”, “Turn On Your Lovelight” and the tight Tighten‑Up jam – calling it one of the band’s best late‑summer shows. The recording is an audience source with hand‑claps, occasional muffled sections and a slight speed issue, but listeners find it enjoyable with EQ or a modest speed boost.",
+    "summary": "Audience‑recorded Fillmore East show with lo‑fi but listenable sound captures a spectacular Pigpen‑heavy performance, highlighted by Turn On Your Lovelight and Attics of My Life.",
+    "review": "The July 1970 Fillmore East set is praised as one of the band’s most magical nights – a midnight acoustic Pigpen showcase followed by an electric marathon that includes standout renditions of “Turn On Your Lovelight,” “Attics of My Life,” and a tight “Tighten Up” jam.  Although the tape is an audience recording with occasional muffled sections, uneven speed and hand‑clap ambience, listeners find it more than adequate to relive the night’s energy.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "The show is universally praised (most 5‑star reviews) while the audience recording is noted as uneven but still enjoyable, leading to a strong overall rating."
+      "rationale": "Consistently enthusiastic reviews praise the musical performance (many 5‑star comments) while noting only moderate recording flaws, yielding a strong overall rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Audience tape with hand‑clapping and lobby ambience; some sections are muffled or hard to hear, occasional tape‑speed slowdown noted. EQ and slight speed correction improve listenability."
+      "technical_notes": "Loud lobby ambience and hand‑clapping; occasional muffled sections and uneven tape speed make some parts hard to hear, but overall the recording is listenable with EQ/headphones."
     },
     "show_quality": {
       "standout_songs": [
+        "Turn On Your Lovelight",
         "Attics of My Life",
         "It's A Man's World",
-        "Turn On Your Lovelight",
-        "Dancing In The Street",
-        "Tighten Up Jam",
-        "Tell It To Me"
+        "Tighten Up",
+        "Tell It to Me"
       ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic Pigpen set opens the midnight show, followed by a New Riders interlude with Garcia on steel, then the electric Dead take over in the early‑morning hours. The pacing is praised as magical and well‑balanced."
+      "setlist_flow": "Midnight acoustic Pigpen set leads into a New Riders interlude (Garcia on steel) and then a high‑energy electric second set; the pacing is praised as magical and keeps the audience engaged through dawn."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s steel‑guitar work with the New Riders is highlighted; fans note he was 'dosed' like the audience but his playing remains a highlight.",
+      "Jerry": "Mentioned playing steel guitar with the New Riders and noted the band was “dosed” like him.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": ""
+      "Drums": "Hart on drums is highlighted during the New Riders segment."
     },
-    "processed_date": "2025-09-11T09:27:58.342634+00:00",
+    "song_mentions": {
+      "Turn On Your Lovelight": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Attics of My Life": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "It's A Man's World": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Tighten Up": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Tell It to Me": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:00:45.489358+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-07-12.aud.unknown.sirmick.24663.sbefail.shnf"
   }

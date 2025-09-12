@@ -16,18 +16,18 @@
   "high_ratings": 6,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Rough, tinny audience recording that’s been cleaned up enough to showcase a stellar Dark Star and an electrifying Eleven.",
-    "review": "The tape is an early‑1970 AUD with limited fidelity – listeners report tinny mids, bottomless lows and occasional pitch quirks, though Sir Mick’s cleanup makes it tolerable. Musically the show shines, especially the second set where a classic Dark Star flows into a soaring St. Stephen and one of the era’s finest renditions of The Eleven, with Easy Wind and Friend of the Devil also highlighted.",
+    "summary": "Fair‑quality audience tape, but the show shines with an iconic Dark Star and a stunning The Eleven.",
+    "review": "The remastered 1970 AUD captures a historic performance that many fans rate highly despite its tinny, bottom‑heavy sound. Highlights include a soaring Dark Star, a rollicking St. Stephen and one of the era’s best renditions of The Eleven, while the acoustic set sounds weak but improves as the electric material begins.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Most reviewers praise the performance (especially Dark Star, The Eleven, Easy Wind) despite consistent complaints about the low‑fidelity audience source; weighted average yields a strong rating."
+      "rationale": "Most reviewers praise the musical performance (Dark Star, The Eleven, Easy Wind) giving high show scores; recording quality is noted as rough but listenable, pulling the overall weighted rating to just above 4."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Tinny, bottomless sound with limited frequency range; occasional pitch fluctuations. Sir Mick’s remaster reduces some issues but the recording remains rough and requires patience."
+      "technical_notes": "Described as tinny, bottom‑less and distant; limited frequency range and occasional pitch fluctuations, but Sir Mick’s cleanup reduces some issues and preserves the room ambience."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,19 +35,52 @@
         "The Eleven",
         "St. Stephen",
         "Easy Wind",
-        "Friend of the Devil"
+        "Friend of the Devil",
+        "Uncle John's Band"
       ],
       "poor_songs": [],
-      "setlist_flow": "Second set flows tightly with Dark Star into St. Stephen and The Eleven; acoustic set is weaker but still captures the band’s early‑1970 vibe."
+      "setlist_flow": "Second set dominates with a powerful Dark Star that segues into The Eleven, punctuated by a rollicking St. Stephen and an inspiring Easy Wind; the acoustic opening is thin but builds toward the electric climax."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar cuts through clearly; reviewers note he “goes OFF” on Dark Star and delivers an intense Eleven.",
-      "Phil": "Hard to hear Phil’s bass in the acoustic portion, but no major complaints about his playing elsewhere.",
+      "Jerry": "Garcia’s guitar is clear and intense – reviewers note he ‘goes OFF’ and his tone is tight, focused and driving.",
+      "Phil": "Phil’s bass is hard to hear in the early acoustic portion but improves later; no specific praise beyond that.",
       "Bob": "",
       "Keys": "",
-      "Drums": ""
+      "Drums": "A brief drum solo is mentioned before the jam leading into Good Lovin' (cut), highlighting Bill Kreutzmann’s contribution."
     },
-    "processed_date": "2025-09-11T07:33:08.067733+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 8,
+        "negative_mentions": 0,
+        "total_mentions": 8
+      },
+      "The Eleven": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "St. Stephen": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Easy Wind": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Friend of the Devil": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T01:51:50.620235+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-04-24.aud.remaster.sirmick.27205.sbeok.shnf"
   }

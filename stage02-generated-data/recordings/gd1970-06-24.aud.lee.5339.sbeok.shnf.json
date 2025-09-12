@@ -16,37 +16,81 @@
   "high_ratings": 15,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A legendary early‑Dead show captured in an exceptionally clear audience tape, highlighted by a transcendent Dark Star and flawless, psychedelic transitions.",
-    "review": "Fans hail this June 1970 performance as one of the band’s all‑time peak moments – a “must hear” set featuring a soaring Dark Star, immaculate Sugar Magnolia, and mesmerizing Attic jams.  The audience recording is repeatedly praised as one of the best ever released, delivering vivid crowd energy without drowning out the music, though a few minor imperfections are noted.",
+    "summary": "A legendary audience tape of one of the Dead’s all‑time great shows, highlighted by a soaring Dark Star and flawless, psychedelic transitions.",
+    "review": "Listeners rave about this June 1970 performance as a near‑mythic moment in Dead history – the band weaves together Dark Star, Not Fade Away, Sugar Magnolia and several deep cuts with telepathic interplay.  The audience recording is surprisingly clear and captures the crowd’s excitement, though occasional drop‑outs and a busted string keep it from being perfect.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Overwhelmingly positive reviewer comments (majority 5‑star) praise both the musical brilliance and the surprisingly high fidelity of this audience source; weighting show quality (≈4.6) and recording quality (≈4.0) yields a combined rating around 4.4."
+      "rationale": "Over twenty enthusiastic reviews praise both the musical performance (standout jams, seamless transitions) and the audio quality; only minor technical complaints are noted, resulting in an overall near‑exceptional rating."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "excellent",
-      "technical_notes": "Described as one of the most enjoyable audience recordings on Archive.org – clear, well‑balanced, with crowd ambience that adds excitement without masking instruments; a few reviewers note minor tape flaws but overall the mix is praised."
+      "quality_rating": "good",
+      "technical_notes": "Crisp and lively, captures crowd excitement well; a few reviewers note occasional drop‑outs, a busted string, and minor mix quirks that keep it from being flawless."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
+        "Not Fade Away",
         "Sugar Magnolia",
         "Attics",
-        "The Other One"
+        "Easy Wind",
+        "Me & My Uncle"
       ],
       "poor_songs": [],
-      "setlist_flow": "Seamless, psychedelic transitions throughout (notably the Dark Star → Attic segue and the early jam into Sugar Magnolia); the band moves as a single organism, delivering a powerful, almost trance‑like experience."
+      "setlist_flow": "The set is praised for its seamless, psychedelic transitions – dark jams flow into Sugar Magnolia, NFA launches a cascade of improvisations, and the band constantly chases each other around the stage."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s lead work is called “soaring”, “channeling another world”, and praised for blistering speed in Dark Star and tight interplay with the rest of the band.",
-      "Phil": "Lesh is noted for chasing Jerry and Bob during NFA, providing a solid bass foundation that drives the improvisations.",
-      "Bob": "Weir’s rhythm guitar and vocal contributions are highlighted, especially on Attics where his “outlaw cowboy” vibe shines.",
+      "Jerry": "Garcia’s lead work is described as incendiary, blazing, and almost other‑worldly throughout the performance.",
+      "Phil": "Phil’s bass is noted for locking in with the drums and feeding the tight chase dynamics during NFA.",
+      "Bob": "Weir receives kudos for his vocal grit and guitar on tracks like Me & My Uncle, embodying an outlaw‑cowboy vibe.",
       "Keys": "",
-      "Drums": "The drum lock is repeatedly praised as tight and driving, keeping the transitions locked in place."
+      "Drums": "The drum lock is repeatedly praised; the rhythm section is called ‘locked’ and drives the show’s momentum."
     },
-    "processed_date": "2025-09-11T09:14:15.218636+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "Not Fade Away": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Attics": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Easy Wind": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T04:36:25.066030+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-06-24.aud.lee.5339.sbeok.shnf"
   }

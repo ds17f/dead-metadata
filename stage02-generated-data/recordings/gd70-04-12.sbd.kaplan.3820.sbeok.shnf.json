@@ -16,41 +16,82 @@
   "high_ratings": 25,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Crisp soundboard capture of a fiery 1970 set highlighted by a scorching “Dancin’ in the Streets” and soaring Viola Lee Blues.",
-    "review": "The recording, taken from a well‑mixed 16‑track soundboard, delivers clear, present audio with only minor annoyances like occasional three‑second gaps between tracks. Musically the show is a standout of the era – Jerry’s “snaky” guitar work on a blistering Dancin’, a thunderous Viola Lee Blues, deep‑grooving Deep Elem and a soulful Black Peter make this one of the better 1970 performances. While a few transitions (notably China > Rider) feel sloppy and some listeners dislike the track pauses, the overall flow is tight and the band sounds inspired by the co‑headlining Miles Davis night.",
+    "summary": "Excellent soundboard recording of a high‑energy 1970 show, highlighted by a blistering Dancin' in the Streets and soaring Viola Lee Blues.",
+    "review": "The SBD capture is crystal‑clear with excellent presence and minimal tape noise, letting the band’s aggressive late‑summer 1970 vibe shine through.  The performance is driven by a monster Dancin', fat organ on Viola Lee, tight Deep Elem blues and a solid Black Peter, while the flow from Candyman into Viola Lee feels seamless.  Minor complaints focus on a few three‑second track gaps and a sloppy China→Rider transition, but overall the show is regarded as one of the standouts of the year.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "The majority of reviews (30+) are 4‑5 stars praising both performance and sound; only a few low scores focus on minor technical annoyances, yielding an overall high rating."
+      "rationale": "Over 30 reviews overwhelmingly praise both musical performance and recording fidelity; weighted average (70 % show, 30 % recording) yields a rating in the high‑4‑range."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Crystal‑clear mix with strong presence and balance (16‑track SBD). Minor issues: occasional 3‑second gaps between tracks, a few patch noises, but overall very listenable."
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, well‑balanced mix with good instrument separation; occasional minor patch noise and three‑second gaps between tracks noted but not detrimental to listening."
     },
     "show_quality": {
       "standout_songs": [
         "Dancin' in the Streets",
         "Viola Lee Blues",
-        "Deep Elem (Deep Ellum) Blues",
+        "Deep Elem Blues",
         "Black Peter",
-        "Man's World",
-        "Schoolgirl"
+        "Man's World"
       ],
       "poor_songs": [
-        "China > Rider transition"
+        "China > Rider"
       ],
-      "setlist_flow": "Generally praised for smooth pacing; candyman → Viola Lee flow noted as especially seamless. The only disruption mentioned is the artificial 3‑second pauses between tracks."
+      "setlist_flow": "Generally praised for smooth transitions (e.g., Candyman → Viola Lee) and a strong second‑half momentum; only the China→Rider segue is described as sloppy."
     },
     "band_member_comments": {
-      "Jerry": "Described as ‘snaky’, blazing, and uniquely creative on Dancin' with a standout solo that drives the jam.",
-      "Phil": "Solid, pounding bass throughout; highlighted for his contribution to the Dancin' groove and occasional pre‑Mind Left Body jam.",
+      "Jerry": "Repeatedly lauded for a snaky, blazing solo on Dancin' and a uniquely creative guitar voice throughout the set.",
+      "Phil": "Noted for powerful bass work that drives the jams, especially during Dancin' and the deep organ moments; praised as “pounding out the jam”.",
       "Bob": "",
-      "Keys": "Organ (Pigpen) unusually forward in the mix, adding weight to Viola Lee and Dancin'; keyboards noted as more prominent than typical 1970 tapes.",
-      "Drums": "Drum break highlighted as a high point; overall tight rhythmic foundation supporting the extended jams."
+      "Keys": "Organ/keyboard presence is unusually forward – highlighted on Viola Lee, Deep Elem and Black Peter – though a few reviewers heard brief patch noise.",
+      "Drums": "Solid, steady foundation with occasional standout drum breaks noted in reviews."
     },
-    "processed_date": "2025-09-11T07:24:43.031908+00:00",
+    "song_mentions": {
+      "Dancin' in the Streets": {
+        "positive_mentions": 15,
+        "negative_mentions": 0,
+        "total_mentions": 15
+      },
+      "Viola Lee Blues": {
+        "positive_mentions": 12,
+        "negative_mentions": 0,
+        "total_mentions": 12
+      },
+      "Deep Elem Blues": {
+        "positive_mentions": 8,
+        "negative_mentions": 0,
+        "total_mentions": 8
+      },
+      "Black Peter": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Man's World": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "Schoolgirl": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Candyman": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China > Rider": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-12T01:34:59.751325+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-04-12.sbd.kaplan.3820.sbeok.shnf"
   }

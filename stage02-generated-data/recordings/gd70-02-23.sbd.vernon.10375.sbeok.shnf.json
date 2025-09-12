@@ -16,41 +16,69 @@
   "high_ratings": 9,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Fair soundboard capture of an intimate acoustic‑electric hybrid set with strong Little Sadie, Seasons of My Heart, High Time and a fiery Not Fade Away, but the mix is muddy and parts are missing.",
-    "review": "The recording offers a rare glimpse of a short, almost half‑acoustic show sandwiched between electric numbers, delivering highlights like Little Sadie, Seasons of My Heart, High Time and an unstoppable Not Fade Away. While the performance is praised for its intimacy and Pigpen’s organ on Black Peter, listeners note a slightly muddy mix, hum between songs, and missing portions that make the flow feel disjointed.",
+    "summary": "Fair‑quality soundboard capture of a fragmented 1970 show with standout acoustic gems (Little Sadie, Seasons of My Heart, Me & My Uncle) and an unexpected Not Fade Away burst.",
+    "review": "The recording is a soundboard source that suffers from muddiness, hum between songs and occasional mic distortion, giving it a fair overall fidelity. Musically the set shines on the intimate acoustic numbers – Little Sadie, Seasons of My Heart, Me & My Uncle and a surprising Not Fade Away jam – though listeners note that large portions of the concert are missing, making the flow feel disjointed.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.6,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical moments (average ~3.8/5) while noting consistent recording flaws and missing material (recording quality ~3.0/5). Weighted combination yields a solid mid‑range rating."
+      "rationale": "Most reviewers praise the acoustic performances and highlight several songs, but many point out significant recording flaws and missing portions; weighted scoring yields a mid‑range rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Several reviewers mention a slightly muddy mix, hum between songs, uneven mono balance and occasional drop‑outs (e.g., Mason's cut), but overall the soundboard source is usable."
+      "technical_notes": "Reviewers describe the tape as slightly muddy, with hum between tracks, occasional Bobby McFerrin mic distortion and uneven, somewhat mono‑ish mix; a few cut‑outs (e.g., Mason's Children) are noted."
     },
     "show_quality": {
       "standout_songs": [
         "Little Sadie",
         "Seasons of My Heart",
-        "High Time",
-        "Not Fade Away",
         "Me & My Uncle",
-        "Black Peter"
+        "Not Fade Away"
       ],
-      "poor_songs": [
-        "Mason's"
-      ],
-      "setlist_flow": "Acoustic set placed between electric material makes the show feel oddly segmented; missing opening and closing portions leave a sense of incompleteness, yet the intimate acoustic moments are praised."
+      "poor_songs": [],
+      "setlist_flow": "The set appears to be a mid‑show fragment, sandwiched acoustic numbers between electric material; missing opening and closing sections make the pacing feel uneven despite strong individual performances."
     },
     "band_member_comments": {
-      "Jerry": "Garcia is noted playing his sunburst Strat with a gnarlier tone; jokes onstage and a broken string moment are highlighted.",
-      "Phil": "Phil drives the 'train' during Not Fade Away and provides strong bass foundation throughout.",
-      "Bob": "Bob Weir leads a solo Me & My Uncle, delivers vocal humor (\"yellow dog\" joke), and is praised for front‑center presence on that track.",
-      "Keys": "Pigpen's organ is audible and louder than usual on Black Peter and Not Fade Away, adding a dirgelike texture.",
+      "Jerry": "Multiple reviewers note his sunburst Strat (gnarlier tone) and a broken string moment; he calls out bandmates and trades licks during the jam.",
+      "Phil": "His bass is highlighted as driving the train on Not Fade Away, providing strong momentum in an otherwise uneven mix.",
+      "Bob": "Pigpen’s organ on Not Fade Away receives praise for finally being audible; his vocal solo on Me & My Uncle and a humorous “yellow dog” joke are also mentioned.",
+      "Keys": "Pigpen’s organ work is noted as low but present, unusual for early‑70 shows where keyboards were often buried.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T06:37:14.192311+00:00",
+    "song_mentions": {
+      "Little Sadie": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Seasons of My Heart": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-12T00:26:18.069936+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-02-23.sbd.vernon.10375.sbeok.shnf"
   }

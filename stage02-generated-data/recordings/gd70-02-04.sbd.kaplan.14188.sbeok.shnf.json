@@ -16,39 +16,60 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard source with noticeable hiss and distortion, but the set shines thanks to a smoking Hard To Handle, exploratory China Rider and a solid Midnight Hour.",
-    "review": "The Kaplan SBD capture is marred by garbled, hissy sections and occasional drop‑outs that are typical of early‑70 recordings, yet it remains listenable for fans who appreciate analog warmth. Musically the show delivers strong moments – a fiery Hard To Handle, an adventurous China Rider and a respectable Midnight Hour – with Phil Lesh’s bass groove and Jerry Garcia’s soaring solos getting particular praise.",
+    "summary": "Fair‑quality soundboard captures a mixed show with standout Hard to Handle and China Rider but a sagging Midnight Hour.",
+    "review": "The recording is a vintage sound‑board tape that suffers from hiss, distortion and occasional dropouts, yet it still conveys the energy of the night. Musically the set shines on Hard to Handle, an exploratory China Rider, and a beautifully captured Black Peter, while the Midnight Hour drags and feels bogged down. Overall the performance is solid but uneven, making it worthwhile for completists despite its technical flaws.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.4,
+      "stars": 2.9,
       "confidence": "high",
-      "rationale": "Average user rating (≈3.4) reflects a show that is musically decent but hampered by consistent recording flaws; enough detailed reviews allow a confident assessment."
+      "rationale": "Multiple detailed reviews describe both strong musical moments and consistent recording problems; the weighted average of show (≈3) and recording quality (≈2.5) yields a low‑mid rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Reviewers repeatedly note distortion, hiss, garbled audio and occasional cuts, though some consider it acceptable for a 1970 SBD capture."
+      "technical_notes": "Hissy, garbled and occasionally distorted audio with noticeable dropouts; some sources buzz underneath and lack separation, but the tape still captures the performance."
     },
     "show_quality": {
       "standout_songs": [
         "Hard to Handle",
         "China Rider",
-        "Midnight Hour",
         "Black Peter"
       ],
       "poor_songs": [
-        "Midnight Hour (bogs down in later comments)"
+        "Midnight Hour"
       ],
-      "setlist_flow": "The set is described as short, tight and restrained with a notable jam after Midnight; overall solid but not spectacular compared to other Feb ’70 shows."
+      "setlist_flow": "The set opens strong with Hard to Handle and moves into an exploratory China Rider, but the momentum stalls during Midnight Hour, leaving the overall flow uneven."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s solos are highlighted as “gliding over tribal funk” and his vocal on Black Peter is called one of his top deliveries.",
-      "Phil": "Lesh is praised for laying down a strong bass line with Santana‑style percussion during the post‑Midnight jam.",
+      "Jerry": "Garcia’s vocals on Black Peter are praised as a top delivery; his solo after Midnight is described as gliding tribal funk.",
+      "Phil": "Lesh “lays it down” with Santana‑style percussion during the jam after Midnight.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T05:44:32.052617+00:00",
+    "song_mentions": {
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Midnight Hour": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-11T23:12:22.343135+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-02-04.sbd.kaplan.14188.sbeok.shnf"
   }

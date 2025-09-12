@@ -16,29 +16,30 @@
   "high_ratings": 8,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Clear soundboard capture of an intimate show with standout Lovelight and Black Peter, but the unknown guest’s closing set drags the performance down.",
-    "review": "The recording is a well‑balanced soundboard tape that many reviewers describe as crisp and excellent for an SBD. Musically the concert shines early on – the acoustic “Black Peter” and a hot “Lovelight” are repeatedly praised – yet the surprise guest who takes over the last three songs is widely condemned, leaving the show feeling uneven. Overall the performance is enjoyable apart from that disruptive finale.",
+    "summary": "Excellent soundboard capture of a strong early set highlighted by Black Peter and Lovelight, though a surprise guest’s late‑show performance drags the finish down.",
+    "review": "The SBD transfer is clear and well‑balanced, delivering an intimate acoustic vibe that shines on Black Peter and a hot rendition of Lovelight. While most of the show feels \"on\" and the band sounds tight, the unannounced singer (likely Elvin Bishop) appears for the final songs and many listeners find his contributions jarring, especially on the impromptu blues/​Wake Me Shake Me segment and Katie Mae.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Most reviewers love the sound quality and early part of the concert (show strength), but a strong negative reaction to the unknown singer’s closing songs lowers the overall score."
+      "rationale": "Recording quality is consistently praised as excellent; show quality is split – early performance strong, but the guest’s late appearance draws significant criticism, leading to a mixed overall assessment."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Crisp, well‑balanced SBD transfer; praised for clarity and lack of noticeable dropouts. No major technical complaints beyond normal tape hiss."
+      "technical_notes": "Clear, well‑transferred SBD with good balance; reviewers note no major dropouts or muffiness."
     },
     "show_quality": {
       "standout_songs": [
-        "Lovelight",
-        "Black Peter"
+        "Black Peter",
+        "Lovelight"
       ],
       "poor_songs": [
-        "Impromptu Blues (aka Wake Me Shake Me) performed by the unknown guest",
-        "Closing three songs with the guest singer"
+        "Impromptu Blues / Wake Me Shake Me (guest singer)",
+        "Katie Mae",
+        "Not Fade Away (ending yelling)"
       ],
-      "setlist_flow": "Intimate venue and strong acoustic set early on, building a hot mid‑show, but the surprise guest’s appearance on the final three numbers disrupts the momentum and leaves many listeners dissatisfied."
+      "setlist_flow": "The early and mid‑set flow is tight and intimate, but the surprise guest’s appearance on the final three songs disrupts the momentum and leaves a sour note."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -47,7 +48,34 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T06:52:36.132236+00:00",
+    "song_mentions": {
+      "Black Peter": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Lovelight": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Impromptu Blues / Wake Me Shake Me": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Katie Mae": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T00:51:13.058997+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-03-08.sbd.miller.113359.flac16"
   }

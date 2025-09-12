@@ -16,35 +16,41 @@
   "high_ratings": 1,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard recording is marred by a noticeable half‑tone pitch error, yet the acoustic portion—particularly an acoustic Truckin'—offers tasty moments.",
-    "review": "The three reviews are split: two critics slam this version for being out of tune and inferior to the Sirmick remaster, calling it a poor upgrade. The third reviewer enjoys the acoustic set, highlighting acoustic Truckin' and a train‑whistle intro to Casey Jones, suggesting the performance itself has bright spots despite the technical flaws.",
-    "sentiment": "mixed",
+    "summary": "Poorly pitched soundboard capture but an enjoyable acoustic set highlighted by a tasty Truckin'",
+    "review": "The recording suffers from a noticeable half‑tone pitch error and is generally considered inferior to the Sirmick remaster, making the audio quality subpar. On the upside, listeners praise the acoustic portion of the show, especially the acoustic rendition of \"Truckin'\" and Bob Weir’s vocal delivery. Overall the performance shines in the acoustic set while the technical flaws dominate the listening experience.",
+    "sentiment": "negative",
     "ai_rating": {
-      "stars": 2.7,
+      "stars": 2.0,
       "confidence": "medium",
-      "rationale": "Show quality gets modest praise (acoustic set), but recording quality is judged poor due to pitch problems; mixed feedback from three reviews yields a middling rating with medium confidence."
+      "rationale": "Two of three reviews criticize the recording (pitch issues, inferior sound) while only one praises the performance; the poor technical quality outweighs the decent acoustic set."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "poor",
-      "technical_notes": "Pitch runs about half‑tone low, making the mix sound off. Reviewers prefer the Sirmick remaster, indicating this file is not an improvement and suffers from noticeable tuning issues."
+      "technical_notes": "Half‑tone low pitch throughout, considered worse than the Sirmick remaster; overall clarity and fidelity are lacking."
     },
     "show_quality": {
       "standout_songs": [
-        "Acoustic Truckin'",
-        "Casey Jones (train whistle intro)"
+        "Truckin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "The acoustic set is singled out as tasty, with particular enjoyment of the unplugged Truckin' and vocal delivery; no major structural complaints are noted."
+      "setlist_flow": "Acoustic set described as tasty with good flow; no major issues noted beyond the technical pitch problem."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
-      "Bob": "Bob Weir's vocals on acoustic Truckin' are praised for their grit.",
+      "Bob": "Bob (Bobby) praised for grinding the lyrics on acoustic Truckin'",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T10:20:45.365368+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T06:26:48.192050+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-09-20.sbd.smith.97364.sbeok.flac16"
   }

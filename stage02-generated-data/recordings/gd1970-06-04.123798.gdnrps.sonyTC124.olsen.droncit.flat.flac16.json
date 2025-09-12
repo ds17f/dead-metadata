@@ -16,35 +16,53 @@
   "high_ratings": 8,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Superior audience tape of the legendary three‑part June 4 1970 Fillmore West show, with crystal‑clear acoustic and NRPS sets and a smoking electric set featuring the St Stephen > Midnight Hour > Not Fade Away sequence.",
-    "review": "The recording captures an iconic mid‑1970 performance in three sections—acoustic, New Riders of the Purple Sage, then electric—and reviewers rave about the clear, upfront audience sound (with a brief soundboard fragment for the first set). Musical highlights include the seamless St Stephen > Midnight Hour > Not Fade Away medley and the thrilling China Cat Sunflower → The Rider transition, while Jerry’s pedal‑steel work with NRPS and Mickey’s “non‑country country” drumming get special mentions.",
+    "summary": "Superior audience tape captures the three‑part acoustic → NRPS → electric June 4 1970 Fillmore West show, highlighted by a smoking St. Stephen > Midnight Hour > Not Fade Away sequence.",
+    "review": "The recording is an audience capture (with a brief soundboard excerpt for the first set) that sounds clear and upfront, though listeners often boost lows and highs with EQ to get the best balance. Musically the show shines – the acoustic set, the NRPS interlude, and especially the electric second set deliver classic moments like the St. Stephen > Midnight Hour > Not Fade Away segue and a thrilling China → Rider transition, all punctuated by Jerry’s pedal‑steel work and Mickey Hart’s distinctive drumming.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Average rating across nine reviews is ~4.33; comments are consistently enthusiastic about both performance and tape quality, with only one mixed (3‑star) review."
+      "rationale": "Average reviewer rating is ~4.33/5 across nine reviews, with consistent praise for both performance and tape quality; weighting favors the strong musical show."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Audible audience recording praised for clear upfront sound; a short soundboard segment exists for the first set, but overall tape is considered superior and listenable with EQ adjustments."
+      "technical_notes": "Clear upfront sound praised by multiple listeners; some EQ adjustments recommended; first set includes a brief soundboard fragment, while NRPS and electric sets “sizzle” despite being audience‑only."
     },
     "show_quality": {
       "standout_songs": [
         "St. Stephen > Midnight Hour > Not Fade Away",
-        "China Cat Sunflower > The Rider"
+        "China > Rider",
+        "Baby Blue"
       ],
       "poor_songs": [],
-      "setlist_flow": "Three‑part show (acoustic, NRPS, electric) flows naturally; transitions especially praised, with the acoustic set setting a folk mood, NRPS adding psychedelic Americana, and the electric set delivering high‑energy blues/psychedelia."
+      "setlist_flow": "The three‑part structure (acoustic, NRPS, electric) is lauded for its smooth transitions and historic 1970 vibe, with especially strong segues between St. Stephen and the jam and between China and Rider."
     },
     "band_member_comments": {
-      "Jerry": "Highlighted for his pedal‑steel work with NRPS and seamless switch from acoustic to electric guitar.",
+      "Jerry": "Pedal steel and guitar work repeatedly praised; described as sweet, perfect‑tone, and a key part of the show’s dynamics.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Mickey's drumming described as ‘decidedly non‑country country’ on the NRPS set, adding a distinctive feel."
+      "Drums": "Mickey Hart’s drumming noted as \"decidedly non‑country country\" on the NRPS set, adding character to the performance."
     },
-    "processed_date": "2025-09-11T08:35:52.852902+00:00",
+    "song_mentions": {
+      "St. Stephen > Midnight Hour > Not Fade Away": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "China > Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Baby Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T03:37:02.816130+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-06-04.123798.gdnrps.sonyTC124.olsen.droncit.flat.flac16"
   }

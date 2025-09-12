@@ -16,34 +16,47 @@
   "high_ratings": 4,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Rough audience‑sourced tape with noisy, muddy mix but captures a brief, high‑energy 1970 Temple Stadium set that shines on New Speedway Boogie.",
-    "review": "The recording is an audience cassette with plenty of crowd chatter and a generally muddy balance—Jerry Garcia’s guitar cuts through, while vocals sit low. Musically the show is short yet lively, remembered for its historic context (the same bill as Jimi Hendrix) and a particularly strong rendition of New Speedway Boogie. Listeners who can overlook the lo‑fi sound find it an enjoyable snapshot of the Dead in 1970.",
+    "summary": "Rough audience cassette with muddy mix but captures a brief, energetic 1970 set featuring a lively New Speedway Boogie and clear Jerry Garcia guitar.",
+    "review": "The tape is an audience‑sourced recording that suffers from heavy crowd noise, low vocal levels and a generally muddy sound, though listeners note that Garcia’s guitar cuts through clearly. Musically the show is short yet spirited, with highlights like a driving New Speedway Boogie and a joyful rendition of Working Man’s Dead that many fans remember fondly. Overall it offers an intriguing snapshot of a rare 1970 performance despite its technical flaws.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.1,
+      "stars": 3.4,
       "confidence": "medium",
-      "rationale": "Show is praised for its energy and historic value, but recording quality is widely criticized as noisy and muddy; the mixed feedback yields a modest overall rating."
+      "rationale": "Show is praised for energy and specific song moments (average ~4 stars), but recording quality is frequently described as noisy and muddy (average ~2 stars). Weighted combination yields a mid‑range rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Heavy audience noise, low vocal levels, generally muddy mix; however Jerry's guitar is clear. Some reviewers note occasional drop‑outs and an uneven balance typical of a cassette taping."
+      "technical_notes": "Heavy audience noise, low vocal levels, overall muddiness; however some reviewers note clear Jerry Garcia guitar and occasional moments of good clarity."
     },
     "show_quality": {
       "standout_songs": [
-        "New Speedway Boogie"
+        "New Speedway Boogie",
+        "Workingman's Dead"
       ],
       "poor_songs": [],
-      "setlist_flow": "A short, sub‑hour set that kept high energy throughout; the band delivered joyous, lively playing despite the brief runtime and historic circumstances of sharing the bill with Hendrix."
+      "setlist_flow": "Short (under an hour) but lively set; the energy stays high throughout despite limited time, with a memorable New Speedway Boogie and a joyous Workingman's Dead."
     },
     "band_member_comments": {
-      "Jerry": "Garcia's guitar comes across very clear on this tape.",
+      "Jerry": "His guitar is described as clear and cutting through the otherwise muddy mix.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T08:26:24.349984+00:00",
+    "song_mentions": {
+      "New Speedway Boogie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Workingman's Dead": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T03:22:43.808273+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-05-16.aud.weiner.14769.sbeok.shnf"
   }

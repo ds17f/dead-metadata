@@ -16,39 +16,87 @@
   "high_ratings": 26,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Rare 1970 all‑acoustic set featuring a stellar El Paso and Ballad of Casey Jones, captured on a hiss‑y soundboard that’s fair but still rewarding.",
-    "review": "The show is praised as one of the finest early‑70s acoustic performances – listeners highlight the beautiful rendition of El Paso, Rosalie McFall, Cocaine Blues, Deep Elem Blues and the moving Ballad of Casey Jones.  The recording comes from a soundboard source that suffers from noticeable hiss, a muddy mix and an over‑prominent mandolin, which keeps the technical quality at a fair level but doesn’t diminish the historic value.  Overall fans consider it a treasured gem despite the vocal and mix shortcomings.",
+    "summary": "High‑quality acoustic set with rare mandolin‑flavored gems (El Paso, Ballad of Casey Jones) captured from a soundboard source that suffers from hiss and a muddy mix.",
+    "review": "The show is an intimate early‑70s acoustic affair highlighted by rare numbers such as “Drink Up And Go Home,” “A Voice From On High,” and a superb rendition of “El Paso.” Reviewers rave about the relaxed, almost gospel‑like vibe and the mandolin work (David Nelson or possibly Jerry) but note that the tape is noisy, with hiss, muddy balance and vocals that sit low in the mix.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers (30+) give 4–5 stars, praising the performance while noting consistent recording flaws; the strong musical merit outweighs technical issues."
+      "rationale": "The majority of reviews (≈70 %) award 4‑5 stars and praise the performance, while technical complaints are consistent but not dominant, yielding a strong overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Noticeable tape hiss and a muddy mix; mandolin sits too high in the spectrum, vocals are low on several tracks, but overall sound is listenable for an acoustic set."
+      "technical_notes": "Hiss and a muddy mix are repeatedly mentioned; mandolin sits too high in the left channel, vocals are low on several tracks, and drums are described as over‑busy. Some reviewers still call the sound “excellent” or “very nice” despite these issues."
     },
     "show_quality": {
       "standout_songs": [
         "El Paso",
+        "Ballad Of Casey Jones",
+        "Drink Up And Go Home",
+        "A Voice From On High",
         "Rosalie McFall",
         "Cocaine Blues",
-        "Deep Elem Blues",
-        "Ballad of Casey Jones",
-        "Mama Tried"
+        "Deep Elem Blues"
       ],
       "poor_songs": [],
-      "setlist_flow": "Laid‑back, almost church‑like pacing that lets the acoustic instrumentation breathe; the set feels like a relaxed campfire performance rather than a high‑energy rock show."
+      "setlist_flow": "The set is laid‑back and gospel‑tinged, with a relaxed acoustic flow that feels like a small‑room worship service. Rare tunes are interspersed with familiar folk/country numbers, creating an almost “church‑like” experience."
     },
     "band_member_comments": {
-      "Jerry": "Mandolin work is highlighted (debated whether Jerry or David Nelson), guitar tone praised especially on \"Lay Me Down\".",
-      "Phil": "Bass described as restrained yet providing just enough weight for the acoustic texture.",
+      "Jerry": "Praised for his guitar tone (e.g., on “Lay Me Down”) and the mysterious mandolin work – some reviewers think he’s playing mandolin; others note David Nelson may be the mandolinist.",
+      "Phil": "Mentioned as providing a restrained but solid bass foundation that adds mass to the acoustic setting.",
       "Bob": "",
       "Keys": "",
-      "Drums": "Mixed opinions – some note Kreutzmann's drumming as too busy, others think Mickey is behind the kit with a lighter, more diagonal feel."
+      "Drums": "Mixed opinions: Mickey is credited by some, while Bill Kreutzmann is called out for being too busy or “jazzed out.” One reviewer calls the drum track in the right channel “lame.”"
     },
-    "processed_date": "2025-09-11T09:40:08.649362+00:00",
+    "song_mentions": {
+      "El Paso": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Rosalie McFall": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cocaine Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Deep Elem Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Drink Up And Go Home": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "A Voice From On High": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Ballad Of Casey Jones": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Lay Me Down": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Candyman": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:19:40.012608+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-08-05.sbd.jupile.17271.sbeok.shnf"
   }

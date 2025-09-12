@@ -16,38 +16,99 @@
   "high_ratings": 18,
   "low_ratings": 3,
   "ai_review": {
-    "summary": "A legendary 1970 Fillmore East show with a stellar acoustic set and explosive NFA‑Caution jam, captured on a hiss‑laden but listenable soundboard tape.",
-    "review": "The performance is widely celebrated – the acoustic set (Uncle John’s Band, Ripple, Lay Me Down, etc.) shines, and the second‑set highlights like Not Fade Away > Caution > Feedback and an inspired Easy Wind keep fans raving. The recording suffers from tape hiss, occasional level clipping and uneven mixes due to mixed sources, but most listeners find it still enjoyable, especially after recent remasters that tame some of the noise.",
-    "sentiment": "positive",
+    "summary": "A classic late‑’70 acoustic‑electric set with a monster Not Fade Away and superb Easy Wind, but persistent tape hiss and occasional clipping keep the soundboard recording only fair.",
+    "review": "The performance is widely praised – the acoustic set (Uncle John’s Band, Lay Me Down, Ripple, Rosalie McFall, Truckin’, Big Railroad Blues) shines, and the second‑set jams like Not Fade Away, Caution/Feedback and Easy Wind are described as electrifying.  The source is an SBD with noticeable hiss, level swings and distortion on the Caution track, so while the music is top‑tier, the audio fidelity ranges from good to fair.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers (≈70%) give 4‑5 stars and praise the musical performance; recording complaints are common but do not outweigh the show’s strength, yielding a strong overall score."
+      "rationale": "Average user rating ≈4.1 stars; reviewers overwhelmingly praise the show (70% weight) while noting moderate‑to‑poor recording issues (30% weight), yielding a combined score around 4.2."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Tape hiss is pervasive; occasional over‑driven levels (especially on Caution) cause distortion and level fluctuations. The source is a mix of tapes, leading to uneven volume but remains listenable."
+      "quality_rating": "fair",
+      "technical_notes": "Noticeable tape hiss and occasional clipping, especially on the Caution jam; level fluctuations give parts of the mix a distorted feel, but overall listenable for a 1970 SBD."
     },
     "show_quality": {
       "standout_songs": [
-        "Not Fade Away > Caution > Feedback",
+        "Not Fade Away",
         "Easy Wind",
-        "Acoustic set (Uncle John’s Band, Ripple, Lay Me Down, Rosalie McFall)",
-        "China > Rider",
-        "Big Boy Pete"
+        "Acoustic set (Uncle John's Band, Lay Me Down, Ripple, Rosalie McFall, Truckin', Big Railroad Blues)",
+        "Caution/Feedback"
       ],
       "poor_songs": [],
-      "setlist_flow": "A beautiful acoustic opening segues into a high‑energy electric second set; the jam flow from NFA into Caution/Feedback is especially praised, making the concert feel like a cohesive journey."
+      "setlist_flow": "A strong acoustic first half followed by a high‑energy electric second set; the transitions into long jams keep the momentum and showcase the band’s 1970 peak."
     },
     "band_member_comments": {
-      "Jerry": "Guitar work described as crisp and solid; leads the band through both acoustic and electric sections.",
+      "Jerry": "Guitar described as crisp and solid despite the hiss, with his playing anchoring both sets.",
       "Phil": "",
-      "Bob": "Noted for an excellent solo on Easy Wind and strong vocal contributions.",
-      "Keys": "Listeners hear piano/organ (likely Pigpen) in the first set; mandolin guest adds texture to the acoustic set.",
+      "Bob": "Weir’s solo on Easy Wind highlighted as a standout moment.",
+      "Keys": "Guest mandolin (Grisman/David Nelson) praised for adding beauty to the acoustic set; occasional piano/organ noted but not detailed.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T10:13:36.010776+00:00",
+    "song_mentions": {
+      "Not Fade Away": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Caution/Feedback": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "total_mentions": 4
+      },
+      "Easy Wind": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lay Me Down": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Ripple": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Rosalie McFall": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Big Railroad Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China > Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Top of the World": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Big Boy Pete": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T06:15:55.247366+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-09-20.sbd.sacks.1190.sbefail.shnf"
   }

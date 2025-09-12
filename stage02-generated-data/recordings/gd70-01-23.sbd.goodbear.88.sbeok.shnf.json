@@ -16,40 +16,76 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a high‑energy Hawaiian show with wailing Jerry Garcia, standout China Cat Sunflower and Black Peter performances.",
-    "review": "The Goodbear SBD delivers crystal‑clear audio that lets you hear every cowbell, Pigpen’s organ and Jerry’s soaring guitar. The concert bursts with 1969‑era energy – a ripping China Cat Sunflower, dynamite Black Peter, a powerful Hard to Handle (despite a lyric slip) and a phenomenal Lovelight. Overall the performance is vibrant and the recording quality is top‑notch.",
+    "summary": "Excellent Goodbear soundboard capture of a high‑energy Hawaiian show featuring standout China Cat Sunflower and Black Peter.",
+    "review": "The recording is a pristine Goodbear SBD with crystal‑clear balance and only a tiny splice before Dire Wolf. Musically the set brims with 1970‑era vigor – Jerry wails on China Cat Sunflower, Pigpen shines on organ, Black Peter detonates, and the Lovelight and Good Lovin’ are superb, though Pig’s lyrics slip a bit on Hard to Handle.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
+      "stars": 4.5,
       "confidence": "high",
-      "rationale": "Consistently high reviewer scores (average 4.3) combined with repeated praise for excellent soundboard audio and a strong, energetic performance; only minor lyrical slip noted."
+      "rationale": "Consistently high star ratings (8 of 10 ≥ 4) and enthusiastic language point to a great performance; reviewers repeatedly praise the excellent Goodbear soundboard quality, justifying an above‑average rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "SBD is described as crystal‑clear, well‑balanced with crisp organ, cowbells and Jerry’s guitar tone; no significant dropouts or muddiness reported."
+      "technical_notes": "Crystal‑clear Goodbear SBD with superb mix; only a brief cut before Dire Wolf noted, otherwise no issues."
     },
     "show_quality": {
       "standout_songs": [
         "China Cat Sunflower",
         "Black Peter",
-        "Hard to Handle",
         "Lovelight",
-        "Cryptical Envelopment"
+        "Good Lovin'"
       ],
       "poor_songs": [
         "Hard to Handle"
       ],
-      "setlist_flow": "High‑energy, 1969‑style set that flows smoothly and captures the fun of a Hawaiian gig; strong transitions and vibrant vibe throughout."
+      "setlist_flow": "High‑energy, ’69‑style flow that kept the vibe lively; Hawaiian atmosphere adds extra fun and the band stays tight throughout."
     },
     "band_member_comments": {
-      "Jerry": "Praised for wailing guitar tone and leading vocals, especially on China Cat Sunflower.",
+      "Jerry": "Praised for wailing guitar on China Cat Sunflower and delivering a funny vocal delay before Dire Wolf.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Pigpen's organ highlighted as top form, adding texture to the early songs.",
+      "Keys": "Pigpen’s organ highlighted as top‑form, though his lyrics slipped on Hard to Handle.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T05:27:21.324290+00:00",
+    "song_mentions": {
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black Peter": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dire Wolf": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Yellow Dog Story": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T22:45:23.325919+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-01-23.sbd.goodbear.88.sbeok.shnf"
   }

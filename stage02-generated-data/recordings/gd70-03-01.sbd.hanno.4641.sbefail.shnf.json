@@ -16,43 +16,94 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Mostly soundboard recording with rough audience intro, but a stellar 1970 show featuring Big Boy Pete, the Cryptical‑Other One sequence and standout harp work.",
-    "review": "The tape captures a classic early‑70s Dead set – the rare Big Boy Pete, an incendiary Cryptical > Other One stretch, tight Good Lovin' drums and a beautiful China Cat > I Know You Rider.  The middle of the show sounds clear on soundboard, though the first two tracks (and a few seconds later) suffer from audience‑mic bleed, high vocal levels and occasional harp overload that benefit from EQ.",
+    "summary": "Soundboard‑derived tape with a few audience‑mic hiccups captures a fun 1970 show highlighted by a scorching Cryptical > Other One and the rare “Big Boy Pete.”",
+    "review": "The performance is lively – fans rave about the intense Cryptical > Other One, a solid Big Boy Pete, and strong renditions of Good Lovin', Morning Dew, Black Peter, China Cat > I Know You Rider, Uncle John’s Band and Baby Blue.  The recording is mostly soundboard quality but the first two tracks (and a few seconds later) come from noisy audience mics, the vocals sit a bit high in the mix and some EQ work helps, yet the middle of the set sounds clear enough to enjoy.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers give 4–5 stars, praising the performance despite mixed comments about early‑show recording flaws; the average rating is ~4.25."
+      "rationale": "Most reviewers give 4‑5 stars and praise the musical flow and standout songs; recording issues are limited to early tracks and vocal balance, so overall enjoyment is high."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "First two songs (and a couple seconds of the third) are from audience mics and sound muddy; vocal mix sits too high in the mid‑section, harp can be overly forward, tape breaks near the end.  The bulk of the set is clear, balanced and benefits from modest EQ."
+      "technical_notes": "First two songs (and a few seconds of the third) are from audience mics and sound rough; throughout the middle the SBD is clear but vocals sit too high in the mix, requiring EQ for optimal balance."
     },
     "show_quality": {
       "standout_songs": [
-        "Big Boy Pete",
         "Cryptical > Other One",
+        "Big Boy Pete",
         "Good Lovin'",
-        "China Cat Sunflower > I Know You Rider",
+        "Morning Dew",
         "Black Peter",
-        "Dire Wolf",
-        "Uncle John’s Band (slow version)",
-        "Baby Blue"
+        "China Cat Sunflower > I Know You Rider",
+        "Uncle John's Band",
+        "Baby Blue",
+        "Dire Wolf"
       ],
-      "poor_songs": [
-        "Uncle John’s Band (questionable harmony notes)"
-      ],
-      "setlist_flow": "The set flows naturally with a rare early Big Boy Pete, the powerful Cryptical‑Other One transition that mirrors a New Orleans show, then into Black Peter for the first time in this run, followed by smooth segues into Good Lovin', Dew and the classic China Cat → I Know You Rider."
+      "poor_songs": [],
+      "setlist_flow": "The set flows well, with the rare Big Boy Pete sandwiched between strong mid‑set numbers; transitions such as Cryptical > Other One into Black Peter are praised for their seamlessness."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar is solid overall; a few reviewers note it could be a hair louder but his tone shines on the jams.",
+      "Jerry": "Garcia’s guitar is generally praised (“intense,” “perfect tone”), though one reviewer notes it could have been a hair louder.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Organ/keyboard work is fine, though some feel the guitar/organ lines on The Other One don’t ‘explode’ as they should. Pigpen’s harp is praised for its musicality but occasionally sits too high in the mix.",
-      "Drums": "Good Lovin' drums receive specific praise; overall drum sound is considered tight and lively."
+      "Keys": "Organ lines on The Other One are mentioned as not exploding enough; overall keyboard presence is modest but functional for the era.",
+      "Drums": "Good Lovin' drums receive specific praise; the rhythm section is described as solid throughout."
     },
-    "processed_date": "2025-09-11T06:45:00.702911+00:00",
+    "song_mentions": {
+      "Cryptical > Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Big Boy Pete": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Good Lovin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black Peter": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Baby Blue": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Dire Wolf": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T00:37:52.562808+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-03-01.sbd.hanno.4641.sbefail.shnf"
   }

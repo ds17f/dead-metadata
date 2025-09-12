@@ -16,40 +16,71 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Matrix recording with a rough audience‑only first half but crisp soundboard later captures an electrifying second set highlighted by a monster Other One and marathon Good Lovin'.",
-    "review": "The tape opens with a noisy audience recording that many find “crummy,” but once the soundboard kicks in the band erupts – Jerry’s solo on St. Stephen, a soaring 19‑minute Dancin’ St. Stephen > Not Fade Away, and an epic 21‑minute Good Lovin' showcase his fire. The second set also delivers strong moments like The Other One, Me & My Uncle, Operator and a tight Sugar Magnolia, all rendered with near‑perfect DAT quality, making the show a must‑listen despite the uneven first half.",
-    "sentiment": "mixed",
+    "summary": "Matrix recording with a crummy audience first set but stellar soundboard later, featuring a monster \"Other One\" and standout jams like Good Lovin' and St. Stephen.",
+    "review": "The show shines thanks to an inspired setlist and high‑energy performances – the extended Other One, a 21‑minute Good Lovin', and a ripping St Stephen > Not Fade Away are repeatedly praised. Recording quality is mixed: the early audience‑sourced portion sounds muddy, but once the soundboard kicks in (Me & My Uncle onward) the mix becomes crisp and the band’s nuances come through clearly.",
+    "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Show is rated very highly (outstanding song selection and jams) while recording quality is mixed (poor audience portion, excellent soundboard later); weighted average yields a strong overall rating."
+      "rationale": "Strong musical performance highlighted by several reviewers outweighs the initial recording flaws; the later soundboard segment is excellent, leading to an overall high rating."
     },
     "recording_quality": {
       "source_type": "matrix",
-      "quality_rating": "fair",
-      "technical_notes": "First set captured from the crowd – muffled, noisy and typical of early‑70s audience tapes. From mid‑set onward the soundboard (DAT) is crisp, balanced and near‑perfect, with Phil’s bass loud and clear."
+      "quality_rating": "good",
+      "technical_notes": "First set captured from audience mic – muddy and crummy. Soundboard feed starts around \"Me & My Uncle\" delivering crisp, clear mix with Phil's bass loud and Jerry’s guitar prominent."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One",
-        "St. Stephen > Not Fade Away",
         "Good Lovin'",
-        "Me & My Uncle",
+        "St. Stephen > Not Fade Away",
         "Operator",
         "Sugar Magnolia",
-        "Cryptical Suite > Brokedown Palace"
+        "Casey Jones"
       ],
       "poor_songs": [],
-      "setlist_flow": "A rough, crowd‑filled first half gives way to a soaring second set; long jams flow seamlessly and the energy builds toward an unforgettable climax."
+      "setlist_flow": "Energetic first half despite recording issues, followed by a superb second half where the band locks into long jams and tight playing; song selection praised as outstanding."
     },
     "band_member_comments": {
-      "Jerry": "Jerry lets loose with a blistering solo on St. Stephen and drives the 19‑minute Dancin’ jam, delivering a spectacular Other One.",
-      "Phil": "Phil’s bass comes through loud and clear in this recording – unusually prominent for an early‑70s audience tape.",
+      "Jerry": "Multiple reviewers rave about Jerry’s unleashed solo work – especially his opening St. Stephen tease and the powerful \"Other One\" jam.",
+      "Phil": "Phil’s bass comes through loud and clear on the soundboard portion, noted as a highlight of the early 1970 recordings.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T10:02:01.645721+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen > Not Fade Away": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Operator": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:56:20.347794+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-09-18.set2.aud-sbd.sirmick.sbeok.30882.flacf"
   }

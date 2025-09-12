@@ -16,38 +16,65 @@
   "high_ratings": 16,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good‑quality soundboard capture of a rare 1970 show brimming with acoustic gems and obscure tunes like Saw Mill and Hard to Handle.",
-    "review": "The SBD source is generally clear with only a little hiss, making the many rare moments audible.  Fans rave about the acoustic set, the surprise appearance of songs such as Saw Mill, Hard to Handle and Katie May, and Jerry’s intense playing, while Phil’s busted amp adds an odd but memorable twist.  Overall the performance is celebrated for its emotional depth despite a few short‑song sections.",
+    "summary": "Soundboard recording (some hiss) captures a rare acoustic‑rich show with standout gems like Saw Mill, Hard to Handle and Katie May.",
+    "review": "The SBD source delivers an acceptably clear picture of a memorable early‑1970 concert – the acoustic set is repeatedly praised for its rarity and emotion, highlighted by songs such as Saw Mill, Hard to Handle and the soaring Katie May performance.  While a little hiss and occasional amp trouble are noted, the band’s energy (especially Jerry’s guitar intensity) shines through, making this a highly valued entry for collectors.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "20 reviews give a solid average of ~4 stars; most praise the show’s rare acoustic material and Jerry’s playing, while recording comments note only minor hiss."
+      "rationale": "The majority of reviews are 4‑5 stars and overwhelmingly positive about the performance and rare acoustic material; recording quality is described as good with only minor hiss, supporting a strong overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Standard SBD quality – clear overall with a bit of hiss; acceptable for capturing the acoustic set and rare songs."
+      "technical_notes": "Standard SBD clarity with some hiss noted; generally acceptable and listenable despite occasional noise."
     },
     "show_quality": {
       "standout_songs": [
-        "Saw Mill",
-        "Hard to Handle (1970 version)",
+        "Saw Mill",
+        "Hard to Handle",
         "Katie May",
-        "The Race Is On",
-        "Acoustic set gems (e.g., Little Sadie, Seasons, Black Peter)"
+        "Little Sadie",
+        "Seasons"
       ],
       "poor_songs": [],
-      "setlist_flow": "A rich acoustic first half followed by a tighter electric second set; Phil’s amp mishap forced a shorter, punchier feel but the band turned it into a memorable performance."
+      "setlist_flow": "The concert is split between a solid electric portion and an especially praised acoustic set; Phil's bass amp mishap forced a shift that resulted in a rare, emotionally rich acoustic second set."
     },
     "band_member_comments": {
-      "Jerry": "Intensity and strong guitar tone noted; fans say he never ceases to amaze.",
-      "Phil": "Bass amp blew mid‑show, leading to a short‑song set but praised for turning mishap into gold.",
+      "Jerry": "Noted for strong guitar intensity on Hard to Handle and overall amazing playing.",
+      "Phil": "His amp blew during the show, yet he kept professional; bass issues are mentioned but his performance is still respected.",
       "Bob": "",
-      "Keys": "Pigpen reportedly back on organ, adding depth to the acoustic material.",
+      "Keys": "Pigpen is highlighted as returning to organ duties, adding depth to the acoustic set.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T05:34:08.676442+00:00",
+    "song_mentions": {
+      "Saw Mill": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Katie May": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Little Sadie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Seasons": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T22:54:49.785617+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-01-31.sbd.cotsman.7045.sbefail.shnf"
   }

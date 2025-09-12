@@ -16,41 +16,86 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑quality audience cassette capture of a stellar 1970 acoustic set and a looser electric half, highlighted by Lovelight and a ripping Good Lovin'.",
-    "review": "The tape, sourced from Gene Taback’s audience master, offers surprisingly crisp separation and vivid bass definition for a 1970 recording, though the electric half shows occasional tuning roughness. Musically the show shines on the acoustic side—Candyman, How Long Blues, Lovelight and Pigpen’s piano‑driven Truckin’ are repeatedly praised—while the electric set delivers a fire‑stoked Good Lovin’ and strong jams despite some uneven moments.",
-    "sentiment": "positive",
+    "summary": "High‑quality audience tape of a 1970 show with an exceptional acoustic set and stand‑out performances of Lovelight, Good Lovin' and How Long Blues.",
+    "review": "The recording captures a vibrant 1970 concert where the acoustic half shines—Pigpen’s piano, tight vocal harmonies, and barn‑burning versions of Lovelight and How Long Blues—while the electric set delivers a fiery Good Lovin'.  Technical fidelity is surprisingly good for an audience cassette, though occasional rough edges and a slightly out‑of‑tune electric segment are noted.  Overall the show is praised as one of the era’s highlights.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "The majority of reviews are 4–5 stars, emphasizing excellent vocal harmonies, standout acoustic performances and a surprisingly clean audience recording; only a few note minor tuning issues in the electric set."
+      "rationale": "Most reviewers award 4–5 stars, lauding the performance and calling the tape \"clean\" and \"crisp,\" while a few note tuning issues; weighted toward show quality gives a solid above‑average rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Taback’s mic placement yields clear separation and bright mids; reviewers note crisp bass, clean piano and overall liveliness, with some vintage tape coloration and occasional rough edges in the electric portion."
+      "technical_notes": "Listeners commend Taback’s mic placement, crisp separation and lively sound, though some mention rough edges and occasional out‑of‑tune moments in the electric set."
     },
     "show_quality": {
       "standout_songs": [
         "Lovelight",
         "Good Lovin'",
-        "Candyman",
         "How Long Blues",
         "Cocaine Blues",
-        "Ripple",
-        "Brokedown Palace",
-        "China Cat Sunflower"
+        "Candyman",
+        "Cold Rain and Snow"
       ],
       "poor_songs": [],
-      "setlist_flow": "A superb acoustic half (Pigpen on piano, strong vocal harmonies) followed by a more relaxed electric half that still delivers high energy jams despite occasional tuning slips."
+      "setlist_flow": "The acoustic set is described as beautiful and tightly arranged, leading into a high‑energy electric half where Good Lovin' and Lovelight provide the emotional peaks; overall pacing is praised despite minor tuning hiccups."
     },
     "band_member_comments": {
-      "Jerry": "Praised for expressive solos, pedal‑steel work and dynamic guitar; his piano/keyboard presence is highlighted as a key texture.",
-      "Phil": "Bass noted for lively, tight definition thanks to the clean audience capture.",
-      "Bob": "Weir’s rhythm guitar and vocal contributions are mentioned positively, especially on Good Lovin' and Minglewood.",
-      "Keys": "Pigpen’s upright piano (and occasional speculation about other keyboardists) receives strong commendation; overall keyboard presence is clear and vibrant.",
+      "Jerry": "Praised for his pedal‑steel wizardry, expressive solos (e.g., New Speedway Boogie) and tasteful lead work on Good Lovin'.",
+      "Phil": "Noted for lively, well‑defined bass that shines thanks to the clean audience mic placement.",
+      "Bob": "",
+      "Keys": "Pigpen’s scattershot honky‑tonk piano is highlighted throughout the acoustic set; keyboards add depth but occasional tentative feel is mentioned.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T09:49:54.161290+00:00",
+    "song_mentions": {
+      "Lovelight": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Good Lovin'": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "How Long Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cocaine Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Candyman": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Ripple": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cold Rain and Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "New Speedway Boogie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:37:47.533582+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-08-19.aud.taback.cdjones.81775.sbeok.flac16"
   }

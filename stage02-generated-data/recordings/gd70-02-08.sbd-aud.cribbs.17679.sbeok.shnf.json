@@ -16,39 +16,53 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A mixed‑quality matrix tape that starts hazy but clears up after the board switch, delivering a monster Smokestack Lightning and an adventurous Dark Star.",
-    "review": "The recording begins as a low‑gen audience capture before transitioning to a clean soundboard feed, resulting in variable clarity but ultimately solid audio for the second half. Musically the show shines with Pigpen’s 15‑minute Smokestack Lightning, a wandering yet compelling Dark Star, and a lively Lovelight, though St. Stephen is noted as chaotic by some listeners.",
-    "sentiment": "mixed",
+    "summary": "A mixed‑quality matrix tape that captures a monster Smokestack Lightning and an adventurous Dark Star, with the board‑recorded second half sounding solid.",
+    "review": "The show shines thanks to a scorching 15‑minute Pigpen showcase on Smokestack Lightning and a wandering Dark Star that eventually settles into a strong groove before rolling into St. Stephen. Recording quality is uneven – low‑gen audience tape at the start improves dramatically after it switches to a clean board source, making the latter half very listenable.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 3.9,
-      "confidence": "medium",
-      "rationale": "Show quality is strong with several standout performances; recording quality varies but improves later, leading to an overall rating just under 4 stars."
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Reviewers consistently praise the performance (especially Pigpen and Dark Star) while noting variable but improving recording quality, yielding an overall strong show with decent technical fidelity."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "fair",
-      "technical_notes": "Starts as a vintage low‑gen audience tape, then switches to a clean board source mid‑show. Early Dark Star is described as horrible sounding, but after about 20 minutes the sound becomes super good and stays that way through St. Stephen."
+      "technical_notes": "Starts as low‑generation audience tape, switches to a clean board source around Dark Star and stays solid thereafter; early sections sound muddy, later sections are clear and well‑balanced."
     },
     "show_quality": {
       "standout_songs": [
         "Smokestack Lightning",
         "Dark Star",
-        "Lovelight",
         "St. Stephen"
       ],
-      "poor_songs": [
-        "St. Stephen"
-      ],
-      "setlist_flow": "Rough, low‑fidelity opening that gains momentum when the board feed comes in; the second half flows well with high energy and strong jams."
+      "poor_songs": [],
+      "setlist_flow": "The set opens explosively with Pigpen's Smokestack Lightning, drifts through a variable‑quality Dark Star that eventually finds its groove, and finishes the first half on a strong St. Stephen as the recording quality improves."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
-      "Bob": "Bob's vocal scream during St. Stephen is noted as chaotic.",
+      "Bob": "One reviewer notes Bob Weir screaming during a sudden return to St. Stephen.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T05:58:49.677973+00:00",
+    "song_mentions": {
+      "Smokestack Lightning": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T23:32:32.402554+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-02-08.sbd-aud.cribbs.17679.sbeok.shnf"
   }

@@ -51,6 +51,13 @@ Respond with a JSON object matching this exact structure:
     "Bob": "Comments on Bob Weir's rhythm guitar/vocals, if mentioned",
     "Keys": "Comments on keyboards (Keith/Brent/Vince), if mentioned",
     "Drums": "Comments on drums (Bill/Mickey), if mentioned"
+  },
+  "song_mentions": {
+    "song_name": {
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "total_mentions": 2
+    }
   }
 }
 ```
@@ -95,6 +102,16 @@ Respond with a JSON object matching this exact structure:
 - **Negative**: Critical language, low ratings (1-2 stars), disappointment
 - **Mixed**: Balanced commentary, moderate ratings (3 stars), qualified praise
 
+### Song Mention Extraction
+Track specific songs mentioned in reviews to support must-listen sequence validation:
+
+- **Song Identification**: Extract any song names mentioned specifically in review text
+- **Positive Mentions**: Count when reviewers praise a song ("incredible Dark Star", "smoking Truckin'", "standout Help>Slip>Franklin's")
+- **Negative Mentions**: Count when reviewers criticize a song ("weak Other One", "sloppy Casey Jones", "disappointing Fire")
+- **Neutral References**: Don't count simple song listings without sentiment ("setlist includes Dark Star, Truckin'")
+- **Song Name Normalization**: Use standard song names ("Dark Star" not "DS", "Help on the Way > Slipknot! > Franklin's Tower" for "Help>Slip>Frank")
+- **Sequence Handling**: Count multi-song sequences as individual songs when mentioned specifically
+
 ## Example Analysis
 
 **Input Reviews:**
@@ -130,6 +147,18 @@ Review 2: "Great show but the recording has some dropout issues in the first set
     "Bob": "",
     "Keys": "",
     "Drums": ""
+  },
+  "song_mentions": {
+    "Help on the Way > Slipknot! > Franklin's Tower": {
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "total_mentions": 1
+    },
+    "The Other One": {
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "total_mentions": 1
+    }
   }
 }
 ```

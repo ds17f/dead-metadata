@@ -16,38 +16,65 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Restored soundboard tape offers clear, strong sound on the second half with standout renditions of Easy Wind, Dire Wolf and an epic Uncle John's Band intro.",
-    "review": "The recording shows a noticeable dip in clarity and tempo during the first fifteen tracks, but the cleanup work shines through on the final ten songs, delivering crisp audio. Musically the show is praised for hot performances of Easy Wind, Dire Wolf, Anthem of the Sun and an extended jam (Cryptical > Drums > The Other One > Cryptical), with Jerry’s guitar intro on Uncle John's Band highlighted as a highlight.",
-    "sentiment": "mixed",
+    "summary": "Good soundboard recording with early roughness but a strong later half that delivers hot renditions of Easy Wind, Dire Wolf and a stellar Uncle John's Band intro.",
+    "review": "The show is praised for its energetic second‑half performances – especially Easy Wind, Dire Wolf, Anthem of the Sun and an inspired Uncle John's Band guitar intro – while the first fifteen tracks suffer from slightly fast playback and lower fidelity. The soundboard source has been cleaned up, yielding a generally clear and listenable recording despite some early‑set issues.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "medium",
-      "rationale": "Most reviewers rate the show highly (4‑5 stars) and praise the later‑half performance and restoration, while one reviewer criticizes the early tracks; overall the musical quality is strong and the recording is good after cleanup."
+      "rationale": "Most reviewers rate the show 4–5 stars and highlight several standout songs, while noting only minor recording flaws in the early portion; this yields a high overall rating with moderate confidence given four reviews."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Early portion sounds fast and muddy with some cuts, but restoration work improves clarity on later tracks; overall the tape is listenable with a clean finish."
+      "technical_notes": "Early tracks sound fast and a bit muddy, but cleanup work improves the last ten tracks to clear, balanced sound; overall the SBD is listenable."
     },
     "show_quality": {
       "standout_songs": [
         "Easy Wind",
         "Dire Wolf",
-        "Uncle John's Band (intro)",
+        "Uncle John's Band",
         "Anthem of the Sun",
-        "Cryptical > Drums > The Other One > Cryptical"
+        "The Other One"
       ],
       "poor_songs": [],
-      "setlist_flow": "First half feels rushed and suffers from poorer sound, but momentum builds into a strong second half with tight transitions and high‑energy jams."
+      "setlist_flow": "First half feels rushed and sonically thin, but the second half picks up momentum with tighter playing and strong song selections, delivering a satisfying overall arc."
     },
     "band_member_comments": {
-      "Jerry": "Guitar intro on Uncle John's Band praised; overall playing described as \"over the top\".",
+      "Jerry": "Guitar intro to Uncle John's Band highlighted as impressive; reviewer quotes Jerry linking it to Morning Dew.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Jam sequence (Cryptical > Drums > The Other One) highlighted, indicating strong drum work."
+      "Drums": "Drum segment noted within the Crypitcal>Drums>Other One>Cryptical sequence, indicating solid rhythmic work."
     },
-    "processed_date": "2025-09-11T05:19:26.627966+00:00",
+    "song_mentions": {
+      "Easy Wind": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dire Wolf": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Anthem of the Sun": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T22:27:24.911855+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-01-16.131910.sbd.droncit-restore-7111.flac16"
   }

@@ -16,39 +16,88 @@
   "high_ratings": 3,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard recording with generally good sound despite occasional low‑quality sections, highlighted by a bang‑off opening Casey Jones and an electric set featuring a smoking Good Lovin'/Not Fade Away/Drums sandwich and scorching Viola Lee Blues.",
-    "review": "The show is widely praised for its energetic setlist – an explosive start with Casey Jones, a classic China Cat Sunflower > I Know You Rider transition, and a second electric half that many call \"smoking\" thanks to Good Lovin', Not Fade Away, drums, Viola Lee Blues and a heartfelt High Time.  The recording is mostly clear and captures the live atmosphere, though listeners note inconsistent levels on the early tracks and some low‑quality moments.",
+    "summary": "Strong performance highlighted by a killer first half and a smoking electric second set, captured on a mixed‑quality audience recording.",
+    "review": "Fans rave about the energy of this show – opening with a thunderous Casey Jones, soaring through China Cat Sunflower > I Know You Rider, and delivering a triple‑decked Good Lovin'/Not Fade Away/drums sequence that leads into a scorching Viola Lee Blues, heartfelt High Times, solid Lovelight and an extended We Bid You Goodnight.  The recording is a patchwork of audience (AUD) sources: most sections are clear and atmospheric, though the first few tracks suffer from lower fidelity and occasional level shifts.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.4,
+      "stars": 3.8,
       "confidence": "high",
-      "rationale": "Reviews range from 1 to 5 stars; most are positive about the performance while noting recording inconsistencies, yielding a moderate overall rating."
+      "rationale": "Show quality is consistently praised across multiple reviews while recording quality is noted as uneven, yielding an overall rating just below four stars."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Overall clear and live‑feel soundboard capture, but early tracks suffer from low‑level/mic issues and occasional muffled sections; acoustic portion sounds better than the first electric tracks."
+      "technical_notes": "Mostly clear audience (AUD) tape with good atmosphere; first five tracks are lower‑fidelity and there are noticeable mic/level changes when the band switches to acoustic, leading to occasional muddiness."
     },
     "show_quality": {
       "standout_songs": [
         "Casey Jones",
         "China Cat Sunflower > I Know You Rider",
-        "Good Lovin' / Not Fade Away / Drums",
+        "Good Lovin'",
+        "Not Fade Away",
         "Viola Lee Blues",
         "High Time",
+        "Lovelight",
         "We Bid You Goodnight"
       ],
       "poor_songs": [],
-      "setlist_flow": "Strong opening, smooth transition to an acoustic segment (with mic level changes), then a high‑energy electric second set that many reviewers describe as smoking."
+      "setlist_flow": "The set opens explosively with Casey Jones, flows through classic pairings and a powerful electric second half that builds from Good Lovin'/NFA/drums into a fiery Viola Lee Blues and closes with an extended We Bid You Goodnight."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Praised for tight, driving performance in the Good Lovin'/Not Fade Away/Drums sequence."
+      "Drums": ""
     },
-    "processed_date": "2025-09-11T06:56:18.654398+00:00",
+    "song_mentions": {
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Viola Lee Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "We Bid You Goodnight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Friend of the Devil": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T00:55:41.895073+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-03-20.sbd.late.hamilton.14287.sbeok.shnf"
   }

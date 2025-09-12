@@ -16,36 +16,59 @@
   "high_ratings": 9,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Decent early‑70s audience tape that captures a lively show highlighted by Easy Wind, Not Fade Away and St Stephen.",
-    "review": "The recording is an audience source with the typical haze of a 35‑year‑old tape, but it remains listenable and even charming despite some cuts (Not Fade Away, Good Lovin) and occasional drop‑outs. Musically the show delivers strong moments—especially Easy Wind, a soaring Not Fade Away into St Stephen, and the overall free‑wheeling ’70 rock vibe that fans love.",
+    "summary": "Good‑quality audience tape that captures a high‑energy ’70 show, highlighted by standout Easy Wind, Not Fade Away and St. Stephen jams.",
+    "review": "The recording is an audience (AUD) tape with the expected slight haze of age but generally clear enough to enjoy the performance.  Fans rave about the vibrant set – especially the soaring Easy Wind, a punchy Not Fade Away into St. Stephen and a solid Good Lovin’ – while a few reviewers note cuts and occasional drop‑outs that temper the listening experience.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.5,
+      "stars": 4.0,
       "confidence": "high",
-      "rationale": "A solid performance with several standout songs earns a decent score, while the audience tape quality and mixed reviewer opinions keep it from higher ratings."
+      "rationale": "Most reviewers praise the musical performance and highlight several standout songs; recording quality is deemed good for its era despite some noted flaws, yielding an overall solid rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Typical early‑70s audience tape haze; some cuts (Not Fade Away, Good Lovin) and occasional drop‑outs noted, but overall clear enough to enjoy the performance."
+      "technical_notes": "Slight haze and occasional cuts (Not Fade & Good Lovin) typical of a 1970 AUD tape; some listeners find it tolerable, others call it terrible, but overall the sound is considered decent for its age."
     },
     "show_quality": {
       "standout_songs": [
         "Easy Wind",
         "Not Fade Away",
-        "St Stephen"
+        "St. Stephen",
+        "Good Lovin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "Rock‑heavy ’70 set with a freewheeling rush; solid first half leading into an energetic jam that builds to Not Fade Away and St Stephen, delivering the classic Dead vibe."
+      "setlist_flow": "Rock‑heavy ’70 set with a freewheeling, high‑energy vibe; no long acoustic or half‑hour jams but strong transitions, especially the NFA→St. Stephen sequence."
     },
     "band_member_comments": {
-      "Jerry": "Garcia is remembered for his relaxed vibe on the veranda—smoking a joint—and his guitar work during Easy Wind.",
+      "Jerry": "Garcia is noted for his relaxed, “reefer‑influenced” playing and hanging out with fans on the veranda, contributing to the show’s joyous vibe.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T08:55:56.285064+00:00",
+    "song_mentions": {
+      "Easy Wind": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Not Fade Away": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "St. Stephen": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T04:05:59.683205+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-06-21.aud.hanno.6160.sbeok.shnf"
   }

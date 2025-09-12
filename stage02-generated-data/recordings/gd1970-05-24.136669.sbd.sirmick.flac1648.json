@@ -16,25 +16,25 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑quality soundboard capture of a powerful ’70 show, highlighted by the classic “And We Bid You Goodnight” jam.",
-    "review": "The three reviewers unanimously praise this performance as a quintessential 1970 Dead experience, noting its raw power and the memorable closing \"And We Bid You Goodnight\" improvisation that harkens back to the Alligator era. No recording issues are mentioned, implying a clean, well‑balanced soundboard source that lets the music shine.",
+    "summary": "High‑energy ’70 performance highlighted by a powerful “And We Bid You Goodnight” jam; recording is praised though source details are unclear.",
+    "review": "The three reviewers all rave about the show’s intensity, especially noting the memorable “And We Bid You Goodnight” jam that foreshadows later endings. While no technical specifics are given, the unanimous five‑star and four‑star ratings suggest a listenable recording with good overall sound quality.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.7,
-      "confidence": "medium",
-      "rationale": "All three reviews are highly positive (4–5 stars) and focus on both the musical impact and an assumed clean soundboard source, leading to a strong combined rating."
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All three reviews are strongly positive (5, 5, 4 stars) and highlight an exceptional performance; lack of technical criticism implies at least good recording quality."
     },
     "recording_quality": {
-      "source_type": "soundboard",
-      "quality_rating": "excellent",
-      "technical_notes": "No specific audio complaints; reviewers’ enthusiasm suggests a clear, balanced board mix."
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on soundboard or audience source; reviewers express overall satisfaction with the audio."
     },
     "show_quality": {
       "standout_songs": [
-        "And We Bid You Goodnight jam"
+        "And We Bid You Goodnight"
       ],
       "poor_songs": [],
-      "setlist_flow": "Reviewers emphasize the overall power of the show and the classic closing jam, indicating a strong, cohesive performance typical of the band’s 1970 era."
+      "setlist_flow": "Reviewers emphasize the show’s power and the standout closing jam, indicating a strong, cohesive performance."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,7 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T08:29:11.029620+00:00",
+    "song_mentions": {
+      "And We Bid You Goodnight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T03:27:39.970597+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-24.136669.sbd.sirmick.flac1648"
   }

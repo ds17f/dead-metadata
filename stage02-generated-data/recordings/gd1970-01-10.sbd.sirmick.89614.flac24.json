@@ -16,18 +16,18 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Fair‑quality, age‑marked recording captures a nostalgic show that shines on Good Lovin' and an electrifying Lovelight finale",
-    "review": "The tape shows its age – it’s garbled and dusty in places – but the performance delivers especially toward the end. Jerry’s high‑voltage guitar on the closing Lovelight and Pigpen’s soulful vocal on Good Lovin' are highlighted as magical moments, rewarding listeners who stick around despite the early roughness.",
-    "sentiment": "mixed",
+    "summary": "Fair soundboard recording with nostalgic garble but standout performances of Good Lovin' and Lovelight",
+    "review": "The tape shows its age with occasional garbled sections, yet the latter part of the concert comes alive – Good Lovin' pounds out a punch‑filled groove and Lovelight shines with high‑voltage Jerry guitar work and soulful Pigpen vocals. The show’s magic outweighs the modest audio flaws.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 3.9,
+      "stars": 4.1,
       "confidence": "low",
-      "rationale": "Only one review; it praises the show’s climax but notes significant recording flaws, leading to a moderate‑high rating."
+      "rationale": "Review praises the musical performance (especially Good Lovin' and Lovelight) while noting recording is garbled; weighted average yields a solid 4‑star rating despite limited data."
     },
     "recording_quality": {
-      "source_type": "unknown",
+      "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Age‑related tape hiss and garbled sections; occasional clarity on later songs (Good Lovin', Lovelight) but overall dusty, muffled sound."
+      "technical_notes": "Audio shows age, some garbled/muddy passages, but improves toward the end where it sounds fresher."
     },
     "show_quality": {
       "standout_songs": [
@@ -37,16 +37,33 @@
       "poor_songs": [
         "Hard to Handle"
       ],
-      "setlist_flow": "The concert builds slowly with some uneven early moments, then rewards patient listeners with a high‑energy finish and standout vocal/guitar highlights."
+      "setlist_flow": "Overall nostalgic vibe with a strong finish; early parts are less vivid, but the ending delivers classic Dead magic."
     },
     "band_member_comments": {
-      "Jerry": "High‑voltage, unique guitar work on the Lovelight finale.",
+      "Jerry": "High‑voltage, unique guitar work on Lovelight.",
       "Phil": "",
       "Bob": "",
-      "Keys": "",
+      "Keys": "Pigpen's voice described as strong and soulful, adding to the magic.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T05:12:17.638274+00:00",
+    "song_mentions": {
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T22:19:09.837373+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-01-10.sbd.sirmick.89614.flac24"
   }

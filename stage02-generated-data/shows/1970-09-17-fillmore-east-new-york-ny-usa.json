@@ -176,42 +176,47 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Acoustic debut of Box of Rain plus a soaring Dark Star",
-    "blurb": "The show opens with an all‑acoustic set that delivers the first ever performance of \"Box of Rain\" and a beautifully rendered acoustic medley. A marathon second set features a monumental \"Dark Star\" that stretches into the early morning. Audio is muddy throughout, but the historic playing shines through.",
-    "review": "On September 17, 1970 at the Fillmore East the Dead offered a rare acoustic‑focused first set that would become legendary: Jerry Garcia slipped onto piano and pedal steel for an intimate rendition of \"Box of Rain,\" while Phil Lesh supplied resonant vocals and solid bass. Bob Weir’s harmonies and the New Riders of the Purple Sage guests added extra texture, making the acoustic medley (including \"Brokedown Palace\" and \"Ripple\") a standout moment. After a brief intermission the band launched into an electric marathon, highlighted by a soaring \"Dark Star\" that segued into two rounds of \"Good Lovin'\" with dual drum passages. Though every tape of this night is audience‑sourced and suffers from muffling, hiss, and occasional drop‑outs, the performance’s historical importance—especially the debut of \"Box of Rain\"—makes it a must‑listen for completists despite the sonic shortcomings.",
+    "summary": "Iconic Dark Star and debut Box of Rain despite lo‑fi tape",
+    "blurb": "The acoustic first set shines with a heartfelt Box of Rain, Ripple and Brokedown Palace. The second set delivers an unforgettable Dark Star that outweighs the muffled audience recording.",
+    "review": "September 17, 1970 at the Fillmore East captures a historic moment in Dead history – the very first performance of “Box of Rain” alongside a soaring, extended Dark Star. The acoustic portion, bolstered by Pigpen’s subtle pedal‑steel and piano, feels intimate even through the hiss and crowd chatter; Jerry’s rhythm work and Phil’s vocal lead on “Box of Rain” are repeatedly praised. While the audience tape is undeniably muffled – described as a mic wrapped in a shirt – the energy of the band cuts through, especially during the Dark Star jam where both drummers drive an ecstatic pulse. The setlist flows well, with highlights like “Ripple,” “Brokedown Palace,” and a solid if noisy electric second half that still manages to convey the group’s chemistry. For fans willing to look past the technical flaws, this show offers a rare glimpse of the Dead at a creative crossroads, making it worth a listen for its historic significance and standout moments.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.8,
-      "confidence": "high"
+      "ai_rating": 2.9,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 13,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.3,
+        "final_calculation": "2.5 + 0.1 + 0.3 = 2.9"
+      }
     },
     "best_recording": {
       "identifier": "gd70-09-17.aud.warner.16090.sbeok.shnf",
-      "reason": "Only full‑show audience tape available; despite poor audio it captures the entire set, including the historic acoustic debut and the extended Dark Star."
+      "reason": "Most complete audience capture of the acoustic set and iconic Dark Star, despite its muffled sound it remains the fullest representation of this historic show."
     },
     "key_highlights": [
-      "Historic acoustic debut of \"Box of Rain\" with Jerry on piano and pedal steel",
-      "Monumental \"Dark Star\" that carries the second half into the early morning",
-      "Rare all‑acoustic set featuring New Riders guests and an intimate medley (Brokedown Palace, Ripple)",
-      "Audio quality is consistently muddy; listeners should expect hiss, muffling, and occasional drop‑outs"
+      "Debut performance of “Box of Rain” with heartfelt vocals and subtle piano/steel.",
+      "Monumental Dark Star that eclipses the lo‑fi recording limitations.",
+      "Acoustic first set delivers intimate renditions of Ripple and Brokedown Palace.",
+      "Historical significance outweighs technical flaws; a must‑listen for collectors."
     ],
     "song_highlights": [
       "Box of Rain",
       "Dark Star",
-      "Friend Of The Devil",
       "Ripple",
-      "Brokedown Palace",
-      "Rosa Lee McFall*"
+      "Brokedown Palace"
     ],
     "band_performance": {
-      "Jerry": "Switches to piano and pedal steel for the acoustic numbers, delivering a heartfelt performance on \"Box of Rain\" and solid acoustic guitar work throughout.",
-      "Phil": "Provides emotionally resonant vocals on \"Box of Rain\" and maintains a steady bass foundation across both sets.",
-      "Bob": "Adds vocal harmonies on the acoustic songs and supplies rhythm guitar for the entire show.",
+      "Jerry": "Acoustic piano and pedal‑steel work are highlighted, with his guitar presence praised throughout the set.",
+      "Phil": "Strong vocal lead on “Box of Rain” and solid bass foundation noted despite recording limits.",
+      "Bob": "",
       "Brent": "",
-      "Mickey": "Percussion is noted positively during the late‑night portions, adding texture to the extended jams.",
-      "Billy": "Drumming is described as \"rocking\"; keeps a solid beat throughout the electric set and dual drum sections."
+      "Mickey": "Drumming energy shines during Dark Star and jam sections, driving the performance forward.",
+      "Billy": "Shares drum duties with Mickey, contributing to the powerful rhythmic pulse in the second set."
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-11T09:59:58.621073+00:00",
+    "processed_date": "2025-09-12T05:52:46.674154+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -227,16 +232,10 @@
         "Good Lovin'"
       ],
       [
-        "Friend Of The Devil"
-      ],
-      [
         "Ripple"
       ],
       [
         "Brokedown Palace"
-      ],
-      [
-        "Rosa Lee McFall*"
       ]
     ]
   }

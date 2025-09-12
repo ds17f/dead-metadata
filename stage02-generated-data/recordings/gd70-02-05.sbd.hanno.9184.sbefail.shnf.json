@@ -16,41 +16,75 @@
   "high_ratings": 15,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Matrix source with good‑ish soundboard clarity captures a smoking Feb 5 1970 show – Mason’s Children and the Eleven→Caution sequence are highlights.",
-    "review": "The performance is widely praised as one of the band’s peak early‑70 shows, with Mason’s Children, The Eleven, Caution (Do Not Stop On Tracks) and the China Cat > I Know You Rider segue getting special love.  Recording quality is mixed – the first few tracks are audience‑sourced and a few soundboard sections are muddy or bass‑light, but overall the matrix mix is listenable and lets the strong drumming and keyboard work shine through.",
+    "summary": "Matrix source with generally good soundboard quality (some muddy audience bits) captures a smoking Feb 5 1970 show highlighted by a monster Mason's Children and fiery Eleven‑Caution sequence.",
+    "review": "The recording is a hybrid of sound‑board and audience sources; the later portion sounds crystal clear while the opening tracks are noticeably lo‑fi, with occasional bass‑low mix and treble‑bright issues. Musically the performance shines – Mason’s Children is repeatedly called the best on tape, The Eleven rolls into a classic Caution jam, and the NFA→Cumberland transition is praised by several listeners. Overall fans are enthusiastic despite the imperfect audio.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "Most reviewers give 4–5 stars and rave about the musical performance; recording issues are noted but not enough to outweigh the strong show, yielding a high overall rating."
+      "rationale": "Most reviewers (≈80 %) give 4‑5 stars and highlight standout performances; recording issues are noted but limited to early audience tracks, so the weighted average of show (≈4.6) and recording (≈3.8) yields ~4.4."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "good",
-      "technical_notes": "First four tracks are audience recordings (acceptable for their age).  The bulk is soundboard but some sections are muddy with dead spots and the bass a bit low; treble can be harsh, occasional drop‑outs.  Overall clarity is sufficient to enjoy the performance."
+      "technical_notes": "Later half is crystal‑clear soundboard; first four tracks are lo‑fi audience with dead spots, bass a bit low and occasional treble harshness. Some reviewers note pitch/speed inconsistencies in AUD copies."
     },
     "show_quality": {
       "standout_songs": [
         "Mason's Children",
-        "The Eleven > Caution (Do Not Stop On Tracks)",
-        "China Cat Sunflower > I Know You Rider",
+        "The Eleven",
+        "Caution (Do Not Stop On Tracks)",
         "Not Fade Away",
-        "Cumberland Blues",
         "Uncle John's Band"
       ],
-      "poor_songs": [
-        "China Cat Sunflower > I Know You Rider (missing from the tape)"
-      ],
-      "setlist_flow": "The set opens with acoustic numbers, builds into a powerful Mason's Children and The Eleven jam, then rolls smoothly through Caution into a tight Not Fade Away → Cumberland Blues close, praised for its seamless transitions and high‑energy mid‑set."
+      "poor_songs": [],
+      "setlist_flow": "Set builds strong momentum from Mason's Children into a high‑energy Eleven → Caution sequence, with the NFA→Cumberland segue praised; missing China>Rider fragment noted but does not detract from overall flow."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s lead guitar is highlighted throughout; a brief Speedway Boogie‑style jam appears inside Big Boss Man and he even dabbles on pedal steel in two George Jones cuts.",
-      "Phil": "Lesh delivers an “amazing” bass line during the second Mason's Children instrumental; his aggressive riffing drives Caution and he takes charge during its chaotic ending.",
-      "Bob": "Weir’s rhythm work shines especially in the Mason's Children jam, complementing Lesh’s improvisation.",
-      "Keys": "Pigpen is noted on organ for The Eleven (a rare and emotional moment) and adds claves on Uncle John's Band; keyboards are generally clear and vibrant.",
-      "Drums": "The drum mix receives repeated praise – described as “fantastic,” “popping, crunching, jitter‑y,” with a bright, punchy sound that lifts the whole performance."
+      "Jerry": "Several reviewers note his adventurous jams (e.g., New Speedway Boogie in Big Boss Man) and a rare pedal‑steel cameo, adding extra excitement.",
+      "Phil": "His bass/lead work shines on Caution and the jam transitions; one reviewer calls his riff “insistent” and vital to the flow.",
+      "Bob": "",
+      "Keys": "Pigpen’s organ appears on The Eleven, an unusual but emotionally resonant contribution for this era.",
+      "Drums": "The drum sound is repeatedly praised – described as popping, crunchy, and bright; many cite the Bear‑mix style of the period."
     },
-    "processed_date": "2025-09-11T05:47:55.876522+00:00",
+    "song_mentions": {
+      "Mason's Children": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "The Eleven": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Caution (Do Not Stop On Tracks)": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Not Fade Away": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "Big Boss Man": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-11T23:17:34.649846+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-02-05.sbd.hanno.9184.sbefail.shnf"
   }

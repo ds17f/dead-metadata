@@ -16,39 +16,66 @@
   "high_ratings": 15,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard recording with solid clarity captures a memorable acoustic set highlighted by an exquisite Black Peter and Lovelight, though the on‑stage guest vocalist makes Not Fade Away a mixed moment.",
-    "review": "The show is praised for its strong acoustic work—Black Peter’s heartfelt solo and the seamless NFA → Lovelight transition are repeatedly called out as highlights. While the soundboard source provides generally good, listenable audio (aside from occasional volume spikes from the guest singer), many reviewers note that the bizarre on‑stage vocalist detracts from parts of Not Fade Away and some improvisations.",
+    "summary": "Soundboard capture with good clarity; the show shines on Black Peter, Lovelight and a fiery Hard‑to‑Handle despite an intrusive guest vocalist.",
+    "review": "The recording is a generally clear sound‑board source that remains listenable even when the surprise on‑stage singer drives the volume up. Musically the band delivers strong performances – Jerry’s acoustic Black Peter solo, a soaring Lovelight and a punchy Hard‑to‑Handle stand out – while the guest’s chaotic contributions mar Not Fade Away and the impromptu blues segment.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
-      "confidence": "high",
-      "rationale": "Most reviews rate the performance 4–5 stars and describe good soundboard quality; a few low‑star comments focus on the disruptive guest vocalist, leading to an overall strong but not flawless rating."
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Average user rating ~3.5, but most comments praise the music and note decent sound quality; a few strong negative reactions to the guest keep the overall sentiment from being fully positive."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear and listenable with nice acoustic detail; occasional volume fluctuations when the guest vocalist gets loud, but no major drop‑outs or distortion reported."
+      "technical_notes": "Generally clear and listenable; occasional volume fluctuations when the unknown vocalist takes over, but no major drop‑outs or distortion reported."
     },
     "show_quality": {
       "standout_songs": [
         "Black Peter",
         "Lovelight",
-        "Not Fade Away"
+        "Hard to Handle"
       ],
       "poor_songs": [
-        "Impromptu Blues",
-        "Not Fade Away (guest vocal disruption)"
+        "Not Fade Away",
+        "Impromptu Blues"
       ],
-      "setlist_flow": "The set flows well, featuring a strong acoustic segment that leads into the NFA → Lovelight transition; despite chaotic moments with audience members and the guest singer, the band maintains composure and tight playing throughout."
+      "setlist_flow": "The set builds through a solid acoustic segment, a memorable Lovelight transition and energetic rock numbers; the surprise guest interrupts Not Fade Away and the impromptu blues but the band keeps tight footing throughout."
     },
     "band_member_comments": {
-      "Jerry": "His vocal tone on Black Peter is described as sweet and heartbreaking; guitar work praised during acoustic solo.",
+      "Jerry": "His voice described as sweet, musical and heartbreakingly passionate on Black Peter; acoustic solo praised.",
       "Phil": "",
-      "Bob": "Vocals noted as crystal clear; praised for his contribution to the overall sound.",
+      "Bob": "Vocals called crystal clear by several reviewers.",
       "Keys": "",
-      "Drums": "Drums are called tight, providing a solid rhythmic foundation."
+      "Drums": "Drumming noted as tight and solid."
     },
-    "processed_date": "2025-09-11T06:51:54.742576+00:00",
+    "song_mentions": {
+      "Black Peter": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Lovelight": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 0,
+        "negative_mentions": 3,
+        "total_mentions": 3
+      },
+      "Impromptu Blues": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-12T00:50:10.853458+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-03-08.sbd.9195.sbeok.shnf"
   }

@@ -16,25 +16,27 @@
   "high_ratings": 0,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Muffled, bass‑overloaded audience tapes obscure a potentially legendary show, though the Dark Star from the second‑set matrix shines.",
-    "review": "The recordings are audience (AUD) sources that suffer from severe muffling and excessive low‑end, making much of the performance difficult to evaluate. Despite the poor sound, reviewers repeatedly point out that the second‑set Dark Star is a standout, even ranking among the top ten versions they’ve heard. The show’s musical moments are praised, but the audio quality limits enjoyment for most listeners.",
+    "summary": "Muffled audience tape obscures much of the music, yet the legendary Dark Star and the sweet Sugar Magnolia/Lovelight segment still shine.",
+    "review": "The recording is plagued by low‑fidelity AUD sources – muffled, bass‑heavy and often impossible to discern performance details – though a brief SBD excerpt of Sugar Magnolia into Lovelight offers a glimpse of clarity. Musically the show is praised for an out‑of‑this‑world Dark Star (ranked among the top ten) and strong mid‑set jams that make it worthwhile for completists despite the technical shortcomings.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.4,
       "confidence": "medium",
-      "rationale": "Show performance is regarded as strong (especially Dark Star), but recording quality is consistently described as poor/muffled; weighted average yields a mid‑range rating."
+      "rationale": "Reviewers consistently praise the Dark Star and key Sweet moments, indicating a strong show (≈4/5), but they all criticize the poor audience‑tape quality (≈2/5). Weighted combination yields ~3.4."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Both Weinberg and Toner AUD tapes are described as muffled, with overwhelming bass and low fidelity; only a small portion (Sugar Magnolia → Love Light) is noted to come from an SBD source. A matrix of the second half of the second set offers slightly better balance but overall remains sub‑par."
+      "technical_notes": "Both AUD tapes are described as muffled, bass‑overloaded and low‑fidelity; one reviewer notes a brief SBD segment of Sugar Magnolia/Lovelight that sounds better. A matrix of the second half of the second set exists but overall audio is hard to follow."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star"
+        "Dark Star",
+        "Sugar Magnolia",
+        "Lovelight"
       ],
       "poor_songs": [],
-      "setlist_flow": "Reviewers highlight a strong second set, especially the Dark Star, but the poor audio makes it hard to assess the rest of the show; the best‑recorded segment (Sugar Magnolia through Love Light) is noted as the high point."
+      "setlist_flow": "Second‑set’s latter half contains a legendary Dark Star that many rank among the best, with the middle jam described as “groovy.” The overall flow is praised despite the recording obscuring much of the performance."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,7 +45,24 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T10:09:23.560720+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T06:09:14.688033+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-09-19.aud-toner-weinberg.warner.25473.sbeok.flacf"
   }

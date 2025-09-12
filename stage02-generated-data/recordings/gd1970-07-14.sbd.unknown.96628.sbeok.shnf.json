@@ -16,43 +16,93 @@
   "high_ratings": 14,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑quality soundboard capture of a rare 1970 acoustic/electric set, highlighted by How Long Blues, a jammed New Speedway, and an all‑time Cosmic Charlie despite a few tape cuts.",
-    "review": "The recording delivers a clear, mostly pristine soundboard experience with occasional glitches and missing portions of Easy Wind and Good Lovin'. Musically the show shines – rare acoustic numbers like How Long Blues, a fiery New Speedway jam, and a thunderous Cosmic Charlie make it a must‑listen, while the electric set is solid though hampered by some cuts. Overall the performance and tape quality are strong enough to recommend this era‑defining concert.",
+    "summary": "High‑fidelity soundboard capture of a stellar July 14 1970 show with a smoking Cosmic Charlie and rare acoustic gems, despite a few cuts.",
+    "review": "The recording delivers crisp, classic 70s soundboard quality that lets the band’s dynamics shine – from Jerry’s rich tone on New Speedway to the thunderous drums that drive China Cat → Jam → I Know You Rider.  Highlights include an exceptional Cosmic Charlie, a rare acoustic How Long Blues, and a soulful Uncle John’s Band, while the only real drawbacks are the missing opening of Easy Wind and a chopped Good Lovin' segment.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers praise both the music and the tape, noting only minor glitches; weighted average of strong show (≈4.5) and good recording (≈4) yields a high rating."
+      "rationale": "Most reviewers rate the show 4‑5 stars, praising both performance (standout songs, rare acoustic set) and recording fidelity; only minor technical glitches are noted, yielding a strong overall score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Crisp and clean overall with classic 1970 tape character; occasional glitches, tape‑machine slip on Easy Wind, and a noticeable cut in Good Lovin' but drummers sit high in the mix adding excitement."
+      "technical_notes": "Crisp and clean overall with classic 1970 soundboard warmth.  Some glitches, cuts (Easy Wind intro, Good Lovin'), and occasional tape hiccups, but the mix is balanced – drums are high and lively."
     },
     "show_quality": {
       "standout_songs": [
-        "How Long Blues",
-        "New Speedway",
         "Cosmic Charlie",
-        "Uncle John's Band",
-        "Good Lovin'",
-        "Black Peter",
-        "Deep Elem Blues"
+        "New Speedway",
+        "How Long Blues",
+        "Uncle John's Band"
       ],
       "poor_songs": [
         "Easy Wind (partial)",
-        "Good Lovin' (cut early)"
+        "Good Lovin' (cut)",
+        "Me & My Uncle (slow‑paced)"
       ],
-      "setlist_flow": "A relaxed acoustic set with rare gems flows into a rocking electric half; transitions like China Cat → Jam → I Know You Rider are raw but exciting, though a few cuts interrupt the momentum."
+      "setlist_flow": "A relaxed acoustic set (rare How Long Blues, Deep Elem, Cumberland) segues into a more electric second half; the transition China Cat → Jam → I Know You Rider is praised for its funky percussion, though some slower Weir numbers dip the momentum."
     },
     "band_member_comments": {
-      "Jerry": "Classic tone and body on guitar; electric lead on New Speedway; notable solo on How Long Blues.",
-      "Phil": "Long, high‑in‑the‑mix solo in Good Lovin'; strong presence throughout the set.",
-      "Bob": "Weir’s cowboy‑tuned numbers pace the electric half; vocal slip‑ups noted but overall solid.",
+      "Jerry": "His classic guitar tone shines on New Speedway and How Long Blues; noted for rich body and occasional electric work on acoustic tunes.",
+      "Phil": "Long solo in Good Lovin' praised (though cut), drums‑solo interplay highlighted, high in the mix throughout.",
+      "Bob": "Only minor comment about slower ‘Cowboy’ Weir numbers; otherwise not specifically mentioned.",
       "Keys": "",
-      "Drums": "Both drummers are ‘smoking’, high in the mix, with funky percussion on China Cat → Jam and powerful drive on Good Lovin' and Cosmic Charlie."
+      "Drums": "Both drummers are described as 'smoking', high in the mix, and delivering funky percussion on China Cat → Jam → I Know You Rider."
     },
-    "processed_date": "2025-09-11T09:31:11.327555+00:00",
+    "song_mentions": {
+      "Cosmic Charlie": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Good Lovin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "total_mentions": 4
+      },
+      "New Speedway": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "How Long Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Deep Elem Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "I Know You Rider": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Easy Wind": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:05:40.778180+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-07-14.sbd.unknown.96628.sbeok.shnf"
   }

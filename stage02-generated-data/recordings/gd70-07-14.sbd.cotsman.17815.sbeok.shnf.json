@@ -16,41 +16,78 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with buzzing mix issues on the electric set, but a superb acoustic half featuring How Long Blues and a rare David Crosby jam.",
-    "review": "The acoustic portion of this show shines – banter, a rare \"How Long Blues\" performance and an unexpected guest spot by David Crosby make it a keep‑list favorite. The electric side suffers from mix problems and buzzing, with missing \"Frozen Logger\" and a cut in \"Easy Wind,\" though moments like the \"China > Rider\" transition and thick 1970‑style drums on \"The Other One\" still stand out.",
+    "summary": "Soundboard recording with buzzing/mix problems on the electric set, but an outstanding acoustic portion highlighted by a rare How Long Blues and a David Crosby guest jam.",
+    "review": "The acoustic half of this show shines – crisp banter, a rare rendition of \"How Long Blues\" and a special guest spot from David Crosby make it a keep‑list favorite. The electric set suffers from mix and buzzing issues, with some songs sounding distant or cut, though moments like the China > Rider segue and a thick‑drummed \"The Other One\" still stand out. Overall the tape is listenable for fans who can overlook the technical flaws in the second half.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.7,
-      "confidence": "medium",
-      "rationale": "Both reviewers gave 4‑star ratings, praising the acoustic set while noting significant flaws in the electric mix; weighted toward show quality (70%) yields a solid but not outstanding score."
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Both reviewers gave 4‑star ratings, praising the acoustic set while noting clear problems with the electric mix; the show is solid but recording issues keep it from higher marks."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "fair",
-      "technical_notes": "Electric set plagued by buzzing and mix problems; acoustic set sounds clear with good banter. No major drop‑outs reported, but overall balance is uneven."
+      "quality_rating": "good",
+      "technical_notes": "Acoustic portion clear and enjoyable; electric side plagued by buzzing, mix problems and occasional cuts (e.g., \"Casey Jones\" distant, \"Easy Wind\" cut)."
     },
     "show_quality": {
       "standout_songs": [
         "How Long Blues",
         "China > Rider",
-        "El Paso",
         "The Other One",
-        "Uncle John's"
+        "El Paso"
       ],
       "poor_songs": [
-        "Frozen Logger (missing)",
-        "Easy Wind (cut)"
+        "Casey Jones",
+        "Easy Wind",
+        "Me & My Uncle"
       ],
-      "setlist_flow": "Acoustic half is tight and engaging, while the electric half feels uneven – solid highlights are offset by missing pieces and mix issues."
+      "setlist_flow": "Acoustic set flows strongly with rare material and guest jam; electric set is uneven, missing \"Frozen Logger\" and showing inconsistent energy despite a few high points."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
-      "Bob": "Takes his time with lyrics on \"El Paso,\" giving a unique vocal delivery.",
+      "Bob": "Bob Weir takes his time on the lyrics of \"El Paso\", giving it a unique feel.",
       "Keys": "",
-      "Drums": "\"The Other One\" features thick‑nice 1970 style drumming."
+      "Drums": "\"The Other One\" features thick‑nice drums reminiscent of the 1970 era."
     },
-    "processed_date": "2025-09-11T09:31:47.092917+00:00",
+    "song_mentions": {
+      "How Long Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China > Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "El Paso": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Easy Wind": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:06:36.987043+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-07-14.sbd.cotsman.17815.sbeok.shnf"
   }

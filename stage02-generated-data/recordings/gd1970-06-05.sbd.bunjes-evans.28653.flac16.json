@@ -16,36 +16,53 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Decent soundboard capture of the June 5 1970 Fillmore West show, highlighted by jam‑filled Saint Stephen, Easy Wind and Man’s World, though the audio has occasional patches that benefit from EQ.",
-    "review": "The performance is praised for its high energy and strong jams—especially a fully stretched Saint Stephen and the rare pairing of Easy Wind with Man's World. While listeners note some sound‑board quirks and the need for EQ to tame occasional drop‑outs, the overall vibe remains enjoyable and memorable.",
+    "summary": "Solid soundboard capture of a lively June 5 1970 show with jam‑filled Saint Stephen, Easy Wind and Man’s World, despite occasional audio patches.",
+    "review": "The performance is praised for its high energy – Saint Stephen is “fully jammed out” and the rare pairing of Easy Wind with Man's World delights fans. While the soundboard source is generally good, listeners note some patchy moments and recommend EQ adjustments; overall the recording remains enjoyable.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.1,
-      "confidence": "medium",
-      "rationale": "Strong musical performance (≈4.5/5) offset by modest recording issues (≈3/5); weighted average yields ~4.1 stars."
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Consistently positive comments about the musical set with only minor audio issues lead to a high rating; five detailed reviews provide strong evidence."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "fair",
-      "technical_notes": "Audience‑portion excerpt with occasional patchy sections; reviewers mention needing EQ and note some drop‑outs, but the capture is still listenable."
+      "quality_rating": "good",
+      "technical_notes": "Audio has occasional patchy moments and may need EQ tweaks, but overall clarity is solid and the audience portion captured well."
     },
     "show_quality": {
       "standout_songs": [
-        "Saint Stephen",
         "Easy Wind",
-        "Man's World"
+        "Man's World",
+        "Saint Stephen"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set flows with solid early‑1970 energy; despite a few technical hiccups the band stays tight and delivers extended jams that keep the momentum high."
+      "setlist_flow": "The set flows strongly with high‑energy jams; humor from on‑stage moments (e.g., Mickey being heckled) adds character despite minor performance hiccups."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": ""
+      "Drums": "Mickey (Bear) gets heckled and appears stressed, creating a humorous on‑stage moment."
     },
-    "processed_date": "2025-09-11T08:38:13.001813+00:00",
+    "song_mentions": {
+      "Easy Wind": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Man's World": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Saint Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T03:40:04.220345+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-06-05.sbd.bunjes-evans.28653.flac16"
   }

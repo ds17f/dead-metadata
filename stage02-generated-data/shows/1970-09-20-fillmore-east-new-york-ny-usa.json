@@ -224,44 +224,51 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Epic acoustic set, fiery NFA‑Caution jam, stellar To Lay Me Down",
-    "blurb": "The concert opens with a tight acoustic suite highlighted by “To Lay Me Down,” where Jerry even sits at piano. The electric second set builds into a classic Not Fade Away → Caution → Feedback sequence, punctuated by an explosive Easy Wind and soaring “Not Fade Away.” Overall the band stays locked in, delivering inspired playing from start to finish.",
-    "review": "September 20, 1970 at the Fillmore East captured one of the Dead’s most balanced nights – a beautifully arranged acoustic first set that flows seamlessly into a high‑energy electric second set. Highlights include Jerry’s rare piano work on “To Lay Me Down,” Tom Constanten’s mournful keys threading through the early songs, and Pigpen’s gritty organ adding texture throughout. The band really fires up on the iconic Not Fade Away → Caution (Do Not Stop On Tracks) → Feedback segue, with Bill Kreutzmann’s drumming driving a wild jam that culminates in an ecstatic “Good Night.” Standouts such as “Easy Wind,” “Cumberland Blues,” and “New Speedway Boogie” showcase Jerry’s crisp guitar tone and Phil’s primo bass foundation, while Bob Weir delivers scorching leads on Easy Wind and Sugar Magnolia. Guest spots and the occasional mandolin add extra color, making this show a quintessential snapshot of the Dead in 1970.",
+    "summary": "Acoustic gems, soaring electric set and rare piano on To Lay Me Down",
+    "blurb": "The Fillmore East show opens with a tight acoustic set that highlights folk staples and guest mandolin/piano textures. Jerry’s surprising piano work on “To Lay Me Down” adds a solemn beauty, while the second set erupts into high‑energy classics like “Not Fade Away”, “Cumberland Blues” and “New Speedway Boogie”. Overall it’s a strong performance with several memorable moments.",
+    "review": "On September 20, 1970 at the Fillmore East, the Dead delivered an unforgettable two‑set marathon that still feels fresh. Set 1 is a folk‑rock showcase – Uncle John’s Band, Ripple and a beautifully rendered “To Lay Me Down” where Jerry Garcia slips onto piano alongside Tom Constanten’s mournful keys, creating a rare, solemn moment. The acoustic momentum carries through Truckin’ and the blue‑grass‑tinged “Cumberland Blues”. Set 2 flips the switch: classic rockers like Casey Jones flow into the seamless China Cat → I Know You Rider segue, then the band rides high on an explosive “Not Fade Away”, a thunderous “New Speedway Boogie” and a tight “Easy Wind” solo from Bob. The Caution/Feedback jam adds the typical late‑‘70 experimental edge. Guest contributions and the interplay between Jerry’s guitar, Phil’s steady bass (even adding electric depth to the acoustic side), and Pigpen’s organ round out an evening that captures the band at a creative peak.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.6,
-      "confidence": "high"
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 130,
+        "review_count_boost": 0.5,
+        "sentiment_adjustment": 1.6,
+        "final_calculation": "2.5 + 0.5 + 1.6 = 4.6"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-09-20.140664.sbd.boswell.smith.miller.clugston.flac1644",
-      "reason": "Clear soundboard tape with excellent piano/organ balance, minimal hiss and no drop‑outs – captures the full dynamics of both acoustic and electric sets."
+      "reason": "Excellent soundboard capture with crystal‑clear mix, no dropouts, and highlights the full acoustic‑electric flow of the show."
     },
     "key_highlights": [
-      "Stunning acoustic opening with Jerry’s rare piano on “To Lay Me Down.”",
-      "Explosive Not Fade Away → Caution → Feedback sequence that defines the second set.",
-      "\"Easy Wind\" showcases Jerry’s out‑of‑control guitar tone and Bob’s fiery lead."
+      "Acoustic first set enriched by guest mandolin and Tom Constanten’s piano.",
+      "Jerry’s rare piano work on “To Lay Me Down” adds a solemn, longing texture.",
+      "High‑energy electric second set featuring “Not Fade Away”, “Cumberland Blues” and “New Speedway Boogie”.",
+      "Strong group interplay with Phil’s bass depth and Bob’s standout Easy Wind solo."
     ],
     "song_highlights": [
       "To Lay Me Down",
       "Not Fade Away",
-      "Caution (Do Not Stop On Tracks)",
-      "Feedback",
-      "Easy Wind",
       "Cumberland Blues",
       "New Speedway Boogie",
-      "China Cat Sunflower",
-      "I Know You Rider"
+      "Easy Wind",
+      "Truckin'",
+      "Caution (Do Not Stop On Tracks)"
     ],
     "band_performance": {
-      "Jerry": "Delivers crisp, solid guitar work throughout, goes out of control on Easy Wind and even sits at piano for a heartfelt To Lay Me Down; vocal delivery varies from solemn to soaring.",
-      "Phil": "Primo bass that anchors the set; adds electric bass on the acoustic portion, providing a deep, steady foundation.",
-      "Bob": "Fire on the guitar during Easy Wind and Sugar Magnolia, strong solo on Easy Wind, gritty vocals on acoustic Truckin', and generally “doing his thing” across the night.",
+      "Jerry": "Delivers a solemn, longing guitar on the acoustic numbers and surprises with piano on “To Lay Me Down”; overall crisp and solid playing throughout.",
+      "Phil": "Provides a rock‑solid bass foundation, even adding electric depth to the acoustic set; praised for his tour‑de‑force partnership with Jerry.",
+      "Bob": "Adds texture with rhythm guitar and vocals; his solo on “Easy Wind” is highlighted as a standout moment, and he drives the lyrical power on “Truckin’”.",
       "Brent": "",
+      "Tom": "Guest pianist Tom Constanten supplies soft, mournful piano that intertwines beautifully with Pigpen’s organ, especially on “To Lay Me Down”.",
       "Mickey": "",
-      "Billy": "Solid drumming that drives the jams; mixed a bit high in some spots but never loses the groove."
+      "Billy": ""
     },
-    "processed_recordings": 8,
-    "processed_date": "2025-09-11T10:23:05.473344+00:00",
+    "processed_recordings": 7,
+    "processed_date": "2025-09-12T06:29:44.113001+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -275,17 +282,16 @@
         "And We Bid You Good Night"
       ],
       [
-        "Easy Wind"
-      ],
-      [
         "Cumberland Blues"
       ],
       [
         "New Speedway Boogie"
       ],
       [
-        "China Cat Sunflower",
-        "I Know You Rider"
+        "Easy Wind"
+      ],
+      [
+        "Truckin'"
       ]
     ]
   }

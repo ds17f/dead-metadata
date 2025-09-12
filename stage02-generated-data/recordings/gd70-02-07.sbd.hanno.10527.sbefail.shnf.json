@@ -16,37 +16,84 @@
   "high_ratings": 2,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard source with a muddy early mix that clears up, delivering a solid 1970 Fillmore West set highlighted by Sawmill and a fiery China Cat > I Know You Rider.",
-    "review": "The performance is generally praised for its energy, especially the country‑flavored Sawmill on pedal steel and the high‑octane China Cat Sunflower > I Know You Rider sequence, while later cuts like Black Peter and High Time also stand out. Recording-wise the tape starts out muddy with balance and monitor issues, but by the second half it settles into decent soundboard quality. Overall the show is enjoyable for fans of this era despite the technical hiccups.",
+    "summary": "Fair matrix recording marred by early muddiness, but the show shines with a joyous Sawmill and a scorching China Cat > I Know You Rider sequence.",
+    "review": "The performance is highlighted by Jerry’s pedal‑steel on “Sawmill,” a tight “Black Peter,” and an electrifying “China Cat > I Know You Rider” stretch, while the later soundboard mix finally clears up after a muddy, monitor‑swapped first half. Recording quality is uneven – early songs suffer from mud, delayed stage‑mic switches and balance problems – but it improves enough to capture the band’s 1970 country‑flavored set.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 3.4,
       "confidence": "high",
-      "rationale": "Most reviewers note strong musical moments (show weight ~70%) and a recording that improves after an initial muddy section (recording weight ~30%); combined weighted score yields around 3.5‑4 stars."
+      "rationale": "Show quality is generally good with several standout moments, but recording issues (muddy early mix, mic switching problems) drag the overall experience down, yielding an average‑plus rating."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "matrix",
       "quality_rating": "fair",
-      "technical_notes": "Early portion is muddy with balance problems and delayed stage mic switch; bass can sound boomy; later songs achieve clearer soundboard mix but some cuts remain."
+      "technical_notes": "Early portion is muddy and suffers from delayed stage‑mic switches (Hard to Handle, Cold Rain & Snow). Balance problems noted; later tracks become clearer soundboard mix but some cuts (Good Lovin') remain."
     },
     "show_quality": {
       "standout_songs": [
         "Sawmill",
         "China Cat Sunflower > I Know You Rider",
         "Black Peter",
-        "High Time"
+        "High Time",
+        "Uncle John's Band"
       ],
-      "poor_songs": [],
-      "setlist_flow": "One long set with an early monitor issue and a brief set break; the band recovers into tighter playing, though some tracks are cut or end abruptly."
+      "poor_songs": [
+        "Hard to Handle",
+        "Good Lovin'",
+        "Cold Rain and Snow"
+      ],
+      "setlist_flow": "A single long set heavy on country covers; early songs are hampered by monitor issues, but the band builds momentum with strong mid‑set numbers before the recording quality finally steadies."
     },
     "band_member_comments": {
-      "Jerry": "Pedal steel work on Sawmill described as joyous; his soloing is noted as beginning to explore new possibilities.",
-      "Phil": "Bass reported as too boomy early in the mix before the soundboard levels settle.",
-      "Bob": "",
+      "Jerry": "Pedal steel on “Sawmill” is joyous; his solo work in “Uncle John's Band” shows early exploration of new ideas.",
+      "Phil": "Bass is described as too boomy during early songs and suffers from mic‑switch delays.",
+      "Bob": "Bob Weir’s vocal leads on “Seasons of My Heart”; banter with Garcia noted before “China Cat”.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T05:54:49.177731+00:00",
+    "song_mentions": {
+      "Sawmill": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Hard to Handle": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Cold Rain and Snow": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T23:27:25.762489+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-02-07.sbd.hanno.10527.sbefail.shnf"
   }

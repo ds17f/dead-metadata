@@ -16,43 +16,93 @@
   "high_ratings": 18,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a high‑energy Jan 3 1970 Fillmore East show, highlighted by a thunderous Morning Dew opener, crushing The Other One and standout Pigpen organ moments.",
-    "review": "The recording is a crisp 1970 soundboard tape that reproduces the band’s ferocious New York performance with remarkable clarity for its era, despite a few occasional mix quirks. Musically the show is consistently inspired – from the opening Morning Dew through a monster second‑set sequence (The Other One, Cosmic Charlie, Uncle John’s Band into Black Peter) and a jam after drums that teases China Cat Sunflower and We Bid You Goodnight. Reviewers rave about the tight playing, powerful vocals and especially Tom Constanten’s organ work.",
+    "summary": "Superb Jan 3 1970 Fillmore East soundboard captures a high‑energy set with Pigpen‑driven first half and fireworks on The Other One and Alligator in the second.",
+    "review": "The recording is a classic 1970 SBD that sounds clear for its era, with only occasional mix quirks and minor cuts. Musically the show is a fan favorite – a powerful opening with Morning Dew and Pigpen’s HTH/Alligator, followed by a second‑set surge highlighted by The Other One, Cosmic Charlie and tight jams that keep the band in top form. Reviewers repeatedly note the band’s fluid playing and standout moments throughout.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.7,
+      "stars": 4.8,
       "confidence": "high",
-      "rationale": "Over 20 enthusiastic reviews praise both performance and audio; the show is described as a top‑tier early‑70s Dead concert while the soundboard source is noted as clear with only minor mix issues."
+      "rationale": "Nearly all 18 reviews award five stars, praising both performance and soundboard quality; only minor recording complaints appear, keeping the overall rating very high."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally crisp and well balanced for a 1970 tape; reviewers note excellent clarity, though a few mention occasional cuts, low‑level Phil bass in the mix, and minor mixing glitches."
+      "technical_notes": "Generally clear and crisp for a 1970 SBD; reviewers call it \"very good for the time period\" and \"Super 70' Soundboard!\". A few note occasional cuts (Cryptical Outro) and that Phil's bass sits low in the mix."
     },
     "show_quality": {
       "standout_songs": [
-        "Morning Dew",
-        "Hard to Handle",
-        "Alligator",
         "The Other One",
+        "Alligator",
         "Cosmic Charlie",
-        "Uncle John's Band",
-        "Black Peter",
         "Good Lovin'",
         "Midnight Hour",
         "Mason's Children"
       ],
-      "poor_songs": [],
-      "setlist_flow": "High‑energy opening set dominated by Pigpen’s soulful contributions; second set builds with a powerful The Other One and seamless segues, culminating in an extended jam after drums that weaves in classic teases."
+      "poor_songs": [
+        "Cryptical Outro"
+      ],
+      "setlist_flow": "First set dominated by Pigpen‑centric numbers (Morning Dew, Here Comes Sunshine, Alligator) with high energy; second set builds from The Other One into extended jams, featuring Cosmic Charlie and tight transitions that keep the momentum soaring."
     },
     "band_member_comments": {
-      "Jerry": "Guitar tone praised as perfect; vocal delivery on Uncle John's Band described as near‑final; consistently energetic throughout.",
-      "Phil": "Generally solid bass work but noted as a bit low in the mix by at least one reviewer.",
+      "Jerry": "His vocal on Uncle John is described as \"like it's his last time\" and his guitar tone noted as perfect by reviewers.",
+      "Phil": "A few listeners feel Phil's bass sits a bit low in the mix, though overall playing is praised as fluid.",
       "Bob": "",
-      "Keys": "Tom Constanten’s organ flourishes highlighted repeatedly – “Pig’s organ is really in the mix” and “TC’s distinct flourishes”.",
-      "Drums": "Tight drumming with an outstanding post‑drum jam that teases China Cat Sunflower and We Bid You Goodnight."
+      "Keys": "Tom Constanten’s organ flourishes are highlighted as distinct and a key part of the sound, especially on Pigpen‑driven tracks.",
+      "Drums": ""
     },
-    "processed_date": "2025-09-11T05:05:26.573142+00:00",
+    "song_mentions": {
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Here Comes Sunshine": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Alligator": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Midnight Hour": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mason's Children": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cryptical Outro": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T22:09:25.720170+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-01-03.sbd.ret.19440.sbeok.shnf"
   }

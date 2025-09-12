@@ -16,38 +16,74 @@
   "high_ratings": 8,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Fair audience tape of the legendary July 11 1970 Fillmore East show, highlighted by an electrifying Easy Wind opener, a rare acoustic set with “So Sad” and “Rosa Lee”, plus a high‑energy New Riders appearance.",
-    "review": "The performance is widely praised – the electric set bursts out with Easy Wind and a sprawling Dancing‑Cryptical‑Other One medley, while the acoustic half delivers standout moments like the Everly Brothers cover “So Sad”, the gospel trio and Rosa Lee. The recording is an audience capture from 1970 that suffers from left‑channel dominance, tape hiss and a cassette‑bootleg feel, but listeners accept its historical value and raw atmosphere.",
+    "summary": "Rare July‑11 1970 Fillmore East show with strong acoustic set and soaring Morning Dew, captured on a rough audience tape that loses the right channel for the first half.",
+    "review": "The performance is widely praised – Jerry’s pedal‑steel work, an early “So Sad” acoustic rendition, a spirited Rosa Lee debut and a thunderous Morning Dew make this a must‑hear night. The recording is an old‑school audience tape with left‑only audio for the first nine songs and noticeable hiss, but its historic value outweighs the technical flaws.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers rave about the musical performance (many 5‑star comments) while noting consistent, though modest, audio limitations; weighted rating yields a solid >4 score."
+      "rationale": "Most reviewers rave about the musical moments (Morning Dew, So Sad, Rosa Lee) and give high performance scores, while recording complaints are consistent but not severe enough to outweigh the show’s rarity."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Left channel carries the first nine songs, right channel is mostly tape hiss; overall low‑fidelity cassette feel with noticeable hiss and occasional dropouts but acceptable for a 1970 audience recording."
+      "technical_notes": "Left channel only for first nine tracks, tape hiss throughout, overall crude stone‑age sound; still usable because of rare acoustic set and historic context."
     },
     "show_quality": {
       "standout_songs": [
-        "Easy Wind",
-        "Dancing > Cryptical > Other One > Cryptical > Lovelight (medley)",
-        "So Sad (To Watch Good Love Go Bad) – Everly Brothers cover",
+        "Morning Dew",
+        "So Sad (To Watch Good Love Go Bad)",
         "Rosa Lee",
-        "Morning Dew"
+        "Easy Wind"
       ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic set opens with three gospel numbers, includes the rare Everly Brothers cover and Rosa Lee; electric set kicks off with Easy Wind and a sprawling medley, culminating in high‑energy jams and a powerful New Riders segment."
+      "setlist_flow": "Acoustic segment opens with Easy Wind and includes rare Everly Brothers cover \"So Sad\" plus three gospel numbers, followed by a high‑energy electric set that builds to a powerful Morning Dew."
     },
     "band_member_comments": {
-      "Jerry": "Praised for heavy guitar work, pedal‑steel moments and possibly an early wah‑wah effect; his presence drives the high energy of both acoustic and electric portions.",
+      "Jerry": "Highlighted for pedal‑steel on the acoustic side and heavy lead guitar throughout; possible early wah‑wah usage noted.",
       "Phil": "",
-      "Bob": "Noted singing on \"Good Lovin'\" and vocal harmonies on the line “out where the horses were tied”.",
-      "Keys": "Pigpen is mentioned playing keyboards (solo set) despite laryngitis; his keyboard contributions are highlighted.",
+      "Bob": "Sings Good Lovin' and contributes vocal harmonies in the electric set.",
+      "Keys": "Pigpen is heard on keyboards (no vocals) during his solo segment.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T09:25:18.236813+00:00",
+    "song_mentions": {
+      "Easy Wind": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "A Voice From On High": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "So Sad (To Watch Good Love Go Bad)": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Good Lovin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Rosa Lee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Morning Dew": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-12T04:57:37.275507+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-07-11.aud.cotsman.9379.sbefail.shnf"
   }

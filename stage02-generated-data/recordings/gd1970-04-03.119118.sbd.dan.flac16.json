@@ -16,23 +16,23 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent‑sounding soundboard recording of the 1970 show that listeners rave about, even though specific musical details are scarce.",
-    "review": "All three reviewers gave five stars and repeatedly say the recording “sounds great” and that they love it.  The file is a .sbd (soundboard) capture that has been concatenated into three set files, but no listener mentions any audio flaws or performance problems, indicating a clean, enjoyable listening experience despite the lack of detailed musical commentary.",
+    "summary": "Fans love this recording and rate it highly, though they give no specific details about sound or performance.",
+    "review": "All three reviewers gave the recording five‑star ratings and expressed enthusiastic appreciation, mentioning the clever file concatenation and personal connection to the show date. However, none of the reviews provide concrete information on the audio source, mix quality, or musical highlights, leaving the technical and performance aspects largely undocumented.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
-      "confidence": "high",
-      "rationale": "Uniform 5‑star ratings and enthusiastic language point to a highly regarded show and recording; however, reviewers provide no concrete musical analysis, so the rating reflects strong listener satisfaction but limited detail."
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Uniform 5‑star praise indicates strong positive sentiment, but the lack of concrete details on sound quality or musical performance limits confidence in assigning a higher rating."
     },
     "recording_quality": {
-      "source_type": "soundboard",
-      "quality_rating": "excellent",
-      "technical_notes": "Listeners describe the sound as great with no reported issues; the recording has been concatenated into three set files, suggesting a clean, well‑balanced capture."
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Reviewers mention that the files were concatenated into three large set files, but give no direct comments on clarity, mix balance, or source type."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "No specific comments on song order or pacing; reviewers only note overall enjoyment of the performance."
+      "setlist_flow": ""
     },
     "band_member_comments": {
       "Jerry": "",
@@ -41,7 +41,8 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T07:14:09.576806+00:00",
+    "song_mentions": {},
+    "processed_date": "2025-09-12T01:21:27.711174+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-04-03.119118.sbd.dan.flac16"
   }

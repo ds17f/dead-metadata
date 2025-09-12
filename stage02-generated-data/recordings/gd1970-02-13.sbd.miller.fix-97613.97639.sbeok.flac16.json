@@ -16,41 +16,64 @@
   "high_ratings": 20,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crystal‑clear Miller soundboard transfer captures a legendary ’70 show highlighted by an epic Dark Star, The Other One and Lovelight.",
-    "review": "The Miller‑fixed soundboard source is praised as crystal‑clear and well balanced, delivering a listenable record of one of the most celebrated 1970 concerts.  Fans rave about the monster second electric set – Dark Star, The Other One, Lovelight and Smokestack Lightning are repeatedly called all‑time greats, with Pigpen’s rare guitar moment on Katie Mae adding extra sparkle.  Overall the three‑set marathon is regarded as a quintessential Dead performance.",
+    "summary": "Crystal‑clear Miller soundboard capture of a legendary 2/13/70 show featuring an all‑time Dark Star, The Other One and Lovelight.",
+    "review": "The Miller‑fixed SBD source is praised as crisp, clean and virtually flawless, letting the band’s historic second electric set shine.  Reviewers rave about the transcendent Dark Star, monster The Other One and soaring Lovelight (plus a stellar Smokestack Lightning), calling the performance one of the era’s finest.  Overall sentiment is overwhelmingly positive with only a single mixed‑feel review.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.8,
+      "stars": 4.5,
       "confidence": "high",
-      "rationale": "Over 90% of reviews are 5‑star, many detailed praises of both performance and the Miller transfer; only a single low or neutral rating. Weighted average yields an excellent score."
+      "rationale": "22 reviews, 19 five‑star, 1 four‑star and 1 three‑star; the vast majority praise both the music and Miller soundboard transfer, yielding a strong combined rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Miller fix transfer described as \"most excellent\", strong, clear and balanced with no reported drop‑outs or muddiness."
+      "technical_notes": "Miller’s fix provides a crisp, clear mix with no noticeable drop‑outs or distortion; reviewers describe the sound as “strong,” “most excellent,” and the clearest source available."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "The Other One",
         "Lovelight",
-        "Smokestack Lightning",
-        "Black Peter",
-        "Katie Mae (Pigpen on guitar)",
-        "Good Lovin'",
-        "China Cat Sunflower"
+        "Smokestack Lightning"
       ],
       "poor_songs": [],
-      "setlist_flow": "Three‑set marathon with a tight acoustic first set, a monster second electric set that many call the pinnacle of ’70 shows, and a solid closing third set."
+      "setlist_flow": "Both sets flow seamlessly, with the acoustic opener leading into a powerhouse electric second set that builds into marathon jams; the show is lauded for its tight pacing and the way the band locks in on extended improvisations."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar work receives universal praise – his tone and improvisations on Dark Star, The Other One and Lovelight are highlighted as exceptional.",
-      "Phil": "Phil’s bass is noted for locking in with Pigpen during jams, providing a solid foundation throughout the set.",
+      "Jerry": "Garcia’s tone and improvisational brilliance on Dark Star and The Other One are highlighted as exceptional.",
+      "Phil": "Phil’s bass lock‑in is noted especially during Lovelight, providing a solid foundation for the jams.",
       "Bob": "",
-      "Keys": "",
+      "Keys": "Pigpen’s organ/vocal work (and his rare guitar spot on Katie May) receive praise, adding soulful texture to the set.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T06:24:09.664546+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Lovelight": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Smokestack Lightning": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Katie May": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T00:05:39.279122+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-02-13.sbd.miller.fix-97613.97639.sbeok.flac16"
   }

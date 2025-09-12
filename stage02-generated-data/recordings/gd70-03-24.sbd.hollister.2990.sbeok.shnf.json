@@ -16,18 +16,18 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clean soundboard recording with an odd instrument‑vs‑vocal panning captures a stellar early‑70 set highlighted by Dark Star, Good Lovin', High Time and seamless segues.",
-    "review": "The show is praised as a prime example of the Dead in 1970, featuring inspired performances of Dark Star, Good Lovin', High Time, The Other One, St. Stephen, NFA, Lovelight and Me & My Uncle. Reviewers note Jerry’s soulful guitar work, Bob Weir’s standout rhythm/vocals and jazzy drumming, while the soundboard is generally clean despite a quirky stereo mix that puts most instruments on one side and vocals on the other.",
+    "summary": "Clean but oddly mixed soundboard capture of a stellar 1970 set highlighted by a soaring Dark Star, epic High Time and superb Weir jams on Good Lovin'.",
+    "review": "The recording is a clean sound‑board source though the stereo split places most instruments on one channel and vocals on the other, giving it an unusual mix. Musically the show is praised as a gem of ’70, with standout performances of Dark Star, Good Lovin', High Time, The Other One, Lovelight and Me & My Uncle, plus inspired drumming and Weir’s exceptional guitar work. Overall the performance and song flow are described as creative, seamless and essential for any Deadhead.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "Consistently high reviewer scores (average ~4.3) and strong positive language about both performance and sound quality, with only minor mix quirks mentioned."
+      "rationale": "Consistently high praise (mostly 4‑5 stars) for both the musical performance and the clean soundboard capture; minor mix quirks keep recording rating slightly below show rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clean overall sound but unusual stereo separation (most instruments on one channel, vocals on the other). Opening Dew is cut short; otherwise no major drop‑outs or muddiness."
+      "technical_notes": "Clear overall sound, but an unusual stereo split (most instruments on one channel, vocals on the other) and a few edit cuts (e.g., Morning Dew)."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,25 +35,75 @@
         "Good Lovin'",
         "High Time",
         "The Other One",
-        "St. Stephen",
-        "Not Fade Away (NFA)",
         "Lovelight",
         "Me and My Uncle",
         "Cold Rain & Snow"
       ],
       "poor_songs": [
-        "Morning Dew (cut short)"
+        "Morning Dew (truncated early)"
       ],
-      "setlist_flow": "The set is praised for inventive segues—High Time → Dark Star → The Other One → St. Stephen → Drums → NFA → Lovelight → Me and My Uncle—creating a flowing, exploratory journey."
+      "setlist_flow": "Reviewers highlight creative segues—Lovelight into Me & My Uncle, jazzy drum jams into Good Lovin', and a fluid transition from High Time through Dark Star to The Other One—giving the concert an engaging, almost narrative flow."
     },
     "band_member_comments": {
-      "Jerry": "His guitar tone and soulful playing are highlighted, especially on High Time and the expansive Dark Star jam.",
+      "Jerry": "Repeatedly praised for soulful, inspired playing (e.g., “Jerry put his soul in the music”, “finest playing yet”).",
       "Phil": "",
-      "Bob": "Weir receives high praise for his rhythm guitar work and vocal delivery, notably on the Good Lovin' jam and a beautiful Cold Rain & Snow.",
+      "Bob": "Weir lauded for standout jams on Good Lovin' and a beautiful rendition of Cold Rain & Snow.",
       "Keys": "",
-      "Drums": "Jazzy, creative drumming is noted in the jam into Good Lovin' and the transition to NFA."
+      "Drums": "Jazzy, creative drumming noted, especially early jam into Good Lovin' and strong drum breaks."
     },
-    "processed_date": "2025-09-11T07:10:44.177671+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Good Lovin'": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "High Time": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "St Stephen": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Not Fade Away": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Lovelight": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Me and My Uncle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cold Rain & Snow": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Morning Dew": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T01:16:11.731386+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-03-24.sbd.hollister.2990.sbeok.shnf"
   }

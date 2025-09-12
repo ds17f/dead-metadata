@@ -16,34 +16,39 @@
   "high_ratings": 1,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Atmospheric audience recording with mixed reception; standout Phil and Jerry moments but overall poor sound quality",
-    "review": "The tape captures the concert’s live feel better than the original soundboard, delivering a raw atmosphere that fans love, especially the strong playing from Phil Lesh and Jerry Garcia. However, reviewers criticize the technical flaws – wobble, muffled tones, and a cardboard‑tube like quality – making it one of the weaker sources for this show.",
+    "summary": "Atmospheric audience capture that divides listeners, but the show shines with a Phil‑Jerry tour de force.",
+    "review": "The recording offers an immersive, audience‑sourced sound that some fans love for its sense of space, while others find it muffled and inferior to a clean soundboard. Musically the concert is praised for strong playing by Jerry Garcia and Phil Lesh, with the unusual inclusion of “Mama Tried” noted as a historical footnote.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.8,
+      "stars": 3.9,
       "confidence": "medium",
-      "rationale": "Show performance gets some praise (Phil/Jerry tour de force) but the recording is widely regarded as poor; mixed reviewer scores lead to a modest overall rating."
+      "rationale": "Show performance is highly praised (≈4.5/5) but recording quality receives mixed feedback, averaging around fair (≈2.5/5); weighted combination yields ~3.9."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "poor",
-      "technical_notes": "Technical flaws and wobble, muffled/boxy sound described as hearing music through a cardboard tube with pillow stuffing; lacks the clarity of a proper soundboard."
+      "quality_rating": "fair",
+      "technical_notes": "One reviewer lauds the atmospheric capture, another calls it the worst source, describing a muffled “cardboard tube” sound; overall opinions on clarity are split."
     },
     "show_quality": {
-      "standout_songs": [
-        "Mama Tried"
-      ],
+      "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": ""
+      "setlist_flow": "No specific comments on pacing; reviewers focus on individual performances rather than set structure."
     },
     "band_member_comments": {
-      "Jerry": "Described as part of a \"tour de force\" with strong playing.",
-      "Phil": "Praised alongside Jerry for an outstanding performance.",
+      "Jerry": "Described as a tour‑de‑force alongside Phil; strong guitar work noted.",
+      "Phil": "Praised for a tour‑de‑force performance with Jerry.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T10:21:31.343106+00:00",
+    "song_mentions": {
+      "Mama Tried": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T06:27:53.969552+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-09-20.aud.weinberg.bunjes.81728.flac16"
   }

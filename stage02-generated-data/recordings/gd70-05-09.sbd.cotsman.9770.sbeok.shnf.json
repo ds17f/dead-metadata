@@ -16,38 +16,47 @@
   "high_ratings": 6,
   "low_ratings": 5,
   "ai_review": {
-    "summary": "Muddy, hissy audience recording of a short acoustic set with standout Jerry performances despite poor sound quality",
-    "review": "The tape captures an intimate early‑1970 acoustic segment that many fans cherish for Jerry Garcia’s folk‑style guitar and harmonica work, as well as rare song moments like \"Monkey\" and \"Black Peter.\"  Technically the recording is far from pristine – listeners report saturation, hiss and overload, especially on the later electric portion – so the audio quality is judged poor.  Overall sentiment is mixed: the performance earns praise while the sound limits enjoyment.",
+    "summary": "Muddy, hissy audience recording of a brief acoustic set – Jerry shines but the sound and length hold it back.",
+    "review": "The tape captures a short, mostly‑acoustic show that many fans recall fondly for Jerry Garcia’s clear folk voice and a strong rendition of Black Peter. Unfortunately the source is an old cassette/mic feed that sounds saturated, hissy and often muddy, making the listening experience uneven. While the performance itself has moments of charm, the poor recording quality and truncated set keep it from being a must‑hear.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.1,
+      "stars": 2.7,
       "confidence": "high",
-      "rationale": "Most reviewers commend the acoustic performance (especially Jerry) but repeatedly criticize the recording as muddy, hissy and overloaded; the averaged star score (~2.9) weighted toward show quality yields a modest overall rating."
+      "rationale": "Most reviewers criticize the audio (poor audience cassette) while a minority praise Jerry’s acoustic playing; weighting show (≈3) and recording (≈2) yields an overall low‑mid rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Saturated, hissy and muddy sound; noticeable overload on electric songs, short duration, occasional clipping. Reviewers describe it as more like a microphone‑room capture than a true soundboard feed."
+      "technical_notes": "Saturated, hissy, muddy tape with occasional overload; appears to be a microphone/cassette capture rather than a true soundboard feed. Short duration and frequent distortion noted."
     },
     "show_quality": {
       "standout_songs": [
-        "Monkey",
-        "The Engineer",
         "Black Peter",
-        "Deep Ellum Blues",
-        "Silver Threads"
+        "Deep Ellum Blues"
       ],
       "poor_songs": [],
-      "setlist_flow": "A brief, acoustic‑focused first set (Jerry and Bob opening) followed by a long break; the electric second half is described as loud but poorly captured. The concert feels intimate yet uneven due to the recording issues."
+      "setlist_flow": "A brief acoustic set (Monkey, Engineer, Black Peter, Deep Ellum Blues, etc.) followed by a long break before an electric portion that isn’t captured on this tape. The acoustic segment is praised for its intimacy but criticized for being short and occasionally tired."
     },
     "band_member_comments": {
-      "Jerry": "Praised for clear folk‑style guitar, strong vocals and memorable harmonica work; one reviewer notes a slightly tired feel, but most highlight his purity on this tape.",
+      "Jerry": "Praised for pure, strong folk‑style vocals and guitar work; highlighted as a standout element of the set.",
       "Phil": "",
-      "Bob": "Mentioned as part of the acoustic opening with Jerry; no specific performance critique beyond that.",
-      "Keys": "Organ (likely Pigpen) briefly joins near \"Black Peter\"; otherwise no detailed keyboard commentary.",
+      "Bob": "",
+      "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T08:04:51.707206+00:00",
+    "song_mentions": {
+      "Black Peter": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Deep Ellum Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T02:41:38.152260+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-05-09.sbd.cotsman.9770.sbeok.shnf"
   }

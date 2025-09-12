@@ -16,37 +16,65 @@
   "high_ratings": 2,
   "low_ratings": 3,
   "ai_review": {
-    "summary": "A rough, noisy audience recording that nonetheless captures a lively free concert with standout Good Lovin' and Lovelight moments.",
-    "review": "The show is remembered fondly as a free, hillside concert with an acoustic opening, NRPS set and solid Dead performances – especially Good Lovin', Lovelight, Hard To Handle and China/Rider. However, the audience‑taped source is plagued by heavy crowd noise and low fidelity, making many sections difficult to hear despite occasional clear spots.",
+    "summary": "Rough audience tape with severe crowd noise, but the performance shines on Good Lovin', Lovelight and a wild Hard‑to‑Handle/China‑Rider run.",
+    "review": "The recording is an audience (crowd) tape that many listeners describe as muffled, noisy and almost unlistenable except for occasional flashes of clarity on tracks like \"Lovelight\".  Musically the show has its moments – fans rave about the jammed Good Lovin', a soaring Lovelight, and a surprising Hard‑to‑Handle into China/Rider sequence – making it an interesting historic document despite the poor sound quality.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.0,
+      "stars": 3.4,
       "confidence": "medium",
-      "rationale": "Most reviewers praise the performance but consistently criticize the recording quality; averaging the mixed star ratings yields a mid‑range score."
+      "rationale": "Show receives praise for several jams, but recording is consistently called terrible; weighted average (70% show ≈4, 30% recording ≈2) yields a mid‑range rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Very noisy and muffled, with crowd din drowning the band for much of the set; occasional moments (e.g., Lovelight) are clearer but overall fidelity is low and far from soundboard quality."
+      "technical_notes": "Very rough crowd tape with heavy din of drunken audience; many reviewers say you can barely hear the band, though brief moments (Lovelight) cut through. No soundboard source."
     },
     "show_quality": {
       "standout_songs": [
         "Good Lovin'",
         "Lovelight",
-        "Hard To Handle",
-        "China/Rider"
+        "Hard to Handle",
+        "China",
+        "Rider"
       ],
       "poor_songs": [],
-      "setlist_flow": "An informal free concert with an acoustic Garcia/Weir opening, a New Riders set, and the Dead taking the stage amid political announcements; flow is uneven due to spoken interruptions but overall energetic."
+      "setlist_flow": "Free concert with an acoustic opening by Garcia & Weir, a New Riders set, then the Dead.  The outdoor hill setting created a laid‑back vibe; despite sparse attendance the performance includes several memorable jams."
     },
     "band_member_comments": {
-      "Jerry": "Mentioned as part of the acoustic opening; no specific guitar commentary.",
-      "Phil": "Referenced only in the acoustic lineup (Lesh) without performance detail.",
-      "Bob": "Cited in the acoustic opening with Weir; no further remarks on his playing.",
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T07:46:27.061790+00:00",
+    "song_mentions": {
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T02:11:16.266584+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-05-03.aud.cotsman.9378.sbeok.shnf"
   }

@@ -211,46 +211,57 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Rare acoustic set with So Sad cover, strong electric jams, New Riders cameo",
-    "blurb": "The show opens with a rare acoustic segment featuring the Everly Brothers cover “So Sad (To Watch Good Love Go Bad)” and gospel‑tinged numbers. The electric set erupts with powerful guitar work on “New Speedway Boogie” and carries through high‑energy jams into a spirited New Riders of the Purple Sage appearance. Vocal harmonies shine on “Good Lovin’,” and Pigpen adds keyboard textures despite his laryngitis.",
-    "review": "July 11, 1970 at the Fillmore East captured one of the Dead’s most eclectic evenings. After an intimate acoustic set that included the seldom‑heard Everly Brothers cover “So Sad (To Watch Good Love Go Bad)” and gospel‑flavored numbers like “Swing Low,” the band launched into a thunderous electric second set. Jerry Garcia’s heavy guitar, peppered with pedal‑steel licks and an early wah‑wah effect, drove the room from the opening “New Speedway Boogie” through a sprawling jam that built momentum for the high‑octane New Riders of the Purple Sage cameo. Bob Weir took lead on “Good Lovin’,” adding tight harmonies on the memorable line “out where the horses were tied,” while Pigpen, battling laryngitis, still managed to weave keyboard textures into the mix. The night ends with classic Dead staples—“Morning Dew,” “Uncle John’s Band” and a seamless “China Cat Sunflower > I Know You Rider”—making this show a must‑listen despite its modest audience‑tape fidelity.",
+    "summary": "Acoustic gems and a soaring Morning Dew close the show",
+    "blurb": "The first set features an intimate acoustic segment with folk‑gospel numbers and a rare Everly Brothers cover. The electric second set builds energy toward a powerful rendition of Morning Dew, highlighted by Jerry’s pedal‑steel and lead guitar work. Good Lovin' showcases Bob’s vocals while Pigpen adds a brief keyboard solo.",
+    "review": "On July 11 1970 at the Fillmore East the Dead delivered a show that feels like a snapshot of an era in transition. Set 1 is a low‑key, acoustic showcase – Jerry slipping a pedal‑steel into “Swing Low (Sweet Chariot)” and “So Sad (To Watch Good Love Go Bad)”, Pigpen quietly adding a keyboard solo, and the band weaving gospel‑inflected folk tunes that are rare on any recording. The second set erupts with the classic early‑70s electric punch: “Morning Dew” soars with raw intensity, punctuated by Jerry’s heavy lead guitar tones (early wah‑wah hints) and Bob’s vocal fire on a double “Good Lovin’”. Though captured only on an audience tape that loses the right channel for the first half, the performance’s historic rarity and musical highs make it worth the listen.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.2,
-      "confidence": "high"
+      "ai_rating": 3.6,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 8,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.0,
+        "final_calculation": "2.5 + 0.1 + 1.0 = 3.6"
+      }
     },
     "best_recording": {
       "identifier": "gd70-07-11.aud.cotsman.9379.sbefail.shnf",
-      "reason": "Only full‑show audience tape available; despite hiss it preserves the rare acoustic set and high‑energy electric material."
+      "reason": "Only available source; despite channel loss it captures the rare acoustic set and historic Morning Dew performance."
     },
     "key_highlights": [
-      "Rare acoustic set with Everly Brothers cover “So Sad (To Watch Good Love Go Bad)” and gospel numbers.",
-      "High‑energy electric opener and sprawling jam showcasing Jerry’s heavy guitar work.",
-      "Exciting New Riders of the Purple Sage segment adds extra momentum.",
-      "Strong vocal harmonies on “Good Lovin’” and Pigpen’s keyboard contributions despite illness."
+      "Rare acoustic segment with folk‑gospel numbers and an Everly Brothers cover.",
+      "Soaring, emotionally charged rendition of \"Morning Dew\" that caps the electric set.",
+      "Jerry’s pedal‑steel texture on acoustic songs and early wah‑wah style lead guitar.",
+      "Pigpen’s brief keyboard solo adds a unique flavor to the otherwise guitar‑driven show."
     ],
     "song_highlights": [
+      "Morning Dew",
       "So Sad (To Watch Good Love Go Bad)",
-      "Morning Dew"
+      "Swing Low (Sweet Chariot)"
     ],
     "band_performance": {
-      "Jerry": "Heavy guitar work with pedal‑steel licks and an early wah‑wah effect, driving both acoustic and electric portions.",
+      "Jerry": "Shows pedal‑steel texture on acoustic numbers and a heavy lead guitar tone with hints of early wah‑wah throughout the electric set.",
       "Phil": "",
-      "Bob": "Shares lead vocals on “Good Lovin’” and adds tight harmonies on the line “out where the horses were tied.”",
+      "Bob": "Provides strong vocal work on Good Lovin' and adds harmonies in the second set.",
       "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-11T09:27:06.139824+00:00",
+    "processed_date": "2025-09-12T04:59:23.480958+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
+        "Morning Dew"
+      ],
+      [
         "So Sad (To Watch Good Love Go Bad)"
       ],
       [
-        "Morning Dew"
+        "Swing Low (Sweet Chariot)"
       ]
     ]
   }

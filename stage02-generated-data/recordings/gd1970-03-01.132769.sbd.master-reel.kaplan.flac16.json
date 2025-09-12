@@ -16,32 +16,33 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Great‑sounding soundboard capture with solid performance highlights like Cumberland Blues and The Big Boy Pete, though the show runs a bit mellow.",
-    "review": "The recording is praised as clear and outstanding despite brief cuts, making it one of the better sources for this era. Musically the night is described as okay overall – standout moments include a blazing \"Big Boy Pete,\" superb \"Cumberland Blues\" and a tight \"King Bee,\" while the down‑tempo take on \"Uncle John’s Band\" and feedback‑laden \"The Other One\" feel less inspired.",
+    "summary": "Good soundboard recording with brief cuts and a mellow set highlighted by strong Cumberland Blues and King Bee performances",
+    "review": "The tape offers clear, mostly outstanding sound despite a few short drops; the band delivers an okay night that leans toward mellow after feedback on The Other One. Highlights include a standout Cumberland Blues, a spot‑on King Bee from Pigpen, plus energetic Big Boy Pete, Peaches & Cream and High Cotton, while Uncle John's Band feels overly slow.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 3.9,
       "confidence": "medium",
-      "rationale": "Strong recording quality (high marks) balanced against an average‑to‑good performance with both highlights and slower, less engaging moments."
+      "rationale": "Show quality is average with several strong song moments but also some down‑tempo missteps; recording quality is generally good to excellent, leading to a combined rating just under 4 stars."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Overall great sound; brief cuts are unobtrusive. Some feedback on \"The Other One\" forced the band to lower volume, but the mix remains clear and balanced."
+      "technical_notes": "Clear overall sound with brief tape cuts and occasional feedback during The Other One; reviewers note the audio is outstanding apart from minor imperfections."
     },
     "show_quality": {
       "standout_songs": [
         "Cumberland Blues",
-        "The Big Boy Pete",
-        "High Cotton",
+        "King Bee",
+        "Big Boy Pete",
         "Peaches and Cream",
-        "King Bee"
+        "High Cotton",
+        "Good Lovin'"
       ],
       "poor_songs": [
-        "Uncle John's Band (down‑tempo)",
-        "The Other One (feedback/volume issues)"
+        "The Other One",
+        "Uncle John's Band"
       ],
-      "setlist_flow": "The set leans toward a mellow, down‑tempo vibe after early feedback problems; highlights are interspersed with slower, less energetic numbers."
+      "setlist_flow": "A generally mellow set that loses some momentum after feedback on The Other One; the band experiments with slower tempos on Uncle John's but recovers with energetic numbers later in the show."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -50,7 +51,49 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T06:46:17.135938+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "King Bee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Big Boy Pete": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Peaches and Cream": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "High Cotton": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T00:39:54.148307+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-03-01.132769.sbd.master-reel.kaplan.flac16"
   }

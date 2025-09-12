@@ -16,38 +16,77 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of an early‑70s Family Dog show, highlighted by a monster Lovelight and solid performances throughout.",
-    "review": "The recording is praised for its crystal‑clear soundboard quality, often described as A+ or a 9/10 rating, with only minor vocal/high‑hat balance quirks. Musically the concert shines on the 26‑minute Lovelight, plus strong renditions of Good Lovin', Easy Wind, Hard to Handle and Dancin', though a few reviewers note occasional early‑70s sloppiness. Overall fans consider this one of the standout Family Dog dates.",
+    "summary": "Excellent soundboard recording of a classic early‑70s show highlighted by an epic Lovelight and solid performances of Good Lovin', Easy Wind and Dancin'.",
+    "review": "The SBD source captures the band with remarkable clarity – reviewers rave about the crisp, A+‑grade mix despite a few minor vocal/high‑hat quirks. Musically the concert shines thanks to a monumental NFA → Lovelight sequence, plus strong renditions of Good Lovin', Easy Wind, Hard to Handle and Dancin'. Overall the performance is praised as one of the standout Family Dog dates of 1970.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "Consistently high star ratings (mostly 4‑5) and repeated praise for both the superb soundboard recording and the standout performances, especially Lovelight."
+      "rationale": "Consistently high star ratings (mostly 4‑5) and enthusiastic comments about both the music and the soundboard quality lead to a strong combined score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Crisp, clear mix with A+ sound; a few comments about vocal/high‑hat levels being slightly off but overall very solid for a 1970 recording."
+      "technical_notes": "Reviewers describe the mix as crisp, A+ and “very good sound for ’70”, with only minor complaints about vocal/high‑hat balance and a brief cut on Casey Jones."
     },
     "show_quality": {
       "standout_songs": [
-        "Lovelight",
+        "Lovelight (NFA → Lovelight)",
         "Good Lovin'",
         "Easy Wind",
         "Hard to Handle",
-        "Dancin'"
+        "Dancin'",
+        "Black Peter",
+        "Cold Rain"
       ],
       "poor_songs": [],
-      "setlist_flow": "Early‑70s Family Dog energy with some marked sloppiness, but the long Lovelight jam and tight rhythm section keep the momentum high; overall a strong, if occasionally routine, performance."
+      "setlist_flow": "Early‑70s Family Dog set with occasional sloppiness but overall solid flow; the second half builds momentum around Lovelight and maintains energy through Good Lovin' and Easy Wind."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "Repeatedly praised for phenomenal bass work – 'phenominal', 'thumps away', and providing unbelievable harmony.",
+      "Phil": "Multiple reviewers call Phil’s bass “phenomenal”, “thumps away” and note his harmony work as unbelievable.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T06:40:54.222262+00:00",
+    "song_mentions": {
+      "Lovelight (NFA → Lovelight)": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Good Lovin'": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Easy Wind": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dancin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cold Rain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T00:30:37.892641+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-02-27.sbd.clugston.2191.sbeok.shnf"
   }

@@ -16,40 +16,80 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Fair soundboard recording with pitch fluctuations and out‑of‑tune guitars, capturing an average‑to‑above‑average show highlighted by a sparse Candyman and Jerry’s slide on Speedway.",
-    "review": "The performance sits in the middle of the spring ’70 era – a short first set and a marathon second set that delivers moments like a great Candyman arrangement and a solid Rider, but is hampered by occasional tuning slips and uneven energy. The SBD source suffers from speed/pitch inconsistencies, tape wow and a few cuts, making the listening experience only fair despite the historical value of the first Attics of My Life and the NRPS interlude.",
+    "summary": "Fair‑quality soundboard plagued by speed and pitch fluctuations, yet a solid three‑set show highlighted by Candyman, Rider, Speedway slide and a great Jordan jam.",
+    "review": "The SBD capture suffers from noticeable wow, speed inconsistencies and occasional out‑of‑tune guitars, making the listening experience uneven. Musically the concert is an average‑to‑above‑average early‑’70 performance with standout moments such as Candyman’s sparse arrangement, a crisp Rider, a nice Jerry slide on Speedway and a spirited Jordan jam, while other numbers feel merely adequate.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 3.4,
       "confidence": "medium",
-      "rationale": "Show quality is judged average‑to‑above‑average (≈3/5) while recording quality is fair (≈2.5/5); weighted together (70% show, 30% recording) yields about 3.6 stars."
+      "rationale": "Two reviews give divergent impressions – one 5‑star rave, one detailed 3‑star critique pointing to recording flaws and an average show. Weighted assessment yields a mid‑range rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Fluctuating speed/pitch requiring correction, occasional tape wow, guitars noticeably out of tune on several songs, minor cut in Schoolgirl, overall decent but inconsistent clarity."
+      "technical_notes": "Fluctuating speed and pitch issues throughout the second set; occasional tape wow (Not Fade Away) and out‑of‑tune guitars; a reel‑change cut in Schoolgirl; overall sound is usable but uneven."
     },
     "show_quality": {
       "standout_songs": [
         "Candyman",
         "Rider",
-        "Attics of My Life (first ever)",
+        "High Time",
+        "Speedway",
         "Jordan"
       ],
-      "poor_songs": [
-        "Not Fade Away (minor tape wow)",
-        "St. Stephen (not up to era standards)"
-      ],
-      "setlist_flow": "Short, technically problematic first set followed by a lengthy second set with NRPS intermission; overall pacing is uneven but contains several high points."
+      "poor_songs": [],
+      "setlist_flow": "Three‑set structure with a brief acoustic first set, a long NRPS intermission and an extensive second electric set; the pacing is uneven but includes several memorable jams."
     },
     "band_member_comments": {
-      "Jerry": "Nice slide at the end of Speedway; some guitars out of tune on multiple numbers.",
+      "Jerry": "Noted for a nice slide at the end of Speedway and generally solid playing.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Mickey does not play in the acoustic set (alternating with Billy) but drums otherwise solid."
+      "Drums": "Mickey does not appear on the acoustic set due to alternating duties with Billy."
     },
-    "processed_date": "2025-09-11T08:11:04.111438+00:00",
+    "song_mentions": {
+      "Candyman": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Deep Elem": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Speedway": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Jordan": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Attics of My Life": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T02:53:02.164639+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-14.136645.s2.sbd.reelmaster.dat.sirmick.flac16"
   }

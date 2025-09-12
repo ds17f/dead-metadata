@@ -16,38 +16,63 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good soundboard capture of a hot early‑1970 set with a steamy The Eleven → Caution → Not Fade Away → Cumberland Blues run and a sweet Uncle John’s Band featuring a poignant Jerry solo.",
-    "review": "The recording is a solid soundboard source that, despite the usual low‑level Pigpen organ mix of the era, presents the band on fire. Highlights include a smoky The Eleven segue into Caution, Not Fade Away and Cumberland Blues, plus an especially moving Uncle John’s Band where Jerry delivers a sweet solo. Reviewers note the show is transitional but exciting, though much of the concert is missing.",
+    "summary": "Great soundboard capture of a transitional Feb 1970 show – standout Eleven, Caution→Not Fade Away→Cumberland flow and a sweet Uncle John’s Band, with solid recording quality.",
+    "review": "The recording is a decent‑to‑good soundboard tape that lets the band’s fire shine through especially on The Eleven and the seamless Caution → Not Fade Away → Cumberland sequence. Reviewers love the sweet Uncle John’s Band solo by Jerry and note the typical low Pigpen organ of the era, though much of the concert is still missing.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical performance and key jams; recording quality is generally good with only minor organ‑level issues, yielding a strong combined score."
+      "rationale": "Consistently high star ratings (average >4) and enthusiastic comments about musical performance outweigh minor recording quirks; strong show quality with several highlighted jams."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear overall sound typical of early‑70s board tapes; Pigpen organ sits low and is barely audible, but the mix is listenable. The recording is incomplete – large portions of the show are missing."
+      "technical_notes": "Generally clear and listenable for the period; typical low pigpen organ level, but no major drop‑outs or distortion reported."
     },
     "show_quality": {
       "standout_songs": [
         "The Eleven",
-        "Caution (Take a Fortune?)",
-        "Not Fade Away",
-        "Cumberland Blues",
+        "Caution > Not Fade Away > Cumberland",
         "Uncle John's Band"
       ],
       "poor_songs": [],
-      "setlist_flow": "A hot, jam‑focused stretch runs from The Eleven into Caution → Not Fade Away → Cumberland Blues, ending with a sweet Uncle John’s Band that showcases Jerry's emotive solo."
+      "setlist_flow": "A transitional set that jumps from a hot Eleven into a tight Caution → NFA → Cumberland jam, ending with an emotional Uncle John’s Band; reviewers note the flow feels compact and exciting despite missing large portions of the concert."
     },
     "band_member_comments": {
-      "Jerry": "His solo on Uncle John's Band is described as poignant and sweet; guitar tone praised in the jam sections.",
-      "Phil": "Attempts to segue back into Caution after Not Fade Away are noted, indicating active bass involvement in transitions.",
+      "Jerry": "His solo on Uncle John's Band is described as poignant, sweet, and full‑of feeling.",
+      "Phil": "Attempts to re‑enter Caution after Not Fade Away are noted, showing his willingness to push the jam forward.",
       "Bob": "",
-      "Keys": "Pigpen's organ is present but mixed low and barely audible, a typical characteristic of recordings from this period.",
+      "Keys": "Pigpen's organ sits low in the mix and is barely audible, a typical characteristic of this era’s recordings.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T05:48:56.456307+00:00",
+    "song_mentions": {
+      "The Eleven": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Caution": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Not Fade Away": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Cumberland": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-11T23:18:49.679214+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-02-05.sbd.bean.3911.sbeok.shnf"
   }

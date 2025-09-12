@@ -16,40 +16,81 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A solid composite source captures a stellar early‑70 set with a smoking Smokestack Lightning, epic Lovelight and standout Dark Star, though the mix is a bit tinny and drums sit low.",
-    "review": "The performance is widely praised – opening with a blazing Smokestack Lightning, soaring through a superb Dark Star, a tight St. Stephen > Not Fade Away > St. Stephen sandwich and an expansive Lovelight that many call one of the year’s best. The recording is a mixed‑source composite (soundboard + audience) that sounds better than average but suffers from tinny/phased qualities, low drum levels and occasional balance issues.",
-    "sentiment": "mixed",
+    "summary": "A strong 1970 San Francisco show with a smoking Smokestack Lightning opener and epic Lovelight, captured on a mixed SBD/Audience composite that is decent but not pristine.",
+    "review": "The performance shines – the band rolls out one of the best Smokestack Lightning openers, rare gems like Sitting On Top of the World, a soaring Dark Star and a marathon Love Light that many reviewers call legendary. The recording is a matrix‑type composite; it sounds better than average with clear audience ambience, though drums sit low, the mix can be tinny or phased and some sections are unbalanced.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers rave about the musical performance (high show quality) while noting consistent but moderate recording flaws; weighted average yields a rating just above 4."
+      "rationale": "Most reviewers praise the musical performance (many 4‑5★) while noting only moderate recording flaws, resulting in a high overall score weighted toward show quality."
     },
     "recording_quality": {
       "source_type": "matrix",
-      "quality_rating": "fair",
-      "technical_notes": "Composite of soundboard and audience sources; generally clearer than average, but drums are low, the mix can be tinny/phased, and balance is off in places."
+      "quality_rating": "good",
+      "technical_notes": "Better than average mix; audience source is solid, drums are a bit low, occasional tinny/phased character and balance issues in the composite. Some sections (Morning Dew, Dire Wolf) suffer from poor source quality."
     },
     "show_quality": {
       "standout_songs": [
         "Smokestack Lightning",
-        "Morning Dew",
+        "Sitting On Top of the World",
         "China Cat Sunflower > I Know You Rider",
-        "Sitting on Top of the World",
         "Dark Star",
         "St. Stephen > Not Fade Away > St. Stephen",
-        "Lovelight (35 min)"
+        "Love Light"
       ],
       "poor_songs": [],
-      "setlist_flow": "A thunderous Smokestack opener sets the tone, followed by a classic early‑70 sandwich of St. Stephen/NFA/St. Stephen and an extended Lovelight that closes the show on a high, giving the set a strong, flowing arc."
+      "setlist_flow": "A powerful opener with Smokestack, followed by rare early‑’70 material and a seamless sandwich of St. Stephen/Not Fade/Away, culminating in an expansive 35‑minute Love Light that caps the night."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar is frequently highlighted – perfect tone on Smokestack, chiming leads in China Cat, digging deep during Not Fade Away and driving the long Lovelight jam.",
+      "Jerry": "Garcia's guitar tone is repeatedly praised – chiming on China Cat, back‑and‑forth with Pigpen during Lovelight, and strong interplay with Bob.",
       "Phil": "",
-      "Bob": "Weir’s rhythm work and vocal interplay with Garcia are praised, especially in the early set and the St. Stephen sandwich.",
-      "Keys": "",
-      "Drums": "Multiple reviewers note the drums sit a bit low in the mix; overall drumming is solid but masked by recording balance issues."
+      "Bob": "Weir’s rhythm work and vocal harmonies are highlighted, especially his interplay with Garcia in the SBD sections.",
+      "Keys": "Pigpen's organ rap on Lovelight is called out as a highlight; no specific comments about Keith/Brent/Vince.",
+      "Drums": "Drums are noted as being low in the mix."
     },
-    "processed_date": "2025-09-11T05:57:40.988965+00:00",
+    "song_mentions": {
+      "Smokestack Lightning": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "Love Light": {
+        "positive_mentions": 6,
+        "negative_mentions": 1,
+        "total_mentions": 7
+      },
+      "Morning Dew": {
+        "positive_mentions": 4,
+        "negative_mentions": 2,
+        "total_mentions": 6
+      },
+      "Sitting On Top of the World": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Dark Star": {
+        "positive_mentions": 4,
+        "negative_mentions": 1,
+        "total_mentions": 5
+      },
+      "St. Stephen > Not Fade Away > St. Stephen": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Dire Wolf": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-11T23:30:43.314539+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-02-08.sbd-aud.cotsman.19152.sbeok.shnf"
   }

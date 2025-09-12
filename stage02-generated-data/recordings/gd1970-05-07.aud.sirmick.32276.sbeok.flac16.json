@@ -16,44 +16,107 @@
   "high_ratings": 5,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "A solid audience tape that captures a relaxed MIT show, highlighted by an epic Love Light medley and strong renditions of Candyman, Easy Wind and The Other One.",
-    "review": "The recording, improved by SirMick’s restoration work, offers decent clarity for a 1970 audience source with occasional hiss, chat‑on‑mic moments and pitch quirks during the Love Light suite. Musically the show is praised for its laid‑back vibe, long acoustic set and especially the extended Love Light jam that weaves St. Stephen, Darkness and China Cat themes, plus standout performances of Candyman, Easy Wind, Good Lovin' and The Other One.",
-    "sentiment": "mixed",
+    "summary": "A listenable restored audience tape of the May 7‑1970 MIT show delivers an epic Love Light medley and standout Easy Wind, despite occasional pitch quirks.",
+    "review": "This three‑set, 23‑song performance is praised for its long acoustic set, fluid Lovelight jam suite, and high‑energy numbers like Easy Wind, Candyman and Good Lovin'. The audience recording, cleaned up by SirMick, is clear enough for the era but still shows some EQ issues, mic chatter and pitch fluctuations that require a bit of forgiveness. Overall the show is considered a historic highlight of spring ’70 with many memorable moments.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 3.5,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Across 12 reviews the average rating is ~3.3 stars; most reviewers praise the performance and deem the audio decent for its era, while a few note technical annoyances (chat, pitch issues) and track‑splitting complaints."
+      "rationale": "Most reviewers rate the performance highly (standout songs, strong set flow) while noting only moderate recording flaws; weighted average yields a solid 4‑plus rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Generally clear for an early‑70s audience tape; SirMick’s cleanup reduces hiss and improves instrument balance. Some reviewers note occasional chat on the mic, minor drop‑outs, pitch fluctuations (especially in the Love Light suite) and a few glitches in the first set."
+      "technical_notes": "Cleaned up by SirMick; generally clear for the era but includes EQ adjustments, occasional mic chatter, pitch fluctuations and minor glitches in the first set."
     },
     "show_quality": {
       "standout_songs": [
-        "Love Light (with St. Stephen, Darkness & China Cat jams)",
-        "Candyman",
+        "Love Light (medley)",
         "Easy Wind",
+        "Candyman",
         "Good Lovin'",
-        "The Other One (rear Crypto section)",
-        "Workingman's Dead (only complete performance)",
         "New Speedway",
         "Uncle John",
-        "All I Ever Wanted",
         "Lodi",
-        "Sawmill"
+        "Sawmill",
+        "Cryptical (Crypto)",
+        "Cold Rain & Snow"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Three‑set marathon with a very long acoustic portion, high audience energy and a relaxed vibe. The Love Light medley serves as the centerpiece of the second set; occasional chat interrupts but overall the pacing is steady and enjoyable despite some first‑set slowness."
+      "poor_songs": [
+        "The Other One (split into four tracks, editing issue)"
+      ],
+      "setlist_flow": "A sprawling three‑set setlist with a lengthy acoustic portion and an adventurous second‑set jam marathon; praised for fluid transitions despite the typical unevenness of ’70 shows."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s banter (e.g., the ‘Eleven’ joke) adds humor; his lead work shines in the extended jams of Love Light, Easy Wind and The Other One.",
+      "Jerry": "Garcia’s humor is noted (jokes about “The Eleven” and “Phil Spector”), and his guitar work is implied to be strong throughout the jams.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Mickey Hart’s rhythmic cues (“beats on Beat It On Down the Line”, Alligator calls) are noted as solid and drive the high‑energy sections."
+      "Drums": "Mickey’s drumming gets a shout‑out for calling beats on \"Beat It On Down the Line\" and driving the rhythmic intensity."
     },
-    "processed_date": "2025-09-11T07:58:48.919070+00:00",
+    "song_mentions": {
+      "Love Light": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Easy Wind": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Candyman": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Good Lovin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "New Speedway": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lodi": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sawmill": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cryptical": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cold Rain & Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Workingman's Dead": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T02:30:11.809366+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-07.aud.sirmick.32276.sbeok.flac16"
   }

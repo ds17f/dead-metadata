@@ -16,18 +16,18 @@
   "high_ratings": 0,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "A jumbled matrix recording with spotty sound quality, but a decent Cold Rain & Snow and solid Good Lovin' performance.",
-    "review": "The tape is an odd mixture of sound‑board (SBD) and audience (AUD) sources from two different dates (3/20/70 and 11/11/70), which makes the set order confusing and the audio inconsistent – the opening tracks are muddy while later sections are clearer. Musically the only clear high point is a strong Cold Rain & Snow with a nice Jerry solo, and Good Lovin' sounds fine; otherwise the show offers no standout moments to outweigh the technical mess.",
+    "summary": "Patchy matrix recording with occasional clarity; Cold Rain & Snow and Good Lovin' stand out amid a confusing, jumbled set.",
+    "review": "The tape is a mish‑mash of two incomplete sources (soundboard and venue‑mic) that results in uneven sound quality—some sections are clear while others are muddy or mis‑identified. Musically the performance has highlights, notably Jerry Garcia’s solo on “Cold Rain & Snow” and a solid “Good Lovin’”, but the overall flow is hard to follow because tracks from different dates are interleaved.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.8,
+      "stars": 2.6,
       "confidence": "medium",
-      "rationale": "Multiple reviewers note serious recording problems and a confusing track order, but a few highlight decent musical spots; the weighted average of star scores (≈2.2) and the mixed commentary lead to a low‑mid rating."
+      "rationale": "Reviews are split between praise for a few songs and criticism of the chaotic, low‑fidelity source; average user rating is ~2.2, so the AI gives a modest 2.6 reflecting some musical value despite poor recording consistency."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "fair",
-      "technical_notes": "Tracks switch between SBD (soundboard) and AUD (audience) sources, causing inconsistent clarity – early tracks are described as “bad sound” or “muddy,” later electric sections are noted as “fine.” The tape is jumbled, with duplicate filler from another show."
+      "technical_notes": "Combination of soundboard (SBD) and venue‑mic (AUD/VLB) tracks; sections vary from decent clarity to muffled or mismatched audio, with noticeable drop‑outs and confusing track order."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,7 +35,7 @@
         "Good Lovin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "Confusing; the recording stitches together parts of two different concerts (3‑20‑70 and 11‑11‑70), resulting in a disjointed set order that makes following the show difficult."
+      "setlist_flow": "The set is heavily scrambled—tracks from the March 20 1970 show are interleaved with filler from the November 11 1970 show, making the concert flow hard to follow."
     },
     "band_member_comments": {
       "Jerry": "Nice solo on Cold Rain & Snow noted by reviewers.",
@@ -44,7 +44,24 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T06:59:39.349370+00:00",
+    "song_mentions": {
+      "Cold Rain & Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Viola Lee Blues": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T01:00:32.796594+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-03-20.sbd.yerys.1315.sbeok.shnf"
   }

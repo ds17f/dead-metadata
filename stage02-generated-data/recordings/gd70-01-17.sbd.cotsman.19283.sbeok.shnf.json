@@ -16,40 +16,88 @@
   "high_ratings": 14,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clear soundboard capture of a winter‑70 show, anchored by an epic Dark Star → St Stephen → The Eleven run and solid overall set.",
-    "review": "The recording is a decent‑to‑good sound‑board source that lets Jerry’s guitar sit front‑and‑center while the room’s natural bass response adds warmth.  Musically the show shines with a towering Dark Star/St Stephen/The Eleven sequence, a tasty Mason’s Children → High Time segue and a lively Lovelight, though a few listeners find Mason’s Children weak or cut short.  Overall the set flows smoothly, balancing jam‑heavy moments with classic ballads.",
+    "summary": "Clear soundboard capture brings out a soaring Dark Star‑St Stephen sequence and solid jams, making this winter‑70 show a standout despite occasional tape hiccups.",
+    "review": "The recording is a decent‑to‑good soundboard source that generally sounds clear, though listeners note some hiss, brief cuts and missing seconds. Musically the concert shines with an epic Dark Star → St Stephen → The Eleven stretch, strong renditions of Mason’s Children, High Time and Good Lovin’, and a second set that balances jam flights with ballads. Overall the performance is praised as one of the better winter‑70 shows, with only minor song‑specific gripes.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers rate the performance 4–5 stars and praise the Dark Star and overall set, while noting only minor recording glitches; the strong show weight (70%) outweighs the good‑but‑imperfect sound quality."
+      "rationale": "Most reviewers give 4–5 stars and highlight exceptional Dark Star/St Stephen jams; recording quality is consistently described as decent/good with only occasional issues, yielding a strong combined score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear with Jerry’s guitar prominent and a natural bass “amp” feel; occasional hiss, tape‑speed quirks and short cuts (e.g., Mason’s Children) are mentioned but do not dominate the listening experience."
+      "technical_notes": "Generally clear and balanced; natural bass resonance from the venue noted. Some reviewers mention hiss, brief drop‑outs or missing seconds, but overall the tape is listenable."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "St Stephen",
         "The Eleven",
-        "Mason's Children → High Time",
-        "Lovelight"
+        "High Time",
+        "Good Lovin'"
       ],
       "poor_songs": [
-        "Mason's Children"
+        "Mason's Children",
+        "Lovelight"
       ],
-      "setlist_flow": "A solid winter‑70 set that blends mellow ballads with high‑energy jams; the second set builds to a peak with Dark Star > St Stephen > The Eleven and finishes on Lovelight, delivering a satisfying arc despite a few missing or trimmed moments."
+      "setlist_flow": "A solid winter‑70 set with a jam‑heavy second half; the Dark Star → St Stephen → The Eleven sequence anchors the show, while ballads and tighter numbers like High Time provide balance."
     },
     "band_member_comments": {
-      "Jerry": "Guitar is nicely out front, described as perfect tone, likely an SG; his playing is highlighted throughout the Dark Star and jam sections.",
-      "Phil": "Phil’s bass locks in with Jerry during The Eleven jam; no major criticism noted.",
+      "Jerry": "Garcia’s guitar is praised for being front‑and‑center with a crisp SG tone throughout.",
+      "Phil": "Phil Lesh’s bass is noted in tight jam moments (e.g., simultaneous launch with Jerry).",
       "Bob": "",
-      "Keys": "Pig (Tom Constanten) on keys receives praise for sweet organ work; a note that TC may have left shortly after this period.",
+      "Keys": "Pigpen on keyboards receives enthusiastic mentions; uncertainty about Tom Constanten’s presence is expressed.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T05:22:17.556887+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 11,
+        "negative_mentions": 0,
+        "total_mentions": 11
+      },
+      "St Stephen": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "The Eleven": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Mason's Children": {
+        "positive_mentions": 3,
+        "negative_mentions": 2,
+        "total_mentions": 5
+      },
+      "High Time": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T22:32:29.132129+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-01-17.sbd.cotsman.19283.sbeok.shnf"
   }

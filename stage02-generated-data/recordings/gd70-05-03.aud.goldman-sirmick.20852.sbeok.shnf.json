@@ -16,36 +16,41 @@
   "high_ratings": 2,
   "low_ratings": 5,
   "ai_review": {
-    "summary": "A historically iconic Wesleyan concert with memorable moments, but captured on a very low‑fidelity audience tape that is often unlistenable.",
-    "review": "The recording is an amateur crowd‑mic capture – the mic even falls over at times and there’s abundant chatter, making the music difficult to hear.  Despite the poor audio, attendees recall a vivid anti‑war atmosphere, a surprise student composition played by Jerry, and highlights like China Cat Sunflower and Ron “Pigpen” McKernan’s organ work.",
+    "summary": "A historically charged Wesleyan concert captured on a low‑fidelity audience mic – the tape is muddy and often inaudible, but the protest‑era atmosphere makes it memorable.",
+    "review": "The recording is an amateur crowd‑mic capture with frequent drop‑outs, a falling microphone and a home‑brew mix that leaves the band barely audible.  Despite the technical shortcomings, the show is remembered for its anti‑war vibe, an acoustic opener (now missing), a New Riders set featuring Jerry’s pedal steel, and a few dead‑head moments like Pigpen on keys.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.0,
+      "stars": 2.1,
       "confidence": "medium",
-      "rationale": "Most reviewers rate the tape 0‑1 stars due to its terrible sound, but a few note historic and musical value, pulling the overall assessment slightly above the lowest tier."
+      "rationale": "Most reviewers rate the tape very poorly because of its terrible audio quality; only a handful praise the historical context, yielding an overall low but not disastrous score."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Crowd microphone drops, frequent talk‑overs, low fidelity home‑brew mix; some reviewers note occasional clarity but overall muddy and unlistenable."
+      "technical_notes": "Crowd microphone frequently falls over, home‑brew mix, band barely heard; lots of talking, laughter and ambient noise; occasional moments of clearer music but overall muddy and unlistenable."
     },
     "show_quality": {
-      "standout_songs": [
-        "China Cat Sunflower"
-      ],
+      "standout_songs": [],
       "poor_songs": [
         "Dire Wolf"
       ],
-      "setlist_flow": "The concert featured an acoustic set (missing from this tape), a New Riders of the Purple Sage segment, then the Dead.  The evening was loosely organized with on‑stage announcements and spontaneous moments, reflecting the anti‑war protest atmosphere."
+      "setlist_flow": "Acoustic set (missing from tape) → New Riders of the Purple Sage set with Jerry’s pedal steel → Grateful Dead main set.  The concert was intertwined with anti‑war protests and a relaxed, communal atmosphere."
     },
     "band_member_comments": {
-      "Jerry": "Played a student’s composition and contributed pedal steel during the NRPS set; guitar work not assessable due to recording quality.",
+      "Jerry": "Pedal steel highlighted during the NRPS portion; acoustic set mentioned but not present on tape.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Ron \"Pigpen\" McKernan’s organ highlighted as a high point.",
+      "Keys": "Ron \"Pigpen\" McKernan’s keyboards praised as a high point of the evening.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T07:47:21.516253+00:00",
+    "song_mentions": {
+      "Dire Wolf": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T02:12:23.945001+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-05-03.aud.goldman-sirmick.20852.sbeok.shnf"
   }

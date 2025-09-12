@@ -140,41 +140,49 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Acoustic folk set with stellar El Paso and relaxed campfire vibe",
-    "blurb": "The show delivers a laid‑back acoustic program featuring strong renditions of Deep Elem Blues, El Paso and Ballad Of Casey Jones. Jerry’s mandolin and guitar tones shine while the rhythm section stays restrained. Recording quality is fair with tape hiss, but the performance rewards attentive listening.",
-    "review": "On August 5, 1970 at Golden Hall in San Diego the Dead turned the lights down and gave the audience a rare all‑acoustic set that feels more like a campfire gathering than a high‑energy rock concert. The band moves through folk‑country staples with a relaxed pacing – “Deep Elem Blues” opens the night, followed by plaintive takes on “Mama Tried,” “El Paso,” and the narrative drive of “Ballad Of Casey Jones.” Jerry’s mandolin (whether it was his or David Nelson’s) is front‑and‑center, and his guitar tone on “To Lay Me Down” draws particular praise. Phil’s bass stays understated yet supportive, while the dual drummers provide a lighter, diagonal feel that some listeners found busy or even out of sync due to a confusing drum mix on one of the tapes. Despite noticeable hiss and a muddy mix – especially in the high‑frequency mandolin range – the soundboard capture is listenable and lets the acoustic textures breathe. For Deadheads interested in this unusual gospel‑tinged acoustic chapter, the performance’s intimacy outweighs its technical flaws.",
+    "summary": "Acoustic gospel set with rare mandolin gems, strong guitar tone",
+    "blurb": "The show delivers a relaxed acoustic‑gospel vibe highlighted by El Paso, Ballad Of Casey Jones and Drink Up And Go Home. Jerry’s guitar tone is warm and the band stays tight despite a muddy mix. Recording captures the intimate feel though hiss and uneven drum balance are noticeable.",
+    "review": "On August 5, 1970 at Golden Hall in San Diego the Dead presented an unusual, almost church‑like acoustic set that leans heavily into folk and gospel territory. The setlist is packed with rare gems – a plaintive “El Paso,” a rollicking “Ballad Of Casey Jones,” the spirited “Drink Up And Go Home,” plus deep‑cut numbers like “Deep Elem Blues” and “A Voice From On High.” Jerry’s guitar tone on “To Lay Me Down” (and throughout) is praised as warm and resonant, and a mysterious mandolin texture adds an extra layer of intrigue. Phil provides a restrained but solid bass foundation that grounds the acoustic ambience, while the dual drummers feel a bit over‑busy; Mickey’s playing is described as “jazzed out,” and Bill’s right‑channel drum track comes across as lame in places. The soundboard source captures the intimate atmosphere despite persistent hiss and a muddy mix, especially with the mandolin sitting high in the left channel and vocals sometimes buried. Overall, the performance shines for its rarity and heartfelt delivery, making it a must‑listen for fans of the Dead’s early acoustic explorations.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 4.0,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 29,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.2,
+        "final_calculation": "2.5 + 0.3 + 1.2 = 4.0"
+      }
     },
     "best_recording": {
       "identifier": "gd70-08-05.sbd.jupile.17271.sbeok.shnf",
-      "reason": "Provides the most complete acoustic set with clearer mandolin and guitar tones despite tape hiss; praised for standout songs and overall listening reward."
+      "reason": "Soundboard source with the clearest capture of the acoustic set despite hiss; it preserves the mandolin texture and Jerry’s guitar tone better than the alternative."
     },
     "key_highlights": [
-      "Rare all‑acoustic folk/country program that feels like a relaxed campfire.",
-      "Jerry’s mandolin work shines, especially on “El Paso” and the gentle acoustic textures.",
-      "Strong renditions of Deep Elem Blues, Mama Tried, Ballad Of Casey Jones and Rosalie McFall*.",
-      "Fair soundboard capture – hissy but rewarding for listeners who appreciate the acoustic vibe."
+      "Rare acoustic‑gospel set featuring mandolin‑flavored gems like “El Paso” and “Ballad Of Casey Jones.”",
+      "Jerry’s warm guitar tone and possible mandolin work add unique color to the performance.",
+      "Phil’s restrained bass gives weight to the intimate, church‑like atmosphere.",
+      "Recording suffers from hiss and a muddy mix, especially in the drum tracks, but remains the most complete capture of this set."
     ],
     "song_highlights": [
       "Deep Elem Blues",
-      "Mama Tried",
       "Ballad Of Casey Jones",
-      "El Paso",
-      "Rosalie McFall*"
+      "Drink Up And Go Home**",
+      "A Voice From On High**",
+      "Rosalie McFall*",
+      "El Paso"
     ],
     "band_performance": {
-      "Jerry": "Mandolin work is front‑and‑center (debated if Jerry or David Nelson) and his guitar tone on “To Lay Me Down” receives high praise.",
-      "Phil": "Bass is restrained yet provides just enough weight to support the acoustic texture.",
+      "Jerry": "Warm, resonant guitar tone shines; a mysterious mandolin texture adds depth, though it’s unclear if Jerry or David Nelson is playing.",
+      "Phil": "Provides a restrained but solid bass foundation that anchors the acoustic setting.",
       "Bob": "",
       "Brent": "",
-      "Mickey": "Drumming is described as lighter with a diagonal feel, though tape issues make the kit sound uneven and at times out of sync.",
-      "Billy": "Bill’s drumming is noted as busy; some listeners felt his parts were too active for the acoustic setting."
+      "Mickey": "Drumming feels over‑busy and “jazzed out,” with some passages described as lame in the right channel.",
+      "Billy": "Right‑channel drum track on certain songs (e.g., “Candyman”) is criticized for being off‑balance and overly busy."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-11T09:42:12.671941+00:00",
+    "processed_date": "2025-09-12T05:21:52.495061+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -182,16 +190,19 @@
         "Deep Elem Blues"
       ],
       [
-        "Mama Tried"
-      ],
-      [
         "Ballad Of Casey Jones"
       ],
       [
-        "El Paso"
+        "Drink Up And Go Home**"
+      ],
+      [
+        "A Voice From On High**"
       ],
       [
         "Rosalie McFall*"
+      ],
+      [
+        "El Paso"
       ]
     ]
   }

@@ -16,25 +16,25 @@
   "high_ratings": 0,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Mediocre audience‑sourced recording with a lackluster St. Stephen performance.",
-    "review": "The tape is an unknown‐source audience recording that suffers from sub‑par sound quality, though it does capture some crowd enthusiasm. Reviewers focus almost entirely on the disappointing rendition of \"St. Stephen,\" with one calling it the worst they’ve heard and another noting a weak execution of its signature “lady‑fingers” section. No other songs or moments receive praise.",
+    "summary": "Low‑fidelity audience tape with muddy sound; St. Stephen’s performance sparks criticism and only limited praise.",
+    "review": "The recording is an audience capture that suffers from sub‑par sound quality, making the mix unclear. Reviewers are divided on the show – one calls the rendition of “St. Stephen” the worst ever, another defends it but still notes the audio isn’t great, and a third offers only a vague comment. Overall the performance is seen as underwhelming, especially given the poor recording.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 1.5,
+      "stars": 2.0,
       "confidence": "medium",
-      "rationale": "Three brief reviews give mixed but largely negative feedback; the show lacks standout moments and the recording is only fair, resulting in a low overall rating."
+      "rationale": "Both show and recording are judged poorly by reviewers; limited positive feedback keeps the overall rating low but not at the absolute bottom."
     },
     "recording_quality": {
-      "source_type": "unknown",
-      "quality_rating": "fair",
-      "technical_notes": "Sound quality described as not too good; audience ambience present but overall clarity is limited."
+      "source_type": "audience",
+      "quality_rating": "poor",
+      "technical_notes": "Sound quality described as 'not too good' with noticeable muddiness, typical of an audience source."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [
         "St. Stephen"
       ],
-      "setlist_flow": "No comments on set structure; focus is on the weak St. Stephen performance and general disappointment."
+      "setlist_flow": ""
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,7 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T09:17:33.738094+00:00",
+    "song_mentions": {
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-12T04:40:57.639685+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-06-24.aud.unknown.gadsden-reynolds.100223.flac16"
   }

@@ -16,43 +16,84 @@
   "high_ratings": 10,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "High‑energy 1970 show with killer Schoolgirl and St. Stephen, captured on a soundboard that’s generally good but suffers from hiss and occasional tuning glitches.",
-    "review": "The concert is praised for its powerful setlist – highlights include “Schoolgirl,” “New Speedway,” the “China > Rider” jam and an inspired take on “St. Stephen.”  The soundboard source delivers a clear, lively mix despite a noticeable hiss, some drop‑outs and moments where the guitars wander out of tune, which divides listeners.",
+    "summary": "Soundboard recording with slight hiss but generally good clarity, capturing a standout early‑70s set highlighted by “Schoolgirl,” “New Speedway Boogie,” and a fiery acoustic‑electric flow.",
+    "review": "The show is praised for its vibrant energy, memorable jams (especially the acoustic‑electric transitions and the powerful renditions of Schoolgirl, New Speedway Boogie, and the China Cat > Rider sequence) and a solid setlist.  While most listeners find the soundboard source clear enough despite some hiss and occasional bass dropouts, a few note tuning problems and cuts that mar portions of the performance.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.2,
-      "confidence": "high",
-      "rationale": "Most reviewers rave about the performance and setlist; a minority note serious recording flaws (hiss, cuts, tuning problems). The weighted average of show (70%) and sound quality (30%) yields a strong above‑average rating."
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "The majority of reviews are highly positive (5‑star) praising both the music and recording, but several reviewers point out hiss, cuts, bass loss, and tuning issues that lower the overall average to about 3.8 / 5."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear with good balance; slight hiss throughout, occasional audible cuts and bass drop‑outs, plus noticeable tuning issues on songs like “China Cat” and “High Time.”"
+      "technical_notes": "Generally clear with a slight hiss; occasional dropouts and bass disappearance noted, plus some tuning problems that affect certain tracks (e.g., China Cat)."
     },
     "show_quality": {
       "standout_songs": [
         "Schoolgirl",
-        "New Speedway",
-        "China > Rider",
-        "St. Stephen",
+        "New Speedway Boogie",
+        "China Cat Sunflower > The Rider",
         "Cumberland",
-        "Not Fade Away"
+        "NFA"
       ],
       "poor_songs": [
-        "Attics (called awful)",
-        "\"The Weight\" (cut after a few words)",
-        "St. Stephen (mixed opinions on performance)"
+        "The Weight (cut early)",
+        "Attics",
+        "St. Stephen (mixed opinions)"
       ],
-      "setlist_flow": "The set blends acoustic and electric sections, mirroring early‑70 shows; the acoustic banter is beloved by some, while others dislike it. The electric portion builds strong momentum with several peak jams, though occasional tuning problems interrupt the flow."
+      "setlist_flow": "A well‑balanced acoustic then electric split that many reviewers liken to classic early‑70s Dead shows; the third set is repeatedly described as “out of this world.”"
     },
     "band_member_comments": {
-      "Jerry": "Ripping tone on a Sunburst Strat during “Schoolgirl” and noted pedal‑steel work in acoustic set; a few reviewers mention his vocals sounding off.",
+      "Jerry": "Ripping on his Sunburst Strat, even trying pedal steel during the acoustic portion; occasional vocal off‑key noted and a monitor comment about Bill’s equipment.",
       "Phil": "",
-      "Bob": "Weir’s stage banter is highlighted as classic Dead humor; some note his guitar going out of tune on “China Cat” and “High Time,” making those moments harsh.",
+      "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T08:08:53.383150+00:00",
+    "song_mentions": {
+      "Schoolgirl": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Weight": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "New Speedway Boogie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower > The Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Cumberland": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "NFA": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Attics": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T02:50:03.024298+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-14.sbd.warner-evans.28716.sbeok.flac16"
   }

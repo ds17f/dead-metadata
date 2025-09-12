@@ -36,7 +36,14 @@ Respond with a JSON object matching this exact structure:
   "ratings": {
     "average_rating": 4.2,
     "ai_rating": 4.5,
-    "confidence": "high|medium|low"
+    "confidence": "high|medium|low",
+    "rating_calculation": {
+      "base_rating": 2.5,
+      "review_count_total": 156,
+      "review_count_boost": 0.4,
+      "sentiment_adjustment": 1.6,
+      "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+    }
   },
   "best_recording": {
     "identifier": "archive-identifier-for-recommended-recording",
@@ -75,20 +82,54 @@ When you have multiple recordings of the same show:
 
 ### AI Rating Assignment
 
-Calculate the AI rating by analyzing recording-level AI ratings:
-- **Primary Method**: Weight recording ratings by their confidence levels and recording quality
-- **High Confidence Recordings**: Give more weight to ratings with "high" confidence
-- **Recording Quality Factor**: Slightly favor ratings from better quality recordings
-- **Musical Excellence**: Quality of playing, standout performances
-- **Historical Significance**: Important shows, rare songs, milestone performances  
-- **Consistency**: Well-played throughout vs. mixed quality
+Use the new review-weighted rating system that addresses rating inflation:
 
-**Rating Guidelines:**
-- **5 Stars**: Legendary shows with exceptional playing and historical importance
-- **4 Stars**: Excellent shows with strong performances and good recordings available
-- **3 Stars**: Solid shows worth hearing, may have highlights mixed with weaker moments
-- **2 Stars**: Below-average shows with limited appeal except for completists
-- **1 Star**: Poor shows with significant issues (rare, use sparingly)
+**Base Rating Calculation (Start at 2.5 stars):**
+1. **Review Count Boost**: Add boost based on total reviews across ALL recordings for this show:
+   - 5-19 total reviews: +0.1 stars (above minimal threshold)
+   - 20-28 total reviews: +0.2 stars (standard attention)
+   - 29-45 total reviews: +0.3 stars (notable attention) 
+   - 46-92 total reviews: +0.4 stars (high attention)
+   - 93+ total reviews: +0.5 stars (exceptional attention)
+
+2. **Sentiment Aggregation**: Combine sentiment from ALL recording analyses (not just averages):
+   - **Positive Sentiment**: Add points for consistent praise across recordings (+0.5 to +2.0)
+     - Multiple recordings mention "exceptional playing", "locked in", "stellar performance"
+     - Cross-validation: Different sources highlight same songs/moments
+     - Historical significance noted across multiple analyses
+   
+   - **Negative Sentiment**: Subtract points for consistent criticism (-0.5 to -1.0):
+     - Multiple recordings mention "sloppy playing", "uneven quality", "mixed results"
+     - First/second set quality disparities noted across sources
+     - Performance issues (not recording issues) mentioned consistently
+   
+   - **Recording vs Show Quality Separation**:
+     - **Recording Quality Issues**: Only affect "best recording" selection, NOT show rating
+     - **Show Quality Issues**: Musical performance problems DO affect show rating
+     - If recording A says "poor SBD quality but great show" and recording B says "excellent AUD captures energy" → focus on show quality consensus
+
+3. **Final Calculation**: 
+   ```
+   final_rating = 2.5 + review_count_boost + sentiment_adjustment
+   clamp(final_rating, 1.0, 5.0)
+   ```
+
+4. **Calculation Transparency**: Always include the rating_calculation breakdown showing:
+   - **base_rating**: Always 2.5
+   - **review_count_total**: Total reviews across ALL recordings for this show
+   - **review_count_boost**: The boost amount applied (0.1, 0.2, 0.3, 0.4, or 0.5)
+   - **sentiment_adjustment**: The sentiment points added/subtracted
+   - **final_calculation**: String showing the math (e.g., "2.5 + 0.4 + 1.6 = 4.5")
+
+**Key Principle**: Be honest about show quality by properly weighting negative feedback. If multiple recordings note performance issues, the show rating must reflect this reality rather than emphasizing only highlights.
+
+**Rating Guidelines (New System):**
+- **5 Stars**: 2.5 base + max boost (0.5) + exceptional sentiment (+2.0) = truly legendary shows
+- **4+ Stars**: Require strong positive sentiment across multiple recordings with substantial review count
+- **3+ Stars**: Solid shows with some highlights, mixed sentiment allowed
+- **2.5-3 Stars**: Mixed quality shows where negative sentiment balances positive aspects
+- **2 Stars**: Shows with consistent negative feedback about performance quality
+- **1-2 Stars**: Shows with significant performance issues noted across multiple sources
 
 ### Confidence Levels
 - **High**: Consistent analysis across multiple recordings, clear musical assessment

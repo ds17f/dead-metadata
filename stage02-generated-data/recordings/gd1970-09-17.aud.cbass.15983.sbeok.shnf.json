@@ -16,18 +16,18 @@
   "high_ratings": 1,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Historic Sep‑1970 Fillmore East show with the debut of Box of Rain and a monumental Dark Star, recorded on a noisy audience tape that clears up after the first few minutes.",
-    "review": "The performance is praised for its historic moments – the very first live rendition of \"Box of Rain\" and an expansive Dark Star that many fans cite as a highlight. Recording quality is generally described as hissy, quiet and chorus‑like, with the early portion especially rough, though it improves noticeably later in the set. Overall the music shines despite the sub‑par audio source.",
+    "summary": "Hissy audience recording of a historic set that delivers an iconic Dark Star and the debut Box of Rain, but low‑fidelity sound limits enjoyment.",
+    "review": "The performance is praised for its historical significance – it captures the first live rendition of \"Box of Rain\" and a monumental \"Dark Star\" – and many listeners rate the playing highly. However, the tape is an audience (AUD) source with noticeable hiss, quiet sections and overall poor fidelity, though the sound improves after the opening minutes. The combination of strong musical moments with sub‑par audio results in a mixed listening experience.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 3.5,
       "confidence": "medium",
-      "rationale": "Reviews consistently praise the playing (high show quality) while criticizing the tape (low recording quality). Weighted combination yields a solid but not outstanding rating."
+      "rationale": "Reviewers consistently praise the show (high musical rating) but criticize the recording quality (low technical rating); weighting these gives a mid‑range overall score."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Hissy and quiet mix, early minutes sound muffled and chorus‑like; overall tape is an AUD rather than true SBD, but clarity improves after the first few minutes."
+      "technical_notes": "Described as hissy, quiet and low‑fidelity; some improvement after the first few minutes but generally poorer than soundboard standards."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,16 +35,28 @@
         "Dark Star"
       ],
       "poor_songs": [],
-      "setlist_flow": "Early part suffers from poor audio, but the performance picks up, featuring the historic debut of \"Box of Rain\" and a strong Dark Star that carries the second half."
+      "setlist_flow": "Early part suffers from poor audio, but the second half shines with a monumental Dark Star and the debut Box of Rain, giving the show historic weight despite technical flaws."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "His vocal delivery and lyrics on \"Box of Rain\" are highlighted as emotionally resonant.",
+      "Phil": "Phil's vocal performance/lyrics are noted as sounding great.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T09:58:11.690418+00:00",
+    "song_mentions": {
+      "Box of Rain": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:50:36.949073+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-09-17.aud.cbass.15983.sbeok.shnf"
   }

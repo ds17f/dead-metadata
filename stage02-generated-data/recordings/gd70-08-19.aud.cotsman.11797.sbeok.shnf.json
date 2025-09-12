@@ -16,42 +16,102 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Audience tape captures a hot electric set with standout NFA > Lovelight, but the acoustic portion is muffled and the recording has some high‑end distortion.",
-    "review": "The show delivers high‑energy electric playing – classic versions of Cold Rain & Snow and Easy Wind, plus an electrifying Not Fade Away → Lovelight that many reviewers call a five‑star moment. The audience‑recorded source sounds clear on the electric side but struggles with the acoustic set and shows occasional distortion and tape drop‑outs, leading to mixed feelings about overall fidelity.",
+    "summary": "Audience recording with a solid electric set and standout NFA > Lovelight, but the acoustic portion is thin and some high‑end distortion is present.",
+    "review": "The show captures a high‑spirited August 1970 performance – the electric half is hot and features a memorable Not Fade Away into Lovelight sequence, while the acoustic side suffers from weak pickup and organ being barely audible. Recording quality is decent for an audience tape with clear electric sections but occasional distortion that may need EQ tweaking.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.4,
+      "stars": 3.7,
       "confidence": "high",
-      "rationale": "Four detailed reviews give an average of ~3.25 stars; strong musical moments are balanced by recording limitations, resulting in a moderate‑high rating."
+      "rationale": "Reviews highlight several standout performances (NFA > Lovelight, Cryptical/Other One) and a generally good electric set, offset by acoustic recording issues and a flubbed Hard to Handle start; overall rating falls in the good‑to‑very‑good range."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "fair",
-      "technical_notes": "Electric set is loud and clear; acoustic portion is muffled. Reviewers note some high‑end distortion, tape hiss, and occasional drop‑outs, especially on guest vocals (Crosby/Nelson)."
+      "quality_rating": "good",
+      "technical_notes": "Electric portion loud and clear; acoustic section thin, organ barely audible. Some high‑end distortion noted; EQ adjustment may improve clarity."
     },
     "show_quality": {
       "standout_songs": [
-        "Cold Rain & Snow",
-        "Easy Wind",
-        "Not Fade Away > Lovelight",
-        "Cryptical Envelopment / The Other One",
+        "Lovelight",
+        "Not Fade Away",
+        "Cryptical Envelopment",
+        "The Other One",
         "I Know You Rider",
         "Black Peter",
-        "Cocaine Blues (rare)"
+        "Cocaine Blues",
+        "Cold Rain & Snow",
+        "Easy Wind",
+        "Truckin'"
       ],
       "poor_songs": [
-        "Hard to Handle (flubbed beginning)"
+        "Hard to Handle"
       ],
-      "setlist_flow": "The acoustic set suffers from recording issues, but the electric half picks up momentum with tight, concise jamming and a high‑spirited second half that keeps the show lively."
+      "setlist_flow": "A spirited August show with a concise, high‑energy electric set that shines despite the acoustic portion being hampered by recording limitations."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "Pigpen's piano is prominent and gritty on acoustic numbers; organ is barely audible. Guest vocalists (Crosby/Nelson) are faint but affect the jam direction.",
+      "Keys": "Pigpen's piano comes through strongly on the acoustic songs; organ is barely audible in this audience tape.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T09:50:34.057166+00:00",
+    "song_mentions": {
+      "Cold Rain & Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Easy Wind": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cocaine Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Cryptical Envelopment": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:38:59.619634+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-08-19.aud.cotsman.11797.sbeok.shnf"
   }

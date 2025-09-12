@@ -16,32 +16,46 @@
   "high_ratings": 1,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Acoustic summer‑70 gospel set captured on primitive tape with hiss and a baffling drum‑track mismatch; the performance is uneven but historically interesting.",
-    "review": "The recording offers a rare acoustic, gospel‑flavored Dead show from 1970, but the sound suffers from heavy hiss, cloudy tape quality and a right‑channel that seems to carry an entirely different drum mix, making Mickey’s drumming sound “horrible.” While a few listeners appreciate the unusual setlist, most note the poor audio fidelity and sub‑par percussion, resulting in a mixed listening experience.",
+    "summary": "Hissy, primitive acoustic tape with a wonky drum mix and an unusual gospel‑flavored set that few fans have heard before.",
+    "review": "The recording captures a rare acoustic/ gospel set from the summer of ’70, but the tape is cloudy and hissy, and the right‑channel drum track on “Candyman” sounds completely out of sync – Mickey’s drumming is described as horrible. Reviewers are split: some appreciate the uncommon setlist, while most lament the primitive sound quality and odd drum mix.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.8,
+      "stars": 3.1,
       "confidence": "medium",
-      "rationale": "Three reviews with divergent star ratings (2, 3, 5) and consistent criticism of audio quality and drumming lead to a low‑average rating; the show’s uniqueness provides some positive points but does not outweigh technical flaws."
+      "rationale": "Show is unique but not praised for performance; recording is generally judged poor to fair, pulling the overall rating toward average."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "Hissy, cloudy tape typical of early ’70 live recordings; right channel appears to have a completely different drum track causing confusion; overall primitive fidelity but still listenable with EQ adjustments."
+      "technical_notes": "Tape is hissy and cloudy; right channel has a completely different drum track on “Candyman”, making the mix sound off. Reviewers suggest using EQ to improve playback."
     },
     "show_quality": {
       "standout_songs": [],
-      "poor_songs": [],
-      "setlist_flow": "An unusual acoustic gospel set that deviates from standard Dead setlists; the flow feels odd to many listeners and is hampered by the mismatched drum mix."
+      "poor_songs": [
+        "Candyman"
+      ],
+      "setlist_flow": "Unusual acoustic gospel set that repeats a rare song list; reviewers note it’s not a common set for the Dead and feels more like a one‑off performance."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Mickey's drumming described as horrible and seemingly out of sync; right channel contains a different drum track altogether."
+      "Drums": "Mickey's drumming on “Candyman” is criticized as horrible; right channel appears to have a different drum track."
     },
-    "processed_date": "2025-09-11T09:40:36.782967+00:00",
+    "song_mentions": {
+      "Candyman": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Ballad of Casey Jones": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:20:19.968014+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-08-05.sbd.thecore.4941.sbeok.shnf"
   }

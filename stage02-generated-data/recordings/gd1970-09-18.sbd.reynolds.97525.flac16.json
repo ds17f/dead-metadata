@@ -16,39 +16,77 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Rare acoustic Truckin with Pigpen’s audible organ shines on this mostly decent soundboard capture despite some vocal low‑mix issues.",
-    "review": "The set is prized for the ultra‑rare acoustic version of “Truckin” featuring a surprisingly forward Pigpen organ, plus strong renditions of “Operator,” “St. Stephen,” and an especially lively “Not Fade Away.”  The soundboard source is clearer than most audience tapes from this era, though vocals sit low and occasional mix quirks keep the recording from being pristine.",
+    "summary": "Good soundboard capture with audible Pigpen organ and rare acoustic Truckin', highlighted by strong Not Fade Away and St. Stephen performances despite occasional vocal low‑mix.",
+    "review": "The recording is a soundboard that brings Pigpen’s organ forward and offers an unusually clear version of the rarely heard acoustic Truckin' and Operator, though vocals can be a bit recessed and some listeners note overall fidelity issues. Musically the show shines with standout acoustic numbers like Not Fade Away, St. Stephen and Cosmic Charlie, and the electric set is praised as “fire,” making it a valuable 1970 snapshot despite mixed audio quality.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.9,
+      "stars": 3.3,
       "confidence": "medium",
-      "rationale": "Most reviewers praise the musical performance and rarity of tracks (high show quality), but several note vocal low‑mix and overall recording imperfections, pulling the rating down to a solid but not outstanding level."
+      "rationale": "Reviews are split between high praise for rare songs and organ mix and criticism of overall listenability; the average star rating is ~3.1, so a mid‑range score reflects the mixed show and recording quality."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "fair",
-      "technical_notes": "More audible than typical audience tapes; organ and drums sit well in the mix, but vocals are low and some listeners describe the overall sound as \"insane\" or needing aborting."
+      "quality_rating": "good",
+      "technical_notes": "Vocals are sometimes low and overall fidelity is uneven, but Pigpen’s organ is unusually forward and clear; occasional distortion noted by a reviewer."
     },
     "show_quality": {
       "standout_songs": [
-        "Operator (rare)",
-        "Truckin (acoustic with Pigpen)",
+        "Acoustic Truckin'",
+        "Operator",
         "St. Stephen",
         "Not Fade Away",
         "Cosmic Charlie",
-        "Going Down the Road Feelin' Bad"
+        "Going Down the Road Feelin' Bad",
+        "Dancing in the Street"
       ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic set is highlighted as impressive and cohesive, leading into an electric set that many describe as “fire” despite occasional mix issues."
+      "setlist_flow": "The acoustic set is praised as impressive and flows into a high‑energy electric set that many reviewers describe as “fire,” giving the concert a strong overall pacing."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "Pigpen’s organ is unusually forward in the mix, a rarity for 1970/71 recordings.",
-      "Drums": "Bill Kreutzmann keeps a solid beat throughout, noted positively by reviewers."
+      "Keys": "Pigpen’s organ is unusually forward and consistently in the mix, a rarity for 1970/71 recordings.",
+      "Drums": "Billy (Kreutzmann) keeps a solid beat that reviewers specifically note."
     },
-    "processed_date": "2025-09-11T10:00:36.055910+00:00",
+    "song_mentions": {
+      "Operator": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Acoustic Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Going Down the Road Feelin' Bad": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dancing in the Street": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:54:04.989854+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-09-18.sbd.reynolds.97525.flac16"
   }

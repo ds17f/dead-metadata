@@ -16,37 +16,80 @@
   "high_ratings": 10,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a solid early‑1970 set, highlighted by a stellar Not Fade Away → Mason’s Children → Caution → Feedback sequence and Pigpen’s acoustic Katie Mae.",
-    "review": "The recording is praised for its crystal‑clear soundboard mix with Phil Lesh brought forward in the balance and Bobby Weir well‑defined, delivering an exceptionally listenable document. Musically the show shines with a cosmic Not Fade Away > Mason’s Children > Caution > Feedback stretch, a superb ABYGN jam and a memorable acoustic Katie Mae by Pigpen, even though some fans lament missing portions that appear on Dick's Picks IV. Overall the performance is regarded as great, with only minor complaints about a long‑winded drum segment and incomplete track listings.",
-    "sentiment": "mixed",
+    "summary": "Excellent soundboard recording that captures a strong show highlighted by an epic Not Fade Away and superb acoustic Katie Mae",
+    "review": "The archive entry provides a crystal‑clear soundboard mix with the band well balanced—Phil’s bass is pushed forward, the drums sit deep but are a bit long‑winded, and the overall fidelity is praised as exceptional. Musically the performance shines on Not Fade Away, the ABYGN jam, Dark Star, Katie Mae acoustic solo and a standout Hard To Handle where Phil’s playing is lauded. While some fans lament missing portions of the full concert, the material that is present is consistently rated highly.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers give high scores (4–5 stars) and praise both the musical performance and the soundboard quality, while a few low‑star comments focus on missing songs rather than audio or playing issues. Weighted average of show (70%) and recording (30%) yields ~4.6."
+      "rationale": "Most reviewers give 5‑star ratings and praise both the audio fidelity and musical moments; only a few low stars concern missing tracks, not recording quality."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Mix described as 'resoundingly exceptional' with clear instrument separation, Phil Lesh up‑front, balanced Bobby Weir and overall crisp soundboard fidelity."
+      "technical_notes": "Mix is front‑heavy on Phil, balanced overall, crisp clarity; no reported dropouts or muffiness. The drum segment is long but the soundstage remains clean."
     },
     "show_quality": {
       "standout_songs": [
-        "Not Fade Away > Mason's Children > Caution (Do Not Stop) > Feedback",
+        "Not Fade Away",
         "ABYGN jam",
-        "Katie Mae (acoustic Pigpen)",
-        "Dark Star"
+        "Dark Star",
+        "Katie Mae",
+        "Hard To Handle"
       ],
       "poor_songs": [],
-      "setlist_flow": "The show is considered slightly less strong than the previous night but still great; a 12‑minute drum segment is long‑winded, yet the cosmic jam sequence and acoustic moments keep the momentum high."
+      "setlist_flow": "The set flows through a lengthy drum break (≈12 min) into cosmic jams; overall energy is high and the show is considered slightly less dazzling than 2/13 but still great."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "Mix puts Phil up front; his bass on 'Hard To Handle' called 'next level' by a reviewer.",
+      "Phil": "Bass is prominently mixed and praised as next‑level, especially on 'Hard To Handle'.",
       "Bob": "",
       "Keys": "",
-      "Drums": "A 12‑minute drum segment noted as long‑winded but part of the overall experience."
+      "Drums": "A 12‑minute drum segment is noted as long‑winded yet integral to the jam flow."
     },
-    "processed_date": "2025-09-11T06:34:17.629029+00:00",
+    "song_mentions": {
+      "Not Fade Away": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "ABYGN jam": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Katie Mae": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard To Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mason's Children": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Caution (Do Not Stop)": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Feedback": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T00:21:28.154346+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-02-14.early-late.sbd.cotsman.18115.sbeok.shnf"
   }

@@ -16,42 +16,89 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of the 1970 St. Louis show delivers a funky Saint Stephen and scorching Not Fade Away despite a muddy mix.",
-    "review": "The performance shines with high‑energy jams – Saint Stephen, a blistering Not Fade Away/Goin' Down the Road Feeling Bad sequence, Love Light and extended improvisations that highlight Pigpen’s vocals and the band’s tight harmonies. The recording is a soundboard source but suffers from a cloudy, vocal‑forward mix that can feel like listening through hallway speakers, though it remains listenable.",
-    "sentiment": "mixed",
+    "summary": "Fair‑sounding soundboard capture of a high‑energy 1970 set, highlighted by a funky Saint Stephen and scorching Not Fade Away.",
+    "review": "The performance shines with tight harmonies, extended jams and standout moments on Saint Stephen, Not Fade Away, Good Lovin' and several other classics. The recording is a soundboard source but suffers from a high‑vocal mix, limited frequency range and occasional cloudiness, making it only fair in fidelity yet still enjoyable for fans.",
+    "sentiment": "positive",
     "ai_rating": {
       "stars": 4.1,
       "confidence": "high",
-      "rationale": "Strong musical performance with many standout moments outweighs the noted recording flaws; multiple detailed reviews give a consistent positive picture of the show."
+      "rationale": "Strong musical performance with many praised songs outweighs the mixed‑quality soundboard recording; consistent positive comments across multiple reviews give confidence in a solid rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Mix is muddy and vocals sit too high, giving a cloudy/limited‑spectrum sound; occasional drop‑outs noted but overall listenable."
+      "technical_notes": "Vocals sit too high in the mix, overall cloudy/muffled character and limited frequency range; some listeners note track‑continuity issues but the instrument balance is acceptable."
     },
     "show_quality": {
       "standout_songs": [
         "Saint Stephen",
-        "Not Fade Away > Goin' Down the Road Feeling Bad",
-        "Love Light / Lovelight",
-        "Me & My Uncle",
+        "Not Fade Away",
         "Good Lovin'",
-        "Attics (mid‑set ballad)",
-        "Rain & Snow",
         "Casey Jones",
-        "Friend of the Devil"
+        "Attics of My Life",
+        "Rain & Snow",
+        "Friend of the Devil",
+        "Fire on the Mountain",
+        "Love Light"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set flows well with a strong opening jam, a mid‑set surprise ballad (Attics), and a high‑energy second half driven by drums and vocal harmonies."
+      "setlist_flow": "The set flows well with a grooving first half, a tight mid‑set jam that lifts the energy, and a drummer‑led Good Lovin' finale; pacing picks up after the early minutes and harmonies stay strong throughout."
     },
     "band_member_comments": {
-      "Jerry": "Praised for crisp intro on 'Friend of the Devil', extended guitar jams and overall great picking.",
-      "Phil": "Highlighted for front‑center harmony work and bringing a future‑Eyes jam vibe; bass lines noted as solid.",
-      "Bob": "Tight backing vocals and rhythm support praised, especially during 'Good Lovin'' and 'Casey Jones'.",
-      "Keys": "Keys and organ are prominent, especially on 'Me & My Uncle' and the extended jams; described as a major part of the sound.",
-      "Drums": "Bill & Mickey receive strong commendation for high‑step playing, drummer‑led feel on 'Good Lovin'', and overall improved flow after early set."
+      "Jerry": "Praised for crisp guitar intro on Friend of the Devil and extended lead work during jams.",
+      "Phil": "Highlighted for front‑line vocal harmonies and driving the “still distant future” jam vibe.",
+      "Bob": "Noted for tight backing vocals and solid rhythm support.",
+      "Keys": "Keyboards are prominent and well‑balanced, adding depth to the jams.",
+      "Drums": "Bill Kreutzmann and Mickey Hart receive commendation for a strong, drummer‑led groove on Good Lovin' and overall good flow."
     },
-    "processed_date": "2025-09-11T10:42:22.686709+00:00",
+    "song_mentions": {
+      "Saint Stephen": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Not Fade Away": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Love Light": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Friend of the Devil": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Fire on the Mountain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Rain & Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Attics of My Life": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T21:34:06.172224+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-10-24.sbd.bihlmayer.pitch.31948.sbefail.flac16"
   }

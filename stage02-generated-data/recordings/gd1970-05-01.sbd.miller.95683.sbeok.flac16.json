@@ -16,42 +16,93 @@
   "high_ratings": 35,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a legendary 1970 Alfred acoustic set (Me & My Uncle, Mama Tried, Monkey & the Engineer) with a scorching Speedway Boogie electric finish.",
-    "review": "The recording is a high‑quality soundboard mix that brings out the crystal‑clear harmonies and Jerry Garcia’s razor‑sharp guitar on the acoustic classics while still delivering a powerful electric second set. Reviewers rave about the acoustic gems—Deep Elem Blues, Me & My Uncle, Mama Tried—and the fiery Speedway Boogie, noting only occasional low‑frequency muddiness and minor tape‑speed quirks. Overall it is regarded as an essential document of the early‑'70 Dead in their raw, pre‑corporate era.",
+    "summary": "Stellar May 1 1970 acoustic‑electric show captured on a superb soundboard mix, with crystal‑clear folk gems and a fiery electric set despite a few tape quirks.",
+    "review": "The recording is a soundboard capture that delivers an exceptionally clear acoustic half – highlighted by “Me & My Uncle,” “Mama Tried,” “Deep Elem Blues,” and a legendary “Speedway Boogie” – while the electric side burns with “Hard to Handle,” “High Time,” and “The Other One.”  Reviewers rave about Jerry’s guitar tone, Pigpen’s front‑man presence, and even NRPS guests adding sweet harmonies, though a handful note low‑frequency oversaturation on Cryptical Envelopment and minor mic noise on “I Know You Rider.”  Overall the performance is regarded as one of the best early‑1970 shows and the tape quality is judged good to excellent.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.5,
       "confidence": "high",
-      "rationale": "Over 30 reviews, most 4–5 stars, consistently praising the performance and noting only minor technical flaws; strong show quality (70%) plus good recording quality (30%) yields a high overall rating."
+      "rationale": "Over 30 reviews overwhelmingly praise both performance and sound; show quality scores ~4.6/5, recording quality ~4.2/5, yielding a weighted average of ~4.5."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Stereo soundboard mix praised as crisp and excellent; occasional oversaturation below ~125 Hz, mic‑noise on I Know You Rider, a cardboard‑box beat on one track, and minor tape‑speed/pitch issues on a few songs."
+      "quality_rating": "excellent",
+      "technical_notes": "Stereo soundboard mix is crystal clear on the acoustic set; occasional harsh low‑frequency oversaturation (Cryptical Envelopment source 3), minor mic noise on “I Know You Rider,” and a cardboard‑box beat artifact in the electric portion, but overall very listenable."
     },
     "show_quality": {
       "standout_songs": [
-        "Me & My Uncle (acoustic)",
-        "Mama Tried (acoustic)",
+        "Me & My Uncle",
+        "Mama Tried",
         "Deep Elem Blues",
         "Monkey & the Engineer",
-        "Speedway Boogie (electric)",
-        "The Other One"
+        "The Race Is On",
+        "Speedway Boogie",
+        "Hard to Handle",
+        "High Time"
       ],
-      "poor_songs": [
-        "Cryptical Envelopment (muddy low end)",
-        "I Know You Rider (mic noise)"
-      ],
-      "setlist_flow": "A superb acoustic first set that many call one of the best ever, followed by a high‑energy electric second set; occasional cuts and missing moments noted but overall pacing praised."
+      "poor_songs": [],
+      "setlist_flow": "Acoustic first set is described as pure gold and uniquely arranged, followed by an electric second set that’s fiery yet a touch shorter than later shows; some reviewers note missing or cut portions but the overall pacing is praised."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar tone described as perfect on the acoustic songs and shredding on Speedway Boogie; also noted for an extra lyrical line on I Know You Rider.",
-      "Phil": "Mentioned briefly in context of early rehearsals of I Know You Rider and his selection of the show for a compilation; no specific performance comments.",
+      "Jerry": "Garcia’s guitar tone is repeatedly called perfect; his occasional electric lead on acoustic numbers noted, plus a disputed vocal line on “I Know You Rider.”",
+      "Phil": "Phil Lesh is mentioned loading gear and as the source of alternate lyrics on “I Know You Rider”; no specific bass performance remarks.",
       "Bob": "",
-      "Keys": "NRPN (New Riders) members such as Marmaduke provide backing vocals on Mama Tried and Me & My Uncle; keyboards not specifically highlighted.",
-      "Drums": "No direct commentary on Bill Kreutzmann or Mickey Hart beyond general praise of the band's interplay."
+      "Keys": "",
+      "Drums": "Mickey’s drumming is referenced in a personal anecdote about loading wagons; no detailed drum critique."
     },
-    "processed_date": "2025-09-11T07:36:32.005396+00:00",
+    "song_mentions": {
+      "Me & My Uncle": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Mama Tried": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Deep Elem Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Monkey & the Engineer": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Race Is On": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Speedway Boogie": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Hard to Handle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Cryptical Envelopment": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-12T01:56:23.501315+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-01.sbd.miller.95683.sbeok.flac16"
   }

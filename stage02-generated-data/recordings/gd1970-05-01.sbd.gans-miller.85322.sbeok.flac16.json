@@ -16,29 +16,30 @@
   "high_ratings": 9,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Crystal‑clear soundboard capture of a stellar 1970 acoustic set with tight Race Is On and Wake Up Little Susie, plus strong electric jams—minor Lovelight fade‑out glitch.",
-    "review": "The Charlie Miller mix delivers astonishing clarity; you can crank it loud and still hear every nuance, even the faint second acoustic guitar on New Speedway. The show is hailed as one of the band’s finest early‑70s acoustic performances with energetic renditions of Race Is On and Wake Up Little Susie, and a second set that jams hard. A single complaint notes a harsh fade‑out on Lovelight, but overall both the music and recording are praised.",
+    "summary": "Crystal‑clear soundboard mix captures one of the Dead’s finest acoustic shows with standout New Speedway, Race Is On and Wake Up Little Suzie performances.",
+    "review": "Charlie Miller’s superb soundboard mastering lets you crank this recording loud while preserving every detail of a legendary 1970 acoustic set. The acoustic numbers – especially New Speedway, Race Is On and Wake Up Little Suzie – are tight and energetic, the second‑set jams are “tremendous,” and even the electric portion holds its own.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Consistently high reviewer scores (average 4.3/5) with strong praise for performance and exceptional soundboard clarity; only one minor technical complaint."
+      "rationale": "Consistently high star ratings (mostly 4–5) praise both the musical performance and the exceptional recording clarity; only a single low‑star comment notes a fade on Lovelight, so the combined show/recording quality merits a strong rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Exceptionally clear mix – audible left‑channel acoustic guitar, loud‑volume friendly. One reviewer reports a harsh fade‑out on Lovelight near the end."
+      "technical_notes": "Reviewers repeatedly cite Miller’s remarkable clarity, ability to crank volume, and full instrument separation (e.g., second acoustic guitar on New Speedway). One complaint notes a fade‑out on Lovelight."
     },
     "show_quality": {
       "standout_songs": [
+        "New Speedway",
         "Race Is On",
-        "Wake Up Little Susie",
-        "New Speedway"
+        "Wake Up Little Suzie",
+        "Sugar Magnolia"
       ],
       "poor_songs": [
-        "Lovelight (fade‑out issue)"
+        "Lovelight"
       ],
-      "setlist_flow": "Acoustic first set tight and energetic, followed by a powerful electric second set; the overall pacing and transitions are praised."
+      "setlist_flow": "Acoustic set is tight and energetic, second‑set jams are described as tremendous, and the electric portion is solid, giving the concert a balanced and engaging flow."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -47,7 +48,34 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T07:38:18.487350+00:00",
+    "song_mentions": {
+      "New Speedway": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Race Is On": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Wake Up Little Suzie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T01:59:44.535694+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-01.sbd.gans-miller.85322.sbeok.flac16"
   }

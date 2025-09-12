@@ -16,41 +16,83 @@
   "high_ratings": 9,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Solid soundboard out‑take featuring a transcendent Other One and Viola Lee Blues, with a tuneless but beloved Cold Rain & Snow, presented in generally good audio quality.",
-    "review": "The DP 8 out‑take from the May 2 1970 Harpur College show captures one of the band’s most celebrated moments – an explosive Other One followed by a soaring Viola Lee Blues and several other classics. While the recording is a decent soundboard source (though some listeners note mono quirks), the performance suffers from a noticeable out‑of‑tune Cold Rain & Snow, which divides opinion but adds to the historic charm.",
-    "sentiment": "mixed",
+    "summary": "High‑quality soundboard out‑take from DP 8 with stellar performances (Other One, Viola Lee Blues, Cold Rain & Snow) despite occasional tuning hiccups.",
+    "review": "The recording is a remastered soundboard source that generally sounds clear and benefits from a modest EQ boost; listeners note occasional mono electric sections and brief tuning issues. Musically the show shines – fans rave about an electrifying Other One, a favorite Viola Lee Blues, and a beloved Cold Rain & Snow that, even when out of tune, adds character to the set.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.0,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show 4–5 stars praising the musical highlights; a few note tuning problems and recording quirks, resulting in an overall strong but not flawless rating."
+      "rationale": "Most reviewers give 4‑5 stars and praise the performance; recording is described as good with minor quirks, leading to a strong combined score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear soundboard mix; some listeners mention mono electric set and advise EQ adjustments. No major drop‑outs, but tonal balance can benefit from user EQ."
+      "technical_notes": "Clear remastered soundboard, but listeners recommend EQ adjustments. Electric portion is in mono; occasional out‑of‑tune moments and SRS WOW distortion warnings are noted."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One",
         "Viola Lee Blues",
+        "Cold Rain and Snow",
         "St. Stephen",
         "Cosmic Charlie",
         "The Dew",
-        "Man's World"
+        "Man's World",
+        "Dancin'"
       ],
-      "poor_songs": [
-        "Cold Rain and Snow (out of tune)"
-      ],
-      "setlist_flow": "Single‑song out‑take, but reviewers treat it as a highlight from the full show; they lament missing tracks on DP 8 yet celebrate the energy and improvisational peaks of the included material."
+      "poor_songs": [],
+      "setlist_flow": "Acoustic set (stereo) flows into a mono‑recorded electric set; the show is praised for its energy and seamless transitions, with highlights placed between Good Lovin' and Man's World."
     },
     "band_member_comments": {
-      "Jerry": "Out‑of‑tune issues likely due to his Gibson SG neck giving way; some describe a literal 'tuning up' at the start, but overall his solo work on Other One is praised.",
+      "Jerry": "Tuning issues noted on Cold Rain & Snow (possible Gibson SG neck problem), but his improvisational work on Other One and other jams is celebrated.",
       "Phil": "",
       "Bob": "",
-      "Keys": "",
+      "Keys": "Electric set appears in mono, likely due to mixing choices by Bob Matthews; no specific keyboard performance comments.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T07:42:50.672617+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Viola Lee Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cold Rain and Snow": {
+        "positive_mentions": 3,
+        "negative_mentions": 2,
+        "total_mentions": 5
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Man's World": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dancin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T02:06:24.442818+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-02.sbd.remaster.dp8outtake.100007.sbeok.flac16"
   }

@@ -16,39 +16,65 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of a loose 1970 free‑form set with standout Cumberland Blues, The Other One and an early Sugar Magnolia, delivered in clear, crisp audio.",
-    "review": "The recording is praised for its crystal‑clear soundboard quality that even preserves the spontaneous anti‑war protest spoken during drums. Musically the show is a wild, unstructured ’70s jam featuring a fiery Cumberland Blues, a powerful The Other One with period‑appropriate commentary, and a rough but historic first Sugar Magnolia.",
+    "summary": "Excellent soundboard captures a loose ’70s free‑form set with standout Cumberland Blues, Sugar Magnolia and The Other One.",
+    "review": "The recording offers crystal‑clear soundboard fidelity that even preserves an onstage anti‑war protest spoken during Drums.  Musically the show is a happy‑hour of free‑form acoustic‑electric jamming – fans repeatedly point to the blazing Cumberland Blues, the debut Sugar Magnolia and a powerful stretch of The Other One as highlights.  Minor complaints focus on track‑splitting quirks rather than the performance itself.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Consistently high praise for both performance (free‑form jams, standout songs) and sound quality; minor technical complaints do not outweigh the overall excellence."
+      "rationale": "The majority of reviews (9 out of 11) are 4–5 stars and praise both the audio clarity and the musical moments; only a few note track‑splitting issues, so overall rating is strong."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Clear, crisp mix that captures crowd ambience and spoken protest bits. Minor criticisms focus on track‑splitting and a missing few seconds of Cumberland Blues rather than audio fidelity."
+      "technical_notes": "Crisp, clear mix with great instrument separation; anti‑war speech captured intact. Some reviewers complain about the way tracks are split (e.g., The Other One broken into multiple files) but this does not affect overall sound fidelity."
     },
     "show_quality": {
       "standout_songs": [
         "Cumberland Blues",
+        "Sugar Magnolia",
         "The Other One",
-        "Sugar Magnolia (early version)",
-        "Cryptical Envelopment / Jam"
+        "Cryptical Envelopment",
+        "Drums"
       ],
-      "poor_songs": [
-        "Sugar Magnolia (first version noted as rough by one reviewer)"
-      ],
-      "setlist_flow": "Loose, free‑form 70s vibe with acoustic/electric shifts, long chatter sections and spontaneous anti‑war commentary; overall unstructured but engaging."
+      "poor_songs": [],
+      "setlist_flow": "Described as a free‑form ’70s show with acoustic and semi‑electric sections, loose transitions, political spoken interludes, and an unstructured, jam‑heavy second set."
     },
     "band_member_comments": {
-      "Jerry": "Mentioned for his role in the protest speech and playing between acoustic and electric sets.",
+      "Jerry": "Praised for great tone and playing throughout the set (e.g., “Jerry played at set between the Dead's acoustic and electric sets”).",
       "Phil": "",
-      "Bob": "",
+      "Bob": "Mentioned in a friendly sign‑off (“Peace, Bob”) but no specific performance comment.",
       "Keys": "",
-      "Drums": "Drums segment noted for its powerful energy and the crowd‑shouting anti‑war remarks captured during the solo."
+      "Drums": "Drums segment noted for strong playing and the captured anti‑war protest speech."
     },
-    "processed_date": "2025-09-11T08:50:13.222205+00:00",
+    "song_mentions": {
+      "Cumberland Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cryptical Envelopment": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Drums": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-12T03:57:48.568366+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-06-07.sbd.clevenger.fix-98.6185.shnf"
   }

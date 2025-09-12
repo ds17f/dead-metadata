@@ -16,37 +16,64 @@
   "high_ratings": 9,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Good‑quality soundboard capture of a brief, folk‑filled acoustic set highlighted by “To Lay Me Down” and “Rosalie McFall,” though the bass is a bit over‑present.",
-    "review": "The recording is a clear soundboard source but suffers from an overly loud bass that makes the mix muddy in places. Musically the show shines as a short, relaxed acoustic set from July 30 1970, featuring standout performances of “To Lay Me Down,” “Rosalie McFall,” “I Hear a Voice Calling” and “Swing Low Sweet Chariot,” with warm vocals and gentle banter.",
+    "summary": "Good soundboard capture with a few bass‑mud issues, showcasing a sweet acoustic set highlighted by “To Lay Me Down” and “Rosalie McFall.”",
+    "review": "The recording is a soundboard source that generally sounds clear but suffers from occasional muddy low‑end and an overly loud bass. Musically the brief acoustic set is praised for its relaxed, folk‑gospel vibe with standout performances of “To Lay Me Down,” “Rosalie McFall,” and the traditional numbers “Swing Low Sweet Chariot” and “I Hear A Voice Calling.”",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Most reviewers praise the acoustic performance and give 4‑5 stars, while a few note significant recording issues; the weighted average of the scores yields a solid mid‑range rating."
+      "rationale": "Most reviewers rate the performance highly (many 4‑5 stars) while noting consistent but minor recording flaws; the weighted average of show quality (70%) and recording quality (30%) yields a solid above‑average rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear soundboard capture overall, but bass is often too loud causing muddiness; some high‑end harshness and occasional banter noise detract from guitar detail."
+      "technical_notes": "Clear overall with some sound issues: muddy/fuzzy low end, bass too loud, occasional high‑end harshness and banter noise; a few reviewers call it ‘slightly muffled’ but still listenable."
     },
     "show_quality": {
       "standout_songs": [
         "To Lay Me Down",
         "Rosalie McFall",
-        "I Hear a Voice Calling",
-        "Swing Low Sweet Chariot"
+        "Swing Low Sweet Chariot",
+        "I Hear A Voice Calling"
       ],
       "poor_songs": [],
-      "setlist_flow": "A short, folk‑centric acoustic set that feels relaxed and reverent; the sequence flows simply with gospel touches, though the limited length leaves listeners wishing for more."
+      "setlist_flow": "A short, folk‑gospel acoustic set that feels relaxed and straightforward; the three‑song sequence (To Lay Me Down → Rosalie McFall → I Hear A Voice Calling) is repeatedly praised for its simple, heartfelt flow."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s picking is praised, his vocal on “Swing Low” noted, and a brief curse at a heckler is mentioned.",
-      "Phil": "Bass described as rich and warm by one reviewer.",
+      "Jerry": "Garcia’s acoustic picking and vocal moments are highlighted as beautiful, though a few note that the loud bass masks some of his tone.",
+      "Phil": "Lesh’s bass described as rich and supportive, but also cited for being overly loud or muddy in places.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T09:37:09.891836+00:00",
+    "song_mentions": {
+      "To Lay Me Down": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Rosalie McFall": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Swing Low Sweet Chariot": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "I Hear A Voice Calling": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "A Voice From On High": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:15:24.314819+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-07-30.sbd.cotsman.17077.sbeok.shnf"
   }

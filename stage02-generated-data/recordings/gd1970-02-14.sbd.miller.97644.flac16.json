@@ -16,45 +16,118 @@
   "high_ratings": 15,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crisp soundboard recording captures a peak February 1970 Dead show with a smoking Dark Star, The Eleven and explosive drummers.",
-    "review": "The 2/14/70 performance is consistently praised as one of the band’s finest transitional shows – highlights include High Time, Alligator, a classic Dark Star, St. Stephen → The Eleven → Lovelight sandwich and an incendiary drum section. Charlie Miller’s remastered soundboard source is clear and “extra‑crispy,” though the early set suffers from a few missing edits. Overall the music and audio quality combine for a must‑hear experience.",
+    "summary": "Crystal‑clear soundboard capture of a legendary Feb 14 1970 show with smoking Dark Star, The Eleven and Not Fade Away, plus an extra‑crispy mix.",
+    "review": "Fans rave about this performance as one of the peak shows of the Dead’s early ’70 era – the electric set delivers a monster Dark Star, explosive post‑drums jams and tight renditions of The Eleven, St. Stephen and Lovelight, while the acoustic half shines on Dark Hollow and Uncle John’s.  Charlie Miller’s remastered soundboard is praised as “extra crispy” and remarkably clear despite a few unavoidable cuts in the early set.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.7,
       "confidence": "high",
-      "rationale": "Majority of reviews are 5‑star, many detailed praises of both performance and soundboard quality; only one low rating unrelated to the music."
+      "rationale": "Over a dozen detailed, overwhelmingly positive reviews praise both musical performance and audio fidelity; the weighting of show quality (70 %) and recording quality (30 %) yields an elite rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Remastered by Charlie Miller – clear, crisp mix with “extra‑crispy” fidelity. Early‑show has missing portions (beginning of St. Stephen and The Eleven) and occasional glitches, but overall very listenable."
+      "quality_rating": "excellent",
+      "technical_notes": "Remastered, normalized and re‑pitched by Charlie Miller – crisp, balanced mix with “extra crispy” clarity.  The only drawbacks are missing portions of the early set (beginning of The Eleven and a William Tell bridge in St. Stephen)."
     },
     "show_quality": {
       "standout_songs": [
-        "High Time",
-        "Alligator",
-        "The Eleven",
         "Dark Star",
+        "The Eleven",
+        "Not Fade Away",
+        "Hard to Handle",
+        "Dark Hollow",
+        "Uncle John's Band",
+        "Caution",
         "St. Stephen",
         "Lovelight",
-        "Hard to Handle",
-        "Not Fade Away",
-        "Caution",
-        "Black Peter",
-        "Dark Hollow",
-        "Uncle John's Band"
+        "Casey Jones"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Two shows (early concise set and later expansive three‑set blowout) flow smoothly; strong transitions especially in the electric second set and the classic Dark Star/Eleven/Lovelight sandwich."
+      "poor_songs": [
+        "St. Stephen (cut)",
+        "The Eleven (beginning missing)"
+      ],
+      "setlist_flow": "Two‑show marathon – an early acoustic set that builds into a fiery electric second set, followed by a third “continuous” set with seamless segues; reviewers note the post‑drums explosion and tight band interplay throughout."
     },
     "band_member_comments": {
-      "Jerry": "Praised for fluid, perfect guitar tone and soaring solos throughout the night.",
-      "Phil": "",
+      "Jerry": "Praised for fluid, soaring lead work and perfect tone; his solo sections are described as ‘orbiting’ and ‘arabesque’.",
+      "Phil": "Bass is mentioned briefly as solid and supportive; no major complaints.",
       "Bob": "",
       "Keys": "",
-      "Drums": "Drummers described as “on point” and “explosive,” with post‑drum sections highlighted as a peak moment."
+      "Drums": "Both drummers (Kreutzmann & Hart) receive high marks – the post‑drums section is called “explosive” and “on point”."
     },
-    "processed_date": "2025-09-11T06:33:12.540261+00:00",
+    "song_mentions": {
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Alligator": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Eleven": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Not Fade Away": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Hard to Handle": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Dark Hollow": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Caution": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cold Rain & Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T00:19:57.562541+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-02-14.sbd.miller.97644.flac16"
   }

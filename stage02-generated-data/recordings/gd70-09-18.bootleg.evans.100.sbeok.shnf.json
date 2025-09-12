@@ -16,35 +16,54 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A wildly energetic 9/18/70 Dead show with stellar Dark Star and St. Stephen, captured on a modest‑quality audience recording.",
-    "review": "Fans describe this September 1970 performance as an unforgettable, midnight‑to‑sunrise marathon filled with teases, weaving jams and standout moments like Dark Star and St. Stephen. While the playing and song selection are praised as “awesome,” the audio is noted as less than ideal – a rough audience capture with some extra tracks pulled from other sources.",
+    "summary": "Strong midnight marathon with standout Dark Star and St. Stephen; audience recording is uneven but listenable",
+    "review": "Fans rave about the epic September 18‑1970 performance – a near‑six‑hour midnight set that flows beautifully with teases, dark jams and soaring renditions of Dark Star and St. Stephen. The recording is an audience capture that some find muddy or in need of cleaning, though others praise its upload quality.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Consistently enthusiastic fan comments rate the musical performance near‑perfect (mostly 5 stars) while recording quality is described as only fair; weighted combination yields a strong overall rating."
+      "rationale": "Consistently high praise for the musical performance (70% weight) and mixed but generally acceptable audio quality (30% weight) lead to a strong overall rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Sound quality isn’t great; reviewers note the need to use an AUD source for the NRPS set and extra bits, and some tracks are from other dates. Overall capture is usable but not crisp."
+      "technical_notes": "Sound quality described as not great, with some sections muddy and callers asking for a cleaned‑up version; however several reviewers note the upload is solid and the show remains enjoyable."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "St. Stephen"
+        "St Stephen"
       ],
-      "poor_songs": [],
-      "setlist_flow": "The set flows beautifully with endless teasing and weaving, a long midnight‑to‑dawn stretch, and spontaneous jams that keep the energy high throughout."
+      "poor_songs": [
+        "Sugar Magnolia (incorrect version)"
+      ],
+      "setlist_flow": "A marathon midnight set that weaves teases into expansive jams, moving fluidly from dark explorations to uplifting numbers and ending with an unforgettable Dark Star."
     },
     "band_member_comments": {
-      "Jerry": "Praised for his presence and playing (“Jerry with New Riders”, great tone), central to the show’s excitement.",
+      "Jerry": "Mentioned playing with the New Riders during intermission; no specific comment on his guitar work in this show.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T10:01:11.605856+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "St Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:55:03.401584+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-09-18.bootleg.evans.100.sbeok.shnf"
   }

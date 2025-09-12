@@ -16,40 +16,86 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑fidelity soundboard capture of an underrated 1970 show featuring razor‑sharp Jerry leads, stellar High Time/Easy Wind and a smoking Other One despite a rough Cosmic Charlie cut.",
-    "review": "The recording is a clean SBD source that many reviewers describe as “great” and “sound is also great,” delivering a clear mix that lets the band’s interplay shine. Musically the show stands out for its tight, melodic set – Black Peter, High Time, Easy Wind and an inspired Other One segue into Cosmic Charlie are repeatedly praised, while the occasional rough edit (the Cosmic cut) is noted but doesn’t detract from the overall performance.",
+    "summary": "Solid soundboard capture of a historic early‑1970 show with razor‑sharp Jerry leads and standout performances of High Time, Easy Wind, The Other One and Black Peter.",
+    "review": "The recording is generally clear and well‑balanced, though a few listeners note it isn’t as pristine as some SBD expectations. Musically the concert shines – reviewers rave about Jerry Garcia’s sharp leads, the atmospheric High Time and Easy Wind, a smoking The Other One segueing into Cosmic Charlie, plus strong renditions of Black Peter and China Cat Sunflower. Overall the show is considered an underrated gem from this era.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers give 4‑5 stars, highlight strong performances and good sound quality; weighting favors show quality (70%) with solid recording assessment (30%)."
+      "rationale": "Most reviews are enthusiastic (5‑star) praising both performance and sound; average star rating ~3.8 with strong positive language pushes the AI rating into the high‑four range."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Consistently described as clear and great sounding; minor complaint about a rough Cosmic Charlie edit, but no major dropouts or muffiness."
+      "technical_notes": "Generally clear, crisp and well‑balanced; several reviewers call the sound great, though one notes it isn’t as immaculate as some SBD purists expect."
     },
     "show_quality": {
       "standout_songs": [
+        "The Other One",
         "High Time",
         "Easy Wind",
         "Black Peter",
-        "Other One",
-        "Cosmic Charlie",
         "China Cat Sunflower",
-        "Cumberland"
+        "Casey Jones"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set flows from energetic early numbers (Casey Jones, Me & My Uncle) into a mellow groove with ballads and strong segues, highlighted by a powerful Other One → Cosmic Charlie sequence despite a brief cut."
+      "setlist_flow": "Reviewers describe an organized‑chaos first half that settles into a mellow groove, with tight transitions (notably The Other One → Cosmic Charlie) and strong acoustic moments that keep the momentum flowing."
     },
     "band_member_comments": {
-      "Jerry": "Leads described as razor‑sharp, perfect tone on High Time and Other One.",
+      "Jerry": "Leads described as razor‑sharp, perfect tone and atmospheric; multiple reviewers highlight his guitar work.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Tom Constanten’s last show; his playing is audible but occasionally muddled, yet shines on China Cat and High Time.",
+      "Keys": "Tom Constanten’s last show – noted as muddled at times but shines on China Cat Sunflower and High Time.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T05:31:00.525900+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Black Peter": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "High Time": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Easy Wind": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cumberland": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T22:51:10.779563+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-01-30.sbd.vernon.10546.sbeok.shnf"
   }

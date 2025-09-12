@@ -16,18 +16,18 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a stellar 2/11/70 show featuring a soaring Lovelight with Pigpen‑Allman vocal trade and a fierce Spanish Jam.",
-    "review": "The recording is a pristine soundboard source that delivers crystal‑clear audio, letting listeners hear every nuance of the performance. The concert shines on Lovelight, where Pigpen and Gregg Allman swap vocals, and on an electrifying Spanish Jam that many reviewers cite as a highlight. Overall the show is praised as one of the best, with no notable flaws reported.",
+    "summary": "Crystal‑clear soundboard capture of an electrifying show highlighted by a stellar Lovelight and one of the best Spanish Jams ever",
+    "review": "Fans rave about this partial soundboard recording, calling it crystal‑clear and giving it full marks for audio quality. The performance is described as one of the finest Lovelights heard and features an unforgettable, fierce Spanish Jam with Gregg Allman trading vocals, making the show a must‑listen.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.9,
       "confidence": "high",
-      "rationale": "Five out of six reviews award 5 stars and rave about both the music and the source quality; the single low rating appears to be an outlier while still expressing enthusiasm for the performance."
+      "rationale": "All five enthusiastic reviews award 5 stars and praise both the music and the soundboard source; only one outlier gives a 0‑star rating, so the weighted average is very high."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Multiple reviewers describe the source as 'awesome' and 'crisp', with no complaints about drop‑outs, muddiness, or balance issues."
+      "technical_notes": "Crystal‑clear soundboard capture; no reported muddiness, dropouts or balance issues – reviewers call the source \"awesome\" and give it full marks."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,16 +35,28 @@
         "Spanish Jam"
       ],
       "poor_songs": [],
-      "setlist_flow": "The concert is consistently praised as great from start to finish, with particular excitement around the Lovelight vocal trade and the intense Spanish Jam; reviewers note a tight, cohesive performance throughout."
+      "setlist_flow": "The set flows with high energy, featuring Pigpen and Gregg Allman swapping vocals on Lovelight and a ferocious Spanish Jam that many reviewers call the best they've heard. The overall vibe is described as two (or three) bands merging into one unforgettable performance."
     },
     "band_member_comments": {
-      "Jerry": "Traded vocals with Gregg Allman during Lovelight, noted positively.",
+      "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "Pigpen’s vocal contributions are highlighted and celebrated.",
+      "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T06:06:51.778899+00:00",
+    "song_mentions": {
+      "Lovelight": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Spanish Jam": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-11T23:42:02.299692+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-02-11.partial.sbd.greenberg-evans.28402.sbeok.flac16"
   }

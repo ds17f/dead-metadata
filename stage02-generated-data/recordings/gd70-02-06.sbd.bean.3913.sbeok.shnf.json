@@ -16,37 +16,69 @@
   "high_ratings": 12,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard recording with crisp, balanced mix despite several cuts; early‑70 transitional show shines on The Other One and High Time.",
-    "review": "The set captures a solid early‑1970 performance that straddles psychedelic improvisation and the emerging country‑rock vibe. Reviewers rave about the clear, well‑balanced soundboard source and highlight standout moments like a monster \"The Other One\" and a tight \"High Time,\" though multiple misplaced cuts (especially in \"Dancing In The Street\") keep it from being flawless.",
+    "summary": "Early‑70 soundboard recording with crisp, balanced mix and standout \"The Other One\", but numerous cuts and missing sections detract from an otherwise solid show.",
+    "review": "The performance captures the transitional period of early ’70 Dead – a mellow blend of country‑rock and lingering psychedelia highlighted by a thunderous The Other One and tight transitions like Cryptical into Black Peter.  Sound quality is generally excellent with clear vocals, crisp Bob, and punchy drums, yet six misplaced cuts (including a big loss in Dancing In The Street) and a slightly fast tape speed give the recording an uneven listening experience.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Average reviewer rating is ~4.3; strong show performance and good soundboard quality offset the noted cuts, leading to a high‑ish overall score."
+      "rationale": "Average reviewer rating is ~4.3; most praise the music and mix while noting cut issues, yielding a strong overall score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Crisp vocals, balanced mix, Bob's guitar clear; however six misplaced cuts and occasional “bricked” sections detract from a perfect listening experience."
+      "technical_notes": "Crisp, balanced mix with clear vocals and instruments; however six noticeable cuts (including missing portions of Dancing In The Street) and occasional speed irregularities reduce the listening experience."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One",
         "High Time",
-        "Good Lovin'",
-        "Cryptical > Black Peter"
+        "Cryptical",
+        "Black Peter"
       ],
       "poor_songs": [],
-      "setlist_flow": "Early‑70 transitional set blending country‑rock with lingering psychedelia; long two‑hour performance with solid song transitions despite a few missing segments."
+      "setlist_flow": "A smooth, transitional early‑70 set that blends laid‑back country tunes with lingering psychedelic jams; transitions such as Cryptical → Black Peter are highlighted."
     },
     "band_member_comments": {
-      "Jerry": "Singing his heart out, vocals spot‑on.",
-      "Phil": "Implied bobbing head, good bass foundation (no direct comment).",
-      "Bob": "Crisp in the mix and playing great.",
+      "Jerry": "Vocals described as “singing his heart out” and “spot on”; back‑up vocal work praised in Dancing In The Street.",
+      "Phil": "Mentioned bobbing his head during the show, indicating solid presence; no specific instrumental comment.",
+      "Bob": "Crisp in the mix and playing great throughout.",
       "Keys": "",
-      "Drums": "Drums sound great; drum segment praised in Cryptical>TOO sequence."
+      "Drums": "Drums sound great; noted as powerful and driving."
     },
-    "processed_date": "2025-09-11T05:51:34.575515+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "High Time": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cryptical": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dancing In The Street": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "total_mentions": 3
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T23:22:45.961218+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-02-06.sbd.bean.3913.sbeok.shnf"
   }

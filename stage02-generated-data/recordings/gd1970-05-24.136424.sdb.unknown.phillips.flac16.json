@@ -16,18 +16,18 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Audience recording praised for sounding better than a board tap, though the source is cut short and suffers from vintage equipment limitations.",
-    "review": "The sole reviewer gives the tape a glowing five‑star rating, noting that the audience capture actually outshines typical soundboard mixes. While the taper did an excellent job given the era’s poor gear, the recording is truncated, which detracts slightly from its overall usefulness.",
+    "summary": "Audience tape sounds better than a soundboard, impressive given old gear, but the Lovelight track is cut too short.",
+    "review": "The lone reviewer raves that this audience recording actually out‑shines typical board sources, praising the taper’s skill despite the period's poor equipment. The only criticism is that the Lovelight segment ends prematurely, but overall the audio quality is deemed excellent.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.6,
       "confidence": "low",
-      "rationale": "Only one review, but it rates the tape 5 stars and highlights strong audio quality despite being an audience source; lack of show commentary limits confidence."
+      "rationale": "A single 5‑star review praises the recording highly; no musical performance details are given, so rating leans on audio quality alone."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "good",
-      "technical_notes": "Reviewer says the audience recording beats typical board sound, praising clarity given the era’s equipment. However, it is cut short and suffers from vintage gear limitations."
+      "quality_rating": "excellent",
+      "technical_notes": "Clear and lively sound that 'beats the board'; good taper work despite vintage, poor equipment; track cut too short."
     },
     "show_quality": {
       "standout_songs": [],
@@ -41,7 +41,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T08:31:01.084864+00:00",
+    "song_mentions": {
+      "Love Light": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T03:30:38.656316+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-24.136424.sdb.unknown.phillips.flac16"
   }

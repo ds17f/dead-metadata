@@ -16,41 +16,96 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Remastered audience tape of the March 1970 late show delivers a solid early‑70s performance with standout versions of Casey Jones, Dancing in the Street, Cosmic Charlie and St. Stephen, while the cleaned‑up source still shows some pitch wobble.",
-    "review": "The three‑set concert is praised for its high‑energy jams – especially Casey Jones, Dancing in the Street, Katie Mae, Cosmic Charlie and a stellar St. Stephen sequence – though the third set loses momentum with a lackluster Midnight Hour. The recording is an audience capture (no soundboard) that has been patched and EQ’d; it sounds good overall but retains noticeable speed/pitch irregularities that require correction.",
+    "summary": "A well‑patched audience recording of an early‑70s late show that delivers standout performances of Casey Jones, Dancing in the Street and Cosmic Charlie.",
+    "review": "The three‑set late show from early 1970 is praised for its high energy and several highlight moments – crisp Casey Jones, a wildly entertaining Dancing in the Street, a superb Katie Mae, and an inspired Cosmic Charlie/​St. Stephen sequence.  Although the source is not a soundboard and required pitch‑correction patches, the remastering work makes it listenable and enjoyable.  Minor drawbacks include a bland Midnight Hour and some speed/pitch wobble throughout.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.0,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Show is consistently described as one of early‑70s best with many highlights; recording, while cleaned up, has pitch/speed issues but remains listenable. Weighted average (70% show, 30% recording) yields ~4.0 stars."
+      "rationale": "Most reviewers rate the show highly (4‑5 stars) and highlight many strong performances; recording is non‑SBD but has been carefully patched and EQ'd, yielding a good overall listening experience."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "No soundboard source; patched and EQ’d from Sony f95 tape. Pitch/speed wobble present (needs +1‑2% correction in several tracks), occasional patch at 7:31, but overall clarity is respectable for an audience capture."
+      "technical_notes": "No soundboard source; the tape was patched, cleaned up and EQ’d.  Pitch‑speed issues remain (requires +1‑2% correction on several tracks) but overall clarity is decent for an audience capture."
     },
     "show_quality": {
       "standout_songs": [
         "Casey Jones",
-        "Dancing In The Street",
+        "Dancing in the Street",
         "Katie Mae",
         "Cosmic Charlie",
-        "St. Stephen",
-        "Not Fade Away"
+        "Saint Stephen",
+        "Not Fade Away",
+        "Friend of the Devil",
+        "Dough Knees"
       ],
       "poor_songs": [
-        "Midnight Hour"
+        "Midnight Hour",
+        "Love Light"
       ],
-      "setlist_flow": "Three‑set show with an early acoustic set, followed by two electric sets. The first and second sets maintain high energy; the third set starts strong (Cosmic Charlie, St. Stephen) but tapers off toward the end."
+      "setlist_flow": "Three‑set late show that blends acoustic and electric material; early set is tight with a long jam on Dancing in the Street, second set features the fan‑requested acoustic numbers, and the third set showcases peak early‑70s energy before winding down."
     },
     "band_member_comments": {
-      "Jerry": "Praised for tight, crisp playing on Casey Jones and inventive riffs on Not Fade Away; noted to meander on single notes during Midnight Hour.",
+      "Jerry": "Garcia smiles at the cop incident and delivers strong lead work on many cuts, but his playing on Midnight Hour is described as meandering single notes.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T07:07:02.090850+00:00",
+    "song_mentions": {
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dancing in the Street": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Friend of the Devil": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dough Knees": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Katie Mae": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Saint Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Midnight Hour": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Love Light": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T01:10:19.431049+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-03-21.144604.late.sonyf95.remaster.lee.hance.sirmick.flac1644"
   }

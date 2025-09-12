@@ -16,34 +16,41 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard excerpt with crystal‑clear audio and a stellar Love Light performance, but only a short fragment of the concert is available.",
-    "review": "The recording captures about thirty minutes of a 1970 show with superb sound quality – reviewers rave about its clarity and the band’s inspired playing. Jerry’s feedback solo around the 18‑minute mark is highlighted as a standout moment, though fans are left wanting the missing Dark Star > St. Stephen segment and the rest of the set.",
-    "sentiment": "positive",
+    "summary": "Excellent soundboard snippet with a superb Love Light, but the rest of the 1970 show is missing.",
+    "review": "The short excerpt captures crystal‑clear soundboard quality and a high‑energy band performance, highlighted by Jerry Garcia’s fiery feedback solo during the Love Light jam. Reviewers rave about the audio fidelity, yet all express frustration that only ~30 minutes are available and the remainder of the concert—including the promised Dark Star > St. Stephen—was never released.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.2,
-      "confidence": "medium",
-      "rationale": "Reviews consistently praise the audio fidelity and musical performance (average star rating ~3.8, with four 5‑star comments). The strong recording quality and enthusiastic band playing outweigh the disappointment of an incomplete show."
+      "confidence": "high",
+      "rationale": "All five reviewers praise the audio clarity and band inspiration, especially Jerry’s solo, while consistently lamenting the missing bulk of the show; this yields a strong musical rating offset by the incomplete recording."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Crisp, clear mix; reviewers describe the sound as ‘excellent sq’ despite the excerpt being short. No notable drop‑outs or muddiness mentioned."
+      "technical_notes": "Crisp, clear sound with no reported distortion or drop‑outs; reviewers note the snippet sounds great despite its brevity."
     },
     "show_quality": {
       "standout_songs": [
         "Love Light"
       ],
       "poor_songs": [],
-      "setlist_flow": "Only a ~30‑minute snippet is present, featuring an energetic Love Light segment with strong transitions; reviewers note the missing remainder of the concert (Dark Star > St. Stephen and beyond) as a major loss."
+      "setlist_flow": "Only a ~30‑minute segment is present, so overall set flow can’t be judged; the excerpt feels tight and energetic."
     },
     "band_member_comments": {
-      "Jerry": "Feedback solo around 18:00 highlighted as a highlight.",
+      "Jerry": "Garcia delivers an inspired feedback solo around the 18:00 mark of the Love Light jam.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T07:21:34.868227+00:00",
+    "song_mentions": {
+      "Love Light": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T01:31:14.528488+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-04-11.132470.sbd.bear.latvala.wise.flac16"
   }

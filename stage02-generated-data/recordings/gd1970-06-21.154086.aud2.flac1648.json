@@ -16,36 +16,59 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Echoey audience recording of a mixed‑quality show with a novel Not Fade Away→St Stephen segue and strong St Stephen, but overall uneven performance.",
-    "review": "The tape captures an audience‑only sound in a cavernous hall that is often muddy and echo‑filled, lacking any soundboard feed. Musically the concert has moments of interest – notably a rare NFA into St Stephen transition, a shredding Easy Wind, and a powerful St Stephen – yet many listeners find the set uneven and the show forgettable overall.",
+    "summary": "Cavernous audience recording with echoey sound, but standout Easy Wind, Candyman and a rare NFA→St Stephen segue give it some merit despite an overall uneven performance.",
+    "review": "The tape captures an audience‑recorded show in a large hall that sounds reverberant and at times skippable, with no soundboard feed. Musically the concert offers highlights such as a shredding Easy Wind, Jerry’s moaning on Candyman, a strong St Stephen, and a novel The Other One → St Stephen transition that reviewers find worth repeated listens.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.8,
-      "confidence": "low",
-      "rationale": "One strongly negative review highlights poor recording quality and a bland performance, while another praises a unique song segue; with limited data the combined weighted score yields an average‑below‑mid rating."
+      "stars": 3.4,
+      "confidence": "medium",
+      "rationale": "One reviewer rates the show very low due to poor recording quality, while another praises a unique song segue; overall performance is mixed and the audience source is only fair, leading to an average‑ish rating."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "poor",
-      "technical_notes": "Cavernous hall sound with pronounced echo, no soundboard source, occasional gunshot/pigpen noise, abrupt ending; overall muddy and less clear."
+      "quality_rating": "fair",
+      "technical_notes": "Echoey, cavernous hall sound with noticeable reverberation; no soundboard cut; audio improves deeper into the set but remains less clear than a typical soundboard recording."
     },
     "show_quality": {
       "standout_songs": [
         "Easy Wind",
-        "Not Fade Away",
-        "St. Stephen"
+        "Candyman",
+        "St. Stephen",
+        "The Other One"
       ],
       "poor_songs": [],
-      "setlist_flow": "Unusual NFA→St Stephen segue flips the typical order, providing a fresh jam structure; pacing is uneven and the concert ends abruptly."
+      "setlist_flow": "The concert features an unusual NFA (The Other One) → St Stephen segue that flips the typical order, and it ends abruptly; overall pacing is uneven but contains strong moments."
     },
     "band_member_comments": {
-      "Jerry": "His vocal moans on Candyman are noted by reviewers.",
+      "Jerry": "His moaning on Candyman is noted positively.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": ""
+      "Drums": "A gunshot/pistol sound appears during St Stephen, unclear if it’s a drum effect or a shotgun."
     },
-    "processed_date": "2025-09-11T08:56:36.702143+00:00",
+    "song_mentions": {
+      "Easy Wind": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Candyman": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T04:06:49.933145+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-06-21.154086.aud2.flac1648"
   }

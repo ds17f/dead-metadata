@@ -16,40 +16,89 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A joyous acoustic‑first show captured on an audience tape with good enough sound to enjoy the historic first performances.",
-    "review": "The August 19 1970 Fillmore West set is prized for its historic moments – the debut of Ripple, Brokedown Palace, Operator and Truckin’ – and a soaring acoustic segment that many reviewers call “motherlovin' wonderful.”  The audience recording isn’t pristine, but it’s clear enough to hear Pig’s surprise piano work and the band’s loose‑but‑fun vibe; a few fans note it’s a bit sloppy and recommend a later Jones‑Minches mix for superior fidelity.",
-    "sentiment": "mixed",
+    "summary": "High‑energy Aug 19 1970 Fillmore West show with a stellar acoustic set (first Ripple, Truckin', Brokedown Palace) captured on an audience tape of good quality.",
+    "review": "The recording delivers a joyous acoustic set—highlighted by the debut of Ripple and early renditions of Truckin' and Brokedown Palace—and a tight electric portion where Cold Rain and Snow, China Cat Sunflower → Good Lovin', and Not Fade Away → Love Light soar.  While the tape is an audience source with occasional sloppiness, reviewers consistently praise its clarity enough to enjoy the performance.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Strong musical significance with several first‑time songs and an engaging acoustic set outweighs modest recording imperfections; most reviewers rate 4–5 stars."
+      "rationale": "Strong musical performance with many standout songs and historic firsts; recording is an audience tape but generally clear, yielding a solid overall experience."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Variable sound quality – some describe it as “great,” others note it’s not the best version available.  The tape captures the acoustic piano (Pig) and overall ambience, though a few listeners find it a bit sloppy and recommend an alternate Jones‑Minches source."
+      "technical_notes": "Listeners note the sound quality varies—some sections are crisp while others feel a bit sloppy—but overall it is listenable and captures the acoustic vibe well."
     },
     "show_quality": {
       "standout_songs": [
-        "Ripple (first performance)",
+        "Ripple",
         "Brokedown Palace",
         "Operator",
         "Truckin'",
         "Cold Rain and Snow",
-        "China Cat Sunflower > Good Lovin'",
-        "Not Fade Away > Love Light"
+        "China Cat Sunflower",
+        "Good Lovin'",
+        "Not Fade Away",
+        "Love Light"
       ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic first set that builds excitement, followed by a classic electric second half; the show feels loose but joyful, with historic debuts punctuating the flow."
+      "setlist_flow": "Acoustic set opens the night with historic first performances, then transitions smoothly into a high‑energy electric set; reviewers highlight the seamless flow from China Cat Sunflower through Good Lovin' as a peak."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "Pig (Ron \"Pig\" McKernan) is heard on acoustic piano during the set, surprising many listeners.",
+      "Keys": "Pig's piano on How Long Blues is noted as surprisingly good, adding a fun touch to the acoustic set.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T09:51:16.229825+00:00",
+    "song_mentions": {
+      "Ripple": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Brokedown Palace": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Operator": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cold Rain and Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Love Light": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T05:39:50.032367+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-08-19.aud.taback.minches.81605.flac16"
   }

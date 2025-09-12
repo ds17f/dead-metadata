@@ -145,52 +145,54 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Stellar Lovelight duet with Janis & Pigpen plus tight Not Fade Away jam",
-    "blurb": "The show features a historic Janis Joplin guest spot on Turn On Your Lovelight and a soaring Candyman. The second set delivers a blistering Not Fade Away that flows into Saint Stephen, highlighted by crystal‑clear guitar tones and tight band interplay.",
-    "review": "On July 16, 1970 at the Euphoria Ballroom, the Dead served up one of the most memorable guest moments in their early years – Janice Joplin joining Ron \"Pigpen\" McKernan and Jerry for an electrifying Turn On Your Lovelight duet that still feels fresh. The first set rides a smooth wave from Me And My Uncle through a classic China Cat Sunflower → I Know You Rider segue into the heartfelt Candyman, keeping the energy high throughout. The second set is pure fire: a tight‑knit Not Fade Away blossoms into Saint Stephen with Jerry’s “crystal‑clear” guitar tone soaring, while Bob Weir locks in on rhythm and lead. Attics Of My Life and Cumberland Blues add depth, and the encore of Turn On Your Lovelight* rounds out a night that captures both historic guest magic and the band’s tight early‑70s chemistry.",
+    "summary": "Lovelight duet + monster Not Fade Away jam make this a classic",
+    "blurb": "The set bursts with high‑energy Lovelight featuring Janis Joplin and Pigpen, while the second set delivers a smoking Not Fade Away into Saint Stephen and an inspired Attics Of My Life. Jerry’s guitar is described as sexy and on fire, and Bob shines on the extended jams.",
+    "review": "July 16 1970 at San Rafael’s Euphoria Ballroom captured one of the most legendary collaborations in Dead history – Janis Joplin dropping in for a jaw‑dropping Turn On Your Lovelight duet with Ron \"Pigpen\" McKernan. The first set rides that excitement straight into a fiery Candyman and keeps the momentum rolling with classic staples like China Cat Sunflower › I Know You Rider. By the second set the band is locked in: a smoking Not Fade Away jam rockets into Saint Stephen, while Attics Of My Life and Cumberland Blues add high‑octane peaks. Reviewers repeatedly note Jerry Garcia’s “sexy” tone and interplay with Janis, Bob Weir’s top‑form rhythm work on the jams, and Pigpen’s organ growls that anchor the guest spots. The soundboard captures are crisp – from Charlie Miller’s pristine digital transfer to the Clugston tape source – preserving every banter, profanity‑spiked quip (“Aw Fuck!”) and spontaneous spark that made this night mythic.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.8,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 30,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd70-07-16.sbd.clugston.6485.sbeok.shnf",
-      "reason": "Crisp, well‑balanced soundboard capture that preserves the Janis Joplin guest spot and the tight band interplay despite a slight tape hiss"
+      "reason": "Crisp soundboard capture with clear stage banter and solid mix; despite slight tape hiss it delivers the full energy of the Lovelight duet and overall set."
     },
     "key_highlights": [
-      "Janis Joplin & Pigpen duet on Turn On Your Lovelight",
-      "Soaring Candyman performance",
-      "Blazing Not Fade Away jam with seamless transition into Saint Stephen",
-      "Gorgeous Attics Of My Life and crystal‑clear guitar tone throughout"
+      "Jaw‑dropping Turn On Your Lovelight duet with Janis Joplin and Pigpen",
+      "Smoking Not Fade Away jam that segues flawlessly into Saint Stephen",
+      "High‑energy Attics Of My Life performance",
+      "Candyman guest spot by Janis adding extra fire"
     ],
     "song_highlights": [
       "Turn On Your Lovelight",
-      "China Cat Sunflower",
-      "I Know You Rider",
       "Candyman",
       "Not Fade Away",
-      "Saint Stephen",
-      "Attics Of My Life"
+      "Attics Of My Life",
+      "Cumberland Blues",
+      "Saint Stephen"
     ],
     "band_performance": {
-      "Jerry": "His guitar is described as sexy and crystal‑clear, delivering a quick‑fire comment before Lovelight and leading the tight Not Fade Away jam with standout interplay.",
+      "Jerry": "Garcia’s guitar is repeatedly called “sexy,” with a scorching tone and playful banter that fuels the Lovelight duet and powers the Not Fade Away jam.",
       "Phil": "",
-      "Bob": "On top of his game with rhythm/lead work on Not Fade Away and solid support throughout the set.",
+      "Bob": "Bob Weir is described as being on top of his game, delivering an extraordinary rhythm performance especially during the extended jams.",
       "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-11T09:36:21.437515+00:00",
+    "processed_date": "2025-09-12T05:13:39.954196+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
         "Turn On Your Lovelight"
-      ],
-      [
-        "China Cat Sunflower",
-        "I Know You Rider"
       ],
       [
         "Candyman"
@@ -201,6 +203,9 @@
       ],
       [
         "Attics Of My Life"
+      ],
+      [
+        "Cumberland Blues"
       ]
     ]
   }

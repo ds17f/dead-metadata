@@ -16,42 +16,86 @@
   "high_ratings": 13,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clean sound‑board capture of a short, mellow January 1970 Hawaii set highlighted by a stellar Mason's Children and Pigpen’s King Bee.",
-    "review": "The recording delivers surprisingly crisp audio for a 1970 soundboard source, with only occasional drop‑outs and minor pitch quirks noted by one reviewer. Musically the show is praised for its relaxed flow, a slower‑than‑usual Me & My Uncle, a powerhouse Pigpen finale, and standout performances of Mason's Children, Cumberland Blues, Black Peter and Good Lovin'.",
+    "summary": "Excellent soundboard recording of a short, mellow Hawaii show highlighted by a stellar Mason's Children and standout Cumberland Blues",
+    "review": "Fans rave about the clean, crisp soundboard capture of this brief January‑1970 Honolulu set, noting its sweet mix and minimal tape noise. Musically the performance shines with a slower, soulful Me & My Uncle, a fierce King Bee, and what many call the best version of Mason's Children, while the overall flow is described as island‑friendly and mellow.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Most reviewers give 5‑star ratings and highlight both excellent performance moments and high‑quality sound; only a single detailed review notes minor dropouts, keeping the overall score in the good‑to‑excellent range."
+      "rationale": "Overwhelmingly positive comments on both performance (standout songs, strong playing) and recording quality (clean, crisp soundboard), with only minor notes of drop‑outs/pitch issues."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Generally clean and clear for a 1970 SBD; reviewers call it \"awesome\" and \"the cleanest Mason's I've found\", with one note about occasional drop‑outs and slight pitch correction needed."
+      "quality_rating": "excellent",
+      "technical_notes": "Cleanest Mason's Children found; crisp mix throughout. A few reviewers note occasional SBD drop‑outs and a slight pitch correction needed, but overall the tape sounds superb for 1970."
     },
     "show_quality": {
       "standout_songs": [
         "Mason's Children",
         "Cumberland Blues",
-        "King Bee",
-        "Me & My Uncle (slower version)",
         "Black Peter",
         "Good Lovin'",
-        "Feedback > And We Bid You Goodnight"
+        "King Bee",
+        "Me & My Uncle"
       ],
-      "poor_songs": [
-        "Good Lovin' (contains a cut)"
-      ],
-      "setlist_flow": "A short, single‑set show with a mellow early flow that builds into an energetic Pigpen finale; the pacing feels natural despite its brevity."
+      "poor_songs": [],
+      "setlist_flow": "Short single‑set show with a mellow, island‑friendly flow; tight pacing despite limited runtime, highlighted by strong pigpen finale and cohesive jams."
     },
     "band_member_comments": {
-      "Jerry": "Praised for inventive phrasing on Black Peter, strong guitar work on Mason's Children and Good Lovin', and a slower, tasteful Me & My Uncle.",
+      "Jerry": "Praised for impressive phrasing on Black Peter, best Hawaiian guitar work, a slower Me & My Uncle, and solid dancing on Mason's Children.",
       "Phil": "",
-      "Bob": "",
+      "Bob": "String break noted during Me & My Uncle but otherwise not highlighted.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T05:29:38.905461+00:00",
+    "song_mentions": {
+      "Mason's Children": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Black Peter": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Good Lovin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "King Bee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Rain & Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dancing in the Street": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Feedback > And We Bid You Goodnight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T22:48:22.378831+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-01-24.sbd.kaplan.7890.sbeok.shnf"
   }

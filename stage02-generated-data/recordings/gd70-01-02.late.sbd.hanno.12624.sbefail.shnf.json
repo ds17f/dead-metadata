@@ -16,18 +16,18 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good‑quality soundboard capture of a fiery early‑1970 show with standout Mason’s Children, Cosmic Charlie and an epic Dark Star, though cuts and speed wavers keep it from perfect.",
-    "review": "The performances are consistently strong – the band rolls out a hot Mason's Children, a crisp Casey Jones, soulful Black Peter and a legendary Cosmic Charlie that many reviewers cite as a highlight. The recording is a soundboard source that sounds clear enough to enjoy, but suffers from occasional cuts, speed/pitch wavers and missing fragments that require patching.",
+    "summary": "A powerhouse early‑1970 set – Cosmic Charlie, Dark Star and Mason’s Children shine – captured on a decent but imperfect soundboard source.",
+    "review": "The performances are consistently strong, with reviewers calling the show a top‑ten 1970 outing thanks to fiery renditions of Mason’s Children, Casey Jones, Black Peter, a classic Cosmic Charlie segue and a monster Dark Star. The recording is a sound‑board (SBD) source that is generally usable but suffers from cuts, channel swaps and speed/pitch wavering that require correction, keeping the technical rating a step below the musical excellence.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical flow and several key jams, rating the show 4‑5 stars, while noting recording glitches that prevent a perfect score."
+      "rationale": "Most reviewers praise the musical performance (many 4‑5 star comments) while noting consistent recording flaws; weighted average yields a strong rating around 4.2."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear SBD with some nasty cuts, speed/pitch wavers and missing sections (e.g., parts of Cosmic Charlie, China Cat, Dark Star). A few sources sound thinner; balance/volume tweaks are recommended."
+      "technical_notes": "Clear enough to enjoy but riddled with occasional cuts, missing sections and speed/pitch wavering. Some sources are thinner or have channel‑swap issues; listeners often need pitch correction for certain tracks."
     },
     "show_quality": {
       "standout_songs": [
@@ -36,22 +36,86 @@
         "Black Peter",
         "Cosmic Charlie",
         "Dark Star",
-        "The Other One",
-        "High Time"
+        "High Time",
+        "Hard to Handle",
+        "Mama Tried"
       ],
       "poor_songs": [
-        "Cumberland"
+        "Cumberland",
+        "Easy Wind"
       ],
-      "setlist_flow": "Early and late shows flow with high energy; seamless segues (e.g., Cryptical → Cosmic Charlie) keep the momentum, though missing acoustic set and a few faltering moments prevent an uninterrupted arc."
+      "setlist_flow": "The early show leans heavily on classic era material and flows through a superb Cosmic Charlie segue, while the late show builds into an expansive Dark Star. Reviewers note the transitional 1970 period – the set feels experimental yet consistently intense."
     },
     "band_member_comments": {
-      "Jerry": "Garcia cuts loose especially in Dark Star and The Other One, delivering a prototype MLB‑style jam.",
+      "Jerry": "Praised for cutting loose in the Dark Star jam and delivering a prototype MLB‑style solo; his thematic work (D>A>E>D) is highlighted.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Tom Constanten’s organ shines on Cosmic Charlie, High Time and the late‑show Dark Star; Pigpen’s organ adds texture early on.",
-      "Drums": "Mickey Hart’s percussion is highlighted as creative and powerful (Casey Jones, High Time), with tumbling drums driving several jams."
+      "Keys": "Constanten’s organ work is singled out as a highlight, especially on Cosmic Charlie and Hard to Handle; Pigpen’s organ presence noted in the Dark Star section.",
+      "Drums": "Mickey’s percussion receives praise for creativity on Casey Jones and tumbling drums on High Time; overall drum work described as crisp and funky."
     },
-    "processed_date": "2025-09-11T04:59:08.559041+00:00",
+    "song_mentions": {
+      "Mason's Children": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Casey Jones": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Black Peter": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cumberland": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "High Time": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Hard to Handle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Mama Tried": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Monkey & the Engineer": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Easy Wind": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-11T21:59:22.386566+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-01-02.late.sbd.hanno.12624.sbefail.shnf"
   }

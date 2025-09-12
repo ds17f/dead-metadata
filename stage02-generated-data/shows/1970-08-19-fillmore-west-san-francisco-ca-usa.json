@@ -224,45 +224,53 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Lovelight fireworks, first Ripple, lively acoustic half, solid electric jam",
-    "blurb": "The acoustic half showcases How Long Blues, Candyman and the debut of Ripple with bright piano from Pigpen. The electric second set drives forward with China Cat Sunflower > I Know You Rider, multiple Good Lovin' renditions and a scorching Turn On Your Lovelight. Overall playing is tight, energetic and full of historic firsts.",
-    "review": "On August 19, 1970 at the Fillmore West the Dead delivered a two‑part marathon that still feels fresh decades later. The first set leans heavily on acoustic textures – Pigpen’s upright piano adds a crisp, percussive backbone to How Long Blues and Candyman, while Jerry’s expressive guitar and pedal‑steel weave around the band’s tight rhythm section. The highlight is the very first live performance of \"Ripple\", which glides effortlessly into the warm harmonies of \"Brokedown Palace\".\n\nThe electric second set kicks off with a bright \"Cold Rain And Snow\" before launching into a classic mid‑show flow: \"China Cat Sunflower\" segues into \"I Know You Rider\", then rolls through \"Saint Stephen\" and a powerhouse \"Good Lovin'\" sandwich around the drum duet. The climactic \"Not Fade Away > Turn On Your Lovelight\" sequence is blistering, with Jerry’s soaring solos, Phil’s lively bass lines, and Pigpen’s piano punctuating the jam. Though captured from audience tapes, the best recording (Taback’s cassette) offers surprisingly clear separation and vivid mids that let every instrument shine.",
+    "summary": "Acoustic gems, Lovelight peaks, high‑energy electric set",
+    "blurb": "The show opens with a beautifully tight acoustic set featuring first‑time performances of Ripple and Brokedown Palace. The second half erupts into a high‑energy electric stretch highlighted by China Cat Sunflower → I Know You Rider, Good Lovin' and a soaring Turn On Your Lovelight. Jerry’s pedal‑steel work and Pigpen’s piano add extra sparkle.",
+    "review": "On August 19, 1970 at the Fillmore West the Dead delivered one of their most memorable early‑summer outings. The acoustic set is a standout – listeners rave about the historic first renditions of “Ripple” and “Brokedown Palace,” plus Pigpen’s surprisingly lively piano on “How Long Blues” and his honky‑tonk touch throughout. Jerry Garcia layers pedal‑steel wizardry into songs like “New Speedway Boogie” and provides tasteful lead work on the soaring second‑set “Good Lovin'.” The electric half never loses momentum, with a seamless flow from “China Cat Sunflower” into “I Know You Rider,” a blistering “Saint Stephen,” and the climactic double‑take of “Good Lovin’” that leads into a rousing “Turn On Your Lovelight.” Phil Lesh’s bass is especially clear on this audience tape, thanks to Taback’s mic placement, while the drums keep a solid groove despite the lack of detailed commentary. Overall, the performance captures the band at a creative peak, and the recommended Taback recording presents the clearest picture of that magic.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 3.6,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 15,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.0,
+        "final_calculation": "2.5 + 0.1 + 1.0 = 3.6"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-08-19.aud.taback.cdjones.81775.sbeok.flac16",
-      "reason": "Good audience cassette with clear mic placement, bright mids and enough fidelity to capture the acoustic piano and electric jams; most reviewers cite it as the clearest, most enjoyable source."
+      "reason": "High‑quality audience tape with excellent mic placement that captures the acoustic set’s detail and the electric set’s energy, delivering the clearest overall listening experience."
     },
     "key_highlights": [
-      "Lovelight sequence ignites the second set and showcases Jerry’s soaring soloing",
-      "First ever live performance of \"Ripple\" captured with bright piano accompaniment",
-      "Pigpen's upright piano adds crisp texture throughout the acoustic half"
+      "Beautifully arranged acoustic set with historic first performances of Ripple and Brokedown Palace",
+      "Stellar “Turn On Your Lovelight” climax in the second set",
+      "Jerry’s pedal‑steel wizardry and expressive solos shine throughout",
+      "Pigpen’s piano adds depth to the acoustic numbers"
     ],
     "song_highlights": [
       "How Long Blues",
       "Candyman",
       "Ripple",
       "Brokedown Palace",
+      "Truckin'",
       "Cold Rain And Snow",
       "China Cat Sunflower",
-      "I Know You Rider",
       "Good Lovin'",
-      "Not Fade Away",
-      "Turn On Your Lovelight"
+      "Not Fade Away***",
+      "Turn On Your Lovelight***"
     ],
     "band_performance": {
-      "Jerry": "Expressive guitar solos, pedal‑steel flourishes and dynamic playing; also adds piano/keyboard texture that brightens the acoustic numbers.",
-      "Phil": "Lively, tight bass definition that drives both halves of the show.",
-      "Bob": "Solid rhythm guitar and vocal contributions, especially effective on Good Lovin' and New Minglewood Blues.",
+      "Jerry": "Shows pedal‑steel wizardry, expressive solos (e.g., New Speedway Boogie) and tasteful lead work on Good Lovin', driving the set’s emotional peaks.",
+      "Phil": "Lively, well‑defined bass that shines thanks to clear mic placement, anchoring both acoustic and electric portions.",
+      "Bob": "",
       "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-11T09:52:35.956537+00:00",
+    "processed_date": "2025-09-12T05:41:32.370280+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -277,6 +285,9 @@
         "Brokedown Palace"
       ],
       [
+        "Truckin'"
+      ],
+      [
         "Cold Rain And Snow"
       ],
       [
@@ -287,6 +298,10 @@
         "Good Lovin'",
         "Drums",
         "Good Lovin'"
+      ],
+      [
+        "Not Fade Away***",
+        "Turn On Your Lovelight***"
       ]
     ]
   }

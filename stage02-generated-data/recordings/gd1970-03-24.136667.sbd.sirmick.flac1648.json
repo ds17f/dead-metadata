@@ -16,38 +16,52 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording praised for its crisp clarity, capturing a fiery Dark Star → Other One stretch and solid early‑70s psychedelic jams.",
-    "review": "The sbd source is described as “top notch” and even “crispy,” indicating a clean, well‑balanced capture. Reviewers highlight the high‑energy Dark Star/Other One sequence along with classic numbers like St. Stephen and Not Fade Away, though comments are scattered and overall sentiment is mixed.",
+    "summary": "Recording praised for top‑notch, crispy sound but source unknown; the show shines on Dark Star and The Other One jams while overall fan feedback is mixed.",
+    "review": "One reviewer notes the recording sounds \"top notch\" and \"crispy,\" suggesting a high‑quality capture despite no clear indication of source type. The performance is highlighted for its intense Dark Star/Other One segment and a strong “Don’t Ease” jam, though other comments are vague or unrelated, resulting in mixed overall sentiment.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.5,
+      "stars": 2.5,
       "confidence": "medium",
-      "rationale": "Positive remarks about sound quality and several standout songs offset by vague, low‑rated and disjointed feedback; limited number of reviews yields moderate confidence."
+      "rationale": "Three reviews give ratings of 3, 4 and 0; comments praise the sound and certain jams but also contain irrelevant or negative remarks, leading to a modest average rating."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "unknown",
       "quality_rating": "good",
-      "technical_notes": "Reviewers note \"top notch\" and \"crispy\" sound with no reported drop‑outs or distortion; overall a clear, well‑mixed capture."
+      "technical_notes": "Reviewer calls the sound \"top notch\" and \"crispy,\" indicating clear and well‑balanced audio despite no details on whether it is soundboard or audience."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "The Other One",
-        "St. Stephen",
-        "Not Fade Away",
-        "Me & My Uncle"
+        "The Other One"
       ],
       "poor_songs": [],
-      "setlist_flow": "A rapid‑fire, mojo‑filled set that jumps between keys and moods, delivering classic psychedelic peaks despite a somewhat rambling description."
+      "setlist_flow": "Reviewer mentions the band’s quick‑burst mojo and strong jams, suggesting a concise, high‑energy set that rides hard through the highlighted tunes."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s urgent lead on The Other One is specifically praised.",
+      "Jerry": "Garcia’s lead on The Other One described as urgent; overall guitar work praised via \"crispy\" sound.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T07:11:13.670187+00:00",
+    "song_mentions": {
+      "Don't Ease": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-12T01:16:51.444093+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-03-24.136667.sbd.sirmick.flac1648"
   }

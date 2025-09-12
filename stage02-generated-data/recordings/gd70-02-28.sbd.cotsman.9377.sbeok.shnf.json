@@ -16,40 +16,93 @@
   "high_ratings": 11,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crystal‑clear soundboard capture of a 1970 show highlighted by a Lovelight sandwich, superb Mason’s Children jam and a tasty acoustic interlude.",
-    "review": "The recording is an excellent sound‑board mix that lets every instrument shine – Phil’s bass is especially clear and the overall balance is praised as “super mix.”  Musically the concert delivers strong moments: an early Lovelight → Me & My Uncle opening, a concise but gorgeous acoustic set (Little Sadie, Black Peter), a fiery Mason’s Children, and solid jams on Alligator, The Other One and China Cat > Rider.  While a few reviewers note the show never quite “catches fire” after The Other One, the set‑list flow and surprise segues keep the performance engaging.",
+    "summary": "Excellent soundboard capture of a varied 1970 show highlighted by a Lovelight sandwich and a standout Mason’s Children jam.",
+    "review": "The recording is a clean sound‑board mix with crisp instrument separation and excellent dynamics, though the acoustic interlude was cut short by monitor problems. Musically the concert offers a nice variety – an early Lovelight opening, a brief but superb acoustic set (Little Sadie, Black Peter), and a second half that builds to a fiery Mason’s Children and The Other One, with Alligator and extended drum work adding extra excitement.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Over a dozen detailed reviews overwhelmingly rate the show 4–5 stars, praising both musical highlights and the pristine soundboard recording; only a few low‑star or irrelevant comments lower the average slightly."
+      "rationale": "Most reviewers (average ★4.4) praise both the performance and the recording; only a few notes of minor flaws keep the rating just below the top tier."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "excellent",
-      "technical_notes": "Crisp, clear mix with superb instrument separation; reviewers note “super mix,” “great dynamics,” and “excellent sound.” One comment mentions a short acoustic set due to monitor issues but the overall fidelity remains high."
+      "quality_rating": "good",
+      "technical_notes": "Crisp, well‑balanced soundboard tape with clear instrument definition (especially bass). Excellent dynamics and mix, though monitor issues shortened the acoustic segment."
     },
     "show_quality": {
       "standout_songs": [
-        "Lovelight > Me & My Uncle (opening sandwich)",
-        "Acoustic Black Peter",
-        "Little Sadie (acoustic)",
+        "Lovelight",
         "Mason's Children",
-        "Alligator",
         "The Other One",
-        "China Cat Sunflower > I Know You Rider"
+        "Acoustic Black Peter",
+        "Little Sadie",
+        "Alligator"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Unusual Lovelight sandwich bookends the show, with a brief folk‑rock acoustic interlude that builds suspense before launching into electric jams; the second half features tight segues (Alligator → The Other One → Mason's Children) and a climactic return to Lovelight."
+      "poor_songs": [
+        "The Other One"
+      ],
+      "setlist_flow": "Unusual set order starts with a fresh Lovelight opening, followed by a short acoustic sandwich that sets a relaxed mood before the electric second half ramps up through Alligator, The Other One and culminates in an extended Mason's Children jam."
     },
     "band_member_comments": {
-      "Jerry": "No specific critique of his playing, but reviewers reference “the last Masons? Say it ain’t so Jerry,” indicating his presence in the jam.",
-      "Phil": "Repeatedly praised for clear, “taught” bass that sits perfectly in the mix; not thumpy at all.",
+      "Jerry": "Opening Lovelight described as crisp and energetic; no specific criticism of his playing.",
+      "Phil": "Bass praised for clarity and tightness – “not thumpy, but taught.”",
       "Bob": "",
       "Keys": "",
-      "Drums": "Drum duo highlighted as “primo” and part of a “four‑armed beast Shiva dancing,” especially during the Alligator → The Other One transition."
+      "Drums": "Drum duo highlighted as strong, especially the extended excursions between Alligator and The Other One."
     },
-    "processed_date": "2025-09-11T06:42:53.369839+00:00",
+    "song_mentions": {
+      "Lovelight": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "total_mentions": 4
+      },
+      "Mason's Children": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Alligator": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Little Sadie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Caution": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T00:34:49.559190+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-02-28.sbd.cotsman.9377.sbeok.shnf"
   }

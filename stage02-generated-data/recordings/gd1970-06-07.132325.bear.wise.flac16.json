@@ -16,35 +16,47 @@
   "high_ratings": 11,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crystal‑clear audience recording captures a rare 1970 performance with standout Cryptical Reprise and an intense Other One sequence.",
-    "review": "The Bear/James Wise tape delivers superb, crystal‑clear sound that lets listeners hear the acoustic opening and the cosmic second set in vivid detail. While most fans praise the show’s rarity and highlight moments like the Cryptical Reprise and a focused thirty‑minute Other One stretch, a few note that the overall playing can feel unfocused at times.",
-    "sentiment": "positive",
+    "summary": "Crystal‑clear audience recording of a rare 1970 show with standout Other One and Cryptical Reprise performances.",
+    "review": "The Bear/Jim Wise tape delivers an exceptionally clear, almost studio‑like sound that lets listeners hear every nuance of this elusive 1970 concert.  While most fans rave about the soaring Other One sequence and a memorable Cryptical Reprise, a few note that the playing is occasionally unfocused, making the overall performance solid but not flawless.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.4,
       "confidence": "high",
-      "rationale": "Average rating ~4.4 from many 5‑star reviews; strong praise for recording quality and several standout performance moments outweighs a few mixed comments."
+      "rationale": "Overwhelming praise for recording clarity (30% weight) and generally strong musical moments (70% weight), with only a handful of modest criticisms keeping the rating just below “exceptional”."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "excellent",
-      "technical_notes": "Listeners describe the tape as crystal clear, beautiful, and crisp—exceptional fidelity for an audience recording, with no noted drop‑outs or muddiness."
+      "technical_notes": "Crystal‑clear, crisp sound; superb mic placement captures both ambience and detail without noticeable muddiness or dropouts."
     },
     "show_quality": {
       "standout_songs": [
-        "Cryptical Reprise",
-        "The Other One"
+        "The Other One",
+        "Cryptical Reprise"
       ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic tunes open the first set, leading into a more cosmic second set; some reviewers find the electric portion a bit unfocused but praise a sustained, intense Other One segment."
+      "setlist_flow": "Acoustic‑focused first set that transitions into a cosmic, exploratory second set; overall flow praised though some reviewers felt parts of the electric set were a bit unfocused."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s vocal is de‑emphasized on this night, but his guitar work during the Other One sequence is noted as intense and precise.",
+      "Jerry": "Garcia's vocal is largely buried in favor of a mysterious “yodeler”; no specific guitar commentary.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "The drummers lock in for powerful, rhythmic moments that lift the crowd’s enthusiasm."
+      "Drums": "The drummers lock in during high‑energy moments, driving the crowd into a frenzy."
     },
-    "processed_date": "2025-09-11T08:51:00.724386+00:00",
+    "song_mentions": {
+      "Cryptical Reprise": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T03:58:45.125882+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-06-07.132325.bear.wise.flac16"
   }

@@ -16,41 +16,82 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Cleaned‑up soundboard capture delivers a solid early‑1970 Dead show with a killer acoustic set, a scorching Lovelight, and raunchy Viola Lee Blues.",
-    "review": "The SBD source has been stripped of much tape hiss and offers decent instrument separation, though some distortion and low organ levels remain. Musically the concert is an above‑average early‑’70 performance – the acoustic segment shines, Black Peter is tight, and the electric set delivers a fiery Viola Lee Blues and a memorable Lovelight with classic Pigpen banter.",
+    "summary": "Cleaned‑up soundboard tape captures a solid early‑1970 show, highlighted by a scorching Viola Lee Blues and a fiery Lovelight.",
+    "review": "The new SBD transfer removes much of the original hiss and separates the instruments enough to make this classic early‑70 performance enjoyable, though occasional distortion and low Pig Pen organ levels keep it from being perfect. Musically the show is above average – the acoustic set shines with Deep Elem Blues and Friend of the Devil, while the electric portion delivers a blistering Viola Lee Blues and an unforgettable Lovelight rap.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.0,
-      "confidence": "medium",
-      "rationale": "Strong musical moments and an improved soundboard transfer boost the rating, but lingering tape hiss, occasional distortion, and uneven song quality keep it from higher marks."
+      "stars": 3.5,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the show’s musical moments and note significant improvement in the tape transfer, but several point out lingering distortion and mix issues, yielding an overall above‑average rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Hiss reduced and instruments more separated after new transfer; still some distortion and Pigpen organ low in the mix, with occasional tape cuts."
+      "technical_notes": "Hiss reduced and instruments better separated after new transfer; occasional tape distortion and low Pig Pen organ level; vocals sometimes dominate the mix."
     },
     "show_quality": {
       "standout_songs": [
         "Lovelight",
         "Viola Lee Blues",
-        "Deep Elem Blues (acoustic)",
-        "Friend of the Devil (alternate lyrics)",
+        "Deep Elem Blues",
         "Black Peter"
       ],
       "poor_songs": [
         "Hard to Handle",
         "Good Lovin'"
       ],
-      "setlist_flow": "Acoustic set opens strong with flawless folk numbers, followed by an electric first set that builds into a blues‑heavy second half; occasional tape glitches interrupt but the overall pacing remains engaging."
+      "setlist_flow": "Strong acoustic half with flawless Deep Elem Blues and a unique Friend of the Devil rendition, followed by an electric set that builds intensity toward a blazing Viola Lee Blues and a memorable Lovelight rap."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "Sings loudly and on key; high harmonies noted but often buried in the mix.",
+      "Phil": "Phil Lesh sings loudly and on‑key with his high harmonies, though they are often buried in the mix.",
       "Bob": "",
-      "Keys": "Pigpen's organ is low in the mix, though his rap during Lovelight is highlighted as priceless.",
+      "Keys": "Pig Pen's organ is low in the mix, making his contributions less audible despite a lively rap during Lovelight.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T06:59:05.543452+00:00",
+    "song_mentions": {
+      "Lovelight": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Deep Elem Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Viola Lee Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Friend of the Devil": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      },
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T00:59:35.302280+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-03-20.sbd.smith.99182.sbeok.flac16"
   }
