@@ -16,34 +16,40 @@
   "high_ratings": 18,
   "low_ratings": 3,
   "ai_review": {
-    "summary": "A classic late‑’70 acoustic‑electric set with a monster Not Fade Away and superb Easy Wind, but persistent tape hiss and occasional clipping keep the soundboard recording only fair.",
-    "review": "The performance is widely praised – the acoustic set (Uncle John’s Band, Lay Me Down, Ripple, Rosalie McFall, Truckin’, Big Railroad Blues) shines, and the second‑set jams like Not Fade Away, Caution/Feedback and Easy Wind are described as electrifying.  The source is an SBD with noticeable hiss, level swings and distortion on the Caution track, so while the music is top‑tier, the audio fidelity ranges from good to fair.",
-    "sentiment": "mixed",
+    "summary": "Soundboard recording with noticeable hiss and occasional level distortion, but a stellar late‑'70 show highlighted by a soaring acoustic set and monster Not Fade Away jam.",
+    "review": "The performance is widely praised – the acoustic set (Working Man’s Dead, Uncle John’s Band, Ripple, Lay Me Down) is called “divine,” and the electric second set delivers a thunderous Not Fade Away > Caution/Feedback sequence plus an unforgettable Easy Wind.  Technically the tape suffers from hiss, occasional over‑driven levels (especially on Caution), and some drop‑outs, but most listeners deem it acceptable for a 1970 SBD and prefer its raw detail over cleaner remasters.",
+    "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Average user rating ≈4.1 stars; reviewers overwhelmingly praise the show (70% weight) while noting moderate‑to‑poor recording issues (30% weight), yielding a combined score around 4.2."
+      "rationale": "The majority of reviewers (≈70 %) give 4‑5 stars, emphasizing the show’s musical brilliance despite consistent complaints about hiss and occasional distortion.  Show quality dominates the rating, with recording flaws lowering it only slightly."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Noticeable tape hiss and occasional clipping, especially on the Caution jam; level fluctuations give parts of the mix a distorted feel, but overall listenable for a 1970 SBD."
+      "technical_notes": "Mixed‑source SBD with pervasive tape hiss, level spikes that cause distortion (notably on Caution/Feedback), occasional drop‑outs and uneven balance.  Still considered listenable and “good for its age” by most."
     },
     "show_quality": {
       "standout_songs": [
         "Not Fade Away",
+        "Caution/Feedback",
         "Easy Wind",
-        "Acoustic set (Uncle John's Band, Lay Me Down, Ripple, Rosalie McFall, Truckin', Big Railroad Blues)",
-        "Caution/Feedback"
+        "Workingman's Dead (acoustic)",
+        "Uncle John’s Band (acoustic)",
+        "Ripple (acoustic)",
+        "Lay Me Down (acoustic)",
+        "Truckin' (acoustic version)"
       ],
-      "poor_songs": [],
-      "setlist_flow": "A strong acoustic first half followed by a high‑energy electric second set; the transitions into long jams keep the momentum and showcase the band’s 1970 peak."
+      "poor_songs": [
+        "Good Lovin' (cut from tape)"
+      ],
+      "setlist_flow": "A lush acoustic set opens the night, highlighted by guest mandolin and tight vocal harmonies, then flips into a high‑energy electric second set where Not Fade Away rolls straight into a wild Caution/Feedback jam and an epic Easy Wind."
     },
     "band_member_comments": {
-      "Jerry": "Guitar described as crisp and solid despite the hiss, with his playing anchoring both sets.",
+      "Jerry": "Described as solid and “at the helm,” with crisp guitars despite tape hiss.",
       "Phil": "",
-      "Bob": "Weir’s solo on Easy Wind highlighted as a standout moment.",
-      "Keys": "Guest mandolin (Grisman/David Nelson) praised for adding beauty to the acoustic set; occasional piano/organ noted but not detailed.",
+      "Bob": "His solo on Easy Wind is specifically praised.",
+      "Keys": "Mentions of piano/organ (likely Pigpen) and a guest mandolin that adds depth to the acoustic set.",
       "Drums": ""
     },
     "song_mentions": {
@@ -53,21 +59,21 @@
         "total_mentions": 4
       },
       "Caution/Feedback": {
-        "positive_mentions": 2,
-        "negative_mentions": 2,
+        "positive_mentions": 3,
+        "negative_mentions": 1,
         "total_mentions": 4
       },
       "Easy Wind": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Workingman's Dead": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
       },
-      "Uncle John's Band": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Lay Me Down": {
+      "Uncle John’s Band": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
@@ -77,38 +83,23 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Rosalie McFall": {
+      "Lay Me Down": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Truckin' (acoustic)": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Truckin'": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Big Railroad Blues": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "China > Rider": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Top of the World": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Big Boy Pete": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
+      "Good Lovin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T06:15:55.247366+00:00",
+    "processed_date": "2025-09-12T21:16:59.813313+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-09-20.sbd.sacks.1190.sbefail.shnf"
   }

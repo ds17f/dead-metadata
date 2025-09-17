@@ -16,23 +16,23 @@
   "high_ratings": 5,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Rare Fillmore tracks that are listenable despite modest audience‑tape quality and many questions about the recording’s authenticity.",
-    "review": "The tape captures a couple of uncommon Fillmore songs that sound heartfelt and generally listenable, though the AUD source is described as historically poor and only marginally clear. Reviewers are divided, with several flagging serious doubts about the provenance and completeness of the material, leading to an overall mixed impression.",
+    "summary": "Listenably rare audience tape of obscure Fillmore songs, but the recording’s provenance and show authenticity are heavily disputed.",
+    "review": "The tape captures a handful of seldom‑heard Fillmore tracks that sound decent for an AUD source, though reviewers note the audio is “rare and poor” yet still listenable. Much of the discussion centers on whether the date and venue are correct, with several users calling the set fabricated or mis‑dated, leading to mixed feelings about the performance itself.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.0,
-      "confidence": "high",
-      "rationale": "Most reviewers note the rarity and decent performance but repeatedly criticize the recording's authenticity and technical limitations; weighting show (≈3) and recording (≈2.5) yields a mid‑range score."
+      "stars": 2.9,
+      "confidence": "medium",
+      "rationale": "Show quality is unclear and marred by authenticity disputes (≈2.8/5), while the audience recording is deemed fair‑to‑good (≈3.0/5). Combined weighted rating yields about 2.9 stars."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "AUD cassette from early 1970s, generally considered poor but this specific tape is listenable with some ambient crowd noise; no major dropouts reported."
+      "technical_notes": "Reviewers describe the AUD tape as rare, a bit muddy and poor by modern standards but still listenable with some ambient room tone."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "No detailed comments on set structure; reviewers only note the rarity of the songs and wish for more material."
+      "setlist_flow": "No clear commentary on set structure; reviewers focus on the rarity of the songs rather than performance flow."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -41,8 +41,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "song_mentions": {},
-    "processed_date": "2025-09-12T05:22:36.010292+00:00",
+    "song_mentions": {
+      "Let Me In": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Friend of the Devil": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T20:19:34.156419+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-08-17.aud.cotsman.12073.sbeok.shnf"
   }

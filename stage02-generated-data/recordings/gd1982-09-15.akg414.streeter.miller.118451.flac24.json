@@ -16,24 +16,23 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clear, deep soundboard recording (though a track is missing) of an average‑energy show that isn’t particularly standout.",
-    "review": "The audio quality is praised as one of the better versions available – clear, with good depth – but listeners note that a first‑set track is absent from the MP3 zip and the overall performance is only moderately played. The show lacks any highlighted jams or exceptional moments, resulting in a mixed listening experience.",
+    "summary": "Clear, distant‑sounding recording that’s among the better sources available, but a modestly played show with no standout moments noted.",
+    "review": "The archive upload is praised for its overall clarity and depth, even though the mix sounds a bit distant and one track (Crazy Fingers) is missing from the main files. Performance-wise reviewers find the set competent but not especially inspired. Technical hiccups with file organization detract slightly from an otherwise solid listening experience.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.1,
+      "stars": 3.2,
       "confidence": "medium",
-      "rationale": "Two reviewers rate the recording positively (4 and 3 stars) highlighting good sound quality, while one flags missing files and another finds the performance only average; combined weighting yields a modest overall score."
+      "rationale": "Show quality is judged average (≈3/5) while recording quality is regarded as good (≈4/5); weighted combination yields a mid‑range rating."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "unknown",
       "quality_rating": "good",
-      "technical_notes": "Clear and deep with good detail; however, a first‑set track is missing from the MP3 zip and some listeners describe the sound as slightly distant."
+      "technical_notes": "Described as clear with depth but distant‑sounding; noted missing track file for set 1, track 2 (Crazy Fingers) and a mixup in the archive files."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "",
-      "energy_level": "low"
+      "setlist_flow": "No specific comments on pacing or flow; reviewers only mention overall competence of the performance."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T09:35:11.763477+00:00",
+    "song_mentions": {
+      "Crazy Fingers": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T01:27:10.133319+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-15.akg414.streeter.miller.118451.flac24"
   }

@@ -16,36 +16,46 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Audience tape captures a high‑energy jam with a standout Scarlet > Fire, but the audio is muddy and bass‑hard to hear.",
-    "review": "The show is praised for its hot jamming and a memorable Scarlet > Fire sequence, with some listeners noting sweet keyboard work on \"Friend of the Devil.\" Recording quality is mixed – one reviewer calls it a great audience capture while another describes the sound as terrible, especially the buried bass guitar.",
+    "summary": "Audience‑sourced recording with mixed sound clarity captures a jam‑heavy set highlighted by a fiery Scarlet Begonias > Fire On The Mountain sequence.",
+    "review": "The show is praised for its strong jamming vibe and a standout Scarlet Begonias > Fire On The Mountain transition, though some listeners find the audio quality uneven—one calls it terrible while another lauds the immersive audience feel. Overall the performance sits in the middle ground, offering decent enjoyment for fans who value the band's live energy over pristine sound.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.2,
+      "stars": 3.4,
       "confidence": "medium",
-      "rationale": "Show performance is generally good (high energy, standout songs) but recording quality ranges from decent to poor, pulling the overall rating down."
+      "rationale": "Show quality is mixed (some rave about jamming, others call it mediocre) and recording quality is contradictory (terrible vs. great audience feel). Weighted average yields a mid‑range rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Audio is described as muddy with bass guitar difficult to isolate; occasional drum bass audible. One reviewer praises the immersive audience feel, while another calls the sound terrible."
+      "technical_notes": "One reviewer calls the audio terrible with muffled bass guitar and occasional drum bleed, while another praises it as an immersive audience recording that feels like being there."
     },
     "show_quality": {
       "standout_songs": [
-        "Scarlet>Fire",
-        "Friend of the Devil"
+        "Scarlet Begonias > Fire On The Mountain"
       ],
       "poor_songs": [],
-      "setlist_flow": "Strong jam sections with a highlighted second‑night sequence; overall flow feels lively despite some mixed feelings about the show overall.",
-      "energy_level": "high"
+      "setlist_flow": "The set is described as jam‑heavy and enjoyable, with the second night (this recording) sounding great to some listeners despite overall mixed impressions of the performance."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "Keyboard work on 'Friend of the Devil' was noted as sweet.",
+      "Keys": "Keyboard work noted as sweet on 'Friend of the Devil'.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T05:16:43.339732+00:00",
+    "song_mentions": {
+      "Scarlet Begonias > Fire On The Mountain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Friend of the Devil": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T18:11:46.884806+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-02-16.aud.set1.braverman-vernon.19267.sbeok.shnf"
   }

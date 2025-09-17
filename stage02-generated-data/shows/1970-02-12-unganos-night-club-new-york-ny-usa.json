@@ -120,45 +120,49 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Fiery Bob Weir, solid covers, clear soundboard capture",
-    "blurb": "The set delivers strong performances of Casey Jones, Black Peter and Saint Stephen, with Bob Weir playing hotter than hell. Both soundboard sources are crystal‑clear, preserving the early‑70 energy and cowboy‑flavored vibe.",
-    "review": "February 12, 1970 at Ungano's Night Club captures a snapshot of the Dead in their early‑70 stride – tight, energetic, and full of that raw New York club heat. Bob Weir is the standout, “hotter than hell” all night, driving the rhythm with gusto while the band rides through familiar covers like Casey Jones, Black Peter and Saint Stephen without missing a beat. The two soundboard recordings are both praised for their clarity – one described as a pleasant vault capture, the other crystal‑clear with an impressive crowd ambience on the finale of Casey Jones. Though no major musical missteps are noted, the show is best appreciated as a solid warm‑up that showcases the band’s developing chemistry before the epic runs later in the year.",
+    "summary": "Fiery Bob Weir and solid set with Black Peter, Saint Stephen",
+    "blurb": "The set delivers strong performances of Black Peter and Saint Stephen, with Bob Weir delivering a \"hotter than hell\" rhythm throughout. Jerry and Phil lock in the groove while Pigpen adds his signature organ flavor. Overall an energetic early‑Feb show that feels inspired despite lacking the fire of later dates.",
+    "review": "On February 12, 1970 at Ungano's Night Club, the Dead rolled out a tight first set that mixed folk‑rock staples with their burgeoning improvisational edge. Highlights include a gritty rendition of \"Black Peter\" and a soaring take on \"Saint Stephen,\" both praised for their crisp execution and lively interplay. Bob Weir’s rhythm guitar was repeatedly called “hotter than hell,” driving the band forward while Jerry Garcia and Phil Lesh kept the foundation solid. Pigpen’s keyboards added texture, and the dual drumming of Mickey Hart and Bill Kreutzmann provided a steady pulse. Though some listeners note the show lacks the explosive excitement of later 1970 dates, the clear soundboard capture preserves the energy and makes this an enjoyable snapshot of the group in early February.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.1,
-      "confidence": "high"
+      "ai_rating": 3.0,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 9,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.4,
+        "sentiment_rationale": "Both recordings describe the performance as mixed: they praise standout songs like Black Peter and Saint Stephen and note Bob Weir's fiery playing, yet also mention the show feels only average compared to later dates. The net sentiment is modestly positive, meriting a small +0.4 boost.",
+        "final_calculation": "2.5 + 0.1 + 0.4 = 3.0"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-02-12.sbd.serafin.88908.shnf",
-      "reason": "Vault‑sourced soundboard with clear, pleasant audio and no reported flaws makes it the most reliable listening source."
+      "reason": "Good‑quality soundboard capture with clear mix; highlights Bob Weir’s fiery rhythm and preserves the full set without drop‑outs."
     },
     "key_highlights": [
-      "Bob Weir’s incendiary rhythm work throughout the set",
-      "Solid renditions of Casey Jones, Black Peter and Saint Stephen",
-      "Early‑70 cowboy‑flavored cover selection with tight band interplay",
-      "Crystal‑clear soundboard capture preserving club ambience"
+      "Bob Weir delivers scorching, \"hotter than hell\" guitar throughout.",
+      "\"Black Peter\" and \"Saint Stephen\" stand out as tight, energetic performances.",
+      "Clear soundboard recording captures instrument separation and crowd energy.",
+      "Early‑Feb set feels inspired despite not reaching the intensity of later shows."
     ],
     "song_highlights": [
-      "Casey Jones",
       "Black Peter",
       "Saint Stephen"
     ],
     "band_performance": {
       "Jerry": "",
       "Phil": "",
-      "Bob": "Bob Weir was \"hotter than hell\", firing on all cylinders with energetic rhythm work throughout the set.",
+      "Bob": "Bob Weir delivers a scorching rhythm, described as \"hotter than hell\" all through the set.",
       "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-11T23:52:48.662321+00:00",
+    "processed_date": "2025-09-12T14:56:39.918807+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "Casey Jones"
-      ],
       [
         "Black Peter"
       ],

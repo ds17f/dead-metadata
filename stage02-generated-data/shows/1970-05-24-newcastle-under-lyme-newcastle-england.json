@@ -176,43 +176,54 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Electric Dark Star & The Other One dominate first European gig",
-    "blurb": "The band delivers a high‑energy set highlighted by a soaring Dark Star and a punchy Hard To Handle. Jerry’s lead work is front‑and‑center while Pigpen’s organ shines on Lovelight. Overall the show captures historic momentum despite some mix quirks.",
-    "review": "On May 24, 1970, the Grateful Dead made their first European appearance at Newcastle‑Under‑Lyme, and the performance lives up to its historic status. The set opens with a rollicking Casey Jones before diving into a blistering Dark Star that many reviewers describe as “breathtaking” and “electric,” showcasing Garcia’s soaring lead work. The Other One follows with fluid transitions, and Hard To Handle erupts with extra burst of energy. Pigpen takes the helm on Turn On Your Lovelight, while the rhythm section—Bob’s steady guitar, Phil’s bass (thin early but solid later), and Bill’s massive drumming—keeps the momentum driving forward. Standout moments include Me And My Uncle, Attics Of My Life, Good Lovin’ (double‑cut), and a heartfelt Cold Rain And Snow, all wrapped up in a historic festival atmosphere despite occasional tape hiss and level peaking on some matrix sources.",
+    "summary": "Scorching Dark Star, fierce The Other One, killer China>Rider",
+    "blurb": "The set bursts with high‑energy gems like Hard To Handle and a soaring Dark Star, while the second half delivers relentless jams on The Other One and Attics Of My Life. Pigpen’s wild organ lifts the Lovelight jam and the band stays locked in throughout.",
+    "review": "May 24, 1970 marks the Grateful Dead’s historic first UK gig at Newcastle‑Under‑Lyme, a night that still crackles with excitement. From the opening Casey Jones through a blistering Hard To Handle, Jerry Garcia rides a wave of electric intensity that peaks on an expansive Dark Star, while Phil Lesh adds vocal depth and a surprisingly full bass tone despite early mix quirks. The band’s chemistry shines in the China Cat Sunflower → I Know You Rider segue and the relentless drive of The Other One, punctuated by a seamless Attics Of My Life transition into Good Lovin'. Pigpen’s organ roars on Turn On Your Lovelight, giving the set a raw, free‑form edge. Though the board capture muddies a bit during Lovelight, the overall performance is tight, daring, and emblematic of a band on the cusp of its legendary improvisational era.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.6,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 41,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.8,
+        "sentiment_rationale": "Five of six recordings are strongly positive, repeatedly praising Dark Star, The Other One, Hard To Handle and the overall band lock‑in; only one recording is mixed but does not detract from the consensus. Consistent high‑energy descriptors ('scorching', 'fierce', 'killer') across sources warrant a large positive sentiment boost.",
+        "final_calculation": "2.5 + 0.3 + 1.8 = 4.6"
+      }
     },
     "best_recording": {
-      "identifier": "gd1970-05-24.135803.sbd.phillips.flac16",
-      "reason": "Excellent soundboard capture with crystal‑clear mix, minimal edits and full set; highlights Dark Star, Hard To Handle and The Other One."
+      "identifier": "gd70-05-24.sbd.hanno.6481.sbeok.shnf",
+      "reason": "Solid soundboard capture with clear representation of the band's high‑energy performance; praised for Dark Star, The Other One and China>Rider despite minor mud."
     },
     "key_highlights": [
-      "Soaring Dark Star that anchors the second half",
-      "Punchy Hard To Handle delivering extra energy",
-      "The Other One’s fluid transition and extended jam",
-      "Pigpen’s organ takeover on Turn On Your Lovelight"
+      "Scorching Dark Star improvisation that defines the night",
+      "Relentless drive on The Other One with tight transitions",
+      "Killer China Cat Sunflower → I Know You Rider sequence",
+      "Pigpen’s wild organ in Turn On Your Lovelight adds raw intensity"
     ],
     "song_highlights": [
       "Dark Star",
       "The Other One",
+      "China Cat Sunflower",
+      "I Know You Rider",
       "Hard To Handle",
-      "Me And My Uncle",
       "Attics Of My Life",
       "Good Lovin'",
-      "Cold Rain And Snow"
+      "Cold Rain And Snow",
+      "Saint Stephen",
+      "Turn On Your Lovelight"
     ],
     "band_performance": {
-      "Jerry": "Garcia is electric and front‑and‑center, delivering breathtaking solos on Dark Star and The Other One plus a tight groove on Hard To Handle.",
-      "Phil": "Lesh’s bass starts thin but rolls in later, providing a solid foundation and adds a sweet, vulnerable vocal touch early in the set.",
-      "Bob": "Weir supplies sturdy rhythm guitar and confident vocals, especially strong on Me And My Uncle and throughout the set.",
+      "Jerry": "Electric and energetic, picking up the pace on Hard To Handle and driving the Dark Star groove with soaring solos.",
+      "Phil": "Starts low in the mix but rolls in strong; vocal contributions praised and bass tone becomes more pronounced later.",
+      "Bob": "Solid rhythm guitar and vocal harmonies, especially effective on Me And My Uncle and leading ensemble singing toward the close.",
       "Brent": "",
-      "Mickey": "",
-      "Billy": "Bill’s kick drum is powerful and close‑to‑stage; his drumming is massive and driving, propelling the band forward."
+      "Mickey": "Drums provide a solid, driving foundation with a Billy Cobham‑style kick that propels the set forward.",
+      "Billy": "Percussion is tight and supportive, locking in with Mickey to sustain the high‑energy momentum throughout."
     },
     "processed_recordings": 6,
-    "processed_date": "2025-09-12T03:32:16.590400+00:00",
+    "processed_date": "2025-09-12T18:39:12.596635+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -230,10 +241,11 @@
         "Attics Of My Life"
       ],
       [
-        "Hard To Handle"
+        "China Cat Sunflower",
+        "I Know You Rider"
       ],
       [
-        "Me And My Uncle"
+        "Hard To Handle"
       ],
       [
         "Good Lovin'",

@@ -16,28 +16,28 @@
   "high_ratings": 2,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Peggy‑O and Terrapin moments shine in a high‑energy show, but the audience tape’s Dolby B quirks keep the recording only fair.",
-    "review": "The concert is praised for its smoking energy – especially the standout performances of \"Terrapin Station,\" \"Althea\" and a delightful \"Peggy‑O.\"  However, listeners note that this is an audience capture on a Nakamichi NAK300 with Dolby B encoding, giving it a slightly choked‑off sound and hiss that some find distracting.  Overall the show is enjoyable, but the technical limitations keep the recording from being pristine.",
+    "summary": "Decent audience recording of a historic early‑'82 show, highlighted by a fiery Peggy‑O and the classic Playing in the Band sandwich.",
+    "review": "The performance is praised for its energy – fans love the Peggy‑O rendition and the “Playing in the Band” sandwich that anchors the set. Recording quality is mixed; while some enjoy the atmospheric audience tape despite Dolby‑B quirks, others find it muffled and pocket‑recording‑like. Overall the show is considered a solid snapshot of the first 1982 concert.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.4,
+      "stars": 3.7,
       "confidence": "medium",
-      "rationale": "Show quality is rated high (smoking performance, notable songs) while recording quality is only fair due to Dolby‑B artifacts and audience‑tape limitations; the mixed star scores and divergent reviewer comments support a moderate confidence level."
+      "rationale": "Show quality is generally positive (classic sandwich, strong songs) while recording quality ranges from decent to poor; weighted average yields a mid‑high rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Dolby B encoded tape with a slight 'choked off' feeling, noticeable hiss and occasional muffling; decent for an audience recording when played back on a high‑end Nakamichi Dragon."
+      "technical_notes": "Dolby‑B encoded tape with slight \"choked off\" feeling; some listeners note hiss and pocket‑tape ambience, while others find the atmosphere enjoyable. No soundboard source available."
     },
     "show_quality": {
       "standout_songs": [
+        "Peggy-O",
+        "Playing in the Band",
         "Terrapin Station",
-        "Althea",
-        "Peggy-O"
+        "Althea"
       ],
       "poor_songs": [],
-      "setlist_flow": "Solid flow highlighted by strong Terrapin/Althea sections and a crowd‑pleasing Peggy‑O; no major structural issues mentioned.",
-      "energy_level": "high"
+      "setlist_flow": "Classic early‑'80s flow with a strong first set and a Playing in the Band sandwich that keeps momentum; fans describe it as a \"smokin'\" year for the Dead."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -46,7 +46,29 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T05:17:48.575883+00:00",
+    "song_mentions": {
+      "Peggy-O": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playing in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Terrapin Station": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Althea": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T18:13:18.547553+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-02-16.111364.nak300.hoey.flac16"
   }

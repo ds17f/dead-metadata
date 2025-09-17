@@ -16,28 +16,27 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent audience-sourced recording of a classic show with tight first set, standout Tennessee Jed, Playin' in the Band and Crazy Fingers",
-    "review": "The audience tape captures the concert with impressive clarity—music sits front‑and‑center while crowd noise stays low enough to stay unobtrusive. Fans rave about a very tight first set and a second half highlighted by a superb Tennessee Jed, an inspired Playin' in the Band and a fiery Crazy Fingers, making it one of the year's best performances.",
+    "summary": "Excellent matrix‑style audience recording of a classic 1982 concert, featuring a standout Tennessee Jed and a tight, well‑played first set.",
+    "review": "The audience source is very good, with the music sitting front‑and‑center and only a low, acceptable crowd level. Reviewers note that the mix benefits from excellent sounding soundboard elements, delivering an overall crisp and present listening experience. Musically the show shines – the first set is described as fantastic and tight, while the second set delivers a superb Tennessee Jed along with strong performances of Playing in the Band and Crazy Fingers.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.8,
+      "stars": 4.7,
       "confidence": "low",
-      "rationale": "Single detailed 5‑star review praises both the musical performance (tight set, standout songs) and recording clarity, indicating an exceptional show with excellent audience source quality."
+      "rationale": "Single detailed 5‑star review praises both the musical performance and the recording quality, indicating an outstanding show with excellent matrix (soundboard + audience) sound."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "matrix",
       "quality_rating": "excellent",
-      "technical_notes": "Very good audience tape; music is very present with low, acceptable crowd level. Review mentions excellent sounding soundboard and audience mix, yielding clear and balanced audio."
+      "technical_notes": "Music is very present; audience level low/acceptable; praised for crisp mix combining strong soundboard and audience elements."
     },
     "show_quality": {
       "standout_songs": [
         "Tennessee Jed",
-        "Playin' in the Band",
+        "Playing in the Band",
         "Crazy Fingers"
       ],
       "poor_songs": [],
-      "setlist_flow": "First set described as fantastic and very tight; second set features a nicely flowing Playin' into Crazy Fingers, maintaining strong momentum throughout.",
-      "energy_level": "high"
+      "setlist_flow": "First set called fantastic and very tight; second set highlighted by a nice Playing in the Band and Crazy Fingers, maintaining high energy throughout."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -46,7 +45,24 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T10:30:28.168319+00:00",
+    "song_mentions": {
+      "Tennessee Jed": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playing in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Crazy Fingers": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T03:02:55.057024+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-10-10.123624.senn421.gans.miller.flac16"
   }

@@ -16,24 +16,23 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Review provides no musical commentary; it only asks how to play the FLAC files.",
-    "review": "The sole review does not discuss the performance or recording quality of this Grateful Dead show. Instead, the reviewer is concerned with technical playback of the DTS‑encoded FLAC files and offers no opinion on the music itself.",
-    "sentiment": "mixed",
+    "summary": "Only a technical question about playing the FLAC files; no insight on recording or performance quality.",
+    "review": "The lone review asks how to play the DTS‑encoded FLAC files rather than commenting on sound quality or the concert itself, indicating frustration with the format rather than the music. No musical or recording details are provided.",
+    "sentiment": "negative",
     "ai_rating": {
       "stars": 1.0,
       "confidence": "low",
-      "rationale": "Only one brief review focused on file playback, with a 0‑star rating; no information about show or audio quality to justify a higher score."
+      "rationale": "Only one brief review focused on playback issues and giving a 0‑star rating; no information about the show or audio quality to base a higher score."
     },
     "recording_quality": {
       "source_type": "unknown",
-      "quality_rating": "fair",
-      "technical_notes": "No comments on sound clarity or mix; reviewer only asked how to play the FLAC files."
+      "quality_rating": "poor",
+      "technical_notes": "Reviewer does not discuss sound clarity, mix, or source type; frustration appears related to playback rather than recording fidelity."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "",
-      "energy_level": ""
+      "setlist_flow": ""
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,8 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T06:31:49.216422+00:00",
+    "song_mentions": {},
+    "processed_date": "2025-09-13T20:10:08.338882+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-04-14.dts.griesman.76504.sbeok.flac"
   }

@@ -16,39 +16,41 @@
   "high_ratings": 6,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good-quality mic‑stage recording of a mid‑70s Fillmore West show with standout St. Stephen, Hard to Handle and an acoustic I Know You Riders.",
-    "review": "The recording captures a vivid mid‑1970 Fillmore West performance; reviewers praise the detail and separation despite it being a stage‑mic source rather than a true audience or soundboard tape. Highlights include an intense St. Stephen, a fiery Hard to Handle and a lovely acoustic I Know You Riders, while the Cryptical cut is noted as rough and some monitor/drum balance issues are mentioned.",
+    "summary": "Excellent mic‑sourced recording capturing a high‑energy set with standout St. Stephen, acoustic I Know You Rider and an intense Other One despite some monitor hiccups.",
+    "review": "The show is praised for its powerful performances – especially the acoustic “I Know You Riders,” a scorching St. Stephen jam and a fiery Other One that pushes the band to the edge of sonic overload.  The source is a stage‑mic (matrix‑like) capture; it’s remarkably clear and well‑separated, though listeners note occasional drum boominess, monitor feedback and a brutal cut on Cryptical Envelopment.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Most reviewers give high star ratings and emphasize strong musical moments; technical quality is good with only minor flaws, leading to a solid overall score."
+      "rationale": "Consistently high praise for both performance and sound quality across multiple detailed reviews; minor technical quirks do not detract from overall excellence."
     },
     "recording_quality": {
-      "source_type": "unknown",
-      "quality_rating": "good",
-      "technical_notes": "Stage‑mic recording with slight speaker boominess and drums mic'd too loud; high‑pitched cymbal feedback appears around The Other One, but overall the mix is detailed, well‑EQ’d and instruments are nicely separated."
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Stage‑mic capture with slight speaker boominess and drums a bit loud, occasional high‑pitched feedback on The Other One, and a harsh cut at the end of Cryptical Envelopment; overall very detailed, clean mix with good instrument separation."
     },
     "show_quality": {
       "standout_songs": [
+        "I Know You Rider",
         "St. Stephen",
-        "Hard to Handle",
-        "I Know You Riders"
+        "The Other One",
+        "Hard to Handle"
       ],
       "poor_songs": [
-        "Cryptical"
+        "Cryptical Envelopment (brutal cut)",
+        "Hard to Handle (rough start)"
       ],
-      "setlist_flow": "Typical mid‑1970 Fillmore West two‑set flow; acoustic numbers open the show and a powerful second set delivers intense jams, fitting well within the celebrated June run."
+      "setlist_flow": "The set flows with high energy, moving from an intimate acoustic moment into a blistering St. Stephen and a chaotic Other One; despite monitor issues the band stays focused and the performance feels like it’s riding the edge of overload."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
-      "Bob": "",
+      "Bob": "Bob (referred to as \"Bobby\") is heard shouting “GODDAMMIT!” during The Other One, adding raw intensity.",
       "Keys": "",
-      "Drums": "Drums were mic'd too loud, creating an unbalanced mix; some high‑pitched cymbal feedback is audible during The Other One."
+      "Drums": "Drums are noted as being mic'd too loud and contributing to a slight boominess in the mix."
     },
     "song_mentions": {
-      "I Know You Riders": {
+      "I Know You Rider": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -58,18 +60,23 @@
         "negative_mentions": 0,
         "total_mentions": 2
       },
+      "The Other One": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
       "Hard to Handle": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
       },
-      "Cryptical": {
+      "Cryptical Envelopment": {
         "positive_mentions": 0,
         "negative_mentions": 1,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T03:43:39.360249+00:00",
+    "processed_date": "2025-09-12T18:51:38.454664+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-06-05.132395.bear.wise.flac16"
   }

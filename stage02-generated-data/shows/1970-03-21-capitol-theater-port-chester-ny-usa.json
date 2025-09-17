@@ -159,23 +159,31 @@
     "fillmore-east-1970-complete-recordings"
   ],
   "ai_show_review": {
-    "summary": "Epic Dancin' jam, debut Friend Of The Devil, tight Pigpen percussion",
-    "blurb": "The March 21‑1970 Capitol Theater show erupts with an 18‑minute Dancin' In The Street jam and the first live performance of Friend Of The Devil. Jerry’s tone is immaculate, Phil’s bass melodic, and Pigpen adds spirited percussion on Katie Mae. Highlights also include Casey Jones, Cosmic Charlie and a soaring Not Fade Away into Turn On Your Lovelight.",
-    "review": "On March 21, 1970 at the Capitol Theater in Port Chester, the Dead delivered a late‑show that feels like a snapshot of their early‑70s renaissance. The set opens with a fiery Casey Jones before slipping into a marathon Dancin' In The Street that stretches past eighteen minutes, showcasing Garcia’s flawless lead tone and Lesh’s inventive, melodic bass. A standout moment arrives when the band unveils Friend Of The Devil for the first time live, followed by an intimate acoustic turn‑around featuring Easy Wind (highlighted by Bob Weir’s soaring solo) and a playful Katie Mae powered by Pigpen’s lively percussion. The second half rolls on with high‑octane energy – Cosmic Charlie rockets forward, Saint Stephen segues into a rousing Not Fade Away that bursts into Turn On Your Lovelight, and the night closes on Midnight Hour despite a slightly meandering finish. Across three audience recordings, listeners consistently note the show’s tight musicianship, exuberant crowd interaction, and the rare blend of folk‑rock storytelling with extended jams, making this performance a must‑hear snapshot of the band’s evolution.",
+    "summary": "Vibrant late‑show with soaring Easy Wind, Cosmic Charlie & jam‑heavy set",
+    "blurb": "The performance is packed with energetic covers and deep‑cut originals, highlighted by a soaring Easy Wind, a fiery Dancin' jam and the powerful Midnight Hour → Turn On Your Lovelight transition. Jerry’s guitar shines throughout while Phil’s bass drives the extended improvisations. The audience tape captures the excitement despite occasional cut‑offs.",
+    "review": "Port Chester’s Capitol Theater saw the Dead in late March 1970 unleash a marathon of vintage rock ’n’ roll, folk‑rock staples and jam‑heavy explorations that still feel fresh today. Kicking off with a tight Casey Jones and a rollicking Dancin' In The Street, the first half built momentum into an inspired Easy Wind where Jerry’s melodic lead and Bob’s soaring solo stole the show. The set then roamed through fan favorites—Friend Of The Devil, Wake Up Little Susie, Katie Mae—and launched into a high‑octane second act highlighted by Cosmic Charlie, Saint Stephen into Not Fade Away, and a blistering Midnight Hour that resolved into Turn On Your Lovelight. Though captured from audience tape with the usual quirks of missing cuts and occasional speed tweaks, the recording preserves the band’s chemistry: Jerry’s tone is spot‑on, Phil supplies inventive bass lines reminiscent of his Caution jam era, and Bob drives crowd interaction with gusto. For anyone hunting a late‑show snapshot of the early ’70s Dead, this set delivers both historic flavor and timeless fire.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.2,
-      "confidence": "high"
+      "ai_rating": 4.1,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 23,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "All three recordings are marked positive, praising numerous songs (Easy Wind, Dancin', Midnight Hour → Lovelight, Casey Jones, Cosmic Charlie) and noting flawless band performance with no negative criticism. Consistent enthusiasm across sources justifies a strong positive sentiment boost.",
+        "final_calculation": "2.5 + 0.2 + 1.4 = 4.1"
+      }
     },
     "best_recording": {
       "identifier": "gd70-03-21.late.aud.5316.sbeok.shnf",
-      "reason": "Clear, well‑captured audience tape that includes the key moments (Dancin' jam, Friend Of The Devil debut, Katie Mae) with solid crowd ambience; despite a few missing early songs it offers the most complete listening experience."
+      "reason": "Good‑quality audience tape with clear crowd ambience and balanced set, despite minor missing cuts; captures the show’s energy best."
     },
     "key_highlights": [
-      "18‑minute Dancin' In The Street jam that locks the band into a high‑energy groove",
-      "First live performance of Friend Of The Devil, delivered with crisp vocals and tight interplay",
-      "Pigpen’s lively percussion on Katie Mae adds extra swing to the set",
-      "Not Fade Away → Turn On Your Lovelight transition provides a soaring close"
+      "Stellar Easy Wind performance with Jerry’s perfect tone and Bob’s solo.",
+      "Fire‑filled Dancin' jam that launches the late‑show improvisations.",
+      "Cosmic Charlie and Saint Stephen > Not Fade Away sequence delivering high energy.",
+      "Midnight Hour → Turn On Your Lovelight transition adds dramatic punch."
     ],
     "song_highlights": [
       "Casey Jones",
@@ -187,18 +195,19 @@
       "Cosmic Charlie",
       "Saint Stephen",
       "Not Fade Away",
-      "Turn On Your Lovelight"
+      "Turn On Your Lovelight",
+      "Midnight Hour"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers perfect tone and flawless lead throughout, especially on the extended Dancin' jam and his crisp work on Casey Jones.",
-      "Phil": "Lesh provides melodic, inventive bass lines that drive the 18‑minute Dancin' improvisation.",
-      "Bob": "Weir shines with a soaring solo on Easy Wind and strong vocal harmonies on several numbers.",
-      "Pigpen": "Pigpen’s lively percussion adds extra swing to Katie Mae, energizing the crowd.",
+      "Jerry": "Delivers flawless, melodic lead work throughout—especially on Easy Wind—and adds a playful touch on Midnight Hour.",
+      "Phil": "Provides inventive, peak‑era bass lines that drive the extended jams, notably during the Dancin' and Cosmic Charlie sections.",
+      "Bob": "Offers an outstanding solo on Easy Wind and fuels crowd interaction with energetic rhythm guitar throughout the set.",
+      "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-12T01:12:13.459271+00:00",
+    "processed_date": "2025-09-12T16:20:11.160355+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -228,6 +237,9 @@
         "Saint Stephen",
         "Not Fade Away",
         "Turn On Your Lovelight"
+      ],
+      [
+        "Midnight Hour"
       ]
     ]
   }

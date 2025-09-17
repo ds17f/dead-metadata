@@ -16,38 +16,77 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A superb front‑of‑house recording that captures a smoking Crazy Fingers, tight Shakedown, the first Touch of Grey encore and a wild space‑jam into NFA with crystal‑clear sound.",
-    "review": "This show is praised for its high energy and creative setlist – standout moments include Crazy Fingers, a solid Shakedown, the historic first Touch of Grey encore and an intense space‑jam that folds into No Fixed Address.  The recording, captured by Tiger Rose, delivers front‑of‑house clarity that many reviewers say feels like sitting in the 15th row, making it one of the best early‑80s FOB tapes available.",
+    "summary": "Excellent audience recording captures a high‑energy fall ’82 show with standout Crazy Fingers, Shakedown Street and the first Touch of Grey.",
+    "review": "The tapers delivered an exceptionally clear audience recording that sounds almost like you’re sitting in the 15th row, preserving the band’s tight playing and vivid jams.  Highlights include a fiery Crazy Fingers opener, a solid Shakedown Street into Playing‑in‑the‑Band, and the historic first performance of Touch of Grey as an encore.  While one reviewer felt the second half lost momentum after the drums, the consensus is that this is one of the best early‑80s shows available.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.7,
       "confidence": "high",
-      "rationale": "The majority of nine detailed reviews are 4–5 stars and highlight both an energetic performance and excellent sound quality, yielding a strong combined rating."
+      "rationale": "The majority of reviews (8/9) are 4–5 stars and praise both the musical performance and the audio fidelity; only minor criticisms are noted, leading to a high combined rating."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "audience",
       "quality_rating": "excellent",
-      "technical_notes": "Reviewers describe the tape as crisp, on‑stage sounding, with ambience that puts the listener near the front row; no significant dropouts or muddiness are mentioned."
+      "technical_notes": "Audiences rave about the crystal‑clear mix, on‑stage mic placement and immersive feel (often likened to being in row 15). No significant dropouts or muddiness are reported."
     },
     "show_quality": {
       "standout_songs": [
         "Crazy Fingers",
-        "Shakedown",
-        "First Touch of Grey (encore)",
-        "Space > jam > No Fixed Address"
+        "Shakedown Street",
+        "Playing in the Band",
+        "Stella Blue",
+        "Touch of Grey",
+        "Space",
+        "Not Fade Away"
       ],
       "poor_songs": [],
-      "setlist_flow": "A unique, well‑played first set followed by a second set that builds from Shakedown into a brief Playing jam, solid Sailor/Saint segment, strong Drums and an inventive space jam leading into NFA; overall flow praised despite a missing reprise of the Playing jam.",
-      "energy_level": "high"
+      "setlist_flow": "First set described as unique and well‑played; second set opens strong with Shakedown → Playing jam, builds into a space jam leading to Not Fade Away. A few reviewers note the post‑drums portion felt average, but overall pacing is praised."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar tone is repeatedly praised, especially on Crazy Fingers and throughout the set.",
+      "Jerry": "Jerry’s guitar work on Crazy Fingers and Touch of Grey highlighted as stellar.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "One reviewer noted the show was great up to the drums but felt the drum segment was only average."
+      "Drums": "Drums were praised early in the show; one reviewer felt they marked a dip in energy later."
     },
-    "processed_date": "2025-09-07T09:31:50.007510+00:00",
+    "song_mentions": {
+      "Crazy Fingers": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Shakedown Street": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Playing in the Band": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Stella Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Touch of Grey": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Space": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T01:17:56.008853+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-15.fob.tigerrose.howard.andrewf.81690.sbeok.flac16"
   }

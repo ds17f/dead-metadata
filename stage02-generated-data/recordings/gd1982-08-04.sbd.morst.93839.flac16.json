@@ -16,38 +16,60 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Audience‑sourced recording with decent clarity captures a solid show highlighted by the return of Stagger Lee and strong first‑set performances.",
-    "review": "The tape, recorded from the crowd, offers a lively ambience though the treble is bright and Phil’s bass sits low in the mix. Musically the concert delivers a fun first set with “The Stranger,” “Row Jimmy” and the surprise revival of “Stagger Lee,” while the second set opens oddly but remains solid overall.",
+    "summary": "Audience‑sourced recording with lively crowd ambience captures a solid show highlighted by Stagger Lee and The Stranger, though the second‑set opener feels odd.",
+    "review": "The concert is generally well‑received – fans love the energetic return of “Stagger Lee,” enjoy the upbeat first‑set numbers like “The Stranger” and “Row Jimmy,” and appreciate the overall solid performance. The recording is praised for its crowd presence but noted for a treble‑heavy mix that pushes Phil’s bass low, and one reviewer finds the second‑set opener (“Never Trust a Woman”) unusually odd.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.6,
       "confidence": "medium",
-      "rationale": "Three positive reviews (4‑5 stars) praise the performance and ambience; one strongly negative review drags the average down, leading to a moderate overall rating."
+      "rationale": "Four reviews give an average of ~3.25 stars; most comments are positive about the music and ambience, with minor criticisms of mix balance and a disliked set‑opener, leading to a modestly above‑average rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "High treble presence; Phil’s bass is very low in the mix. Crowd ambience adds character but some balance issues are noted."
+      "technical_notes": "Crowd ambience is highlighted as a plus; some listeners note the treble is high and Phil’s bass sits low in the mix, but overall the tape remains listenable."
     },
     "show_quality": {
       "standout_songs": [
         "Stagger Lee",
         "The Stranger",
-        "Row Jimmy",
+        "Row Jimmy"
+      ],
+      "poor_songs": [
         "Never Trust a Woman"
       ],
-      "poor_songs": [],
-      "setlist_flow": "First set is fun and well‑paced; second set is solid but opens with an oddly placed song that some found puzzling.",
-      "energy_level": "medium"
+      "setlist_flow": "First set described as nice and fun; second set solid overall but the opener is considered an odd choice by at least one reviewer."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "Phil's bass is very low in the mix, making it hard to hear his lines clearly.",
-      "Bob": "Bob (Bobby) was “going off” on tour add‑libbing and vocal improvisations throughout the show.",
+      "Phil": "Mix places Phil very low, making his bass hard to hear.",
+      "Bob": "Bob (referred to as Bobby) was “going off” and energetic throughout the show.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T08:24:23.058794+00:00",
+    "song_mentions": {
+      "Stagger Lee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Stranger": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Row Jimmy": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Never Trust a Woman": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-13T23:14:50.113639+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-08-04.sbd.morst.93839.flac16"
   }

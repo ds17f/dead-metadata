@@ -198,41 +198,52 @@
     "fillmore-runs"
   ],
   "ai_show_review": {
-    "summary": "Scorching Cryptical>Other One, rare Big Boy Pete, tight jams",
-    "blurb": "The show delivers a fiery Cryptical Envelopment → The Other One suite and features the seldom‑heard Big Boy Pete early in the set. Strong rhythm work shines on Good Lovin', Cumberland Blues and I'm A King Bee, making it a solid 1970 performance.",
-    "review": "On March 1, 1970 at the Family Dog on the Great Highway, the Dead turned in a fun, high‑energy set that still feels fresh for listeners. The highlight is undoubtedly the scorching Cryptical Envelopment → The Other One → Cryptical sandwich, where Jerry’s intense, near‑perfect tone drives an explosive jam that segues seamlessly into Black Peter. Early in the set the rare “Big Boy Pete” pops up, giving fans a tasty rarity sandwiched between strong mid‑set numbers like Morning Dew and Hard To Handle. The rhythm section stays solid throughout – Good Lovin' gets a drum‑focused lift, while Cumberland Blues and I’m A King Bee showcase tight, blues‑y interplay. Though the first two songs suffer from audience‑mic bleed and vocals sit a touch high in the mix, an EQ pass brings the soundboard’s clarity back into focus, making this recording the most complete snapshot of the night.",
+    "summary": "High‑energy set with killer Cryptical > Other One and solid blues jams",
+    "blurb": "The show bursts into life with a fiery Cryptical Envelopment → The Other One transition and tight Good Lovin' drumming. Mid‑set blues highlights include Cumberland Blues and I'm A King Bee, while the encore delivers Uncle John's Band and Dancin' In The Street.",
+    "review": "On March 1, 1970 at the Family Dog on the Great Highway, the Dead delivered a high‑octane performance that still feels fresh. The first set opens with classic rockers like New Speedway Boogie and Casey Jones before launching into a memorable Cryptical Envelopment → Drums → The Other One → Cryptical Envelopment sequence that reviewers call “exciting” and comparable to the New Orleans show a month earlier. Jerry’s guitar work shines, even if a touch louder would have been ideal, while Pigpen’s harmonica adds a gritty edge throughout. The rhythm section—Mickey, Bill, and Phil—holds down a tight groove, especially on Good Lovin', which is highlighted for its powerful drumming.\n\nThe middle of the set settles into bluesy territory with standout renditions of Cumberland Blues, I’m A King Bee, and the seamless China Cat Sunflower > I Know You Rider pairing. Despite a few level spikes in the early audience‑sourced tracks, the soundboard capture is generally clear and well‑balanced. The encore rounds out the night with a heartfelt Uncle John's Band, an upbeat Dancin' In The Street, and a tender close on It’s All Over Now Baby Blue, making this show a must‑listen for fans of the early‑70s Dead energy.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.8,
-      "confidence": "high"
+      "ai_rating": 4.2,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 16,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Three recordings are clearly positive, praising the high energy, standout Cryptical > Other One sequence and strong mid‑set blues; one mixed review notes a few weak spots but does not overturn the overall enthusiasm. Consistent praise across multiple sources yields a strong positive sentiment adjustment.",
+        "final_calculation": "2.5 + 0.1 + 1.6 = 4.2"
+      }
     },
     "best_recording": {
       "identifier": "gd70-03-01.sbd.hanno.4641.sbefail.shnf",
-      "reason": "Good soundboard capture with clear mid‑set, only early audience‑mic hiccups; balances vocal mix after EQ and preserves the standout performances."
+      "reason": "Good overall soundboard balance with clear mid‑set, captures the high energy and key moments despite a muddy opening; most reviewers cite it as the definitive source."
     },
     "key_highlights": [
-      "Scorching Cryptical Envelopment → The Other One suite that drives the first half.",
-      "Rare appearance of Big Boy Pete adds a unique flavor to the set.",
-      "Energetic Cumberland Blues and I'm A King Bee showcase a tight rhythm section."
+      "Exciting Cryptical Envelopment → The Other One transition that mirrors the New Orleans show",
+      "Rare ‘Big Boy Pete’ appearance and strong blues numbers like Cumberland Blues and I’m A King Bee",
+      "Tight Good Lovin' drumming and Pigpen’s harmonica adding grit throughout"
     ],
     "song_highlights": [
       "Cryptical Envelopment",
       "The Other One",
-      "Cryptical Envelopment",
-      "Big Boy Pete",
+      "Good Lovin'",
       "Cumberland Blues",
-      "I'm A King Bee"
+      "I'm A King Bee",
+      "China Cat Sunflower",
+      "I Know You Rider",
+      "Uncle John's Band",
+      "Dancin' In The Street"
     ],
     "band_performance": {
-      "Jerry": "Intense, near‑perfect tone throughout; especially stellar on the Cryptical/Other One sequence, though a few reviewers wish his guitar was a hair louder.",
+      "Jerry": "Garcia’s guitar work is praised as great and energetic, with only a minor note that it could be a touch louder.",
       "Phil": "",
       "Bob": "",
-      "Pigpen": "Organ lines on The Other One are modest and don’t explode, but provide functional keyboard texture appropriate for the era.",
-      "Mickey": "Drums lock in tightly, adding power to Good Lovin' and supporting the jam‑heavy moments.",
-      "Billy": "Solid, steady percussion that underpins the set’s groove, particularly on blues numbers."
+      "Brent": "",
+      "Mickey": "Drums are highlighted positively; the rhythm section is described as tight, especially on Good Lovin'.",
+      "Billy": "Shares the same tight drumming praise, contributing to a solid rhythmic foundation."
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-12T00:41:36.227565+00:00",
+    "processed_date": "2025-09-12T15:50:06.809168+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -244,13 +255,25 @@
         "Black Peter"
       ],
       [
-        "Big Boy Pete"
+        "Good Lovin'",
+        "Drums",
+        "Good Lovin'"
       ],
       [
         "Cumberland Blues"
       ],
       [
         "I'm A King Bee"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ],
+      [
+        "Uncle John's Band"
+      ],
+      [
+        "Dancin' In The Street"
       ]
     ]
   }

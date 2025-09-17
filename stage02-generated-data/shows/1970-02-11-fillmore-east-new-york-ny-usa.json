@@ -136,40 +136,47 @@
     "guest-allman-brothers"
   ],
   "ai_show_review": {
-    "summary": "Epic Dark Star→Spanish Jam→Lovelight suite with all‑star guests",
-    "blurb": "The second set erupts in a sprawling Dark Star that segues into a fiery Spanish Jam and culminates with a soaring Turn On Your Lovelight featuring Pigpen and Gregg Allman on vocals. Guest guitarists Duane Allman, Peter Green and others add extra heat while the rhythm section locks tight. Crystal‑clear soundboard sources capture every nuance of this legendary late‑show.",
-    "review": "Feb 11, 1970 at the Fillmore East delivered one of the most electrifying late‑show performances in Dead history. After a concise first set, the band launched into an expansive Dark Star that unfolded into what reviewers call the best Spanish Jam ever heard, before soaring into a Turn On Your Lovelight where Pigpen and guest organist Gregg Allman traded vocal fire‑starter duties. The presence of Allman brothers, Peter Green and other surprise guests turned the night into a three‑band collision, with extra drums, gong crashes and multiple guitars feeding the improvisational blaze. Across all nine recordings the playing is described as “intense,” “on fire,” and “legendary,” and the soundboard captures are praised for crystal‑clear fidelity, making this show a must‑listen for any Deadhead seeking that rare, star‑studded magic.\n\nAmong the highlights, the Dark Star→Spanish Jam→Lovelight suite stands out as a benchmark of 1970 improvisation, while the Cold Rain jam in the first set showcases Phil Lesh’s interplay with guest Bobby Allman. Even the brief Uncle John’s Band encore benefits from the extra guitar trio and Pigpen’s organ roar. With no serious audio flaws reported on the top‑rated soundboard source, this performance shines both as a musical milestone and an archival treasure.",
+    "summary": "Epic Dark Star > Spanish Jam > Lovelight with Allman guests",
+    "blurb": "The set builds from a soaring Dark Star into a seamless Spanish Jam and resolves with an ethereal Turn On Your Lovelight featuring Pigpen and Gregg Allman. Guest solos from Duane Allman, Peter Green and the Allmans lift the jams, while Mickey Hart’s gong work and extra percussion add texture.",
+    "review": "On February 11, 1970 at New York’s Fillmore East, the Grateful Dead delivered a historic night that still feels fresh decades later. The second set unfolded as a cosmic suite: a fiery Dark Star stretched into an expansive Spanish Jam before melting into a soulful Turn On Your Lovelight, where Ron Pigpen traded vocal fire with Gregg Allman and the guitars of Jerry Garcia duelled with Duane Allman and Peter Green. The rhythm section—Phil Lesh’s grounding bass, Mickey Hart’s booming gong, Bill Kreutzmann’s steady drive, plus surprise contributions from guest drummers—kept the momentum relentless. Guest organist Gregg Allman added blues‑y slides to Lovelight, while the band’s chemistry stayed tight despite the star‑studded lineup. Across all available sources the performance is praised as “scorching,” “holy‑grail,” and a highlight of the early ’70 era, making this show a must‑listen for any Deadhead.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.5,
-      "confidence": "high"
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 127,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All nine recordings are uniformly positive, repeatedly praising the Dark Star → Spanish Jam → Lovelight sequence, guest solos, and overall intensity. No negative comments appear, indicating strong consensus of a legendary performance.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-02-11.partial.sbd.greenberg-evans.28402.sbeok.flac16",
-      "reason": "Crystal‑clear soundboard capture with excellent balance; highlights Lovelight and Spanish Jam without any dropouts or muddiness."
+      "reason": "Excellent soundboard capture, crisp and well‑balanced despite being partial; includes the standout Lovelight and Spanish Jam with guest performances."
     },
     "key_highlights": [
-      "Out‑of‑this‑world Dark Star → Spanish Jam → Lovelight suite",
-      "Pigpen and Gregg Allman swapping vocals on Lovelight",
-      "All‑star guest lineup (Duane Allman, Peter Green, extra drummers) adds chaotic brilliance",
-      "Cold Rain jam showcases Phil’s interplay with the guests"
+      "Epic Dark Star → Spanish Jam → Turn On Your Lovelight sequence featuring Allman brothers and Gregg Allman",
+      "Guest solos from Duane Allman, Peter Green and organ work by Gregg Allman add bluesy fire",
+      "Mickey Hart’s gong work and extra percussion (Butch, Mick Fleetwood) enrich the rhythm section",
+      "Pigpen’s vocal trade with Gregg Allman on Lovelight creates a memorable moment"
     ],
     "song_highlights": [
       "Dark Star",
       "Spanish Jam*",
-      "Turn On Your Lovelight**",
-      "Cold Rain And Snow"
+      "Turn On Your Lovelight**"
     ],
     "band_performance": {
-      "Jerry": "Delivers soaring, high‑energy guitar work; duels with Peter Green and Duane Allman, especially fierce during Dark Star and the Lovelight suite.",
-      "Phil": "Provides a driving bass foundation; noted for stepping back on Lovelight and locking in tightly during the Spanish Jam and Cold Rain improvisations.",
-      "Bob": "Solid rhythm‑guitar work, part of the three‑guitar front line on Uncle John's Band and early jams, adding depth to the overall sound.",
-      "Brent": "Pigpen (keyboardist) commands the night with powerful vocals, organ swells and harmonica, leading the groove especially on Lovelight and the Spanish Jam.",
-      "Mickey": "Adds percussive color with a massive gong crash and tight interplay alongside extra drummers, enhancing the jam intensity.",
-      "Billy": ""
+      "Jerry": "Intense dueling guitar work with Duane Allman and Peter Green; single‑coil tone shines during Dark Star and the jam sequence.",
+      "Phil": "Solid bass foundation, steps back on Lovelight to let guests shine; notable bass line in the mid‑jam bridge.",
+      "Bob": "",
+      "Brent": "",
+      "Mickey": "Powerful gong work and contributions from guest drummers add texture and drive.",
+      "Billy": "Keeps a steady groove that underpins the extended jams."
     },
     "processed_recordings": 8,
-    "processed_date": "2025-09-11T23:50:19.269044+00:00",
+    "processed_date": "2025-09-12T14:54:12.494423+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -177,9 +184,6 @@
         "Dark Star",
         "Spanish Jam*",
         "Turn On Your Lovelight**"
-      ],
-      [
-        "Cold Rain And Snow"
       ]
     ]
   }

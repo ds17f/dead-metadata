@@ -211,57 +211,53 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Acoustic gems and a soaring Morning Dew close the show",
-    "blurb": "The first set features an intimate acoustic segment with folk‑gospel numbers and a rare Everly Brothers cover. The electric second set builds energy toward a powerful rendition of Morning Dew, highlighted by Jerry’s pedal‑steel and lead guitar work. Good Lovin' showcases Bob’s vocals while Pigpen adds a brief keyboard solo.",
-    "review": "On July 11 1970 at the Fillmore East the Dead delivered a show that feels like a snapshot of an era in transition. Set 1 is a low‑key, acoustic showcase – Jerry slipping a pedal‑steel into “Swing Low (Sweet Chariot)” and “So Sad (To Watch Good Love Go Bad)”, Pigpen quietly adding a keyboard solo, and the band weaving gospel‑inflected folk tunes that are rare on any recording. The second set erupts with the classic early‑70s electric punch: “Morning Dew” soars with raw intensity, punctuated by Jerry’s heavy lead guitar tones (early wah‑wah hints) and Bob’s vocal fire on a double “Good Lovin’”. Though captured only on an audience tape that loses the right channel for the first half, the performance’s historic rarity and musical highs make it worth the listen.",
+    "summary": "Acoustic gems and fiery electric set with standout Morning Dew",
+    "blurb": "The July 11 1970 Fillmore East show opens with a rare acoustic set featuring Jerry’s pedal‑steel work and Pigpen’s organ solo despite laryngitis. The second set erupts into high‑energy rock, highlighted by a powerful Morning Dew. Overall the performance is strong, though the only available tape is a fair audience recording.",
+    "review": "On July 11, 1970 at New York’s Fillmore East the Dead delivered an unusual two‑part experience. Set 1 was an acoustic showcase that began with gospel‑tinged numbers and included a heartfelt rendition of “So Sad (To Watch Good Love Go Bad)”, while Jerry Garcia slipped in pedal‑steel tones that some fans even suspect early wah‑wah use. Pigpen, battling laryngitis, still managed an inspiring organ solo that underscored the set’s intimacy. The electric Set 2 flipped the vibe, launching into a blistering “Morning Dew” and driving through classics like “Good Lovin’”, “China Cat Sunflower”→“I Know You Rider”, and “Uncle John’s Band”. Though the sole recording (gd70-07-11.aud.cotsman.9379.sbefail.shnf) is a fair, left‑channel‑only audience tape with noticeable hiss, it captures enough of the band’s energy to make this show worth a listen for fans interested in that unique acoustic/electric contrast.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.6,
+      "ai_rating": 3.2,
       "confidence": "medium",
       "rating_calculation": {
         "base_rating": 2.5,
-        "review_count_total": 8,
+        "review_count_total": 15,
         "review_count_boost": 0.1,
-        "sentiment_adjustment": 1.0,
-        "final_calculation": "2.5 + 0.1 + 1.0 = 3.6"
+        "sentiment_adjustment": 0.6,
+        "sentiment_rationale": "All available analysis is positive, praising the acoustic set’s rarity and Jerry’s pedal‑steel work as well as the high‑energy electric numbers like Morning Dew. The consistent enthusiasm across the single recording warrants a modest positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.6 = 3.2"
       }
     },
     "best_recording": {
       "identifier": "gd70-07-11.aud.cotsman.9379.sbefail.shnf",
-      "reason": "Only available source; despite channel loss it captures the rare acoustic set and historic Morning Dew performance."
+      "reason": "Despite being a fair audience tape with left‑channel limitations, it uniquely captures the rare acoustic set and high‑energy electric performance, making it the only viable source for this show."
     },
     "key_highlights": [
-      "Rare acoustic segment with folk‑gospel numbers and an Everly Brothers cover.",
-      "Soaring, emotionally charged rendition of \"Morning Dew\" that caps the electric set.",
-      "Jerry’s pedal‑steel texture on acoustic songs and early wah‑wah style lead guitar.",
-      "Pigpen’s brief keyboard solo adds a unique flavor to the otherwise guitar‑driven show."
+      "Rare acoustic set featuring pedal‑steel and Pigpen organ solo",
+      "Powerful, fire‑breathing “Morning Dew” in the second set",
+      "High‑energy electric numbers like Good Lovin' and China Cat Sunflower→I Know You Rider"
     ],
     "song_highlights": [
-      "Morning Dew",
       "So Sad (To Watch Good Love Go Bad)",
-      "Swing Low (Sweet Chariot)"
+      "Morning Dew"
     ],
     "band_performance": {
-      "Jerry": "Shows pedal‑steel texture on acoustic numbers and a heavy lead guitar tone with hints of early wah‑wah throughout the electric set.",
+      "Jerry": "Garcia’s guitar work shines, highlighted by a pedal‑steel/possible wah‑wah that adds texture to the acoustic set and drives the electric numbers.",
       "Phil": "",
-      "Bob": "Provides strong vocal work on Good Lovin' and adds harmonies in the second set.",
-      "Brent": "",
+      "Bob": "Weir takes lead vocals on “Good Lovin’”, delivering a solid performance.",
+      "Pigpen": "Even with laryngitis, Pigpen provides an inspiring organ solo during the acoustic portion, showing his resilience and soulful touch.",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-12T04:59:23.480958+00:00",
+    "processed_date": "2025-09-12T19:56:46.108922+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
-        "Morning Dew"
-      ],
-      [
         "So Sad (To Watch Good Love Go Bad)"
       ],
       [
-        "Swing Low (Sweet Chariot)"
+        "Morning Dew"
       ]
     ]
   }

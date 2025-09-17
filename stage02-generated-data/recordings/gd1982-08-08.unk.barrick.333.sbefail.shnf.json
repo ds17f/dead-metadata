@@ -16,40 +16,82 @@
   "high_ratings": 14,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crisp soundboard capture of a hot 1982 Alpine Valley show with standout 'Scarlet/Fire', 'They Love Each Other' jams and tight Garcia guitar work.",
-    "review": "The recording is praised as crystal‑clear, true soundboard quality that lets every nuance of the band shine.  The performance itself is described as “hot” and high‑energy, highlighted by a fiery Scarlet/Fire sequence, an inspired They Love Each Other jam, and strong renditions of Good Lovin', Promised Land and Samson.  Guest musicians (Hamza El Din on drums, John Cippolina on guitar) add extra excitement, while the mix remains balanced though a few listeners wished for more bass presence.",
+    "summary": "Excellent soundboard capture of a hot 1982 Alpine Valley show, highlighted by scorching performances of \"They Love Each Other\", \"Scarlet/Fire\" and guest spots.",
+    "review": "The recording is a crisp, well‑mixed soundboard tape that many reviewers call phenomenal, with only minor editing needed for the second‑set seam and a slight bass balance issue. Musically the show is described as tight and chaotic in the best way, featuring standout renditions of \"They Love Each Other\", \"Scarlet/Fire\", \"Good Lovin'\" and guest appearances by John Cipollina and Hamza El Din.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.5,
       "confidence": "high",
-      "rationale": "Average reviewer rating is ~4.3/5 across >10 detailed reviews, all emphasizing excellent sound and strong performance."
+      "rationale": "The majority of reviews are 4‑5 stars, consistently praising both the performance and the soundboard quality; only a single low rating mentions a minor glitch."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Crisp, clear mix with very little noise; reviewers call it phenomenal and outstanding. No major drop‑outs, only occasional comment wishing for a bit more bass presence."
+      "technical_notes": "Crisp, clear mix with great instrument separation; minor issues include need to edit second‑set transition and occasional desire for more bass presence."
     },
     "show_quality": {
       "standout_songs": [
-        "Scarlet/Fire",
         "They Love Each Other",
+        "Scarlet/Fire",
         "Good Lovin'",
-        "Promised Land",
         "Samson",
-        "Satisfaction/(Can't Get No) (cover)"
+        "Promised Land"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Second set flows seamlessly; reviewers note easy editing to make it continuous and praise the energetic pacing throughout.",
-      "energy_level": "high"
+      "poor_songs": [
+        "Estimated"
+      ],
+      "setlist_flow": "The set is described as hot and tightly played, with a seamless feel after editing the CD split; guest musicians add extra excitement."
     },
     "band_member_comments": {
-      "Jerry": "Tight, crisp guitar work; bends strings beautifully on Promised Land; overall tight playing praised.",
-      "Phil": "Savage/insane bass performance, described as 'Phil bombs'; one reviewer wished for a bit more bass in the mix.",
-      "Bob": "Earnest vocal delivery on Good Lovin' and strong rhythmic contributions noted.",
-      "Keys": "Brent Mydland appears (brief mention of his tune with limited jam), no specific praise beyond presence.",
-      "Drums": "Guest drummer Hamza El Din praised as a favorite drum performance; rhythm section described as 'overdrive'."
+      "Jerry": "Garcia's guitar work is repeatedly called crisp, tight and wonderfully expressive.",
+      "Phil": "Phil Lesh delivers savage, insane bass lines; one reviewer wishes the bass was a bit louder in the mix.",
+      "Bob": "Bob Weir’s vocal on \"Good Lovin'\" is praised for its earnest delivery.",
+      "Keys": "",
+      "Drums": "Hamza El Din (guest) and the rhythm section receive high marks for energy; overall drum work described as over‑driven in a good way."
     },
-    "processed_date": "2025-09-07T08:42:55.176207+00:00",
+    "song_mentions": {
+      "They Love Each Other": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Scarlet/Fire": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Satisfaction/(can't get no)": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Promised Land": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Samson": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Fire on the Mountain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Estimated": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T23:56:08.112218+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-08-08.unk.barrick.333.sbefail.shnf"
   }

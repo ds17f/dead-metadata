@@ -16,43 +16,73 @@
   "high_ratings": 18,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "A high‑energy Greek Theatre show captured on a crisp soundboard tape with Bobby’s front‑center guitar and standout jams like Scarlet > Fire, Estimated > Eyes and The Other One.",
-    "review": "The May‑23‑1982 performance is praised for its relentless drive, superb setlist flow and memorable long second‑set improvisations (Scarlet Fire, Estimated/Eyes, The Other One).  The SBD source delivers warm analog clarity; a few reviewers note Bobby’s guitar sitting high in the mix and an initially thin Shakedown vocal, but overall the recording is considered very good.",
+    "summary": "A solid soundboard capture of a high‑energy Greek Theatre show – crisp overall mix with Bobby front‑center and standout jams like Scarlet > Fire, Estimated > Eyes and a fiery Shakedown.",
+    "review": "The recording is a soundboard source that, despite occasional hiss and a slightly forward Bob Weir guitar, delivers clear instrument separation and good stage banter. Musically the band is on fire – Garcia’s lead work, Brent’s keyboards and Bill’s drumming drive long, rewarding jams (Scarlet > Fire, Estimated > Eyes, The Other One) and a double‑encore that leaves listeners wanting more. Overall sentiment from fans is overwhelmingly positive, with only minor criticisms of the opening Shakedown.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Across ~20 reviews the average rating is ≈4.35 /5 with consistent praise for both performance and sound quality; only a single low‑star review mentions minor flaws."
+      "rationale": "Most reviewers give 4‑5 stars and highlight both superb performance and generally good soundboard quality; only a few note minor mix or vocal issues, so the combined show (70%) + recording (30%) score lands in the high‑range."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear, warm analog SBD tape; occasional mix imbalance (Bob’s guitar forward) and brief level quirks early in the set, but overall crisp and listenable."
+      "technical_notes": "Generally clear and well balanced; a bit of hiss/high‑gen noise on early tracks, Bob's guitar sits forward in the mix, occasional drop‑outs noted but not detrimental to listening."
     },
     "show_quality": {
       "standout_songs": [
-        "Shakedown",
         "Scarlet > Fire",
         "Estimated > Eyes",
         "The Other One",
         "Brokedown Palace",
-        "Stella Blue",
-        "Let It Grow"
+        "Shakedown",
+        "Stella Blue"
       ],
       "poor_songs": [
-        "Shakedown (weak vocal start according to one reviewer)"
+        "Shakedown (opening – noted as weak by a couple of reviewers)"
       ],
-      "setlist_flow": "Long, flowing second set with seamless transitions into a rare 33‑minute Scarlet > Fire and an extended Estimated/Eyes/Other One sequence; double encore adds extra payoff.",
-      "energy_level": "high"
+      "setlist_flow": "A classic Greek Theatre arc with an aggressive Shakedown opener, long pre‑drums on the second set, a rare 33‑minute Scarlet > Fire, extensive Estimated‑Eyes jam, and a double encore that builds to a moving Brokedown Palace finish."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar work is described as “on fire” and fast, vocals thin at the Shakedown start but strong thereafter; overall praised for melodic leads.",
+      "Jerry": "Garcia’s lead guitar is described as ‘on fire’ and his vocals, while thin at the start of Shakedown, become strong and purposeful throughout; many note his energetic riffs and melodic lines.",
       "Phil": "",
-      "Bob": "Bobby's rhythm/lead guitar is highlighted throughout—funky on Shakedown, compelling harmonics on TLEO, and often sitting forward in the mix, adding a crucial counterpoint.",
-      "Keys": "Brent’s organ/keyboard textures receive strong praise (“awesome ways to get his instrument into the mix”, “eager”, “blossoming maturity”).",
-      "Drums": "The dual‑drummer lock‑step is noted as solid and powerful, with drum solos described as a “pound‑fest”."
+      "Bob": "Bobby’s guitar is often “way in front” of the mix – praised for funky rhythms, harmonics on TLEO and a compelling presence that defines the band’s sound here.",
+      "Keys": "Brent’s keyboards are highlighted as ‘on fire’, providing organ textures at the start of Other One and adding color throughout the jams; his maturity is noted in the late‑set sections.",
+      "Drums": "Bill’s drumming is called a “pound‑fest” with tight sync between the two drummers, driving the long pre‑drum sections and keeping the high energy."
     },
-    "processed_date": "2025-09-07T07:12:25.187510+00:00",
+    "song_mentions": {
+      "Shakedown": {
+        "positive_mentions": 9,
+        "negative_mentions": 2,
+        "total_mentions": 11
+      },
+      "Scarlet > Fire": {
+        "positive_mentions": 8,
+        "negative_mentions": 0,
+        "total_mentions": 8
+      },
+      "Estimated > Eyes": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "The Other One": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Brokedown Palace": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Stella Blue": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-13T21:19:43.764873+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-05-23.sbd.gorinsky.5058.sbeok.shnf"
   }

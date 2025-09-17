@@ -16,44 +16,46 @@
   "high_ratings": 8,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with occasional distortion but very listenable; the show shines with standout performances of Good Lovin', Mason’s Children, Dark Star and a powerful The Eleven.",
-    "review": "The early‑1970 capture from Corvallis delivers a fun, organ‑rich vibe (a ‘67‑style Hammond that even came from a Baptist church) and the band is in top form on Good Lovin', Mason’s Children, High Time and a smoking Dark Star.  Recording quality is solid for a vintage soundboard tape – clear enough to enjoy despite some distortion, drop‑outs and a half‑step pitch slowdown noted by a few listeners.  Overall the performance is highly regarded, with the The Eleven sequence getting special praise while Hard To Handle is mentioned as unusually brief.",
+    "summary": "Soundboard recording with occasional distortion and pitch slowdown, but captures a stellar early‑'70 show highlighted by a smoking Good Lovin', Mason’s Children, Dark Star and The Eleven.",
+    "review": "The tape, sourced from the soundboard, is generally listenable despite some muddiness, speed/pitch issues and brief drop‑outs. Musically the concert shines – fans rave about the tight groove on Good Lovin’, a powerful Mason’s Children, an inspired Dark Star and a memorable The Eleven, with strong vocals on High Time and a soaring Love Light.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 3.9,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers give 4‑5 stars and highlight strong musical moments; recording issues are noted but do not dominate, yielding a combined weighted score near 4."
+      "rationale": "Most reviewers give 4‑5 stars and praise the performance; technical flaws are noted but do not dominate, yielding an overall high rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Occasional distortion and drop‑outs, a half‑step slower tape speed in one copy, but overall clear and listenable; vintage tape hiss expected."
+      "technical_notes": "Slight distortion in places, occasional drop‑outs, a half‑step slower pitch on the tape, but overall clear enough for enjoyable listening."
     },
     "show_quality": {
       "standout_songs": [
         "Good Lovin'",
         "Mason's Children",
         "Dark Star",
-        "St Stephen > The Eleven",
-        "High Time"
+        "The Eleven",
+        "St. Stephen",
+        "High Time",
+        "Lovelight"
       ],
       "poor_songs": [
         "Hard To Handle"
       ],
-      "setlist_flow": "Early‑'70 set builds nicely from tight, studio‑like Dire Wolf into a powerful second half highlighted by Dark Star and an especially compelling The Eleven sequence."
+      "setlist_flow": "Early‑'70 set with a tight first half and a soaring second set; jams flow naturally from St. Stephen into The Eleven, then into Love Light, showcasing the band’s developing improvisational chemistry."
     },
     "band_member_comments": {
-      "Jerry": "Garcia's guitar work is praised as part of the overall strong performance; no specific tonal commentary beyond general excellence.",
-      "Phil": "Phil's bass is referenced in discussion about the difficulty of The Eleven, implying solid support on that challenging piece.",
-      "Bob": "",
-      "Keys": "The Hammond organ has a distinct '67 feel and was reportedly sourced from a Baptist church, giving the show a unique keyboard texture.",
+      "Jerry": "Jerry's guitar work is noted as strong, especially cutting loose after Bob's solo on Hard To Handle.",
+      "Phil": "Phil's bass is mentioned indirectly via discussion of The Eleven being 'too hard' and possibly the last time they played it.",
+      "Bob": "Bob added a brief solo before Jerry’s lead on Hard To Handle, highlighted as a noteworthy moment.",
+      "Keys": "The Hammond organ has an unusual tone—identified as coming from a Baptist church—which gives the show a distinct ’67 vibe.",
       "Drums": ""
     },
     "song_mentions": {
       "Good Lovin'": {
-        "positive_mentions": 2,
+        "positive_mentions": 3,
         "negative_mentions": 0,
-        "total_mentions": 2
+        "total_mentions": 3
       },
       "Mason's Children": {
         "positive_mentions": 3,
@@ -66,37 +68,32 @@
         "total_mentions": 2
       },
       "Dark Star": {
-        "positive_mentions": 3,
+        "positive_mentions": 2,
         "negative_mentions": 0,
-        "total_mentions": 3
+        "total_mentions": 2
       },
-      "Dire Wolf": {
+      "St. Stephen": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Hard To Handle": {
-        "positive_mentions": 0,
-        "negative_mentions": 1,
-        "total_mentions": 1
-      },
-      "St Stephen > The Eleven": {
+      "The Eleven": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
       },
       "Lovelight": {
-        "positive_mentions": 1,
+        "positive_mentions": 2,
         "negative_mentions": 0,
-        "total_mentions": 1
+        "total_mentions": 2
       },
-      "China Cat Sunflower": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
+      "Hard To Handle": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-11T22:34:47.077151+00:00",
+    "processed_date": "2025-09-12T13:38:32.141671+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-01-17.sbd.clugston.2220.sbeok.shnf"
   }

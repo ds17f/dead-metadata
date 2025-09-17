@@ -16,18 +16,18 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Fair‑quality soundboard plagued by speed and pitch fluctuations, yet a solid three‑set show highlighted by Candyman, Rider, Speedway slide and a great Jordan jam.",
-    "review": "The SBD capture suffers from noticeable wow, speed inconsistencies and occasional out‑of‑tune guitars, making the listening experience uneven. Musically the concert is an average‑to‑above‑average early‑’70 performance with standout moments such as Candyman’s sparse arrangement, a crisp Rider, a nice Jerry slide on Speedway and a spirited Jordan jam, while other numbers feel merely adequate.",
+    "summary": "Soundboard capture with speed/tune fluctuations, but a strong second set highlighted by Candyman and a solid Rider‑High Time stretch.",
+    "review": "The two reviews paint a picture of an intriguing May ’70 show that fills a chronological gap. While the SBD source is praised as “ripping” by one listener, the other notes speed wobble, pitch‑correction needs and occasional out‑of‑tune guitars, making the recording quality only fair. Musically the set delivers several gems – a sparse Candyman, an energetic Rider→High Time, a decent first Attics of My Life, a nice Jerry slide on Speedway and a welcomed St. Stephen – though some numbers (Me & My Uncle, Attics) feel merely average.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.4,
+      "stars": 4.1,
       "confidence": "medium",
-      "rationale": "Two reviews give divergent impressions – one 5‑star rave, one detailed 3‑star critique pointing to recording flaws and an average show. Weighted assessment yields a mid‑range rating."
+      "rationale": "One reviewer rates the show 5 stars for its excitement, another gives a balanced 3‑star assessment citing technical flaws; averaging these and weighting musical performance higher yields a solid above‑average rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Fluctuating speed and pitch issues throughout the second set; occasional tape wow (Not Fade Away) and out‑of‑tune guitars; a reel‑change cut in Schoolgirl; overall sound is usable but uneven."
+      "technical_notes": "Speed fluctuations throughout, multiple pitch‑correction issues (−1% to +1%), occasional tape wow at ~2:07, guitars noticeably out of tune on several songs, and a reel‑change cut in Schoolgirl."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,17 +35,21 @@
         "Rider",
         "High Time",
         "Speedway",
+        "St. Stephen",
         "Jordan"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Three‑set structure with a brief acoustic first set, a long NRPS intermission and an extensive second electric set; the pacing is uneven but includes several memorable jams."
+      "poor_songs": [
+        "Me & My Uncle",
+        "Attics of My Life"
+      ],
+      "setlist_flow": "First set is short (five songs) and technically uneven, while the second set stretches to 17 tracks with an NRPS interlude; overall performance is average‑to‑above‑average but never reaches a true lift‑off."
     },
     "band_member_comments": {
-      "Jerry": "Noted for a nice slide at the end of Speedway and generally solid playing.",
+      "Jerry": "Nice slide at the end of Speedway, though guitars were noticeably out of tune in places.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Mickey does not appear on the acoustic set due to alternating duties with Billy."
+      "Drums": "Mickey does not play on the acoustic set (alternating with Billy); otherwise drums are present."
     },
     "song_mentions": {
       "Candyman": {
@@ -68,7 +72,22 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
+      "Me & My Uncle": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Attics of My Life": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
       "Speedway": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -77,19 +96,9 @@
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
-      },
-      "St. Stephen": {
-        "positive_mentions": 0,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Attics of My Life": {
-        "positive_mentions": 0,
-        "negative_mentions": 0,
-        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T02:53:02.164639+00:00",
+    "processed_date": "2025-09-12T17:58:13.746705+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-14.136645.s2.sbd.reelmaster.dat.sirmick.flac16"
   }

@@ -16,18 +16,18 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good‑quality audience tape captures a standout Space → The Wheel transition.",
-    "review": "The audience recording is praised for its clear transfer and edit, delivering solid sound despite the crowd ambience. Reviewers highlight a very nice segue from Space into The Wheel as a high point of the show.",
+    "summary": "Good audience tape captures a very nice Space → The Wheel transition.",
+    "review": "The audience recording is praised for its good quality, delivering clear sound that lets listeners enjoy the performance. Reviewers especially highlight the smooth and powerful segue from Space into The Wheel as a standout moment of the show.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.0,
-      "confidence": "low",
-      "rationale": "Only one 4‑star review is available; it praises both the audience tape quality and a strong Space→Wheel performance, indicating an overall positive impression of show and recording."
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Single 4‑star review notes good audience recording quality and highlights a strong musical transition, indicating an overall solid performance with decent sound."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Audience tape with clear capture; transfer and edit by Bob Wagner and Charlie Miller noted as well‑done, though typical crowd ambience remains."
+      "technical_notes": "Reviewer describes the tape as \"good quality\" with no major flaws; clear enough to appreciate the music."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,8 +35,7 @@
         "The Wheel"
       ],
       "poor_songs": [],
-      "setlist_flow": "Smooth segue from Space into The Wheel highlighted as a key moment.",
-      "energy_level": "high"
+      "setlist_flow": "Positive comments focus on the seamless Space → The Wheel segue, suggesting a well‑crafted set flow."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -45,7 +44,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T07:02:43.682477+00:00",
+    "song_mentions": {
+      "Space": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Wheel": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T21:01:04.624949+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-05-21.nak700.wagner.miller.109334.flac16"
   }

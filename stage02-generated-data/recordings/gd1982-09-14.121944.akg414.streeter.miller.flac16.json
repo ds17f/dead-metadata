@@ -16,26 +16,25 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Audience‑recorded FLAC captures a high‑energy, smoking 1982 show with solid sound quality despite a few unexpected country moments.",
-    "review": "The concert is described as “smoking” and full of energy, with the audience recording smoothing out the typical harshness of ’82 soundboards, resulting in a pleasant listening experience. While most listeners enjoyed the vibe, one reviewer was put off by an unanticipated country‑style turn (El Paso), giving the overall impression a mixed but largely positive feel.",
+    "summary": "Audience recording that smooths the harsh ’82 soundboard edge, capturing a generally smoking 1982 show but leaving some listeners unimpressed by early country‑flavored moments.",
+    "review": "The three fan comments describe an overall lively 1982 performance – one reviewer calls the shows \"smoking\" and another praises how the audience tape mellows the typical sharpness of ’82 soundboards. A third listener, however, was disappointed by a sudden country turn with “El Paso,” indicating the set’s mood wasn’t consistent for everyone.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.9,
-      "confidence": "medium",
-      "rationale": "Show is generally praised for high energy and good performance; recording is noted as clear and smoother than typical ’82 soundboards, but limited detail and a negative comment lower the overall confidence."
+      "stars": 3.0,
+      "confidence": "low",
+      "rationale": "Only three reviews; one clear 4‑star rating, two with no meaningful star value and mixed comments about the show and recording."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Audience mic (AKG 414) smooths the edges of the often harsh ’82 soundboards, delivering clear and balanced audio without major distortion."
+      "technical_notes": "Listeners note that this audience source smooths the usual harshness of ’82 soundboards, making for a more pleasant listening experience."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [
         "El Paso"
       ],
-      "setlist_flow": "Overall flow is energetic and well‑received, though a surprise country number interrupts the psychedelic vibe for some listeners.",
-      "energy_level": "high"
+      "setlist_flow": "Generally energetic and \"smoking\" early in the set, but an unexpected country‑style number (El Paso) disrupted the vibe for at least one listener."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -44,7 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T09:27:54.369569+00:00",
+    "song_mentions": {
+      "El Paso": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T01:12:47.502092+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-14.121944.akg414.streeter.miller.flac16"
   }

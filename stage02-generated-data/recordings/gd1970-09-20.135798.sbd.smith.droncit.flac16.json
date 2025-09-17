@@ -16,39 +16,41 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A stellar acoustic performance captured on an audience‑stealth rig – overall clear and enjoyable despite some instrument‑balance quirks.",
-    "review": "Reviewers rave about the acoustic set, highlighting Phil Lesh’s solid bass work and the added mandolin texture from David Grisman and David Nelson. The recording is generally good, with only minor audio imperfections; one version even fixes a warbled middle section of “Caution,” though it slightly mutes Pigpen’s harp and vocal mic while boosting organ. Overall the show is praised far more than the technical hiccups.",
-    "sentiment": "positive",
+    "summary": "Good‑quality audience capture with minor flaws showcases a stellar acoustic segment and a notably improved Caution transition.",
+    "review": "The show is praised for its exceptional acoustic set featuring Phil on bass, David Grisman’s mandolin and David Nelson’s second mando, and an especially tight Caution that benefits from a cleaner opening and proper transition. Recording-wise the source (a stealth‑rig under‑stage tap) sounds generally good but exhibits occasional warble, reduced Pigpen harp/vocals and a slight organ boost, leading to mixed opinions about fidelity.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "medium",
-      "rationale": "Most reviewers give 5‑star ratings and praise the performance; a few note recording quirks, leading to an overall high but slightly moderated score."
+      "rationale": "Strong musical performance (two 5‑star reviews) offset by mixed comments on recording quality; overall rating leans high but not perfect."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Minor audio imperfections noted; stealth rig under stage provides decent clarity. One version improves a warped middle section of “Caution” but reduces Pigpen’s harp/vocal mic while boosting organ levels."
+      "technical_notes": "Minor audio imperfections, occasional warbled middle section, reduced Pigpen harp/vocal mic and boosted organ levels; source likely a stealth rig under the stage."
     },
     "show_quality": {
-      "standout_songs": [],
+      "standout_songs": [
+        "Caution"
+      ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic half‑set shines with guest mandolin work, creating a richer texture than comparable acoustic shows from the era."
+      "setlist_flow": "Acoustic segment with guest mandolin adds depth; Caution benefits from improved opening and seamless transition, creating a smooth flow despite recording quirks."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "Phil Lesh’s bass playing is specifically praised on this acoustic night.",
+      "Phil": "Positive note on Phil playing bass during the acoustic numbers.",
       "Bob": "",
-      "Keys": "Organ appears louder in this version; Pigpen’s harp and vocal mic are noticeably reduced.",
+      "Keys": "",
       "Drums": ""
     },
     "song_mentions": {
       "Caution": {
         "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
+        "negative_mentions": 1,
+        "total_mentions": 2
       }
     },
-    "processed_date": "2025-09-12T06:26:18.400847+00:00",
+    "processed_date": "2025-09-12T21:27:16.322415+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-09-20.135798.sbd.smith.droncit.flac16"
   }

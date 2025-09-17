@@ -16,18 +16,18 @@
   "high_ratings": 3,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Strong performance highlighted by a killer first half and a smoking electric second set, captured on a mixed‑quality audience recording.",
-    "review": "Fans rave about the energy of this show – opening with a thunderous Casey Jones, soaring through China Cat Sunflower > I Know You Rider, and delivering a triple‑decked Good Lovin'/Not Fade Away/drums sequence that leads into a scorching Viola Lee Blues, heartfelt High Times, solid Lovelight and an extended We Bid You Goodnight.  The recording is a patchwork of audience (AUD) sources: most sections are clear and atmospheric, though the first few tracks suffer from lower fidelity and occasional level shifts.",
+    "summary": "Soundboard recording that’s generally good but has occasional low‑quality spots, showcasing a scorching second electric set highlighted by Good Lovin', Viola Lee, High Times and an epic We Bid You Goodnight.",
+    "review": "The tape captures the energy of the Capitol Theater show with mostly clear soundboard quality, though a few sections dip into muddy, low‑level audio. Musically the concert is praised for a bang‑starting Casey Jones, a stellar China Cat Sunflower → I Know You Rider segue and a second set that smokes on Good Lovin'/Not Fade Away/drums, Viola Lee Blues, High Times, Love Light and a long We Bid You Goodnight.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
-      "confidence": "high",
-      "rationale": "Show quality is consistently praised across multiple reviews while recording quality is noted as uneven, yielding an overall rating just below four stars."
+      "stars": 3.9,
+      "confidence": "medium",
+      "rationale": "Most reviewers praise the performance (average 4‑star sentiment) while noting variable recording quality; combined weighting yields a solid but not outstanding rating."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Mostly clear audience (AUD) tape with good atmosphere; first five tracks are lower‑fidelity and there are noticeable mic/level changes when the band switches to acoustic, leading to occasional muddiness."
+      "technical_notes": "Overall clear and lively soundboard capture, but several passages are described as low‑quality or muddy, giving the tape an uneven listening experience."
     },
     "show_quality": {
       "standout_songs": [
@@ -36,12 +36,12 @@
         "Good Lovin'",
         "Not Fade Away",
         "Viola Lee Blues",
-        "High Time",
-        "Lovelight",
+        "High Times",
+        "Love Light",
         "We Bid You Goodnight"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set opens explosively with Casey Jones, flows through classic pairings and a powerful electric second half that builds from Good Lovin'/NFA/drums into a fiery Viola Lee Blues and closes with an extended We Bid You Goodnight."
+      "setlist_flow": "The show opens strong and builds into a powerful second electric set; acoustic interludes are noted but the real highlight is the triple‑decker Good Lovin'/NFA/drums sequence followed by a string of high‑energy numbers."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -56,7 +56,12 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "China Cat Sunflower > I Know You Rider": {
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I Know You Rider": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -76,12 +81,12 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "High Time": {
+      "High Times": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Lovelight": {
+      "Love Light": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -90,14 +95,9 @@
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
-      },
-      "Friend of the Devil": {
-        "positive_mentions": 0,
-        "negative_mentions": 0,
-        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T00:55:41.895073+00:00",
+    "processed_date": "2025-09-12T16:01:46.024366+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-03-20.sbd.late.hamilton.14287.sbeok.shnf"
   }

@@ -16,37 +16,59 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Audience‑sourced recording with uneven sound but captures a high‑energy show highlighted by a scorching Boz Scaggs blues set.",
-    "review": "The concert is remembered for its ferocious second half and a blistering Boz Scaggs/blues segment, with Althea and Lovelight also getting strong mentions. While the recording suffers from venue‑related flatness and spotty audibility in the early songs, several listeners praise its overall strength and clarity when captured from a good position.",
-    "sentiment": "mixed",
+    "summary": "A high‑energy 1982 show with a scorching Boz Scaggs blues set, captured on a decent but acoustically uneven recording.",
+    "review": "Fans rave about the fast, tight performance and especially the blazing Boz Scaggs/Cipolina blues segment, along with standout moments like Althea and the first Lovelight since Pig. The recording is solid overall, though listeners report flat room acoustics and a need to be close to the stage for clear sound.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 3.3,
-      "confidence": "medium",
-      "rationale": "Average star rating (13/4 = 3.25) combined with enthusiastic comments about the performance but mixed remarks on sound quality leads to a mid‑range score."
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Three detailed positive reviews praise the musical performance while noting only moderate recording issues; the weighted mix yields a strong rating."
     },
     "recording_quality": {
-      "source_type": "audience",
-      "quality_rating": "fair",
-      "technical_notes": "Several reviewers note flat, uneven venue sound and difficulty hearing early songs unless positioned close to the stage; others describe the recording as strong when captured from a good spot."
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Overall decent capture, but room acoustics were flat and listeners far from the stage experienced muffled sound; no specific mention of soundboard vs. audience source."
     },
     "show_quality": {
       "standout_songs": [
-        "Boz Scaggs set (blues segment)",
+        "Boz Scaggs set",
         "Althea",
-        "Lovelight"
+        "Lovelight",
+        "Starship"
       ],
       "poor_songs": [],
-      "setlist_flow": "Early portion was hampered by poor venue acoustics, but the band surged into a high‑gear second half with tight transitions and strong blues energy.",
-      "energy_level": "high"
+      "setlist_flow": "Fast, tight first half followed by a high‑gear second half; the blues-heavy Boz Scaggs/Cipolina segment is highlighted as the strongest portion."
     },
     "band_member_comments": {
-      "Jerry": "Backed to audience then stood at front of drum riser for an open riff into \"God's Country\"; noted for fast playing and minimal tuning issues.",
+      "Jerry": "Seen standing with his back to the audience at the drum riser, delivering a powerful opening riff and maintaining strong guitar energy throughout.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Bill counted off from the drum riser; no specific drumming performance comments beyond stage positioning."
+      "Drums": "Bill (Kreutzmann) counted off the opening; drums drive the high‑energy second half."
     },
-    "processed_date": "2025-09-07T07:16:14.985074+00:00",
+    "song_mentions": {
+      "Boz Scaggs set": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Althea": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Starship": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T21:25:28.508023+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-05-28.senn441.unknown.87547.sbeok.flac16"
   }

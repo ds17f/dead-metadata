@@ -16,46 +16,93 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crisp soundboard recording of an energetic 1982 show featuring standout performances of Peggy‑O, Birdsong, Tennessee (T‑JED) and Sugaree.",
-    "review": "The SBD capture is praised for its clarity and strong drum mix, though a few listeners note it sounds a bit dry compared with audience recordings. Musically the concert shines with tight playing, Jerry’s soaring guitar and vocals, and memorable renditions of Peggy‑O, Birdsong, Tennessee (T‑JED), Deal, Sugaree and Stella Blue, while The Other One loses some steam toward the end.",
+    "summary": "Crisp Charlie Miller soundboard captures a vibrant 1982 show with standout Peggy‑O, Birdsong, Sugaree and strong Jerry guitar work.",
+    "review": "The 1982‑04‑12 recording is praised for its clear, crisp SBD mix – great drum presence and Phil solidly in the blend – though some listeners find it a bit dry compared to audience tapes. Musically the band is on fire, delivering memorable renditions of Peggy‑O, Birdsong, Sugaree, Deal and Stella Blue with Jerry’s guitar especially luminous. Overall the performance outweighs the minor sonic reservations.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show highly (5‑star) and describe it as energetic with many standout songs; recording is described as crisp and good, yielding an overall strong combined rating."
+      "rationale": "Average star rating is 3.8; strong positive comments on both performance and soundboard quality push the weighted score into the 4‑star range."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Crisp and clear mix with excellent drum presence; some note the soundboard feels dry/sterile and lacks audience ambience, but no major technical flaws reported."
+      "technical_notes": "Crisp, clear mix with excellent drum definition; Phil sits well in the blend and Jerry’s tone shines. A few reviewers note the SBD sounds a bit dry/sterile compared to audience recordings."
     },
     "show_quality": {
       "standout_songs": [
         "Peggy-O",
         "Birdsong",
-        "Tennessee (The Other One Jams?)",
-        "Deal",
         "Sugaree",
-        "Estimated",
-        "Uncle John’s Band",
+        "Deal",
         "Stella Blue",
-        "Iko Iko",
-        "Women Are Smarter"
+        "Estimated"
       ],
       "poor_songs": [
         "The Other One"
       ],
-      "setlist_flow": "Strong first set with tight playing; second set builds with a superb Sugaree and beautiful Stella Blue, though energy tapers slightly on The Other One.",
-      "energy_level": "high"
+      "setlist_flow": "First set bursts with energy and tight playing; second set builds a soaring arc highlighted by a gorgeous Sugaree and a soulful Stella Blue, though the momentum tapers on The Other One."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly praised for ‘on fire’ guitar work, strong vocals on Tennessee/T‑JED, unique riff on Sugaree, and memorable tone on Estimated.",
-      "Phil": "Noted as well‑balanced in the mix with a great drum/bass presence; generally solid bass performance.",
-      "Bob": "Vocals described as okay/slightly slurred by one reviewer but also highlighted for picking up nicely on Sugaree; shows a playful mood before Estimated.",
+      "Jerry": "Consistently praised for fiery guitar work, strong tone and even vocal moments.",
+      "Phil": "Highlighted as well‑balanced in the mix with a solid bass presence.",
+      "Bob": "Vocals noted as slurred by one reviewer; otherwise described as funny/mood‑filled and supportive on jams.",
       "Keys": "",
-      "Drums": "Great drum sound repeatedly mentioned, contributing to the crispness of the recording."
+      "Drums": "Drum sound described as crisp and powerful throughout."
     },
-    "processed_date": "2025-09-07T06:22:30.567722+00:00",
+    "song_mentions": {
+      "Peggy-O": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Birdsong": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Sugaree": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Deal": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Stella Blue": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Estimated": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Iko Iko": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Women are Smarter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-13T19:54:58.543692+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-04-12.sbd.miller.95638.sbeok.flac16"
   }

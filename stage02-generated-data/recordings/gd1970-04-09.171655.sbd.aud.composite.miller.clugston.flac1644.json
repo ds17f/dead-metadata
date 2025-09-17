@@ -16,23 +16,25 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Positive five‑star review noting the Cowboy Song’s similarity to a Marshall Tucker Band tune; recording and performance details are not discussed.",
-    "review": "The sole reviewer gave this recording a perfect five‑star rating, pointing out that the “Cowboy Song” sounds reminiscent of the Marshall Tucker Band’s early track. No remarks were made about the audio source, mix quality, or overall musical performance.",
+    "summary": "Highly praised recording highlighted by a memorable 'Cowboy Song' that recalls the Marshall Tucker Band, though technical details are lacking.",
+    "review": "The sole reviewer gave this show a perfect five‑star rating, focusing on the distinctive \"Cowboy Song\" and its resemblance to the Marshall Tucker Band's early work. No specific comments were made about the sound quality or performance nuances, so the positive sentiment rests mainly on that unique moment.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
-      "confidence": "low",
-      "rationale": "Rating is based on a single enthusiastic review that provides no information on sound quality or show execution, so the estimate remains tentative."
+      "stars": 4.6,
+      "confidence": "medium",
+      "rationale": "A single 5‑star review indicates strong overall approval, but the lack of detail about recording or broader performance limits confidence."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "No comments regarding clarity, mix, or source were provided in the review."
+      "technical_notes": "No comments on sound clarity, mix balance, or source type were provided."
     },
     "show_quality": {
-      "standout_songs": [],
+      "standout_songs": [
+        "Cowboy Song"
+      ],
       "poor_songs": [],
-      "setlist_flow": "No observations about set structure or pacing were mentioned."
+      "setlist_flow": "No information about set structure or pacing was mentioned."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -41,8 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "song_mentions": {},
-    "processed_date": "2025-09-12T01:26:41.510975+00:00",
+    "song_mentions": {
+      "Cowboy Song": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-12T16:33:52.403543+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-04-09.171655.sbd.aud.composite.miller.clugston.flac1644"
   }

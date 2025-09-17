@@ -16,39 +16,50 @@
   "high_ratings": 9,
   "low_ratings": 3,
   "ai_review": {
-    "summary": "Rough but listenable audience tape that captures a high‑energy 1970 show with standout performances of Cold Rain & Snow, Alligator → The Other One and Not Fade Away.",
-    "review": "The recording is an audience (AUD) source – cloudy and low‑fi by modern standards but surprisingly clear for 1970 material. The performance itself shines: the band is in top form, delivering incendiary jams on Cold Rain & Snow, Alligator → The Other One, Attics and a soaring Not Fade Away/NFA closing. Reviewers love the raw 1970 vibe despite the tape’s imperfections.",
+    "summary": "A rough audience tape that still captures a fiery July 1970 Fillmore East set with incendiary Alligator→The Other One, stellar Not Fade Away and other classic moments.",
+    "review": "Despite the cloudy, hallway‑like audio quality typical of 1970 audience tapes, this recording delivers an energetic performance full of memorable segues – Cold Rain & Snow, the blazing Alligator→The Other One, a gorgeous Attics, and a standout Not Fade Away that showcases Garcia’s melodic blend with Weir. The show is widely praised by reviewers as one of the band’s peak moments in mid‑1970, even if the sound needs listeners’ ears to adjust.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical performance (70% weight) and acknowledge the recording is acceptable for an audience source from 1970, yielding a strong combined score."
+      "rationale": "Most reviewers highlight exceptional musical moments and give high star ratings (4–5) while consistently noting only modest recording flaws; the strong show weighting drives a rating above 4."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "good",
-      "technical_notes": "Tape is described as cloudy, blurry and low‑end, with occasional clapping bleed, but the mix remains audible and the ambience captures the hall crowd. Not a high‑fidelity soundboard, yet listenable for 1970 standards."
+      "quality_rating": "fair",
+      "technical_notes": "Hallway‑like ambience, noticeable crowd clapping near the mic, low‑end emphasis, occasional muddiness (“cloudy, blurry tape”), but overall listenable for a 1970 AUD."
     },
     "show_quality": {
       "standout_songs": [
         "Cold Rain and Snow",
-        "Alligator > The Other One",
+        "Alligator → The Other One",
         "Attics",
         "Not Fade Away",
-        "Dark Star"
+        "Dark Star",
+        "Morning Dew"
       ],
       "poor_songs": [],
-      "setlist_flow": "Enthusiastic 1970 set with seamless segues (e.g., Alligator into The Other One, Dark Star → St. Stephen → NFA → Lovelight). Reviewers note the band’s high energy and strong transitions throughout."
+      "setlist_flow": "Reviewers praise the variety, seamless segues (e.g., Alligator into The Other One) and overall pacing, calling it an exciting snapshot of the band’s 1970 peak."
     },
     "band_member_comments": {
-      "Jerry": "Garcia's tone is praised; his melodic interplay with Weir on the NFA closer is called ‘extraordinary’ and a “mind‑meld”.",
+      "Jerry": "Garcia’s lead work is highlighted as melodic and ‘mind‑meld’ especially on the Not Fade Away closer.",
       "Phil": "",
-      "Bob": "Weir’s vocal/guitar blend with Garcia on the NFA close receives special mention.",
+      "Bob": "",
       "Keys": "",
-      "Drums": "Mickey's snare had problems at one point, as noted by a reviewer."
+      "Drums": "Mickey’s snare problems are noted in one review."
     },
     "song_mentions": {
       "Cosmic Charlie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "St. Stephen": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -58,33 +69,33 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Alligator > The Other One": {
+      "Alligator": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
       },
       "Attics": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Not Fade Away": {
-        "positive_mentions": 2,
-        "negative_mentions": 0,
-        "total_mentions": 2
-      },
       "Dark Star": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "St. Stephen": {
+      "Morning Dew": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T04:53:56.960437+00:00",
+    "processed_date": "2025-09-12T19:51:32.935185+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-07-10.aud.cotsman.17351.sbeok.shnf"
   }

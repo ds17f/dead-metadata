@@ -16,18 +16,18 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑quality audience tape of a 1970 show with an exceptional acoustic set and stand‑out performances of Lovelight, Good Lovin' and How Long Blues.",
-    "review": "The recording captures a vibrant 1970 concert where the acoustic half shines—Pigpen’s piano, tight vocal harmonies, and barn‑burning versions of Lovelight and How Long Blues—while the electric set delivers a fiery Good Lovin'.  Technical fidelity is surprisingly good for an audience cassette, though occasional rough edges and a slightly out‑of‑tune electric segment are noted.  Overall the show is praised as one of the era’s highlights.",
-    "sentiment": "mixed",
+    "summary": "Clear audience tape capturing a stellar 1970 acoustic set and electric gems like Lovelight and Good Lovin', with solid but vintage‑era sound.",
+    "review": "The recording, sourced from Gene Taback’s audience cassette, offers surprisingly crisp separation and enough clarity to hear each instrument—even the bass—while retaining that warm vintage character. The show shines on both fronts: a superb acoustic half featuring Pigpen’s piano, tight vocal harmonies and highlights such as Lovelight, How Long Blues and Candyman, followed by an electric set that delivers a smoking Good Lovin', Truckin' and New Speedway Boogie despite occasional tuning roughness. Overall the performance is energetic and memorable, making this one of the more enjoyable 1970 tapes.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers award 4–5 stars, lauding the performance and calling the tape \"clean\" and \"crisp,\" while a few note tuning issues; weighted toward show quality gives a solid above‑average rating."
+      "rationale": "Thirteen detailed reviews overwhelmingly praise the musical performance (standout acoustic set and strong electric moments) and note a good‑to‑excellent audience recording; only minor tuning complaints keep the rating just above four."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Listeners commend Taback’s mic placement, crisp separation and lively sound, though some mention rough edges and occasional out‑of‑tune moments in the electric set."
+      "technical_notes": "Mic placement praised as crisp with clear instrument separation; occasional vintage tape ‘rough edges’ and a few out‑of‑tune moments in the electric half, but overall clean and lively for its era."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,20 +35,29 @@
         "Good Lovin'",
         "How Long Blues",
         "Cocaine Blues",
+        "Truckin'",
         "Candyman",
-        "Cold Rain and Snow"
+        "Ripple",
+        "Cold Rain and Snow",
+        "China Cat Sunflower",
+        "New Speedway Boogie"
       ],
       "poor_songs": [],
-      "setlist_flow": "The acoustic set is described as beautiful and tightly arranged, leading into a high‑energy electric half where Good Lovin' and Lovelight provide the emotional peaks; overall pacing is praised despite minor tuning hiccups."
+      "setlist_flow": "Acoustic set is highlighted as flawless with beautiful vocals and piano, leading into an electric half that keeps the momentum high despite occasional tuning slips; the overall pacing feels natural and engaging."
     },
     "band_member_comments": {
-      "Jerry": "Praised for his pedal‑steel wizardry, expressive solos (e.g., New Speedway Boogie) and tasteful lead work on Good Lovin'.",
-      "Phil": "Noted for lively, well‑defined bass that shines thanks to the clean audience mic placement.",
-      "Bob": "",
-      "Keys": "Pigpen’s scattershot honky‑tonk piano is highlighted throughout the acoustic set; keyboards add depth but occasional tentative feel is mentioned.",
+      "Jerry": "Garcia’s lead work gets strong mentions – tip‑of‑the‑hand on Mississippi John Hurt style blues, fiery solos on Good Lovin' and Truckin', plus impressive pedal‑steel moments.",
+      "Phil": "Bass praised for lively presence and tight definition; reviewers note the recording captures Phil’s lines with surprising clarity.",
+      "Bob": "Weir receives positive nods, especially for his work on Minglewood Blues and his rhythmic drive in the electric set.",
+      "Keys": "Pigpen’s piano (and occasional speculation about other pianists) is highlighted as a standout element of both acoustic and electric numbers, described as “scattershot honky‑tonk” yet very effective.",
       "Drums": ""
     },
     "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
       "Lovelight": {
         "positive_mentions": 4,
         "negative_mentions": 0,
@@ -60,14 +69,14 @@
         "total_mentions": 4
       },
       "How Long Blues": {
-        "positive_mentions": 2,
+        "positive_mentions": 3,
         "negative_mentions": 0,
-        "total_mentions": 2
+        "total_mentions": 3
       },
       "Cocaine Blues": {
-        "positive_mentions": 2,
+        "positive_mentions": 3,
         "negative_mentions": 0,
-        "total_mentions": 2
+        "total_mentions": 3
       },
       "Candyman": {
         "positive_mentions": 2,
@@ -75,6 +84,16 @@
         "total_mentions": 2
       },
       "Ripple": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dark Hollow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Rosalie McFall": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -90,12 +109,22 @@
         "total_mentions": 1
       },
       "New Speedway Boogie": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Monkey & the Engineer": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Minglewood Blues": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T05:37:47.533582+00:00",
+    "processed_date": "2025-09-12T20:34:46.610803+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-08-19.aud.taback.cdjones.81775.sbeok.flac16"
   }

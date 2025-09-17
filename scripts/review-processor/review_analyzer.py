@@ -752,6 +752,29 @@ class ReviewAnalyzer:
             lines.append(f"[bold yellow]Average User Rating:[/bold yellow] {avg_rating:.1f}")
         lines.append("")
         
+        # Rating calculation breakdown
+        rating_calc = ratings.get('rating_calculation', {})
+        if rating_calc:
+            lines.append(f"[bold cyan]🧮 Rating Calculation:[/bold cyan]")
+            base = rating_calc.get('base_rating', 2.5)
+            total_reviews = rating_calc.get('review_count_total', 0)
+            boost = rating_calc.get('review_count_boost', 0.0)
+            sentiment = rating_calc.get('sentiment_adjustment', 0.0)
+            calculation = rating_calc.get('final_calculation', '')
+            
+            lines.append(f"  Base Rating: [cyan]{base}[/cyan]")
+            lines.append(f"  Total Reviews: [cyan]{total_reviews}[/cyan]")
+            lines.append(f"  Review Count Boost: [green]+{boost}[/green]")
+            lines.append(f"  Sentiment Adjustment: [yellow]{sentiment:+.1f}[/yellow]")
+            lines.append(f"  [bold]Final: {calculation}[/bold]")
+            
+            # Sentiment rationale
+            rationale = rating_calc.get('sentiment_rationale', '')
+            if rationale:
+                lines.append(f"[bold cyan]💭 Sentiment Rationale:[/bold cyan]")
+                lines.extend(self.wrap_text(rationale, 100))
+            lines.append("")
+        
         # Summary
         summary = ai_show_review.get('summary', '')
         if summary:

@@ -230,45 +230,54 @@
     "official-picks-dicks"
   ],
   "ai_show_review": {
-    "summary": "Epic The Other One jam, soaring guitar, strong acoustic set",
-    "blurb": "The performance is anchored by a half‑hour odyssey of The Other One and a fiery Cosmic Charlie. Acoustic highlights include Friend Of The Devil, Dire Wolf and Candyman, while the band’s tight interplay drives the electric second set.",
-    "review": "On May 2, 1970 at Harpur College the Dead delivered one of the spring ’70 tour’s most memorable nights.  The first set rolls out a breezy acoustic groove—Friend Of The Devil, Dire Wolf, Candyman and Cumberland Blues glide into an intimate New Riders cameo before the band launches into a soaring electric second set.  The centerpiece is a monumental half‑hour stretch of The Other One that builds from a tight drum duet into a cosmic crescendo, punctuated by a blistering Cosmic Charlie and a playful Cryptical Envelopment sandwich.  A solid acoustic finish with Morning Dew, Viola Lee Blues and the gentle “And We Bid You Good Night” rounds out a show that feels both relaxed and incandescent.\n\nAcross all five soundboard‑derived sources the playing is described as “locked in,” with Garcia’s guitar soaring on both acoustic numbers and the electric marathon, Phil’s bass punching through on Cumberland Blues, and the dual drummers providing an unshakable pulse.  While a few recordings note occasional reel‑flip gaps or mono‑only sections, the overall audio remains clear enough to capture the band’s dynamic flow and the rare NRPS guest spot.  For anyone looking to hear the Dead at a creative peak in ’70, this Harpur College show is essential listening.",
+    "summary": "Legendary Other One marathon, Cosmic Charlie blaze, acoustic folk gems",
+    "blurb": "The show delivers a soaring Other One and blistering Cosmic Charlie, while the acoustic set shines with Friend of the Devil, Dire Wolf and Uncle John's Band. Jerry’s guitar work is on fire throughout, and Phil’s bass drives the jam‑filled electric sets.",
+    "review": "May 2, 1970 at Harpur College captured one of the Dead’s most dynamic early‑‘70 performances. The evening opened with a tight folk‑rock set – Don’t Ease Me In through Uncle John’s Band – that highlighted Garcia’s sweet vocal phrasing and Pigpen’s soulful harmonica, while Phil’s bass on Cumberland Blues roared forward. After the brief New Riders interlude, the electric side exploded: Saint Stephen segued into an immaculate Cryptical Envelopment → The Other One sandwich that turned into a marathon jam, with Jerry unleashing a blistering solo that still feels fresh today. Cosmic Charlie followed, firing up the crowd before a tight Casey Jones and two rounds of Good Lovin’ sandwiched between drum duets. The second electric half kept the momentum high with Cold Rain And Snow, a gritty It’s A Man’s World, and a raucous Dancin’ In The Street that sent everyone dancing. The third set closed on a haunting note with Morning Dew into Viola Lee Blues → Feedback, showcasing the band’s ability to swing from gentle balladry to raw improvisation in a single breath. Across all available tapes the performance feels locked‑in; even recordings with minor cuts or hiss retain the show’s energy and make this Harpur College concert a must‑listen for any Deadhead.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.1,
-      "confidence": "high"
+      "ai_rating": 4.6,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 56,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.7,
+        "sentiment_rationale": "All five recordings are described with uniformly positive language – terms like 'legendary', 'excellent', 'high‑energy', and 'blistering' appear repeatedly, and multiple sources highlight the same standout songs (Other One, Cosmic Charlie, acoustic gems). No consistent negative commentary on performance is present, just minor technical notes. This strong consensus warrants a high positive sentiment boost.",
+        "final_calculation": "2.5 + 0.4 + 1.7 = 4.6"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-05-02.sbd.BEAR.gems.108673.flac24",
-      "reason": "Solid soundboard capture with clear monitor balance; occasional cuts do not detract from the legendary performance, making it the most reliable full‑show source."
+      "reason": "A soundboard capture that, despite a few audible cuts, remains clear and energetic; reviewers cite it as the most balanced source that preserves the show’s legendary feel."
     },
     "key_highlights": [
-      "Half‑hour The Other One marathon that defines the second set",
-      "Cosmic Charlie’s high‑energy climax",
-      "Acoustic gems like Friend Of The Devil, Dire Wolf and Candyman",
-      "Seamless segues with Cryptical Envelopment framing the jam"
+      "Epic Other One marathon with soaring Garcia solo",
+      "Blistering Cosmic Charlie that drives the second electric set",
+      "Acoustic folk gems – Friend Of The Devil, Dire Wolf, Uncle John's Band",
+      "High‑energy New Riders interlude and Jerry’s pedal‑steel cameo on The Weight"
     ],
     "song_highlights": [
       "Friend Of The Devil",
       "Dire Wolf",
-      "Candyman",
       "Cumberland Blues",
-      "Cosmic Charlie",
+      "Uncle John's Band",
       "The Other One",
+      "Cosmic Charlie",
       "Cryptical Envelopment",
+      "Saint Stephen",
       "Viola Lee Blues",
-      "Morning Dew"
+      "Dancin' In The Street"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s soaring guitar tone shines on the acoustic numbers and reaches melodic heights during The Other One, with memorable pedal‑steel touches in the NRPS segment.",
-      "Phil": "Lesh delivers a solid, amplified bass line on Cumberland Blues and holds down the groove throughout, though some mixes note his presence fading slightly at times.",
+      "Jerry": "Garcia’s playing is consistently praised – soaring tone on the acoustic numbers, a blistering solo through The Other One, melodic passages at the start of the jam, and standout pedal‑steel work on The Weight.",
+      "Phil": "Phil’s bass shines on tight folk tunes like Cumberland Blues, though a few reviewers note occasional inaudibility in parts of the electric sets.",
       "Bob": "",
       "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 5,
-    "processed_date": "2025-09-12T02:10:24.304692+00:00",
+    "processed_date": "2025-09-12T17:25:47.042544+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -283,6 +292,9 @@
         "Cumberland Blues"
       ],
       [
+        "Uncle John's Band"
+      ],
+      [
         "Cryptical Envelopment",
         "Drums",
         "The Other One",
@@ -290,12 +302,15 @@
         "Cosmic Charlie"
       ],
       [
+        "Saint Stephen"
+      ],
+      [
         "Viola Lee Blues",
         "Feedback",
         "And We Bid You Good Night"
       ],
       [
-        "Morning Dew"
+        "Dancin' In The Street"
       ]
     ]
   }

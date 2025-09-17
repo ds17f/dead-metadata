@@ -155,40 +155,51 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Iconic Dark Star > Saint Stephen > The Eleven sequence shines",
-    "blurb": "The second set delivers a powerful Dark Star that segues into Saint Stephen and the legendary The Eleven. Jerry’s soaring guitar tone drives the jams while Phil’s bass tightens in the latter half. The acoustic first set is modest but includes a solid Uncle John’s Band.",
-    "review": "April 24, 1970 at Mammoth Gardens captures the Dead in a transitional moment – an acoustic opener that feels a bit sleepy before exploding into one of spring ’70’s most memorable electric stretches. After a gentle run through I Know You Rider, Monkey And The Engineer and a few early‑night classics, the band launches Easy Wind into a soaring Dark Star that flows seamlessly into Saint Stephen and then into the marathon The Eleven. Reviewers repeatedly note Jerry Garcia “going OFF” with tight, bright tone on both Dark Star and The Eleven, while Phil Lesh’s bass, initially buried in the acoustic set, comes forward to lock in during the climactic jams. A brief Bill Kreutzmann drum solo adds a percussive punctuation before the band drifts into an open‑ended jam that concludes with “It’s A Man’s World.” Though the audience recordings are muddy and suffer from drop‑outs, the performance itself remains compelling, especially for those who love the early‑70s exploratory spirit.",
+    "summary": "Legendary Dark Star > St. Stephen > The Eleven with soaring Jerry",
+    "blurb": "The second set erupts into a monster Eleven and an epic Dark Star → Saint Stephen segue, highlighted by Jerry’s soaring leads. First‑set material is solid, featuring Friend Of The Devil and Uncle John's Band, while Easy Wind lifts the energy before the show’s abrupt end.",
+    "review": "On April 24, 1970 at Mammoth Gardens in Denver, the Dead delivered a performance that has become a touchstone for early‑70s improvisation. While the first set rolls along with tight renditions of Friend Of The Devil, Uncle John's Band and other staples, it’s the second set that truly shines: a soaring Dark Star segues into Saint Stephen and then explodes into an unforgettable Eleven, with Garcia’s tone described as flawless throughout. Easy Wind injects high‑energy momentum before the band dives into a drum‑driven jam and a brief acoustic rendition of It’s A Man’s World, adding a rare intimate moment to the night. Despite the lo‑fi nature of most audience recordings, the show’s musical brilliance shines through, making it a must‑listen for fans seeking that early‑70s magic.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.2,
-      "confidence": "medium"
+      "ai_rating": 4.2,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 29,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "Strong positive sentiment across multiple recordings: reviewers repeatedly praise the Dark Star, The Eleven and Jerry’s soaring leads, calling the performance 'legendary' and 'soaring'. No consistent negative comments about playing were found; mixed reviews focus on recording quality only.",
+        "final_calculation": "2.5 + 0.3 + 1.4 = 4.2"
+      }
     },
     "best_recording": {
       "identifier": "gd70-04-24.aud.hanno.19531.sbeok.shnf",
-      "reason": "Most complete capture of the full set with relatively better fidelity despite mud, making the iconic Dark Star > Saint Stephen > The Eleven sequence audible."
+      "reason": "Despite lo‑fi ambience, this audience tape captures the full second‑set flow and preserves Jerry’s soaring Eleven and Dark Star, making it the most complete and musically satisfying version."
     },
     "key_highlights": [
-      "Stellar Dark Star → Saint Stephen → The Eleven sequence defines the show’s high point",
-      "Jerry’s soaring guitar tone and intense soloing on The Eleven",
-      "Bill Kreutzmann’s brief drum solo adds excitement before the jam"
+      "The Dark Star → Saint Stephen → The Eleven sequence is a peak of improvisational fire.",
+      "Jerry Garcia’s tone on The Eleven is described as flawless and soaring.",
+      "Easy Wind provides high‑energy momentum in the second set.",
+      "Acoustic It’s A Man’s World offers a rare, intimate moment despite missing a chunk."
     ],
     "song_highlights": [
       "Dark Star",
       "Saint Stephen",
       "The Eleven",
       "Easy Wind",
-      "Uncle John's Band"
+      "Friend Of The Devil",
+      "Uncle John's Band",
+      "It's A Man's World"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers soaring licks and a tight, focused tone, especially on Dark Star and The Eleven where reviewers say he ‘goes OFF’ and sounds perfect.",
-      "Phil": "Lesh’s bass is hard to hear in the acoustic portion but comes forward later, providing a solid foundation for the second‑set jams.",
-      "Bob": "Weir is mostly noted for his onstage banter chant rather than instrumental contribution during this show.",
-      "Pigpen": "",
+      "Jerry": "Garcia’s soaring licks and flawless tone are repeatedly praised, especially on The Eleven and Dark Star.",
+      "Phil": "Lesh’s bass stays clear and doesn’t muddy the mix during The Eleven; early acoustic portions are harder to hear but overall solid.",
+      "Bob": "",
+      "Brent": "",
       "Mickey": "",
-      "Billy": "Kreutzmann contributes a brief drum solo before the jam leading into Good Lovin’ (cut), highlighting his percussive flair."
+      "Billy": ""
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-12T01:54:13.945211+00:00",
+    "processed_date": "2025-09-12T17:07:49.303145+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -202,6 +213,9 @@
       ],
       [
         "Easy Wind"
+      ],
+      [
+        "Friend Of The Devil"
       ],
       [
         "Uncle John's Band"

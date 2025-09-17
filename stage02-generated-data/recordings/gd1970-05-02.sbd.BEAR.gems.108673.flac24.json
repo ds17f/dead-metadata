@@ -16,26 +16,27 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with solid audio despite occasional cuts, capturing a legendary 1970 performance highlighted by Cryptical Envelopment and Cosmic Charlie",
-    "review": "Fans rave about this show as possibly the finest 1970 Grateful Dead concert, praising the acoustic set and the soaring performances of Cryptical Envelopment into Cosmic Charlie. The soundboard source delivers generally good clarity with strong monitor balance, though a few reviewers note occasional mistakes and cuts in the tape.",
+    "summary": "Soundboard source with some audible cuts yet still clear enough to capture a legendary 1970 show highlighted by Cryptical Envelopment, Cosmic Charlie and the magical acoustic set.",
+    "review": "Fans rave about this performance as possibly the finest of 1970, especially praising the Cryptical Envelopment → Cosmic Charlie sequence and the intimate acoustic portion.  The soundboard recording is listenable but contains noticeable edits and occasional drop‑outs that a few reviewers flagged.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.7,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Overwhelmingly enthusiastic 5‑star comments about the musical performance outweigh minor complaints about tape glitches, yielding a high combined score."
+      "rationale": "Consistently enthusiastic comments about the musical performance (70% weight) combined with moderate recording issues (30% weight) lead to a strong overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Generally clear with strong monitor balance; some reviewers mention occasional cuts, mistakes, and sound issues but overall the audio is listenable."
+      "quality_rating": "fair",
+      "technical_notes": "Reviewers note cuts, sound issues and occasional monitor problems, but the mix remains generally listenable and retains the show’s energy."
     },
     "show_quality": {
       "standout_songs": [
         "Cryptical Envelopment",
-        "Cosmic Charlie"
+        "Cosmic Charlie",
+        "The Other One"
       ],
       "poor_songs": [],
-      "setlist_flow": "The concert is celebrated for its powerful acoustic set and seamless transition into electric jams, with many fans calling it the finest performance of 1970."
+      "setlist_flow": "Electric sets are described as amazing while the acoustic set is called essential, giving the concert a dynamic rise‑and‑fall that many fans find unforgettable."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -54,9 +55,19 @@
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "VLB": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T02:02:34.047861+00:00",
+    "processed_date": "2025-09-12T17:16:47.359477+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-02.sbd.BEAR.gems.108673.flac24"
   }

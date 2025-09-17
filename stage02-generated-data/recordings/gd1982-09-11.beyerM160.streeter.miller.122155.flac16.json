@@ -16,37 +16,52 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Warm, well‑balanced audience recording captures a high‑energy 9/11/82 show highlighted by a scorching Scarlet > Fire transition and soaring Let It Grow.",
-    "review": "The audience (AUD) tape is praised for its warm low end and balanced mix, giving listeners an immersive feel of the Florida venue. Musically the concert bursts with energy—fans single out the blistering Scarlet Begonias → Fire on the Mountain sequence and a rapturous Let It Grow through Terrapin Station as show‑highlights. Overall the performance feels tight and cohesive, making it a strong recommendation for both newcomers and seasoned Deadheads.",
+    "summary": "Well‑balanced audience recording captures a high‑energy show highlighted by a scorching Scarlet > Fire and soaring Let It Grow.",
+    "review": "The Miller/Streeter AUD tape is warm, clear and nicely balanced, delivering plenty of low end while keeping the instruments distinct. The performance is charged with energy – the Scarlet > Fire sequence erupts like a volcano and Let It Grow rolls seamlessly into Terrapin Station, making this a standout 1982 show.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Consistently high praise for the show’s energy and standout songs (70% weight) plus generally good recording quality despite a few minor mix comments (30% weight) yields an overall rating in the upper‑four‑star range."
+      "rationale": "Multiple reviewers (4‑5 stars) praise both the musical performance and the recording quality; only one mentions modest recording flaws, so the combined show (70%) + recording (30%) rating lands in the high‑four range."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Warm, well‑balanced sound with plenty of low end; clear instrument separation but some reviewers note that a matrix mix could improve balance between audience ambience and direct sources."
+      "technical_notes": "Well‑balanced with warm tone and strong low end; clear instrument separation, though a few reviewers note Jerry's guitar sitting a bit forward and suggest a matrix would improve balance."
     },
     "show_quality": {
       "standout_songs": [
-        "Scarlet Begonias > Fire on the Mountain",
-        "Let It Grow (through Terrapin Station)",
-        "Terrapin Station"
+        "Scarlet > Fire",
+        "Let It Grow"
       ],
       "poor_songs": [],
-      "setlist_flow": "The concert maintains high momentum, with a seamless transition from Scarlet into Fire that fuels the room’s energy and a later Let It Grow that showcases tight band interplay.",
-      "energy_level": "high"
+      "setlist_flow": "The set flows with high energy, tight transitions (e.g., Let It Grow into Terrapin), and the band feeds off audience excitement, making it a cohesive and exciting performance."
     },
     "band_member_comments": {
-      "Jerry": "Vocals clear; a few minor bum notes in Scarlet but overall strong performance and prominent presence in the mix.",
+      "Jerry": "Guitar tone praised as clear and powerful; vocals described as crystal‑clear.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T09:17:36.515715+00:00",
+    "song_mentions": {
+      "Scarlet > Fire": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Let It Grow": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Terrapin Station": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T00:57:36.387106+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-11.beyerM160.streeter.miller.122155.flac16"
   }

@@ -189,43 +189,51 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Jam‑filled Saint Stephen, crisp acoustic set and strong Easy Wind",
-    "blurb": "The show opens with a clean acoustic set highlighted by Garcia’s crystal‑clear vocals on “I Know You Rider” and sweet harmonies from Weir. The electric second half delivers high‑energy jams – especially “Easy Wind”, “Hard To Handle” and the soaring “It’s A Man’s World”. The encore finishes with a fiery “Saint Stephen” segue into “Casey Jones”.",
-    "review": "June 5, 1970 at Fillmore West captures the Grateful Dead in fine form during their celebrated San Francisco run. An intimate acoustic opening showcases Garcia’s voice in top‑shape on “I Know You Rider”, while Bob Weir’s harmonies add sweetness to the early numbers. The band then lifts off into a vigorous electric set; “Easy Wind” and “Hard To Handle” burn with tight improvisation, and “It’s A Man’s World” stands out as a soulful showcase for both vocals and Pigpen’s organ. Highlights continue with a jam‑filled “Saint Stephen” that rolls straight into an exuberant “Casey Jones”. Throughout the night Mickey Hart endures a good‑natured heckle, adding humor to an otherwise tight performance, and Bill Kreutzmann locks in solidly behind him. Despite occasional patchy patches in the recording, the show’s energy and musicianship hold up strongly.",
+    "summary": "Jam‑heavy Saint Stephen, Easy Wind, and intense Other One",
+    "blurb": "The set delivers a soaring I Know You Rider acoustic moment and a jam‑rich Saint Stephen, while the second set erupts with an explosive The Other One and a rare Easy Wind/It's A Man’s World pairing. Jerry’s voice shines on Black Peter and Bob adds raw intensity during The Other One.",
+    "review": "June 5 1970 at Fillmore West captures the Dead in a transitional phase, balancing folk‑rock intimacy with electric fire. The first set rolls smoothly from Dire Wolf into an acoustic gem of I Know You Rider, then builds momentum through Black Peter and New Speedway Boogie. The second set is where the night truly ignites: Easy Wind flows into the soulful It's A Man’s World, and the band launches into a sprawling Other One that feels both chaotic and purposeful – even Bob’s shouted “GODDAMMIT!” adds to the raw edge. The encore closes with Saint Stephen segueing into Casey Jones, leaving the audience buzzing. Across all sources, Garcia’s vocals are praised as crystal‑clear, especially on Black Peter, while the matrix recording by Bear/Wise captures the high‑energy dynamics and instrument separation better than any other tape of the night.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.6,
-      "confidence": "high"
+      "ai_rating": 4.3,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 24,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Four of six recordings are marked positive, highlighting strong vocal performance, standout jams (Saint Stephen, Other One) and rare song pairings; two are mixed but contain no negative criticism, yielding a solid positive sentiment across the show.",
+        "final_calculation": "2.5 + 0.2 + 1.6 = 4.3"
+      }
     },
     "best_recording": {
-      "identifier": "gd1970-06-05.sbd.bunjes-evans.28653.flac16",
-      "reason": "Solid soundboard capture with overall good clarity; occasional patches are minor and it presents the most complete, listenable version of the show."
+      "identifier": "gd1970-06-05.132395.bear.wise.flac16",
+      "reason": "Excellent mic‑sourced matrix capture with clear instrument separation, vivid vocals and the most detailed representation of the high‑energy set despite minor monitor hiccups."
     },
     "key_highlights": [
-      "Standout Saint Stephen jam that drives the encore.",
-      "Crystal‑clear acoustic vocals on I Know You Rider and Black Peter.",
-      "High‑energy second set jams – Easy Wind, Hard To Handle, It’s A Man’s World.",
-      "Humorous moment with Mickey Hart being heckled early in the show."
+      "Jam‑rich Saint Stephen leading into a fiery encore",
+      "Acoustic I Know You Rider that showcases crystal‑clear harmonies",
+      "Extended, chaotic The Other One with raw intensity",
+      "Rare Easy Wind / It's A Man’s World pairing and strong Black Peter vocal"
     ],
     "song_highlights": [
       "Saint Stephen",
       "Easy Wind",
       "It's A Man's World",
-      "Hard To Handle",
-      "Me And My Uncle",
       "I Know You Rider",
-      "Black Peter"
+      "Black Peter",
+      "The Other One",
+      "Hard To Handle"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s vocals are crystal‑clear on the acoustic numbers and shine on “Black Peter”, while his lead work drives the high‑energy jams.",
-      "Phil": "Phil lays down a steady, supportive bass foundation throughout both sets.",
-      "Bob": "Bob delivers solid rhythm guitar and vocal harmonies, with a notable highlight on “Me And My Uncle”.",
-      "Brent": "",
-      "Mickey": "Mickey gets heckled early, adding humor; drum mix varies but his playing stays tight.",
-      "Billy": "Bill Kreutzmann provides a reliable back‑beat that complements Mickey’s drumming."
+      "Jerry": "Garcia's vocals are highlighted as crystal‑clear on Black Peter and I Know You Rider, showing strong delivery throughout the set.",
+      "Phil": "",
+      "Bob": "Weir delivers sweet harmonies on I Know You Rider and adds a raw shout of “GODDAMMIT!” during The Other One, injecting extra intensity.",
+      "Keys": "",
+      "Mickey": "Drums are mixed a bit too loud, giving the overall sound a slight boominess in the matrix recording.",
+      "Billy": ""
     },
     "processed_recordings": 5,
-    "processed_date": "2025-09-12T03:45:24.958259+00:00",
+    "processed_date": "2025-09-12T18:53:45.176793+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -240,16 +248,20 @@
         "It's A Man's World"
       ],
       [
-        "Hard To Handle"
-      ],
-      [
-        "Me And My Uncle"
-      ],
-      [
         "I Know You Rider"
       ],
       [
         "Black Peter"
+      ],
+      [
+        "Cryptical Envelopment",
+        "Drums",
+        "The Other One",
+        "Cryptical Envelopment",
+        "Attics Of My Life"
+      ],
+      [
+        "Hard To Handle"
       ]
     ]
   }

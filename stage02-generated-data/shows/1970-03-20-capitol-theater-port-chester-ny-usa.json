@@ -71,43 +71,50 @@
     "fillmore-east-1970-complete-recordings"
   ],
   "ai_show_review": {
-    "summary": "Strong acoustic half with standout Viola Lee Blues and Lovelight",
-    "blurb": "The early set showcases a flawless acoustic segment highlighted by Deep Elem Blues and a unique Friend of the Devil rendition. The electric second half builds to a scorching Viola Lee Blues and an energetic Lovelight rap, though Pigpen’s organ sits low in the mix.",
-    "review": "Port Chester’s March 20, 1970 show captures the Dead in a transitional phase: an acoustic first set that feels intimate and tight, highlighted by a pristine Deep Elem Blues and a rare Friend of the Devil rendition that fans still talk about. The band then flips the switch for an electric second half that climbs toward a blistering Viola Lee Blues and a raucous Lovelight where Pigpen’s rap shines despite his organ being buried under the mix. Jerry’s lead work is solid throughout, with a particularly praised solo on Cold Rain & Snow (found on the matrix source), while Phil’s high‑harmony vocals sit just out of reach of the ears due to the recording balance. Overall the performance is respectable and offers several memorable moments, even if the matrix capture suffers from set‑list jumbling and occasional drop‑outs.",
+    "summary": "Scorching Lovelight, blues‑heavy set with mixed flow",
+    "blurb": "The early show opens acoustically and builds into a fiery electric second set highlighted by a scorching Lovelight with Pigpen’s rap and a blistering Viola Lee Blues. Jerry delivers strong solos on Cold Rain & Snow while Phil’s vocals sit forward but get buried in the mix. The soundboard source is clean enough for listening, though residual hiss and occasional distortion are present.",
+    "review": "On March 20 1970 at the Capitol Theater the Dead delivered a solid early‑’70 performance that swings between acoustic charm and blues‑fueled intensity. The first set’s acoustic opening sets a relaxed tone before the band launches into an electric second half where “Lovelight” erupts with Pigpen’s gritty rap and Jerry’s searing lead, and “Viola Lee Blues” roars with raw organ swirls and tight rhythm section work. Highlights also include a memorable solo on “Cold Rain & Snow” and a driving rendition of “Deep Elem Blues.”  While the musicianship is generally strong, the pacing feels uneven – the acoustic‑electric transition isn’t always smooth and “Good Lovin’” falls short compared with the surrounding material. The best available recording (gd1970-03-20.sbd.smith.99182.sbeok.flac16) offers a cleaned‑up soundboard capture that balances clarity with the era’s lo‑fi character, making this show worth a listen for fans of the band’s early blues explorations.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 2.6,
-      "confidence": "high"
+      "ai_rating": 2.9,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 12,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.3,
+        "sentiment_rationale": "Both recordings note strong moments (scorching Lovelight, blistering Viola Lee Blues, solid Cold Rain & Snow solo) but also point out uneven pacing and mix issues; the net sentiment is mildly positive, yielding a modest +0.3 adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.3 = 2.9"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-03-20.sbd.smith.99182.sbeok.flac16",
-      "reason": "Cleaned‑up soundboard tape with good overall fidelity, clear instrument separation and captures the show’s highlights without the set‑list scrambling of the matrix source."
+      "reason": "Soundboard capture with tape‑hiss reduction; overall good balance and the most complete representation of the set despite minor distortion."
     },
     "key_highlights": [
-      "Acoustic half shines with Deep Elem Blues and a unique Friend of the Devil rendition.",
-      "Electric set builds to a scorching Viola Lee Blues and an energetic Lovelight rap.",
-      "Pigpen’s organ is low in the mix, but his vocal rap on Lovelight stands out.",
-      "Matrix recording suffers from scrambled tracks and occasional drop‑outs."
+      "Scorching Lovelight featuring Pigpen’s rap and tight guitar work.",
+      "Blistering Viola Lee Blues with swerving organ textures.",
+      "Jerry’s aggressive solo on Cold Rain & Snow adds a standout moment.",
+      "Acoustic opening provides a warm contrast before the blues‑heavy second set."
     ],
     "song_highlights": [
       "Lovelight",
       "Viola Lee Blues",
       "Deep Elem Blues",
       "Black Peter",
-      "Friend of the Devil",
-      "Cold Rain & Snow"
+      "Cold Rain & Snow",
+      "Good Lovin'"
     ],
     "band_performance": {
-      "Jerry": "Delivers solid lead work throughout, highlighted by a praised solo on Cold Rain & Snow.",
-      "Phil": "Sings loudly and on‑key with high harmonies, though his vocals are often buried in the mix.",
-      "Bob": "",
-      "Brent": "",
-      "Pigpen": "Organ sits low in the mix, making contributions less audible; however his lively rap during Lovelight adds excitement.",
-      "Mickey": "",
-      "Billy": ""
+      "Jerry": "Shows a solid lead, delivering an aggressive solo on Cold Rain & Snow and driving the energy on Lovelight.",
+      "Phil": "Vocals are prominent and on‑key but often get buried under the mix; bass work remains steady though not highlighted in the recordings.",
+      "Bob": "Provides reliable rhythm guitar throughout, anchoring the acoustic opening and electric set.",
+      "Pigpen": "Organ sits low in the mix yet his rap during Lovelight shines; adds texture to Viola Lee Blues with swerving organ lines.",
+      "Mickey": "Drumming is solid, keeping a steady groove despite occasional tape distortion.",
+      "Billy": "Keeps tight time alongside Mickey, supporting the blues‑heavy second set."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-12T01:01:44.943974+00:00",
+    "processed_date": "2025-09-12T16:09:28.801788+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed"
   }

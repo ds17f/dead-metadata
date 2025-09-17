@@ -217,42 +217,52 @@
     "show_time: late"
   ],
   "ai_show_review": {
-    "summary": "Stellar acoustic/electric marathon with soaring Dark Star and The Other One",
-    "blurb": "The show delivers flawless acoustic sets that flow into powerful electric jams, highlighted by an inspired Dark Star sequence and tight renditions of Candyman and Friend of the Devil. Jerry’s guitar and vocals soar throughout, backed by a thunderous rhythm section.",
-    "review": "May 15 1970 at the Fillmore East stands as one of the band’s most ambitious marathons – two intimate acoustic sets bookended by blistering electric stretches that never lose momentum. The first set rolls through folk‑rock gems like Deep Elem Blues and Uncle John’s Band before giving way to a second set that rockets from the classic China Cat Sunflower → I Know You Rider segue into a thunderous Dark Star, which blossoms into a jubilant Saint Stephen and a rollicking turn on Not Fade Away. The encore’s Cold Jordan showcases Pigpen’s organ tapestry in full glory. Across all recordings Jerry Garcia is repeatedly praised for “outstanding” lead work and even pedal‑steel flourishes, while Phil Lesh lays down a thunderous bass foundation that drives the jams. Bob Weir’s banter and vocal harmonies keep the acoustic numbers grounded, and Mickey Hart’s spacey drumming adds texture to the psychedelic peaks. The pristine soundboard capture (gd70-05-15.early-late.sbd.97.sbeok.shnf) presents crystal‑clear instrument separation, making this a must‑listen for anyone wanting the definitive version of this legendary night.",
+    "summary": "Soaring Dark Star, tight acoustic sets and stellar New Riders interludes",
+    "blurb": "The May 15 1970 Fillmore East show delivers a soaring Dark Star and crisp acoustic numbers, with standout performances of Good Lovin' and Candyman. Jerry’s guitar tone shines, Phil provides thunderous bass, and Bill’s extended drum solo is a highlight. The recommended soundboard capture offers crystal‑clear audio throughout.",
+    "review": "May 15, 1970 at the Fillmore East remains one of the band’s most celebrated marathon dates, weaving together folk‑rock intimacy with psychedelic firepower. The evening opens with an acoustic set that flows seamlessly into New Riders of the Purple Sage interludes before launching into electric fireworks: a luminous Dark Star, a driving Good Lovin', and a ferocious turn on The Other One (as noted by reviewers even though it isn’t listed in the official setlist). Jerry Garcia’s guitar is described as immaculate—crisp, powerful, and soaring—while his pedal‑steel work adds an unexpected sparkle. Phil Lesh lays down a rolling thunder of bass that anchors the jams, especially on Cumberland Blues and Dark Star, and Bill Kreutzmann delivers an extended drum solo that reviewers call “great” and “crispy,” with Mickey Hart holding down a solid groove. Pigpen’s organ and vocals cut through the mix with surprising clarity, and Bob Weir’s rhythm work and humorous banter keep the energy buoyant throughout both acoustic and electric halves. The recommended soundboard recording captures all of this with bright mids, tight lows, and only minor tape glitches, making it an essential listen for anyone wanting to experience the full arc of this historic night.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.5,
-      "confidence": "high"
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 143,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All three recordings are marked positive, repeatedly praising the soaring Dark Star, crisp guitar tone, powerful bass, extended drum solo and overall tight performance. Consistent language like “legendary,” “soaring,” “crisp,” and “stellar” across multiple sources justifies a strong positive adjustment.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd70-05-15.early-late.sbd.97.sbeok.shnf",
-      "reason": "Pristine soundboard source with excellent instrument separation, no major dropouts, and complete capture of the full marathon."
+      "reason": "Crystal‑clear soundboard capture with excellent fidelity, minimal glitches, and the most complete representation of both acoustic and electric sets."
     },
     "key_highlights": [
-      "Exceptional Dark Star jam with spacey drumming and soaring guitar.",
-      "Acoustic sets flow seamlessly into electric power, keeping momentum high all night.",
-      "Pigpen’s organ on Cold Jordan adds a lush tapestry to the encore.",
-      "Crystal‑clear SBD provides superb audio fidelity for both acoustic intimacy and psychedelic excess."
+      "Soaring Dark Star with immaculate guitar tone",
+      "Tight acoustic sets and New Riders interludes add folk flavor",
+      "Extended drum solo by Bill Kreutzmann in the first electric set",
+      "Pigpen’s organ and vocal presence are clear and well‑balanced"
     ],
     "song_highlights": [
       "Dark Star",
-      "Candyman",
       "Friend Of The Devil",
+      "Candyman",
+      "Cumberland Blues",
+      "Good Lovin'",
+      "I Know You Rider",
       "St. Stephen",
-      "Uncle John's Band",
       "Cold Jordan*"
     ],
     "band_performance": {
-      "Jerry": "Soaring lead guitar and flawless vocals; pedal‑steel shines on the NRPS set, with multiple reviewers calling his playing \"outstanding\" and \"the best ever.\"",
-      "Phil": "Thunderous bass lines drive The Other One and Dark Star jams; provides a solid foundation throughout the marathon.",
-      "Bob": "Amusing banter and solid vocal harmonies; acoustic rhythm work is steady, and his organ/tapestry on Cold Jordan receives special praise.",
-      "Brent": "Pigpen’s organ weaves a lush tapestry that backs the electric jams, especially evident on Cold Jordan; keys are tight and complementary.",
-      "Mickey": "Drumming features spacey effects in Dark Star and maintains a solid groove across the electric sets.",
-      "Billy": "Provides steady drive and lively fills, complementing Mickey’s textures and keeping the rhythm section grounded."
+      "Jerry": "Immaculate guitar tone, soaring solos and even pedal‑steel work make his playing the driving force of the night.",
+      "Phil": "Thunderous, rolling bass lines anchor the jams, especially on Cumberland Blues and Dark Star.",
+      "Bob": "Humorous banter adds charm; rhythm work is solid and vocals shine on Good Lovin' and other cuts.",
+      "Brent": "",
+      "Mickey": "Provides a steady groove that underpins Bill’s extended drum solo and the overall flow of the set.",
+      "Billy": "Delivers an extended, crisp drum solo praised as “great” and keeps the energy high throughout."
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-12T03:21:58.257633+00:00",
+    "processed_date": "2025-09-12T18:23:38.459477+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -263,13 +273,22 @@
         "Turn On Your Lovelight"
       ],
       [
-        "Candyman"
-      ],
-      [
         "Friend Of The Devil"
       ],
       [
-        "Uncle John's Band"
+        "Candyman"
+      ],
+      [
+        "Cumberland Blues"
+      ],
+      [
+        "Good Lovin'",
+        "Drums",
+        "Good Lovin'"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
       ],
       [
         "Cold Jordan*"

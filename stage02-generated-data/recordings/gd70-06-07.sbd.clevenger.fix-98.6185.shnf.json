@@ -16,65 +16,73 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard captures a loose ’70s free‑form set with standout Cumberland Blues, Sugar Magnolia and The Other One.",
-    "review": "The recording offers crystal‑clear soundboard fidelity that even preserves an onstage anti‑war protest spoken during Drums.  Musically the show is a happy‑hour of free‑form acoustic‑electric jamming – fans repeatedly point to the blazing Cumberland Blues, the debut Sugar Magnolia and a powerful stretch of The Other One as highlights.  Minor complaints focus on track‑splitting quirks rather than the performance itself.",
+    "summary": "Clear soundboard recording of a loose, free‑form ’70s show highlighted by a smoking Cumberland Blues and The Other One",
+    "review": "Fans rave about the crystal‑clear soundboard capture and the unstructured, improvisational vibe of this early‑’70s performance. Standout moments include a powerful Cumberland Blues, an inspired run through Me and My Uncle → Speedway, and a politically charged The Other One; the only complaints focus on track‑splitting quirks and a rough first take of Sugar Magnolia.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "The majority of reviews (9 out of 11) are 4–5 stars and praise both the audio clarity and the musical moments; only a few note track‑splitting issues, so overall rating is strong."
+      "rationale": "Average user rating is ~4.1, most comments praise both the music and audio quality; only minor technical grievances were noted."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "excellent",
-      "technical_notes": "Crisp, clear mix with great instrument separation; anti‑war speech captured intact. Some reviewers complain about the way tracks are split (e.g., The Other One broken into multiple files) but this does not affect overall sound fidelity."
+      "quality_rating": "good",
+      "technical_notes": "Consistently described as crisp, clear and period‑accurate. Minor criticisms concern missing seconds in Cumberland Blues and excessive track splitting that disrupts the listening flow."
     },
     "show_quality": {
       "standout_songs": [
         "Cumberland Blues",
-        "Sugar Magnolia",
+        "Me and My Uncle",
+        "Scarlet Begonias",
+        "Speedway",
         "The Other One",
-        "Cryptical Envelopment",
-        "Drums"
+        "Cryptical Envelopment / Jam"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Described as a free‑form ’70s show with acoustic and semi‑electric sections, loose transitions, political spoken interludes, and an unstructured, jam‑heavy second set."
+      "poor_songs": [
+        "Sugar Magnolia (first version – rough take)"
+      ],
+      "setlist_flow": "A free‑form, loosely structured set that feels spontaneous and unstructured; the second set opens with The Other One and includes long ambient chatter and anti‑war protest interludes."
     },
     "band_member_comments": {
-      "Jerry": "Praised for great tone and playing throughout the set (e.g., “Jerry played at set between the Dead's acoustic and electric sets”).",
+      "Jerry": "Occasional spoken interjection (possible JG) noted; overall guitar work praised as great.",
       "Phil": "",
-      "Bob": "Mentioned in a friendly sign‑off (“Peace, Bob”) but no specific performance comment.",
+      "Bob": "",
       "Keys": "",
-      "Drums": "Drums segment noted for strong playing and the captured anti‑war protest speech."
+      "Drums": "Drums segment highlighted for its intensity and the surrounding anti‑war shouting, adding historic atmosphere."
     },
     "song_mentions": {
       "Cumberland Blues": {
         "positive_mentions": 2,
-        "negative_mentions": 1,
-        "total_mentions": 3
+        "negative_mentions": 0,
+        "total_mentions": 2
       },
-      "Sugar Magnolia": {
-        "positive_mentions": 2,
-        "negative_mentions": 1,
-        "total_mentions": 3
+      "Me and My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Speedway": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
       },
       "The Other One": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
       },
-      "Cryptical Envelopment": {
+      "Sugar Magnolia": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "Cryptical Envelopment / Jam": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
-      },
-      "Drums": {
-        "positive_mentions": 2,
-        "negative_mentions": 0,
-        "total_mentions": 2
       }
     },
-    "processed_date": "2025-09-12T03:57:48.568366+00:00",
+    "processed_date": "2025-09-12T19:08:58.511010+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-06-07.sbd.clevenger.fix-98.6185.shnf"
   }

@@ -16,39 +16,59 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of an electrifying 1982 show with a scorching Scarlet > Fire transition and tight second set, recorded in crisp CM quality.",
-    "review": "The concert is hailed as a high‑energy masterpiece, especially the blistering second set highlighted by the iconic Scarlet > Fire segue and packed performances of Eyes of the World, Good Times and CC Rider. Reviewers also rave about the crystal‑clear cassette‑master (CM) soundboard transfer, calling it “off the charts.” Overall the show is described as a flawless example of the band’s 1982 magic.",
+    "summary": "Excellent soundboard transfer capturing an on‑fire second set highlighted by a blistering Scarlet > Fire and soaring Eyes of the World.",
+    "review": "The recording is praised as a crisp, off‑the‑charts CM transfer that sounds crystal clear. Musically the show is described as a groove‑monster with a second set that “is on fire,” featuring standout renditions of Scarlet > Fire, Eyes of the World, Me and My Uncle, and a rousing CC Rider.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.8,
       "confidence": "high",
-      "rationale": "All five reviews are 5‑star and consistently praise both the musical performance (high energy, standout songs) and the recording quality (crisp CM transfer), indicating an outstanding show with excellent audio."
+      "rationale": "All five reviews are 5‑star, uniformly praising both the performance (especially the second set) and the audio transfer; thus the combined show + recording rating is near top‑tier."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Crisp cassette‑master (CM) transfer; listeners describe the sound as “off the charts” with no noted dropouts or muddiness."
+      "technical_notes": "Multiple reviewers call the CM transfer \"crisp\" and \"off the charts,\" noting no audible flaws or drop‑outs."
     },
     "show_quality": {
       "standout_songs": [
         "Scarlet > Fire",
         "Eyes of the World",
-        "Good Times",
-        "CC Rider",
-        "Me & My Uncle"
+        "Me and My Uncle",
+        "CC Rider"
       ],
       "poor_songs": [],
-      "setlist_flow": "Strong first set leading into an incendiary second set with seamless transitions, especially the famed Scarlet > Fire segue; overall pacing keeps the groove alive throughout.",
-      "energy_level": "high"
+      "setlist_flow": "Strong first set builds into a second‑set firestorm; the transition from Scarlet > Fire is highlighted as tantalizing, though some note the show ended a bit underwhelmingly."
     },
     "band_member_comments": {
-      "Jerry": "Mentioned in a possible Phil/Jerry switch show and praised for firing on all cylinders during the performance.",
-      "Phil": "Reference to a Phil/Jerry switch, contributing to the “82 magic” and strong groove.",
-      "Bob": "Weir fans are delighted; his rhythm guitar/vocals noted as part of the band’s full‑groove feel.",
+      "Jerry": "Possible Phil/Jerry instrument swap noted; praised as part of the tight groove.",
+      "Phil": "Mentioned in context of the possible switch and overall band cohesion.",
+      "Bob": "Weir fans will be delighted; his work on Me and My Uncle is specifically called out.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T05:51:10.644559+00:00",
+    "song_mentions": {
+      "Scarlet > Fire": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Eyes of the World": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Me and My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "CC Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T19:04:24.175839+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-04-03.142815.sbd.miller.flac2496"
   }

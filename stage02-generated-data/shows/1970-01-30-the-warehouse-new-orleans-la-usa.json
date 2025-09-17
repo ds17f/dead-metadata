@@ -157,51 +157,52 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Razor‑sharp Garcia leads, standout High Time and The Other One",
-    "blurb": "The set delivers razor‑sharp Jerry leads with highlights such as High Time, The Other One → Cosmic Charlie, and a vibrant China Cat Sunflower. Tom Constanten’s final show adds colorful keyboards despite occasional muddiness. The soundboard capture is clear, crisp and well‑balanced.",
-    "review": "On January 30, 1970 at The Warehouse the Dead were in an early‑70 groove that feels both organized‑chaos and mellowly tight. Jerry Garcia’s leads are described as razor‑sharp, cutting through a set that swings from the driving rock of Casey Jones to the acoustic beauty of Easy Wind. Tom Constanten makes his last appearance on keyboards, shining brightly on China Cat Sunflower and High Time even if his parts get a little muddied elsewhere. The Other One rolls into Cosmic Charlie with a seamless transition that showcases the band’s telepathic interplay, while Black Peter and High Time provide soulful depth. This solid soundboard recording captures the full show with good clarity, making it an essential listen for fans of this transitional era.",
+    "summary": "Razor‑sharp Jerry, standout High Time & The Other One, rough Cosmic Charlie",
+    "blurb": "The set opens with high‑energy Casey Jones and Me & My Uncle before settling into solid blues and ballads. Highlights include razor‑sharp Jerry on High Time, a soaring Easy Wind, and an intense The Other One that builds into a rough Cosmic Charlie. Tom Constanten’s last show adds quirky keyboards, especially on China Cat Sunflower.",
+    "review": "On January 30 1970 at the Warehouse in New Orleans, the Dead delivered a performance that captures the transitionary spirit of the early ’70s lineup. Jerry Garcia was in top form – his leads were razor‑sharp, with perfect tone and atmospheric solos that lifted songs like High Time and Easy Wind to new heights. The band’s chemistry shone through the bluesy stretches of Black Peter and the gentle swing of China Cat Sunflower, where Tom Constanten’s final appearance added a uniquely muddled yet bright texture. The second half built momentum into an expansive The Other One, though the segue into Cosmic Charlie felt awkward and a bit rough‑cut, it still retained the raw power that defines this era.\n\nThe soundboard capture (gd70-01-30.sbd.vernon.10546.sbeok.shnf) conveys the energy well despite minor imperfections in the latter transition. With solid overall audio quality, this recording is the definitive way to experience a night where Jerry’s guitar work was on fire, Tom’s keyboards gave a historic farewell, and the rhythm section kept the groove flowing from start to finish.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.6,
-      "confidence": "medium"
+      "ai_rating": 3.1,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 10,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.5,
+        "sentiment_rationale": "Positive sentiment from the sole recording analysis praising razor‑sharp Jerry leads, standout High Time, Easy Wind and The Other One; no negative comments about overall performance.",
+        "final_calculation": "2.5 + 0.1 + 0.5 = 3.1"
+      }
     },
     "best_recording": {
       "identifier": "gd70-01-30.sbd.vernon.10546.sbeok.shnf",
-      "reason": "Solid soundboard capture; clear, crisp and well‑balanced with the full set intact."
+      "reason": "Soundboard capture with good clarity, solid performance, and captures Jerry’s razor‑sharp leads; only minor roughness in the Cosmic Charlie transition."
     },
     "key_highlights": [
-      "Razor‑sharp Garcia leads throughout the show",
-      "Seamless transition The Other One → Cosmic Charlie",
-      "Tom Constanten’s final performance adds color on China Cat Sunflower and High Time",
-      "Organized‑chaos first half settles into a mellow groove with strong acoustic moments"
+      "Razor‑sharp Jerry Garcia throughout, especially on High Time and The Other One",
+      "Tom Constanten's final appearance adds distinctive keyboards on China Cat Sunflower and High Time",
+      "The Other One → Cosmic Charlie segue feels awkward but retains raw power"
     ],
     "song_highlights": [
-      "Casey Jones",
-      "Black Peter",
-      "China Cat Sunflower",
       "High Time",
       "Easy Wind",
-      "The Other One"
+      "The Other One",
+      "Cosmic Charlie",
+      "Black Peter",
+      "China Cat Sunflower"
     ],
     "band_performance": {
-      "Jerry": "Leads are razor‑sharp, perfect tone and atmospheric, driving the set.",
+      "Jerry": "Razor‑sharp leads, perfect tone and atmospheric solos throughout.",
       "Phil": "",
       "Bob": "",
-      "Brent": "",
+      "Tom": "His playing is a bit muddled overall but shines on China Cat Sunflower and High Time.",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-11T22:52:22.879911+00:00",
+    "processed_date": "2025-09-12T13:55:48.816121+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "Casey Jones"
-      ],
-      [
-        "Black Peter"
-      ],
       [
         "China Cat Sunflower",
         "I Know You Rider",
@@ -218,6 +219,9 @@
         "The Other One",
         "Cryptical Envelopment",
         "Cosmic Charlie"
+      ],
+      [
+        "Black Peter"
       ]
     ]
   }

@@ -199,45 +199,84 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Samson & Delilah, standout Far From Me and tight second set",
-    "blurb": "The Boston Garden show bursts with high energy, highlighted by a soaring Samson & Delilah and a fiery Far From Me. The first‑set opener Jack Straw > Sugaree rolls smoothly into a solid mid‑set, while the second set builds to an emotive All Over Now Baby Blue encore. Soundboard recordings capture crisp guitars and punchy drums, making this a fan‑favorite performance.",
-    "review": "What unfolds at the Boston Garden on September 18, 1982 is a quintessential early‑'80s Dead night – birthday‑shout‑outs for Brent, smoking Jerry tones, and a rhythm section that never loses its groove. The first set kicks off with a punchy Jack Straw > Sugaree segue, moves through a rollicking West L.A. Fadeaway and lands on the heartfelt Far From Me, where Brent’s piano adds just the right splash of color. The second set is the real high‑water mark: Samson & Delilah erupts into a blazing showcase of Jerry’s lead work and Phil’s “bomb justice” bass, segueing into Uncle John's Band > Playing In The Band before the classic Drum‑Space‑Throwing Stones sequence. Throwing Stones, The Wheel, Truckin' (despite a few flubs) and Wharf Rat keep the momentum rolling, culminating in an earnest All Over Now Baby Blue that lets Jerry’s voice shine one last time. Across all available recordings – especially the recommended Weise soundboard – the mix is crisp enough to hear every nuance while still delivering the raw excitement of a live Garden crowd.",
+    "summary": "High‑energy Boston Garden set with soaring Samson & Delilah and tight jams",
+    "blurb": "The band rides a relentless groove through Jack Straw, Sugaree and West L.A., then detonates in a blistering second set highlighted by Samson & Delilah. The encore’s tender Baby Blue caps an evening of pure Dead fire.",
+    "review": "September 18, 1982 at the Boston Garden finds the Dead locked in a high‑octane groove that still feels fresh decades later. The first set rolls out classic road‑trip fare—Jack Straw into Sugaree, a rollicking Mexicali Blues segue and a bright West L.A. Fadeaway—that sets a buoyant tone for the night. The second set is where the magic peaks: Samson & Delilah erupts with Jerry’s “smokin’ strings” and Brent’s piano lift on Uncle John’s Band/Playing In The Band, while Phil drops a “bomb‑justice” bass line that drives the band forward. A thunderous drum solo and an explosive Throwing Stones (the first Boston Garden performance) keep the momentum roaring into The Wheel and Truckin’. The show closes with a heartfelt It’s All Over Now Baby Blue that showcases Jerry’s voice at its warmest. Across all available soundboard and audience tapes the performance shines, even if some SBD mixes feel a touch thin on bass; the energy and tightness of the band more than compensate, making this a must‑listen for any Deadhead looking for an ’80s high point.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 38,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Seven of eight recordings are uniformly positive, praising the band’s energy, standout songs (Samson & Delilah, Jack Straw, Throwing Stones) and strong performances; only one mixed review notes a thin bass but does not detract from overall enthusiasm.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd82-09-18.sbd.weise.3153.sbeok.shnf",
-      "reason": "Crisp soundboard capture with balanced mix, clear Jerry tones and strong percussion, making the performance most listenable."
+      "reason": "Crisp soundboard with clear guitar, vocals and balanced mix; captures the high‑energy peaks (Samson & Delilah, Baby Blue) while retaining the live vibe."
     },
     "key_highlights": [
-      "Scorching Samson & Delilah that showcases Jerry’s lead work and Phil’s powerful bass.",
-      "Heart‑warming Far From Me featuring Brent’s piano flair and a birthday shout‑out vibe.",
-      "Tight Jack Straw > Sugaree opener that sets an energetic tone for the night.",
-      "Emotive All Over Now Baby Blue encore delivering one of Jerry’s best vocal moments."
+      "Blazing second‑set energy culminating in Samson & Delilah",
+      "First‑set classics Jack Straw, Sugaree, West L.A. Fadeaway flow seamlessly",
+      "Throwing Stones debut at Boston Garden adds historic punch",
+      "Tender Baby Blue encore showcases Jerry’s vocal warmth"
     ],
     "song_highlights": [
       "Jack Straw",
       "Sugaree",
       "West L.A. Fadeaway",
-      "Far From Me",
+      "Dupree's Diamond Blues",
       "Samson & Delilah",
       "Uncle John's Band",
       "Playing In The Band",
+      "Throwing Stones",
       "It's All Over Now Baby Blue"
     ],
     "band_performance": {
-      "Jerry": "Delivers smoking lead tones throughout, especially on Samson & Delilah and the encore; his voice shines on Baby Blue.",
-      "Phil": "Provides steady, sometimes ‘bomb justice’ bass foundation; a few mixes note thinness but performance remains solid.",
-      "Bob": "Adds high‑octane rhythm guitar and memorable banter, driving the energy on Samson & Delilah.",
-      "Brent": "Gets birthday shout‑outs, struts on Far From Me, and adds tasteful piano texture to Uncle John's Band.",
-      "Mickey": "Locks in with Bill for a solid percussive backbone that underpins the high‑energy jams.",
-      "Billy": "Highlights include a memorable drum solo and overall excitement that pushes the set forward."
+      "Jerry": "Smokin' strings and powerful lead tones dominate, with a heartfelt delivery on Baby Blue and consistently praised guitar work throughout the night.",
+      "Phil": "Solid bass foundation; occasional thinness noted but highlighted by a ‘bomb‑justice’ line that drives Samson & Delilah forward.",
+      "Bob": "Lively banter and mouthy, ornery presence; dedicated Samson to the building and added memorable vocal chants that lifted the set.",
+      "Brent": "Strong piano work on Far From Me, Uncle John's Band and Playing In The Band; overall keyboard presence adds depth and sparkle.",
+      "Mickey": "Powerful drum solo praised for its intensity; despite a ‘toy‑like’ SBD impression, his rhythmic drive fuels the high‑energy flow.",
+      "Billy": "Delivers tight, propulsive drumming that locks in with Mickey, keeping the groove relentless from first set through the encore."
     },
     "processed_recordings": 7,
-    "processed_date": "2025-09-07T09:52:12.135829+00:00",
+    "processed_date": "2025-09-14T01:53:09.699360+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Jack Straw",
+        "Sugaree"
+      ],
+      [
+        "West L.A. Fadeaway"
+      ],
+      [
+        "Dupree's Diamond Blues"
+      ],
+      [
+        "Samson & Delilah"
+      ],
+      [
+        "Uncle John's Band",
+        "Playing In The Band",
+        "Drums",
+        "Space",
+        "Throwing Stones",
+        "The Wheel",
+        "Truckin'",
+        "Wharf Rat",
+        "Around & Around",
+        "One More Saturday Night"
+      ],
+      [
+        "It's All Over Now Baby Blue"
+      ]
+    ]
   }
 }

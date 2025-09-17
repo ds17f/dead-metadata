@@ -131,40 +131,47 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy ’70 set with Easy Wind and NFA→St Stephen fireworks",
-    "blurb": "The show bursts with a driving rock vibe, highlighted by an exuberant Easy Wind and a tight Not Fade Away into Saint Stephen transition. Jerry’s relaxed phrasing shines on Candyman while the drums add a mysterious gunshot‑like accent during the jam.",
-    "review": "On June 21, 1970 at Berkeley’s Pauley Ballroom, the Dead delivered a high‑octane rock set that still feels fresh today. From the opening “Frozen Logger” through the electrifying “Easy Wind,” the band rode a wave of energy, culminating in a rare Not Fade Away → Saint Stephen segue that fans still talk about. Garcia was in a laid‑back, creeper‑influenced mood, even pulling a moaning solo on “Candyman” that earned nods from listeners. The rhythm section kept things tight, with an odd gunshot‑like percussive burst cutting through the Saint Stephen jam, adding an unexpected flavor. While the audience recordings capture some haze and occasional dropouts typical of 1970 tapes, the performance’s vigor and standout moments outweigh the sonic imperfections.",
+    "summary": "High‑energy early ’70 set with standout Easy Wind and NFA→St Stephen",
+    "blurb": "The show delivers a rock‑heavy vibe with tight runs of Easy Wind into Not Fade Away and a fiery Saint Stephen segue. Jerry’s relaxed stage presence adds to the groove while the audience tape captures the energy despite some muffling.",
+    "review": "June 21, 1970 at the Pauley Ballroom finds the Dead in a loose‑but‑driven early‑70 mode. The first audience recording (gd70-06-21.aud.hanno.6160.sbeok.shnf) is praised for its “high‑energy” feel, highlighting Easy Wind, Not Fade Away, Good Lovin’ and a seamless Saint Stephen transition – all captured with decent clarity despite the inevitable haze of a 35‑year‑old tape. Jerry Garcia is noted lounging on the verandah, joint in hand, sharing the vibe with the crowd, while his moaning solo on Candyman gets a nod in the second tape (gd1970-06-21.154086.aud2.flac1648). That second source is more mixed: cavernous hall echo and occasional gun‑shot noise make the listening experience uneven, yet it still flags The Other One’s long jam and another strong Saint Stephen moment. Taken together the show shines on its driving rock numbers and spontaneous segues, even if the audio fidelity varies. For anyone wanting to hear this era, the first audience tape offers the clearest window into a night where the band was “on the verge of a rush” and the set’s momentum stays high throughout.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.3,
-      "confidence": "high"
+      "ai_rating": 3.0,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 15,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.4,
+        "sentiment_rationale": "One recording is praised as solid and high‑energy with multiple standout songs; the other is mixed, noting echoey sound and uneven pacing but still calling out strong moments. The overall tone leans slightly positive, warranting a modest +0.4 sentiment boost.",
+        "final_calculation": "2.5 + 0.1 + 0.4 = 3.0"
+      }
     },
     "best_recording": {
       "identifier": "gd70-06-21.aud.hanno.6160.sbeok.shnf",
-      "reason": "Good‑quality audience tape with decent clarity, captures the high‑energy performance and standout jams better than the echoey alternative."
+      "reason": "Provides the clearest audience capture of the high‑energy set, with decent clarity and all key highlights intact."
     },
     "key_highlights": [
-      "Exuberant Easy Wind performance that drives the set.",
-      "Not Fade Away → Saint Stephen segue delivers a tight jam.",
-      "Jerry’s moaning solo on Candyman adds a unique flavor.",
-      "Rare gunshot‑like percussion accent during Saint Stephen."
+      "High‑energy rock‑heavy vibe that builds from Easy Wind into a strong Not Fade Away → Saint Stephen segment.",
+      "Jerry’s relaxed stage presence (verandah, joint) adds to the communal feel of the show.",
+      "Audience tape captures the raw excitement despite some muffling and minor cuts."
     ],
     "song_highlights": [
       "Easy Wind",
-      "Candyman",
       "Not Fade Away",
-      "Saint Stephen"
+      "Saint Stephen",
+      "Good Lovin'"
     ],
     "band_performance": {
-      "Jerry": "Garcia plays with a relaxed, creeper‑influenced vibe, delivering a moaning solo on Candyman and keeping the energy buoyant throughout.",
+      "Jerry": "Relaxed on‑stage vibe, smoking a joint on the verandah; moaning solo on Candyman noted.",
       "Phil": "",
       "Bob": "",
-      "Pigpen": "",
-      "Mickey": "The drum duo adds texture, including an odd gunshot‑like sound that pierces the Saint Stephen jam.",
-      "Billy": "Shares the percussion duties with Mickey, contributing to the dynamic rhythm section and the unexpected gunshot effect."
+      "Brent": "",
+      "Mickey": "",
+      "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-12T04:08:50.972933+00:00",
+    "processed_date": "2025-09-12T19:18:54.449710+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [

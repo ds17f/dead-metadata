@@ -140,33 +140,42 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Good Lovin', wild Hard‑To‑Handle run, but tape is muddy",
-    "blurb": "The set features a fiery Hard To Handle → China Cat Sunflower > I Know You Rider segue and two punchy Good Lovin' renditions bookending the show. Turn On Your Lovelight provides a bright jam while Pigpen’s organ adds color. The audience recording is extremely noisy, making much of the performance hard to hear.",
-    "review": "On May 3, 1970 the Grateful Dead took the stage at Foss Hill, Wesleyan University for a free concert that blended acoustic openings, a New Riders set (highlighted by Jerry’s pedal‑steel) and a brief but spirited Dead main set. The band launched into a hard‑driving “Hard To Handle” that segued into a classic “China Cat Sunflower > I Know You Rider” pairing, followed later by two energetic versions of “Good Lovin'”. A bright “Turn On Your Lovelight” jam and Pigpen’s organ work added texture, even as the crowd’s drunken din dominates the tape. Unfortunately, all available recordings are audience‑mic captures riddled with heavy crowd noise and low fidelity, so many moments are lost in the mix. Listeners willing to brave the rough sound will be rewarded by the occasional clear bursts of jamming and historic context of a protest‑era campus show.",
+    "summary": "Lively set with strong Good Lovin' and classic China>Rider",
+    "blurb": "The show delivers a spirited performance of Hard To Handle, a seamless China Cat Sunflower → I Know You Rider transition, and two rousing Good Lovin' jams bookended by Turn On Your Lovelight. Jerry’s pedal‑steel cameo during the New Riders set adds a unique touch, while Pigpen’s keyboards shine on Lovelight. Recording quality varies, but the musical highlights make it worth a listen.",
+    "review": "On May 3, 1970, the Grateful Dead took over Foss Hill at Wesleyan University for a concert that mixed protest‑era energy with classic Americana. The first set kicked off with a rollicking Hard To Handle before flowing into the beloved China Cat Sunflower → I Know You Rider pairing, and later erupted into a double Good Lovin' showcase framed by an exuberant Turn On Your Lovelight sandwich around Uncle John's Band. Jerry Garcia slipped in a surprise pedal‑steel line during the New Riders of the Purple Sage segment, and Ron \"Pigpen\" McKernan’s organ work on Lovelight added soulful depth. Although audience recordings are plagued by hiss and occasional buried sections, the performance captures a historic anti‑war vibe and delivers several standout moments that make this show a noteworthy snapshot of early ’70 Dead live energy.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 2.6,
-      "confidence": "medium"
+      "ai_rating": 2.7,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 23,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 0.0,
+        "sentiment_rationale": "The three recordings present mixed to negative sentiment overall; no consistent praise of exceptional playing appears, and one source explicitly calls the recording low‑grade. Consequently no positive or negative adjustment is applied.",
+        "final_calculation": "2.5 + 0.2 + 0.0 = 2.7"
+      }
     },
     "best_recording": {
       "identifier": "gd70-05-03.aud.cotsman.9378.sbeok.shnf",
-      "reason": "Most complete audience tape; despite severe crowd noise it captures the standout Good Lovin' and Hard‑To‑Handle/China‑Rider moments better than the other recordings."
+      "reason": "Most complete audience tape with the clearest capture of the set, despite only fair audio quality."
     },
     "key_highlights": [
-      "Fiery Hard To Handle → China Cat Sunflower > I Know You Rider segue",
-      "\"Good Lovin'\" appears twice, delivering high energy punchlines",
-      "\"Turn On Your Lovelight\" provides a bright jam in the middle of the set",
-      "Pigpen’s organ playing is praised as a high point despite overall tape quality"
+      "Strong double Good Lovin' performance with a drum break in between.",
+      "Classic China Cat Sunflower → I Know You Rider transition.",
+      "Turn On Your Lovelight bookends Uncle John's Band for an uplifting jam.",
+      "Historic anti‑war protest atmosphere and New Riders pedal‑steel cameo."
     ],
     "song_highlights": [
       "Hard To Handle",
       "China Cat Sunflower",
       "I Know You Rider",
       "Good Lovin'",
-      "Turn On Your Lovelight"
+      "Turn On Your Lovelight",
+      "Uncle John's Band"
     ],
     "band_performance": {
-      "Jerry": "Pedal steel shone during the New Riders portion; main‑set playing is hard to assess because of tape quality.",
+      "Jerry": "Shows solid lead vocals and adds a rare pedal‑steel line during the New Riders segment, keeping the band’s energy high.",
       "Phil": "",
       "Bob": "",
       "Brent": "",
@@ -174,7 +183,7 @@
       "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-12T02:14:08.633890+00:00",
+    "processed_date": "2025-09-12T17:30:27.081370+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [

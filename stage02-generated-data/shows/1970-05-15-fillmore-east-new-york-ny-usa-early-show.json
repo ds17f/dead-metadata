@@ -179,44 +179,62 @@
     "show_time: early"
   ],
   "ai_show_review": {
-    "summary": "Monster Attics, Other One & Dark Star; crisp SBD of Fillmore marathon",
-    "blurb": "The early May 15th Fillmore East show delivers towering versions of Attics Of My Life, The Other One and Dark Star despite a missing right channel in the acoustic set. Jerry’s guitar is on fire and Pigpen’s organ adds sober texture to the quieter numbers. The soundboard capture is clean and balanced, preserving the marathon double‑bill energy.",
-    "review": "On May 15, 1970 the Grateful Dead took over Fillmore East for a sprawling early‑show that still feels like an epic journey. After two acoustic sets peppered with Pigpen’s clear organ and occasional vocal spikes, the band launched into electric fireworks – a monster Attics Of My Life, a relentless The Other One segueing into a soaring Dark Star, and a tight Cosmic Charlie finish. Jerry Garcia’s tone was “perfect” on those jams, while Bill Kreutzmann and Mickey Hart drove the rhythms with unrelenting power. Though the acoustic portion suffers from a missing right channel and a brief dropout before Candyman, the overall tape is crisp, low‑hiss, and captures the full double‑bill marathon in impressive detail.",
+    "summary": "Smoking Dark Star, epic The Other One, tight acoustic sets",
+    "blurb": "The show delivers a soaring Dark Star jam and an expansive The Other One sequence, framed by two acoustic halves that let Pigpen’s organ shine. Jerry’s guitar work is on fire, Phil lays down thunderous bass, while Mickey adds depth to the improvisations.",
+    "review": "May 15, 1970 at the Fillmore East captures the Dead in a rare balance of folk‑leaning acoustics and full‑throttle psychedelia. The early acoustic set moves from “Don’t Ease Me In” through “Candyman,” letting Pigpen’s organ color the mix before the band launches into a ripping electric second set. Highlights include an incendiary “The Other One” that showcases Jerry’s flawless tone, pedal‑steel flourishes and Phil’s thunderous bass, while Mickey’s percussion adds extra depth to the jam. The encore “New Minglewood Blues” closes the night on a high note despite a few over‑squealing guitar moments. Both soundboard sources are crystal clear – one described as pristine with studio‑like fidelity, the other as good with only minor dropouts – making this performance both historically significant and sonically rewarding.\n\nThe recording recommended for listening is the “early‑late” SBD (gd70-05-15.early-late.sbd.97.sbeok.shnf), praised for its pristine capture and excellent mix that brings out every nuance of the band’s interplay. Whether you’re chasing the legendary Dark Star stretch, the ferocious “The Other One,” or the nuanced acoustic interludes, this show stands as a benchmark of the Dead’s 1970 live prowess.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.5,
-      "confidence": "high"
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 142,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Both recordings are marked as positive and repeatedly praise the same high‑impact moments – Dark Star, The Other One, Attics Of My Life, and strong acoustic work. Consistent language such as “smoking,” “epic,” and “flawless” across sources signals a strong positive consensus, warranting a +1.6 sentiment boost.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd70-05-15.early-late.sbd.97.sbeok.shnf",
-      "reason": "Clean soundboard with minimal hiss, full double‑show coverage and the most balanced mix despite early set hiccups."
+      "reason": "Pristine soundboard capture with studio‑like fidelity; minimal hiss and dropouts, delivering the clearest representation of the performance."
     },
     "key_highlights": [
-      "Monster jams on Attics Of My Life, The Other One and Dark Star.",
-      "Rich acoustic texture from Pigpen’s organ despite missing right channel in early set.",
-      "Seamless flow of a marathon double‑bill with New Riders support and expansive segues.",
-      "Crisp SBD capture; only minor drop‑out before Candyman."
+      "Smoking Dark Star jam that stretches into cosmic territory",
+      "Epic The Other One sequence with powerful dual drumming",
+      "Two acoustic sets showcasing Pigpen’s organ and folk‑leaning repertoire"
     ],
     "song_highlights": [
+      "Friend Of The Devil",
+      "Candyman",
+      "Easy Wind",
       "Attics Of My Life",
       "The Other One",
-      "Candyman",
-      "Cold Jordan*",
-      "Easy Wind"
+      "Casey Jones",
+      "Cold Jordan"
     ],
     "band_performance": {
-      "Jerry": "Garcia is on fire, delivering perfect guitar tone on The Other One and Dark Star with a game‑on energy throughout the show.",
-      "Phil": "Bass is barely audible in the acoustic portions; some reviewers suspect Phil’s presence is limited there.",
-      "Bob": "Weir adds strong rhythm‑guitar work, even sitting in on NRPS numbers like Mama Tried and Sawmill, bolstering the overall drive.",
-      "Brent": "Pigpen’s organ and vocals are clear and surprisingly sober, giving the acoustic set a rich texture despite technical glitches.",
-      "Mickey": "Hart provides powerful, driving percussion that fuels the extended jams in the second set.",
-      "Billy": "Kreutzmann matches Mickey with tight, propulsive drumming, underpinning the marathon’s high‑energy peaks."
+      "Jerry": "Soaring guitar work, flawless vocals and even pedal‑steel on the NRPS numbers; perfect tone leading the fierce The Other One jam.",
+      "Phil": "Thunderous and tight bass, especially during The Other One and Dark Star jams; occasionally harder to hear on acoustic sets.",
+      "Bob": "Strong rhythm/lead contributions with a notable “Uncle John” jam within Dark Star, adding depth to the improvisations.",
+      "Brent": "",
+      "Mickey": "Percussion adds depth to Dark Star and overall drumming is solid throughout the show.",
+      "Billy": "Solid drumming that anchors the jams; no major complaints across recordings."
     },
-    "processed_recordings": 1,
-    "processed_date": "2025-09-12T03:11:06.882135+00:00",
+    "processed_recordings": 2,
+    "processed_date": "2025-09-12T18:10:21.372423+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
+      [
+        "Friend Of The Devil"
+      ],
+      [
+        "Candyman"
+      ],
+      [
+        "Easy Wind"
+      ],
       [
         "Attics Of My Life"
       ],
@@ -229,13 +247,7 @@
         "Cosmic Charlie"
       ],
       [
-        "Candyman"
-      ],
-      [
-        "Cold Jordan*"
-      ],
-      [
-        "Easy Wind"
+        "Casey Jones"
       ]
     ]
   }

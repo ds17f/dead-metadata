@@ -16,37 +16,41 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good late‑'82 soundboard capture of a high‑energy show highlighted by a smoking Shakedown and solid Terrapin performance.",
-    "review": "The recording is a respectable late‑1982 board source with clear enough sound to enjoy the set, though a few listeners note minor speed quirks and an absent transition between On The Road Again and Touch Of Grey. Musically the show shines – Jerry’s chaotic but compelling Shakedown (despite lyrical flubs) and a strong Terrapin make it a standout night, while the overall energy stays high throughout.",
+    "summary": "Good soundboard recording of a late‑'82 show, highlighted by a stellar Shakedown but marred by a missing transition between On the Road Again and Touch Grey.",
+    "review": "The board capture is generally clear and balanced for a late‑1982 source, earning reviewers’ praise for its overall fidelity despite minor quirks like a slight tempo edge and an absent song‑to‑song cue. Musically the night shines on the Shakedown – described as “stellar” and “smoking” – while the rest of the set is solid though some note an awkward jump into Samson and a lack of transition between On the Road Again and Touch Grey.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.0,
       "confidence": "medium",
-      "rationale": "Most reviewers praise the performance (especially Shakedown) and rate the board quality as good to excellent; a single very negative review drags the average down slightly, yielding an overall rating just above four stars."
+      "rationale": "Show quality is strong (multiple positive comments on performance, especially Shakedown) while recording quality is good but not flawless; the mix of high and low star reviews yields a moderate‑high overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear and crisp for a late‑'82 board (rated ~3.5‑4.0 by reviewers). No major dropouts, but some note a tiny speed discrepancy and lack of transition between two songs."
+      "technical_notes": "Clear and balanced for a late‑'82 board (rated ~3.5–4/5 by reviewers). Minor issues: missing transition cue between two songs, slight tempo variance noted by one reviewer."
     },
     "show_quality": {
       "standout_songs": [
-        "Shakedown",
-        "Terrapin",
-        "On the Road Again"
+        "Shakedown"
       ],
       "poor_songs": [],
-      "setlist_flow": "Strong first set with solid playing, but the transition between On The Road Again and Touch Of Grey is missing; Shakedown leads into Samson rather abruptly.",
-      "energy_level": "high"
+      "setlist_flow": "Overall solid set with a strong first half; the lack of a smooth segue from On the Road Again into Touch Grey and an abrupt jump into Samson are noted as flow hiccups."
     },
     "band_member_comments": {
-      "Jerry": "His guitar work is described as stellar despite lyrical flubs on Shakedown; some feel he was 'too fast' that night, and one reviewer sees the lyric mishap as a sad portent.",
+      "Jerry": "Praised for his fiery playing on Shakedown, but several reviewers called out a lyrical flub and overly fast delivery that some found sad or amusing.",
       "Phil": "",
-      "Bob": "Bob Weir gets a nod for adding humor during Samson ('thanks for the giggles Mr. Weir!!').",
+      "Bob": "Mentioned humorously during the sudden shift into Samson (“thanks for the giggles Mr. Weir”).",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T10:52:33.328901+00:00",
+    "song_mentions": {
+      "Shakedown": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "total_mentions": 4
+      }
+    },
+    "processed_date": "2025-09-14T03:41:58.788463+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-12-28.sbd-pcm.miller.31967.sbeok.flacf"
   }

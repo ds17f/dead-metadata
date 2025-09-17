@@ -188,43 +188,53 @@
     "show_time: late"
   ],
   "ai_show_review": {
-    "summary": "High‑energy early‑70 set with monster The Other One and tight Pigpen jams",
-    "blurb": "The show bursts with Pigpen‑driven fire – Good Lovin', Cosmic Charlie and a soaring The Other One. Jerry’s vocals on Uncle John's Band sound urgent, while Bob Weir shines on rhythm. Highlights include Black Peter, Dancin' In The Street and a powerful midnight hour encore.",
-    "review": "Recorded at the Fillmore East on Jan 3 1970, this performance captures the Dead in prime early‑70 form. The first half rides Pigpen’s soulful grit – from the raucous Good Lovin' to the organ‑rich Mason's Children – before launching into a marathon The Other One that rolls seamlessly through Cryptical Envelopment into Cosmic Charlie. Jerry Garcia delivers a haunting vocal on Uncle John's Band (“like it’s his last time”) and powers Black Peter with gritty authority, while his guitar tone is praised as perfect despite being low in some mixes. Bob Weir’s rhythm work stands out, cutting through the mix with clarity, and Tom Constanten’s organ flourishes add an extra layer of texture on the Pigpen‑centric numbers. The second set maintains the momentum, featuring a tight Dancin' In The Street sandwich and a rousing encore that closes with Saint Stephen into In The Midnight Hour. Across all sources the show is described as “high‑energy,” “superb for the time period,” and a quintessential example of the band’s improvisational spirit.",
+    "summary": "High‑energy Fillmore East set with soaring The Other One and Alligator",
+    "blurb": "The Jan 3 1970 show delivers a blistering first half of classic covers and Pigpen‑driven jams, then launches into a second‑set marathon highlighted by The Other One, Alligator and Mason's Children. Jerry’s vocals are fierce, the organ is front‑and‑center, and the post‑drums jam adds an extra spark.",
+    "review": "On January 3, 1970 at the Fillmore East the Dead were in full‑blown early‑70 mode: a raucous opening with Casey Jones and Mama Tried gave way to Pigpen’s organ‑laden “Alligator” before diving into a second‑set odyssey. The centerpiece is an unrelenting run through “The Other One”, seamlessly stitched into “Cosmic Charlie”, “Uncle John’s Band” and a soulful “Black Peter”. Highlights include the soaring “Mason's Children”, a tight drum duet that erupts into a teasing post‑drums jam, and a rousing encore of “Saint Stephen” into “In The Midnight Hour”. Jerry sings with a “last‑time” intensity while his guitar tone is described as perfect; Pigpen’s organ is unusually forward in the mix, and Tom Constanten adds subtle keyboards before his departure later that year. Bob Weir shines on several cuts, especially where the Miller tape notes his prominent, excellent playing. Despite occasional low‑end bass or volume swings on some tapes, the overall performance is a vivid snapshot of the band’s raw power and improvisational chemistry at the turn of the decade.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.2,
-      "confidence": "high"
+      "ai_rating": 4.3,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 28,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All four recordings are marked positive; reviewers repeatedly call the set \"superb\", \"high‑energy\" and praise multiple songs (The Other One, Alligator, Mason's Children, Cosmic Charlie). Consistent acclaim for vocals, organ, and jam sections across sources yields a strong positive sentiment adjustment.",
+        "final_calculation": "2.5 + 0.2 + 1.6 = 4.3"
+      }
     },
     "best_recording": {
       "identifier": "gd70-01-03.sbd.ret.19440.sbeok.shnf",
-      "reason": "Superb soundboard capture; very clear and crisp for 1970, preserving the high‑energy performance with only minor cuts."
+      "reason": "Crisp, well‑balanced soundboard capture with prominent organ and minimal cuts; widely praised as the cleanest version."
     },
     "key_highlights": [
-      "Monster The Other One jam that rolls through Cryptical Envelopment into Cosmic Charlie",
-      "Pigpen‑driven fire on Good Lovin' and Mason's Children with Tom Constanten’s organ flourishes",
-      "Bob Weir’s prominent rhythm work and strong presence throughout the set",
-      "Tight, high‑energy second set featuring Black Peter, Dancin' In The Street and a powerful midnight hour encore"
+      "\"The Other One\" marathon that drives the second set.",
+      "Pigpen’s organ dominance on \"Alligator\" and other TC moments.",
+      "Post‑drums jam featuring teases of \"China Cat Sunflower\".",
+      "Bob Weir’s standout playing noted on the Miller tape."
     ],
     "song_highlights": [
       "The Other One",
-      "Cosmic Charlie",
+      "Alligator",
       "Mason's Children",
+      "Midnight Hour",
+      "Cosmic Charlie",
       "Good Lovin'",
+      "Black Peter",
       "Dancin' In The Street",
-      "In The Midnight Hour",
-      "Black Peter"
+      "Dire Wolf"
     ],
     "band_performance": {
-      "Jerry": "Vocals on Uncle John's Band are urgent (“like it’s his last time”) and he leads the show with strong, perfect‑tone guitar work despite being low in some mixes; praised for Black Peter vocal delivery.",
-      "Phil": "Bass sits a bit low in the mix but playing is fluid and solid throughout the performance.",
-      "Bob": "Prominent and excellent rhythm guitar, highlighted as a strong point of the show.",
-      "Brent": "Tom Constanten’s organ flourishes add distinctive texture, especially on Pigpen‑driven numbers like Good Lovin' and Mason's Children.",
-      "Mickey": "",
-      "Billy": ""
+      "Jerry": "Vocals are fierce—reviewers say he sings like it’s his last time—and his guitar tone is described as perfect, though a few tapes bury his mix.",
+      "Phil": "Provides a solid bass foundation; occasionally noted as low in the mix but otherwise steady and supportive.",
+      "Bob": "Delivers superb rhythm work; one recording highlights his prominent, excellent playing throughout the set.",
+      "Brent": "Pigpen’s organ is front‑and‑center with rich flourishes, and Tom Constanten adds distinctive keyboard textures before his departure later that year.",
+      "Mickey": "Drums are tight and drive the energy forward, especially during the post‑drums jam that teases other material.",
+      "Billy": "Shares the tight drum interplay; together with Mickey they keep the rhythmic pulse locked in for the extended jams."
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-11T22:13:27.785696+00:00",
+    "processed_date": "2025-09-12T13:15:47.217985+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -242,17 +252,16 @@
         "Good Lovin'"
       ],
       [
+        "Uncle John's Band",
+        "Black Peter"
+      ],
+      [
         "Dancin' In The Street",
         "Drums",
         "Dancin' In The Street"
       ],
       [
-        "Saint Stephen",
-        "In The Midnight Hour"
-      ],
-      [
-        "Uncle John's Band",
-        "Black Peter"
+        "Dire Wolf"
       ]
     ]
   }

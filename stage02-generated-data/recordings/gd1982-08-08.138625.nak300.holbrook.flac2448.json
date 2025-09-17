@@ -16,35 +16,41 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent recording of a beloved show featuring standout keyboard moments.",
-    "review": "Both reviewers praise the audio quality, calling it excellent or at least good, and note that this concert is a favorite for many fans. The only specific musical comment highlights Brent Mydland’s “scratchy” keyboard tone during the Not Fade Away segment, underscoring the show’s appeal despite limited detail on the overall set.",
+    "summary": "Great show with a standout Not Fade Away and an excellent audience recording",
+    "review": "Both reviewers love this performance, highlighting the beloved Not Fade Away where the keyboards have that signature scratchy texture. The tape is praised as a solid capture – clear enough for listeners to enjoy the music despite being an audience taping.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.0,
+      "stars": 4.6,
       "confidence": "medium",
-      "rationale": "Both reviews are favorable toward the performance and recording; however, only two comments provide limited detail, leading to a solid but not high‑confidence rating."
+      "rationale": "Consistently positive remarks about both the musical performance and the sound quality, though only two reviews limit certainty."
     },
     "recording_quality": {
-      "source_type": "unknown",
+      "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Reviewers describe the audio as excellent or good with no noted dropouts or balance problems."
+      "technical_notes": "Listeners describe the recording as excellent/very good; no specific issues noted beyond typical audience tape ambience."
     },
     "show_quality": {
       "standout_songs": [
         "Not Fade Away"
       ],
       "poor_songs": [],
-      "setlist_flow": "No specific comments on set structure; reviewers simply note overall enjoyment of the show.",
-      "energy_level": "high"
+      "setlist_flow": "No detailed comments on set pacing, but overall enthusiasm suggests a well‑received show."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "Brent’s “scratchy” keyboard tone during Not Fade Away is highlighted as a memorable moment.",
+      "Keys": "Scratchy keyboard sound noted during Not Fade Away",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T08:43:38.963486+00:00",
+    "song_mentions": {
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T23:57:17.028803+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-08-08.138625.nak300.holbrook.flac2448"
   }

@@ -16,18 +16,18 @@
   "high_ratings": 23,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Historic 8/18/70 show with first‑time performances of Ripple, Brokedown Palace, Operator & Truckin' captured on a listenable audience tape.",
-    "review": "The performance is a milestone – the acoustic set shines and the electric set delivers classic early‑’70 energy with debut renditions of Ripple, Brokedown Palace, Operator and a soaring Cryptical > Other One.  The recording is an audience (AUD) capture; it’s lo‑fi and a bit boomy, but most listeners find it sufficiently clear to enjoy the historic moments.",
+    "summary": "Fair‑quality audience tape of a historic 8/18/70 show with debut performances (Ripple, Brokedown Palace, Operator, Truckin') and a stellar acoustic set.",
+    "review": "The recording is an audience capture that is lo‑fi and a bit boomy, but surprisingly listenable for 1970. Musically the concert shines – the acoustic half is praised as “fantastic,” and the electric set delivers several first‑time debuts and strong renditions of The Other One, Attics, Man’s World and more.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.1,
       "confidence": "high",
-      "rationale": "The show is repeatedly praised for its historic firsts and strong playing (≈4.8/5), while the audio, though lo‑fi, is considered listenable (≈2.5/5). Weighted combination yields ~4.1 stars."
+      "rationale": "Most reviewers rave about the historic setlist and performances (≈4.5/5 show rating) while noting only modest technical flaws in the audience recording (≈3/5). Weighted average yields ~4.1 stars."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Pocket‑recorder style tape; noticeable boominess around 960 Hz, occasional muddiness, but overall audible and captures the audience ambience."
+      "technical_notes": "Pocket‑recorder lo‑fi tape; noticeable boominess around 960 Hz, occasional muffled passages and background noises (goats/sheep), but overall listenable after a brief adjustment period."
     },
     "show_quality": {
       "standout_songs": [
@@ -38,28 +38,29 @@
         "Cryptical > The Other One",
         "Attics",
         "Man's World",
-        "Dancing in the Streets"
+        "Dancing in the Streets",
+        "New Speedway Boogie"
       ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic set is described as brilliant and smooth; electric set builds with a powerful Cryptical > Other One, Attics and Man’s World delivering the high‑energy climax."
+      "setlist_flow": "Acoustic set is highlighted as superb and very well‑executed; electric set, while not uniformly praised, contains multiple historic debuts and strong jams that keep the momentum high."
     },
     "band_member_comments": {
-      "Jerry": "Praised for exceptional guitar tone, vocal presence and dynamic lead work on both acoustic and electric numbers (including New Speedway Boogie).",
+      "Jerry": "Guitar tone and vocals repeatedly praised – especially on Ripple, New Speedway Boogie and during the acoustic numbers.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Speculation about piano player – some think Pigpen, others suggest Howard Wales or Ned Lagin; no consensus.",
+      "Keys": "Piano player not identified; speculation points to Howard Wales or Ned Lagin, but no direct performance praise.",
       "Drums": ""
     },
     "song_mentions": {
       "Ripple": {
+        "positive_mentions": 9,
+        "negative_mentions": 0,
+        "total_mentions": 9
+      },
+      "Brokedown Palace": {
         "positive_mentions": 8,
         "negative_mentions": 0,
         "total_mentions": 8
-      },
-      "Brokedown Palace": {
-        "positive_mentions": 7,
-        "negative_mentions": 0,
-        "total_mentions": 7
       },
       "Operator": {
         "positive_mentions": 6,
@@ -67,14 +68,14 @@
         "total_mentions": 6
       },
       "Truckin'": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "Cryptical > The Other One": {
         "positive_mentions": 6,
         "negative_mentions": 0,
         "total_mentions": 6
-      },
-      "Cryptical > The Other One": {
-        "positive_mentions": 5,
-        "negative_mentions": 0,
-        "total_mentions": 5
       },
       "Attics": {
         "positive_mentions": 4,
@@ -82,22 +83,22 @@
         "total_mentions": 4
       },
       "Man's World": {
-        "positive_mentions": 4,
+        "positive_mentions": 5,
         "negative_mentions": 0,
-        "total_mentions": 4
+        "total_mentions": 5
       },
       "Dancing in the Streets": {
-        "positive_mentions": 2,
-        "negative_mentions": 0,
-        "total_mentions": 2
-      },
-      "New Speedway Boogie": {
         "positive_mentions": 3,
         "negative_mentions": 0,
         "total_mentions": 3
+      },
+      "New Speedway Boogie": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
       }
     },
-    "processed_date": "2025-09-12T05:31:21.325847+00:00",
+    "processed_date": "2025-09-12T20:28:35.054896+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-08-18.aud.yerys.1346.sbeok.shnf"
   }

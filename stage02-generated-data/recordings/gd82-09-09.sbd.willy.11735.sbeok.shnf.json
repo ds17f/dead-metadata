@@ -16,41 +16,78 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a high‑energy show highlighted by a killer Uncle John’s Band → Samson → Uncle John’s sequence and an unforgettable Althea.",
-    "review": "The recording is a crisp soundboard tape that lets Phil’s bass roar and Brent’s keys shine, despite a few audio patches and missing encore material. The concert itself is memorable – a sudden first‑set stop, a superb Althea, the seamless Uncle John’s Band → Samson -> Uncle John’s trio, and a soaring second set with Eyes and Good Lovin', though Bob flubbed lyrics on The Other One and some songs are absent between tracks.",
-    "sentiment": "mixed",
+    "summary": "Excellent soundboard capture of a quirky 1982 show with a standout Althea and a killer Uncle John’s Band → Samson sequence.",
+    "review": "The tape is praised for its crystal‑clear soundboard quality, only marred by occasional audience patches and a missing encore segment. Musically the concert shines despite an abrupt first set—Bob forgets the words to “The Other One”—with the second set delivering a superb Althea, a tight Uncle John’s Band → Samson → Uncle John’s flow, and memorable moments like “Eyes” and “Wharf Rat.”",
+    "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers praise the performance and soundboard quality (average 4‑5 stars), with only a few noting missing songs or brief set issues; weighted evaluation yields a strong overall rating."
+      "rationale": "Most reviewers rate the show 4‑5 stars and highlight an excellent soundboard recording; a few note missing songs, but overall performance and audio are strong."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Crisp, clear mix with excellent capture of instruments (especially Phil's bass); minor audio patches and missing encore segments noted, but overall very listenable."
+      "quality_rating": "excellent",
+      "technical_notes": "Clear, balanced board recording praised for crispness; occasional audience‑patch inserts and the original board lacks the encores, but overall sound is superb."
     },
     "show_quality": {
       "standout_songs": [
         "Althea",
-        "Uncle John's Band → Samson → Uncle John's Band",
+        "Uncle John's Band",
+        "Samson",
         "Eyes",
-        "The Wheel",
+        "Wharf Rat",
         "Good Lovin'"
       ],
       "poor_songs": [
-        "The Other One (Bob missed lyrics)"
+        "The Other One"
       ],
-      "setlist_flow": "First set cut short when Weir left stage, creating a quirky start; second set opened with the striking UJB‑S&D‑UJB sequence and maintained high momentum through the rest of the show.",
-      "energy_level": "high"
+      "setlist_flow": "First set cut short when Weir left the stage, creating a chaotic start, but the second set launched instantly with an unusual Uncle John’s Band → Samson → Uncle John’s sandwich that lifted the concert into a strong, flowing performance."
     },
     "band_member_comments": {
-      "Jerry": "Praised for sweet tone on Althea, carrying the band through early set issues, and delivering strong musical muscle throughout.",
-      "Phil": "Described as ‘coming through like the beast’ with a powerful bass presence, though some reviewers note limited Phil in certain parts of this tape.",
-      "Bob": "Forgot lyrics to The Other One and had a rushed intro on Althea, but otherwise eloquent vocal performance noted later in the set.",
-      "Keys": "Brent’s keyboard work highlighted during the post‑Weir jam and throughout the second set.",
+      "Jerry": "Repeatedly praised for his sweet guitar tone and for carrying the band through the rough first set.",
+      "Phil": "Highlighted as “the beast” on one recording; other reviewers note he is less audible in this show.",
+      "Bob": "Forgot the lyrics to \"The Other One\" but otherwise delivers eloquent vocals, especially on Good Lovin'.",
+      "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T09:10:55.168751+00:00",
+    "song_mentions": {
+      "Althea": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Samson": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "The Other One": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Eyes": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Wharf Rat": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T00:46:54.046446+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-09-09.sbd.willy.11735.sbeok.shnf"
   }

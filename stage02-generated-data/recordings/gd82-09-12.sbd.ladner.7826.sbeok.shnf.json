@@ -16,35 +16,47 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Rare 1982 “morning dew” show captured on a crisp sound‑board mix with standout Brent‑B3 on Not Fade Away and strong vocals from Jerry.",
-    "review": "Fans rave about this early‑’82 West LA performance, calling it a collector’s gem thanks to the rare morning‑dew date and energetic set, especially the second half and the bright Brent‑organ work on “Not Fade Away.” The soundboard recording is generally clear and well‑balanced, though one listener notes an odd speed‑up that mars the listening experience.",
+    "summary": "Crisp soundboard capture of a rare 1982 show featuring standout Not Fade Away and Morning Dew, with strong vocals and a great second set.",
+    "review": "The performance is praised for its solid first set, an especially exciting second set, and memorable moments like Brent's B3 organ on Not Fade Away and the rare Morning Dew. The soundboard recording is generally clear and well‑balanced, though one listener notes the playback runs slightly fast. Overall the show is considered a collector’s gem with high vocal energy from Jerry.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Consistently high praise for both performance (average ~4.6) and recording quality (average ~4.2); weighted rating yields ~4.5."
+      "rationale": "Most reviewers give 4‑5 stars and highlight strong musical performance; recording quality is described as crisp though with a minor speed issue, leading to a high combined rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Crisp, well‑blended mix with clear vocals and keyboards; one reviewer reports the playback is sped‑up, which detracts from fidelity."
+      "technical_notes": "Crisp and well‑balanced mix with clear vocals; a few listeners note the playback is sped up, affecting pitch perception."
     },
     "show_quality": {
       "standout_songs": [
-        "Not Fade Away"
+        "Not Fade Away",
+        "Morning Dew"
       ],
       "poor_songs": [],
-      "setlist_flow": "Solid first set followed by a particularly praised second set; transitions and overall pacing described as strong.",
-      "energy_level": "high"
+      "setlist_flow": "First set described as solid and no‑slouch, second set highlighted as particularly great; overall flow praised by reviewers."
     },
     "band_member_comments": {
-      "Jerry": "Vocals are strong and nuanced, though a few note he sounds a bit tired at times.",
+      "Jerry": "Vocals described as strong and expressive, though occasionally sounding tired; guitar tone noted positively.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Brent's B3 organ on “Not Fade Away” is highlighted as a bright, energetic addition; noted as the new kid having fun.",
+      "Keys": "Brent's B3 organ work on Not Fade Away is singled out as a highlight, showing his adventurous playing.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T09:20:16.773120+00:00",
+    "song_mentions": {
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-14T01:01:02.219718+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-09-12.sbd.ladner.7826.sbeok.shnf"
   }

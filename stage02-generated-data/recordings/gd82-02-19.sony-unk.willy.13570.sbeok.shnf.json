@@ -16,35 +16,41 @@
   "high_ratings": 1,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Muddy audience recording that sounds like it was captured from the parking lot, yet the show contains a rare pre‑drums jam with enough energy to make it worthwhile.",
-    "review": "The audio quality is poor – distant mics render most instruments inaudible and only Jerry's guitar cuts through at times.  Despite the technical flaws, listeners note a unique pre‑drums jam that adds some excitement not found on other copies of this show.",
+    "summary": "Muddy audience recording from a distant mic, but the show has an energetic jam with a hint of Terrapin flavor.",
+    "review": "The source is clearly an audience tape recorded from far away – at times only Jerry's guitar cuts through and the mix sounds muffled.  Despite the lo‑fi sound, reviewers note a unique pre‑drums jam that carries a Terrapin‑Station vibe and adds extra energy compared with other copies of this show.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.6,
+      "stars": 3.2,
       "confidence": "medium",
-      "rationale": "Mixed reviewer sentiment (1★, 3★, 4★) and consistently negative comments about recording quality lower the overall score despite a few positive remarks about performance energy."
+      "rationale": "Show quality is judged moderate to good (energy, unique jam) while recording quality is rated fair/poor due to distant mics; weighted average yields ~3.2 stars."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "poor",
-      "technical_notes": "Distant audience mics; instruments often buried or muffled, Jerry's guitar occasionally audible. Sounds like it was recorded from the parking lot with significant clarity loss."
+      "quality_rating": "fair",
+      "technical_notes": "Distant parking‑lot microphones, muffled mix, often only Jerry's guitar audible; occasional clearer sections before drums but overall lacking clarity."
     },
     "show_quality": {
       "standout_songs": [
-        "Pre‑drums jam (hint of Terrapin)"
+        "Terrapin Station"
       ],
       "poor_songs": [],
-      "setlist_flow": "Hard to assess due to audio limitations, but the pre‑drums jam segment is highlighted as a notable moment.",
-      "energy_level": "medium"
+      "setlist_flow": "Energetic performance with a notable pre‑drums jam that recalls the 4‑17‑82 era; despite audio flaws the band’s flow adds a distinct flavor not found on other copies."
     },
     "band_member_comments": {
-      "Jerry": "Guitar sometimes the only clear instrument; overall tone buried by distant mics.",
+      "Jerry": "His guitar is often the only clear instrument early in the set; later sections feature a 'jerryless' groove.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T05:26:27.844941+00:00",
+    "song_mentions": {
+      "Terrapin Station": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T18:27:31.612710+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-02-19.sony-unk.willy.13570.sbeok.shnf"
   }

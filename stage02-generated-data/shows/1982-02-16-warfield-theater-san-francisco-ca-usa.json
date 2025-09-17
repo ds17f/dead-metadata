@@ -202,42 +202,70 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Electrified Warfield set featuring Terrapin, Althea and a Foxy Lady tease",
-    "blurb": "The February 16, 1982 Warfield performance launches a soaring Terrapin Station that segues into Althea, delivers a crowd‑pleasing Peggy‑O, and ventures into an exploratory Space punctuated by a brief Foxy Lady tease. Keyboard textures shimmer on Friend Of The Devil, while the rhythm section propels the flow despite muddy audience tape quality.",
-    "review": "What unfolds at the Warfield on this early‑1982 night is a cohesively locked‑in Dead run that rides the band's electrified groove. Set 1 builds momentum with Shakedown Street and a crisp rendition of Friend Of The Devil, then rolls into an upbeat Peggy‑O that still manages to cut through the murky tape. The second set shines brightest: China Cat Sunflower → I Know You Rider launches into a blazing Playing In The Band → Terrapin Station sequence that feels both adventurous and grounded, while the Drums/Space segment sprinkles in a whimsical Foxy Lady tease before launching into an extended Truckin' jam. The show closes with the familiar swing of Good Lovin’ and a gentle encore of Don't Ease Me In. Though the recording is an audience capture with noticeable hiss and bass that’s hard to isolate, it preserves the band’s inspired interplay and makes this performance worth a spin for any Warfield‑era collector.",
+    "summary": "Jam‑heavy Warfield set with fiery Scarlet>Fire and strong early‑'80s flow",
+    "blurb": "The show delivers a jam‑heavy first set highlighted by a scorching Scarlet Begonias → Fire on the Mountain, while the second set features a classic Playing In The Band sandwich with Terrapin Station and Althea. Keyboard work shines on Friend Of The Devil, and fans note a possible Foxy Lady tease during Space.",
+    "review": "Feb 16‑1982 at the Warfield captured the Dead in a solid early‑'80s groove. The first set rolls out with a tight Shakedown Street into a standout Scarlet Begonias → Fire on the Mountain that many listeners call “fiery” and jam‑heavy, while Friend Of The Devil gets a sweet keyboard touch from Brent. The second half builds a classic Playing In The Band sandwich, delivering Terrapin Station’s soaring climax, a rolling Althea, and an energetic Space where some fans even hear a fleeting Foxy Lady tease. Though the available audience recordings are only fair in clarity—muffled bass and occasional drum bleed—the performance itself remains enjoyable and historically interesting for its blend of cowboy‑style tunes and expansive improvisation.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.5,
-      "confidence": "medium"
+      "ai_rating": 2.6,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 17,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.0,
+        "sentiment_rationale": "The four recording analyses are mostly mixed in tone with only one clearly positive note; there is no consistent praise or criticism across recordings, so sentiment adjustment remains neutral.",
+        "final_calculation": "2.5 + 0.1 + 0.0 = 2.6"
+      }
     },
     "best_recording": {
       "identifier": "gd82-02-16.aud.set1.braverman-vernon.19267.sbeok.shnf",
-      "reason": "Most complete audience tape; captures the electrified vibe and key moments (Terrapin Station, Althea, Peggy‑O) despite muddy bass."
+      "reason": "Captures the standout Scarlet Begonias → Fire on the Mountain sequence despite fair audio, and is praised for its immersive audience feel."
     },
     "key_highlights": [
-      "Terrapin Station into Althea delivers a soaring second‑set peak",
-      "Space features an unexpected Foxy Lady tease that adds intrigue",
-      "Peggy‑O and Friend Of The Devil stand out despite the tape’s muddiness",
-      "Rhythm section powers the show with propulsive, locked‑in grooves"
+      "Fiery Scarlet Begonias → Fire On The Mountain jam",
+      "Classic Playing In The Band sandwich with Terrapin Station and Althea",
+      "Possible Foxy Lady tease woven into the Space jam"
     ],
     "song_highlights": [
-      "Friend Of The Devil",
+      "Scarlet Begonias",
+      "Fire On The Mountain",
       "Peggy-O",
+      "Playing In The Band",
       "Terrapin Station",
-      "Althea",
-      "Space"
+      "Althea"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s crystalline leads remain clear and melodic, especially on Terrapin Station and the Space segue.",
-      "Phil": "Lesh provides a steady bass foundation anchoring the electrified jams throughout.",
-      "Bob": "Weir’s rhythm guitar locks into the groove, adding texture to the upbeat numbers.",
-      "Brent": "Mydland’s keyboard lines shimmer on Friend Of The Devil and add atmospheric color during Space.",
-      "Mickey": "Hart contributes crisp cymbal accents that help drive the second‑set momentum.",
-      "Billy": "Kreutzmann lays down a steady, propulsive beat that keeps the band moving forward."
+      "Jerry": "No specific remarks, but overall playing is described as solid and jam‑heavy.",
+      "Phil": "",
+      "Bob": "",
+      "Brent": "Keyboard work noted as sweet on 'Friend Of The Devil'.",
+      "Mickey": "",
+      "Billy": ""
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-07T05:19:19.462129+00:00",
+    "processed_date": "2025-09-13T18:15:21.146233+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Peggy-O"
+      ],
+      [
+        "Playing In The Band",
+        "Terrapin Station",
+        "Drums",
+        "Space",
+        "Truckin'",
+        "Nobody's Fault But Mine Jam",
+        "Black Peter",
+        "Playing In The Band",
+        "Around & Around",
+        "Good Lovin'"
+      ],
+      [
+        "Althea"
+      ]
+    ]
   }
 }

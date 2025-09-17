@@ -16,42 +16,87 @@
   "high_ratings": 18,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "High‑energy Red Rocks ’82 show with smoking China>Rider and a monster Playin' > Terrapin sequence captured on vivid audience tape.",
-    "review": "The performance is widely praised for its relentless energy, especially the blazing China Cat Sunflower → I Know You Rider stretch and the epic Playin' → Terrapin sandwich that leads into a powerful Other One.  While the audience recording isn’t pristine—some mic‑placement quirks and level jumps are noted—it benefits from Red Rocks’ natural acoustics, delivering bright Jerry guitar and full Phil bass.  Overall the show is considered one of the standout early‑80s runs at the venue.",
+    "summary": "A solid Red Rocks audience tape with bright Jerry guitar and a smoking China > Rider, Playin’ in the Band and The Other One that make the show shine despite some mic‑placement quirks.",
+    "review": "The recording is an audience (AUD) capture that’s generally clear but has occasional microphone‑proximity issues – Garcia’s guitar sits forward and the mix leans heavily on his sound. Musically the concert is a highlight of the summer‑82 run, featuring a blistering China > Rider, an inspired Playin’ in the Band (complete with Bob’s rare scat), a thunderous Terrapin and one of the most memorable Other One jams of the era. Overall the performance outweighs the modest technical flaws.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "Consistently high star ratings (mostly 4‑5) and enthusiastic comments about both performance and tape quality; weighting favors a strong show with good but not flawless recording."
+      "rationale": "Most reviewers praise the musical performance (standout jams, strong set flow) while noting only moderate recording imperfections; the weighted average of show (≈4.6) and tape quality (≈4.0) yields a high rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Bright front‑mic on Garcia, occasional mic fiddling (e.g., On the Road Again) and level jumps; overall clear and upfront sound that benefits from Red Rocks acoustics."
+      "technical_notes": "Generally clear Red Rocks ambience, but mic placement puts Garcia’s guitar forward and causes occasional level spikes; some reviewers note drop‑outs or uneven balance between instruments."
     },
     "show_quality": {
       "standout_songs": [
-        "China Cat Sunflower > I Know You Rider",
-        "Playing in the Band > Terrapin Station",
+        "China > Know You Rider",
+        "Playin' in the Band",
         "The Other One",
-        "Stella Blue",
-        "Sugaree (16 min)",
-        "On the Road Again"
+        "Terrapin Station",
+        "Sugaree"
       ],
       "poor_songs": [
         "Peggy-O"
       ],
-      "setlist_flow": "First set rolls solidly with tight tempos; second set kicks off with an unusual Playin' start and builds through Terrapin, The Other One and a soaring Stella Blue before a brief encore.",
-      "energy_level": "high"
+      "setlist_flow": "First set rolls smoothly with tight tempos and solid versions of On the Road Again, Must Have Been Roses and a powerhouse China > Rider. The second set opens unusually with Playin' in the Band, builds into Terrapin and The Other One before closing with an emotive Stella Blue – a sequence praised for its energy despite a brief, sloppy encore."
     },
     "band_member_comments": {
-      "Jerry": "Front‑mic makes his guitar especially bright; tone praised throughout the show.",
-      "Phil": "Bass sounds fuller; notable “Phil bombs” on The Other One and aggressive slap technique highlighted.",
-      "Bob": "Scat vocal during Playing in the Band noted as a rare highlight; sweet solo on Roses appreciated.",
-      "Keys": "Brent's organ drives Terrapin, adding intensity; overall keyboard presence felt strong despite occasional mix quirks.",
-      "Drums": "Thrilling drum break leading into Rhythm Devils shout‑out; drums praised for driving the high‑energy jams."
+      "Jerry": "His guitar is very bright and often the loudest element; reviewers love his tone and occasional extra licks.",
+      "Phil": "Praised for booming bass bombs on The Other One and a new four‑string slap technique that adds intensity, especially during Terrapin.",
+      "Bob": "Noted for an electrifying solo on Must Have Been Roses and a rare scat vocal over the Playin' jam.",
+      "Keys": "Brent’s organ work is highlighted on Terrapin and throughout the set; keyboards are described as fuller in the audience mix.",
+      "Drums": "Bill's drum break before the Rhythm Devils shout is called thrilling; some note the drums‑> Space transition sounds a bit off in certain mixes."
     },
-    "processed_date": "2025-09-07T07:37:08.679084+00:00",
+    "song_mentions": {
+      "China > Know You Rider": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Playin' in the Band": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "The Other One": {
+        "positive_mentions": 4,
+        "negative_mentions": 1,
+        "total_mentions": 5
+      },
+      "Terrapin Station": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Sugaree": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "On the Road Again": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Must Have Been Roses": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Peggy-O": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Stella Blue": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-13T21:57:06.987630+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-07-27.fob-senn421.wise.4705.sbefail.shnf"
   }

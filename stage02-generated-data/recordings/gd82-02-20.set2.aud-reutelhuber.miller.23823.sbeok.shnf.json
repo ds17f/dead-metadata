@@ -16,35 +16,41 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑energy show highlighted by a rare Brent keyboard jam; audience recording is listenable enough to enjoy the moment.",
-    "review": "The reviewer gives the set a full five stars, chiefly because of an unexpected and exciting Brent keyboard jam that they liken to a one‑off \"Only A Fool\" fragment from New Haven ’84. No specific complaints about the audio are mentioned, so the audience recording is presumed adequate for capturing the performance, though its exact fidelity isn’t described.",
+    "summary": "High‑energy Brent‑led jam highlighted, recording quality not described",
+    "review": "The lone reviewer gushes over a unique Brent Mydland jam that they liken to an unheard “Only A Fool,” noting its rarity from the spring‑1984 New Haven run. No details are given about the source or clarity of the audio, so the technical side remains unclear, but the enthusiasm suggests the performance itself is a standout.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.6,
-      "confidence": "medium",
-      "rationale": "A single enthusiastic 5‑star review emphasizes a standout jam and shows no technical grievances, suggesting a strong show with acceptable recording quality, but limited data lowers confidence."
+      "confidence": "low",
+      "rationale": "Only one brief review, but it is a 5‑star enthusiastic comment focusing on a special jam; lack of recording detail keeps confidence low."
     },
     "recording_quality": {
-      "source_type": "audience",
-      "quality_rating": "good",
-      "technical_notes": "No explicit comments on sound clarity; assumed typical audience capture that is sufficient for listening but not described as exceptional."
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No comments about soundboard, audience mix, clarity or any technical issues were provided."
     },
     "show_quality": {
       "standout_songs": [
-        "Brent keyboard jam (unidentified fragment)"
+        "Only A Fool (unreleased jam)"
       ],
       "poor_songs": [],
-      "setlist_flow": "",
-      "energy_level": "high"
+      "setlist_flow": "Reviewer only mentions the unique Brent jam; no broader set‑list assessment is available."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "Reviewer highlights Brent's improvisational jam, noting its rarity and excitement.",
+      "Keys": "Brent's improvisation is praised as a rare, high‑energy jam.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T05:31:04.988628+00:00",
+    "song_mentions": {
+      "Only A Fool": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T18:34:01.537418+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-02-20.set2.aud-reutelhuber.miller.23823.sbeok.shnf"
   }

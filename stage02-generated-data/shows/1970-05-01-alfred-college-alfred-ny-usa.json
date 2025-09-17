@@ -179,45 +179,58 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Acoustic brilliance and fiery New Speedway Boogie dominate",
-    "blurb": "The first set delivers crystal‑clear acoustic folk gems with perfect Garcia tone on tracks like Deep Elem Blues and Me & My Uncle*. The electric second set erupts with a scorching New Speedway Boogie, hard‑rocking Hard To Handle and a powerful The Other One. Overall the show is tight, energetic, and showcases the band at a high point.",
-    "review": "May 1, 1970 at Alfred College captured one of the Grateful Dead’s most balanced performances: an acoustic set that sounds like pure folk gold followed by an electric second half that crackles with fire. Jerry Garcia’s guitar tone is repeatedly called perfect on the early numbers – from the plaintive “Deep Elem Blues” to the rollicking “Me And My Uncle*” and “Mama Tried*” – while his lead work on “New Speedway Boogie” and “Hard To Handle” drives the band into exhilarating territory. Bob Weir’s rhythm work shines on the early acoustic duo numbers such as “The Race Is On*” and “Wake Up Little Susie*”, giving the set a warm, collaborative feel. The second set’s centerpiece, a blistering “New Speedway Boogie”, flows straight into “Cold Jordan*” and then into a monster “The Other One”, with Mickey Hart’s drums pushing the improvisations forward. Despite a few minor tape quirks (low‑frequency oversaturation and a tiny beat artifact), the Miller soundboard mix is crystal‑clear, making this show one of the finest documented performances from the early ’70s.",
+    "summary": "Acoustic gems and fiery New Speedway Boogie dominate the night",
+    "blurb": "The first set delivers pure acoustic gold with tight renditions of Deep Elem Blues, Me And My Uncle* and Mama Tried*. The electric second half erupts on New Speedway Boogie, Hard To Handle and a soaring The Other One.",
+    "review": "May 1 1970 at Alfred College captures the Dead in a rare moment where their acoustic chemistry shines before they launch into an electrified blaze. Jerry’s guitar is crystal‑clear on the folk‑leaning numbers and then shreds through New Speedway Boogie, while Bob provides solid rhythm that pushes the band forward. The second set is highlighted by a monster The Other One that rides the dual‑drum groove of Mickey and Billy, with Phil laying down a steady bass foundation throughout. Pigpen’s harmonica and organ add just the right splash of color on the bluesy cuts. With an audience buzzing and the New Riders adding high harmonies to the acoustic set, this show stands out as one of the early‑year peaks in the Dead’s catalog.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.5,
-      "confidence": "high"
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 79,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All four recordings are uniformly positive, repeatedly praising the acoustic set as 'pure gold' and lauding New Speedway Boogie, Hard To Handle, The Other One and other highlights. No negative comments appear across any analysis, indicating strong consensus of a stellar performance.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-05-01.sbd.miller.95683.sbeok.flac16",
-      "reason": "Superb soundboard mix with crystal‑clear acoustic separation and overall listenable balance despite minor tape quirks; consistently praised as the clearest capture of this show."
+      "reason": "Crystal‑clear soundboard mix captures the acoustic set’s nuance and the electric half’s power, with only minor low‑end mud that doesn’t detract from the overall listening experience."
     },
     "key_highlights": [
-      "Acoustic set’s pristine folk gems and flawless Garcia tone.",
-      "Scorching New Speedway Boogie that launches the electric half.",
-      "Powerful The Other One sequence backed by tight drumming.",
-      "Overall tight, energetic flow with solid bass foundation and vivid percussion."
+      "Acoustic first set hailed as one of the best early‑year performances.",
+      "New Speedway Boogie delivers a scorching lead showcase for Jerry.",
+      "The Other One features tight dual‑drum interplay and extended improvisation.",
+      "High energy transition from acoustic to electric keeps momentum flowing."
     ],
     "song_highlights": [
       "Deep Elem Blues",
       "Me And My Uncle*",
       "Mama Tried*",
+      "New Speedway Boogie",
+      "Hard To Handle",
+      "The Other One",
       "The Race Is On*",
       "Wake Up Little Susie*",
-      "New Speedway Boogie",
       "Cold Jordan*",
-      "Hard To Handle",
-      "The Other One"
+      "Not Fade Away",
+      "Cryptical Envelopment",
+      "Drums",
+      "High Time",
+      "Turn On Your Lovelight"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s guitar tone is described as perfect throughout, delivering fiery leads on New Speedway Boogie and Hard To Handle while also adding tasteful electric touches to acoustic numbers.",
-      "Phil": "Bass provides a solid foundation that underpins both the delicate acoustic set and the high‑octane electric jams, though specific solos aren’t highlighted.",
-      "Bob": "Weir shines on early acoustic tracks like The Race Is On* and Wake Up Little Susie*, sharing rhythm duties and adding depth to the folk feel.",
-      "Brent": "",
-      "Mickey": "Hart’s drumming is noted for its driving energy, especially during the second‑set improvisations and the powerful The Other One segment.",
-      "Billy": ""
+      "Jerry": "Shredding leads on New Speedway Boogie, flawless acoustic tone, and dynamic electric work throughout.",
+      "Phil": "Solid bass foundation that underpins both sets; no specific standout moments noted but consistently supportive.",
+      "Bob": "Provides steady rhythm guitar on the acoustic numbers and complements Jerry’s lead in the electric set.",
+      "Pigpen": "Adds harmonica flourishes and organ color, enhancing the bluesy feel of several cuts.",
+      "Mickey": "Locks into tight dual‑drum grooves that drive The Other One and high‑energy sections.",
+      "Billy": "Delivers propulsive drumming alongside Mickey, keeping the rhythmic pulse strong from start to finish."
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-12T02:01:41.848866+00:00",
+    "processed_date": "2025-09-12T17:15:36.396596+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -231,16 +244,7 @@
         "Mama Tried*"
       ],
       [
-        "The Race Is On*"
-      ],
-      [
-        "Wake Up Little Susie*"
-      ],
-      [
         "New Speedway Boogie"
-      ],
-      [
-        "Cold Jordan*"
       ],
       [
         "Hard To Handle"
@@ -250,6 +254,24 @@
         "Drums",
         "The Other One",
         "Cryptical Envelopment"
+      ],
+      [
+        "The Race Is On*"
+      ],
+      [
+        "Wake Up Little Susie*"
+      ],
+      [
+        "Cold Jordan*"
+      ],
+      [
+        "Not Fade Away"
+      ],
+      [
+        "High Time"
+      ],
+      [
+        "Turn On Your Lovelight"
       ]
     ]
   }

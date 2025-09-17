@@ -190,25 +190,35 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Vibrant Warfield set with blistering Scarlet>Fire and an extraordinary Estimated Prophet",
-    "blurb": "The second set shines with a cascading Scarlet Begonias → Fire on the Mountain transition, a soaring Estimated Prophet, and an inspired Eyes of the World. Jerry propels the band forward while Brent adds swirling texture throughout, and Phil settles into a deep groove later in the set. Soundboard recordings capture the excitement with bright tone despite typical early‑'80s tape quirks.",
-    "review": "What unfolds at the Warfield on February 17, 1982 is a quintessential early‑‘80s Dead night—cohesive, adventurous, and unapologetically loud. The first set opens strong with New Minglewood Blues into Sugaree, then rolls through Bird Song and Tennessee Jed before slipping into a playful Man Smart/Woman Smarter closer. But the real fireworks ignite on the second set: Scarlet Begonias launches straight into Fire on the Mountain, where Jerry briefly pauses to savor Brent’s phrasing before delivering an incandescent lead run; the jam flows seamlessly into an expansive Estimated Prophet that many listeners describe as “transcendent,” followed by a soaring Eyes of the World that rides the band’s electric momentum all the way through drums, space, and The Wheel. The encore’s (I Can’t Get No) Satisfaction caps the night with classic crowd‑pleasing gusto. Across the various tapes, the Miller soundboard capture stands out for its bright, clear tone and relatively clean presentation of these highlights, making it the go‑to source for anyone wanting to relive this dynamic Warfield performance.",
+    "summary": "High‑energy Warfield set with scorching Scarlet>Fire and tight jams",
+    "blurb": "The second set shines with a blistering Scarlet Begonias → Fire on the Mountain and an inspired Estimated Prophet. Jerry trades phrases with Brent during the jam, while Bob adds vocal flair in Estimated Prophet. Overall the show delivers strong improvisations and solid songcraft.",
+    "review": "On February 17, 1982 the Dead turned the Warfield into a furnace of improvisational fire. The first set opened with a rollicking New Minglewood Blues that flowed into Sugaree and a spirited Bird Song, setting an upbeat tone. It was in the second set where the night truly ignited: Scarlet Begonias segued seamlessly into Fire on the Mountain, launching a high‑octane jam that had Jerry feeding off Brent’s keyboard textures and even pausing to salute his phrasing. The band kept the momentum rolling through a soaring Estimated Prophet, an expansive Eyes of the World, and a tight rhythm section that drove Space into a rare “The Tiger” solo before closing with The Wheel and a jubilant Not Fade Away. Bob Weir’s playful vocal touches—especially his scatting on Estimated Prophet—added humor, while Phil Lesh’s bass provided a deep, resonant undercurrent despite occasional calls for more early‑set presence. In short, the Warfield show captures the Dead at a creative peak: fierce jams, tight interplay, and enough surprise moments to keep any Deadhead smiling.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 38,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Seven out of nine recordings describe the performance in positive terms, repeatedly praising the Scarlet>Fire sequence, Estimated Prophet jam, and overall high energy. No consistent negative comments appear, just two mixed reviews about recording edits. The strong, repeated acclaim warrants a +1.6 sentiment boost.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd1982-02-17.sbd.miller.112408.flac16",
-      "reason": "Good soundboard source with bright tone, clear capture of the Scarlet>Fire jam and dynamic second set despite minor tape quirks."
+      "reason": "Good‑quality soundboard capture with clear mix, minimal tape‑flip artifacts, and the most complete set representation."
     },
     "key_highlights": [
-      "Seamless Scarlet Begonias → Fire on the Mountain transition featuring Jerry’s crisp lead work",
-      "Transcendent Estimated Prophet that rides a soaring band dynamic",
-      "Electrified second set that sustains momentum through Eyes of the World and The Wheel",
-      "Bright soundboard recording captures the band's cohesive interplay despite early‑'80s tape limitations"
+      "Scarlet Begonias → Fire on the Mountain jam ignites second set.",
+      "Jerry’s interplay with Brent and rare \"The Tiger\" solo in Space.",
+      "Strong improvisations on Estimated Prophet and Eyes of the World.",
+      "Solid rhythm section keeping the energy high throughout."
     ],
     "song_highlights": [
+      "New Minglewood Blues",
+      "Sugaree",
       "Scarlet Begonias",
       "Fire On The Mountain",
       "Estimated Prophet",
@@ -216,16 +226,38 @@
       "Bird Song"
     ],
     "band_performance": {
-      "Jerry": "Propels the show with inspired lead work, notably during Scarlet>Fire and a rare “Tiger” improvisation before The Wheel.",
-      "Phil": "Dependable throughout; bass sits low early in the set but emerges with depth on Loser and later jams, earning mention of his deep‑zone vibe.",
-      "Bob": "Adds humor and vocal flair, with scatting on Estimated Prophet and a strong vocal outro on “Estimated.”",
-      "Brent": "",
+      "Jerry": "On fire throughout, especially during Scarlet>Fire and Estimated Prophet; pauses to appreciate Brent’s phrasing and slips in a rare \"The Tiger\" solo in Space.",
+      "Phil": "Provides deep bass foundation; mixed comments about early‑set presence but praised for his later contributions on Loser and overall groove.",
+      "Bob": "Adds vocal humor, scatting on Estimated Prophet and strong vocal outro on the jam, keeping the mood lively.",
+      "Brent": "Locks in with Jerry, delivering textured keyboard lines that drive the jams and support the rare solo moment.",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 8,
-    "processed_date": "2025-09-07T05:25:18.732359+00:00",
+    "processed_date": "2025-09-13T18:25:15.171985+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "New Minglewood Blues",
+        "Sugaree"
+      ],
+      [
+        "Scarlet Begonias",
+        "Fire On The Mountain",
+        "Estimated Prophet",
+        "Eyes Of The World",
+        "Drums",
+        "Space",
+        "The Wheel",
+        "Not Fade Away",
+        "Wharf Rat",
+        "Sugar Magnolia"
+      ],
+      [
+        "Bird Song",
+        "C.C. Rider"
+      ]
+    ]
   }
 }

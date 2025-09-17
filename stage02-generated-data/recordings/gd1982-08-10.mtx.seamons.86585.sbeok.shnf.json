@@ -16,42 +16,125 @@
   "high_ratings": 10,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A flawless matrix recording captures a 1982 monster show, highlighted by an epic second set (China > Rider, Lost Sailor > Saint) and soaring performances.",
-    "review": "The matrix blend of audience and soundboard sources is praised as seamless and crystal‑clear, delivering every instrument with excellent definition.  The concert itself “smokes” from start to finish – the band is tight, energetic, and delivers standout moments such as China > Rider, Lost Sailor into Saint, and a ripping Jerry Garcia throughout.  While one reviewer disliked the matrix mix, the overwhelming consensus is that both the music and the recording are top‑tier.",
+    "summary": "A flawless matrix blend captures an incendiary 1982 performance – Jerry’s ripping guitar and a second‑set packed with Stagger Lee, China > Rider and other classics.",
+    "review": "The matrix mix of audience and soundboard sources is praised as seamless and crystal‑clear, delivering every instrument with excellent balance. The band is described as “on top of the music” all night, with Jerry’s voice and solos, Brent’s keyboards, Phil’s bass fury and Bill & Mickey’s driving drums highlighted throughout a wildly energetic set.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.7,
       "confidence": "high",
-      "rationale": "Average star rating ≈ 4.5 from eleven reviews, with consistent high praise for both performance and matrix sound quality; only a single dissenting comment."
+      "rationale": "All but one reviewer gave 5‑star ratings, extolling both the musical performance and the matrix recording; the lone negative comment is outweighed by overwhelming praise."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "excellent",
-      "technical_notes": "Seamless blend of audience (AUD) and soundboard (SBD), crisp clarity, all instruments audible. Minor notes about speed correction and one reviewer feeling the matrix dulled the audience mix, but overall regarded as superb."
+      "technical_notes": "The audience (AUD) and soundboard (SBD) tracks are blended flawlessly, providing crisp clarity and a full‑stage feel. One reviewer noted a slight speed mismatch between the sources, but most consider it corrected and superb."
     },
     "show_quality": {
       "standout_songs": [
-        "China > Rider",
-        "Lost Sailor > Saint",
-        "Eyes of the World",
-        "Minglewood (Bob slide solo)",
         "Stagger Lee",
+        "Friend of the Devil",
+        "Minglewood",
+        "Cassidy",
         "Roses",
         "Miracle",
-        "Bertha"
+        "Bertha",
+        "China > Rider",
+        "Lost Sailor",
+        "Saint Stephen",
+        "Eyes of the World",
+        "Truckin'",
+        "Stella",
+        "Baby Blue",
+        "Johnny B. Goode"
       ],
       "poor_songs": [],
-      "setlist_flow": "Strong pacing with a silky first set and an explosive second set; transitions (e.g., China into Rider) are praised for their flow.",
-      "energy_level": "high"
+      "setlist_flow": "Reviewers highlight a smooth, flowing set‑list with an especially epic second set; transitions (e.g., China into Rider) are called seamless and the overall pacing is described as “smoking” from start to finish."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly lauded for powerful vocals, magical phrasing, and extended solos that drive the show.",
-      "Phil": "Described as “raging” and a solid presence throughout, with notable pre‑encore comment and strong bass foundation.",
-      "Bob": "Highlighted for enthusiastic banter, memorable slide solo in Minglewood, and energetic rhythm guitar work.",
-      "Keys": "Brent’s B3 organ and electric piano are celebrated as outstanding, providing superb vocal harmonies and texture.",
-      "Drums": "Bill Kreutzmann and Mickey Hart receive praise for driving the band and delivering an amazing rhythmic backbone."
+      "Jerry": "Repeatedly praised for powerful vocals, patient phrasing, soaring guitar tone, and marathon solos throughout the show.",
+      "Phil": "Described as “raging,” present in every song, and even thanked the audience before the encore; his bass drives the band forward.",
+      "Bob": "Noted for memorable slide work, heartfelt banter, and a vocal performance that stands out on several numbers.",
+      "Keys": "Brent’s electric‑piano work and B3 organ solos are called outstanding; his vocals on “Friend of the Devil” receive special acclaim.",
+      "Drums": "Bill Kreutzmann and Mickey Hart are lauded as amazing, providing relentless drive and dynamic support to every song."
     },
-    "processed_date": "2025-09-07T08:50:12.160276+00:00",
+    "song_mentions": {
+      "Stagger Lee": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Friend of the Devil": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Minglewood": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cassidy": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Roses": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Miracle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Bertha": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China > Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lost Sailor": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Saint Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Eyes of the World": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stella": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Baby Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Johnny B. Goode": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T00:09:11.517695+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-08-10.mtx.seamons.86585.sbeok.shnf"
   }

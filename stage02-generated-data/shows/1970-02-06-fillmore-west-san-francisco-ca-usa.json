@@ -152,38 +152,45 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Strong early‑70 set with stellar High Time and tight jams",
-    "blurb": "The show shines on High Time, Cryptical Envelopment into Black Peter, and Black Peter itself. Jerry’s vocals are spot‑on and his backup work in Dancin’ In The Street is praised, while the rhythm section drives powerfully. The mix is crisp and balanced despite a few cuts that interrupt parts of the set.",
-    "review": "On February 6, 1970 at San Francisco’s Fillmore West, the Dead delivered an early‑70s set that balances laid‑back country numbers with lingering psychedelic jams. Highlights include a soaring High Time, the seamless segue from Cryptical Envelopment into Black Peter, and a heartfelt rendition of Black Peter itself. Jerry Garcia sings “his heart out,” his lead vocal staying spot‑on while backing harmonies lift Dancin’ In The Street. Bob Weir cuts through the mix with crisp guitar work, Phil Lesh provides a solid bass foundation (even bobbing his head in time), and the twin drummers, Mickey Hart and Bill Kreutzmann, lay down a powerful, driving beat that propels the band forward. The soundboard capture is unusually clear for the era—crisp, balanced, and with vocals and instruments well defined—though six noticeable cuts (including portions of Dancin’ In The Street) and occasional speed irregularities detract from an otherwise solid listening experience.",
+    "summary": "High‑energy early‑70 set with crisp vocals and standout High Time",
+    "blurb": "The show delivers a punchy early‑70 set that blends country‑rock tunes with lively jams. Highlights include a thunderous \"High Time\", a spirited \"Dancin' In The Street\", and tight transitions such as Cryptical Envelopment into Black Peter. Jerry’s vocals are spot‑on while the rhythm section drives the performance.",
+    "review": "On February 6, 1970 at the Fillmore West the Dead rolled out an exhilarating single set that captures the band in a transitional, high‑energy groove. From the opening \"Cumberland Blues\" through a rollicking run of covers and originals, Jerry Garcia’s voice is described as “singing his heart out,” cutting through a crisp, balanced soundboard mix. The performance shines on \"High Time\" and \"Dancin' In The Street,\" both delivered with exuberant vocal and instrumental fire. Seamless segues—most notably the Cryptical Envelopment into Black Peter—showcase tight interplay, while the drum duet of Mickey Hart and Bill Kreutzmann adds a powerful undercurrent, highlighted by an especially strong percussion segment in that sequence. Despite six noticeable cuts in the recording, the show’s vitality and musicianship make it a must‑listen snapshot of the Dead’s early‑70 evolution.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.1,
-      "confidence": "medium"
+      "ai_rating": 3.4,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 14,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.8,
+        "sentiment_rationale": "The sole recording analysis is uniformly positive, praising vocals, overall band energy, and specific standout songs. While only one source is present, the language ('spot‑on', 'thunderous', 'energetic') indicates a clear favorable consensus, justifying a modest positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.8 = 3.4"
+      }
     },
     "best_recording": {
       "identifier": "gd70-02-06.sbd.bean.3913.sbeok.shnf",
-      "reason": "Good soundboard source with crisp, balanced mix; despite a few cuts it offers the clearest representation of the performance."
+      "reason": "Soundboard source with crisp, balanced mix that captures the band’s energy; despite a few cuts it delivers clear vocals and excellent drum work, making it the most complete listening experience."
     },
     "key_highlights": [
-      "High Time delivers soaring vocals and tight ensemble playing.",
-      "Cryptical Envelopment seamlessly flows into Black Peter, showcasing strong transitions.",
-      "Crisp, balanced soundboard mix provides clear instrument separation despite a few cuts."
+      "Thunderous \"The Other One\" (not on setlist but noted as a show highlight).",
+      "High‑energy early‑70 material blended with country‑rock and psychedelic jams.",
+      "Smooth segues, especially Cryptical Envelopment into Black Peter, and strong drum interplay."
     ],
     "song_highlights": [
       "High Time",
-      "Cryptical Envelopment",
-      "Black Peter"
+      "Dancin' In The Street"
     ],
     "band_performance": {
-      "Jerry": "Sings his heart out with spot‑on lead vocals; backup vocal work praised in Dancin’ In The Street.",
-      "Phil": "Provides solid bass presence, bobbing his head and anchoring the groove throughout.",
-      "Bob": "Crisp in the mix and delivers great rhythm guitar throughout the set.",
-      "Pigpen": "",
-      "Mickey": "Drums sound great; powerful and driving, adding depth to the jams.",
-      "Billy": "Drums sound great; powerful and driving, reinforcing the band’s tight rhythmic foundation."
+      "Jerry": "Vocals are spot‑on and full of feeling; described as \"singing his heart out\" while his guitar blends seamlessly into the high‑energy set.",
+      "Phil": "Provides a solid bass foundation, with reviewers noting he’s practically bobbing his head in time, indicating steady, confident playing.",
+      "Bob": "Rhythm guitar and backing vocals are crisp in the mix; his playing is praised as \"great\" throughout the show.",
+      "Brent": "",
+      "Mickey": "Drumming shines, especially during the Cryptical Envelopment → Black Peter segment, delivering a powerful rhythmic drive.",
+      "Billy": "Shares the drum spotlight with Mickey, contributing to the tight, energetic percussion that propels the set."
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-11T23:24:15.868647+00:00",
+    "processed_date": "2025-09-12T14:25:15.409710+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -191,9 +198,7 @@
         "High Time"
       ],
       [
-        "Cryptical Envelopment",
-        "Cryptical Envelopment",
-        "Black Peter"
+        "Dancin' In The Street"
       ]
     ]
   }

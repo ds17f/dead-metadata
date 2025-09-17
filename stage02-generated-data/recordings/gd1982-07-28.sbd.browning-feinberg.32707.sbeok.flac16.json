@@ -16,42 +16,113 @@
   "high_ratings": 8,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of a rain‑soaked July ’82 Red Rocks show; mix is uneven (Jerry low, keys bright) but the performance shines with monster Shakedown, Althea, Spanish Jam and soaring Black Peter.",
-    "review": "The concert is remembered as a legendary rainy night that produced an electric set – from a thunder‑driven “Shakedown” opener to an intense second‑set featuring Althea, a trippy Spanish Jam and a heartfelt Black Peter. The SBD source offers a clear window onto the band but suffers from balance issues (Jerry’s guitar often buried, keyboards a touch high) that make a matrix mix desirable.",
+    "summary": "Rain‑soaked July ’82 Red Rocks show shines with a monster Shakedown, intense Althea and a rare Spanish Jam; the SBD source is generally clear but suffers from occasional mix imbalances.",
+    "review": "The performance is widely praised – fans call the opening Shakedown “monster,” rave about an electrifying Althea, Let It Grow and a standout Spanish Jam, plus superb versions of Black Peter and Sugar Magnolia. The Browning‑Feinberg SBD recording is crisp enough to capture the night’s magic, though several reviewers note that Jerry’s guitar can disappear in the mix, keyboards sit a bit high, and pitch correction is needed on part of the second set.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.9,
       "confidence": "high",
-      "rationale": "Most reviewers praise the show’s energy and standout performances (average 4‑5 stars), while several note significant mix problems that lower the overall listening experience, yielding a weighted average around 3.9."
+      "rationale": "Most reviewers rate the show highly (average ~4.0) while the recording receives mixed but generally positive feedback (~3.5). Weighted combination yields a solid 3.9‑star rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "fair",
-      "technical_notes": "Mix is uneven – Jerry’s guitar often buried or absent, keyboards slightly high, Bob and Phil sometimes low; occasional pitch/speed issues noted; overall clarity decent but a matrix would improve balance."
+      "quality_rating": "good",
+      "technical_notes": "Clear overall SBD capture; keyboards slightly high, Jerry’s guitar often buried, occasional pitch shift (-1% on second set) and missing audience line. Some listeners prefer AUD for certain balances."
     },
     "show_quality": {
       "standout_songs": [
         "Shakedown",
+        "LSD Jam",
         "Althea",
-        "Spanish Jam",
+        "Let It Grow",
         "Black Peter",
         "Sugar Magnolia",
-        "It's All Over Now Baby Blue"
+        "Spanish Jam",
+        "Not Fade Away",
+        "Deal",
+        "It's All Over Now Baby Blue",
+        "NFA"
       ],
       "poor_songs": [
         "They Love Each Other"
       ],
-      "setlist_flow": "Rain delayed the first set’s punch but built a slow‑burn that exploded into a marathon second set (~2 hrs) with strong transitions and an uplifting encore.",
-      "energy_level": "high"
+      "setlist_flow": "The rain‑driven first set builds into a powerful second set that stretches nearly two hours; despite weather challenges the band maintains energy, delivering memorable jams and a soaring encore."
     },
     "band_member_comments": {
-      "Jerry": "His guitar is praised for intensity (screaming vocals, powerful solos) yet many note he’s almost non‑existent or very low in the SBD mix.",
-      "Phil": "Bass work described as solid when audible; reviewers mention Phil finally becoming hearable later in the set despite being buried early on.",
-      "Bob": "Bob Weir’s rhythm and vocal contributions are noted, especially his “mojo” on Sugar Magnolia; some feel his mix is low compared to Brent's keys.",
-      "Keys": "Keyboards (Brent) are highlighted as prominent and a bit high in the mix, allowing listeners to hear his improvisations clearly.",
-      "Drums": "The drum sound is generally solid; occasional mention of “log‑like” pounding and a brief missing minute of drums in the SBD."
+      "Jerry": "Mixed – some note his guitar is almost absent in the mix, others praise his cranked tone and vocal wailing on \"He's Gone\".",
+      "Phil": "Often low in the mix, but praised for leading the Spanish Jam and solid bass foundation.",
+      "Bob": "Brent’s keyboards are prominent (a bit high), while Bob Weir’s rhythm work is noted especially during jams.",
+      "Keys": "Keyboards are audible and slightly bright; Brent’s playing is highlighted as a positive feature of this source.",
+      "Drums": "The Rhythm Devils provide strong, log‑like pounding; drums are well captured though a minute of the drum solo is missing in the SBD."
     },
-    "processed_date": "2025-09-07T07:41:38.301957+00:00",
+    "song_mentions": {
+      "Shakedown": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "LSD Jam": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Althea": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Let It Grow": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Black Peter": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Spanish Jam": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Deal": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "It's All Over Now Baby Blue": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "NFA": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Women Are Smarter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "They Love Each Other": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T22:04:11.318928+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-07-28.sbd.browning-feinberg.32707.sbeok.flac16"
   }

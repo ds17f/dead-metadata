@@ -16,41 +16,113 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording is generally clear but a bit dry and fast‑pitching; the show is fun with strong pacing and standout moments like Candyman, Bird Song and Morning Dew.",
-    "review": "The performance captures a steady, high‑energy groove that many fans describe as “fun” and well‑paced, highlighted by memorable renditions of Candyman, Bird Song, It's All Over Now and a soaring Morning Dew. The SBD source is clean enough to be called immaculate by some listeners, yet others note a dry mix, fast pitch and occasional cuts that require correction. Overall the show is enjoyable but technically uneven.",
+    "summary": "Soundboard recording with a dry mix and fast pitch that needs correction, but the show is fun and well‑paced, highlighted by standout performances of Candyman, Bird Song and Morning Dew.",
+    "review": "The concert captures a steady‑galloping, late‑night set that many fans find enjoyable, especially the ethereal Bird Song and the powerful closing Morning Dew. The SBD source is notably dry and runs fast, requiring pitch adjustments, while audience/matrix mixes are often preferred for clarity.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.0,
+      "stars": 3.9,
       "confidence": "medium",
-      "rationale": "Two enthusiastic 5‑star reviews praise both music and audio, while a detailed 3‑star review points out recording flaws and uneven playing; the weighted average lands around a solid 4."
+      "rationale": "Two reviewers gave glowing 5‑star praise for pacing and audio quality, while a detailed third review rated the show 3 stars due to recording speed/pitch problems and uneven performance, leading to an overall mixed but slightly above‑average rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Generally clear and “immaculate” according to two reviewers, but noted as dry, fast‑pitching (requires -1% to -2% correction) and with occasional cuts in the SBD mix."
+      "quality_rating": "fair",
+      "technical_notes": "Dry SBD mix, runs fast (≈-2% pitch correction needed), occasional track cuts and boundary issues; audience (AUD) and matrix (MTX) mixes are noted as more exciting and clearer."
     },
     "show_quality": {
       "standout_songs": [
         "Candyman",
         "Bird Song",
         "It's All Over Now",
-        "Morning Dew"
+        "Morning Dew",
+        "Dough Knees"
       ],
       "poor_songs": [
         "Alabama Getaway",
-        "Brown Eyed Women"
+        "Brown Eyed Women",
+        "Music Never Stopped",
+        "Deal",
+        "Scarlet",
+        "Estimated",
+        "Eyes of the World"
       ],
-      "setlist_flow": "Pacing is praised as steady and fun, though one reviewer finds the first set uneven (half train‑wreck) and the second set more engaging.",
-      "energy_level": "medium"
+      "setlist_flow": "The show maintains a steady gallop with solid pacing, opening late and running into the early hours; transitions are generally smooth but some songs suffer from performance slips that affect overall flow."
     },
     "band_member_comments": {
-      "Jerry": "Garcia is described as “trying hard,” faint at times on the OFF mix, misses the first chorus of Brown Eyed Women but recovers for later songs.",
-      "Phil": "Lesh’s bass comes forward on Little Red Rooster; otherwise no specific remarks.",
-      "Bob": "Brent (Bob) slide practice is highlighted, his harmonics in Space and a brief jam with the drummers are noted.",
-      "Keys": "Brent Mydland’s keyboard work includes the slide practice, harmonic textures in Space and participation in the post‑drum jam.",
-      "Drums": "Standard drum segment followed by an extended jam featuring both drummers and Brent."
+      "Jerry": "Mixed remarks – tries hard on Alabama Getaway, faint during Little Red Rooster and Scarlet, but delivers strong leads on Candyman and Bird Song.",
+      "Phil": "Noted as louder than Garcia on Little Red Rooster; otherwise no specific comments.",
+      "Bob": "Muffs verses on Music Never Stopped, showcases slide practice, adds harmonics in Space, and participates in the post‑drum jam with Brent.",
+      "Keys": "Brent Mydland joins the drum jam briefly; keyboard texture mentioned mainly during jams, no distinct praise or criticism.",
+      "Drums": "Standard Drum segment noted after Eyes of the World, no detailed evaluation."
     },
-    "processed_date": "2025-09-07T08:05:34.613000+00:00",
+    "song_mentions": {
+      "Candyman": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Bird Song": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "It's All Over Now": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dough Knees": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Alabama Getaway": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Brown Eyed Women": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Music Never Stopped": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Deal": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Scarlet": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Estimated": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Eyes of the World": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Fire on the Mountain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T22:38:40.102310+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-07-31.141511.sbd.pcm.streeter.dalton.miller.clugston.flac1644"
   }

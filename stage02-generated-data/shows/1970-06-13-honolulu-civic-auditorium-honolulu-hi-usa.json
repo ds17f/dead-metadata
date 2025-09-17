@@ -148,40 +148,48 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Lively Hawaiian set shines on Easy Wind and New Speedway despite muddy matrix mix",
-    "blurb": "The band delivers strong performances of Easy Wind, Good Lovin' and a rousing New Speedway Boogie. Recording quality is uneven, with crystal‑clear soundboard sections offset by muddy audience portions.",
-    "review": "On June 13, 1970 the Dead turned the Honolulu Civic Auditorium into a breezy tropical playground. The first half of the set rolls from an upbeat Cold Rain And Snow straight into a scorching Easy Wind where Phil’s bass is front‑and‑center, and Jerry’s guitar, though often buried in the matrix mix, erupts with hot licks when it cuts through. Good Lovin' gets two treatments – the first segues into a drum break before returning for a second round that lets Bob push his rhythm forward. The centerpiece of the night is New Speedway Boogie; a guest keyboard adds sparkle and the band rides a tight groove that feels locked in despite the uneven audio. The show closes on a high note with a fiery Turn On Your Lovelight* that captures the energy of a Hawaiian vacation, even if the mix occasionally drops into ‘dank’ snare buzz. Overall, the performance is vibrant and full‑of‑joy, though listeners will have to navigate a patchwork of crystal‑clear SBD moments and muddy audience bleed.",
+    "summary": "Hot Hawaiian set with standout Easy Wind and New Speedway Boogie",
+    "blurb": "The band delivers a high‑energy Hawaiian show highlighted by a scorching Easy Wind and two fiery New Speedway Boogies. Phil’s bass drives the groove while guest keyboards add flavor, though the matrix mix is uneven and often buries Jerry.",
+    "review": "June 13, 1970 at the Honolulu Civic Auditorium captures the Dead in a sweltering, vacation‑mode mood. The first half rolls off with an upbeat Cold Rain And Snow that quickly gives way to a blazing Easy Wind – Phil’s bass line is so hard‑driving it practically steals the show – and a punchy Me And My Uncle. Good Lovin' gets split by a drum break before returning for a second, more relaxed take, segueing into a classic China Cat Sunflower → I Know You Rider pairing. The real highlight comes later when New Speedway Boogie erupts not once but twice, fueled by an unexpected guest keyboard that adds a bright, almost psychedelic texture to the jam. Despite these musical highs, the matrix recording swings wildly between crystal‑clear SBD pockets and muddy AUD sections; hiss, static, and a buzzing snare make Jerry’s guitar drift in and out of the mix, often leaving him sounding like background ambience. Still, for anyone interested in an early‑70s Dead set that captures the band’s loose, sun‑soaked chemistry, this performance is worth digging into – just be prepared for the occasional sonic hiccup.\n\nOverall, the show shines with its high‑octane energy and strong setlist flow, even if the listening experience is hampered by uneven recording quality. Fans who can tolerate a bit of hiss will be rewarded by Phil’s thunderous low end, Bob’s vocal pushes, and a rare guest keyboard cameo that hints at the future Keith‑Goddard era.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.1,
-      "confidence": "high"
+      "ai_rating": 2.9,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 20,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 0.2,
+        "sentiment_rationale": "The single recording analysis is marked as mixed sentiment: reviewers praise standout songs (Easy Wind, New Speedway Boogie) and strong bass work, but repeatedly criticize the uneven matrix mix that buries Jerry's guitar and adds hiss/static. The balance of positive and negative comments yields a modest net positive adjustment.",
+        "final_calculation": "2.5 + 0.2 + 0.2 = 2.9"
+      }
     },
     "best_recording": {
       "identifier": "gd70-06-13.sbd.hanno.9079.sbefail.shnf",
-      "reason": "Only available source; despite fair‑to‑poor matrix quality it contains the clearest soundboard sections of the performance."
+      "reason": "Only available source; despite uneven matrix mix it captures the full set and the rare guest keyboard, making it the definitive listening version."
     },
     "key_highlights": [
-      "Phil’s bass drives an electrifying Easy Wind that stands out even in a mixed mix.",
-      "New Speedway Boogie shines with guest keyboards and tight band chemistry.",
-      "Two Good Lovin' renditions bookend the set, giving Bob extra presence in the mix.",
-      "Turn On Your Lovelight* closes the night with high energy despite occasional snare buzz."
+      "High‑energy Hawaiian vibe with scorching Easy Wind and dual New Speedway Boogie jams",
+      "Guest keyboard appears during New Speedway Boogie, adding a unique texture",
+      "Phil Lesh delivers a hard‑driving bass line that anchors the performance",
+      "Recording quality is uneven – crystal‑clear SBD moments contrast with muddy audience bleed"
     ],
     "song_highlights": [
       "Easy Wind",
       "New Speedway Boogie",
       "Good Lovin'",
-      "Turn On Your Lovelight*"
+      "Me And My Uncle"
     ],
     "band_performance": {
-      "Jerry": "Often buried in the mix but when audible his playing is hot, especially on Easy Wind.",
-      "Phil": "Bass drives Easy Wind hard and provides a solid foundation throughout the set.",
-      "Bob": "Pushed forward at times, leading several jams and adding noticeable presence.",
-      "Brent": "",
-      "Mickey": "Drums are razor‑sharp yet sometimes sit in the background with snare buzz due to mix issues.",
-      "Billy": "Shares the crisp rhythmic drive with Mickey, though both can be masked by the uneven matrix sound."
+      "Jerry": "Often pushed back in the mix, sometimes barely audible; his guitar is backgrounded for much of the show.",
+      "Phil": "Provides a hard‑driving bass line on Easy Wind and underpins the entire set with solid groove.",
+      "Bob": "Rhythm guitar and vocal parts are mixed high at times, occasionally leading the jam.",
+      "Brent": "A guest keyboard appears during New Speedway Boogie; regular keyboards (Pigpen) are not featured.",
+      "Mickey": "Drumming is described as razor‑sharp by some listeners but also suffers from background snare buzz.",
+      "Billy": "Overall drum presence feels weak at times, with occasional tap‑in‑the‑background snare buzz despite moments of sharp playing."
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-12T04:04:38.582682+00:00",
+    "processed_date": "2025-09-12T19:15:07.351303+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -199,7 +207,7 @@
         "Good Lovin'"
       ],
       [
-        "Turn On Your Lovelight*"
+        "Me And My Uncle"
       ]
     ]
   }

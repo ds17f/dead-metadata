@@ -16,77 +16,68 @@
   "high_ratings": 20,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Crisp soundboard capture of a high‑energy 1970 Hawaii show with standout Dark Star, The Other One and an epic Lovelight.",
-    "review": "The recording is a well‑preserved SBD that sounds clear and punchy, letting the band’s fire shine through.  Fans rave about the soaring Dark Star, marathon The Other One and a scorching Lovelight, while Jerry’s guitar work and Bob’s vocal swagger get special kudos.  A few critics note occasional pitch quirks and a less‑inspired Hard to Handle, but overall the performance is regarded as one of the era’s highlights.",
+    "summary": "Crisp soundboard recording captures a high‑energy Hawaii show highlighted by a soaring Dark Star, monster Other One and blistering Lovelight",
+    "review": "The SBD of the Jan 23 1970 Hawaii concert is exceptionally clear, letting the band’s tight playing shine through. Reviewers rave about the extended Dark Star, The Other One and a scorching Lovelight, while noting occasional lyrical slips on Hard to Handle. Overall the performance is regarded as one of the stronger early‑70 shows despite a few mixed moments.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "The vast majority of reviews (≈80 %) award four or five stars and praise both the musical performance and the soundboard quality; only a handful are lukewarm or negative, giving a strong overall endorsement."
+      "rationale": "Most reviewers (≈80 %) give 4–5 stars and praise both the musical peaks and the crystal‑clear soundboard; only a handful of mixed or low‑star reviews keep the average around 4.0, yielding an overall rating in the high‑four range."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Consistently described as crisp, clear and well‑balanced.  A few reviewers note minor pitch‑correction issues in parts of the tape, but no major drop‑outs or distortion."
+      "quality_rating": "excellent",
+      "technical_notes": "Consistently described as crisp, clear and well‑mixed; audience bleed is audible enough to add atmosphere but does not muddy the mix. A few later comments note minor pitch‑correction needs in early sections."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "The Other One",
         "Lovelight",
-        "Black Peter"
+        "Black Peter",
+        "St. Stephen"
       ],
       "poor_songs": [
         "Hard to Handle",
-        "Lovelight (some versions)"
+        "Lovelight (in one mixed review)"
       ],
-      "setlist_flow": "Reviewers highlight a strong second half, seamless transitions (e.g., China Cat → Rider), and an extended jam flow from Good Lovin' through Dark Star into Cryptical.  The set is described as tight, energetic and well‑paced."
+      "setlist_flow": "Strong first half leads into an especially fiery second half; transitions such as China Cat Sunrise → Rider and the long Dark Star → Cryptical → Dark Star are highlighted for their seamless flow."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly praised for hot slide work, soaring leads on Dark Star and a youthful, ripping tone throughout.",
+      "Jerry": "Garcia’s lead work is repeatedly praised – magical Dark Star improvisations, hot slide on Lovelight and youthful vigor on Black Peter.",
       "Phil": "",
-      "Bob": "Noted for powerful vocals, occasional humorous banter, and moments of lyrical slip‑ups (e.g., Hard to Handle).",
+      "Bob": "Pigpen’s vocal power on Black Peter and his stage banter are noted; occasional lyrical slips (e.g., Hard to Handle) are mentioned.",
       "Keys": "",
       "Drums": ""
     },
     "song_mentions": {
-      "The Other One": {
-        "positive_mentions": 8,
-        "negative_mentions": 0,
-        "total_mentions": 8
-      },
       "Dark Star": {
+        "positive_mentions": 8,
+        "negative_mentions": 2,
+        "total_mentions": 10
+      },
+      "The Other One": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Lovelight": {
         "positive_mentions": 7,
         "negative_mentions": 2,
         "total_mentions": 9
       },
-      "Lovelight": {
-        "positive_mentions": 8,
-        "negative_mentions": 1,
-        "total_mentions": 9
-      },
       "Black Peter": {
-        "positive_mentions": 10,
+        "positive_mentions": 9,
         "negative_mentions": 0,
-        "total_mentions": 10
-      },
-      "Hard to Handle": {
-        "positive_mentions": 2,
-        "negative_mentions": 2,
-        "total_mentions": 4
+        "total_mentions": 9
       },
       "St. Stephen": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
-      },
-      "Cryptical": {
-        "positive_mentions": 2,
-        "negative_mentions": 0,
-        "total_mentions": 2
       }
     },
-    "processed_date": "2025-09-11T22:44:09.147568+00:00",
+    "processed_date": "2025-09-12T13:45:49.195893+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-01-23.sbd.fixed.connor.18153.sbeok.shnf"
   }

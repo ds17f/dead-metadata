@@ -16,41 +16,89 @@
   "high_ratings": 12,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Solid soundboard recording of Jerry’s 40th‑birthday show – heat‑strained first set, but a smoking Playin > Iko jam and strong second half.",
-    "review": "The tape captures a decent soundboard mix that is generally clear though a few reviewers note low levels or minor drop‑outs. The concert was hampered by extreme heat, making the early part feel sluggish, but the band found its groove in the second set with a standout Playin > Iko sequence, Lost Sailor > Saint, and a tight China Cat Sunflower > Rider stretch.",
-    "sentiment": "mixed",
+    "summary": "A solid soundboard capture of Jerry’s 40th‑birthday show; the hot‑stressed first set gives way to a standout Playin → Iko jam and strong second‑set flow.",
+    "review": "The recording is a decent‑to‑excellent soundboard tape that preserves clear bass and crisp highs, though a few listeners note low‑level or occasional dropout issues.  Musically the band struggled through an overheated first set, but the second set shines with seamless segues—especially the celebrated Playin > Iko sequence, Lost Sailor > Saint of Circumstance, and tight drum work on Space/The Wheel.  Overall most fans remember this as a memorable birthday performance despite the heat‑induced fatigue early on.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 3.5,
-      "confidence": "medium",
-      "rationale": "Average star rating (~3.5) reflects generally positive remarks about the second set and recording clarity, offset by several low‑star comments on heat‑induced poor vibe and weak first set."
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "The majority of reviews (≈70%) rate the show 4–5 stars and praise the performance, especially the second‑set jams; recording quality is consistently described as good to excellent, yielding an overall strong rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Mostly clear and balanced SBD; a few notes of low overall levels, occasional drop‑outs in the first set, but far better than audience tapes."
+      "technical_notes": "Clear mix with audible bass and crisp highs; a few comments about low‑level tape or minor drop‑outs but no major distortion. Overall considered listenable and better than audience recordings."
     },
     "show_quality": {
       "standout_songs": [
-        "Playin' > Iko Iko",
+        "Playing in the Band",
+        "Iko Iko",
         "Lost Sailor > Saint of Circumstance",
-        "China Cat Sunflower > I Know You Rider",
         "Space > The Wheel",
         "Tennessee Jed"
       ],
       "poor_songs": [
-        "First set (overall) – heat‑slowed, unfocused"
+        "China Cat Sunflower",
+        "Around & Around",
+        "First‑set material (general)"
       ],
-      "setlist_flow": "Second set flows seamlessly with continuous segues (Playin > Iko, then into Lost Sailor > Saint, etc.), giving the night its memorable momentum.",
-      "energy_level": "medium-high (second set) / low (first set)"
+      "setlist_flow": "The scorching heat made the first set feel sluggish and strained, but once the band cooled down the second set launched into tight transitions—Playin → Iko, then Rider, Space/The Wheel, etc.—creating a cohesive, high‑energy flow."
     },
     "band_member_comments": {
-      "Jerry": "Distressed by heat early on; later delivers celebratory birthday solos and a fiery Playin > Iko jam.",
-      "Phil": "",
-      "Bob": "Makes a “lettin’ all the animals out” zoo joke, referencing the hot‑caged animal vibe.",
+      "Jerry": "Early heat left him visibly distressed and his solos sounded tentative; later he delivered brilliant, quirky licks on Playing/Iko and a celebrated Tennessee Jed solo.",
+      "Phil": "Bass noted as clear and well‑defined in the soundboard tape; no specific performance critiques were mentioned.",
+      "Bob": "Made a humorous “lettin’ all the animals out” remark during Iko; vocal presence noted but not deeply evaluated.",
       "Keys": "",
-      "Drums": "Drumming praised as solid and energetic, especially in the second set."
+      "Drums": "Drum work highlighted as a highlight of the second set, especially on Space and The Wheel."
     },
-    "processed_date": "2025-09-07T08:08:47.520335+00:00",
+    "song_mentions": {
+      "Playing in the Band": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Iko Iko": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Lost Sailor > Saint of Circumstance": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Space > The Wheel": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Black Peter": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Tennessee Jed": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Around & Around": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T22:43:34.819365+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-08-01.sbd.willy.10226.sbeok.shnf"
   }

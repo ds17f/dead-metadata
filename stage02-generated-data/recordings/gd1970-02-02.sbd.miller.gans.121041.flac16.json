@@ -16,33 +16,35 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a peak‑era show highlighted by a soaring Dark Star and a killer sequence through St. Stephen, Mason's, Good Lovin' and Uncle John's.",
-    "review": "The performance is widely praised as one of the band’s peaks – Dark Star and The Other One are described as perfected, and the long second‑set suite (Dark Star > St. Stephen > Mason’s > Good Lovin' > Uncle John’s) is called “totally wicked.”  The Miller/Gans SBD source is noted for its clarity and fidelity, with only a minor audible reel‑change that does not detract from the overall listening experience.",
+    "summary": "High‑energy show highlighted by an epic Dark Star sequence and solid soundboard capture",
+    "review": "Fans rave about the soaring Dark Star > St. Stephen > Mason’s > Good Lovin' > Uncle John’s run and Jerry Garcia’s inspired playing, while noting a few rough spots like “Hard to Handle.” The Miller‑Gans SBD source delivers clear, reliable audio with only minor reel‑change quirks.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Four detailed reviews give consistently high scores (5, 4, 4, 4) and focus on both superb musical moments and a clean soundboard source; the strong show quality outweighs only minor recording quirks."
+      "rationale": "Strong musical performance with multiple standout jams and a solid soundboard recording; few minor flaws keep the overall rating just above four stars."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "excellent",
-      "technical_notes": "Original circular SBD (Miller/Gans) with clear, balanced mix; a brief reel‑change is audible after ~4 min but does not affect overall fidelity."
+      "quality_rating": "good",
+      "technical_notes": "Miller‑Gans SBD tape is clean and balanced; reviewers note a slight reel‑change artifact after ~4 min but no major dropouts or muffiness."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "The Other One",
         "St. Stephen",
         "Mason's",
         "Good Lovin'",
-        "Uncle John's"
+        "Uncle John's",
+        "The Other One"
       ],
-      "poor_songs": [],
-      "setlist_flow": "A single, late‑started long set that flows brilliantly through a high‑energy sequence; reviewers note the show feels like a milestone in the band’s development."
+      "poor_songs": [
+        "Hard to Handle"
+      ],
+      "setlist_flow": "One long, late‑starting set that still flows well thanks to a killer mid‑show sequence; overall pacing is strong despite the two‑hour delay."
     },
     "band_member_comments": {
-      "Jerry": "Praised for stepping up and delivering peak‑era guitar work.",
+      "Jerry": "Garcia steps up with exceptional tone and improvisational fire.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
@@ -54,27 +56,17 @@
         "negative_mentions": 0,
         "total_mentions": 2
       },
+      "St. Stephen": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
       "The Other One": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "St. Stephen": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Mason's": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Good Lovin'": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Uncle John's": {
+      "Casey Jones": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -89,13 +81,23 @@
         "negative_mentions": 1,
         "total_mentions": 1
       },
-      "Cumberland": {
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mason's": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John's": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-11T23:08:54.203741+00:00",
+    "processed_date": "2025-09-12T14:09:51.826671+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-02-02.sbd.miller.gans.121041.flac16"
   }

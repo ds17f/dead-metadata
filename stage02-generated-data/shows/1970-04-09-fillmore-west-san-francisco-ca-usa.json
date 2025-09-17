@@ -169,50 +169,51 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Dynamic set with standout Other One and tight Good Lovin' jam",
-    "blurb": "The concert opens with a sprightly acoustic half before exploding into an electric second set highlighted by a fiery The Other One and the quirky Cowboy Song. Jerry’s lead work shines on Good Lovin' and Not Fade Away, while the rhythm section stays locked tight throughout.",
-    "review": "On April 9, 1970 at Fillmore West the Dead delivered a show that swings from folk‑rock intimacy to high‑octane improvisation. The first half leans heavily on acoustic favorites – Me And My Uncle, Casey Jones and a plaintive rendition of It’s A Man’s World – before the band launches into an electric surge. Highlights include a blistering double take on Good Lovin' that bookends a drum duet, a wild Cowboy Song* that some fans compare to a Marshall Tucker riff, and a soaring The Other One that rides a relentless groove into the second Cryptical Envelopment. Not Fade Away and Turn On Your Lovelight close the set with pure, foot‑stomping energy. While the matrix recording mixes a sublime acoustic board sound with uneven audience patches, it still captures the band’s tight interplay; the audience tape offers crystal‑clear 1970 capture for those who prefer pure live ambience.",
+    "summary": "Rare Cowboy Song jam, fiery It's A Man's World & intense The Other One",
+    "blurb": "The set showcases a rare Cowboy Song jam, a scorching rendition of It’s A Man’s World, and an electrifying The Other One. Jerry steers the acoustic numbers while the electric half builds tension despite some tape warble. Overall the performance is praised for its energy and unique moments.",
+    "review": "April 9, 1970 at the Fillmore West delivered a memorable night that still stands out in the Dead’s early‑electric era. The first half rolls through tight acoustic staples before launching into a seldom‑heard Cowboy Song jam – a wild, Marshall‑Tucker‑style romp that reviewers call “intense” and “fiery.” That momentum carries straight into a scorching It’s A Man’s World and later erupts in an expansive The Other One, where the band stretches out with the kind of improvisational daring that defines their legend. While some tape warble mars portions of the acoustic set on certain audience recordings, the soundboard‑dominant source captures the band’s focus and Jerry’s guiding presence throughout. Even with those minor flaws, the show is consistently described as powerful, energetic, and a unique snapshot of the Dead sharing the stage with Miles Davis’ quintet.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.6,
-      "confidence": "high"
+      "ai_rating": 4.0,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 17,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "Three of four recordings are marked positive, praising the Cowboy Song jam, It's A Man's World and The Other One, while the fourth is mixed but still notes a powerful performance. No consistent negative language about playing appears, so a strong positive adjustment (+1.4) reflects the overall enthusiasm.",
+        "final_calculation": "2.5 + 0.1 + 1.4 = 4.0"
+      }
     },
     "best_recording": {
       "identifier": "gd70-04-09.sbd.hanno.6157.sbeok.shnf",
-      "reason": "Matrix source blends clear acoustic soundboard with decent audience sections, delivering the most complete representation of the concert despite occasional glitches."
+      "reason": "Soundboard‑dominant source with good clarity, captures the rare Cowboy Jam and The Other One despite minor tape glitches."
     },
     "key_highlights": [
-      "The Other One’s relentless, jam‑heavy second‑set peak",
-      "Quirky Cowboy Song* that adds a Southern‑rock flavor",
-      "Dual Good Lovin' performance framing a drum duet",
-      "Strong acoustic opening that sets an engaging mood"
+      "Rare Cowboy Song jam that recalls the Marshall Tucker Band",
+      "Fiery It's A Man's World performance early in the set",
+      "Intense The Other One with extended improvisation",
+      "Strong acoustic moments despite tape warble on some recordings"
     ],
     "song_highlights": [
-      "The Other One",
       "Cowboy Song*",
       "It's A Man's World",
-      "Not Fade Away",
-      "Friend Of The Devil"
+      "The Other One",
+      "Cryptical Envelopment"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s lead guitar rides high on Good Lovin' and The Other One, delivering crisp solos and melodic phrasing throughout.",
-      "Phil": "Lesh provides a solid, supportive bass foundation that anchors the shifting dynamics from acoustic to electric.",
-      "Bob": "Weir adds rhythmic texture and vocal harmonies, especially evident in the driving Not Fade Away and Turn On Your Lovelight.",
+      "Jerry": "Guides the acoustic segment and leads the band through the high‑energy jams, keeping focus throughout.",
+      "Phil": "",
+      "Bob": "",
       "Brent": "",
-      "Mickey": "Hart’s percussion blends smoothly with Bill’s drumming, offering a tight back‑beat that propels the high‑energy moments.",
-      "Billy": "Kreutzmann locks in with Hart, delivering a crisp drum duet that bookends Good Lovin' and fuels the momentum into The Other One."
+      "Mickey": "",
+      "Billy": ""
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-12T01:29:37.273923+00:00",
+    "processed_date": "2025-09-12T16:36:45.889509+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "Cryptical Envelopment",
-        "Drums",
-        "The Other One",
-        "Cryptical Envelopment"
-      ],
       [
         "Cowboy Song*"
       ],
@@ -220,10 +221,10 @@
         "It's A Man's World"
       ],
       [
-        "Not Fade Away"
-      ],
-      [
-        "Friend Of The Devil"
+        "Cryptical Envelopment",
+        "Drums",
+        "The Other One",
+        "Cryptical Envelopment"
       ]
     ]
   }

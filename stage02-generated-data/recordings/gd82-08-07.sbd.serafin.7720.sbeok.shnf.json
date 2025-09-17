@@ -16,18 +16,18 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of a high‑energy Alpine ’82 show featuring the legendary Music > Sugaree > Music sequence, with Jerry’s soaring vocals and tight band play; recording is clear but a bit thin.",
-    "review": "The concert is praised as one of the band’s finest from the summer of ’82, highlighted by an electrifying Music > Sugaree > Music segue, a flawless Althea, and Jerry Garcia’s voice soaring into “the ninth dimension.” The soundboard source delivers good clarity despite the typical thin‑ness of early‑’80s recordings, making it a must‑download for fans.",
+    "summary": "High‑energy Alpine ’82 show with a killer Music > Sugaree > Music segue; soundboard is clear but a bit thin for the era.",
+    "review": "The concert shines thanks to an unforgettable Music > Sugaree > Music sequence, stellar vocals from Jerry Garcia and standout performances of Althea and Let It Grow. The soundboard capture is generally good—crisp and well‑balanced—but bears the typical thinness of early‑’80s mixes. Overall reviewers rave about both the musical flow and the listening experience.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
-      "confidence": "high",
-      "rationale": "Reviews uniformly rate the show 4–5 stars and emphasize outstanding performance; recording is noted as good though slightly thin, yielding a high combined rating."
+      "stars": 4.4,
+      "confidence": "medium",
+      "rationale": "Show quality is consistently praised with unique segues and strong performances (≈4.8/5), while recording quality is solid but noted as thin for the period (≈3.8/5). Weighted combination yields a rating around 4.4."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear and well‑balanced soundboard tape; some reviewers note the typical thin mids of 1982 recordings but no major dropouts or distortion."
+      "technical_notes": "Clear and balanced soundboard, though typical of 1982 it sounds a little thin; extra Alpine speakers add a roaring presence on the first night."
     },
     "show_quality": {
       "standout_songs": [
@@ -36,17 +36,38 @@
         "Let It Grow"
       ],
       "poor_songs": [],
-      "setlist_flow": "Strong opener with the unique Music‑Sugaree‑Music segue, tight transitions throughout, and a high‑energy second half that kept the crowd engaged.",
-      "energy_level": "high"
+      "setlist_flow": "The opener with Music > Sugaree > Music energizes the crowd, followed by a tight set that showcases Garcia’s soaring vocals and strong group dynamics, maintaining momentum throughout."
     },
     "band_member_comments": {
-      "Jerry": "Voice described as on fire, soaring into 'the ninth dimension'; guitar work praised.",
+      "Jerry": "Garcia's voice is described as ‘on, on, on’ and he even “goes into the ninth dimension” during the show.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T08:33:18.278879+00:00",
+    "song_mentions": {
+      "Music > Sugaree > Music": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Sugaree": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Althea": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Let It Grow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T23:28:35.701273+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-08-07.sbd.serafin.7720.sbeok.shnf"
   }

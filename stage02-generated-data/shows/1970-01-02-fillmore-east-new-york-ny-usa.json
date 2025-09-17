@@ -149,39 +149,45 @@
     "daves-picks-vol-30"
   ],
   "ai_show_review": {
-    "summary": "Dark Star centerpiece with tight vocal harmonies and forward organ texture",
-    "blurb": "The show launches with Uncle John's Band and quickly builds into a soaring Dark Star that highlights Jerry’s improvisational fire. Tom Constanten’s keyboards dominate the mix while Phil’s bass is buried, creating an uneven balance but still a compelling performance. Overall the set captures the free‑form Fillmore East vibe of early ’70 despite some recording quirks.",
-    "review": "On January 2, 1970 at the Fillmore East the Dead delivered a set that feels like a snapshot of their transitional period. The first half rolls from the warm harmonies of Uncle John's Band into a tight‑up China Cat Sunflower → I Know You Rider segue, then erupts with a Dark Star that showcases Jerry Garcia’s “cutting loose” solo and Tom Constanten’s organ pushed front‑and‑center. While Phil Lesh’s bass is unfortunately buried in the mix, his foundation holds the jam together, and Bob Weir adds a notable lead moment during the later Tighten Up‑style excursion (captured on one of the recordings). Mickey Hart’s percussion shines on the high‑energy passages, adding crisp, funky accents that keep the momentum rolling. Despite balance issues and occasional tape glitches in the source material, the performance radiates the experimental, free‑form energy that defined the Fillmore shows of this era, making it a worthwhile listen for fans of early ’70 Dead.",
+    "summary": "Dynamic Dark Star journey with strong organ presence",
+    "blurb": "The show shines on an expansive Dark Star that rides a wave of improvisation, while Tom Constanten’s organ sits front‑and‑center. Jerry’s lead work is fiery and Bob supplies tasteful rhythm, though Phil’s bass can be hard to hear in places.",
+    "review": "On January 2, 1970 at the Fillmore East the Dead delivered a set that balances tight songcraft with exploratory jams. The highlight is an epic Dark Star that erupts after a seamless segue from China Cat Sunflower > I Know You Rider, showcasing Jerry’s ripping lead lines and Mickey’s creative percussion. Tom Constanten’s keyboards dominate the mix, giving the performance a distinctive, space‑y texture, while Bob Weir adds a memorable solo in the jam sections. Phil Lesh holds down the low end, though his bass occasionally gets buried beneath the organ. Overall the band is locked into a powerful groove that makes this late‑show a must‑listen for fans of the early ’70 era.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 3.7,
-      "confidence": "high"
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 59,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 0.8,
+        "sentiment_rationale": "Both recordings praise the musical performance – especially Dark Star, Tom Constanten’s organ work and Jerry’s lead – while noting only minor issues (bass muffling, tape cuts) that relate to recording quality rather than playing. The overall tone is positive with no consistent negative criticism, warranting a modest positive sentiment boost.",
+        "final_calculation": "2.5 + 0.4 + 0.8 = 3.7"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-01-02.137375.sbd.wise.sirmick.sbeok.flac16",
-      "reason": "Soundboard source with clear overall mix and minimal drops; Tom Constanten’s keyboards are prominent, providing the most complete listening experience despite some balance issues."
+      "reason": "Clear soundboard mix with prominent keyboards and good overall fidelity; captures the band’s energy without the cuts or speed issues found in other sources."
     },
     "key_highlights": [
-      "Dark Star serves as the show's centerpiece with a stellar Jerry solo.",
-      "Tom Constanten's organ is forward in the mix, giving the performance a distinctive texture.",
-      "Mickey Hart’s crisp and funky drumming adds drive to high‑energy moments.",
-      "The set captures an early ’70 free‑form Fillmore vibe despite some balance quirks."
+      "Epic Dark Star that showcases Jerry’s improvisational fire",
+      "Tom Constanten’s organ is pushed forward, giving a distinctive texture",
+      "Bob Weir delivers a notable solo during the jam sections",
+      "Mickey Hart’s dynamic percussion adds drive throughout"
     ],
     "song_highlights": [
-      "Dark Star",
-      "High Time",
-      "The Eleven"
+      "Dark Star"
     ],
     "band_performance": {
-      "Jerry": "Delivers a cutting‑loose, soaring solo in Dark Star that stands out as a highlight of the night.",
-      "Phil": "His bass work is solid but largely buried in the mix, making his presence less audible to listeners.",
-      "Bob": "Provides strong guitar work and a notable lead moment during the later jam, adding extra color to the set.",
+      "Jerry": "Delivers a fiery lead, especially on the extended Dark Star where his improvisations soar.",
+      "Phil": "Provides solid low‑end foundation but is occasionally buried in the mix behind the prominent organ.",
+      "Bob": "Adds tasteful rhythm and shines with a standout solo during the jam sections.",
       "Brent": "",
-      "Mickey": "Shows crisp, funky percussion throughout, especially on high‑energy passages like Dark Star and High Time.",
+      "Mickey": "Supplies creative, dynamic percussion that propels the band, particularly during Dark Star.",
       "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-11T22:00:58.628098+00:00",
+    "processed_date": "2025-09-12T13:03:48.496185+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -190,10 +196,6 @@
         "Saint Stephen",
         "The Eleven",
         "Turn On Your Lovelight"
-      ],
-      [
-        "Uncle John's Band",
-        "High Time"
       ]
     ]
   }

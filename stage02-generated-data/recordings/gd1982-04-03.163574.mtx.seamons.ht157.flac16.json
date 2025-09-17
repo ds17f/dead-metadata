@@ -16,43 +16,116 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A stellar matrix recording captures a Norfolk show with high‑drama Scarlet>Fire and a funky Eyes of the World, though the performance runs hit‑or‑miss after a strong start.",
-    "review": "The matrix source is crystal‑clear, earning five stars for sound quality, while the concert itself gets an average three‑star rating. Highlights include the intense Scarlet Begonias → Fire on the Mountain segue and a mid‑tempo, Bowie‑like Eyes of the World, but later songs such as Alabama Getaway and CC Rider fall flat, and the set winds down hurriedly.",
+    "summary": "Matrix recording praised as crystal‑clear while the Norfolk show offers dazzling Scarlet Begonias, Eyes of the World and Peggy‑O amid a mixed overall performance.",
+    "review": "The matrix source is lauded with five‑star sound quality, delivering a clear and well‑balanced capture of the Dead’s lone Norfolk gig. Musically the night shines on the quadfecta (Scarlet Begonias → Fire → Estimated Prophet → Eyes of the World) and tight renditions of Peggy‑O, Bird Song and Althea/Let It Grow, but suffers from a shaky Alabama Getaway start, a weak CC Rider slide and a rushed second set.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 4.0,
       "confidence": "medium",
-      "rationale": "Show quality is judged around three stars (average) while recording quality receives five stars; weighted average yields ~3.6."
+      "rationale": "Detailed review gives strong praise for the recording (5 ★) and several standout songs, but notes multiple performance lapses; weighted average yields an overall ~4‑star rating."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "excellent",
-      "technical_notes": "Reviewer praises the matrix mix as flawless, giving it five‑star sound quality with no noted issues."
+      "technical_notes": "Five‑star matrix sound; crystal‑clear mix with no reported dropouts or balance issues."
     },
     "show_quality": {
       "standout_songs": [
-        "Scarlet Begonias > Fire on the Mountain",
+        "Scarlet Begonias",
+        "Fire on the Mountain",
         "Eyes of the World",
         "Peggy-O",
         "Bird Song",
         "Althea > Let It Grow",
-        "Not Fade Away (intro)"
+        "Not Fade Away"
       ],
       "poor_songs": [
         "Alabama Getaway",
-        "CC Rider"
+        "CC Rider",
+        "Space"
       ],
-      "setlist_flow": "The concert opens with high drama and tight transitions, then becomes uneven—some songs feel rushed or under‑cooked, culminating in a hurried close.",
-      "energy_level": "medium"
+      "setlist_flow": "The first set builds momentum but stumbles early with a mic‑less Alabama Getaway and a lackluster CC Rider. The quadfecta in the second set is the high point, yet the band rushes through Space and the final sequence, ending on a serviceable Stella > Saturday Night > U.S. Blues."
     },
     "band_member_comments": {
-      "Jerry": "Delivers hypnotic arpeggio runs during Scarlet>Fire and recovers after a stumble on Eyes of the World; overall guitar work highlighted as high drama.",
+      "Jerry": "Hypnotic arpeggios on Scarlet Begonias praised; momentarily thrown off during Eyes of the World but recovers; vocal mic missing on Alabama Getaway.",
       "Phil": "",
-      "Bob": "Locks in with Jerry and Mydland during the intense Scarlet>Fire segment, but no specific comments beyond that.",
-      "Keys": "",
-      "Drums": "Mickey Hart breaks a bass‑drum head early in set one; otherwise drumming is not specifically commented on."
+      "Bob": "Locks in tightly with Jerry and Mydland during the quadfecta, providing solid rhythm support.",
+      "Keys": "Mydland quickly joins the jam on the quadfecta, adding cohesive keyboard textures.",
+      "Drums": "Mickey broke a bass‑drum head early, contributing to a brief Space segment."
     },
-    "processed_date": "2025-09-07T05:55:15.003026+00:00",
+    "song_mentions": {
+      "Scarlet Begonias": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Fire on the Mountain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Eyes of the World": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Alabama Getaway": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "CC Rider": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Peggy-O": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Bird Song": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Althea": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Let It Grow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stella": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Saturday Night": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "U.S. Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Space": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T19:11:53.324033+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-04-03.163574.mtx.seamons.ht157.flac16"
   }

@@ -143,39 +143,46 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Strong Black Peter and Lovelight; guest vocalist drags finish",
-    "blurb": "The early set shines with a heartfelt Black Peter and a blazing Turn On Your Lovelight. Hard To Handle adds fire, but the surprise guest’s appearance on the closing songs dulls the momentum. The Miller soundboard capture is excellent and showcases the band at its tightest.",
-    "review": "On March 8, 1970 at Phoenix’s Travelodge Theatre in the Round, the Dead delivered a solid first set anchored by Jerry’s “sweet, musical and heartbreakingly passionate” vocals on Black Peter and an electrifying Turn On Your Lovelight. Hard To Handle rips through with raw energy, while the acoustic interludes keep the flow intimate. Unfortunately, an unannounced guest vocalist hijacks Not Fade Away, Impromptu Blues and the closing Lovelight, turning what could have been a soaring finish into a muddied ending. The Miller soundboard recording (gd1970-03-08.sbd.miller.113359.flac16) captures the band’s tight rhythm section and clear vocal blend with excellent clarity, making it the best source to experience this mixed‑quality performance.",
+    "summary": "Acoustic Black Peter shines; Lovelight transition brightens chaotic set",
+    "blurb": "The Phoenix show is anchored by a superb acoustic Black Peter and an extended Not Fade Away → Turn On Your Lovelight segue. Pigpen’s guest vocals/harmonica add both amusement and annoyance to the latter part of the set, leaving the ending uneven.",
+    "review": "On March 8, 1970 at the Travelodge Theatre in the Round, the Dead delivered a tightly wound acoustic showcase that highlights Ron \"Pigpen\" McKernan’s soulful presence. Jerry’s vocals on Black Peter are described as “sweet, musical and heart‑breakingly passionate,” and his guitar work shines during the early numbers. Bob Weir’s voice remains crystal clear throughout, while the rhythm section stays “tight and solid.” The highlight of the night is the sprawling Not Fade Away → Turn On Your Lovelight transition, a moment that many reviewers cite as a high point. However, an on‑stage guest vocalist/harpist interrupts several songs, turning the final three numbers into a chaotic—if sometimes entertaining—culmination that some fans found “irritating” and others defended. The soundboard recordings capture the performance well; the recommended SBD (gd70-03-08.sbd.9195.sbeok.shnf) offers good clarity despite minor volume fluctuations, making it the most listenable version of this mixed‑quality but historically interesting show.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.0,
-      "confidence": "high"
+      "ai_rating": 2.8,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 38,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 0.0,
+        "sentiment_rationale": "All three recordings label the sentiment as mixed, balancing praise for Black Peter and the Lovelight segue against criticism of the guest vocalist and uneven ending. No consistent positive or negative trend emerges, so no adjustment is applied.",
+        "final_calculation": "2.5 + 0.3 + 0.0 = 2.8"
+      }
     },
     "best_recording": {
-      "identifier": "gd1970-03-08.sbd.miller.113359.flac16",
-      "reason": "Excellent soundboard capture with clear balance and no drop‑outs, preserving the strong early set despite guest vocalist issues."
+      "identifier": "gd70-03-08.sbd.9195.sbeok.shnf",
+      "reason": "Good soundboard capture with clear acoustic detail and the most complete set, despite minor volume fluctuations."
     },
     "key_highlights": [
-      "Black Peter delivered with heartfelt vocal performance",
-      "Turn On Your Lovelight shines as a high‑energy centerpiece",
-      "Hard To Handle adds fiery rock intensity",
-      "Guest vocalist disrupts the final three songs, lowering overall momentum"
+      "Stellar Black Peter performance with heartfelt vocals.",
+      "Extended Not Fade Away → Turn On Your Lovelight transition shines.",
+      "Guest vocalist/harpist adds chaotic but memorable atmosphere to final songs.",
+      "Tight, solid drumming keeps the set grounded."
     ],
     "song_highlights": [
       "Black Peter",
-      "Turn On Your Lovelight*",
-      "Hard To Handle"
+      "Turn On Your Lovelight*"
     ],
     "band_performance": {
-      "Jerry": "His voice is described as sweet, musical and heartbreakingly passionate on Black Peter, with an acoustic solo that earned praise.",
+      "Jerry": "Vocals sweet and heart‑breakingly passionate on Black Peter; guitar praised in acoustic sections.",
       "Phil": "",
-      "Bob": "Vocals are noted as crystal clear, adding strength to the standout numbers.",
+      "Bob": "Voice crystal clear and strong throughout the show.",
       "Brent": "",
-      "Mickey": "Drumming is tight and solid, keeping the groove steady throughout.",
-      "Billy": "Drumming is tight and solid, providing a reliable rhythmic foundation."
+      "Mickey": "Drums tight and solid, providing a steady backbone.",
+      "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-12T00:53:15.133323+00:00",
+    "processed_date": "2025-09-12T15:59:16.581999+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -185,9 +192,6 @@
       [
         "Not Fade Away*",
         "Turn On Your Lovelight*"
-      ],
-      [
-        "Hard To Handle"
       ]
     ]
   }

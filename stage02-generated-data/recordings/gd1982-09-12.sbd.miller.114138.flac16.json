@@ -16,42 +16,89 @@
   "high_ratings": 6,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of a high‑energy West LA show with standout performances of Might As Well, Women Are Smarter and Playin' In The Band, though the mix is uneven with thin bass and occasional low‑level instruments.",
-    "review": "The concert delivers a blazing second set – Jerry rides Might As Well flawlessly, the band locks in on Playin' In The Band and Morning Dew, and the funky West LA vibe shines through Women Are Smarter. The SBD source is generally clear with a pleasant hiss, but listeners note a thin low end, low‑volume Phil, and an over‑present Brent that make the mix feel uneven.",
+    "summary": "A solid sound‑board capture (crisp but a bit thin in the low end) that delivers a fiery Jerry, standout Playing in the Band and funky West LA moments.",
+    "review": "The recording is a generally clean SBD with excellent highs and a slight hiss and bass‑reduction that some listeners note, but it remains very listenable. The performance is praised for Jerry’s hot playing, tight rhythm section and several highlight songs – especially Playing in the Band, Might As Well, It’s All Over Now and Ship of Fools – despite an occasional miscue on The Wheel and a weaker‑than‑usual Morning Dew.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show 4–5 stars and praise the performance, while recording comments are mixed but generally positive; weighted average yields a strong overall rating."
+      "rationale": "Most reviewers are enthusiastic about the musical performance (standout jams, strong Jerry and rhythm section) while noting only minor recording flaws; weighted average of show (≈4.3) and recording (≈3.8) yields ~4.1."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear SBD with slight hiss; bass is thin and Phil's low end often buried, Jerry sometimes low in the mix, Brent sits high. Overall listenable but mix balance is uneven."
+      "technical_notes": "Crisp overall sound with a slight hiss; bass feels thin and Phil’s low end is under‑represented; mix leans high on Brent's keyboards, but the recording remains clear and enjoyable."
     },
     "show_quality": {
       "standout_songs": [
+        "Playing in the Band",
         "Might As Well",
-        "Women Are Smarter",
+        "It's All Over Now",
         "Ship of Fools",
-        "Playin' In The Band",
-        "Morning Dew"
+        "Brown-Eyed Women",
+        "Women Are Smarter"
       ],
       "poor_songs": [
-        "Greatest Story (Jerry low in mix)",
-        "Woman Are Smarter (average per one reviewer)"
+        "Morning Dew",
+        "Greatest Story"
       ],
-      "setlist_flow": "Solid first set with a funky West LA vibe; the second set builds energy, featuring tight transitions from Space into Wheel and a powerful Playin' In The Band finale.",
-      "energy_level": "high"
+      "setlist_flow": "Reviewers describe the set as concise and precise, with smooth transitions (e.g., Space into The Wheel) and a high‑energy second set despite one miscue on The Wheel."
     },
     "band_member_comments": {
-      "Jerry": "Often praised for fire, perfect articulation and strong lead on Might As Well and other numbers; a few reviewers note his guitar sometimes buried in the mix.",
-      "Phil": "Bass described as thin, low‑volume and lackluster; several notes of Phil being a few dB down in the mix.",
-      "Bob": "Vocals and rhythm guitar generally spot‑on, though occasionally hard to hear due to mix balance.",
-      "Keys": "Brent (keyboards) is prominent—sometimes overly high—but delivers solid piano work; one reviewer felt he was uncomfortable on It's All Over Now.",
-      "Drums": "Mickey & Bill receive praise for responsive, jazz‑like interplay, especially during Playin' In The Band."
+      "Jerry": "Almost everywhere praised – fire, perfect articulation, handles Might As Well flawlessly; one note of him being low in the mix on Greatest Story.",
+      "Phil": "Consistently noted as low in the mix and lacking the usual fat bass presence.",
+      "Bob": "Hard to hear in some spots but also called spot‑on with inspired singing and solid rhythm work.",
+      "Keys": "Brent is high in the mix, delivers strong electric‑piano licks (even channeling Dave Grusin), overall good playing though occasionally overly loud.",
+      "Drums": "Mickey & Bill praised for responsive, jazzy interplay and driving the band throughout the show."
     },
-    "processed_date": "2025-09-07T09:21:31.172305+00:00",
+    "song_mentions": {
+      "Playing in the Band": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Might As Well": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "It's All Over Now": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Ship of Fools": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Brown-Eyed Women": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Women Are Smarter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Wheel": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Greatest Story": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T01:02:47.837501+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-12.sbd.miller.114138.flac16"
   }

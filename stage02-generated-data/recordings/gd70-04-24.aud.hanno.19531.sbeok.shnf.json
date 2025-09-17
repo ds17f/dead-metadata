@@ -16,70 +16,64 @@
   "high_ratings": 12,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "A rough audience recording that’s listenable, featuring a legendary Eleven and a soaring Dark Star from the spring‑70 Mammoth Gardens show.",
-    "review": "The performance is widely praised – the Elevent is described as “one of its best versions,” Dark Star and St. Stephen flow into an unforgettable jam, and even the sleepy first set has moments like a soulful Slow Rider. The audio is an audience mic capture that suffers from mud‑dy highs and occasional drop‑outs, but recent clean‑up work makes it tolerable enough to enjoy the historic music.",
-    "sentiment": "mixed",
+    "summary": "A rough audience capture that still delivers a legendary Eleven and soaring Dark Star, making the show worth every grain of tape hiss.",
+    "review": "Listeners repeatedly praise this spring‑70 performance for its monster Eleven, epic Dark Star > St. Stephen > The Eleven segue, and an ethereal acoustic It's A Man's World despite the recording’s lo‑fi ambience.  The audio is uneven – early minutes are muddy, the venue sounded like a bus‑station bathroom and a chunk of \"It's A Man's World\" is missing – but the musical highs outweigh the technical flaws.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers rave about the musical content (numerous 5‑star comments) while consistently noting poor or fair sound quality; weighted averaging yields a strong overall rating."
+      "rationale": "The majority of reviewers (average 4.1★) rate the show highly for its performances, especially The Eleven and Dark Star, while noting consistently poor to fair recording quality; this mix yields a strong overall rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Muddy, low‑fidelity mic‑in‑the‑air capture with occasional drop‑outs and missing sections (e.g., part of \"A Man's World\"); a cleaned‑up version improves clarity but the recording remains rough."
+      "technical_notes": "Early minutes sound rough and muffled (bus‑station bathroom acoustics), occasional drop‑outs, a missing chunk of \"It's A Man's World\", and overall lo‑fi ambience; however later sections become clearer and the mic‑in‑the‑air capture preserves the band’s dynamics."
     },
     "show_quality": {
       "standout_songs": [
         "The Eleven",
-        "Dark Star",
-        "St. Stephen",
-        "Uncle John's Band",
+        "Dark Star > St. Stephen > The Eleven",
+        "It's A Man's World (acoustic)",
         "Slow Rider"
       ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic first set is a bit sleepy and marked by power‑cut interruptions, but the electric second set builds into a historic jam sequence (Dark Star → St. Stephen → The Eleven) that defines the show’s high point."
+      "setlist_flow": "First set is described as sleepy and acoustically thin, but the electric second set erupts with a monster Eleven and a transcendent Dark Star sequence; power cuts forced an early finish, adding to the show’s mythic status."
     },
     "band_member_comments": {
-      "Jerry": "Multiple reviewers highlight Jerry's soaring licks and perfect tone, especially on The Eleven and Dark Star.",
-      "Phil": "",
-      "Bob": "Bob is noted for stage banter (the sit‑down/stand‑up chant) rather than playing.",
+      "Jerry": "Repeatedly praised for his soaring licks and flawless tone, especially on The Eleven.",
+      "Phil": "Noted that his bass stayed clear and didn’t muddy Jerry's guitar during the Eleven.",
+      "Bob": "",
       "Keys": "",
       "Drums": ""
     },
     "song_mentions": {
       "The Eleven": {
-        "positive_mentions": 5,
+        "positive_mentions": 7,
         "negative_mentions": 0,
-        "total_mentions": 5
+        "total_mentions": 7
+      },
+      "Dark Star > St. Stephen > The Eleven": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
       },
       "Dark Star": {
         "positive_mentions": 3,
         "negative_mentions": 0,
         "total_mentions": 3
       },
-      "St. Stephen": {
-        "positive_mentions": 1,
+      "It's A Man's World": {
+        "positive_mentions": 2,
         "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Uncle John's Band": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
+        "total_mentions": 2
       },
       "Slow Rider": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
-      },
-      "A Man's World": {
-        "positive_mentions": 0,
-        "negative_mentions": 1,
-        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T01:50:31.207250+00:00",
+    "processed_date": "2025-09-12T17:03:15.803818+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-04-24.aud.hanno.19531.sbeok.shnf"
   }

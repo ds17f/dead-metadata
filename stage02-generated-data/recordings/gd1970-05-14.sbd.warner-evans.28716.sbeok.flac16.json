@@ -16,50 +16,45 @@
   "high_ratings": 10,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard recording with slight hiss but generally good clarity, capturing a standout early‑70s set highlighted by “Schoolgirl,” “New Speedway Boogie,” and a fiery acoustic‑electric flow.",
-    "review": "The show is praised for its vibrant energy, memorable jams (especially the acoustic‑electric transitions and the powerful renditions of Schoolgirl, New Speedway Boogie, and the China Cat > Rider sequence) and a solid setlist.  While most listeners find the soundboard source clear enough despite some hiss and occasional bass dropouts, a few note tuning problems and cuts that mar portions of the performance.",
+    "summary": "High‑energy show with standout jams (Schoolgirl, New Speedway Boogie, China Cat→Rider) captured on a mostly clean soundboard recording that suffers from slight hiss and occasional drop‑outs.",
+    "review": "The performance shines in the electric half – Jerry tears into Schoolgirl on his Sunburst Strat, the band delivers a ripping New Speedway Boogie and a soaring China Cat → Rider sequence, while acoustic moments are hit‑or‑miss for some listeners. The soundboard source is generally clear and lively but is marred by a faint hiss, occasional cuts, bass drop‑outs and tuning slips that keep it from being pristine.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.0,
-      "confidence": "medium",
-      "rationale": "The majority of reviews are highly positive (5‑star) praising both the music and recording, but several reviewers point out hiss, cuts, bass loss, and tuning issues that lower the overall average to about 3.8 / 5."
+      "stars": 3.9,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the musical highlights and rate the show 4‑5 stars, but a sizable minority note serious audio flaws (hiss, cuts, tuning issues) and weak acoustic portions, pulling the overall weighted rating down."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear with a slight hiss; occasional dropouts and bass disappearance noted, plus some tuning problems that affect certain tracks (e.g., China Cat)."
+      "technical_notes": "Clear overall mix with a faint hiss; occasional drop‑outs and bass disappearance; some noticeable tuning problems on China Cat; generally listenable despite imperfections."
     },
     "show_quality": {
       "standout_songs": [
         "Schoolgirl",
         "New Speedway Boogie",
-        "China Cat Sunflower > The Rider",
+        "China Cat > Rider",
         "Cumberland",
         "NFA"
       ],
       "poor_songs": [
-        "The Weight (cut early)",
-        "Attics",
-        "St. Stephen (mixed opinions)"
+        "The Weight (cut after a few words)",
+        "Attics (awful)",
+        "China Cat (tuning issues)"
       ],
-      "setlist_flow": "A well‑balanced acoustic then electric split that many reviewers liken to classic early‑70s Dead shows; the third set is repeatedly described as “out of this world.”"
+      "setlist_flow": "An acoustic‑electric hybrid set; the acoustic section divides opinion, while the electric second half builds strong momentum with tight jams and classic transitions."
     },
     "band_member_comments": {
-      "Jerry": "Ripping on his Sunburst Strat, even trying pedal steel during the acoustic portion; occasional vocal off‑key noted and a monitor comment about Bill’s equipment.",
+      "Jerry": "Rips on Schoolgirl with his Sunburst Strat; noted for using pedal steel in the acoustic set (speculative).",
       "Phil": "",
-      "Bob": "",
+      "Bob": "Funny banter captured at the show’s start, but no specific musical critique.",
       "Keys": "",
       "Drums": ""
     },
     "song_mentions": {
       "Schoolgirl": {
-        "positive_mentions": 2,
+        "positive_mentions": 1,
         "negative_mentions": 0,
-        "total_mentions": 2
-      },
-      "The Weight": {
-        "positive_mentions": 0,
-        "negative_mentions": 1,
         "total_mentions": 1
       },
       "New Speedway Boogie": {
@@ -67,12 +62,7 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "China Cat Sunflower > The Rider": {
-        "positive_mentions": 1,
-        "negative_mentions": 1,
-        "total_mentions": 2
-      },
-      "St. Stephen": {
+      "China Cat > Rider": {
         "positive_mentions": 1,
         "negative_mentions": 1,
         "total_mentions": 2
@@ -87,13 +77,23 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "The Weight": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
       "Attics": {
         "positive_mentions": 0,
         "negative_mentions": 1,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T02:50:03.024298+00:00",
+    "processed_date": "2025-09-12T17:55:15.105899+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-14.sbd.warner-evans.28716.sbeok.flac16"
   }

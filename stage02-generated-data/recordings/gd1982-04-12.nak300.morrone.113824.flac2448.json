@@ -16,35 +16,41 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Sweet FLAC recording captures a soaring Jerry Garcia on Peggy‑O, delivering an uplifting listening experience.",
-    "review": "The two fan reviews praise the recording’s clarity – even if it’s only 16‑bit FLAC – and highlight Jerry’s ethereal guitar work on Peggy‑O as a standout moment. While no details about the overall set are provided, the enthusiasm for that performance suggests a high‑energy show, and the audio quality is described as “sweet” with no major flaws noted.",
-    "sentiment": "positive",
+    "summary": "Sweet FLAC capture of a soaring Peggy‑O, though limited to 16‑bit depth.",
+    "review": "The recording is praised as sweet and enjoyable, but listeners note it’s only 16‑bit and wish for a 24‑bit version. Musically the show shines on Jerry Garcia's floating guitar work during Peggy‑O, which one reviewer calls one of their favorite versions. Overall the audio is good enough to enjoy, while the performance highlights are strong.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.0,
       "confidence": "medium",
-      "rationale": "Both reviewers are enthusiastic; one lauds the recording’s sound, the other extols a specific performance, leading to a strong combined impression despite limited data."
+      "rationale": "Strong musical praise for Peggy‑O balanced against criticism of limited bit depth; limited data leads to a moderate confidence level."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "good",
-      "technical_notes": "16‑bit FLAC described as \"sweet\"; no major issues reported but some desire for a higher‑resolution (24‑bit) source."
+      "technical_notes": "Sweet sounding FLAC, but only 16‑bit; reviewer requests a 24‑bit version, indicating desire for higher resolution."
     },
     "show_quality": {
       "standout_songs": [
         "Peggy-O"
       ],
       "poor_songs": [],
-      "setlist_flow": "Insufficient information to assess overall set flow.",
-      "energy_level": "high"
+      "setlist_flow": ""
     },
     "band_member_comments": {
-      "Jerry": "His guitar on Peggy‑O is described as \"almost floated away\" – a favorite version for the reviewer.",
+      "Jerry": "Jerry's guitar on Peggy‑O described as 'almost floated away' and a favorite version.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T06:25:19.781187+00:00",
+    "song_mentions": {
+      "Peggy-O": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T20:00:31.585939+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-04-12.nak300.morrone.113824.flac2448"
   }

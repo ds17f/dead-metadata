@@ -16,43 +16,71 @@
   "high_ratings": 2,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "High‑energy performance with standout versions of Minglewood, Cassidy, Loser and The Other One; audience recording is decent but needs pitch correction",
-    "review": "The show shines with a furnace‑blasting first set (Minglewood Blues, Cassidy, Loser) and a second‑set highlight reel featuring Samson & Delilah, a unique I Need a Miracle jam and a storm‑day The Other One. The audience‑sourced tape is listenable and often praised as the nicest for this run, yet it suffers from noticeable speed/pitch inconsistencies and occasional missing drum cues that require correction.",
+    "summary": "Audience‑sourced tape with decent clarity but noticeable pitch issues captures a strong ’82 run featuring standout Cassidy/Loser and a memorable “I Need a Miracle” jam.",
+    "review": "The show is widely praised as the best of the three‑night run, highlighted by tight performances of \"Cassidy,\" \"Loser,\" a powerful \"Samson & Delilah\" anchor and an unforgettable \"I Need a Miracle\" jam that leads into a soaring \"The Other One.\" The recording is an audience mix of several sources – good enough to be called the nicest tape of this show, yet it suffers from pitch inconsistencies, variable image and occasional AUD chatter.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.1,
       "confidence": "medium",
-      "rationale": "Strong musical performance (high energy, several standout songs) outweighs the technical flaws of the audience recording, which needs pitch/speed fixes."
+      "rationale": "Reviewers consistently praise the musical performance (high‑quality setlist, standout jams) while noting mixed technical quality (pitch correction needed, uneven image). The strong show outweighs recording flaws, yielding a rating just above four stars."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Needs pitch‑correction across the set (various -2% to +0.5% adjustments), swimmy sound on headphones, occasional missing drums into Space and some audience chatter; second set has clearer image than first."
+      "technical_notes": "Multiple audience sources stitched together; requires -2.5% to -3% pitch correction for most tracks, variable image and AUD chatter, missing drum fills into \"Space\" on some sections, but offers good clarity on the second set."
     },
     "show_quality": {
       "standout_songs": [
-        "Minglewood Blues",
         "Cassidy",
         "Loser",
         "Samson & Delilah",
         "I Need a Miracle",
-        "The Other One"
+        "The Other One",
+        "Minglewood Blues"
       ],
-      "poor_songs": [
-        "Might As Well",
-        "Around"
-      ],
-      "setlist_flow": "Both sets are praised as the best of the three‑night run, with tight transitions and a memorable jam sequence leading from I Need a Miracle into The Other One.",
-      "energy_level": "high"
+      "poor_songs": [],
+      "setlist_flow": "First set builds momentum with \"Cassidy\" and \"Loser,\" while the second set delivers a powerful \"Samson & Delilah\" anchor, a unique G‑jam within \"I Need a Miracle,\" and a stormy rendition of \"The Other One,\" making it the highlight of the run despite some average moments."
     },
     "band_member_comments": {
-      "Jerry": "Vocals are described as front‑and‑center; his guitar work drives the Loser duet with Phil and launches an inventive G‑jam during I Need a Miracle.",
-      "Phil": "Provides his characteristic rumble that cues The Other One, adding to the powerful second‑set momentum.",
-      "Bob": "Locks in tightly on Loser, briefly mirrors the Crazy Fingers riff, and underpins the heavy Samson & Delilah performance.",
+      "Jerry": "Vocals are unusually forward; works hard on \"Looks Like Rain\" and matches Bob on \"Loser\".",
+      "Phil": "His bass rumble is noted just before the expansive \"The Other One.\"",
+      "Bob": "Picked up a brief Crazy Fingers riff during the Miracle jam, showing attentive interplay.",
       "Keys": "",
-      "Drums": "Generally solid but with noted missing drum fills into Space on some source mixes; overall rhythm feels strong despite occasional edits."
+      "Drums": "Missing drum fills into \"Space\" on some source tapes; overall drum presence varies across sources."
     },
-    "processed_date": "2025-09-07T07:48:23.267946+00:00",
+    "song_mentions": {
+      "Cassidy": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Loser": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Samson & Delilah": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I Need a Miracle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Minglewood Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T22:15:28.156486+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-07-29.nak300.morris.102039.sbeok.flac16"
   }

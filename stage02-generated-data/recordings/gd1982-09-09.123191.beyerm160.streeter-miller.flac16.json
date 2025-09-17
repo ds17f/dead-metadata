@@ -16,28 +16,26 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Lively audience tape captures a high‑energy 1982 Saenger show with a smoking Feel Like a Stranger and powerful Samson & Delilah, though the mix is uneven after the first few songs.",
-    "review": "The recording is an audience (aud) source that shines during the opening half of the set, delivering clear, “dam good” sound on the first five tracks. The performance itself is high‑octane – reviewers rave about a rambunctious Feel Like a Stranger and a ferocious Samson & Delilah, plus a nostalgic West L.A. Fadeaway – but the later mix loses some clarity, prompting one listener to suggest ditching the soundboard altogether.",
+    "summary": "A lively audience tape captures rambunctious versions of Samson & Delilah and Feel Like a Stranger with solid sound on the early songs.",
+    "review": "The recording is an audience source that delivers clear, energetic sound—especially on the first five numbers—and preserves the raw, coked‑up vibe of the band’s performance. Reviewers rave about the wild Samson & Delilah and a fiery Feel Like a Stranger, though one fan found the unusual sandwich of Uncle John’s leading into Samson odd. Overall the show shines despite the quirky setlist choice.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 3.9,
       "confidence": "medium",
-      "rationale": "Two strong positive reviews (4 stars each) highlight energetic playing and good early‑set sound, while a single zero‑star review criticizes the setlist choice rather than performance; overall show quality is high but recording consistency is uneven."
+      "rationale": "Two reviewers praise both performance and recording (4‑star each) while one gives a zero rating due to setlist oddity; the weighted average leans positive but the dissent lowers confidence."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Early songs are crisp and clear; later portions become murkier, with some listeners preferring the audience tape over the soundboard. Overall lively ambience but inconsistent mix."
+      "technical_notes": "Listeners note a lively, clear audience tape with especially good sound on the first five songs; no major drop‑outs or muffling reported."
     },
     "show_quality": {
       "standout_songs": [
-        "Feel Like a Stranger",
         "Samson & Delilah",
-        "West L.A. Fadeaway"
+        "Feel Like a Stranger"
       ],
       "poor_songs": [],
-      "setlist_flow": "Unusual pairing of Samson & Delilah with Uncle John's (the “sandwich” oddity) noted, but overall the set maintains high energy and momentum.",
-      "energy_level": "high"
+      "setlist_flow": "The set is praised for its high energy, though the placement of Samson & Delilah right after Uncle John's Band was described as an odd ‘sandwich’ by one reviewer."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -46,7 +44,24 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T09:12:08.180490+00:00",
+    "song_mentions": {
+      "Samson & Delilah": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Feel Like a Stranger": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T00:48:56.067934+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-09.123191.beyerm160.streeter-miller.flac16"
   }

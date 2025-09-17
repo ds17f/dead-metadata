@@ -16,23 +16,25 @@
   "high_ratings": 0,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "A rough early audience tape – harsh and cloudy in sound, with an unremarkable performance that at least features a run of Black Peter.",
-    "review": "Both reviewers note the recording is far from pristine; one calls it \"harsh & cloudy\" while the other says it's not on par with better tapes. The show itself receives little praise beyond the presence of Black Peter, and the tape is incomplete, limiting its appeal for most listeners.",
+    "summary": "A rough audience recording with harsh, cloudy sound and missing sections; the only highlighted performance is a Black Peter that the reviewer plans to air.",
+    "review": "The two fan reviews agree that the audio quality is sub‑par – described as harsh, cloudy and not comparable to better‑recorded shows. The tape is incomplete, though one listener was pleased enough to feature Black Peter on their radio program. No performance details beyond that song are provided.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.7,
+      "stars": 2.5,
       "confidence": "medium",
-      "rationale": "The performance offers little standout material and the audio quality is described as harsh and cloudy; with only two brief reviews, confidence is moderate."
+      "rationale": "Both reviewers criticize the recording, with one giving it a single star and another a modest three; no positive comments on musical performance aside from Black Peter, leading to an overall low‑mid rating."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "poor",
-      "technical_notes": "Harsh and cloudy sound, not comparable to higher‑quality tapes, incomplete source."
+      "quality_rating": "fair",
+      "technical_notes": "Harsh and cloudy sound, missing portions of the show, not up to the level of better‑recorded (Late Show) tapes."
     },
     "show_quality": {
-      "standout_songs": [],
+      "standout_songs": [
+        "Black Peter"
+      ],
       "poor_songs": [],
-      "setlist_flow": "No specific comments on set structure; the show is noted mainly for its incompleteness."
+      "setlist_flow": "Recording is incomplete; no comments on overall set pacing or flow."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,12 +45,12 @@
     },
     "song_mentions": {
       "Black Peter": {
-        "positive_mentions": 0,
+        "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-11T23:59:12.129531+00:00",
+    "processed_date": "2025-09-12T15:04:22.875747+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-02-13.early.aud.unknown.holmes-Oleynick.109535.sbeok.flac16"
   }

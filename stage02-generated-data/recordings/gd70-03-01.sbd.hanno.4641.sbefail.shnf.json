@@ -16,40 +16,43 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard‑derived tape with a few audience‑mic hiccups captures a fun 1970 show highlighted by a scorching Cryptical > Other One and the rare “Big Boy Pete.”",
-    "review": "The performance is lively – fans rave about the intense Cryptical > Other One, a solid Big Boy Pete, and strong renditions of Good Lovin', Morning Dew, Black Peter, China Cat > I Know You Rider, Uncle John’s Band and Baby Blue.  The recording is mostly soundboard quality but the first two tracks (and a few seconds later) come from noisy audience mics, the vocals sit a bit high in the mix and some EQ work helps, yet the middle of the set sounds clear enough to enjoy.",
+    "summary": "High‑energy 1970 show with a standout Cryptical > Other One sequence and solid mid‑set, captured on mostly soundboard tape though the opening tracks are noisy.",
+    "review": "Fans rave about the intensity of the Cryptical–Other One stretch, the tight Good Lovin' drums, and the beautiful renditions of Black Peter, China Cat → I Know You Rider and Baby Blue. The recording is a 1970 soundboard with audience bleed on the first two songs (and a few seconds later), so the middle of the set sounds clear while the opening and closing fragments are rough and sometimes have vocal‑mix issues.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers give 4‑5 stars and praise the musical flow and standout songs; recording issues are limited to early tracks and vocal balance, so overall enjoyment is high."
+      "rationale": "Average reviewer rating is 4.25/5; most comments praise the performance and only note moderate recording flaws on early tracks, yielding a strong overall score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "First two songs (and a few seconds of the third) are from audience mics and sound rough; throughout the middle the SBD is clear but vocals sit too high in the mix, requiring EQ for optimal balance."
+      "technical_notes": "First two songs (and a few seconds of the third) come from audience mics and are muddy; vocals sit high in the mix throughout, requiring EQ for best listening. The middle section is clear and well‑balanced, though some reviewers note occasional harp level spikes."
     },
     "show_quality": {
       "standout_songs": [
         "Cryptical > Other One",
-        "Big Boy Pete",
         "Good Lovin'",
         "Morning Dew",
         "Black Peter",
+        "Cumberland Blues",
+        "Dirty King Bee",
         "China Cat Sunflower > I Know You Rider",
         "Uncle John's Band",
-        "Baby Blue",
-        "Dire Wolf"
+        "Dancing in the Streets",
+        "Baby Blue"
       ],
-      "poor_songs": [],
-      "setlist_flow": "The set flows well, with the rare Big Boy Pete sandwiched between strong mid‑set numbers; transitions such as Cryptical > Other One into Black Peter are praised for their seamlessness."
+      "poor_songs": [
+        "The Other One"
+      ],
+      "setlist_flow": "A solid Sunday‑night run with a rare ‘Big Boy Pete’ and an exciting Cryptical > Other One transition that mirrors the New Orleans show a month earlier. The set moves smoothly through folk‑rock numbers into bluesy jams, ending with a classic Baby Blue before the tape cuts."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar is generally praised (“intense,” “perfect tone”), though one reviewer notes it could have been a hair louder.",
+      "Jerry": "Generally praised for his guitar work; one reviewer notes it could be a touch louder but overall 'great board' of Garcia's playing.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Organ lines on The Other One are mentioned as not exploding enough; overall keyboard presence is modest but functional for the era.",
-      "Drums": "Good Lovin' drums receive specific praise; the rhythm section is described as solid throughout."
+      "Keys": "Pigpen’s harmonica receives glowing remarks, though a few note occasional level spikes. Organ/guitar balance on The Other One is mentioned as lacking.",
+      "Drums": "Good Lovin' drums highlighted positively; overall rhythm section described as tight."
     },
     "song_mentions": {
       "Cryptical > Other One": {
@@ -57,15 +60,10 @@
         "negative_mentions": 0,
         "total_mentions": 2
       },
-      "Big Boy Pete": {
-        "positive_mentions": 4,
-        "negative_mentions": 0,
-        "total_mentions": 4
-      },
       "Good Lovin'": {
-        "positive_mentions": 2,
+        "positive_mentions": 1,
         "negative_mentions": 0,
-        "total_mentions": 2
+        "total_mentions": 1
       },
       "Morning Dew": {
         "positive_mentions": 1,
@@ -77,25 +75,40 @@
         "negative_mentions": 0,
         "total_mentions": 2
       },
+      "Cumberland Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dirty King Bee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
       "China Cat Sunflower > I Know You Rider": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
       "Uncle John's Band": {
-        "positive_mentions": 1,
+        "positive_mentions": 2,
         "negative_mentions": 0,
-        "total_mentions": 1
+        "total_mentions": 2
+      },
+      "Dancing in the Streets": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
       },
       "Baby Blue": {
-        "positive_mentions": 4,
+        "positive_mentions": 3,
         "negative_mentions": 0,
-        "total_mentions": 4
+        "total_mentions": 3
       },
-      "Dire Wolf": {
-        "positive_mentions": 1,
+      "Casey Jones": {
+        "positive_mentions": 2,
         "negative_mentions": 0,
-        "total_mentions": 1
+        "total_mentions": 2
       },
       "The Other One": {
         "positive_mentions": 0,
@@ -103,7 +116,7 @@
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T00:37:52.562808+00:00",
+    "processed_date": "2025-09-12T15:46:34.701413+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-03-01.sbd.hanno.4641.sbefail.shnf"
   }

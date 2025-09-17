@@ -16,43 +16,108 @@
   "high_ratings": 3,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Crisp soundboard recording that captures strong moments like Cumberland, Estimated and Stella, but suffers from mix issues and uneven energy.",
-    "review": "The SBD source delivers generally clear and balanced audio, praised by most listeners as “crisp” and “amazing”. While several reviewers hail the show as awesome with standout performances of Cumberland, Estimated and a solid Stella, one detailed account notes flat first‑set playing, weak mixes, and Phil’s near‑absence until late in the second set. Overall the performance is enjoyable but inconsistent, and the recording needs a touch of EQ to tame occasional muffed sections.",
+    "summary": "Crisp soundboard recording with strong moments like Stella and Cumberland, though some listeners note mix issues and flat passages in the second set.",
+    "review": "The concert bursts with energy, delivering highlights such as a solid Stella and an excellent rendition of Cumberland while the first set is more uneven. The SBD source sounds generally clear and crisp, but several reviewers cite heavy‑handed EQ, muffed vocals on Truckin' and a weak mix during Space that detract from parts of the show. Overall sentiment is enthusiastic yet tempered by noted technical flaws.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "medium",
-      "rationale": "Three 5‑star reviews praise both show and sound, while one detailed 2‑star review points out significant mix and performance flaws; the average star rating is 4.25, leading to a solid 4.3 overall."
+      "rationale": "Most reviewers praise both the performance and sound quality (average 4.5‑5 stars), but a detailed low‑rating review flags mix problems, pulling the weighted rating to about 4.3."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally crisp and clear with soundboard fidelity; occasional mix imbalances, muffed patches (e.g., in Truckin'), and a need for light EQ to smooth out harsh frequencies."
+      "technical_notes": "Several reviewers describe the sound as crisp and great; however one detailed critique mentions a muffed patch in Truckin', heavy‑handed EQ needs, and an uneven mix that especially affects the second set."
     },
     "show_quality": {
       "standout_songs": [
         "Cumberland",
-        "Estimated",
-        "Stella"
+        "Stella",
+        "They Love Each Other",
+        "Estimated"
       ],
       "poor_songs": [
-        "Dewiminna",
         "Might as Well",
-        "Franklin's Tower",
+        "Franklin's",
+        "The Wheel",
         "Truckin'",
-        "Good Lovin'"
+        "Good Lovin'",
+        "Brokedown",
+        "Space",
+        "Dewiminna"
       ],
-      "setlist_flow": "First set described as flat and mix‑troubled, second set shows occasional spikes (Stella, Estimated) but remains uneven; overall pacing feels inconsistent.",
-      "energy_level": "medium"
+      "setlist_flow": "First set is described as average to below‑average with a few bright spots, while the second set contains mixed quality—some flat or stilted moments but also peaks like Stella. Overall the show feels energetic yet shows signs of end‑of‑tour fatigue."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s tone is praised as perfect/crisp early on, though he searches for better tone during Franklin's Tower.",
-      "Phil": "Phil Lesh is largely absent in the first set and barely audible later; his Space improvisation is considered weak.",
-      "Bob": "Bob Weir’s vocal dramatics (e.g., “Bobby’s Slide Practice™”) are noted, with some criticism of over‑the‑top delivery on Good Lovin'.",
-      "Keys": "Brent Mydland shines on Estimated and in the Jer songs; early mix makes keyboards hard to hear.",
+      "Jerry": "Searches for better tone during Franklin's, cycling mods; overall guitar work noted as solid on highlights.",
+      "Phil": "Absent early in the set, goofs off during Space and is barely audible later, contributing to mix issues.",
+      "Bob": "Adds drama‑vox and slide practice; his vocal dramatics are mentioned as both a highlight and a drawback (e.g., on Good Lovin' and Truckin').",
+      "Keys": "Brent's keyboard work is highlighted as key during the Jer songs in the second set.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T06:54:22.411446+00:00",
+    "song_mentions": {
+      "They Love Each Other": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cumberland": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dewiminna": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Might as Well": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Franklin's": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Estimated": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Wheel": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Stella": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Brokedown": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Space": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T20:49:18.278829+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-04-19.144567.sbd.healy.streeter.smith.miller.clugston.flac1648"
   }

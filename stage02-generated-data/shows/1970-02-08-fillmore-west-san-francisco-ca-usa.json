@@ -144,43 +144,53 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Smokestack Lightning opener, expansive Lovelight, strong St. Stephen sandwich",
-    "blurb": "The show bursts open with a monster Smokestack Lightning and moves through early‑70 material like China Cat > I Know You Rider and a rare Saint Stephen → Not Fade Away → Saint Stephen sandwich. A 35‑minute Turn On Your Lovelight caps the night, highlighted by Pigpen’s organ work and tight Garcia/Weir interplay. Recording quality varies, but the performance is consistently strong.",
-    "review": "On February 8, 1970 at Fillmore West, the Dead delivered a high‑energy set that still feels fresh for modern ears. The opening Smokestack Lightning is described as “monster” and “stellar,” with Garcia’s guitar dueling Bob in a thrilling climax. Early‑70 gems like China Cat Sunflower > I Know You Rider showcase chiming tones and tight vocal harmonies, while the second set offers a rare Saint Stephen → Not Fade Away → Saint Stephen sandwich that, despite a slightly hesitant Not Fade Away, adds a unique dynamic to the night. The highlight is the expansive 35‑minute Turn On Your Lovelight, where Pigpen’s organ rap drives an adventurous jam, and Garcia’s tone back‑and‑forth with the keys creates a soaring texture. Dark Star also shines as a wandering, exploratory piece that finds its groove midway through. Although the matrix recordings suffer from occasional mix imbalances—drums sit low and early sections sound muddy—the second half of the show is captured cleanly, allowing listeners to appreciate the band’s locked‑in performance.",
+    "summary": "Epic Smokestack Lightning duel, rare St Stephen sandwich, soaring Lovelight",
+    "blurb": "The set opens with a monster Smokestack Lightning that showcases Jerry and Bob's fierce guitar duel. Highlights include a rare Saint Stephen > Not Fade Away > Saint Stephen sandwich, an expansive Turn On Your Lovelight, and strong Dark Star explorations. The performance stays tight throughout despite the matrix mix’s low drum levels.",
+    "review": "Feb 8‑1970 at the Fillmore West captures a Grateful Dead that was firing on all cylinders. Pigpen leads with a thunderous Smokestack Lightning that turns into an exhilarating guitar duel between Jerry and Bob, setting a high bar for the evening. The first set rolls smoothly through Morning Dew, a soulful It Hurts Me Too, and the classic China Cat Sunflower > I Know You Rider segue, each spotlit by Garcia’s lyrical phrasing and Weir’s responsive rhythm. The second set delivers one of the era’s most talked‑about moments—a Saint Stephen > Not Fade Away > Saint Stephen sandwich that builds tension then releases it into a soaring Turn On Your Lovelight, which stretches out for over half an hour and remains a benchmark jam from this period. Dark Star adds another deep exploratory stretch before the band wraps up with the blues‑y punch of Lovelight. While the matrix source is only fair—drums sit low in the mix and occasional dropouts bite—the musical chemistry shines through, making this show a must‑listen for fans of early‑’70 Dead intensity.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.6,
-      "confidence": "high"
+      "ai_rating": 3.5,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 21,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 0.8,
+        "sentiment_rationale": "Multiple recordings praise standout moments—Smokestack Lightning duel, rare St Stephen > Not Fade Away > St Stephen sandwich, and a marathon Lovelight—indicating strong positive sentiment about the performance despite mixed comments on recording quality.",
+        "final_calculation": "2.5 + 0.2 + 0.8 = 3.5"
+      }
     },
     "best_recording": {
       "identifier": "gd70-02-08.sbd-aud.cotsman.19152.sbeok.shnf",
-      "reason": "Good matrix mix with solid board source for the second half; captures the full set with decent balance despite some low‑drum issues."
+      "reason": "Fair matrix tape but the most complete and consistently praised for capturing the stellar performance, especially the Lovelight stretch."
     },
     "key_highlights": [
-      "Monster Smokestack Lightning opening",
-      "Rare Saint Stephen → Not Fade Away → Saint Stephen sandwich",
-      "35‑minute Turn On Your Lovelight jam with Pigpen’s organ solo",
-      "Exploratory Dark Star that finds its groove"
+      "Smokestack Lightning duel between Jerry and Bob sets a high‑energy tone.",
+      "Rare Saint Stephen > Not Fade Away > Saint Stephen sandwich adds tension and surprise.",
+      "Turn On Your Lovelight expands into a 35‑minute jam that defines the era’s improvisational peak.",
+      "Strong Dark Star and China Cat Sunflower > I Know You Rider interplay showcase tight group chemistry."
     ],
     "song_highlights": [
       "Smokestack Lightning",
+      "Morning Dew",
       "China Cat Sunflower",
       "I Know You Rider",
+      "It Hurts Me Too",
+      "Dark Star",
       "Saint Stephen",
       "Not Fade Away",
-      "Turn On Your Lovelight",
-      "Dark Star"
+      "Turn On Your Lovelight"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers chiming tones on China Cat, a fierce duel with Bob during the Smokestack Lightning climax, and backs Pigpen’s organ throughout the sprawling Lovelight.",
+      "Jerry": "Garcia’s guitar shines, especially in the Smokestack Lightning duel and the soaring solos on China Cat Sunflower and Lovelight.",
       "Phil": "",
-      "Bob": "Weir’s rhythm work and vocal harmonies shine, especially his interplay with Garcia in the guitar duel and his exuberant screams during the Saint Stephen reprise.",
-      "Pigpen": "Pigpen’s organ solo on Turn On Your Lovelight is a highlight, driving the jam with gritty bluesy intensity.",
-      "Mickey": "",
-      "Billy": ""
+      "Bob": "Weir matches Jerry note‑for‑note on Smokestack Lightning and adds vocal intensity during the St Stephen return.",
+      "Brent": "",
+      "Mickey": "Drums are solid and drive the jams, though they sit low in the matrix mix.",
+      "Billy": "Kreutzmann’s percussion provides a steady backbone throughout; performance remains tight despite being buried in the recording."
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-11T23:34:33.234499+00:00",
+    "processed_date": "2025-09-12T14:36:54.007212+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -188,8 +198,14 @@
         "Smokestack Lightning"
       ],
       [
+        "Morning Dew"
+      ],
+      [
         "China Cat Sunflower",
         "I Know You Rider"
+      ],
+      [
+        "It Hurts Me Too"
       ],
       [
         "Dark Star",

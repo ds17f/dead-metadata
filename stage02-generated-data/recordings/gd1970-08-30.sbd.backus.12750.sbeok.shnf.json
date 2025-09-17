@@ -16,27 +16,25 @@
   "high_ratings": 0,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Very poor recording quality with a sluggish performance; only the Candyman segment stands out.",
-    "review": "All three reviewers agree that this version of the August 30 1970 KQED Studios show suffers from bad audio/video fidelity and a generally slow, unengaging vibe. The first song “Easy Wind” is described as virtually unwatchable, while the later “Candyman” portion is noted as the only redeeming moment. Listeners are urged to seek out alternate versions of this concert.",
+    "summary": "A low‑quality recording of a sluggish show – early footage is unwatchable and the performance lacks any standout moments.",
+    "review": "All three reviewers agree that this version suffers from poor audio/video fidelity and a lackluster, slow performance. One points listeners to an alternate IA upload, another calls it inferior to any real 1970 concert or album, and a third warns that the opening \"Easy Wind\" segment is essentially unwatchable while praising only the later Candyman footage.",
     "sentiment": "negative",
     "ai_rating": {
-      "stars": 1.5,
-      "confidence": "medium",
-      "rationale": "Consistently low star ratings (0‑2) and uniformly negative comments about both the performance and the recording drive a very low overall score."
+      "stars": 1.4,
+      "confidence": "high",
+      "rationale": "Consistently negative feedback on both musical performance and technical quality across three reviews, with no redeeming comments beyond a single song fragment."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "poor",
-      "technical_notes": "Reviewers complain of slow playback, psychedelic visual effects that make the first song unwatchable, and generally bad fidelity; they recommend using an alternate IA version instead."
+      "technical_notes": "Reviewers describe the recording as slow, unlistenable, and suffering from bad calibration/psychedelic visual effects; they recommend a different IA version instead."
     },
     "show_quality": {
-      "standout_songs": [
-        "Candyman"
-      ],
+      "standout_songs": [],
       "poor_songs": [
         "Easy Wind"
       ],
-      "setlist_flow": "Uneven – the opening “Easy Wind” is criticized as unwatchable, but the show improves after the Candyman segment before falling back to overall sluggishness."
+      "setlist_flow": "The set is characterized as sluggish and sub‑par, with the opening track deemed unwatchable and overall performance not matching typical 1970 shows."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -46,18 +44,18 @@
       "Drums": ""
     },
     "song_mentions": {
-      "Easy Wind": {
-        "positive_mentions": 0,
-        "negative_mentions": 1,
-        "total_mentions": 1
-      },
       "Candyman": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
+      },
+      "Easy Wind": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T05:43:47.769329+00:00",
+    "processed_date": "2025-09-12T20:40:59.749500+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-08-30.sbd.backus.12750.sbeok.shnf"
   }

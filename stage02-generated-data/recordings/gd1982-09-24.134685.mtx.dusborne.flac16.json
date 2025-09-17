@@ -16,18 +16,18 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent matrix recording captures the debut of Touch and Throwing Stones on a high‑energy 1982 show.",
-    "review": "The reviewer rates this tape as “by far the best,” praising the matrix source for its crystal‑clear sound. The concert is highlighted as part of the Touch/Throwin' Stones debut tour, delivering high energy and strong performances of those new numbers. Overall both the music and the recording are described in glowing terms.",
+    "summary": "Excellent matrix‑style recording of the Touch/Throwing Stones debut tour, capturing a high‑energy show with standout new material.",
+    "review": "The reviewer rates this performance five stars, praising it as a \"high times\" show from the Touch/Throwing Stones debut tour and calling the recording \"by far the best.\" The audio quality is described as excellent, making the set – highlighted by the first appearances of \"Touch\" and \"Throwing Stones\" – especially enjoyable. No technical flaws or performance issues are noted.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.9,
       "confidence": "low",
-      "rationale": "5‑star review emphasizes excellent recording quality (30% weight) and a high‑energy, notable show with debut songs (70% weight), leading to a strong combined rating."
+      "rationale": "A single enthusiastic 5‑star review lauds both the musical performance and the recording, indicating an outstanding show with top‑notch audio."
     },
     "recording_quality": {
-      "source_type": "matrix",
+      "source_type": "unknown",
       "quality_rating": "excellent",
-      "technical_notes": "Reviewer calls the recording excellent and “by far the best,” implying crisp, balanced sound with no noted issues."
+      "technical_notes": "Reviewer calls it an \"Excellent recording, by far the best.\""
     },
     "show_quality": {
       "standout_songs": [
@@ -35,8 +35,7 @@
         "Throwing Stones"
       ],
       "poor_songs": [],
-      "setlist_flow": "Early‑fall 1982 debut tour set that introduced new material and kept the energy high throughout.",
-      "energy_level": "high"
+      "setlist_flow": "Debut of new material (Touch/Throwing Stones) adds excitement and a fresh energy to the set."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -45,7 +44,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T10:11:04.919503+00:00",
+    "song_mentions": {
+      "Touch": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Throwing Stones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T02:30:11.281576+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-24.134685.mtx.dusborne.flac16"
   }

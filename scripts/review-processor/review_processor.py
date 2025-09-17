@@ -764,6 +764,49 @@ Please analyze these reviews and respond with a JSON object following the specif
         result = self._process_recording(recording_id)
         return result
     
+    def _calculate_review_metrics(self, show_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Calculate review count totals and boost tiers programmatically."""
+        recordings = show_data.get('recordings', [])
+        total_reviews = 0
+        
+        # Sum review counts from each recording's metadata
+        for recording_id in recordings:
+            recording_path = Path(f"stage02-generated-data/recordings/{recording_id}.json")
+            if recording_path.exists():
+                try:
+                    with open(recording_path) as f:
+                        recording_data = json.load(f)
+                        total_reviews += recording_data.get('review_count', 0)
+                except Exception as e:
+                    logger.warning(f"Failed to load review count for {recording_id}: {e}")
+                    continue
+        
+        # Apply corrected tier logic (99th percentile coverage)
+        if total_reviews < 5:
+            boost = 0.0
+            tier = "Below threshold"
+        elif 5 <= total_reviews <= 19:
+            boost = 0.1
+            tier = "Tier 1: Above minimal threshold"
+        elif 20 <= total_reviews <= 28:
+            boost = 0.2
+            tier = "Tier 2: Standard attention"
+        elif 29 <= total_reviews <= 45:
+            boost = 0.3
+            tier = "Tier 3: Notable attention"
+        elif 46 <= total_reviews <= 155:
+            boost = 0.4
+            tier = "Tier 4: High attention"
+        else:  # 156+
+            boost = 0.5
+            tier = "Tier 5: Exceptional attention"
+        
+        return {
+            'total_reviews': total_reviews,
+            'review_count_boost': boost,
+            'boost_tier': tier
+        }
+
     def _generate_show_review(self, show_data: Dict[str, Any], 
                             recording_analyses: List[Dict[str, Any]]) -> Dict[str, Any]:
         """Generate final show review from recording analyses."""
@@ -787,6 +830,9 @@ Please analyze these reviews and respond with a JSON object following the specif
         else:
             venue_name = 'Unknown Venue'
         
+        # Calculate review metrics programmatically
+        review_metrics = self._calculate_review_metrics(show_data)
+        
         # Combine recording analyses
         analyses_summary = []
         for analysis in recording_analyses:
@@ -808,11 +854,19 @@ Generate a comprehensive show review based on the following information:
 - Venue: {venue_name}
 - Average User Rating: {average_rating}
 
+**Pre-calculated Rating Data:**
+- Total Reviews: {review_metrics['total_reviews']}
+- Review Count Boost: +{review_metrics['review_count_boost']} ({review_metrics['boost_tier']})
+- Base Rating: 2.5
+
 **Recording Analyses:**
 {json.dumps(analyses_summary, indent=2)}
 
 **Show Data:**
 {json.dumps({k: v for k, v in show_data.items() if k not in ['recordings', 'ai_show_review']}, indent=2)}
+
+IMPORTANT: Use the pre-calculated Total Reviews and Review Count Boost values in your rating_calculation block. Do not recalculate them.
+Calculate only the sentiment_adjustment based on the recording analyses sentiment patterns.
 
 Please synthesize this information into a comprehensive show review following the specified JSON format.
 """

@@ -212,46 +212,81 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Brent era with soaring Bird Song and a smoking Scarlet>Fire",
-    "blurb": "The St. Paul show delivers a blistering first set highlighted by Bird Song and Lazy Lightning > Supplication, then erupts in the second set with a classic Scarlet Begonias > Fire on the Mountain and tight Lost Sailor > Saint Of Circumstance jams. Jerry’s lead work is on fire, Brent’s keyboards are full‑bodied, and the rhythm section drives the band forward throughout.",
-    "review": "What unfolds at the St. Paul Civic Center captures the Dead in prime Brent‑era form. The first set opens strong with a crisp Bertha that slides into New Minglewood Blues before the band settles into a gorgeous Bird Song; the Lazy Lightning > Supplication pairing showcases Jerry’s searing leads and Brent’s lush organ textures, setting an electric tone for the night. In the second set the band locks in on Scarlet Begonias > Fire on the Mountain – a soaring, high‑octane sequence that many fans cite as one of the era’s finest – then rides a flowing Lost Sailor > Saint Of Circumstance groove into an expansive jam, space, and drums. The rhythm section stays tight, with Mickey and Bill providing propulsive beats while Phil’s bass underpins every improvisational turn, even if it sits a touch low in some mixes. Overall the performance is a vivid snapshot of 1982: high‑energy, richly textured, and brimming with memorable moments that reward repeated listening.",
+    "summary": "Soaring Bird Song, fiery Lightning>Supplication & smoking Scarlet>Fire",
+    "blurb": "The first set dazzles with Bird Song, El Paso and a blistering Lazy Lightning→Supplication stretch, while the second set delivers a classic Scarlet Begonias → Fire on the Mountain segue into high‑octane jams. Jerry’s guitar is on fire and Brent’s keyboards lock in tight throughout.",
+    "review": "August 6, 1982 at the St. Paul Civic Center stands out as one of the strongest shows from the early‑80s era. The band opens with a punchy Bertha into Candyman before launching into a soaring Bird Song that many reviewers call “on fire.” A highlight of the night is the Lazy Lightning → Supplication sequence, which several listeners describe as a “monster” moment that showcases Jerry’s searing tone and Brent’s early‑80s keyboard swagger. The second set rolls straight into a smoking Scarlet Begonias → Fire on the Mountain transition, followed by a seamless jam out of Saint of Circumstance into Space that keeps the crowd sweating through a 21‑song marathon. Throughout, the rhythm section stays tight, with Mickey and Billy delivering crisp drum work and Phil’s bass providing a solid foundation despite occasional mix quirks in some recordings. For Deadheads looking for a quintessential 1982 experience, this show captures the band at a creative peak – tight, energetic, and full of those unforgettable moments that define a great Grateful Dead concert.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.6,
-      "confidence": "high"
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 41,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.8,
+        "sentiment_rationale": "All seven recordings describe the show in glowing terms, repeatedly praising standout songs and band tightness; language such as 'soaring', 'monster', 'one of the finest', and consistent mentions of Jerry being on fire justifies a strong positive sentiment.",
+        "final_calculation": "2.5 + 0.3 + 1.8 = 4.6"
+      }
     },
     "best_recording": {
       "identifier": "gd1982-08-06.sbd.miller.118462.flac16",
-      "reason": "Excellent soundboard capture with clear, well‑balanced mix and only minimal audience patches; showcases the full band energy and Brent’s keyboards without compromising clarity."
+      "reason": "High‑quality soundboard capture with clear mix, minimal audience patches, and excellent representation of the show’s standout moments (Bird Song, Lightning→Supplication, Scarlet>Fire)."
     },
     "key_highlights": [
-      "Smoking Bird Song with Jerry’s soaring leads",
-      "Classic Scarlet Begonias > Fire on the Mountain sequence",
-      "Explosive Lazy Lightning > Supplication jam",
-      "Tight Lost Sailor > Saint Of Circumstance transition and space‑driven improvisations"
+      "Soaring Bird Song that lifts the entire concert.",
+      "Blistering Lazy Lightning → Supplication sequence, a fan‑favorite monster jam.",
+      "Smoking Scarlet Begonias → Fire on the Mountain segue with seamless transitions.",
+      "Brent Mydland’s early‑80s keyboard work shines, especially during Space."
     ],
     "song_highlights": [
       "Bird Song",
-      "Scarlet Begonias",
-      "Fire On The Mountain",
       "Lazy Lightning",
       "Supplication",
+      "Scarlet Begonias",
+      "Fire On The Mountain",
       "Lost Sailor",
       "Saint Of Circumstance",
       "Space",
+      "Truckin'",
       "Wharf Rat"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers crisp, soaring leads all night – especially on Fire On The Mountain and the climactic Supplication section – with tight accents during the Space jam.",
-      "Phil": "Lesh provides a solid, driving low end that shines into Fire On The Mountain; in some mixes his bass sits slightly low but remains the backbone of the jams.",
-      "Bob": "Weir offers steady rhythm chops and vocal harmonies that keep the band grounded through long improvisations.",
-      "Brent": "Mydland’s organ and synth pads are full‑bodied, adding lush texture to Bird Song and powering the momentum of Lazy Lightning > Supplication.",
-      "Mickey": "Hart adds tasteful percussion accents, enhancing the space before drums and keeping the groove tight throughout.",
-      "Billy": "Kreutzmann locks in with Hart, delivering a propulsive beat that fuels the high‑energy second set."
+      "Jerry": "Excellent playing and tone throughout; described as 'on fire', 'totally nails it', with powerful vocal inflections on Candyman and scorching leads during Lightning→Supplication and the Scarlet>Fire sequence.",
+      "Phil": "Solid bass foundation despite occasional mix burying in some recordings; praised for strong tone and leading transitions, especially into Fire on the Mountain.",
+      "Bob": "",
+      "Brent": "Keyboard work is a highlight—early‑80s style comes into form, driving jams like Space and adding melodic depth to the first set and second‑set improvisations.",
+      "Mickey": "Tight drumming that anchors the high‑octane jams; drum break before Space noted as a standout moment.",
+      "Billy": "Consistently solid rhythm work, complementing Mickey with crisp fills and driving the energy through the marathon 21‑song set."
     },
     "processed_recordings": 7,
-    "processed_date": "2025-09-07T08:32:43.642684+00:00",
+    "processed_date": "2025-09-13T23:27:31.365355+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Bird Song"
+      ],
+      [
+        "Lazy Lightning",
+        "Supplication"
+      ],
+      [
+        "Scarlet Begonias",
+        "Fire On The Mountain"
+      ],
+      [
+        "Lost Sailor",
+        "Saint Of Circumstance",
+        "Jam",
+        "Drums",
+        "Space",
+        "Jam",
+        "Truckin'",
+        "Wharf Rat",
+        "Around & Around",
+        "Goin' Down The Road Feeling Bad",
+        "Johnny B. Goode"
+      ]
+    ]
   }
 }

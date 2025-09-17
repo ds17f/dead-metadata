@@ -16,30 +16,28 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑energy 1982 show captured on a pristine Miller soundboard recording with smoking performances of All Over Now, Shakedown and an unexpected Throwing Stones > Day Job pairing",
-    "review": "Fans rave that this Miller‑sourced soundboard tape sounds awesome and captures a ripping performance – the band is on fire from Shakedown to a monster All Over Now, and the setlist even throws in a surprising Throwing Stones > Day Job transition. The recording is clear and balanced, making the show easy to enjoy.",
+    "summary": "Miller soundboard capture delivers crystal‑clear audio, and the concert roars with standout Shakedown Street, Scarlet > Fire, and an all‑out All Over Now.",
+    "review": "The Miller SBD source provides an excellent, crisp soundboard that lets every nuance shine. Fans rave about the high‑energy performance—Shakedown Street, the rare Throwing Stones > Day Job pairing, a scorching Scarlet‑Fire sequence, and an unforgettable All Over Now—all of which make this show a must‑listen.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.7,
       "confidence": "high",
-      "rationale": "Two enthusiastic 5‑star reviews praise both the musical energy and the crystal‑clear soundboard source; a third comment is neutral about setlist, so overall rating is very high."
+      "rationale": "Two detailed 5‑star reviews praise both the musical performance and the high‑quality Miller soundboard; only one neutral/ambiguous comment lowers the average slightly."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Reviewers describe the audio as \"awesome\" and a \"Miller gem,\" indicating crisp, clear mix with no noted flaws."
+      "technical_notes": "Miller source noted as crystal‑clear, no reported dropouts or muddiness; listeners describe it as “awesome” and a “gem.”"
     },
     "show_quality": {
       "standout_songs": [
-        "All Over Now",
         "Shakedown Street",
-        "Row Jimmy",
-        "Scarlet Fire",
+        "Scar-Fire (Scarlet Begonias > Fire on the Mountain)",
+        "All over now",
         "Throwing Stones > Day Job"
       ],
       "poor_songs": [],
-      "setlist_flow": "Energetic set with strong transitions; highlighted by the unusual Throwing Stones into Day Job pairing that fans found exciting.",
-      "energy_level": "high"
+      "setlist_flow": "High‑octane, seamless flow with a daring Throwing Stones → Day Job segue and relentless energy throughout both sets."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -48,7 +46,34 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T09:54:45.195057+00:00",
+    "song_mentions": {
+      "Shakedown Street": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Scar-Fire (Scarlet Begonias > Fire on the Mountain)": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "All over now": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Throwing Stones": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Day Job": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T01:57:45.547256+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-20.sbd.miller.77482.sbeok.flac16"
   }

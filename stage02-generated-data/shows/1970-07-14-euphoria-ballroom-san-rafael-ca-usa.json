@@ -203,52 +203,51 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Acoustic gems shine, Cosmic Charlie dazzles; electric set uneven",
-    "blurb": "Rare acoustic numbers like How Long Blues, Deep Elem and Cumberland Blues dominate a relaxed first set. The second half delivers highlights such as Cosmic Charlie, a funky China Cat → I Know You Rider transition, and a solid closing with Uncle John's Band despite some electric mix issues.",
-    "review": "July 14 1970 at the Euphoria Ballroom captures the Dead in a uniquely balanced mood. The first set is an acoustic treasure trove – the band rolls out seldom‑heard gems like How Long Blues, Deep Elem Blues and Cumberland Blues before launching into a bright New Speedway Boogie where Jerry’s classic tone glows. The second set picks up the electric charge with a standout Cosmic Charlie that really “smokes,” while the China Cat Sunflower → I Know You Rider segue erupts in funky, high‑in‑the‑mix percussion from Mickey and Bill. Though the mix on the electric side suffers occasional buzzing and a few cuts (Casey Jones, Easy Wind), the overall performance remains compelling, capped by an uplifting Uncle John's Band encore.\n\nTwo soundboard sources give us slightly different pictures: the “unknown” SBD (gd1970-07-14.sbd.unknown.96628.sbeok.shnf) offers crisp, warm 1970‑era fidelity with only minor glitches, making it the go‑to listen for the full show’s flow. The Cotsman SBD adds a raw edge and highlights the guest‑jam vibe on the acoustic side but is marred by buzzing on the electric numbers. For most Deadheads looking to soak in this rare acoustic‑electric hybrid, the first recording provides the cleanest window into what made this night special.",
+    "summary": "Rare acoustic gems, strong Cosmic Charlie, but mix hiccups.",
+    "blurb": "The show delivers a rare acoustic set highlighted by How Long Blues and deep‑elm jams, then erupts into electric fireworks with a monster Cosmic Charlie. China>Rider and The Other One provide high‑energy peaks, though mix issues and missing cuts mar the flow.",
+    "review": "July 14, 1970 at the Euphoria Ballroom captures one of those oddball Dead nights where acoustic tradition meets psychedelic surge. After opening with folk‑rock staples like Don't Ease Me In and Dire Wolf, the band slipped into a seldom‑heard acoustic segment featuring a plaintive How Long Blues and a rolling Deep Elem Blues that showcase Garcia’s warm, classic tone. The second half flips the switch – New Speedway Boogie launches a high‑octane electric set where China>Rider and a thunderous The Other One roar through the room, only to be undercut by mix problems that dull the clarity of tracks like Casey Jones and the buzzing on the later numbers. Cosmic Charlie stands out as a monster jam, and despite missing portions of Easy Wind and Good Lovin', the energy stays high. The night closes with an inspired Uncle John's Band encore, leaving fans with a memorable blend of rarity and raw power.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.8,
+      "ai_rating": 3.2,
       "confidence": "high",
       "rating_calculation": {
         "base_rating": 2.5,
-        "review_count_total": 16,
+        "review_count_total": 17,
         "review_count_boost": 0.1,
-        "sentiment_adjustment": 1.2,
-        "final_calculation": "2.5 + 0.1 + 1.2 = 3.8"
+        "sentiment_adjustment": 0.6,
+        "sentiment_rationale": "One recording is clearly positive, praising the acoustic set and Cosmic Charlie; the other is mixed, noting significant mix/buzzing issues on the electric half. Overall sentiment leans mildly positive, yielding a modest +0.6 adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.6 = 3.2"
       }
     },
     "best_recording": {
       "identifier": "gd1970-07-14.sbd.unknown.96628.sbeok.shnf",
-      "reason": "Crisp, balanced soundboard capture with minimal glitches; best represents both acoustic and electric portions."
+      "reason": "Good‑quality soundboard capture with crisp drums and classic Garcia tone; includes the rare acoustic set and strong Cosmic Charlie despite a few missing cuts."
     },
     "key_highlights": [
-      "Rare acoustic set featuring How Long Blues, Deep Elem Blues, and Cumberland Blues.",
-      "Cosmic Charlie delivers a smoking performance that stands out in the second set.",
-      "Funky percussion on the China Cat Sunflower → I Know You Rider transition.",
-      "Strong encore with Uncle John's Band despite some electric mix issues."
+      "Rare acoustic segment featuring How Long Blues and Deep Elem Blues.",
+      "Monster jam on Cosmic Charlie that drives the second half.",
+      "High‑energy China>Rider and The Other One jams offset mix problems.",
+      "Missing portions of Easy Wind and Good Lovin' interrupt flow."
     ],
     "song_highlights": [
       "How Long Blues",
-      "Deep Elem Blues",
-      "Cumberland Blues",
-      "New Speedway Boogie",
       "Cosmic Charlie",
+      "New Speedway Boogie",
       "China Cat Sunflower",
       "I Know You Rider",
       "The Other One",
       "Uncle John's Band"
     ],
     "band_performance": {
-      "Jerry": "Classic guitar tone shines on New Speedway Boogie and How Long Blues; adds tasteful electric touches on acoustic tunes.",
-      "Phil": "Long solo in the cut Good Lovin' praised; bass‑drum interplay highlighted, with his part high in the mix throughout.",
-      "Bob": "Takes his time on El Paso delivering a unique vocal feel; slower Weir numbers noted but not detracting from overall flow.",
+      "Jerry": "Garcia’s classic tone shines on the rare acoustic How Long Blues and he powers through New Speedway Boogie with gusto.",
+      "Phil": "Delivers an extended, high‑energy solo in Good Lovin' and locks tightly with the drummers throughout the set.",
+      "Bob": "Provides a unique vocal take on El Paso, taking his time with the lyrics for added character.",
       "Brent": "",
-      "Mickey": "Drums are high and lively, delivering funky percussion on China Cat → I Know You Rider and thick‑nice textures on The Other One.",
-      "Billy": "Provides the smoking, energetic backbone alongside Mickey; drums sit prominently in the mix throughout."
+      "Mickey": "Drums are ‘smoking’ and high‑in‑the‑mix, driving the intensity of Cosmic Charlie and The Other One with thick 1970‑style power.",
+      "Billy": "Shares the heavy, thick drum sound that propels the electric jams, especially evident on The Other One."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-12T05:08:26.695603+00:00",
+    "processed_date": "2025-09-12T20:06:42.919858+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -256,20 +255,14 @@
         "How Long Blues"
       ],
       [
-        "Deep Elem Blues"
-      ],
-      [
-        "Cumberland Blues"
-      ],
-      [
-        "New Speedway Boogie"
-      ],
-      [
         "Cryptical Envelopment",
         "Drums",
         "The Other One",
         "Cryptical Envelopment",
         "Cosmic Charlie"
+      ],
+      [
+        "New Speedway Boogie"
       ],
       [
         "China Cat Sunflower",

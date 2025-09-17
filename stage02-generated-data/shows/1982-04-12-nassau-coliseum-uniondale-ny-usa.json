@@ -196,45 +196,82 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy set with soaring Peggy‑O, extended Sugaree and tight rhythm",
-    "blurb": "The Nassau Coliseum show delivers a smoking Peggy‑O, an expansive Sugaree with an impressive guitar break, and a cohesive second‑set flow highlighted by Estimated Prophet and Stella Blue. The band locks in from the first beat, with crisp drum work and solid bass underpinning Jerry’s inspired lead work.",
-    "review": "What unfolds at Nassau Coliseum on April 12 1982 is a quintessential early‑‘80s Dead performance—bright, tight, and brimming with moments that still sparkle. The first set kicks off with an uplifting Iko Iko before moving into a soaring Peggy‑O where Garcia’s lead lines seem to float above the mix, a feeling echoed throughout the night. Bird Song follows with lyrical phrasing that feels both sprightly and heartfelt, setting up a tight “Mama Tried” segue into Mexicali Blues and a crisp, swinging Deal. The second set launches from a playful Man Smart, Woman Smarter straight into Sugaree, where an extended guitar break showcases Garcia’s improvisational fire while Brent’s keyboards add texture and vocal harmonies. Estimated Prophet rolls in with a propulsive groove that carries the band into Uncle John’s Band and then through the classic drum‑and‑space excursion before landing on The Other One, Stella Blue and a blazing Sugar Magnolia to close out the main set. An enthusiastic Satisfaction encore caps a night where the rhythm section—Mickey and Bill—remain locked in, and Phil’s bass provides a sturdy, punchy foundation throughout.",
+    "summary": "Vibrant set with soaring Peggy‑O, Sugaree & tight rhythm",
+    "blurb": "The April 12 1982 Nassau Coliseum show delivers a fiery Peggy‑O, bright Bird Song and a soulful Sugaree that lift both sets. Jerry’s guitar shines throughout while Brent’s keyboards lock in, and the dual‑drummer groove stays crisp. The Charlie Miller soundboard capture offers a clear, balanced listening experience.",
+    "review": "On April 12, 1982 at Nassau Coliseum the Dead were on a roll, rolling out a setlist that crackles with energy from the opening “Iko Iko” through a tight‑shut “Deal”. Highlights include an almost‑floating Jerry Garcia on “Peggy‑O”, a soaring duet with Brent Mydland on “Bird Song”, and a deep‑groove “Sugaree” that rolls into a soulful “Stella Blue”. The second set builds momentum with a surprising “Estimated Prophet” segue into “Uncle John’s Band”, a thunderous “The Other One”, and a jubilant finish with “Sugar Magnolia” and the encore “(I Can’t Get No) Satisfaction”. Across multiple recordings the band is praised for tight rhythm, crisp drums, and Brent’s consummate keyboard work. While some audience tapes lose instrument detail, the Miller soundboard (gd1982-04-12.sbd.miller.95638.sbeok.flac16) provides the cleanest mix, capturing every nuance of this vibrant performance.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.2,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 35,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "Five of nine recordings are explicitly positive, praising guitar work, standout songs and tight rhythm; four are mixed but contain no consistent negative criticism. This yields a strong overall positive sentiment, warranting a moderate‑high adjustment.",
+        "final_calculation": "2.5 + 0.3 + 1.4 = 4.2"
+      }
     },
     "best_recording": {
       "identifier": "gd1982-04-12.sbd.miller.95638.sbeok.flac16",
-      "reason": "Crisp soundboard with excellent drum presence and clear mix captures the high‑energy performance and standout songs in full detail"
+      "reason": "Crisp Charlie Miller soundboard capture with excellent drum definition, clear mix and full representation of the show's standout moments."
     },
     "key_highlights": [
-      "Smoking Peggy‑O with soaring Garcia lead work",
-      "Extended Sugaree guitar break that showcases improvisational fire",
-      "Stellar Estimated Prophet and seamless segues through the second set",
-      "Tight, crisp drumming and solid bass keep the band locked in"
+      "Peggy‑O delivers a soaring vocal/guitar moment that lifts the first set.",
+      "Sugaree and Stella Blue provide deep emotional peaks in the second set.",
+      "Estimated Prophet transitions seamlessly into Uncle John’s Band, showcasing tight ensemble play.",
+      "The dual‑drummer groove stays crisp throughout, especially on The Other One."
     ],
     "song_highlights": [
       "Peggy-O",
       "Bird Song",
       "Sugaree",
-      "Estimated Prophet",
       "Stella Blue",
-      "Sugar Magnolia",
+      "Estimated Prophet",
       "Uncle John's Band",
-      "The Other One"
+      "Sugar Magnolia",
+      "Iko Iko",
+      "Mexicali Blues"
     ],
     "band_performance": {
-      "Jerry": "On‑fire guitar throughout, especially on Peggy‑O and the Sugaree break; lyrical solos on Bird Song; a brief wobble after the set break but quickly regains his groove.",
-      "Phil": "Steady, punchy bass that anchors the jams; well‑balanced in the mix and provides low‑end power on Estimated Prophet and The Other One.",
-      "Bob": "Vocals solid on Sugaree and Estimated Prophet, adding character; occasional slur noted but overall contributes to the band’s playful mood.",
-      "Brent": "Professional keyboard work with tasteful fills; vocal harmonies lock tightly with Jerry on Bird Song and add depth throughout the set.",
-      "Mickey": "Drums crisp and present, delivering a solid rhythmic foundation that drives the high‑energy moments.",
-      "Billy": "Locked in with Mickey from the outset, providing a tight, propulsive beat that underpins the entire performance."
+      "Jerry": "Fiery, lyrical guitar work shines on Peggy‑O, Bird Song and Sugaree; a brief unsteady moment after the set break resolves into strong second‑set playing.",
+      "Phil": "Well‑balanced bass that sits solidly in the mix; noted for bomb‑dropping lines that drive the groove.",
+      "Bob": "Vocals range from slurred on one track to melodic support on Estimated Prophet and The Other One, generally adding mood‑filled texture.",
+      "Brent": "Consummate keyboard prowess with vocal harmonies; locks tightly with Jerry during Bird Song duet and adds depth throughout the set.",
+      "Mickey": "Crisp, powerful drumming that defines the rhythm section; highlighted as a saving grace on the more uneven recordings.",
+      "Billy": "Solid rhythmic foundation alongside Mickey; locked in from the outset, reinforcing the band’s tight groove."
     },
     "processed_recordings": 8,
-    "processed_date": "2025-09-07T06:27:36.879627+00:00",
+    "processed_date": "2025-09-13T20:03:29.762875+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Peggy-O"
+      ],
+      [
+        "Bird Song"
+      ],
+      [
+        "Man Smart, Woman Smarter",
+        "Sugaree"
+      ],
+      [
+        "Estimated Prophet",
+        "Uncle John's Band",
+        "Drums",
+        "Space",
+        "The Other One",
+        "Stella Blue",
+        "Sugar Magnolia"
+      ],
+      [
+        "Iko Iko"
+      ],
+      [
+        "Mama Tried",
+        "Mexicali Blues"
+      ]
+    ]
   }
 }

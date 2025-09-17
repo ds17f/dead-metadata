@@ -16,36 +16,47 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clean soundboard capture of a classic ’82 set with Jerry’s soaring licks, a jam‑heavy Terrapin Station and a smoking Scarlet > Fire transition.",
-    "review": "The recording is praised for its crystal‑clear soundboard quality, though one reviewer notes a slight tape‑speed increase that pushes the mix a bit fast and slightly recesses Phil’s bass. Musically the show shines – Jerry delivers tremendous licks, Terrapin Station stretches into an epic jamfest and the Scarlet > Fire segue is described as “sick,” making it a high‑energy highlight of a classic 1982 performance.",
+    "summary": "Clean soundboard capture of a classic ’82 performance highlighted by a smoking Scarlet > Fire transition and stellar Jerry Garcia leads.",
+    "review": "The set delivers a quintessential early‑’80s Dead experience with towering Jerry licks, a marathon Terrapin jam and an almost 12‑minute Scarlet > Fire that fans rave about. The recording is praised for its crystal‑clear soundboard quality, though one reviewer notes a slight speed/balance oddity and another points out a setlist metadata mismatch.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
-      "confidence": "high",
-      "rationale": "All reviewers rate the show 4–5 stars, highlighting strong musicianship and an excellent clean soundboard, with only minor comments about speed/balance that keep the rating just below perfect."
+      "stars": 4.4,
+      "confidence": "medium",
+      "rationale": "Reviewers consistently praise the musical performance (standout jams, great transitions) and rate the audio as very clean, with only minor complaints about speed/balance and metadata, leading to a strong overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Very clean and crisp; reviewers call it “the kind of soundboard you seek.” One note mentions a half‑step fast playback and slight balance issues, but overall the audio is clear and listenable."
+      "technical_notes": "Very clean and crisp soundboard recording; some listeners note it sounds slightly fast and the mix balance could be tighter. No major drop‑outs, but setlist metadata in the player is incorrect."
     },
     "show_quality": {
       "standout_songs": [
-        "Terrapin Station",
-        "Scarlet > Fire"
+        "Scarlet > Fire",
+        "Terrapin"
       ],
       "poor_songs": [],
-      "setlist_flow": "Classic ’82 flow with a jam‑heavy Terrapin that stretches nearly 12 minutes and a seamless, deliberate transition from Scarlet to Fire; overall the set feels tight yet adventurous.",
-      "energy_level": "high"
+      "setlist_flow": "The show flows strongly with highlighted jams and seamless transitions, especially the long Scarlet > Fire sequence; overall a classic ’82 set."
     },
     "band_member_comments": {
-      "Jerry": "Tremendous licks noted; Jerry is “digging it” throughout the performance.",
-      "Phil": "Bass sits a bit in the background, likely due to mix and the slightly fast tape speed.",
+      "Jerry": "Tremendous licks and tone praised throughout the performance.",
+      "Phil": "Relegated to a background role in the mix, making his presence less noticeable.",
       "Bob": "",
-      "Keys": "Brent’s keyboards are perfectly matched to the jams, adding subtle texture.",
-      "Drums": "Subtle yet deliberate drumming highlighted by reviewers."
+      "Keys": "Brent's keyboards are described as perfectly matched and integral to the jams.",
+      "Drums": "Subtle yet deliberate drumming noted during transitions."
     },
-    "processed_date": "2025-09-07T09:55:12.780974+00:00",
+    "song_mentions": {
+      "Scarlet > Fire": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Terrapin": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T01:58:30.769344+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-09-20.set2-sbd.miller.18113.sbeok.shnf"
   }

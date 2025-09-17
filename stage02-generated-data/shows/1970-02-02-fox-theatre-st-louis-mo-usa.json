@@ -149,41 +149,50 @@
     "daves-picks-vol-6"
   ],
   "ai_show_review": {
-    "summary": "Monumental Dark Star with high‑energy Mason’s Children, crisp SBD",
-    "blurb": "The set is anchored by a soaring Dark Star that showcases Jerry’s stellar tone, followed by a tight transition into Saint Stephen and Mason’s Children. Good Lovin’ and Uncle John’s Band round out a high‑energy performance. The soundboard capture is crystal clear, making this early‑70s show a standout gem.",
-    "review": "On February 2, 1970 at St. Louis’ Fox Theatre the Dead delivered an unforgettable early‑70s statement. After a solid opening stretch of classics, the band launched into a monumental Dark Star that has been described as “beautiful,” “smoking” and “transcendent.” Garcia’s lead work shines throughout, while Phil Lesh’s bass underpins the improvisation with inspired, lock‑step grooves. The jam segues seamlessly into Saint Stephen and then bursts into the high‑octane Mason’s Children, a transition reviewers call fluid and evidence of the group “clearly on a roll.” The set continues with a spirited Good Lovin’ and an exuberant Uncle John’s Band before winding down through two turns of Turn On Your Lovelight and a gentle And We Bid You Good Night. Across all six soundboard sources the audio is praised for its crystal‑clear, balanced mix—especially the Vernon SBD, which captures every nuance of the performance with excellent resolution despite a brief cut in Mason’s Children. This show stands out as a peak‑era snapshot of the Dead’s early ’70s evolution.",
+    "summary": "Epic Dark Star marathon with tight St. Stephen → Mason's flow",
+    "blurb": "The set is anchored by a marathon Dark Star that showcases Garcia’s smoking solo and tight interplay with Phil. A seamless Saint Stephen → Mason’s Children transition keeps the momentum high, while Good Lovin’, Uncle John’s Band and a double Turn On Your Lovelight round out a powerful performance.",
+    "review": "On February 2, 1970 at St. Louis’ Fox Theatre the Dead delivered one of their most memorable early‑70 shows. The night is defined by an almost twenty‑minute Dark Star that has been described as “epic,” “transcendent,” and “smoking” – a true showcase for Garcia’s improvisational fire, with Phil Lesh locking in tight bass lines and Bob Weir adding shining moments throughout the jam. The band then rolls straight into Saint Stephen and Mason’s Children without missing a beat, creating a seamless flow that many reviewers call a “powerful set.” After the centerpiece, the group drives through Good Lovin’, Uncle John’s Band, and a double Turn On Your Lovelight medley that keeps the energy high to the very end. While a few recordings note an audible edit on Mason’s Children or occasional tape artifacts, the overall performance is consistently praised for its intensity and cohesion, making this show a standout entry in the early‑70 catalog.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.3,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 39,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Strong positive sentiment across multiple recordings: descriptors like “epic Dark Star,” “smoking solo,” “transcendent,” and consistent praise for the St. Stephen → Mason’s Children flow indicate a highly regarded performance. No recurring negative comments about musical execution were found, only mixed remarks about audio quality.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd70-02-02.sbd.vernon.10374.sbeok.shnf",
-      "reason": "Excellent soundboard with crystal‑clear, balanced mix; captures the full Dark Star and Mason’s Children with only a minor cut, making it the clearest representation of the show."
+      "reason": "Excellent soundboard capture with crystal‑clear fidelity; preserves the epic Dark Star and overall set flow despite a brief edit on Mason’s Children."
     },
     "key_highlights": [
-      "Dark Star – a 45‑minute epic that anchors the entire performance",
-      "Seamless Saint Stephen → Mason's Children transition showcases high energy",
-      "Good Lovin' and Uncle John's Band deliver a powerful, uplifting finish",
-      "Crystal‑clear soundboard capture preserves early ’70 intensity"
+      "Marathon Dark Star that showcases Garcia’s transcendent soloing.",
+      "Seamless Saint Stephen → Mason’s Children transition keeps momentum high.",
+      "Tight interplay between Jerry and Phil during the extended jam.",
+      "Energetic second half featuring Good Lovin’, Uncle John’s Band and a double Turn On Your Lovelight."
     ],
     "song_highlights": [
       "Dark Star",
       "Saint Stephen",
       "Mason's Children",
       "Good Lovin'",
-      "Uncle John's Band"
+      "Uncle John's Band",
+      "Turn On Your Lovelight"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers a breathtaking Dark Star solo with beautiful tone, described as smoking and transcendent, anchoring the show.",
-      "Phil": "Lesh’s bass is inspired and locks in tightly, contributing to the ‘perfect’ band feel noted by reviewers.",
-      "Bob": "Weir adds strong rhythm work and shines during key moments of the long Dark Star jam.",
-      "Brent": "",
+      "Jerry": "Garcia delivers a smoking, transcendent solo on Dark Star and drives the improvisational fire throughout the set.",
+      "Phil": "Lesh provides tight, supportive bass work that interlocks perfectly with Garcia during the marathon jam.",
+      "Bob": "Weir contributes notable moments within the extended Dark Star and adds solid rhythm throughout.",
+      "Pigpen": "A Pigpen tribute is noted in the liner notes for Turn On Your Lovelight; otherwise his presence is low‑key on this show.",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 6,
-    "processed_date": "2025-09-11T23:11:01.292247+00:00",
+    "processed_date": "2025-09-12T14:12:16.334729+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -195,6 +204,11 @@
       [
         "Good Lovin'",
         "Uncle John's Band"
+      ],
+      [
+        "Turn On Your Lovelight",
+        "Not Fade Away",
+        "Turn On Your Lovelight"
       ]
     ]
   }

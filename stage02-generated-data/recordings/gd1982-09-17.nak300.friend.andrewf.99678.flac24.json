@@ -16,27 +16,26 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Fans rave about the show—highlighting Dupree's Diamond Blues and Morning Dew—with no clear info on recording source but an overall enjoyable listening experience.",
-    "review": "Both reviewers gave high marks, praising the energy of the performance and calling it a great show with memorable moments like Dupree's Diamond Blues and Morning Dew. No specific comments about the audio quality were provided, so the recording’s technical merits remain uncertain.",
+    "summary": "Positive show featuring a strong Dupree Diamond Blues and a memorable Morning Dew; recording quality not specified",
+    "review": "Both reviewers enjoyed the concert, highlighting Dupree Diamond Blues and Morning Dew as standout moments. No concrete details about the audio source or sound quality were provided, leaving the technical side unclear.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "medium",
-      "rationale": "Both reviews are positive (4‑5 stars) and mention strong musical moments; lack of recording detail prevents a higher rating, but overall enjoyment suggests a solid show."
+      "rationale": "Both reviews are favorable (5 and 4 stars) and mention strong performances, but there is no information on recording quality, so rating leans on show quality."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "Reviewers did not discuss sound quality, clarity, or mixing, leaving the technical assessment ambiguous."
+      "technical_notes": "Reviewers did not comment on sound clarity, mix, or source type."
     },
     "show_quality": {
       "standout_songs": [
-        "Dupree's Diamond Blues",
+        "Dupree Diamond Blues",
         "Morning Dew"
       ],
       "poor_songs": [],
-      "setlist_flow": "Listeners recall a solid set with memorable highlights; no specific criticism of pacing or transitions was mentioned.",
-      "energy_level": "high"
+      "setlist_flow": "Enthusiastic remarks suggest a generally enjoyable set with no noted pacing problems."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -45,7 +44,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T09:43:17.241473+00:00",
+    "song_mentions": {
+      "Dupree Diamond Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T01:40:42.606112+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-17.nak300.friend.andrewf.99678.flac24"
   }

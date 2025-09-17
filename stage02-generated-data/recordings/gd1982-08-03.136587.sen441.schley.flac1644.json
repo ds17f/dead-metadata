@@ -16,36 +16,47 @@
   "high_ratings": 3,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Great‑sounding recording of an ’82 show with a stunning “He’s Gone” and a beautiful “Stella Blue”, though the band sounds a bit fatigued.",
-    "review": "The tape captures a solid, clear sound that most listeners describe as crisp and enjoyable. Musically the night shines on “He’s Gone” and “Stella Blue,” but several reviewers note a tired vibe and rough vocals from Jerry, giving the performance a mixed energy overall.",
+    "summary": "Crystal‑clear recording highlights a beautiful “He’s Gone” and a stellar “Stella Blue,” but the band sounds tired and uneven.",
+    "review": "The FLAC capture is praised for its clarity and balance, delivering an especially moving rendition of “He’s Gone” and a soaring “Stella Blue.”  While several fans call the night awesome, one reviewer notes rough vocals, lyric flubs and a generally fatigued feel, making the performance feel mixed overall.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.9,
-      "confidence": "high",
-      "rationale": "Three out of four reviews are very positive (4‑5 stars) praising the recording and highlight songs, while one review (2 stars) criticizes the band’s performance; weighted average yields a strong but not perfect rating."
+      "confidence": "medium",
+      "rationale": "Strong recording quality (high‑fidelity sound) boosts the score, but divergent show impressions (some calling it epic, others mediocre) keep the overall rating just below four stars."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "good",
-      "technical_notes": "Listeners repeatedly call the sound great and crisp with no major drop‑outs or distortion mentioned."
+      "technical_notes": "Reviewers repeatedly describe the audio as great‑sounding, crisp and beautiful; no dropout or mix issues are mentioned."
     },
     "show_quality": {
       "standout_songs": [
-        "He’s Gone",
+        "He's Gone",
         "Stella Blue"
       ],
       "poor_songs": [],
-      "setlist_flow": "The concert flows well with emotional peaks, though some feel the band sounded fatigued and a bit sloppy at times.",
-      "energy_level": "medium"
+      "setlist_flow": "The set is described as an epic ’82 night with moments of magic, yet the band sounded tired and some vocals/lyrics were shaky, creating a mixed‑feel overall."
     },
     "band_member_comments": {
-      "Jerry": "Rough, sore‑throat vocals noted by one reviewer; praised for beautiful delivery on Stella Blue and strong guitar tone elsewhere.",
+      "Jerry": "Vocal roughness from a sore throat; flubs lyrics but delivers an emotional “Stella Blue.”",
       "Phil": "",
-      "Bob": "Flubbed lyrics mentioned alongside Jerry’s vocal issues.",
+      "Bob": "Flubs lyric lines alongside Jerry.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T08:19:56.211752+00:00",
+    "song_mentions": {
+      "He's Gone": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stella Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T23:08:23.598550+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-08-03.136587.sen441.schley.flac1644"
   }

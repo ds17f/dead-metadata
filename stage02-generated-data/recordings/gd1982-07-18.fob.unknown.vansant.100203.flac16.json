@@ -16,36 +16,52 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crystal‑clear FOB recording captures a high‑energy Ventura show highlighted by a thundering “Loser” and a powerful “Ramble On Rose.”",
-    "review": "The front‑of‑house tape delivers impressive upfront sound, great presence and clear bass, with only an isolated cut in “Ramble On Rose” that has been patched in later versions. Musically the show is praised as a top‑10 favorite, driven by Jerry’s soaring solo on “Loser,” Phil’s booming bass, and an overall tight, high‑energy performance.",
+    "summary": "Up‑front audience tape with clear, present sound captures a tight Ventura show highlighted by a stellar \"Loser\" and solid \"Cassidy\", despite a brief cut in \"Ramble On Rose\".",
+    "review": "The recording delivers an upfront, well‑balanced sound with good bass presence, making the performance feel vivid. The concert is praised for its tight playing and especially for a powerful rendition of \"Loser\" (and a nicely jammed \"Cassidy\"), while the only notable flaw is a short edit in \"Ramble On Rose\". Overall the show ranks among many reviewers' favorites.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Consistently strong positive comments about both the musical performance and the sound quality; only minor technical issues noted, yielding a rating in the good‑to‑excellent range."
+      "rationale": "Most reviewers gave 4‑5 stars and highlighted both excellent musical performance and good audio quality; only minor technical complaints (a cut) were noted, leading to a strong combined rating."
     },
     "recording_quality": {
-      "source_type": "soundboard",
-      "quality_rating": "excellent",
-      "technical_notes": "Up‑front clarity, strong presence and balanced bass; one cut in “Ramble On Rose” that was later patched. Overall crisp and listenable FOB mix."
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Up‑front presence and clarity with solid bass; a brief edit/cut around 5:35 in \"Ramble On Rose\"; some debate over tape origin but overall clear and listenable."
     },
     "show_quality": {
       "standout_songs": [
         "Loser",
-        "Ramble On Rose"
+        "Cassidy"
       ],
       "poor_songs": [],
-      "setlist_flow": "Tight, well‑sequenced set with strong transitions; the performance feels cohesive and energetic throughout.",
-      "energy_level": "high"
+      "setlist_flow": "The set is described as tight and powerful, with a particularly strong second‑half highlight on \"Loser\"; overall pacing keeps the energy high throughout."
     },
     "band_member_comments": {
-      "Jerry": "Solo on “Loser” described as thundering, haunting and a favorite among listeners.",
-      "Phil": "Bass work on “Loser” called “bass bombs,” adding power to the performance.",
+      "Jerry": "His solo on \"Loser\" is repeatedly praised as haunting and thundering.",
+      "Phil": "Bass work on \"Loser\" receives special commendation for its bombs and irreverent flair.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T07:27:07.638243+00:00",
+    "song_mentions": {
+      "Ramble On Rose": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Cassidy": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Loser": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      }
+    },
+    "processed_date": "2025-09-13T21:40:44.779686+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-07-18.fob.unknown.vansant.100203.flac16"
   }

@@ -210,45 +210,81 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Greek Theatre set with standout Deal, Tennessee Jed and China>Rider",
-    "blurb": "The May 22, 1982 Greek show bursts with tight playing from the opening Jack Straw through a rippin' Deal solo. Highlights include a soaring China Cat Sunflower → I Know You Rider jam, lazy lightning → Supplication segue, and an inspired Tennessee Jed performance. The Charlie Miller soundboard capture delivers crystal‑clear detail across the full set.",
-    "review": "What unfolds at Berkeley's Greek Theatre is a quintessential early‑80s Dead outing—high voltage from the first note to the final U.S. Blues encore. Jerry Garcia rides a wave of inspiration, delivering what reviewers call \"the most rippin'\" Deal solo and an inventive Tennessee Jed narrative, while his guitar tone stays smoking throughout the night. Phil Lesh anchors the band with clear, punchy bass that shines in the jam‑heavy second set, especially on the seamless China Cat Sunflower → I Know You Rider transition. Brent Mydland adds soulful texture on Never Trust A Woman and Good Times Blues, and his vocal reverb rounds out the mix. The rhythm duo of Bill Kreutzmann and Mickey Hart stays solid and tight, providing a steady foundation for the band’s exploratory flights, even as Bob Weir navigates a quirky intro to Man Smart, Woman Smarter before settling back into his usual groove. Across multiple recordings the show is praised for its high energy, flawless transitions, and especially the first‑set fire‑starter Jack Straw that sets the tone for an engaging two‑hour journey.",
+    "summary": "Tight high‑energy Greek run with rippin Deal solo & flawless jams",
+    "blurb": "The show delivers a scorching first set highlighted by Jack Straw, Deal and a tight Lazy Lightning > Supplication jam. Jerry’s guitar is on fire throughout, while Phil and the dual drummers lock in with crisp precision. The Charlie Miller soundboard capture offers crystal‑clear audio, making this a must‑listen Greek Theatre performance.",
+    "review": "May 22, 1982 at Berkeley’s Greek Theatre finds the Dead in peak form, firing on all cylinders from the opening of Jack Straw through a blistering second set that never loses its momentum. Jerry Garcia delivers one of his most rippin Deal solos ever heard and strings together clever, story‑like narratives on Tennessee Jed, while his vocals are described as strong and crystal clear. Phil Lesh’s bass shines with a prominent, clean presence that perfectly matches the tight, confident drumming of Mickey Hart and Bill Kreutzmann, creating a rhythm section that feels \"superbly tight\" throughout. Brent Mydland adds soulful depth on Never Trust A Woman (Good Times Blues) and his vocal reverb is praised for its warmth. Highlights include an immaculate Lazy Lightning > Supplication transition, a seamless China Cat Sunflower > I Know You Rider segue, and a powerful Jack Straw that many reviewers call electrifying. The Charlie Miller SBD master captures the performance with crystal‑clear balance, free of dropouts, delivering a listening experience that feels both intimate and expansive – a definitive document of one of the Dead’s high‑energy early‑’80s runs.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.5,
-      "confidence": "high"
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 46,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All six analyzed recordings carry a positive sentiment, repeatedly praising the tightness, high energy, and standout moments (Deal solo, Jack Straw, Lazy Lightning > Supplication, China Cat Sunflower > Rider). No negative comments about performance appear, just minor recording quirks. Consistent acclaim across multiple sources warrants a strong positive adjustment.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd1982-05-22.sbd.miller.96331.sbeok.flac16",
-      "reason": "Charlie Miller's soundboard mix is praised as crystal‑clear, well‑balanced and captures the full set without dropouts."
+      "reason": "Crystal‑clear Charlie Miller soundboard capture with excellent balance, no dropouts, and highlights of the show’s key moments."
     },
     "key_highlights": [
-      "Jack Straw opens with a tight, high‑energy performance that sets the night on fire",
-      "Deal solo described as \"the most rippin'\" of the tour, showcasing Jerry's lead work",
-      "Lazy Lightning → Supplication segue delivers a soulful jam and seamless transition",
-      "China Cat Sunflower → I Know You Rider is a soaring, melodic highlight in the second set"
+      "Tight, high‑energy performance that never loses momentum",
+      "Rippin Deal solo and flawless Lazy Lightning > Supplication jam",
+      "Electrifying Jack Straw and seamless China Cat Sunflower > I Know You Rider transition",
+      "Crystal‑clear soundboard recording offering an immersive listening experience"
     ],
     "song_highlights": [
       "Jack Straw",
+      "Sugaree",
       "Deal",
       "Tennessee Jed",
       "Lazy Lightning",
       "Supplication",
       "China Cat Sunflower",
       "I Know You Rider",
-      "Not Fade Away"
+      "Never Trust A Woman",
+      "Cumberland Blues"
     ],
     "band_performance": {
-      "Jerry": "Delivers a rippin' Deal solo, inventive Tennessee Jed lead, and consistently smoking guitar tone throughout the show.",
-      "Phil": "Provides clear, punchy bass with occasional \"bombs\"; locks in tightly with Jerry during high‑energy moments.",
-      "Bob": "Vocal performance mixed—solid overall but a momentary stumble on Man Smart, Woman Smarter; adds penny‑whistle texture in Space.",
-      "Brent": "Offers soulful keyboard textures and vocal depth on Never Trust A Woman and Good Times Blues; enhances the jam flow.",
-      "Mickey": "",
-      "Billy": "Drums stay tight and steady, forming a reliable backbone despite occasional mix level cuts."
+      "Jerry": "Rippin Deal solo, clever Tennessee Jed narrative, strong vocals, and inspiring guitar work that fires on all cylinders throughout the night.",
+      "Phil": "Prominent, clean bass presence that locks tightly with the drums, delivering \"good Phil\" moments across the set.",
+      "Bob": "Solid vocal contributions and notable penny‑whistle accents during Space, maintaining strong form throughout.",
+      "Brent": "Soulful delivery on Never Trust A Woman (Good Times Blues) with praised vocal reverb and overall keyboard support.",
+      "Mickey": "Tight, confident drumming that helps drive the high‑energy flow of both sets.",
+      "Billy": "Sharp, cohesive percussion that pairs perfectly with Mickey to create a superbly tight rhythm section."
     },
     "processed_recordings": 6,
-    "processed_date": "2025-09-07T07:09:14.581911+00:00",
+    "processed_date": "2025-09-13T21:15:53.332026+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Jack Straw"
+      ],
+      [
+        "Sugaree"
+      ],
+      [
+        "Lazy Lightning",
+        "Supplication",
+        "Deal"
+      ],
+      [
+        "Tennessee Jed"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ],
+      [
+        "Never Trust A Woman"
+      ],
+      [
+        "Cumberland Blues"
+      ]
+    ]
   }
 }

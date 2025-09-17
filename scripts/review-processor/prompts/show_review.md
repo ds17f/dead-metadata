@@ -42,6 +42,7 @@ Respond with a JSON object matching this exact structure:
       "review_count_total": 156,
       "review_count_boost": 0.4,
       "sentiment_adjustment": 1.6,
+      "sentiment_rationale": "Strong positive sentiment across multiple recordings: 'legendary performance', 'on fire', 'must-listen'. Guest appearances by Duane Allman and Peter Green consistently praised. No significant negative criticism noted.",
       "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
     }
   },
@@ -116,9 +117,10 @@ Use the new review-weighted rating system that addresses rating inflation:
 
 4. **Calculation Transparency**: Always include the rating_calculation breakdown showing:
    - **base_rating**: Always 2.5
-   - **review_count_total**: Total reviews across ALL recordings for this show
-   - **review_count_boost**: The boost amount applied (0.1, 0.2, 0.3, 0.4, or 0.5)
-   - **sentiment_adjustment**: The sentiment points added/subtracted
+   - **review_count_total**: Total reviews across ALL recordings for this show (use pre-calculated value provided)
+   - **review_count_boost**: The boost amount applied (use pre-calculated value provided)
+   - **sentiment_adjustment**: The sentiment points added/subtracted based on your analysis
+   - **sentiment_rationale**: Explain why the sentiment_adjustment was applied based on specific evidence from the recording analyses (positive/negative language patterns, consistency across sources, specific performance issues or highlights mentioned)
    - **final_calculation**: String showing the math (e.g., "2.5 + 0.4 + 1.6 = 4.5")
 
 **Key Principle**: Be honest about show quality by properly weighting negative feedback. If multiple recordings note performance issues, the show rating must reflect this reality rather than emphasizing only highlights.

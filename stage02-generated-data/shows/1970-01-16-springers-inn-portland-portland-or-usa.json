@@ -198,71 +198,59 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Alligator→Eleven jam shines; Easy Wind lifts second set",
-    "blurb": "Highlights include a smoking Alligator → Drums → The Eleven sequence and an outstanding Easy Wind. The band delivers tight early‑70 set work with a fiery China Cat Sunflower → I Know You Rider transition, despite a few tape cuts of Cumberland Blues.",
-    "review": "Portland’s Springer's Inn on Jan 16, 1970 captured the Dead in a classic early‑70 groove. The first set kicks off with a tight run through Casey Jones and Mama Tried before launching into a smoking Alligator → Drums → The Eleven jam that showcases Jerry’s crisp tone and the dual drummers’ kinetic energy. A concise Death Don't Have No Mercy rounds out the first half, while the second set lifts off with a blistering China Cat Sunflower → I Know You Rider and rolls into solid renditions of Dire Wolf, Uncle John’s Band (complete with a witty intro from Phil) and an uplifting Easy Wind that carries the show to its climactic The Other One/cryptical envelopment finale. Though the early tape suffers a couple of cuts on Cumberland Blues, the overall soundboard capture is clear, balanced, and lets the band’s tight interplay shine.",
+    "summary": "Hot second half with China>Rider fire and strong Uncle John's intro",
+    "blurb": "The show builds momentum in the latter set, delivering a fiery China Cat Sunflower > I Know You Rider sequence and standout renditions of Easy Wind, Dire Wolf and Uncle John's Band. Jerry’s crisp intro and the dual‑drum jam propel The Other One into an extended climax. Early‑set feels rushed but the second half shines.",
+    "review": "Portland’s Springer's Inn on January 16, 1970 captures a young Dead in the midst of finding its groove. While the first set runs a bit thin and hurried, the second set erupts with energy – the classic China Cat Sunflower > I Know You Rider segue is “really digging” and feels fresh, and Jerry’s intro to Uncle John's Band is highlighted as a bright moment that even ties back to his Morning Dew comment. The band rolls through Easy Wind and Dire Wolf with gusto, then launches into an extended Cryptical Envelopment → Drums → The Other One jam where Mickey and Bill lock in a propulsive double‑drum groove. Overall the performance is solid, especially in its latter half, making it a must‑listen for early‑70 fans despite a slightly uneven opening.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.4,
-      "confidence": "high"
+      "ai_rating": 4.5,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 50,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Both recordings are marked positive, consistently praising key moments (China>Rider, Uncle John's intro, strong second‑half jams) and offering no negative remarks about the performance. The uniform enthusiasm across sources warrants a strong positive adjustment.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd70-01-16.sbd.popi.7111.sbeok.shnf",
-      "reason": "Clear soundboard mix with excellent instrument separation; only minor tape cuts, making it the most listenable and complete version."
+      "reason": "Cleanest restored soundboard, especially shines on the second half where the key jams and Uncle John's intro are most vivid; complete show with no drop‑outs."
     },
     "key_highlights": [
-      "Smoking Alligator → Drums → The Eleven jam sequence that locks the band in a high‑energy groove.",
-      "Fiery China Cat Sunflower → I Know You Rider transition highlighting Phil’s bass clarity and Jerry’s lead work.",
-      "Standout Easy Wind in the second set lifts the mood and showcases tight group dynamics.",
-      "Phil’s witty intro to Uncle John’s Band adds humor while his bass shines throughout."
+      "Fiery China Cat Sunflower > I Know You Rider sequence that drives the early energy",
+      "Extended Cryptical Envelopment → Drums → The Other One jam showcasing dual‑drum power",
+      "Jerry’s crisp intro to Uncle John's Band and strong vocal delivery",
+      "Second‑half momentum with hot renditions of Easy Wind, Dire Wolf and the full Uncle John's Band"
     ],
     "song_highlights": [
-      "Alligator",
-      "Drums",
-      "The Eleven Jam",
-      "Death Don't Have No Mercy",
-      "Easy Wind",
       "China Cat Sunflower",
       "I Know You Rider",
-      "Dancin' In The Street",
+      "Easy Wind",
       "Dire Wolf",
       "Uncle John's Band",
       "The Other One"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s tone is clear and great, delivering standout lead work in the Eleven jam, a soaring intro to Uncle John’s Band, and tight playing on China Cat Sunflower.",
-      "Phil": "Licks of bass clarity are noted, especially on China Cat Sunflower → I Know You Rider, and his witty spoken intro to Uncle John’s Band adds character.",
-      "Bob": "Only referenced for spoken introductions; no specific performance remarks were made.",
+      "Jerry": "Delivers a crisp intro to Uncle John's Band and is \"really digging\" the China>Rider segue, showing early‑70 fire.",
+      "Phil": "",
+      "Bob": "",
       "Brent": "",
-      "Mickey": "Both drummers receive strong praise; the drum segment is described as great and drives the Eleven jam and later The Other One sequence.",
-      "Billy": "Solid rhythmic work noted throughout, especially in the Alligator → Drums transition and second‑set jams."
+      "Mickey": "Provides a propulsive rhythmic foundation during the Cryptical > Drums > The Other One jam.",
+      "Billy": "Locks in with Mickey to drive the extended jam, adding depth and drive to the second‑set climax."
     },
-    "processed_recordings": 3,
-    "processed_date": "2025-09-11T22:29:53.865045+00:00",
+    "processed_recordings": 2,
+    "processed_date": "2025-09-12T13:35:16.886145+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "Alligator",
-        "Drums",
-        "The Eleven Jam",
-        "Death Don't Have No Mercy"
-      ],
-      [
-        "Drums",
-        "The Other One",
-        "Cryptical Envelopment",
-        "Cosmic Charlie"
-      ],
-      [
-        "Easy Wind"
-      ],
       [
         "China Cat Sunflower",
         "I Know You Rider"
       ],
       [
-        "Dancin' In The Street"
+        "Easy Wind"
       ],
       [
         "Me And My Uncle",
@@ -270,6 +258,12 @@
       ],
       [
         "Uncle John's Band"
+      ],
+      [
+        "Drums",
+        "The Other One",
+        "Cryptical Envelopment",
+        "Cosmic Charlie"
       ]
     ]
   }

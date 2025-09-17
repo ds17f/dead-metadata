@@ -16,29 +16,31 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑energy vintage show with standout performances of Lovelight, Speedway Boogie and a ripping China>Rider jam; recording is clean enough for enjoyment.",
-    "review": "Fans rave about the hard‑charging playing right to the final note of \"Lovelight\" and hail this as their favorite version of \"Speedway Boogie\" complete with the 'Nobody's Fault' jam. The set also delivers a ripping Schoolgirl, New Speedway and an inspired China>Rider sequence, making it a solid vintage performance despite one reviewer’s disappointment that \"Cold Jordan\" was absent.",
+    "summary": "Solid soundboard capture of a vintage‑style set featuring ripping Schoolgirl, New Speedway and a standout Speedway Boogie, though Cold Jordan is missed.",
+    "review": "The show is praised for its high energy – the band plays hard through the closing \"Lovelight,\" delivers an exceptional version of \"Speedway Boogie\" with the infamous “nobody’s fault” jam, and rip‑off renditions of \"Schoolgirl,\" \"New Speedway\" and the \"China > Rider\" sequence. Recording quality is not specifically mentioned but the SBD source suggests a clear, well‑mixed capture; the only noted drawback is the absence of a hoped‑for \"Cold Jordan.\"",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
-      "confidence": "medium",
-      "rationale": "Three enthusiastic reviews (average 4.7 stars) praise the musical performance; no recording‑quality complaints, so a strong overall rating is justified."
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "Three enthusiastic reviews (average 4.7 stars) highlight many standout performances and no recording complaints, indicating a strong show with good technical capture."
     },
     "recording_quality": {
-      "source_type": "unknown",
+      "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "No specific comments on sound quality; absence of criticism suggests the recording is at least listenable."
+      "technical_notes": "No specific audio issues mentioned; SBD source implies clear, balanced mix."
     },
     "show_quality": {
       "standout_songs": [
         "Lovelight",
         "Speedway Boogie",
-        "New Speedway",
         "Schoolgirl",
-        "China>Rider"
+        "New Speedway",
+        "China > Rider"
       ],
-      "poor_songs": [],
-      "setlist_flow": "The set is described as hard‑driving and full of vibrant jams, with strong transitions especially in the China>Rider sequence."
+      "poor_songs": [
+        "Cold Jordan"
+      ],
+      "setlist_flow": "Energetic first half leading into a hard‑driving close on \"Lovelight\"; second set highlighted by tight jams and vintage vibes."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -58,23 +60,28 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "New Speedway": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
       "Schoolgirl": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "China>Rider": {
+      "New Speedway": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
+      },
+      "China > Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cold Jordan": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T02:51:28.148345+00:00",
+    "processed_date": "2025-09-12T17:56:33.674608+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-14.sbd-electric.clugston.7604.shnf"
   }

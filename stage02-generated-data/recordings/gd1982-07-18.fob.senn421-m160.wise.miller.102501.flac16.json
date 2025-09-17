@@ -16,36 +16,49 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent audience tape of a high‑energy show that cooks, highlighted by a smoking “Loser” and breakout “Crazy Fingers.”",
-    "review": "The recording is an audience capture praised as one of the best ever heard – surprisingly clear despite the backstage‑hacking setup. Musically the concert is described as “cooking,” with a powerful Loser solo, Phil’s booming bass run, and a standout Crazy Fingers jam that keep the energy high throughout.",
-    "sentiment": "mixed",
+    "summary": "Excellent audience recording that captures a fire‑filled performance highlighted by a smashing \"Loser\" and the funky \"Crazy Fingers\".",
+    "review": "The tape is praised as one of the best audience recordings, delivering crystal‑clear sound that makes listeners feel like they're in the venue. Musically the show shines, with most fans raving about the powerhouse \"Loser\" jam and the inventive \"Crazy Fingers\", though one reviewer called the same version of \"Loser\" horrendous.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.7,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show 4‑5 stars and praise both performance and tape quality; only a couple of low‑star comments exist, so the weighted average is high."
+      "rationale": "Strong, mostly five‑star praise for both performance and audio capture; recording is lauded as excellent while the show receives high marks despite a single negative comment."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "excellent",
-      "technical_notes": "Listeners note exceptionally clear audience recording with well‑placed mics and minimal bleed; no major dropouts or muffiness reported."
+      "technical_notes": "Audience tape recorded with wired equipment backstage; reviewers describe it as crystal‑clear, immersive and among the best audience recordings available."
     },
     "show_quality": {
       "standout_songs": [
         "Loser",
         "Crazy Fingers"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Consistently high energy from start to finish, with the band staying loose and fun; transitions flow naturally.",
-      "energy_level": "high"
+      "poor_songs": [
+        "Loser"
+      ],
+      "setlist_flow": "No specific comments on overall set pacing; reviewers focus on the energy of individual jams, especially \"Loser\" and \"Crazy Fingers\"."
     },
     "band_member_comments": {
-      "Jerry": "Solo on Loser described as great, adding to the overall fire of the performance.",
-      "Phil": "Bass run on Loser called a “killer solo” that punctuates the song.",
+      "Jerry": "",
+      "Phil": "Multiple reviewers highlight Phil Lesh's killer bass runs and solo during \"Loser\".",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T07:28:05.818374+00:00",
+    "song_mentions": {
+      "Loser": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "total_mentions": 4
+      },
+      "Crazy Fingers": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-13T21:42:39.711650+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-07-18.fob.senn421-m160.wise.miller.102501.flac16"
   }

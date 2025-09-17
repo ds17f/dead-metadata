@@ -16,18 +16,18 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording of decent quality captures a mixed show highlighted by an extended Sugaree guitar break and solid drumming, but the overall performance feels uneven.",
-    "review": "The SBD source is relatively clean for an early‑'80s tape, with a good mix though the bass and vocals can be a touch hot. Musically the concert is uneven – a short first set and a long break give way to a second set that some listeners found bland, yet Sugaree’s extended guitar solo and Stella’s strong intro/outro stand out, and the drummers provide the night’s saving grace.",
+    "summary": "Soundboard recording is decent for the era, but the show is uneven – Sugaree and Stella shine while overall performance feels lackluster.",
+    "review": "The SBD source captures a respectable mix with a slightly hot bass/vocal balance, typical of early‑'80s recordings. Musically the concert is mixed: the second‑set Sugaree and Stella receive praise, drums are highlighted as the saving grace, yet many songs are described as bland and the first set unusually short. Listener sentiment ranges from disappointment to modest appreciation.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.3,
+      "stars": 2.9,
       "confidence": "medium",
-      "rationale": "Show quality is average to below‑average (≈3/5) while recording quality is good (≈4/5); weighted combination yields ~3.3 stars."
+      "rationale": "Show quality is judged below average based on two negative reviews and one neutral, while the recording is viewed as decent; weighted combination yields a ~3‑star rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Relatively good mix for the period; bass and vocals a bit hot but clearer than many 81‑82 SBDs, no major dropouts reported."
+      "technical_notes": "Relatively good mix for the period; bass and vocals slightly hot but overall clear and listenable."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,17 +35,38 @@
         "Stella"
       ],
       "poor_songs": [],
-      "setlist_flow": "First set unusually short (six songs) followed by a long 45‑minute break; second set felt flat to some listeners despite a few strong moments.",
-      "energy_level": "medium"
+      "setlist_flow": "First set unusually short (six songs) followed by a long break; second set considered impressive in parts but overall described as bland, with drums providing the main highlight."
     },
     "band_member_comments": {
-      "Jerry": "Noted for an extended, impressive guitar break on Sugaree and solid playing on Stella.",
+      "Jerry": "Extra‑good guitar break noted on Sugaree.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Highlighted as the saving grace of an otherwise bland performance."
+      "Drums": "Drums segment praised as the saving grace of the show."
     },
-    "processed_date": "2025-09-07T06:24:29.697743+00:00",
+    "song_mentions": {
+      "Sugaree": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stella": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Iko Iko": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Drums": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T19:59:14.076240+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-04-12.sbd.miller.tetzeli.fix-32014.35160.reflac.flac16"
   }

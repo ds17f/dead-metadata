@@ -203,46 +203,53 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Smoking St. Stephen > Midnight Hour and soulful Baby Blue",
-    "blurb": "The second set rides a hot groove from Saint Stephen into Not Fade Away and In The Midnight Hour before closing with an emotionally resonant It's All Over Now Baby Blue. Jerry’s guitar tone is flawless and his vocals are unusually sweet on the acoustic numbers, while Pigpen adds church‑y organ depth. Highlights include Black Peter, Swing Low (Sweet Chariot) and a soaring acoustic set.",
-    "review": "On June 4 1970 at the Fillmore West the Dead delivered a scorching second half that still feels fresh today. After a solid first set of roots‑rock and folk‑flavored numbers, they launched into a blistering Saint Stephen → Not Fade Away → In The Midnight Hour sequence that showcases tight drumming from Mickey and Bill and Jerry’s perfect‑tone lead work. Pigpen’s organ swells on the heartfelt It's All Over Now Baby Blue, complementing Jerry’s warm vocals. The acoustic interludes shine as well – Black Peter receives a sweet vocal treatment, and Swing Low (Sweet Chariot) glows with intimate group dynamics. Overall the night is marked by tight jams, seamless segues, and a balance of electric fire and acoustic warmth.",
+    "summary": "St. Stephen > Not Fade Away > Midnight Hour shines; soulful vocals throughout",
+    "blurb": "The set features a soaring St. Stephen > Not Fade Away > In The Midnight Hour suite and tight acoustic highlights such as Swing Low (Sweet Chariot). Jerry’s voice is clear and emotive, Pigpen adds a church‑y organ flavor, and the drummers drive crisp, energetic transitions. Overall the performance is tight, varied, and highly recommended.",
+    "review": "June 4 1970 at the Fillmore West captures the Dead in a period of both acoustic intimacy and electric firepower. The first set rolls through folk‑rock staples—Monkey And The Engineer, Deep Elem Blues, Friend Of The Devil—and builds to an inspired acoustic moment with Swing Low (Sweet Chariot) and Black Peter, where Jerry’s vocals are described as “sweet, lovely, and exceptionally clear.”  After a brief NRPS interlude the second set erupts: China Cat Sunflower seamlessly segues into I Know You Rider, then Attics Of My Life, before launching into a breathtaking St. Stephen > Not Fade Away > In The Midnight Hour sequence that many reviewers call “electrifying” and “drum‑driven.”  Pigpen’s organ adds a spooky, church‑y texture while Bob Weir’s guitar sits high in the mix with “superb noodling,” and both Mickey Hart and Bill Kreutzmann provide crisp, tight drumming that propels the jams.  The Miller soundboard capture is praised for its excellent clarity—guitars front‑center, bright organ, and clean vocals—making it the definitive way to experience this legendary Fillmore night.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.8,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 32,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Four recordings describe the show in glowing terms (e.g., “excellent,” “stellar,” “electrifying”) while one is mixed; overall sentiment is strongly positive, warranting a high adjustment.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd70-06-04.sbd.miller.12135.sbeok.shnf",
-      "reason": "High‑quality soundboard capture with clear guitars, crisp drums and well‑balanced organ/vocals; the most complete and clean source."
+      "reason": "Excellent soundboard source with crystal‑clear guitars, crisp drums and bright organ; captures the full show without gaps and highlights the standout St. Stephen > Not Fade Away > Midnight Hour sequence."
     },
     "key_highlights": [
-      "Smoking Saint Stephen > Not Fade Away > In The Midnight Hour sequence",
-      "Soulful vocal performance on It's All Over Now Baby Blue",
-      "Acoustic set shines with Black Peter and Swing Low (Sweet Chariot)",
-      "Pigpen’s church‑y organ adds depth, especially on the Baby Blue finale"
+      "St. Stephen > Not Fade Away > In The Midnight Hour suite showcases tight, drum‑driven transitions",
+      "Acoustic gems Swing Low (Sweet Chariot) and Black Peter feature sweet, clear vocals",
+      "Pigpen’s organ adds a distinctive “churchy” texture throughout the set",
+      "Miller SBD delivers excellent clarity, making it the most complete listening experience"
     ],
     "song_highlights": [
       "Saint Stephen",
       "Not Fade Away",
       "In The Midnight Hour",
-      "It's All Over Now Baby Blue",
       "China Cat Sunflower",
       "I Know You Rider",
       "Attics Of My Life",
       "Swing Low (Sweet Chariot)",
-      "Monkey And The Engineer",
-      "Black Peter"
+      "Black Peter",
+      "It's All Over Now Baby Blue"
     ],
     "band_performance": {
-      "Jerry": "Delivers flawless guitar tone and unusually sweet vocal delivery; his lead work on the Saint Stephen jam and acoustic numbers is highlighted as perfect‑tone and emotionally resonant.",
+      "Jerry": "Vocals are sweet, clear and emotionally resonant—especially on Baby Blue and the acoustic numbers; he also adds tasteful pedal‑steel touches during the NRPS set.",
       "Phil": "",
-      "Bob": "",
-      "Brent": "Pigpen’s organ provides a church‑y, soulful texture, especially on \"It’s All Over Now Baby Blue\"; while some tapes have it low in the mix, his playing remains vibrant throughout.",
-      "Mickey": "Drums are crisp and tight, driving the high‑energy second set and adding a \"non‑country country\" flavor on the NRPS segment.",
-      "Billy": "Locks in with Mickey for a solid rhythmic foundation; overall drum work is described as crisp and supportive of the band’s dynamic flow."
+      "Bob": "Guitar sits high in the mix with superb noodling; his lead work is tight and contributes heavily to the energy of the electric jams.",
+      "Brent": "",
+      "Mickey": "Drumming described as crisp, tight and ‘decidedly non‑country country,’ driving the transitions and adding power to the second set.",
+      "Billy": "Locks in tightly with Mickey, providing a solid rhythmic foundation that keeps the jam flow smooth."
     },
     "processed_recordings": 5,
-    "processed_date": "2025-09-12T03:39:13.392628+00:00",
+    "processed_date": "2025-09-12T18:46:56.616430+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -250,9 +257,6 @@
         "Saint Stephen",
         "Not Fade Away",
         "In The Midnight Hour"
-      ],
-      [
-        "It's All Over Now Baby Blue"
       ],
       [
         "China Cat Sunflower",
@@ -265,10 +269,10 @@
         "Swing Low (Sweet Chariot)"
       ],
       [
-        "Monkey And The Engineer"
+        "Black Peter"
       ],
       [
-        "Black Peter"
+        "It's All Over Now Baby Blue"
       ]
     ]
   }

@@ -16,36 +16,38 @@
   "high_ratings": 15,
   "low_ratings": 5,
   "ai_review": {
-    "summary": "A fair‑quality audience tape that still delivers a high‑energy 1970 performance – think scorching China > Rider > High Time, a monster Lovelight and a blistering The Other One.",
-    "review": "Despite the inevitable hiss, pops and occasional crowd‑over‑the‑band moments of this AUD recording, the music shines.  The show is praised for its relentless intensity, especially the China > Rider > High Time sequence, the epic Lovelight, and a ferocious The Other One, with most reviewers calling it a must‑listen for Deadheads who can look past the sonic flaws.  Overall the performance outweighs the technical limitations.",
+    "summary": "A good‑quality audience tape that delivers a high‑energy 1970 performance highlighted by a scorching China > Rider > High Time, epic Lovelight and blistering Not Fade Away.",
+    "review": "Despite the inherent limitations of an early‑70s AUD, the recording is listenable enough to showcase one of the band’s most intense shows – tight transitions, ferocious jams and standout moments like Black Peter, China > Rider > High Time and a marathon Lovelight. Reviewers rave about Jerry’s searing guitar, Phil’s bass drive and the unstoppable drummers, while noting the tape’s occasional hiss, pops and pitch quirks.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.0,
       "confidence": "high",
-      "rationale": "The majority of reviewers (30+) give 3‑5 stars and highlight outstanding musical moments, while repeatedly noting that the audio is only listenable but not pristine; this yields a strong show rating tempered by fair recording quality."
+      "rationale": "Most reviewers praise the musical performance (many 4‑5 star comments) while acknowledging consistent but tolerable audio flaws; weighted average yields a solid four‑star rating."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "fair",
-      "technical_notes": "Typical AUD issues – hiss, crackles, splices, occasional crowd chatter louder than the band, and a few drop‑outs.  Still considered listenable for the era."
+      "quality_rating": "good",
+      "technical_notes": "Audible hiss, occasional pops, splices and pitch issues are noted, but the tape remains listenable with clear instrument separation; no soundboard source available."
     },
     "show_quality": {
       "standout_songs": [
         "Black Peter",
         "China > Rider > High Time",
-        "The Other One",
         "Lovelight",
-        "Not Fade Away"
+        "The Other One",
+        "Not Fade Away",
+        "Good Lovin'",
+        "Dire Wolf"
       ],
       "poor_songs": [],
-      "setlist_flow": "Reviewers rave about the seamless, high‑octane transitions – especially the China > Rider > High Time jam and the NFA → Drums → Good Lovin' → The Other One → NFA → Lovelight sequence – which give the concert a relentless forward momentum."
+      "setlist_flow": "The set flows with high‑octane transitions – a fiery China > Rider > High Time, followed by an extended NFA/Drums/Good Lovin'/The Other One/Lovelight sequence that keeps the energy relentless."
     },
     "band_member_comments": {
-      "Jerry": "His voice is described as “pretty” and “emotional” on Black Peter; guitar work called fast, furious and burning on China/Rider and The Other One.",
-      "Phil": "Bass lines praised for ‘machine‑gun’ intensity into Good Lovin' and driving the NFA/Drums groove.",
-      "Bob": "Noted for “burning guitar work” that lights up the road during the China > Rider segment.",
-      "Keys": "Pigpen’s vocal power highlighted throughout; occasional organ solos missing but his vocal showmanship is strong, especially on Lovelight.",
-      "Drums": "Mickey and Bill described as “stomping like a tribe” with the drum break considered ‘ON’ by several reviewers."
+      "Jerry": "Multiple reviewers highlight his scorching guitar tone, fast‑paced solos and emotive vocals on Black Peter and High Time.",
+      "Phil": "Praised for a ‘machine‑gun’ bass intro into Good Lovin' and overall driving low end throughout the jams.",
+      "Bob": "Noted for burning rhythm/lead work during China > Rider and contributing to the high‑energy feel.",
+      "Keys": "Pigpen’s vocal power is repeatedly mentioned; organ solos are sparse but his presence is felt.",
+      "Drums": "Mickey and Bill receive enthusiastic praise for a tribal, powerful drum segment that propels the NFA/Drums sequence."
     },
     "song_mentions": {
       "Black Peter": {
@@ -58,15 +60,15 @@
         "negative_mentions": 0,
         "total_mentions": 4
       },
-      "The Other One": {
-        "positive_mentions": 3,
-        "negative_mentions": 0,
-        "total_mentions": 3
-      },
       "Lovelight": {
         "positive_mentions": 6,
         "negative_mentions": 0,
         "total_mentions": 6
+      },
+      "The Other One": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
       },
       "Not Fade Away": {
         "positive_mentions": 2,
@@ -82,9 +84,14 @@
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
+      },
+      "High Time": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
       }
     },
-    "processed_date": "2025-09-12T00:46:28.416044+00:00",
+    "processed_date": "2025-09-12T15:52:32.614622+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-03-07.aud.hanno.6156.sbeok.shnf"
   }

@@ -16,34 +16,37 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Matrix recording with a crummy audience first set but stellar soundboard later, featuring a monster \"Other One\" and standout jams like Good Lovin' and St. Stephen.",
-    "review": "The show shines thanks to an inspired setlist and high‑energy performances – the extended Other One, a 21‑minute Good Lovin', and a ripping St Stephen > Not Fade Away are repeatedly praised. Recording quality is mixed: the early audience‑sourced portion sounds muddy, but once the soundboard kicks in (Me & My Uncle onward) the mix becomes crisp and the band’s nuances come through clearly.",
+    "summary": "Mixed audience‑board recording but the show shines with a monster Other One, stellar St Stephen > Not Fade Away, and high‑energy Me & My Uncle.",
+    "review": "The performance is highly praised – highlights include an epic The Other One, a ripping St. Stephen > Not Fade Away sequence, great Me & My Uncle, Operator and a soaring Cryptical Envelopment into Brokedown Palace. Recording quality is uneven: the first set suffers from crummy audience tape, while the second half switches to a clean soundboard source that sounds almost perfect.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Strong musical performance highlighted by several reviewers outweighs the initial recording flaws; the later soundboard segment is excellent, leading to an overall high rating."
+      "rationale": "Most reviewers rate the musical performance very highly (4‑5 stars) and cite several standout jams, while recording quality is mixed but improves dramatically in the second half, yielding an overall strong rating."
     },
     "recording_quality": {
       "source_type": "matrix",
-      "quality_rating": "good",
-      "technical_notes": "First set captured from audience mic – muddy and crummy. Soundboard feed starts around \"Me & My Uncle\" delivering crisp, clear mix with Phil's bass loud and Jerry’s guitar prominent."
+      "quality_rating": "fair",
+      "technical_notes": "First set recorded from the audience – muffled and noisy; second half captured from the soundboard with crisp clarity and excellent balance."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One",
-        "Good Lovin'",
         "St. Stephen > Not Fade Away",
+        "Good Lovin'",
+        "Me & My Uncle",
         "Operator",
+        "Cryptical Envelopment",
+        "Brokedown Palace",
         "Sugar Magnolia",
         "Casey Jones"
       ],
       "poor_songs": [],
-      "setlist_flow": "Energetic first half despite recording issues, followed by a superb second half where the band locks into long jams and tight playing; song selection praised as outstanding."
+      "setlist_flow": "Early audience tape captures raw crowd energy but sounds thin; once the board kicks in the set flows powerfully with tight jams and high‑energy transitions, especially in the second half."
     },
     "band_member_comments": {
-      "Jerry": "Multiple reviewers rave about Jerry’s unleashed solo work – especially his opening St. Stephen tease and the powerful \"Other One\" jam.",
-      "Phil": "Phil’s bass comes through loud and clear on the soundboard portion, noted as a highlight of the early 1970 recordings.",
+      "Jerry": "Praised for letting loose on The Other One and delivering an exhilarating St. Stephen solo with perfect tone.",
+      "Phil": "Noted as loud and clear even through the audience recording; bass work described as tight and prominent.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
@@ -54,12 +57,17 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
+      "St. Stephen > Not Fade Away": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
       "Good Lovin'": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "St. Stephen > Not Fade Away": {
+      "Me & My Uncle": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
@@ -70,17 +78,27 @@
         "total_mentions": 1
       },
       "Sugar Magnolia": {
-        "positive_mentions": 2,
+        "positive_mentions": 1,
         "negative_mentions": 0,
-        "total_mentions": 2
+        "total_mentions": 1
       },
       "Casey Jones": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
+      },
+      "Cryptical Envelopment": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Brokedown Palace": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T05:56:20.347794+00:00",
+    "processed_date": "2025-09-12T20:53:29.869035+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-09-18.set2.aud-sbd.sirmick.sbeok.30882.flacf"
   }

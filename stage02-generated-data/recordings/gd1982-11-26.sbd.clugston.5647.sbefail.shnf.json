@@ -16,36 +16,47 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a mixed‑energy show that opens with a quirky Jamaican intro before Sugaree and delivers a standout Scarlet Begonias moment.",
-    "review": "The recording is praised as the best‑sounding version among several SBD sources, offering clear board mix and no noticeable technical flaws. Fans recall a memorable Jamaican spoken introduction that leads straight into Garcia’s “Sugaree,” and many cite the “Scarlet Fire” (likely Scarlet Begonias) as a highlight, though some listeners felt the overall show was a bit of a bummer, resulting in mixed impressions of the performance.",
+    "summary": "Excellent soundboard recording with standout Scarlet Fire and Sugaree, though the show elicits mixed feelings among fans.",
+    "review": "The SBD capture is praised as the best‑sounding source of this concert, even including a quirky Jamaican intro that leads into Garcia’s “Sugaree.” While several reviewers name‑check “Scarlet Fire” and call the performance one of their favorites, another reviewer recalls the night being a disappointment, resulting in an overall mixed sentiment.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.5,
-      "confidence": "medium",
-      "rationale": "Recording quality is rated excellent, but show performance receives mixed feedback; weighted average yields a mid‑range rating."
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Most reviewers rate the recording highly and note superb sound quality; show comments are largely positive with one clear negative, yielding a solid but not flawless overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Described as the best sounding of four available sources; clear and balanced board mix with no reported dropouts or noise."
+      "technical_notes": "Described as the best‑sounding of multiple sources, crisp enough to include the pre‑show Jamaican intro; no dropout or muffling reported."
     },
     "show_quality": {
       "standout_songs": [
-        "Scarlet Begonias (referred to as Scarlet Fire)",
+        "Scarlet Fire",
         "Sugaree"
       ],
       "poor_songs": [],
-      "setlist_flow": "Starts with a humorous Jamaican spoken intro leading into Sugaree; overall set is remembered fondly by tape traders but some feel the show was a bit of a bummer.",
-      "energy_level": "medium"
+      "setlist_flow": "Unique Jamaican spoken intro leads directly into “Sugaree,” giving the show a memorable start; overall regarded as a favorite by tape traders despite one reviewer calling the night a bummer."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s launch into “Sugaree” after the Jamaican intro is specifically mentioned.",
+      "Jerry": "Garcia launches into “Sugaree” right after the funny Jamaican intro.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T10:38:53.146971+00:00",
+    "song_mentions": {
+      "Scarlet Fire": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugaree": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T03:22:44.321197+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-11-26.sbd.clugston.5647.sbefail.shnf"
   }

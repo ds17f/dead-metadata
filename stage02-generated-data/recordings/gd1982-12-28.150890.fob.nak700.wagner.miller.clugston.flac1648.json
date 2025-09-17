@@ -16,39 +16,99 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Front‑of‑board (FOB) recording delivers brilliant mids, crisp highs and solid bass with crystal‑clear cymbal detail, capturing a high‑energy set highlighted by Jack Straw, Terrapin Station and a soaring Morning Dew.",
-    "review": "The FOB tape offers an open, well‑balanced sound with excellent ride‑cymbal definition and a loud, clear PA mix. Musically the show is described as hot and tight from start to finish, featuring standout moments like Jack Straw, Shakedown Street, Terrapin Station and a surprise‑filled Morning Dew. Overall it’s a highly recommended download for Deadheads who value both superb audio fidelity and an energetic performance.",
+    "summary": "Front‑of‑board matrix capture with brilliant mids, crisp cymbals and a solid set that hits Terrapin Station, Shakedown Street and Morning Dew.",
+    "review": "The recording is a front‑of‑board (FOB) matrix taken on Nakamichi 700 tape, delivering an open sound with excellent mid‑range, highs and bass plus clear PA and cymbal definition. The show itself is praised as well‑played from start to finish, featuring standout moments like Terrapin Station, Shakedown Street, Not Fade Away and a surprise‑filled Morning Dew.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
-      "confidence": "medium",
-      "rationale": "The review praises both the recording (excellent FOB sound) and the show (high energy, many standout songs), resulting in a rating above average but based on a single detailed source."
+      "stars": 4.6,
+      "confidence": "low",
+      "rationale": "One detailed review gives high marks for both performance (strong song flow and many highlights) and technical quality (excellent FOB matrix sound), leading to a combined rating around 4½."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "matrix",
       "quality_rating": "excellent",
-      "technical_notes": "Front‑of‑board capture with open sound, brilliant mid‑range, clear highs and significant bass response; PA is loud and clear; ride cymbal bell and overall cymbal definition are exceptionally well reproduced."
+      "technical_notes": "FOB capture on Nakamichi 700 tape; open, bright mids, clear highs and solid bass. PA is loud and clear (likely mono) and cymbal definition – especially ride bell – is outstanding."
     },
     "show_quality": {
       "standout_songs": [
-        "Jack Straw",
-        "Shakedown Street",
         "Terrapin Station",
+        "Shakedown Street",
         "Not Fade Away",
         "Morning Dew"
       ],
       "poor_songs": [],
-      "setlist_flow": "First set mixes new and classic material with strong momentum; second set finds the groove, building to a quiet, mesmerized Terrapin Station and ending with high‑spirited encores.",
-      "energy_level": "high"
+      "setlist_flow": "First set mixes new and classic material with energy; second set finds a groove, building through Shakedown St., Samson and Terrapin Station before a high‑octane finish featuring Throwing Stones, Not Fade Away and a crowd‑loving Morning Dew."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Ride cymbal bell and overall cymbal definition are noted as exceptionally clear, a rare achievement with two drummers."
+      "Drums": "Cymbal definition is clear; ride cymbal bell audible throughout the show."
     },
-    "processed_date": "2025-09-07T10:53:29.757147+00:00",
+    "song_mentions": {
+      "Jack Straw": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "On the Road Again": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Touch of Grey": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dire Wolf": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lazy Lightening": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Deal": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Shakedown Street": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Samson": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Terrapin Station": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Throwing Stones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T03:43:22.423582+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-12-28.150890.fob.nak700.wagner.miller.clugston.flac1648"
   }

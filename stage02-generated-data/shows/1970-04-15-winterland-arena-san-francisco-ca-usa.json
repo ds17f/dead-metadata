@@ -157,44 +157,51 @@
     "30-trips-around-the-sun"
   ],
   "ai_show_review": {
-    "summary": "Monster Cryptical > Other One suite, tight jams, stellar drum work",
-    "blurb": "The show erupts with a massive Cryptical Envelopment → Drums → Jam → The Other One marathon that defines the night. Jerry’s guitar is on fire and Bill’s drumming reaches scorching heights, while the Lovelight‑Not Fade Away‑Lovelight sandwich adds classic Dead energy.",
-    "review": "Winterland on April 15 1970 delivered a single‑set marathon that still feels fresh for any Deadhead. From the opening “Cold Rain And Snow” through a flawless run of early material, the band launches into a legendary Cryptical Envelopment → Drums → Jam → The Other One sequence that showcases Jerry’s smoking tone and Bill Kreutzmann’s relentless percussion, with Mickey Hart adding depth to the fire‑sacrifice‑style drum jam. Pigpen’s organ and harmonica texture weaves through the set, especially in the Turn On Your Lovelight > Not Fade Away > Lovelight sandwich, while the crowd‑fueling “Dancin’ In The Street” caps a night of high‑octane improvisation. Every moment feels locked‑in – from Phil’s groovin’ bass foundation to Bob’s solid rhythm work – making this Winterland marathon a must‑listen for anyone wanting the raw power of early ’70 Dead.",
+    "summary": "Blazing Cryptical>Other One suite & Lovelight sandwich dominate",
+    "blurb": "The marathon set flows from a thunderous Cryptic Envelopment into an expansive Other One jam, highlighted by a fiery Drums‑Jam and a Lovelight/Not Fade Away/Lovelight sandwich. Jerry’s lead work is on fire, Pigpen shines on “It’s A Man’s World,” and the rhythm section drives nonstop high‑energy rock.",
+    "review": "Winterland on April 15, 1970 delivers one of the most electrifying marathon shows in Dead history. The band launches with a tight run through early material before diving into a seamless Cryptic Envelopment → Drums → Jam → The Other One sequence that reviewers call “astonishing” and “powerful,” with Jerry’s guitar wailing and the dual‑drum attack of Mickey and Bill turning the room into pure kinetic energy. Pigpen’s soulful lead on “It’s A Man’s World” and a scorching “Dancin’ In The Street” keep the groove rolling, while the Lovelight → Not Fade Away → Lovelight sandwich showcases tight vocal exchanges and Keith Godchaux’s tasteful organ work. Standout moments include the fiery “Candyman,” a thundering bass foundation from Phil on The Other One, and relentless energy that never lets up through the entire set. All three soundboard recordings are rated excellent, but the reel‑latvala capture is recommended for its superb fidelity and full‑show completeness.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.4,
-      "confidence": "high"
+      "ai_rating": 4.6,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 82,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.7,
+        "sentiment_rationale": "All three recordings are uniformly positive, repeatedly praising the Cryptic>Other One suite, Jerry’s lead work, Pigpen’s vocal/keyboard moments, and the powerful drums‑jam. No negative comments about performance appear, so a strong positive adjustment is applied.",
+        "final_calculation": "2.5 + 0.4 + 1.7 = 4.6"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-04-15.132734.sbd.reel.latvala-eaton-wise.flac16",
-      "reason": "Excellent soundboard capture with crisp, clear mix; only minor tape cuts, preserving the full marathon set and the monster Cryptical > Other One suite."
+      "reason": "Excellent soundboard with superb fidelity, captures the full marathon set and all highlighted jams without drop‑outs."
     },
     "key_highlights": [
-      "Monster Cryptical Envelopment → Drums → Jam → The Other One suite",
-      "Lovelight > Not Fade Away > Lovelight sandwich adds classic energy",
-      "Scorching drum jam praised as “the best drums I’ve heard”",
-      "Jerry’s lead work drives the extended jams with perfect tone"
+      "Monumental Cryptic Envelopment → Drums → Jam → The Other One suite",
+      "Lovelight → Not Fade Away → Lovelight sandwich that showcases vocal interplay and organ work",
+      "Pigpen’s soulful “It’s A Man’s World” and a ferocious “Dancin’ In The Street”"
     ],
     "song_highlights": [
       "Cryptical Envelopment",
-      "Drums*",
-      "Jam",
       "The Other One",
+      "Candyman",
+      "It's A Man's World",
+      "Dancin' In The Street",
       "Turn On Your Lovelight",
       "Not Fade Away",
-      "Dancin' In The Street",
-      "Candyman"
+      "Cold Rain And Snow"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s lead work is on fire – smoking tone, deliberate and creative, driving the extended jams from Cryptical through The Other One.",
-      "Phil": "Lesh provides a groovin’, thundering bass foundation that underpins the marathon improvisations.",
-      "Bob": "Weir offers solid rhythm‑guitar support, helping keep the band tightly locked together throughout the set.",
-      "Brent": "Pigpen’s organ and harmonica add gritty texture, especially in the Lovelight sandwich, blending seamlessly with the jam sections.",
-      "Mickey": "Hart adds depth to the scorching drum passages, complementing Bill’s intense percussive drive.",
-      "Billy": "Kreutzmann delivers a solid backbone and dynamic, fiery drumming that fuels the legendary drum‑jam segment."
+      "Jerry": "Wailing, smoking lead work with tight changes and sweet drops back into Cryptical; drives the jams forward.",
+      "Phil": "Thundering bass foundation on The Other One and grooving support throughout the set.",
+      "Bob": "Provides vocal exchanges during the Lovelight/NFA sandwich; solid rhythm guitar without criticism.",
+      "Brent": "",
+      "Mickey": "Part of the dual‑drum force that powers the Cryptic drum solo and jam, described as astonishing and powerful.",
+      "Billy": "Together with Mickey delivers the primal Drums‑Jam climax that fuels the high‑energy flow."
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-12T01:49:15.242894+00:00",
+    "processed_date": "2025-09-12T17:01:05.690101+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -207,15 +214,21 @@
         "Dire Wolf"
       ],
       [
-        "Turn On Your Lovelight",
-        "Not Fade Away",
-        "Turn On Your Lovelight"
+        "Candyman"
+      ],
+      [
+        "It's A Man's World"
       ],
       [
         "Dancin' In The Street"
       ],
       [
-        "Candyman"
+        "Turn On Your Lovelight",
+        "Not Fade Away",
+        "Turn On Your Lovelight"
+      ],
+      [
+        "Cold Rain And Snow"
       ]
     ]
   }

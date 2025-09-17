@@ -203,23 +203,30 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Blazing Shakedown Street segue into Terrapin suite and fierce Other One > Morning Dew",
-    "blurb": "The Spectrum show bursts open with a scorching Shakedown Street that launches into a Lost Sailor → Saint Of Circumstance → Terrapin Station suite. The second set stays locked in, delivering an epic Other One → Morning Dew marathon topped by a bright Sugar Magnolia. Across multiple sources the band is consistently described as \"on fire\" with tight rhythm and soaring leads.",
-    "review": "What unfolds at the Philadelphia Spectrum on April 6, 1982 is pure spring‑'82 electricity. The first set rolls through classics—Cold Rain And Snow, Candyman, Brown Eyed Women—and builds a warm groove that sets up a thunderous second half. Shakedown Street erupts with Brent’s piano weaving around Jerry’s blistering leads, then spins straight into Lost Sailor and Saint Of Circumstance before the band launches into an expansive Terrapin Station suite that feels both adventurous and tightly knit. After a generous drum‑space, the rhythm section drives The Other One into a soaring Morning Dew, where Jerry’s vocal urgency and Phil’s thundering bass shine brightest. The night closes on a joyous Sugar Magnolia and a heartfelt It’s All Over Now Baby Blue encore, leaving the crowd buzzing long after the lights went down. Across matrix, soundboard, and audience recordings the performance is uniformly praised for its high‑energy flow, stellar interplay, and Brent Mydland’s vivid keyboard textures that lift every jam.",
+    "summary": "Fiery Jerry, killer Brent, & a monster Shakedown‑Terrapin suite",
+    "blurb": "The Spectrum show builds from a tight first set into an explosive second set anchored by a seamless Shakedown Street → Lost Sailor → Saint Of Circumstance → Terrapin Station suite and a soaring The Other One → Morning Dew sequence. Jerry’s lead work is on fire, Brent’s keyboards dominate the mix, and the rhythm section drives with precision.",
+    "review": "April 6, 1982 at the Spectrum captured one of the Dead’s early‑’80s high points. From the opening “Cold Rain And Snow” through a rolling first set that kept the energy humming, the band turned up the heat in the second set, launching into an unforgettable Shakedown Street–Lost Sailor–Saint Of Circumstance–Terrapin Station suite that showcases Brent Mydland’s piano wizardry and Jerry Garcia’s blistering lead lines. The momentum never wanes, spilling into a marathon “The Other One” that morphs seamlessly into a heart‑rending “Morning Dew,” before closing with a jubilant “Sugar Magnolia.” Across every source the performance is described as “on fire,” “tight,” and “explosive,” making this night a benchmark for the era.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 4.5,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 87,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All seven recordings are marked positive; reviewers repeatedly praise the band’s fire, seamless segues, and standout moments (Shakedown‑Terrapin suite, The Other One → Morning Dew). No negative sentiment appears, so a strong positive adjustment is applied.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd1982-04-06.143370.sbd.mtx.wise.miller.clugston.mdmilhausen.flac1644",
-      "reason": "Matrix capture praised as crystal‑clear, perfectly balanced and widely regarded as the definitive version of this show"
+      "reason": "Matrix blend is crystal‑clear, flawless and captures the fire‑filled performance without dropouts; reviewers call it the best version of this show."
     },
     "key_highlights": [
-      "Scorching Shakedown Street that ignites a Lost Sailor → Saint Of Circumstance → Terrapin Station suite",
-      "Epic Other One → Morning Dew marathon with soaring vocals and thundering bass",
-      "Brent Mydland’s playful keyboard exchanges lift the second‑set jams",
-      "Consistently high‑energy flow throughout both sets, captured in excellent matrix recordings"
+      "Monster Shakedown Street → Lost Sailor → Saint Of Circumstance → Terrapin Station suite",
+      "Epic The Other One → Morning Dew sequence that caps the night",
+      "Jerry’s blazing Terrapin bridge solo and nonstop lead interplay with Brent"
     ],
     "song_highlights": [
       "Shakedown Street",
@@ -227,20 +234,35 @@
       "Saint Of Circumstance",
       "Terrapin Station",
       "The Other One",
-      "Morning Dew",
-      "Sugar Magnolia"
+      "Morning Dew"
     ],
     "band_performance": {
-      "Jerry": "Described as \"on fire\" with soaring leads on Shakedown, Terrapin bridge, and an emotive vocal performance on Morning Dew; his solos drive the jams.",
-      "Phil": "Thundering, funky bass that sits front‑and‑center in the mix, propelling both the Shakedown suite and the Other One/Dew sequence.",
-      "Bob": "Solid rhythm guitar foundation throughout; vocals stand out on The Promised Land and add weight to The Other One intro.",
-      "Brent": "Keyboard work shines with playful trading during Shakedown Street, rich textures in the Terrapin suite, and steady support across the set.",
-      "Mickey": "Dynamic drumming that anchors the long drum‑space and fuels the high‑energy transitions in the second set.",
-      "Billy": "Steady, driving pulse on the kit; complements Mickey with crisp fills that keep the jams tight."
+      "Jerry": "Garcia was blazing, delivering fiery leads, a standout Terrapin bridge solo and constant trading licks with Brent throughout the show.",
+      "Phil": "Lesh’s bass was front‑and‑center—funky, thundering on Morning Dew and driving the entire set with solid, melodic foundation.",
+      "Bob": "Weir provided strong vocal performances, notably on The Promised Land and other numbers, adding grit to the mix.",
+      "Brent": "Mydland’s keyboards were in top form—killing it on Shakedown Street, delivering piano‑driven brilliance during the Terrapin suite, and maintaining perfect levels throughout.",
+      "Mickey": "Hart added texture and nuance, especially in the extended drums/space segment that built tension before the second‑set peaks.",
+      "Billy": "Kreutzmann’s drumming was solid and dynamic, delivering a powerful drum break that propelled the high‑energy flow of the second set."
     },
     "processed_recordings": 7,
-    "processed_date": "2025-09-07T06:08:27.302115+00:00",
+    "processed_date": "2025-09-13T19:34:30.662316+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Shakedown Street"
+      ],
+      [
+        "Lost Sailor",
+        "Saint Of Circumstance",
+        "Terrapin Station",
+        "Drums",
+        "Space",
+        "Truckin'",
+        "The Other One",
+        "Morning Dew",
+        "Sugar Magnolia"
+      ]
+    ]
   }
 }

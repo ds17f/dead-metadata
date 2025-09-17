@@ -16,57 +16,59 @@
   "high_ratings": 9,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "High‑quality soundboard out‑take from DP 8 with stellar performances (Other One, Viola Lee Blues, Cold Rain & Snow) despite occasional tuning hiccups.",
-    "review": "The recording is a remastered soundboard source that generally sounds clear and benefits from a modest EQ boost; listeners note occasional mono electric sections and brief tuning issues. Musically the show shines – fans rave about an electrifying Other One, a favorite Viola Lee Blues, and a beloved Cold Rain & Snow that, even when out of tune, adds character to the set.",
+    "summary": "A high‑energy May 2 1970 Harpur College show shines with a monster Other One and Cold Rain & Snow, captured on a decent soundboard outtake that benefits from EQ.",
+    "review": "Fans rave about this early‑70 performance – the Other One, Viola Lee Blues, St. Stephen and especially the heartfelt but out‑of‑tune Cold Rain & Snow are repeatedly highlighted as standouts. The recording is a DP‑8 soundboard source; it’s generally clear and benefits from an EQ boost, though the electric set is in mono and occasional tuning hiccups give it a raw edge. Overall the show is considered a must‑listen despite its quirks.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers give 4‑5 stars and praise the performance; recording is described as good with minor quirks, leading to a strong combined score."
+      "rationale": "The majority of reviews praise the musical performance and list many standout songs, while noting only moderate recording issues (mono mix, need for EQ, tuning glitches). The strong show quality outweighs technical flaws."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear remastered soundboard, but listeners recommend EQ adjustments. Electric portion is in mono; occasional out‑of‑tune moments and SRS WOW distortion warnings are noted."
+      "technical_notes": "Crisp soundboard source; benefits from a boosted EQ. Electric portion is mono only, and some listeners note tuning noise and occasional distortion when using SRS‑WOW effects."
     },
     "show_quality": {
       "standout_songs": [
-        "The Other One",
+        "Other One",
         "Viola Lee Blues",
-        "Cold Rain and Snow",
-        "St. Stephen",
+        "Cold Rain & Snow",
+        "St Stephen",
         "Cosmic Charlie",
         "The Dew",
         "Man's World",
         "Dancin'"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Acoustic set (stereo) flows into a mono‑recorded electric set; the show is praised for its energy and seamless transitions, with highlights placed between Good Lovin' and Man's World."
+      "poor_songs": [
+        "Cold Rain & Snow"
+      ],
+      "setlist_flow": "The set moves smoothly through classic early‑70 jams, delivering powerful transitions and a climactic second half that fans describe as transcendent."
     },
     "band_member_comments": {
-      "Jerry": "Tuning issues noted on Cold Rain & Snow (possible Gibson SG neck problem), but his improvisational work on Other One and other jams is celebrated.",
+      "Jerry": "Several reviewers cite an out‑of‑tune moment on Cold Rain & Snow, possibly due to a Gibson SG neck issue.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Electric set appears in mono, likely due to mixing choices by Bob Matthews; no specific keyboard performance comments.",
+      "Keys": "",
       "Drums": ""
     },
     "song_mentions": {
-      "The Other One": {
+      "Cold Rain & Snow": {
+        "positive_mentions": 4,
+        "negative_mentions": 2,
+        "total_mentions": 6
+      },
+      "Other One": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
       },
       "Viola Lee Blues": {
-        "positive_mentions": 1,
+        "positive_mentions": 2,
         "negative_mentions": 0,
-        "total_mentions": 1
+        "total_mentions": 2
       },
-      "Cold Rain and Snow": {
-        "positive_mentions": 3,
-        "negative_mentions": 2,
-        "total_mentions": 5
-      },
-      "St. Stephen": {
+      "St Stephen": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -92,7 +94,7 @@
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T02:06:24.442818+00:00",
+    "processed_date": "2025-09-12T17:21:32.112525+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-02.sbd.remaster.dp8outtake.100007.sbeok.flac16"
   }

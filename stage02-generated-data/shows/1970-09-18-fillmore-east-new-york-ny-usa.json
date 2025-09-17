@@ -190,66 +190,55 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "St. Stephen > NFA > Good Lovin' monster jam",
-    "blurb": "The show delivers a powerhouse second set with a seamless St. Stephen → Not Fade Away → Good Lovin' sequence and a ferocious The Other One. Jerry’s solos are unleashed, Pigpen’s organ shines forward, and the band locks into tight, high‑energy jams throughout.",
-    "review": "September 18, 1970 at the Fillmore East captures the Dead in a rare burst of pure fire. After an unassuming first set that includes a surprisingly acoustic take on “Truckin’,” the second half erupts with a monumental St. Stephen → Not Fade Away → Good Lovin' suite, highlighted by Jerry’s soaring leads and Bob’s melodic guitar bursts. The Other One rolls out as a monster jam, while Pigpen’s organ sits unusually forward in the mix, giving the band an extra punch that few 1970 recordings possess. Even with occasional vocal low‑mixes and some muddy audience bleed on early tracks, the matrix‑sourced soundboard portions deliver crisp bass from Phil and a solid, driving beat from Bill Kreutzmann. The Dancin' In The Street jam adds another high‑energy peak, making this Fillmore performance one of the standout shows of the era.",
+    "summary": "Stellar The Other One & St. Stephen medley with rare acoustic Truckin'",
+    "blurb": "The second set erupts with a monster The Other One and an electrifying Saint Stephen > Not Fade Away > Good Lovin' sequence. Jerry’s solos are on fire, while Pigpen’s organ finally breaks out of the background. Overall a high‑energy Fillmore East show despite some tape quirks.",
+    "review": "September 18, 1970 at the Fillmore East captured one of the Dead’s most ferocious late‑summer outings. The first set opens with an acoustic‑styled Truckin' that immediately signals the night’s adventurous spirit, and Pigpen’s organ surprisingly sits front‑and‑center—a rarity for this era. The second set is where the magic truly ignites: a blistering The Other One showcases Jerry’s unleashed improvisational fury, followed by a seamless Saint Stephen > Not Fade Away > Good Lovin' medley that drives the crowd into a frenzy. Bob Weir adds his own lead flair on Dancin' In The Street and the final Good Lovin', while Bill Kreutzmann (with Mickey Hart anchoring) keeps an unshakable groove throughout. Though the recordings vary—some with muffled audience bleed and occasional drop‑outs—the performance itself is consistently praised as tight, vibrant, and unforgettable, making this night a must‑listen for any Deadhead.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.0,
+      "ai_rating": 4.1,
       "confidence": "high",
       "rating_calculation": {
         "base_rating": 2.5,
-        "review_count_total": 20,
+        "review_count_total": 25,
         "review_count_boost": 0.2,
-        "sentiment_adjustment": 1.3,
-        "final_calculation": "2.5 + 0.2 + 1.3 = 4.0"
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "Four recordings were analyzed: three are clearly positive, highlighting The Other One, Saint Stephen > Not Fade Away > Good Lovin', and rare Pigpen organ moments; one is mixed but only due to tape quality, not performance. Consistent praise across multiple sources warrants a strong positive adjustment.",
+        "final_calculation": "2.5 + 0.2 + 1.4 = 4.1"
       }
     },
     "best_recording": {
       "identifier": "gd1970-09-18.sbd.reynolds.97525.flac16",
-      "reason": "Best overall soundboard capture with clear Pigpen organ and strong St. Stephen, Not Fade Away, and Good Lovin' jams despite occasional vocal low‑mix."
+      "reason": "Fair‑quality soundboard capture with the clearest overall mix; despite vocal low‑level, it preserves the full band balance better than audience or matrix sources."
     },
     "key_highlights": [
-      "Monster St. Stephen → Not Fade Away → Good Lovin' sequence",
-      "Powerful The Other One jam",
-      "Rare acoustic‑flavored Truckin' opener",
-      "High‑energy Dancin' In The Street performance"
+      "Monster The Other One that launches the second set into high gear.",
+      "Electrifying Saint Stephen > Not Fade Away > Good Lovin' medley.",
+      "Rare acoustic‑styled Truckin' and Pigpen's organ pushed forward in the mix.",
+      "Tight, prominent bass work from Phil anchoring the jam-heavy moments."
     ],
     "song_highlights": [
       "Truckin'",
-      "Operator",
+      "The Other One",
       "Saint Stephen",
       "Not Fade Away",
       "Good Lovin'",
-      "The Other One",
-      "Dancin' In The Street",
-      "It's A Man's World"
+      "Dancin' In The Street"
     ],
     "band_performance": {
-      "Jerry": "Unleashed solo work shines, especially the St. Stephen tease and the ferocious The Other One jam, with generous lead space throughout.",
-      "Phil": "Bass comes through loud and clear on the soundboard portions, highlighted as a standout element of early‑70 recordings.",
-      "Bob": "Takes multiple lead guitar solos on Dancin', Good Lovin' and other jams, providing strong melodic leads.",
-      "Brent": "",
-      "Mickey": "",
-      "Billy": "Keeps a solid beat that reviewers specifically note; drums drive the high‑energy set."
+      "Jerry": "Delivers fiery, expansive solos—especially on The Other One and Saint Stephen—with perfect tone and generous improvisational space.",
+      "Phil": "Provides tight, loud, and prominent bass that locks the band together throughout the high‑energy jams.",
+      "Bob": "Adds numerous lead guitar moments, notably driving Dancin' In The Street and the Good Lovin' climax with distinctive flair.",
+      "Pigpen": "Organ is fully in the mix—a rare treat for 1970—adding depth and texture to the set’s dynamics.",
+      "Mickey": "Supports the rhythmic foundation with steady dual‑drum interplay, complementing Bill's grooves.",
+      "Billy": "Keeps a solid, propulsive beat, highlighted on Truckin' and throughout the marathon second set."
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-12T05:59:35.276326+00:00",
+    "processed_date": "2025-09-12T20:56:37.429451+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
         "Truckin'"
-      ],
-      [
-        "Operator"
-      ],
-      [
-        "Saint Stephen",
-        "Not Fade Away",
-        "Good Lovin'",
-        "Drums",
-        "Good Lovin'"
       ],
       [
         "Cryptical Envelopment",
@@ -259,10 +248,14 @@
         "Brokedown Palace"
       ],
       [
-        "Dancin' In The Street"
+        "Saint Stephen",
+        "Not Fade Away",
+        "Good Lovin'",
+        "Drums",
+        "Good Lovin'"
       ],
       [
-        "It's A Man's World"
+        "Dancin' In The Street"
       ]
     ]
   }

@@ -16,33 +16,41 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Average soundboard capture of a restrained show – the setlist looks good on paper but jams are minimal and the recording isn’t top‑tier.",
-    "review": "The soundboard source is complete but not particularly crisp, with listeners noting that an audience mix sounds better. Musically the concert feels low on improvisation; the second‑set list promised excitement yet the band never really “goes crazy,” aside from a brief Happy Birthday tease for Phil during space.",
+    "summary": "Average soundboard capture of a modest show that includes a sweet Phil‑birthday tease but lacks the usual jam intensity; the audience mix is preferred.",
+    "review": "The recording is a complete soundboard source, though listeners note it isn’t especially clear and prefer the audience version for fidelity. Musically the concert offers a brief happy‑birthday moment in space and a decent‑looking second‑set setlist that never really goes wild, leaving the show feeling average overall.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.0,
-      "confidence": "low",
-      "rationale": "Only one moderate (3‑star) review; comments balance modest praise for the full set with criticism of both recording clarity and limited jam content, leading to an overall average rating."
+      "stars": 2.8,
+      "confidence": "medium",
+      "rationale": "Only one review provides limited detail; it rates the performance and recording around average (3‑star rating), leading to a modest combined score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Reviewers say the board isn’t the best—some muddiness and lack of sparkle; a listener prefers the audience version for clarity."
+      "technical_notes": "Reviewer says the board isn’t the best, noting clarity issues and preferring the audience recording; however it is complete."
     },
     "show_quality": {
-      "standout_songs": [],
+      "standout_songs": [
+        "Happy Birthday (tease)"
+      ],
       "poor_songs": [],
-      "setlist_flow": "Second‑set looks promising on paper but never erupts into extended jams; overall flow feels restrained.",
-      "energy_level": "low"
+      "setlist_flow": "Second‑set list looks good on paper but never gets very jam‑heavy; overall the concert feels restrained with limited improvisation."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "Space includes a brief Happy Birthday tease for Phil (born March 15, 1940).",
+      "Phil": "Birthday tease in space noted as a nod to Phil’s March 15 birthday.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T05:42:56.558710+00:00",
+    "song_mentions": {
+      "Happy Birthday": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T18:54:47.227587+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-03-14.139382.sbd.flac16"
   }

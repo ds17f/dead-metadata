@@ -16,42 +16,89 @@
   "high_ratings": 8,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A lively early‑80’s New Haven show captured on a solid audience tape, highlighted by a smoking Baby Blue encore, The Wheel jam and soaring Althea.",
-    "review": "The performance is high‑energy with standout moments like the blazing Baby Blue, an extended Wheel/Other One drum‑break, and tight Sailor > Saint transitions.  While the first set opens a bit loose (notably a sloppy Alabama), the audience recording remains consistently clear enough to convey the excitement of the night.",
+    "summary": "Energetic early‑80s New Haven show captured on a solid audience tape; highlights include a scorching Baby Blue, a powerful Wheel → Other One jam and high‑energy renditions of Althea and Throwing Stones.",
+    "review": "The performance is praised for its high energy and memorable moments – especially the blazing Baby Blue, the extended post‑drum Wheel/Other One segment, and strong second‑set numbers like Althea and Throwing Stones. The audience recording is described as consistently good and even outstanding in places, preserving the concert’s excitement despite occasional early‑show slip‑ups.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers give 4‑5 stars, praising both the musical fire and a generally good‑quality audience tape; occasional comments about a sloppy start are outweighed by strong positive sentiment."
+      "rationale": "Multiple 4–5 star reviews consistently highlight strong musical moments and a good‑quality audience tape, yielding an overall rating in the high‑four range."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Consistently clear for an audience source; no major dropouts, though early set is a bit muddy compared to later sections."
+      "technical_notes": "Reviewers note the recording is consistent, clear enough to capture crowd energy and instrument detail; some call it 'outstanding' while no major drop‑outs or muddiness are reported."
     },
     "show_quality": {
       "standout_songs": [
-        "Baby Blue (encore)",
+        "Baby Blue",
         "Althea",
-        "The Wheel > Other One drum jam",
+        "Greatest Story Ever Told",
         "Sailor > Saint",
         "Throwing Stones",
-        "Greatest Story Ever Told"
+        "The Wheel",
+        "Other One"
       ],
       "poor_songs": [
-        "Alabama (slightly sloppy start)"
+        "Alabama"
       ],
-      "setlist_flow": "First set starts a little loose but gains momentum; second set builds into a powerful drum‑break and finishes with an emotional Baby Blue encore.",
-      "energy_level": "high"
+      "setlist_flow": "The show starts a bit sloppy but quickly gains momentum; the second set is especially strong with an extended post‑drum jam and seamless transitions, delivering a satisfying arc despite a few early missteps."
     },
     "band_member_comments": {
-      "Jerry": "Kicks off with high‑voltage Alabama, delivers strong solos (especially on Sailor) and locks into the post‑drum rhythmic jam.",
+      "Jerry": "Praised for high‑voltage guitar work, notable solos (Sailor), and powerful rhythm during the Wheel/Other One transition.",
       "Phil": "",
-      "Bob": "Vocals and slide guitar on Rooster praised; vocal work on Althea noted as excellent.",
-      "Keys": "Brent’s keyboard/vocal contributions highlighted during Johnny B. Goode; overall solid keyboard texture.",
-      "Drums": "Post‑drum segment described as \"smoking\" with the drummers driving a tight, extended jam that lifts the second set."
+      "Bob": "Mentioned as part of the jam energy in the post‑drum segment; no specific solo comments.",
+      "Keys": "Brent's vocal contribution on Johnny B. Goode noted; otherwise keyboards not singled out.",
+      "Drums": "The drummers receive strong praise for a 'post‑drum' segment that lifts the second set and fuels the Wheel/Other One jam."
     },
-    "processed_date": "2025-09-07T10:06:49.794557+00:00",
+    "song_mentions": {
+      "Baby Blue": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Althea": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Greatest Story Ever Told": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sailor > Saint": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Throwing Stones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Wheel": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Alabama": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Johnny B Goode": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T02:17:12.879187+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-09-23.sen421.miller.12520.sbeok.shnf"
   }

@@ -16,40 +16,74 @@
   "high_ratings": 43,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "A superb May 6 1970 MIT free‑show captured from the band’s feed – crystal‑clear soundboard tape of a fire‑filled set highlighted by an iconic Dancin’, monster Good Lovin’ and soaring St. Stephen.",
-    "review": "The recording, sourced directly from the MIT radio feed (essentially a sound‑board capture), is remarkably clear for a 1970 tape with only occasional rough edges and a brief mic glitch at the start of Good Lovin’. Musically the show is often described as one of the band’s finest of the year – Jerry’s ferocious guitar on Dancin’, Phil’s lead‑bass interplay, Pigpen’s vital organ/vocals, and inspired jams on St. Stephen, Not Fade Away and Morning Dew make it a must‑hear performance.",
+    "summary": "Excellent soundboard capture of the historic May 6 1970 MIT free concert, highlighted by a monster Dancin' and soaring Good Lovin'.",
+    "review": "The show is widely praised as one of the best performances of 1970 – the band is tight, the jams on Dancin', Good Lovin' and the St. Stephen/NFA sequence are described as ferocious and unforgettable, and the emotional weight of Morning Dew resonates with the Kent State context. The recording, taken from a sound‑board feed (sbd), is generally called crisp, clear and “monster” sounding despite occasional vintage tape roughness.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.8,
       "confidence": "high",
-      "rationale": "Over 40 reviews consistently praise both the musical performance (standout jams, tight set flow) and the recording quality (soundboard source, crisp sound). The few minor complaints do not outweigh the overwhelming enthusiasm."
+      "rationale": "Over 30 detailed reviews overwhelmingly rate the show 5‑star and describe it as a top‑tier 1970 performance; recording quality is repeatedly called excellent or very good, giving a combined weighted score well above 4.5."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Clear, balanced mix from the MIT radio feed; occasional tape‑saturation warmth and a brief microphone glitch at the start of Good Lovin'. Some reviewers note a slight roughness in spots but overall excellent for the era."
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clear mix from the MIT radio feed; some reviewers note a vintage “choppy” or “rough” edge but overall the sound is vivid and loud with very good instrument separation."
     },
     "show_quality": {
       "standout_songs": [
         "Dancin'",
         "Good Lovin'",
-        "St. Stephen",
-        "Not Fade Away",
-        "Morning Dew",
-        "China Cat (or China Rider)",
-        "Casey Jones"
+        "St. Stephen/NFA",
+        "Morning Dew"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set rolls with high energy despite cold weather, moving from a tight first half into sprawling jams; the Good Lovin’/St. Stephen/NFA sequence is highlighted as a seamless, improvisational peak."
+      "setlist_flow": "The set is described as flowing naturally, with high energy transitions (e.g., St. Stephen into NFA) and a powerful second half that builds to emotional peaks; the historic free‑concert atmosphere adds extra momentum."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar is described as ferocious, metallic‑twang, ripping on Dancin' and driving the jam on Good Lovin', with many noting his tone was perfect.",
-      "Phil": "Phil’s bass work receives glowing praise for its lead‑bass quality and the telepathic interplay with Jerry that fuels the show’s improvisational fire.",
-      "Bob": "Weir is mentioned mainly for vocal contributions on Not Fade Away and Next Time You See Me, and a fun vocal duel with Pigpen during Good Lovin'.",
-      "Keys": "Ron \"Pigpen\" McKernan’s organ/vocals are highlighted as vital, especially on Good Lovin' (despite an early mic problem) and the overall soulful texture he adds.",
-      "Drums": "Bill Kreutzmann’s drumming is praised for its powerful, atmospheric support throughout the jams, adding a solid rhythmic foundation."
+      "Jerry": "Repeatedly praised for ripping guitar work – “monster sound”, metallic twang, ferocious riffs, and leading the jams with intensity.",
+      "Phil": "Lauded for his lead‑bass approach, driving improvisation and tight interplay with Jerry that fuels the band’s fire.",
+      "Bob": "Mentioned mainly for dual vocal work on \"Next Time You See Me\"; no strong criticism or praise beyond that.",
+      "Keys": "Pigpen's organ/harmonica is highlighted as vital (especially on Good Lovin') and his quirky mic comment adds character; Bobby’s supportive keys are noted on the mellow middle of Dancin'.",
+      "Drums": "Bill Kreutzmann’s drumming described as a “soundscape” and crucial to the overall groove, especially during the extended jams."
     },
-    "processed_date": "2025-09-11T07:54:26.278547+00:00",
+    "song_mentions": {
+      "Dancin'": {
+        "positive_mentions": 15,
+        "negative_mentions": 0,
+        "total_mentions": 15
+      },
+      "Good Lovin'": {
+        "positive_mentions": 10,
+        "negative_mentions": 0,
+        "total_mentions": 10
+      },
+      "St. Stephen/NFA": {
+        "positive_mentions": 8,
+        "negative_mentions": 0,
+        "total_mentions": 8
+      },
+      "Morning Dew": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Casey Jones": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Next Time You See Me": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-12T17:34:38.944073+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-05-06.sbd.gans.94.sbefail.shnf"
   }

@@ -16,18 +16,18 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Stellar show with high energy and flawless performances, captured on a crystal‑clear audience recording that sounds almost like a matrix.",
-    "review": "Both reviewers rave about the concert’s nonstop energy and near‑perfect set, highlighting standout renditions of “Crazy Fingers,” “Big River,” “High Time,” and others. The David Dyche audience tape is praised for its clean, clear mix that rivals a soundboard or matrix source, making it an ideal listening experience.",
+    "summary": "Crystal‑clear audience/matrix recording captures a flawless 9/21/82 Garden show with Jerry’s blazing guitar and standout performances of Crazy Fingers, Big River and High Time.",
+    "review": "Both reviewers rave about the show’s consistent energy from start to finish, highlighting Jerry Garcia’s inventive guitar work and several superb renditions – especially “Crazy Fingers,” “Big River” and “High Time.” The audience recording is praised as matrix‑quality: clean, clear, with no boominess or echo and vocals that cut through like a soundboard. Overall it’s an almost perfect performance captured in excellent audio.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.7,
+      "stars": 4.8,
       "confidence": "medium",
-      "rationale": "Two detailed 5‑star reviews emphasize both an exceptional performance and high‑quality recording; the limited sample size keeps confidence at medium."
+      "rationale": "All reviews are five‑star, praising both the musical execution and the high‑fidelity audience/matrix recording; weighted average yields a near‑perfect score."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "excellent",
-      "technical_notes": "Clean, clear sound with minimal boominess or echo; audience bleed fades when music starts, vocals as clear as a soundboard; essentially a top‑notch matrix‑like capture."
+      "technical_notes": "Clean and clear sound with no boominess or echo; audience ambience fades when music starts, vocals crisp as on any SBD or matrix."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,20 +35,46 @@
         "Big River",
         "High Time",
         "Throwing Stones",
-        "Beat It On Down the Line"
+        "Beat it On Down The Line"
       ],
       "poor_songs": [],
-      "setlist_flow": "Consistently strong throughout; high‑energy start to finish with seamless transitions and no noticeable low points.",
-      "energy_level": "high"
+      "setlist_flow": "Reviewers describe the concert as stellar from start to finish with no low point, indicating a tight, high‑energy flow throughout both sets."
     },
     "band_member_comments": {
-      "Jerry": "Guitar blazing, inventive and unexpected lines throughout the entire show.",
+      "Jerry": "Guitar blazing with inventive and unexpected lines throughout the entire show.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T10:03:16.135239+00:00",
+    "song_mentions": {
+      "Crazy Fingers": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Big River": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Throwing Stones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Beat it On Down The Line": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-14T02:11:29.104862+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-09-21.nak300.dyche.105339.flac16"
   }

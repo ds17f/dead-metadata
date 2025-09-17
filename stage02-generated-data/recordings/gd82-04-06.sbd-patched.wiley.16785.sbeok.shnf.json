@@ -16,39 +16,76 @@
   "high_ratings": 18,
   "low_ratings": 3,
   "ai_review": {
-    "summary": "High‑energy Spectrum show with a smoking Shakedown Street, but the soundboard suffers from saturation and distortion.",
-    "review": "The concert is widely praised for its blistering second set – Shakedown Street, Lost Sailor / Saint of Circumstance, Terrapin Part 1 and an epic The Other One intro are repeatedly called “the best ever”.  The recording is a sound‑board source that many listeners find overly hot, with noticeable saturation, distortion on loud passages and occasional clicks, yet it remains listenable enough to enjoy the performance.",
+    "summary": "Fair‑quality soundboard recording of a classic early‑80s Spectrum show, famed for a blistering Shakedown Street and a monster The Other One.",
+    "review": "The performance is widely praised – the second set with Shakedown Street, Lost Sailor / Saint of Circumstance, Terrapin and an epic The Other One ranks among the tour’s highlights.  Technically the SBD suffers from noticeable saturation and occasional high‑frequency distortion, but most listeners find it still listenable and enjoy the energy of the night.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "The majority of reviews (over 30) rate the show 4‑5 stars and highlight exceptional musical moments, while recording complaints lower the technical score; weighted average yields ~4.1."
+      "rationale": "Average user rating is ~4.1 stars; most comments are enthusiastic about the show despite consistent complaints about distortion, yielding a strong positive overall assessment."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Saturated sound with distortion on louder material, hot recording levels causing clipping, occasional clicks/pops and a few pitch‑related complaints; overall listenable but not pristine."
+      "technical_notes": "Saturated mids and occasional high‑frequency distortion on louder passages; some clicks/pops and hot recording levels, but overall the tape remains listenable and captures the band's energy."
     },
     "show_quality": {
       "standout_songs": [
         "Shakedown Street",
         "Lost Sailor > Saint of Circumstance",
-        "Terrapin Part 1",
-        "The Other One (intro)",
+        "The Other One",
+        "Terrapin",
+        "Cold Rain and Snow",
         "Truckin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "Strong opener (Cold Rain & Snow), tight first set, second set builds to a fire‑storm with Shakedown Street and The Other One; pacing keeps the energy high throughout.",
-      "energy_level": "high"
+      "setlist_flow": "Second set is repeatedly called the best of the year, with a high‑energy flow that builds through Shakedown Street into The Other One; the overall pacing keeps the audience engaged from start to finish."
     },
     "band_member_comments": {
-      "Jerry": "Praised for funkier playing on Shakedown Street and for his personal talk during Terrapin; guitar tone noted as “right on”.",
-      "Phil": "Described as soaring with “Phil swooping down” and delivering powerful bass lines that drive the jams.",
+      "Jerry": "Repeatedly praised for spot‑on tone and fiery playing; one reviewer notes he “gets ignorant with the funk.”",
+      "Phil": "Bass highlighted as driving, especially during Truckin' where Phil “swoops down like a B‑47.”",
       "Bob": "",
-      "Keys": "Brent (keyboard) highlighted as “killing it” with every part, adding to the fire of the show.",
-      "Drums": "Drums and space sections noted for moving the audience and having fun; occasional high‑energy bursts."
+      "Keys": "Brent (keyboard) lauded for “killing” on Shakedown Street and matching Jerry’s leads.",
+      "Drums": "Bill's drumming described as moving the crowd, with space jams noted as especially fun."
     },
-    "processed_date": "2025-09-07T06:06:19.716413+00:00",
+    "song_mentions": {
+      "Shakedown Street": {
+        "positive_mentions": 10,
+        "negative_mentions": 0,
+        "total_mentions": 10
+      },
+      "Lost Sailor > Saint of Circumstance": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Terrapin": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cold Rain and Snow": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Truckin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Bertha": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T19:31:23.872027+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-04-06.sbd-patched.wiley.16785.sbeok.shnf"
   }

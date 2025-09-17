@@ -215,48 +215,52 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Lovelight marathon, tight Good Lovin' and stellar Easy Wind",
-    "blurb": "The MIT show delivers a monster Turn On Your Lovelight jam and a fiery Good Lovin' solo from Jerry. Easy Wind shines in the second set alongside extended The Other One/Cryptical explorations. Performance is strong overall, though the tape has occasional pitch quirks.",
-    "review": "On May 7, 1970 the Dead took over Dupont Gym at MIT for a three‑set marathon that still feels fresh decades later. Set 1 rolled through folk‑rock staples like “Candyman,” “New Speedway Boogie” and “Uncle John’s Band,” while Set 2 erupted into electric fireworks – Jerry’s shredding solo on “Good Lovin’” (including a brief steel‑guitar cameo with the New Riders) set the tone for an expansive second‑set jam. Highlights include a monster Turn On Your Lovelight medley that swells into a soaring climax, a beautifully lyrical “Easy Wind,” and the wild back‑and‑forth of “The Other One” paired with “Cryptical Envelopment.” Mickey’s crisp drumming on “Beat It On Down The Line” adds extra drive, and Pigpen’s presence in the acoustic moments rounds out the night. The best available tape is a lovingly restored audience recording that captures the energy and nuance despite occasional pitch glitches, making this show a must‑listen for fans of early‑’70 Dead improvisation.",
+    "summary": "Epic Lovelight suite, soaring Easy Wind, strong acoustic set",
+    "blurb": "The show shines with a marathon Turn On Your Lovelight suite and fiery Good Lovin' jams. Jerry’s tone soars on the acoustic numbers while the band locks into high‑energy electric stretches. A solid pick for fans of early‑70s Dead power.",
+    "review": "On May 7, 1970 at MIT’s Dupont Gymnasium the Grateful Dead delivered a historic three‑set marathon that still thrills listeners. The first set unfolded as an unusually long acoustic showcase, highlighting tight renditions of “Candyman,” “Cumberland Blues,” and “Uncle John’s Band.” The second set erupted into electric fireworks – a ripping “Good Lovin'” jam, a soaring “Easy Wind,” and the centerpiece “Turn On Your Lovelight” suite that stretches over ten minutes with Jerry’s guitar tone on full display. The deep‑sea dive of “The Other One” paired with the cryptic “Cryptical Envelopment” moments showcases the band’s improvisational daring, while Mickey’s drumming punctuates “Beat It On Down The Line” with playful call‑outs. Though the audience tapes carry period hiss and occasional mic chatter, SirMick’s restoration work makes this recording one of the clearer sources for an early‑70s show, capturing the raw excitement that made the MIT gig a legendary entry in Dead history.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.2,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 30,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Three recordings are explicitly positive, praising the Lovelight suite, Good Lovin', Easy Wind, and The Other One jams; one recording is mixed but still highlights strong musical moments. No consistent negative comments about performance appear, so a strong positive adjustment (+1.6) is applied.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-05-07.aud.sirmick.32276.sbeok.flac16",
-      "reason": "Restored audience tape with generally clear sound, captures the Lovelight medley and Easy Wind well; superior to other sources despite minor pitch quirks."
+      "reason": "SirMick’s restoration yields a good‑quality audience tape with clear instrument separation; it captures the full Lovelight suite and key jams while keeping period character."
     },
     "key_highlights": [
-      "Monster Turn On Your Lovelight jam that builds into a soaring climax",
-      "Jerry’s shredding Good Lovin' solo and steel‑guitar cameo with NRPS",
-      "Extended The Other One / Cryptical Envelopment improvisation",
-      "Easy Wind shines as a lyrical second‑set centerpiece"
+      "Marathon Turn On Your Lovelight suite that defines the second set",
+      "Ripping Good Lovin' jam and soaring Easy Wind performance",
+      "Deep‑sea improvisation on The Other One/Cryptical Envelopment",
+      "Strong acoustic opening with Candyman, Cumberland Blues, and Uncle John’s Band"
     ],
     "song_highlights": [
-      "Turn On Your Lovelight",
       "Good Lovin'",
       "Easy Wind",
       "The Other One",
-      "Cryptical Envelopment"
+      "Turn On Your Lovelight",
+      "Candyman"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers a flexible, ballsy performance – shredding solo on Good Lovin', stellar steel‑guitar moments with NRPS, and humor that keeps the vibe lively.",
+      "Jerry": "Garcia’s tone shines on the Lovelight medley and he shreds on Good Lovin', delivering stellar steel‑guitar work with NRPS during the electric set.",
       "Phil": "",
       "Bob": "",
       "Brent": "",
-      "Mickey": "Mickey gets shout‑outs for driving beats on Beat It On Down The Line and adding rhythmic intensity throughout.",
+      "Mickey": "Mickey adds rhythmic color, calling out beats on Beat It On Down The Line and driving the high‑energy jams throughout the second set.",
       "Billy": ""
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-12T02:34:38.168938+00:00",
+    "processed_date": "2025-09-12T17:44:41.148503+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "Not Fade Away",
-        "Turn On Your Lovelight"
-      ],
       [
         "Good Lovin'",
         "Drums",
@@ -271,6 +275,13 @@
         "The Other One",
         "Cryptical Envelopment",
         "Cosmic Charlie"
+      ],
+      [
+        "Not Fade Away",
+        "Turn On Your Lovelight"
+      ],
+      [
+        "Candyman"
       ]
     ]
   }

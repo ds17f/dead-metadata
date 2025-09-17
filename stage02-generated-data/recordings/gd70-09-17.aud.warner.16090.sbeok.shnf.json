@@ -16,49 +16,45 @@
   "high_ratings": 7,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Muffled audience‑recorded tape of a standout acoustic show – acoustic Box of Rain, Dark Star and Truckin' shine despite the poor sound.",
-    "review": "The performance is praised for its rare acoustic set, highlighted by an unforgettable acoustic Box of Rain and a powerful Dark Star.  However, reviewers repeatedly note that the recording is badly muffled, with heavy audience bleed and a lack of clarity, making it a mixed‑quality listening experience.",
+    "summary": "A muffled audience tape of a rare acoustic set – the acoustic Box of Rain and Dark Star shine, but poor sound limits enjoyment.",
+    "review": "The performance is celebrated for its acoustic rarities (acoustic Box of Rain, acoustic Truckin', a soaring Dark Star) and strong vocal work from Phil and Jerry. However, the recording is an audience capture that sounds muffled, with noticeable crowd chatter and a mic that seems wrapped in fabric, making many details hard to hear. Listeners who love the setlist will likely forgive the technical flaws, but newcomers may struggle.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.9,
+      "stars": 3.8,
       "confidence": "high",
-      "rationale": "Show quality consistently rated high (≈4.5/5) while recording quality is low (≈2.5/5); weighted combination yields ~3.9 stars."
+      "rationale": "Reviews consistently praise the musical performance (many 4‑5 star comments) while repeatedly condemning the sound quality (muffled, audience noise). Weighted 70 % show + 30 % recording yields a solid but not stellar overall rating."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "poor",
-      "technical_notes": "Muffled, almost “mic wrapped in a shirt” sound; heavy audience chatter and little instrument separation make details hard to hear, though some listeners find the lo‑fi character interesting."
+      "quality_rating": "fair",
+      "technical_notes": "Muffled mids, mic sounds like it was wrapped in a shirt, heavy audience chatter, occasional tape cuts; no soundboard source available."
     },
     "show_quality": {
       "standout_songs": [
         "Box of Rain (acoustic)",
         "Dark Star",
-        "Truckin' (acoustic)"
+        "Truckin' (acoustic)",
+        "Rosalie"
       ],
       "poor_songs": [
         "Friend of the Devil"
       ],
-      "setlist_flow": "The acoustic portion dominates and is praised for its intimacy; tape cuts and occasional rough transitions are noted, but overall the set flows well with strong jams and memorable vocal harmonies."
+      "setlist_flow": "The show leans heavily on an acoustic mini‑set featuring several American Beauty numbers, then launches into extended jams (Dark Star, Tighten Up). The transitions are a bit rough in places due to tape edits, but the overall pacing is energetic and memorable."
     },
     "band_member_comments": {
-      "Jerry": "Acoustic piano and pedal‑steel work highlighted; his presence on guitar noted positively.",
-      "Phil": "Vocals on Box of Rain praised; also contributes acoustic guitar in the acoustic set.",
-      "Bob": "",
+      "Jerry": "Praised for piano work on Box of Rain, pedal‑steel and acoustic guitar throughout the set.",
+      "Phil": "Noted for strong acoustic guitar and vocal performance on Box of Rain; vocals highlighted as especially good.",
+      "Bob": "Mentioned for vocal contributions during the acoustic numbers.",
       "Keys": "",
-      "Drums": ""
+      "Drums": "Bill/Kreutzmann (and occasional Mickey Hart) noted for solid percussion, though not a focal point in reviews."
     },
     "song_mentions": {
       "Box of Rain (acoustic)": {
-        "positive_mentions": 6,
+        "positive_mentions": 5,
         "negative_mentions": 0,
-        "total_mentions": 6
+        "total_mentions": 5
       },
       "Dark Star": {
-        "positive_mentions": 2,
-        "negative_mentions": 0,
-        "total_mentions": 2
-      },
-      "Truckin' (acoustic)": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
@@ -67,9 +63,44 @@
         "positive_mentions": 0,
         "negative_mentions": 1,
         "total_mentions": 1
+      },
+      "Truckin' (acoustic)": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Rosalie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Brokedown": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I Don't Know You": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Superman": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Portland Woman": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Tighten Up jam": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T05:48:07.141098+00:00",
+    "processed_date": "2025-09-12T20:44:56.100348+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-09-17.aud.warner.16090.sbeok.shnf"
   }

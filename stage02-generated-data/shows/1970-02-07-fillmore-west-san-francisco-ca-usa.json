@@ -149,47 +149,57 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Pedal‑steel country set, stellar China>Rider, solid mid‑set jams",
-    "blurb": "The concert opens with a three‑song pedal‑steel country mini‑set before diving into classic material. Highlights include a scorching China Cat Sunflower → I Know You Rider stretch, tight High Time, and the mellow Uncle John's Band → Black Peter transition. The soundboard capture is clean and balanced, making it an easy listen.",
-    "review": "On February 7, 1970 at the Fillmore West the Dead surprised the house with a three‑song country & western mini‑set featuring Jerry’s joyous pedal‑steel on “Saw Mill” and a crisp rendition of “Green Green Grass Of Home.” After that warm‑up the band settled into a tight mid‑set: the legendary “China Cat Sunflower → I Know You Rider” sequence roared with effortless leads, “High Time” kept the momentum high, and a beautifully mellow segue from “Uncle John's Band” into “Black Peter” showcased the group’s dynamic range. While the later portion of the set loses a bit of steam, the overall performance is strong, especially given the solid soundboard source that captures Jerry’s rich guitar tone, Phil’s vocal cameo on “Uncle John’s Band,” and Bob’s lead vocals on “Seasons Of My Heart.” For anyone looking to hear early‑70s Dead with a rare pedal‑steel showcase, this recording stands out as the definitive version of the night.",
+    "summary": "Pedal‑steel country set shines with strong Uncle John’s > Black Peter",
+    "blurb": "The show opens with a relaxed country‑western acoustic trio highlighted by Garcia’s pedal steel on Green Green Grass Of Home and Saw Mill. Midset delivers the classic Uncle John's Band → Black Peter transition, High Time, and a seamless China Cat Sunflower > I Know You Rider jam. The soundboard source is crisp and clear, making this recording a top pick.",
+    "review": "Feb 7 1970 at the Fillmore West finds the Dead in a mellow yet adventurous mood. Garcia’s newly‑added pedal steel takes center stage on the opening trio of country‑flavored numbers—Green Green Grass Of Home, Saw Mill and Seasons Of My Heart—earning praise for its effortless, full‑bodied tone. The band then eases into their psychedelic core: Uncle John's Band flows naturally into Black Peter, High Time soars with tight vocal harmonies, and the beloved China Cat Sunflower > I Know You Rider segue showcases a crisp, locked‑in jam. While a few later numbers dip in energy, the overall pacing remains melodic and enjoyable. The bean‑sourced soundboard capture is crystal clear, preserving every nuance of Garcia’s leads, Phil’s solid bass foundation, and the dual‑drum groove of Mickey and Bill, making this performance a must‑listen for fans of the early ’70 era.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.6,
-      "confidence": "high"
+      "ai_rating": 3.8,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 12,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.2,
+        "sentiment_rationale": "Two recordings label the show as positive and one as mixed, with consistent praise for Garcia’s pedal‑steel work, the Uncle John's Band → Black Peter sequence, High Time, and the China Cat > I Know You Rider jam across multiple sources. No recurring negative comments about performance quality were found, yielding a solid positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 1.2 = 3.8"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-02-07.sbd.bean.3912.sbeok.shnf",
-      "reason": "Good soundboard mix with crisp balance, rich guitar tone and clear capture of the pedal‑steel country set."
+      "reason": "Excellent soundboard source with crisp, clear mix that captures the pedal‑steel and overall band dynamics."
     },
     "key_highlights": [
-      "Pedal‑steel country mini‑set opens the show (Saw Mill, Green Green Grass Of Home).",
-      "\"China Cat Sunflower → I Know You Rider\" is described as scorching and effortless.",
-      "Tight performance of \"High Time\" and mellow Uncle John's Band → Black Peter transition.",
-      "Overall soundboard quality is good with a clean, balanced mix."
+      "Garcia’s pedal‑steel country showcase early in the set",
+      "Seamless Uncle John's Band → Black Peter transition",
+      "High Time delivers a soaring vocal performance",
+      "Tight, energetic China Cat Sunflower > I Know You Rider jam"
     ],
     "song_highlights": [
-      "Saw Mill",
+      "Uncle John's Band",
+      "Black Peter",
+      "High Time",
       "China Cat Sunflower",
       "I Know You Rider",
-      "High Time",
-      "Uncle John's Band",
-      "Black Peter"
+      "Green Green Grass Of Home",
+      "Saw Mill"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s pedal‑steel work on the opening country set and his rich, full‑tone guitar leads throughout are repeatedly praised; his solo in \"Uncle John's Band\" shows early exploration of new ideas.",
-      "Phil": "Phil contributes a distinct vocal line on \"Uncle John's Band\"; his bass is solid overall, though some note a boomy quality during the earliest songs.",
-      "Bob": "Bob leads vocals on \"Seasons Of My Heart\" and engages in lively banter with Jerry before the \"China Cat Sunflower\" segue.",
+      "Jerry": "Pedal‑steel work praised as a highlight; his leads described as effortless and full‑bodied, especially on the early country songs and Uncle John's Band.",
+      "Phil": "Provides solid bass support throughout; noted for distinctive vocals on Uncle John's Band, though early stage mics made the bass sound boomy in the matrix recording.",
+      "Bob": "",
       "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-11T23:29:17.545738+00:00",
+    "processed_date": "2025-09-12T14:30:44.818473+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
-        "Saw Mill"
+        "Uncle John's Band",
+        "Black Peter"
       ],
       [
         "China Cat Sunflower",
@@ -197,8 +207,10 @@
         "High Time"
       ],
       [
-        "Uncle John's Band",
-        "Black Peter"
+        "Green Green Grass Of Home"
+      ],
+      [
+        "Saw Mill"
       ]
     ]
   }

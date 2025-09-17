@@ -185,23 +185,30 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy UCLA show with scorching Shakedown and soaring Stella Blue",
-    "blurb": "The February 21, 1982 Pauley Pavilion gig delivers a blistering Shakedown Street jam, tight Bertha → Man Smart, Woman Smarter segue, and a luminous Stella Blue. Jerry’s guitar is on fire, Phil drops bass bombs on the New Fast ...? → Stella transition, and Brent supplies memorable keyboard solos. Both soundboard sources are clear, with the Dodd tape offering the most complete picture despite a slightly flat mix.",
-    "review": "What unfolds at Pauley Pavilion captures the Dead in full early‑80s stride: they launch into an incendiary Shakedown Street that sets a high‑octane tone for the night. Jerry’s lead cuts through with razor‑sharp phrasing, while Bob’s rhythm guitar weaves a “walking encyclopedia of broken chords” that keeps the groove locked. The first set builds momentum through Bird Song and rolls into a seamless Bertha → Man Smart, Woman Smarter transition that feels both tight and adventurous. In the second set the band rides the groove from China Cat Sunflower into I Know You Rider before Phil’s bass rockets on the New Fast …? → Stella Blue sequence, giving way to an inspired drums‑and‑space interlude and a soaring Stella Blue that showcases Brent’s expressive keyboards. The encore closes with a heartfelt Brokedown Palace, leaving the audience in a reflective mood. While the Dodd soundboard mix is a touch flat on the low end, it captures every nuance of this high‑energy performance, making it the go‑to source for listeners seeking the full show experience.",
+    "summary": "High‑energy set with blazing 'Tiger' and tight Shakedown Street jam",
+    "blurb": "The show delivers a fiery first set highlighted by Shakedown Street, Bird Song and a scorching 'Tiger' improvisation. The second set stays solid with a memorable drum/space hallway leading into an inspired Stella Blue. Overall the band is locked in, making this a must‑listen early‑80s performance.",
+    "review": "On February 21, 1982 at UCLA’s Pauley Pavilion the Dead turned up the voltage. Jerry’s guitar was \"on fire\" all night, especially during his blistering 'Tiger' solo and the ripping Shakedown Street jam that set the tone for a high‑octane first set. Phil’s bass added melodic depth, notably on the flowing transitions into Stella Blue, while Brent’s keyboards wove great mid‑song jams that kept the momentum rolling. Bob’s rhythm work was powerful throughout, anchoring the groove on Estimated Prophet and the classic close with Sugar Magnolia. The second set featured a unique drum/space hallway chant that built an otherworldly atmosphere before launching into a chef‑kissed Stella Blue, capped off by a heartfelt Brokedown Palace encore. Though the China Cat Sunflower segment is missing from one source, the overall performance remains a standout snapshot of the early‑80s Dead in top form.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 3.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 21,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 0.7,
+        "sentiment_rationale": "One recording is clearly positive, praising the Shakedown Jam and Stella Blue; the other is mixed, noting a slight flatness in the mix and the missing China Cat segment. Positive remarks outweigh negatives, yielding a moderate +0.7 sentiment boost.",
+        "final_calculation": "2.5 + 0.2 + 0.7 = 3.4"
+      }
     },
     "best_recording": {
       "identifier": "gd82-02-21.sbd.dodd.16247.sbeok.shnf",
-      "reason": "Most complete capture of the full set, clear soundboard mix despite a slightly flat tonal balance; includes all standout moments."
+      "reason": "Good soundboard balance, clear capture of the band's energy, and includes most of the show despite a slight flatness in bass."
     },
     "key_highlights": [
-      "Scorching Shakedown Street jam that launches the show",
-      "Seamless Bertha → Man Smart, Woman Smarter segue",
-      "New Fast ...? → Stella Blue transition with thunderous bass bombs",
-      "Unique drums‑and‑space segment adding a textural peak"
+      "Garcia’s guitar ignites on 'Tiger' and rides high throughout the set.",
+      "Shakedown Street jam is tight and energetic, driving the first‑set flow.",
+      "A unique drum/space hallway chant creates an atmospheric bridge into a soaring Stella Blue."
     ],
     "song_highlights": [
       "Shakedown Street",
@@ -214,16 +221,42 @@
       "Brokedown Palace"
     ],
     "band_performance": {
-      "Jerry": "Rips into Shakedown Street with fire; guitar tone praised as on fire and remains tight throughout the set.",
-      "Phil": "Drops bass bombs on the New Fast ...? → Stella Blue section, delivering sweet, fast‑paced lines that stand out.",
-      "Bob": "Great rhythm guitar tone; energetic playing described as a walking encyclopedia of broken chords with strong presence.",
-      "Brent": "Memorable keyboard solos and solid overall work; his textures add depth to the jams despite occasional mix flatness.",
-      "Mickey": "Drums contribute to a distinctive drums‑and‑space moment, adding rhythmic intrigue and chant‑like texture.",
-      "Billy": "Provides steady foundation that underpins the high‑energy performance and locks in with Mickey during the space segment."
+      "Jerry": "Garcia’s tone is blazing on 'Tiger' and he rides high on Shakedown Street, delivering fire‑filled leads that energize the entire show.",
+      "Phil": "Lesh provides melodic bass lines, especially noticeable in the transitions into Stella Blue and his sweetly bombastic work around The Other One intro/outro.",
+      "Bob": "Weir’s rhythm guitar is powerful and artistic, adding strong presence on Estimated Prophet and driving the groove throughout.",
+      "Brent": "Mydland delivers great keyboard solos and mid‑song jams that sync perfectly with Garcia’s leads.",
+      "Mickey": "",
+      "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-07T05:36:08.406501+00:00",
+    "processed_date": "2025-09-13T18:43:37.058356+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Shakedown Street",
+        "New Minglewood Blues"
+      ],
+      [
+        "Bird Song",
+        "Little Red Rooster"
+      ],
+      [
+        "Bertha",
+        "Man Smart, Woman Smarter"
+      ],
+      [
+        "Estimated Prophet",
+        "Eyes Of The World",
+        "Drums",
+        "Space",
+        "Not Fade Away",
+        "Stella Blue",
+        "Sugar Magnolia"
+      ],
+      [
+        "Brokedown Palace"
+      ]
+    ]
   }
 }

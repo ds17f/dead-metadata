@@ -16,64 +16,83 @@
   "high_ratings": 20,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crystal‑clear Miller soundboard capture of a legendary 2/13/70 show featuring an all‑time Dark Star, The Other One and Lovelight.",
-    "review": "The Miller‑fixed SBD source is praised as crisp, clean and virtually flawless, letting the band’s historic second electric set shine.  Reviewers rave about the transcendent Dark Star, monster The Other One and soaring Lovelight (plus a stellar Smokestack Lightning), calling the performance one of the era’s finest.  Overall sentiment is overwhelmingly positive with only a single mixed‑feel review.",
+    "summary": "An excellent soundboard transfer of the legendary Feb 13 1970 show, famed for a soaring Dark Star, monster The Other One and smoking Lovelight.",
+    "review": "The Miller‑fixed SBD capture is praised as crystal‑clear and “brilliant” by virtually every reviewer. Musically the concert is heralded as one of ’70’s all‑time greats – the electric second set bursts with Dark Star, The Other One and Lovelight, while the acoustic first set supplies classic Good Lovin’, China Cat Sunflower and a rare Pigpen‑led Katie May. Overall sentiment is overwhelmingly positive, with only one neutral/questioning review.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "22 reviews, 19 five‑star, 1 four‑star and 1 three‑star; the vast majority praise both the music and Miller soundboard transfer, yielding a strong combined rating."
+      "rationale": "21 reviews (18 five‑star) uniformly praise both performance and audio; the weighting heavily favors the show quality, which is described as legendary, while the recording is called “excellent” and “strong”."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Miller’s fix provides a crisp, clear mix with no noticeable drop‑outs or distortion; reviewers describe the sound as “strong,” “most excellent,” and the clearest source available."
+      "technical_notes": "Miller’s fix transfer is repeatedly described as crisp, strong and most excellent; reviewers note the matrix version as an even better source but overall the SBD is clean with no reported drop‑outs or distortion."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "The Other One",
         "Lovelight",
-        "Smokestack Lightning"
+        "Smokestack Lightning",
+        "Good Lovin'",
+        "Black Peter",
+        "Katie May",
+        "China Cat Sunflower"
       ],
       "poor_songs": [],
-      "setlist_flow": "Both sets flow seamlessly, with the acoustic opener leading into a powerhouse electric second set that builds into marathon jams; the show is lauded for its tight pacing and the way the band locks in on extended improvisations."
+      "setlist_flow": "Two‑set structure (acoustic first set, electric second set) is lauded for its seamless flow; the electric set is described as a “monster” jam marathon that rides a groove‑heavy vibe from start to finish."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s tone and improvisational brilliance on Dark Star and The Other One are highlighted as exceptional.",
-      "Phil": "Phil’s bass lock‑in is noted especially during Lovelight, providing a solid foundation for the jams.",
+      "Jerry": "Garcia’s tone and improvisational flights on Dark Star, The Other One and Lovelight receive repeated praise.",
+      "Phil": "",
       "Bob": "",
-      "Keys": "Pigpen’s organ/vocal work (and his rare guitar spot on Katie May) receive praise, adding soulful texture to the set.",
+      "Keys": "",
       "Drums": ""
     },
     "song_mentions": {
       "Dark Star": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "The Other One": {
         "positive_mentions": 5,
         "negative_mentions": 0,
         "total_mentions": 5
       },
-      "The Other One": {
-        "positive_mentions": 2,
-        "negative_mentions": 0,
-        "total_mentions": 2
-      },
       "Lovelight": {
-        "positive_mentions": 2,
+        "positive_mentions": 4,
         "negative_mentions": 0,
-        "total_mentions": 2
+        "total_mentions": 4
       },
       "Smokestack Lightning": {
-        "positive_mentions": 1,
+        "positive_mentions": 3,
         "negative_mentions": 0,
-        "total_mentions": 1
+        "total_mentions": 3
+      },
+      "Good Lovin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Black Peter": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
       },
       "Katie May": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T00:05:39.279122+00:00",
+    "processed_date": "2025-09-12T15:10:55.113846+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-02-13.sbd.miller.fix-97613.97639.sbeok.flac16"
   }

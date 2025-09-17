@@ -16,47 +16,94 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Pristine sound‑board recording of the May 23 1982 Greek Theatre show with a tight Ship of Fools→Estimated Prophet→Eyes of the World run and clean mix that captures Brent’s Harley mic‑up and Mickey’s drum‑space antics.",
-    "review": "The show is praised for its solid first set and an especially tight second‑set sequence (Ship of Fools, Estimated Prophet, Eyes of the World) plus relaxed vocals on Casey Jones and a memorable Scarlet. The soundboard tape is described as clear, well‑balanced with fat bass and excellent separation, though a few reviewers note occasional over‑saturation in the loudest moments. Overall the performance and recording are regarded as highly enjoyable.",
+    "summary": "Pristine soundboard recording with a clean mix and strong performance – highlights include Shakedown Street, Estimated Prophet/Eyes of the World and a soaring Scarlet.",
+    "review": "The May 23‑1982 Greek Theatre show is captured on a well‑mixed soundboard tape that most listeners describe as clear, fat‑bass and exceptionally balanced, despite occasional over‑saturation in the loudest moments. Musically the band delivers a solid first set (Shakedown Street, Red Rooster) and a tight second set with standout jams on Ship of Fools → Estimated Prophet → Eyes of the World, plus an energetic Casey Jones closer and a memorable Scarlet encore.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show 4–5 stars, highlighting strong musical moments and an excellent soundboard mix; only a few low‑star comments note minor issues, leading to a weighted average of ~4.2."
+      "rationale": "Most reviewers praise both the performance and the high‑quality soundboard recording; only a few note minor saturation or tape‑flipping issues, yielding an overall strong rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Clear, crisp mix with great separation and fat bass; some listeners mention slight over‑saturation on the loudest parts (motorcycle revs) and occasional tape‑flip timing issues, but overall a clean and balanced recording."
+      "technical_notes": "Clear, well‑balanced mix with excellent bass response and clean highs; some reviewers note occasional over‑saturation on very loud sections (motorcycle revs) and a few mention tape‑flip constraints for tapers."
     },
     "show_quality": {
       "standout_songs": [
-        "Ship of Fools",
+        "Shakedown Street",
+        "Red Rooster",
+        "Ship Of Fools",
         "Estimated Prophet",
         "Eyes of the World",
-        "Shakedown Street",
-        "Red Rooster (Brent vocals)",
-        "Let It Grow",
         "Casey Jones",
-        "Rolling Stone / Satisfaction",
-        "Breakdown Palace",
-        "Scarlet",
-        "Supplication",
-        "Deal",
-        "China Rider"
+        "Scarlet"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Strong first set with highlights like Shakedown Street and Brent’s Red Rooster; second set flows tightly from Ship of Fools through Estimated Prophet into Eyes of the World, ending with a relaxed Casey Jones and an energetic encore.",
-      "energy_level": "high"
+      "poor_songs": [
+        "Let It Grow"
+      ],
+      "setlist_flow": "First set is praised for its energy and solid song choices; second set flows tightly through a sequence of strong jams, ending with an uplifting encore that leaves the crowd buzzing."
     },
     "band_member_comments": {
-      "Jerry": "Relaxed vocal on Casey Jones praised; generally solid guitar work though not called out specifically.",
+      "Jerry": "Relaxed vocal on Casey Jones; overall solid guitar work noted indirectly.",
       "Phil": "",
-      "Bob": "",
-      "Keys": "Brent Mydland highlighted – mic’d up on his Harley, strong vocals on Red Rooster and clear keyboard presence throughout the show.",
-      "Drums": "Mickey Hart interacts with the biker during drums/space; drum mix noted as clean and powerful, especially during Scarlet."
+      "Bob": "Mix brings Weir forward in the front‑of‑house sound, especially during Scarlet.",
+      "Keys": "Brent Mydland’s vocals highlighted on Red Rooster and his Harley was mic'd up, adding a unique texture.",
+      "Drums": "Mickey Hart is noted for interacting with the biker onstage; overall drum presence benefits from the clean Meyer system."
     },
-    "processed_date": "2025-09-07T07:10:48.137350+00:00",
+    "song_mentions": {
+      "Shakedown Street": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Red Rooster": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Let It Grow": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Ship Of Fools": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Estimated Prophet": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Eyes of the World": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Scarlet": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Rolling Stone": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Breakdown": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-13T21:17:56.324813+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1982-05-23.sbd.miller.96332.sbeok.flac16"
   }

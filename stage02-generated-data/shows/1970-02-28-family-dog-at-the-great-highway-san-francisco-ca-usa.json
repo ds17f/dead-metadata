@@ -184,42 +184,52 @@
     "fillmore-runs"
   ],
   "ai_show_review": {
-    "summary": "Lovelight opener, tight bass, soaring Mason's Children jam",
-    "blurb": "The concert launches with a crisp Turn On Your Lovelight that immediately energizes the band. Highlights include a strong Alligator transition into The Other One, an extended Mason's Children jam, and standout bass clarity throughout. The soundboard capture is well‑balanced, though monitor problems shorten the acoustic Black Peter segment.",
-    "review": "On February 28, 1970 at the Family Dog on the Great Highway, the Dead delivered a set that feels both adventurous and tightly knit. Opening with a bright Turn On Your Lovelight, Jerry’s lead work was crisp and energetic, setting up a relaxed acoustic sandwich that featured an intimate Black Peter before diving back into electric territory. The second half builds momentum through Alligator and a powerful drum dialogue between Mickey and Bill, culminating in a marathon Mason's Children jam that showcases the band’s improvisational depth. Phil’s bass shines with exceptional clarity and taught precision, anchoring the group while Pigpen adds his usual color on keyboards and harmonica. The soundboard tape captures the performance with excellent dynamics and instrument definition—especially the low‑end—though monitor issues trim a few moments of the acoustic segment. Overall, this show stands out for its inventive set order, strong rhythm section, and memorable jams.",
+    "summary": "Lovelight sandwich, Alligator‑Drums‑Other One surge, stellar jams",
+    "blurb": "The show features a crisp Turn On Your Lovelight sandwich framing an acoustic interlude, then builds momentum with Alligator → Drums → The Other One into a soaring Mason’s Children jam. Phil’s bass is clear and tight while the dual drummers drive the extended improvisations. The soundboard capture is superb, making this a must‑listen performance.",
+    "review": "On February 28, 1970 at the Family Dog on the Great Highway, the Dead delivered a uniquely structured set that still feels fresh today. A bright Turn On Your Lovelight sandwich bookends an acoustic interlude before the band launches into a high‑energy second half: Alligator segues into a tight drum duet, which then erupts into The Other One and rolls straight into a thunderous Mason’s Children jam. Highlights include the crisp lovelight rendition, the relentless momentum of the Alligator‑Drums‑Other One sequence, and the deep, non‑thumpy bass work that sits perfectly in the mix. Pigpen’s keyboards add color throughout, while Mickey Hart and Bill Kreutzmann power the jams with dynamic interplay. The recording, captured directly from the soundboard, is exceptionally clear—instrument separation is superb and there are no drop‑outs, allowing every nuance of this historic performance to shine.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.3,
-      "confidence": "high"
+      "ai_rating": 4.0,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 15,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "All available analysis is uniformly positive, describing the soundboard as excellent and the performance as featuring standout jams (Lovelight sandwich, Alligator‑Drums‑Other One, Mason's Children). No negative comments were found, just strong praise for instrument clarity and energy, warranting a solid positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 1.4 = 4.0"
+      }
     },
     "best_recording": {
       "identifier": "gd70-02-28.sbd.cotsman.9377.sbeok.shnf",
-      "reason": "Crisp, well‑balanced soundboard tape with clear instrument definition and full show coverage"
+      "reason": "Excellent soundboard capture with crystal‑clear mix, superb instrument separation and no drop‑outs."
     },
     "key_highlights": [
-      "Opening Lovelight sandwich sets an energetic tone",
-      "Extended Mason's Children jam showcases deep improvisation",
-      "Alligator into The Other One features strong drum excursions",
-      "Phil’s bass is exceptionally clear and tight throughout"
+      "Turn On Your Lovelight sandwich creates suspense and contrast.",
+      "Alligator → Drums → The Other One sequence drives the second half momentum.",
+      "Mason's Children jam showcases the band at peak improvisational intensity.",
+      "Phil’s bass is notably clear, tight and non‑thumpy throughout."
     ],
     "song_highlights": [
       "Turn On Your Lovelight",
+      "Me And My Uncle",
       "Little Sadie",
       "Black Peter",
-      "Alligator",
+      "China Cat Sunflower",
+      "I Know You Rider",
       "The Other One",
       "Mason's Children"
     ],
     "band_performance": {
-      "Jerry": "Opened the show with a crisp, energetic Lovelight and kept solid lead work throughout.",
-      "Phil": "Bass was clear and tight, delivering a taught sound that stood out in the mix.",
+      "Jerry": "",
+      "Phil": "Bass is clear, tight and non‑thumpy, standing out in the mix.",
       "Bob": "",
       "Brent": "",
-      "Mickey": "Drums were strong, with notable extended excursions during Alligator and The Other One.",
-      "Billy": "Provided powerful rhythmic drive, especially in the Alligator‑The Other One transition."
+      "Mickey": "Drummers receive praise for the Alligator > Drums > Other One sequence and a dynamic drum duo that drives the jams.",
+      "Billy": "Drummers receive praise for the Alligator > Drums > Other One sequence and a dynamic drum duo that drives the jams."
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-12T00:36:19.553240+00:00",
+    "processed_date": "2025-09-12T15:44:51.387052+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -237,6 +247,14 @@
       [
         "Little Sadie",
         "Black Peter"
+      ],
+      [
+        "China Cat Sunflower"
+      ],
+      [
+        "I Know You Rider",
+        "High Time",
+        "Dire Wolf"
       ]
     ]
   }

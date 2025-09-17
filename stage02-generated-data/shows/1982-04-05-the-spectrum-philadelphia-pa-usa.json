@@ -187,44 +187,82 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Bertha>Playin' jam and fiery Friend Of The Devil drive this high‑energy show",
-    "blurb": "The Spectrum concert delivers a high‑energy first set highlighted by a crisp Friend Of The Devil and solid Althea. The second set explodes with the classic Bertha > Playing In The Band > Ship Of Fools sequence that rolls into an extended post‑Ship jam, drums and space. Audience recordings are good enough to capture the band’s tight interplay throughout.",
-    "review": "What unfolds at The Spectrum on April 5, 1982 is a tightly wound, audience‑captured performance that still feels fresh decades later. Jerry’s voice shines on Friend Of The Devil and Ship Of Fools while his guitar fires on eight cylinders, especially during the soaring Bertha > Playing In The Band > Ship Of Fools trek that morphs into an adventurous post‑Ship jam before drums and space. Phil provides his usual steady bass foundation, anchoring the improvisations, and Brent’s keyboard textures add both sparkle before The Wheel and drive the momentum in the extended jam. The rhythm duo of Mickey and Billy lock in with crisp hi‑hat work and powerful drumming, keeping the flow tight even as the band stretches out. Highlights also include a spirited Althea, gritty Deep Elem Blues, and an engaging rendition of The Wheel that rounds out a setlist full of classic Dead storytelling.",
+    "summary": "Strong jams with epic Bertha→Playin'→Ship and tight first set",
+    "blurb": "The show opens solidly with a standout Friend Of The Devil and Althea before launching into an iconic Bertha → Playing In The Band → Ship Of Fools sequence that spills into an extended post‑Ship jam. Jerry’s voice is great and his guitar fires on eight cylinders, while Brent adds texture with a keyboard jam. Overall the second set delivers high‑energy improvisation despite a few rough spots.",
+    "review": "April 5, 1982 at The Spectrum captured the Dead in a wonderfully loose yet focused mode. The first set rolls through classics—Jack Straw, Friend Of The Devil, Althea—and stays tight, with Jerry’s voice described as “great” and his guitar “firing on eight cylinders.”  The real highlight erupts in the second set: Bertha segues into Playing In The Band and then Ship Of Fools, launching an extended post‑Ship jam that carries through Drums and Space before exploding back into a second Playin’ and The Wheel.  Brent’s “Brent Jam #1” adds a lush keyboard texture, and both Mickey and Bill are praised for powerful, intricate drumming throughout the improvisations.  While the audience recording has minor glitches—missing seconds at the set break and occasional crowd interruptions—the overall performance is solid, with only a few less‑inspired moments (notably Good Lovin’).  Fans looking for the quintessential Spectrum energy should give this show a spin; the jams are memorable and the band’s chemistry shines.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.2,
-      "confidence": "high"
+      "ai_rating": 3.1,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 17,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.5,
+        "sentiment_rationale": "Both recordings describe the performance as mixed but lean positive: standout jams (Bertha→Playin'→Ship), great vocal and guitar work, and strong rhythm section are highlighted repeatedly, while only minor flaws are noted. The consistency of praise across multiple sources justifies a modest positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.5 = 3.1"
+      }
     },
     "best_recording": {
       "identifier": "gd1982-04-05.nak700.wagner.miller.90496.sbeok.flac16",
-      "reason": "The audience tape is praised as brilliant and crisp, captures the high‑energy set without dropouts, and is the best available source for this show."
+      "reason": "Audience tape with good balance and crisp detail that captures the epic Bertha→Playin'→Ship sequence despite minor gaps; generally regarded as the clearest, most complete version."
     },
     "key_highlights": [
-      "Explosive Bertha > Playing In The Band > Ship Of Fools sequence with extended post‑Ship jam",
-      "Friend Of The Devil showcases strong vocals and fiery guitar work",
-      "Althea and Deep Elem Blues deliver solid, emotive performances",
-      "The Wheel stands out as a well‑crafted jam despite overall audience recording"
+      "Epic Bertha → Playing In The Band → Ship Of Fools sequence with extended post‑Ship jam into Drums/Space",
+      "Standout Friend Of The Devil and Althea in the first set",
+      "Brent Mydland’s keyboard “jam #1” adds texture to the second‑set improvisations",
+      "Jerry’s voice described as great and his guitar firing on eight cylinders"
     ],
     "song_highlights": [
       "Friend Of The Devil",
       "Bertha",
       "Playing In The Band",
       "Ship Of Fools",
+      "Playing In The Band Jam",
+      "The Wheel",
+      "Wharf Rat",
+      "Good Lovin'",
       "Althea",
-      "Deep Elem Blues",
-      "The Wheel"
+      "Don't Ease Me In",
+      "Jack Straw"
     ],
     "band_performance": {
-      "Jerry": "Vocals are strong on Friend Of The Devil and Ship Of Fools; guitar work is crisp, firing on eight cylinders throughout the set.",
-      "Phil": "Provides his usual solid bass foundation, anchoring both tight songs and extended jams.",
+      "Jerry": "His voice is great and his guitar work fires on eight cylinders, leading the jams with confidence.",
+      "Phil": "Bass sits well in the mix; noted for swapping places with Jerry during the drummers’ segment, providing solid foundation throughout.",
       "Bob": "",
-      "Brent": "Keyboard textures add sparkle before The Wheel and sustain momentum in the post‑Ship jam, delivering a solid era‑typical performance.",
-      "Mickey": "Drumming is powerful and spot‑on, driving the energy of the second‑set improvisations.",
-      "Billy": "Hi‑hat work shines, keeping the groove tight; contributes to the momentum during the extended drum and space sections."
+      "Brent": "Adds texture with a notable keyboard jam (“Brent Jam #1”) and blends nicely into the overall sound.",
+      "Mickey": "Provides powerful drumming, especially in the post‑Ship jam that drives the extended improvisation.",
+      "Billy": "His hi‑hat work is highlighted as a major strength; contributes strongly to the rhythmic drive of the second set."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-07T06:01:25.581370+00:00",
+    "processed_date": "2025-09-13T19:20:30.127622+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Friend Of The Devil"
+      ],
+      [
+        "Bertha",
+        "Playing In The Band",
+        "Ship Of Fools",
+        "Playing In The Band Jam",
+        "Drums",
+        "Space",
+        "The Wheel",
+        "Playing In The Band",
+        "Wharf Rat",
+        "Good Lovin'"
+      ],
+      [
+        "Althea"
+      ],
+      [
+        "Don't Ease Me In"
+      ],
+      [
+        "Jack Straw"
+      ]
+    ]
   }
 }

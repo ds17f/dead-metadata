@@ -16,23 +16,23 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording of a great show, praised as the reviewer’s favorite among the two available tapes.",
-    "review": "The reviewer rates this concert four stars and calls it a \"great show,\" noting that it is their favorite of the two recordings currently circulating. No specific comments about audio fidelity are given, but the .sbd designation suggests a clean soundboard source. Overall the performance is viewed positively despite the lack of detailed song or technical notes.",
+    "summary": "Good-quality recording of a fan‑favorite show, though details on sound are limited",
+    "review": "The reviewer rates the performance highly, calling it their favorite of the two available recordings and giving it four stars. No specific comments about the audio source or mix are provided, so the technical quality is assumed to be at least listenable.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.0,
+      "stars": 3.8,
       "confidence": "low",
-      "rationale": "Only one brief review, but it gives a solid 4‑star rating and praises the show, indicating good musical performance; recording quality is assumed typical for a soundboard source."
+      "rationale": "Only one brief review; strong positive sentiment about the show (4 ★) but no concrete recording details, so rating leans toward a good show with an assumed decent recording."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "unknown",
       "quality_rating": "good",
-      "technical_notes": "No explicit comments; presumed clear, balanced mix typical of soundboard recordings."
+      "technical_notes": "No explicit comments on sound clarity, mix, or source; reviewer’s positive overall impression suggests the recording is at least acceptable."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "Reviewer describes the concert as a great show and their favorite among available recordings."
+      "setlist_flow": "Reviewer indicates this version is their favorite of the two available, implying a strong overall performance."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +42,7 @@
       "Drums": ""
     },
     "song_mentions": {},
-    "processed_date": "2025-09-11T23:27:44.261596+00:00",
+    "processed_date": "2025-09-12T14:29:01.146908+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-02-07.sbd.naked_jaybird.3648.sbeok.shnf"
   }

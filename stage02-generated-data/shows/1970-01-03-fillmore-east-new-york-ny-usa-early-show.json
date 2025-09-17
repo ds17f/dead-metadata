@@ -137,45 +137,49 @@
     "show_time: early"
   ],
   "ai_show_review": {
-    "summary": "High‑energy early‑1970 set with fiery Alligator and strong Pigpen organ",
-    "blurb": "The show bursts open with a searing Alligator jam driven by Pigpen’s organ. Jerry delivers commanding vocals on Uncle John’s Band while Bob Weir shines on guitar. The performance stays tight and fluid from start to finish, making it one of the most exciting early‑1970 recordings.",
-    "review": "On January 3, 1970 at the Fillmore East the Dead rolled out a high‑octane set that still feels fresh today. Pigpen’s organ roars through the opening numbers, propelling an incendiary Alligator sequence that’s both wild and surprisingly tight. Jerry’s vocals soar on “Uncle John’s Band,” and his guitar work stays energetic throughout, even if the mix sometimes buries his tone. Bob Weir steps into the spotlight with crisp, confident playing, while Mickey and Billy lock in a solid rhythmic foundation that carries the post‑drum jam teases. Minor mix quirks—Phil’s bass a touch low and occasional cuts on “Cryptical Outro”—don’t dim the overall brilliance of this early‑1970 performance, which captures the band at a peak of raw excitement.",
+    "summary": "High‑octane early ’70 set with blazing Alligator and soaring Pigpen organ",
+    "blurb": "The show bursts open with a thunderous Morning Dew and rides the groove through an incendiary Alligator jam. Pigpen’s organ shreds, Uncle John’s Band caps a tight encore, and the band’s energy stays relentless throughout.",
+    "review": "On January 3, 1970 at the Fillmore East the Dead delivered a blistering early‑show that still feels fresh decades later. The set kicks off with a searing Morning Dew before diving into a wild Alligator sandwich – two halves bookending a drum break and a burst of feedback – where Ron \"Pigpen\" McKernan’s organ roars over Garcia’s guitar, creating one of the most electrifying moments of this era. The band never lets up, rolling through hard‑rock staples like Hard To Handle and Cumberland Blues with tight chemistry, then closing the night with an intimate Uncle John’s Band that showcases Jerry’s soulful vocals and Bob’s crisp rhythm work. Across all four soundboard sources the performance is described as “high‑energy,” “powerful,” and “genius,” making this early‑show a must‑listen snapshot of the Dead on the brink of their next evolution.\n\nThe best listening experience comes from the Miller SBD (gd70-01-03.sbd.ret.19440.sbeok.shnf), praised for its clear, crisp mix that captures every nuance while only suffering minor tape cuts and a slightly low‑sitting Phil bass. Even when the mix tucks Garcia’s guitar or buries the bass, the sheer vitality of the performance shines through, cementing this night as a standout entry in the band’s 1970 catalog.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.2,
-      "confidence": "high"
+      "ai_rating": 4.3,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 28,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Strong positive sentiment across all four soundboard recordings; every analysis highlights standout jams like Alligator and praises the band’s energy, with no negative comments about performance quality.",
+        "final_calculation": "2.5 + 0.2 + 1.6 = 4.3"
+      }
     },
     "best_recording": {
       "identifier": "gd70-01-03.sbd.ret.19440.sbeok.shnf",
-      "reason": "Superb soundboard capture with crisp era‑appropriate clarity; minor mix issues are outweighed by overall listenability and it’s the community’s preferred source."
+      "reason": "Superb soundboard capture with crisp, clear mix; captures the high‑energy performance while only having minor tape cuts and a slightly low bass level."
     },
     "key_highlights": [
-      "Incendiary Alligator jam that drives the first set.",
-      "Pigpen’s organ dominates the early set, adding massive energy.",
-      "Bob Weir’s standout guitar work shines throughout.",
-      "Tight, fluid performance that sustains high‑octane momentum."
+      "Alligator jam bookended by drums and feedback showcases Pigpen’s organ fireworks.",
+      "Morning Dew opens the set with thunder‑filled intensity, setting a high bar.",
+      "Uncle John's Band delivers an intimate, vocal‑focused encore that caps the night beautifully."
     ],
     "song_highlights": [
-      "Morning Dew",
       "Alligator",
-      "Uncle John's Band"
+      "Uncle John's Band",
+      "Morning Dew"
     ],
     "band_performance": {
-      "Jerry": "Powerful vocals on “Uncle John’s Band” and energetic guitar work throughout; mix sometimes places his guitar low but the playing remains compelling.",
-      "Phil": "Bass is slightly buried in the mix on some recordings, otherwise no major issues noted.",
-      "Bob": "Prominent and excellent guitar playing, highlighted as a strong point of the show.",
+      "Jerry": "Garcia’s vocals are soaring (especially on Uncle John’s Band) and his guitar remains energetic throughout, though a few mixes bury his lead.",
+      "Phil": "Solid bass work overall; some recordings note the bass sits low in the mix but his playing stays tight.",
+      "Bob": "Weir is prominent on this night, delivering crisp rhythm work and strong vocal contributions.",
       "Brent": "",
-      "Mickey": "Provides a solid rhythmic foundation; post‑drum jam teases receive particular acclaim.",
-      "Billy": "Delivers reliable drumming that underpins the high‑energy flow of the concert."
+      "Mickey": "",
+      "Billy": ""
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-11T22:07:14.322213+00:00",
+    "processed_date": "2025-09-12T13:09:29.099890+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "Morning Dew"
-      ],
       [
         "Alligator",
         "Drums",
@@ -184,6 +188,9 @@
       ],
       [
         "Uncle John's Band"
+      ],
+      [
+        "Morning Dew"
       ]
     ]
   }

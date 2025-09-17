@@ -183,43 +183,55 @@
     "fillmore-east-1970-complete-recordings"
   ],
   "ai_show_review": {
-    "summary": "Strong acoustic opener, fiery Viola Lee Blues and extended Good Lovin' jam",
-    "blurb": "The Capitol Theater show opens with a punchy Casey Jones and delivers a standout Viola Lee Blues and Turn On Your Lovelight. The second half builds into an electric marathon highlighted by a soaring Good Lovin' → Not Fade Away sequence.",
-    "review": "Port Chester’s March 20, 1970 concert captures the Dead in top form as they transition from an energetic acoustic set into a hard‑charging electric second set. Early songs like Casey Jones and the China Cat Sunflower > I Know You Rider pairing kick off the night with crisp interplay, while Pigpen’s rousing Lovelight rap adds extra fire. The highlight is undoubtedly Viola Lee Blues – a blistering blues romp that showcases Jerry’s searing lead work and the dual‑drum thunder of Mickey and Billy. That momentum carries straight into an expansive Good Lovin' → Not Fade Away jam, where the band stretches out with tight rhythmic lock‑ups and soaring solos before closing the night on a soulful Turn On Your Lovelight. Though the soundboard source has some tape hiss and Pigpen’s organ sits low in the mix, the overall performance is solid and memorable for any early‑70s Deadhead.",
+    "summary": "Acoustic first set shines; electric third delivers fiery Viola Lee",
+    "blurb": "The show opens with tight acoustic numbers and builds into a powerful electric third set highlighted by a scorching Viola Lee Blues and high‑energy Lovelight. Jerry’s guitar work is solid throughout, Phil stays on key, while Pigpen’s organ sits low in the mix. Standout moments include Casey Jones, the Good Lovin’/Not Fade Away sequence and the closing And We Bid You Good Night.",
+    "review": "On March 20, 1970 at the Capitol Theater the Dead delivered a set that balances folk‑tightness with electric fire. The first acoustic half works like a well‑crafted songbook—Casey Jones rolls into Me And My Uncle, and the China Cat Sunflower → I Know You Rider segue feels fresh, while Deep Elem Blues and Friend Of The Devil showcase earnest storytelling. After a modest dip on Hard To Handle, the band erupts in the third set: a blistering Viola Lee Blues, soaring High Time, and an exuberant Turn On Your Lovelight keep the momentum high. The Good Lovin’ → Not Fade Away double‑drum stretch is a highlight of dual percussion energy, culminating in a heartfelt And We Bid You Good Night encore.\n\nThe recordings capture this performance with varying fidelity. The Smith soundboard (gd1970-03-20.sbd.smith.99182.sbeok.flac16) offers the clearest overall picture—though some tape hiss and a low‑mix organ keep it from being pristine, it still presents the acoustic nuances and the fiery electric moments vividly. Other SBD sources are good but uneven, while the matrix splice is jumbled and muffled in places. For most listeners the Smith SBD is the definitive listening experience.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.2,
-      "confidence": "high"
+      "ai_rating": 2.9,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 17,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.3,
+        "sentiment_rationale": "All three recordings are marked as mixed sentiment. Reviewers consistently praise specific songs (Viola Lee Blues, Good Lovin’, etc.) and note no pervasive negative criticism of the band's playing, resulting in a modest positive adjustment rather than a strong one.",
+        "final_calculation": "2.5 + 0.1 + 0.3 = 2.9"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-03-20.sbd.smith.99182.sbeok.flac16",
-      "reason": "Cleaned‑up soundboard capture with good overall balance; retains acoustic clarity and electric power despite minor hiss."
+      "reason": "Good‑quality soundboard with decent clarity; captures acoustic set and fiery electric moments despite minor hiss and low organ level."
     },
     "key_highlights": [
-      "Violent energy on Viola Lee Blues with tight dual‑drum drive",
-      "Pigpen’s charismatic Turn On Your Lovelight performance",
-      "Extended Good Lovin' → Not Fade Away jam that showcases the band’s improvisational chemistry",
-      "Acoustic opening that sets a strong, cohesive tone for the night"
+      "Acoustic first set shines with tight folk numbers.",
+      "Scorching Viola Lee Blues and high‑energy Turn On Your Lovelight in the third set.",
+      "Epic Good Lovin’ → Not Fade Away double‑drum sequence and powerful And We Bid You Good Night encore.",
+      "Soundboard recording is good but has some tape hiss and low organ mix."
     ],
     "song_highlights": [
       "Casey Jones",
       "China Cat Sunflower",
       "I Know You Rider",
       "Good Lovin'",
+      "Not Fade Away",
       "Viola Lee Blues",
+      "High Time",
       "Turn On Your Lovelight",
-      "Not Fade Away"
+      "And We Bid You Good Night",
+      "Deep Elem Blues",
+      "Friend Of The Devil"
     ],
     "band_performance": {
-      "Jerry": "Consistently solid lead guitar with a standout solo on Viola Lee Blues and driving lines throughout the Good Lovin' jam.",
-      "Phil": "Provides a strong bass foundation; his vocals are loud and on‑key, though high harmonies get buried in the mix.",
+      "Jerry": "Delivers confident lead lines and an inspired solo during Viola Lee Blues, keeping the electric momentum driving.",
+      "Phil": "Sings loudly and stays on key throughout, providing solid vocal support.",
       "Bob": "",
-      "Brent": "",
-      "Mickey": "Delivers powerful, propulsive rhythms that lock tightly with Billy during the electric second set, especially on Viola Lee Blues and Good Lovin'.",
-      "Billy": "Matches Mickey’s intensity, adding depth to the drum duets and driving the extended jams forward."
+      "Brent": "Pigpen’s organ sits low in the mix, reducing its impact especially on Viola Lee Blues.",
+      "Mickey": "",
+      "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-12T00:58:09.962109+00:00",
+    "processed_date": "2025-09-12T16:05:11.652706+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -241,7 +253,19 @@
         "Viola Lee Blues"
       ],
       [
+        "High Time"
+      ],
+      [
         "Turn On Your Lovelight"
+      ],
+      [
+        "And We Bid You Good Night"
+      ],
+      [
+        "Deep Elem Blues"
+      ],
+      [
+        "Friend Of The Devil"
       ]
     ]
   }

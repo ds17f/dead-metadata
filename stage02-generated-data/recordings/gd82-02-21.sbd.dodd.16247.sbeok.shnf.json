@@ -16,44 +16,96 @@
   "high_ratings": 13,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of a high‑energy early‑80s Dead show with scorching Shakedown, Bird Song and a tight Bertha > Women Smarter, though a flat mix and the missing China Cat keep it from being perfect.",
-    "review": "The performance is a classic early‑'80s set that bursts with excitement – Jerry tears into “Shakedown,” Brent delivers memorable keyboard solos, Phil drops bass bombs on the NFA→Stella sequence, and Bob’s rhythm work shines throughout. The soundboard source is generally clear and well‑mixed, but listeners note a slightly flat tonal balance and the absence of the China Cat Sunflower track, which leaves a small gap in an otherwise solid recording.",
-    "sentiment": "positive",
+    "summary": "Soundboard recording of a high‑energy early‑80s show with blazing Garcia on Tiger and standout Shakedown/Bird Song, though the China Cat segment is missing.",
+    "review": "The performance captures the renewed vigor of the Dead in ’82 – Jerry’s guitar on “Tiger” is on fire, the first set rolls from a ripping “Shakin’/Shakedown” into “Bird Song” and a tight Bertha > Women Smart sequence. The soundboard source is generally clear and well‑mixed, albeit a bit flat and missing some low‑end punch; the biggest complaint is the absent “China Cat”. Overall it’s a solid, memorable show for fans of this era.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers give 4‑5 stars and praise the show’s energy and musicianship; recording comments are largely favorable with minor flatness issues, yielding a strong overall score."
+      "rationale": "Most reviewers praise the musical performance and give 4‑5 stars; recording is described as good though slightly flat. The weight of positive comments outweighs the few negative remarks about missing songs, resulting in a strong overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear and listenable soundboard mix, though several reviewers describe the tonal balance as a bit flat and wish for more bass presence. No major drop‑outs reported."
+      "technical_notes": "Generally clear and well‑balanced soundboard mix; some reviewers note a slight flatness and wish for more bass presence, but no major dropouts or distortion reported."
     },
     "show_quality": {
       "standout_songs": [
         "Shakedown (Shakin')",
         "Bird Song",
-        "Bertha > Women Smarter",
+        "Bertha > Women Smart",
+        "Tiger",
         "Estimated Prophet",
-        "New Fast ...? (NFA)",
+        "The Other One",
         "Stella Blue",
         "Sugar Magnolia",
         "Brokedown Palace"
       ],
       "poor_songs": [
-        "China Cat Sunflower (missing from this version)"
+        "China Cat (missing)"
       ],
-      "setlist_flow": "First set builds strong momentum with Shakedown and Bird Song, leading into a powerful Bertha > Women Smarter closing. Second set stays tight, highlighted by the NFA→Stella sequence and a solid encore, though the missing China Cat leaves a small gap.",
-      "energy_level": "high"
+      "setlist_flow": "First set launches with high energy and tight transitions, second set stays solid despite the missing China Cat; overall pacing is strong with memorable peaks in the early‑80s repertoire."
     },
     "band_member_comments": {
-      "Jerry": "Rips into Shakedown with fire; guitar tone praised as ‘on fire’ and tight throughout.",
-      "Phil": "Drops bass bombs on the NFA→Stella section, delivering sweet, fast‑paced lines that stand out.",
-      "Bob": "Great rhythm guitar tone noted; energetic playing described as a “walking encyclopedia of broken chords” with strong presence.",
-      "Keys": "Brent’s solos are highlighted as memorable and engaging; overall keyboard work is solid though some wish for more bass balance.",
+      "Jerry": "Garcia’s guitar tone on “Tiger” and throughout the show is described as ‘on fire’ and a highlight of the performance.",
+      "Phil": "Phil Lesh receives praise for his bass work, especially on the intro/outro of “The Other One” into “Stella Blue”, noted as ‘carpet‑bombing’ and sweetly melodic.",
+      "Bob": "Bob Weir’s rhythm guitar is lauded as powerful and artistic; several reviewers mention his strong presence on songs like “Estimated Prophet”.",
+      "Keys": "Brent Mydland’s keyboard solos are highlighted as great, with specific kudos for mid‑song jams and overall synchronicity with the guitars.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T05:34:21.685542+00:00",
+    "song_mentions": {
+      "Shakedown (Shakin')": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Bird Song": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Bertha > Women Smart": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Tiger": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Estimated Prophet": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Stella Blue": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Brokedown Palace": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China Cat": {
+        "positive_mentions": 0,
+        "negative_mentions": 7,
+        "total_mentions": 7
+      }
+    },
+    "processed_date": "2025-09-13T18:41:20.636191+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd82-02-21.sbd.dodd.16247.sbeok.shnf"
   }
