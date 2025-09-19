@@ -5,14 +5,72 @@
   "venue": "Boston Garden",
   "location": "Boston, MA",
   "source_type": "AUD",
-  "lineage": "16 bit \u2013 48kHz DAT Master > TASCAM DA-20 (SPDIF out) -> LynxTWO-B Audio Reference Interface (SPDIF in) -> Wavelab 6.0 (Weiss Saracon for 16 BIT \u2013 44.1kHz SRC and POWR-3 Dither)",
+  "lineage": "16 bit – 48kHz DAT Master > TASCAM DA-20 (SPDIF out) -> LynxTWO-B Audio Reference Interface (SPDIF in) -> Wavelab 6.0 (Weiss Saracon for 16 BIT – 44.1kHz SRC and POWR-3 Dither)",
   "taper": "James Young and Clay Brennecke and Dan Oneil",
-  "source": "Set 2 Master DAT, Set 1 Clone of Master DAT Recording Equipment: Set 1 -  Schoeps CMC34 (ORTF) > Oade Supply > Panasonic sv255 Set 2 - B&K 4011 110\u00ba ORTF > Neumann BS 48i-2> Modified Sony TCD D-10 Pro Recording Location: Set 1 FOB - Set 2 FOB Section BB Row 24 Seat 3",
+  "source": "Set 2 Master DAT, Set 1 Clone of Master DAT Recording Equipment: Set 1 -  Schoeps CMC34 (ORTF) > Oade Supply > Panasonic sv255 Set 2 - B&K 4011 110º ORTF > Neumann BS 48i-2> Modified Sony TCD D-10 Pro Recording Location: Set 1 FOB - Set 2 FOB Section BB Row 24 Seat 3",
   "runtime": "167:31.13",
   "rating": 2.6774999999999998,
   "review_count": 4,
   "confidence": 0.8,
   "raw_rating": 4.25,
   "high_ratings": 4,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Clean front‑of‑house recording of a high‑energy 1991 show with standout Help > Slipknot, Fire and an emotional Morning Dew.",
+    "review": "The audience (FOB) tape is surprisingly clear for a rowdy venue, especially after EQ work, though a stray whistling during Birdsong mars a few seconds. Musically the concert shines – Garcia nails every lyric in Help on the Way and launches into a flawless Slipknot intro, the roof blows off when Fire opens, and Hornsby’s piano on Morning Dew moves listeners to tears.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.4,
+      "confidence": "high",
+      "rationale": "Four detailed reviews praise the performance (standout songs, strong playing) and note a generally good recording with only minor noise issues."
+    },
+    "recording_quality": {
+      "source_type": "audience",
+      "quality_rating": "good",
+      "technical_notes": "Overall clean and well‑EQ'd front‑of‑house capture; occasional intrusive yeller/whistler during Birdsong but crowd ambience is well‑controlled."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Help on the Way > Slipknot!",
+        "Fire",
+        "Morning Dew"
+      ],
+      "poor_songs": [
+        "Birdsong"
+      ],
+      "setlist_flow": "High‑energy first set leading into a powerful second half; the band rides the crowd’s excitement, culminating in an explosive Fire and a heartfelt Morning Dew."
+    },
+    "band_member_comments": {
+      "Jerry": "Garcia’s vocals are spot‑on for Help on the Way and his guitar sparks the roof‑blowing Fire intro.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Bruce Hornsby delivers powerful, emotive piano work, especially on Morning Dew.",
+      "Drums": ""
+    },
+    "song_mentions": {
+      "Birdsong": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Fire": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Help on the Way > Slipknot!": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-18T01:30:22.060182+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1991-09-20.fob.oneil.brennecke-young.gems.101438.flac16"
+  }
 }

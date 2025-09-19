@@ -5,7 +5,7 @@
   "venue": "Oakland-Alameda County Coliseum",
   "location": "Oakland, CA",
   "source_type": "UNKNOWN",
-  "lineage": "16 bit \u2013 48kHz DAT Master > TASCAM DA-20 (SPDIF out) -> LynxTWO-B Audio Reference Interface (SPDIF in) -> Wavelab 6.0 by Todd Evans Editing and Mastering: Jamie Waddell on the GEMS Edit Station. Weiss Saracon for 16 BIT \u2013 44.1kHz SRC and POWR-3 Dither Traders Little Helper for FLAC Level 8 SBE Free Todd Evans - Tag & Rename for FLAC Meta-Data Tagging",
+  "lineage": "16 bit – 48kHz DAT Master > TASCAM DA-20 (SPDIF out) -> LynxTWO-B Audio Reference Interface (SPDIF in) -> Wavelab 6.0 by Todd Evans Editing and Mastering: Jamie Waddell on the GEMS Edit Station. Weiss Saracon for 16 BIT – 44.1kHz SRC and POWR-3 Dither Traders Little Helper for FLAC Level 8 SBE Free Todd Evans - Tag & Rename for FLAC Meta-Data Tagging",
   "taper": "Marcus Buick and James Young",
   "source": "Lineage: Clone of Master DAT Recording Equipment: Schoeps CMC34 > MIT Cable > Oade Power Supply > Panasonic sv255 Recording Location: FOB - Hand Held Both Sets Recorded by Marcus Buick and James Young",
   "runtime": "176:06.51",
@@ -14,5 +14,44 @@
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A shining performance highlighted by a chilling Dark Star; recording quality is not detailed but presumed solid.",
+    "review": "The reviewer raves about the week’s shows, noting that the band \"really shined\" and calling the post‑Dark Star segment with Kesey's poem \"quiet, chilling, but to the point.\" No specific comments on the audio source are given, so the recording is assumed to be listenable. Overall sentiment is highly positive, with Dark Star singled out as a standout moment.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "low",
+      "rationale": "Only one enthusiastic 5‑star review; strong praise for the performance but no concrete info on recording quality, leading to a high show rating and an assumed decent recording."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No specific audio comments; reviewers did not mention issues, implying the sound is acceptable."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Dark Star"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "The week’s shows are described as a cohesive, high‑energy run with the band shining throughout; Dark Star receives special mention for its quiet, chilling vibe after Kesey's poem."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-18T02:43:42.476751+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1991-10-31.young-buick.gems.102211.flac16"
+  }
 }

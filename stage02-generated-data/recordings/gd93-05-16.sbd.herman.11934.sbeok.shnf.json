@@ -16,18 +16,18 @@
   "high_ratings": 24,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a high‑energy May 16 1993 Vegas show, highlighted by a stellar Help→Slip→Franklin’s sequence and a monster Other One.",
-    "review": "The recording is a crisp soundboard source that showcases the band at peak late‑90s form – Jerry’s tone is front‑and‑center, Vince’s keyboards sparkle, and the mix is generally superb.  While Bob’s voice shows signs of strain and the first set is often called “throwaway,” the second set delivers fireworks with Help > Slip > Franklin’s, The Other One, Althea, Row Jimmy and a soaring Terrapin jam.  Overall the show feels electric and memorable.",
+    "summary": "Excellent soundboard capture of a 1993 Vegas show where the second set – especially Help > Slip > Franklin’s and The Other One – shines, despite Bob’s hoarse vocals.",
+    "review": "The recording is remarkably clear and well‑balanced, delivering the full impact of Jerry’s exuberant playing and Vince’s adventurous keyboards.  Fans rave about a second set that turns a short first half into a classic, highlighted by Help > Slip > Franklin’s, The Other One, Althea and Row Jimmy.  Bob’s vocal strain is noted but doesn’t detract from the overall magic of the performance.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Average star rating across 25 reviews is 4.28; most comments praise both performance and recording, with only a few low‑star outliers."
+      "rationale": "Over twenty reviews overwhelmingly praise the musical performance and note excellent soundboard quality; only a few moderate/negative comments keep the rating just shy of perfect."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Crisp, front‑center mix with Jerry’s guitar tone prominent; noted as the last Healy broadcast. A few reviewers mention slight bass distortion or minor drop‑outs, but overall clarity and balance are outstanding."
+      "technical_notes": "Multiple reviewers call the sound crisp, well‑balanced and “near perfect”.  A handful mention a slight bass distortion for Phil or minor FM broadcast quirks, but overall the mix is clear with Jerry’s guitar upfront."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,26 +35,74 @@
         "The Other One",
         "Althea",
         "Row Jimmy",
-        "Cassidy",
         "Terrapin Station",
-        "Brokedown Palace",
-        "Walkin' Blues"
+        "Brokedown Palace"
       ],
       "poor_songs": [
-        "\"Touch\" (first‑set opener, described as average)",
-        "\"Slipknot\" (some reviewers note uneven moments)"
+        "Slipknot!"
       ],
-      "setlist_flow": "A very short first set that many call throwaway, followed by a second set that builds momentum with a classic H>S>F sequence, extended jams and high energy peaks.",
-      "energy_level": "high"
+      "setlist_flow": "First set is brief but contains solid gems (Althea, Row Jimmy, Cassidy).  The second set erupts into a marathon of jams, with Help > Slip > Franklin’s as the centerpiece and The Other One delivering a soaring climax."
     },
     "band_member_comments": {
-      "Jerry": "Described as in the best mood ever, doing a 360 spin, grinning, delivering powerful solos and an upfront tone; many say \"Jerry is ON\" and his playing carries the show.",
-      "Phil": "Generally praised for being present and solid in the mix (though one reviewer notes slight bass distortion); noted for tight interplay on Row Jimmy.",
-      "Bob": "Vocal problems are a recurring theme – flubbed lyrics, ragged/shot voice – but reviewers still commend his effort and occasional emotional impact.",
-      "Keys": "Vince’s keyboard work receives high praise (especially on Slipknot, Althea, Row Jimmy, and the spacey Elvis‑style sections); a few call his “toy piano” moments odd, yet overall his contributions are seen as a highlight.",
+      "Jerry": "Praised for being “on” all night, delivering joyous solos, breaking strings mid‑song and generally driving the show’s energy.",
+      "Phil": "Generally noted as present and solid; a few listeners heard slight bass distortion but overall his playing is supportive.",
+      "Bob": "Vocals described as ragged or hoarse throughout, yet many felt his strained voice added character to songs like Looks Like Rain.",
+      "Keys": "Vince’s keyboard work receives strong admiration—especially on Slipknot, Row Jimmy and the spacey sections—though a few call the “toy piano” moments odd.",
       "Drums": ""
     },
-    "processed_date": "2025-09-06T15:41:32.835914+00:00",
+    "song_mentions": {
+      "Help > Slip > Franklin's Tower": {
+        "positive_mentions": 9,
+        "negative_mentions": 1,
+        "total_mentions": 10
+      },
+      "The Other One": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Althea": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Row Jimmy": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "Cassidy": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Terrapin Station": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Slipknot!": {
+        "positive_mentions": 7,
+        "negative_mentions": 3,
+        "total_mentions": 10
+      },
+      "Brokedown Palace": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Wharf Rat": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Looks Like Rain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-18T12:38:44.997526+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd93-05-16.sbd.herman.11934.sbeok.shnf"
   }
