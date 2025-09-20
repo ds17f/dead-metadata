@@ -192,42 +192,74 @@
     "official-picks-dicks"
   ],
   "ai_show_review": {
-    "summary": "High‑energy Halloween show with smoking Dark Star and crisp Keith piano",
-    "blurb": "The set features a blazing Dark Star opening the second set and an inspired El Paso in the first. Jerry’s improvisational riffs shine while Phil anchors with solid bass and adds vocal harmonies on Jack Straw. Keith’s fresh piano texture rounds out a tight, high‑energy performance.",
-    "review": "October 31, 1971 at the Ohio Theatre captures the Dead at a Halloween peak, delivering a night that feels both spontaneous and meticulously locked in. The first set rolls through classics with an especially gripping El Paso that lets Garcia stretch his improvisational muscles, while Phil’s bass keeps everything grounded and Bob adds reliable rhythm work. After a solid first half, the second set erupts with a smoking Dark Star that opens a cascade of seamless segues—Not Fade Away into Goin' Down The Road Feeling Bad—showcasing the band’s uncanny ability to keep momentum blazing. Keith Godchaux’s piano is fresh and crisp throughout, adding bright color even when the early mix pushes it forward. The encore crowns the night with a rollicking Johnny B. Goode, leaving the Columbus crowd buzzing. With two excellent soundboard sources that capture the full show in clear detail, this Halloween performance stands out as one of the season’s most electric outings.",
+    "summary": "Dark Star, Jack Straw & El Paso shine on Halloween night",
+    "blurb": "The show delivers a transcendent Dark Star and soaring El Paso, with a tight Jack Straw that slows down for dramatic effect. The second‑set jam Not Fade Away → Goin’ Down the Road Feeling Bad → Not Fade Away is fire‑filled, keeping the energy high from start to finish.",
+    "review": "On October 31, 1971 the Dead conjured a Halloween masterpiece at the Ohio Theatre. From the opening “Bertha” through a brisk first set, the band kept the momentum rolling, but it’s the second set that truly lifts the night—Jerry’s soaring guitar on Dark Star, Keith’s crisp piano accents, and Phil’s solid bass foundation build an otherworldly groove that erupts into the legendary Not Fade Away → Goin’ Down the Road Feeling Bad → Not Fade Away sequence. Highlights like “El Paso,” a deliberately paced “Jack Straw,” and a lively “Deal” showcase the group’s tight interplay, while the encore “Johnny B. Goode” caps off an evening that feels both classic and fresh. The Miller soundboard capture (gd1971-10-31.sbd.miller.79011.sbeok.flac16) presents crystal‑clear instrument separation, making this performance a must‑listen for any Deadhead seeking the magic of early‑’71.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.7,
-      "confidence": "high"
+      "ai_rating": 4.3,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 21,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All three recordings are marked positive, with two soundboard sources praising multiple standout songs (Dark Star, Jack Straw, El Paso, Deal, Not Fade Away sequence) and no consistent criticisms. The repeated acclaim for the band's tight playing and soaring solos across recordings warrants a strong positive sentiment boost.",
+        "final_calculation": "2.5 + 0.2 + 1.6 = 4.3"
+      }
     },
     "best_recording": {
       "identifier": "gd1971-10-31.sbd.miller.79011.sbeok.flac16",
-      "reason": "Highest‑quality soundboard with excellent instrument separation, full set coverage and minimal mix quirks."
+      "reason": "Excellent soundboard transfer with crisp piano, superb instrument separation and clear capture of the show’s highlight moments."
     },
     "key_highlights": [
-      "Smoking Dark Star opening the second set with tight improvisational interplay.",
-      "El Paso delivers a standout Garcia solo that drives the first set forward.",
-      "Keith Godchaux’s fresh piano adds bright texture throughout the night."
+      "Transcendent Dark Star that lifts into a fire‑filled second‑set jam",
+      "Soaring El Paso and deliberately paced Jack Straw showcase Jerry's guitar brilliance",
+      "Legendary Not Fade Away → Goin' Down the Road Feeling Bad → Not Fade Away sequence"
     ],
     "song_highlights": [
       "Dark Star",
-      "El Paso",
       "Jack Straw",
+      "El Paso",
       "Deal",
       "Not Fade Away",
-      "Johnny B. Goode"
+      "Goin' Down The Road Feeling Bad",
+      "Playing In The Band"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s improvisational riffs soar, especially on Dark Star and El Paso, with a tone described as perfect once the mix settles.",
-      "Phil": "Provides a tight bass foundation and joins vocal harmonies on Jack Straw, keeping the band grounded.",
-      "Bob": "Delivers solid rhythm guitar work that supports the ensemble without drawing attention away from the jams.",
-      "Keith": "Fresh, crisp piano throughout; early mix makes it slightly forward but quickly settles into an ideal texture.",
+      "Jerry": "Garcia delivers soaring riffs on El Paso, a superb Dark Star solo and a beautifully restrained Jack Straw that highlights his lyrical phrasing.",
+      "Phil": "Lesh provides a tight, melodic bass line that locks in with Jerry’s guitar, especially evident during the closing chorus of Jack Straw.",
+      "Bob": "Weir's rhythm work remains solid throughout; no performance issues noted despite an early channel shift.",
+      "Brent": "Keith's piano is crisp and present, adding sparkle to El Paso and Dark Star while occasionally sounding a bit high on Bertha.",
       "Mickey": "",
-      "Billy": "Steady drumming lays down a reliable pulse, ensuring the high‑energy flow stays cohesive."
+      "Billy": "Bill Kreutzmann lays down a steady, supportive drum foundation that drives the band’s energetic flow."
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-07T20:17:06.450733+00:00",
+    "processed_date": "2025-09-20T09:08:27.675824+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Dark Star",
+        "Sugar Magnolia"
+      ],
+      [
+        "Jack Straw"
+      ],
+      [
+        "El Paso"
+      ],
+      [
+        "Deal"
+      ],
+      [
+        "Not Fade Away",
+        "Goin' Down The Road Feeling Bad",
+        "Not Fade Away"
+      ],
+      [
+        "Playing In The Band"
+      ]
+    ]
   }
 }

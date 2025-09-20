@@ -16,43 +16,39 @@
   "high_ratings": 8,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Fair audience recording of the July 11 1970 Fillmore East show, highlighted by a stellar acoustic set and high‑energy electric numbers.",
-    "review": "The performance is widely praised – an intimate acoustic segment featuring “So Sad” and the first live Rosa Lee, followed by a thunderous electric set with Jerry’s pedal‑steel work and a soaring Morning Dew. The audience tape suffers from channel loss on the early songs, tape hiss and a “multi‑generation cassette” feel, but most listeners find it listenable given its historical rarity.",
+    "summary": "Audience cassette with left‑channel quirks captures a high‑energy July 11 1970 Fillmore East show – stellar acoustic set and thundering Morning Dew despite crude audio.",
+    "review": "The performance is widely praised for its raw power: an acoustic half featuring the rare Everly Brothers cover “So Sad (To Watch Good Love Go Bad)”, “Rosa Lee” and three gospel numbers, followed by a blistering electric set that opens with “Easy Wind” and rockets into a soaring “Morning Dew”.  The recording is an audience cassette from the stone‑age era – left channel only for the first nine songs, tape hiss and occasional silence – but listeners consider it good enough given its historical value.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show highly (4–5 stars) for performance, while recording quality is described as fair to good; weighted average yields ~4.1."
+      "rationale": "Most reviewers rate the music 4‑5 stars and highlight standout moments, while recording quality averages around fair (3‑4 stars). Weighted combination yields a strong overall rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Left channel only on first nine songs, noticeable tape hiss, multi‑generation cassette character, overall crude but listenable for a 1970 audience recording."
+      "technical_notes": "Left channel carries the first ~9 songs; right channel is mostly hiss until the acoustic “A Voice From On High”. Tape hiss, occasional silence and overall cassette‑generation noise. No soundboard source; listeners note it’s crude but usable for historical purposes."
     },
     "show_quality": {
       "standout_songs": [
-        "So Sad (to Watch Good Love Go Bad)",
-        "Rosa Lee",
+        "So Sad (To Watch Good Love Go Bad)",
         "Morning Dew",
-        "Easy Wind"
+        "Rosa Lee",
+        "Good Lovin'",
+        "Viola Lee Blues"
       ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic set opens with Easy Wind and three gospel numbers, includes a rare Everly Brothers cover; electric set kicks in with high energy, featuring Jerry’s pedal‑steel/possible wah‑wah and a powerful Morning Dew."
+      "setlist_flow": "Acoustic half opens with rare Everly Brothers cover and three gospel numbers, then transitions to the electric set featuring Easy Wind, a Dancing‑Cryptical‑Other One medley and culminates in an explosive Morning Dew.  The energy builds throughout, highlighted by Jerry’s pedal‑steel work and New Riders’ presence."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar/pedal‑steel work is highlighted, with speculation about an early wah‑wah use.",
+      "Jerry": "Praised for abundant guitar/pedal‑steel work, high energy solos, possible early wah‑wah use.",
       "Phil": "",
-      "Bob": "Bob Weir takes lead vocals on “Good Lovin’”.",
-      "Keys": "Pigpen (organ) plays a solo set despite having laryngitis; his keyboard contributions are noted.",
+      "Bob": "Provides vocals on “Good Lovin'” and joins chorus on the line \"out where the horses were tied\"; vocal contributions noted positively.",
+      "Keys": "Pigpen (keyboard) plays throughout, even delivering a solo set despite laryngitis; keyboards are audible but not front‑mix.",
       "Drums": ""
     },
     "song_mentions": {
-      "Easy Wind": {
-        "positive_mentions": 2,
-        "negative_mentions": 0,
-        "total_mentions": 2
-      },
-      "So Sad (to Watch Good Love Go Bad)": {
+      "So Sad (To Watch Good Love Go Bad)": {
         "positive_mentions": 3,
         "negative_mentions": 0,
         "total_mentions": 3
@@ -62,13 +58,23 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
       "Morning Dew": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
+      },
+      "Viola Lee Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T19:55:13.947622+00:00",
+    "processed_date": "2025-09-19T21:53:52.696537+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-07-11.aud.cotsman.9379.sbefail.shnf"
   }

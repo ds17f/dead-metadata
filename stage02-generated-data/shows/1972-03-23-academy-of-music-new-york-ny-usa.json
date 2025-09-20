@@ -226,43 +226,74 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Soaring Dark Star, pedal‑steel Looks Like Rain & high‑energy second set",
-    "blurb": "Features a soaring Dark Star and the rare pedal‑steel rendition of Looks Like Rain, with The Stranger (Two Souls in Communion) highlighted. The second set stays tight through a raucous Not Fade Away > Goin' Down The Road Feeling Bad sandwich. Overall playing is inspired and high‑energy.",
-    "review": "The March 23, 1972 Academy of Music show captures the Dead on the cusp of their legendary European tour. Jerry’s guitar soars from the opening China Cat Sunflower into a crystalline Dark Star that stretches into uncharted territory, while his pedal‑steel work on Looks Like Rain adds an unexpected, shimmering texture. Phil is truly on fire, delivering one of his hottest bass performances—especially in the Dark Star and the driving groove behind Looks Like Rain’s backing vocals. Two Souls in Communion (The Stranger) stands out as a soulful centerpiece, and Jack Straw shines as a tight, punchy highlight from the marathon first set.\n\nThe second set is a masterclass in momentum: Truckin' segues into an exuberant Ramble On Rose before the band launches into Dark Star, then rolls straight into a blistering Not Fade Away > Goin' Down The Road Feeling Bad sandwich that ends with Pigpen and Mickey delivering an intense, screaming finale. Throughout, Keith’s organ anchors the early‑’70s sound, while both drummers—Bill Kreutzmann and Mickey Hart—keep the rhythmic engine roaring. In short, this performance is a high‑energy, tightly knit snapshot of the Dead at a creative peak, captured in pristine soundboard fidelity.",
+    "summary": "Scorching Dark Star, Two Souls In Communion and pedal‑steel Looks Like Rain shine",
+    "blurb": "The second set delivers a scorching Dark Star and a high‑energy Two Souls In Communion. Jerry’s guitar and Phil’s bass are on fire while the rare pedal‑steel Looks Like Rain adds extra sparkle. Tight transitions keep the momentum rolling throughout.",
+    "review": "On March 23, 1972 at New York’s Academy of Music the Dead forged a bridge between their raw ’70‑71 vibe and the polished European tour that was to follow. The first set is a marathon of tight, energetic playing highlighted by a crisp, melodic rendition of Looks Like Rain featuring Jerry’s pedal‑steel work and Keith’s organ‑heavy backdrop. The second set erupts with a scorching Dark Star—Jerry driving it forward with stellar guitar lines while Phil goes berzerk on bass—and the soaring Two Souls In Communion that feels like pure fireworks. Not Fade Away segues seamlessly into Goin’ Down The Road Feeling Bad, capped by Pigpen’s exuberant drumming and vocal shouts, delivering a finale that still resonates. Across all available soundboard sources the show is captured with excellent clarity, making this performance a must‑listen for anyone chasing the ’72 era magic.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 4.5,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 55,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All five recordings are marked positive, repeatedly praising Dark Star, Two Souls In Communion, Looks Like Rain and overall band tightness. Reviewers use strong language like “excellent”, “flawless”, “stellar” across multiple sources, indicating consistent high praise.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd1972-03-23.sbd.cantor-gans.field.20676.shnf",
-      "reason": "Betty board soundboard with crystal‑clear mix and no audible flaws, preserving the full show’s dynamics"
+      "reason": "Excellent Betty Cantor soundboard capture with crisp, drop‑free audio; highlights Dark Star and Two Souls In Communion without any technical flaws."
     },
     "key_highlights": [
-      "Soaring Dark Star with blazing Phil bass and Jerry's melodic lead",
-      "Pedal‑steel version of Looks Like Rain adds unique texture",
-      "High‑energy second set culminating in a raucous Not Fade Away > Goin' Down The Road Feeling Bad sandwich",
-      "Jack Straw stands out as a tight, punchy highlight from the first set"
+      "Scorching Dark Star driven by Jerry’s guitar and Phil’s berzerk bass.",
+      "High‑energy Two Souls In Communion delivering a fireworks‑like climax.",
+      "Rare pedal‑steel version of Looks Like Rain adds unique sparkle to the set.",
+      "Seamless Not Fade Away > Goin' Down The Road Feeling Bad finale with Pigpen’s energetic drumming and vocals."
     ],
     "song_highlights": [
       "Dark Star",
       "The Stranger (Two Souls in Communion)",
       "Looks Like Rain",
-      "Jack Straw",
+      "Cumberland Blues",
+      "Big Boss Man",
       "Not Fade Away",
       "Goin' Down The Road Feeling Bad"
     ],
     "band_performance": {
-      "Jerry": "Melodic guitar tone shines, especially on Dark Star and the pedal‑steel Leads in Looks Like Rain; vocals are tight and energetic throughout.",
-      "Phil": "On fire with powerful bass lines in Dark Star and driving groove on Looks Like Rain; backing vocals add a glorious layer.",
-      "Bob": "Solid rhythm guitar foundation and vigorous lead vocal presence on tracks like Big Boss Man, keeping the band pumped.",
-      "Keith": "Organ work drives the early‑70s sound, providing a rich harmonic backdrop that fuels the jams.",
-      "Mickey": "Delivers intense, screaming fills in the Not Fade Away finale, adding fire to the closing moments.",
-      "Billy": "Provides a steady, propulsive pulse throughout, anchoring the high‑energy second set."
+      "Jerry": "Praised for melodic guitar tone, driving Dark Star, and pedal‑steel work on Looks Like Rain; his counter‑rhythms keep the band tight.",
+      "Phil": "Described as \"on fire\" with soaring bass improvisations in Dark Star and strong backing vocals on Looks Like Rain; intensity noted throughout.",
+      "Bob": "Strong lead vocals on Big Boss Man and Brown Eyed Women, plus vocal/screaming excitement at the end of Not Fade Away.",
+      "Keith": "His organ contributions are highlighted as a key part of the ’72 sound, providing a heavy, lush backdrop especially on Looks Like Rain.",
+      "Mickey": "Pigpen’s energetic drumming shines during Not Fade Away and adds enthusiastic vocal shouts, boosting the finale’s excitement.",
+      "Billy": ""
     },
     "processed_recordings": 5,
-    "processed_date": "2025-09-07T22:30:37.591257+00:00",
+    "processed_date": "2025-09-20T12:16:58.389002+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Dark Star"
+      ],
+      [
+        "The Stranger (Two Souls in Communion)"
+      ],
+      [
+        "Looks Like Rain"
+      ],
+      [
+        "Cumberland Blues"
+      ],
+      [
+        "Big Boss Man"
+      ],
+      [
+        "Not Fade Away",
+        "Goin' Down The Road Feeling Bad",
+        "Not Fade Away"
+      ]
+    ]
   }
 }

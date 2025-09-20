@@ -16,42 +16,78 @@
   "high_ratings": 9,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Near‑perfect soundboard capture of an iconic ’71 set with standout Oh Boy! and Playing in the Band, though second‑set vocals are uneven.",
-    "review": "The recording is largely praised for its crisp, near‑studio quality straight from the Stephens SBD, with only occasional glitches and a need for minor pitch correction. Musically the show shines on early‑set classics like Oh Boy!, I’m a Hog (for you baby) and Playing in the Band, but the second set suffers from lackluster vocals and some flat instrumental moments. Overall fans feel the performance is memorable despite its flaws.",
+    "summary": "Near‑perfect soundboard capture of a classic ’71 show with standout Oh Boy! and Playing in the Band, though vocal and pitch issues dampen parts of the second set.",
+    "review": "Fans rave about the crystal‑clear SBD source and the historic energy of the April 6 1971 performance – especially the fiery Oh Boy!, I'm a Hog for You Baby, Casey Jones and an inspired Playing in the Band.  The recording is generally praised as excellent, but several reviewers note pitch‑correction needs, occasional glitches and sub‑par vocals on the second set.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Average star rating ~4.2 across 12 reviews; most comments are positive about sound and many songs, with a few detailed criticisms that temper the overall enthusiasm."
+      "rationale": "Average star rating is ~4.2; most reviewers praise both performance and sound quality, with a few strong negative comments that lower the overall score slightly."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Crisp, near‑perfect mix praised by several reviewers; occasional glitches (e.g., 26‑second drop) and pitch‑correction needed on parts of the first set; overall listenable with slight noise/incompleteness."
+      "technical_notes": "Most listeners describe the audio as near‑perfect or crystal clear.  A few note a 26‑second glitch at ~3:50, occasional pitch‑correction needs on early songs, and minor drop‑outs in the first set."
     },
     "show_quality": {
       "standout_songs": [
         "Oh Boy!",
-        "I'm a Hog (for you baby)",
+        "I'm a Hog For You Baby",
         "Playing in the Band",
         "Casey Jones",
-        "Loser-SS"
+        "Loser"
       ],
       "poor_songs": [
-        "Second‑set vocal performances (notably Truckin', Johnny B. Goode, Not Fade Away)",
-        "General second‑set singing"
+        "Truckin'",
+        "Johnny B. Goode"
       ],
-      "setlist_flow": "First set is solid and energetic with tight raves; second set drifts, featuring uneven vocals and occasional sloppy moments.",
-      "energy_level": "medium-high"
+      "setlist_flow": "First set is described as solid with long breaks; second set drifts, with vocal and pitch problems that prevent it from taking off like a typical ’71 show."
     },
     "band_member_comments": {
-      "Jerry": "Generally praised for his tone, but some reviewers note he sounded tired and off‑tune on the later part of the show.",
-      "Phil": "Loved by fans for his stage presence; one reviewer criticized his backup vocals as weak on several tracks.",
-      "Bob": "Vocals described as harsh or flat by a few listeners (especially on Truckin' and Johnny B. Goode), though his energy was appreciated by others.",
-      "Keys": "Pigpen’s Hammond organ was highlighted as a highlight early in the concert, yet later his vocals were called flat by some reviewers.",
-      "Drums": "Consistently praised; described as 'awesome' and driving the performance."
+      "Jerry": "Mixed – early reviews praise his guitar tone, but later listeners describe him sounding tired and out of tune on several numbers.",
+      "Phil": "Generally praised for presence (one reviewer stood right by him), though backup vocal parts were criticized in the second set.",
+      "Bob": "His vocals on Truckin' were called harsh by one reviewer; otherwise not specifically highlighted.",
+      "Keys": "Pigpen’s Hammond organ work is celebrated, but his vocal contributions received negative remarks in a few reviews.",
+      "Drums": "Consistently praised – described as “awesome” and “good lovin’ drums.”"
     },
-    "processed_date": "2025-09-07T17:09:41.607634+00:00",
+    "song_mentions": {
+      "Oh Boy!": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I'm a Hog For You Baby": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playing in the Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Johnny B. Goode": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Loser": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T04:09:29.620866+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-04-06.sbd.stephens.18735.sbeok.shnf"
   }

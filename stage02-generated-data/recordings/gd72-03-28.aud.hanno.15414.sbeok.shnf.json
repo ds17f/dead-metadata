@@ -16,35 +16,41 @@
   "high_ratings": 1,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Terrible bootleg sound overwhelms an otherwise solid 1972 performance with a standout Jerry pedal‑steel on “Looks Like Rain.”",
-    "review": "The archive tape is plagued by an over‑driven, distorted bass that drowns out the rest of the band, making it virtually unlistenable for most listeners.  Despite the abysmal audio, several reviewers note that the actual show – as captured on the official Dick’s Picks 30 release – is a strong 1972 performance, highlighted by Jerry Garcia’s tasteful pedal‑steel work on “Looks Like Rain.”",
+    "summary": "Terrible audience recording with over‑driven bass, but the performance – especially Jerry’s pedal steel on “Looks Like Rain” – is praised by a few listeners.",
+    "review": "The archive tape suffers from a muddy, bass‑heavy mix that makes most of the band nearly inaudible, earning it harsh criticism and even an \"unlistenable\" label. A handful of fans still appreciate the historic 1972 show, noting Jerry Garcia’s pedal‑steel work on “Looks Like Rain” and recommending the official Dick’s Picks release for a cleaner experience.",
     "sentiment": "negative",
     "ai_rating": {
-      "stars": 2.0,
+      "stars": 2.7,
       "confidence": "medium",
-      "rationale": "Most reviewers rate the recording very poorly (1‑star and 0‑star) due to audio problems, while a single reviewer praises the musical performance. The weighted average leans toward a low rating."
+      "rationale": "Recording quality is consistently described as poor (over‑driven bass, inaudible mix), dragging the overall score down despite a few positive comments about the performance."
     },
     "recording_quality": {
-      "source_type": "unknown",
+      "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Bass is over‑driven and dominates the mix; other instruments are low and often inaudible, resulting in a muddy, unlistenable bootleg."
+      "technical_notes": "Bass is over‑driven and sits too high in the mix; other instruments are low or inaudible, overall muddy and unlistenable. Typical early‑1972 tape limitations."
     },
     "show_quality": {
       "standout_songs": [
         "Looks Like Rain"
       ],
       "poor_songs": [],
-      "setlist_flow": "No reviewer commented on set pacing; focus is almost entirely on the poor audio quality.",
-      "energy_level": "medium"
+      "setlist_flow": "No specific comments on set structure; reviewers focus almost entirely on sound quality rather than performance flow."
     },
     "band_member_comments": {
-      "Jerry": "Pedal‑steel work on “Looks Like Rain” noted as sounding great.",
+      "Jerry": "Pedal‑steel work on \"Looks Like Rain\" highlighted as a high point.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T22:47:01.070299+00:00",
+    "song_mentions": {
+      "Looks Like Rain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T12:40:42.174913+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-03-28.aud.hanno.15414.sbeok.shnf"
   }

@@ -16,43 +16,59 @@
   "high_ratings": 6,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent matrix recording captures a stellar 1970 Fillmore set with standout acoustic gems like Swing Low Sweet Chariot and an electrifying St. Stephen > Not Fade Away > Midnight Hour, plus drum‑driven transitions.",
-    "review": "The dusborne matrix fills the gaps left by the soundboard, delivering crystal‑clear acoustic numbers such as Swing Low Sweet Chariot and Attics of My Life, while the electric set shines on St. Stephen > Not Fade Away > Midnight Hour with punchy, drum‑driven segues. Reviewers rave about the overall performance, especially the version of All Over Now Baby Blue, making this one of the most enjoyable 1970 shows available.",
+    "summary": "High‑quality matrix capture of the June 4 1970 Fillmore West show, with a superb acoustic set and standout performances of Attics of My Life, St. Stephen → Not Fade Away → Midnight Hour, and Baby Blue.",
+    "review": "The matrix recording fills in gaps left by the incomplete soundboard source, delivering clear audience ambience and strong drum‑driven transitions. Fans rave about the acoustic set and electric highlights such as Attics of My Life, the St. Stephen/Not Fade Away/Midnight Hour sequence, and a standout version of All Over Now Baby Blue.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Consistently high star ratings (5,4) and enthusiastic comments about both performance and recording quality push the combined weighted score into the 4.4 range."
+      "rationale": "Average review rating is 4.7/5 with detailed praise for both performance and recording; the show is consistently described as exceptional and the matrix source is deemed good."
     },
     "recording_quality": {
       "source_type": "matrix",
-      "quality_rating": "excellent",
-      "technical_notes": "Matrix source compensates for sizable gaps in the original SBD, delivering pure audience (AUD) tracks for the acoustic set and a notably better‑sounding St. Stephen > Not Fade Away > Midnight Hour; drum‑driven transitions are highlighted as clear and impactful."
+      "quality_rating": "good",
+      "technical_notes": "Matrix fills a sizable gap in the original soundboard, providing clean audience ambience and clear instrument separation; drum‑driven transitions are highlighted as particularly well captured."
     },
     "show_quality": {
       "standout_songs": [
-        "Swing Low Sweet Chariot",
         "Attics of My Life",
-        "All Over Now Baby Blue",
-        "St. Stephen > Not Fade Away > Midnight Hour"
+        "St. Stephen",
+        "Not Fade Away",
+        "Midnight Hour",
+        "All Over Now Baby Blue"
       ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic set feels intimate and home‑like, followed by an electric portion with seamless, drum‑driven transitions that keep the energy high throughout."
+      "setlist_flow": "Acoustic set flows into a dynamic electric set with strong transitions, especially the drum‑driven segue from St. Stephen through Not Fade Away to Midnight Hour."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Drum‑driven transitions praised for adding power to the set"
+      "Drums": "Drum‑driven transitions on the St. Stephen/Not Fade Away/Midnight Hour sequence are praised for their energy and clarity."
     },
     "song_mentions": {
-      "Swing Low Sweet Chariot": {
+      "Monkey and the Engineer": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
       "Attics of My Life": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Midnight Hour": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -61,14 +77,9 @@
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
-      },
-      "St. Stephen > Not Fade Away > Midnight Hour": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T18:43:12.919697+00:00",
+    "processed_date": "2025-09-19T20:29:34.709105+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-06-04.123799.mtx.olsen.droncit.dusborne.flac16"
   }

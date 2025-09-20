@@ -16,24 +16,23 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Warm, deep soundboard transfer of the Aug 5 1971 show with missing Not Fade & Bird Song, but a solid performance full of hot licks.",
-    "review": "The recording is praised for its warm, deep sound and generally superior quality to other 1971 sources, though it suffers from missing two songs (Not Fade Away and Bird Song) and may need pitch correction. The show itself is considered “awesome” by reviewers who note plenty of hot licks despite a general wariness of the ’71 era.",
+    "summary": "Warm, deep‑sounding transfer that shines in its detail but is marred by missing Not Fade and Bird Song sections.",
+    "review": "The recording is praised for its warm, full‑bodied tone and generally superior transfer quality, though reviewers note it needs pitch correction and suffers from significant gaps – notably the absence of Not Fade and Bird Song on both audience and soundboard sources. Musical performance comments are sparse, but the “hot licks” hint at a solid show despite the incomplete material.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 3.1,
       "confidence": "medium",
-      "rationale": "Reviewers are mostly positive about both performance and audio quality, but the missing tracks and need for pitch correction pull the overall rating down."
+      "rationale": "Reviews range from high praise for sound quality to strong criticism of missing tracks; overall average star rating is ~3, indicating an okay show hampered by recording gaps."
     },
     "recording_quality": {
-      "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Warm and deep sound; superior to many other 1971 transfers. Missing Not Fade Away and Bird Song, may require pitch correction; some reviewers note missing material but overall clear."
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Transfer described as warm and deep with superior clarity, but requires pitch correction. Significant missing material (Not Fade, Bird Song) reported on both audience and soundboard copies."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "",
-      "energy_level": "medium"
+      "setlist_flow": "Insufficient detail in reviews to assess set pacing or flow."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T19:00:24.338746+00:00",
+    "song_mentions": {
+      "Not Fade": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Bird Song": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T07:08:21.235038+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-08-05.aud.smith.94260.sbeok.flac16"
   }

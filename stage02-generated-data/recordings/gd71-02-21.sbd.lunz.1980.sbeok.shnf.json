@@ -16,36 +16,53 @@
   "high_ratings": 13,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard capture of a high‑energy Portchester run with a smoking Ripple and standout Easy Wind, generally clear sound despite a few minor glitches.",
-    "review": "The show is widely praised for its tight playing and enthusiastic vibe – highlights include an almost perfect Ripple and one of the best Easy Wind performances ever. The soundboard source delivers good overall clarity, though some listeners note a brief issue with the Ripple segment. Together they make this recording a solid representation of that pivotal 1971 run.",
+    "summary": "High‑quality soundboard capture of a pivotal 2/21/71 Port Chester show with standout Ripple, Easy Wind and Truckin’ performances",
+    "review": "Fans rave about this recording as one of the best from the early ’70 run – a historic first without Mickey yet still driving, with Jerry’s stage antics, Phil’s cord‑spinning and Pigpen saving a flub in Easy Wind. The soundboard source is generally praised as clear and well‑balanced, though a few listeners note oddities on Ripple, but overall the audio holds up nicely.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.4,
       "confidence": "high",
-      "rationale": "Average reviewer rating is 4.3★; most comments celebrate the performance and sound quality, with only isolated complaints about a Ripple glitch."
+      "rationale": "The majority of reviews (≈80 %) are 4‑5 stars and highlight exceptional musical moments; recording quality is described as good to excellent, yielding a strong combined rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear and balanced soundboard mix; a few reviewers mention a glitch or muffled segment on Ripple but overall the audio is listenable and well‑preserved."
+      "technical_notes": "Most reviewers say the sound is clear and well‑balanced. A couple of comments note Ripple sounds odd or “ruined” by the recording, but overall the mix is praised as solid with no major drop‑outs."
     },
     "show_quality": {
       "standout_songs": [
         "Ripple",
-        "Easy Wind"
+        "Easy Wind",
+        "Truckin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "The concert flows with high enthusiasm throughout, marking a key transitional period for the band (first show without Mickey) and keeping the energy consistently high.",
-      "energy_level": "high"
+      "setlist_flow": "The concert is described as an enthusiastic, focused performance marking a key transition in the band’s evolution – first show without Mickey yet still tight, with strong first‑set energy and memorable jams."
     },
     "band_member_comments": {
-      "Jerry": "Seen bobbing on stage and delivering solid guitar work; no major complaints.",
-      "Phil": "Noted spinning his cord and providing strong, “bomb‑like” bass foundation.",
+      "Jerry": "Several reviewers note Jerry bobbing on stage and his usual charismatic presence.",
+      "Phil": "Phil is mentioned spinning his cord during the show.",
       "Bob": "",
-      "Keys": "Pig’s keyboard/harmonica saved a flub in Easy Wind, contributing to the standout performance.",
-      "Drums": "First show after Mickey's departure; drums were still on stage but absent, yet the band adapted quickly."
+      "Keys": "Pig (Ron \"Pigpen\" McKernan) saved a flub in Easy Wind with his lyrics, earning praise.",
+      "Drums": "First show without Mickey; drums still on stage (Bill Kreutzmann) and keep solid time."
     },
-    "processed_date": "2025-09-07T16:24:38.100666+00:00",
+    "song_mentions": {
+      "Ripple": {
+        "positive_mentions": 3,
+        "negative_mentions": 2,
+        "total_mentions": 5
+      },
+      "Easy Wind": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T03:04:08.476233+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-02-21.sbd.lunz.1980.sbeok.shnf"
   }

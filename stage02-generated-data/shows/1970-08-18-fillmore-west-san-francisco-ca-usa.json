@@ -201,9 +201,9 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Historic debut of Ripple, Truckin' & stellar acoustic set",
-    "blurb": "The show delivers the first live renditions of Ripple and Truckin', backed by a superb acoustic opening. Jerry's guitar and vocals shine throughout, and the electric set packs historic jams and tight transitions.",
-    "review": "August 18, 1970 at Fillmore West stands out as a landmark in Dead history – it’s the night we first heard Ripple and Truckin' live, and the band delivers those songs with fresh excitement. The acoustic set is described as “superb” and “very well‑executed,” showcasing Jerry’s warm tone on Ripple and his vocal clarity on New Speedway Boogie. The electric half keeps the momentum high, featuring a seamless Cryptical Envelopment → The Other One sequence, a joyous Dancin' In The Street, and powerful renditions of Attics Of My Life and It's A Man's World. Reviewers consistently note the historic significance and the band’s locked‑in playing, calling the performance “a gift from the gods.” While one tape suffers from speed issues, the matrix mix (gd1970-08-18.141071.aud.pitch-adjusted.flac1644) offers crystal‑clear sound that captures both the intimacy of the acoustic numbers and the expansive energy of the electric set, making it the definitive listening experience.",
+    "summary": "Historic Fillmore debut of Ripple, Brokedown Palace & Truckin'",
+    "blurb": "The show delivers the first live performances of Ripple, Brokedown Palace, Operator and Truckin', with an acoustic set praised as a real peach. The electric second set builds into powerful jams like Cryptical Envelopment > The Other One and Attics Of My Life. Overall the band is tight despite lo‑fi audience tape limitations.",
+    "review": "August 18, 1970 at the Fillmore West captures a pivotal moment in Dead history – the first time we heard Ripple, Brokedown Palace, Operator and Truckin' live. The acoustic opening set rolls through classics and new material with a warm, intimate vibe that reviewers called “a real peach,” while Jerry’s guitar tone and vocal presence shine even through the modest audience tape quality. When the band flips to electric, they launch into a soaring Cryptical Envelopment → The Other One sequence that segues into a tight Attics Of My Life, showing a band in the midst of solidifying its improvisational language. Despite the lo‑fi source, multiple recordings note the performance is “on fire” and the historic significance outweighs any sonic imperfections. For listeners wanting the clearest window into this night, the audience recording gd1970-08-18.142416.aud.knudsen.gems.flac1648 offers crystal‑clear sound while preserving the raw energy of the crowd.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.4,
@@ -213,31 +213,31 @@
         "review_count_total": 45,
         "review_count_boost": 0.3,
         "sentiment_adjustment": 1.6,
-        "sentiment_rationale": "Four out of five recordings are overwhelmingly positive, praising historic first performances (Ripple, Truckin'), a superb acoustic set, and Jerry's versatile playing. The lone negative review only flags technical tape speed issues, not the music itself, so overall sentiment is strongly positive.",
+        "sentiment_rationale": "Four of five recordings are strongly positive, praising historic first performances and tight playing; only one is mildly negative about tape speed. Consistent language such as “absolutely incredible,” “on fire,” and “historic significance” across multiple sources justifies a robust positive adjustment.",
         "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
       }
     },
     "best_recording": {
-      "identifier": "gd1970-08-18.141071.aud.pitch-adjusted.flac1644",
-      "reason": "Excellent matrix mix with crystal‑clear sound, full acoustic/electric set, and minimal technical flaws."
+      "identifier": "gd1970-08-18.142416.aud.knudsen.gems.flac1648",
+      "reason": "Excellent audience source with crystal‑clear sound that captures the performance cleanly; best balance of clarity and completeness."
     },
     "key_highlights": [
-      "First live performances of Ripple and Truckin' captured in pristine detail",
-      "Acoustic opening praised as superb and beautifully executed",
-      "Seamless Cryptical Envelopment → The Other One transition showcases tight group interplay",
-      "Jerry’s versatile guitar work across three distinct styles shines throughout"
+      "First live performances of Ripple, Brokedown Palace, Operator and Truckin'",
+      "Acoustic set praised as a “real peach” before launching into electric jams",
+      "Powerful Cryptical Envelopment → The Other One sequence and Attics Of My Life jam"
     ],
     "song_highlights": [
+      "Truckin'",
       "Ripple",
       "Brokedown Palace",
-      "Truckin'",
       "Operator",
       "Cryptical Envelopment",
       "The Other One",
-      "Attics Of My Life"
+      "Attics Of My Life",
+      "It's A Man's World"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s guitar tone and vocals are repeatedly praised, especially on Ripple, New Speedway Boogie, and the acoustic numbers; reviewers note his versatility playing three bands on three instruments.",
+      "Jerry": "Garcia’s guitar tone cuts through the lo‑fi tape and his vocals are front‑and‑center; reviewers note he was “playing three bands on three instruments” and carries the show with confidence.",
       "Phil": "",
       "Bob": "",
       "Brent": "",
@@ -245,16 +245,16 @@
       "Billy": ""
     },
     "processed_recordings": 5,
-    "processed_date": "2025-09-12T20:31:56.848747+00:00",
+    "processed_date": "2025-09-19T22:32:57.948753+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
-        "Ripple",
-        "Brokedown Palace"
+        "Truckin'"
       ],
       [
-        "Truckin'"
+        "Ripple",
+        "Brokedown Palace"
       ],
       [
         "Operator"
@@ -268,6 +268,9 @@
       ],
       [
         "Attics Of My Life"
+      ],
+      [
+        "It's A Man's World"
       ]
     ]
   }

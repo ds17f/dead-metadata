@@ -16,41 +16,77 @@
   "high_ratings": 15,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard recording of a high‑energy 4/5/71 show with standout Pigpen‑driven Lovelight, blazing Cold Rain and a monster Truckin > The Other One sequence.",
-    "review": "This board‑tape captures one of the tightest 1971 performances, highlighted by an incendiary second set where Pigpen shines on Lovelight and the band delivers a seamless Truckin > The Other One medley. The audio is crisp and well balanced, making the intricate jams and vocal moments easy to enjoy.",
+    "summary": "Excellent soundboard recording captures a blistering 4/5/71 show with Pigpen‑driven Lovelight, a scorching Cold Rain opener and a monster Truckin > Other One sequence.",
+    "review": "The board‑tape is crisp and clean, delivering the full power of what many fans call one of the tightest 1971 performances.  Highlights include a blazing Cold Rain start, Pigpen’s incendiary King Bee and Lovelight, and an explosive Truckin > The Other One medley that feels like the “Skull & Roses” sequence in its raw form.  Jerry’s guitar work (even yodeling on Bobby McGee) and Phil’s thunderous bass round out a show that most reviewers deem essential.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "Across 18 reviews the average rating is 4.56; most reviewers praise both the musical performance (high energy, tight playing) and the soundboard quality (crisp, clear), with only isolated minor criticisms."
+      "rationale": "Average reviewer rating is 4.5/5 with the vast majority praising both performance and sound quality; only a single outlier gives a low score, so confidence in a strong positive rating is high."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Consistently described as crisp, clean and well‑balanced; no significant dropouts or muddiness reported. Some mention of overdubbed vocals on related releases but the board source itself is praised."
+      "technical_notes": "Crisp, clean board mix with no reported drop‑outs or muddiness; reviewers repeatedly call the sound ‘incredible’ and a must‑have for Deadheads."
     },
     "show_quality": {
       "standout_songs": [
         "Cold Rain",
+        "King Bee",
         "Lovelight",
         "Truckin > The Other One",
-        "NFA > GDTRFB > NFA (Skull & Roses version)",
+        "NFA > GDTRFB > NFA (Skull & Roses sequence)",
+        "Bobby McGee",
         "Deal"
       ],
-      "poor_songs": [
-        "The Other One (some reviewers found it merely okay)"
-      ],
-      "setlist_flow": "A scorching first set opens with Cold Rain and builds into a tightly knit second set where Pigpen leads on Lovelight and the band rides an intense Truckin > Other One jam; overall flow is cohesive and highly engaging.",
-      "energy_level": "high"
+      "poor_songs": [],
+      "setlist_flow": "The show opens with a high‑energy Cold Rain, builds through Pigpen’s stellar King Bee and Lovelight, then erupts in the second‑set Truckin > Other One medley that captures the classic 1969‑ish intensity; the pacing stays relentless from start to finish."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar work is highlighted (yodeling in Bobby McGee, perfect tone), with a note on vocal differences on the NFA track.",
-      "Phil": "Frequent 'Philbombs' and thunderous bass that bring the house down during Lovelight and other jams.",
-      "Bob": "Bob Weir’s vocals are noted as different on the NFA version; also praised for rhythm work on Deal.",
+      "Jerry": "Garcia delivers unforgettable guitar work, highlighted by a playful yodel on Bobby McGee and sustained brilliance throughout the second set.",
+      "Phil": "Phil’s bass is thunderous, especially during Lovelight and a standout ‘Philbomb’ solo that “brings the house down.”",
+      "Bob": "Bob’s vocals are noted as distinct on the NFA/Skull‑&‑Roses segment; otherwise no specific comments.",
       "Keys": "",
-      "Drums": ""
+      "Drums": "Bill Kreutzmann (drums) is praised for ‘killing it’, providing powerful drive especially in Deal."
     },
-    "processed_date": "2025-09-07T17:03:10.118850+00:00",
+    "song_mentions": {
+      "Cold Rain": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "King Bee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Truckin > The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "NFA > GDTRFB > NFA": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Bobby McGee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Deal": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T04:00:41.634559+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-04-05.sbd.stephens.16606.sbeok.shnf"
   }

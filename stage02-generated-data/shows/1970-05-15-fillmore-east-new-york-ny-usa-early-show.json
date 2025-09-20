@@ -179,9 +179,9 @@
     "show_time: early"
   ],
   "ai_show_review": {
-    "summary": "Smoking Dark Star, epic The Other One, tight acoustic sets",
-    "blurb": "The show delivers a soaring Dark Star jam and an expansive The Other One sequence, framed by two acoustic halves that let Pigpen’s organ shine. Jerry’s guitar work is on fire, Phil lays down thunderous bass, while Mickey adds depth to the improvisations.",
-    "review": "May 15, 1970 at the Fillmore East captures the Dead in a rare balance of folk‑leaning acoustics and full‑throttle psychedelia. The early acoustic set moves from “Don’t Ease Me In” through “Candyman,” letting Pigpen’s organ color the mix before the band launches into a ripping electric second set. Highlights include an incendiary “The Other One” that showcases Jerry’s flawless tone, pedal‑steel flourishes and Phil’s thunderous bass, while Mickey’s percussion adds extra depth to the jam. The encore “New Minglewood Blues” closes the night on a high note despite a few over‑squealing guitar moments. Both soundboard sources are crystal clear – one described as pristine with studio‑like fidelity, the other as good with only minor dropouts – making this performance both historically significant and sonically rewarding.\n\nThe recording recommended for listening is the “early‑late” SBD (gd70-05-15.early-late.sbd.97.sbeok.shnf), praised for its pristine capture and excellent mix that brings out every nuance of the band’s interplay. Whether you’re chasing the legendary Dark Star stretch, the ferocious “The Other One,” or the nuanced acoustic interludes, this show stands as a benchmark of the Dead’s 1970 live prowess.",
+    "summary": "Epic early May 15 double‑show with stellar jams and tight playing",
+    "blurb": "The set showcases standout versions of The Other One, Candyman and Cold Jordan, all propelled by Jerry's soaring guitar improvisations. Bob Weir adds solid rhythm work and even joins the New Riders on Mama Tried. Bill and Mickey lock in a driving drum foundation throughout the marathon electric second set.",
+    "review": "On May 15 1970 at the Fillmore East the Dead delivered an unforgettable early‑show marathon that still feels fresh today. The first acoustic half runs a tight program of folk‑rock staples, but the real fireworks begin with the electric second set – a seamless flow from Casey Jones into an inspired Attics Of My Life, then a legendary Saint Stephen → Cryptical Envelopment → Drums → The Other One → Cryptical Envelopment sequence that culminates in a soaring Cosmic Charlie. Jerry Garcia’s tone is on fire throughout, especially on The Other One and the blistering Candyman; his improvisational daring makes those jams feel like fresh discoveries. Bob Weir’s rhythm work is rock‑solid, highlighted by his guest spot with the New Riders on Mama Tried, while Bill Kreutzmann’s intro and Mickey Hart’s brushwork keep the groove both grounded and adventurous. Pigpen adds texture on keyboards and harmonica, rounding out a performance that captures the band at a creative peak.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.5,
@@ -191,52 +191,43 @@
         "review_count_total": 142,
         "review_count_boost": 0.4,
         "sentiment_adjustment": 1.6,
-        "sentiment_rationale": "Both recordings are marked as positive and repeatedly praise the same high‑impact moments – Dark Star, The Other One, Attics Of My Life, and strong acoustic work. Consistent language such as “smoking,” “epic,” and “flawless” across sources signals a strong positive consensus, warranting a +1.6 sentiment boost.",
+        "sentiment_rationale": "All available analyses are positive, praising multiple jams (The Other One, Dark Star, Candyman) and describing the overall show as 'epic' with 'standout performances'. Consistent high‑energy language across recordings justifies a strong positive adjustment.",
         "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
       }
     },
     "best_recording": {
       "identifier": "gd70-05-15.early-late.sbd.97.sbeok.shnf",
-      "reason": "Pristine soundboard capture with studio‑like fidelity; minimal hiss and dropouts, delivering the clearest representation of the performance."
+      "reason": "Soundboard source with crisp, low‑hiss mix; captures the full double‑show without major dropouts, making it the most complete and listenable version."
     },
     "key_highlights": [
-      "Smoking Dark Star jam that stretches into cosmic territory",
-      "Epic The Other One sequence with powerful dual drumming",
-      "Two acoustic sets showcasing Pigpen’s organ and folk‑leaning repertoire"
+      "Standout electric second set featuring The Other One → Cryptical Envelopment sequence",
+      "Jerry’s incendiary guitar on Candyman and The Other One",
+      "Bob Weir’s guest appearance with New Riders on Mama Tried adds a rare collaborative moment",
+      "Crisp soundboard capture that preserves the marathon show’s energy"
     ],
     "song_highlights": [
-      "Friend Of The Devil",
       "Candyman",
-      "Easy Wind",
-      "Attics Of My Life",
-      "The Other One",
-      "Casey Jones",
-      "Cold Jordan"
+      "Cold Jordan*",
+      "The Other One"
     ],
     "band_performance": {
-      "Jerry": "Soaring guitar work, flawless vocals and even pedal‑steel on the NRPS numbers; perfect tone leading the fierce The Other One jam.",
-      "Phil": "Thunderous and tight bass, especially during The Other One and Dark Star jams; occasionally harder to hear on acoustic sets.",
-      "Bob": "Strong rhythm/lead contributions with a notable “Uncle John” jam within Dark Star, adding depth to the improvisations.",
+      "Jerry": "Garcia delivers scorching tone and improvisational fire on The Other One, Dark Star (though not on the setlist) and Candyman, driving the jams with relentless energy.",
+      "Phil": "",
+      "Bob": "Weir provides solid rhythm throughout, joins the New Riders on Mama Tried, and supports the extended electric explorations.",
       "Brent": "",
-      "Mickey": "Percussion adds depth to Dark Star and overall drumming is solid throughout the show.",
-      "Billy": "Solid drumming that anchors the jams; no major complaints across recordings."
+      "Mickey": "Hart’s brush work adds texture and dynamics, especially during the drum break leading into The Other One.",
+      "Billy": "Kreutzmann opens the second set with a powerful intro and maintains a driving pulse that anchors the marathon jams."
     },
-    "processed_recordings": 2,
-    "processed_date": "2025-09-12T18:10:21.372423+00:00",
+    "processed_recordings": 1,
+    "processed_date": "2025-09-19T19:51:13.149467+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
-        "Friend Of The Devil"
-      ],
-      [
         "Candyman"
       ],
       [
-        "Easy Wind"
-      ],
-      [
-        "Attics Of My Life"
+        "Cold Jordan*"
       ],
       [
         "Saint Stephen",
@@ -245,9 +236,6 @@
         "The Other One",
         "Cryptical Envelopment",
         "Cosmic Charlie"
-      ],
-      [
-        "Casey Jones"
       ]
     ]
   }

@@ -16,38 +16,82 @@
   "high_ratings": 12,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of a classic 1970 show – great Easy Wind, rare Frozen Logger and Big Railroad Blues shine, though the tape runs a touch slow.",
-    "review": "The performance is praised for its energetic Easy Wind, a standout Frozen Logger, and a monster Big Railroad Blues, with several reviewers calling it one of their favorite shows from ’70. The soundboard source is generally clear, but listeners note a slight slowdown and occasional minor glitches that don’t detract from the overall vibe.",
+    "summary": "Great soundboard capture of a classic ’70 show – Easy Wind and Big Railroad Blues shine, with only minor speed/clarity quirks.",
+    "review": "The performance is consistently praised for its relaxed vibe and several standout moments, especially an inspired Easy Wind jam (with Bobby Weir on fire) and a rousing Big Railroad Blues. The soundboard source is generally clear but a few reviewers note slight speed‑related oddities and occasional muffling, which don’t detract from the overall enjoyment.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Consistently high reviewer scores (mostly 4‑5 stars) highlight strong musical moments; recording issues are mentioned but are minor, leading to an overall strong rating."
+      "rationale": "Most reviewers give 4–5 stars and highlight strong musical moments; recording issues are mentioned but are minor, yielding a high combined rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear soundboard mix with a few problems – noticeable tape slowdown and occasional muddiness, but the instruments remain well‑balanced and audible."
+      "technical_notes": "Generally clear soundboard mix, though some note slight speed/tempo oddities and occasional muffled sections."
     },
     "show_quality": {
       "standout_songs": [
         "Easy Wind",
-        "Frozen Logger",
         "Big Railroad Blues",
-        "Till The Morning Comes",
-        "B.I.O.D.T.L"
+        "Frozen Logger"
       ],
-      "poor_songs": [],
-      "setlist_flow": "The set flows with a relaxed, funky feel; Easy Wind and the rare Frozen Logger provide high points while the overall pacing is described as dynamic and enjoyable."
+      "poor_songs": [
+        "Cold Rain and Snow",
+        "Minglewood",
+        "Casey Jones"
+      ],
+      "setlist_flow": "A relaxed, classic 1970‑era set that builds a mellow groove; fans note the jam on Beat It On Down The Line as hot, while a few slower‑tempo numbers feel dragged."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
-      "Bob": "Bob Weir is highlighted on Easy Wind – his playing is ‘ON’ and clearly heard during the jam.",
+      "Bob": "Bobby (Bob Weir) is highlighted as 'ON' during the Easy Wind jam.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T11:54:54.190737+00:00",
+    "song_mentions": {
+      "Easy Wind": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Frozen Logger": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Big Railroad Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Till the Morning Comes": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cold Rain and Snow": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Minglewood": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Beat It On Down The Line": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T01:47:36.289708+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-12-26.sbd.miller.22369.sbeok.shnf"
   }

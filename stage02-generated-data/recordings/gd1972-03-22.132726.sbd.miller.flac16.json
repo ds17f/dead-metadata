@@ -16,44 +16,100 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with good transfer despite vocal‑mic and drum mix quirks; the show shines with a monster Caution → Uncle John’s jam, stellar Mr. Charlie and a soaring China Cat > Rider.",
-    "review": "The Miller SBD captures a historically important March ’72 Academy of Music run. While the vocal mics sit forward and the drums are a bit hot, the overall transfer is clean enough to enjoy the transcendent jams – especially the beautiful Caution‑UJB segue, the fiery Mr. Charlie, and the tight China Cat Sunflower / I Know You Rider. The performance is high‑energy with a few first‑set hiccups but many standout moments.",
-    "sentiment": "mixed",
+    "summary": "Fair‑quality soundboard capture of the March 1972 Academy run, highlighted by a soaring Caution → Uncle John’s Band jam and strong renditions of Looks Like Rain, Mr. Charlie and China Cat > Rider.",
+    "review": "The Miller‑mastered SBD presents a decent but imperfect mix – vocal mics sit front‑and‑center and the drums are occasionally too loud, yet the overall sound is listenable. Musically the show shines with a beautiful Caution → Uncle John’s Band segment, gorgeous versions of Looks Like Rain and Mr. Charlie, and memorable moments from China Cat Sunflower > I Know You Rider, despite several first‑set songs suffering from flatness or monitor problems.",
+    "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Show quality is consistently praised (many 5‑star comments) while recording quality has notable mix issues; weighted average yields a strong 4.2 rating."
+      "rationale": "Most reviewers give high marks (5‑star) and praise the performance, while a few note mix issues; the balance of strong musical highlights with a generally acceptable soundboard recording yields a solid above‑average rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Clean Miller transfer, but vocal mics are overly prominent and drums sit too loud; occasional monitor buzz and early‑set dropouts noted."
+      "quality_rating": "fair",
+      "technical_notes": "Vocal mics are prominent and sometimes bury instruments; drums mixed too loud; monitor problems cause flatness on several early songs. Miller’s mastering cleans up tape hiss and drop‑outs, making the recording usable despite these mix quirks."
     },
     "show_quality": {
       "standout_songs": [
+        "Caution > Uncle John's Band",
+        "Looks Like Rain",
         "Mr. Charlie",
         "China Cat Sunflower > I Know You Rider",
-        "Sugar Magnolia > Caution > Uncle John's Band (jam)",
-        "Looks Like Rain",
-        "Two Souls"
+        "Sugar Magnolia > Caution > Uncle John's Band"
       ],
       "poor_songs": [
-        "Deal (early version runs off the rails)",
+        "Deal (early)",
         "Big Boss Man",
         "Jack Straw",
-        "Loser (monitor problems)"
+        "Loser"
       ],
-      "setlist_flow": "Long two‑hour sets with early technical hiccups; first set recovers after a rough start, second set delivers extended jams and smooth segues.",
-      "energy_level": "high"
+      "setlist_flow": "A marathon two‑hour first set hampered by equipment glitches, followed by an equally long second set that recovers with strong mid‑set jams and the standout Caution → Uncle John’s Band sequence."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar shines on Mr. Charlie and he experiments with a volume pedal during the RR Blues segment; overall strong lead work.",
+      "Jerry": "Uses a volume pedal on Rider; guitar work praised on several cuts, especially during Mr. Charlie and the Caution jam.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Keith contributes organ/piano textures, especially in the beautiful jam leading into Uncle John's Band.",
-      "Drums": "Bill Kreutzmann’s drumming is praised as great and driving, though the drum mix is a bit too forward."
+      "Keys": "Keith Godchaux highlighted on organ/piano, adding texture to the jams.",
+      "Drums": "Bill Kreutzmann’s swing noted on Mr. Charlie and China Cat > Rider, though overall drum mix is a bit loud."
     },
-    "processed_date": "2025-09-07T22:23:23.479572+00:00",
+    "song_mentions": {
+      "Caution > Uncle John's Band": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Sugar Magnolia > Caution > Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Looks Like Rain": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Mr. Charlie": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Deal (early)": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Big Boss Man": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Jack Straw": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Loser": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "RR Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "2 Souls": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T12:06:19.292570+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-03-22.132726.sbd.miller.flac16"
   }

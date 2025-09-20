@@ -16,42 +16,62 @@
   "high_ratings": 6,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a quirky early‑Dead show with an unforgettable acoustic set and standout numbers like Hard to Handle, Katie Mae and Cold Rain & Snow",
-    "review": "The recording is a crisp soundboard source that captures the band’s banter and the raw energy of an early‑1970s performance. Despite Phil’s amp and bass failures forcing a unique acoustic interlude, the group delivers strong renditions of Hard to Handle, Katie Mae, Cold Rain & Snow and several country/bluegrass numbers, making it a memorable show for fans.",
+    "summary": "Excellent soundboard capture of a quirky early‑Dead show featuring an impromptu acoustic set and standout performances of Hard to Handle, Morning Dew and Long Black Limousine.",
+    "review": "The recording is a crisp soundboard tape that preserves the stage banter and the unusual acoustic interlude caused by Phil’s amp failure. Despite equipment woes the band delivered memorable moments – Pig Pen’s solo on Katie Mae, hard‑hitting Hard to Handle, soaring Morning Dew and soulful Long Black Limousine – making it an essential early‑Dead experience.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.7,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "All but one review rate the show 4‑5 stars, praising both the musical performance and the high‑quality soundboard recording; only minor complaints about missing a second electric set keep the rating just below perfect."
+      "rationale": "All but one review are 4–5 stars, praising both the performance and the high‑quality recording; the few technical hiccups do not detract from overall enjoyment."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Clear, crisp mix with plenty of stage banter captured; no notable drop‑outs or muffling reported."
+      "technical_notes": "Crystal‑clear mix with full stage banter captured; no complaints of dropouts or muffiness."
     },
     "show_quality": {
       "standout_songs": [
         "Hard to Handle",
-        "Cold Rain and Snow",
-        "Katie Mae",
+        "Morning Dew",
+        "Cumberland Blues",
         "Long Black Limousine",
-        "Sawmill"
+        "Pig on Katie Mae"
       ],
       "poor_songs": [],
-      "setlist_flow": "Phil’s amp blew after the first set, prompting a rare acoustic segment that became a highlight; the band kept momentum with a solid first set and an energetic second set despite missing a second electric half."
+      "setlist_flow": "The first set was interrupted by Phil’s amp failure, leading to a unique acoustic segment that later became a regular feature; the band rebounded with an energetic second set full of country‑blues tunes and strong improvisation."
     },
     "band_member_comments": {
-      "Jerry": "Featured on bluegrass numbers like Little Sadie and Been All Around This World, showing strong lead work.",
-      "Phil": "Amp failure after the first set and a broken bass limited the electric portion, but he helped shape the acoustic interlude.",
-      "Bob": "Pigpen shines with country/bluegrass selections – Big Boss Man, Hard to Handle, Long Black Limousine, Seasons of the Heart, Saw Mill, Bound In Memories – and even an early solo acoustic guitar moment on Katie Mae.",
+      "Jerry": "Played Little Sadie in bluegrass style and delivered solid lead work throughout.",
+      "Phil": "His amp blew after the first set and his bass failed, forcing the acoustic interlude.",
+      "Bob": "Shone on country‑flavored numbers like Long Black Limousine, Seasons of the Heart, Saw Mill and Bound In Memories.",
       "Keys": "",
       "Drums": ""
     },
     "song_mentions": {
-      "Katie Mae": {
+      "Hard to Handle": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Long Black Limousine": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Pig on Katie Mae": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
       },
       "Little Sadie": {
         "positive_mentions": 1,
@@ -59,11 +79,6 @@
         "total_mentions": 1
       },
       "Been All Around This World": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Long Black Limousine": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -78,11 +93,6 @@
         "negative_mentions": 0,
         "total_mentions": 2
       },
-      "Sawmill": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
       "Bound In Memories": {
         "positive_mentions": 1,
         "negative_mentions": 0,
@@ -93,23 +103,13 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Hard to Handle": {
-        "positive_mentions": 3,
-        "negative_mentions": 0,
-        "total_mentions": 3
-      },
       "Cold Rain and Snow": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Morning Dew": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T13:57:32.498145+00:00",
+    "processed_date": "2025-09-19T15:05:09.806538+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-01-31.sbd.cotsman.fixed.24028.sbeok.shnf"
   }

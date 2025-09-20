@@ -16,36 +16,65 @@
   "high_ratings": 4,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Muddy but listenable audience tape of a classic 1970 show that shines on the The Other One → NFA jam and an electric Deep Elem Blues.",
-    "review": "The performance is solid – fans repeatedly point out the monster The Other One into Nothing Fixed About sequence, a rare electric Deep Elem Blues, and deep‑time jams that capture the ’70 Dead vibe.  The audience recording is typical of early‑70 AUDs: hissy, a bit muddy and sometimes distant (recorded from a projection booth), with a few missing tracks, but it still conveys the concert’s energy.",
+    "summary": "Muddy audience tape of a solid 1970 show – The Other One and an electric Deep Elem Blues shine, but the recording is barely listenable.",
+    "review": "The performance is praised for classic 1970‑era jams – especially a monster The Other One→NFA stretch and a rare electric Deep Elem Blues – with Jerry’s picking and occasional vocal quirks noted.  Technically the audience recording suffers from hiss, mud and distant booth mic placement, making it hard to enjoy despite the strong playing.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 3.7,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical content (especially The Other One → NFA) while noting consistent audio shortcomings; weighted blend of strong show quality and fair recording yields a ~4.2 rating."
+      "rationale": "Several reviewers rate the show highly (4‑5 stars) for its musical moments, but most comment that the audience recording quality is poor, pulling the overall average down to an above‑average but mixed rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Typical AUD hiss and muddiness, distant sound from a projection‑booth mic, occasional drop‑outs, and several missing songs (e.g., Viola Lee Blues, later set)."
+      "technical_notes": "Hissy, muddy sound with distant booth mic placement; occasional drop‑outs and missing songs.  The tape captures the hall ambience but clarity is low, making it hard to burn on CD."
     },
     "show_quality": {
       "standout_songs": [
-        "The Other One → Nothing Fixed About",
-        "Deep Elem Blues (electric version)",
-        "Hard to Handle (extended jam)"
+        "The Other One",
+        "Deep Elem Blues (electric)",
+        "Hard to Handle"
       ],
-      "poor_songs": [],
-      "setlist_flow": "One‑set show typical of early 1970 concerts; strong mid‑set jam flow with The Other One/NFA as the high point, but the recording cuts off several closing numbers."
+      "poor_songs": [
+        "Viola Lee Blues"
+      ],
+      "setlist_flow": "One‑set show with a strong middle sequence (The Other One → NFA).  Reviewers note missing closing songs (Good Lovin', Minglewood Blues, etc.) and an overall audience vibe that was at times indifferent."
     },
     "band_member_comments": {
-      "Jerry": "His tentative vocal on Deep Elem and a repetitive three‑note phrase on Viola Lee Blues are noted; otherwise his guitar work during the jams is praised.",
+      "Jerry": "Picked out the opening before Truckin', tentative electric Deep Elem vocals, repetitive three‑note phrase on Viola Lee Blues, and occasionally sounded like Bobby.",
       "Phil": "",
-      "Bob": "",
+      "Bob": "Mentioned in backstage anecdotes but no specific performance comments.",
       "Keys": "",
-      "Drums": "The drum segment leading into NFA is highlighted (some call it ‘Crptical>Drums>TOO>NFA!’) but described as nothing special."
+      "Drums": "Decent playing; NFA drum solo noted as unremarkable."
     },
-    "processed_date": "2025-09-11T10:29:46.906964+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "NFA": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Deep Elem Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Viola Lee Blues": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-19T23:38:56.898244+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-10-10.aud.hanno.7590.sbeok.shnf"
   }

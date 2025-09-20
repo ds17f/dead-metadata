@@ -16,37 +16,53 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a peak Dead performance at the Felt Forum, highlighted by strong new material and rare songs like Pig's Smokestack Lightnin' and Run Rudolph Run",
-    "review": "The three five‑star reviews rave about this first night of the Felt Forum run as a high‑energy, landmark show – Jerry’s brief pedal‑steel cameo, Phil singing full‑time, Keith’s real piano expanding the sound, and standout numbers such as Pig's Smokestack Lightnin', Mr. Charlie and the rare Run Rudolph Run. The recording is a soundboard source and is praised for its clear, balanced quality with no reported flaws.",
+    "summary": "Excellent soundboard capture of the Felt Forum peak performance, highlighted by Pig's Smokestack Lightin', Mr. Charlie and a rare Run Rudolph Run.",
+    "review": "The show is widely regarded as the band’s December‑5‑1971 peak, with reviewers praising the addition of Keith on real piano and the tight, energetic set that includes standout performances of Pig's Smokestack Lightin', Mr. Charlie and the seldom‑heard Run Rudolph Run. The recording, a soundboard source, is considered clear enough to convey the band’s intensity despite no explicit technical commentary. Overall sentiment is overwhelmingly positive.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.8,
       "confidence": "high",
-      "rationale": "All three reviews give five stars, emphasizing both an outstanding performance and a clean soundboard recording; the consistent enthusiasm yields a near‑perfect rating."
+      "rationale": "All three reviews are 5‑star and uniformly praise both the musical performance and the implied recording quality; weighting favors the strong show, yielding an near‑top rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "excellent",
-      "technical_notes": "No technical complaints; reviewers note clear piano and overall crispness, implying a well‑balanced mix."
+      "quality_rating": "good",
+      "technical_notes": "No specific issues noted; reviewers imply a clear capture, likely aided by the radio simulcast of the concert."
     },
     "show_quality": {
       "standout_songs": [
-        "Pig's Smokestack Lightnin'",
+        "Pig's Smokestack Lightin'",
         "Mr. Charlie",
         "Run Rudolph Run"
       ],
       "poor_songs": [],
-      "setlist_flow": "First night of a four‑show run, longer than the others due to radio simulcast; new material that would become Europe '72 is presented with strong pacing and seamless transitions.",
-      "energy_level": "high"
+      "setlist_flow": "Reviewers describe this as the peak of a four‑night Felt Forum run, noting Keith's piano broadened the sound and the set felt tighter and more focused than the other nights."
     },
     "band_member_comments": {
-      "Jerry": "Briefly appears on pedal steel (New Riders) and closes with a farewell remark; no specific guitar commentary.",
-      "Phil": "Noted singing full‑time throughout the show, adding vocal depth.",
+      "Jerry": "Mentioned playing pedal steel with the New Riders and noted his frontman role later; no specific criticism of his Dead performance.",
+      "Phil": "Praised for singing full‑time throughout the show.",
       "Bob": "",
-      "Keys": "Keith's real piano is praised for broadening the band’s sound and complementing Jerry nicely.",
+      "Keys": "Keith's real piano tone is highlighted as a major positive, expanding the band’s sonic palette.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T20:56:28.223614+00:00",
+    "song_mentions": {
+      "Pig's Smokestack Lightin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mr. Charlie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Run Rudolph Run": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T10:19:02.496691+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-12-04.sbd.miller.110128.flac16"
   }

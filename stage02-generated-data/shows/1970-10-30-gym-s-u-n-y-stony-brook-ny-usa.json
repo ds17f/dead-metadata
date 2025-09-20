@@ -157,50 +157,57 @@
     "show_time: late"
   ],
   "ai_show_review": {
-    "summary": "Epic St. Stephen>Turn On Your Love Light chain & marathon Dancing In The Streets",
-    "blurb": "The late‑show set features a seamless St. Stephen → Not Fade Away → Turn On Your Lovelight suite and an almost 80‑minute jam on Dancing In The Streets. Pigpen’s organ and vocals are in top form, while the band stays tight through extended segues. Overall soundboard sources capture the energy with excellent clarity.",
-    "review": "On October 30, 1970 at SUNY’s Pritchard Gym the Dead delivered a late‑show that still feels fresh. The first half rolls from Smokestack Lightning into a blistering sequence of China Cat Sunflower → I Know You Rider and then launches into an unforgettable St. Stephen > Not Fade Away > Goin' Down The Road Feeling Bad > Turn On Your Lovelight marathon, showcasing flawless transitions and Pigpen’s soulful organ work. The centerpiece is the 77‑minute Dancing In The Streets, where Garcia’s “wheel‑turning” guitar drives a deep, improvisational groove that keeps the crowd locked in. Highlights like Truckin', Candyman, Friend Of The Devil and the gritty blues of It Hurts Me Too add variety, while the rhythm section—Mickey, Billy and Phil—provides a solid, propulsive foundation throughout. Among the available tapes, the DeLuca digital RBB capture (gd1970‑10‑30.121126.sbd.deluca.digitalrbb.miller.flac16) offers the cleanest, most balanced mix, making it the go‑to version for both casual listeners and archivists.",
+    "summary": "Smokestack Lightning ignites a blazing set capped by epic Dancing In The Street",
+    "blurb": "The show bursts open with a scorching Smokestack Lightning and rolls through tight Truckin' and a soaring Dancin' In The Street. Turn On Your Lovelight closes the night with Pigpen’s trademark charisma. Overall performance is high‑energy with standout moments throughout.",
+    "review": "October 30, 1970 at Pritchard Gym captured one of the Dead’s most electrifying late‑show outings. From the opening crack of Smokestack Lightning the band was “on” – Garcia’s guitar turned the Dancin' In The Street into a wheel‑turning, stretch‑out jam, while Pigpen’s bluesy harps and vocal swagger drove Turn On Your Lovelight to a raucous climax. Highlights also include a tight Truckin' with Bob Weir’s gritty lead vocals, a rollicking Saint Stephen → Not Fade Away sequence, and the ever‑fun Candyman. Though a few recordings note occasional drops or minor mix quirks, the musical flow is consistently praised as loose yet purposeful, delivering an unforgettable snapshot of ’70 energy.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 3.9,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 20,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.2,
+        "sentiment_rationale": "Four recordings are clearly positive, praising the set’s energy, standout songs (Smokestack Lightning, Dancin' In The Street, Turn On Your Lovelight) and strong band interplay. One mixed review notes sound drops but still calls the show tight; one negative review is a poor‑quality recording with no musical commentary. The preponderance of praise yields a solid positive adjustment.",
+        "final_calculation": "2.5 + 0.2 + 1.2 = 3.9"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-10-30.121126.sbd.deluca.digitalrbb.miller.flac16",
-      "reason": "Clean, balanced soundboard capture with no noticeable issues; consistently praised by reviewers as the most reliable source."
+      "reason": "Clean digital soundboard capture with good clarity and no dropouts; reviewers call it a ‘clean’ recording that lets the high‑energy performance shine."
     },
     "key_highlights": [
-      "St. Stephen > Not Fade Away > Turn On Your Lovelight seamless suite",
-      "Marathon 77‑minute Dancing In The Streets jam with Garcia’s “wheel‑turning” guitar",
-      "Pigpen’s organ and vocal performance on multiple numbers, especially Lovelight"
+      "Smokestack Lightning launches a smoking hot set.",
+      "Garcia’s guitar drives an epic Dancing In The Street jam.",
+      "Turn On Your Lovelight showcases Pigpen’s charismatic rap and vocal power.",
+      "Tight Truckin' and vibrant Saint Stephen → Not Fade Away segue."
     ],
     "song_highlights": [
       "Smokestack Lightning",
-      "Saint Stephen",
-      "Not Fade Away",
-      "Turn On Your Lovelight",
       "Dancin' In The Street",
-      "Candyman",
-      "Friend Of The Devil",
+      "Turn On Your Lovelight",
       "Truckin'",
-      "China Cat Sunflower",
-      "I Know You Rider"
+      "Saint Stephen"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s guitar is generally stellar, delivering a marathon jam on Dancing In The Streets and tight leads elsewhere, though a few reviewers note occasional tuning slip‑ups.",
-      "Phil": "Lesh provides a solid, steady bass foundation that underpins the extended improvisations.",
-      "Bob": "Weir starts the show with excited vocals on Truckin' and stays strong throughout, later settling into a more relaxed rhythm role.",
-      "Pigpen": "In top form on organ and vocals, driving the Lovelight rap and adding soulful depth to the blues‑heavy moments.",
-      "Mickey": "Drums are prominent and energetic, especially during the high‑octane segues and jam sections.",
-      "Billy": "Kreutzmann’s drumming blends tightly with Mickey, delivering a busy, propulsive rhythm that pushes the jams forward."
+      "Jerry": "Garcia’s lead guitar is highlighted as ‘getting the wheel turning’ on Dancing In The Street and his vocals add depth, especially during the Lovelight climax.",
+      "Phil": "Phil’s bass work is described as the glue holding the outfit together, providing strong harmonic support throughout the set.",
+      "Bob": "Weir delivers a standout vocal on Truckin' and brings early excitement that settles into solid rhythm later in the show.",
+      "Brent": "",
+      "Mickey": "Mickey’s drumming is praised for its looseness and power, contributing to the high‑energy feel of the Good Lovin'/Drums segment and overall drive.",
+      "Billy": "Billy’s drum work is prominent and loopy, lauded for its punchy presence that fuels jams like Truckin' and the late‑show flow."
     },
     "processed_recordings": 6,
-    "processed_date": "2025-09-11T10:54:33.059471+00:00",
+    "processed_date": "2025-09-20T00:16:18.928223+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
         "Smokestack Lightning"
+      ],
+      [
+        "Dancin' In The Street"
       ],
       [
         "Saint Stephen",
@@ -210,20 +217,7 @@
         "Turn On Your Lovelight"
       ],
       [
-        "Dancin' In The Street"
-      ],
-      [
-        "Candyman"
-      ],
-      [
-        "Friend Of The Devil"
-      ],
-      [
         "Truckin'"
-      ],
-      [
-        "China Cat Sunflower",
-        "I Know You Rider"
       ]
     ]
   }

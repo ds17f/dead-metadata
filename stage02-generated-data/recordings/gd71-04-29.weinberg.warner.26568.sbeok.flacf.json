@@ -16,39 +16,71 @@
   "high_ratings": 6,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "A classic 1971 show with smoking Alligator>Cold Rain, Hard to Handle and Midnight Hour, but the audience‑tape recording is muddy, full of silences and far from clean.",
-    "review": "Fans rave about this performance – the Alligator → Cold Rain sequence, a fiery Hard to Handle, and Bill’s thunderous drumming on Minglewood are repeatedly called out as highlights.  The recording, however, is an audience tape plagued by long gaps, low‑level mix and missing sections, making it a painful listen despite the show’s high energy.",
+    "summary": "A classic 1971 set with standout Alligator > Cold Rain and Hard to Handle, but the audience‑sourced tape is muddy, uneven and riddled with gaps.",
+    "review": "The performance shines – fans rave about the Alligator > Cold Rain sequence, a monster Hard to Handle, Bill Kreutzmann’s drumming on Minglewood and Phil Lesh’s bass on Sugar Magnolia.  The recording, however, is an audience tap that suffers from silences, missing sections and a generally thin mix, making it a mixed‑quality listening experience.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.0,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Show quality is rated very high by most reviewers (top‑10 status, multiple 5‑star praises) while the recording quality is consistently described as poor; weighted average yields ~4.0 stars."
+      "rationale": "Most reviewers praise the musical moments (average show rating ~4.5) while consistently noting poor to fair audio quality (average recording rating ~3). Weighted combination yields a solid 4‑star overall score."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "poor",
-      "technical_notes": "Audience tape with long silences, low‑level mix and occasional drop‑outs; many reviewers note missing energy and recommend seeking a soundboard version."
+      "quality_rating": "fair",
+      "technical_notes": "Listeners report long silences, missing portions of the first set, muddied mix and loss of energy compared to known soundboard sources. Some note track‑order errors and occasional drop‑outs."
     },
     "show_quality": {
       "standout_songs": [
-        "Alligator > Cold Rain (jam)",
+        "Alligator > Cold Rain",
         "Hard to Handle",
-        "The Midnight Hour",
+        "Minglewood",
         "Sugar Magnolia",
-        "Minglewood"
+        "Midnight Hour",
+        "St. Stephen (tease)"
       ],
       "poor_songs": [],
-      "setlist_flow": "Strong mid‑set jams and classic numbers, though some reviewers note missing tracks (Cumberland → Playing) and a reversed Loser/Dark Hollow order in the digital copy.",
-      "energy_level": "high"
+      "setlist_flow": "The second set is highlighted as a peak with the Alligator > Cold Rain jam and acoustic/NRPS interludes.  The first set suffers from missing tracks in this release, but overall pacing is praised by fans."
     },
     "band_member_comments": {
-      "Jerry": "Vocals described as uninspired at times; his solo is mentioned but compared unfavorably to other dates.",
-      "Phil": "Bass praised as strong, distinct and ‘bombs’ on Sugar Magnolia; highlighted throughout the jam sections.",
-      "Bob": "Pig‑Pen rap on Hard to Handle noted; no snide remarks or banter captured in this tape.",
+      "Jerry": "Vocals described as uninspired and anemic by one reviewer; otherwise no specific guitar praise.",
+      "Phil": "Strong, distinct bass noted positively; highlighted on Sugar Magnolia and praised for “bombs” during the show.",
+      "Bob": "",
       "Keys": "",
-      "Drums": "Bill's drumming on Minglewood is singled out as a highlight; overall drum work praised."
+      "Drums": "Bill Kreutzmann’s drumming on Minglewood singled out as a highlight."
     },
-    "processed_date": "2025-09-07T18:29:24.818540+00:00",
+    "song_mentions": {
+      "Alligator > Cold Rain": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Hard to Handle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Minglewood": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Midnight Hour": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen (tease)": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T06:18:46.048975+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-04-29.weinberg.warner.26568.sbeok.flacf"
   }

@@ -16,35 +16,48 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "FM‑sourced tape delivers a muddy first set but an upbeat second set highlighted by Keith's piano work.",
-    "review": "The recording is taken from an FM broadcast, resulting in low‑fidelity sound on the first set (muted highs and occasional drop‑outs) while the second set sounds noticeably cleaner. Musically the show is described as upbeat with a strong keyboard presence and a compelling cryptic suite, making it a worthwhile listen despite the technical flaws.",
+    "summary": "Mixed‑quality FM (soundboard) recording of a typical ’71 show – the second set sounds clearer while the first set is muddy, but the performance is upbeat with strong Keith piano.",
+    "review": "The show captures an energetic ’71 setlist with lively playing and a nice piano touch from Keith, especially during the cryptic suite. Technically the recording is uneven: the first set is muted and low‑fidelity (likely off‑air FM), while the second set improves but still suffers from reduced high frequencies and a truncated Truckin'.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.6,
       "confidence": "medium",
-      "rationale": "Two reviews show moderate appreciation of the performance (4‑star upbeat set) but note significant recording issues on the first half, leading to a blended rating weighted toward show quality."
+      "rationale": "Two reviews give 3 and 4 stars; performance is decent (70% weight) but recording quality is uneven (30% weight), resulting in an overall rating just above average."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "First set very poor – muddy, muted highs, possible low‑grade FM taping; second set clearer. Truckin' cut off a few seconds. Not an audience tape."
+      "technical_notes": "First set very muddy and low‑fidelity, likely recorded off FM broadcast; highs are muted throughout, Truckin' is cut short. Second set sounds clearer but still lacks full high‑end sparkle."
     },
     "show_quality": {
       "standout_songs": [
-        "Cryptical Suite (cryptical suite)"
+        "Truckin'"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Typical 1971 show flow – first set suffers from recording issues, second set recovers with higher energy and tighter playing.",
-      "energy_level": "high"
+      "poor_songs": [
+        "Wharf Rat"
+      ],
+      "setlist_flow": "Typical ’71 show with an upbeat first set hampered by poor recording, followed by a stronger‑sounding second set; overall flow is solid despite missing Wharf Rat."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "Keith's piano is praised as nice and adds to the upbeat vibe.",
+      "Keys": "Nice piano work from Keith noted as a highlight.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T20:07:39.854691+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Wharf Rat": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T08:54:18.932609+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-10-29.fm.cotsman.10357.sbeok.shnf"
   }

@@ -16,38 +16,55 @@
   "high_ratings": 6,
   "low_ratings": 3,
   "ai_review": {
-    "summary": "Muddy audience tape of a raw early‑'70s show; despite lo‑fi sound the set delivers spirited Hard to Handle, Pig, Brokedown Palace and a lively Casey Jones opener.",
-    "review": "The recording is an audience capture on reused reel‑to‑reel tape that suffers from distortion, hiss and a weak drum mix, making it only fair to listen to without EQ work. Musically the performance is uneven – some reviewers find the jams uninspired while others praise Jerry’s solo on Hard to Handle, the bluesy Pig medley and the heartfelt Brokedown Palace – giving the show an overall mixed but historically interesting feel.",
+    "summary": "Muddy, low‑fi soundboard recording of a raw 1971 show with a lively Hard to Handle and heartfelt Brokedown Palace despite inconsistent playing.",
+    "review": "The tape is a soundboard capture that suffers from mud, distortion and tape hiss, making it only fair‑quality even after EQ tweaks. The performance swings between moments of pure Dead magic – an enthusiastic Casey Jones opener, a smoky Hard to Handle jam and a heartfelt Brokedown Palace – and lapses where the band loses sync, especially in the HTH segment.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.1,
+      "stars": 3.0,
       "confidence": "medium",
-      "rationale": "Show quality is average to good (≈3.5/5) while recording quality is poor to fair (≈2/5). Weighted by the 70 % show / 30 % recording split this yields an overall rating just above three stars."
+      "rationale": "The majority of reviewers note poor recording quality and inconsistent playing, but several highlight strong song moments; overall rating falls into the average range."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Tape was recorded on a previously used reel‑to‑reel, resulting in muddy, distorted sound with noticeable hiss and a weak drum mix; some listeners improve it with EQ but overall clarity is limited."
+      "technical_notes": "Muddy tape from a reused reel‑to‑reel, noticeable distortion, hiss and occasional dropouts; low fidelity but can be improved with EQ."
     },
     "show_quality": {
       "standout_songs": [
         "Hard to Handle",
-        "Pig",
-        "Brokedown Palace",
-        "Casey Jones"
+        "Casey Jones",
+        "Brokedown Palace"
       ],
-      "poor_songs": [],
-      "setlist_flow": "The fragmentary tape captures a raw, psychedelic Warlocks‑era set; the band swings between loose improvisation and moments of tightness, giving an uneven but historically vivid flow.",
-      "energy_level": "medium"
+      "poor_songs": [
+        "Hard to Handle"
+      ],
+      "setlist_flow": "The set opens with a frantic Casey Jones, runs long (≈2½ hours) and drifts into psychedelic explorations. The band is sometimes out of sync, especially during the Hard to Handle jam, yet the energy remains high and several songs feel genuinely inspired."
     },
     "band_member_comments": {
-      "Jerry": "His solo on Hard to Handle is highlighted – described as a train‑like lead that some listeners love despite the muddy mix.",
-      "Phil": "Mentioned for taking over the jam when the theme fell apart and for urging the band back into sync; his bass presence is noted but often buried in the tape.",
-      "Bob": "Weir’s vocal on Casey Jones is described as “all in a tizzy,” indicating a lively rhythm‑guitar/vocal contribution.",
+      "Jerry": "His solo work draws mixed reactions – some praise his ‘train‑like’ lead on Hard to Handle, others note he had to restart leads due to band mis‑sync.",
+      "Phil": "Mentioned as stepping in to steer the Hard to Handle jam back on track and insisting on correcting tempo lapses.",
+      "Bob": "",
       "Keys": "",
-      "Drums": "Mickey’s drumming is hard to hear due to the poor mix; one reviewer notes the sound board was turned up so loud it caused physical discomfort."
+      "Drums": ""
     },
-    "processed_date": "2025-09-07T16:08:22.780415+00:00",
+    "song_mentions": {
+      "Hard to Handle": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "total_mentions": 4
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Brokedown Palace": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-20T02:14:33.928621+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-01-22.sbd.cotsman.12592.sbeok.shnf"
   }

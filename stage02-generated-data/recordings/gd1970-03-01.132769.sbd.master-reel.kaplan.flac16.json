@@ -16,30 +16,29 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Great soundboard capture with brief cuts; a mellow set highlighted by standout Cumberland Blues and King Bee.",
-    "review": "The recording is a clean sound‑board source that sounds great despite a few very short cuts, making it an enjoyable listen. Musically the night is modest – the band stays on the mellow side after feedback forces a volume dip during The Other One, but they deliver strong performances of Cumberland Blues and King Bee while some slower moments (Uncle John's Band) feel too drawn out.",
+    "summary": "Clear soundboard recording with brief edits; the show is solid, highlighted by a stellar Cumberland Blues and on‑point King Bee but hampered by sluggish tempos on some numbers.",
+    "review": "The source captures a clean, well‑balanced mix despite a few short cuts, making it an enjoyable listen. Musically the night is decent – Cumberland Blues shines and Pigpen delivers a spot‑on King Bee, while The Other One suffers from feedback and Uncle John's Band feels overly slow. Overall the performance is respectable but not spectacular.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 3.3,
       "confidence": "medium",
-      "rationale": "Show quality is average to good with a few standout songs, while the recording is clear and well‑balanced; limited number of reviews yields moderate confidence."
+      "rationale": "Show quality is moderate (average to good) while recording quality is good; weighted average yields ~3.3 stars. Only two reviews provide the data, giving medium confidence."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Overall great sound with brief cuts that are not disruptive; no major distortion or balance issues reported."
+      "technical_notes": "Overall clear and crisp sound; brief edit cuts are present but unobtrusive. No major drop‑outs reported."
     },
     "show_quality": {
       "standout_songs": [
         "Cumberland Blues",
-        "King Bee",
-        "Big Boy Pete"
+        "King Bee"
       ],
       "poor_songs": [
         "The Other One",
         "Uncle John's Band"
       ],
-      "setlist_flow": "The set stays relatively mellow after feedback forces a volume reduction during The Other One; experimental down‑tempo on Uncle John's Band slows the momentum, but strong bluesy numbers keep interest."
+      "setlist_flow": "A generally mellow set tempered by feedback on The Other One and an experimental, slower Uncle John's Band that slows the momentum; high points keep the show engaging."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -60,9 +59,9 @@
         "total_mentions": 1
       },
       "Cumberland Blues": {
-        "positive_mentions": 1,
+        "positive_mentions": 2,
         "negative_mentions": 0,
-        "total_mentions": 1
+        "total_mentions": 2
       },
       "King Bee": {
         "positive_mentions": 1,
@@ -74,13 +73,23 @@
         "negative_mentions": 1,
         "total_mentions": 1
       },
-      "Big Boy Pete": {
+      "The Big Boy Pete": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Peaches and Cream": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "High Cotton": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T15:48:15.774587+00:00",
+    "processed_date": "2025-09-19T17:04:52.151981+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-03-01.132769.sbd.master-reel.kaplan.flac16"
   }

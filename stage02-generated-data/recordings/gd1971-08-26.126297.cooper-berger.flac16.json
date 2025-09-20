@@ -16,18 +16,18 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A solid show highlighted by a smoking \"The Other One\" captured on an excellent Charlie Miller soundboard, though audience‑heavy cuts of \"Cumberland\" and \"Bobby McGee\" detract from the listening experience.",
-    "review": "The performance shines with a powerful rendition of \"The Other One\" that silences the East Coast crowd, and most of the set sounds clear thanks to Charlie Miller's soundboard source. However, two songs are plagued by heavy audience bleed and aggressive edits, making parts of the tape difficult to enjoy. Overall the show is decent but the inconsistent recording quality leaves listeners divided.",
+    "summary": "Excellent Charlie Miller soundboard captures a spell‑binding \"The Other One\", though audience‑heavy and heavily edited cuts of \"Cumberland\" and \"Bobby McGee\" detract.",
+    "review": "The recording is praised for its clean, well‑balanced soundboard mix by Charlie Miller, making the highlight – an electrifying \"The Other One\" that silenced the East Coast crowd – shine. However, two tracks are noted as audience‑heavy and severely edited, and one reviewer found the overall listening experience difficult, resulting in a mixed impression of the show’s consistency.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.7,
+      "stars": 3.5,
       "confidence": "medium",
-      "rationale": "Show quality is generally praised (especially \"The Other One\"), but recording quality is split between an excellent soundboard and problematic audience‑heavy cuts, yielding a middling combined rating."
+      "rationale": "One strong positive review (4 ★) highlights superb soundboard quality and a standout performance, while another gives 0 ★ citing poor audience recording; the mixed feedback yields an average rating weighted toward show quality."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Charlie Miller's soundboard feed is clear and well‑balanced; however \"Cumberland\" and \"Bobby McGee\" are audience‑heavy and heavily edited, resulting in noticeable drop‑outs and reduced fidelity for those tracks."
+      "technical_notes": "Charlie Miller's soundboard mix is praised as excellent and clear, but several songs are heavily audience‑laden and appear truncated, affecting overall listenability."
     },
     "show_quality": {
       "standout_songs": [
@@ -37,8 +37,7 @@
         "Cumberland",
         "Bobby McGee"
       ],
-      "setlist_flow": "Overall solid set; two tracks suffer from audience bleed and aggressive editing, but the rest flows well with a high‑impact second‑half.",
-      "energy_level": "high"
+      "setlist_flow": "The East Coast crowd was highly excitable, becoming completely silent during the powerful \"The Other One\"; however, the flow is marred by poorly captured and edited tracks that break momentum."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -47,7 +46,24 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T19:40:05.104250+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cumberland": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Bobby McGee": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T08:06:13.713282+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-08-26.126297.cooper-berger.flac16"
   }

@@ -169,43 +169,72 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Winterland set with scorching Hard To Handle and tight jams",
-    "blurb": "The show bursts with a blistering Hard To Handle and a soaring Truckin' > Drums > The Other One sequence. Phil’s bass drives the high‑energy improvisations while Bill’s lean drumming propels the band forward. Multiple soundboard sources capture the performance in excellent detail.",
-    "review": "March 24, 1971 at Winterland finds the Dead firing on all cylinders during a tightly knit two‑set marathon capped by an uplifting Uncle John's Band encore. The first set rocks straight into an early version of Bertha before diving into Sugar Magnolia and a raucous Hard To Handle where Jerry’s 1971 tone slices through the mix, delivering a solo described as \"absolutely sick\" while Bob adds a slashing rhythm break and vocal rap that lands right on target. A seamless segue into Greatest Story Ever Told keeps the momentum rolling into Johnny B. Goode. The second set shines brightest with the Truckin' > Drums > The Other One medley – a face‑melting explosion of percussion, Phil’s bomb‑dropping bass, and a jam that hints at future B.A.D.F# motifs. The band stays locked in from start to finish, with Bill’s concise drumming providing a tight backbone for the soaring improvisations. Excellent soundboard recordings preserve every nuance, making this Winterland outing a must‑listen for fans of the early ’70s Dead.",
+    "summary": "Scorching Hard To Handle, tight Truckin' → Drums → Other One stretch",
+    "blurb": "The March‑24‑1971 Winterland show bursts with high‑energy rock and blues, highlighted by a blistering Hard To Handle and a powerful Truckin' → Drums → The Other One sequence. Jerry’s soaring solo work and Phil’s thunderous bass drive the performance, making it a must‑listen for early‑’70 fans.",
+    "review": "Winterland on March 24, 1971 captures the Dead in peak early‑‘70 form – lean, powerful, and unapologetically blues‑rock. The first set rolls through classics like Bertha and Sugar Magnolia before igniting with a scorching Hard To Handle where Jerry’s tone is described as “soaring” and Phil drops “bomb‑dropping” bass lines that lock in perfectly. The second set erupts into a barn‑burner: Truckin' flows seamlessly into a tight drum segment and launches into an intense The Other One, while the band rides a fierce King Bee groove. Across three pristine soundboard sources reviewers consistently praise the band’s interplay, especially Jerry’s explosive solos and Bill’s “megaton nuclear” drumming, making this night one of the standout early‑’70 performances despite minor tape cuts at the end.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.2,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 39,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "Three of the four recordings are marked positive, praising the same highlights – scorching Hard To Handle, blistering The Other One, and tight Truckin' → Drums → Other One stretch. Language such as “scorching,” “blistering,” “explosive interplay,” and “10 megaton nuclear detonation” appears across multiple analyses, indicating strong positive consensus. The lone mixed audience tape does not detract from the overall sentiment, so a solid +1.4 adjustment is applied.",
+        "final_calculation": "2.5 + 0.3 + 1.4 = 4.2"
+      }
     },
     "best_recording": {
-      "identifier": "gd71-03-24.sbd.miller.25313.flac16",
-      "reason": "Full‑show, excellent soundboard capture with clear mix and no noticeable dropouts, showcasing the band at peak energy."
+      "identifier": "gd71-03-24.sbd.cotsman.9501.sbeok.shnf",
+      "reason": "Crystal‑clear soundboard capture with crisp instrument separation; showcases the scorching Hard To Handle and tight Truckin' → Drums → The Other One stretch despite minor cuts."
     },
     "key_highlights": [
-      "Scorching Hard To Handle featuring a blistering Jerry solo and tight Bob rhythm.",
-      "Truckin' > Drums > The Other One medley delivers a face‑melting explosion of improvisation.",
-      "Phil’s heavy, round bass drives the high‑energy jams throughout both sets.",
-      "Excellent full‑show soundboard recording preserves every nuance of this 1971 Winterland performance."
+      "Scorching Hard To Handle with Jerry’s soaring solo",
+      "Powerful Truckin' → Drums → The Other One sequence",
+      "Blistering second‑set blues rock, especially King Bee and The Other One",
+      "Tight band interplay; Phil’s thunderous bass anchors the show"
     ],
     "song_highlights": [
       "Bertha",
+      "I'm A King Bee",
       "Hard To Handle",
+      "Greatest Story Ever Told",
       "Truckin'",
       "Drums",
-      "The Other One",
-      "Greatest Story Ever Told"
+      "The Other One"
     ],
     "band_performance": {
-      "Jerry": "Intense, crystal‑clear solo on Hard To Handle; his 1971 guitar tone cuts hard through the mix and adds soaring leads throughout.",
-      "Phil": "Thick, round bass with bomb‑dropping power; heavy presence drives the jams, climbing fretboard runs prefigure later motifs.",
-      "Bob": "Slashing rhythm work early in the set; strong solo on Hard To Handle and vocal rap that hits right on target, one of his best performances of the night.",
+      "Jerry": "Delivers a scorching tone and soaring solo on Hard To Handle; explosive interplay on The Other One; locked‑in throughout the night.",
+      "Phil": "Provides thick, bomb‑dropping bass that drives the band; heavy presence noted especially leading into Hard To Handle; praised for climbing‑fretboard jam and dueling solos with Jerry.",
+      "Bob": "Kicks off Hard To Handle with a strong solo and solid rhythm/vocals; delivers an aggressive, “slashing” rhythm in the first set that adds edge to the performance.",
       "Brent": "",
       "Mickey": "",
-      "Billy": "Lean, tough drumming fuels the high‑energy flow; drum segment into The Other One is a face‑melting explosion that propels the band forward."
+      "Billy": "Lean, tough drumming praised as a “10 megaton nuclear detonation,” especially during the Truckin' → Drums → The Other One stretch; keeps the high‑energy momentum."
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-07T16:57:11.762922+00:00",
+    "processed_date": "2025-09-20T03:51:02.266617+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Bertha"
+      ],
+      [
+        "I'm A King Bee"
+      ],
+      [
+        "Hard To Handle"
+      ],
+      [
+        "Greatest Story Ever Told",
+        "Johnny B. Goode"
+      ],
+      [
+        "Truckin'",
+        "Drums",
+        "The Other One"
+      ]
+    ]
   }
 }

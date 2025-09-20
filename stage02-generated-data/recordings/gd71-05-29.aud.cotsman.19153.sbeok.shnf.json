@@ -16,41 +16,80 @@
   "high_ratings": 6,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Audience-sourced tape with fair sound quality captures a legendary, high‑energy acid‑dosed Winterland night featuring standout performances of Hurts Me Too, Hard to Handle and The Other One.",
-    "review": "The recording is an audience (AUD) capture that suffers from muffled highs, occasional drop‑outs and needs slight pitch correction, but it remains listenable for fans interested in the historic moment. Musically the show is remembered as a wild, high‑energy set—acid‑fuelled crowd antics aside—with memorable renditions of Hurts Me Too, Hard to Handle, The Other One, Not Fade Away and Playing in the Band. While the audio quality drags the experience down, the performance itself is celebrated for its groove and historic significance.",
+    "summary": "Audience‑sourced tape with fair sound quality captures a wild “acid punch” night featuring the first Promised Land and strong early‑’71 grooves.",
+    "review": "The recording is an audience AUD that runs fast, needs pitch correction and suffers from muddiness in places, but it does capture the historic Winterland show where the crowd was heavily dosed. Musically the concert is remembered for a solid set – first‑ever Promised Land, a punchy Hurts Me Too, a tantalising Hard to Handle and a fiery The Other One – even if some moments (e.g., Wharf Rat’s ending) are cut or thin. Overall fans view the performance as an exciting, groove‑heavy snapshot of 1971 despite the technical shortcomings.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 3.9,
       "confidence": "high",
-      "rationale": "Most reviewers praise the show's energy and unique setlist (≈4‑star show quality) but criticize the tape's poor to fair audio fidelity (≈2½‑star recording quality). Weighted combination yields a solid 3.5‑3.7 overall rating."
+      "rationale": "10 detailed reviews give a clear picture: show quality is praised (many 4–5‑star comments) while recording quality is criticized (several 1–2‑star remarks). Weighted average of performance (≈4.2) and audio (≈3.0) yields ~3.9."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Muffled mids, occasional drop‑outs, runs slightly fast and needs -1% pitch correction; overall listenable but frustrating for detailed listening."
+      "technical_notes": "Runs slightly fast, needs –1% pitch correction; audible tape hiss and occasional muddiness; missing balance in parts; Wharf Rat cut early; overall listenable but not crisp."
     },
     "show_quality": {
       "standout_songs": [
+        "Promised Land",
         "Hurts Me Too",
         "Hard to Handle",
         "The Other One",
-        "Not Fade Away",
-        "Playing in the Band"
+        "Not Fade Away"
       ],
-      "poor_songs": [
-        "Promised Land (early, short version)"
-      ],
-      "setlist_flow": "Starts with a decent early rock set, builds into a high‑groove middle section, peaks with The Other One and Not Fade Away before winding down; overall flow is praised despite some uneven early songs.",
-      "energy_level": "high"
+      "poor_songs": [],
+      "setlist_flow": "A chaotic, heavily dosed atmosphere with pre‑show New Riders and NRPS sets; the Dead’s set is a solid early‑’71 groove that builds from Loser into Playing in the Band, then peaks on Hard to Handle and The Other One before winding down. The tape captures the raw energy despite the odd timing of breaks."
     },
     "band_member_comments": {
-      "Jerry": "Sat out the New Riders pre‑show but played with the Dead later; no specific guitar tone remarks.",
-      "Phil": "Bass work described as \"crazy\" and a highlight on The Other One and Not Fade Away.",
+      "Jerry": "Garcia sat out the New Riders pre‑show (was sick) but performed with the Dead; no specific guitar praise noted.",
+      "Phil": "Phil Lesh’s bass work shines on The Other One and Not Fade Away – described as “crazy” and a highlight of the night.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T18:36:23.662630+00:00",
+    "song_mentions": {
+      "Promised Land": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hurts Me Too": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Loser": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playing in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Wharf Rat": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T06:28:40.566493+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-05-29.aud.cotsman.19153.sbeok.shnf"
   }

@@ -16,18 +16,18 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑energy night captured with solid sound and plenty of Jerry’s pedal‑steel magic, highlighted by a shivering Hard to Handle solo and an epic Other One full of WRS quotes.",
-    "review": "Fans rave about the inclusion of the New Riders of the Purple Sage opening set, which gives a true ‘whole‑night’ feel and adds over an hour of Jerry Garcia on pedal steel. The Dead’s second set shines with a spine‑tingling Hard to Handle solo and a memorable Other One where Bob Weir slips in WRS snippets. While one reviewer notes the omission of “Me and Bobby McGee,” the overall impression is that both performance and recording are highly enjoyable.",
+    "summary": "High‑energy show with standout “Hard to Handle” and a quoted The Other One, captured in a good‑quality recording that includes the New Riders for extra concert ambience.",
+    "review": "Fans rave about Jerry Garcia’s extended pedal‑steel work with the New Riders of the Purple Sage and praise the soaring solo on “Hard to Handle.” Bob Weir’s clever WRS quote inside the second half of The Other One is also highlighted. While one reviewer notes the missing “Me and Bobby McGee” track, no technical flaws are reported, suggesting a solid listening experience.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "medium",
-      "rationale": "Four out of five reviews give 5‑star praise for the show’s energy and standout moments; one low rating notes a missing track but does not detract from overall enjoyment. Recording quality is praised indirectly (full concert feel) though no technical details are given, leading to a solid but not exceptional score."
+      "rationale": "Four out of five reviews give 5‑star praise for performance and atmosphere; one low rating is due only to a missing song, not recording quality."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "good",
-      "technical_notes": "Listeners appreciate the inclusion of the NRPS set for a complete concert experience, suggesting a reasonably balanced mix that captures both bands. No specific comments on clarity or drop‑outs were made."
+      "technical_notes": "No specific sound issues mentioned; inclusion of the New Riders set adds a live‑concert feel and suggests a decent mix."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,17 +35,33 @@
         "The Other One"
       ],
       "poor_songs": [],
-      "setlist_flow": "Full‑night capture that blends the NRPS opening with the Dead’s set; second part of The Other One features Bob Weir quoting the Weather Report Suite, adding a fun surprise.",
-      "energy_level": "high"
+      "setlist_flow": "Reviewers appreciate the continuity provided by the New Riders portion, noting an hour‑plus of Jerry’s pedal steel and smooth transitions into the Dead's second set."
     },
     "band_member_comments": {
-      "Jerry": "Highlighted for his pedal‑steel work with the New Riders and a shivering solo on Hard to Handle that gave listeners goosebumps.",
+      "Jerry": "Provides over an hour of pedal‑steel guitar with the New Riders, highlighted as a major positive.",
       "Phil": "",
-      "Bob": "Noted for quoting the Weather Report Suite (WRS) at specific timestamps during The Other One.",
+      "Bob": "Weir quotes the WRS at :39 and :45 during the second part of The Other One.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T19:18:16.998152+00:00",
+    "song_mentions": {
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me and Bobby McGee": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T07:29:49.375245+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-08-06.GEMS.Smith.Kaslow-Todd.109430.flac24"
   }

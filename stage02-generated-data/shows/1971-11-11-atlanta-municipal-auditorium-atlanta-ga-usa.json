@@ -168,40 +168,62 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy early ’71 set with standout Tennessee Jed and Jack Straw",
-    "blurb": "The Atlanta show captures a fast‑moving snapshot of the 1971 Dead, highlighted by crisp renditions of Tennessee Jed, Jack Straw and Me And My Uncle. Recording quality is uneven – digi‑garble and dropouts interrupt the flow, though cleaned‑up sections sound surprisingly clear.",
-    "review": "On November 11, 1971 at the Atlanta Municipal Auditorium the Dead delivered a brisk, high‑octane performance that feels more like a punchy highlight reel than an extended jam marathon. Set 1 rockets off with tight versions of Bertha and Playing In The Band before Jerry’s lead cuts sharp on Tennessee Jed and Jack Straw, while Bob’s vocal banter adds a playful edge to Me And My Uncle. The second set leans into the band’s early‑’70 feel‑good groove, moving through Mexicali Blues, One More Saturday Night and a spirited Not Fade Away → Goin' Down The Road Feeling Bad → Not Fade Away medley that rolls straight into a rock‑n‑roll encore of Johnny B. Goode.\n\nThe soundboard source (gd71-11-11.sbd.yubah-dodd…) offers moments of crystal‑clear clarity, especially on the vocal harmonies and Phil’s warm bass lines, but is marred by digital garbling, occasional muddiness around Keith Godchaux’s keyboards, and a few dropouts that cut into Truckin'. The FM broadcast (gd1971-11-11.155920.FM.Flegel.flac16) provides a cleaner overall picture, making it the preferred listen for most fans. Despite its technical flaws, this show remains a worthwhile glimpse of the band’s tight early‑’71 chemistry.",
+    "summary": "Fast snappy set with strong Tennessee Jed & Jack Straw despite tape glitches",
+    "blurb": "The show delivers tight renditions of Tennessee Jed, Jack Straw, Me & My Uncle and a crisp Playing In The Band. Jerry’s background vocals shine while early Keith Godchaux adds subtle keyboard texture. Recording is mixed—soundboard offers moments of clarity but suffers digital dropouts.",
+    "review": "On November 11, 1971 at the Atlanta Municipal Auditorium the Dead rolled out a brisk, high‑energy set that leans into concise songcraft rather than sprawling jams. Highlights include a punchy Tennessee Jed that crackles with humor, a swaggering Jack Straw, and a sprightly Me & My Uncle where Jerry’s background vocal work is front‑and‑center. The first‑set closer, Playing In The Band, feels surprisingly tight for an early‑’71 outing, while the brief “Pigs off the stage” banter adds a memorable slice of Dead lore. A second set that runs through classics like Truckin' (though marred by a fuzzy mix) and a swinging Sugar Magnolia rounds out the night, capped by a raucous Johnny B. Goode encore.\n\nThe only real drawback is the soundboard source itself: listeners report occasional digital garble, odd high‑frequency sharpening and dropouts—most noticeable on Truckin'. Still, moments of crystal‑clear capture surface enough to let Keith Godchaux’s early keyboard textures be heard alongside Pigpen’s organ and harmonica. For fans wanting the cleanest listening experience, the FM broadcast (Flegel’s FLAC) sidesteps most of these issues while preserving the show’s lively spirit.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.5,
-      "confidence": "medium"
+      "ai_rating": 2.9,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 18,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.3,
+        "sentiment_rationale": "The single recording analysis labels sentiment as mixed: positive remarks praise Tennessee Jed, Jack Straw, Me & My Uncle and Playing In The Band, while negative notes cite digital garble and a weak Truckin' performance. This yields a modest positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.3 = 2.9"
+      }
     },
     "best_recording": {
       "identifier": "gd1971-11-11.155920.FM.Flegel.flac16",
-      "reason": "FM broadcast avoids the digital garble of the soundboard and delivers a more consistent listening experience."
+      "reason": "FM broadcast offers clearer sound and avoids the digital dropouts that plague the SBD source."
     },
     "key_highlights": [
-      "Fast, snappy set that captures the band’s early‑71 tightness.",
-      "Standout performances of Tennessee Jed, Jack Straw and Me And My Uncle.",
-      "Keith Godchaux’s early keyboard work adds texture despite odd mix balance.",
-      "Recording suffers from digi‑garble and dropouts, but cleaned sections are clear."
+      "Standout performances of Tennessee Jed, Jack Straw, Me & My Uncle, and Playing In The Band.",
+      "Early appearance of Keith Godchaux adds subtle keyboard texture to an otherwise guitar‑driven set.",
+      "Fast‑paced, concise renditions capture the youthful energy of the 1971 lineup."
     ],
     "song_highlights": [
       "Tennessee Jed",
       "Jack Straw",
-      "Me And My Uncle"
+      "Me And My Uncle",
+      "Playing In The Band"
     ],
     "band_performance": {
-      "Jerry": "Fast, solid guitar work throughout; his tone cuts through the mix on Tennessee Jed and Jack Straw, with reliable background vocals on Me And My Uncle.",
-      "Phil": "Warm bass tones remain clear even when tape artifacts appear; anchors the high‑energy set with steady drive.",
-      "Bob": "Delivers confident lead vocals on Me And My Uncle and adds humorous stage banter that enhances the show’s lively vibe.",
-      "Keith": "Early keyboard contributions provide atmospheric color, though the mix around his playing is uneven in the soundboard source.",
+      "Jerry": "Background vocals on Me & My Uncle are highlighted; guitar tone noted as solid in moments.",
+      "Phil": "",
+      "Bob": "",
+      "Keith": "Early Keith Godchaux adds a nice texture to the mix, enhancing the overall sound.",
       "Mickey": "",
-      "Billy": "Provides a steady rhythmic foundation; drumming stays tight despite occasional recording glitches."
+      "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-07T20:27:27.351572+00:00",
+    "processed_date": "2025-09-20T09:23:47.441604+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Tennessee Jed"
+      ],
+      [
+        "Jack Straw"
+      ],
+      [
+        "Me And My Uncle"
+      ],
+      [
+        "Playing In The Band"
+      ]
+    ]
   }
 }

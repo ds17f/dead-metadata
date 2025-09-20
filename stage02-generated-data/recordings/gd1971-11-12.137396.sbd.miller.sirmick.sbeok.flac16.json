@@ -16,24 +16,23 @@
   "high_ratings": 0,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Heavily distorted recording with an out‑of‑tune performance makes this show difficult to enjoy.",
-    "review": "The sole reviewer describes the audio as very distorted and notes that the band sounded out of tune throughout, indicating both technical and musical shortcomings. With no redeeming moments mentioned, the recording offers little value for listeners seeking a clear Dead experience.",
+    "summary": "Distorted soundboard recording with out‑of‑tune performance",
+    "review": "The sole review flags a heavily distorted recording that sounds muddied and notes the band playing out of tune, making both the audio quality and musical execution unsatisfactory.",
     "sentiment": "negative",
     "ai_rating": {
       "stars": 1.2,
       "confidence": "low",
-      "rationale": "Only one 1‑star review citing severe distortion and tuning problems; both show and recording quality are judged poor."
+      "rationale": "Only one 1‑star review, consistently negative about both recording fidelity and performance; insufficient data for higher confidence."
     },
     "recording_quality": {
-      "source_type": "unknown",
+      "source_type": "soundboard",
       "quality_rating": "poor",
-      "technical_notes": "Reviewer calls it a very distorted recording, implying heavy noise/muddiness and lack of clarity."
+      "technical_notes": "Reviewer describes the tape as very distorted and difficult to listen to; likely significant clipping or loss of clarity."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "",
-      "energy_level": "low"
+      "setlist_flow": "No positive remarks; reviewer implies overall performance suffered, describing the band as out of tune."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,8 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T20:29:44.121003+00:00",
+    "song_mentions": {},
+    "processed_date": "2025-09-20T09:27:06.235868+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-11-12.137396.sbd.miller.sirmick.sbeok.flac16"
   }

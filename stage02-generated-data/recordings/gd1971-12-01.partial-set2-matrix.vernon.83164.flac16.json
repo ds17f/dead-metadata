@@ -16,38 +16,53 @@
   "high_ratings": 15,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Matrix blend captures a blazing 45‑minute set with a monster The Other One and soaring Jerry, delivered in crystal‑clear sound.",
-    "review": "The partial second set from December 1971 is hailed as one of the band’s most elemental performances – tight, psychedelic jams and an on‑fire The Other One that drives the crowd wild.  The matrix mix expertly fuses board clarity with audience ambience, giving listeners a vivid “you are there” experience despite occasional comments about the tape sounding fast.",
+    "summary": "Excellent matrix recording that captures a fire‑filled half‑set highlighted by a monster The Other One and soaring Not Fade Away.",
+    "review": "The matrix blend of board and audience delivers crystal‑clear, raw sound that puts the listener right in the hall. Musically the show is a powerhouse – the first half of The Other One erupts with “X‑factor” jamming, Not Fade Away hits climactic heights, and the band rides an unstoppable groove throughout. While a few listeners felt the tempo was “too fast,” the overwhelming consensus praises the energy and tightness of the performance.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "The overwhelming majority of detailed reviews praise both the musical performance and the matrix recording quality, yielding a strong combined score despite a few outlier low‑star comments."
+      "rationale": "The vast majority of detailed reviews (≈85 %) give 5‑star praise for both the musical performance and the recording quality; only one low rating mentions speed, not sound fidelity."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "excellent",
-      "technical_notes": "Clear, raw mix that blends soundboard fidelity with audience ambience; many note crisp separation and powerful “you are there” feel. One reviewer mentioned the playback feels a bit fast, but overall the recording is considered superb."
+      "technical_notes": "Reviewers highlight a crisp, clear mix that blends board clarity with audience ambience; described as raw, powerful and “you are there.” No major drop‑outs or muffling reported."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One",
-        "Going Down the Road Feeling Bad",
-        "Truckin' (implied in NFA>GDTRFB>NFA flow)",
-        "Too (The Other One) – especially the X‑factor jam around 6:00"
+        "Not Fade Away",
+        "Going Down the Road Feeling Bad"
       ],
       "poor_songs": [],
-      "setlist_flow": "A partial second set of roughly 45 minutes that builds from a tight, ethereal jam into a relentless first half of The Other One, then rolls through NFA > GDTRFB > NFA with textbook precision.",
-      "energy_level": "high"
+      "setlist_flow": "High energy from start to finish with seamless segues – the first half of The Other One builds into a relentless jam, and the NFA > GDTRFB > NFA closing sequence is described as explosive and joyous."
     },
     "band_member_comments": {
-      "Jerry": "Described as “flying at supersonic speeds,” taking the band on fire and delivering a massive solo in The Other One.",
-      "Phil": "Called a “monster” and “wicked loud,” providing relentless, powerful bass throughout.",
+      "Jerry": "Repeatedly praised for “supersonic” guitar work, flying solos, and being totally on fire.",
+      "Phil": "Called a “monster,” loud and wickedly into the music, especially during The Other One.",
       "Bob": "",
-      "Keys": "One reviewer wonders if the piano/keyboard is Keith or Tom Constanten; another notes Keith being “left in the dust.”",
+      "Keys": "Mentions Keith sometimes “left in the dust”; another reviewer wonders if piano is Keith or Tom Constanten.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T20:49:24.487076+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "Not Fade Away": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Going Down the Road Feeling Bad": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T10:03:57.825940+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-12-01.partial-set2-matrix.vernon.83164.flac16"
   }

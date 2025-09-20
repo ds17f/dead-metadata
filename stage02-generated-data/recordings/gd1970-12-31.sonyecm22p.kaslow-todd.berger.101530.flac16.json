@@ -16,27 +16,25 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Stunning 1970 audience tape with crisp sound and an outstanding Cold Rain and Snow, though a few cuts interrupt the flow.",
-    "review": "The three reviewers rave about the surprisingly high‑fidelity audience recording for a 1970 show, calling it “sweet” and even “STUNNING AUD”.  The band is described as ripping it up, with Cold Rain and Snow singled out as a highlight, while an audible cut in Easy Wind is the only notable blemish.",
+    "summary": "High‑quality 1970 audience tape with a standout Cold Rain and Snow, though occasional cuts (e.g., Easy Wind) affect the listening experience.",
+    "review": "The recording is praised for its surprisingly clear 1970 audience capture, featuring an outstanding performance of “Cold Rain and Snow.” While the overall band energy is high and the show earns a permanent spot in some listeners’ rotations, a few audible cuts—most notably on “Easy Wind”—prevent it from being flawless.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
-      "confidence": "medium",
-      "rationale": "Overall strong praise for both performance and recording (average 4‑star rating, with one 5‑star review) but limited number of reviews keeps confidence at medium."
+      "confidence": "high",
+      "rationale": "Three detailed reviews show strong appreciation for both the performance and the rare high‑quality AUD source, with only minor criticisms about missing sections."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "excellent",
-      "technical_notes": "Very clear for a 1970 audience source; sweet setup yields crisp detail.  Some cuts are present, most noticeably in Easy Wind."
+      "quality_rating": "good",
+      "technical_notes": "Listeners note a sweet, clear setup for its era; however, there are some cuts in the tape (e.g., Easy Wind) that detract from an otherwise excellent 1970 audience recording."
     },
     "show_quality": {
       "standout_songs": [
         "Cold Rain and Snow"
       ],
-      "poor_songs": [
-        "Easy Wind (cut)"
-      ],
-      "setlist_flow": "Energetic performance that keeps momentum despite the occasional gap; overall flow is strong and enjoyable."
+      "poor_songs": [],
+      "setlist_flow": "The concert flows energetically with the band “ripping it up,” despite a few missing fragments that slightly interrupt continuity."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -45,7 +43,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T12:08:51.476346+00:00",
+    "song_mentions": {
+      "Cold Rain and Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Easy Wind": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T02:06:34.794201+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-12-31.sonyecm22p.kaslow-todd.berger.101530.flac16"
   }

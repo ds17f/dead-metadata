@@ -226,45 +226,83 @@
     "official-picks-dicks"
   ],
   "ai_show_review": {
-    "summary": "High-energy set with stellar Looks Like Rain and explosive Playin' jam",
-    "blurb": "The show shines on Jerry's pedal‑steel on Looks Like Rain, a smoking Brokedown Palace, and an explosive Playing In The Band solo. Strong segues link China Cat Sunflower into I Know You Rider and the set closes with a wah‑tinged Sugar Magnolia coda. Overall performance is high‑energy despite mixed recording quality across sources.",
-    "review": "The March 28, 1972 Academy of Music gig finds the Dead in top form, delivering a concise first set that bursts with classic material and tight transitions. Highlights include a luminous steel‑guitar rendition of Looks Like Rain, a smoking Brokedown Palace, and the unforgettable China Cat Sunflower → I Know You Rider segue where Keith Godchaux’s organ soars alongside Bob Weir’s supernatural lead break. The second set kicks off with a monster Playing In The Band solo that builds to an explosive climax, followed by a wah‑infused Sugar Magnolia coda and a ferocious run through The Other One. While audience tapes from the night are notoriously muddy, the Miller soundboard capture (gd1972-03-28.132729.sbd.miller.flac16) preserves every nuance, making this one of the most compelling snapshots of the 1972 era.",
+    "summary": "Tight early‑'72 set with stellar Looks Like Rain and classic China>Rider",
+    "blurb": "The show delivers a concise first set highlighted by Brokedown Palace, a flawless China Cat Sunflower → I Know You Rider segue, and Jerry's pedal‑steel on Looks Like Rain. The second set opens with a historic Playing In The Band jam and rolls into an inspired Other One. Overall performance is strong despite mixed audience recording quality.",
+    "review": "On March 28 1972 at New York’s Academy of Music the Dead were in fine form, laying down a tight first set that featured the gorgeous Brokedown Palace and a seamless China Cat Sunflower → I Know You Rider transition. Jerry Garcia’s pedal‑steel on Looks Like Rain shines, backed by Phil Lesh’s harmonic bass work, while Pigpen’s organ adds texture throughout. The second set kicks off with an early‑'72 milestone—Playing In The Band with Donna Jean’s first wail—leading into a powerful Other One and solid Not Fade Away jams. Though audience tapes from the night are notoriously muddy, the soundboard capture (Miller) preserves the band’s crisp interplay, making this show a must‑listen for fans of the era.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 3.5,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 16,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.9,
+        "sentiment_rationale": "Positive remarks dominate the soundboard review (standout songs, pedal‑steel, organ clarity) while the two audience recordings are negative only because of poor audio quality, not performance. The consensus is that the musical playing was strong, warranting a modest positive sentiment boost.",
+        "final_calculation": "2.5 + 0.1 + 0.9 = 3.5"
+      }
     },
     "best_recording": {
       "identifier": "gd1972-03-28.132729.sbd.miller.flac16",
-      "reason": "Excellent soundboard capture with clear, well‑separated mix that showcases organ, harmonica and Jerry's steel work while preserving the high‑energy performance"
+      "reason": "Excellent soundboard source with clear mix, strong instrument separation and minimal distortion; captures the full performance in high fidelity."
     },
     "key_highlights": [
-      "Smoking Brokedown Palace captured with pristine organ and harmonica presence",
-      "Jerry's pedal‑steel on Looks Like Rain and fiery Playing In The Band solo build to a breaking point",
-      "Seamless China Cat Sunflower → I Know You Rider segue featuring supernatural Keith Godchaux organ work",
-      "Excellent soundboard recording provides the clearest window into this high‑energy 1972 performance"
+      "Pedal‑steel flourish on Looks Like Rain",
+      "Seamless China Cat Sunflower → I Know You Rider transition",
+      "Historic Playing In The Band jam featuring Donna Jean’s first wail"
     ],
     "song_highlights": [
       "Brokedown Palace",
-      "Looks Like Rain",
       "China Cat Sunflower",
       "I Know You Rider",
-      "Playing In The Band",
-      "Sugar Magnolia",
+      "Truckin'",
+      "Tennessee Jed",
+      "Looks Like Rain",
+      "Not Fade Away",
       "The Other One",
-      "Cumberland Blues"
+      "Playing In The Band"
     ],
     "band_performance": {
-      "Jerry": "Delivers a standout pedal‑steel on Looks Like Rain, a scorching solo during Playing In The Band that builds to a breaking point, and tasteful wah‑filtered phrasing on the Sugar Magnolia coda.",
-      "Phil": "Lays down a tight bass foundation throughout, adding harmonic depth on Looks Like Rain and supporting the high‑energy improvisations in both sets.",
-      "Bob": "Provides a supernatural lead break on China Cat Sunflower and drives the groove on Truckin', keeping the band locked in during the first set.",
-      "Brent": "",
+      "Jerry": "Delivers a standout pedal‑steel solo on Looks Like Rain and an energetic lead on Playing In The Band.",
+      "Phil": "Provides harmonic bass support, especially evident in the Looks Like Rain groove.",
+      "Bob": "",
+      "Brent": "Pigpen’s organ is crystal clear and adds depth throughout the set.",
       "Mickey": "",
-      "Billy": "Maintains a steady, propulsive beat that underpins the band's high‑energy flow."
+      "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-07T22:49:10.210079+00:00",
+    "processed_date": "2025-09-20T12:43:23.360573+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Brokedown Palace"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ],
+      [
+        "Truckin'"
+      ],
+      [
+        "Tennessee Jed"
+      ],
+      [
+        "Looks Like Rain"
+      ],
+      [
+        "Not Fade Away",
+        "Goin' Down The Road Feeling Bad",
+        "Not Fade Away"
+      ],
+      [
+        "Sugar Magnolia",
+        "The Other One"
+      ],
+      [
+        "Playing In The Band"
+      ]
+    ]
   }
 }

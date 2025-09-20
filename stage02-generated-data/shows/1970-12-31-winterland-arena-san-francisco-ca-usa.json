@@ -157,23 +157,31 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Good Lovin', tight Cryptical>Other One suite, strong second‑half jams",
-    "blurb": "The show opens with a lo‑fi start but quickly builds into high‑energy improvisations highlighted by Good Lovin', the Cryptical Envelopment → The Other One sequence, Black Peter and Sugar Magnolia. Early tracks suffer from pitch issues on some sources, yet the later half delivers crisp playing and vibrant interplay.",
-    "review": "Winterland’s New Year’s Eve gig captures the Dead in a transitional groove: a rough‑around‑the‑edges opening that gives way to soaring jams as the night rolls on. Jerry kept the momentum alive, even taking a moment to bust a taper, while Phil laid down his usual solid bass foundation despite a few tuning hiccups that show up on the matrix source. The rhythm section of Mickey and Bill shines during the Cryptical Envelopment → The Other One stretch, driving the band into an exhilarating peak that rolls straight into Black Peter and a jubilant Sugar Magnolia. Good Lovin' lands with punchy gusto, and Monkey And The Engineer adds a whimsical touch before the set closes on Uncle John’s Band. Though the early matrix tracks are plagued by pitch‑shift problems, the audience tape from 1970 offers crystal‑clear detail—especially on Cold Rain And Snow—making it the most enjoyable listening experience despite occasional cuts. An informal Hot Tuna after‑show jam adds a fun coda with Bob Weir joining in on rock ’n’ roll classics, but the core show remains the real highlight of this historic night.",
+    "summary": "Energetic New Year's set with strong Good Lovin' and The Other One",
+    "blurb": "The show opens a bit hurriedly but soon settles into tighter playing, building an upbeat arc. Highlights include a fiery Good Lovin', the expansive Cryptical Envelopment → Drums → The Other One suite, and a solid Cold Rain And Snow captured on an audience tape. Early matrix glitches are noticeable, yet the second half delivers classic jams.",
+    "review": "Winterland’s New Year’s Eve extravaganza on December 31, 1970 finds the Dead firing on all cylinders after a shaky start. The opening tracks suffer from pitch‑fluctuating matrix feed, but once the tape steadies the band rolls out one of the night’s standout moments: a ripping Good Lovin' that propels the set into an inspired Cryptical Envelopment → Drums → The Other One sequence, followed by a joyous Black Peter > Sugar Magnolia pairing. Jerry and Phil are only noted for busting a taper, leaving their playing unblemished in the reports; Pigpen’s keyboards sit comfortably beneath the mix while Mickey and Bill lock in a solid dual‑drum groove throughout. An audience recording later in the night captures Cold Rain And Snow with surprising clarity, adding another bright spot to an otherwise technically uneven performance. While the first five matrix tracks are muffled and some cuts interrupt songs like Easy Wind, the latter half of the concert showcases the band’s characteristic New Year’s energy and improvisational fire, making it a worthwhile listen for fans seeking that raw ’70 vibe.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.8,
-      "confidence": "high"
+      "ai_rating": 2.9,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 19,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.3,
+        "sentiment_rationale": "Three recordings are mixed and one is positive; overall sentiment leans mildly positive due to praise for Good Lovin', The Other One, and Cold Rain And Snow, but technical issues keep the boost modest.",
+        "final_calculation": "2.5 + 0.1 + 0.3 = 2.9"
+      }
     },
     "best_recording": {
-      "identifier": "gd1970-12-31.sonyecm22p.kaslow-todd.berger.101530.flac16",
-      "reason": "Excellent audience tape with crisp detail and strong overall flow; only minor cuts, offering the clearest representation of the performance."
+      "identifier": "gd70-12-31.sbd-fm.7283.sbeok.shnf",
+      "reason": "Provides the most complete soundboard‑quality capture despite early matrix glitches, delivering clear stereo for the majority of the set."
     },
     "key_highlights": [
-      "Standout mid‑set jam sequence: Cryptical Envelopment → The Other One → Black Peter → Sugar Magnolia.",
-      "Good Lovin' delivers a punchy, high‑energy rendition.",
-      "Cold Rain And Snow shines on the audience tape with vivid clarity.",
-      "After‑show Hot Tuna jam provides a loose, fun coda featuring Bob Weir."
+      "Fire‑brand Good Lovin' that lifts the second half.",
+      "Classic Cryptical Envelopment → Drums → The Other One suite.",
+      "Cold Rain And Snow shines on a surprisingly clean audience tape.",
+      "Black Peter > Sugar Magnolia transition adds upbeat momentum."
     ],
     "song_highlights": [
       "Good Lovin'",
@@ -182,19 +190,18 @@
       "The Other One",
       "Black Peter",
       "Sugar Magnolia",
-      "Monkey And The Engineer",
       "Cold Rain And Snow"
     ],
     "band_performance": {
-      "Jerry": "Keeps the band’s energy high, even busting a taper; his guitar work drives the set forward.",
-      "Phil": "Provides a solid bass foundation throughout; occasional tuning issues are audible on some matrix tracks but don’t detract from overall groove.",
+      "Jerry": "No specific criticism noted; his guitar work carries the energy throughout.",
+      "Phil": "Also not singled out; provides a solid bass foundation for the jams.",
       "Bob": "",
       "Brent": "",
-      "Mickey": "Alongside Bill, delivers powerful drumming that propels the Cryptical Envelopment → The Other One sequence.",
-      "Billy": "Pairs with Mickey to create a tight rhythmic backbone, especially evident during the extended jams."
+      "Mickey": "Locks in tight, complementary rhythms with Bill throughout the set.",
+      "Billy": "Delivers steady dual‑drum drive that underpins the extended improvisations."
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-11T12:10:17.386060+00:00",
+    "processed_date": "2025-09-20T02:08:29.208019+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -210,9 +217,6 @@
       ],
       [
         "Sugar Magnolia"
-      ],
-      [
-        "Monkey And The Engineer"
       ],
       [
         "Cold Rain And Snow"

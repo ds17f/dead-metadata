@@ -16,37 +16,44 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Warm, solid ’70 show with great song selection, but the soundboard is muddy on the first set and the second set is cut short.",
-    "review": "The concert captures a classic early‑1970 setlist – four cuts from the debut album, several gems from Workingman's Dead, American Beauty and Skull & Roses, plus a standout China Cat Sunflower. Reviewers praise the pacing and overall warmth of the performance, yet note that Ron’s organ is buried in the mix and the first‑set audio is “fraught with sound biffetta,” while most of the promising second set was lost in the recording.",
+    "summary": "Warm, solid '70s show with a great mix of early‑era songs, but the soundboard recording is a bit muffled and Ron's organ gets buried.",
+    "review": "The concert captures an impressive setlist that pulls heavily from the first album, Workingman's Dead, American Beauty, three Skull & Roses cuts and even China Cat Sunflower, delivering strong pacing and song selection. Reviewers praise the overall warmth of the recording yet note that the first‑set sound is thin, Ron \"Pigpen\" McKernan’s organ is hard to hear, and a large portion of the second set is missing.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.7,
+      "stars": 4.2,
       "confidence": "medium",
-      "rationale": "Show quality is rated high (solid song selection, good pacing) but recording suffers from muddiness and missing portions, pulling the overall rating down."
+      "rationale": "Three reviews give an average of 4.3 stars; most praise the performance and song choice while flagging noticeable recording flaws, leading to a solid but not exceptional rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "First set described as having poor sound (“sound biffetta”), Ron’s organ not clearly audible; second set largely cut from the tape. Overall warm tone but significant fidelity issues."
+      "technical_notes": "Warm overall tone but first‑set suffers from muffled, 'biffetta' sound; Ron's organ is buried in the mix and a large chunk of the second set is missing."
     },
     "show_quality": {
       "standout_songs": [
         "China Cat Sunflower",
-        "Selections from Workingman's Dead",
-        "Selections from American Beauty",
-        "Songs from Skull & Roses"
+        "Songs from Workingman's Dead",
+        "Songs from American Beauty",
+        "Three cuts from Skull & Roses"
       ],
       "poor_songs": [],
-      "setlist_flow": "Strong pacing and diverse song selection make for an engaging set, but the loss of most of the second set and first‑set sound problems disrupt the listening experience."
+      "setlist_flow": "Balanced set that jumps between early‑era material and mid‑period selections, praised for pacing and variety."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "Ron’s organ is buried in the mix; reviewer wishes it were clearer.",
+      "Keys": "Ron \"Pigpen\" McKernan's organ is difficult to hear; it gets buried in the mix.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T11:55:32.458976+00:00",
+    "song_mentions": {
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T01:48:13.540499+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-12-26.sbd.unknown.14124.sbefail.shnf"
   }

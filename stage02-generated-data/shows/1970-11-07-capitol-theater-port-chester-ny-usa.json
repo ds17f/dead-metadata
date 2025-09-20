@@ -206,41 +206,50 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Epic Truckin'>Drums'>The Other One jam and fiery Good Lovin'",
-    "blurb": "The show shines with a marathon Truckin' → Drums → The Other One sequence that rolls into a punchy Casey Jones. A standout moment is the scorching Good Lovin' captured on an upgraded tape. Acoustic opener and solid third‑set numbers round out a classic late‑1970 performance.",
-    "review": "Port Chester’s Capitol Theater on November 7, 1970 delivered one of the band’s most memorable improvisational stretches. After a warm acoustic set that featured Ripple and Uncle John’s Band, the electric second set built momentum into an almost legendary Truckin' → Drums → The Other One suite lasting over sixteen minutes before bursting back into a driving Casey Jones. That jam is the centerpiece of the night and is captured best on the Warner audience tape despite its uneven levels – listeners who apply a little EQ are rewarded with a vivid glimpse of the band’s exploratory fire.\n\nThe third set kept the energy high, highlighted by a scorching Good Lovin' that has been restored to crystal‑clear quality in a recent upgrade. While several audience recordings suffer from cuts and fluctuating volume, the Warner tape remains the most complete source for the show’s key moments, making it the go‑to version for fans who want to experience this era of raw, unfiltered Dead magic.",
+    "summary": "Thrilling Truckin > Drums > Other One jam; Good Lovin' shines",
+    "blurb": "The show delivers an epic Truckin' → drums → The Other One marathon and a scorching Good Lovin' that stands out on the restored tape. Acoustic highlights like Ripple, Uncle John's Band and solid transitions keep the set flow tight. Overall performance is strong despite uneven audience recording quality.",
+    "review": "Port Chester’s November 7‑1970 concert showcases the Dead in top form, opening with a warm acoustic stretch before launching into a high‑energy electric second set. The highlight is undeniably the 16‑minute Truckin' → drums → The Other One excursion, praised for its intensity and seamless segues, while the third‑set Good Lovin' on the newly restored audience tape sounds hot and crystal‑clear. Although most audience recordings suffer from volume swings, cuts, and crowd chatter, the musical moments—especially Jerry’s soaring leads during the jam and the dual drummers’ thunderous interplay—make this show worth hunting down.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.5,
-      "confidence": "medium"
+      "ai_rating": 3.1,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 8,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.5,
+        "sentiment_rationale": "Mixed sentiment dominates the four recordings, but two sources highlight strong moments (Truckin' > drums > Other One marathon and a scorching Good Lovin'). Positive language appears consistently for those peaks while technical flaws are noted elsewhere, yielding a modest positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.5 = 3.1"
+      }
     },
     "best_recording": {
-      "identifier": "gd70-11-07.aud.warner.10306.sbeok.shnf",
-      "reason": "Contains the full Truckin' → Drums → The Other One jam and is the most complete representation of the show despite modest sound quality"
+      "identifier": "gd1970-11-07.134083.aud.weinberg.parish.flac16",
+      "reason": "Excellent restored audience tape with clear, balanced sound that captures the hot Good Lovin' and overall performance better than other versions."
     },
     "key_highlights": [
-      "Sixteen‑minute Truckin' > Drums > The Other One improvisation",
-      "Punchy Casey Jones segue after the jam",
-      "Scorching Good Lovin' restored to excellent clarity in upgraded tape",
-      "Acoustic opener with Ripple, Brokedown Palace and Uncle John’s Band"
+      "Epic Truckin' → drums → The Other One marathon (~16 min) showcases deep improvisational chemistry.",
+      "Scorching Good Lovin' on a newly restored tape offers crystal‑clear energy.",
+      "Solid acoustic opening with Ripple, Brokedown Palace segue into Uncle John's Band.",
+      "Energetic third set featuring China Cat Sunflower > I Know You Rider and Sugar Magnolia."
     ],
     "song_highlights": [
       "Truckin'",
       "Drums",
       "The Other One",
       "Casey Jones",
+      "I Know You Rider",
       "Good Lovin'"
     ],
     "band_performance": {
-      "Jerry": "",
-      "Phil": "",
-      "Bob": "",
-      "Pigpen": "",
-      "Mickey": "Features prominently in the extended 16‑minute drum improvisation that bridges Truckin' into The Other One.",
-      "Billy": "Shares the marathon drum section, driving the momentum of the jam and adding dynamic texture."
+      "Jerry": "Guitar work shines, especially during the long Truckin' jam and leads on Good Lovin'.",
+      "Phil": "Bass provides a steady foundation throughout the set, supporting the improvisations.",
+      "Bob": "Rhythm guitar adds texture, complementing Jerry’s leads in both acoustic and electric sections.",
+      "Brent": "",
+      "Mickey": "Drums are highlighted for an extended, dynamic segment that drives the Other One excursion.",
+      "Billy": "Percussive power pairs with Mickey to create a thunderous rhythm section during the jam."
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-11T11:16:13.806974+00:00",
+    "processed_date": "2025-09-20T00:48:25.382152+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -249,6 +258,10 @@
         "Drums",
         "The Other One",
         "Casey Jones"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
       ],
       [
         "Good Lovin'"

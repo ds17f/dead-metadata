@@ -16,18 +16,18 @@
   "high_ratings": 3,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Audience tape with uneven levels yet captures a magical Capitol Theater show highlighted by an epic Truckin > drums > Other One jam.",
-    "review": "The recording is an audience source that suffers from dramatic volume swings, occasional conversational bleed and a generally \"cloudy\" sound, though listeners note it improves with EQ. Musically the performance shines – the acoustic set is praised, and the electric set delivers a standout Truckin > drums > Other One sequence that rolls into a sweet Casey Jones, plus early‑stage development of the iconic \"gone, gone, gone\" phrasing in I Know You Rider.",
+    "summary": "An audience tape that captures a thrilling Truckin → drums → Other One marathon, but suffers from uneven volume swings and occasional cloudiness.",
+    "review": "The performance shines with an extended Truckin > drums > The Other One sequence, a sweet segue into Casey Jones, and a noteworthy acoustic set, earning high praise from listeners. However, the audience recording is inconsistent—levels bounce dramatically, conversations intrude, and the sound can be “cloudy,” which detracts from the listening experience for some fans.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Show receives strong praise (multiple 5‑star comments) while recording quality is split between rave and critical remarks, leading to a solid combined score around 4.0."
+      "rationale": "Show quality is rated very high based on multiple enthusiastic comments, while recording quality is mixed (some call it amazing, others criticize volume swings), resulting in an overall strong but not flawless rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Volume levels bounce dramatically, causing listeners to constantly adjust gain; conversation bleed is audible; some describe the sound as \"cloudy\" or muffled, though others claim the tape sounds amazing after proper EQ."
+      "technical_notes": "Volume levels bounce dramatically between songs, causing the need for constant adjustments; occasional background conversation and a generally cloudy sound are noted, though some listeners find the tape magical and recommend EQ treatment."
     },
     "show_quality": {
       "standout_songs": [
@@ -37,16 +37,38 @@
         "I Know You Rider"
       ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic set opens the show and is well‑received; electric set builds momentum with a long Truckin > drums > Other One jam (over 16 minutes) that segues into Casey Jones, showcasing dynamic pacing and strong improvisational flow."
+      "setlist_flow": "A solid setlist that moves from an enjoyable acoustic segment into a high‑energy electric half, highlighted by the long Truckin > drums > Other One jam and smooth transitions throughout."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "A notably long drum segment (~16 min) leading into The Other One is highlighted as a centerpiece of the electric set."
+      "Drums": "The drum section receives special praise for an extended ~16‑minute segment leading into The Other One."
     },
-    "processed_date": "2025-09-11T11:13:45.355115+00:00",
+    "song_mentions": {
+      "Truckin": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T00:45:03.994288+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-11-07.aud.warner.10306.sbeok.shnf"
   }

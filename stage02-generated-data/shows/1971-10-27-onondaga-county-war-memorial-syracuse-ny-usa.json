@@ -198,44 +198,67 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy rock set highlighted by Comes A Time and tight Casey Jones",
-    "blurb": "The show delivers a hard‑rock first half with standout performances of 'Comes A Time', 'Cumberland Blues' and an explosive 'Casey Jones' opener. Jerry’s vocals are expressive while Keith’s piano adds fresh texture; the rhythm section drives a tight, high‑energy flow throughout.",
-    "review": "On October 27 1971 at the Onondaga County War Memorial the Dead were firing on all cylinders. The band kicks off with an explosive 'Casey Jones' that lets Bill Kreutzmann’s drumming sparkle like fireworks, then rolls through a rock‑charged first set featuring a gorgeous, breath‑taking rendition of 'Comes A Time' and a tight, riff‑laden 'Cumberland Blues'. Keith Godchaux’s piano is right in the pocket, adding new color to the newer material while Jerry’s voice carries both grit and tenderness. The second set stays locked in, with 'Bertha' and a crisp 'Truckin'' leading into a seamless Not Fade Away > Goin’ Down The Road Feeling Bad medley that caps the night on an exhilarating high. All three available soundboard recordings capture the performance brilliantly, but the Miller SBD (gd1971-10-27.sbd.miller.32668.sbeok.flac16) offers pristine stereo clarity that lets every nuance shine.",
+    "summary": "Stellar Comes A Time, Truckin' & Bertha; pristine 1971 soundboard",
+    "blurb": "The show delivers a powerful first set of classics and new material, highlighted by an inspired Comes A Time and tight Truckin'. The second set builds momentum with a fiery Bertha and a seamless Not Fade Away jam sequence. Keith's piano adds fresh texture throughout.",
+    "review": "On October 27, 1971 at the Onondaga County War Memorial, the Dead rolled out a setlist that perfectly balances their beloved staples with the newest songs they were cooking up for ’72. The first set rides high on Jerry’s soaring vocal on Comes A Time, a blistering Truckin', and a crisp rendition of Casey Jones, while Keith Godchaux’s piano adds a bright, “pristine” layer that lifts the whole band. The second half never lets up – Bertha erupts with high‑octane energy, the Not Fade Away → Drums → Jam → Goin’ Down The Road Feeling Bad sequence flows like a single living organism, and the final double Not Fade Away caps a night that feels both tight and exploratory. Across three soundboard sources the performance is consistently praised: two recordings call it “excellent” with no drop‑outs, while the mono capture still shines on the heartfelt Comes A Time. In short, this is a must‑listen snapshot of the Dead at a creative peak, captured in pristine audio.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.3,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 21,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All three recordings are positive or mixed, with two clearly praising the show (\"pristine\", \"excellent\", \"fiery\") and no consistent negative remarks. The repeated acclaim for Comes A Time, Truckin', Bertha and Keith's piano across sources justifies a strong positive sentiment adjustment.",
+        "final_calculation": "2.5 + 0.2 + 1.6 = 4.3"
+      }
     },
     "best_recording": {
       "identifier": "gd1971-10-27.sbd.miller.32668.sbeok.flac16",
-      "reason": "Miller soundboard tape provides pristine stereo clarity with no dropouts, capturing the band’s dynamics perfectly."
+      "reason": "Pristine soundboard capture with excellent balance, no drop‑outs, and full set coverage."
     },
     "key_highlights": [
-      "Explosive Casey Jones opener with Bill Kreutzmann’s fireworks",
-      "'Comes A Time' provides a beautiful breather showcasing Jerry’s lead work",
-      "Tight rock drive on 'Cumberland Blues' and 'Truckin'' maintains high energy",
-      "Seamless Not Fade Away > Goin’ Down The Road Feeling Bad medley closes the second set on a high note"
+      "Jerry’s vocal and guitar work on Comes A Time shines throughout the night.",
+      "Truckin' delivers a tight, energetic performance that drives the first set.",
+      "Bertha erupts with high‑octane intensity in the second set.",
+      "Keith’s piano adds fresh texture and helps the band sound pristine."
     ],
     "song_highlights": [
       "Casey Jones",
-      "Me And My Uncle",
-      "Comes A Time",
       "Cumberland Blues",
       "Truckin'",
-      "Not Fade Away",
-      "Goin' Down The Road Feeling Bad",
+      "Comes A Time",
       "Bertha"
     ],
     "band_performance": {
-      "Jerry": "Expressive vocals throughout, a pedal‑steel cameo with NRPS, and standout lead on 'Comes A Time'.",
-      "Phil": "Strong, prominent bass that anchors the high‑energy rock numbers.",
-      "Bob": "Solid rhythm guitar work and reliable vocal contributions, keeping the groove tight.",
-      "Keith": "Welcome addition on piano; solidly in the pocket, adding fresh texture to both new material and classics.",
-      "Billy": "Driving drumming with fireworks during 'Casey Jones', providing relentless momentum for the entire set."
+      "Jerry": "Delivers expressive vocals on Comes A Time and a fiery lead throughout, with pedal‑steel intro noted as a highlight.",
+      "Phil": "Provides solid, well‑balanced bass that underpins the band's momentum, especially praised in the mix of the second recording.",
+      "Bob": "Rhythm guitar and vocal contributions are prominent and energetic, adding to the overall drive of the set.",
+      "Keith": "Piano/keys are right in the pocket, clear and fresh, contributing to the \"pristine\" sound of the performance.",
+      "Mickey": "",
+      "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-07T20:06:13.358730+00:00",
+    "processed_date": "2025-09-20T08:45:38.040414+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Casey Jones"
+      ],
+      [
+        "Cumberland Blues"
+      ],
+      [
+        "Truckin'"
+      ],
+      [
+        "Comes A Time"
+      ],
+      [
+        "Bertha"
+      ]
+    ]
   }
 }

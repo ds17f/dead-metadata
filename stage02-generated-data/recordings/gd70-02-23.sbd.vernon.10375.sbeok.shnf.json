@@ -16,62 +16,47 @@
   "high_ratings": 9,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Fair‑quality soundboard capture of a fragmented 1970 show with intimate acoustic gems and a surprisingly strong Not Fade Away jam.",
-    "review": "The recording is an uneven, slightly muddy soundboard fragment that drops in the middle of a set, but it delivers several standout acoustic moments – Little Sadie, Seasons of My Heart, Me & My Uncle and a fiery Not Fade Away.  Jerry’s Strat tone and Pigpen’s rare organ work shine, though the mix is uneven and parts of Mason’s are missing.",
+    "summary": "A fair‑sounding soundboard fragment that captures an intimate acoustic set and a fiery Not Fade Away, but missing portions make the show feel odd.",
+    "review": "The recording is a soundboard capture with a slightly muddy mix, hum between tracks and occasional mic distortion on Pigpen’s organ, yet the acoustic numbers shine through with clear detail.  Highlights include Little Sadie, Seasons of My Heart, High Time, Not Fade Away and a spirited Me & My Uncle, while the abrupt cut on Mason’s leaves the set feeling incomplete.  Overall listeners enjoy the performance despite the uneven mix and missing material.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.5,
-      "confidence": "medium",
-      "rationale": "Average star rating (~3.3) combined with many positive comments about song performance but consistent complaints about recording fidelity and incomplete set length."
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the musical moments (acoustic set, NFA, standout songs) while noting significant recording flaws and that the tape is only a fragment of the full concert."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Slightly muddy, occasional mic distortion on Bobby's vocals, noticeable hum between songs, uneven mix with loud mono‑style vocals; some sections (e.g., Mason’s) cut out."
+      "technical_notes": "Slightly muddy overall; noticeable hum between songs; occasional distortion on Pigpen's mic; low organ level in the mix; Mason’s cuts out mid‑verse; uneven stereo/mono balance."
     },
     "show_quality": {
       "standout_songs": [
         "Little Sadie",
         "Seasons of My Heart",
+        "High Time",
         "Not Fade Away",
         "Me & My Uncle",
-        "Black Peter",
-        "High Time"
+        "Black Peter"
       ],
       "poor_songs": [
         "Mason's"
       ],
-      "setlist_flow": "A short, disjointed fragment that sandwiches a brief acoustic set between electric material; missing opening and closing portions make the sequence feel odd but intimate."
+      "setlist_flow": "The tape appears to be the middle segment of a longer show – electric opening, a brief intimate acoustic set, then back to electric.  Missing material before and after makes the flow feel disjointed, but the songs that are present play well together."
     },
     "band_member_comments": {
-      "Jerry": "Garcia is on his sunburst Strat (gnarly tone) and even trades licks with Pigpen near the NFA ending.",
-      "Phil": "Phil drives the Not Fade Away jam, providing a strong bass foundation despite the uneven mix.",
-      "Bob": "Pigpen’s organ comes forward on NFA and Black Peter; his vocal solo on Me & My Uncle is highlighted, though his mic distorts at times.",
-      "Keys": "Pigpen's organ is low but audible, especially on Black Peter and the NFA jam.",
+      "Jerry": "His tone is described as gnarly (SG vs sunburst Strat) and he trades licks with Pigpen in the NFA; a broken string forces a brief pause during Me & My Uncle.",
+      "Phil": "Drives the ‘train’ on Not Fade Away with prominent bass work, especially noted in the unevenly mixed recording.",
+      "Bob": "Delivers a solo on Me & My Uncle and provides vocal jokes; praised for his organ presence despite being low in the mix elsewhere.",
+      "Keys": "Pigpen’s organ is audible but generally low; reviewers note occasional distortion on his mic and that this show gives him a louder spot than usual.",
       "Drums": ""
     },
     "song_mentions": {
       "Little Sadie": {
-        "positive_mentions": 3,
-        "negative_mentions": 0,
-        "total_mentions": 3
-      },
-      "Seasons of My Heart": {
-        "positive_mentions": 2,
-        "negative_mentions": 0,
-        "total_mentions": 2
-      },
-      "Not Fade Away": {
         "positive_mentions": 4,
         "negative_mentions": 0,
         "total_mentions": 4
       },
-      "Me & My Uncle": {
-        "positive_mentions": 2,
-        "negative_mentions": 0,
-        "total_mentions": 2
-      },
-      "Black Peter": {
+      "Seasons of My Heart": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
@@ -81,13 +66,28 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
+      "Not Fade Away": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black Peter": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
       "Mason's": {
         "positive_mentions": 0,
         "negative_mentions": 1,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T15:33:58.927654+00:00",
+    "processed_date": "2025-09-19T16:48:33.199554+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-02-23.sbd.vernon.10375.sbeok.shnf"
   }

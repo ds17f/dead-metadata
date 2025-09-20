@@ -16,24 +16,23 @@
   "high_ratings": 0,
   "low_ratings": 5,
   "ai_review": {
-    "summary": "A high‑energy show is unfortunately buried under a painfully noisy audience recording.",
-    "review": "The performance itself is praised as lively and full of breathtaking moments, but the AUD source is described as extremely poor—crusty, muffled, and overwhelmed by crowd noise, with an early drop‑out on “Loser.” While listeners can make out the music, the recording quality severely limits enjoyment.",
+    "summary": "Muddy audience‑recorded tape plagued by crowd noise and technical glitches, though the performance itself is praised for its energy.",
+    "review": "The recording is widely condemned as being taken from a restroom‑type source with excessive crowd chatter and an early drop‑out on “Loser,” making it barely listenable. Despite the poor audio, several reviewers note that the show was energetic and memorable, but no specific musical highlights are detailed.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.5,
+      "stars": 3.0,
       "confidence": "medium",
-      "rationale": "Reviewers consistently rate the audio as terrible (1‑star) but give high marks to the show itself (5‑star). Weighted averaging of strong show quality and weak recording yields a mid‑range rating."
+      "rationale": "Recording quality is consistently rated very low (poor/terrible), while the show itself receives vague praise for energy; weighted combination yields an average rating around three stars."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Excessive crowd noise, muffled/crusty sound, early drop‑out on \"Loser,\" described as recorded from restroom/toilet; overall barely listenable."
+      "technical_notes": "Extreme crowd noise dominates, muffled and distorted sound, likely recorded from a restroom/venue back‑room mic; early drop‑out on the song “Loser.”"
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "",
-      "energy_level": "high"
+      "setlist_flow": "No concrete comments on set pacing; reviewers only note overall excitement without naming particular moments."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T22:39:12.476657+00:00",
+    "song_mentions": {
+      "Loser": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T12:29:54.739599+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-03-26.aud.hanno.15413.sbeok.shnf"
   }

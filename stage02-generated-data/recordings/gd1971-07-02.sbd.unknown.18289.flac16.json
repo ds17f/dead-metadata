@@ -16,38 +16,54 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard recording of a historic Fillmore West closing show, but split‑track editing and noticeable tuning problems keep the experience from being fully satisfying.",
-    "review": "The FLAC capture delivers crystal‑clear soundboard quality, preserving the energy of the 1971 Fillmore West broadcast. While Good Lovin' and the jammed sections of The Other One shine, extended periods of out‑of‑tune guitar and bass, plus the eight‑track split of The Other One, detract from an otherwise notable performance.",
+    "summary": "Excellent soundboard capture of a historically important Fillmore West closing show, but the eight‑track split of “The Other One” and occasional tuning woes dampen an otherwise exciting performance.",
+    "review": "The recording delivers crystal‑clear soundboard quality that lets listeners hear the band’s 1971 energy, highlighted by a strong “Good Lovin’” and a fiery second half of The Other One. However, reviewers repeatedly note the irritating eight‑track breakup of that jam and periods where Jerry and Phil drift out of tune, giving the show a mixed musical impression despite its historic significance.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 3.7,
       "confidence": "medium",
-      "rationale": "Recording quality is excellent (soundboard), but show performance is uneven with tuning issues and track‑splitting complaints; weighted average yields a mid‑range rating."
+      "rationale": "Show quality is uneven – praised for key moments but marred by tuning issues and track‑splitting complaints – while the recording itself is praised as excellent, leading to a solid but not outstanding overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Clear, crisp soundboard capture. Main criticism is the artificial splitting of The Other One into eight separate tracks, which breaks seamless listening."
+      "technical_notes": "Sound quality described as crisp and excellent. The main grievance is the eight‑track segmentation of “The Other One,” which breaks the flow and forces listeners to splice tracks manually."
     },
     "show_quality": {
       "standout_songs": [
         "Good Lovin'",
-        "The Other One (jam section)"
+        "The Other One"
       ],
       "poor_songs": [
         "Playin'"
       ],
-      "setlist_flow": "Historically important Fillmore West closing set, but the fragmented track layout and early‑set tuning woes interrupt the natural flow.",
-      "energy_level": "medium"
+      "setlist_flow": "A historically notable Fillmore West closing set that sits at the midpoint of a favorite 1971 era – missing later classics but still exciting. Early parts suffer from noticeable tuning problems, while the latter half builds into a strong jam."
     },
     "band_member_comments": {
-      "Jerry": "Guitar was out of tune for an extended period, often unnoticed by the band.",
-      "Phil": "Bass suffered similar tuning problems during the first half of the show.",
+      "Jerry": "Out of tune for an extended stretch early in the show (noted on “Playin'”).",
+      "Phil": "Similarly off‑key for a long period before recovering.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T18:47:02.903447+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T06:42:17.177098+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-07-02.sbd.unknown.18289.flac16"
   }

@@ -156,29 +156,38 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Fiery The Other One and solid Good Lovin' on a fair‑quality tape",
-    "blurb": "The set features a scorching The Other One and an upbeat Good Lovin'. Jerry's guitar cuts through the muddy mix, while the band locks into classic early‑era numbers. Audience energy is high despite modest tape clarity.",
-    "review": "On November 29, 1970 at Club Agora in Columbus, the Dead delivered a tight early‑period set that still manages to excite listeners over six decades later. Highlights include an intense, pedal‑steel‑colored run through The Other One where Jerry’s lead is hot and forward, and a rollicking Good Lovin' that lifts the room despite the tape's fair fidelity. The band rides a solid groove through Truckin', classic country–rock numbers like Cumberland Blues, and closes with the familiar sing‑along of Not Fade Away/Goin’ Down The Road Feeling Bad. While the audience recording is a bit muddy and carries the usual 1970 hiss, it captures the crowd’s enthusiasm and provides an enjoyable snapshot of the Dead in their pre‑Mydland era.",
+    "summary": "Fiery The Other One and upbeat Good Lovin' amid uneven set",
+    "blurb": "The show delivers a scorching \"The Other One\" and an energetic \"Good Lovin'\", but the energy wavers at times. It's captured on a decent audience tape that conveys the live vibe despite some muddiness.",
+    "review": "On November 29, 1970 at Club Agora in Columbus, the Dead rolled out a single long set after New Riders of the Purple Sage. The night is best remembered for a fiery stretch through \"The Other One\" and an upbeat, crowd‑pleasing \"Good Lovin'\", both of which rise above an otherwise uneven performance that slips into tired moments. The audience recording (gd70-11-29.aud.hanno.7592.sbeok.shnf) is only fair in fidelity – muddy at times and lacking the clarity of a soundboard – yet it manages to capture the raw, room‑filled atmosphere of a ’70 club gig. Jerry’s pedal steel sits front‑and‑center in the mix, adding an unusual texture to his guitar work, while the rest of the band holds down a solid, if occasionally uneven, foundation.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.5,
-      "confidence": "high"
+      "ai_rating": 2.9,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 11,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.3,
+        "sentiment_rationale": "The analysis describes mixed sentiment: strong praise for \"The Other One\" and \"Good Lovin'\" but also notes uneven energy and tired moments, leading to a modest positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.3 = 2.9"
+      }
     },
     "best_recording": {
       "identifier": "gd70-11-29.aud.hanno.7592.sbeok.shnf",
-      "reason": "Only available recording; captures The Other One and Good Lovin' despite modest sound quality, making it the most complete representation of the show."
+      "reason": "Only available tape; decent audience capture that preserves the show's atmosphere despite limited fidelity."
     },
     "key_highlights": [
-      "Scorching The Other One jam with hot guitar work",
-      "Upbeat Good Lovin' that energizes the crowd",
-      "Solid early‑Dead set flow with classic blues and folk numbers"
+      "Fiery, extended \"The Other One\" showcases the band's improvisational edge.",
+      "\"Good Lovin'\" brings high energy and audience interaction.",
+      "Solid setlist performance with occasional uneven or tired moments.",
+      "Audience tape conveys live club ambience even though sound is muddy."
     ],
     "song_highlights": [
       "The Other One",
       "Good Lovin'"
     ],
     "band_performance": {
-      "Jerry": "Jerry's guitar is forward in the mix, hot on The Other One despite audience tape muddiness.",
+      "Jerry": "His pedal steel is prominent and loud in the mix; otherwise no specific guitar commentary.",
       "Phil": "",
       "Bob": "",
       "Brent": "",
@@ -186,7 +195,7 @@
       "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-11T11:47:16.341044+00:00",
+    "processed_date": "2025-09-20T01:35:47.501697+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [

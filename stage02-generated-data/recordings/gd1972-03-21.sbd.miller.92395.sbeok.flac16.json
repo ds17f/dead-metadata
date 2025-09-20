@@ -16,18 +16,18 @@
   "high_ratings": 20,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with some early hum and mix quirks, but a high‑energy 1972 show highlighted by a smoking “Looks Like Rain” and an epic Play‑In‑The‑Jam.",
-    "review": "This March 21 ‘72 performance captures the Dead in transition – the bar‑room blues of “Cumberland Blues,” “Big Railroad Blues,” and “Truckin’” feel fresh, while the second set erupts into a soaring Play‑In‑The‑Jam that many fans call a monster.  The source is a soundboard tape; listeners note an initial hum, buzz and a front‑heavy Bobby mix, but later mastering work has cleared up much of the imbalance, making the show overall very enjoyable.",
+    "summary": "Good‑quality soundboard recording of a transitional early‑70s show, highlighted by a stellar “Looks Like Rain” with pedal steel and powerhouse blues numbers.",
+    "review": "The show captures the Grateful Dead in an exciting period of change – barroom‑blues energy on songs like Cumberland Blues, Big Railroad Blues and Truckin', plus a jaw‑dropping pedal‑steel‑enhanced Looks Like Rain.  The soundboard source has a few early‑mix quirks (hum, buzz and low‑level Jerry vocals) but overall the mix is clear enough to enjoy the band’s tight playing.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Consistently high praise for musical performance (many 5‑star comments) outweighs moderate technical complaints about early mix and hum."
+      "rationale": "Overwhelmingly positive comments about performance and song quality, with only minor technical complaints that do not outweigh the musical strengths."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Early part of the set has noticeable hum, buzz and a Bobby‑forward mix with Jerry’s guitar/voice low; later mastering improves clarity. Overall tape is listenable and clearer than many early‑70s releases."
+      "technical_notes": "Initial mix has hum and buzz, especially in the first few minutes, and Jerry’s guitar/voice sit low at the start.  Later sections are much clearer; recent cleaning‑up of the mix has improved balance between Bobby and Jerry."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,23 +35,88 @@
         "Cumberland Blues",
         "Big Railroad Blues",
         "Truckin'",
-        "Playin' Jam (PITB)",
+        "Playin' Jam (Playing In The Band)",
         "Greatest Story Ever Told",
-        "Black Throated Wind",
-        "Casey Jones"
+        "Black Throated Wind"
       ],
       "poor_songs": [],
-      "setlist_flow": "First set opens strong with bar‑room blues and tight playing despite mix issues; the second set builds into a lengthy, exploratory jam (Play‑In‑The‑Jam) before winding down, showing the band’s evolving energy.",
-      "energy_level": "high"
+      "setlist_flow": "Reviewers note a strong, bar‑room blues feel that propels the first set, with an energetic second half featuring extended jams (PITB) and tight transitions.  A few comments mention a set‑list ordering glitch, but overall pacing is praised."
     },
     "band_member_comments": {
-      "Jerry": "His guitar tone is praised (especially wah on “Greatest Story”) but early mix buried his vocals and lead; later sections sound more balanced.",
-      "Phil": "Repeatedly noted for strong bass work and even singing on “Looks Like Rain”; reviewers say \"Phil rocks\".",
-      "Bob": "Bobby’s pedal steel and organ are highlighted, though the mix initially puts him too far forward.",
-      "Keys": "Ron’s keyboards are present (organ on “Big Railroad Blues”), but some note his energy wanes in the second set.",
+      "Jerry": "His guitar tone is praised (especially on Looks Like Rain), wah‑wah on Greatest Story gets special love; early mix puts his vocals/guitar low but improves later.",
+      "Phil": "Sung lead on Looks Like Rain, described as “Phil rocks” and a highlight of the performance.",
+      "Bob": "Often front in the early mix (some reviewers call it ‘cheesy’), but vocal parts are still enjoyed.",
+      "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T22:18:14.381509+00:00",
+    "song_mentions": {
+      "Looks Like Rain": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Big Railroad Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Next Time You See Me": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black Throated Wind": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Greatest Story Ever Told": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Ramble On Rose": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playin' Jam (Playing In The Band)": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T11:57:32.310909+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-03-21.sbd.miller.92395.sbeok.flac16"
   }

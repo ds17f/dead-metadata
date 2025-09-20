@@ -16,18 +16,18 @@
   "high_ratings": 8,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Pristine Charlie Miller soundboard captures a high‑energy ’71 show with smoking Smokestack Lightning and an epic Other One suite.",
-    "review": "The recording is a crystal‑clear soundboard source that lets the band’s 1971 fire shine through – Jerry “killing it” on guitar, Pigpen’s organ and harmonica soaring on Smokestack Lightning, and a tightly woven Me‑and‑My‑Uncle → Other One → Mexicali Blues → Wharf Rat sequence that fans call legendary.  The mix is superb (though Phil’s bass sits a bit low), making this one of the most enjoyable snapshots of that era.",
-    "sentiment": "positive",
+    "summary": "Pristine Charlie Miller soundboard captures a stellar ’71 show with smoking Smokestack Lightning, Run Rudolph Run and an epic Other One/Wharf Rat suite.",
+    "review": "The recording is an immaculate sound‑board transfer that lets the band’s tight 1971 chemistry shine. Reviewers rave about Jerry’s killer guitar work, Pigpen’s organ and vocal return, and a second set built around a powerful Me & My Uncle → Other One → Mexicali Blues → Wharf Rat sequence, while the mix is praised as clear and balanced despite a slightly recessed Phil bass. A few dissenting voices criticize Pigpen’s vocals and note that Casey Jones feels flat, but overall sentiment is overwhelmingly positive.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.2,
-      "confidence": "medium",
-      "rationale": "The vast majority of reviews are 5‑star, praising both performance and soundboard quality; a few outlier negative comments focus only on Pigpen’s vocals and do not detract from the overall high appraisal."
+      "stars": 4.5,
+      "confidence": "high",
+      "rationale": "The majority of detailed reviews (10+) award five stars for both performance and sound quality; recording is described as pristine, and the show features multiple standout songs. Minor negative comments about Pigpen’s voice and one song keep the rating just shy of perfect."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Praised as pristine, crisp and well‑balanced; Charlie Miller’s mastering is highlighted.  Minor note: Phil’s bass is a bit low in the mix, but overall clarity is superb."
+      "technical_notes": "Praised as ‘pristine’, ‘crisp’ and the best possible sound from Charlie Miller; no significant drop‑outs or noise reported. One reviewer notes Phil’s bass sits low in the mix but overall balance is superb."
     },
     "show_quality": {
       "standout_songs": [
@@ -36,18 +36,56 @@
         "The Other One",
         "Me and My Uncle → The Other One → Mexicali Blues → Wharf Rat"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Unusual first set that builds into a second‑set suite of four classics, delivering high verve and tight transitions.",
-      "energy_level": "high"
+      "poor_songs": [
+        "Casey Jones"
+      ],
+      "setlist_flow": "Unusual first set that builds into a second‑set suite (cowboy/other/cowboy/other/Wharf Rat) praised for its seamless segues and high energy, especially the ferocious Wharf Rat outro."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly described as ‘killing it’ with great tone; his solo on The Other One noted as solid but slightly secondary to the ferocious Wharf Rat outro.",
-      "Phil": "Bass is powerful live (‘Phil kills that tune’) though a bit low in this mix; overall solid foundation.",
-      "Bob": "Pigpen’s organ and harmonica receive strong praise (especially on Smokestack Lightning), while a few disparaging comments criticize his vocal tone.",
-      "Keys": "Both Pigpen’s organ and Keith Crisp’s piano are highlighted as prominent and jazzy, adding depth to the sound.",
-      "Drums": ""
+      "Jerry": "Repeatedly described as ‘killing it’ with perfect tone and inspiring solos.",
+      "Phil": "Bass noted as solid but a bit low in the mix; still praised for his groove.",
+      "Bob": "",
+      "Keys": "Pigpen’s organ and Keith’s jazzy piano are highlighted as prominent and complementary.",
+      "Drums": "Bobby (Bill Kreutzmann) gets credit for ferocious playing, particularly on the Wharf Rat outro."
     },
-    "processed_date": "2025-09-07T20:55:09.594878+00:00",
+    "song_mentions": {
+      "Smokestack Lightning": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Run Rudolph Run": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Wharf Rat": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Me and My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mexicali Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T10:16:44.966820+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-12-04.sbd.fixed.miller.110186.flac16"
   }

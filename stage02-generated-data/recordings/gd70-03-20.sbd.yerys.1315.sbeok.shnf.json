@@ -16,18 +16,18 @@
   "high_ratings": 0,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Mixed‑quality matrix recording of the March 20 1970 show; decent performance of Cold Rain & Snow and a solid Good Lovin' but plagued by confusing track order and uneven sound.",
-    "review": "The tape is a patchwork of soundboard (SBD) and audience (AUD) sources that results in a jumbled listening experience – the first few tracks are muddy while later electric sections, especially Good Lovin', are clear. Musically the highlight is the rare Cold Rain & Snow solo by Jerry, but the overall set suffers from mis‑sequencing and missing material, making it more of a curiosity than a definitive show.",
+    "summary": "A confusing matrix recording that mixes soundboard and audience sources; the Cold Rain & Snow performance shines, but uneven audio quality drags the overall experience.",
+    "review": "The show contains a noteworthy rendition of Cold Rain & Snow (Jerry’s solo gets praise) and a clean Good Lovin' segment, but the tape is a patchwork of SBD and AUD material that jumps between two different nights, leaving the first five tracks muddy and the later sections only marginally better. Reviewers are split – some enjoy the musical moments while many criticize the chaotic source handling and sub‑par sound.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.0,
-      "confidence": "medium",
-      "rationale": "Show quality is average (few standout moments, many structural issues) while recording quality ranges from poor to fair; combined weighting yields a modest 3‑star rating."
+      "stars": 3.1,
+      "confidence": "high",
+      "rationale": "Show quality is average with a few standout performances; recording quality is inconsistent (matrix, fair overall). The mix of positive and negative reviewer comments leads to a middle‑range rating."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "fair",
-      "technical_notes": "Tracks are a confusing mix of soundboard (SBD) and audience (AUD) recordings. Early tracks are muddy/low quality, later electric sections (e.g., Good Lovin') are clearer. Inconsistent tape sources cause jumps in audio character."
+      "technical_notes": "Tracks are assembled from both soundboard (SBD) and audience (AUD) sources, causing abrupt changes in fidelity; first five tracks are muddy, later electric sections are clearer but still uneven."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,10 +35,10 @@
         "Good Lovin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set is badly sequenced – the middle of the show appears after the opening, with filler from a different date inserted, leading to a disjointed flow that confuses listeners."
+      "setlist_flow": "The track order is jumbled – the middle of the show appears first, then the opening set from a different night, followed by later material. This creates a confusing flow that obscures the original set structure."
     },
     "band_member_comments": {
-      "Jerry": "Nice solo on Cold Rain & Snow noted by reviewers.",
+      "Jerry": "Nice solo on Cold Rain & Snow noted.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
@@ -51,12 +51,22 @@
         "total_mentions": 1
       },
       "Good Lovin'": {
-        "positive_mentions": 1,
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Deep Elem Blues": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Friend of the Devil": {
+        "positive_mentions": 0,
         "negative_mentions": 0,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T16:07:33.834627+00:00",
+    "processed_date": "2025-09-19T17:31:02.158492+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-03-20.sbd.yerys.1315.sbeok.shnf"
   }

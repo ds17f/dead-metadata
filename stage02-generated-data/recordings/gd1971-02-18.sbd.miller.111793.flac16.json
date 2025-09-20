@@ -16,45 +16,82 @@
   "high_ratings": 23,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "A crystal‑clear Betty board capture of a high‑octane 2/18/71 show highlighted by a smoking Dark Star→Wharf Rat→Dark Star jam and blistering Bertha.",
-    "review": "The Charlie Miller “Betty” soundboard release delivers superb fidelity – every instrument sits in the mix with remarkable clarity. The performance is a burst of 1971 energy, driven by an incendiary Dark Star/Wharf Rat sandwich, a fierce Bertha and a fast‑paced set that feels both historic and exhilarating. While a few tunes (e.g., Mama Tried, Casey Jones) show minor slips, the overall vibe remains overwhelmingly positive.",
+    "summary": "Excellent soundboard recording of the legendary 2‑18‑71 Port Chester show, highlighted by a stellar Dark Star→Wharf Rat→Dark Star jam and high‑energy Bertha.",
+    "review": "The Miller upgrade delivers crystal‑clear soundboard fidelity that lets listeners hear every nuance—from Jerry’s razor‑sharp guitar growl to the contentious keyboard battle between Pigpen and Ned Lagin. Musically the night shines with a breathtaking Dark Star/Wharf Rat sandwich, a smoking Bertha, and relentless Truckin', though a few first‑set flubs (Mama Tried, Casey Jones) keep it from being flawless.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Over 30 reviews overwhelmingly praise both the recording (crisp, excellent mix) and the show (high energy, standout jams). A few lower‑rated comments note minor performance flaws, pulling the average down slightly but not enough to offset the strong consensus."
+      "rationale": "Over twenty detailed reviews overwhelmingly praise the recording’s clarity and the show’s iconic jams; only a handful of critiques note minor performance slips, yielding a strong combined score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Betty board (SBD) source; reviewers describe it as crisp, clear, with great dynamics and a well‑balanced mix. Minor quirks mentioned by a handful of listeners but overall considered one of the best‑sounding 1971 tapes."
+      "technical_notes": "Listeners repeatedly cite crisp mix, superb fidelity, balanced instrument separation and minimal noise—often calling it the best‑sounding version of this run."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star > Wharf Rat > Dark Star (Beautiful Jam)",
+        "Dark Star > Wharf Rat > Dark Star",
         "Bertha",
-        "Sugar Magnolia",
         "Truckin'",
-        "Greatest Story",
-        "Loser",
-        "Playin' in the Band",
-        "Uncle John's Band"
+        "Sugar Magnolia"
       ],
       "poor_songs": [
         "Mama Tried",
         "Casey Jones"
       ],
-      "setlist_flow": "First set launches with high‑octane Bertha and a string of classic ‘71 cuts; second set builds around the epic Dark Star/Wharf Rat sandwich and finishes strong with Uncle John's Band. The pacing is fast, compact, and keeps momentum throughout.",
-      "energy_level": "high"
+      "setlist_flow": "First set is high‑energy and compact with a few missteps; second set centers on the monumental Dark Star/Wharf Rat jam, delivering an unforgettable peak before winding down with solid finishes."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s tone described as perfect, fast‑paced, gritty and full of bite; his use of wah/uni‑vibe pedals noted during the jam sections.",
-      "Phil": "",
+      "Jerry": "Garcia’s guitar is described as gritty, fast‑paced and full of growl; his pedal work (Uni‑Vibe, Cry Baby) adds texture and occasional feedback moments.",
+      "Phil": "Phil Lesh is only mentioned in passing (helping Ned Lagin with Wharf Rat); no specific performance praise or criticism.",
       "Bob": "",
-      "Keys": "Pigpen’s Hammond organ presence is highlighted (though some debate Ned Lagin’s clavichord/electric piano contributions).",
-      "Drums": "Mickey Hart’s last show for several years; drum sound praised as classic ‘71 power."
+      "Keys": "Pigpen’s Hammond presence is noted on several tracks, though a spirited debate exists over whether Ned Lagin (clavichord/electric piano) or Pigpen played the keys during the Dark Star sandwich.",
+      "Drums": "Mickey Hart’s last show for a few years is highlighted as a historic moment."
     },
-    "processed_date": "2025-09-06T15:56:15.820685+00:00",
+    "song_mentions": {
+      "Dark Star > Wharf Rat > Dark Star": {
+        "positive_mentions": 10,
+        "negative_mentions": 0,
+        "total_mentions": 10
+      },
+      "Bertha": {
+        "positive_mentions": 8,
+        "negative_mentions": 0,
+        "total_mentions": 8
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Mama Tried": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      },
+      "Uncle John's": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Candyman": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T02:37:26.604693+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-02-18.sbd.miller.111793.flac16"
   }

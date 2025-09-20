@@ -16,39 +16,65 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a stunning Dark Star into Sugar Magnolia with high‑energy jams and superb performance.",
-    "review": "The recording delivers crystal‑clear soundboard quality that lets the band’s chemistry shine, especially during the soaring Dark Star and its seamless transition into a fiery Sugar Magnolia. Reviewers rave about the jam‑heavy back half of the set, highlighting Caution (Do Not Stop On Tracks) and a potent One More Saturday Night encore, despite noting Bob's slightly limited vocal range.",
+    "summary": "Soundboard recording captures a stellar show highlighted by a stunning Dark Star and soaring Sugar Magnolia.",
+    "review": "The performance is praised as one of the most moving ever heard, with Dark Star flowing into an ecstatic Sugar Magnolia and a hard‑stopping Sunshine Daydream before diving back into a focused Caution jam. The encore One More Saturday Night caps the night with high energy, and the soundboard source delivers clear, balanced audio.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.9,
-      "confidence": "medium",
-      "rationale": "One detailed 5‑star review praises both the musical performance (high energy, standout jams) and the soundboard recording quality; limited number of reviews reduces confidence."
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "Single detailed five‑star review lauds both the musical performance and implies a clean soundboard capture; limited data set keeps confidence low."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "excellent",
-      "technical_notes": "No technical complaints; reviewers note clear mix with harp and keyboards well‑balanced, indicating a crisp, professional soundboard capture."
+      "quality_rating": "good",
+      "technical_notes": "No specific issues noted; reviewers assume clear, balanced mix typical of soundboard sources."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "Sugar Magnolia",
-        "Sunshine Daydream (transition)",
         "Caution (Do Not Stop On Tracks)",
+        "Sunshine Daydream",
         "One More Saturday Night"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set builds from an expansive Dark Star into a groovy Sugar Magnolia, then maintains momentum with focused jams and a strong encore, demanding attentive listening.",
-      "energy_level": "high"
+      "setlist_flow": "The set flows organically from a soaring Dark Star into Sugar Magnolia, then transitions into Sunshine Daydream before launching into an attentive Caution jam; the encore delivers high‑energy One More Saturday Night."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
-      "Bob": "Bob's vocal range is described as a little narrow in this performance.",
-      "Keys": "Keith's keyboard work is audible and adds depth to the jam sections.",
-      "Drums": ""
+      "Bob": "Bob's vocal range is described as a little narrow, suggesting his vocals were less expansive than usual.",
+      "Keys": "Keith (Godchaux) can be heard under the jam, adding subtle keyboard texture.",
+      "Drums": "Mickey \"Pig\" Hart breaks out the harp and sits prominently in the mix during the jams."
     },
-    "processed_date": "2025-09-07T22:55:51.752797+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Caution (Do Not Stop On Tracks)": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sunshine Daydream": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "One More Saturday Night": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T12:55:22.708432+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-04-08.sbd.pset2.koucky.83143.flac16"
   }

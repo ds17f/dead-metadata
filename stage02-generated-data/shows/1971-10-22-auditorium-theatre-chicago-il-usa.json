@@ -200,42 +200,89 @@
     "daves-picks-vol-3"
   ],
   "ai_show_review": {
-    "summary": "High‑energy second set with monster The Other One and crisp Keith piano",
-    "blurb": "The Oct 22 1971 Auditorium Theatre show delivers a tight, high‑octane second set highlighted by an expansive The Other One suite, vibrant Cumberland Blues and an upfront Keith Godchaux. First‑set gems include Me & Bobby McGee and Black Peter, while the band’s overall playing is inspired and well‑rehearsed. Excellent soundboard sources make this a must‑listen for 1971 fans.",
-    "review": "October 22, 1971 at Chicago’s Auditorium Theatre captures the Dead in a rare moment of focused brilliance. After an uneven first set that still offers strong performances of Me & Bobby McGee and Black Peter, the band launches into a second set that feels both meticulously rehearsed and wildly improvisational. The Other One suite roars with Jerry’s soaring leads and Phil’s “bomb‑like” bass, while Keith Godchaux’s early piano work sits front‑and‑center, adding tasty texture to every transition. Highlights such as Cumberland Blues, Deal and a bright Sugar Magnolia keep the momentum rolling, and the rhythm section drives each jam with tight, propulsive energy. Both available soundboard recordings are crystal clear, but the Miller SBD of Set 2 (gd1971-10-22.set2.sbd.miller.86728.sbeok.flac16) best captures the nuance and power of this performance.",
+    "summary": "Soaring 'The Other One' suite, tight set with strong keyboards",
+    "blurb": "The show delivers a monster hour‑long 'The Other One' and crisp, energetic playing throughout. Keith Godchaux’s front‑and‑center keys shine, while Phil Lesh drives the band with inspiring bass.",
+    "review": "October 22, 1971 at Chicago’s Auditorium Theatre captures the Dead in an electric stride through both sets. The second set bursts open with a soaring, hour‑long 'The Other One' that feels like a summit of improvisational fire, while tighter moments – a crisp rendition of 'Cumberland Blues', a playful 'Deal', and the whimsical turn of 'Ramble On Rose' – keep the momentum rolling. Keith Godchaux, only in his third show, is front‑and‑center on keyboards, delivering tasty, upfront licks that add a fresh sparkle to the mix. Phil Lesh’s bass work is repeatedly praised for its uplifting drive, essentially “saving the day” after a rough opening, and Jerry’s guitar stays “on” even if the mix sometimes buries it. The first set supplies solid staples – ‘Bertha’, ‘Tennessee Jed’, ‘Black Peter’, ‘Comes A Time’ and a heartfelt ‘Me And Bobby McGee’ – all performed with the tight, energetic feel that reviewers note throughout. For anyone wanting to hear this period of the Dead at their most focused yet adventurous, this show is a must‑listen.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 4.2,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 16,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Both recordings are labeled positive, repeatedly praising the soaring 'The Other One', high‑energy performance, Keith's standout keyboards and Phil's inspiring bass. No negative comments appear across analyses, just consistent enthusiasm, warranting a strong positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 1.6 = 4.2"
+      }
     },
     "best_recording": {
       "identifier": "gd1971-10-22.set2.sbd.miller.86728.sbeok.flac16",
-      "reason": "Excellent soundboard source that clearly presents the high‑energy second set, The Other One suite and Keith’s upfront piano work"
+      "reason": "Excellent soundboard capture with crisp, clear FLAC audio and no drop‑outs; showcases the soaring 'The Other One' and Keith’s front‑and‑center keyboards."
     },
     "key_highlights": [
-      "Monster The Other One suite with soaring guitar and thunderous bass",
-      "Tight, upbeat Cumberland Blues that showcases tight interplay",
-      "Keith Godchaux’s early piano shines on the second‑set transitions",
-      "High‑octane flow from Deal into Sugar Magnolia and Johnny B. Goode"
+      "Hour‑long, high‑impact 'The Other One' suite that dominates Set 2",
+      "Tight, energetic renditions of 'Cumberland Blues', 'Deal', and 'Ramble On Rose'",
+      "Keith Godchaux’s front‑and‑center keyboard work early in his tenure"
     ],
     "song_highlights": [
       "The Other One",
       "Cumberland Blues",
-      "Ramble On Rose",
       "Deal",
-      "Me And Bobby McGee"
+      "Ramble On Rose",
+      "Cryptical Envelopment",
+      "Tennessee Jed",
+      "Black Peter",
+      "Comes A Time",
+      "Me And Bobby McGee",
+      "Johnny B. Goode",
+      "Bertha"
     ],
     "band_performance": {
-      "Jerry": "Generally on‑point with strong lead work, especially during The Other One; occasional mix burying noted but overall solid tone.",
-      "Phil": "Powerful, “bomb‑like” bass that drives the jams and lifts the entire band throughout both sets.",
-      "Bob": "Steady rhythm guitar and vocal contributions, highlighted on Me & Bobby McGee.",
-      "Keith": "Impressive early piano playing—upfront, tasty, and adds vital texture to the second set’s segues.",
+      "Jerry": "Garcia’s guitar is energetic and 'on' throughout, though the mix occasionally buries his tone.",
+      "Phil": "Lesh takes control with inspiring, uplifting bass that lifts the band, especially after a rough start.",
+      "Bob": "",
+      "Keith": "Godchaux is front‑and‑center, delivering tasty, upfront keyboard lines that add sparkle to the set.",
       "Mickey": "",
-      "Billy": "Tight drumming that underpins the high‑energy improvisations, particularly during The Other One suite."
+      "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-07T19:53:53.185068+00:00",
+    "processed_date": "2025-09-20T08:28:02.340010+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Cryptical Envelopment",
+        "Drums",
+        "The Other One",
+        "Cryptical Envelopment",
+        "Deal"
+      ],
+      [
+        "Cumberland Blues"
+      ],
+      [
+        "Ramble On Rose"
+      ],
+      [
+        "Tennessee Jed"
+      ],
+      [
+        "Black Peter"
+      ],
+      [
+        "Comes A Time"
+      ],
+      [
+        "Me And Bobby McGee"
+      ],
+      [
+        "Casey Jones",
+        "Johnny B. Goode"
+      ],
+      [
+        "Bertha"
+      ]
+    ]
   }
 }

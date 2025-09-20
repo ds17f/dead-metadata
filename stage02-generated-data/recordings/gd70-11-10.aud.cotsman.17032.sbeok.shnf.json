@@ -16,18 +16,18 @@
   "high_ratings": 0,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "A mis‑dated compilation with an unlistenable Not Fade Away and a decent Other One, offering poor overall recording quality.",
-    "review": "The tape is a mash‑up of two unrelated excerpts – Not Fade Away from 9/20/70 (recorded badly enough to be virtually unlistenable) and The Other One from 2/23/71 (which reviewers describe as solid).  In addition, the file is falsely dated, so it doesn’t represent a single concert performance.",
+    "summary": "Poor audience‑sourced tape with unlistenable Not Fade Away but a decent Other One excerpt from a different show.",
+    "review": "The recording is an audience compilation that mixes a badly recorded Not Fade Away (9/20/70) with a clearer Other One taken from Portchester 2/23/71. While the Other One shines, the overall sound quality is so low on the first segment that it detracts from any enjoyment, and the mismatched sources make the set feel disjointed.",
     "sentiment": "negative",
     "ai_rating": {
-      "stars": 2.0,
+      "stars": 2.1,
       "confidence": "medium",
-      "rationale": "Four reviews give very low scores (average ~1.8) and repeatedly criticize the recording quality and fake date, with only a modest positive note about The Other One."
+      "rationale": "Reviewers consistently criticize the recording quality (especially Not Fade Away) and note that the tape is a mismatched compilation; only a few positive remarks about The Other One keep the rating from being lower."
     },
     "recording_quality": {
-      "source_type": "unknown",
+      "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Not Fade Away segment is described as unlistenable; The Other One segment sounds acceptable. The tape appears to be a compiled reel from Marty Weinberg, not a proper soundboard or audience recording of one show."
+      "technical_notes": "NFA segment described as 'unlistenable' and 'horrible'; overall tape is a compilation of unrelated sources with inconsistent fidelity."
     },
     "show_quality": {
       "standout_songs": [
@@ -36,7 +36,7 @@
       "poor_songs": [
         "Not Fade Away"
       ],
-      "setlist_flow": "The tracks are taken from different dates and stitched together, so there is no coherent set structure; it functions more as a filler compilation than a true concert."
+      "setlist_flow": "The tape stitches together songs from different dates (9/20/70 and 2/23/71), resulting in a confusing, non‑cohesive flow rather than a true concert experience."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -45,7 +45,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T11:30:50.857383+00:00",
+    "song_mentions": {
+      "Not Fade Away": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-20T01:12:13.453541+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-11-10.aud.cotsman.17032.sbeok.shnf"
   }

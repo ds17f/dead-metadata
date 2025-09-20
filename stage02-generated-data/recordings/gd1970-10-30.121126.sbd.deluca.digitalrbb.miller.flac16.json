@@ -16,25 +16,25 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of a rare 1970 show with two NRPS sets, plenty of covers and Pig's entertaining Lovelight rap – a smoking‑hot evening on solid recording.",
-    "review": "Listeners rave about this unusual gig: the band is on fire, the night is peppered with two New Riders of the Purple Sage sets and a slew of cover tunes that give the concert a unique flavor.  Pig Pagan’s spoken‑word rap in “Lovelight” is singled out as a memorable moment, and although reviewers don’t detail the audio fidelity, the high ratings suggest a clear, well‑balanced soundboard source.",
+    "summary": "High‑energy show with two NRPS warm‑ups and a fiery Lovelight, captured on a clean soundboard digital recording.",
+    "review": "Reviewers rave about the special vibe of this concert – two opening sets by the New Riders of the Purple Sage, a smoking Hot Evening, and Pigpen’s entertaining rap in Lovelight. The source is a digital sound‑board (sbd.deluca.digitalrbb) that reviewers deem clear, with only speculation about sample‑rate differences and no reported audio flaws.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.6,
-      "confidence": "high",
-      "rationale": "Consistently high reviewer stars (mostly 5) and enthusiastic comments about the performance indicate an excellent show; recording quality is inferred as good from the .sbd designation and lack of complaints."
+      "confidence": "medium",
+      "rationale": "Strong positive comments on the performance (multiple 5‑star reviews) outweigh minimal technical discussion; recording is identified as a good soundboard source, leading to a high combined score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "No explicit remarks on clarity or mix, but reviewers’ high scores imply a clean, balanced soundboard capture with no noticeable issues."
+      "technical_notes": "Digital soundboard (RBB) recording, likely 44.1 kHz CD‑ready version; no complaints about clarity or dropouts."
     },
     "show_quality": {
       "standout_songs": [
-        "Lovelight (Pig’s rap)"
+        "Lovelight"
       ],
       "poor_songs": [],
-      "setlist_flow": "Strange, cover‑heavy sets bookended by two NRPS performances; the band stays energetic throughout, with strong stage banter and a generally upbeat pacing."
+      "setlist_flow": "Two NRPS opening sets followed by a lively Dead set with strong stage banter and Pigpen’s memorable rap in Lovelight; overall pacing described as 'smoking hot' and the band 'on'."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,7 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T10:49:52.548830+00:00",
+    "song_mentions": {
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T00:09:45.532023+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-10-30.121126.sbd.deluca.digitalrbb.miller.flac16"
   }

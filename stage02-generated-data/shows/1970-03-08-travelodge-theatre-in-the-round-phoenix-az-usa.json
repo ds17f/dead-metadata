@@ -143,46 +143,47 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Acoustic Black Peter shines; Lovelight transition brightens chaotic set",
-    "blurb": "The Phoenix show is anchored by a superb acoustic Black Peter and an extended Not Fade Away → Turn On Your Lovelight segue. Pigpen’s guest vocals/harmonica add both amusement and annoyance to the latter part of the set, leaving the ending uneven.",
-    "review": "On March 8, 1970 at the Travelodge Theatre in the Round, the Dead delivered a tightly wound acoustic showcase that highlights Ron \"Pigpen\" McKernan’s soulful presence. Jerry’s vocals on Black Peter are described as “sweet, musical and heart‑breakingly passionate,” and his guitar work shines during the early numbers. Bob Weir’s voice remains crystal clear throughout, while the rhythm section stays “tight and solid.” The highlight of the night is the sprawling Not Fade Away → Turn On Your Lovelight transition, a moment that many reviewers cite as a high point. However, an on‑stage guest vocalist/harpist interrupts several songs, turning the final three numbers into a chaotic—if sometimes entertaining—culmination that some fans found “irritating” and others defended. The soundboard recordings capture the performance well; the recommended SBD (gd70-03-08.sbd.9195.sbeok.shnf) offers good clarity despite minor volume fluctuations, making it the most listenable version of this mixed‑quality but historically interesting show.",
+    "summary": "Acoustic Black Peter shines; Lovelight bright but guest disrupts finale",
+    "blurb": "The set opens with a warm acoustic vibe, highlighted by Jerry’s sweet vocal on Black Peter and a spirited Turn On Your Lovelight. Drums stay tight throughout, though the surprise guest’s vocals mar the closing trio of Not Fade Away, Impromptu Blues, and Lovelight.",
+    "review": "On March 8, 1970 at Phoenix’s Travelodge Theatre in the Round, the Dead delivered an intimate acoustic‑driven first set that still feels fresh. Jerry Garcia’s voice was described as “sweet and musical,” and his solo on the plaintive \"Black Peter\" earned unanimous praise, while Bob Weir’s guitar work was noted as crystal clear. The rhythm section—Mickey Hart and Bill Kreutzmann—kept a tight, well‑driven pulse that anchored the whole show. The highlight of the night, aside from the acoustic gems, was a spirited rendition of \"Turn On Your Lovelight*\" that lifted the energy despite an unexpected guest whose over‑the‑top vocals threw off the final three numbers (Not Fade Away*, Impromptu Blues*, and Lovelight). Overall, the performance is solid with standout moments, but the late‑set intrusion leaves the ending feeling uneven.\n\nFor listeners seeking the best representation of this night, the \"gd70-03-08.sbd.9195.sbeok.shnf\" recording captures the acoustic nuances and overall band chemistry while remaining clear enough to appreciate the subtle interplay, making it the recommended choice despite the guest’s vocal intrusions.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 2.8,
-      "confidence": "medium",
+      "ai_rating": 3.6,
+      "confidence": "high",
       "rating_calculation": {
         "base_rating": 2.5,
         "review_count_total": 38,
         "review_count_boost": 0.3,
-        "sentiment_adjustment": 0.0,
-        "sentiment_rationale": "All three recordings label the sentiment as mixed, balancing praise for Black Peter and the Lovelight segue against criticism of the guest vocalist and uneven ending. No consistent positive or negative trend emerges, so no adjustment is applied.",
-        "final_calculation": "2.5 + 0.3 + 0.0 = 2.8"
+        "sentiment_adjustment": 0.8,
+        "sentiment_rationale": "Two soundboard recordings consistently praise the acoustic \"Black Peter\" and the vibrant \"Turn On Your Lovelight*,\" indicating strong positive sentiment (+0.8). Negative remarks focus on a guest’s disruptive vocals in the final three songs, but these do not outweigh the overall musical strengths.",
+        "final_calculation": "2.5 + 0.3 + 0.8 = 3.6"
       }
     },
     "best_recording": {
       "identifier": "gd70-03-08.sbd.9195.sbeok.shnf",
-      "reason": "Good soundboard capture with clear acoustic detail and the most complete set, despite minor volume fluctuations."
+      "reason": "Decent soundboard capture that balances clarity with the show’s acoustic nuances, providing a faithful representation of the performance despite occasional guest‑related volume spikes."
     },
     "key_highlights": [
-      "Stellar Black Peter performance with heartfelt vocals.",
-      "Extended Not Fade Away → Turn On Your Lovelight transition shines.",
-      "Guest vocalist/harpist adds chaotic but memorable atmosphere to final songs.",
-      "Tight, solid drumming keeps the set grounded."
+      "Jerry’s sweet vocal and standout acoustic solo on \"Black Peter\".",
+      "\"Turn On Your Lovelight*\" shines as the set’s high‑energy centerpiece.",
+      "Tight, well‑driven drumming from Mickey Hart and Bill Kreutzmann throughout.",
+      "Surprise guest’s chaotic vocals disrupt the closing trio, affecting the overall flow."
     ],
     "song_highlights": [
       "Black Peter",
-      "Turn On Your Lovelight*"
+      "Turn On Your Lovelight*",
+      "Hard To Handle"
     ],
     "band_performance": {
-      "Jerry": "Vocals sweet and heart‑breakingly passionate on Black Peter; guitar praised in acoustic sections.",
+      "Jerry": "Sweet, musical vocal tone; notable acoustic solo on Black Peter praised.",
       "Phil": "",
-      "Bob": "Voice crystal clear and strong throughout the show.",
-      "Brent": "",
-      "Mickey": "Drums tight and solid, providing a steady backbone.",
-      "Billy": ""
+      "Bob": "Crystal‑clear guitar work; overall band chemistry noted as strong.",
+      "Pigpen": "",
+      "Mickey": "Drums tight and well‑driven, providing solid rhythmic foundation.",
+      "Billy": "Drums tight and well‑driven, complementing Mickey’s groove."
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-12T15:59:16.581999+00:00",
+    "processed_date": "2025-09-19T17:22:11.249530+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -192,6 +193,9 @@
       [
         "Not Fade Away*",
         "Turn On Your Lovelight*"
+      ],
+      [
+        "Hard To Handle"
       ]
     ]
   }

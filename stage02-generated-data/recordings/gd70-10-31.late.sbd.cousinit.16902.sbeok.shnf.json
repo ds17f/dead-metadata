@@ -16,39 +16,59 @@
   "high_ratings": 8,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Solid 1970 Halloween show with strong performances of “The Other One” and New Riders set, captured on a good‑quality soundboard recording despite some low‑volume quirks.",
-    "review": "Fans rave about the high‑energy Halloween night, especially the smoky “The Other One,” tight drumming from Mickey and Bill, and the added flavor of the New Riders of the Purple Sage set. The soundboard source is generally clear and well‑balanced, though a few listeners note low guitar volume and occasional clams that hint at venue‑related issues.",
-    "sentiment": "mixed",
+    "summary": "Excellent soundboard capture of the Halloween‑1970 Stony Brook show, highlighted by a smoking The Other One and a solid New Riders set.",
+    "review": "The recording is a clean soundboard mix that lets listeners hear the band’s evolving 1970 chemistry – Jerry’s increasingly complex guitar voicings, Phil’s tight bass, and Mickey & Bill’s locked‑in drumming on The Other One.  Highlights include a standout The Other One, an appreciated slow‑burn St. Stephen, and the bonus New Riders of the Purple Sage set that adds to the Halloween atmosphere, though “Good Lovin’” is noted as weaker in the drum‑heavy mix.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Average star rating is 4.2 across ten reviews; most praise the performance and recording, with only one strongly negative review pulling the overall sentiment toward mixed."
+      "rationale": "Most reviewers rate the show 4–5 stars, praising both performance and soundboard quality; only one low rating mentions volume issues, so overall the show and recording are judged very good."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Generally crisp and well‑mixed “classic 1970 sound,” but some listeners note low guitar volume, occasional clams/artifacts, and overall modest fidelity compared to the best Dead recordings."
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp mix with clear instrument separation; a few reviewers note occasional level quirks but no major drop‑outs or distortion."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One",
-        "Good Lovin'",
-        "St. Stephen",
-        "Viola Lee > Cumberland"
+        "St. Stephen"
       ],
       "poor_songs": [
-        "Good Lovin' (later section considered drum‑heavy and weaker)"
+        "Good Lovin'"
       ],
-      "setlist_flow": "Halloween vibe with a slow start on “St. Stephen,” building into tighter jams; the inclusion of the New Riders set adds continuity to the night, giving listeners the feel of a full GD/NRPS experience."
+      "setlist_flow": "A Halloween night that opens a bit slow (noted on St. Stephen) and builds into high energy, especially during The Other One; the inclusion of the New Riders set adds context and keeps momentum through the late‑night slot."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar tone and chord voicings are highlighted as complex and evolving; his licks are praised even amid low volume concerns.",
-      "Phil": "Phil Lesh is noted for fitting nicely with Jerry, providing a solid bass foundation.",
+      "Jerry": "Garcia’s guitar work is praised for richer chord voicings and great licks; even noted playing pedal steel with the New Riders.",
+      "Phil": "Phil’s bass is mentioned as fitting nicely with Jerry, providing a solid foundation.",
       "Bob": "",
       "Keys": "",
-      "Drums": "Mickey Hart and Bill Kreutzmann lock in tightly on “Good Lovin'” and deliver fantastic drumming on “The Other One,” though later portions of “Good Lovin'” are criticized as overly drum‑focused."
+      "Drums": "Bill Kreutzmann and Mickey Hart are described as locked‑in on The Other One but less effective on Good Lovin', where the drum focus felt excessive."
     },
-    "processed_date": "2025-09-11T11:02:47.743850+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T00:29:14.381343+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-10-31.late.sbd.cousinit.16902.sbeok.shnf"
   }

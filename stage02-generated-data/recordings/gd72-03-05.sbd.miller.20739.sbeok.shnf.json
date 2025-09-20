@@ -16,38 +16,57 @@
   "high_ratings": 4,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Matrix recording with noticeable audience patches but a high‑energy show highlighted by a killer \"You Win Again\" and an exploratory Good Lovin' jam.",
-    "review": "The performance is praised for its lively vibe, strong China Cat Sunflower → The Rider segue, a standout \"You Win Again,\" and an ultra‑exploratory Good Lovin' that even features Pig.  Technically the tape is a matrix source; while the soundboard is clear, the audience patches are murky and sometimes jarring, making it a mixed‑quality listening experience.",
+    "summary": "Murky patched audience recording, yet the band shines with a killer \"You Win Again\" and an explosive Good Lovin' jam.",
+    "review": "The performance is praised for its high energy and tight playing, highlighted by a standout \"You Win Again\" and a soaring Good Lovin' that even features a memorable Mind‑Left‑Body jam. Recording-wise the source is an audience capture with noticeable patchwork that makes the mix sound muddy and occasionally jarring, but fans deem it worth downloading for the music.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
-      "confidence": "medium",
-      "rationale": "Reviews range from 2 to 5 stars; most praise the musical energy and specific songs while noting significant recording flaws, leading to an overall mid‑high rating."
+      "stars": 3.9,
+      "confidence": "high",
+      "rationale": "Show quality is consistently praised (≈4.5/5) while recording quality is rated low to fair (≈2.5/5); weighted average yields ~3.9."
     },
     "recording_quality": {
-      "source_type": "matrix",
+      "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Soundboard is clear but many audience patches are murky, noticeable, and jarring; overall listening experience is decent for completists despite the patchwork."
+      "technical_notes": "Sound described as murky with obvious patch seams; patches are blended but often jarring, leading to a less clear mix despite being an upgrade over the pure audience version."
     },
     "show_quality": {
       "standout_songs": [
         "You Win Again",
-        "China Cat Sunflower > The Rider",
-        "Good Lovin' (with Pig)",
-        "Mind Left Body"
+        "Good Lovin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set flows with high‑energy early numbers and an exploratory jam that tapers off in the final third, but overall maintains a lively, honky‑tonk feel.",
-      "energy_level": "high"
+      "setlist_flow": "The set feels like an early‑50s honky‑tonk vibe with the band having fun, a strong early jam (China/Rider), a killer You Win Again, and an ultra‑exploratory Good Lovin' that builds into a Mind‑Left‑Body climax."
     },
     "band_member_comments": {
-      "Jerry": "Slide‑guitar tone noted during the Mind Left Body segment; cues Keith for piano solo, showing strong presence.",
+      "Jerry": "Garcia’s guitar work is praised – slide‑like tones on the Mind Left Body jam and overall tight playing; he even cues Keith for a piano solo.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Keith is cued by Garcia for a piano solo, indicating active keyboard contribution.",
+      "Keys": "Keith Godchaux receives a cue from Garcia for a piano solo, indicating a solid keyboard contribution.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T22:13:23.729403+00:00",
+    "song_mentions": {
+      "You Win Again": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Good Lovin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Mind Left Body": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T11:48:19.389314+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-03-05.sbd.miller.20739.sbeok.shnf"
   }

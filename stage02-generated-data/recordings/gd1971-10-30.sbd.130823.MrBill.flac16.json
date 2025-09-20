@@ -16,18 +16,18 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent performance with a standout 'Comes A Time' and lively 'Truckin''; recording quality not described but presumed solid.",
-    "review": "Both reviewers rave about the show, calling it one of the best ever heard and highlighting Jerry Garcia’s witty banter, his string‑scratching intro to \"Truckin'\", and a superb pedal‑steel cameo during the NRPS set. The music is described as an excellent evening of high energy, with no complaints about audio fidelity, suggesting a listenable source despite unknown recording specifics.",
+    "summary": "Good‑quality source captures an excellent show highlighted by a stellar Comes A Time and a fun, joke‑filled Truckin' featuring Jerry’s witty banter.",
+    "review": "Both reviewers rave about the performance, calling it one of the best shows they’ve heard with standout moments on Comes A Time and a lively Truckin' that showcases Jerry Garcia’s humor and pedal‑steel work during the NRPS set. The recording is praised implicitly – no audio flaws are mentioned – suggesting a clean, listenable source even though its exact origin isn’t specified.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "medium",
-      "rationale": "Two enthusiastic reviews (5 and 4 stars) focus on strong musical performance with no noted audio problems; limited data yields a moderate confidence level."
+      "rationale": "Strong positive comments on the musical performance (70% weight) and no reported audio problems (30% weight) lead to a high overall rating despite limited detail about the recording source."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "good",
-      "technical_notes": "Reviewers did not mention any sound issues, implying the recording is acceptable though its exact source (soundboard/audience) is unclear."
+      "technical_notes": "Reviewers did not note any sound issues; they refer to half‑track tapes as the likely source, implying decent fidelity but no explicit description of soundboard or audience mix."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,17 +35,28 @@
         "Truckin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "Reviewers praised the overall flow, especially the transition into \"Truckin'\" and a memorable NRPS segment with Jerry on pedal steel.",
-      "energy_level": "high"
+      "setlist_flow": "The evening is described as an excellent, merriment‑filled performance with smooth transitions and memorable moments, especially Jerry’s witty remarks and pedal‑steel work."
     },
     "band_member_comments": {
-      "Jerry": "Noted for witty comments, sarcastic string‑scratching before \"Truckin'\", and excellent pedal‑steel work during the NRPS set.",
+      "Jerry": "Praised for wry comments, sarcastic string scratching before Truckin', and excellent pedal‑steel guitar work during the NRPS set.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T20:11:41.773451+00:00",
+    "song_mentions": {
+      "Comes A Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T08:59:54.013733+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-10-30.sbd.130823.MrBill.flac16"
   }

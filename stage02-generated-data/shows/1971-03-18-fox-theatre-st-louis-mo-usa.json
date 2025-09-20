@@ -196,45 +196,73 @@
     "30-trips-around-the-sun"
   ],
   "ai_show_review": {
-    "summary": "High‑energy Fox show with stellar Caution finale and Pigpen highlights",
-    "blurb": "The March 18 1971 performance packs a powerful Other One suite that erupts into the rare 1971 Caution, plus a soaring Uncle John's Band. Pigpen shines on The Rub and organ‑driven moments, while the band maintains a tight, high‑energy flow throughout both sets.",
-    "review": "What unfolds at the Fox Theatre on March 18 1971 is a snapshot of the Dead in top form during their early‑70s surge. The first set rolls through familiar terrain—Big Boss Man and Bertha sit comfortably beside a crunchy China Cat > I Know You Rider, while Pigpen’s organ roars on The Rub and his harmonica adds grit to Playing In The Band. The second set truly ignites: a marathon Truckin' segues into an expansive Other One suite that builds tension before launching into the iconic Caution/Feedback climax, capped by a heartfelt Uncle John's Band where Phil Lesh steps up vocally. Across all three soundboard sources the mix is surprisingly clear for the era, letting Pigpen’s keyboards and Jerry’s guitar cut through even when occasional tape drops appear. In short, this show delivers a balanced blend of tight ensemble work, inspired solos, and that rare 1971 Caution moment that makes it a must‑listen for any Deadhead.",
+    "summary": "Jam‑heavy second set with epic Caution and tight first‑set classics",
+    "blurb": "The concert starts strong with rockers such as Big Boss Man, Bertha and a crisp China Cat Sunflower > I Know You Rider segue. The second set erupts into extended jams—Truckin' into The Other One, the soaring Wharf Rat, and a monumental 14‑minute Caution—while Pigpen’s organ and harmonica add extra fire. Jerry’s vocals are consistently praised and Phil belts out Uncle John's Band.",
+    "review": "March 18, 1971 at St. Louis’ Fox Theatre captures the Dead in prime form. The first set is a textbook early‑‘71 setlist—tight renditions of Casey Jones, Big Boss Man, Bertha, and the classic China Cat Sunflower > I Know You Rider segue that keep the energy high. It’s the second set where the magic really unfolds: an expansive Truckin' launches into a double‑The Other One > Wharf Rat excursion, followed by Sugar Magnolia and Greatest Story Ever Told before diving into a blistering Not Fade Away > Goin' Down The Road Feeling Bad sequence that segues straight into the show‑closing Caution (Do Not Stop On Tracks). At roughly fourteen minutes, Caution is the centerpiece, showcasing Pigpen’s booming organ, Jerry’s soaring vocals, and the rhythm section’s relentless drive. Highlights also include a heartfelt Uncle John's Band where Phil sings his heart out, and Bob Weir’s gritty lead vocal runs on the NFA > GDTRFB stretch. Despite a few tape cuts in places, the soundboard captures an acoustic‑like clarity that lets every nuance shine, making this one of the most rewarding early‑’70s tapes for both newcomers and seasoned Deadheads.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 36,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All three soundboard analyses label the show sentiment as positive, repeatedly praising the extended jams (Caution, Truckin', The Other One > Wharf Rat), Pigpen’s organ work, and Jerry’s vocals. No negative comments about performance appear, so a strong positive adjustment is applied.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd1971-03-18.sbd.130560.MrBill.flac16",
-      "reason": "Stunning soundboard capture with clear acoustic‑feeling mix and the rare 1971 Caution, despite a few minor drops."
+      "reason": "Good soundboard source with crisp, acoustic‑like clarity; captures the key jams and Pigpen’s organ while only having minor cuts that don’t detract from enjoyment."
     },
     "key_highlights": [
-      "Rare 1971 Caution/Feedback finale that serves as the show's centerpiece",
-      "Extended Other One > Jam > Caution suite drives the second set momentum",
-      "Pigpen’s organ and harmonica dominate The Rub and add texture to Wharf Rat",
-      "Phil Lesh delivers passionate vocals on Uncle John's Band"
+      "Epic 14‑minute Caution (Do Not Stop On Tracks) jam",
+      "Extended Truckin' > The Other One > Wharf Rat sequence",
+      "Not Fade Away > Goin' Down The Road Feeling Bad segue",
+      "Pigpen’s organ and harmonica add fire to the second‑set jams"
     ],
     "song_highlights": [
-      "The Rub",
-      "Caution (Do Not Stop On Tracks)",
-      "Big Boss Man",
-      "Wharf Rat",
-      "Truckin'",
-      "Uncle John's Band",
       "Not Fade Away",
-      "Bertha"
+      "Goin' Down The Road Feeling Bad",
+      "Caution (Do Not Stop On Tracks)",
+      "Truckin'",
+      "Wharf Rat",
+      "Uncle John's Band",
+      "Big Boss Man"
     ],
     "band_performance": {
-      "Jerry": "Guitar tone is solid throughout; vocals praised as excellent, though slightly low in the mix on some recordings.",
-      "Phil": "Passionate vocal lead on Uncle John's Band and a steady bass foundation that drives the improvisations.",
-      "Bob": "Rhythm work tight; vocal contributions noted, especially during the NFA > GDTRFB transition.",
-      "Pigpen": "In top form on organ and harmonica, delivering standout moments on The Rub, Wharf Rat, and the Caution/Feedback segment.",
+      "Jerry": "Vocals described as amazing and excellent; guitar tone praised though occasionally low in the mix, with experimental playing noted.",
+      "Phil": "Sings his heart out on Uncle John's Band, providing a strong vocal anchor alongside solid bass foundation.",
+      "Bob": "Lead vocal runs highlighted especially during the Not Fade Away > Goin' Down stretch; rhythmic drive noted throughout.",
+      "Pigpen": "Organ and harmonica work receive high praise, loud and creative, driving the jams on Wharf Rat and other sections.",
       "Mickey": "",
-      "Billy": "Drums provide a solid backbone; percussion solo remembered as lengthy and impressive."
+      "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-07T16:48:10.733193+00:00",
+    "processed_date": "2025-09-20T03:38:01.618956+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Not Fade Away",
+        "Goin' Down The Road Feeling Bad",
+        "Caution (Do Not Stop On Tracks)",
+        "Feedback"
+      ],
+      [
+        "Truckin'",
+        "The Other One",
+        "Drums",
+        "The Other One",
+        "Wharf Rat"
+      ],
+      [
+        "Uncle John's Band"
+      ],
+      [
+        "Big Boss Man"
+      ]
+    ]
   }
 }

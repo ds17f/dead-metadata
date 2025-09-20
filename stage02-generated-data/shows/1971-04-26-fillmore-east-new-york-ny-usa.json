@@ -184,41 +184,72 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Fillmore East with killer Good Lovin’, Dark Star & Duane Allman guest",
-    "blurb": "The show bursts with a scorching Good Lovin’ jam, a soaring Dark Star, and Duane Allman's fiery solos on It Hurts Me Too and Sugar Magnolia. Pigpen’s harmonica shines throughout, and the band maintains relentless momentum from start to finish.",
-    "review": "April 26, 1971 at the Fillmore East finds the Dead in top form, delivering a set that crackles with electricity from the opening Bertha through a blistering second half. Highlights include a smoking Good Lovin’ jam that morphs into a funky drum break, an expansive Dark Star that rides seamlessly into Wharf Rat, and Duane Allman's guest solos that elevate It Hurts Me Too and Sugar Magnolia to legendary status. Pigpen’s gritty harmonica and vocal contributions add extra bite to the blues numbers, while Phil’s thunderous bass and Billy’s propulsive drumming keep the momentum locked in. The performance is captured beautifully on several soundboard recordings, but the Betty‑board source stands out for its crystal‑clear fidelity, making this a must‑listen for any Deadhead.",
+    "summary": "Killer Dark Star, tight Good Lovin' jam, Duane Allman's Sugar Magnolia",
+    "blurb": "The concert features a soaring Dark Star and a razor‑sharp Good Lovin’ > Drums segment, while Pigpen’s blues numbers add grit and Duane Allman’s guest lead on Sugar Magnolia adds sparkle. Jerry’s vocals shine on Sing Me Back Home and the rhythm section locks in throughout.",
+    "review": "April 26, 1971 at the Fillmore East captured one of the Dead’s most electrifying nights of the early‑’70s era. The set opens with a rollicking \"Big Boss Man\" and rolls into a powerhouse \"Playing In The Band\" that segues into a tight \"Hard To Handle\" before launching into an expansive Dark Star that still feels fresh decades later. Highlights abound in the second set – Duane Allman’s blistering lead on \"Sugar Magnolia\", the soulful “It Hurts Me Too*”, and a flawless Good Lovin’ > Drums jam that showcases Phil’s thunder‑ous bass and Billy’s crisp, driving beats. Jerry’s voice is front‑and‑center on “Sing Me Back Home,” and Pigpen’s bluesy presence underpins the night’s gritty moments. Though a few recordings note minor tape quirks, the overall performance is consistently praised as tight, energetic, and historically significant – a must‑listen for any Deadhead.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 3.6,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 35,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 0.8,
+        "sentiment_rationale": "Half of the recordings are strongly positive, praising Dark Star, Good Lovin', and Duane Allman's guest spot; mixed reviews add no strong negative commentary about performance, only minor audio quirks. This yields a moderate positive sentiment adjustment.",
+        "final_calculation": "2.5 + 0.3 + 0.8 = 3.6"
+      }
     },
     "best_recording": {
       "identifier": "gd1971-04-26.113839.sbd.smith.boswell.flac16",
-      "reason": "Betty‑board soundboard offers crystal‑clear, high‑fidelity audio that captures every nuance of the performance."
+      "reason": "Crystal‑clear soundboard capture with excellent mix; highlights the pristine Good Lovin' and a superb It Hurts Me Too."
     },
     "key_highlights": [
-      "Smoking Good Lovin’ jam with a funky drum break",
-      "Explosive Dark Star that rides into Wharf Rat",
-      "Duane Allman's guest solos lift It Hurts Me Too and Sugar Magnolia",
-      "Pigpen’s harmonica delivers standout moments on blues numbers"
+      "Dark Star stretches into an epic, still‑fresh journey.",
+      "Duane Allman's guest lead on Sugar Magnolia adds special sparkle.",
+      "Good Lovin' > Drums jam showcases tight rhythm section and Phil’s booming bass.",
+      "Pigpen’s bluesy grit on Big Boss Man and It Hurts Me Too*."
     ],
     "song_highlights": [
       "Good Lovin'",
-      "Dark Star",
       "It Hurts Me Too*",
-      "Sugar Magnolia",
-      "Hard To Handle"
+      "Hard To Handle",
+      "Dark Star",
+      "Big Boss Man",
+      "Sugar Magnolia"
     ],
     "band_performance": {
-      "Jerry": "Jerry stays tasteful, trading leads with Duane Allman and delivering his signature melodic solos, especially on Dark Star.",
-      "Phil": "Phil provides thunderous, driving bass lines that anchor the high‑energy jams, particularly in Dark Star and Good Lovin’.",
-      "Bob": "Bob supplies solid rhythm guitar, locking into the groove and supporting Pigpen’s blues-driven moments.",
-      "Pigpen": "Pigpen’s harmonica wails on It Hurts Me Too and adds gritty vocal grit to the blues covers throughout the set.",
-      "Billy": "Billy’s drums drive the show with tight, propulsive beats, especially during the Good Lovin’ transition and the Duane‑filled jams."
+      "Jerry": "Vocals shine on Sing Me Back Home and his guitar work stays solid, complementing Duane’s guest solos without being outshone.",
+      "Phil": "Bass is earth‑shaking with big bombs, especially during the Good Lovin' > Drums segment, providing a powerful foundation throughout.",
+      "Bob": "",
+      "Brent": "",
+      "Mickey": "",
+      "Billy": "Drum break in Good Lovin' > Drums is a standout moment; his tight, driving beats keep the set propulsive."
     },
     "processed_recordings": 6,
-    "processed_date": "2025-09-07T18:09:34.252191+00:00",
+    "processed_date": "2025-09-20T05:42:29.704814+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Good Lovin'"
+      ],
+      [
+        "It Hurts Me Too*"
+      ],
+      [
+        "Hard To Handle"
+      ],
+      [
+        "Dark Star",
+        "Wharf Rat"
+      ],
+      [
+        "Big Boss Man"
+      ],
+      [
+        "Sugar Magnolia"
+      ]
+    ]
   }
 }

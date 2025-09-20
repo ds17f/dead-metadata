@@ -137,9 +137,9 @@
     "fillmore-east-1970-complete-recordings"
   ],
   "ai_show_review": {
-    "summary": "High‑energy early ’70 set with scorching Viola Lee Blues and rare Seven jam",
-    "blurb": "The early show delivers a gritty but clear audience tape that captures the band's raw power. Highlights include an incendiary Viola Lee Blues, a rare Seven jam, and tight renditions of Walkin' The Dog and Dire Wolf.",
-    "review": "Port Chester’s March 21, 1970 early set is a burst of primal blues‑rock that still feels vivid despite being sourced from an audience tape. Jerry Garcia’s guitar is described as “intense, primal psychedelic blues” – especially on the scorching Viola Lee Blues where his tone digs deep and rides the groove like nothing else in the night. The band strings together crowd‑pleasers such as Walkin' The Dog and Dire Wolf with unexpected detours into The Seven and Cumberland Blues, keeping the momentum high and the set flowing informally yet purposefully. While the recording bears vintage grit, the mids and highs are surprisingly clear, allowing listeners to hear the energy of the room and the tight interplay between the rhythm section and Pigpen’s organ/harmonica textures. For fans hunting an authentic slice of early ’70 Dead, this tape offers a vivid snapshot of the group on the brink of their legendary improvisational era.",
+    "summary": "Blues‑heavy early show with fiery Viola Lee Blues",
+    "blurb": "The set delivers a gritty blues vibe highlighted by the Viola Lee Blues → The Seven transition and a raw rendition of He Was A Friend Of Mine. Jerry’s primal tone drives the jam while Phil provides a solid bass foundation. Good for fans of early‑70s Dead energy despite an uneven mix.",
+    "review": "Port Chester’s March 21, 1970 early show captures the Grateful Dead in a raw, exploratory mood. The band weaves folk‑rock cuts with deep blues excursions, most memorably the blistering Viola Lee Blues that morphs into The Seven and rolls straight into a tight Cumberland Blues jam. Jerry Garcia’s tone is described as intense and primal on the blues numbers, even if his phrasing occasionally sounded “all over the place,” while Phil Lesh’s bass lines give the whole set a sturdy, driving pulse. Highlights also include a spirited Me And My Uncle, a heartfelt He Was A Friend Of Mine, and a snarling Death Don't Have No Mercy that showcase the group’s early‑1970 chemistry. Though the audience recordings suffer from wobble and occasional mud, they retain enough ambience to let listeners feel the night’s energy, making this tape the go‑to source for anyone wanting to hear the Dead in their formative blues‑rock phase.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 3.9,
@@ -149,37 +149,40 @@
         "review_count_total": 26,
         "review_count_boost": 0.2,
         "sentiment_adjustment": 1.2,
-        "sentiment_rationale": "All available analyses (single audience tape) express positive sentiment, using language like 'bursts with energy', 'scorching Viola Lee Blues', and praising Jerry's guitar work. The consistent enthusiasm across the sole review warrants a solid positive adjustment.",
+        "sentiment_rationale": "Both audience recordings are labeled positive, repeatedly praising the Viola Lee Blues performance and Jerry’s intense playing. No negative sentiment appears across analyses, so a moderate positive adjustment (+1.2) reflects strong but not legendary enthusiasm.",
         "final_calculation": "2.5 + 0.2 + 1.2 = 3.9"
       }
     },
     "best_recording": {
       "identifier": "gd70-03-21.early.aud.5315.sbeok.shnf",
-      "reason": "Audience tape offers surprisingly clear mids/highs despite vintage grit, capturing the high‑energy performance and rare jams."
+      "reason": "Good overall fidelity with enough ambience to capture the set’s energy; includes all standout moments and is widely regarded as the most complete audience source for this show."
     },
     "key_highlights": [
-      "Scorching Viola Lee Blues showcases Jerry's intense psychedelic blues guitar.",
-      "Rare appearance of The Seven jam adds a unique improvisational moment.",
-      "Cumberland Blues provides tight, driving ensemble work amidst the set’s informal flow.",
-      "Audience tape retains gritty live atmosphere while delivering good clarity."
+      "Viola Lee Blues → The Seven transition delivers a blistering blues jam.",
+      "Jerry’s primal, intense tone on early‑show material, especially He Was A Friend Of Mine.",
+      "Spirited Me And My Uncle and Death Don't Have No Mercy showcase the band’s raw energy.",
+      "Phil’s bass drives the Cumberland Blues segment into a compelling groove."
     ],
     "song_highlights": [
       "Walkin' The Dog",
+      "Me And My Uncle",
+      "Death Don't Have No Mercy",
+      "Dire Wolf",
+      "He Was A Friend Of Mine",
       "Viola Lee Blues",
       "The Seven",
-      "Cumberland Blues",
-      "Dire Wolf"
+      "Cumberland Blues"
     ],
     "band_performance": {
-      "Jerry": "Intense, primal psychedelic blues guitar work with a deep, scorching tone throughout the set.",
-      "Phil": "",
+      "Jerry": "Intense, primal blues tone dominates Viola Lee Blues and He Was A Friend Of Mine; some listeners note occasional wandering phrasing but overall his playing is a highlight.",
+      "Phil": "Solid bass foundation that leads into a compelling jam during The Seven and fuels the Cumberland Blues segment.",
       "Bob": "",
       "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
-    "processed_recordings": 1,
-    "processed_date": "2025-09-12T16:14:28.273018+00:00",
+    "processed_recordings": 2,
+    "processed_date": "2025-09-19T17:38:43.598075+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -187,13 +190,19 @@
         "Walkin' The Dog"
       ],
       [
+        "Me And My Uncle"
+      ],
+      [
+        "Death Don't Have No Mercy"
+      ],
+      [
+        "Dire Wolf"
+      ],
+      [
         "He Was A Friend Of Mine",
         "Viola Lee Blues",
         "The Seven",
         "Cumberland Blues"
-      ],
-      [
-        "Dire Wolf"
       ]
     ]
   }

@@ -16,43 +16,101 @@
   "high_ratings": 11,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent 1971 Austin show with a smoking Dark Star and epic Not‑Fade‑Away→Goin’ Down the Road jam, captured in a generally clear stereo broadcast mix despite minor clipping and splice issues.",
-    "review": "The performance is consistently praised as high‑energy and tightly locked, highlighted by a first‑set Dark Star, a flawless Not Fade Away → Goin' Down the Road Feeling Bad sequence, and strong renditions of Ramble On Rose, Cumberland Blues and Sugar Magnolia. The recording, sourced from an FM stereo broadcast (SBD), is described as “very nice sounding” and “wonderful stereo,” though a few reviewers note clipping at 0:52 and abrupt transitions that could benefit from a cleanup. Overall the show shines musically and remains very listenable.",
+    "summary": "Stunning November‑1971 Austin show with a smoking Not Fade Away → Goin’ Down the Road jam, captured in a generally clear soundboard mix despite a few splices.",
+    "review": "The performance is repeatedly praised as one of 1971’s finest – a first‑set Dark Star and an explosive NFA > GDTRFB sequence that many call “off the charts.”  The stereo soundboard source sounds crisp and full, though listeners note occasional clipping, missing transitions, and a splice in the Dark Star/El Paso segment.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.7,
       "confidence": "high",
-      "rationale": "The vast majority of reviews (10 out of 13) award five stars, praising both the musical performance and the sound quality; only minor technical complaints are noted, so the combined show‑plus‑recording score is high."
+      "rationale": "Overwhelmingly positive comments on both musicianship (70% weight) and a mostly clean soundboard mix (30% weight) across >10 reviews give a clear consensus of an excellent show with minor recording quirks."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Stereo broadcast (SBD) with clear, balanced mix; praised as \"very nice sounding\" and \"wonderful stereo recording.\" Some reviewers report clipping around 0:52, abrupt Dark Star/El Paso splice, and missing transitions that could be cleaned up."
+      "technical_notes": "Stereo SBD is generally crisp and full; occasional clipping at 0:52, a splice/abrupt transition in the Dark Star > El Paso segment, and missing tape sections noted by a few reviewers."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star (1st set)",
-        "Not Fade Away → Goin' Down the Road Feeling Bad",
-        "Ramble On Rose",
+        "Dark Star",
+        "Not Fade Away > Goin' Down the Road Feeling Bad",
         "Cumberland Blues",
         "Sugar Magnolia",
         "Truckin'",
-        "Playing In The Band"
+        "Ramble On Rose"
       ],
-      "poor_songs": [
-        "Beat It On Down the Line"
-      ],
-      "setlist_flow": "First set builds nicely with a smooth Truckin' into a standout Dark Star, while the second set delivers an intense NFA → GDTRFB jam and tight ensemble work throughout.",
-      "energy_level": "high"
+      "poor_songs": [],
+      "setlist_flow": "First set builds with a tight Dark Star and solid rock numbers; second set erupts into the legendary NFA‑>GDTRFB jam, delivering continuous momentum and high‑energy interplay."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar tone is praised as perfect; he “invests in the lyrics” on Ramble On Rose and shreds on Cumberland Blues.",
+      "Jerry": "Garcia’s guitar work is repeatedly highlighted – shredding on Cumberland Blues, lyrical investment on Ramble On Rose, and overall “off‑the‑charts” playing.",
       "Phil": "",
-      "Bob": "",
-      "Keys": "Keith's keyboards are noted as being \"in the pocket\" just two months into his tenure, with percussive interplay on Ramble On Rose.",
+      "Bob": "Weir (Bobby) gets praise for vocal harmonies on Brokedown and energetic interplay on Ramble On Rose.",
+      "Keys": "Keith’s piano is noted as “in the pocket” early in the tour and praised for percussive/fantastic interplay with Bob on Ramble On Rose.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T20:35:58.947070+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 5,
+        "negative_mentions": 1,
+        "total_mentions": 6
+      },
+      "Not Fade Away > Goin' Down the Road Feeling Bad": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Bertha": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Ramble On Rose": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "One More Saturday Night": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Deal": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Jack Straw": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Beat It On Down the Line": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T09:39:36.178898+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-11-15.sbd.unknown.31607.flac16"
   }

@@ -172,42 +172,67 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Fillmore West set with monster Truckin’ > The Other One",
-    "blurb": "The show delivers a towering Truckin' → The Other One jam and prominent Pigpen organ on Loser and Good Lovin'. Jerry adds wah‑wah texture to Greatest Story Ever Told and Sugar Magnolia while Bill Kreutzmann powers the rhythm. Energy stays high throughout despite occasional mix glitches in the soundboard source.",
-    "review": "The March 3, 1971 Fillmore West benefit captures a band on the cusp of its legendary mid‑'70s power. From the opening Casey Jones through a rousing second set, the Dead build relentless momentum, climaxing with an expansive Truckin' → The Other One sequence that showcases Jerry’s soaring leads and Phil’s anchoring bass (even though part of the early bass line is lost to a tape edit). Pigpen’s Hammond organ dominates the mix—especially on Loser and Good Lovin'—adding a raw, gritty edge that fans of his early work will relish. Jerry’s sunburst Les Paul shines through the occasional glitch, and his wah‑wah pedal injects color into Greatest Story Ever Told and Sugar Magnolia. Bill Kreutzmann holds down a thunderous drum groove throughout, while Bob Weir provides steady rhythm guitar support. Though the primary soundboard recording suffers from patchy levels and an over‑bright organ mix, it remains the most complete document of this historic final Fillmore West appearance.",
+    "summary": "Powerful early‑71 set with soaring Pigpen organ and a monster The Other One",
+    "blurb": "The show delivers a strong second‑set jam, highlighted by an expansive The Other One and tight Truckin' featuring Pigpen’s organ front‑and‑center. Early set shines with Hard To Handle and Loser, showcasing Garcia’s evolving tone.",
+    "review": "On March 3 1971 the Dead closed out their Fillmore West run with a benefit set that captures the band on the cusp of their heavy‑jam era. The first set rolls through tight barroom rockers – a gritty Hard To Handle and the plaintive Loser – while Jerry’s tone is already hinting at the soaring leads to come. The second set is where the magic erupts: a thunderous drum break into a mammoth The Other One, pig‑pen organ soaring over Truckin' and a crisp Wharf Rat that shows Phil’s solid bass foundation even when a tape glitch hides its opening line. Pigpen dominates the mix, sometimes a bit too forward, but his B‑3 work on The Other One, Truckin', and Bertha adds an unforgettable gospel‑blues edge. Bill Kreutzmann drives the rhythmic flow with crisp, propulsive fills, and the band wraps it all up with a jubilant Good Lovin' encore. Though the recording quality varies across sources, the performance itself is a vivid snapshot of the Dead transitioning into their early‑‘70s peak.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.2,
-      "confidence": "high"
+      "ai_rating": 3.6,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 17,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.0,
+        "sentiment_rationale": "Two of three recordings are described as positive, highlighting strong organ moments, standout jams and solid set flow; the remaining recording is mixed but notes no serious performance flaws. Consistent praise for The Other One, Hard To Handle, and Pigpen’s organ yields a moderate positive sentiment.",
+        "final_calculation": "2.5 + 0.1 + 1.0 = 3.6"
+      }
     },
     "best_recording": {
-      "identifier": "gd71-03-03.sbd.lai.6248.sbefail.shnf",
-      "reason": "Despite occasional glitches, this soundboard capture includes the full Truckin' → The Other One jam and offers the most complete representation of the benefit set."
+      "identifier": "gd1971-03-03.149880.sbd.latvala.lee.smith.miller.clugston.flac2496",
+      "reason": "Clear soundboard capture with good overall fidelity; despite an overly loud organ mix, it offers the most complete and listenable version of the performance."
     },
     "key_highlights": [
-      "Monster Truckin' → The Other One improvisation with tight interplay",
-      "Pigpen’s organ front‑and‑center on Loser, Good Lovin' and other numbers",
-      "Jerry’s wah‑wah work on Greatest Story Ever Told and Sugar Magnolia",
-      "Bill Kreutzmann’s powerful drumming drives the high‑energy flow"
+      "Mammoth The Other One jam that drives the second set",
+      "Pigpen’s soaring B‑3 on Truckin' and The Other One",
+      "Early‑71 energy on Hard To Handle and Loser",
+      "Historically significant as the band’s last Fillmore West benefit performance"
     ],
     "song_highlights": [
-      "Truckin'",
       "The Other One",
       "Good Lovin'",
+      "Truckin'",
       "Hard To Handle",
       "Loser"
     ],
     "band_performance": {
-      "Jerry": "Uses a sunburst Les Paul and wah‑wah pedal on Greatest Story Ever Told and Sugar Magnolia; tone remains strong despite mix quirks.",
-      "Phil": "Provides solid bass foundation throughout; early part of The Other One cut out but overall performance is firm.",
-      "Bob": "Steady rhythm guitar work that locks in with the band’s drive.",
-      "Brent": "",
+      "Jerry": "Garcia’s tone is evolving, with expressive whammy‑pedal work and a solid Les Paul foundation that adds grit to the early set and lifts the jam sections.",
+      "Phil": "Phil’s bass underpins the band tightly; while one tape glitch omits the opening line of The Other One, his playing remains steady throughout.",
+      "Bob": "",
+      "Pigpen": "Pigpen’s organ is a dominant force – sometimes mixed too forward but delivering soaring moments on Truckin', The Other One and Bertha that define the show’s character.",
       "Mickey": "",
-      "Billy": "Delivers powerful, propulsive drumming that underpins the extended jams."
+      "Billy": "Bill Kreutzmann shines, especially with a crisp drum break leading into The Other One, driving the second‑set energy."
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-07T16:41:10.389519+00:00",
+    "processed_date": "2025-09-20T03:27:22.722579+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Truckin'",
+        "Drums",
+        "The Other One",
+        "Wharf Rat"
+      ],
+      [
+        "Good Lovin'"
+      ],
+      [
+        "Hard To Handle"
+      ],
+      [
+        "Loser"
+      ]
+    ]
   }
 }

@@ -148,9 +148,9 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Epic Other One → Lovelight marathon with Peter Green",
-    "blurb": "The show builds from a quirky opening into a high‑energy second set highlighted by an extended The Other One into Turn On Your Lovelight. Jerry trades licks with guest Peter Green, and the China Cat Sunflower → I Know You Rider segue shines despite early mix quirks.",
-    "review": "February 1, 1970 at New Orleans’ Warehouse captures a rare benefit concert that’s become legendary among Deadheads. After a slightly uneven opening—thanks to an early Bob‑heavy soundboard mix—the band settles into a smooth groove. Highlights include the flawless China Cat Sunflower → I Know You Rider transition and a marathon The Other One that rolls straight into a soaring Turn On Your Lovelight, where Jerry Garcia locks horns with Fleetwood Mac’s Peter Green in a moment many fans cite as a career‑high. The second half never loses its momentum, delivering powerful renditions of Black Peter and High Time before the climactic Lovelight finale. While the early mix is a bit off‑balance, the later soundboard clarity lets the dual‑drum attack of Mickey and Billy shine and showcases Pigpen’s raw blues feel in the background.",
+    "summary": "Epic Lovelight with Peter Green, solid Other One jam",
+    "blurb": "The set is anchored by a monster Turn On Your Lovelight featuring guest Peter Green and Pigpen, followed by an expansive The Other One. China Cat Sunflower > I Know You Rider and Black Peter provide bright highlights, while High Time closes the set on a high note. Soundboard sources capture strong playing despite early mix quirks.",
+    "review": "On February 1, 1970 at New Orleans’ Warehouse the Dead delivered a benefit show that still feels fresh decades later. The night’s centerpiece is an unforgettable Turn On Your Lovelight – Jerry and Peter Green trade licks in a soaring duet while Pigpen adds his trademark harmonica grit and even a surprise rap cameo, stretching the jam past fourteen minutes. After a looser start (the band famously debates the beat on Beat It On Down the Line), they lock into a powerful The Other One that rolls out with the same kinetic energy. Highlights continue with a seamless China Cat Sunflower → I Know You Rider segue and a gritty Black Peter, then a breezy High Time that rounds out the set. Both soundboard recordings capture the band’s fire; the Lee‑Smith SBD offers the clearest mix after the early balance hiccups, making it the go‑to source for this historic performance.\n\nWhile Bob Weir sits front‑and‑center in the opening mix and the drums sit low at first, the overall musicianship is stellar. Phil’s bass finds its footing midway, underpinning Jerry’s twin‑tone guitar work that dominates the later numbers. Pigpen’s presence on Lovelight adds a unique flavor that only this era could produce. For Deadheads looking for an early‑70s gem with guest firepower and jam‑centric flow, this show is a must‑listen.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.1,
@@ -160,41 +160,46 @@
         "review_count_total": 21,
         "review_count_boost": 0.2,
         "sentiment_adjustment": 1.4,
-        "sentiment_rationale": "All three recordings are uniformly positive, repeatedly praising the epic The Other One → Lovelight sequence, the guest appearance by Peter Green, and the tight China Cat Sunflower → I Know You Rider flow. Multiple sources highlight the same standout moments, indicating strong consensus of a high‑quality performance.",
+        "sentiment_rationale": "All three recordings are marked positive, repeatedly praising the epic Lovelight with Peter Green and Pigpen, the powerful Other One, and strong China Cat > Rider jam. No negative comments appear across analyses, indicating consistent high praise for performance.",
         "final_calculation": "2.5 + 0.2 + 1.4 = 4.1"
       }
     },
     "best_recording": {
       "identifier": "gd1970-02-01.126275.sbd.lee-smith.flac16",
-      "reason": "Overall good soundboard capture with clear later mix; showcases the soaring Lovelight with Peter Green and retains most of the show’s energy despite early balance quirks."
+      "reason": "Soundboard capture with the clearest mix after early balance issues; fully showcases Peter Green’s guest solo and the extended Lovelight."
     },
     "key_highlights": [
-      "Epic The Other One → Turn On Your Lovelight marathon featuring guest Peter Green",
-      "Extended, soaring Lovelight that highlights Garcia’s tone against Green’s amp",
+      "Monster Turn On Your Lovelight featuring Peter Green and Pigpen's rap cameo",
+      "Extended, high‑energy The Other One jam",
       "Seamless China Cat Sunflower → I Know You Rider transition",
-      "Strong second‑set energy despite early mix imbalances"
+      "Strong performances of Black Peter and High Time despite early mix quirks"
     ],
     "song_highlights": [
+      "Turn On Your Lovelight*",
+      "The Other One",
       "China Cat Sunflower",
       "I Know You Rider",
       "Black Peter",
-      "High Time",
-      "The Other One",
-      "Turn On Your Lovelight*"
+      "High Time"
     ],
     "band_performance": {
-      "Jerry": "Garcia trades fiery licks with Peter Green on Lovelight and delivers clear, soaring solos later in the set (Cold Rain, The Other One).",
-      "Phil": "Lesh’s bass becomes more present after the mix settles, providing a solid foundation especially during I Know You Rider's a‑cappella ending.",
-      "Bob": "Weir dominates the early right channel, offering prominent rhythm work that fans will appreciate despite initial balance issues.",
-      "Brent": "",
-      "Mickey": "",
-      "Billy": ""
+      "Jerry": "Shows powerful Fender Twin tone, trades licks with Peter Green during Lovelight and shines on the closing of Cold Rain And Snow.",
+      "Phil": "Bass sits low at the start but comes forward after the mid‑set mix shift, providing solid support throughout.",
+      "Bob": "Early mix pushes his guitar forward in the right channel, making him dominate the opening songs; his playing remains clear and energetic.",
+      "Brent": "Pigpen leads the epic Lovelight with harmonica grit and a surprise rap cameo, adding unique flavor to the jam.",
+      "Mickey": "Drums are low and occasionally inaudible early on but grow steadier after Bear's solo, contributing a tighter backbeat later.",
+      "Billy": "Shares the early drum balance issues; overall drumming improves in the second half of the set."
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-12T14:05:29.409461+00:00",
+    "processed_date": "2025-09-19T15:14:21.720561+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
+      [
+        "Cryptical Envelopment",
+        "The Other One",
+        "Turn On Your Lovelight*"
+      ],
       [
         "China Cat Sunflower",
         "I Know You Rider"
@@ -204,11 +209,6 @@
       ],
       [
         "High Time"
-      ],
-      [
-        "Cryptical Envelopment",
-        "The Other One",
-        "Turn On Your Lovelight*"
       ]
     ]
   }

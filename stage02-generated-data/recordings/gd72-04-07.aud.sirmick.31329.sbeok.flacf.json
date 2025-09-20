@@ -16,18 +16,18 @@
   "high_ratings": 0,
   "low_ratings": 5,
   "ai_review": {
-    "summary": "Muddy audience recording of a Wembley ’72 show where the second‑set Truckin' and The Other One shine despite near‑unlistenable sound.",
-    "review": "The performance includes several musical high points – an excellent Truckin' with a strong Garcia solo, a superb The Other One suite and a noteworthy China/Rider transition – but the two audience sources are described as extremely muddy and virtually unlistenable. Listeners appreciate the historical value and the few standout moments, yet the poor audio quality dominates the overall experience.",
+    "summary": "Muddy audience recording that’s almost unlistenable, but the second‑set Truckin' and The Other One provide rare musical highlights.",
+    "review": "The audio source is a very poor audience capture – listeners describe it as muddy, “tennis match of sounds,” and virtually unlistenable. Musically the show has a few bright spots, notably an excellent Truckin' with a strong Garcia solo and a superb The Other One (with a Me & My Uncle jam), while the first set is largely unremarkable and songs like Boss Man and Casey Jones are deemed terrible.",
     "sentiment": "negative",
     "ai_rating": {
-      "stars": 2.3,
-      "confidence": "medium",
-      "rationale": "Show contains several strong performances (Truckin', The Other One, China/Rider) but recording is consistently described as terrible and unlistenable; low star ratings across reviews drive the overall rating down."
+      "stars": 1.6,
+      "confidence": "high",
+      "rationale": "All seven reviews rate the release between 0‑2 stars, uniformly condemning the recording quality; musical performance gets a few positive notes but cannot outweigh the severe audio issues."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Both audience sources are extremely muddy, with frequent drop‑outs and a 'tennis match' of sounds; reviewers call it unlistenable, muffled and barely listenable."
+      "technical_notes": "Both audience sources are described as extremely muddy, unlistenable and full of drop‑outs; reviewers call it a “tennis match of sounds” and advise waiting for a better source."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,18 +35,52 @@
         "The Other One",
         "China/Rider"
       ],
-      "poor_songs": [],
-      "setlist_flow": "First set largely unremarkable; second set launches with a strong Truckin' segueing into a superb The Other One suite with melodic space and jazzy reprise, highlighted by Garcia solo work.",
-      "energy_level": "medium"
+      "poor_songs": [
+        "Boss Man",
+        "Casey Jones"
+      ],
+      "setlist_flow": "First set is largely unremarkable; second set shines with a strong Truckin' and an expansive The Other One, though overall the performance suffers from the poor acoustic environment."
     },
     "band_member_comments": {
-      "Jerry": "Garcia's solo on Truckin' is praised; interplay with keyboards noted during The Other One.",
+      "Jerry": "Garcia’s solo on Truckin' praised as very nice; interplay with Keith noted during The Other One.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Keith contributes a melodic space segment and jazzy interplay in The Other One reprise.",
-      "Drums": "A notable drum break precedes the transition into The Other One."
+      "Keys": "Keith's interplay with Jerry during The Other One highlighted as superb.",
+      "Drums": ""
     },
-    "processed_date": "2025-09-07T22:51:14.146405+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China/Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me and My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Boss Man": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T12:46:41.612448+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-04-07.aud.sirmick.31329.sbeok.flacf"
   }

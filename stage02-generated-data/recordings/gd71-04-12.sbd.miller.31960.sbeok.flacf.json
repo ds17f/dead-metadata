@@ -16,43 +16,86 @@
   "high_ratings": 18,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crisp sound‑board capture of a high‑energy April ’71 Pittsburgh show, highlighted by a smoking Other One, epic Lovelight and tight Phil bass work.",
-    "review": "The recording is an exceptionally clear SBD source that puts the band up close—vocals and instruments are crystal‑clear though the audience is barely audible.  Musically the concert is a standout for 1971, with a blistering second set (Other One → Lovelight, Not Fade Away → Greatest Story → Playing in the Band) and strong Pigpen, Garcia and Phil performances, despite a few tape‑flip cuts that truncate songs like Hard to Handle. ",
+    "summary": "Crystal‑clear soundboard capture of an energetic April ’71 Pittsburgh show, highlighted by a scorching Other One, epic Lovelight segue and tight Pigpen‑driven jams.",
+    "review": "The recording is a very crisp SBD source that lets every instrument shine, though occasional tape drops and missing sections keep it from being flawless. Musically the concert is a high‑water mark for spring ’71 – Pigpen’s bluesy grit, Phil’s booming bass, and tight group interplay make the second set especially memorable with a monster Other One, a seamless New Futures > Good Times Bad Times > Lovelight sequence and fiery Truckin’/Sugar Magnolia. Overall listeners rave about the performance despite a few glitches.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Average star rating across ~20 detailed reviews is ~4.3; the vast majority praise both performance and sound quality, with only occasional notes of cuts or minor glitches."
+      "rationale": "Most reviewers give 4‑5 stars and praise both the performance (standout jams, strong Pigpen, Phil, and tight group play) while noting only occasional recording glitches; the weighted average of show (70%) and recording (30%) quality lands in the good‑to‑great range."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Very crisp, close‑miked SBD mix; vocals and instruments sit front‑and‑center. Audience is almost inaudible (a common SBD trait). Reviewers note occasional jumpy spots, tape‑flip cuts (e.g., Hard to Handle) and a few glitches in Cold Rain & Snow, but overall the sound is clear and balanced."
+      "technical_notes": "Exceptionally clear, crisp SBD with vocals and instruments up close; audience barely audible. Several reviewers note tape glitches, missing sections (e.g., half of H2H, Hard to Handle) and occasional drop‑outs that prevent an 'excellent' rating."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One",
+        "New Futures > Good Times Bad Times > Lovelight",
         "Lovelight",
-        "Not Fade Away > Greatest Story Ever Told > Playing In The Band",
         "Truckin'",
         "Sugar Magnolia",
-        "Bertha"
+        "Casey Jones",
+        "Hard to Handle (when intact)",
+        "Pigpen solo moments"
       ],
       "poor_songs": [
-        "Hard to Handle (cut mid‑song)",
-        "Wharf Rat (described as a work in progress)"
+        "Hard to Handle (cut early)",
+        "Wharf Rat (work in progress)"
       ],
-      "setlist_flow": "First set starts a bit shaky but tightens by Bertha; second set opens strong with Truckin' and a powerful Other One, flows through seamless segues into Lovelight and the NFA → GDTRFB sequence.  Tape‑flip cuts interrupt a few jams, but overall pacing is high‑energy and well‑structured.",
-      "energy_level": "high"
+      "setlist_flow": "First set starts a bit shaky but tightens by the second song; second set launches with Truckin' and builds into an intense Other One, seamless jams through NFA>GDTRFB>Lovellight, and finishes on high energy. The show feels like a solid, rock‑forward 1971 performance despite curfew constraints."
     },
     "band_member_comments": {
-      "Jerry": "Garcia is described as firing up, delivering strong guitar riffs and vocal presence (though occasional lyric slips on Loser).",
-      "Phil": "Repeatedly praised – ‘Phil in high gear’, ‘prominent Phil zone’, ‘totally in charge tonight’.",
-      "Bob": "Noted for tightened rhythm work; drives Hard to Handle and Johnny B. Goode, with strong guitar presence throughout.",
-      "Keys": "",
-      "Drums": "Bill Kreutzmann gets special mention for a white‑hot performance on Lovelight and overall tight drumming."
+      "Jerry": "Garcia’s guitar is described as fired up, crisp, and driving especially on Hard to Handle, Loser, and the Other One; vocal moments noted as occasionally loose but energetic.",
+      "Phil": "Phil’s bass is repeatedly praised – ‘in charge’, prominent in the mix, high‑gear playing that anchors the set.",
+      "Bob": "Bob Weir’s rhythm guitar gets strong kudos for tightening up, driving Hard to Handle and Johnny B. Goode; his chord work noted as a highlight.",
+      "Keys": "Keyboards are mentioned only sparsely – some reviewers note little or no keyboards audible, while others simply accept the mix without comment.",
+      "Drums": "Bill Kreutzmann’s drumming is highlighted on the Other One and Lovelight with ‘white‑hot’ intensity; overall drum work described as solid."
     },
-    "processed_date": "2025-09-07T17:27:15.209682+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "New Futures > Good Times Bad Times > Lovelight": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Lovelight": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Truckin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Wharf Rat": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Casey Jones": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-20T04:37:57.312281+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-04-12.sbd.miller.31960.sbeok.flacf"
   }

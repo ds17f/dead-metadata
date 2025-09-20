@@ -232,50 +232,53 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Epic Dark Star > Main Ten > Dancin' with soaring Morning Dew",
-    "blurb": "The show delivers a landmark Dark Star → Main Ten → Dancin’ sequence and an emotionally charged Morning Dew. Jerry’s guitar soars, Pigpen shines on Operator and Baby Blue, and the band rides high‑energy Truckin’ into two blistering Good Lovin’ jams.",
-    "review": "Port Chester’s November 8, 1970 concert is frequently cited as a turning point in the Dead’s late‑'70 evolution. The acoustic opener – Dire Wolf, I Know You Rider and Dark Hollow – sets a relaxed tone before the band launches into an electric marathon highlighted by a soaring Dark Star that morphs seamlessly into the Main Ten and erupts on Dancin’ In The Street. Jerry Garcia’s lead work is nothing short of transcendent, especially during the extended Dark Star solo and the heartfelt Morning Dew that opens the second set. Pigpen McKernan adds his trademark grit with a powerful Operator and a soulful Baby Blue, while Phil Lesh provides an unshakable bass anchor throughout the marathon jams. The dual‑drum attack of Mickey Hart and Bill Kreutzmann drives the high‑octane Truckin’ and Good Lovin’ sections, punctuated by classic moments like New Orleans, Casey Jones and a double Not Fade Away/Good Lovin’ outro. Across the ten available sources, the cleaned‑up audience tape (gd1970-11-08.aud.weiner.28609.sbeok.shnf) offers the clearest window into this legendary performance, balancing ambience with surprising detail for a 1970 recording.",
+    "summary": "Dark Star marathon, soaring Morning Dew and killer Truckin'",
+    "blurb": "The second set erupts with a blistering Dark Star into The Main Ten > Dancin’ In The Street sequence, highlighted by Jerry’s legendary solo. Pigpen’s organ shines on Operator while the acoustic opener sets a relaxed tone. Overall it’s a late‑70s classic that rewards repeated listening.",
+    "review": "Port Chester’s November 8, 1970 concert captures the Grateful Dead at a creative peak. The first set rolls through folk‑rock staples like Dire Wolf and Uncle John’s Band before giving way to an electric onslaught that peaks with a Dark Star that many reviewers call “all‑time favorite,” flowing seamlessly into The Main Ten and a funky Dancin’ In The Street. Jerry Garcia’s tone is on fire, especially during the soaring Morning Dew solo praised as “beyond humanly possible.” Pigpen adds soulful organ color on Operator, while Bob Weir delivers a “crazy” New Orleans that fans still talk about. The dual‑drum attack from Mickey and Bill provides extra sparkle, even earning a nod for a “nice xylophone” texture in Dark Star. With strong acoustic moments, relentless energy, and several standout jams, this show stands out as one of the era’s must‑hear performances.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.2,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 147,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.3,
+        "sentiment_rationale": "Five of eight recordings are positively described, highlighting Dark Star, Morning Dew, Truckin', and Pigpen’s organ work; no consistent negative remarks appear, warranting a solid positive adjustment.",
+        "final_calculation": "2.5 + 0.4 + 1.3 = 4.2"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-11-08.aud.weiner.28609.sbeok.shnf",
-      "reason": "Cleaned‑up audience tape with good fidelity, minimal hiss and captures the full arc of the show, making it the most listenable version despite being an audience source."
+      "reason": "Balanced audience mix with clear crowd ambience and good overall fidelity, making it the most enjoyable listening experience."
     },
     "key_highlights": [
-      "Dark Star > Main Ten > Dancin' sequence",
-      "Morning Dew emotional climax",
-      "Pigpen’s Operator and Baby Blue showcase",
-      "High‑energy Truckin’ and double Good Lovin’ jams"
+      "Legendary Dark Star that stretches into The Main Ten > Dancin’ In The Street",
+      "Jerry’s soaring Morning Dew solo hailed as an all‑time favorite",
+      "Pigpen’s gritty organ on Operator adds soulful depth",
+      "High‑energy first set and seamless transitions keep the momentum alive"
     ],
     "song_highlights": [
-      "Morning Dew",
       "Dark Star",
+      "Morning Dew",
+      "Truckin'",
       "The Main Ten*",
       "Dancin' In The Street*",
-      "Truckin'",
-      "Good Lovin'",
-      "New Orleans",
       "Operator"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers soaring tones on Morning Dew and an epic solo through Dark Star → Main Ten → Dancin', cementing the night as one of his most inspired performances.",
-      "Phil": "Lesh lays down a rock‑solid bass foundation throughout the long jams, re‑entering smoothly after percussion interludes and keeping the groove tight.",
-      "Bob": "Weir’s vocals shine on Dire Wolf and acoustic numbers; his rhythm work is steady, and he adds extra fire on New Orleans, even shouting “slow down!” during the jam.",
+      "Jerry": "Garcia delivers a monster Dark Star solo and an “all‑time favorite” Morning Dew, with his tone and improvisational daring at the show's core.",
+      "Phil": "",
+      "Bob": "Weir shines on New Orleans with a “crazy” guitar vibe and adds vocal intensity throughout the set.",
       "Brent": "",
-      "Mickey": "Hart’s percussion drives the high‑energy sections of Dark Star and powers the Dancin' climax, with reviewers noting a nice xylophone texture in the jam.",
-      "Billy": "Kreutzmann pairs with Hart to create relentless momentum on Truckin’ and Good Lovin’, propelling the band through intense improvisational peaks."
+      "Mickey": "Mickey’s percussion adds texture, including a noted “nice xylophone” sound during Dark Star that enhances the rhythmic drive.",
+      "Billy": ""
     },
-    "processed_recordings": 9,
-    "processed_date": "2025-09-11T11:28:23.187588+00:00",
+    "processed_recordings": 8,
+    "processed_date": "2025-09-20T01:08:06.718226+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "Morning Dew"
-      ],
       [
         "Truckin'",
         "Dark Star",
@@ -283,16 +286,7 @@
         "Dancin' In The Street*"
       ],
       [
-        "Not Fade Away",
-        "Goin' Down The Road Feeling Bad",
-        "Not Fade Away",
-        "Good Lovin'",
-        "Drums",
-        "Good Lovin'"
-      ],
-      [
-        "New Orleans",
-        "Searchin'"
+        "Morning Dew"
       ],
       [
         "Operator"

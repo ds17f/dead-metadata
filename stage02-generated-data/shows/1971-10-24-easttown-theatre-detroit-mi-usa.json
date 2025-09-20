@@ -177,23 +177,31 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Dark Star and tight set with fresh Keith piano",
-    "blurb": "The show bursts with a soaring Dark Star and crisp playing throughout. Highlights include Sugar Magnolia, St. Stephen > Johnny B. Goode and the first‑year Keith Godchaux piano adding fresh texture. Recording quality is excellent, making this a must‑listen.",
-    "review": "October 24, 1971 at Detroit's Easttown Theatre finds the Dead firing on all cylinders. From the opening of Sugar Magnolia through a blistering Dark Star that stretches into a soaring Me And Bobby McGee, the band delivers a high‑energy performance powered by Jerry’s fleet, nimble lead work and Phil’s body‑shaking bass runs. Keith Godchaux’s early‑stage piano adds a bright, honky‑tonk flavor to familiar material, while Bill Kreutzmann punches the gas pedal on the backbeat, especially during the Dark Star climax. The second set flows effortlessly into a tight St. Stephen > Johnny B. Goode transition that showcases Bob’s vocal gusto and his rhythm work as a quasi‑second lead in the China Cat Sunflower > I Know You Rider segment. With both soundboard sources capturing the show cleanly—one with pristine clarity and the other with just a hint of hiss—the performance shines through, making this concert one of the standout recordings from the 1971 tour.",
+    "summary": "High‑energy transition show with soaring Dark Star and fresh Keith piano",
+    "blurb": "The set delivers a scorching Dark Star and tight Sugar Magnolia, while Keith Godchaux’s early‑period piano adds extra drive. Jerry’s guitar shines throughout and the rhythm section locks in for an intense second set.",
+    "review": "On October 24, 1971 at Detroit’s Easttown Theatre the Dead were in a high‑energy “transition year” groove that foreshadowed their 1972 sound. The first set rolls through classics like Sugar Magnolia, El Paso and Jack Straw before launching into a fiery China Cat Sunflower → I Know You Rider that sets the stage for an explosive second half. Dark Star erupts with Jerry’s nimble, “Alligator‑Strat” tone and Bill’s aggressive gas‑pedal drive, while Keith’s supercharged piano injects fresh momentum throughout. The band closes strong with a seamless St. Stephen → Johnny B. Goode that caps an evening of tight harmonies, thumping bass runs from Phil and solid rhythm work from Bob. For anyone hunting a snapshot of the Dead on the cusp of their next evolution, this show is a must‑listen.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.2,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 29,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "Both recordings are described with uniformly positive language—‘pristine’, ‘high‑energy’, ‘expansive Dark Star’, ‘crisp performances’. Reviewers repeatedly praise Jerry’s guitar, Keith’s fresh piano, and the tight rhythm section across multiple sources, providing strong cross‑validation of standout moments. No negative comments appear, just consistent acclaim, warranting a high positive sentiment boost.",
+        "final_calculation": "2.5 + 0.3 + 1.4 = 4.2"
+      }
     },
     "best_recording": {
       "identifier": "gd1971-10-24.sbd.miller.125887.flac16",
-      "reason": "Exceptional soundboard capture with crystal‑clear, spacious audio and no drop‑outs, preserving the full intensity of the performance."
+      "reason": "Excellent sound‑board source with clean, spacious mix and no reported drop‑outs; captures the full energy of the performance."
     },
     "key_highlights": [
-      "Soaring Dark Star with nimble Garcia leads and powerful Lesh bass",
-      "St. Stephen > Johnny B. Goode transition that locks the band into tight groove",
-      "First‑year Keith Godchaux piano adds bright, fresh texture to classic material",
-      "High‑energy set flow highlighted by Sugar Magnolia and Jack Straw"
+      "Scorching Dark Star jam that showcases Jerry’s soaring lead work",
+      "Keith Godchaux’s fresh, supercharged piano adds extra drive to the set",
+      "High‑energy transition‑year vibe with tight rhythm and aggressive drumming",
+      "Tight St. Stephen → Johnny B. Goode finish and standout Sugar Magnolia"
     ],
     "song_highlights": [
       "Dark Star",
@@ -205,19 +213,53 @@
       "Johnny B. Goode",
       "China Cat Sunflower",
       "I Know You Rider",
-      "Playing In The Band"
+      "Black Peter",
+      "Candyman"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers fleet, nimble leads with perfect tone, crushing solos in Dark Star and tight rhythm throughout.",
-      "Phil": "Lesh provides body‑shaking bass runs, off‑the‑chart high‑register licks in China>Rider and Dark Star, plus powerful backing vocals.",
-      "Bob": "Weir offers strong vocal moments, energetic rhythm work on Jack Straw and Tennessee Jed, and adds a second lead feel during the China Cat Sunflower > I Know You Rider jam.",
-      "Keith": "Godchaux’s early‑stage piano injects sweet, honky‑tonk energy, freshening up the 1971 material with bright textures.",
+      "Jerry": "Nimble, perfect‑tone guitar with soaring leads on Dark Star and crushing solos throughout; repeatedly praised as an “Alligator” Strat.",
+      "Phil": "Body‑shaking bass runs that drive Dark Star and thumping low end in China>Rider; high‑register licks noted as otherworldly.",
+      "Bob": "Steady rhythm guitar and vocal contributions, adding humor and solid support across the set.",
+      "Brent": "",
+      "Keith": "Supercharged early‑period piano/organ that injects fresh energy and major drive, helping the band settle into its evolving sound.",
       "Mickey": "",
-      "Billy": "Kreutzmann drives the second half with aggressive, gas‑pedal drumming, anchoring the band especially during the Dark Star climax."
+      "Billy": "Kick‑ass, aggressive drumming with a gas‑pedal style that fuels the intensity of Dark Star and the second half."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-07T20:00:39.591780+00:00",
+    "processed_date": "2025-09-20T08:37:44.121919+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Dark Star",
+        "Me And Bobby McGee"
+      ],
+      [
+        "Sugar Magnolia"
+      ],
+      [
+        "El Paso"
+      ],
+      [
+        "Tennessee Jed"
+      ],
+      [
+        "Jack Straw"
+      ],
+      [
+        "Saint Stephen",
+        "Johnny B. Goode"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ],
+      [
+        "Black Peter"
+      ],
+      [
+        "Candyman"
+      ]
+    ]
   }
 }

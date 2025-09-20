@@ -16,56 +16,62 @@
   "high_ratings": 5,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Lively audience tape with a clear, crowd‑filled sound that captures an early‑1970 set highlighted by a haunting “He Was A Friend Of Mine” and a vibrant Viola Lee Blues > The Seven, despite occasional channel wobble.",
-    "review": "This audience recording (AUD) delivers the raw energy of a 1970 show – the crowd is audible and enthusiastic, and the set includes rare early performances such as “Friend of the Devil,” “Walking the Dog,” and a standout “He Was A Friend Of Mine.” The audio is generally listenable and even praised as one of the cleaner audience sources, though reviewers note right‑channel wavering, a bass‑heavy mix, muddy vocals and a brief tape‑curl that benefit from EQ and slight pitch correction.",
+    "summary": "Audience recording captures a spirited early‑1970 show with standout performances of “He Was A Friend Of Mine”, “Walking The Dog” and the Viola Lee Blues → The Seven combo, while sound quality ranges from lively to muddy.",
+    "review": "The concert is praised for its rare set – early renditions of “Friend Of The Devil”, a haunting “He Was A Friend Of Mine”, and an eclectic mix that includes “Walking The Dog” and the Viola Lee Blues → The Seven sequence.  Although the audience tape is generally listenable and even described as “stereo‑like”, several reviewers note channel wobble, bass‑heavy mix and occasional tape‑speed issues.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers give high marks (5‑star) and praise the performance; only a few note recording flaws, leading to an overall strong rating with solid confidence from seven detailed reviews."
+      "rationale": "Most reviewers give high marks for the performance and highlight many classic moments; recording flaws are noted but do not dominate, resulting in an overall strong rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Generally clear crowd ambience, but right‑channel wavering and bassy mix reported; muddy vocal texture on some tracks, brief tape‑curl at the start of Viola Lee Blues > The Seven, and a need for slight BAL/EQ and -1% pitch correction."
+      "technical_notes": "Tape is lively with a pleasant ambience, but suffers from right‑channel wobble, bass‑heavy mix, muddy vocals and occasional tape‑curl/speed issues that require EQ and slight pitch correction."
     },
     "show_quality": {
       "standout_songs": [
         "He Was A Friend Of Mine",
-        "Walking the Dog",
+        "Walking The Dog",
         "Viola Lee Blues > The Seven",
-        "Friend of the Devil",
         "Me & My Uncle",
         "Death Don't Have No Mercy",
         "Dire Wolf"
       ],
-      "poor_songs": [],
-      "setlist_flow": "The early‑1970 set runs as a single long set, mixing rare folk material with familiar blues/rock numbers; crowd interaction is high and the band transitions smoothly through highlights such as Viola Lee Blues > The Seven and the late‑show acoustic vibe."
+      "poor_songs": [
+        "Walking The Dog"
+      ],
+      "setlist_flow": "A single early‑show set that weaves folk‑rock cuts with rare blues numbers; highlights include the Viola Lee Blues → The Seven transition, a spirited “Me & My Uncle”, and crowd‑driven moments like the Dark Star call‑out.  The flow is energetic but occasionally uneven due to the band adjusting to new material."
     },
     "band_member_comments": {
-      "Jerry": "His playing is described as both brilliant (haunting tone on “He Was A Friend Of Mine”) and uneven – \"all over the place\" at times.",
-      "Phil": "Solid bass work, notably the spontaneous Cumberland segue during The Seven, helping keep the flow tight.",
+      "Jerry": "Garcia’s tone on “He Was A Friend Of Mine” is praised, yet some note he sounds “all over the place” and struggles with NYC crowd restraint.",
+      "Phil": "Phil’s bass leads into a compelling Cumberland jam during The Seven sequence.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
     "song_mentions": {
       "He Was A Friend Of Mine": {
-        "positive_mentions": 5,
+        "positive_mentions": 4,
         "negative_mentions": 0,
-        "total_mentions": 5
+        "total_mentions": 4
       },
-      "Viola Lee Blues > The Seven": {
+      "Viola Lee Blues": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
       },
-      "Walking the Dog": {
+      "The Seven": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Walking The Dog": {
         "positive_mentions": 2,
         "negative_mentions": 1,
         "total_mentions": 3
       },
-      "Friend of the Devil": {
+      "Friend Of The Devil": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -86,7 +92,7 @@
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T01:03:47.658996+00:00",
+    "processed_date": "2025-09-19T17:35:09.555622+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-03-21.early.aud.5315.sbeok.shnf"
   }

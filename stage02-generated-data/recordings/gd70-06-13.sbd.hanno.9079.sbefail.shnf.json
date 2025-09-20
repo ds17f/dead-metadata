@@ -16,36 +16,37 @@
   "high_ratings": 13,
   "low_ratings": 4,
   "ai_review": {
-    "summary": "Matrix recording of fair quality captures a hot‑summer Hawaii show with a smoking Easy Wind and standout New Speedway, but the mix is uneven and at times distracting.",
-    "review": "The performance is widely praised – Phil’s driving bass on Easy Wind, razor‑sharp drumming and inspired versions of New Speedway, Good Lovin' and Me & My Uncle make this a memorable 1970 show.  The source is a clobbered matrix (SBD + audience) that swings from muddy AUD to crystal‑clear SBD, leaving the overall sound at best fair and often harsh.  Listeners who can look past the inconsistent mix will enjoy the high energy and historic vibe.",
+    "summary": "Matrix recording with fair sound quality but a hot‑energy Hawaiian show highlighted by an epic Easy Wind and stellar New Speedway/Good Lovin' jams",
+    "review": "The performance is widely praised – Phil’s driving Easy Wind, the “dank” New Speedway jam, a soaring Good Lovin', and a powerful Love Light all get strong mentions.  The source is a mixed SBD/Audience matrix that swings from muddy early AUD sections to crystal‑clear board tracks, leaving many listeners frustrated by inconsistent mix levels and occasional snare buzz.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.5,
-      "confidence": "high",
-      "rationale": "Most reviewers love the musical performance (many 4‑5 star comments) but repeatedly criticize the recording/mix, resulting in a middling overall rating."
+      "stars": 3.6,
+      "confidence": "medium",
+      "rationale": "Show quality is consistently praised (many positive song mentions) while recording quality is described as uneven, ranging from awful to crystal‑clear; the weighted average lands in the good‑to‑fair range."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "fair",
-      "technical_notes": "Mix alternates between muddy audience (AUD) and clear soundboard (SBD); many note hiss, static, snare buzz and uneven instrument balance.  Some sections are praised as crystal‑clear, but overall the recording is described as ugly, off‑and‑on, or “dank” rather than pristine."
+      "technical_notes": "Early audience (AUD) portions are muddy and static‑y, later board (SBD) sections are clear. Mix is odd – Phil often high, Jerry buried, snare buzzes, but the matrix allows full set listening."
     },
     "show_quality": {
       "standout_songs": [
         "Easy Wind",
         "New Speedway",
         "Good Lovin'",
+        "Love Light",
         "Me and My Uncle",
-        "Lovelight"
+        "Pigpen"
       ],
       "poor_songs": [],
-      "setlist_flow": "Fans note an inspired, high‑energy Hawaiian vacation set with strong jams, but the fragmented source makes the flow feel disjointed; a guest keyboard appears mid‑show and track order confusion (duplicate Easy Wind/Uncle John) adds to the mess."
+      "setlist_flow": "High‑energy Hawaiian vacation vibe with strong jams; however, the track order is confusing (duplicate Easy Wind/Uncle John sections) and the tape runs out before Love Light finishes."
     },
     "band_member_comments": {
-      "Jerry": "Often pushed back in the mix, sometimes barely audible; some reviewers note his guitar is backgrounded for much of the show.",
-      "Phil": "Praised for a hard‑driving bass line on Easy Wind and highlighted as a key reason to study this recording.",
-      "Bob": "His rhythm guitar and vocal presence are mixed high at times, described as leading the jam in certain sections.",
-      "Keys": "A guest keyboard is heard during New Speedway; reviewers anticipate Keith’s later appearance but note it isn’t present here.",
-      "Drums": "Drummers are called razor‑sharp by some, yet others hear a tap‑in‑the‑background snare buzz and overall weak drum presence."
+      "Jerry": "Often pushed back in the mix, sometimes buried behind Phil’s bass.",
+      "Phil": "Highlighted for driving the Easy Wind and being prominent in the mix (both praised and noted as overly loud).",
+      "Bob": "Mentioned as leading jams on Good Lovin' and other sections.",
+      "Keys": "Guest keyboard appears during New Speedway; Keith is absent but anticipated.",
+      "Drums": "Drummers described as razor‑sharp by some, but also “tap in the background” and snare buzz noted."
     },
     "song_mentions": {
       "Easy Wind": {
@@ -54,13 +55,18 @@
         "total_mentions": 7
       },
       "New Speedway": {
-        "positive_mentions": 2,
+        "positive_mentions": 4,
         "negative_mentions": 0,
-        "total_mentions": 2
+        "total_mentions": 4
       },
       "Good Lovin'": {
         "positive_mentions": 2,
         "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Love Light": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
         "total_mentions": 2
       },
       "Me and My Uncle": {
@@ -68,13 +74,13 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Lovelight": {
+      "Pigpen": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T19:13:37.474642+00:00",
+    "processed_date": "2025-09-19T21:12:17.086278+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-06-13.sbd.hanno.9079.sbefail.shnf"
   }

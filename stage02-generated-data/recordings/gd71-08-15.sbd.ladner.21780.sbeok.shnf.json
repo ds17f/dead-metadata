@@ -16,45 +16,100 @@
   "high_ratings": 10,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture with crisp mix (minor channel quirks) showcases a high‑energy August ’71 set highlighted by monster Other One jams and a soaring Wharf Rat.",
-    "review": "The Berkeley 8/15/71 recording is a soundboard source that sounds generally clear and well‑balanced, though listeners note some left‑channel hiss and occasional drop‑outs of Bob Weir’s guitar. Musically the show is a classic summer ’71 performance – the Other One jams are “smoking,” Wharf Rat is a standout, and the band delivers strong renditions of Lovelight, Cumberland Blues, China Cat > Rider, and Casey Jones despite a few first‑set hiccups.",
+    "summary": "A crisp sound‑board capture of the historic Berkeley ’71 shows, highlighted by incendiary Other One jams and a tight rhythm section despite occasional mix quirks.",
+    "review": "These recordings from August 14‑15 1971 at the Berkeley Community Theatre deliver a strong performance with standout moments like The Other One, Wharf Rat, Cumberland Blues and a smoking Truckin’/Other One sequence.  Reviewers praise the overall soundboard quality – crisp and detailed – though they note occasional balance problems (Jerry buried in the left channel, Phil’s bass forward, Bob’s guitar dropping out).  The show is generally regarded as a high‑water mark of the Summer ’71 era.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical performance (high energy, standout jams) and consider the recording good to excellent despite minor mix issues; weighted average of show (≈4.5) and recording (≈4) yields a 4.3 rating."
+      "rationale": "The majority of reviews are 4–5 stars and highlight exceptional musical moments; recording quality is described as crisp with only minor mix issues, yielding a strong combined rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Crisp overall sound with clear instrument separation; left channel has hiss, Jerry sometimes buried in mix, Bob’s guitar disappears at points, and a few pitch‑correction anomalies are noted. Mix is generally praised but not flawless."
+      "technical_notes": "Crisp, detailed soundboard capture.  Mix anomalies: left channel low on Jerry, Phil’s bass overly forward, Bob Weir’s guitar disappearing in parts (Not Fade Away jam).  Some reviewers needed pitch correction for speed, but overall clarity is high."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One",
         "Wharf Rat",
-        "Turn On Your Lovelight",
         "Cumberland Blues",
         "China Cat Sunflower > I Know You Rider",
         "Casey Jones",
         "Truckin'",
-        "Me & My Uncle"
+        "Turn On Your Lovelight"
       ],
       "poor_songs": [
-        "Playin'",
+        "Not Fade Away",
         "Boss Man"
       ],
-      "setlist_flow": "The first set has a rough start (tuning issues, broken string) but builds into solid grooves; the second set is fire‑filled with back‑to‑back Other One jams and a long, flowing Wharf Rat sequence that ties the show together.",
-      "energy_level": "high"
+      "setlist_flow": "The shows flow with a tight first set and an explosive second set dominated by extended jams (Other One, Me & My Uncle, Wharf Rat).  The rhythm section is praised as tight; the band’s energy builds especially after the mid‑set transition."
     },
     "band_member_comments": {
-      "Jerry": "Tone described as thin (Les Paul vs. Strat debate); sometimes low in mix and left‑channel hiss noted; overall praised for strong solo work during jams.",
-      "Phil": "Bass is front‑and‑center, especially brilliant on the Other One jams; several reviewers call his playing \"excellent\" and a highlight of both nights.",
-      "Bob": "Weir’s rhythm guitar drops out in parts of the mix, notably during the Not Fade Away jam, reducing his usual rhythmic glue.",
-      "Keys": "Keith’s piano noted for influencing Jerry’s tone, but no specific performance comments beyond that.",
-      "Drums": "Bill Kreutzmann’s drumming is generally praised; no detailed critiques beyond standard rhythm‑section strength."
+      "Jerry": "Often buried in the left channel; tone described as thin (Strat/Les Paul debate) but still “kickin’”.",
+      "Phil": "Bass sits forward in the mix and shines on the Other One jams; praised for brilliance.",
+      "Bob": "Guitar disappears at points (Not Fade Away jam), reducing rhythmic glue.",
+      "Keys": "",
+      "Drums": ""
     },
-    "processed_date": "2025-09-07T19:27:39.219109+00:00",
+    "song_mentions": {
+      "Turn On Your Lovelight": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Not Fade Away": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Wharf Rat": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Truckin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "White Rabbit": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Boss Man": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T07:44:43.314596+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-08-15.sbd.ladner.21780.sbeok.shnf"
   }

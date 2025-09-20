@@ -149,45 +149,49 @@
     "daves-picks-vol-30"
   ],
   "ai_show_review": {
-    "summary": "Dynamic Dark Star journey with strong organ presence",
-    "blurb": "The show shines on an expansive Dark Star that rides a wave of improvisation, while Tom Constanten’s organ sits front‑and‑center. Jerry’s lead work is fiery and Bob supplies tasteful rhythm, though Phil’s bass can be hard to hear in places.",
-    "review": "On January 2, 1970 at the Fillmore East the Dead delivered a set that balances tight songcraft with exploratory jams. The highlight is an epic Dark Star that erupts after a seamless segue from China Cat Sunflower > I Know You Rider, showcasing Jerry’s ripping lead lines and Mickey’s creative percussion. Tom Constanten’s keyboards dominate the mix, giving the performance a distinctive, space‑y texture, while Bob Weir adds a memorable solo in the jam sections. Phil Lesh holds down the low end, though his bass occasionally gets buried beneath the organ. Overall the band is locked into a powerful groove that makes this late‑show a must‑listen for fans of the early ’70 era.",
+    "summary": "Dark Star marathon with soaring solos and tight rhythm",
+    "blurb": "The late‑show Dark Star that morphs through Saint Stephen, The Eleven and Turn On Your Lovelight is the emotional high point. High Time opens strong and the band stays locked in throughout. Overall a solid early‑1970 performance with standout improvisation.",
+    "review": "January 2, 1970 at the Fillmore East captures the Dead in a quintessential early‑70 groove. After a crisp set that kicks off with Uncle John's Band and rides through High Time and Dire Wolf, the second half launches into an extended Dark Star that blossoms into Saint Stephen, The Eleven and a fiery Turn On Your Lovelight – a sequence reviewers call “scorching” and “on fire.” Jerry Garcia’s lead‑guitar soars with inventive licks and playful chatter, while Phil Lesh lays down a full, driving low end especially evident in the Lovelight climax. Tom Constanten’s organ adds an otherworldly texture to the jam, and Mickey Hart and Bill Kreutzmann keep the rhythmic engine tight and powerful on The Eleven and throughout the marathon. Minor quirks – occasional vocal dip, channel swaps and speed‑waver glitches – are outweighed by the show’s energy and the band’s chemistry, making this a must‑listen snapshot of the Dead’s evolving psychedelic phase.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.7,
+      "ai_rating": 4.3,
       "confidence": "high",
       "rating_calculation": {
         "base_rating": 2.5,
         "review_count_total": 59,
         "review_count_boost": 0.4,
-        "sentiment_adjustment": 0.8,
-        "sentiment_rationale": "Both recordings praise the musical performance – especially Dark Star, Tom Constanten’s organ work and Jerry’s lead – while noting only minor issues (bass muffling, tape cuts) that relate to recording quality rather than playing. The overall tone is positive with no consistent negative criticism, warranting a modest positive sentiment boost.",
-        "final_calculation": "2.5 + 0.4 + 0.8 = 3.7"
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "Two recordings are clearly positive, praising the Dark Star > Saint Stephen > Eleven > Lovelight sequence and overall band lock‑in; a third is mixed but still notes strong improvisation. The consensus yields a solid positive sentiment adjustment.",
+        "final_calculation": "2.5 + 0.4 + 1.4 = 4.3"
       }
     },
     "best_recording": {
-      "identifier": "gd1970-01-02.137375.sbd.wise.sirmick.sbeok.flac16",
-      "reason": "Clear soundboard mix with prominent keyboards and good overall fidelity; captures the band’s energy without the cuts or speed issues found in other sources."
+      "identifier": "gd70-01-02.early-late.sbd.cotsman.18120.sbeok.shnf",
+      "reason": "Crisp soundboard capture with solid instrument separation; it presents the iconic Dark Star > Saint Stephen > Eleven > Turn On Your Lovelight sequence most clearly despite minor vocal and channel quirks."
     },
     "key_highlights": [
-      "Epic Dark Star that showcases Jerry’s improvisational fire",
-      "Tom Constanten’s organ is pushed forward, giving a distinctive texture",
-      "Bob Weir delivers a notable solo during the jam sections",
-      "Mickey Hart’s dynamic percussion adds drive throughout"
+      "Iconic Dark Star → Saint Stephen → The Eleven → Turn On Your Lovelight marathon",
+      "High Time opens the set with tight, driving energy",
+      "Tom Constanten’s organ adds distinctive texture to the improvisations",
+      "Tight, powerful drumming from Mickey and Bill throughout"
     ],
     "song_highlights": [
-      "Dark Star"
+      "Dark Star",
+      "Saint Stephen",
+      "The Eleven",
+      "Turn On Your Lovelight",
+      "High Time"
     ],
     "band_performance": {
-      "Jerry": "Delivers a fiery lead, especially on the extended Dark Star where his improvisations soar.",
-      "Phil": "Provides solid low‑end foundation but is occasionally buried in the mix behind the prominent organ.",
-      "Bob": "Adds tasteful rhythm and shines with a standout solo during the jam sections.",
+      "Jerry": "Soaring lead‑guitar tone with inventive licks; playful onstage chatter and a cut‑loose solo during the lengthy Dark Star jam.",
+      "Phil": "Full, driving bass that anchors the Lovelight climax; praised for depth despite occasional mix issues in some recordings.",
+      "Bob": "Solid rhythm work with moments of standout guitar phrasing; noted positively where present.",
       "Brent": "",
-      "Mickey": "Supplies creative, dynamic percussion that propels the band, particularly during Dark Star.",
-      "Billy": ""
+      "Mickey": "Tight, powerful drumming especially on The Eleven and throughout the Dark Star excursion.",
+      "Billy": "Driving percussion complementing Mickey’s rhythms, keeping the jam tight and energetic."
     },
-    "processed_recordings": 2,
-    "processed_date": "2025-09-12T13:03:48.496185+00:00",
+    "processed_recordings": 3,
+    "processed_date": "2025-09-19T14:13:09.672373+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -196,6 +200,10 @@
         "Saint Stephen",
         "The Eleven",
         "Turn On Your Lovelight"
+      ],
+      [
+        "Uncle John's Band",
+        "High Time"
       ]
     ]
   }

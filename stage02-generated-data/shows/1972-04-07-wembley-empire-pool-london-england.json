@@ -213,44 +213,70 @@
     "europe-72-complete-recordings"
   ],
   "ai_show_review": {
-    "summary": "Legendary Europe ’72 set with soaring Truckin' and The Other One",
-    "blurb": "The performance delivers a blistering Truckin' → Drums → The Other One sequence, plus a tight China Cat Sunflower > I Know You Rider and an inspired El Paso/Wharf Rat medley. Jerry’s soaring guitar tone and Phil’s thunderous bass drive the high‑octane improvisations throughout both sets.",
-    "review": "The Dead bring their A‑game to Wembley Empire Pool on April 7, 1972, delivering one of the most talked‑about shows from the Europe ’72 tour. The first set wanders through a solid mix of early‑era material, but it’s the second set that truly shines: Truckin' erupts into an expansive drum break before launching into a marathon The Other One that weaves in and out of El Paso and culminates on a heartfelt Wharf Rat. Highlights include a crisp China Cat Sunflower > I Know You Rider segue that still feels fresh, and a rousing encore with One More Saturday Night. While the available audience tapes are notoriously muddy—often sounding like a mic perched on a roof—the musical moments captured are undeniably electric, showcasing Jerry’s fiery leads, Phil’s booming bass, Bob’s vocal punch, and Bill’s otherworldly drumming. For completists and historians, this show remains essential listening despite its sonic shortcomings.",
+    "summary": "High‑octane first set, epic Meat sequence in second set",
+    "blurb": "The show shines on the second‑set Meat suite – Truckin' → Drums → The Other One → El Paso → Wharf Rat – with Jerry delivering a blistering solo on Truckin'. The first set is solid but less remarkable. Audio from audience sources is poor, making this a listen‑only for completists.",
+    "review": "April 7, 1972 at Wembley Empire Pool captured the Grateful Dead in full, rolling form. While the first set runs through classics like \"Greatest Story Ever Told\" and \"Sugaree\" with competent energy, it’s the second‑set that cements this night as a tour highlight. The legendary Meat sequence erupts: Jerry’s soaring lead on \"Truckin'\", Bill Kreutzmann’s otherworldly drumming under the drums break, and the band rides deep into a sprawling \"The Other One\" before slipping into an exuberant \"El Paso\" and landing on a heartfelt \"Wharf Rat\". Keith Godchaux weaves deftly with Jerry during the jam, and Phil Lesh drops “bass bombs” that thicken the low end. Unfortunately both available audience recordings are riddled with muffled, crackly sound – one described as sounding like it was recorded from the bottom of a pool – so the performance is best appreciated for its historical significance rather than sonic fidelity.\n\nFor Deadheads who crave completeness, this show offers rare moments that define the Europe ’72 tour, even if you’ll need to brace for sub‑par audio. If you can overlook the hiss and drop‑outs, the second set delivers a quintessential glimpse of the band at a creative peak.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.3,
-      "confidence": "medium"
+      "ai_rating": 3.2,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 29,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 0.4,
+        "sentiment_rationale": "One recording is mixed, praising the epic second‑set Meat sequence and Jerry's solo while noting high‑octane first set; the other is negative, emphasizing muddy audience audio and weak first‑set songs. The balance of strong positive comments about key moments outweighs the negatives, resulting in a modest +0.4 sentiment boost.",
+        "final_calculation": "2.5 + 0.3 + 0.4 = 3.2"
+      }
     },
     "best_recording": {
       "identifier": "gd72-04-07.aud.hanno.6161.sbeok.shnf",
-      "reason": "Most complete source of the legendary performance, despite extremely poor audio quality."
+      "reason": "Most complete source covering the full show and legendary second‑set Meat sequence, despite poor audience audio quality."
     },
     "key_highlights": [
-      "Blistering Truckin' → Drums → The Other One marathon with soaring guitar and thunderous bass.",
-      "Seamless China Cat Sunflower > I Know You Rider segue that feels fresh even decades later.",
-      "Explosive El Paso/Wharf Rat medley showcasing tight interplay and dynamic improvisation.",
-      "Legendary Europe ’72 energy captured, though only on very muddy audience tapes."
+      "Epic Meat suite (Truckin' → Drums → The Other One → El Paso → Wharf Rat) in the second set",
+      "Jerry's blistering solo on Truckin' and soaring leads throughout",
+      "Bill Kreutzmann’s otherworldly drumming drives the jam",
+      "Keith Godchaux’s tight interplay with Jerry during The Other One"
     ],
     "song_highlights": [
       "Truckin'",
       "Drums",
       "The Other One",
+      "El Paso",
+      "Wharf Rat",
       "China Cat Sunflower",
       "I Know You Rider",
-      "El Paso",
-      "Wharf Rat"
+      "Sugar Magnolia"
     ],
     "band_performance": {
-      "Jerry": "Soaring tone and powerful solos dominate Truckin' and The Other One, keeping the band on fire all night.",
-      "Phil": "Thunderous bass lines drive the extended jams, especially throughout the meat sequence and El Paso.",
-      "Bob": "On‑fire vocals early in the set and energetic rhythm work add punch to the ballads and rockers alike.",
+      "Jerry": "Blistering tone and soaring solos, especially a fiery lead on Truckin', keeping the band’s energy high throughout.",
+      "Phil": "Delivers solid low‑end work with “bass bombs” and a notable caution‑tease near the end of The Other One.",
+      "Bob": "Powerful vocals that stay \"on fire\"; organ contributions are mixed but don’t detract from the overall performance.",
       "Brent": "",
       "Mickey": "",
-      "Billy": "Otherworldly drumming with a standout drum break before The Other One, anchoring the high‑octane flow."
+      "Billy": "Otherworldly drumming in the Meat sequence, propelling the extended jams with intensity."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-07T22:52:50.185444+00:00",
+    "processed_date": "2025-09-20T12:48:41.419015+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Truckin'",
+        "Drums",
+        "The Other One",
+        "El Paso",
+        "The Other One",
+        "Wharf Rat"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ],
+      [
+        "Sugar Magnolia"
+      ]
+    ]
   }
 }

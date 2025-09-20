@@ -195,41 +195,59 @@
     "daves-picks-vol-48"
   ],
   "ai_show_review": {
-    "summary": "Tight November ’71 show with soaring Truckin’ jam and fresh Keith",
-    "blurb": "The set features a crisp Truckin' → Not Fade Away sequence and an inspired The Other One → Ramble On Rose → Sugar Magnolia trio. Jerry's guitar shines through a studio‑like mix while new keyboardist Keith adds bright texture. High energy throughout, with excellent soundboard sources available.",
-    "review": "November 20, 1971 at UCLA’s Pauley Pavilion captures the Dead in a remarkably tight frame as they transition from classic country‑rock numbers into extended, high‑octane improvisations. The second set opens with a powerful Truckin' that segues straight into a thunderous Not Fade Away jam; Jerry’s tone is crystal clear, cutting through an almost studio‑quality mix that lets every nuance of his lead work sparkle. Later, the band launches a thrilling three‑song suite—The Other One into Ramble On Rose and then into Sugar Magnolia—that showcases Keith Godchaux’s fresh, energetic piano lines weaving seamlessly with Bill Kreutzmann’s propulsive drumming and Phil Lesh’s anchoring bass. The first set is a solid romp through fan favorites, but it’s the second‑set flow that truly defines this night: confident transitions, inspired solos, and a collective drive that feels both polished and wildly spontaneous. For anyone looking to hear the early Keith era in top fidelity, the Miller soundboard recording stands out as the definitive source.",
+    "summary": "Tight set with smoking Truckin' > The Other One jam and crisp Sugar Magnolia",
+    "blurb": "The second set delivers a smoking Truckin' → The Other One sequence followed by a sparkling Sugar Magnolia. Jerry's guitar tone shines, while Keith Godchaux adds inspired keyboards. Overall the show is tight and cohesive.",
+    "review": "On November 20, 1971 at UCLA’s Pauley Pavilion the Dead rolled out a set that feels both orchestrated and bursting with improvisational fire. The first set moves smoothly through classics like Bertha, Sugaree and Casey Jones, keeping the energy high without any noticeable lulls. The real highlight arrives in the second set: a powerful Truckin' segues into an expansive The Other One jam that has been described as “smoking” and “tight,” showcasing Jerry’s soaring guitar tone and Keith Godchaux’s freshly inspired keyboard work. The band then rolls into a bright, crisp Sugar Magnolia before closing with a spirited double Not Fade Away. Despite one recording suffering from muffled FM‑sourced tape, the performance itself is consistently praised as hot and cohesive, making this show a must‑listen for fans of early‑70s Dead magic.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 3.5,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 14,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.9,
+        "sentiment_rationale": "Both recordings highlight the Truckin' → The Other One jam, Sugar Magnolia and inspired Keith playing as standout moments; no negative performance comments appear across analyses, yielding a moderate positive sentiment.",
+        "final_calculation": "2.5 + 0.1 + 0.9 = 3.5"
+      }
     },
     "best_recording": {
       "identifier": "gd1971-11-20.sbd.miller.92908.sbeok.flac16",
-      "reason": "Studio‑like clarity, superb tone separation and a clean stereo mix make this the most enjoyable listening experience."
+      "reason": "Studio‑clear soundboard capture with excellent tone, separation and stereo mix; preserves the tight set flow and jam highlights."
     },
     "key_highlights": [
-      "Crisp Truckin' → Not Fade Away jam with sparkling guitar leads",
-      "The Other One → Ramble On Rose → Sugar Magnolia trio showcases fresh Keith piano",
-      "High‑energy second set flow and tight transitions throughout",
-      "Excellent soundboard capture provides studio‑quality detail"
+      "Smoking Truckin' → The Other One jam in the second set",
+      "Crisp, sparkling Sugar Magnolia performance",
+      "Keith Godchaux’s inspired keyboard contributions as a newcomer",
+      "Overall tight and cohesive set flow"
     ],
     "song_highlights": [
       "Truckin'",
-      "Not Fade Away",
-      "Sugar Magnolia",
       "The Other One",
-      "Ramble On Rose"
+      "Sugar Magnolia"
     ],
     "band_performance": {
-      "Jerry": "His guitar tone is bright and articulate, driving the jams on Truckin' and Not Fade Away with confidence.",
-      "Phil": "Provides a solid, melodic bass foundation that locks in tightly with the drums during extended improvisations.",
-      "Bob": "Rhythm guitar stays steady and supportive, complementing Jerry’s leads without over‑playing.",
-      "Keith": "Newly added keyboardist delivers tight, energetic piano parts that add fresh texture to The Other One suite.",
-      "Billy": "Bill Kreutzmann supplies a dynamic, swinging drum groove that propels the second‑set jams forward."
+      "Jerry": "Great guitar tone and instrument timbre noted by reviewers.",
+      "Phil": "",
+      "Bob": "",
+      "Keith": "Inspired playing as a newcomer, adding depth to the jams.",
+      "Mickey": "",
+      "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-07T20:45:17.710112+00:00",
+    "processed_date": "2025-09-20T09:55:35.367384+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Truckin'",
+        "Drums",
+        "The Other One",
+        "Ramble On Rose"
+      ],
+      [
+        "Sugar Magnolia"
+      ]
+    ]
   }
 }

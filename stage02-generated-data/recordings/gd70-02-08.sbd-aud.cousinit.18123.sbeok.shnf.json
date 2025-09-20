@@ -16,31 +16,32 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Fair‑quality matrix tape of a ’70s show highlighted by an unforgettable Smokestack Lightning and a rare St. Stephen > Not Fade Away sandwich.",
-    "review": "The performance is praised for its strong setlist, with Smokestack Lightning singled out as possibly the best ever and a uniquely arranged St. Stephen → Not Fade Away → St. Stephen sequence that adds an intriguing stillness. Recording quality is described as only fair – not pristine and occasionally problematic – but it’s good enough to enjoy the great playing of Jerry and Bob.",
+    "summary": "Great setlist with an epic Smokestack Lightning duel, but only fair‑quality audience tape from the ’70s.",
+    "review": "Fans rave about the performance – especially the legendary Smokestack Lightning and the unusual St. Stephen > Not Fade Away sandwich – while noting that the recording is a vintage audience capture with occasional sound issues. The show shines musically despite the modest audio fidelity.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.1,
       "confidence": "high",
-      "rationale": "Reviews consistently note a high‑level musical show (standout songs, strong playing) while flagging modest recording flaws; weighted average yields ~4.1 stars."
+      "rationale": "Strong musical praise (standout songs, guitar duels) outweighs the middling recording quality; weighted rating yields a solid 4‑star recommendation."
     },
     "recording_quality": {
-      "source_type": "matrix",
+      "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Sound is not pristine – occasional muffled or noisy sections and general ‘not the best’ quality, but the tape is complete enough to be listenable."
+      "technical_notes": "Not the best tape – some hiss and occasional drop‑outs, but acceptable for a 1970 audience recording; sound issues noted by multiple reviewers."
     },
     "show_quality": {
       "standout_songs": [
         "Smokestack Lightning",
-        "St. Stephen > Not Fade Away > St. Stephen"
+        "St. Stephen",
+        "Not Fade Away"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set flows well, featuring a rare Smokestack Lightning highlight and an unusual St. Stephen/NFA sandwich that adds both tension and a cool segue."
+      "setlist_flow": "The set features a unique St. Stephen > Not Fade Away > St. Stephen sandwich and culminates with an unforgettable Smokestack Lightning that showcases a rare guitar duel."
     },
     "band_member_comments": {
-      "Jerry": "His guitar work is highlighted in the duel during Smokestack Lightning’s final break.",
+      "Jerry": "His guitar work, especially the duel with Bob during Smokestack Lightning, is highlighted as a show‑stealing moment.",
       "Phil": "",
-      "Bob": "Bob (referred to as Bobby) shares the duel with Jerry on Smokestack Lightning, showing strong interplay.",
+      "Bob": "Praised for his interplay with Jerry on the climactic break of Smokestack Lightning.",
       "Keys": "",
       "Drums": ""
     },
@@ -50,13 +51,18 @@
         "negative_mentions": 0,
         "total_mentions": 3
       },
-      "St. Stephen > Not Fade Away > St. Stephen": {
+      "St. Stephen": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T14:34:06.081265+00:00",
+    "processed_date": "2025-09-19T15:46:58.611809+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-02-08.sbd-aud.cousinit.18123.sbeok.shnf"
   }

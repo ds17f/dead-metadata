@@ -16,23 +16,23 @@
   "high_ratings": 0,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Recording provides no useful audio details and the setlist is inaccurately documented, resulting in a problematic release.",
-    "review": "The sole reviewer rates this tape one star, noting that the printed setlist is completely wrong – songs appear that the Dead never performed at that time. No information about sound quality or source type is given, so listeners have no way to assess the audio itself.",
+    "summary": "Poor recording with an inaccurate setlist; no musical details provided",
+    "review": "The lone reviewer gave this release a single star, complaining that the posted setlist is scrambled and even lists songs that were not in the Dead's repertoire at the time. No remarks were made about the audio itself, so the technical quality cannot be confirmed beyond likely being sub‑par given the overall dissatisfaction.",
     "sentiment": "negative",
     "ai_rating": {
       "stars": 1.2,
       "confidence": "low",
-      "rationale": "Only one brief review with a 1‑star rating; it highlights major setlist errors and gives no insight into recording quality, leading to an overall low assessment."
+      "rationale": "Only one brief, negative review mentioning setlist errors; no audio commentary, leading to a low rating with minimal confidence."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "poor",
-      "technical_notes": "No comments on audio clarity, mix, or source were provided in the review."
+      "technical_notes": "Reviewer did not discuss sound quality; focus was on incorrect setlist information."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "Reviewer claims the setlist is completely incorrect, with songs listed that were not part of the band's repertoire at that time."
+      "setlist_flow": "Setlist appears to be erroneous, with songs listed that were not performed, making the show's structure unclear."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -41,7 +41,8 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T10:51:55.045226+00:00",
+    "song_mentions": {},
+    "processed_date": "2025-09-20T00:13:21.226044+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-10-30.153005.sbd.warburton.smith.sirmick.flac16"
   }

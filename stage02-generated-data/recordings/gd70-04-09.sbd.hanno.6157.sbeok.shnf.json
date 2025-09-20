@@ -16,27 +16,28 @@
   "high_ratings": 11,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard‑dominant recording with good clarity despite some audience bleed and audio glitches; the show shines thanks to the rare Cowboy Jam, a fiery It's A Man's World and an exciting Other One.",
-    "review": "The tape captures a mostly pristine soundboard mix from the early ’70 Fillmore West run, with the acoustic set sounding sublime and the audience portions adding just enough ambience. Musically the performance is highlighted by the quirky “Cowboy Song” jam, a standout rendition of It’s A Man’s World and an energetic Other One, though later electric material suffers from uneven playing and occasional tape problems.",
-    "sentiment": "positive",
+    "summary": "Matrix recording with a sublime acoustic soundboard captures the rare Cowboy jam and a fiery 'Other One', but later electric material suffers from audio issues.",
+    "review": "The tape offers an excellent acoustic SBD that showcases the legendary Cowboy improvisation and a thrilling Other One, while the audience‑mixed sections bring early‑70 ambience. However, the electric portion is described as muddy with several dropouts, leading to mixed impressions of the overall show quality.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.0,
       "confidence": "high",
-      "rationale": "Most reviewers rate the set 4–5 stars and praise key performances; recording quality is generally good with only isolated audio issues, yielding an overall strong rating."
+      "rationale": "Most reviewers praise the acoustic soundboard and standout jams (show quality ~4), while noting noticeable recording flaws in later sections (recording quality ~3.5). Weighted average yields a solid four‑star rating."
     },
     "recording_quality": {
-      "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Acoustic soundboard tracks are described as sublime; audience bleed is acceptable. Several reviewers note tape‑related problems (dropouts, muffled sections) especially in later electric songs."
+      "source_type": "matrix",
+      "quality_rating": "fair",
+      "technical_notes": "Acoustic soundboard portion is described as sublime and clear; audience mix adds ambience but introduces occasional muffling, dropouts, and overall inconsistency in the electric set."
     },
     "show_quality": {
       "standout_songs": [
-        "Cowboy Song",
+        "The Cowboy Song",
         "It's A Man's World",
-        "The Other One"
+        "The Other One",
+        "Not Fade Away"
       ],
       "poor_songs": [],
-      "setlist_flow": "Starts with a crisp acoustic set, moves into the unique Cowboy Jam and a strong It’s A Man’s World, but the second electric half feels less focused and shows signs of boredom."
+      "setlist_flow": "Acoustic first set matches DeadBase and is highly praised; the electric second set is reported as uneven, with some listeners finding it “horrible” or bored, while others note a strong jam in the Cowboy improvisation."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -46,28 +47,28 @@
       "Drums": ""
     },
     "song_mentions": {
-      "Cowboy Song": {
+      "The Cowboy Song": {
         "positive_mentions": 2,
         "negative_mentions": 0,
         "total_mentions": 2
-      },
-      "It's A Man's World": {
-        "positive_mentions": 2,
-        "negative_mentions": 1,
-        "total_mentions": 3
       },
       "The Other One": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Friend of the Devil": {
+      "It's A Man's World": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Not Fade Away": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T16:33:25.772371+00:00",
+    "processed_date": "2025-09-19T18:02:04.037274+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-04-09.sbd.hanno.6157.sbeok.shnf"
   }

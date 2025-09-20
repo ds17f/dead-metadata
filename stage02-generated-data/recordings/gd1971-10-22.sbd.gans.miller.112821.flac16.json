@@ -16,42 +16,77 @@
   "high_ratings": 8,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a high‑energy 1971 show highlighted by a monster “The Other One” suite and strong second‑set jams.",
-    "review": "This recording is widely praised as one of Charlie Miller’s best soundboard tapes, delivering clear, crisp audio despite occasional tape hiss and a slightly recessed Jerry mix. Musically the concert shines with an expansive “The Other One” sequence, standout renditions of “Me & Bobby McGee,” “Black Peter,” and “Comes A Time,” and a generally high‑energy performance that places this night among the band’s peak ’71 outings.",
+    "summary": "High‑energy 10/22/71 show with a monster \"The Other One\" and crisp Miller soundboard, though the mix sometimes buries Jerry.",
+    "review": "Fans rave about this October ’71 performance – especially the epic, long \"That's It for The Other One\" suite that gives many chills – and they praise Keith’s early piano work and Phil’s solid bass throughout. The Charlie Miller sound‑board tape is generally regarded as one of his best, offering clear detail, even if a few listeners note tape hiss on the first set and Jerry’s guitar being a bit low in the mix.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "The majority of reviews (8+ out of 12) award 4–5 stars and highlight both superb playing and a high‑quality recording; only minor criticisms about mix balance keep the rating just shy of perfect."
+      "rationale": "The majority of reviews are 4‑5 stars praising both performance and recording; only isolated comments note minor mix or tape‑hiss issues, yielding a strong overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "excellent",
-      "technical_notes": "Crisp, clear sound with good instrument separation; occasional tape hiss on first set and Jerry’s guitar sits a bit low in the mix for some listeners."
+      "quality_rating": "good",
+      "technical_notes": "Generally crisp and well‑balanced – cited as one of Miller’s best tapes – but some listeners hear tape hiss on the first set and note Jerry Garcia’s guitar can be low in the mix; a few suggest an HDCD/multitrack remaster could improve it further."
     },
     "show_quality": {
       "standout_songs": [
-        "The Other One (monster suite)",
-        "Me & Bobby McGee",
+        "The Other One",
+        "Tennessee Jed",
         "Black Peter",
         "Comes A Time",
+        "Me & Bobby McGee",
         "Johnny B. Goode",
-        "Bertha (notable solo)"
+        "Bertha"
       ],
-      "poor_songs": [
-        "Bertha (first set not tight)"
-      ],
-      "setlist_flow": "First set is uneven but solid, featuring a strong “Me & Bobby McGee” and decent new material; second set is the highlight with an extended, high‑impact ‘The Other One’ and tight transitions.",
-      "energy_level": "high"
+      "poor_songs": [],
+      "setlist_flow": "Strong first set with solid mid‑tempo numbers, followed by a second set dominated by an hour‑long, high‑impact \"The Other One\" suite; overall pacing praised as tight and energetic."
     },
     "band_member_comments": {
-      "Jerry": "Often described as 'on' with great tone, though a few reviewers note his guitar is buried in the mix.",
-      "Phil": "Consistently praised for powerful, “great” bass work throughout the show.",
-      "Bob": "Recognized for solid rhythm and vocal contributions; highlighted on ‘Me & Bobby McGee.’",
-      "Keys": "Keith Godchaux’s early piano playing is noted as impressive yet still learning; some wish organ had been present on ‘Playing In The Band.’",
+      "Jerry": "On‑night playing described as 'on', but several reviewers note his guitar is buried in the mix.",
+      "Phil": "Consistently praised for great, sometimes terrific bass work throughout the show.",
+      "Bob": "Bobby (McGee) highlighted as a standout vocal and guitar performance; overall rhythm guitar appreciated.",
+      "Keys": "Keith’s early piano contributions are noted as impressive and learning‑stage yet effective; unique sound mix and vocal balance receive compliments.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T19:52:14.102360+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 8,
+        "negative_mentions": 0,
+        "total_mentions": 8
+      },
+      "Tennessee Jed": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Bertha": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black Peter": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Comes A Time": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Me & Bobby McGee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Johnny B. Goode": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T08:26:03.428396+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-10-22.sbd.gans.miller.112821.flac16"
   }

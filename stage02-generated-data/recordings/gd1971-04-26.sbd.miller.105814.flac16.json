@@ -16,40 +16,69 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard source with a few speed/pitch quirks but overall good clarity; the show shines with a smoking Dark Star, Hard to Handle and Duane Allman's lead on Sugar Magnolia.",
-    "review": "The Miller SBD tape captures a complete Fillmore East performance that, despite occasional channel swaps and slight pitch wobble, remains listenable. Musically the night is highlighted by a powerful Dark Star, an inspired Hard to Handle and memorable guest work from Duane Allman on Sugar Magnolia, though some sections (e.g., Casey Jones) suffer from poorer sound.",
-    "sentiment": "positive",
+    "summary": "Soundboard source with occasional speed/pitch quirks captures a solid Fillmore East set highlighted by Duane Allman's guest lead on Sugar Magnolia and standout Dark Star, Hard to Handle and Mama Tried.",
+    "review": "The Miller sound‑board tape is the most complete version of this April ’71 Fillmore run, though it suffers from occasional speed wavering, channel swaps and tape‑flip gaps. Musically the show delivers strong moments – a smoking Dark Star, an inspired Hard to Handle, Duane Allman’s soaring lead on Sugar Magnolia and a memorable Mama Tried – but many fans consider it a step below the surrounding nights.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.2,
-      "confidence": "medium",
-      "rationale": "Most reviewers rate the show highly (4‑5 stars) and praise key performances; recording issues are noted but not enough to outweigh the musical strengths."
+      "confidence": "high",
+      "rationale": "Average of reviewer stars (4.25) weighted toward strong musical performance; recording issues noted but not fatal, yielding a solid 4‑star overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Generally clear SBD, but reports of speed/pitch wavering, channel swaps on some tracks, and occasional muddy sections (e.g., Casey Jones)."
+      "quality_rating": "fair",
+      "technical_notes": "Complete uncut SBD, but exhibits speed/pitch wavering, occasional channel swaps, tape‑flip gaps and missing AUD patches; still the best available source for this show."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star",
         "Hard to Handle",
-        "Sugar Magnolia (with Duane Allman)",
-        "Mama Tried"
+        "Dark Star",
+        "Mama Tried",
+        "Sugar Magnolia"
       ],
-      "poor_songs": [
-        "Casey Jones"
-      ],
-      "setlist_flow": "First set features repeat material with solid performances; second set benefits from Duane Allman's guest spots and a strong Dark Star, though some songs are noted as out‑of‑tune.",
-      "energy_level": "high"
+      "poor_songs": [],
+      "setlist_flow": "Second of five Fillmore East shows; Duane Allman sits in for the first three second‑set numbers, giving the set a special boost. Overall solid but many fans rank other nights higher."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "",
+      "Phil": "Phil's bass is noted as prominent on the Dawk Staw jam, contributing to its quartet feel.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T18:07:44.259878+00:00",
+    "song_mentions": {
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mama Tried": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dawk Staw": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T05:39:57.548292+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-04-26.sbd.miller.105814.flac16"
   }

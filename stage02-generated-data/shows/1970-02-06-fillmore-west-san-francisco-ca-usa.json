@@ -152,53 +152,56 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy early‑70 set with crisp vocals and standout High Time",
-    "blurb": "The show delivers a punchy early‑70 set that blends country‑rock tunes with lively jams. Highlights include a thunderous \"High Time\", a spirited \"Dancin' In The Street\", and tight transitions such as Cryptical Envelopment into Black Peter. Jerry’s vocals are spot‑on while the rhythm section drives the performance.",
-    "review": "On February 6, 1970 at the Fillmore West the Dead rolled out an exhilarating single set that captures the band in a transitional, high‑energy groove. From the opening \"Cumberland Blues\" through a rollicking run of covers and originals, Jerry Garcia’s voice is described as “singing his heart out,” cutting through a crisp, balanced soundboard mix. The performance shines on \"High Time\" and \"Dancin' In The Street,\" both delivered with exuberant vocal and instrumental fire. Seamless segues—most notably the Cryptical Envelopment into Black Peter—showcase tight interplay, while the drum duet of Mickey Hart and Bill Kreutzmann adds a powerful undercurrent, highlighted by an especially strong percussion segment in that sequence. Despite six noticeable cuts in the recording, the show’s vitality and musicianship make it a must‑listen snapshot of the Dead’s early‑70 evolution.",
+    "summary": "Crisp early‑70 set with strong Good Lovin' and High Time",
+    "blurb": "The February ’70 Fillmore West show delivers a bright, balanced soundboard capture that highlights Pigpen‑driven moments and tight drum work. Good Lovin' (both halves) and High Time stand out despite a few unfortunate cuts. Overall the band is locked in, with Jerry’s vocals on point and Bob’s guitar crisp.",
+    "review": "On February 6, 1970 at the Fillmore West, the Dead rolled through a classic early‑70 set that blends country‑rock tunes with lingering psychedelia. The soundboard recording (gd70-02-06.sbd.bean.3913.sbeok.shnf) is surprisingly crisp for its era—vocals are spot‑on, Bob’s guitar cuts cleanly through the mix, and the dual‑drummers lock into extended grooves that lift the Pigpen‑filled moments like Turn On Your Lovelight. Highlights include both takes of Good Lovin' (the segued pair) and a soaring High Time, while The Other One is mentioned as thunderous even though it’s omitted from this particular setlist. The only downside are several misplaced cuts—Dancin’ In The Street, Cryptical Envelopment, and High Time suffer brief drop‑outs—making the download imperfect but still a must‑listen for fans of the band’s early live chemistry.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.4,
-      "confidence": "medium",
+      "ai_rating": 2.6,
+      "confidence": "high",
       "rating_calculation": {
         "base_rating": 2.5,
         "review_count_total": 14,
         "review_count_boost": 0.1,
-        "sentiment_adjustment": 0.8,
-        "sentiment_rationale": "The sole recording analysis is uniformly positive, praising vocals, overall band energy, and specific standout songs. While only one source is present, the language ('spot‑on', 'thunderous', 'energetic') indicates a clear favorable consensus, justifying a modest positive adjustment.",
-        "final_calculation": "2.5 + 0.1 + 0.8 = 3.4"
+        "sentiment_adjustment": 0.0,
+        "sentiment_rationale": "The recording analysis labels the overall sentiment as mixed, with praise for certain songs and performance aspects but also notes about cuts; no consistent strong positive or negative trend emerges, so a neutral adjustment is applied.",
+        "final_calculation": "2.5 + 0.1 + 0.0 = 2.6"
       }
     },
     "best_recording": {
       "identifier": "gd70-02-06.sbd.bean.3913.sbeok.shnf",
-      "reason": "Soundboard source with crisp, balanced mix that captures the band’s energy; despite a few cuts it delivers clear vocals and excellent drum work, making it the most complete listening experience."
+      "reason": "Good soundboard source with crisp, balanced mix and clear vocals/guitar; despite a few cuts it captures the band's early‑70 energy best."
     },
     "key_highlights": [
-      "Thunderous \"The Other One\" (not on setlist but noted as a show highlight).",
-      "High‑energy early‑70 material blended with country‑rock and psychedelic jams.",
-      "Smooth segues, especially Cryptical Envelopment into Black Peter, and strong drum interplay."
+      "Thunderous The Other One (mentioned in reviews)",
+      "Strong Pigpen‑driven moments, especially Turn On Your Lovelight",
+      "Crisp, bright guitar and vocal mix that showcases early‑70 sound",
+      "A few misplaced cuts detract from an otherwise solid capture"
     ],
     "song_highlights": [
-      "High Time",
-      "Dancin' In The Street"
+      "Good Lovin'",
+      "High Time"
     ],
     "band_performance": {
-      "Jerry": "Vocals are spot‑on and full of feeling; described as \"singing his heart out\" while his guitar blends seamlessly into the high‑energy set.",
-      "Phil": "Provides a solid bass foundation, with reviewers noting he’s practically bobbing his head in time, indicating steady, confident playing.",
-      "Bob": "Rhythm guitar and backing vocals are crisp in the mix; his playing is praised as \"great\" throughout the show.",
+      "Jerry": "Vocals are spot‑on, singing his heart out throughout the show.",
+      "Phil": "",
+      "Bob": "Guitar is crisp in the mix and playing great.",
       "Brent": "",
-      "Mickey": "Drumming shines, especially during the Cryptical Envelopment → Black Peter segment, delivering a powerful rhythmic drive.",
-      "Billy": "Shares the drum spotlight with Mickey, contributing to the tight, energetic percussion that propels the set."
+      "Mickey": "Drums sound great; percussion work praised especially during extended sequences.",
+      "Billy": "Drums sound great; percussion work praised especially during extended sequences."
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-12T14:25:15.409710+00:00",
+    "processed_date": "2025-09-19T15:38:01.329987+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
-        "High Time"
+        "Good Lovin'",
+        "Drums",
+        "Good Lovin'"
       ],
       [
-        "Dancin' In The Street"
+        "High Time"
       ]
     ]
   }

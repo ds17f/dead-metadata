@@ -16,40 +16,65 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A solid 1971 performance highlighted by a powerhouse Good Lovin' and an incredible Not Fade Away → Great Day Tripper → Not Fade Away run, with a short gorgeous Dark Star; recording quality isn’t commented on but the source appears to be a standard soundboard capture.",
-    "review": "The show is generally praised for its high‑energy moments – especially Good Lovin', the NFA>GDTRFB>NFA sequence and a tight Dark Star – while the Playin' in the Band fell flat for some listeners. Reviewers note only two Pigpen numbers (organ/B‑3) and debate whether Ned Lagin is on piano, but overall they consider it a good 1971 show worth hearing.",
+    "summary": "Good‑overall show with standout Good Lovin', a stellar Not Fade Away > … > Not Fade Away sequence and a short gorgeous Dark Star; soundboard source sounds solid.",
+    "review": "Reviewers praise the performance – especially Good Lovin', the NFA>GDTRFB>NFA run and a concise Dark Star – while noting only two Pig‑Pen numbers and a rather ordinary Playing In The Band. The recording is identified as a soundboard (sbd) and no audio flaws are reported, making it a solid listening experience despite some mixed feelings about a few songs.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
-      "confidence": "high",
-      "rationale": "All five reviews are 4‑star and focus on strong musical highlights with minor criticisms; recording quality is not mentioned, so the rating leans on show performance."
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "All five reviewers gave 4‑star ratings and highlighted several strong moments, with no complaints about the audio; the show is solid but not exceptional, yielding a balanced 4‑star rating."
     },
     "recording_quality": {
-      "source_type": "unknown",
+      "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "No reviewer comments on audio fidelity; filename suggests a soundboard source but this isn’t confirmed in the reviews."
+      "technical_notes": "No specific audio issues mentioned; reviewers focus on performance rather than sound problems, implying a clean and listenable tape."
     },
     "show_quality": {
       "standout_songs": [
         "Good Lovin'",
-        "Not Fade Away > Great Day Tripper > Not Fade Away",
-        "Dark Star",
-        "I Second That Emotion"
+        "NFA>GDTRFB>NFA",
+        "Dark Star"
       ],
       "poor_songs": [
-        "Playin' in the Band"
+        "Playing In The Band"
       ],
-      "setlist_flow": "The set has a few high‑impact peaks (Good Lovin', NFA/GT/Fade, Dark Star) but overall feels uneven for 1971 standards; still regarded as an enjoyable, cohesive performance.",
-      "energy_level": "high"
+      "setlist_flow": "Only two Pig‑Pen numbers (including his B‑3 organ), speculation about Ned Lagin on piano, and a generally strong set with highlights offset by a few average moments."
     },
     "band_member_comments": {
-      "Jerry": "His guitar work on the opening 'I Second That Emotion' is described as crunchy and solid.",
+      "Jerry": "Crunchy guitar chords noted on \"I Second That Emotion\".",
       "Phil": "",
       "Bob": "",
-      "Keys": "Debate over piano – some claim Pigpen, others identify Ned Lagin playing cautiously in the background.",
+      "Keys": "Debate over background piano – likely Ned Lagin rather than Pig‑Pen; his cautious playing is mentioned.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T17:20:21.904903+00:00",
+    "song_mentions": {
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "NFA>GDTRFB>NFA": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I Second That Emotion": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playing In The Band": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T04:28:44.650559+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-04-08.sbd.cantor.gmb.96627.flac16"
   }

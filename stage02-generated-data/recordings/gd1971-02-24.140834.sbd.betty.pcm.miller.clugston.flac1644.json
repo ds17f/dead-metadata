@@ -16,26 +16,25 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clear soundboard recording with a nicely rendered Bird Song as the highlight.",
-    "review": "The sole review praises the performance of \"Bird Song,\" rating the show 4 stars and noting no issues with the audio. While the recording source appears to be a soundboard (SBD) and is presumed clear, there’s insufficient detail on overall set flow or other songs.",
+    "summary": "Soundboard recording featuring a nicely played Bird Song.",
+    "review": "The sole review highlights a strong performance of \"Bird Song,\" giving the show a solid four‑star rating. While no specific comments about the audio fidelity are provided, the .sbd designation suggests a clean soundboard source.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.0,
       "confidence": "low",
-      "rationale": "Only one brief review; the reviewer gave a solid 4‑star rating and mentioned no problems, suggesting both a decent show and acceptable soundboard quality."
+      "rationale": "Only one review (4 stars) mentioning a positive moment; no negatives or technical complaints, so rating aligns with the reviewer’s score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "No specific comments on audio fidelity; presumed clear given lack of complaints."
+      "technical_notes": "No explicit comments on sound quality; assumed clear due to soundboard source and lack of criticism."
     },
     "show_quality": {
       "standout_songs": [
         "Bird Song"
       ],
       "poor_songs": [],
-      "setlist_flow": "Not enough information to assess set structure.",
-      "energy_level": "medium"
+      "setlist_flow": "No detailed set‑list commentary provided."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -44,7 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T16:35:09.004073+00:00",
+    "song_mentions": {
+      "Bird Song": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T03:20:02.883075+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-02-24.140834.sbd.betty.pcm.miller.clugston.flac1644"
   }

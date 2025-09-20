@@ -16,38 +16,59 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clear early‑70s soundboard capture of a classic Detroit show with standout Cumberland Blues and jammy Truckin, but mixed energy due to a restless audience",
-    "review": "The Miller‑sourced soundboard recording is generally crisp and captures the early ’71 tone that fans love, aside from a brief FM glitch in “Bertha”. Musically the concert delivers solid performances—blazing Cumberland Blues, a jammy Truckin, and an exciting NFA/GDTR sequence—but the night was marred by a vocal, demanding crowd and fewer segues than usual, giving it a mixed‑feel vibe.",
-    "sentiment": "mixed",
+    "summary": "Excellent early‑70s soundboard capture with crisp tone, highlighted by a blazing Cumberland Blues and jammy Truckin, despite a few crowd‑related hiccups.",
+    "review": "The Millerman tape delivers a clear, well‑balanced soundboard recording that showcases the classic early‑’71 Dead vibe. Reviewers rave about standout moments like a scorching Cumberland Blues, a jammed‑out Truckin, and an incredible Not Fade Away/Going Down The Road sandwich, while noting occasional audience tension and a brief FM patch in Bertha. Overall the performance is praised as solid and representative of that era.",
+    "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Weighted average of show (≈4) and recording quality (≈4.5) yields ~4.2; many positive reviews with consistent praise for sound and performance, balanced by a few strong negative comments."
+      "rationale": "Most reviewers give 4‑5 stars, praising both musical execution and sound quality; only a few mixed comments exist, so the combined show (70%) and recording (30%) rating is strong."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Clear early‑70s soundboard capture with crisp tone; occasional brief FM interference in \"Bertha\" noted but overall very listenable."
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp early‑70s tone praised by multiple reviewers; a brief FM patch in Bertha noted but does not detract from overall clarity and balance."
     },
     "show_quality": {
       "standout_songs": [
         "Cumberland Blues",
         "Truckin'",
-        "NFA/GDTR (Not Fade Away / The Other One segment)",
+        "Not Fade Away / Going Down The Road",
         "Big Railroad Blues"
       ],
       "poor_songs": [],
-      "setlist_flow": "Classic early‑71 setlist with solid playing, but the show suffered from long tuning breaks and a lack of segues, reflecting tension between band and audience.",
-      "energy_level": "medium"
+      "setlist_flow": "Classic early‑71 set list with few segues until the NFA sandwich; reviewers note an antagonistic audience at times but overall a solid, well‑played performance."
     },
     "band_member_comments": {
-      "Jerry": "Praised for his early ’70s guitar tone; occasional quirky lyric moment noted in \"Tennessee Jed\".",
-      "Phil": "Lesh’s dry remarks were highlighted, suggesting a slightly disengaged vibe.",
+      "Jerry": "Lyric in Tennessee Jed noted and generally praised for his playing and vocal presence.",
+      "Phil": "Dry comments from Lesh observed by reviewers, indicating some tension with the crowd.",
       "Bob": "",
-      "Keys": "Early Keith (first tour) playing appreciated; keyboards add the period flavor.",
-      "Drums": "Billy Cobham‑style drumming praised; fans love the shows with just Billy on drums."
+      "Keys": "Early Keith (keyboard) sound highlighted as a favorite aspect of the era.",
+      "Drums": "Billy Cobham‑style drumming praised; reviewers love the shows featuring just Billy on drums."
     },
-    "processed_date": "2025-09-07T19:54:49.796185+00:00",
+    "song_mentions": {
+      "Cumberland Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away / Going Down The Road": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Big Railroad Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T08:29:05.638176+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-10-23.sbd.miller.111673.flac16"
   }

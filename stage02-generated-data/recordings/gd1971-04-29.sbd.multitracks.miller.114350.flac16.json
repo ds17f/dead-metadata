@@ -16,41 +16,102 @@
   "high_ratings": 20,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A superb soundboard capture of an incendiary 1971 show – crystal‑clear mix, booming organ and a smoking set featuring New Minglewood Blues, Hard to Handle, Alligator and China Cat > I Know You Rider.",
-    "review": "The multitrack soundboard source delivers astonishing depth and clarity, with Pig’s organ sitting front‑and‑center and the overall mix described as crisp and vivid. Musically the performance is fire‑hot – fans rave about the powerhouse renditions of New Minglewood Blues, Hard to Handle, Alligator and the seamless China Cat/​I Know You Rider, while the second set rolls with high energy and tight transitions.",
+    "summary": "An outstanding sound‑board capture of the 4/29/71 Fillmore East show, featuring a scorching Hard to Handle and an iconic Alligator finale.",
+    "review": "The multitrack soundboard source is praised for its depth, clarity and vivid crowd ambience, making every instrument—especially Pigpen’s organ and Garcia’s lead—come alive. Musically the concert is hailed as one of ’71’s best, with a hot second set, standout renditions of Hard to Handle, Alligator, New Minglewood Blues and a powerful drum segment, despite a few mixed feelings about the Second That Emotion cut.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.7,
       "confidence": "high",
-      "rationale": "Over two dozen reviews overwhelmingly praise both the show (energy, standout songs) and the recording (crisp, deep soundboard mix). Minor criticisms are few and do not outweigh the dominant enthusiasm."
+      "rationale": "Overwhelmingly positive 5‑star reviews highlight both superb recording fidelity and an exceptional performance; only a handful of minor complaints lower the average slightly."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Depth and clarity repeatedly noted; crisp mix with audible organ. A few listeners mention a slight bass leak or prefer an older source, but overall the recording is described as incredible."
+      "technical_notes": "Crisp, deep and clear mix with appropriate crowd noise; organ and guitar are especially audible. A few listeners note a slight bass leak or prefer another source, but overall the multitrack sound is described as vivid and superb."
     },
     "show_quality": {
       "standout_songs": [
-        "New Minglewood Blues",
         "Hard to Handle",
         "Alligator",
-        "China Cat Sunflower > I Know You Rider",
-        "Morning Dew"
+        "New Minglewood Blues",
+        "Greatest Story",
+        "Second That Emotion",
+        "China Cat Sunflower",
+        "Truckin'",
+        "Morning Dew",
+        "Black Peter",
+        "Dark Hollow"
       ],
       "poor_songs": [
         "Second That Emotion"
       ],
-      "setlist_flow": "Well‑paced with strong transitions, especially a seamless second set that builds momentum and delivers tight segues between tunes.",
-      "energy_level": "high"
+      "setlist_flow": "Reviewers praise the seamless transitions and a particularly hot second set; the show builds energy from a solid first set into an explosive finale, with memorable drum breaks and jam sections."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar work is highlighted as a ‘strut’ through China Cat and generally praised for its power and synchronicity.",
+      "Jerry": "Garcia’s lead work is called ‘incredible’, his tone and strut on China Cat Sunflower are highlighted.",
       "Phil": "",
-      "Bob": "Weir is noted for “slashing” through his parts and delivering solid rhythm guitar throughout the show.",
-      "Keys": "Pig (organ) is described as clear, audible, ‘on fire’, and a key element of the mix.",
-      "Drums": "Bill’s drumming receives compliments for being tight and fitting perfectly into the overall tightness of the performance."
+      "Bob": "Weir is noted for “slashing through everything” and delivering a strong rhythm/vocal presence.",
+      "Keys": "Pigpen’s organ is described as clear, audible and under‑appreciated – a highlight of the mix.",
+      "Drums": "The drum segment draws mixed reactions (some love it, others question its placement) but overall is considered a powerful part of the show."
     },
-    "processed_date": "2025-09-07T18:25:27.397051+00:00",
+    "song_mentions": {
+      "New Minglewood Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Greatest Story": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Drums": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Alligator": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Second That Emotion": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Hollow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T06:08:36.795413+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-04-29.sbd.multitracks.miller.114350.flac16"
   }

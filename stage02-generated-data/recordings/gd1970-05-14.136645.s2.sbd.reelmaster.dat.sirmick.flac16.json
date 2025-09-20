@@ -16,48 +16,42 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture with speed/tune fluctuations, but a strong second set highlighted by Candyman and a solid Rider‑High Time stretch.",
-    "review": "The two reviews paint a picture of an intriguing May ’70 show that fills a chronological gap. While the SBD source is praised as “ripping” by one listener, the other notes speed wobble, pitch‑correction needs and occasional out‑of‑tune guitars, making the recording quality only fair. Musically the set delivers several gems – a sparse Candyman, an energetic Rider→High Time, a decent first Attics of My Life, a nice Jerry slide on Speedway and a welcomed St. Stephen – though some numbers (Me & My Uncle, Attics) feel merely average.",
+    "summary": "Soundboard recording with noticeable speed fluctuations and out‑of‑tune guitars, but the show delivers a decent first set and a highlight‑filled second set featuring Candyman, Rider and a strong Jordan.",
+    "review": "The SBD capture suffers from pitch wobble, occasional tape wow and guitars that drift out of tune, making the listening experience uneven. Musically the concert is an average‑to‑above‑average spring ’70 performance; the short first set holds its own while the sprawling second set shines on Candyman, Rider and a memorable Jordan jam.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 3.8,
       "confidence": "medium",
-      "rationale": "One reviewer rates the show 5 stars for its excitement, another gives a balanced 3‑star assessment citing technical flaws; averaging these and weighting musical performance higher yields a solid above‑average rating."
+      "rationale": "One reviewer gives a perfect 5‑star rave while the other rates it 3 stars due to technical flaws and only modest musical excitement; averaging these with weighting toward show quality yields a solid but not outstanding rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Speed fluctuations throughout, multiple pitch‑correction issues (−1% to +1%), occasional tape wow at ~2:07, guitars noticeably out of tune on several songs, and a reel‑change cut in Schoolgirl."
+      "technical_notes": "SBD has speed/pitch fluctuations, noticeable guitar tuning problems, occasional tape wow (e.g., Not Fade Away), a reel‑change cut in Schoolgirl and several tracks requiring pitch correction."
     },
     "show_quality": {
       "standout_songs": [
         "Candyman",
         "Rider",
-        "High Time",
-        "Speedway",
-        "St. Stephen",
-        "Jordan"
+        "Jordan",
+        "Deep Elem",
+        "Speedway"
       ],
       "poor_songs": [
-        "Me & My Uncle",
-        "Attics of My Life"
+        "St. Stephen",
+        "M&MU"
       ],
-      "setlist_flow": "First set is short (five songs) and technically uneven, while the second set stretches to 17 tracks with an NRPS interlude; overall performance is average‑to‑above‑average but never reaches a true lift‑off."
+      "setlist_flow": "A brief, five‑song first set followed by a 2‑hour, 17‑song second set; pacing is uneven due to technical hiccups but the second half builds momentum with strong jams."
     },
     "band_member_comments": {
-      "Jerry": "Nice slide at the end of Speedway, though guitars were noticeably out of tune in places.",
+      "Jerry": "Shows some great slide work on Speedway, but overall guitars (including his) wander out of tune.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Mickey does not play on the acoustic set (alternating with Billy); otherwise drums are present."
+      "Drums": "Mickey does not play in the acoustic set, alternating with Billy during that portion."
     },
     "song_mentions": {
       "Candyman": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Deep Elem": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -67,19 +61,14 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "High Time": {
+      "Jordan": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Me & My Uncle": {
-        "positive_mentions": 0,
-        "negative_mentions": 1,
-        "total_mentions": 1
-      },
-      "Attics of My Life": {
-        "positive_mentions": 0,
-        "negative_mentions": 1,
+      "Deep Elem": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
         "total_mentions": 1
       },
       "Speedway": {
@@ -88,17 +77,17 @@
         "total_mentions": 1
       },
       "St. Stephen": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
+        "positive_mentions": 0,
+        "negative_mentions": 1,
         "total_mentions": 1
       },
-      "Jordan": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
+      "M&MU": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T17:58:13.746705+00:00",
+    "processed_date": "2025-09-19T19:35:44.174497+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-14.136645.s2.sbd.reelmaster.dat.sirmick.flac16"
   }

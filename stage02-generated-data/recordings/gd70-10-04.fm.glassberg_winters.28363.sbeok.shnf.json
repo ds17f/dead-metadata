@@ -16,41 +16,78 @@
   "high_ratings": 10,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent quadcast soundboard capture of the legendary Oct 4 1970 Winterland set – soaring China>Rider, magical Sugar Magnolia and tight Cold Rain/Snow – though only half of the original stereo mix is present.",
-    "review": "Fans rave about this October‑4‑1970 Winterland performance, citing a blistering China Cat Sunflower → I Know You Rider sequence, a Wah‑wah‑laden Sugar Magnolia, and powerful vocal work from Phil and Bob. The source is a cleaned‑up matrix of the historic KSAN/KQED quad broadcast, offering crisp soundboard‑like clarity but missing some stereo announcements and portions of the original mix. Overall the music shines, even if the recording is technically incomplete.",
-    "sentiment": "mixed",
+    "summary": "A rare quad‑cast recording that captures a high‑energy 1970 Winterland set – magical Garcia solos and standout China Cat Sunflower > I Know You Rider – though only half of the original mix is present.",
+    "review": "The performance is widely praised for its soaring jams (China Cat Sunflower > I Know You Rider, Good Lovin', Sugar Magnolia) and a vivid, front‑forward Phil Lesh bass. The source is a cleaned‑up half‑of‑the‑quad broadcast, giving decent clarity but missing some KSAN announcements and the full stereo picture.",
+    "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "The majority of reviews (12 out of 15) award 4‑5 stars and praise the performance and sound quality, while a few note missing broadcast elements and give low scores; the strong musical consensus outweighs the technical complaints."
+      "rationale": "Most reviewers rate the show 4–5 stars and highlight exceptional musical moments; recording quality is good but not perfect, yielding an overall strong combined rating."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "good",
-      "technical_notes": "Derived from the historic KSAN/KQED quad‑cast broadcast; sound is clear and balanced like a soundboard, but only half of the original stereo mix is present and some KSAN station announcements are missing."
+      "technical_notes": "Only one half of the original quadraphonic FM broadcast is present, so the stereo image is incomplete and some KSAN station IDs are missing. The audio has been cleaned up and is clear overall, but occasional channel drop‑outs and roughness are noted."
     },
     "show_quality": {
       "standout_songs": [
         "China Cat Sunflower > I Know You Rider",
-        "Sugar Magnolia",
         "Good Lovin'",
-        "Cold Rain & Snow",
-        "Brokedown Palace"
+        "Sugar Magnolia",
+        "Uncle John's Band",
+        "Brokedown Palace",
+        "Cold Rain & Snow"
       ],
       "poor_songs": [
-        "Casey Jones",
-        "Airplane"
+        "Casey Jones"
       ],
-      "setlist_flow": "The set is praised for tight transitions and high energy, especially the mid‑set jam between China>Rider and the powerful Sugar Magnolia; a few reviewers note uneven moments later in the night (e.g., Airplane), but overall the performance is considered one of the band's classic early‑70s shows."
+      "setlist_flow": "The set is described as tight and high‑energy, with the first half of the night delivering soaring jams and vocal highlights; only a few later numbers (e.g., Casey Jones) are called out as weaker."
     },
     "band_member_comments": {
-      "Jerry": "His Wah‑wah pedal work is described as magical on Sugar Magnolia and his solo on China>Rider is called mystical.",
-      "Phil": "Vocals are noted as dominant; bass sound is praised as fat, funky, and hot throughout the set.",
-      "Bob": "Mentioned for mixing up the “soup” during transitions and trading licks after Good Lovin'.",
+      "Jerry": "Garcia's wah‑wah tone and solo work are repeatedly praised as magical and mystical, especially on China Cat > Rider and Sugar Magnolia.",
+      "Phil": "Phil Lesh’s bass is described as fat, funky, front‑forward, and his vocals were dominant early in the era; his playing shines on Cold Rain & Snow and throughout the set.",
+      "Bob": "Bob Weir is noted for “mixing up the soup” during the China Cat > Rider transition, contributing to the band’s interplay.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T10:26:25.841063+00:00",
+    "song_mentions": {
+      "Brokedown Palace": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Good Lovin'": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Cold Rain & Snow": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Casey Jones": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-19T23:34:23.015686+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-10-04.fm.glassberg_winters.28363.sbeok.shnf"
   }

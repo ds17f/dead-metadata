@@ -16,39 +16,65 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑quality FM soundboard capture of the historic 1971 Fillmore closing, highlighted by Pigpen’s fire and strong performances of The Rub, Hard to Handle, Deal and Mama Tried.",
-    "review": "The recording is sourced from the live‑to‑air FM broadcast and is praised for its crispness, depth and reduced clicks (especially in the clevenger_lai_fix‑128 version). Musically the show is a long, loose‑but‑cohesive set with Pigpen taking center stage; standout moments include The Rub, Hard to Handle, Deal, Mama Tried and Big Boss Man, while the first set is viewed as weaker than the second. Overall listeners find it an enjoyable snapshot of the band’s 1971 “Skull Fuck” era despite some minor sonic imperfections.",
+    "summary": "High‑fidelity FM broadcast of the historic Fillmore closing captures strong Pigpen moments and solid playing, though the show is a bit uneven early on.",
+    "review": "The recording is an FM‑simulcast soundboard feed that many reviewers describe as crisp, with less click‑noise than other versions. Musically the show features standout Pigpen‑heavy numbers like Hard to Handle, Deal, Mama Tried and Big Boss Man, but the band sounds a little loose at the start before tightening up later.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 3.8,
       "confidence": "high",
-      "rationale": "Three out of four reviewers gave 4‑5 stars and praised both the performance (especially Pigpen) and the FM soundboard quality; one mixed review lowers the average slightly, yielding a solid 4.2 rating."
+      "rationale": "Three very positive reviews praise both performance and FM soundboard quality; one moderate review notes some tuning issues, yielding a weighted average around 3.8."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "FM broadcast feed from the board; generally crisp with good spectrum and depth. The clevenger_lai_fix‑128 version has fewer clicks and better overall clarity, though some earlier pre‑FM mixes exhibit more noise."
+      "technical_notes": "FM broadcast of the board signal provides clear, full‑spectrum sound with fewer clicks than other versions; some reviewers note minor click‑noise but overall crisp and balanced."
     },
     "show_quality": {
       "standout_songs": [
-        "The Rub",
         "Hard to Handle",
         "Deal",
         "Mama Tried",
-        "Big Boss Man"
+        "Big Boss Man",
+        "The Rub"
       ],
       "poor_songs": [],
-      "setlist_flow": "A lengthy two‑set show; the first set is considered weaker (B‑ rating) while the second set improves (C+), with Pigpen’s energy lifting the overall momentum.",
-      "energy_level": "medium"
+      "setlist_flow": "A historic long set with two halves; the early part is a bit out of tune and loose, but the band tightens up later, delivering strong Pigpen‑centric numbers and cohesive jams."
     },
     "band_member_comments": {
-      "Jerry": "Great Strat guitar tone noted; playing before his later “Alligator” mods.",
+      "Jerry": "Garcia's guitar tone praised – he was using his Strat and shines throughout, especially on the highlighted songs.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T18:47:46.548422+00:00",
+    "song_mentions": {
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Deal": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mama Tried": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Big Boss Man": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Rub": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T06:43:23.547501+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-07-02.sbd.clevenger.lai.fix-128.6193.sbefail.shnf"
   }

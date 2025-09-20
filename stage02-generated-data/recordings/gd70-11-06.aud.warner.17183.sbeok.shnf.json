@@ -16,40 +16,75 @@
   "high_ratings": 21,
   "low_ratings": 3,
   "ai_review": {
-    "summary": "A legendary Capitol Theatre show with soaring jams (Alligator, Caution‑Lovelight) captured on a decent but gritty audience tape.",
-    "review": "The performance is hailed as one of the peak 1970 Dead shows – blistering “Alligator”, a monster “Caution → Lovelight” stretch, plus standout Pigpen harp and acoustic moments.  The recording is an audience (AUD) source; listeners note hiss, boom‑y low end and occasional fuzz, but most agree it’s listenable for its era and the music outweighs the sonic flaws.",
+    "summary": "A legendary Capitol Theatre set with scorching Alligator and jam highlights, captured on a gritty but listenable audience tape.",
+    "review": "The performance is hailed as one of the peak‑1970 shows – Jerry’s guitar is on fire, the Rhythm Devils lock into an unstoppable Alligator > Waggin' jam and Pigpen delivers his classic harmonica fury.  The recording is an audience (AUD) source that swings between fair fidelity and surprisingly clear moments; EQ can tame hissy bass and occasional drop‑outs.  Overall the music outweighs the technical flaws, making it a must‑listen for Deadheads.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Average user rating is ~4.3/5; the show receives strong praise while sound quality draws consistent criticism, leading to a high‑confidence mixed‑sentiment rating."
+      "rationale": "Average user rating is 4.32/5 across 25 reviews; most praise the musical performance while opinions on sound quality diverge, leading to a strong but not flawless overall score."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Typical 1970 AUD tape – hissy highs, boomy lows, occasional fuzzy passages and source switches between crowd recordings.  Some sections (second‑set jams) are clearer than others; overall listenable with EQ."
+      "technical_notes": "Uneven fidelity – hissy bass, occasional muffled or drop‑out sections, but several segments are surprisingly clear. Listeners note a low‑end boom and high‑end hiss typical of 1970 AUDs; EQ can improve the experience."
     },
     "show_quality": {
       "standout_songs": [
         "Alligator",
+        "Waggin' Jam",
         "Good Lovin'",
-        "Caution → Lovelight",
-        "Mountain Jam",
-        "Waggin' Jam/Tail",
-        "Candyman",
-        "Acoustic set (El Paso, New Riders)"
+        "Caution",
+        "Lovelight"
       ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic opener leads into a high‑energy electric set; the second set is jam‑heavy with seamless transitions, delivering a relentless, “radioactive” flow that many reviewers cite as a highlight of the Capitol Theatre run."
+      "setlist_flow": "The show moves from an intimate acoustic opening into a powerhouse electric second set, featuring nonstop jamming (Alligator → Waggin', Mountain Jam) and a high‑energy finish that keeps the momentum rolling without any down moments."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar is described as popping, snap‑crackle soloing, and his smile/fun onstage are repeatedly noted.",
+      "Jerry": "Praised for explosive guitar tone, snap‑crackle soloing on Alligator, and a visible smile that translates into joy onstage.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "The Rhythm Devils’ tone gets special praise for driving the jams."
+      "Drums": "The Rhythm Devils' rhythm is highlighted as a key driver of the jams; later source segments capture clearer drum work."
     },
-    "processed_date": "2025-09-11T11:09:38.832685+00:00",
+    "song_mentions": {
+      "Alligator": {
+        "positive_mentions": 8,
+        "negative_mentions": 0,
+        "total_mentions": 8
+      },
+      "Waggin' Jam": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Good Lovin'": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Caution": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Lovelight": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Mountain Jam": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Main Ten": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T00:39:07.666752+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-11-06.aud.warner.17183.sbeok.shnf"
   }

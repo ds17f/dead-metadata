@@ -208,45 +208,90 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Good Lovin’ > China Cat sandwich and tight early‑'72 set",
-    "blurb": "The show shines with a monster Good Lovin’ → China Cat Sunflower → Good Lovin’ sandwich, plus standout Jack Straw and Loser. The second set delivers a blistering Not Fade Away → Goin' Down The Road Feeling Bad sequence and a rousing One More Saturday Night. Soundboard recordings capture the band in crisp, classic form.",
-    "review": "What unfolds at Winterland on January 2, 1972 finds the Dead locked in early‑'72 stride. Jerry’s sparkling guitar tones soar through the iconic Good Lovin’ > China Cat Sunflower > Good Lovin’ sandwich, while his vocal work on Ramble On Rose and Casey Jones adds extra punch. Phil lays down a solid bass foundation that really lifts Loser and fuels the high‑tempo Not Fade Away → Goin' Down The Road Feeling Bad medley. Keith’s piano tinkles in Mixolydian color on China Cat and provides tasteful texture throughout, and Bill (with occasional Mickey fire) drives a tight, two‑drummer groove that keeps the momentum blazing. Bob Weir adds his characteristic swagger on One More Saturday Night and steadies the rhythm guitar duties across the set. The band’s energy stays high from the opening Truckin’ through the encore, delivering classic arrangements with crisp interplay and few missteps – an excellent snapshot of the Dead at a pivotal moment in their evolution.",
+    "summary": "Tight high‑energy set with monster Good Lovin’→China Cat sandwich",
+    "blurb": "The band rides New Year momentum with a crisp soundboard capture that showcases the iconic Good Lovin’ → China Cat Sunflower → Good Lovin’ sequence. Jerry’s soaring guitar and Keith’s sparkling piano lift the set, while Bill Kreutzmann drives the tight drumming throughout.",
+    "review": "Winterland on January 2, 1972 captures a young Dead that’s firing on all cylinders. The show opens with a brisk first set – “Truckin’,” “Sugaree,” and a punchy “Beat It On Down The Line” – that builds into an especially tight mid‑set groove on “Jack Straw” and “Loser.” The second set delivers the night’s centerpiece: a monster Good Lovin’ → China Cat Sunflower → Good Lovin’ sandwich, where Jerry’s soaring lead, Keith’s sparkling piano arpeggios, and Bill’s “on fire” drumming lock in perfectly. Highlights continue with a bright “Ramble On Rose,” a crisp “Not Fade Away > Goin' Down The Road Feeling Bad” transition, and an exuberant encore of “One More Saturday Night.” Both soundboard sources are excellent, but the first recording (gd72-01-02.sbd.eD.8709.sbeok.shnf) stands out for its crystal‑clear mix and superb instrument separation, making it the definitive listening choice.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 3.8,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 50,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 0.9,
+        "sentiment_rationale": "Both recordings praise the show’s high‑energy performance and highlight the Good Lovin’→China Cat sequence, Jerry’s guitar tone, Keith’s piano sparkle, and Bill’s drumming. One source notes a tentative first half and a weak Sugar Magnolia, but the overall consensus is strongly positive, warranting a moderate +0.9 sentiment boost.",
+        "final_calculation": "2.5 + 0.4 + 0.9 = 3.8"
+      }
     },
     "best_recording": {
       "identifier": "gd72-01-02.sbd.eD.8709.sbeok.shnf",
-      "reason": "Excellent soundboard capture with phenomenal clarity that showcases the monster Good Lovin’ > China Cat sandwich and tight overall mix"
+      "reason": "Excellent soundboard with crystal‑clear mix, strong instrument separation, and captures the centerpiece Good Lovin’ → China Cat sandwich perfectly."
     },
     "key_highlights": [
-      "Monster Good Lovin' → China Cat Sunflower → Good Lovin' sandwich with sparkling guitar work",
-      "Tight, high‑tempo Not Fade Away → Goin' Down The Road Feeling Bad medley",
-      "Standout performances of Jack Straw and Loser in the first set",
-      "Ripping One More Saturday Night encore that caps a crisp, classic early‑'72 show"
+      "Monster Good Lovin’ → China Cat Sunflower → Good Lovin’ sandwich",
+      "Tight high‑energy set that rides New Year momentum",
+      "Bill Kreutzmann’s “on fire” drumming throughout",
+      "Keith Godchaux’s sparkling piano, especially on the China Cat segment"
     ],
     "song_highlights": [
       "Good Lovin'",
       "China Cat Sunflower",
       "Jack Straw",
       "Loser",
+      "Next Time You See Me",
+      "Brown Eyed Women",
+      "Beat It On Down The Line",
+      "Ramble On Rose",
       "Not Fade Away",
       "Goin' Down The Road Feeling Bad",
-      "One More Saturday Night",
-      "Ramble On Rose"
+      "One More Saturday Night"
     ],
     "band_performance": {
-      "Jerry": "Sparkling guitar tone and strong vocals, especially on the Good Lovin’ sandwich and Ramble On Rose.",
-      "Phil": "Solid bass foundation that shines on Loser and drives the Not Fade Away → Goin' Down sequence.",
-      "Bob": "Delivers swaggering rhythm guitar and vocal energy on One More Saturday Night and throughout the set.",
-      "Keith": "Provides bright, Mixolydian piano textures on China Cat and tasteful arpeggios that enhance the jams.",
+      "Jerry": "Soaring guitar tone and strong vocals on “Ramble On Rose”; adds energetic leads during jams, though early numbers are a bit under‑played.",
+      "Phil": "Mostly in the background; rhythm section slightly off in the first set but provides solid drive later, especially on “Not Fade Away.”",
+      "Bob": "Delivers solid vocal harmonies and steps into the lead on the China Cat segment without any notable issues.",
+      "Brent": "",
+      "Keith": "Sparkling piano throughout, with a standout arpeggio before “China Cat” and leading the dual‑drum climax on “Not Fade Away > Goin' Down.”",
       "Mickey": "",
-      "Billy": "Tight, fire‑filled drumming that underpins the high‑energy first set and locks in with the second‑set grooves."
+      "Billy": "Bill Kreutzmann is “on fire,” delivering tight, punchy drumming that anchors the Good Lovin’ sandwich and the “Not Fade Away > Goin' Down” transition."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-07T22:12:55.259823+00:00",
+    "processed_date": "2025-09-20T11:46:55.746720+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Good Lovin'",
+        "China Cat Sunflower",
+        "Good Lovin'"
+      ],
+      [
+        "Jack Straw"
+      ],
+      [
+        "Loser"
+      ],
+      [
+        "Next Time You See Me"
+      ],
+      [
+        "Brown Eyed Women"
+      ],
+      [
+        "Beat It On Down The Line"
+      ],
+      [
+        "Ramble On Rose"
+      ],
+      [
+        "Not Fade Away",
+        "Goin' Down The Road Feeling Bad",
+        "Not Fade Away"
+      ],
+      [
+        "One More Saturday Night"
+      ]
+    ]
   }
 }

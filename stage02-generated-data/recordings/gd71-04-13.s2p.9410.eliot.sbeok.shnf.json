@@ -16,38 +16,58 @@
   "high_ratings": 5,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Good‑quality soundboard capture of a mythic show highlighted by an epic 20‑minute Good Lovin’ and fiery drumming from Bill Kreutzmann.",
-    "review": "The recording, sourced from the venue’s soundboard, generally delivers clear audio with only occasional distortion complaints. Musically the concert is remembered for its extended Good Lovin’, strong Pig Pen organ work, a memorable Me & Bobby McGee cover, and especially the “sick/chills/heavy” drum performance by Bill Kreutzmann.",
+    "summary": "Good‑quality soundboard capture with an extended 20‑minute Good Lovin' jam, strong drum work and emotional second set despite some distortion complaints.",
+    "review": "The show shines with a monster 20‑minute Good Lovin' stretch, a powerful Billy Kreutzmann drum showcase and an emotionally charged Second That Emotion. Most listeners praise the soundboard source as clear and enjoyable, though one reviewer notes noticeable distortion that detracts from the experience.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 4.1,
       "confidence": "medium",
-      "rationale": "Reviews are mostly positive about the performance (high energy, standout jams) but one reviewer cites serious distortion, leading to a balanced overall rating."
+      "rationale": "Average star rating is ~3.9; most comments highlight strong performance and decent recording, offset by a few serious complaints about distortion."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Several reviewers praise the good‑quality soundboard source; however, one notes noticeable distortion and bad sound quality in parts of the set."
+      "technical_notes": "Several reviewers call the tape \"nice quality\" or \"good quality\", but one flags heavy distortion and bad sound. Overall the mix is considered clear enough for enjoyment."
     },
     "show_quality": {
       "standout_songs": [
         "Good Lovin'",
-        "Me & Bobby McGee",
-        "Uncle John's Band",
-        "Drums"
+        "Second That Emotion",
+        "Uncle John's Band"
       ],
       "poor_songs": [],
-      "setlist_flow": "Mix of extended jams (20‑minute Good Lovin’) and classic covers, with a strong second set that many listeners recall as a rare treat.",
-      "energy_level": "high"
+      "setlist_flow": "The second set is highlighted as an emotional high point with long jams (notably a 20‑minute Good Lovin') and tight transitions, while the first set receives less specific commentary."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s steel guitar work during the New Riders set and his warm presence backstage are highlighted; no specific guitar tone comments for the Dead portion.",
+      "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "Pig Pen (organ) praised as being in good form; Uncle John's Band vocals noted positively.",
-      "Drums": "Bill Kreutzmann’s drumming described as “sick/chills/heavy” and a major highlight of the show."
+      "Keys": "Pig Pen noted in good form during this period.",
+      "Drums": "Billy Kreutzmann's drumming is repeatedly praised as a highlight of the show."
     },
-    "processed_date": "2025-09-07T17:31:33.634426+00:00",
+    "song_mentions": {
+      "Good Lovin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Second That Emotion": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me and Bobby McGee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T04:44:50.563967+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-04-13.s2p.9410.eliot.sbeok.shnf"
   }

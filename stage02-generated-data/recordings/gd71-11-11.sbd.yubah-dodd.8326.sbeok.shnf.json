@@ -16,41 +16,66 @@
   "high_ratings": 8,
   "low_ratings": 5,
   "ai_review": {
-    "summary": "Soundboard capture of a fast, early‑1971 set with standout Tennessee Jed and Jack Straw, but marred by digi‑garble, dropouts and an uneven mix.",
-    "review": "The show is remembered for its snappy tempos, tight playing and memorable moments like the rapid Tennessee Jed, an early Jack Straw solo theme and lively banter about ‘Pigs off the stage.’  Technically the recording suffers from digital garbling, splice artifacts and occasional muddiness, though some listeners note that portions sound surprisingly clear after cleanup.  Overall it offers a fascinating snapshot of the Dead’s 1971 energy, but the audio flaws keep it from being a must‑hear performance.",
+    "summary": "Soundboard capture of a fast‑paced early ’71 show with standout Tennessee Jed and Jack Straw, but marred by noticeable digital garble and occasional dropouts.",
+    "review": "The recording preserves an energetic 1971 performance – the band rushes through classics like Tennessee Jed, Jack Straw and Me & My Uncle with a snappy feel that many reviewers love.  However, the source suffers from digi‑garbling, odd mixes and splice/drop‑out artifacts that split opinion on its listenability.  Overall it’s a historically interesting tape worth hearing for the banter and early Keith Godchaux moments despite its technical flaws.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.1,
-      "confidence": "medium",
-      "rationale": "Show quality is moderately positive (fast, tight playing) while recording quality is mixed with many complaints about digi‑garble and dropouts; the weighted average yields a low‑mid rating."
+      "stars": 3.9,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the musical energy and historic value (show weight ~70%) while a sizable minority criticize digital garble and mix problems (recording weight ~30%).  The blend yields an overall rating just under 4 stars."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Several reviewers cite digital garbling, odd mix balance, splice/dropout artifacts, and occasional muddiness. A few note that cleaned‑up sections sound crystal‑clear, but overall the audio is uneven."
+      "technical_notes": "Listeners report digi‑garbling, odd digital sharpening of highs, splices and dropouts (especially on Truckin'), but also note moments of crystal‑clear sound.  The mix is described as both ‘odd’ and ‘good’, indicating inconsistency across the tape."
     },
     "show_quality": {
       "standout_songs": [
         "Tennessee Jed",
         "Jack Straw",
         "Me & My Uncle",
-        "Uncle (Bobbie McGee)",
-        "Pit B"
+        "Playing in the Band"
       ],
       "poor_songs": [
-        "Truckin' (recording dropouts)"
+        "Truckin'"
       ],
-      "setlist_flow": "Early‑1971 set is fast and snappy with brief, energetic numbers; banter and crowd interaction are prominent, and the show feels more like a concise snapshot than an extended jam session.",
-      "energy_level": "high"
+      "setlist_flow": "A fast, snappy early‑71 set that leans on concise renditions rather than long jams; banter and stage antics (the “Pigs off the stage” moment) add historic flavor despite a brief, interrupted vibe caused by venue security."
     },
     "band_member_comments": {
-      "Jerry": "Jerry's guitar work is noted as fast and solid, with good background vocals on Me & My Uncle; some praise his tone despite mix issues.",
-      "Phil": "Phil's bass retains fidelity even through tape degradation, earning occasional mention of its warmth.",
-      "Bob": "Bob (Bobby) is highlighted for vocal contributions on Me & My Uncle and his humorous stage banter.",
-      "Keys": "Early Keith Godchaux’s playing is appreciated, though the mix around keyboards is described as odd.",
+      "Jerry": "Background vocals on Me & My Uncle are highlighted; guitar tone mentioned as solid in some reviews.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Early appearance of Keith Godchaux is appreciated, adding a nice texture to the mix.",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T20:26:18.682925+00:00",
+    "song_mentions": {
+      "Tennessee Jed": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Jack Straw": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Truckin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Playing in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T09:22:11.685919+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-11-11.sbd.yubah-dodd.8326.sbeok.shnf"
   }

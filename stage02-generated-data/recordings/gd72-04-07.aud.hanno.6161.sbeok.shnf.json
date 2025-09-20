@@ -16,43 +16,71 @@
   "high_ratings": 7,
   "low_ratings": 13,
   "ai_review": {
-    "summary": "A legendary Europe‑'72 performance with scorching sets (Truckin’, The Other One, China>Rider) but captured on two horrendous audience tapes that are nearly unlistenable.",
-    "review": "The show is widely praised for its high energy, blistering first‑set work and a monster second set featuring Truckin'>Drums>Too>El Paso>Wharf Rat and an incendiary The Other One.  Unfortunately the only available sources are two audience recordings that reviewers describe as “the worst quality of any Dead recording,” sounding like they were taped from the bottom of a pool, with severe muffling and inconsistency.  For completists the music is worth hearing; for most listeners the audio makes it a painful experience.",
+    "summary": "A legendary Europe ’72 performance shines through, but the audience‑only tapes are virtually unlistenable.",
+    "review": "The show captured on gd72-04-07.aud.hanno.6161.sbeok.shnf is one of the standout early‑1972 concerts – the first set rolls with relentless energy and the second set delivers a monster The Other One/Truckin'/Wharf Rat sequence, superb Jerry solos, Phil’s bass fireworks and Bill’s other‑worldly drumming.  Unfortunately both audience (AUD) sources are described as horrendous – muffled, crackling and at times sounding like it was recorded from the bottom of a pool – making the recording essentially for completists only.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.4,
+      "stars": 3.3,
       "confidence": "high",
-      "rationale": "Most reviewers rate the performance very highly (average ~4.5/5) but uniformly condemn the recording quality (~1/5). Weighted 70% show + 30% recording yields a mid‑range rating."
+      "rationale": "Most reviewers praise the musical performance (average show rating ≈4.0) while nearly all condemn the audio quality (average recording rating ≈1.5). Weighted 70 % show + 30 % recording gives a combined score around 3.3."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Two audience (AUD) sources; described as horrendous, muffled, inconsistent, sounding like a mic in a pool or on a roof. Frequent drop‑outs, lack of instrument separation, and overall unlistenable."
+      "technical_notes": "Both AUD sources are described as horrendous, muffled, crackly and inconsistent – likened to being recorded from the bottom of a pool or with a mic stuck in a vent.  The first AUD track is marginally listenable; the second is “stunningly awful”."
     },
     "show_quality": {
       "standout_songs": [
-        "Truckin'",
-        "Drums",
         "The Other One",
-        "El Paso",
+        "Truckin'",
         "Wharf Rat",
+        "El Paso",
         "China Cat Sunflower > I Know You Rider",
-        "Me & My Uncle",
-        "Sugaree",
-        "Greatest Story Ever Told"
+        "Sugar Magnolia"
       ],
       "poor_songs": [],
-      "setlist_flow": "A marathon first set that builds momentum, followed by a second‑set ‘meat’ sequence (Truckin' → Drums → Too → El Paso → Too → Wharf Rat) praised for its seamless segues and high‑octane improvisation.",
-      "energy_level": "high"
+      "setlist_flow": "First set is high‑octane and fast, second set builds into an epic Meat sequence (Truckin' → Drums → The Other One → El Paso → Wharf Rat) that many fans cite as a tour highlight."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly lauded for his soaring tone, powerful solos (especially in Truckin' and The Other One), and overall fire throughout the show.",
-      "Phil": "Noted as ‘bombing’ with a thunderous bass line that drives the extended Too jams.",
-      "Bob": "Described as “on fire” early in the set, delivering strong vocals and energetic rhythm work.",
-      "Keys": "Brief mention of interplay between Jerry and Keith (keyboard) during The Other One; otherwise not highlighted.",
-      "Drums": "Bill’s drumming praised as other‑worldly, especially in the intense meat sequence."
+      "Jerry": "Repeatedly praised for blistering tone, soaring solos (especially on Truckin') and overall fiery playing.",
+      "Phil": "Noted for “bombs” on bass, a caution‑tease near the end of The Other One, and generally strong low‑end work.",
+      "Bob": "Described as “on fire”, delivering powerful vocals; his organ work receives mixed comments (some dislike Pigpen’s organ, others enjoy it).",
+      "Keys": "Keith’s interplay with Jerry on Wharf Rat is highlighted positively; overall keyboard presence is less discussed but not criticized.",
+      "Drums": "Bill Kreutzmann’s drumming in the Meat sequence is called “other‑worldly” and a major factor in the show’s intensity."
     },
-    "processed_date": "2025-09-07T22:50:40.589711+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Truckin'": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Wharf Rat": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "El Paso": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-20T12:45:44.649417+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-04-07.aud.hanno.6161.sbeok.shnf"
   }

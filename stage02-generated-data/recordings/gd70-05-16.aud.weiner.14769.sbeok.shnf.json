@@ -16,28 +16,29 @@
   "high_ratings": 4,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Rough audience‑sourced tape of the historic May 16 1970 Temple Stadium show captures a joyous, energetic performance with a standout New Speedway Boogie despite a muddy mix.",
-    "review": "The concert is remembered fondly for its high energy and historic context – a short but powerful set that even featured Jimi Hendrix on the same bill. Reviewers note that Jerry Garcia’s guitar cuts through clearly, while vocals sit low and the overall sound is muddy with plenty of audience noise, making it an uneven listening experience but still worth hearing for fans of this era.",
+    "summary": "Rough audience‑sourced tape of the historic 16‑May‑1970 Temple Stadium gig, highlighted by a joyous New Speedway Boogie and Workingman's Dead but marred by noisy, muddy sound.",
+    "review": "The performance captures a brief, high‑energy set from May 1970 that many fans remember fondly – especially the spirited New Speedway Boogie and the uplifting Workingman's Dead. While Jerry Garcia’s guitar cuts through clearly at times, the overall mix is crowded with audience noise, low vocals and occasional muddiness, making the recording a mixed listening experience.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.0,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical performance (average show rating ~4.5) while the recording quality is judged fair to poor (average ~2.5). Weighted combination yields a solid 4‑star overall rating."
+      "rationale": "Most reviewers praise the historic show and its musical moments (average show rating ≈4.6), but many note significant recording flaws (average recording rating ≈2.8). Weighted combination yields a solid 4‑star overall rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Heavy audience noise, low vocal levels and a generally muddy mix; guitar clarity is decent but the tape has occasional drop‑outs and the recording was apparently stopped by venue staff."
+      "technical_notes": "Heavy audience noise and muddy mix; vocals often low, but Jerry's guitar is occasionally clear. Some reviewers report drop‑outs and a \"rough\" feel, while one calls it \"very well recorded.\""
     },
     "show_quality": {
       "standout_songs": [
-        "New Speedway Boogie"
+        "New Speedway Boogie",
+        "Workingman's Dead"
       ],
       "poor_songs": [],
-      "setlist_flow": "Short (under an hour) but high‑energy set; fans highlight the historic pairing with Hendrix and the upbeat vibe of the early‑70s Dead repertoire."
+      "setlist_flow": "A short (< 1‑hour) but high‑spirited set that captured the excitement of a historic double‑bill with Hendrix and others; fans describe it as joyous and historically significant despite its brevity."
     },
     "band_member_comments": {
-      "Jerry": "Garcia's guitar is described as clear and joyous despite the overall muddy mix.",
+      "Jerry": "Garcia’s guitar comes through clear on parts of the tape, earning specific praise.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
@@ -49,23 +50,13 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Purple Haze": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Foxy Lady": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Star Spangled Banner": {
+      "Workingman's Dead": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T18:24:44.862354+00:00",
+    "processed_date": "2025-09-19T20:09:13.785770+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-05-16.aud.weiner.14769.sbeok.shnf"
   }

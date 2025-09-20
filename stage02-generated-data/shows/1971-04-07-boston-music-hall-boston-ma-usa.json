@@ -156,42 +156,67 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Boston show with stellar Saint Stephen and soaring China>Rider",
-    "blurb": "The April 7, 1971 performance delivers a blistering Saint Stephen and a seamless China Cat Sunflower → I Know You Rider transition. Highlights include a hard‑rock Hard To Handle and an explosive post‑drums Not Fade Away jam. The Betty Cantor soundboard capture is crystal clear and showcases the band at full tilt.",
-    "review": "What unfolds at Boston Music Hall on April 7, 1971 finds the Dead in top form, riding a high‑energy wave that never loses its momentum. The first set builds with tight rock numbers—Me And My Uncle, Casey Jones and a punchy Hard To Handle—setting up a second‑set launch that kicks off with an immaculate China Cat Sunflower → I Know You Rider segue. From there the band rockets into a smoking Saint Stephen where Phil’s bass rumbles like a plant being pulled from its pot and Jerry’s plug‑in guitar pierces the mix with crystal‑clear leads. The drum duo erupts into a thunderous segment that segues into an unforgettable Not Fade Away jam, building to an intense climax before the tape cuts short. Throughout, Brent’s (Pigpen’s) organ adds subtle texture while Bill Kreutzmann drives the rhythmic foundation with precision. This show is captured on Betty Cantor’s renowned soundboard tape, which delivers exceptional clarity and balance, making it one of the standout April ’71 documents.",
+    "summary": "Scorching China>Rider opener and rare St. Stephen with crisp SBD",
+    "blurb": "The second set erupts with a blistering China Cat Sunflower → I Know You Rider transition and a rare Saint Stephen that lets Phil’s bass rumble. Jerry’s tone shines on the Not Fade Away jam, while the post‑drums segment builds intense momentum despite being cut short. Overall the performance is tight, energetic, and captured by an excellent Betty Cantor soundboard.",
+    "review": "April 7, 1971 at Boston Music Hall finds the Dead in top form, delivering a first set that rocks from Me And My Uncle through Sugar Magnolia and then launching into a second‑set fireworks display. The show’s high point is the scorching China Cat Sunflower → I Know You Rider opener that rolls straight into a rare Saint Stephen, highlighted by Phil Lesh’s “rumbling the plant off the mantle” bass line and Jerry Garcia’s soaring tone. Not Fade Away erupts into an improvisational jam where Jerry’s guitar shines, and the post‑drums section builds a fierce groove before the tape cuts out, leaving listeners craving more. The set closes with a rollicking Johnny B. Goode, cementing this night as a solid, high‑energy snapshot of the early ’70s Dead, especially when heard through Betty Cantor’s pristine soundboard capture.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 3.9,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 21,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.2,
+        "sentiment_rationale": "Three recordings are explicitly positive, praising the pristine SBD sound and standout moments (rare St. Stephen, hot China>Rider). Two recordings are mixed but only note minor issues (jam after drums cut short) without detracting from overall performance quality. The consensus is a clearly upbeat sentiment, warranting a moderate positive adjustment.",
+        "final_calculation": "2.5 + 0.2 + 1.2 = 3.9"
+      }
     },
     "best_recording": {
       "identifier": "gd71-04-07.sbd.orf.119.sbeok.shnf",
-      "reason": "Betty Cantor soundboard tape with excellent clarity, crisp guitar plug‑in and high‑energy performance; considered the premier source for this show"
+      "reason": "Betty Cantor’s pristine soundboard capture delivers crystal‑clear audio, includes the rare Saint Stephen and scorching China>Rider sequence, and has no distortion or dropouts."
     },
     "key_highlights": [
-      "Smoking Saint Stephen with rumbling Phil bass and soaring Garcia leads",
-      "Seamless China Cat Sunflower → I Know You Rider transition that launches a blazing second set",
-      "Epic post‑drums Not Fade Away jam building to an intense climax (though cut short)",
-      "Hard‑rock Hard To Handle delivering tight groove and vocal fire"
+      "Rare Saint Stephen with Phil’s rumbling bass line.",
+      "Scorching China Cat Sunflower → I Know You Rider opener that sets the second set ablaze.",
+      "Post‑drums jam that builds intense momentum (though cut short).",
+      "Tight first‑set energy highlighted by Hard To Handle and Sugar Magnolia."
     ],
     "song_highlights": [
-      "Saint Stephen",
       "China Cat Sunflower",
       "I Know You Rider",
+      "Saint Stephen",
       "Hard To Handle",
       "Not Fade Away"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s plug‑in guitar shines, delivering crisp leads on Saint Stephen and driving the post‑drums jam with inspired phrasing.",
-      "Phil": "His bass on Saint Stephen is a classic ‘Phil bomb,’ rumbling powerfully beneath the band’s high‑energy flow.",
+      "Jerry": "Garcia’s tone is superb, especially on the Not Fade Away jam and throughout the rare Saint Stephen.",
+      "Phil": "Lesh delivers a rumbling bass line on Saint Stephen that anchors the band’s fire.",
       "Bob": "",
       "Brent": "",
-      "Mickey": "",
-      "Billy": "Bill Kreutzmann anchors the rhythm, with the drum segment highlighted as a standout moment that propels the Not Fade Away jam."
+      "Mickey": "Mickey drives the post‑drums energy with powerful percussion, propelling the jam forward.",
+      "Billy": "Bill locks in tight grooves, complementing Mickey and keeping the rhythmic foundation solid."
     },
     "processed_recordings": 5,
-    "processed_date": "2025-09-07T17:17:48.591676+00:00",
+    "processed_date": "2025-09-20T04:20:27.014294+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ],
+      [
+        "Saint Stephen",
+        "Drums",
+        "Not Fade Away",
+        "Goin' Down The Road Feeling Bad",
+        "Not Fade Away",
+        "Johnny B. Goode"
+      ],
+      [
+        "Hard To Handle"
+      ]
+    ]
   }
 }

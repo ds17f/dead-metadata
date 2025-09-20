@@ -16,36 +16,47 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent FM broadcast capture of a high‑energy New Year's Eve show, highlighted by a wild Not Fade Away reprise and a soaring Casey Jones.",
-    "review": "Both reviewers rave about the upgraded FM source – the hum is gone and the mix is clear, with the DJ’s brief interlude adding character. Musically the concert burns, especially the NFA reprise with Pigpen and Bob and a monster performance of Casey Jones, making it one of the favorite New Year's shows.",
+    "summary": "Excellent FM broadcast of a New Year's show with crisp sound, wild Pigpen/Bob moments and a smoking Casey Jones, plus Jerry’s lightning‑bolt guitar work.",
+    "review": "Both reviewers rave about this 1971 NYE performance, highlighting Pigpen’s wild NFA reprise, Bob Weir’s storytelling, and an “incredible” Casey Jones. The FM broadcast (matrix) has been cleaned up – the buzz/hum is gone and the mix is clear, making the show fully enjoyable.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.8,
-      "confidence": "medium",
-      "rationale": "Consistently high praise (5‑star) for both sound quality and performance; standout songs noted, no complaints, yielding an almost perfect combined score."
+      "stars": 4.9,
+      "confidence": "high",
+      "rationale": "Two detailed 5‑star reviews praise both the musical performance (standout jams, strong Pigpen and Jerry playing) and the recording quality (no hum, clear FM mix), indicating an exceptional show with excellent audio."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "excellent",
-      "technical_notes": "Buzz/hum eliminated in the upgraded FM broadcast; clear, crisp mix with brief DJ comments; no reported drop‑outs or muffiness."
+      "technical_notes": "FM broadcast source cleaned of buzz/hum; crisp clarity, good instrument separation, brief DJ intro before encore adds ambience."
     },
     "show_quality": {
       "standout_songs": [
-        "Not Fade Away (reprise)",
-        "Casey Jones"
+        "Casey Jones",
+        "NFA reprise"
       ],
       "poor_songs": [],
-      "setlist_flow": "Smooth, high‑energy flow that builds through the first set into a wild second set; DJ interlude adds to the New Year's atmosphere.",
-      "energy_level": "high"
+      "setlist_flow": "Energetic set with a wild NFA>GDTRFB>NFA sequence, strong Pigpen contributions and Jerry’s explosive guitar; Bob Weir’s NYE story adds narrative flair."
     },
     "band_member_comments": {
-      "Jerry": "Described as \"throwing it down like lightning bolts\" – strong, electrifying guitar work.",
+      "Jerry": "Described as “throwing it down like Lightning bolts!” – high‑energy lead guitar.",
       "Phil": "",
-      "Bob": "Mentioned in the wild NFA reprise with Pigpen, indicating a lively contribution.",
+      "Bob": "Pig & Bob go wild on the NFA reprise; Weir’s New Year’s Eve story noted by a reviewer.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T21:32:40.205231+00:00",
+    "song_mentions": {
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "NFA": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T11:26:35.989995+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-12-31.142687.fm.dalton.miller.sirmick.flac1644"
   }

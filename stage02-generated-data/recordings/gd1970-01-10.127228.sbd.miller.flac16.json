@@ -16,32 +16,34 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clean soundboard capture (Miller 127228) with decent clarity, but the Jan ’70 show is mostly average aside from a standout Me & My Uncle.",
-    "review": "The Miller‑updated 127228 soundboard source offers good balance and image, fixing earlier pitch and mix problems. Musically the concert sits squarely in the early‑’70 “average” zone – a rushed set with few jam sequences, though Me & My Uncle shines and Black Peter is solid, while Mason’s Children feels uneven. Overall it’s a decent listen for completists but not a landmark performance.",
+    "summary": "Improved Miller soundboard capture delivers a decent listening experience, while the early‑70 set is average overall but shines on Me & My Uncle and Black Peter.",
+    "review": "The Miller 127228 soundboard source sounds noticeably better than earlier versions, offering clear balance without the speed or image problems of other transfers. Musically the show is an unremarkable January ’70 performance – missing a few opening numbers and feeling a bit rushed – yet it features a standout Me & My Uncle and a solid Black Peter, with the Mason's Children track sounding a little rickety.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.2,
       "confidence": "medium",
-      "rationale": "Show quality is judged average/pedestrian (≈2.8 ★) while the updated soundboard recording is good (≈4 ★). Weighted 70/30 this yields about a 3.2‑star rating."
+      "rationale": "Show quality is judged average (~2.8/5) while recording quality is good (~4/5); weighted combination yields a mid‑range rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Miller's updated 127228 source sounds much better than earlier versions; previous Miller 89862 had balance and image problems and other sources were pitched too slow."
+      "technical_notes": "Miller's updated 127228 transfer sounds way better than older circulating sources; previous Miller and other versions suffered balance, image, and speed/pitch issues. This version is clean but not flawless."
     },
     "show_quality": {
       "standout_songs": [
         "Me & My Uncle",
         "Black Peter"
       ],
-      "poor_songs": [],
-      "setlist_flow": "The set feels rushed with missing opening numbers, little jam sequencing, and an overall average early‑’70 vibe."
+      "poor_songs": [
+        "Mason's Children"
+      ],
+      "setlist_flow": "Typical early‑70 set with missing opener(s) and a hurried feel due to venue constraints; lacks the extended jam sequences that make other shows memorable."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "",
+      "Keys": "Brief nod to Pigpen’s presence ('Pigpen. nuff said.')",
       "Drums": ""
     },
     "song_mentions": {
@@ -56,12 +58,17 @@
         "total_mentions": 1
       },
       "Mason's Children": {
-        "positive_mentions": 1,
+        "positive_mentions": 0,
         "negative_mentions": 1,
-        "total_mentions": 2
+        "total_mentions": 1
+      },
+      "Pigpen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T13:20:06.720615+00:00",
+    "processed_date": "2025-09-19T14:32:04.801639+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-01-10.127228.sbd.miller.flac16"
   }

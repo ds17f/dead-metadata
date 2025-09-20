@@ -16,24 +16,28 @@
   "high_ratings": 2,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "A lively Palladium show captured on audience tape with even, punchy levels, though it suffers from a glitch and missing tracks.",
-    "review": "The recording delivers a raw, high‑energy performance that many fans describe as outstanding, especially after Charlie Miller’s mastering which adds clarity and punch. However, listeners note a noticeable glitch at the start of “Me & My Uncle” and the complete absence of “Not Fade Away” and “Bird Song,” which detracts from an otherwise solid AUD source.",
+    "summary": "Punchy, even‑level audience recording from the Palladium shows, but plagued by a glitch and missing Not Fade Away/Bird Song.",
+    "review": "The tape captures two raw, high‑energy sets with clear audience ambience and a nicely balanced mix that many fans call outstanding. However, listeners note a noticeable glitch in \"Me & My Uncle\" and the complete absence of \"Not Fade Away\" and \"Bird Song,\" which detracts from an otherwise solid document.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.1,
+      "stars": 3.3,
       "confidence": "medium",
-      "rationale": "Positive comments about performance and mastering balance negative remarks about technical glitches and missing songs; the average of the four star ratings (5,4,2,0) yields a modest overall score."
+      "rationale": "Show quality is generally praised but lacks specific performance highlights; recording quality is good overall yet suffers from a glitch and missing tracks, leading to an average‑ish combined rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Even levels with added punch from Miller's mastering; a glitch at ~00:21 in “Me & My Uncle”; both audience and soundboard versions missing “Not Fade Away” and “Bird Song.”"
+      "technical_notes": "Even levels and added punch praised; raw audience feel appreciated. Noted glitch at ~0:21 in \"Me & My Uncle\" and missing \"Not Fade Away\" and \"Bird Song\"."
     },
     "show_quality": {
-      "standout_songs": [],
-      "poor_songs": [],
-      "setlist_flow": "Two sets feel like they may come from different sources, but the overall flow is raw and energetic.",
-      "energy_level": "high"
+      "standout_songs": [
+        "Sugaree"
+      ],
+      "poor_songs": [
+        "Not Fade Away",
+        "Bird Song"
+      ],
+      "setlist_flow": "Two sets feel energetic; some reviewers think the sets may come from different sources, but overall the raw performance is well‑received."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +46,29 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T19:00:46.896002+00:00",
+    "song_mentions": {
+      "Sugaree": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Bird Song": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T07:09:01.670074+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-08-05.fob-SonyECM22p.miller.88859.sbeok.flac16"
   }

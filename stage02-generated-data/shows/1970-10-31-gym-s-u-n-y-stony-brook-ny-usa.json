@@ -168,41 +168,48 @@
     "show_time: late"
   ],
   "ai_show_review": {
-    "summary": "High‑octane late set with The Other One & Good Lovin' fireworks",
-    "blurb": "The late portion of the Halloween show erupts into high‑energy jams, highlighted by a searing 'The Other One', soaring 'Good Lovin'' transitions and Jerry’s pedal‑steel cameo with the New Riders. Phil provides a rock‑solid bass foundation while Mickey and Bill lock in tight dual‑drum grooves.",
-    "review": "On October 31, 1970 the Grateful Dead turned Pritchard Gym into a Halloween playground. After an understated early set, the late show ignites with chaotic crowd moments and a string of standout performances. Jerry Garcia tears through Workingman's material, adds a rare pedal‑steel cameo alongside the New Riders of the Purple Sage, and drives the band on extended jams – most notably the marathon 'The Other One' that morphs into a soaring 'Good Lovin'' transition into 'Next Time You See Me'. Phil Lesh locks in with his bass, giving Jerry’s adventurous chord voicings a sturdy backbone. The dual‑drumming assault from Mickey Hart and Bill Kreutzmann fuels the intensity on both 'The Other One' and the second half of 'Good Lovin'', though the latter’s later section is sometimes described as overly drum‑heavy. While the soundboard recordings vary in fidelity – the Serafin source is raw but spirited, the Miller capture is crystal‑clear, and the Cousinit tape has low‑volume quirks – the musical moments cut through any technical blemishes, making this Halloween gig a memorable snapshot of the band’s 1970 evolution.",
+    "summary": "High‑energy Halloween set with a smoking The Other One and rare pedal‑steel.",
+    "blurb": "The late‑night gym show delivers a fierce The Other One and solid St. Stephen despite a looser first half. Jerry Garcia’s rare pedal‑steel cameo with the New Riders shines, and the band rides the rowdy crowd into high‑octane versions of Cosmic Charlie and Good Lovin'.",
+    "review": "On Halloween night, 1970, the Grateful Dead turned Pritchard Gym into a crucible of raw energy. The early set was a bit tentative as the college audience filtered in, but once the doors burst open the band surged forward, feeding off the chaos. Jerry Garcia was on fire – his blues‑y licks on \"Next Time You See Me\" were matched only by the jaw‑dropping pedal‑steel cameo he slipped into with the New Riders later in the night. Phil Lesh laid down a solid bass foundation that locked perfectly with both drummers, while Mickey Hart and Bill Kreutzmann drove The Other One into a smoking, tightly‑interlocked marathon that many fans still cite as a highlight of the era. The second half kept the momentum rolling with a ripping \"Cosmic Charlie\", a gritty double‑take on \"Good Lovin'\" and an inspired take on \"St. Stephen\" despite occasional over‑emphasis on drums. Overall, the performance captures the band at a pivotal moment – rough around the edges but undeniably electrifying.\n\nThe show’s legacy is bolstered by the New Riders’ set, which not only adds variety but also showcases Garcia’s pedal steel work, a rarity for Dead shows of this period. While some recordings suffer from track‑splitting and uneven mix, the best available source delivers crystal‑clear instrument separation that lets every nuance shine through. For anyone hunting a quintessential early‑'70 Halloween experience, this show offers both historical significance and high‑octane musicianship.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.0,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 25,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.3,
+        "sentiment_rationale": "Three recordings are clearly positive, praising the standout performances (The Other One, pedal‑steel cameo, excellent soundboard capture) while one is mixed but still notes strong playing. The overall consensus is strongly favorable, meriting a solid positive sentiment boost.",
+        "final_calculation": "2.5 + 0.2 + 1.3 = 4.0"
+      }
     },
     "best_recording": {
-      "identifier": "gd1970-10-31.early-late.sbd.serafin.33566.flac16",
-      "reason": "Good soundboard capture that preserves the raw, high‑energy late show with standout jams despite minor track‑splitting issues."
+      "identifier": "gd70-10-31.late.sbd.cousinit.16902.sbeok.shnf",
+      "reason": "Excellent soundboard capture with clear instrument separation, minimal drop‑outs, and the most faithful rendering of The Other One and New Riders set."
     },
     "key_highlights": [
-      "Seamless 'Good Lovin'' → 'Next Time You See Me' transition",
-      "'The Other One' marathon jam with dual‑drum intensity",
-      "Jerry’s pedal‑steel cameo with the New Riders adds a unique flavor",
-      "Strong bass foundation from Phil and tight drumming by Mickey & Bill"
+      "Smoking The Other One performance with tight dual drumming.",
+      "Jerry Garcia's rare pedal‑steel cameo alongside the New Riders.",
+      "High‑energy renditions of Cosmic Charlie and Good Lovin' amid a chaotic gym atmosphere."
     ],
     "song_highlights": [
       "The Other One",
-      "Good Lovin'",
+      "St. Stephen",
       "Cosmic Charlie",
-      "Next Time You See Me",
-      "Saint Stephen"
+      "Good Lovin'",
+      "Next Time You See Me"
     ],
     "band_performance": {
-      "Jerry": "Tears through Workingman's material with ferocious guitar work, adds a rare pedal‑steel cameo with the New Riders, and delivers complex, evolving licks even when volume dips.",
-      "Phil": "Provides a solid, supportive bass line that meshes tightly with Jerry’s adventurous playing throughout the late set.",
+      "Jerry": "Intense playing throughout, delivering bluesy licks on \"Next Time You See Me\" and a rare pedal‑steel cameo that adds a unique texture to the night.",
+      "Phil": "Provides a solid bass foundation that meshes tightly with Jerry and locks in with both drummers during the extended jams.",
       "Bob": "",
-      "Brent": "",
-      "Mickey": "Locks in tight grooves on 'The Other One' and 'Good Lovin'', driving the jams forward with focused dual‑drum power.",
-      "Billy": "Pairs with Mickey to create a thunderous, interlocking rhythm section that propels the late‑show energy."
+      "Pigpen": "",
+      "Mickey": "Locked‑in on The Other One, driving the rhythmic intensity; however, drum focus feels excessive on some Good Lovin' passages.",
+      "Billy": "Works in tandem with Mickey to create a powerful dual‑drum wall on The Other One, though less effective during the tighter Good Lovin' sections."
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-11T11:04:33.613182+00:00",
+    "processed_date": "2025-09-20T00:32:14.404668+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -221,12 +228,6 @@
       ],
       [
         "Next Time You See Me"
-      ],
-      [
-        "Saint Stephen",
-        "Not Fade Away",
-        "Goin' Down The Road Feeling Bad",
-        "Not Fade Away"
       ]
     ]
   }

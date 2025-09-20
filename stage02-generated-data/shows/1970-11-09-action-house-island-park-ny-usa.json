@@ -101,47 +101,59 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Attics Of My Life shines, deep blues groove despite muddy tape",
-    "blurb": "The set features a radiant Attics Of My Life and a driving Deep Elem Blues where Phil's bass thunders. Bob Weir's second‑guitar adds bite on the blues numbers while Walkin' The Dog keeps the energy high. Audio is severely compromised, making it a fragmentary collector’s tape.",
-    "review": "On November 9, 1970 at Action House in Island Park, NY, the Dead delivered a tight early‑70s set that captures their raw energy even if the only surviving recording is a patchwork audience tape. Highlights include an soaring rendition of Attics Of My Life and a gritty Deep Elem Blues where Phil Lesh’s bass sounds “jack‑hammer‑like” and Bob Weir’s second‑guitar work shines, giving the blues numbers extra bite. Walkin' The Dog adds a rollicking finish to the first half. Unfortunately, the tape is riddled with drop‑outs, mud, and inconsistent levels – likely spliced from several audience recordings – so listeners get only fleeting glimpses of the performance rather than a clean full‑show experience.",
+    "summary": "Deep Elem Blues & Attics Of My Life shine on a fair audience tape",
+    "blurb": "The set features strong renditions of Deep Elem Blues, Morning Dew and Attics Of My Life. Phil provides jack‑hammer bass on the blues numbers while Bob adds solid second‑guitar work. The audience recording is fair and uneven, making some sections noisy.",
+    "review": "On November 9, 1970 at Action House in Island Park, NY, the Dead delivered a tight early‑70s New York set that swings through folk, blues and tight harmonies. Highlights include an emphatic Deep Elem Blues where Phil’s bass drives the groove and Bob Weir’s second‑guitar shines, a soaring Attics Of My Life that lifts the whole room, and a heartfelt Morning Dew that showcases the band’s emotional range. While the performance is solid throughout, listeners should be aware that the only available source is a fair‑quality audience tape with muddy sections and variable fidelity; still, the musical moments shine through the noise for those who appreciate this era of the Dead.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.8,
-      "confidence": "high"
+      "ai_rating": 2.6,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 15,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.0,
+        "sentiment_rationale": "The single analysis labels the sentiment as mixed, offering praise for specific songs but also noting uneven audio; no consistent strong positive or negative consensus across recordings, so a neutral adjustment is applied.",
+        "final_calculation": "2.5 + 0.1 + 0.0 = 2.6"
+      }
     },
     "best_recording": {
       "identifier": "gd70-11-09.aud.hanno.7591.sbeok.shnf",
-      "reason": "Only existing source; despite poor sound it captures the standout moments of the set."
+      "reason": "Only available source; despite fair‑quality audience sound, it captures the standout performances of Deep Elem Blues, Morning Dew and Attics Of My Life."
     },
     "key_highlights": [
-      "Attics Of My Life delivers soaring vocal and harmonic interplay.",
-      "Deep Elem Blues features jack‑hammer bass from Phil and sharp second‑guitar by Bob.",
-      "Walkin' The Dog maintains high‑energy momentum throughout.",
-      "Patchy audience tape limits listening enjoyment but preserves rare early‑70s vibe."
+      "Jackhammer bass by Phil on Deep Elem Blues propels the groove.",
+      "Bob Weir’s second‑guitar adds depth to the blues numbers.",
+      "Attics Of My Life delivers a soaring vocal/harmonic performance.",
+      "Recording is uneven and noisy, but musical peaks cut through."
     ],
     "song_highlights": [
-      "Attics Of My Life",
       "Deep Elem Blues",
+      "Morning Dew",
+      "Attics Of My Life",
       "Walkin' The Dog"
     ],
     "band_performance": {
       "Jerry": "",
-      "Phil": "Phil's bass on Deep Elem Blues is described as jack‑hammer‑like and driving.",
-      "Bob": "Bob Weir’s second‑guitar work shines on the deep blues numbers, adding bite.",
+      "Phil": "Provides jackhammer‑like bass on Deep Elem Blues, leading the instrumental drive.",
+      "Bob": "Adds strong second‑guitar work on Deep Elem Blues, complementing Jerry's lead.",
       "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-11T11:30:25.220660+00:00",
+    "processed_date": "2025-09-20T01:11:27.349694+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
-        "Attics Of My Life"
+        "Deep Elem Blues"
       ],
       [
-        "Deep Elem Blues"
+        "Morning Dew"
+      ],
+      [
+        "Attics Of My Life"
       ],
       [
         "Walkin' The Dog"

@@ -16,18 +16,18 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Poor‑quality audience tape of uncertain provenance; difficult to listen to.",
-    "review": "Both reviewers question whether the recording is from a legitimate 46th Street run and note that the audio quality is so bad it hampers listening. No musical details are offered, indicating the performance itself cannot be evaluated from these comments.",
+    "summary": "Very low‑quality recording with uncertain provenance; listeners struggle to hear the music.",
+    "review": "Both reviewers complain that the tape is hard to listen to because of poor sound quality and they question whether it even comes from a known show in the November 1970 run. No musical details or standout moments are mentioned, indicating the performance cannot be evaluated from these comments.",
     "sentiment": "negative",
     "ai_rating": {
-      "stars": 1.3,
-      "confidence": "low",
-      "rationale": "Both reviews give zero stars and criticize the sound quality and provenance; with no positive show commentary, the rating is very low and confidence is limited due to only two brief reviews."
+      "stars": 1.8,
+      "confidence": "medium",
+      "rationale": "Both reviews focus on bad sound quality and uncertain source; no positive show commentary to offset the technical flaws."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "unknown",
       "quality_rating": "poor",
-      "technical_notes": "Audio is hard to listen to due to bad sound quality; possible tape hiss, muffled mix, and questionable source identification."
+      "technical_notes": "Reviewers describe the audio as hard to listen due to SQ; provenance is unclear, possibly misidentified from a 46th Street run."
     },
     "show_quality": {
       "standout_songs": [],
@@ -41,7 +41,8 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T11:34:46.143208+00:00",
+    "song_mentions": {},
+    "processed_date": "2025-09-20T01:17:51.514980+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-11-12.136653.aud.weinberg.flac16"
   }

@@ -16,35 +16,53 @@
   "high_ratings": 2,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Rough audience‑sourced cassette from the 11‑21‑70 Boston University show – listenable but low‑fi, with standout Cryptical and Cosmic Charlie moments despite missing drums and an incomplete set.",
-    "review": "The tape captures a fragment of the November 21, 1970 Sargent Gym concert that Deadheads love for its intense vocal work from Jerry and Bob on “Cryptical” and a soaring “Cosmic Charlie.”  Sound quality is far from pristine – it’s distorted, missing much of the drum track and only offers a single portion of the performance – but the energy of the band shines through enough to make it worth repeated spins for collectors.",
+    "summary": "A lo‑fi audience cassette that’s only partially audible, but it captures a fiery Cryptical → The Other One → Cosmic Charlie stretch and enthusiastic vocals from Jerry and Bobby.",
+    "review": "The recording is an imperfect, tape‑sourced capture – muffled at times, missing much of the drum mix and incomplete beyond the first half of the set – yet fans can hear a powerful early‑’70 vibe. The highlight is the intense Cryptical/Other One/Cosmic Charlie sequence with Jerry Garcia and Bob Weir delivering impassioned vocals, even if the overall sound quality limits repeat listening.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.4,
+      "stars": 3.2,
       "confidence": "medium",
-      "rationale": "Reviewers praise the musical highlights (especially Cryptical and Cosmic Charlie) but repeatedly note poor, distorted audio and missing portions; weighting show quality higher than recording yields a mid‑range rating."
+      "rationale": "Show performance is praised for standout jams and vocal energy (≈70% weight), but recording quality is consistently described as poor, incomplete, or only listenable at high volume (≈30% weight)."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "fair",
-      "technical_notes": "Distorted cassette tape sound, limited clarity, noticeably thin drum presence and only a partial segment of the concert is present."
+      "quality_rating": "poor",
+      "technical_notes": "Tape‑sourced, distorted and muffled; drums are thin or missing; the tape is incomplete, ending after the Cosmic Charlie segment. Listeners report it’s only tolerable at high volume."
     },
     "show_quality": {
       "standout_songs": [
-        "Cryptical",
+        "Cryptical Envelopment",
+        "The Other One",
         "Cosmic Charlie"
       ],
       "poor_songs": [],
-      "setlist_flow": "The recorded portion jumps from Cryptical into an abbreviated Other One and ends with Cosmic Charlie; the overall flow feels fragmented due to missing drums and omitted songs."
+      "setlist_flow": "Set list is fragmentary in the recording, but the early jam sequence (Cryptical → The Other One → Cosmic Charlie) is highlighted as a high‑energy peak."
     },
     "band_member_comments": {
-      "Jerry": "Sings with conviction early in Cryptical, noted as a highlight.",
+      "Jerry": "His singing is noted as heartfelt and driving during Cryptical.",
       "Phil": "",
-      "Bob": "Vocals are described as \"very high\" and somewhat strained during Cryptical.",
+      "Bob": "Vocals described as “very high‑strung” on Cryptical; strong vocal presence throughout the highlight stretch.",
       "Keys": "",
-      "Drums": "Commented that there is little to no drum presence; the drum track feels missing."
+      "Drums": "Commenters note a lack of drum presence or thin drum mix."
     },
-    "processed_date": "2025-09-11T11:42:30.519245+00:00",
+    "song_mentions": {
+      "Cryptical Envelopment": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-20T01:29:45.436459+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-11-21.sbd.hanno.14858.sbeok.shnf"
   }

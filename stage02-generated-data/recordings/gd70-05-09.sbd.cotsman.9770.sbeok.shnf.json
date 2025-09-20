@@ -16,58 +16,59 @@
   "high_ratings": 6,
   "low_ratings": 5,
   "ai_review": {
-    "summary": "Muddy, hissy portable‑cassette capture of a short 1970 acoustic set – Jerry’s folk vocals shine while the recording struggles.",
-    "review": "The tape offers only a brief acoustic portion of a spring‑1970 show, highlighted by Jerry Garcia’s clear, folk‑style singing and Pigpen’s harmonica work on songs like “Deep Ellum Blues” and “Black Peter.”  Technically the source is an audience/portable‑cassette recording that is saturated, hissy and overloaded during the electric set, making it difficult to enjoy despite the historical value.",
+    "summary": "Muddy audience recording of a short acoustic set with standout Black Peter and Deep Ellum Blues, but plagued by hiss and low fidelity",
+    "review": "The tape captures a brief, intimate acoustic portion of the show that many fans cherish—highlighted by a pure Jerry vocal on Black Peter and a warm rendition of Deep Ellum Blues—but the recording is riddled with hiss, saturation and overload, making it difficult to enjoy. The performance itself is mixed; while some note a relaxed, folk‑leaning vibe, others find the playing a bit tired and the overall set under‑recorded.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.2,
-      "confidence": "high",
-      "rationale": "Most reviewers agree the performance (especially the acoustic set) is decent, but the recording quality is consistently described as poor; the weighted average of show (≈3) and recording (≈2) yields a mid‑range rating."
+      "stars": 3.1,
+      "confidence": "medium",
+      "rationale": "Show quality is modestly positive (acoustic highlights) while recording quality is consistently described as poor, yielding a weighted average around 3 stars."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Hissy, saturated and muddy sound; audible overload on the electric portion; short duration; likely recorded with a portable cassette microphone rather than a true soundboard feed."
+      "technical_notes": "Reviewers repeatedly describe the tape as hissy, saturated, muddy and overloaded – likely a portable cassette mic recording rather than a true soundboard feed."
     },
     "show_quality": {
       "standout_songs": [
-        "Deep Ellum Blues",
         "Black Peter",
-        "STGN (Linda's cover)"
+        "Deep Ellum Blues",
+        "Monkey",
+        "Engineer"
       ],
       "poor_songs": [],
-      "setlist_flow": "A brief, intimate acoustic set that showcases Jerry and Pigpen; the electric second half is either missing or badly captured, leaving the tape feeling incomplete."
+      "setlist_flow": "A very short acoustic set (including Monkey, Engineer, Deep Ellum Blues) followed by an electric portion that is poorly captured; the overall concert feels fragmented and mis‑dated."
     },
     "band_member_comments": {
-      "Jerry": "Praised for a strong, clear folk‑style vocal and acoustic guitar work; occasional steel guitar noted.",
+      "Jerry": "Praised for a rare pure folk‑style vocal and strong guitar work during the acoustic set.",
       "Phil": "",
-      "Bob": "",
-      "Keys": "Pigpen’s harmonica highlighted; organ briefly joins on “Black Peter.”",
+      "Bob": "Mentioned as part of opening acoustic numbers but no specific comments on his playing.",
+      "Keys": "Organ appears briefly on Black Peter, suggesting a keyboard presence despite poor mic capture.",
       "Drums": ""
     },
     "song_mentions": {
+      "Black Peter": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
       "Deep Ellum Blues": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Black Peter": {
+      "Monkey": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "STGN (Linda's cover)": {
+      "Engineer": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
-      },
-      "Silver Threads": {
-        "positive_mentions": 0,
-        "negative_mentions": 0,
-        "total_mentions": 0
       }
     },
-    "processed_date": "2025-09-12T17:50:21.243900+00:00",
+    "processed_date": "2025-09-19T19:23:01.148247+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-05-09.sbd.cotsman.9770.sbeok.shnf"
   }

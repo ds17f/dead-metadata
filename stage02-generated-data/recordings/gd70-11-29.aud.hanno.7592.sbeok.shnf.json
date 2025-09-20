@@ -16,35 +16,47 @@
   "high_ratings": 3,
   "low_ratings": 3,
   "ai_review": {
-    "summary": "Decent 1970 audience tape captures a solid Dead set with a fiery Other One and Good Lovin despite modest sound quality.",
-    "review": "The recording is an audience (AUD) capture from late‑1970 that sounds okay for its era – a bit muddy and with Jerry’s pedal steel sitting forward in the mix, but still listenable and full of crowd chatter. Musically the show is solid; fans highlight a hot rendition of The Other One and an energetic Good Lovin, and the overall vibe is fun even if the band isn’t at peak form. It’s not a pristine soundboard, but it offers a genuine snapshot of a late‑summer Dead gig.",
+    "summary": "Decent audience tape of a solid but uneven Columbus Agora show, highlighted by a fiery “The Other One” and an energetic “Good Lovin’”.",
+    "review": "The performance captures a typical early‑70s Dead night at the Columbus Agora – the band is fun and the crowd gets into classics like The Other One and Good Lovin’, though some listeners note tired playing on other numbers. The audience recording is only okay, with a lo‑fi mix that still conveys the room’s vibe but lacks the clarity of a soundboard source.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.4,
-      "confidence": "high",
-      "rationale": "Show is generally solid with a few standout moments (≈3.5/5) while the audience recording is only fair (≈3/5); weighted combination yields ~3.4 stars."
+      "stars": 3.1,
+      "confidence": "medium",
+      "rationale": "Reviews are split between praise for standout songs and criticism of overall performance and tape quality; recording is only fair, giving an overall moderate rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Typical 1970 AUD tape – okay clarity but a bit muddy, pedal steel prominent in the mix, noticeable audience chatter and occasional hiss; overall listenable for the era."
+      "technical_notes": "Listeners describe the sound as \"ok\" or \"decent for a '70 aud\", with some noting muddiness and limited fidelity, but the tape still conveys the live atmosphere."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One",
-        "Good Lovin"
+        "Good Lovin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "New Riders opened (unadvertised) followed by a single long Dead set; crowd interaction is strong, especially during The Other One."
+      "setlist_flow": "The show appears to have been a single long Dead set (following New Riders), with mixed energy – some moments high (Other One, Good Lovin') and others described as tired or off‑form."
     },
     "band_member_comments": {
-      "Jerry": "Loud on pedal steel and forward in the mix; overall guitar work noted as hot on The Other One.",
+      "Jerry": "His pedal steel is prominent and loud in the mix; otherwise no specific guitar commentary.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T11:46:13.017079+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Good Lovin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-20T01:34:36.858684+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-11-29.aud.hanno.7592.sbeok.shnf"
   }

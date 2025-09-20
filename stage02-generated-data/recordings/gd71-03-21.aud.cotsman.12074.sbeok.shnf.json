@@ -16,24 +16,23 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Incomplete, fair‑quality recording of a chaotic oversold show with no standout musical moments noted.",
-    "review": "The archive tape captures only the latter part of the concert, beginning after \"Cold Rain and Snow\" and missing several songs. Reviewers note crowd management problems and suggest the set may have been cut short, while the audio is described as historically limited in fidelity, leaving little to highlight musically.",
+    "summary": "Fragmentary audience tape with modest fidelity; the set is incomplete and historically oversold, leaving no clear musical highlights.",
+    "review": "The archive recording is an audience‑sourced mono capture that starts mid‑set (after “Me and My Uncle”) and omits the opening of “Cold Rain and Snow,” so listeners only get a partial performance. Reviewers focus more on the chaotic, oversold concert circumstances than on any standout musical moments, noting that the show was likely cut short by authorities.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.5,
+      "stars": 2.3,
       "confidence": "medium",
-      "rationale": "Reviews are split between a modest 4‑star comment about context and several low or zero‑star notes focusing on missing material and poor historical recording quality, resulting in an overall below‑average rating."
+      "rationale": "Most reviewers criticize the incomplete, low‑fidelity source and the chaotic event context; a few give moderate scores, yielding an overall low‑to‑mid rating."
     },
     "recording_quality": {
-      "source_type": "unknown",
+      "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Recording starts mid‑song, omits the opening set, likely mono tape with limited fidelity; reviewers mention historical quality limiters and incomplete performance."
+      "technical_notes": "Recorded on a cheap portable Panasonic mono tape recorder; missing the first part of the set and limited to a narrow frequency range, resulting in modest clarity."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "The captured portion begins after \"Cold Rain and Snow\" and runs only about 45 minutes, with the full set believed to be longer but not present; crowd oversell and fire‑marshal intervention are cited as reasons for a truncated or chaotic experience.",
-      "energy_level": "medium"
+      "setlist_flow": "The concert was heavily oversold, possibly cut short by fire officials, and the archived audio begins after the opening number, making the set appear truncated and disrupting any natural flow."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T16:50:43.362032+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T03:41:48.969799+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-03-21.aud.cotsman.12074.sbeok.shnf"
   }

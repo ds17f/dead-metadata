@@ -16,25 +16,25 @@
   "high_ratings": 3,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Audience‑sourced tape captures a scorching Good Lovin' performance – the show shines despite a less‑than‑pristine recording.",
-    "review": "Reviewers rave about the high‑energy delivery, especially the blistering Good Lovin' that drives this 1970 Capitol Theatre show. The recording is an audience tape (no soundboard), so clarity and balance are limited, but fans feel the performance more than makes up for those technical shortcomings.",
+    "summary": "A high‑energy Capitol Theatre show with a scorching \"Good Lovin'\", but the audience tape sounds fast and uneven, leaving listeners wishing for a soundboard.",
+    "review": "Reviewers rave about the performance – especially the blistering rendition of “Good Lovin’” that drives the set forward – while noting the recording is an audience source that feels rushed and a bit muddy. The show is recommended for Deadheads who can overlook the tape’s technical flaws, though many hope a proper soundboard will surface someday.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.0,
       "confidence": "high",
-      "rationale": "Strong positive comments on the musical performance (especially Good Lovin') outweigh the noted recording limitations; multiple reviewers give high marks, yielding a solid overall rating."
+      "rationale": "Strong positive comments on the musical performance (70% weight) offset by consistent complaints about the audience‑tape quality (30% weight), resulting in an overall solid but not perfect rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Audience tape with noticeable ambient noise and limited clarity; reviewers wish for a soundboard source, indicating the mix is not pristine."
+      "technical_notes": "Tape sounds fast and a bit muddy; listeners perceive speed changes especially on “Good Lovin’”. No soundboard, so ambience is present but clarity suffers."
     },
     "show_quality": {
       "standout_songs": [
         "Good Lovin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "High‑energy show that builds to an exciting Good Lovin' climax; reviewers describe it as a classic 1970 Dead experience worth downloading."
+      "setlist_flow": "The set is praised for its relentless drive and fast‑paced jams, with “Good Lovin’” highlighted as a high‑octane climax that keeps the energy up throughout."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,7 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T11:10:08.851174+00:00",
+    "song_mentions": {
+      "Good Lovin'": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-20T00:39:49.291558+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-11-06.d3new.hanno.19922.sbeok.shnf"
   }

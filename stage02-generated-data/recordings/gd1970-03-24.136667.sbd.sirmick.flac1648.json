@@ -16,29 +16,32 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crisp, top‑notch recording captures a high‑energy set with standout Dark Star and urgent The Other One, but the sparse and varied reviews leave overall impression mixed.",
-    "review": "Reviewers praise the sound quality as “top‑notch” and “crispy,” suggesting an excellent source capture. Performance notes highlight a powerful Dark Star and a Garcia‑led urgency on The Other One, while other comments are vague or off‑topic, resulting in a mixed overall sentiment about the show.",
+    "summary": "Crispy, top‑notch sound captures a psychedelic set with standout Dark Star and The Other One",
+    "review": "The recording is praised for its crisp, top‑notch audio quality, though the source type isn’t specified. Reviewers highlight a high‑energy performance featuring strong renditions of Dark Star, St Stephen, Me & My Uncle and an urgent Garcia lead on The Other One.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 4.0,
       "confidence": "medium",
-      "rationale": "Positive remarks on recording clarity and a few standout songs boost the rating, but limited detail and a low‑star outlier keep it from higher confidence."
+      "rationale": "One detailed review praises both the performance and sound quality; other reviews are non‑informative, so rating reflects a generally positive impression with limited data."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "excellent",
-      "technical_notes": "Review mentions “top notch sound” and “crispy,” indicating very clear and well‑balanced audio; no issues reported."
+      "technical_notes": "Review mentions “top notch sound” and “crispy”, indicating clear and well‑balanced audio; no specific issues noted."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "The Other One"
+        "The Other One",
+        "St. Stephen",
+        "Me & My Uncle",
+        "Don't Ease Me In"
       ],
       "poor_songs": [],
-      "setlist_flow": "Reviewers note a burst of Dead mojo with quick, hard‑riding transitions; specific set structure not detailed."
+      "setlist_flow": "Reviewer describes the set as a rapid‑fire burst of Dead mojo with strong transitions and psychedelic jams."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s playing described as urgent and leading the performance.",
+      "Jerry": "Garcia’s urgent lead on The Other One is highlighted as a high point.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
@@ -54,9 +57,24 @@
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Don't Ease Me In": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T16:23:47.136389+00:00",
+    "processed_date": "2025-09-19T17:53:00.073269+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-03-24.136667.sbd.sirmick.flac1648"
   }

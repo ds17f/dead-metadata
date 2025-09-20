@@ -16,45 +16,45 @@
   "high_ratings": 3,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Matrix recording with muffled, static‑filled audio but a stellar 1970 show featuring a monster Dancing in the Street and an epic St. Stephen > Not Fade Away > Good Lovin' sequence.",
-    "review": "The performance is widely praised – The Other One jams hard, Bob Weir takes abundant lead solos on Dancing in the Street and Good Lovin', and the St. Stephen‑NFA‑Good Lovin' medley is called possibly the best ever. Recording quality is uneven: the matrix mix is muffled, has channel‑panning oddities, static and dropouts (especially on Candyman and Cryptical), while the soundboard tracks are clear and worth isolating.",
-    "sentiment": "positive",
+    "summary": "Mixed matrix recording – audience sections are muffled and static‑filled, but soundboard tracks shine with a monster Dancin' and an epic St. Stephen > Not Fade Away > Good Lovin' run.",
+    "review": "The show is widely praised for its electrifying jams – the Dancin', The Other One, and the St. Stephen > NFA > Good Lovin' sequence are highlighted as standout moments, with Bob taking generous lead solos alongside Jerry. Recording quality is uneven: the soundboard portions are clear and exciting, while large parts of the audience feed suffer from static, drop‑outs and an inaudible operator.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.1,
-      "confidence": "high",
-      "rationale": "Show is described as phenomenal with multiple standout jams, outweighing the fair‑to‑poor recording quality; weighted average yields ~4.1 stars."
+      "confidence": "medium",
+      "rationale": "Show performance receives strong positive feedback (mostly 5‑star reviews) while the recording is criticized for significant audience‑track issues, yielding an overall rating just above four stars."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "fair",
-      "technical_notes": "Muffled sound, left‑right channel movement, static, and dropouts on Candyman and Cryptical make vocals hard to hear; operator mic is inaudible. Soundboard portions (tracks 1‑5 & last 9) are clear."
+      "technical_notes": "Audience tracks are muffled, full of static and have dropouts (Candyman, Cryptical); operator vocals nearly inaudible. Soundboard sections are crisp and capture the band well."
     },
     "show_quality": {
       "standout_songs": [
-        "Dancing in the Street",
-        "The Other One",
+        "Dancin'",
         "St. Stephen > Not Fade Away > Good Lovin'",
+        "The Other One",
         "Man's World"
       ],
-      "poor_songs": [],
-      "setlist_flow": "1970 energy is wild and cohesive; the second‑set medley of St. Stephen into NFA and Good Lovin' drives the show, while Bob’s lead guitar adds excitement throughout."
+      "poor_songs": [
+        "Candyman",
+        "Cryptical",
+        "Honky Tonk Woman",
+        "Till the Morning Comes"
+      ],
+      "setlist_flow": "Overall set is described as phenomenal, with a particularly powerful second half; recording flaws aside, fans note superb transitions and high energy throughout."
     },
     "band_member_comments": {
-      "Jerry": "Generous with solo space, shredding alongside Bob on several numbers.",
+      "Jerry": "Generous with solos, shredding alongside Bob; praised for tone and unison leads.",
       "Phil": "",
-      "Bob": "Takes many lead solos, especially on Dancing in the Street and Good Lovin', adding a distinctive flavor.",
+      "Bob": "Takes many lead guitar solos, delivers strong leads on Dancin' and Good Lovin'; highlighted as a major contributor to the jam quality.",
       "Keys": "",
       "Drums": ""
     },
     "song_mentions": {
-      "Candyman": {
-        "positive_mentions": 0,
-        "negative_mentions": 1,
-        "total_mentions": 1
-      },
-      "Cryptical Envelopment": {
-        "positive_mentions": 0,
-        "negative_mentions": 1,
+      "Dancin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
         "total_mentions": 1
       },
       "The Other One": {
@@ -62,22 +62,7 @@
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "Dancing in the Street": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "St. Stephen": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Not Fade Away": {
-        "positive_mentions": 1,
-        "negative_mentions": 0,
-        "total_mentions": 1
-      },
-      "Good Lovin'": {
+      "St. Stephen > Not Fade Away > Good Lovin'": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
@@ -86,9 +71,29 @@
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
+      },
+      "Candyman": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Cryptical": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Honky Tonk Woman": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Till the Morning Comes": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T20:54:39.642023+00:00",
+    "processed_date": "2025-09-19T22:55:48.319777+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-09-18.sbd-aud.cotsman.17893.sbeok.shnf"
   }

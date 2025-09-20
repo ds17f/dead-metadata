@@ -16,39 +16,75 @@
   "high_ratings": 10,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Pristine soundboard capture of a classic 1971 set with a smoking Cumberland, Truckin', and an unforgettable Casey Jones opener.",
-    "review": "This recording delivers crystal‑clear Miller soundboard audio that lets the band’s 1971 energy shine through. Highlights include a blazing \"Cumberland,\" tight \"Truckin'\"/\"NFA/GDTRFB\" medley, and a memorable opening with NRPS and Jerry on pedal steel, while Keith’s piano adds fresh texture. Overall the show is regarded as a high‑energy, quintessential early‑’71 performance.",
+    "summary": "Pristine soundboard recording of a classic ’71 show with standout Cumberland, Truckin’ and Casey Jones performances.",
+    "review": "Fans rave about the energy of this early‑1971 set – the band rolls through a smoking Cumberland, a driving Truckin’, and an electrifying Casey Jones, while Jerry’s pedal‑steel intro and expressive vocals on Comes a Time get special shout‑outs. The soundboard source is described as clear and “pristine,” making the listening experience exceptionally enjoyable despite a few mixed ratings.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.5,
       "confidence": "high",
-      "rationale": "The majority of reviews are 4–5 stars and praise both the performance and audio quality; only a few outliers rate low, so the weighted average reflects a strong show with excellent soundboard recording."
+      "rationale": "The overwhelming majority of reviews are 4‑ or 5‑star and praise both the performance and the sound quality; only a few outliers give low scores, so the weighted average is high."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Clear, pristine Miller sbd tape with no reported dropouts or mix issues; reviewers note the audio sounds “pristine” and captures the band’s dynamics well."
+      "technical_notes": "Clear, balanced mix typical of a well‑taped soundboard; listeners note the audio as “pristine” with no reported dropouts or major flaws."
     },
     "show_quality": {
       "standout_songs": [
         "Cumberland",
         "Truckin'",
-        "Not Fade Away / Going Down The Road Feeling Bad",
         "Casey Jones",
-        "Me & My Uncle (notable intro)"
+        "Dark Star",
+        "Comes a Time"
       ],
       "poor_songs": [],
-      "setlist_flow": "Typical early‑'71 two‑set structure with a strong first set opener and tight transitions; the second set stays focused without long jams but ends on a high note.",
-      "energy_level": "high"
+      "setlist_flow": "A solid early‑71 set that mixes familiar classics with newer material; the first set closes strongly and the second set delivers powerful jams while Keith’s piano adds fresh texture."
     },
     "band_member_comments": {
-      "Jerry": "Praised for expressive vocals (especially on \"Comes a Time\") and his pedal‑steel cameo with NRPS; fans note his tone and presence throughout the show.",
+      "Jerry": "Praised for pedal‑steel intro with NRPS and expressive vocals on Comes a Time.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Keith is highlighted as a welcome addition on piano, helping to solidify the new material and adding fresh texture to the set.",
-      "Drums": "Bill Kreutzmann’s drumming gets special mention with visual fireworks during \"Casey Jones,\" underscoring his driving energy."
+      "Keys": "Keith’s piano/keys are welcomed, helping the band sound “pristine” during this period.",
+      "Drums": ""
     },
-    "processed_date": "2025-09-07T20:03:48.305477+00:00",
+    "song_mentions": {
+      "Cumberland": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away / Goin' Down the Road Feeling Bad": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Comes a Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playing in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T08:42:20.497418+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1971-10-27.sbd.miller.32668.sbeok.flac16"
   }

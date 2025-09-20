@@ -16,26 +16,27 @@
   "high_ratings": 6,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Solid soundboard capture (though with cuts) that showcases a funky Hard to Handle jam and a smoking Not Fade Away performance.",
-    "review": "The recording is taken from the original soundboard, delivering clear and lively audio on the material that survives, but several sections are missing or mislabeled. The show itself is praised for its energetic jams—especially a funk‑laden Hard to Handle—and strong vocal work from Bob Weir, making it a worthwhile listen despite the incomplete track list.",
+    "summary": "Soundboard recording is clear but incomplete, yet the show shines with a smoking Not Fade Away, funky Hard to Handle and a unique Uncle John’s Band intro.",
+    "review": "Fans rave about the high‑quality soundboard tape – crisp when it plays – though the release suffers from cuts, missing tracks and possible mis‑labeling. Musically the performance is praised for a blistering Not Fade Away, a funk‑laden Hard to Handle, and an unforgettable Uncle John’s Band opening that started with just bass and harmonica.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.2,
-      "confidence": "high",
-      "rationale": "Most reviewers highlight an excellent performance and good soundboard quality; deductions come from noted missing tracks, cuts, and labeling errors."
+      "stars": 4.1,
+      "confidence": "medium",
+      "rationale": "Strong musical highlights and good soundboard quality are offset by missing portions, labeling errors, and a few negative reviews."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Crisp and clear where present, but the tape has frustrating cuts, missing songs, and poor track labeling that affect continuity."
+      "technical_notes": "Generally crisp and clear when present; however the release contains noticeable cuts, missing songs (e.g., Uncle John’s Band encore), and confusion over date/track labeling."
     },
     "show_quality": {
       "standout_songs": [
+        "Not Fade Away",
         "Hard to Handle",
-        "Not Fade Away"
+        "Uncle John's Band"
       ],
       "poor_songs": [],
-      "setlist_flow": "Energetic benefit show with strong guest contributions and funk‑filled jams; however the experience is hampered by missing portions (e.g., Uncle John's Band) and mis‑labeling."
+      "setlist_flow": "The set is praised for its jams and funk vibe, but the incomplete track list and mis‑labeling make the flow feel fragmented for listeners."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -44,7 +45,24 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T11:44:43.530588+00:00",
+    "song_mentions": {
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-20T01:32:38.030788+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-11-23.sbd.lai.4734.sbeok.shnf"
   }

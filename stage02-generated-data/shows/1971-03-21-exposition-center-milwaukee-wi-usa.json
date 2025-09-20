@@ -104,22 +104,30 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Truncated early set with modest playing and fair‑quality tape",
-    "blurb": "The only surviving recording captures a mid‑set fragment of the March 21, 1971 show. Energy is moderate and the sound is limited to a mono audience tape that starts after \"Cold Rain and Snow\". No standout performances emerge from this incomplete excerpt.",
-    "review": "What unfolds at the Exposition Center on March 21, 1971 is a chaotic, oversold night that never fully materializes in the surviving audio. The fire‑marshal’s intervention and a packed house forced the band into a shortened set, and the lone audience recording we have begins mid‑song, omitting the opening numbers entirely. What does survive is roughly 45 minutes of modestly rendered early‑set material – Me And My Uncle through Goin' Down The Road Feeling Bad – captured on a mono tape with limited fidelity. While the band maintains a steady, medium‑energy groove, there are no moments that rise above the ordinary; the performance feels more like a snapshot of a night gone awry than a definitive Dead concert. Listeners should temper expectations: this recording offers historical context rather than musical revelation.",
+    "summary": "Fragmentary audience tape, incomplete set, modest sound",
+    "blurb": "The recording captures a truncated portion of the March 21 1971 show, beginning after the opening number. Only seven songs are present and fidelity is limited, leaving no clear musical highlights to recommend.",
+    "review": "This March 21, 1971 Exposition Center performance survives only as a brief audience excerpt recorded on a cheap portable Panasonic mono tape recorder. The tape starts mid‑set, omitting the opening numbers and cutting the flow short, which makes it hard to gauge the band's momentum that night. Audio quality is fair at best—narrow frequency range and modest clarity obscure the nuances of Jerry’s guitar, Phil’s bass, and Pigpen’s organ. Because there are no standout moments identified in the available material, listeners should treat this as a historical curiosity rather than a definitive representation of the era.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 2.0,
-      "confidence": "low"
+      "ai_rating": 2.6,
+      "confidence": "low",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 5,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.0,
+        "sentiment_rationale": "The sole recording analysis is marked 'mixed' with no strong praise or criticism; therefore sentiment adjustment is neutral.",
+        "final_calculation": "2.5 + 0.1 + 0.0 = 2.6"
+      }
     },
     "best_recording": {
       "identifier": "gd71-03-21.aud.cotsman.12074.sbeok.shnf",
-      "reason": "Only available source for this show, but it is incomplete and of fair audio quality"
+      "reason": "Only recording available; despite modest fidelity and incomplete set, it is the sole source of this show."
     },
     "key_highlights": [
-      "Partial early set captured; recording starts mid‑song after \"Cold Rain and Snow\"",
-      "Mono audience tape with limited fidelity limits detail",
-      "Show was oversold and interrupted by fire‑marshal, contributing to a truncated performance"
+      "Only a fragment of the set is captured, starting after the opening number.",
+      "Audio fidelity is modest due to cheap mono recorder.",
+      "No clear musical highlights identified in the surviving material."
     ],
     "song_highlights": [],
     "band_performance": {
@@ -131,7 +139,7 @@
       "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-07T16:51:36.204545+00:00",
+    "processed_date": "2025-09-20T03:42:49.696971+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed"
   }

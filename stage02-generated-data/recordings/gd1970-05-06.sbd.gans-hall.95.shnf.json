@@ -16,65 +16,75 @@
   "high_ratings": 12,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A raw yet clear soundboard capture of a searing, politically‑charged show highlighted by an incendiary “Dancing in the Streets” and a soaring “Morning Dew”.",
-    "review": "The May 6, 1970 MIT performance is consistently praised as one of the band’s most intense and historically charged shows – the crowd‑fuelled anger after Kent State erupts into blistering versions of “Dancing in the Streets”, “Not Fade Away” and a transcendent “Morning Dew”.  The recording is a mono soundboard feed that, while showing distortion, mic dropouts and occasional rawness, remains surprisingly sharp and listenable, making the set’s power come through clearly.",
+    "summary": "A raw but surprisingly clear sound‑board capture of an incendiary 1970 MIT show, highlighted by a blistering “Dancing in the Streets” and soaring “Morning Dew”.",
+    "review": "The performance is consistently described as hot, intense and historically charged – with Jerry thrashing his SG, Lesh delivering devastating bass runs, and standout moments like Dancing in the Streets, Morning Dew and an angry‑edge Not Fade Away.  The mono sound‑board source shows some distortion and mic glitches, yet most listeners find it clear enough to enjoy the energy of the night.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Overwhelmingly positive comments about the musical performance (≈4.8/5) and a generally good but imperfect soundboard recording (≈3.8/5) combine to a weighted average of ~4.5 stars."
+      "rationale": "Overwhelmingly positive comments on the musical performance (70% weight) combined with generally good but imperfect recording quality (30% weight) yield a high overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Mono soundboard feed with noticeable distortion, mic drop‑outs (e.g., Pigpen on “Good Lovin’”) and occasional rawness, but overall clear, sharp and well balanced for a 1970 capture."
+      "technical_notes": "Mono feed recorded from the board; listeners note occasional distortion, mic problems and rawness, but the mix is generally clear, sharp and surprisingly listenable."
     },
     "show_quality": {
       "standout_songs": [
         "Dancing in the Streets",
-        "The Morning Dew",
+        "Morning Dew",
         "Not Fade Away",
         "St. Stephen",
-        "China Cat Sunflower > I Know You Rider"
+        "China>Rider"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set is described as a hot, angry, and tightly focused performance driven by the political climate; transitions are tight and the energy stays high throughout, making the show feel like a single, powerful statement."
+      "setlist_flow": "The set is described as a high‑energy, anger‑charged response to the Kent State tragedy and cold weather, with tight transitions and an overall “in the zone” vibe."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s SG thrashes on “Dancing in the Streets” and his tone is praised as alive and intense.",
-      "Phil": "Lesh delivers one of his most devastating bass runs, especially highlighted during the climax of “Dancing in the Streets”.",
-      "Bob": "Bob Weir’s vocals are noted in the context of the band’s split‑off announcement after “Not Fade Away”.",
+      "Jerry": "Thrashing his SG, delivering intense guitar work; often cited as \"in the zone\".",
+      "Phil": "Provides a devastating bass run on Dancing in the Streets that listeners highlight as legendary.",
+      "Bob": "His spoken announcement at the end is noted; vocals are generally solid despite occasional mic issues.",
       "Keys": "",
       "Drums": ""
     },
     "song_mentions": {
       "Dancing in the Streets": {
-        "positive_mentions": 5,
-        "negative_mentions": 0,
-        "total_mentions": 5
-      },
-      "The Morning Dew": {
         "positive_mentions": 3,
         "negative_mentions": 0,
         "total_mentions": 3
       },
-      "Not Fade Away": {
-        "positive_mentions": 1,
+      "Morning Dew": {
+        "positive_mentions": 2,
         "negative_mentions": 0,
-        "total_mentions": 1
+        "total_mentions": 2
+      },
+      "Not Fade Away": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
       },
       "St. Stephen": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
       },
-      "China Cat Sunflower > I Know You Rider": {
+      "China>Rider": {
         "positive_mentions": 1,
         "negative_mentions": 0,
         "total_mentions": 1
+      },
+      "Next Time You See Me": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
       }
     },
-    "processed_date": "2025-09-12T17:32:13.778116+00:00",
+    "processed_date": "2025-09-19T18:56:36.756084+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-05-06.sbd.gans-hall.95.shnf"
   }

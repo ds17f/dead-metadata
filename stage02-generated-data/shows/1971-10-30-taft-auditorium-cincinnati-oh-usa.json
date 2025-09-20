@@ -200,43 +200,70 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy set with soaring 'Comes A Time' and tight rockers",
-    "blurb": "The show bursts with a standout vocal performance on \"Comes A Time\" and crisp, rocking renditions of \"Jack Straw\", \"Tennessee Jed\" and the Not Fade Away > Goin' Down The Road Feeling Bad medley. Tight transitions and spirited interplay keep the momentum flowing throughout both sets.",
-    "review": "The October 30, 1971 Taft Auditorium gig captures the Dead in a joyous, high‑octane mood as they roll through two solid sets and an encore. Jerry’s voice is on fire for \"Comes A Time\", delivering an emotive falsetto that resonates over Keith Godchaux’s bright, rock‑in’ piano debut. Phil lays down wonderful bass lines – his signature “bombs” add extra punch – while Bob blends tight rhythm chops with strong harmonies on tunes like \"Me And Bobby McGee\" and \"Jack Straw\". The second set shines with a seamless Not Fade Away > Goin' Down The Road Feeling Bad sequence, and the band rides a breezy groove into a rousing \"Truckin'\" that feels both relaxed and propulsive. Though one audience‑sourced mix buries Jerry’s guitar, the excellent soundboard capture (prefm.nawrocki) offers crystal‑clear clarity, making this show a rewarding listen for anyone wanting a taste of the early‑’70s Dead in full swing.",
+    "summary": "Transcendent Comes A Time, tight Truckin' and bright Keith piano",
+    "blurb": "The show shines with a soaring \"Comes A Time\" and a punchy, joke‑filled \"Truckin'.\" Jerry’s vocals are emotive, Phil locks in solid bass, and Keith Godchaux adds a bright, upfront piano that lifts the set.",
+    "review": "October 30, 1971 at Taft Auditorium captured an energetic Halloween night where the Dead were firing on all cylinders. The first set rolled through classics like \"Bertha\" and \"Jack Straw\" with tight arrangements, while the second set delivered a highlight‑rich stretch: Jerry’s emotional delivery on \"Comes A Time\" was described as chilling and transcendent, and his pedal‑steel work with the New Riders added a unique flavor. Keith Godchaux, only days into his tenure, provided bright, rock‑driving piano that many reviewers called “upfront” and “rocking.” The band’s chemistry is evident in the punchy \"Truckin'\"—complete with Jerry’s witty banter—and the seamless segue of the double \"Not Fade Away / Goin' Down The Road Feeling Bad\" medley. Overall, despite a few mixed comments about mix balance on some tapes, the performance is consistently praised as solid, melodic and full of Halloween‑night excitement.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 32,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Three recordings are clearly positive, highlighting \"Comes A Time,\" \"Truckin',\" and Keith's piano; one mixed review notes mix issues but does not criticize the performance. The consensus is strongly favorable, warranting a +1.6 sentiment boost.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
-      "identifier": "gd71-10-30.prefm.nawrocki.26608.sbeok.shnf",
-      "reason": "Excellent soundboard source with crisp, clear mix that showcases the band’s tight playing and standout vocals."
+      "identifier": "gd1971-10-30.137408.fm.GEMS.flac16",
+      "reason": "Good overall sound and a transcendent \"Comes A Time\" despite unknown source type; listeners report general satisfaction with this version."
     },
     "key_highlights": [
-      "\"Comes A Time\" delivers an emotionally charged vocal performance from Jerry.",
-      "Tight rock‑driven versions of \"Jack Straw\", \"Tennessee Jed\" and the Not Fade Away > Goin' Down The Road Feeling Bad medley.",
-      "Keith Godchaux’s bright piano debut adds fresh texture to the set.",
-      "The show maintains high energy throughout, highlighted by a lively \"Truckin'\"."
+      "Transcendent performance of \"Comes A Time\" praised across recordings.",
+      "\"Truckin'\" stands out for its punchy delivery and Jerry's witty banter.",
+      "Keith Godchaux’s bright, upfront piano adds a fresh rock edge early in his tenure.",
+      "Energetic Halloween atmosphere with seamless flow from the New Riders opening."
     ],
     "song_highlights": [
       "Comes A Time",
-      "Not Fade Away",
-      "Goin' Down The Road Feeling Bad",
+      "Truckin'",
       "Jack Straw",
-      "Tennessee Jed",
-      "Truckin'"
+      "El Paso",
+      "Not Fade Away",
+      "Goin' Down The Road Feeling Bad"
     ],
     "band_performance": {
-      "Jerry": "Vocal performance peaks on \"Comes A Time\" with emotive falsetto; also adds witty banter and pedal‑steel flair during the NRPS segment.",
-      "Phil": "Delivers wonderful, propulsive bass work with his characteristic ‘bombs’ adding extra drive to the jams.",
-      "Bob": "Provides solid rhythm guitar and strong harmonies on \"Me And Bobby McGee\" and \"Jack Straw\", anchoring the band’s groove.",
-      "Brent": "",
+      "Jerry": "Emotional vocals on \"Comes A Time,\" strong guitar tone, and witty banter during \"Truckin';\" also noted for pedal‑steel work with the New Riders.",
+      "Phil": "Solid bass foundation and friendly stage banter; introduced Keith to the crowd.",
+      "Bob": "Strong harmonizing on songs like \"Me And Bobby McGee\" and \"Jack Straw,\" adding vocal depth.",
+      "Brent": "Keith Godchaux's piano is bright, upfront, and rock‑driving, impressing listeners early in his tenure.",
       "Mickey": "",
-      "Billy": "Keeps a steady, tight foundation on drums, supporting the band's high‑energy flow without missing a beat."
+      "Billy": ""
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-07T20:13:17.804879+00:00",
+    "processed_date": "2025-09-20T09:02:14.377150+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Comes A Time"
+      ],
+      [
+        "Truckin'"
+      ],
+      [
+        "Jack Straw"
+      ],
+      [
+        "El Paso"
+      ],
+      [
+        "Not Fade Away",
+        "Goin' Down The Road Feeling Bad",
+        "Not Fade Away"
+      ]
+    ]
   }
 }

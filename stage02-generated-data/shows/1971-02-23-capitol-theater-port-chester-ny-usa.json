@@ -197,45 +197,74 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Capitol show with smoking Morning Dew and epic Other One",
-    "blurb": "The set delivers a scorching Morning Dew, a jaw‑dropping The Other One suite, and a breakneck Johnny B. Goode. Jerry’s Les Paul shines while Phil’s bass drives the jams, and Pigpen adds tasteful Hammond textures. Soundboard recordings capture the band’s tight, high‑energy performance throughout.",
-    "review": "What unfolds at Capitol Theater on February 23 1971 finds the Dead in peak form, charging through a set that balances raw power with inspired improvisation. The first half roars with a smoking Morning Dew and a seamless China Cat Sunflower → I Know You Rider transition, while the second set builds momentum into a landmark Drums → The Other One → Wharf Rat → Greatest Story Ever Told suite capped by an electrifying Johnny B. Goode. Jerry’s Les Paul tone cuts through the mix despite being slightly recessed, delivering staccato leads and soaring solos; Phil’s thumping bass sits front‑and‑center, anchoring every jam. Pigpen’s Hammond B‑3 adds subtle color, especially on the Bird Song, while Bill Kreutzmann’s punchy drumming propels the band forward even when a loose pedal moment shows up. With crystal‑clear soundboard sources that capture every nuance, this show stands out as one of the most exciting early‑’70s performances in the Dead catalog.",
+    "summary": "Tight early‑71 set with fiery Johnny B. Goode & stellar Other One",
+    "blurb": "The Capitol run delivers tight, dirty playing and high‑energy moments like Birdsong and the Truckin’ → Drums → Other One suite. Standout renditions include Morning Dew, Johnny B. Goode, Wharf Rat and a unforgettable China Cat Sunflower → The Other One transition. Soundboard sources capture the band in solid form with punchy rhythm and bright guitar tones.",
+    "review": "Port Chester’s February 23‑1971 show captures the Grateful Dead in a gritty, early‑71 groove that feels both quartet‑tight and wildly improvisational. Jerry’s Les Paul sings through soaring leads while Phil anchors with a thumping low end; Bill drives the rhythm with punchy drums that shine especially during the Truckin’ → Drums → The Other One climax. Highlights abound – Birdsong crackles with fire, Morning Dew swells with emotion, and the China Cat Sunflower → I Know You Rider segue flows seamlessly into a magical Other One/Wharf Rat suite. Pigpen’s Hammond adds tasteful color throughout, and Johnny B. Goode lands as a scorching closer. The best listening experience comes from an excellent soundboard capture that balances clarity with the raw energy of this historic Capitol run.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.2,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 27,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.5,
+        "sentiment_rationale": "Four recordings were analyzed: three with uniformly positive sentiment praising the performance and specific songs, and one mixed only due to poor audience recording quality. No consistent negative comments about playing appear, so a strong positive adjustment is warranted.",
+        "final_calculation": "2.5 + 0.2 + 1.5 = 4.2"
+      }
     },
     "best_recording": {
-      "identifier": "gd71-02-23.sbd.orf.113.sbeok.shnf",
-      "reason": "Clear soundboard capture with good mix and minimal technical issues, highlighting the high‑energy performance."
+      "identifier": "gd1971-02-23.sbd.miller.110353.flac16",
+      "reason": "Excellent soundboard source with near‑CD clarity; captures the band’s tight playing, punchy drums and bright guitar while presenting all standout moments cleanly."
     },
     "key_highlights": [
-      "Smoking Morning Dew that showcases Jerry’s soaring leads and Phil’s driving bass.",
-      "Epic The Other One suite flowing into Wharf Rat and Greatest Story Ever Told.",
-      "Breakneck Johnny B. Goode that pushes the band into a blistering finish.",
-      "Crystal‑clear soundboard recordings that preserve every nuance of this high‑energy show."
+      "Tight, dirty early‑71 quartet feel throughout both sets",
+      "Birdsong and the Truckin’ → Drums → Other One suite deliver high‑energy climax",
+      "Unforgettable China Cat Sunflower → The Other One transition",
+      "Excellent soundboard capture that balances clarity with raw live energy"
     ],
     "song_highlights": [
       "Morning Dew",
-      "The Other One",
-      "Wharf Rat",
-      "Greatest Story Ever Told",
       "Johnny B. Goode",
+      "Wharf Rat",
+      "The Other One",
       "Bird Song",
-      "China Cat Sunflower",
-      "I Know You Rider"
+      "China Cat Sunflower"
     ],
     "band_performance": {
-      "Jerry": "Solid Les Paul tone; leads shine on Johnny B. Goode and the soaring solos throughout, even when slightly back in the mix.",
-      "Phil": "Punchy, thumping bass that dominates Morning Dew and drives the extended Other One jam.",
-      "Bob": "Clean segues (e.g., China Cat Sunflower → Rider) and steady rhythm work keeping the set tight.",
-      "Brent": "Pigpen’s Hammond B‑3 adds subtle organ fills and tasteful keyboard texture, especially on Bird Song.",
+      "Jerry": "Delivers a bright Les Paul tone with staccato intros and sustained leads; guitar sits slightly back in the mix but remains compelling.",
+      "Phil": "Provides punchy, thumping bass that drives the band and stays front‑and‑center in the mix.",
+      "Bob": "Handles transitions smoothly, notably the China Cat Sunflower → I Know You Rider segue.",
+      "Brent": "Ron “Pigpen” McKernan’s Hammond organ adds warm texture and subtle fills, sounding pretty good on the set.",
       "Mickey": "",
-      "Billy": "Bill Kreutzmann delivers punchy, propulsive drumming; occasional loose pedal noted but overall solid."
+      "Billy": "Bill Kreutzmann supplies punchy, tight drumming throughout, with an energetic solo during the Truckin’ → Drums segment."
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-07T16:32:12.246392+00:00",
+    "processed_date": "2025-09-20T03:15:20.307822+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Morning Dew"
+      ],
+      [
+        "Not Fade Away",
+        "Goin' Down The Road Feeling Bad",
+        "Not Fade Away",
+        "Johnny B. Goode"
+      ],
+      [
+        "Drums",
+        "The Other One",
+        "Wharf Rat"
+      ],
+      [
+        "Bird Song"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ]
+    ]
   }
 }

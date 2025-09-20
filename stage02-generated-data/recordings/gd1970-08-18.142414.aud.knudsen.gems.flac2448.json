@@ -16,18 +16,18 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Cleaner tape copy but needs speed correction; no musical highlights mentioned",
-    "review": "The reviewer notes that this version of the tape is a slightly cleaner copy than previous releases, yet it suffers from noticeable speed issues that require correction. No specific comments about the performance or setlist are provided, leaving the musical quality unaddressed.",
+    "summary": "A marginally cleaner tape that still requires speed correction; the performance itself isn’t described.",
+    "review": "The reviewer notes this copy is a bit clearer than previous versions but suffers from incorrect tape speed, indicating a need for further mastering work. No comments are made about the musical performance, set flow, or individual musicians, leaving the show quality unknown.",
     "sentiment": "negative",
     "ai_rating": {
       "stars": 2.0,
       "confidence": "low",
-      "rationale": "Only one brief review focusing on a technical flaw (speed error) with no positive remarks about performance; recording quality is questionable and show quality unknown."
+      "rationale": "Only a single brief review focused on recording problems; no positive musical feedback to boost the rating."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "Slightly cleaner tape copy but speed is off; needs correction for proper pitch/timing."
+      "technical_notes": "Slightly cleaner copy but speed is off and needs correction; no other sound quality details provided."
     },
     "show_quality": {
       "standout_songs": [],
@@ -41,8 +41,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "song_mentions": {},
-    "processed_date": "2025-09-12T20:30:27.691687+00:00",
+    "song_mentions": {
+      "Help on the Way": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-19T22:30:56.579648+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-08-18.142414.aud.knudsen.gems.flac2448"
   }

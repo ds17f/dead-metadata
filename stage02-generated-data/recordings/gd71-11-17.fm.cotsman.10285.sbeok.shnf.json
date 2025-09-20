@@ -16,18 +16,18 @@
   "high_ratings": 9,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Despite a sub‑par microphone‑captured FM broadcast (mono mix, occasional boom and splices), the show bursts with high energy, highlighted by a smoking \"The Other One\" and a memorable Ramble On Rose encore.",
-    "review": "This recording preserves an exuberant late‑1971 performance where Jerry rides a three‑hour marathon, Keith’s piano shines, and the band locks into fierce jams, especially on The Other One. Technically the source is a mic‑recorded FM broadcast with mono mix, boomy bass and tape splices that limit fidelity, but the musical fire more than compensates for those flaws.",
+    "summary": "Fair audience‑mic FM capture of a high‑energy ’71 show, highlighted by a soaring Other One and vibrant Keith piano work.",
+    "review": "The performance is praised for its nonstop energy, three‑hour marathon, and especially the blazing The Other One jam, with Jerry on fire and Keith’s piano driving the music forward. The recording itself comes from a microphone off an FM broadcast – mono, occasionally boomy, with splices and tape hiss – making it listenable but far from pristine.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 3.9,
+      "stars": 4.0,
       "confidence": "high",
-      "rationale": "Average reviewer rating is 4.0 stars; most praise the show’s energy and jams while repeatedly noting recording shortcomings, leading to a strong overall impression but tempered by technical issues."
+      "rationale": "Strong musical performance (many 5‑star show praises) offset by sub‑par, audience‑mic recording quality; weighted average yields a solid four‑star rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Microphone capture of an FM broadcast; mono mix with occasional boomy bass, hiss and tape splices; some sections break off after a splice; overall listenable but below professional soundboard standards."
+      "technical_notes": "Microphone capture of FM broadcast; mono mix with occasional boomy bass, tape hiss, splices and minor dropouts. Sound is usable but lacks clarity and balance of a soundboard."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,17 +35,33 @@
         "Ramble On Rose"
       ],
       "poor_songs": [],
-      "setlist_flow": "Energetic throughout with a high‑octane first set and a jam‑heavy second set; the band stays tightly locked, delivering powerful transitions especially into The Other One.",
-      "energy_level": "high"
+      "setlist_flow": "High‑energy, three‑hour set that rides fast‑driving jams; the band locks in tightly with dynamic transitions, especially during The Other One and Keith’s piano‑led sections."
     },
     "band_member_comments": {
-      "Jerry": "Described as on a roll for three hours, animated, bluegrass‑style picking, and generally delivering high energy throughout the show.",
-      "Phil": "Noted as particularly active in jams, pushing riffs during The Other One and maintaining strong interplay with the rest of the band.",
+      "Jerry": "Described as on a roll for nearly three hours, animated, bluegrass‑style picking, and driving the jams.",
+      "Phil": "Active throughout; pushes the Feelin' Groovy riff and adds heat to the jams.",
       "Bob": "",
-      "Keys": "Keith's piano praised for beautiful playing and instantly adapting to drive the jams.",
-      "Drums": "Billy (Bill) described as an animal throughout the performance."
+      "Keys": "Keith’s piano is praised for beautiful playing and instantly adapting to drive the improvisations.",
+      "Drums": "Billy (drums) described as an animal, providing a powerful rhythmic foundation."
     },
-    "processed_date": "2025-09-07T20:41:20.070359+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Ramble On Rose": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T09:50:18.171922+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd71-11-17.fm.cotsman.10285.sbeok.shnf"
   }

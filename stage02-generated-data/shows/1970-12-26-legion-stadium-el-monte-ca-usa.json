@@ -189,45 +189,50 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Fiery '70 set with stellar Easy Wind and rare Frozen Logger",
-    "blurb": "The show delivers a tight Working Man’s Dead/American Beauty set highlighted by an inspired Easy Wind and the rare Frozen Logger. Jerry's scorching guitar shines on Beat It On Down The Line while Bob Weir adds solid vocals on Easy Wind. Recording quality is generally excellent, making this one of the stronger late‑1970 performances.",
-    "review": "The December 26, 1970 concert at Legion Stadium captures the Dead in a tight Working Man’s Dead/American Beauty phase. From the opening \"Cold Rain And Snow\" through a powerhouse first set packed with \"Easy Wind,\" \"New Minglewood Blues,\" and a scorching \"Beat It On Down The Line,\" the band is locked in. Jerry’s Gibson SG blazes, especially on \"Beat It…\" and \"Truckin',\" while Bob Weir shines on \"Easy Wind\" and \"Friend Of The Devil.\" The second set delivers the rare acoustic \"Frozen Logger,\" a soulful \"Good Lovin'\" jam (despite a splice), and closes with an uplifting \"Uncle John's Band.\" Recording quality is generally pristine, with three excellent soundboard sources; the Ashley‑Field tape is the cleanest, offering crisp separation and minimal glitches.",
+    "summary": "Energetic Easy Wind and strong mid‑set jams with a mixed second half",
+    "blurb": "The show shines on Easy Wind, The Frozen Logger and Beat It On Down The Line, with Bob’s vocal work front‑and‑center. While the first set stays relaxed, the second half maintains high energy despite a few flat moments in songs like Casey Jones.",
+    "review": "December 26, 1970 at Legion Stadium captured the Dead in a classic early‑‘70 groove. Garcia’s tone was on fire during Easy Wind and Beat It On Down The Line, delivering soaring licks that many listeners called “incendiary.” Bob Weir’s vocal delivery and rhythm guitar were highlighted on Easy Wind and Friend Of The Devil, earning praise for being ‘ON.’ The setlist rolls through fan‑favorites – The Frozen Logger, Truckin’, Black Peter and a tight Good Lovin’ sandwich – with the China Cat Sunflower → I Know You Rider transition noted as seamless. The first half leans relaxed, but the second half keeps momentum high, even though a few reviewers felt Casey Jones and Till The Morning Comes fell flat. Recording quality varies; the Ashley‑Field soundboard is crisp and bass‑rich despite occasional pitch quirks, making it the recommended source for this performance.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 3.8,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 30,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.0,
+        "sentiment_rationale": "Two recordings are clearly positive, praising standout songs and Garcia’s soaring leads; two are mixed, noting both highlights and occasional flat moments. The overall tone leans positive, warranting a moderate +1.0 sentiment boost.",
+        "final_calculation": "2.5 + 0.3 + 1.0 = 3.8"
+      }
     },
     "best_recording": {
       "identifier": "gd1970-12-26.sbd.ashley-field.34031.sbeok.flac16",
-      "reason": "Pristine, crisp soundboard capture with excellent instrument separation and minimal glitches; showcases the standout songs most clearly."
+      "reason": "Crisp, robust soundboard with good instrument separation; captures the band’s energy while only minor pitch/splice issues affect a few tracks."
     },
     "key_highlights": [
-      "Fiery Easy Wind jam with Bob's lead vocals and Jerry's inventive riffs.",
-      "Rare acoustic showcase of The Frozen Logger featuring Pigpen’s harmonica.",
-      "Scorching Beat It On Down The Line highlights Jerry’s blazing guitar tone.",
-      "Strong Working Man’s Dead/American Beauty material throughout, especially Good Lovin' jam."
+      "Stellar Easy Wind jam with soaring Garcia leads.",
+      "Fiery Beat It On Down The Line and The Frozen Logger keep the set high‑energy.",
+      "Bob Weir delivers strong vocals on Friend Of The Devil and Easy Wind.",
+      "Second‑set China Cat Sunflower → I Know You Rider → Good Lovin' transition shines, though Casey Jones feels flat."
     ],
     "song_highlights": [
       "Easy Wind",
       "The Frozen Logger",
       "Beat It On Down The Line",
-      "Till The Morning Comes",
-      "Good Lovin'",
-      "Black Peter",
       "Truckin'",
-      "Big Railroad Blues",
-      "New Minglewood Blues"
+      "Black Peter",
+      "Good Lovin'"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s Gibson SG is front‑and‑center, delivering fiery licks, inventive riffs and a scorching solo on Beat It On Down The Line.",
+      "Jerry": "Garcia’s Gibson SG tone was on fire, especially on Easy Wind and Beat It On Down The Line; his improvisations earned repeated praise.",
       "Phil": "",
-      "Bob": "Weir provides solid vocals and shines on Easy Wind; his guitar work is noted as fantastic during the jam.",
-      "Brent": "Ron \"Pigpen\" McKernan’s organ sits low in the mix on some recordings, but his harmonica and acoustic lead on The Frozen Logger add texture and rarity.",
-      "Mickey": "Delivers steady, propulsive rhythms that lock tightly with Bill throughout the set.",
-      "Billy": "Drums are hot and supportive; a splice before the Good Lovin' jam is noted but otherwise the percussion stays solid."
+      "Bob": "Weir’s vocal delivery and rhythm guitar were highlighted as strong, particularly on Easy Wind and Friend Of The Devil; his presence in the mix was noted as ‘ON.’",
+      "Ron": "Pigpen’s organ is buried in several mixes, making it hard to hear, though his contributions are part of the classic early‑’70 texture.",
+      "Mickey": "",
+      "Billy": ""
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-11T11:57:32.498970+00:00",
+    "processed_date": "2025-09-20T01:50:08.072870+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -241,24 +246,15 @@
         "Beat It On Down The Line"
       ],
       [
-        "Till The Morning Comes"
-      ],
-      [
-        "Good Lovin'",
-        "Drums",
-        "Good Lovin'"
+        "Truckin'"
       ],
       [
         "Black Peter"
       ],
       [
-        "Truckin'"
-      ],
-      [
-        "Big Railroad Blues"
-      ],
-      [
-        "New Minglewood Blues"
+        "Good Lovin'",
+        "Drums",
+        "Good Lovin'"
       ]
     ]
   }

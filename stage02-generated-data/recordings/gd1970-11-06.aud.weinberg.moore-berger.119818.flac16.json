@@ -16,37 +16,59 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A monster late‑1970 show captured in a good‑quality audience tape – crisp sound with slight speed quirks, highlighted by a magical jam into NFA and powerful Good Lovin' > Main Ten sequences.",
-    "review": "The recording delivers clear, listenable audio that most reviewers consider an improvement over earlier sources, despite occasional perceived fast spots and the fact it only covers the final thirty minutes of the concert. Musically the performance is praised as “monster,” especially the jam into New Farm (NFA) and the tight Good Lovin' > Main Ten > Good Lovin' flow, making it a must‑listen for Deadheads who can tolerate the missing early songs.",
-    "sentiment": "positive",
+    "summary": "Audience tape with solid sound quality (despite slight speed quirks) captures the monster second‑half featuring Good Lovin > Main Ten > Alligator and a magical NFA jam.",
+    "review": "The recording, sourced from an audience mic, is generally clear and shows a noticeable improvement over older versions, though it runs slightly fast in spots and only covers the final ~30 minutes. Musically the show is hailed as “absolute monster” with standout moments like Good Lovin, Main Ten, Alligator and a superb jam into NFA, earning high praise from reviewers.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "medium",
-      "rationale": "Show quality is rated very high (standout jams, strong set) while recording quality is good but not flawless; weighting yields a solid 4.3 overall."
+      "rationale": "Strong musical performance (9/5) outweighs the decent but imperfect recording that is limited to the last half hour; overall rating reflects a high‑quality show with good audio."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Generally clear and crisp with an improvement over older sources, slight perception of fast tempo in spots, pitch appears correct, but only the last ~30 minutes are present."
+      "technical_notes": "Clear overall, slight speed/pitch variation noted by one reviewer; praised as an upgrade over older sources but only the last ~30 minutes are present."
     },
     "show_quality": {
       "standout_songs": [
-        "Jam into NFA (New Farm)",
         "Good Lovin'",
         "Main Ten",
-        "Alligator"
+        "Alligator",
+        "NFA"
       ],
       "poor_songs": [],
-      "setlist_flow": "Strong, monster second‑set flow highlighted by the Good Lovin' > Main Ten > Good Lovin' sequence and a magical NFA jam; however the recording omits the early part of the concert."
+      "setlist_flow": "Only the latter half of the concert is captured, but it flows powerfully with Good Lovin > Main Ten > Good Lovin and then Alligator into a thrilling NFA jam."
     },
     "band_member_comments": {
-      "Jerry": "One reviewer notes an unusual lyric line ('Mama told me don't go down there') sung by Jerry, suggesting a rare vocal moment.",
+      "Jerry": "Unusual lyric (“Mama told me don’t go down there”) noted, though not tied to a specific song.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T11:11:22.195621+00:00",
+    "song_mentions": {
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Main Ten": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Alligator": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "NFA": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T00:41:51.685738+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1970-11-06.aud.weinberg.moore-berger.119818.flac16"
   }

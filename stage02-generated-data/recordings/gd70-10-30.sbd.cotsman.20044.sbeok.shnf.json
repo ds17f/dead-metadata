@@ -16,37 +16,72 @@
   "high_ratings": 4,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard source with spotty, sometimes muffled audio, but the early set burns bright with Truckin' vocals and a fire‑starter Good Lovin'/Drums despite later weariness.",
-    "review": "The recording is an SBD that suffers from inconsistent fidelity – drops between discs, occasional cut‑offs and out‑of‑tune guitars – yet the performance still shines for many fans. Highlights include Bob Weir’s standout Truckin' vocals, a scorching Good Lovin'/Drums segment and a memorable (though unfinished) Rider, while the second half feels weary. Overall listeners are divided: some praise the historic vibe, others criticize the technical flaws.",
+    "summary": "Soundboard recording is fair with spotty drops, but the show shines thanks to a tight first set, standout Truckin' vocals and a fire‑filled Good Lovin'/Drums segment.",
+    "review": "Fans praise this 1970 performance for its energetic early set – especially Bob Weir’s vocal on “Truckin’” and a scorching Good Lovin’/Drums sequence with a nice Cumberland jam – while noting the later half feels weary. The SBD source suffers from inconsistent levels, disc‑to‑disc drop‑outs and occasional out‑of‑tune guitars, making the audio only fair despite its historical value.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 3.5,
       "confidence": "medium",
-      "rationale": "Reviews show a split between strong emotional appreciation of the show and consistent complaints about recording quality; average star rating ~3.7 leads to a rounded 3.8."
+      "rationale": "Show quality averages high (≈3.9/5) while recording quality is lower (≈2.6/5); weighted combination yields a solid but not outstanding rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Spotty sound with noticeable drop in fidelity between discs, occasional cut‑off (mid‑Rider), guitars out of tune in places, and overall lack of clarity compared to typical SBDs."
+      "technical_notes": "Sound drops between discs, spotty mids, occasional out‑of‑tune guitars and the SBD runs out mid‑song (“Rider”). Overall decent but far from pristine."
     },
     "show_quality": {
       "standout_songs": [
         "Truckin'",
         "Good Lovin'",
-        "Cumberland",
+        "Drums",
+        "Cumberland"
+      ],
+      "poor_songs": [
+        "Sunshine Daydream",
         "Rider"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Early show is tight and energetic, highlighted by strong vocals and fire‑starter jams; the later portion feels weary and less focused, mirroring the uneven recording quality."
+      "setlist_flow": "Early set is tight and memorable; late set loses steam, typical of the era’s fatigue. Transitions are solid, with a highlight in the Good Lovin'/Drums/Cumberland jam."
     },
     "band_member_comments": {
-      "Jerry": "Guitar tone noted as lacking in places; some reviewers mention out‑of‑tune guitars.",
+      "Jerry": "",
       "Phil": "",
-      "Bob": "Weir's Truckin' vocals praised as a highlight of the early set.",
+      "Bob": "Weir's vocals on 'Truckin'' were singled out as a standout moment.",
       "Keys": "",
-      "Drums": "Good Lovin'/Drums segment described as catching fire."
+      "Drums": "The drum segment paired with Good Lovin' received strong praise."
     },
-    "processed_date": "2025-09-11T10:50:41.660348+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sunshine Daydream": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Drums": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cumberland": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Rider": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T00:11:24.850202+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd70-10-30.sbd.cotsman.20044.sbeok.shnf"
   }
