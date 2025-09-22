@@ -194,44 +194,77 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑octane Dark Star > He's Gone sequence with soaring Bird Song",
-    "blurb": "Features an expansive Dark Star that segues into He's Gone, plus a smoking Bird Song and a powerful Playing In The Band. Jerry’s guitar is massive and Phil’s bass intertwines beautifully throughout the jams. Soundboard recordings capture the high‑energy performance with crystal clarity.",
-    "review": "The September 10, 1972 Hollywood Palladium show finds the Dead locked in a combustible groove that still feels fresh after all these years. The first set builds momentum with a tight Playing In The Band and a luminous Bird Song that showcases Jerry’s soaring leads and Phil’s floating bass lines. The second set erupts when Dark Star launches into an exploratory marathon before flowing seamlessly into He's Gone, delivering one of the most compelling segues of the era. Highlights continue with a blistering Truckin' and a jubilant Sugar Magnolia that sends the audience home on a high note. Across all six soundboard sources the band sounds crisp and focused, making this night a standout example of early‑’70s improvisational firepower.",
+    "summary": "Soaring Dark Star marathon, high‑energy Playin' and standout Bird Song",
+    "blurb": "The September 10 1972 show delivers a blistering Dark Star, an epic Playin’ in the Band, and a soaring Bird Song. Jerry’s guitar is massive and articulate, while Phil locks into a deep groove during the improvisations. Overall the performance ranks among the season’s finest.",
+    "review": "On September 10, 1972 at the Hollywood Palladium the Dead turned in one of their most electrifying late‑summer outings. The first set builds momentum with a crisp Bird Song and a punchy Playin’ in the Band that launches into a marathon 20‑minute journey, while the second set spikes with an incendiary Dark Star that segues into a ferocious He's Gone > Truckin' stretch and a heartfelt Black Peter. Jerry Garcia’s tone is described as “massive,” “Coltrane‑like” and “determined to rock,” delivering soaring solos on Dark Star, Playin’, and Jack Straw. Phil Lesh rides the wave with inventive lead‑bass passages that take the spotlight in Dark Star, and Keith Godchaux adds a jazzy comping texture plus a soaring lead on The Deal. Bill Kreutzmann’s drumming is “outer‑planet,” driving the jams with power and subtlety. The soundboard recordings capture the set with crystal‑clear clarity, making this show a must‑listen for anyone chasing that 1972 magic.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.6,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 43,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.8,
+        "sentiment_rationale": "All six recordings are overwhelmingly positive, repeatedly praising the Dark Star, Bird Song, Playin' in the Band and the overall energy. No consistent negative comments about performance appear; only one mixed review mentions muffled sound but still lauds the playing. The consensus yields a strong positive sentiment adjustment.",
+        "final_calculation": "2.5 + 0.3 + 1.8 = 4.6"
+      }
     },
     "best_recording": {
       "identifier": "gd72-09-10.sbd.patched.greenberg-powell.22793.sbeok.shnf",
-      "reason": "High‑fidelity soundboard capture with clear mix and minimal muddiness; showcases the full dynamics of Dark Star, Bird Song and He's Gone."
+      "reason": "Crystal‑clear soundboard with only minor muddy patches; captures the legendary performance and all highlighted songs in full detail."
     },
     "key_highlights": [
-      "Expansive Dark Star > He's Gone segue that rides a wave of cosmic improvisation",
-      "Smoking Bird Song with crystalline guitar and intertwining bass lines",
-      "Powerful Playing In The Band that launches the night’s high‑energy vibe",
-      "Crystal‑clear soundboard recordings that preserve every nuance of the performance"
+      "Marathon Dark Star that dominates the second set",
+      "Epic Playin' In The Band opening the night",
+      "Soaring Bird Song and powerful He's Gone > Truckin'",
+      "Heartfelt Black Peter to close the second set"
     ],
     "song_highlights": [
       "Dark Star",
       "Bird Song",
-      "He's Gone",
       "Playing In The Band",
+      "He's Gone",
       "Truckin'",
-      "Sugar Magnolia",
-      "One More Saturday Night"
+      "Black Peter",
+      "Jack Straw",
+      "Sugar Magnolia"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers massive, rock‑hard tone with soaring solos on Dark Star, Bird Song and Playing In The Band; his vocal phrasing adds extra spark throughout.",
-      "Phil": "Lesh’s bass is in the zone, offering powerful “bombs” and fluid counterpoint during Dark Star and the extended jams; his interplay with Jerry drives the improvisations.",
-      "Bob": "Weir provides solid rhythm guitar with a bite that pushes the early jams forward; his vocal accents on Deal and harmonies on Bird Song add depth.",
-      "Keith": "Godchaux adds texture and phasing in later Dark Star sections, contributing rich keyboard layers that enhance the cosmic feel.",
+      "Jerry": "Determined to rock with massive, articulate solos on Dark Star, Playin', Jack Straw and a soaring tone throughout the show.",
+      "Phil": "Floats around Jerry in Dark Star, delivering inventive lead‑bass passages that take the spotlight; locked‑in groove during the improvisations.",
+      "Bob": "Fantastic interplay especially on Deal; rhythm guitar sits higher in the mix adding bite to jams; vocal harmonies strong on Black Peter and Sugaree despite occasional tuning quirks.",
+      "Brent": "Keith Godchaux provides soaring lead lines on The Deal, tasteful comping that adds a jazzy feel, and solid keyboard support throughout the set.",
       "Mickey": "",
-      "Billy": "Kreutzmann’s drumming is outer‑planet groove work, laying a steady yet adventurous foundation on Playin' and throughout the second set"
+      "Billy": "Outer‑planet drumming drives Playin', Dark Star and Truckin' with power and subtle nuance."
     },
     "processed_recordings": 6,
-    "processed_date": "2025-09-08T02:16:27.083659+00:00",
+    "processed_date": "2025-09-20T17:23:24.261468+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Dark Star",
+        "Drums",
+        "Jack Straw",
+        "Sing Me Back Home*"
+      ],
+      [
+        "Bird Song"
+      ],
+      [
+        "Playing In The Band"
+      ],
+      [
+        "He's Gone",
+        "Truckin'"
+      ],
+      [
+        "Black Peter"
+      ],
+      [
+        "Sugar Magnolia"
+      ]
+    ]
   }
 }

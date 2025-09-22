@@ -16,43 +16,110 @@
   "high_ratings": 23,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "A high‑energy Wichita ‘72 show captured on a soundboard with generally clear audio (despite occasional noise‑reduction patches), highlighted by scorching “Cumberland Blues”, “He’s Gone”, “The Other One” and a soaring “Bird Song”.",
-    "review": "This recording delivers one of the standout performances from the fall‑1972 tour – Jerry’s ferocious lead on Cumberland and He’s Gone, Phil’s bass‑line fireworks on The Other One, and a rare, fire‑breathing Bird Song.  The SBD source is mostly crisp; a few murky patches, speed quirks and splice gaps are noted but do not detract from the overall listening experience.",
+    "summary": "Soundboard capture with generally crisp audio (despite occasional NR patches) delivers a stellar Wichita ’11‑17 show highlighted by a blistering “The Other One” and soaring “He’s Gone”.",
+    "review": "This recording of the November 17, 1972 Wichita concert is mostly clear and well‑balanced, though a few listeners note a murky patch and noise‑reduction artifacts. Musically it shines – Jerry’s ferocious guitar, Keith’s jazzy forays, and Phil’s “Footprints”‑style bass drive the band through an unforgettable second set (He’s Gone → Truckin’ → The Other One → Brokedown Palace) with Bird Song, Cumberland Blues and Box of Rain as standout moments.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Consistently enthusiastic comments about the musical performance (≈4.5/5) and generally good soundboard quality with only minor technical flaws (≈3.8/5) yield a weighted average of ~4.3."
+      "rationale": "The majority of detailed reviews are 4‑5 stars praising the performance (especially The Other One, He's Gone and Cumberland Blues) while noting only minor recording flaws; the strong show weight drives a high overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Mostly crisp and clear SBD; some reviewers note a 30‑second murky patch, occasional noise‑reduction artifacts, minor static/splices and slight speed issues that require pitch correction."
+      "technical_notes": "Generally crisp and clear soundboard mix; occasional murky audio patch, noise‑reduction artifacts, static/splices on some tracks, and minor speed/pitch issues noted by a few reviewers."
     },
     "show_quality": {
       "standout_songs": [
-        "Cumberland Blues",
-        "He’s Gone",
         "The Other One",
+        "He's Gone",
+        "Cumberland Blues",
         "Bird Song",
-        "Truckin’ > The Other One > Brokedown Palace",
+        "Box of Rain",
         "Sugar Magnolia",
-        "Box of Rain"
+        "Truckin'",
+        "Brokedown Palace"
       ],
       "poor_songs": [
-        "Jack Straw (gap/splice noted)"
+        "Jack Straw"
       ],
-      "setlist_flow": "First set builds with strong openings (China>Rider, Bird Song) and rare Box of Rain; second set launches with a blistering Cumberland Blues leading into an epic He’s Gone → Truckin’ → The Other One jam sequence, ending smoothly with Brokedown Palace.",
-      "energy_level": "high"
+      "setlist_flow": "First set builds with Bird Song, Sugar Magnolia and rare Box of Rain; the second set launches with a scorching Cumberland Blues into He's Gone → Truckin' → The Other One → Brokedown Palace, providing a high‑energy arc that many reviewers cite as one of the year’s best."
     },
     "band_member_comments": {
-      "Jerry": "Praised for ferocious, original playing; “underwater” filter tone on Cumberland; superb leads on He’s Gone and The Other One; overall guitar work described as scorching and inventive.",
-      "Phil": "Noted for “Miles Davis Footprints”‑style bass lines; strong, melodic support during The Other One; occasional “bass bombs” that drive the jams.",
-      "Bob": "Recognized for rhythmic brilliance on Sugaree and other cuts; some reviewers call his rhythm bordering on a second lead; highlighted as original rhythm guitarist.",
-      "Keys": "Keith’s jazz‑inflected improvisation (Round Midnight reference) and tight interplay with Jerry noted; praised for finding his way and adding texture throughout the set.",
+      "Jerry": "Praised for ferocious playing, soaring guitar tone, “underwater” filter effect and overall leadership on tracks like He's Gone and Cumberland Blues.",
+      "Phil": "Noted for a Miles Davis‑style bass line (“Footprints”) that adds jazz depth; solid ensemble work throughout.",
+      "Bob": "Highlighted for taking lead rhythm moments (e.g., Sugaree, Brown‑Eyed Women) and delivering strong vocal harmonies.",
+      "Keys": "Keith is commended for jazzy excursions (Round Midnight reference), finding his voice in the fall ’72 era and contributing to the improvisational texture.",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T04:08:49.166039+00:00",
+    "song_mentions": {
+      "Bird Song": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "The Other One": {
+        "positive_mentions": 8,
+        "negative_mentions": 0,
+        "total_mentions": 8
+      },
+      "Brokedown Palace": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "He's Gone": {
+        "positive_mentions": 9,
+        "negative_mentions": 0,
+        "total_mentions": 9
+      },
+      "Box of Rain": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Sugaree": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Jack Straw": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Brown-Eyed Women": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T01:44:14.258614+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-11-17.sbd.warner.15982.sbeok.shnf"
   }

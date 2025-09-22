@@ -16,44 +16,89 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑energy 1972 show with standout performances of Casey Jones, The Other One and Brown Eyed Woman, captured on a mostly clear soundboard tape despite some hiss and occasional drop‑outs.",
-    "review": "The concert is praised for its fun, tight playing – Phil’s bass is described as “phat” and the second set a “joy ride,” with highlights like Casey Jones, The Other One, Bertha and Brown Eyed Woman. The soundboard source offers decent stereo separation (left‑channel Garcia guitar) but begins with noticeable hiss that clears up and contains a few drop‑outs.",
+    "summary": "A stellar 1972 soundboard capture with crisp guitars, deep Phil bass, and a second‑set blaze featuring Casey Jones, The Other One and He's Gone.",
+    "review": "The recording delivers excellent soundboard clarity—stereo separation, clear left‑channel Garcia guitar and a strong low‑end from Phil—despite a slight hiss that fades and occasional drop‑outs. Musically the band is on fire, especially in the second set where Casey Jones, The Other One, Bertha and He's Gone shine, and Donna's appearance adds extra magic.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Consistently high reviewer scores (mostly 4–5 stars) emphasize strong musical performance and generally good sound quality, with only minor technical flaws."
+      "rationale": "Reviews overwhelmingly praise both the performance (many 5‑star comments) and the recording quality; minor hiss/drop‑outs are noted but do not detract from an overall excellent experience."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Noticeable hiss at the start that fades; a few drop‑outs reported later. Left channel Garcia guitar is clear; overall mix balances guitars and Phil’s bass well."
+      "quality_rating": "excellent",
+      "technical_notes": "Clear stereo mix with distinct left‑channel Garcia guitar, strong Phil bass center, occasional hiss that clears as the show progresses and a few drop‑outs, but overall crisp and highly listenable."
     },
     "show_quality": {
       "standout_songs": [
         "Casey Jones",
-        "The Other One",
         "Bertha",
         "Around & Around",
-        "Brown Eyed Woman",
+        "The Other One",
         "Uncle John's Band",
-        "Box of Rain (Donna vocal)",
-        "He's Gone"
+        "Brown Eyed Woman",
+        "Box of Rain",
+        "He's Gone",
+        "Friend of the Devil"
       ],
-      "poor_songs": [
-        "Sugar Magnolia (intro missing)"
-      ],
-      "setlist_flow": "Smooth transitions throughout; the second set described as a joy‑ride with effortless movement between tunes.",
-      "energy_level": "high"
+      "poor_songs": [],
+      "setlist_flow": "Second set described as a joy‑ride with effortless transitions; the band moves smoothly from tune to tune, keeping high energy throughout."
     },
     "band_member_comments": {
-      "Jerry": "Good buzz on guitar, warm‑up noted, clear left‑channel tone.",
-      "Phil": "Bass is deep, phat, runs in the “Phil Zone,” and drives the core of the vibe.",
-      "Bob": "Weir cuts across the grain on Bertha; occasional backstage comment about tempo during Truckin'.",
-      "Keys": "Donna joins for vocals (Box of Rain) and adds strong moxie to the performance.",
-      "Drums": "One‑drummer setup mentioned, no specific complaints."
+      "Jerry": "Good buzz on his guitar, clear tone and warm‑up moments noted.",
+      "Phil": "Bass is highlighted repeatedly – described as phat, deep, and driving the vibe.",
+      "Bob": "Weir’s rhythm work praised especially on Brown Eyed Woman.",
+      "Keys": "",
+      "Drums": "One‑drummer setup mentioned, providing a solid pocket."
     },
-    "processed_date": "2025-09-08T03:58:57.519735+00:00",
+    "song_mentions": {
+      "Casey Jones": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Bertha": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Around & Around": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Brown Eyed Woman": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Box of Rain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "He's Gone": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Friend of the Devil": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T01:23:26.372307+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-11-14.sbd.miller.22024.sbeok.shnf"
   }

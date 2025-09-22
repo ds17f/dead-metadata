@@ -215,23 +215,31 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy set with stellar Stella Blue, Deal and a monster Dark Star",
-    "blurb": "The show delivers powerful versions of Stella Blue and Deal, and a sprawling 28‑minute Dark Star that dominates the second set. Energy stays high throughout the two‑hour first set and the improvisational depth shines despite audience‑cassette sources.",
-    "review": "October 23, 1972 at the Milwaukee Performing Arts Center finds the Dead in top form, weaving tight songcraft with expansive jams. The first set rolls out classics like The Promised Land, Sugaree and a bright Deal before slipping into a soulful Stella Blue that showcases Jerry’s lyrical phrasing and Phil’s resonant bass. The second half is anchored by an extraordinary 28‑minute Dark Star – a deep, exploratory journey that feels both intimate and cosmic, even through the modest audience tape. While the recordings are all audience sources, the Sony ECM‑250 capture offers surprisingly clear depth, making this show a rewarding listen for anyone chasing that early‑'70s improvisational fire.",
+    "summary": "High‑energy set with stellar Stella Blue, sizzling Deal, and epic Dark Star",
+    "blurb": "The show delivers a high‑energy first set highlighted by a gorgeous Stella Blue and a fiery Deal. The second set features a marathon 28‑minute Dark Star that showcases the band’s improvisational peak. Recording quality varies, but the performance ranks among the stronger ’72 outings.",
+    "review": "On October 23, 1972 at the Milwaukee Performing Arts Center the Dead rolled out a two‑hour first set that never lost its momentum – from tight renditions of \"The Promised Land\" and \"Jack Straw\" to the soaring beauty of \"Stella Blue\" and the scorching groove on \"Deal.\"  The second set builds into an unforgettable, 28‑minute odyssey through \"Dark Star,\" flanked by solid takes of \"Bertha\" and a breezy finish with \"One More Saturday Night.\"  While audience recordings differ – one offering a warm, clear mix that captures the band’s fire, another hampered by muddy tape – both agree the playing is top‑notch.  With Keith Godchaux’s tasteful keys, Phil Lesh’s anchoring bass, and Bill Kreutzmann’s driving drums, the night stands out as a high‑energy snapshot of the early ’70s Dead in fine form.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 3.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 16,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.8,
+        "sentiment_rationale": "Both recordings praise the show’s highlights – Stella Blue, Deal and a marathon Dark Star – with no criticism of playing quality. The mixed sentiment stems only from recording fidelity, not performance, resulting in a solid positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.8 = 3.4"
+      }
     },
     "best_recording": {
       "identifier": "gd1972-10-23.sonyecm250.unknown.miller.98958.sbeok.flac16",
-      "reason": "Warm audience cassette with good clarity and depth; captures the high‑energy performance and epic Dark Star most cleanly"
+      "reason": "Good audience mix despite a few patches; captures the high‑energy performance and key songs clearly, making it the most enjoyable listening experience."
     },
     "key_highlights": [
-      "Epic 28‑minute Dark Star that explores deep improvisational terrain",
-      "Stella Blue shines with emotive vocals and lyrical phrasing",
-      "Deal delivers a tight, upbeat groove early in the first set",
-      "Warm audience cassette captures high‑energy performance despite modest source"
+      "High‑energy first set with strong pacing",
+      "Gorgeous \"Stella Blue\" performance",
+      "Sizzling rendition of \"Deal\"",
+      "Epic 28‑minute \"Dark Star\" marathon in the second set"
     ],
     "song_highlights": [
       "Stella Blue",
@@ -242,13 +250,25 @@
       "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keith": "",
+      "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-08T03:32:13.006599+00:00",
+    "processed_date": "2025-09-22T00:42:09.664236+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Stella Blue"
+      ],
+      [
+        "Deal"
+      ],
+      [
+        "Dark Star",
+        "Mississippi Half-Step Uptown Toodeloo"
+      ]
+    ]
   }
 }

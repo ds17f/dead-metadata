@@ -16,24 +16,23 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "No substantive review content available to assess recording quality or show performance.",
-    "review": "The only comment submitted requests deletion of a duplicate upload and provides no information about the audio source, sound quality, or musical performance. Consequently there is insufficient data to evaluate either the recording or the concert itself.",
-    "sentiment": "mixed",
+    "summary": "No substantive review content; reviewer only requested deletion of duplicate upload.",
+    "review": "The sole comment for this recording is a request to remove it as a duplicate, offering no insight into the audio quality or musical performance. Consequently, there are no details on the sound source, setlist, or individual band members, making an assessment impossible beyond noting the lack of useful feedback.",
+    "sentiment": "negative",
     "ai_rating": {
-      "stars": 2.0,
+      "stars": 1.2,
       "confidence": "low",
-      "rationale": "Only one non‑evaluative review was provided; no details on performance or audio quality allow a meaningful rating."
+      "rationale": "Only one review exists and it contains no evaluative information about the show or recording; the reviewer expressed dissatisfaction by asking for deletion, leading to a low confidence rating."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "No technical comments were made in the available review."
+      "technical_notes": "No technical comments were provided; the review only asked for removal of the duplicate upload."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "",
-      "energy_level": "medium"
+      "setlist_flow": ""
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,8 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T01:31:58.907354+00:00",
+    "song_mentions": {},
+    "processed_date": "2025-09-20T16:19:15.601988+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-08-21.171731.PandP.aud.menke.flac1648"
   }

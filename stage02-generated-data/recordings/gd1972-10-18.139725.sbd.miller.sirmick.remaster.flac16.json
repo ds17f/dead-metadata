@@ -16,39 +16,77 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard recording with crystal‑clear mix highlighting Bob's lead‑filled guitar work and a thrilling Playin jam that drives the show’s high energy.",
-    "review": "The remastered soundboard capture is superb – Charlie Miller and SIRMick’s engineering brings out every nuance, especially Bob Weir’s surprisingly audible lead fills on tracks like Bertha and Brown Eyed Women. Musically the concert shines with a focused “Playin sandwich,” an exhilarating jam that feeds into a strong Dark Star and the first Philo Stomp, keeping the energy consistently high throughout.",
+    "summary": "Excellent soundboard remaster captures a thrilling 1972 show with standout Bertha, Dark Star and the first Philo Stomp, plus unusually clear Bob Weir rhythm/lead work.",
+    "review": "The recording is praised for its crystal‑clear mix—especially the audibility of Bob’s guitar—and the masterful engineering by Charlie Miller and SIR‑Mick. Musically the concert shines with focused jamming, highlighted by a powerful Playin‑in‑the‑Band sequence, a memorable first Philo Stomp, and strong performances of Bertha, Don’t Ease Me In and Dark Star.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.7,
       "confidence": "high",
-      "rationale": "Three reviews (two clear 5‑star endorsements) praise both the performance and the remastered soundboard quality; only one ambiguous low rating does not detract from overall enthusiasm."
+      "rationale": "All three reviewers are enthusiastic; two give 5‑star ratings and the third praises the performance despite a missing star rating. Both show quality and recording quality are described as excellent."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Remaster is crisp, balanced and unusually clear on Bob's guitar; no reported dropouts or muddiness."
+      "technical_notes": "Engineers Charlie Miller and SIR‑Mick deliver a clean, balanced mix with unusually audible Bob Weir guitar fills throughout the set."
     },
     "show_quality": {
       "standout_songs": [
         "Bertha",
-        "Don't Ease Me In",
+        "Don’t Ease Me In",
         "Brown Eyed Women",
-        "Playin Jam (the 'Playin sandwich')",
-        "Dark Star"
+        "Playing in the Band",
+        "The Other One",
+        "Dark Star",
+        "Philo Stomp"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set flows tightly around a central Playin jam that leads into a thematic Dark Star, creating an engaging narrative arc.",
-      "energy_level": "high"
+      "setlist_flow": "The concert builds strong thematic jams that flow into Dark Star, with the first Philo Stomp providing a highlight of Phil’s bass work; overall pacing is described as focused and thrilling."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "First Philo Stomp highlighted as great, showing strong bass presence.",
-      "Bob": "Audible lead‑filled guitar work praised; Bob's fills are a highlight on several songs.",
+      "Phil": "First Philo Stomp noted as great, showcasing his bass-driven jam.",
+      "Bob": "Audible lead fills on Bertha, Don’t Ease Me In and Brown Eyed Women; guitar work described as more interesting than typical rhythm parts.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T03:22:03.104067+00:00",
+    "song_mentions": {
+      "Bertha": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Don’t Ease Me In": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Brown Eyed Women": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playing in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Philo Stomp": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T00:29:25.798967+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-10-18.139725.sbd.miller.sirmick.remaster.flac16"
   }

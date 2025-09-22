@@ -16,28 +16,27 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑energy Set 2 with a smoking Broken Down and solid Truckin', captured on a mostly crisp soundboard despite an abrupt cut at the end.",
-    "review": "The reviewer rates this set‑2 recording five stars, praising the setlist (especially Playing In The Band, Broken Down and Truckin') and Jerry Garcia’s vocal performance. Recording quality is generally good – a soundboard source with clear mix – though the tape ends abruptly on the Broken Down jam.",
+    "summary": "Soundboard Set 2 delivers A‑plus Jerry vocals and a standout Playing In The Band, solid Truckin', plus a beautiful Broken Down despite an abrupt cut.",
+    "review": "The set showcases a killer Playing In The Band that the reviewer would pick over Dark Star, a solid Truckin' and a beautifully performed Broken Down even though it ends with a needle‑pulling glitch. Jerry’s vocals are praised as A+, and the overall vibe of the setlist is described as “pretty cool.” Recording quality isn’t specifically critiqued beyond the cut on Broken Down, suggesting a generally good soundboard source.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.6,
-      "confidence": "high",
-      "rationale": "Strong enthusiasm for the musical performance (70% weight) and a largely clean soundboard recording with only a minor ending glitch (30% weight) lead to an overall high rating."
+      "confidence": "low",
+      "rationale": "Single detailed 5‑star review highlights strong musical performance and decent recording; limited data lowers confidence."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear mix overall; noted abrupt cut/needle‑pull at the end of Broken Down, but no major distortion or balance issues mentioned."
+      "technical_notes": "No explicit sound quality complaints except an abrupt cut ending on Broken Down, implying a generally clean board capture."
     },
     "show_quality": {
       "standout_songs": [
         "Playing In The Band",
-        "Broken Down",
-        "Truckin'"
+        "Truckin'",
+        "Broken Down"
       ],
       "poor_songs": [],
-      "setlist_flow": "Set 2 setlist described as \"pretty cool\" with PITB preferred over Dark Star; transitions flow well.",
-      "energy_level": "high"
+      "setlist_flow": "Cool setlist; reviewer prefers Playing In The Band over Dark Star and notes the set’s overall strength."
     },
     "band_member_comments": {
       "Jerry": "Vocals rated A+ throughout the set.",
@@ -46,7 +45,29 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T03:38:37.581222+00:00",
+    "song_mentions": {
+      "Playing In The Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Broken Down": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T00:53:22.362798+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-10-26.sbd-set2.clugston.3117.shnf"
   }

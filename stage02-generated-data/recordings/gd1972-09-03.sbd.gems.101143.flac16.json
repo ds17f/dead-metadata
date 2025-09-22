@@ -16,43 +16,84 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑energy 1972 Boulder show with standout He's Gone > Other One > Wharf Rat and solid soundboard capture, though a few patches and EQ tweaks are needed.",
-    "review": "The three‑set performance from September 3, 1972 at Folsom Field is praised for its fire‑filled jams—especially the He’s Gone → Other One → Wharf Rat sequence, Mexicali Blues, China Cat Sunflower and Playing In The Band.  The soundboard MP3 source is considered one of the best available on the Archive, but listeners note occasional patchwork sections and recommend EQ adjustments to smooth out the mix.",
-    "sentiment": "positive",
+    "summary": "A three‑set 1972 show with standout performances (Mexicali Blues, China Cat, He's Gone → The Other One → Wharf Rat, Playing in the Band) captured on a soundboard that sounds good overall but has patchy sections.",
+    "review": "Fans rave about the musical flow and highlight several classic jams, especially the He’s Gone/Other One/Wharf Rat sequence and the early set gems. The recording is a sound‑board MP3 that many call the best version on the Archive, though a few tracks suffer from patches or need EQ tweaks.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show 4‑5 stars for musical performance, highlighting strong jams and set flow; recording quality is generally good with minor patch/EQ issues, leading to an overall rating above average."
+      "rationale": "Most reviewers praise the musical performance (average ~4.5 stars) while noting occasional recording flaws (average ~3.5). Weighted combination yields a solid 4.2‑star rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "MP3 soundboard source praised as the best on IA for this show; some reviewers mention occasional patches (Cold Rain and Snow, Wharf Rat, Rockin' Pneumonia) and recommend using EQ to improve clarity."
+      "technical_notes": "Generally the best‑sounding MP3 version on the Archive; clear overall but some songs have patchy or missing sections and benefit from EQ adjustments."
     },
     "show_quality": {
       "standout_songs": [
-        "He's Gone > Other One > Wharf Rat",
         "Mexicali Blues",
         "China Cat Sunflower",
-        "Playing In The Band",
-        "dp36 filler tunes (e.g., Dark Star / Space segments)"
+        "He's Gone",
+        "The Other One",
+        "Wharf Rat",
+        "Playing in the Band"
       ],
       "poor_songs": [
-        "Cold Rain and Snow (patched)",
-        "Wharf Rat (patched in some sections)",
-        "Rockin' Pneumonia (patches)"
+        "Cold Rain and Snow",
+        "Rockin' Pneumonia"
       ],
-      "setlist_flow": "Three‑set monster with a strong third set; transitions flow well, though the encore (One More Saturday Night) is uncertain.",
-      "energy_level": "high"
+      "setlist_flow": "A three‑set monster with a strong early set, an expansive middle, and a memorable third set; occasional missing pieces (Bird Song) and questionable encore noted."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "Backing vocals from Phil are noted as impassioned on several tracks.",
+      "Phil": "Impassioned backing vocals by Phil are highlighted in the third set.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T02:00:45.874248+00:00",
+    "song_mentions": {
+      "Mexicali Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "He's Gone": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Wharf Rat": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Playing in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cold Rain and Snow": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Rockin' Pneumonia": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T17:01:45.110627+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-09-03.sbd.gems.101143.flac16"
   }

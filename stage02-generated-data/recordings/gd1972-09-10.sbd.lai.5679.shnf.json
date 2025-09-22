@@ -16,36 +16,63 @@
   "high_ratings": 6,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a high‑energy 1972 show highlighted by a scorching Dark Star and an extended, spooky He's Gone.",
-    "review": "The recording is a pristine soundboard mix that lets every instrument shine – the guitars are especially forward and clear. Musically the concert bursts with intensity from the opening jam through to the soaring Dark Star (where Phil’s bass is in the zone) and a haunting, extended outro on He's Gone, making it a standout performance for Deadheads.",
+    "summary": "Excellent soundboard capture of a fiery 1972 show highlighted by a scorching Dark Star, a top‑5 He's Gone, and a standout Black Peter.",
+    "review": "The recording is praised as a crystal‑clear soundboard mix with the guitars especially forward in the blend. Fans rave about the intense early jam, a “really hot” Dark Star that serves as the show’s peak, plus Jerry’s two soaring solos on He's Gone and a memorable Black Peter. Overall the performance is considered one of the stronger September ’72 dates.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "The majority of reviews are glowing (5‑star) and praise both the superb soundboard recording and the high energy of the performance, with only one low rating that reflects personal taste rather than objective flaws."
+      "rationale": "The majority of reviews are 5‑star and highlight both superb soundboard quality and standout performances; only one low‑rating comment is vague, so the weighted average leans strongly positive."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Crisp, well‑balanced mix; guitars (Jerry and Bob) are prominent, with a slightly higher Bobby level noted but not detrimental. No reported dropouts or muddiness."
+      "technical_notes": "Listeners describe the mix as wonderful, crisp and full‑bodied, with guitars especially prominent (Bob’s guitar higher than usual). No dropouts or distortion reported."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "He's Gone"
+        "He's Gone",
+        "Black Peter"
       ],
       "poor_songs": [],
-      "setlist_flow": "Intense opening jam sets a high‑octane tone, flowing smoothly into extended improvisations; Dark Star and He's Gone provide the centerpiece of the night.",
-      "energy_level": "high"
+      "setlist_flow": "The set bursts into high‑energy improvisation in the first ten minutes, builds to a scorching Dark Star centerpiece, and closes with an extended, spooky outro on He's Gone; overall pacing is praised as intense and engaging."
     },
     "band_member_comments": {
-      "Jerry": "Takes two strong solos on He's Gone; his guitar is clear and forward in the mix.",
-      "Phil": "In the zone during Dark Star, delivering powerful bass work around the 12:30 mark.",
-      "Bob": "His rhythm guitar sits higher in the mix than usual, adding extra bite to the early jam.",
+      "Jerry": "Garcia’s guitar work gets special praise – two soaring solos on He's Gone and strong presence throughout the show.",
+      "Phil": "Phil Lesh is noted as “in the zone” during Dark Star, delivering a deep, locked‑in bass groove.",
+      "Bob": "Bob Weir’s rhythm guitar sits higher in the mix than usual, adding extra bite to the jam sections.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T02:13:42.131954+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Jack Straw": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 0
+      },
+      "Sing Me Back Home": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 0
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "He's Gone": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T17:19:58.668848+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-09-10.sbd.lai.5679.shnf"
   }

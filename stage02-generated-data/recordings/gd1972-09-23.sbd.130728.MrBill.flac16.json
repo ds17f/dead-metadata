@@ -16,18 +16,18 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Decent recording with a tasty Bird Song and a standout Big River, though fans view it as an average entry in this legendary run.",
-    "review": "The show earns praise for a powerful rendition of \"Bird Song\" and what one reviewer calls the greatest performance of \"Big River\" ever. While some listeners find the overall set solid and played with gusto, others feel it falls short compared to nearby shows from the same period. No specific audio issues are mentioned, so the recording is generally regarded as acceptable.",
+    "summary": "Soundboard recording of decent quality captures a spirited show with standout Bird Song and Big River performances.",
+    "review": "The concert is praised for its energetic delivery, especially the beloved Bird Song and what one reviewer calls the greatest rendition of Big River. While the soundboard source provides a clear listen, a few listeners note uneven moments that make this gig feel slightly weaker than other shows from the same period.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 3.9,
       "confidence": "medium",
-      "rationale": "Four reviews give an average of 3.75 stars; positive remarks focus on a couple of standout songs, while comments about overall quality are lukewarm and no technical details are provided."
+      "rationale": "Reviewers are generally positive about specific songs and overall vibe, but mixed comments about consistency keep the rating just below four stars."
     },
     "recording_quality": {
-      "source_type": "unknown",
+      "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Reviewers did not discuss sound clarity or mix; the few comments (“Not bad”, “Incredible!!”) suggest the audio is at least listenable with no major flaws noted."
+      "technical_notes": "No explicit complaints; reviewers imply a clear, listenable capture typical of soundboard sources."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,8 +35,7 @@
         "Big River"
       ],
       "poor_songs": [],
-      "setlist_flow": "No detailed commentary on set structure; reviewers feel the show is solid but not as strong as other shows from the same two‑week stretch.",
-      "energy_level": "medium"
+      "setlist_flow": "The set is described as played with gusto and energy, though a few weak spots are noted that make it feel less cohesive than other shows from the same two‑week run."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -45,7 +44,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T02:39:44.349657+00:00",
+    "song_mentions": {
+      "Bird Song": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Big River": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T18:01:34.028334+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-09-23.sbd.130728.MrBill.flac16"
   }

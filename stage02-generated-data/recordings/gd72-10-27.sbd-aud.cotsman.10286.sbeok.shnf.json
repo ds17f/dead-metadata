@@ -16,26 +16,27 @@
   "high_ratings": 2,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Fantastic audience recording that captures a scorching Truckin > The Other One > Half Step sequence, though some listeners found the mix harsh.",
-    "review": "Fans rave about the high‑energy performance—especially the blazing Truckin > Other One > Half Step stretch—and praise the tape as an exquisite 1972 audience capture. A few reviewers, however, criticize the mix, calling it background‑music level and recommending other sources for cleaner sound.",
+    "summary": "Audience tape captures a scorching Truckin' → The Other One → Half Step run, though listeners are split on the overall sound quality.",
+    "review": "The performance is highlighted by an incendiary Truckin' into The Other One and a blazing Half Step, earning high praise from several reviewers. While many describe the audience recording as fantastic for a 1972 tape, a few find the mix unbearable or inferior to other sources, leading to mixed feelings about the audio fidelity.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.0,
-      "confidence": "high",
-      "rationale": "The majority of reviews highlight a strong show with standout jams and generally good audio, offset by a few negative comments about the mix; weighted average yields a solid four‑star rating."
+      "confidence": "medium",
+      "rationale": "Show is praised for standout jams and energy (70% weight), but recording quality receives both high praise and criticism, resulting in a balanced overall rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Most listeners describe it as a fantastic sounding audience tape for the era, though one reviewer calls the sound unbearable and another notes inferior audio compared to other sources."
+      "technical_notes": "Several reviewers call the tape fantastic and clear for its era, while others describe the sound as unbearable or inferior compared to other versions."
     },
     "show_quality": {
       "standout_songs": [
-        "Truckin > The Other One > Half Step"
+        "Truckin'",
+        "The Other One",
+        "Half Step"
       ],
       "poor_songs": [],
-      "setlist_flow": "Energetic set with fiery transitions, especially in the second half.",
-      "energy_level": "high"
+      "setlist_flow": "The set is noted for a hot sequence of Truckin' into The Other One and then Half Step, providing the main highlight of the concert."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -44,7 +45,24 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T03:41:51.888146+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Half Step": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T00:57:32.038351+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-10-27.sbd-aud.cotsman.10286.sbeok.shnf"
   }

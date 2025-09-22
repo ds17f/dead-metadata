@@ -16,35 +16,46 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Hi‑Fi soundboard capture of a high‑energy 1972 show with a standout China Cat Sunflower, though the mix can be uneven and overly bright.",
-    "review": "The recording delivers crisp Hi‑Fi stereo and an excellent overall mix that many fans love, showcasing 23 strong performances including a memorable China Cat Sunflower. However, several listeners note an uneven balance—Bob Weir’s rhythm guitar sits too high while Keith’s piano and Jerry’s lead can be buried—and the ultra‑clean 71‑72 system sounds brittle to some ears.",
+    "summary": "High‑fidelity soundboard capture with a brilliant China Cat Sunflower performance, but the mix is uneven and occasionally brittle.",
+    "review": "The recording is praised for its Hi‑Fi stereo and excellent mix by several reviewers, though others note an unbalanced front‑center guitar that buries Jerry's lead and Keith's piano on songs like Big River. Musically the show shines with a standout China Cat Sunflower sequence and an energetic 23‑song set, even if some listeners find the performance a bit sloppy and overly bright.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.0,
-      "confidence": "high",
-      "rationale": "Four detailed reviews (two 5‑star, two 3‑star) give a balanced view; strong musical performance offsets noted mix issues, landing the rating around four stars."
+      "stars": 3.9,
+      "confidence": "medium",
+      "rationale": "Two very positive 5‑star reviews highlight superb sound quality and memorable performances, while two 3‑star reviews point out mix imbalances and a harsh tonal character, yielding an overall mixed but generally favorable assessment."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Hi‑Fi stereo and excellent overall mix praised, but several comments about an uneven balance (Bob’s guitar too forward, Keith’s piano subdued) and a brittle, overly clean sound characteristic of the 71‑72 system."
+      "technical_notes": "Generally clear Hi‑Fi stereo with excellent mix according to most reviewers; however some note the guitar (Bob) is too forward, burying Jerry's lead and Keith's piano on Big River, and a brittle, glassy brightness that can feel aggressively loud."
     },
     "show_quality": {
       "standout_songs": [
         "China Cat Sunflower"
       ],
       "poor_songs": [],
-      "setlist_flow": "No specific comments on set pacing; reviewers note consistent energy throughout.",
-      "energy_level": "high"
+      "setlist_flow": "A sprawling 23‑song set that captures the band’s transition into their ’72 sound—energetic and adventurous, though a few moments feel sloppy or overly bright."
     },
     "band_member_comments": {
-      "Jerry": "His lead guitar can be hard to hear in the mix, though it remains present.",
+      "Jerry": "His guitar work is praised but several reviewers say it gets lost under the high mix level of Bob's rhythm guitar.",
       "Phil": "",
-      "Bob": "Bob Weir’s rhythm guitar is unusually prominent, sometimes overpowering other instruments.",
-      "Keys": "Keith's piano solo on Big River is buried under the mix.",
+      "Bob": "Bobby’s (Bob Weir) rhythm guitar sits too prominently in the mix, making other instruments difficult to hear.",
+      "Keys": "Keith's piano solo on Big River is barely audible due to the mix imbalance.",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T03:05:36.224239+00:00",
+    "song_mentions": {
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Big River": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-21T04:40:18.108429+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-09-30.sbd.clugston.8184.sbeok.shnf"
   }

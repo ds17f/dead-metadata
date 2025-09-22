@@ -16,42 +16,95 @@
   "high_ratings": 24,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Matrix recording with mixed sound quality captures a legendary Allman‑Dead jam and Dickey Betts guests, delivering a hot, high‑energy set.",
-    "review": "The show is celebrated for its explosive second‑set jams – especially the NFA > Good Lovin' > Hey Bo Diddley sequence, the massive Truckin’ → The Other One stretch and the first ever performance of “Mississippi Half‑Step Uptown Toodleloo.”  While the soundboard portions are solid, the audience tracks are hissy and uneven, giving the recording a fair overall fidelity.",
+    "summary": "A mixed‑source recording (soundboard + audience) with hissy, low‑fi crowd sections, but a legendary Allman‑Dead jam and the debut of “Mississippi Half‑Step” make this 7/16/72 show unforgettable.",
+    "review": "The performance shines thanks to the electrifying Allman Brothers crossover, a monster Truckin’ > The Other One stretch, and the first ever playing of Mississippi Half‑Step Uptown Toodleloo.  While the board tracks are decent, the audience portions suffer from hiss, muffling and occasional distortion (especially on the keyboards), giving the overall tape a fair technical rating.  Fans overwhelmingly praise the energy and historic moments despite the uneven audio.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical performance (high‑energy jams, special guests) despite noting mixed technical quality; weighted average of show (~4.5) and recording (~3.0) yields ~4.1."
+      "rationale": "Show quality is consistently praised across many reviews (historic jam, debut song, strong performances) while recording quality is mixed (good board but poor audience sections). Weighted 70 % show + 30 % recording yields a solid 4‑star rating."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "fair",
-      "technical_notes": "Soundboard sections are decent but contain hiss; audience portions are low‑fidelity, especially early tracks. Mix is uneven – Phil’s bass and Keith’s keyboards sometimes overpower other instruments."
+      "technical_notes": "Soundboard portions are clear with occasional hiss; audience tracks are low fidelity, noisy and muffled.  Keyboard mix is overly bright in places causing distortion; overall tape has a noticeable hiss throughout."
     },
     "show_quality": {
       "standout_songs": [
-        "Not Fade Away (NFA)",
-        "Good Lovin' (GDTRFB)",
+        "Mississippi Half-Step Uptown Toodleloo",
+        "Truckin' > The Other One",
         "Hey Bo Diddley",
-        "Truckin'",
-        "The Other One",
-        "Cumberland Blues",
-        "Mississippi Half‑Step Uptown Toodleloo (first performance)",
+        "Playin in the Band",
         "Stella Blue"
       ],
       "poor_songs": [],
-      "setlist_flow": "Three‑part show with a strong first set, an epic second set jammed with Allman Brothers guests, and a memorable encore; the flow builds to a fiery climax.",
-      "energy_level": "high"
+      "setlist_flow": "The concert builds from a solid first set into an epic second set highlighted by the Allman Brothers crossover jam and a historic debut of Mississippi Half‑Step.  The energy stays high through the finale, with the band clearly feeding off the crowd’s heat."
     },
     "band_member_comments": {
-      "Jerry": "Ripping leads like a madman; notable call‑and‑response with Dickey Betts during the jams.",
-      "Phil": "Bass is massive and pushed forward in the mix, especially on the Allman jam sections.",
+      "Jerry": "Praised for ripping leads, especially during the Allman jam and the Truckin’ > Other One stretch; call‑and‑response with Betts noted.",
+      "Phil": "Noted to be unusually high in the mix on several tracks.",
       "Bob": "",
-      "Keys": "Keith’s keyboards are very high in the mix to the point of distortion on some tracks.",
+      "Keys": "Keith’s keyboard is mixed very high—sometimes distorting and drowning out other instruments.",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T00:47:02.622058+00:00",
+    "song_mentions": {
+      "Hey Bo Diddley": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Johnny B. Goode": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Mississippi Half-Step Uptown Toodleloo": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Truckin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "He's Gone": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playin in the Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stella Blue": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Casey Jones": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Ramble On Rose": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-21T13:22:20.995314+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-07-16.sbd-aud.cotsman.11258.sbeok.shnf"
   }

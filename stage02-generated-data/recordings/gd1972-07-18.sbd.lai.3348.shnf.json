@@ -16,42 +16,93 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑energy 1972 show captured on a soundboard with mostly crisp audio (minor dropout at the end) and standout performances of Jack Straw, Truckin > Dark Star > Comes A Time, and Playing In The Band.",
-    "review": "The concert is praised for its vintage 1972 vibe, tight playing and soaring vocals from both Jerry and Bob, with Keith’s lighter boogie‑woogie piano adding sparkle. Highlights include the back‑to‑back Garcia tunes, an inspired Dark Star jam, and a monster Playing In The Band stretch, while the soundboard drops out briefly toward the end.",
+    "summary": "Vintage soundboard recording (with brief dropouts) captures a stellar 1972 set highlighted by a blazing Truckin' → Dark Star → Comes A Time sequence and standout renditions of Jack Straw, Stella Blue and Play In The Band.",
+    "review": "The show is praised as pure 1972 magic with pristine vocals, tight playing and memorable jams – especially the back‑to‑back Garcia tunes and the monster Truckin'/Dark Star/Comes A Time stretch. The soundboard source sounds clear overall, though it drops out toward the end of the performance.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
-      "confidence": "medium",
-      "rationale": "The review is overwhelmingly enthusiastic about the performance and notes only a small recording glitch, leading to a strong combined score."
+      "stars": 4.7,
+      "confidence": "low",
+      "rationale": "Enthusiastic 5‑star review highlights exceptional musical performance and mostly good soundboard quality, with only minor dropout issues affecting the rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally crisp and clear with pristine vocals; a brief dropout toward the end is noted but does not detract significantly from overall listenability."
+      "technical_notes": "Generally clear vintage soundboard recording; noticeable dropouts toward the end of the set."
     },
     "show_quality": {
       "standout_songs": [
-        "Jack Straw (intro)",
+        "Jack Straw",
         "Stella Blue",
         "El Paso",
         "Casey Jones",
-        "Playing In The Band",
-        "Truckin > Dark Star > Comes A Time"
+        "Play In The Band",
+        "Truckin'",
+        "Dark Star",
+        "Comes A Time"
       ],
-      "poor_songs": [
-        "Loser (lyric slip)"
-      ],
-      "setlist_flow": "The set flows smoothly, featuring two Garcia-led numbers back‑to‑back and extended jams that build momentum toward a powerful second‑half climax.",
-      "energy_level": "high"
+      "poor_songs": [],
+      "setlist_flow": "First set described as two late‑80s‑style sets; back‑to‑back Garcia numbers and a seamless Truckin' → Dark Star → Comes A Time jam give the concert strong momentum."
     },
     "band_member_comments": {
-      "Jerry": "Vocals pristine; lost a few lyrics in Loser but performance still strong.",
-      "Phil": "Sings loudly on \"B.E. Women\" and generally solid throughout.",
-      "Bob": "Vocal delivery praised as pristine alongside Jerry.",
-      "Keys": "Keith's lighter, boogie‑woogie piano adds sparkle, especially noticeable on the B.I.O.D.T.L. segment.",
+      "Jerry": "Lost some lyrics during 'Loser' but delivered a beautiful Dark Star, taking the jam extra mile.",
+      "Phil": "Shows strong vocal presence on Brown Eyed Women, singing with gusto.",
+      "Bob": "",
+      "Keys": "Keith's lighter boogie‑woogie touch shines, especially on 'B.I.O.D.T.L.'.",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T00:53:15.106193+00:00",
+    "song_mentions": {
+      "Jack Straw": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Loser": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Stella Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "El Paso": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Play In The Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Brown Eyed Women": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Comes A Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T15:22:37.178165+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-07-18.sbd.lai.3348.shnf"
   }

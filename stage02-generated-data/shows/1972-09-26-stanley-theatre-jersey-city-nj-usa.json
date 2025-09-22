@@ -208,43 +208,71 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy set with soaring He's Gone and monster Truckin' > The Other One jam",
-    "blurb": "The show delivers a blistering Truckin' → The Other One sequence, an inspired He's Gone, and a sprawling Playing In The Band that stretches beyond twenty minutes. Jerry's guitar soars while Phil locks in with musical telepathy. Soundboard sources capture the band at peak form.",
-    "review": "September 26, 1972 at the Stanley Theatre finds the Dead firing on all cylinders. From the opening drive of The Promised Land into a crisp Cold Rain And Snow, the first set builds momentum that explodes in the second half. A monster Truckin' → The Other One jam rolls seamlessly into an impromptu Baby Blue tease before the band launches into a twenty‑plus minute Playing In The Band, showcasing Jerry’s inventive leads and Phil’s thunderous bass. He’s Gone shines as a centerpiece with soaring guitar lines and a vocal crunch from Bob that feels both urgent and tender. The rhythm section—Bill on drums and Keith’s low‑sitting piano—keeps the groove tight while Donna adds her signature harmony in the background. The encore, a rollicking Johnny B. Goode, caps a night that remains one of the most exhilarating 1972 recordings.",
+    "summary": "Stellar He’s Gone and a monster Truckin’ → The Other One jam",
+    "blurb": "The show shines with an incendiary He’s Gone, a soaring Baby Blue finale, and a 20‑minute Playing In The Band. Jerry’s inventive solos lock in with Phil’s telepathic bass, while Bill’s drums drive the epic Truckin’ → Other One segue.",
+    "review": "September 26, 1972 at the Stanley Theatre captured one of the Dead’s most exhilarating late‑summer outings. The first set rolls through classics—Cold Rain And Snow, Bird Song and a blistering He’s Gone—that set up a second set bursting with high energy. Highlights include an almost flawless Truckin’ vocal from Bob, a seamless Truckin’ → The Other One jam that stretches beyond twenty minutes, and a soaring All All Over Now Baby Blue to close the night. Jerry’s guitar is on fire, delivering impromptu blues licks and a crisp solo on Baby Blue; Phil’s bass interweaves telepathically, especially during the Other One improvisation, while Bill Kreutzmann’s drumming propels the jams forward. Keith Godchaux adds tasteful color despite sitting low in the mix, and Donna’s backing vocals round out the sound. Overall, the performance is tight yet adventurous, marking this date as a standout in the 1972 tour.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 33,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "The majority of recordings (three) are strongly positive, praising He's Gone, the Truckin' → Other One jam, Baby Blue and overall band interplay. Only one recording is negative due to technical channel issues, and another mixed because of missing minutes—not reflective of performance quality—so sentiment remains overwhelmingly positive.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd72-09-26.sbd.unknown.156.sbeok.shnf",
-      "reason": "Excellent soundboard with clean mix, full set including the complete Truckin' → The Other One flow and 20‑minute Playing In The Band jam"
+      "reason": "Crystal‑clear soundboard capture with full set, excellent mix, no dropouts and praised as the definitive version of this show."
     },
     "key_highlights": [
-      "Smoking Truckin' → The Other One sequence with seamless transition",
-      "He's Gone featuring soaring guitar leads and powerful vocal delivery",
-      "Extended Playing In The Band jam exceeding twenty minutes, tight rhythm section",
-      "Bird Song and Greatest Story Ever Told add melodic depth"
+      "He’s Gone delivers a smoking performance that sets the night's intensity.",
+      "Truckin’ → The Other One jam stretches over twenty minutes, showcasing peak improvisation.",
+      "All‑over‑Now Baby Blue finale is powerful and emotionally resonant.",
+      "Playing In The Band (20+ min) sustains the momentum with tight ensemble work."
     ],
     "song_highlights": [
+      "He's Gone",
       "Truckin'",
       "The Other One Jam",
-      "He's Gone",
+      "It's All Over Now Baby Blue",
       "Playing In The Band",
-      "Bird Song",
-      "Greatest Story Ever Told"
+      "Cold Rain And Snow",
+      "Sugar Magnolia"
     ],
     "band_performance": {
-      "Jerry": "Inventive, soaring guitar work throughout; standout solo on He's Gone and crisp leads during the Truckin' → The Other One jam, with occasional pedal‑steel flavor.",
-      "Phil": "Musical telepathy with Jerry, providing a solid, thunderous bass foundation; praised especially during the long Playing In The Band improvisation.",
-      "Bob": "Vocals described as crushing and emotionally resonant on He's Gone and Baby Blue; rhythm guitar locks in tightly, adding drive to the set.",
-      "Keith": "Keyboard sits low but adds tasteful texture, particularly on Bird Song; overall presence felt despite mix level.",
+      "Jerry": "Inventive solos and impromptu blues moments dominate; crisp vocals on Baby Blue, though a few guitars run out of tune later.",
+      "Phil": "Telepathic interplay with Jerry and solid bass foundation; standout jam work in The Other One despite a missing solo due to tape change.",
+      "Bob": "Great Truckin' vocal and rhythm work; almost flawless Truckin', occasional out‑of‑tune moments (e.g., El Paso) and an odd opening on He’s Gone.",
+      "Brent": "",
       "Mickey": "",
-      "Billy": "Bill Kreutzmann’s drumming is a standout element, driving the high‑energy jams with precision and power."
+      "Billy": "Drums drive the jams, with Bill Kreutzmann highlighted as a standout element propelling the extended Truckin' → Other One sequence."
     },
     "processed_recordings": 5,
-    "processed_date": "2025-09-08T02:52:18.671392+00:00",
+    "processed_date": "2025-09-21T04:07:01.557588+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "He's Gone"
+      ],
+      [
+        "Truckin'",
+        "The Other One Jam",
+        "It's All Over Now Baby Blue"
+      ],
+      [
+        "Playing In The Band"
+      ],
+      [
+        "Cold Rain And Snow"
+      ],
+      [
+        "Sugar Magnolia"
+      ]
+    ]
   }
 }

@@ -221,43 +221,71 @@
     "europe-72-complete-recordings"
   ],
   "ai_show_review": {
-    "summary": "High‑energy Dark Star, soaring Uncle John's Band & powerful Wharf Rat",
-    "blurb": "The London show features a smoking Dark Star jam, a seamless Uncle John's Band → Wharf Rat transition and an inspired Good Lovin' performance. Jerry’s guitar shines throughout while the rhythm section drives the set with tight, propulsive playing. Recording quality is excellent despite the second‑set cut‑off.",
-    "review": "The Strand Lyceum on May 25 1972 delivers a quintessential early‑’70s Dead experience. The first set builds steadily, culminating in a fiery Good Lovin' that showcases Jerry’s crystalline tone and Bob’s organ counterpoint. In the second set the band locks into a seamless Uncle John's Band → Wharf Rat segue before launching into an extended Dark Star where Phil’s soulful bass and Billy’s quick‑fire drumming underpin some of Garcia’s most inspired soloing of the era. The performance rolls forward into a soaring Sugar Magnolia and a heartfelt rendition of Sitting On Top Of The World, keeping the energy high until the tape fades after the finale.",
+    "summary": "Fiery set with standout Dark Star, Uncle John's Band & China>Rider",
+    "blurb": "The show builds from a modest first set into a high‑energy second half highlighted by an epic Dark Star and seamless Uncle John’s Band → Wharf Rat transition. Jerry delivers his finest 1972 tone, while the band locks in on Good Lovin' and China Cat Sunflower > I Know You Rider. A missing chunk of the second set slightly truncates the arc.",
+    "review": "On May 25, 1972 at London’s Strand Lyceum the Dead turned in a performance that still feels fresh decades later. The first set eases in with solid roots numbers before launching into a luminous China Cat Sunflower → I Know You Rider stretch and a punchy Good Lovin' where Jerry’s guitar sings and Bob’s rhythm drives the groove. The second set is where the magic truly ignites: Uncle John’s Band flows straight into Wharf Rat, then bursts into a soaring Dark Star that showcases Jerry at “on‑fire” peak‑of‑his‑game solo, Phil’s soulful low‑end, and Keith’s grand piano weaving through Bill’s resonant drumming. Sugar Magnolia lifts the mood before the set closes with an emotional Singing of Comes A Time and a rousing One More Saturday Night. Although a chunk of the latter half is missing from the available tapes, the existing material captures the band in top form, making this night a must‑listen for any Deadhead.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 34,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Both recordings are uniformly positive, praising Jerry’s fire solo on Dark Star, the epic China Cat Sunflower > I Know You Rider, and the seamless Uncle John's Band → Wharf Rat transition. Consistent highlights across sources (Uncle John's Band, Good Lovin', Dark Star, Sugar Magnolia) indicate strong overall performance sentiment.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd1972-05-25.sbd.miller.87682.sbeok.flac16",
-      "reason": "Excellent soundboard mix with crisp separation and strong guitar presence, capturing the key peaks of the show despite a missing portion of the second set"
+      "reason": "Excellent soundboard mix with crisp clarity and strong instrument balance; captures all the show’s highlights despite a missing chunk of the second set."
     },
     "key_highlights": [
-      "Smoking Good Lovin' jam with soaring guitar leads",
-      "Extended Dark Star showcases peak improvisational chemistry",
-      "Seamless Uncle John's Band → Wharf Rat transition creates a flowing journey",
-      "Powerful Wharf Rat and Sugar Magnolia close the set with high‑octane energy"
+      "Epic China Cat Sunflower > I Know You Rider jam with tight interplay.",
+      "Legendary Dark Star featuring Jerry's fire solo and jazzy band dynamics.",
+      "Seamless Uncle John's Band → Wharf Rat transition leading into soaring Sugar Magnolia.",
+      "Missing portion of the second set slightly disrupts the overall arc."
     ],
     "song_highlights": [
-      "Good Lovin'",
       "Uncle John's Band",
-      "Wharf Rat",
+      "Good Lovin'",
+      "China Cat Sunflower",
+      "I Know You Rider",
+      "Sitting On Top Of The World",
       "Dark Star",
-      "Sugar Magnolia",
-      "Sitting On Top Of The World"
+      "Wharf Rat",
+      "Sugar Magnolia"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s finest‑era tone is on full display, delivering soaring solos and emotive vocal moments that lift the high points of the show.",
-      "Phil": "Lesh provides a tight, soulful bass foundation, especially driving the Dark Star jam, though some feel he never fully unleashes his muscle here.",
-      "Bob": "Weir’s rhythm guitar locks in tightly, with organ interplay on Good Lovin' adding bright texture to the band’s groove.",
-      "Brent": "",
+      "Jerry": "Delivers his finest 1972 guitar tone, emotive vocals and a fire solo on Dark Star that many call second‑to‑none.",
+      "Phil": "Provides soulful, tight bass work, especially shining during the jazzy sections of Dark Star; some note he never fully unleashed muscle on that tune but overall solid.",
+      "Bob": "Strong rhythm guitar with notable leads on Good Lovin', driving the band’s energy throughout.",
+      "Keith": "Grand piano adds lush textures and shines in the interplay with Bill, especially during the Dark Star jam; Pigpen’s organ offers fiery counterpoint on select cuts.",
       "Mickey": "",
-      "Billy": "Kreutzmann’s quick, resonant drumming propels the set’s high‑octane energy and underpins the extended improvisations."
+      "Billy": "Keeps a quick, resonant beat that propels the high‑octane energy of the second set."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-08T00:31:46.852585+00:00",
+    "processed_date": "2025-09-20T14:37:00.899829+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Uncle John's Band",
+        "Wharf Rat",
+        "Dark Star",
+        "Sugar Magnolia"
+      ],
+      [
+        "Good Lovin'"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ],
+      [
+        "Sitting On Top Of The World"
+      ]
+    ]
   }
 }

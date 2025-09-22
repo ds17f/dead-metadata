@@ -16,42 +16,78 @@
   "high_ratings": 14,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A pristine sound‑board capture of a fire‑filled Europe ’72 show, highlighted by an epic Dark Star, soaring Looks Like Rain on pedal steel and a flawless mix.",
-    "review": "The performance is repeatedly called one of the best of the tour – intense, energetic, with virtually every song standing out, especially Dark Star, Looks Like Rain (pedal‑steel), Good Lovin'/Caution sandwich and Casey Jones.  Charlie Miller’s meticulous soundboard edit delivers sparkling clarity; only minor vocal hiccups on “Goin’ Down The Road” and a patchy Cumberland Blues are noted.  Overall the show and its recording are celebrated as near‑perfect.",
+    "summary": "Sparkling soundboard recording of an all‑out Europe ’72 show featuring a monster Dark Star and standout Looks Like Rain with pedal steel.",
+    "review": "The performance is hailed as one of the band’s finest – every song brims with energy, highlighted by a soaring Dark Star, a gorgeous pedal‑steel rendition of Looks Like Rain and a tight Good Lovin’/Caution sandwich. Charlie Miller’s meticulous SBD mix delivers crystal‑clear, balanced sound, though a few listeners note weak vocals on Goin’ Down the Road and a sub‑par Cumberland Blues. Overall the show is an exhilarating, near‑perfect snapshot of the band at their 1972 peak.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.8,
       "confidence": "high",
-      "rationale": "Over a dozen enthusiastic 5‑star reviews praise both the musical performance (high energy, multiple standout songs) and the soundboard recording (sparkling mix, careful editing). Minor criticisms are few and do not detract from the overall excellence."
+      "rationale": "Overwhelmingly positive reviews (15 +), most giving five stars and praising both musicianship and Miller’s soundboard mix; only minor, isolated complaints about two songs."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Charlie Miller’s SBD edit is described as sparkling, well‑balanced with organ up in the mix, minimal drop‑outs (patched in Cumberland Blues), and overall pristine clarity."
+      "technical_notes": "Sparkling, crisp SBD mix with excellent instrument separation (Keith/organ front‑center, pedal steel highlighted). Miller’s patch work fixes drop‑outs; occasional vocal imperfections on GDTRFB and a weak Cumberland Blues track noted."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "Looks Like Rain",
-        "Good Lovin' / Caution (sandwich)",
+        "Good Lovin'/Caution Sandwich",
         "Casey Jones",
         "Playin' in the Band"
       ],
       "poor_songs": [
-        "Goin' Down The Road (Donna's vocal issues)",
-        "Cumberland Blues (patches needed)"
+        "Cumberland Blues",
+        "Goin' Down the Road"
       ],
-      "setlist_flow": "Two‑set marathon with three climactic peaks – Dark Star > Sugar Magnolia, Good Lovin' > Kitchen Sink > Lovin' Reprise, and NFA > Goin' Down The Road > NFA – delivering a seamless, high‑impact progression.",
-      "energy_level": "high"
+      "setlist_flow": "Two 15‑song sets packed with climactic peaks – Dark Star into Sugar Magnolia, Good Lovin’/Kitchen Sink/Lovin’ Reprise, and a NFA‑GDTRFB‑NFA trio – delivering nonstop energy and seamless transitions."
     },
     "band_member_comments": {
-      "Jerry": "Praised for his soaring pedal‑steel on Looks Like Rain and his telepathic link with the band throughout; tone described as perfect.",
-      "Phil": "",
-      "Bob": "Mentioned as part of the tight, telepathically linked ensemble.",
-      "Keys": "Keith Godchaux’s organ is highlighted as being high in the mix and complementing the band; Pipgen’s (organ) work noted positively.",
+      "Jerry": "Pedal steel on Looks Like Rain praised; his guitar work in Dark Star described as telepathic and flawless.",
+      "Phil": "Mentioned as part of the band’s telepathic link, no specific solo comments.",
+      "Bob": "Contributed to the high‑energy ensemble feel; no individual remarks.",
+      "Keys": "Keith and Pipgen's organ/keyboard blend highlighted as a key texture, sitting nicely in the mix.",
       "Drums": "Bill Kreutzmann praised for his freedom as the sole drummer on this show."
     },
-    "processed_date": "2025-09-07T23:06:50.014507+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "Looks Like Rain": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Good Lovin'/Caution Sandwich": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playin' in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      },
+      "Goin' Down the Road": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-21T13:52:34.318088+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-04-14.sbd.miller.34552.sbeok.flac16"
   }

@@ -16,24 +16,23 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard soundcheck recording with minimal reviewer commentary and no clear assessment of audio or performance quality.",
-    "review": "The only review asks for a TV video of the soundcheck and provides no evaluation of the music or the recording itself, leaving both the show’s musical merit and the technical fidelity uncertain.",
-    "sentiment": "mixed",
+    "summary": "Soundboard soundcheck recording with no clear audio appraisal; reviewer asks for video and gives a zero‑star rating.",
+    "review": "The sole review offers only a brief query about the existence of TV footage for this soundcheck, providing no commentary on the sonic clarity or musical performance. With a zero‑star rating and no descriptive feedback, both the recording quality and show merit remain indeterminate.",
+    "sentiment": "negative",
     "ai_rating": {
-      "stars": 2.8,
+      "stars": 1.8,
       "confidence": "low",
-      "rationale": "Only a single, non‑evaluative review is present; no concrete information on performance or sound quality, so rating is tentative and conservative."
+      "rationale": "Only one review with a zero‑star rating and no substantive comments; suggests dissatisfaction but lacks detail to assess specifics."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "No specific comments about clarity, mix, or issues; reviewer did not address recording fidelity."
+      "technical_notes": "No explicit remarks on sound clarity; reviewer’s request for video hints that audio alone may be insufficient or uninteresting."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "Not applicable – the review references a soundcheck with no set details.",
-      "energy_level": "unknown"
+      "setlist_flow": "It's a soundcheck, not a full concert, so set flow is not applicable."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,8 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T23:22:39.803294+00:00",
+    "song_mentions": {},
+    "processed_date": "2025-09-21T14:21:18.803132+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-04-21.116404.sbd.berger.sndchk.flac16"
   }

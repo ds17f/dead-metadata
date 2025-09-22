@@ -232,47 +232,77 @@
     "europe-72-complete-recordings"
   ],
   "ai_show_review": {
-    "summary": "Legendary Dark Star > Other One marathon with soaring solos and tight rhythm",
-    "blurb": "The show delivers an epic Dark Star → The Other One suite highlighted by Jerry's monster leads and Phil’s bass bomb. First‑set energy stays high despite some early tape murkiness, and the Turn On Your Lovelight/road medley caps a rousing second set.",
-    "review": "What unfolds at Bickershaw Festival on May 7, 1972, is one of the band’s most celebrated moments—a soaring Dark Star that stretches into an even longer The Other One, each section fueled by Jerry Garcia’s incandescent guitar and Phil Lesh’s thunderous bass. The first set, while occasionally hampered by tuning slips and audience‑recorded haze, still packs a punch with Mr. Charlie’s fiery solo, tight playing on Truckin' and Sugaree, and a crisp transition from China Cat Sunflower into I Know You Rider. In the second set the band locks into an explosive groove, launching into the monumental jam suite before surfacing into a high‑energy Turn On Your Lovelight/Going Down The Road Feeling Bad medley and a joyous encore of One More Saturday Night. Keith Godchaux’s organ fills sparkle throughout, especially on Good Lovin' and the Lovelight jam, while Bill Kreutzmann delivers an unforgettable birthday solo during The Other One. All told, this performance captures the Dead at a creative peak, offering both historic significance and exhilarating musicianship.",
+    "summary": "High‑energy Bickershaw with epic Dark Star>Drums>The Other One suite",
+    "blurb": "The show builds from a tight, high‑octane first set into an explosive second half anchored by the rare Dark Star > Drums > The Other One marathon. Highlights include a blistering Turn On Your Lovelight burst and a soaring Sugar Magnolia medley. Jerry’s solos soar, Phil’s bass shines, and the band stays locked in despite a few early tuning slips.",
+    "review": "May 7‑1972 at Bickershaw Festival captures the Grateful Dead at a creative peak. The first set rolls through classics like Truckin', Sugaree and Casey Jones with a punchy rhythm section that keeps the momentum humming. Then the second set erupts: Dark Star launches into an extended, otherworldly journey, seamlessly flowing into a thunderous drum solo and a legendary The Other One excursion where Phil’s bass is hailed as \"the best of the tour.\" The band never loses its groove, delivering a fiery Turn On Your Lovelight that showcases Jerry’s incendiary guitar burst and Keith’s organ wizardry. Sugar Magnolia rides the wave into a joyous medley with Goin' Down The Road Feeling Bad, while Mr. Charlie closes the set on a high note. Minor blemishes—out‑of‑tune piano on Sing Me Back Home and early tape mud—are quickly forgotten as the crowd soaks up the sheer exhilaration of this marathon four‑hour performance.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 38,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All three recordings are marked positive; reviewers repeatedly praise the Dark Star suite, Jerry's solos, and overall high‑energy performance while noting only minor tuning issues. Consistent enthusiasm across sources warrants a strong positive adjustment.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd72-05-07.sbd-aud.clugston.9193.sbeok.shnf",
-      "reason": "Mixed matrix captures the full festival set, with crisp soundboard reels for the epic Dark Star → The Other One suite and audience ambience that preserves the night’s vibe."
+      "reason": "Matrix set includes crisp SBD reels for the second half, delivering clear sound on the Dark Star > Drums > The Other One suite while still preserving the live ambience of the first 30 minutes."
     },
     "key_highlights": [
-      "Monumental Dark Star → The Other One marathon with soaring guitar and bass",
-      "Jerry’s monster solos on Mr. Charlie, Turn On Your Lovelight, and Sugar Magnolia",
-      "Phil’s “bomb” bass during The Other One adds priceless depth to the jam",
-      "Keith’s gorgeous organ fills enhance Good Lovin' and the Lovelight medley"
+      "Epic Dark Star > Drums > The Other One marathon anchors the show",
+      "Turn On Your Lovelight burst with soaring guitar and organ fireworks",
+      "Sugar Magnolia into Goin' Down The Road Feeling Bad medley lifts the second set",
+      "First‑set tightness and high energy lay a solid foundation despite early tape mud"
     ],
     "song_highlights": [
       "Dark Star",
+      "Drums",
       "The Other One",
       "Turn On Your Lovelight",
+      "Sugar Magnolia",
+      "Goin' Down The Road Feeling Bad",
       "Mr. Charlie",
-      "Good Lovin'",
       "China Cat Sunflower",
-      "I Know You Rider",
-      "Jack Straw",
-      "Sugar Magnolia"
+      "I Know You Rider"
     ],
     "band_performance": {
-      "Jerry": "Soaring, monster leads on Dark Star, Mr. Charlie, Turn On Your Lovelight and a second‑solo blaze on Sugar Magnolia; consistently praised as perfect and inspired.",
-      "Phil": "Delivers a bass “bomb” during The Other One, providing a deep, improvisational foundation that drives the extended jam.",
-      "Bob": "Solid rhythm guitar throughout; vocal delivery on Turn On Your Lovelight highlighted as a high point of the night.",
-      "Keith": "Gorgeous organ fills thread through Good Lovin', Mr. Charlie and the Lovelight jam, adding rich texture to the improvisations.",
-      "Billy": "Provides an essential birthday solo on The Other One, anchoring the rhythm section with dynamic drumming.",
+      "Jerry": "Delivers soaring, on‑fire solos—especially a flawless second solo in Sugar Magnolia and an unforgettable burst on Turn On Your Lovelight.",
+      "Phil": "Bass shines throughout; his solo during The Other One is called the best of the tour, providing a solid rhythmic anchor.",
+      "Bob": "Strong chord work in Dark Star, though marred by an out‑of‑tune guitar intro on The Other One and untuned piano/guitar on Sing Me Back Home.",
+      "Brent": "",
       "Mickey": "",
-      "Brent": ""
+      "Billy": "Powerful, tight drumming with a birthday tribute feel; his fills during The Other One drive the suite forward."
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-07T23:54:38.175392+00:00",
+    "processed_date": "2025-09-20T13:37:48.707544+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Dark Star",
+        "Drums",
+        "The Other One",
+        "Sing Me Back Home"
+      ],
+      [
+        "Turn On Your Lovelight",
+        "Goin' Down The Road Feeling Bad",
+        "Not Fade Away"
+      ],
+      [
+        "Sugar Magnolia"
+      ],
+      [
+        "Mr. Charlie"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ]
+    ]
   }
 }

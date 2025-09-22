@@ -16,18 +16,18 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Patched soundboard recording restores a great Truckin' → Other One flow, improving an otherwise unsatisfying gap",
-    "review": "The reviewer appreciates the splice that fills a 6‑7 minute missing segment, allowing the standout Truckin' into The Other One sequence to shine. While the original partial soundboard had a noticeable gap, the patched version delivers a listenable performance with decent audio clarity.",
+    "summary": "Partial soundboard with a splice restores the Truckin' → The Other One flow, but missing minutes keep overall audio quality fair.",
+    "review": "The reviewer appreciates that the splice fills a long gap and finally delivers a satisfying Truckin' into The Other One sequence. However, they note that a six‑to‑seven minute omission makes for an unsatisfactory listening experience overall, reflecting mixed feelings about the recording's completeness.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 3.2,
       "confidence": "low",
-      "rationale": "Only one brief review; positive about the splice and song flow but notes significant original gaps, leading to a modest overall rating."
+      "rationale": "Only one brief review; positive remarks about the song transition are offset by criticism of missing audio, leading to a modest overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Original had a 6‑7 minute gap; patched version adds missing material, resulting in clearer continuity though the splice is noticeable."
+      "quality_rating": "fair",
+      "technical_notes": "Partial soundboard with a splice; missing ~6‑7 minutes creates noticeable gaps despite the added segment."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,8 +35,7 @@
         "The Other One"
       ],
       "poor_songs": [],
-      "setlist_flow": "Patch restores smooth transition between Truckin' and The Other One, improving overall set flow.",
-      "energy_level": "medium"
+      "setlist_flow": "The splice restores a strong Truckin' → The Other One transition that was previously incomplete."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -45,7 +44,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T02:50:47.794851+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-21T04:05:12.997303+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-09-26.partial-sbd-patched.powell-ladner.25281.shnf"
   }

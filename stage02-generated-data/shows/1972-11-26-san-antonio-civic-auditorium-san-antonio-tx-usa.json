@@ -203,44 +203,85 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Dark Star > Me & Bobby and soaring Bird Song",
-    "blurb": "The set delivers a smoking Dark Star > Me & Bobby McGee segue and a powerful Bird Song. Jerry’s guitar soars while Phil supplies a walking bass that drives the jams. The second set shines with Keith‑led Playing In The Band and tight rockers like Big River.",
-    "review": "The November 26, 1972 show at San Antonio Civic Auditorium captures the Dead in full stride during their early‑'70 Texas run. Jerry pulls into vortexes of sound, building steam through the first set and unleashing a soaring lead on the Dark Star > Me & Bobby McGee pairing that feels both wild and precise. Phil’s bass walks a confident line under every groove, from a tasteful solo in Dark Star to the driving pulse behind Casey Jones and the later rockers. Keith opens the second set with a jazzy, melodic touch on Playing In The Band, adding vibrant color throughout, while Bob delivers impassioned vocals on Box of Rain and an energetic shout on Around & Around. The rhythm section—Billy’s steady foundation and Bill’s crisp drumming—keeps everything tight, allowing the band to cruise from expansive jams into tight rock numbers with ease. Restored soundboard fidelity brings out the nuances of this high‑energy performance, making it a standout document of the era.",
+    "summary": "High‑energy ’72 set with soaring Dark Star > Me & Bobby and jazzy Playin’ In The Band",
+    "blurb": "The concert erupts with youthful vigor, highlighted by a marathon Dark Star that segues into Me And Bobby McGee and a jazzy Playing In The Band. Jerry builds momentum late in the first set while Phil delivers a standout solo on Dark Star; Keith’s keyboards sparkle throughout. Strong renditions of Bird Song, Box of Rain, Jack Straw and Brokedown Palace round out a memorable performance.",
+    "review": "San Antonio Civic Auditorium on November 26, 1972 captured the Dead at a pivotal moment of high‑octane improvisation. The first set rolls through classics like The Promised Land, Deal and an exuberant Around & Around before launching into a luminous Bird Song that sets the tone for the night. The second half is where the magic truly unfolds – a soaring Dark Star that stretches into Me And Bobby McGee showcases Jerry’s late‑set surge and Phil’s tasteful solo, while Keith’s jazzy voicings lift Playing In The Band to new heights. Jack Straw lands tight, Brokedown Palace glides in with an uplifting vibe, and the encore of Sugar Magnolia through Goin’ Down The Road Feeling Bad keeps the energy humming. Across all available soundboard sources the performance is praised for its youthful fire and seamless segues despite some early‑set audio quirks, making this show a must‑listen for fans seeking that classic ’72 spark.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 3.8,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 19,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.2,
+        "sentiment_rationale": "Two recordings are explicitly positive, praising the soaring Dark Star > Me & Bobby segue, high‑energy first set and jazzy Playing In The Band; a third recording is mixed but still highlights strong performance despite early sound issues. Consistent commendations across multiple sources justify a solid positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 1.2 = 3.8"
+      }
     },
     "best_recording": {
       "identifier": "gd1972-11-26.127478.sbd.restore.droncit.flac16",
-      "reason": "Restored soundboard offers good fidelity with crisp detail, capturing the high‑energy jams and Jerry’s soaring leads."
+      "reason": "Restored soundboard delivers good clarity, captures the high‑energy performance and key jams (Dark Star, Playin' In The Band) with only minor muffling artifacts."
     },
     "key_highlights": [
-      "Smoking Dark Star > Me & Bobby McGee segue with soaring guitar work",
-      "Powerful Bird Song that showcases tight band interplay",
-      "Keith‑led Playing In The Band opens a vibrant second set",
-      "Restored soundboard recording delivers clear detail despite minor artifacts"
+      "Soaring Dark Star > Me And Bobby McGee segue that defines the second set.",
+      "Jazzy Playing In The Band showcasing Keith’s keyboard brilliance.",
+      "Tight Jack Straw and uplifting Brokedown Palace lift the latter half of the show.",
+      "High‑energy first set with standout Bird Song, Box of Rain and Around & Around."
     ],
     "song_highlights": [
       "Dark Star",
       "Me And Bobby McGee",
-      "Playing In The Band",
       "Bird Song",
       "Box of Rain",
+      "Around & Around",
+      "Casey Jones",
       "Big River",
-      "Around & Around"
+      "Playing In The Band",
+      "Jack Straw",
+      "Brokedown Palace"
     ],
     "band_performance": {
-      "Jerry": "Pulls into vortexes and delivers strong, soaring guitar work, especially on Dark Star > Me & Bobby.",
-      "Phil": "Provides a walking bass line that drives the set, with a tasteful solo in Dark Star and prominent power later in the show.",
-      "Bob": "Tears into Around & Around and gives an impassioned vocal on Box of Rain, adding emotional weight to the ballads.",
-      "Keith": "Jazzy playing opens the second set with Playing In The Band, adding vibrant melodic keys throughout.",
+      "Jerry": "Picks up steam late in the first set and dives into maelstrom‑like improvisations during Dark Star and other jams.",
+      "Phil": "Delivers a tasteful solo on Dark Star, provides a walking bass line on Casey Jones, and his tone shines with a slight EQ boost.",
+      "Bob": "Tears into Around & Around with enthusiasm, adding extra drive to the rocking numbers.",
+      "Keith": "Jazzy playing shines on Playing In The Band, adding bright textures throughout the set.",
       "Mickey": "",
-      "Billy": "Keeps a steady, tight foundation that locks the band together through high‑energy jams."
+      "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-08T04:31:59.453784+00:00",
+    "processed_date": "2025-09-22T02:24:22.521281+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Dark Star",
+        "Me And Bobby McGee"
+      ],
+      [
+        "Bird Song"
+      ],
+      [
+        "Box of Rain"
+      ],
+      [
+        "Around & Around"
+      ],
+      [
+        "Casey Jones"
+      ],
+      [
+        "Big River"
+      ],
+      [
+        "Playing In The Band"
+      ],
+      [
+        "Jack Straw"
+      ],
+      [
+        "Brokedown Palace"
+      ]
+    ]
   }
 }

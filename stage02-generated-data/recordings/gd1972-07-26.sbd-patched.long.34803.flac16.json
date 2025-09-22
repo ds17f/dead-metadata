@@ -16,44 +16,93 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clear‑ish soundboard capture with strong performances – Sugaree, Dark Star, I Know You Rider and Not Fade Away shine despite a forward vocal mix.",
-    "review": "The recording is a patched SBD that delivers crystal‑clear vocals and a punchy piano, though the mix often pushes Bobby’s voice ahead of the instruments and mutes Keith and Phil at times. Musically the show is solid ’72 material with highlights such as Sugaree, Dark Star, I Know You Rider, Tennessee Jed, Me & My Uncle, Ramble On Rose and a fiery Not Fade Away → One More Saturday Night stretch.",
+    "summary": "Clear‑board mix that leans vocal‑forward with occasional hiss, capturing strong performances of Sugaree, Dark Star and a standout Not Fade Away.",
+    "review": "The SBD recording is generally clear and loud, though the vocals sit a bit high in the mix and some instruments are buried. Musically the show is solid mid‑'72 Dead, highlighted by soulful Sugaree, an engaging Dark Star jam and a punchy Not Fade Away, with several other tight cuts despite a few missing sections.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "medium",
-      "rationale": "Two substantive reviews: one rates the show and recording 5‑star, the other 3‑star citing mix problems but good playing. Averaging with a heavier weight on performance yields ~4.2."
+      "rationale": "Reviews praise the performance (especially Sugaree, Dark Star and Not Fade Away) and note good recording clarity, but also point out vocal‑forward balance issues and missing elements, leading to a strong yet not flawless overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "fair",
-      "technical_notes": "Vocals are unusually forward, often louder than guitars; slight background hiss; Keith’s keyboards and Phil’s bass are buried; a few audible skips/cuts (e.g., Beat It On Down the Line). Overall louder than other SBDs but missing balance."
+      "quality_rating": "good",
+      "technical_notes": "Crystal‑clear vocals that sometimes dominate the mix; high recording levels with slight background hiss; occasional balance problems (vocals over instruments, missing keyboard and drum details) and a brief skip at 1:58 in Beat It On Down The Line."
     },
     "show_quality": {
       "standout_songs": [
         "Sugaree",
         "Dark Star",
+        "Not Fade Away",
         "I Know You Rider",
-        "Tennessee Jed",
-        "Me & My Uncle",
-        "Ramble On Rose",
-        "Not Fade Away > One More Saturday Night"
+        "Tennessee Jed"
       ],
       "poor_songs": [
         "Casey Jones (cut)",
-        "Brown Eyed Women (missing solo/bridge)"
+        "Brown Eyed Women (missing solo & bridge)"
       ],
-      "setlist_flow": "A typical mid‑'72 two‑set layout with a long second set and noticeable gaps between songs; several tracks need balance adjustments, but the overall arc stays solid.",
-      "energy_level": "medium"
+      "setlist_flow": "A typical mid‑'72 two‑set layout with a long, loose second set; the band builds from solid first‑set work into an extended jam‑filled finale, though gaps between songs and some missing audio make the flow feel uneven at times."
     },
     "band_member_comments": {
-      "Jerry": "Jerry’s guitar work is described as solid, especially pulling Dark Star back together at the end.",
-      "Phil": "Phil’s banter is highlighted, but his bass is often buried in the mix and occasionally out of sync with the beat.",
-      "Bob": "Bob’s vocals dominate the board mix; he repeatedly asks Owsley to raise his level, making his voice louder than the instruments.",
-      "Keys": "Keith’s piano accompaniment on Sugaree and Ramble On Rose is praised, yet the keyboards are largely inaudible due to the front‑heavy vocal mix.",
-      "Drums": "Bill’s bass drum and ride cymbal cut through clearly; however, Billy (the drummer) appears slightly behind or ahead of the beat in places, suggesting onstage monitoring issues."
+      "Jerry": "Garcia’s guitar work is praised, especially his return in Dark Star and the way he “brings it back” toward the end of the set.",
+      "Phil": "Phil’s stage banter is noted, but his bass lines are often buried under the vocal‑forward mix.",
+      "Bob": "Bob Weir’s vocals sit prominently—sometimes too loudly—but his rhythm work remains solid.",
+      "Keys": "Keith’s piano/organ parts are largely inaudible in this mix, making it hard to assess his contribution.",
+      "Drums": "Bill Kreutzmann’s bass drum and ride cymbal cut through; timing issues are mentioned (behind or ahead of the beat) likely due to monitoring problems."
     },
-    "processed_date": "2025-09-08T01:12:16.712342+00:00",
+    "song_mentions": {
+      "Sugaree": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Tennessee Jed": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Ramble On Rose": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "One More Saturday Night": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Brown Eyed Women": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T15:54:11.903615+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-07-26.sbd-patched.long.34803.flac16"
   }

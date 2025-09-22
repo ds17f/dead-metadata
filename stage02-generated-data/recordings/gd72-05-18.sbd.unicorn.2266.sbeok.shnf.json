@@ -16,46 +16,102 @@
   "high_ratings": 9,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Near‑perfect soundboard capture of a high‑energy Europe ’72 show highlighted by a smoking Dark Star → Morning Dew and a gem‑like Sing Me Back Home.",
-    "review": "The recording is a generally clean soundboard source with only occasional cuts, muffled moments and bass distortion, but overall it delivers an even, listenable mix. Musically the concert is a high‑octane example of the spring‑72 European tour – tight first‑set work, a standout Dark Star into Morning Dew, and an especially moving Sing Me Back Home, with Pigpen’s organ and Keith’s piano adding extra color.",
+    "summary": "Excellent soundboard recording of a tight Europe ’72 show highlighted by a stellar Dark Star→Morning Dew and a superb Sing Me Back Home",
+    "review": "The Munich concert captures the band at a peak of cohesion, with a first set that stays rock‑tight and a second set that erupts in a manic Dark Star → Morning Dew. Reviewers rave about Jerry’s soaring guitar duels with Keith, Pigpen’s organ work and standout renditions of Sing Me Back Home, Sugaree and Good Lovin’, while noting a few technical hiccups like cuts on Ramble On Rose and occasional bass distortion.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Average reviewer rating is ~4.4 stars; most comments praise both performance and sound quality, with only a few low‑star complaints about cuts or muffling."
+      "rationale": "Average reviewer rating is ~4.4, most comments praise the performance and many call the recording near‑perfect; a few technical flaws are noted but do not dominate the overall impression."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Generally clear and well‑balanced mix; occasional tape hiss and loss of high‑frequency ambience. Notable issues: cuts at the end of several tunes (Ramble On Rose), a radio broadcast bleed in Morning Dew, bass distortion on many tracks, Ron’s organ low in the mix, and a foreign voice bleed during Sing Me Back Home."
+      "quality_rating": "excellent",
+      "technical_notes": "Generally crisp and well‑balanced, with even mix praised by several reviewers. Some users note occasional muffling, bass distortion, low organ level for Ron, a cut on Ramble On Rose and a foreign voice bleeding through Sing Me Back Home."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star → Morning Dew",
+        "Dark Star > Morning Dew",
         "Sing Me Back Home",
-        "Good Lovin' (Pigpen)",
         "Sugaree",
-        "Black‑Throated Wind",
-        "Playin' in the Band",
-        "Tennessee Jed",
-        "Truckin'",
-        "Casey Jones"
+        "Good Lovin'",
+        "Black-Throated Wind"
       ],
       "poor_songs": [
-        "Ramble On Rose (cut off)",
-        "Sugar Magnolia (flubbed lyrics)"
+        "Ramble On Rose"
       ],
-      "setlist_flow": "A strong, tight first set that builds into an expansive second set anchored by a marathon Dark Star → Morning Dew; transitions are smooth and the energy stays high throughout.",
-      "energy_level": "high"
+      "setlist_flow": "First set stays tight and rock‑focused; second set opens the classic Dark Star jam that flows into Morning Dew, delivering the tour’s famed improvisational peak. Pigpen and Keith add unique texture throughout, making the concert feel like a cohesive whole."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar work is praised for sweet tone and a manic duel with Keith during Dark Star; overall strong lead playing.",
-      "Phil": "Lesh delivers lush, “luscious loaves” on Black‑Throated Wind, though some reviewers note occasional bass distortion.",
-      "Bob": "Weir adds funky wailing in the Dark Star jam and is noted for his energetic vocal contributions.",
-      "Keys": "Keith Godchaux shines on piano (Tennessee Jed, Chinatown Shuffle) and shares a “face‑off” with Jerry; Ron’s organ is often buried in the mix but still adds texture.",
-      "Drums": "The rhythm section is described as tight and solid, contributing to the overall high energy of the performance."
+      "Jerry": "Garcia’s guitar tone is praised as manic and soaring, especially during the Dark Star piano‑guitar duel with Keith.",
+      "Phil": "Lesh delivers “luscious loaves” on Black‑Throated Wind; otherwise no specific comments.",
+      "Bob": "Weir joins the Dark Star jam with funky wailing and contributes solid rhythm throughout.",
+      "Keys": "Keith’s piano work is highlighted on Tennessee Jed, Good Lovin' and the Dark Star duel; Ron’s organ occasionally sits low in the mix.",
+      "Drums": ""
     },
-    "processed_date": "2025-09-08T00:14:20.929878+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Morning Dew": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Sing Me Back Home": {
+        "positive_mentions": 4,
+        "negative_mentions": 2,
+        "total_mentions": 6
+      },
+      "Sugaree": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Good Lovin'": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Playin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Truckin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black-Throated Wind": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Tennessee Jed": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Ramble On Rose": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      },
+      "Sitting on Top of the World": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T14:10:04.082787+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-05-18.sbd.unicorn.2266.sbeok.shnf"
   }

@@ -16,44 +16,84 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Sharp soundboard capture of a fiery 1972 performance with monster Jerry leads and standout Box of Rain, Truckin' and Black Throated Wind.",
-    "review": "The recording is a sound‑board source that is generally clear though it suffers a few mix hiccups (notably on \"Don’t Ease Me In\" and \"El Paso\") and a muddy edge. Musically the show is high‑energy, with Jerry’s incendiary leads, Phil’s solid bass work and several highlight moments such as Box of Rain, Truckin', Sugar Magnolia, Black Throated Wind and Ramble On. Overall the concert is regarded as one of the better post‑Europe dates despite minor technical flaws.",
+    "summary": "Sharp, fire‑filled show with standout Black Throated Wind and Box of Rain, captured on a generally good soundboard despite occasional mix mud.",
+    "review": "The performance is described as professional and intense, with the whole band on fire—Jerry delivering monstrous leads, Phil laying down nice bass, and Bob adding sprightly fills. The soundboard source is mostly clear but shows a few hiccups (muddy sections in \"Don't Ease\" and \"El Paso\") that don’t outweigh the overall quality.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Average rating across nine reviews is ~4.3; most reviewers praise the performance and deem the recording good, with only occasional minor criticisms."
+      "rationale": "Most reviewers praise the musical performance as exceptional while noting only minor recording imperfections; weighted average of show (≈4.5) and recording (≈4.0) yields a strong rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear soundboard capture but a few mix hiccups (\"Don’t Ease Me In\", \"El Paso\") and a slightly muddy texture; one disappointing cut on the China Cat solo."
+      "technical_notes": "Generally clear soundboard capture with a few mix hiccups on \"Don't Ease Me In\" and \"El Paso\"; described as slightly muddy but still very listenable."
     },
     "show_quality": {
       "standout_songs": [
+        "Black Throated Wind",
         "Box of Rain",
         "Truckin'",
-        "Sugar Magnolia",
-        "Black Throated Wind",
-        "Ramble On"
+        "Ramble On",
+        "Sugar Mag"
       ],
       "poor_songs": [
-        "Don’t Ease Me In (mix hiccup)",
-        "El Paso (mix hiccup)",
-        "China Cat (disappointing cut)",
-        "Not Fade Away (Jerry string break issues)"
+        "China Cat",
+        "The New Faster Automatic",
+        "Deal"
       ],
-      "setlist_flow": "First set noted for its oomph and solid country‑inflected vibe; second set intensifies with fiery solos and tight band interplay, delivering a professional post‑Europe feel.",
-      "energy_level": "high"
+      "setlist_flow": "First set noted for its oomph; second set builds intensity with fiery playing and strong transitions, reflecting a professional post‑Europe era show."
     },
     "band_member_comments": {
-      "Jerry": "Monstrous leads praised, occasional vocal space‑out, string break on \"Not Fade Away\", strong guitar fills on Box of Rain, heavy use of harmonics in Truckin' outro.",
+      "Jerry": "Monstrous leads praised throughout; occasional monitor glitch on \"Deal\" and a string break that affected the NFA solo, but overall fire‑filled performance on his '57 Alligator Strat.",
       "Phil": "Nice bass highlighted by reviewers.",
-      "Bob": "Sprightly guitar fills noted on Box of Rain; solo at end of China Cat described as disappointing.",
+      "Bob": "Sprightly guitar fills on Box of Rain noted; end‑solo on China Cat considered disappointing.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T04:26:15.178913+00:00",
+    "song_mentions": {
+      "Black Throated Wind": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Box of Rain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Ramble On": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Mag": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The New Faster Automatic": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "China Cat": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Deal": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T02:16:16.241503+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-11-24.sbd.gardner.5288.sbeok.shnf"
   }

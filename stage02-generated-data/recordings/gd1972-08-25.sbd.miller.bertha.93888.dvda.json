@@ -16,24 +16,23 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "No substantive feedback – reviewer only asks where the recording is located",
-    "review": "The sole review provides no information about the performance or audio quality, merely asking for the location of the tape. With a zero‑star rating and no descriptive comments, it’s impossible to assess either the show or the recording.",
+    "summary": "No details provided; the sole review is a brief query with zero stars, offering no insight into sound or performance.",
+    "review": "The only comment simply asks “donde esta” and gives a 0‑star rating, so there’s no information on the concert’s musical quality or the recording’s technical characteristics.",
     "sentiment": "negative",
     "ai_rating": {
       "stars": 1.0,
       "confidence": "low",
-      "rationale": "Only one brief, non‑informative review with a 0‑star rating; insufficient data to gauge quality"
+      "rationale": "Only one 0‑star review with no substantive feedback; rating defaults to very low due to lack of positive indicators."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "poor",
-      "technical_notes": "No comments on sound clarity, mix, or source type"
+      "technical_notes": "Reviewer provides no audio details, only asks where the recording is."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "",
-      "energy_level": "low"
+      "setlist_flow": "No commentary on set structure or performance."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,8 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T01:45:20.931567+00:00",
+    "song_mentions": {},
+    "processed_date": "2025-09-20T16:36:21.766703+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-08-25.sbd.miller.bertha.93888.dvda"
   }

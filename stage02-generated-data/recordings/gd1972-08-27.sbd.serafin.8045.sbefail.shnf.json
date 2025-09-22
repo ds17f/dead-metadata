@@ -16,42 +16,89 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Warm, crystal‑clear soundboard captures a high‑energy 8/27/72 show with smoking Playing in the Band, soaring Dark Star and stellar He's Gone.",
-    "review": "The serafin SBD source delivers an ultra‑warm, well‑balanced mix that lets every instrument shine—even the stage banter feels like part of the experience. Musically the concert erupts after a modest first set, with a second‑set surge highlighted by a smoking Playing in the Band, a spacey Dark Star and powerhouse versions of He's Gone and Jack Straw, while the third set keeps the momentum high with Bird Song, Greatest Story Ever Told and a soulful Sing Me Back Home. A few reviewers note song splits and frequent announcements, but overall the performance is regarded as one of ’72’s finest.",
+    "summary": "Warm‑sounding soundboard capture of a legendary 8/27/72 show, highlighted by a stellar Dark Star/Playing‑in‑the‑Band jam and flawless versions of He's Gone, Jack Straw and Bird Song.",
+    "review": "The serafin SBD delivers an exceptionally warm mix that lets every instrument breathe, even reproducing the stage banter and occasional echo on Bobby’s vocals. Musically the concert is a showcase performance – the second set erupts with a soaring Dark Star/Playing‑in‑the‑Band sequence, while He's Gone, Jack Straw, Bird Song and Greatest Story Ever Told are repeatedly called out as definitive. The only real blemish is the frequent stage announcements and the editorial splitting of some songs, but they do not detract from an overall superb listening experience.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.5,
       "confidence": "high",
-      "rationale": "Most reviews rate the show 4–5 stars, praising both the musical energy and the warm soundboard mix; only a few low‑star comments mention minor annoyances, yielding an overall strong positive consensus."
+      "rationale": "Over a dozen detailed reviews rate the show 4‑5 stars and praise both performance and sound quality; the few lower scores focus on minor annoyances rather than core issues."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Super warm‑sounding SBD with crisp clarity; some listeners note split‑song edits and frequent stage announcements, but the mix is generally praised as beautiful and well balanced."
+      "technical_notes": "Warm, clear mix with slight echo on vocals; reviewers note superb balance, but mention song‑splitting edits and frequent stage announcements as minor distractions."
     },
     "show_quality": {
       "standout_songs": [
-        "Playing in the Band",
         "Dark Star",
+        "Playing in the Band",
         "He's Gone",
         "Jack Straw",
         "Bird Song",
         "Greatest Story Ever Told",
         "Sing Me Back Home",
-        "Sugar Magnolia"
+        "Sugar Magnolia",
+        "Casey Jones"
       ],
       "poor_songs": [],
-      "setlist_flow": "First set serves as a warm‑up; the second set takes off with high‑energy jams and becomes the show’s centerpiece, while the third set maintains momentum despite frequent banter. Overall flow is praised even though stage announcements can be distracting.",
-      "energy_level": "high"
+      "setlist_flow": "Second set is the high point, launching into an ultra‑spacy Dark Star/Playing jam; third set continues strong with Dark Star and Sing Me Back Home. First set is solid but less celebrated. Stage announcements are frequent and irritating to some listeners."
     },
     "band_member_comments": {
-      "Jerry": "Garcia's guitar tone described as warm, on the edge of a melt‑down and his vocals on Sing Me Back Home noted as especially sweet.",
-      "Phil": "Phil’s bass highlighted for an unusually dynamic, funky jam and is often up in the mix during the jams.",
-      "Bob": "Bobby’s stage banter and vocal intros add character; his voice carries a slight ping‑pong echo that places the listener right between stage and woods.",
-      "Keys": "Keith’s keyboards are praised as “very on” and contribute jazzy, spacey textures throughout the set.",
-      "Drums": "Bill’s drumming is described as fierce and driving, especially during the high‑intensity jams."
+      "Jerry": "Garcia’s guitar tone described as perfect, edgy and ‘on the brink of a melt‑down’; his vocals on Sing Me Back Home called sweet and soulful.",
+      "Phil": "Bass work praised for unusually dynamic, funky jams; Phil’s bass is noted as being up in the mix during several songs.",
+      "Bob": "Bobby’s vocal presence highlighted – warm with a slight ping‑pong echo; his stage banter and introductions are part of the show’s charm.",
+      "Keys": "Keith’s keyboards described as “very on,” delivering jazzy passages in Dark Star and adding sparkle throughout the set.",
+      "Drums": "Bill’s drumming called fierce, driving the jams with powerful energy, especially during Playing‑in‑the‑Band and El Paso."
     },
-    "processed_date": "2025-09-08T01:54:55.923830+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Playing in the Band": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "He's Gone": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Jack Straw": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Bird Song": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Greatest Story Ever Told": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Sing Me Back Home": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T16:53:39.331783+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-08-27.sbd.serafin.8045.sbefail.shnf"
   }

@@ -16,36 +16,47 @@
   "high_ratings": 2,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Fair matrix recording of a mixed‑energy show with standout Phil Lesh bass work and a memorable Stars & Stripes Forever ending.",
-    "review": "The performance swings between solid, harmony‑rich playing—especially Phil Lesh’s lush runs—and a generally lifeless feel that left some listeners underwhelmed. The matrix source is listenable but suffers from a harsh pan and vague vocal presence that required post‑mix cleanup. Highlights include the brief Stars & Stripes Forever tag and the overall strong setlist, though the show’s energy feels uneven.",
+    "summary": "Mixed‑quality recording of a show that shines on Lesh and The Other One but suffers from harsh pan and uneven performance.",
+    "review": "The concert is praised for Phil Lesh’s lush runs, solid harmonies and a standout rendition of “The Other One,” while one reviewer finds the overall performance underwhelming and notes a harsh stereo pan and thin vocals that required post‑mix remediation. Recording quality is not definitively identified but appears fair, with some mix issues noted alongside generally decent sound.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.4,
+      "stars": 3.5,
       "confidence": "medium",
-      "rationale": "Three reviews give an average of ~3.3 stars; positive comments about Lesh and setlist are offset by strong negative feedback on overall performance and some technical flaws, leading to a mid‑range rating."
+      "rationale": "Three reviews give mixed signals (two 4‑star positives, one 2‑star negative) and comment on both strong musical moments and recording mix problems, leading to a middle‑range rating."
     },
     "recording_quality": {
-      "source_type": "matrix",
+      "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "Harsh pan and somewhat muffled/iffy vocals noted; reviewer applied extra reverb to improve sound. Overall listenable but not crisp."
+      "technical_notes": "One reviewer mentions a harsh pan and “iffy” vocals that needed added reverb; no explicit soundboard/audience note, but overall sound is passable."
     },
     "show_quality": {
       "standout_songs": [
-        "Stars & Stripes Forever",
-        "The Other One"
+        "The Other One",
+        "Stars & Stripes Forever"
       ],
       "poor_songs": [],
-      "setlist_flow": "Inconsistent flow – strong opening and solid setlist contrast with a middle section described as lifeless by some listeners.",
-      "energy_level": "medium"
+      "setlist_flow": "Setlist is considered solid and well‑chosen, but the performance feels uneven—highlights like Lesh’s playing and The Other One contrast with a generally lackluster vibe noted by one reviewer."
     },
     "band_member_comments": {
-      "Jerry": "",
-      "Phil": "Phil Lesh's bass is highlighted as a standout, with lush runs, fills, and strong harmonic support.",
+      "Jerry": "Generally regarded as solid; one reviewer notes “great jerry time” from earlier years.",
+      "Phil": "Highlighted as the standout of the night – lush runs, fills and strong presence.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T02:07:49.116892+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stars & Stripes Forever": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T17:10:34.405845+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-09-09.mtx.seamons.bertrando.103311.flac16"
   }

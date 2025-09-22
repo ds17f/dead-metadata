@@ -197,41 +197,63 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "He’s Gone > Other One jam shines; Bird Song epic despite tape flaws",
-    "blurb": "The second set delivers a standout He’s Gone > Other One transition and an expansive Bird Song that stretches over 70 minutes. Early‑version Mississippi Half-Step and Stella Blue provide solid highlights. Recording quality varies, but the marked‑up tape offers the clearest listening experience.",
-    "review": "September 19, 1972 at Roosevelt Stadium finds the Dead deep in their classic early‑’70s groove. Set one rolls out a tight mix of roots rock and folk‑rock gems before giving way to an inspired Bird Song that, despite the outdoor weather, still manages to soar. The second set truly shines: He’s Gone segues into a muscular Other One where Jerry’s lead lines cut through the mix, while Phil’s bass drives the improvisation forward. Highlights also include a crisp Mississippi Half‑Step Uptown Toodeloo, a heartfelt Stella Blue, and a rousing finish with Sugar Magnolia, Casey Jones, and an encore of One More Saturday Night. Listeners should gravitate toward the newer marked‑up audience tape (gd1972-09-19.154185.aud.deal.smith.clugston.flac16), which captures the long Bird Song and Other One with far better clarity than earlier sources.",
+    "summary": "Epic He's Gone > Other One > Stella Blue and massive Bird Song",
+    "blurb": "The show shines with a soaring He's Gone → Other One → Stella Blue suite and an expansive 72‑minute Bird Song. Half‑Step Uptown Toodeloo delivers a deep jam, while the rest of the setlist stays solid throughout.",
+    "review": "On September 19, 1972 at Roosevelt Stadium, the Dead served up one of their classic late‑summer outings. The second set is the highlight, launching from a fiery He's Gone into an unbroken stretch of The Other One and Stella Blue that still feels “epic” to listeners today. That same set features a marathon 72‑minute Bird Song that stretches the band’s improvisational muscles and a richly textured Mississippi Half‑Step Uptown Toodeloo jam that showcases the group's telepathic interplay. First‑set staples like Bertha, Sugaree, and Jack Straw are performed with reliable energy, and the encore rounds out the night with One More Saturday Night and Johnny B. Goode. While audience recordings capture the performance with varying fidelity—one fair tape and one clearer version—the musical moments stand out clearly, making this show a worthwhile listen for fans of the 1972 era.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.3,
-      "confidence": "medium"
+      "ai_rating": 3.2,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 10,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.6,
+        "sentiment_rationale": "Both recordings praise the He's Gone > Other One > Stella Blue sequence, the massive Bird Song, and the Half‑Step jam. One source is mixed but still highlights strong playing; the other is overtly positive. No consistent negative comments about performance were found, leading to a modest positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.6 = 3.2"
+      }
     },
     "best_recording": {
       "identifier": "gd1972-09-19.154185.aud.deal.smith.clugston.flac16",
-      "reason": "Clearer sound and balanced mix, capturing the 72‑minute Bird Song and The Other One with fidelity"
+      "reason": "Improved clarity and good audience capture make it the most listenable version despite both being audience sources."
     },
     "key_highlights": [
-      "Stellar He’s Gone > Other One transition with soaring leads",
-      "Monumental 72‑minute Bird Song captured in a clearer tape",
-      "Strong second‑set improvisations including Mississippi Half-Step and Stella Blue",
-      "Recording quality varies; the marked‑up audience tape offers the most listenable version"
+      "Epic He's Gone → Other One → Stella Blue sequence that keeps momentum high.",
+      "Massive 72‑minute Bird Song showcasing deep improvisation.",
+      "Half‑Step Uptown Toodeloo jam provides a standout moment in the second set.",
+      "Weather‑induced mini breaks noted, but transitions keep the show flowing."
     ],
     "song_highlights": [
       "He's Gone",
       "The Other One",
-      "Bird Song",
+      "Stella Blue",
       "Mississippi Half-Step Uptown Toodeloo",
-      "Stella Blue"
+      "Bird Song"
     ],
     "band_performance": {
-      "Jerry": "Jerry’s lead work is on point, especially during the He’s Gone > Other One segue where his solos cut through the mix.",
-      "Phil": "Phil provides a steady, melodic bass foundation that underpins the long Bird Song stretch and drives the Half‑Step groove.",
-      "Bob": "Bob locks in rhythmically, supporting the jams with crisp strums and solid vocal harmonies on Sugar Magnolia and Casey Jones.",
-      "Keith": "Keith’s organ adds warm swells throughout, filling out the texture during the extended improvisations.",
-      "Billy": "Billy keeps a tight pulse, his drumming propels the high‑energy moments while staying supple in the slower sections."
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Brent": "",
+      "Mickey": "",
+      "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-08T02:31:06.585378+00:00",
+    "processed_date": "2025-09-20T17:43:01.799863+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "He's Gone",
+        "The Other One",
+        "Stella Blue"
+      ],
+      [
+        "Mississippi Half-Step Uptown Toodeloo"
+      ],
+      [
+        "Bird Song"
+      ]
+    ]
   }
 }

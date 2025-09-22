@@ -16,37 +16,53 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Unique Winterland recording with an extended, high‑energy Other One and magnificent Morning Dew, but limited info on audio fidelity.",
-    "review": "Reviewers rave about the marathon late‑night jam – a sizzling Truckin' segue into an essential, extended Other One and a magnificent Morning Dew – while noting the melancholy vibe of a Pigpen‑less show. The only technical note is that this source uniquely captures the infamous “putz” moment from the rafters; no clear sound quality issues are reported.",
+    "summary": "High‑energy Winterland show featuring a soaring The Other One, sizzling Truckin', and magnificent Morning Dew, captured on an audience recording of decent quality.",
+    "review": "The performance is praised for its extended, hypnotic The Other One sequence that carried the crowd into the early morning, plus a hot jam out of Truckin' and a breathtaking Morning Dew. Reviewers note the lack of Pigpen but celebrate the overall vibe, while the recording itself receives no specific technical praise beyond being an audience capture that includes rare on‑stage moments.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 4.2,
       "confidence": "medium",
-      "rationale": "Strong musical praise (5‑star review) balanced by a zero‑star, humor‑laden rating and no concrete recording quality data; overall the show is regarded as high‑energy with an average to good listening experience."
+      "rationale": "Strong musical performance highlighted by several reviewers, but limited information on recording fidelity and a contradictory low‑star review keep confidence moderate."
     },
     "recording_quality": {
-      "source_type": "unknown",
+      "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "No explicit soundboard or audience comments; reviewers highlight that this may be the only source capturing the \"putz\" incident, suggesting a unique but otherwise acceptable capture."
+      "technical_notes": "No explicit comments on clarity or mix; the source is noted for capturing rare stage moments (the \"putz\" incident), suggesting a usable but not pristine audience recording."
     },
     "show_quality": {
       "standout_songs": [
-        "Other One (extended)",
-        "Morning Dew",
-        "Truckin' jam"
+        "The Other One",
+        "Truckin'",
+        "Morning Dew"
       ],
       "poor_songs": [],
-      "setlist_flow": "Late‑night marathon with high energy extending past 4 am; the show builds into a massive Other One sequence and keeps the party going.",
-      "energy_level": "high"
+      "setlist_flow": "Reviewers emphasize an extended, late‑night The Other One that kept the energy high into the early morning, with strong jams in Truckin' and a standout Morning Dew to close."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Bill Kreutzmann is noted for scolding the \"putz\" who was coaxed down from the rafters."
+      "Drums": "Bill is mentioned scolding a \"putz\" during the late‑night Other One sequence, highlighting his presence onstage."
     },
-    "processed_date": "2025-09-08T04:48:21.108383+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T02:48:04.467944+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-12-31.137465.fm.GEMS.flac16"
   }

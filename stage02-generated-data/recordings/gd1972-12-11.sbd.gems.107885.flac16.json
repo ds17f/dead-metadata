@@ -16,28 +16,26 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A powerful late‑1972 show with a smoking Dark Star and standout Mississippi Half‑Step, captured on an audience source that suffers mild distortion and occasional flow glitches.",
-    "review": "The performance is widely praised – reviewers rank it among the top 300 shows, highlighting Dark Star, Tomorrow Is Forever and an exceptional Mississippi Half‑Step. The recording, likely an audience tape (Menke’s AUD), is decent but marred by hall‑noise distortion and a few source issues that affect the flow of the encore.",
+    "summary": "Soundboard capture of a solid 1972 show with a smoking Dark Star and top‑notch Mississippi Half‑Step, though the recording has noticeable hall‑noise distortion.",
+    "review": "The performance is praised as one of the better late‑'72 outings – highlights include an inspired Dark Star and a standout Mississippi Half‑Step. The source is a soundboard (sbd) that suffers from ambient hall noise and occasional distortion, which some reviewers say slightly hurts the flow, but overall the music shines through.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Strong musical performance (70% weight) combined with generally acceptable but imperfect recording quality (30% weight) yields a high overall rating."
+      "rationale": "Consistently high reviewer scores (4–5 stars) and strong praise for the musical performance outweigh modest recording flaws, yielding a solid above‑average rating."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Mild distortion and ambient hall noise are evident; the encore track listing is inconsistent (Johnny B. Goode vs. expected Casey Jones) and occasional source glitches disrupt flow."
+      "technical_notes": "Presence of distortion and ambient hall noise noted; overall clearer than other versions but occasional source issues affect flow."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "Tomorrow Is Forever",
         "Mississippi Half-Step"
       ],
       "poor_songs": [],
-      "setlist_flow": "Overall strong set with well‑executed songs, though recording glitches cause a slight disruption in the flow, especially at the encore.",
-      "energy_level": "high"
+      "setlist_flow": "Generally strong set with high‑energy playing; a few reviewers cite minor flow disruption due to recording/source glitches."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -46,7 +44,34 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T04:35:18.362479+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mississippi Half-Step": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Tomorrow is Forever": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Johnny B. Goode": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T02:30:20.080093+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-12-11.sbd.gems.107885.flac16"
   }

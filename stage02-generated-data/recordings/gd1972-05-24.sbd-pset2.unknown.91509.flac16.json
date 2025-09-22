@@ -16,43 +16,110 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑energy 1972 London show with a monster The Other One and crisp soundboard recording",
-    "review": "The Strand Lyceum performance captures the band at a creative peak – a soaring, jazzy 30‑minute The Other One, a tight Playing in the Band, and fiery Truckin' and Cold Rain & Snow. The partial soundboard source is described as stereo hi‑fi with an excellent mix, though the set is incomplete and some missing tracks are only available from poorer audience recordings.",
+    "summary": "Excellent soundboard capture of a stellar London ’72 show, highlighted by an epic 30‑minute The Other One and a fiery Playing in the Band.",
+    "review": "The recording offers a crisp stereo soundboard mix that lets listeners hear Garcia’s soaring solo on Sing Me Back Home, Phil Lesh’s thunderous bass on a jazzy 30‑minute The Other One, and a monster eleven‑minute Playing in the Band.  While the set is incomplete and some early‑set cuts are only available from poor audience sources, the material that does survive is consistently praised for its energy, improvisational depth, and standout moments.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "Average reviewer rating ~4.6/5 across nine reviews, all emphasizing strong musical moments and good‑to‑excellent soundboard quality."
+      "rationale": "Most reviewers give 4–5 stars, repeatedly cite exceptional performances (The Other One, Playing in the Band) and note a high‑quality soundboard mix despite missing portions of the show."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "excellent",
-      "technical_notes": "Stereo hi‑fi sound with a clean, balanced mix; reviewers call it crisp and excellent. The recording is only partial – missing large sections of the first set that exist only as low‑quality audience tapes."
+      "quality_rating": "good",
+      "technical_notes": "Stereo hi‑fi mix praised as crisp and well balanced; occasional references to poor audience recordings for missing sections, but the available soundboard portion is described as excellent."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One",
         "Playing in the Band",
         "Truckin'",
+        "Lovelight > Two Souls",
         "Cold Rain & Snow",
-        "Lovelight > Two Souls"
+        "Black Peter"
       ],
       "poor_songs": [
-        "Dire Wolf (out of tune)",
-        "Jack Straw (not tight)",
-        "Hurts Me Too (average)"
+        "Dire Wolf",
+        "Truckin' (rushed feel)",
+        "Cold Rain & Snow (average on some listeners)"
       ],
-      "setlist_flow": "A concise, punchy first set followed by a second‑set jam marathon; the band builds from blues/folk into extended psychedelic explorations, keeping momentum high throughout.",
-      "energy_level": "high"
+      "setlist_flow": "A blistering 15‑song first set of short, high‑energy tunes gives way to a second set dominated by long, spacey jams; the epic The Other One and a monster Playing in the Band provide the tour’s signature exploratory peak."
     },
     "band_member_comments": {
-      "Jerry": "Garcia's solo on Sing Me Back Home is called beautiful; his tone is praised as perfect and he locks in with Weir during The Other One duets.",
-      "Phil": "Phil’s bass is described as a ‘beast’, driving the jazzy sections of The Other One and providing a strong groove throughout.",
-      "Bob": "Weir’s rhythm work shines in the duet section of The Other One, likened to Duanne and Betts.",
-      "Keys": "",
+      "Jerry": "Garcia’s tone and solo work are repeatedly praised – beautiful on Sing Me Back Home and tight in duets during The Other One.",
+      "Phil": "Phil is called a ‘beast’ whose jazzy bass drives the extended sections of The Other One and adds groove throughout.",
+      "Bob": "Weir is noted for strong duet interplay with Garcia in The Other One and solid rhythm work on several cuts.",
+      "Keys": "Keyboard textures described as sustained, space‑y and prominently featured (organ audible) during jams.",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T00:24:09.977281+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "total_mentions": 4
+      },
+      "Sing Me Back Home": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Playing in the Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Lovelight > Two Souls": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cold Rain & Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mr. Charlie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "You Win Again": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Rockin' Pneumonia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dire Wolf": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T14:26:42.875075+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-05-24.sbd-pset2.unknown.91509.flac16"
   }

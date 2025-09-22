@@ -16,35 +16,41 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑energy performance with a standout Playin' in the Band, captured on a good but cut‑affected recording.",
-    "review": "The show is described as bursting with energy and tight interplay, especially highlighted by an intense Playin' in the Band segment and a beautiful Phil harmonic improv in the closing minutes. Reviewers praise Jerry’s guitar work, Phil’s bass harmonics, and the rhythm section, though several note that the recording suffers from a noticeable cut that detracts from an otherwise solid soundboard‑like source.",
-    "sentiment": "mixed",
+    "summary": "High‑energy performance highlighted by a stellar “Playin’ in the Band”, captured in an otherwise great‑sounding recording that suffers from a noticeable cut.",
+    "review": "The reviewers rave about the band’s tight, high‑energy groove – Jerry’s evolving riffs and Phil’s soaring harmonic improv are repeatedly praised, as is the dual thunder of Billy (Kreutzmann) and Bobby (Weir). The sound quality is described as “great” and “high energy”, though a missing segment (“the cut”) detracts from an otherwise enjoyable listen. Overall the show shines despite that technical hiccup.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
-      "confidence": "high",
-      "rationale": "Most reviewers rate the show highly (5 stars) and commend its energy and musicianship; recording quality is generally good but a cut is repeatedly mentioned, pulling the overall rating down slightly."
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Strong musical performance with multiple 5‑star comments and only one moderate 3‑star note about a cut; recording is generally praised as sounding great, giving a high combined rating."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "good",
-      "technical_notes": "Overall clear and energetic sound, but a significant cut in the middle of the performance is noted as a drawback."
+      "technical_notes": "Listeners describe the sound as great and energetic, but note a noticeable edit/cut that interrupts the flow."
     },
     "show_quality": {
       "standout_songs": [
         "Playin' in the Band"
       ],
       "poor_songs": [],
-      "setlist_flow": "Energy builds steadily throughout, culminating in an especially strong final five‑minute improvisational stretch.",
-      "energy_level": "high"
+      "setlist_flow": "Reviewers emphasize a tight, rhythmic lock throughout, with Jerry and Phil “dialed into” each other; the only disruption mentioned is an edit that cuts part of the performance."
     },
     "band_member_comments": {
-      "Jerry": "Praised for evolving riffs and intense playing that 'compress diamonds' with Phil.",
-      "Phil": "Highlighted for a harmonic bass line that leads into beautiful improv toward the end.",
-      "Bob": "Described as sounding amazing, contributing solid rhythm/vocals.",
+      "Jerry": "His riff work evolves patiently and intensely, providing high‑energy momentum.",
+      "Phil": "Delivers a beautiful harmonic improv that lifts the band’s improvisation.",
+      "Bob": "Bobby (Weir) sounds amazing alongside Billy, contributing to the overall power.",
       "Keys": "",
-      "Drums": "Billy (Bill Kreutzmann) noted as sounding amazing and locked in with the band’s rhythm."
+      "Drums": "Billy (Kreutzmann) is praised for sounding amazing and driving the rhythm."
     },
-    "processed_date": "2025-09-08T04:04:03.174534+00:00",
+    "song_mentions": {
+      "Playin' in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T01:34:44.210431+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-11-15.psbd.cotsman.10916.sbeok.shnf"
   }

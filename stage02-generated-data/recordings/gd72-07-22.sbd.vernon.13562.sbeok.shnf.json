@@ -16,45 +16,108 @@
   "high_ratings": 7,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "High‑energy 7/22/72 show shines with stellar RR Blues and Stella Blue, captured on a clear soundboard tape despite occasional treble quirks.",
-    "review": "The performance is widely praised for its fire—Jerry’s soaring solos on RR Blues and Mississippi Half‑Step, a knockout Stella Blue, and standout moments from Yellow Dog and the Bird Song. The SBD source delivers generally crisp and balanced sound, though a few listeners note level swings, a harsh treble boost and missing first‑set tracks that affect continuity.",
-    "sentiment": "positive",
+    "summary": "High‑quality soundboard recording with a few level quirks, highlighted by stellar RR Blues and Mississippi Half‑Step performances despite missing early‑set tracks.",
+    "review": "The SBD capture of the July 22 1972 Vernon show is generally clear and well‑balanced, though some listeners note an occasional treble boost and uneven levels. Musically the concert shines on Jerry’s ripping RR Blues, multiple inspired Mississippi Half‑Step jams, a soaring Box‑of‑Rain finale and standout renditions of Yellow Dog and Stella Blue, while the missing first‑set numbers and a truncated Playing in the Band dent the overall flow.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Average reviewer rating is ~4.2/5 with most comments highlighting strong playing and good sound; only a few negative points about treble boost or missing songs, giving confidence in a solid positive assessment."
+      "rationale": "Average star rating of reviewers is ~4.1; most comments praise the performance and sound, with a few noting missing tracks or tonal quirks, yielding an overall strong but not flawless rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear and crisp SBD recording; some reviewers note level fluctuations, occasional harsh treble boost, and hiss on older copies, but overall the mix is balanced and listenable."
+      "technical_notes": "Generally crisp SBD capture; reviewers cite good clarity and solid mix, though some mention a harsh treble boost, fluctuating levels, and occasional hiss that was later cleaned up."
     },
     "show_quality": {
       "standout_songs": [
-        "RR Blues",
-        "Stella Blue",
+        "Ramblin' Rose Blues",
         "Mississippi Half Step",
+        "Box of Rain",
         "Yellow Dog",
-        "Bird Song"
+        "Stella Blue"
       ],
       "poor_songs": [
-        "Bertha (missing)",
-        "Me & My Uncle (missing)",
-        "You Win Again (missing)",
-        "Jack Straw (missing)",
-        "Playin' in the Band (partial/missing jam)"
+        "Cumberland Blues",
+        "Playing in the Band"
       ],
-      "setlist_flow": "First set is praised as superior, though missing early songs disrupts flow; second set maintains momentum with strong jams and a memorable finish.",
-      "energy_level": "high"
+      "setlist_flow": "The first‑set portion is incomplete (Bertha, Me & My Uncle, You Win Again, Jack Straw missing) which disrupts continuity, but the remaining setlist flows well with a strong early half and a varied second half."
     },
     "band_member_comments": {
-      "Jerry": "Garcia gets into it on RR Blues and Mississippi Half Step, delivers peak solos and even playful Chopsticks noodling; praised for soulful leads throughout.",
-      "Phil": "Phil’s baritone vocals are highlighted as great, with backing harmonies noted positively.",
-      "Bob": "Weir steps up with solid vocal delivery and energetic guitar work, leaving it all out on stage.",
-      "Keys": "Keith contributes humorously on Yellow Dog and shares the Chopsticks moment; keyboards add texture to the set.",
-      "Drums": "Bill's drumming is praised for tightness in jam sections and overall interaction with the band."
+      "Jerry": "Praised for fiery solos on RR Blues, multiple Half‑Step jams, and overall guitar intensity.",
+      "Phil": "His baritone backing vocals are highlighted as excellent; several reviewers note his vocal presence throughout the show.",
+      "Bob": "Commended for powerful delivery on Box of Rain (B.T. Wind) and humorous interplay with Pig during 'Chopsticks' jam.",
+      "Keys": "Keith's keyboard work receives positive nods, especially in the playful 'Chopsticks' segment.",
+      "Drums": "Bill’s drumming is noted for tight interaction in jams and steady support throughout."
     },
-    "processed_date": "2025-09-08T01:01:18.227189+00:00",
+    "song_mentions": {
+      "Ramblin' Rose Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Mississippi Half Step": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Box of Rain": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Yellow Dog": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Stella Blue": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Bertha": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "You Win Again": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Jack Straw": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Playing in the Band": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      },
+      "Truckin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T15:37:45.950872+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-07-22.sbd.vernon.13562.sbeok.shnf"
   }

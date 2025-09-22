@@ -16,38 +16,64 @@
   "high_ratings": 6,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "High‑energy 1972 European show with a smoking Dark Star > Sugar Magnolia transition; audience tape is muddy but still listenable.",
-    "review": "The performance shines – Dark Star into Sugar Magnolia and the Good Lovin' sandwich are repeatedly called “outstanding,” with Billy Kreutzmann’s drumming hailed as godlike and Jerry Garcia’s pedal‑steel work praised. The recording, an audience source from ’72, is described as cloudy, boomy and at times muddy with dropouts, yet several listeners find it rich enough to enjoy the music.",
-    "sentiment": "mixed",
+    "summary": "Rich yet occasionally muddy audience tape captures a stellar Dark Star into Sugar Magnolia transition and a fire‑filled Good Lovin' sandwich.",
+    "review": "The show is widely praised for its soaring second‑set momentum – the Dark Star that rolls straight into an explosive Sugar Magnolia, a “sandwich” of Good Lovin', and a standout Playin in the Band.  While most listeners describe the performance as one of the hottest of the ’72 European run, the audience recording is noted as cloudy and boomy with occasional drop‑outs that can obscure keyboards and drums.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show very highly (5‑star) for performance; recording quality receives mixed comments, lowering the overall weighted score to around 4.2."
+      "rationale": "Strong musical performance highlighted by multiple reviewers outweighs the mixed technical quality of an audience tape; overall enthusiasm and high star ratings drive a >4‑star rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Muddy, boomy and cloudy sound with pitch warbling and dropouts (especially in Truckin' and Dark Star); keyboards and drums can dissolve into mush, but some note a rich, warm ambience."
+      "technical_notes": "Listeners report a muddy, boomy sound with pitch warbling spots and long dropouts in Truckin' and Dark Star; keyboards and drums can become mushy.  Some reviewers note the tape’s “rich” and “wonderful” tonal character that still lets Jerry’s guitar cut through."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star > Sugar Magnolia",
-        "Good Lovin' sandwich (Good Lovin' / NFA > GDTRFB > NFA)",
-        "Playin' in the Band",
-        "China Cat tease"
+        "Dark Star",
+        "Sugar Magnolia",
+        "Good Lovin'",
+        "Playin in the Band"
       ],
       "poor_songs": [],
-      "setlist_flow": "Second set bursts with high energy, tight transitions and extended jams; the Dark Star segue into Sugar Magnolia is a highlight of the night.",
-      "energy_level": "high"
+      "setlist_flow": "The second set is described as high‑energy and seamless, with a legendary Dark Star → Sugar Magnolia transition, an off‑the‑chain Good Lovin' sandwich, and tight drumming that drives the momentum."
     },
     "band_member_comments": {
-      "Jerry": "Pedal‑steel on LLR praised; his Strat tone cuts through the murky mix and is described as sharp and inspiring.",
+      "Jerry": "Pedal‑steel on LLR praised; his Strat tone is described as perfect and cuts through the misty recording.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Keyboards noted as muddy in the recording, but no specific performance criticism.",
-      "Drums": "Billy Kreutzmann “on fire” throughout, especially on NFA > GDTRFB > NFA segment; drumming called godlike."
+      "Keys": "Keyboards often dissolve into a mushy texture, making them hard to discern in parts of the tape.",
+      "Drums": "Bill Kreutzmann is lauded for “god‑like” fire, especially on the NFA > GDTRFB > NFA stretch, though some note drums become muddy and lose definition."
     },
-    "processed_date": "2025-09-07T23:07:26.870424+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Good Lovin'": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Playin in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-21T13:54:06.418373+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-04-14.aud.vernon.23662.sbeok.shnf"
   }

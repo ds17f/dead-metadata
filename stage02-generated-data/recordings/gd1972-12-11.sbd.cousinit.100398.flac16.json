@@ -16,29 +16,27 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Decent (though hissy and bright) soundboard with some audience‑sourced cuts, capturing a hungry Winterland show highlighted by Promised Land, Sugar Magnolia and Sunshine Daydream.",
-    "review": "The performance is described as rehearsed, ready and \"hungry,\" delivering solid 72‑minute sets that include rare moments like \"Tomorrow Is Forever\" and classic crowd‑pleasers such as \"Promised Land\" and \"Sugar Magnolia.\" Recording quality is mixed: most of the show comes from a soundboard that many find acceptable but others rate as extremely hissy and overly bright, with a few tracks (Promised Land, Sugar Magnolia, Sunshine Daydream) sourced from audience recordings. Overall the show shines musically despite technical shortcomings.",
+    "summary": "Decent Winterland performance with solid setlist, but the recording is notably hissy and overly bright.",
+    "review": "The show delivers a rehearsed, hungry set featuring strong versions of Promised Land, Sugar Magnolia and Sunshine Daydream that capture the energy of a hometown crowd. The soundboard source is usable yet suffers from excessive hiss and a harsh EQ, requiring listeners to adjust their playback settings. Overall the music shines despite the technical shortcomings.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 3.8,
       "confidence": "medium",
-      "rationale": "Show is praised for energy and setlist, but recording quality receives conflicting feedback (some find it decent, others rate it among the worst), resulting in a moderate overall rating."
+      "rationale": "Reviews praise the musical performance (good show quality) but criticize the recording as very hissy and bright (poor recording quality), leading to a balanced mid‑high rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Several reviewers note hissy, overly bright EQ and occasional drop‑outs; three songs (Promised Land, Sugar Magnolia, Sunshine Daydream) are audience recordings, giving a mixed‑source feel."
+      "technical_notes": "Described as extremely hissy, overly bright EQ; some tracks are audience recordings. Listeners report the mix is decent but far from perfect and benefit from EQ adjustments."
     },
     "show_quality": {
       "standout_songs": [
         "Promised Land",
         "Sugar Magnolia",
-        "Sunshine Daydream",
-        "Tomorrow Is Forever"
+        "Sunshine Daydream"
       ],
       "poor_songs": [],
-      "setlist_flow": "Solid 72‑minute performance with a professional, rehearsed feel; occasional audience‑sourced tracks interrupt the soundboard continuity but do not detract from overall momentum.",
-      "energy_level": "high"
+      "setlist_flow": "A solid, rehearsed set that feels professional and hungry, delivering classic late‑1972 material for the Winterland crowd."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -47,7 +45,24 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T04:36:42.353415+00:00",
+    "song_mentions": {
+      "Promised Land": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sunshine Daydream": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T02:32:01.784986+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-12-11.sbd.cousinit.100398.flac16"
   }

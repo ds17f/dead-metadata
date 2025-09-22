@@ -16,41 +16,83 @@
   "high_ratings": 4,
   "low_ratings": 3,
   "ai_review": {
-    "summary": "A rough soundboard mix with barely‑there vocals and missing keyboards, but the Fall‑1972 band delivers strong playing and standout second‑set moments.",
-    "review": "The performance is solid – the band is tight, Phil’s bass bombs and Jerry’s machine‑gun licks shine through, especially on tracks like \"Stella\", \"Not Fade Away\", \"Bertha\" and \"Big River\".  The soundboard recording, however, suffers from severe mix problems: vocals are low or absent, keyboards disappear, the bass is often over‑saturated and overall clarity is poor.  Listeners who value musical interplay may overlook the technical flaws.",
+    "summary": "Soundboard source with severe mix problems (low vocals, missing keyboards) but a 1972 show that dazzles on Bertha, Big River, Tennessee Jed and other classic jams.",
+    "review": "The recording suffers from an uneven instrumental balance – vocals are buried, the keyboard track is almost absent and the bass often clips – making it a challenging listen.  Musically, however, the band is in top form: Jerry’s machine‑gun licks, Phil’s “bombs” and tight interplay with Bob shine through, especially on Bertha, Big River, Tennessee Jed, El Paso, Friend of the Devil, Stella Blue, Not Fade Away and Birdsong.  Fans who value performance over pristine sound will find this a rewarding snapshot of Fall‑1972.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.4,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical performance (≈4/5) while condemning the recording quality (≈2/5). Weighted combination yields a mid‑range rating."
+      "rationale": "Most reviewers praise the musical performance (≈70% positive) but condemn the recording quality (major mix flaws). Weighted combination yields a solid‑average rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "poor",
-      "technical_notes": "Vocals are very low or missing, keyboards largely absent, bass often over‑saturated, overall mix uneven and muddy; some sections have only drums, guitar and bass audible."
+      "quality_rating": "fair",
+      "technical_notes": "Vocals are very low or missing, keyboards almost absent, bass frequently oversaturated and overall levels uneven. The mix is described as severe, with many sections sounding muddy or lacking drums."
     },
     "show_quality": {
       "standout_songs": [
-        "Stella Blue",
-        "Not Fade Away",
         "Bertha",
         "Big River",
         "Tennessee Jed",
         "El Paso",
-        "Friend of the Devil"
+        "Friend of the Devil",
+        "Stella Blue",
+        "Not Fade Away",
+        "Birdsong"
       ],
       "poor_songs": [],
-      "setlist_flow": "Second‑set creativity is highlighted, though one reviewer felt the latter half fell apart; overall set feels a mix of high energy jams and a somber vibe.",
-      "energy_level": "high"
+      "setlist_flow": "The set is noted for strong second‑set creativity and overall high‑energy playing, though a few reviewers felt the vibe was somber. Mix problems occasionally obscure the flow."
     },
     "band_member_comments": {
-      "Jerry": "Praised for machine‑gun pace licks and killer solo on \"Bertha\"; his guitar shines thanks to the sparse mix.",
-      "Phil": "Described as dropping bombs with a great groove, especially on \"Bertha\"; bass tone is sometimes over‑saturated in the recording.",
-      "Bob": "Interplay with Jerry and Phil noted as exquisite; lack of keyboards lets his rhythm work come through clearer.",
-      "Keys": "Keyboards are largely missing from the mix; some reviewers view this as a flaw, others appreciate the focus on guitars and bass.",
-      "Drums": "Bill's drumming is solid but often buried in the mix; occasional sections have only drums audible."
+      "Jerry": "Praised for inspired, machine‑gun licks and standout solos (especially on Bertha and Birdsong).",
+      "Phil": "His bass work is described as “bombs” with great groove, though some note his levels are either too high (distortion) or too low (vocals buried).",
+      "Bob": "Guitar interplay with Jerry highlighted as exquisite; the mix lets his parts shine despite overall vocal deficiencies.",
+      "Keys": "Keyboards are largely missing in this mix; reviewers see it both as a flaw and a unique chance to focus on guitars and bass.",
+      "Drums": "Bill's drum presence is low and sometimes inaudible, but the rhythm section still drives the performance."
     },
-    "processed_date": "2025-09-08T03:51:50.822286+00:00",
+    "song_mentions": {
+      "Bertha": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Big River": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Tennessee Jed": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "El Paso": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Friend of the Devil": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stella Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Birdsong": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T01:10:03.989025+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-11-12.sbd.cotsman.9771.sbeok.shnf"
   }

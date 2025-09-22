@@ -16,41 +16,65 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Top‑tier 1972 audience tape captures an incendiary Dark Star > Morning Dew stretch with blazing energy and solid overall performance.",
-    "review": "The recording is a high‑quality Bear audience tape – deep, clear and surprisingly clean for the era despite some hiss. Musically the show shines around the massive Dark Star → Morning Dew sequence, backed by an intense Playing in the Band jam and a fiery Promised Land opener, while only a few numbers like Sugar Magnolia feel a bit sloppy.",
+    "summary": "A solid audience tape delivers a scorching Dark Star that melts into an epic Morning Dew, with only a few slip‑ups in Sugar Magnolia.",
+    "review": "The recording is an audience capture (Bear’s famous AUD) that sounds deep and clear despite some hiss and occasional cuts. Musically the show shines most on the massive Dark Star → Morning Dew sequence, which reviewers describe as intense, explosive and near‑perfect, while Sugar Magnolia suffers from noticeable sloppiness.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Reviews consistently praise the show’s energy and standout Dark Star/Dew, while noting the audience tape is top‑tier for ’72; average star rating is 4.4, so a 4.3 overall reflects strong musical performance plus excellent recording."
+      "rationale": "Five detailed reviews overwhelmingly praise the performance (especially Dark Star/Morning Dew) and rate the audio well; minor criticisms do not outweigh the strong positives."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "excellent",
-      "technical_notes": "Bear’s audience tape is deep and clear with good balance; some hiss noted but overall considered top‑tier for a 1972 AUD, no major dropouts."
+      "quality_rating": "good",
+      "technical_notes": "Deep, clear sound with some hiss and occasional cuts (e.g., Casey Jones ending); overall a top‑tier 1972 AUD tape."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star > Morning Dew",
-        "Playing in the Band (jam)",
-        "Feelin' Groovy jam",
-        "Promised Land"
+        "Dark Star",
+        "Morning Dew"
       ],
       "poor_songs": [
-        "Sugar Magnolia (sloppy)",
-        "Casey Jones (cut off)"
+        "Sugar Magnolia",
+        "Casey Jones"
       ],
-      "setlist_flow": "Second set builds strong momentum, highlighted by a massive Dark Star → Morning Dew pairing; the jam sections flow well despite missing portions of Set 1.",
-      "energy_level": "high"
+      "setlist_flow": "Second set builds power, highlighted by the 45‑minute Dark Star → Morning Dew stretch; despite missing portions of the show the flow remains strong and engaging."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "Outstanding bass solo and stomping bass lines are repeatedly praised, especially during the Dark Star climax.",
+      "Phil": "Delivers stomping bass lines and an outstanding solo during the climax of Dark Star.",
       "Bob": "",
-      "Keys": "Keith (keys) is noted for leading the transition out of the dark jam into a less ominous feel.",
+      "Keys": "Keith leads out of the dark jam, providing a less ominous feel before Phil takes over.",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T03:56:27.029351+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Morning Dew": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Feelin' Groovy": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T01:16:37.072067+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-11-13.aud.cotsman.7518.sbefail.shnf"
   }

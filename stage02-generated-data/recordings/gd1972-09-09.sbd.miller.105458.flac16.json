@@ -16,38 +16,64 @@
   "high_ratings": 6,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with good clarity (minor drop‑outs) captures a high‑energy 1972 show highlighted by stellar Jack Straw, Friend of the Devil, The Other One and Stella Blue.",
-    "review": "The Miller soundboard tape delivers mostly clear audio despite a few scattered drop‑outs, letting the band’s strong performance shine. Highlights include an excellent Jack Straw, a tight Friend of the Devil played at its original tempo, a soaring The Other One, and Jerry’s clean vocal on Stella Blue. Even without Pigpen, the show “smokes” thanks to inventive guitar/piano ad‑libs and Bob’s playful lyric twist in Me and My Uncle.",
+    "summary": "Soundboard capture with occasional drop‑outs delivers strong performances of Jack Straw, Friend Of The Devil and a stellar Stella Blue.",
+    "review": "The recording is a mostly clean soundboard (sbd) source; a few scattered drop‑outs are noted but overall the character, clarity and balance are praised. Musically the show is competent with standout moments on Jack Straw, Friend Of The Devil, Stella Blue and an entertaining Me & My Uncle featuring rare lyric variation.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "Consistently positive reviews (4–5 stars) praise both the musical performance and recording quality; minor technical glitches are noted but do not detract from overall enjoyment."
+      "rationale": "Most reviewers give 4–5 stars and highlight strong playing and good sound quality; only minor technical glitches are mentioned, leading to a solid combined rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear and well‑balanced sound; a few drop‑outs reported on Disc One, likely due to the copy source. One reviewer notes “good sound from a cassette tape,” indicating the original board quality is solid."
+      "technical_notes": "Generally clear and well‑balanced with praised character and clarity; a few drop‑outs on Disc One reported by one reviewer, cassette‑derived sound noted as good."
     },
     "show_quality": {
       "standout_songs": [
         "Jack Straw",
         "Friend Of The Devil",
-        "The Other One",
-        "Stella Blue"
+        "Stella Blue",
+        "Me and My Uncle"
       ],
       "poor_songs": [],
-      "setlist_flow": "Competent and well‑structured set despite Pigpen’s absence; songs flow smoothly with notable instrumental ad‑libs in the middle of the show.",
-      "energy_level": "high"
+      "setlist_flow": "A concise, post‑Europe ’72 set that stays tight and competent; while lacking Pigpen and Dark Star it still delivers solid pacing and memorable moments."
     },
     "band_member_comments": {
-      "Jerry": "Clean vocal tone on Stella Blue and strong guitar work, especially during improvisational sections.",
+      "Jerry": "His clean vocal on Stella Blue is highlighted as sweet and his overall character/clarity are praised.",
       "Phil": "",
-      "Bob": "Alternate lyric twist heard in Me and My Uncle, showing his playful vocal contributions.",
-      "Keys": "Keith Godchaux praised for piano/keyboard ad‑libs and overall competent playing throughout the show.",
+      "Bob": "",
+      "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T02:05:06.505706+00:00",
+    "song_mentions": {
+      "Jack Straw": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Friend Of The Devil": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Stella Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Me and My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-20T17:07:28.118201+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-09-09.sbd.miller.105458.flac16"
   }

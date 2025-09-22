@@ -16,24 +16,23 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Recording appears incomplete with missing tracks, leading to a shorter runtime than expected",
-    "review": "The sole reviewer notes that the download runs only 2h 19m and is missing several tracks compared to other versions of this concert, indicating an incomplete source. No comments are made about the musical performance or audio fidelity.",
+    "summary": "Recording appears incomplete with missing tracks and length discrepancy",
+    "review": "The sole reviewer notes that the download is shorter than expected and several tracks are absent, making it an incomplete representation of the concert. No comments on performance or sound quality are provided.",
     "sentiment": "negative",
     "ai_rating": {
-      "stars": 1.0,
+      "stars": 1.5,
       "confidence": "low",
-      "rationale": "Only one brief review, rating effectively zero, focused on missing material; no positive aspects mentioned."
+      "rationale": "Only one brief complaint about missing tracks; no positive aspects mentioned, leading to a low rating"
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "poor",
-      "technical_notes": "Download length is shorter than expected; reviewers report tracks are missing, suggesting an incomplete capture."
+      "technical_notes": "Running length shorter than listed; tracks appear to be missing from the download"
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "",
-      "energy_level": "low"
+      "setlist_flow": ""
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,8 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T02:08:47.696698+00:00",
+    "song_mentions": {},
+    "processed_date": "2025-09-20T17:12:11.275570+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-09-09.aud.131474.berger.flac24"
   }

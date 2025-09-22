@@ -16,40 +16,63 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Great performance with smoking China Cat > Rider and a soaring Dark Star, but the soundboard tape is warped and warbly.",
-    "review": "Fans rave about the high‑energy set – especially the lyrical first half, a monster China Cat Sunflower → I Know You Rider segue and an unforgettable Dark Star that many call “beautiful.” The recording, however, suffers from age‑related damage, noticeable warble and a premature cut of “Tomorrow Is Forever,” making it only marginally listenable without EQ tweaks.",
+    "summary": "Great performance featuring a smoking Dark Star and China Cat > Rider, but the soundboard recording is warbly and often poor.",
+    "review": "Fans rave about the energetic show – Jerry’s duck‑walk on Around & Around, an epic Dark Star, and a blazing China Cat Sunflower > I Know You Rider – while lamenting that the SBD source suffers from heat‑damage artifacts and muffled bass. The music shines despite the recording’s flaws.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.8,
-      "confidence": "medium",
-      "rationale": "Show quality is consistently praised (high energy, standout songs) while recording quality is described as damaged and warbly; weighting the two yields a solid‑above‑average rating."
+      "confidence": "high",
+      "rationale": "Show quality is consistently praised (≈4.5/5) while recording quality is widely criticized (≈2/5); weighted average yields ~3.8."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "fair",
-      "technical_notes": "Warble, heat/water damage, bass bottoms out unless EQ’d flat; early cut of “Tomorrow Is Forever”; overall listenable but far from pristine."
+      "quality_rating": "poor",
+      "technical_notes": "Warbly, heat‑ or water‑damaged sound; bass drops out unless EQ'd flat; overall listenable after EQ but far from pristine."
     },
     "show_quality": {
       "standout_songs": [
-        "China Cat Sunflower > I Know You Rider",
         "Dark Star",
-        "Around And Around (stage antics)",
-        "Tiger (likely The Other One segment)"
+        "China Cat Sunflower > I Know You Rider",
+        "Around and Around"
       ],
-      "poor_songs": [
-        "Tomorrow Is Forever (cut early)"
-      ],
-      "setlist_flow": "Long, lyrical first half flows into experimental feedback and a powerful second set; the energy builds after China Cat > Rider and stays high through Dark Star.",
-      "energy_level": "high"
+      "poor_songs": [],
+      "setlist_flow": "Long lyrical first half leading into a feedback‑laden bass section, then high‑energy jams; stage antics keep momentum high throughout."
     },
     "band_member_comments": {
-      "Jerry": "Praised for vocal rarity in Stella, stage antics (duck walk, flying leaps) and overall strong performance despite recording flaws.",
-      "Phil": "Mentioned briefly – “Thanks” after China Cat > Rider; praised by fans for solid bass foundation.",
-      "Bob": "Noted moving around the stage during Around & Around, contributing to the visual excitement.",
+      "Jerry": "Notable duck‑walk on Around & Around, airborne stage leaping with Bob, strong guitar tone on Dark Star and rare vocal moment in Stella Blue.",
+      "Phil": "Briefly thanked the audience after China Cat > Rider; bass noted as central to the psychedelic section.",
+      "Bob": "Joined Jerry in opposite‑side stage run during Around & Around; contributed solid rhythm work.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T04:36:04.047047+00:00",
+    "song_mentions": {
+      "Tomorrow Is Forever": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Stella Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Around and Around": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T02:31:17.673657+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-12-11.sbd.vernon.5251.sbeok.shnf"
   }

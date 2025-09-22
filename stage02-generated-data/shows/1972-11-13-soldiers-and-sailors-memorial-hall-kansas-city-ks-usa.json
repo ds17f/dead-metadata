@@ -194,39 +194,54 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Dark Star > Stomp > Morning Dew suite dominates",
-    "blurb": "The show is built around an epic Dark Star → Stomp → Morning Dew marathon that showcases blistering improvisation. Jerry’s soaring leads and Phil’s thunderous bass drive the jam, while the rest of the set remains solid but less memorable.",
-    "review": "November 13, 1972 at Soldiers' and Sailors' Memorial Hall finds the Dead in a rare, high‑energy mood, delivering a near‑45‑minute Dark Star → Stomp → Morning Dew suite that still thrills listeners. The band locks into an angular bass intro before launching into a deep, flowing jam; Jerry’s guitar wails with a melt‑face intensity while Phil’s thundering “stomp” anchors the improvisation. Keith’s keyboards shepherd the transition out of the dark vortex, and the rhythm section keeps everything tight despite the raw audience environment. The rest of Set 1 offers a respectable mix of folk‑rock staples—Cold Rain And Snow, China Cat Sunflower → I Know You Rider—but none reach the heights of the second‑set centerpiece.\n\nAmong the available tapes, the Owsley audience recording (gd1972-11-13.aud.owsley.gems.105812.flac16) captures the suite with vivid room ambience and excellent clarity, making it the definitive listen for this night. While other audience sources vary from good to poor, they all agree on the jam’s brilliance; the Owsley tape simply presents it without the muddiness that plagues many 1972 AUDs. Fans seeking the full emotional arc of this Kansas City performance should start with Owsley's gem and then explore the other tapes for alternative perspectives.",
+    "summary": "Epic Dark Star‑Morning Dew marathon with thunderous bass",
+    "blurb": "The second set’s Dark Star → Morning Dew stretch dominates the night, stretching to over an hour in some tapes. Phil’s opening “stomp” bass drives the suite while Jerry’s wailing lead guitar stays on point. The rest of the show is solid, though a few cuts of Sugar Magnolia and Casey Jones are less inspiring.",
+    "review": "On November 13, 1972 at Soldiers’ and Sailors’ Memorial Hall in Kansas City, KS, the Dead delivered one of their most memorable late‑night excursions. After a tight first set that ran through classics like “Box of Rain” and “Playing In The Band,” the second set launched into a monster Dark Star that seamlessly blossomed into an expansive Morning Dew. Reviewers across several audience recordings describe this 45‑ to 72‑minute jam as “scorching,” “phenomenal,” and “uplifting,” with Phil Lesh’s angular bass “stomp” providing the backbone and Jerry Garcia’s guitar tone described as “wailing” and “perfect.” Keith Godchaux adds a subtle lift out of the darkness, while the rhythm section holds steady. The only blemishes are a few slip‑ups on Sugar Magnolia and Casey Jones in some tapes, but they don’t detract from the overall power of the performance. Audio quality varies—some audience tapes are muddy or have dropouts—but Owsley’s experimental mic placement yields an unusually clear capture that lets listeners hear every nuance of the historic suite.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 41,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Three recordings are clearly positive, praising the Dark Star → Morning Dew suite as a highlight and noting tight flow, while two are mixed but still commend the same centerpiece. No consistent negative comments about musical performance appear, so a strong positive adjustment is warranted.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd1972-11-13.aud.owsley.gems.105812.flac16",
-      "reason": "Exceptional room sound and clarity capture the full Dark Star → Stomp → Morning Dew suite with minimal drop‑outs."
+      "reason": "Owsley's audience tape is rated excellent, with crystal‑clear mic placement that captures the full dynamic range of the Dark Star → Morning Dew suite."
     },
     "key_highlights": [
-      "Epic Dark Star → Stomp → Morning Dew marathon with soaring guitar and thunderous bass",
-      "Phil’s “stomp” bass line drives the improvisation, highlighted throughout the jam",
-      "Keith leads a seamless transition out of the dark jam into a more uplifting feel",
-      "Owsley audience tape offers outstanding audio quality for this 1972 performance"
+      "A marathon Dark Star → Morning Dew jam lasting up to 72 minutes",
+      "Phil Lesh’s thunderous opening bass “stomp” drives the suite",
+      "Jerry Garcia’s wailing lead guitar stays on point throughout the jam",
+      "Keith Godchaux adds a subtle lift out of the darkness"
     ],
     "song_highlights": [
       "Dark Star",
       "Morning Dew"
     ],
     "band_performance": {
-      "Jerry": "Wailing, melt‑face guitar work throughout the Dark Star suite; leads are especially intense during the jam.",
-      "Phil": "Thunderous bass with a distinctive “stomp” riff that propels the improvisation; praised for an outstanding solo in the climax.",
+      "Jerry": "His wailing guitar and perfect tone shine during the Dark Star, keeping the improvisation focused and soaring.",
+      "Phil": "Delivers thunderous, angular bass lines—especially the opening “stomp”—and an outstanding solo that propels the jam.",
       "Bob": "",
-      "Keith": "Guides the transition out of the dark section, adding texture and direction to the jam.",
+      "Brent": "",
+      "Keith": "Leads out of the dark jam with a less ominous feel before Phil’s bass takes over, adding texture to the transition.",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 5,
-    "processed_date": "2025-09-08T03:58:19.504606+00:00",
+    "processed_date": "2025-09-22T01:20:35.106182+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Dark Star",
+        "Morning Dew"
+      ]
+    ]
   }
 }

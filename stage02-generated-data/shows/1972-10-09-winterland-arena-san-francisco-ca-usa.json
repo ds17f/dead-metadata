@@ -217,42 +217,67 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Smoky Box of Rain, The Other One > Wharf Rat & a soaring Playin' jam",
-    "blurb": "The set delivers a fiery Box of Rain and an inspired The Other One → Wharf Rat transition, culminating in a soaring Playing In The Band jam. Jerry’s vocals and guitar shine while Keith adds jazzy, spiraling fills. Overall soundboard capture is excellent with only minor hiss.",
-    "review": "Winterland on October 9, 1972 finds the Dead firing on all cylinders. From the opening of Set 1, the band rides a tight groove into a luminous Box of Rain that showcases Jerry’s powerful vocals and pristine guitar tone. The China Cat Sunflower → I Know You Rider segue rolls smoothly into a mellow Mexicali Blues before the set peaks with Playing In The Band, where Bob Weir’s lead lines take on an otherworldly edge and Keith Godchaux spirals through jazzy fills that feel among his wildest of the era. Set 2 erupts with a classic Truckin' → The Other One → Wharf Rat suite; the transition is electric, and the jam builds into a breathtaking Playing In The Band climax that still feels fresh decades later. Sugar Magnolia adds a bright finish before a raucous encore of Johnny B. Goode. The Vernon soundboard recording captures this fire‑filled night with crystal‑clear separation and just enough hiss to remind you it’s a 1972 tape, making it the definitive listen for anyone wanting the full Winterland experience.",
+    "summary": "Intense playing with a legendary Playin' jam and Grace Slick cameo",
+    "blurb": "The show delivers a powerhouse first set highlighted by Box of Rain and a fiery Playing In The Band. The second set shines with an electric Playin' jam featuring Grace Slick, tight transitions into The Other One > Wharf Rat, and a jubilant Sugar Magnolia.",
+    "review": "Winterland on October 9‑1972 captures the Dead at a high‑octane peak. Jerry’s guitar is in top form – intense, crystal‑clear and backed by solid vocals that cut through the mix. Keith adds some of his wildest improvisations, spiraling jazzy fills throughout the Playin' jam, while Bob Weir slashes lead lines that lock with the rhythm section. The setlist rolls from classic rockers like Box of Rain and Truckin' into a soaring second‑set sequence: a seamless transition from The Other One into Wharf Rat, then a jubilant Sugar Magnolia that feels fresh despite its familiarity. A historic moment arrives when Grace Slick drops in for a brief but electrifying “Slick Jam,” turning the night into a true legend. Recording quality is good – the soundboard tape retains crisp balance with only minor hiss and a tiny cut at the start of the Playin' jam, making this version the most enjoyable listen.\n\nOverall, the performance is strong throughout, though one source notes modest compression artifacts that slightly dull quieter passages. Even with those quirks, the musical highlights – especially the intense Playing In The Band stretch and Grace Slick’s cameo – make this Winterland show a must‑listen for fans seeking late‑'72 energy.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 3.9,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 20,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.2,
+        "sentiment_rationale": "Multiple recordings praise intense playing, a legendary Playin' jam, and Grace Slick's cameo (positive). One recording notes modest hiss and mixed performance polish (mixed), but overall sentiment remains strongly positive, warranting a moderate +1.2 adjustment.",
+        "final_calculation": "2.5 + 0.2 + 1.2 = 3.9"
+      }
     },
     "best_recording": {
       "identifier": "gd72-10-09.sbd.vernon.5249.sbeok.shnf",
-      "reason": "Excellent soundboard source with crisp instrument separation; only minor hiss and a brief cut in the Playin' jam."
+      "reason": "Highest soundboard quality with clear mix, minimal hiss and captures the legendary Playin' jam and Grace Slick cameo intact."
     },
     "key_highlights": [
-      "Box of Rain shines with powerful vocals and clear guitar tone",
-      "The Other One → Wharf Rat transition is electric and seamless",
-      "Playing In The Band jam reaches a soaring, epic climax",
-      "Keith's jazzy, spiraling fills add wild texture throughout"
+      "Intense Jerry Garcia guitar work throughout the night",
+      "Legendary Playin' in the Band jam featuring Grace Slick’s surprise appearance",
+      "Seamless transition from The Other One into Wharf Rat with tight band interplay",
+      "Good soundboard capture despite minor hiss and a small cut at the jam start"
     ],
     "song_highlights": [
       "Box of Rain",
       "The Other One",
       "Wharf Rat",
+      "Sugar Magnolia",
       "Playing In The Band",
-      "Sugar Magnolia"
+      "Truckin'"
     ],
     "band_performance": {
-      "Jerry": "Powerful vocals and great guitar tone throughout; leads the band with confidence.",
-      "Phil": "",
-      "Bob": "Slashing lead lines and otherworldly passages, especially in the Playin' jam.",
-      "Keith": "Jazzy, spiraling fills that rank among his wildest improvisations of the era.",
-      "Billy": "",
-      "Mickey": ""
+      "Jerry": "Intense playing, great guitar tone and solid vocals; repeatedly praised across recordings.",
+      "Phil": "Audible in the mix with solid bass foundation, though one reviewer critiqued his vocal performance.",
+      "Bob": "Slashing leads and strong interplay, especially during the Playin' jam.",
+      "Brent": "",
+      "Mickey": "",
+      "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-08T03:14:53.265096+00:00",
+    "processed_date": "2025-09-22T00:19:33.285842+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Box of Rain"
+      ],
+      [
+        "Truckin'",
+        "The Other One",
+        "Wharf Rat"
+      ],
+      [
+        "Sugar Magnolia"
+      ],
+      [
+        "Playing In The Band"
+      ]
+    ]
   }
 }

@@ -192,44 +192,73 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy Winterland set with soaring Bird Song and epic The Other One",
-    "blurb": "The show bursts with a sparkling Keith mix and Jerry on fire throughout. Highlights include a transcendent Bird Song, a monster The Other One, and tight jams on Playing In The Band > Truckin'. Overall performance is high‑energy and the soundboard capture is clear and complete.",
-    "review": "December 12, 1972 at Winterland finds the Dead in peak form, delivering a setlist that swings from tight early‑rockers to expansive second‑set improvisations. Jerry’s guitar soars on Bird Song and The Other One, while Phil lays down a solid bass foundation that could use a touch more presence in the mix. Keith’s piano is unusually forward, adding sparkle to every jam, and Bob’s weathered vocals lend character—even when his voice sounds a little hoarse. The second set builds momentum with a powerful Playing In The Band > Truckin' transition into a marathon The Other One that showcases the band’s collective chemistry. A crisp soundboard recording captures all of this with minimal splices, making it one of the more accessible Winterland documents from the early‑’70s.",
+    "summary": "Soaring Bird Song, tight second set, and on‑fire Garcia",
+    "blurb": "The Winterland show delivers a soaring Bird Song and an inspired Playing In The Band → The Other One sequence. Jerry’s tone is crisp and on fire while Keith’s keyboards shine, though the bass sits low in the mix. Overall a solid performance with tight jams and standout vocals.",
+    "review": "December 12, 1972 at Winterland Arena captures the Dead in fine form. The first set rolls through classics like \"Bertha\" and \"Box of Rain,\" but it’s the second set that truly shines – a flowing marathon from \"Playing In The Band\" into \"He's Gone,\" \"Truckin'\" and a monster \"The Other One\" that showcases the band's improvisational chemistry. Jerry Garcia is described as “on fire,” delivering soaring solos on \"Bird Song\" and throughout the jam, while Keith Godchaux’s inventive keyboards are brought forward in the mix, adding color to every transition. Bob Weir’s hoarse, frog‑throat vocal timbre adds a unique flavor, and Donna Jean’s harmonies sit perfectly atop the band. Phil Lesh provides a solid foundation despite being a touch recessed in the mix. The recording is a clear soundboard capture with good balance; occasional splice cuts are present but do not detract from the overall listening experience.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 4.1,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 13,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.5,
+        "sentiment_rationale": "Both recordings are uniformly positive, praising soaring Bird Song, on‑fire Garcia solos, inventive Keith keyboards, and a tight second‑set jam. No consistent negative comments about the performance were noted; only minor recording‑mix issues (low bass, splice cuts) which do not affect show quality.",
+        "final_calculation": "2.5 + 0.1 + 1.5 = 4.1"
+      }
     },
     "best_recording": {
       "identifier": "gd72-12-12.sbd.miller.32041.sbeok.flacf",
-      "reason": "Soundboard source with crisp, clear mix; Keith’s keys are prominent and only a tiny splice in Cumberland Blues."
+      "reason": "Clear soundboard capture with good balance, crisp Garcia tone and prominent Keith; despite occasional splice cuts it delivers the most complete listening experience."
     },
     "key_highlights": [
-      "Soaring Bird Song with crystal‑clear guitar leads",
-      "Monstrous The Other One that stretches the band’s improvisational limits",
-      "Tight transition from Playing In The Band into Truckin' and the ensuing jams",
-      "Sparkling Keith Godchaux piano throughout a high‑energy set"
+      "Soaring Bird Song with crisp Garcia tone",
+      "Epic Playing In The Band → The Other One sequence",
+      "Inventive Keith Godchaux keyboards brought forward in the mix",
+      "Tight second‑set flow despite minor splice glitches"
     ],
     "song_highlights": [
       "Bird Song",
-      "The Other One",
       "Playing In The Band",
-      "Truckin'",
+      "The Other One",
       "Box of Rain",
-      "Sugar Magnolia",
-      "Goin' Down The Road Feeling Bad"
+      "Sing Me Back Home",
+      "Sugar Magnolia"
     ],
     "band_performance": {
-      "Jerry": "Garcia is on fire, delivering soaring leads and inventive solos that lift the entire show.",
-      "Phil": "Lesh provides a solid, supportive bass line; listeners note it could be turned up a bit for extra punch.",
-      "Bob": "Weir’s hoarse, frog‑like vocal tone adds character to the set, with moments of strong harmony especially on Sugar Magnolia.",
-      "Keith": "Godchaux’s piano is inventive and unusually audible, adding sparkle and texture that enhance the jams.",
+      "Jerry": "Garcia is described as \"on fire\" with superb tone and soaring solos throughout.",
+      "Phil": "Bass provides a solid foundation but sounds low in the mix, leaving listeners wishing it were louder.",
+      "Bob": "Weir’s hoarse, frog‑throat vocals add unique flavor; his screams on Sugar Magnolia are executed exactly as intended.",
+      "Brent": "",
       "Mickey": "",
-      "Billy": "Bill Kreutzmann holds down a steady rhythmic foundation, keeping the band tightly locked in throughout the extended improvisations."
+      "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-08T04:43:00.543143+00:00",
+    "processed_date": "2025-09-22T02:41:17.933151+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Bird Song"
+      ],
+      [
+        "Playing In The Band"
+      ],
+      [
+        "He's Gone",
+        "Truckin'",
+        "The Other One",
+        "Sing Me Back Home"
+      ],
+      [
+        "Box of Rain"
+      ],
+      [
+        "Sugar Magnolia",
+        "Goin' Down The Road Feeling Bad",
+        "One More Saturday Night"
+      ]
+    ]
   }
 }

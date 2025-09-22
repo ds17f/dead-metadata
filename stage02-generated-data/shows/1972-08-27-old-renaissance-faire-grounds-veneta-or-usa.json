@@ -190,44 +190,75 @@
     "sunshine-daydream-veneta-1972"
   ],
   "ai_show_review": {
-    "summary": "High‑energy Veneta classic with soaring Dark Star and tight China>Rider",
-    "blurb": "The setlist is packed with a blistering Dark Star → El Paso, a flawless China Cat Sunflower → I Know You Rider transition, and a thunderous Playing In The Band that drives the second set. Jerry’s guitar shines throughout while Keith adds cavernous textures, and Phil delivers a powerhouse bass solo in Dark Star.",
-    "review": "The August 27, 1972 show at the Old Renaissance Faire Grounds in Veneta is often cited as one of the peak moments of the spring‑'72 tour. From the opening burst of The Promised Land into Sugaree and Deal, the band quickly finds a groove that erupts on China Cat Sunflower → I Know You Rider – a segue reviewers describe as “locked‑in” and “cavernous.” The second set explodes with Playing In The Band, building into an ecstatic crescendo that propels He’s Gone, Jack Straw and Bird Song. The centerpiece is the 30‑plus minute Dark Star that seamlessly segues into El Paso, showcasing Jerry’s soaring lead lines and Phil’s “phunky” bass solo. The night closes on a high note with Sugar Magnolia and One More Saturday Night, leaving fans with a feeling of pure, unfiltered joy. All seven soundboard recordings capture the performance in crystal‑clear detail, but the Hollister SBD (gd1972-08-27.sbd.hollister.2199.sbeok.shnf) stands out for its pristine mix and lack of any audible flaws.",
+    "summary": "Epic Dark Star→El Paso and scorching China Cat Sunflower>Rider with tight jams",
+    "blurb": "The show delivers a monumental Dark Star that segues into an unforgettable El Paso, plus a blistering China Cat Sunflower → I Know You Rider transition. Playing In The Band erupts with massive energy and Bird Song soars. Keith’s keyboards and Bill’s drumming drive the entire performance.",
+    "review": "August 27, 1972 at the Old Renaissance Faire Grounds in Veneta captured one of the Dead's most celebrated late‑summer outings. From an opening set that built momentum through The Promised Land into a fiery China Cat Sunflower → I Know You Rider, the band never let up. Set two’s Playing In The Band launches a soaring jam that feeds directly into a legendary Dark Star/El Paso excursion, while Bird Song and Greatest Story Ever Told sparkle with Keith’s cavernous keys and Phil’s thunder‑bolted bass. The third set caps the night with a tight run of classics – Sing Me Back Home, Sugar Magnolia, Casey Jones and a rousing One More Saturday Night – all anchored by Bill’s powerful drumming. Across every tape this show feels “on fire”: Garcia’s tone is crisp and soaring, Phil’s bass is both melodic and muscular, Bob’s rhythm guitar and vocals are full‑throated, and the entire ensemble moves as a single, locked‑in unit.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.9,
-      "confidence": "high"
+      "ai_rating": 4.8,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 180,
+        "review_count_boost": 0.5,
+        "sentiment_adjustment": 1.8,
+        "sentiment_rationale": "Strong positive sentiment across all six recordings: descriptors like 'legendary', 'epic Dark Star', 'on fire', 'scorching', and consistent praise for Garcia, Phil, Keith, and Bill indicate an exceptionally celebrated performance.",
+        "final_calculation": "2.5 + 0.5 + 1.8 = 4.8"
+      }
     },
     "best_recording": {
       "identifier": "gd1972-08-27.sbd.hollister.2199.sbeok.shnf",
-      "reason": "Excellent soundboard source with crystal‑clear mix, perfect balance and no dropouts – captures every nuance of the legendary performance."
+      "reason": "Excellent soundboard source—crisp, no glitches, and captures the epic Dark Star and scorching China Cat Sunflower → Rider with full instrument separation."
     },
     "key_highlights": [
-      "Smoking Dark Star → El Paso with soaring guitar leads.",
-      "Seamless China Cat Sunflower → I Know You Rider transition that locks the band in.",
-      "Explosive Playing In The Band crescendo powering the second set.",
-      "Exceptional soundboard recordings capture every nuance of this legendary Veneta night."
+      "Epic Dark Star → El Paso jam that defines the show’s second‑set peak",
+      "Scorching China Cat Sunflower → I Know You Rider transition",
+      "Massive, high‑energy Playing In The Band",
+      "Bird Song soaring with Keith’s cavernous keyboards and Bill’s driving drums"
     ],
     "song_highlights": [
       "Dark Star",
-      "El Paso",
       "China Cat Sunflower",
       "I Know You Rider",
       "Playing In The Band",
       "Bird Song",
+      "El Paso",
+      "Sing Me Back Home",
       "Greatest Story Ever Told"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s tone is described as perfect and fire‑brand – his solos on Dark Star, Playing In The Band and the El Paso transition are blistering and full of adventurous phrasing.",
-      "Phil": "Lesh delivers a powerful, “phunky” bass foundation; his solo in Dark Star is highlighted as a standout moment, and he stays tight throughout the high‑energy jams.",
-      "Bob": "Weir’s rhythm guitar locks tightly with the band on Bertha and the rockers, while his vocal delivery adds emotional weight to ballads like Sugaree.",
-      "Keith": "Keyboard work is cavernous and essential, providing spacey textures that lift the Playin’ crescendo and add depth to Dark Star and Bird Song.",
-      "Mickey": "Hart’s drumming drives the extended improvisations with relentless energy, especially evident in the Dark Star/El Paso stretch.",
-      "Billy": "Kreutzmann supplies a fierce, driving pulse that underpins the entire set, propelling the high‑intensity moments of Playing In The Band and the final encores."
+      "Jerry": "Garcia is described as 'on fire' with a soaring, crisp tone; his solos on Dark Star and the China/Rider transition are legendary.",
+      "Phil": "Phil’s bass is tight, melodic and thunderous—highlighted for its funkiness in Dark Star and powerful drive throughout the set.",
+      "Bob": "Bob provides strong rhythm guitar presence (especially on Bertha) and engaging vocal banter that adds character to the performance.",
+      "Brent": "",
+      "Mickey": "",
+      "Billy": "Bill’s drumming is powerful, pounding and drives the jams with relentless energy, particularly during Playing In The Band and Dark Star."
     },
-    "processed_recordings": 7,
-    "processed_date": "2025-09-08T01:58:03.641046+00:00",
+    "processed_recordings": 6,
+    "processed_date": "2025-09-20T16:57:44.327748+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Dark Star",
+        "El Paso"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ],
+      [
+        "Playing In The Band"
+      ],
+      [
+        "Bird Song"
+      ],
+      [
+        "Sing Me Back Home"
+      ],
+      [
+        "Greatest Story Ever Told"
+      ]
+    ]
   }
 }

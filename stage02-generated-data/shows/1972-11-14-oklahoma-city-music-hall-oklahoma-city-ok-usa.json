@@ -216,47 +216,106 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy set with stellar Bertha, The Other One jam and crisp soundboard",
-    "blurb": "The show delivers punchy versions of Bertha, Casey Jones and a seamless He's Gone → Other One → Truckin' transition. Jerry’s guitar cuts cleanly while Phil’s bass anchors the improvisations. Soundboard recordings capture most of the night with only minor hiss and occasional drop‑outs.",
-    "review": "What unfolds at Oklahoma City Music Hall on November 14, 1972 is a high‑octane snapshot of the early‑'70 Dead in top form. The first set rolls through classics like Bertha, Casey Jones and an inspired China Cat Sunflower → I Know You Rider pairing with Jerry’s bright, buzzing tone leading the charge. The second set shines brightest when the band launches into a soaring He's Gone that morphs effortlessly into a wild Other One jam before snapping back into Truckin', showcasing Phil’s deep, phat bass and Bob’s rhythmic steadiness. Donna Jean adds a vibrant vocal lift on Box of Rain, while Keith’s keys provide subtle texture throughout. Despite a faint hiss at the start and a few drop‑outs, the Miller soundboard capture remains clear and well balanced, making this night both historically interesting and sonically rewarding.",
+    "summary": "Tight first set, second‑set blaze with Casey Jones and The Other One",
+    "blurb": "The show delivers crisp guitars, deep Phil bass, and a high‑energy second set that rolls from He's Gone into The Other One and Truckin'. Standout moments include Bertha, Deal, and the fiery Casey Jones. Recording quality is excellent with only minor hiss and occasional drop‑outs.",
+    "review": "On November 14, 1972 at Oklahoma City Music Hall the Dead were in top form. The first set rides a smooth groove through classics like Sugaree, Box of Rain and the ever‑reliable Bertha, while Jerry's guitar buzz is clear and warm and Phil’s bass thumps deep and phat. The second set ignites with a blazing Casey Jones that flows effortlessly into an unstoppable sequence of He's Gone → Truckin' → The Other One, capped off by a soulful Uncle John's Band. Bob Weir’s rhythm shines on Brown Eyed Women and the band’s transitions are seamless throughout. Both available soundboard sources capture the performance with crystal‑clear stereo separation; the Miller SBD (gd72-11-14.sbd.miller.22024.sbeok.shnf) edges out as the definitive listening experience thanks to its excellent mix, crisp guitars, and a solid pocket from Bill’s drumming despite a few minor hiss moments.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.2,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 15,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Both recordings are uniformly positive, highlighting numerous standout songs and no poor tracks; reviewers repeatedly praise the tight playing, deep bass, crisp guitars and seamless transitions, indicating strong positive sentiment across sources.",
+        "final_calculation": "2.5 + 0.1 + 1.6 = 4.2"
+      }
     },
     "best_recording": {
       "identifier": "gd72-11-14.sbd.miller.22024.sbeok.shnf",
-      "reason": "Miller soundboard offers clear guitar‑forward mix and balanced bass, with only minor hiss and drop‑outs, delivering the most complete listening experience."
+      "reason": "Excellent soundboard mix with crisp guitars, deep Phil bass, and a solid pocket; captures the high‑energy second set blaze with minimal hiss and only occasional drop‑outs."
     },
     "key_highlights": [
-      "Punchy Bertha and Casey Jones that drive the first set forward",
-      "Seamless He's Gone → Other One → Truckin' transition with explosive improvisation",
-      "Donna Jean’s vocal lift on Box of Rain adds extra sparkle",
-      "Overall soundboard clarity captures the band's high‑energy vibe despite minor hiss"
+      "Stellar soundboard capture with crisp guitars and deep Phil bass.",
+      "Second‑set blaze featuring Casey Jones, The Other One, He's Gone and seamless transitions into Truckin'.",
+      "Strong performances of Bertha, Deal, Sugaree and classic first‑set staples.",
+      "Recording quality is excellent despite minor hiss and occasional drop‑outs."
     ],
     "song_highlights": [
-      "Bertha",
       "Casey Jones",
-      "China Cat Sunflower",
-      "I Know You Rider",
-      "Box of Rain",
+      "Bertha",
       "Around & Around",
+      "The Other One",
+      "Uncle John's Band",
       "Brown Eyed Women",
-      "Deal",
+      "Box of Rain",
       "He's Gone",
-      "The Other One"
+      "Friend Of The Devil",
+      "Deal",
+      "Big River",
+      "China Cat Sunflower",
+      "Sugaree",
+      "Me And Bobby McGee",
+      "Sing Me Back Home",
+      "Truckin'"
     ],
     "band_performance": {
-      "Jerry": "Warm‑up buzz and crisp, guitar‑forward tone drive the segues, especially on He's Gone → Other One.",
-      "Phil": "Deep, phat bass anchors the jams; despite early distortion it pushes the band’s energy throughout.",
-      "Bob": "Solid rhythm work, cutting across the grain on Bertha and adding humor in Truckin'.",
-      "Keith": "Keyboard textures subtly support the improvisations, filling out the harmonic landscape.",
-      "Donna": "Adds vibrant vocal presence on Box of Rain, bringing strong moxie to the performance.",
-      "Billy": "Steady one‑drummer groove keeps everything tight and propels the high‑energy flow."
+      "Jerry": "Clear, buzz‑filled tone with crisp articulation; praised for perfect stereo placement and warm up moments.",
+      "Phil": "Deep, phat bass drives the vibe; distortion at the start fades quickly as he pushes hard through Truckin'.",
+      "Bob": "Strong rhythm work especially on Brown Eyed Women; balances well with Jerry and adds memorable banter during Truckin'.",
+      "Keith": "",
+      "Mickey": "",
+      "Billy": "Solid pocket and steady groove from a one‑drummer setup, providing reliable support throughout."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-08T04:01:10.373979+00:00",
+    "processed_date": "2025-09-22T01:27:56.035905+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Casey Jones"
+      ],
+      [
+        "Bertha"
+      ],
+      [
+        "Around & Around"
+      ],
+      [
+        "He's Gone",
+        "Truckin'",
+        "The Other One",
+        "Sing Me Back Home"
+      ],
+      [
+        "Uncle John's Band"
+      ],
+      [
+        "Brown Eyed Women"
+      ],
+      [
+        "Box of Rain"
+      ],
+      [
+        "Friend Of The Devil"
+      ],
+      [
+        "Deal"
+      ],
+      [
+        "Big River"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ],
+      [
+        "Sugaree"
+      ],
+      [
+        "Me And Bobby McGee"
+      ]
+    ]
   }
 }

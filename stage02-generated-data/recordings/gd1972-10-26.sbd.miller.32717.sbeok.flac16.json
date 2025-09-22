@@ -16,43 +16,84 @@
   "high_ratings": 12,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crisp sound‑board capture of a soaring second set – epic Playing in the Band, fiery Deal and powerful Dark Star.",
-    "review": "The Charlie Miller remaster delivers a clean, well‑balanced mix that lets every instrument shine, though a faint hiss and an over‑present bass drum are noted. Musically the show shines on the second half with a monster “Playing in the Band” opener, a soaring “Deal”, and a tight “Bird Song”/“Dark Star” run, while the first set is considered solid but not earth‑shaking.",
+    "summary": "Crisp soundboard recording captures a soaring second set highlighted by an epic Playin', Deal and Dark Star, though the bass drum can be over‑present.",
+    "review": "The show shines on its second half – a blistering Playing in the Band opener followed by a legendary Playin' that many reviewers call the best ever, plus a heartfelt Deal, soaring Bird Song, and an emotionally charged Sing Me Back Home. The soundboard mix is generally clean and well‑balanced, with a few early hiss issues and a bass drum that some find too dominant, while Phil’s bass is occasionally buried. Overall the performance is rated very highly despite minor recording quirks.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers rate 4–5 stars and praise both performance and sound; detailed comments on mix, song highlights and band playing give a reliable consensus."
+      "rationale": "Most reviewers (≥10 of 14) give 4‑5 stars and praise the musical performance, especially the second set; recording quality is consistently described as crisp with only minor flaws, leading to a strong overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Mix described as perfect, crisp and clean; occasional hiss in early sections and an overly prominent bass drum noted by some listeners."
+      "technical_notes": "Mix described as perfect, crisp and clean; early wobble/hiss noted but easily mitigated. Bass drum is prominent for some listeners; Phil’s bass was not always plugged in, reducing low‑end presence."
     },
     "show_quality": {
       "standout_songs": [
         "Playing in the Band",
         "Deal",
+        "Playin'",
         "Bird Song",
-        "Dark Star",
         "Sing Me Back Home",
-        "Sugar Magnolia"
+        "Dark Star"
       ],
       "poor_songs": [
-        "Truckin' (jam)",
-        "Big River (cut)"
+        "Truckin'",
+        "Dark Star"
       ],
-      "setlist_flow": "First set solid but unremarkable; second set launches with a blistering “Playing in the Band” and maintains high intensity through Deal, Dark Star and Sugar Magnolia.",
-      "energy_level": "high"
+      "setlist_flow": "First set is solid but unremarkable; the second set launches with a monster Playin' that lifts the entire concert, followed by Deal, Truckin', Dark Star and an energetic Sugar Magnolia finish. The pacing builds dramatically after the opener and maintains high intensity throughout."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly praised for cosmic guitar tone, razor‑sharp riffs and soaring solos throughout the night.",
-      "Phil": "Noted as brilliant on many jams but was not properly miked on this recording, reducing his presence; still “bombs” when audible.",
-      "Bob": "Vocal flubs and weaker singing cited, especially toward the show’s end.",
-      "Keys": "Keith's piano and Rhodes work highlighted, with interesting pedal effects adding texture.",
-      "Drums": "Bill Kreutzmann’s drumming is more audible than usual; Mickey Hart’s bass drum is described as overly prominent and sometimes obtrusive."
+      "Jerry": "Repeatedly praised for scorching solos, cosmic guitar tone, and being the driving musical force of the night.",
+      "Phil": "Bass often buried because not plugged into board, but when audible his playing is described as brilliant and a key part of the jam intensity.",
+      "Bob": "Vocal performance noted as weak on several songs (e.g., poor singing on Sugar Magnolia).",
+      "Keys": "Keith plays piano and Rhodes with interesting pedal effects; keyboards blend well in the mix.",
+      "Drums": "Bill (Billy) described as driving the train, stellar, but his bass drum is sometimes overly prominent and obtrusive."
     },
-    "processed_date": "2025-09-08T03:38:08.390010+00:00",
+    "song_mentions": {
+      "Playing in the Band": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Deal": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Bird Song": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Sing Me Back Home": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Playin'": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Dark Star": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "total_mentions": 4
+      },
+      "Truckin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "Sugaree": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T00:52:39.682229+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-10-26.sbd.miller.32717.sbeok.flac16"
   }

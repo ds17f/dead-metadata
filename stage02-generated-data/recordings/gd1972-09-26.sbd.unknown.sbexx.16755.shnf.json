@@ -16,18 +16,18 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Solid soundboard capture of a high‑energy show with a smoking He's Gone and standout Cold Rain, though the bright ’72 PA leaves the mix a bit thin.",
-    "review": "The performance is praised for its fine ensemble playing, highlighted by an amazing version of He’s Gone, one of the best Cold Rain & Snow renditions of the year, and an impressive Sugar Magnolia. Recording-wise the soundboard is clear but the notoriously squeaky‑clean ’72 PA makes tuning feel thin at times, giving the tape a good but not pristine quality.",
-    "sentiment": "mixed",
+    "summary": "Soundboard capture of a solid ’72 show featuring a smoking He's Gone and standout Cold Rain & Sugar Magnolia, though the era’s ultra‑clean PA makes tuning a bit tricky.",
+    "review": "The performance is praised for its tight ensemble work, with highlights like an incredible version of He’s Gone, one of the best Cold Rain and Snow jams of the year, and a particularly impressive Sugar Magnolia. The soundboard source is generally clear, but reviewers note that the 1972 PA was excessively loud and squeaky‑clean, which can make the instruments feel slightly thin. Overall the show is regarded as a strong entry in the Stanley Theater run.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.1,
-      "confidence": "medium",
-      "rationale": "Strong musical performance with several standout songs outweighs minor recording issues; consistent positive comments across most reviews give a solid rating."
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Four detailed reviews give an average of 4.25 stars, with three strongly positive comments about the music and only one mild criticism of the sound system; weighting favors the excellent musical performance."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Clear soundboard source but the 1972 PA is overly bright and squeaky‑clean, making instrument tuning feel thin; no major dropouts reported."
+      "quality_rating": "fair",
+      "technical_notes": "Loud, ultra‑clean PA typical of ’72 makes tuning difficult and some frequencies feel thin, but no dropouts or major distortion are reported."
     },
     "show_quality": {
       "standout_songs": [
@@ -36,17 +36,33 @@
         "Sugar Magnolia"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set flows well with strong ensemble playing throughout, highlighted by a tight He’s Gone tease and solid jams.",
-      "energy_level": "high"
+      "setlist_flow": "Ensemble playing is described as fine throughout, with several moments that stand out; the show sits comfortably among other strong September 1972 dates."
     },
     "band_member_comments": {
-      "Jerry": "",
+      "Jerry": "Ensemble praised and Jerry’s playing noted positively (\"Jerry Time\").",
       "Phil": "",
-      "Bob": "Unusual chord tease at the start of He's Gone, possibly zonked or a playful tease.",
+      "Bob": "Bob Weir’s opening on He’s Gone is described as odd—playing Bird Song chords before switching, leaving listeners wondering if he was zonked or teasing.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T02:50:08.966024+00:00",
+    "song_mentions": {
+      "He's Gone": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cold Rain and Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-21T04:04:35.947658+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-09-26.sbd.unknown.sbexx.16755.shnf"
   }

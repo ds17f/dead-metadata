@@ -16,41 +16,118 @@
   "high_ratings": 13,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crystal‑clear soundboard capture of a high‑energy Europe ’72 show with smoking Dark Star→Morning Dew, stellar Comes A Time and classic transitions.",
-    "review": "Fans rave about the luminous soundboard mix that lets the band’s emotional range shine, despite minor hiss and a brief distortion in Morning Dew. Musically the performance is a tour‑high point – Dark Star stretches over half an hour, the NFA→Hey Bo Diddley→NFA segue dazzles, and Comes A Time glows, all delivered with the band on a creative peak.",
+    "summary": "High‑energy Europe ’72 show captured on a clean soundboard recording with a few minor hiss and distortion quirks.",
+    "review": "The May 23 1972 Lyceum performance is celebrated for its soaring Dark Star, emotive Morning Dew, and a string of classic Dead staples (Mr. Charlie, St. Stephen, Comes‑a‑Time, Uncle John’s Band). Reviewers rave about the warm, clear soundboard mix, though a few note slight hiss in the Dark Star jam and a scratchy Morning Dew segment. Overall the music and recording are deemed highly enjoyable.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "The overwhelming majority of reviews are 4‑5 stars and praise both the musical fire‑power and the clean soundboard source; only a few note minor recording flaws, so the weighted rating leans strongly positive."
+      "rationale": "Most reviewers give 5‑star ratings, praising both performance and sound quality; only a handful cite minor audio flaws, yielding an overall strong rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally crisp, clean and well balanced. Listeners note a faint hiss and a brief scratchy distortion on Morning Dew, but overall the mix is very listenable."
+      "technical_notes": "Generally crisp and clear with warm ambience; occasional digital‑tune hiss in the Dark Star section and a scratchy distortion on Morning Dew are mentioned. Minor track‑order metadata issue noted, but no major dropouts."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star → Morning Dew",
+        "Dark Star",
+        "Morning Dew",
         "Comes A Time",
         "Mr. Charlie",
-        "Not Fade Away / Bo Diddley (NFA→Hey Bo Diddley→NFA)",
-        "Uncle John's Band (encore)",
-        "Fun Playin' and Good Lovin'",
-        "Top of the World"
+        "St. Stephen",
+        "Good Lovin'",
+        "Tennessee Jed",
+        "China Cat Sunflower > I Know You Rider",
+        "Ramble On",
+        "Top of the World",
+        "Rockin' Pneumonia & The Boogie Woogie Flu",
+        "Bo Diddley (Hey Bo Diddley riff)",
+        "Uncle John's Band"
       ],
       "poor_songs": [],
-      "setlist_flow": "A varied set that weaves classic tunes with extended jams; many tracks later appeared on Steppin' Out, giving a sense of continuity across the Europe ’72 tour.",
-      "energy_level": "high"
+      "setlist_flow": "The set flows naturally from tight early‑song work into extended second‑set jams, highlighted by a half‑hour Dark Star that builds to an emotional Morning Dew and closes with uplifting classics."
     },
     "band_member_comments": {
-      "Jerry": "Described as delivering 'out‑of‑this‑world fanning' and tones never heard before; his guitar work on Dark Star is highlighted as spectacular.",
-      "Phil": "Praised for laying down a menacing yet warm bass foundation during the jams.",
-      "Bob": "Noted for hitting weird chords that add texture; solid rhythm‑guitar/vocal support throughout.",
+      "Jerry": "Repeatedly praised for “out of this world” guitar tones and fanning during the Dark Star jam.",
+      "Phil": "Noted for laying down a warm, menacing bass foundation that underpins the improvisations.",
+      "Bob": "",
       "Keys": "",
-      "Drums": "The Drums segment in Dark Star→Morning Dew is called wild, out‑of‑control, then calming – a highlight of the performance."
+      "Drums": "The drum segment within Dark Star is described as wild, expansive and reminiscent of a “Fantasia”‑style passage."
     },
-    "processed_date": "2025-09-08T00:19:41.029161+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 7,
+        "negative_mentions": 2,
+        "total_mentions": 9
+      },
+      "Morning Dew": {
+        "positive_mentions": 6,
+        "negative_mentions": 1,
+        "total_mentions": 7
+      },
+      "Comes A Time": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Mr. Charlie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Tennessee Jed": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Ramble On": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Top of the World": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Rockin' Pneumonia & The Boogie Woogie Flu": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Bo Diddley": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Not Fade Away": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-20T14:21:07.310525+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-05-23.sbd.cribbs.17700.sbeok.shnf"
   }

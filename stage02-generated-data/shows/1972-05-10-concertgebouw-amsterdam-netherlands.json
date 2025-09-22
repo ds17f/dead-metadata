@@ -243,42 +243,78 @@
     "europe-72-complete-recordings"
   ],
   "ai_show_review": {
-    "summary": "Explosive 'meat' sequence and soaring The Other One captured on crisp SBD",
-    "blurb": "The Amsterdam show delivers a high‑energy second set highlighted by the classic meat sequence (Truckin’ → The Other One → Me And Bobby McGee → Wharf Rat). Jerry’s lead work shines on El Paso and The Other One, while Pigpen adds vocal heft on He's Gone. A superb soundboard makes this one of ’72’s most compelling recordings.",
-    "review": "May 10, 1972 at the Concertgebouw finds the Dead in top form, weaving tight arrangements with adventurous improvisation. The first set rolls through a solid mix of classics and deep cuts—Bertha, Loser, and an emphatic El Paso—while the second set erupts into the legendary meat sequence that still feels fresh: Truckin’ launches into an explosive, jazzy Other One, segues into a soulful Me And Bobby McGee, then returns to The Other One before resolving on Wharf Rat. Jerry’s tone is both emotive and exploratory, Phil lays down powerful, jazz‑inflected bass lines, and Keith’s keyboards sit perfectly in the mix despite a slightly subdued presence. Pigpen’s vocals and organ rise above the rest on He's Gone and Next Time You See Me, and Bill Kreutzmann provides a tight rhythmic launchpad throughout the jams. The Kaplan soundboard capture is crisp and lively, with excellent instrument separation that lets every nuance of this high‑octane performance shine.",
+    "summary": "Fire‑breathing Other One and tight Truckin' jam dominate",
+    "blurb": "The second set shines with a seamless Truckin' → The Other One → Me & Bobby McGee → Wharf Rat sequence, highlighted by Garcia’s fire‑breathing solo on The Other One. Jerry delivers emotive leads on El Paso and the band stays locked in throughout the marathon 4¼‑hour concert.",
+    "review": "On May 10, 1972 at Amsterdam’s Concertgebouw the Dead delivered a marathon 4¼‑hour trek that still feels fresh. While the first set wobbles a bit—Bertha and Loser stumble through minor mix quirks—the second set is pure fireworks. A flawless soundboard capture lets you hear every nuance of the legendary Truckin' → The Other One → Me & Bobby McGee → Wharf Rat flow, with Garcia’s guitar blazing on The Other One like a furnace and Phil’s bass driving the expansive jams. Keith’s keyboards sparkle in “He’s Gone” and “The Other One,” and the dual drummers propel the improvisations without ever losing momentum. Highlights also include an emotive El Paso solo, tight vocal work from Jack Straw, and a joyous closing medley of Sugar Magnolia into Not Fade Away. For anyone hunting a crystal‑clear snapshot of early‑’70s Dead magic, this recording is the definitive choice.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.9,
-      "confidence": "high"
+      "ai_rating": 4.0,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 19,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "All available analysis is strongly positive: reviewers call the capture 'superb' and the Other One rendition 'legendary, fire‑breathing.' Multiple standout songs are praised and no negative performance comments appear, warranting a sizable positive sentiment boost.",
+        "final_calculation": "2.5 + 0.1 + 1.4 = 4.0"
+      }
     },
     "best_recording": {
       "identifier": "gd72-05-10.sbd.kaplan.1582.sbeok.shnf",
-      "reason": "Superb soundboard with excellent instrument separation and vivid capture of the explosive Other One jams"
+      "reason": "Excellent soundboard source with crystal‑clear mix, superb instrument separation and the most complete capture of the show’s highlights."
     },
     "key_highlights": [
-      "Explosive, jazzy The Other One jam that drives the second set",
-      "Classic meat sequence (Truckin' → The Other One → Me And Bobby McGee → Wharf Rat) delivers nonstop improvisational fire",
-      "Pigpen's vocal and organ prominence on He's Gone and Next Time You See Me adds extra grit",
-      "Crystal‑clear SBD capture that highlights the band’s tight interplay"
+      "Legendary fire‑breathing rendition of The Other One.",
+      "Seamless second‑set medley: Truckin' → The Other One → Me & Bobby McGee → Wharf Rat.",
+      "Garcia’s emotive solos on El Paso and tight jam work throughout the concert.",
+      "Crystal‑clear soundboard capture with excellent instrument separation."
     ],
     "song_highlights": [
-      "Bertha",
-      "Truckin'",
       "The Other One",
-      "Me And Bobby McGee",
+      "Truckin'",
+      "Bertha",
       "Loser",
-      "He's Gone"
+      "He's Gone",
+      "Wharf Rat",
+      "Sugar Magnolia"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s tone is bright and exploratory, delivering brilliant leads on El Paso, The Other One, and the climactic meat sequence.",
-      "Phil": "Lesh provides powerful, jazzy bass lines that anchor the improvisations, especially during The Other One.",
-      "Bob": "Pigpen’s vocals and organ are louder than usual, adding weight to He's Gone and a soulful touch on Next Time You See Me.",
-      "Keith": "Keyboard work is clean and well‑defined in the mix, offering tasteful fills throughout while staying supportive of the jams.",
-      "Billy": "Kreutzmann’s drumming serves as a solid launchpad for The Other One, maintaining tight rhythmic drive across the set."
+      "Jerry": "Garcia’s solos are repeatedly praised – emotive on El Paso, fiery throughout The Other One, and generally perfect or highly expressive.",
+      "Phil": "Phil’s bass work is called amazing and a key driver of the expansive jams, especially during The Other One.",
+      "Bob": "Weir receives few specific notes; occasional vocal lead on Jack Straw mentioned but otherwise not highlighted.",
+      "Brent": "",
+      "Keith": "Keith’s keyboards earn compliments for superb separation and contribution to the jam sections (He’s Gone, The Other One).",
+      "Mickey": "",
+      "Billy": "The drums drive the long improvisations, particularly during The Other One and the second‑set sequence."
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-07T23:58:05.120571+00:00",
+    "processed_date": "2025-09-20T13:44:17.562063+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Truckin'",
+        "Drums",
+        "The Other One",
+        "Me And Bobby McGee",
+        "The Other One",
+        "Wharf Rat"
+      ],
+      [
+        "Bertha"
+      ],
+      [
+        "Loser"
+      ],
+      [
+        "He's Gone"
+      ],
+      [
+        "Sugar Magnolia",
+        "Not Fade Away",
+        "Goin' Down The Road Feeling Bad",
+        "Not Fade Away"
+      ]
+    ]
   }
 }

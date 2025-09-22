@@ -16,30 +16,30 @@
   "high_ratings": 1,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard recording suffers from hiss and distortion, yet the restored version captures a high‑energy 1972 show with rare Baby Blue and Cryptical Envelopment moments.",
-    "review": "The performance is praised for its flawless first set, surprising inclusion of rarely played songs like It’s All Over Now, Baby Blue and Cryptical Envelopment, and an intense second set that many reviewers describe as sublime. However, the original recording exhibits noticeable hiss, a wobbling bass distortion, and other damage, though the Droncit restoration improves clarity considerably.",
+    "summary": "Damaged sound‑board recording yet it captures a rare, sublime 1972 show with standouts like Baby Blue, Big River and The Other One.",
+    "review": "The performance is praised for its deep second set, rare songs (Baby Blue, The Other One, Wharf Rat) and a flawless first‑set opening with Big River. However the source suffers serious tape damage – rising hiss and bass distortion that make it far from a commercial‑grade release. Listeners who can overlook the flaws still regard this show as a gem in the Fall ’72 run.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.9,
+      "stars": 3.6,
       "confidence": "medium",
-      "rationale": "Show quality is consistently praised (high energy, rare songs) while recording quality is divided between damage and a successful restoration; weighted average yields a solid but not outstanding rating."
+      "rationale": "Show quality is consistently praised (rare songs, strong set flow) while recording quality is split between one very negative and one positive assessment; the weighted average yields a solid but not outstanding rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "fair",
-      "technical_notes": "Original tape has rising/falling hiss, bass sounds octave‑distorted, overall damaged sound; Droncit restoration described as 'fabulous' with clearer mix."
+      "quality_rating": "poor",
+      "technical_notes": "Noticeable rising hiss that follows volume, bass sounds distorted like an octave pedal, overall tape damage making it unsuitable for commercial release."
     },
     "show_quality": {
       "standout_songs": [
         "Big River",
-        "Bertha",
-        "It’s All Over Now, Baby Blue",
-        "Cryptical Envelopment",
-        "Wharf Rat"
+        "Baby Blue",
+        "The Other One",
+        "Wharf Rat",
+        "Ramble on Rose",
+        "Bertha"
       ],
       "poor_songs": [],
-      "setlist_flow": "Flawless first set opening with Big River, balanced two‑set structure, rare deep cuts in second set; overall flow described as theater‑like and sublime.",
-      "energy_level": "high"
+      "setlist_flow": "First set described as flawless and jam‑filled; second set deeply sublime with rare selections, giving the concert a balanced theatrical pacing."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -48,7 +48,39 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T02:40:30.009856+00:00",
+    "song_mentions": {
+      "Big River": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Baby Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Wharf Rat": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Ramble on Rose": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Bertha": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T18:02:35.007144+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-09-23.135287.sbd.jeffm.restore.droncit.flac16"
   }

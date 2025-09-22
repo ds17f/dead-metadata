@@ -201,28 +201,35 @@
     "enjoying-the-ride"
   ],
   "ai_show_review": {
-    "summary": "High-energy Boston show with stellar Truckin’>Other One and soaring Bird Song",
-    "blurb": "Features a high‑energy second set highlighted by Truckin’ into The Other One and a soaring Sugar Magnolia finish. Jerry’s guitar recovers after an early tempo slip on China Cat Sunflower, while Keith’s keyboards emerge spectacularly later in the show. Overall the performance is strong despite some monitor bleed and occasional mix issues.",
-    "review": "The September 15, 1972 Boston Music Hall concert finds the Dead riding a wave of kinetic momentum that only grows as the night unfolds. After a modestly rough start – monitor bleed causes the tempo to wobble on China Cat Sunflower and buries Keith’s keyboards in the mix – the band tightens up and delivers one of the era’s most compelling second‑set journeys. A blistering Playing In The Band launches into a driving groove that feeds into He’s Gone, while Bird Song soars with lyrical bass work from Phil. The highlight is the seamless Truckin’ → The Other One → Sugar Magnolia chain, where Keith’s out‑of‑this‑world synth textures and daring solo lift the jam to new heights. Though the recording suffers from a few fade‑ins and audience-sourced bleed‑through on the final two songs, it remains the most complete capture of this high‑energy performance, offering listeners both the raw power of ’72 and moments of inspired improvisation.",
+    "summary": "Eclectic Boston set highlighted by a soaring Truckin' → The Other One → Sugar Magnolia",
+    "blurb": "The show builds from tight early numbers into an electrifying second‑set medley, with the Truckin’ → The Other One → Sugar Magnolia sequence stealing the spotlight. Keith’s keyboards rise to prominence and Jerry delivers strong lead work despite a rough China Cat intro. Overall a high‑energy performance worth revisiting.",
+    "review": "On September 15, 1972 at Boston Music Hall the Dead delivered an eclectic, heavy‑hitter set that ramps up into one of the season’s most memorable second‑set stretches. After a solid first set – highlighted by Playin' In The Band and a brief stumble on China Cat Sunflower’s intro – the band launches into a blistering Truckin’ → The Other One → Sugar Magnolia sequence, with Keith Godchaux’s Moog‑filled fills and an inspired solo that lift the whole jam. Jerry Garcia’s lead work is strong throughout, especially in the soaring peaks of the second set, while the rhythm section locks in tight grooves despite early monitor glitches. Fans will appreciate the crisp soundboard capture that preserves the band’s dynamic flow, making this show a must‑listen for anyone craving classic ’72 energy.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.8,
-      "confidence": "high"
+      "ai_rating": 4.1,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 22,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "Two recordings give glowing positive remarks about the Truckin' → The Other One sequence, Keith's keyboards and overall performance; two additional recordings are mixed but focus on recording flaws rather than musical shortcomings, reinforcing a net positive sentiment.",
+        "final_calculation": "2.5 + 0.2 + 1.4 = 4.1"
+      }
     },
     "best_recording": {
       "identifier": "gd1972-09-15.133998.sbd.miller.flac16",
-      "reason": "Full‑show soundboard source with generally good fidelity; despite early monitor bleed it provides the most complete and listenable version of the performance."
+      "reason": "Full‑show soundboard capture with crisp clarity, only minor early mix issues; includes the standout Truckin' → The Other One → Sugar Magnolia sequence."
     },
     "key_highlights": [
-      "High‑energy second set culminating in a seamless Truckin’ → The Other One → Sugar Magnolia sequence",
-      "Keith’s keyboards break through the mix later, delivering syncopated Moog textures and an adventurous solo",
-      "Bird Song showcases lyrical bass and soaring vocals despite early monitor issues",
-      "Overall performance remains strong and inspiring even with occasional mix glitches"
+      "Stellar Truckin' → The Other One → Sugar Magnolia medley",
+      "Keith Godchaux’s Moog textures and solo on The Other One",
+      "High‑energy second set that lifts the entire concert",
+      "Overall eclectic setlist with strong tight‑hitting first half"
     ],
     "song_highlights": [
       "China Cat Sunflower",
-      "I Know You Rider",
-      "Playing In The Band",
+      "Playin' In The Band",
       "He's Gone",
       "Bird Song",
       "Truckin'",
@@ -230,16 +237,35 @@
       "Sugar Magnolia"
     ],
     "band_performance": {
-      "Jerry": "Starts a bit loose on China Cat Sunflower with a slipped tempo, but recovers to deliver confident leads throughout, especially during Playing In The Band and the second‑set jams.",
-      "Phil": "Provides a steady, melodic bass line that underpins the high‑energy improvisations, particularly driving He's Gone and Truckin'.",
-      "Bob": "Rhythm guitar is solid; early China Cat note of sounding off but otherwise locks in with Jerry's leads.",
-      "Keith": "Keyboard presence is low at the start, then emerges spectacularly on Truckin' and The Other One with syncopated Moog textures and a daring solo that lifts the second set.",
+      "Jerry": "Garcia’s lead work is strong throughout, with only a slightly loose tempo on the China Cat Sunflower intro.",
+      "Phil": "",
+      "Bob": "Weir provides solid rhythm support; his guitar tone sounds a bit thin early but steadies later in the set.",
+      "Keith": "Keith’s keyboards sit low early but burst into vibrant Moog textures, delivering syncopated fills and an inspired solo on The Other One.",
       "Mickey": "",
-      "Billy": "Keeps a tight groove through the first set and fuels the driving pulse of the extended jams in the second set."
+      "Billy": ""
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-08T02:20:27.319842+00:00",
+    "processed_date": "2025-09-20T17:28:40.517838+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ],
+      [
+        "He's Gone",
+        "Me And My Uncle"
+      ],
+      [
+        "Bird Song"
+      ],
+      [
+        "Truckin'",
+        "Drums",
+        "The Other One",
+        "Sugar Magnolia"
+      ]
+    ]
   }
 }

@@ -16,28 +16,27 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Solid show with a Rolling Stones‑heavy opener and a standout Midnight Rambler featuring Jimmy Page, captured on an unknown‑quality recording",
-    "review": "The concert opens with a fiery “Gimme Shelter” and rolls through classics like “Sweet Virginia,” highlighted by a special guest appearance from Jimmy Page on “Midnight Rambler.” The encore delivers the fan‑favorite “Sugar Magnolia.” Reviewers gave it four stars, indicating overall enjoyment, though they provide no details about the audio fidelity.",
+    "summary": "Solid performance featuring a Rolling Stones opener and strong Dead classics; recording quality not described",
+    "review": "The lone fan review praises the show’s setlist, highlighting the \"Gimme Shelter\" opener, a fiery \"Midnight Rambler\" with guest Jimmy Page, and an enthusiastic encore of \"Sugar Magnolia.\" No comments are made about the audio source or fidelity, so the recording quality remains unclear.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 3.9,
-      "confidence": "medium",
-      "rationale": "One detailed 4‑star review points to a strong musical performance with notable moments; lack of recording comments keeps confidence moderate."
+      "stars": 4.0,
+      "confidence": "low",
+      "rationale": "Only one 4‑star review; positive remarks about the performance but no information on recording quality."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "No reviewer commentary on sound clarity, mix, or source type; rating based on absence of information."
+      "technical_notes": "Review does not mention soundboard, audience mix, clarity, or any audio issues."
     },
     "show_quality": {
       "standout_songs": [
         "Gimme Shelter",
-        "Midnight Rambler (with Jimmy Page)",
+        "Midnight Rambler",
         "Sugar Magnolia"
       ],
       "poor_songs": [],
-      "setlist_flow": "Rolling Stones‑focused opener leading into a classic second set and a satisfying encore; flow described as energetic.",
-      "energy_level": "high"
+      "setlist_flow": "Reviewer lists songs in order and expresses enthusiasm for the opener, mid‑set highlight with Jimmy Page, and a high‑energy encore."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -46,7 +45,29 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T04:19:38.487137+00:00",
+    "song_mentions": {
+      "Gimme Shelter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sweet Virginia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Midnight Rambler": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T02:06:48.515003+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-11-19.142329.sbd.dalton.miller.sirmick.fixed.flac1644"
   }

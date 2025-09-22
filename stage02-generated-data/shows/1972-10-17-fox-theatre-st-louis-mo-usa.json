@@ -234,43 +234,74 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy set with standout Playing In The Band and soaring Bird Song",
-    "blurb": "The show delivers a tight first set highlighted by Bird Song and a smoking Playing In The Band. The second set maintains the momentum with an inspired Mississippi Half‑Step Uptown Toodeloo into Sugar Magnolia, while Keith’s keyboards add texture throughout.",
-    "review": "October 17, 1972 at St. Louis' Fox Theatre finds the Dead firing on all cylinders. From the opening riff of \"The Promised Land\" the band rolls into a crisp, high‑energy first set that peaks with Jerry's soaring lead on \"Playing In The Band\" and a beautifully melodic \"Bird Song\" that showcases his inspired soloing. Phil’s bass is truly on fire, driving the grooves with a fluid intensity that underpins each transition. Keith Godchaux adds shimmering layers on keys, especially during the seamless segue from \"China Cat Sunflower\" into \"I Know You Rider\" and later throughout the set.\n\nThe second set keeps the momentum alive, opening with a heartfelt rendition of \"Greatest Story Ever Told\" before launching into an exuberant \"Mississippi Half‑Step Uptown Toodeloo\" that flows straight into a bright \"Sugar Magnolia\". The encore caps the night with the beloved sing‑along of \"Uncle John's Band\" and a rollicking \"Johnny B. Goode.\" While the recording has a few cuts – notably a mid‑song dropout in \"Black Peter\" and some omitted numbers – the soundboard capture is clear, allowing the band’s tight interplay and dynamic range to shine through.",
+    "summary": "Monster Playing in the Band and soaring Sugar Magnolia",
+    "blurb": "The Fox Theatre show delivers a high‑energy first set packed with tight jams and a second set that leans into song‑focused brilliance. Highlights include an epic Playing In The Band, a soaring Sugar Magnolia, and a marathon Half‑Step/Not Fade Away sequence.",
+    "review": "October 17, 1972 at St. Louis’ Fox Theatre captures the Dead in top form. The first set is jam‑heavy, launching from a crisp Bird Song into a blistering Playing In The Band that many reviewers call “monster.” Jerry’s solos are described as “great,” “on fire,” and “mind‑blowing noodling,” while Phil rides the waves of the jams with “on fire” bass work. Keith Godchaux shines on the GSET, adding texture that lifts the whole performance. The second set rolls into a legendary Mississippi Half‑Step Uptown Toodeloo segueing into an extended Not Fade Away jam that spirals through Good Times Bad Times before returning to the classic two‑beat groove—an “epic” moment praised across the board. Sugar Magnolia soars with bright vocals and tight rhythm, and the encore rounds it out with Uncle John’s Band and a rollicking Johnny B. Goode. The only blemish noted is a brief cut in Black Peter, but overall the show is cohesive, high‑octane, and a must‑listen for any Deadhead.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.1,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 14,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.5,
+        "sentiment_rationale": "All recorded commentary is overwhelmingly positive, praising Jerry’s fireworks, Phil’s locked‑in bass, Keith’s standout keyboards, and the epic jam sequences. No consistent negative remarks about performance quality appear; only a minor issue with Black Peter is noted.",
+        "final_calculation": "2.5 + 0.1 + 1.5 = 4.1"
+      }
     },
     "best_recording": {
       "identifier": "gd72-10-17.sbd.sacks.2219.sbeok.shnf",
-      "reason": "Clear soundboard source with good fidelity; captures the high‑energy performance and key moments despite a few minor dropouts."
+      "reason": "Excellent soundboard capture with clear, crisp mix and no major issues; showcases the high‑energy performance in full."
     },
     "key_highlights": [
-      "Smoking \"Playing In The Band\" showcases Jerry's soaring solo and Phil's fire bass.",
-      "\"Bird Song\" delivers a melodic, inspired lead that stands out in the first set.",
-      "Second‑set momentum driven by an exuberant Mississippi Half‑Step Uptown Toodeloo into Sugar Magnolia.",
-      "Keith Godchaux’s keyboard textures add depth to segues and jam sections."
+      "Monster Playing In The Band jam that drives the first set.",
+      "Epic Mississippi Half‑Step > Not Fade Away marathon with Good Times Bad Times detour.",
+      "Soaring Sugar Magnolia leading into a tight second‑set flow.",
+      "Crystal‑clear soundboard recording preserving every nuance."
     ],
     "song_highlights": [
       "Playing In The Band",
-      "Mississippi Half-Step Uptown Toodeloo",
       "Sugar Magnolia",
-      "China Cat Sunflower",
+      "Mississippi Half-Step Uptown Toodeloo",
+      "Not Fade Away",
       "Cumberland Blues",
+      "China Cat Sunflower",
       "Bird Song"
     ],
     "band_performance": {
-      "Jerry": "Delivered an inspiring solo on \"Playing In The Band\" with great tone throughout the night.",
-      "Phil": "\"On fire\" – his bass work was exceptional, driving the high‑energy flow of both sets.",
-      "Bob": "Provided tasty guitar licks and solid rhythm work; occasional vocal quirks but overall strong.",
-      "Brent": "",
+      "Jerry": "Solos are described as great, on fire, and mind‑blowing noodling; tone praised throughout the show.",
+      "Phil": "Bass work is on fire and in great form, serving as a star of several jams.",
+      "Bob": "Delivers tasty licks and strong vocal delivery, with only a minor quirk of quasi‑falsetto noted on one song.",
+      "Keith": "Stands out on the GSET version, providing stellar keyboard textures that lift the jam sections.",
       "Mickey": "",
-      "Billy": "Steady drumming that kept the momentum tight and supported the band's dynamic shifts."
+      "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-08T03:17:18.954056+00:00",
+    "processed_date": "2025-09-22T00:23:01.960981+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Playing In The Band"
+      ],
+      [
+        "Mississippi Half-Step Uptown Toodeloo",
+        "Sugar Magnolia",
+        "Not Fade Away",
+        "Goin' Down The Road Feeling Bad",
+        "Not Fade Away"
+      ],
+      [
+        "Cumberland Blues"
+      ],
+      [
+        "China Cat Sunflower",
+        "I Know You Rider"
+      ],
+      [
+        "Bird Song"
+      ]
+    ]
   }
 }

@@ -16,41 +16,65 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Fair‑quality soundboard capture of a high‑energy show with standout jams on The Other One, Playin', Truck and Philo Stomp.",
-    "review": "The recording is a soundboard source that suffers from low levels, some hiss and an occasional vocal cut, but remains listenable. Musically the concert is adventurous and lively, highlighted by a marathon 25‑minute \"Playin'\", fiery renditions of The Other One, Truck, Philo Stomp and a melting Space jam. Overall fans praise the performance despite the modest technical fidelity.",
+    "summary": "Decent soundboard recording with low‑level hiss but an adventurous show highlighted by a smoking Truckin', The Other One, Philo Stomp and He's Gone jams.",
+    "review": "The tape captures the band in an exploratory mood – The Other One wanders into nice places, Truckin' erupts into a funky jam, and Philo Stomp, Space and He’s Gone provide high‑energy highlights.  The soundboard source is clear enough to enjoy, though levels are low, there is some hiss and a vocal cut, and the hall acoustics add a bit of muddiness.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Four detailed reviews give an average of 4 stars; reviewers note strong musical moments and only moderate recording flaws, leading to a rating just above the mean."
+      "rationale": "Four detailed reviews praise the musical performance (adventurous set, strong jams) while noting only moderate recording flaws (low levels, hiss).  Weighted scoring gives a high overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "fair",
-      "technical_notes": "Low overall levels, some hiss and distant sound, occasional vocal cut (Spanish Lady), tape‑flip artifacts; mix is acceptable but not crisp."
+      "quality_rating": "good",
+      "technical_notes": "Low overall levels and some hiss; occasional vocal cut; mix is fair but not razor‑sharp; acoustic quirks of the venue add slight muddiness."
     },
     "show_quality": {
       "standout_songs": [
-        "Playin'",
+        "Truckin'",
         "The Other One",
-        "Truck",
         "Philo Stomp",
-        "Space"
+        "Space",
+        "He's Gone"
       ],
-      "poor_songs": [
-        "Spanish Lady (cut vocal)"
-      ],
-      "setlist_flow": "A loose but adventurous set with long improvisational passages; the second half builds into extended jams that maintain momentum.",
-      "energy_level": "high"
+      "poor_songs": [],
+      "setlist_flow": "Second set is jam‑heavy and flows organically, capturing the band in an adventurous mood with strong transitions between jams and vocal sections."
     },
     "band_member_comments": {
-      "Jerry": "Sharp leads, shredding guitar on The Other One and other jams; \"JBG - the shredder\" noted.",
+      "Jerry": "Sharp lead work; praised as a \"shredder\" during the jams.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T03:34:13.297584+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Philo Stomp": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Space": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "He's Gone": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T00:44:29.009835+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-10-24.pset2-sbd.hamilton.159.sbeok.shnf"
   }

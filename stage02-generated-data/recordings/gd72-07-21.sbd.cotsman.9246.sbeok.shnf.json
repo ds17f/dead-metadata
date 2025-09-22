@@ -16,39 +16,86 @@
   "high_ratings": 4,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Stellar July‑21‑1972 performance with monster jams (The Other One, Around, China Cat→I Know You Rider) but the original SBD source is muffled and slow, though the Download Series fix restores clarity.",
-    "review": "Fans rave about the show’s high energy, daring Phil‑Garcia/Billy jam into The Other One and a 22‑minute “Around,” plus tight renditions of China Cat Sunflower → I Know You Rider, Stella Blue and Playing In The Band. The original soundboard tape is described as muffled, pitched slow and missing cuts, but the official Download Series version offers much clearer audio. Overall the music outweighs the technical flaws, making it a must‑listen for Deadheads.",
-    "sentiment": "mixed",
+    "summary": "Muffled soundboard recording but an inspired 7/21/72 show highlighted by a daring The Other One jam and a monster 22‑minute Around",
+    "review": "The performance shines – Phil’s interplay with Billy, the soaring China Cat > I Know You Rider, a marathon Around, and a gutsy The Other One make this a fan favorite.  The SBD source is noticeably muffled and pitched slow, yet it remains listenable enough to enjoy the music.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Eight detailed reviews consistently praise the musical performance (average show rating ~4.5) while noting recording problems (average recording rating ~2.5). Weighted combination yields a solid 3.8‑star overall rating."
+      "rationale": "Consistently strong praise for the musical performance (70% weight) outweighs the moderate‑to‑poor sound quality (30% weight), yielding an overall rating just above four stars."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Original SBD is muffled, pitched about +2½% slow, has cuts (drums, China Cat) and missing sections; the Download Series restoration improves clarity dramatically."
+      "technical_notes": "Muffled, slightly slow‑pitch SBD; occasional cuts and missing tunings, but generally clear enough to follow the show."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One",
-        "Around (22 min)",
+        "Around",
+        "Playin' in the Band",
         "China Cat Sunflower > I Know You Rider",
         "Stella Blue",
-        "Playing In The Band"
+        "Tennessee Jed"
       ],
       "poor_songs": [],
-      "setlist_flow": "A marathon first set (~2½ hrs) that builds momentum into a strong second set; transitions are smooth and the band maintains high energy throughout.",
-      "energy_level": "high"
+      "setlist_flow": "A marathon first set (≈2½ hrs) packed with classic ’72 material, followed by a second set that builds from solid blues numbers into an adventurous The Other One and a soaring Around, keeping the energy high throughout."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s daring interplay with Phil (and Billy) on The Other One is highlighted as \"cunning and daring\"; his guitar tone receives praise in several reviews.",
-      "Phil": "Phil’s bass work is repeatedly praised – “Phil bombs,” leads verses, and drives the jam into The Other One with bold improvisation.",
-      "Bob": "Bob’s vocal intro introduces Donna on “Playin’ In The Band”; his stage banter adds character but specific instrumental comments are minimal.",
-      "Keys": "Keith (keys) is noted for unique fills on “Me & My Uncle” and contributes to the overall tightness of the band.",
-      "Drums": "Billy’s drumming in the Phil‑Garcia jam and the extended drum segments receive positive mentions, though no detailed critique is given."
+      "Jerry": "Briefly noted for demurring on vocals and adding occasional fills.",
+      "Phil": "Praised for daring interplay with Billy at the intro to The Other One, leading verses on I Know You Rider, and even taking over drums during that jam.",
+      "Bob": "Mentioned for introducing Donna as a guest vocalist on Playin' in the Band and for his colorful stage banter.",
+      "Keys": "Keith (keys) gets a nod for tasteful fills on Me & My Uncle.",
+      "Drums": ""
     },
-    "processed_date": "2025-09-08T00:57:42.872152+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Around": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playin' in the Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stella Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Tennessee Jed": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T15:29:08.701157+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd72-07-21.sbd.cotsman.9246.sbeok.shnf"
   }

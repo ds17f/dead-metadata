@@ -16,40 +16,81 @@
   "high_ratings": 8,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑energy 11/18/1972 Houston show with a smoking Playing in the Band and solid soundboard source that’s good overall despite minor speed/pitch quirks",
-    "review": "The performance is hailed as one of the band’s peak ’72 shows – Phil “bombs” on bass, Jerry’s wah‑infused tone shines, and the second set (Deal → Playing in the Band → Uncle John’s) is described as a relentless, joyous groove. The recording is a soundboard (SBD) that most listeners find clear and balanced, though a few note slight wow and pitch‑shift issues on certain tracks.",
+    "summary": "High‑energy 1972 Houston show with a monster Playing in the Band and stellar soundboard capture despite minor pitch quirks.",
+    "review": "Fans rave about this 11/18/1972 Houston performance, calling the second set a tour‑highlight driven by an epic Playing in the Band, tight Deal, and soaring Uncle John’s Band. The Miller SBD source is praised as the best available version, though it shows a touch of wow and needs slight pitch correction on a few tracks.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.7,
       "confidence": "high",
-      "rationale": "Overwhelmingly enthusiastic comments about the music (standout jams, high energy) combined with generally favorable notes on the soundboard quality (clear but with minor speed/pitch quirks) yield a strong rating."
+      "rationale": "The overwhelming majority of reviews are glowing about the musical performance, especially the second‑set jams, while the technical notes describe a solid soundboard recording with only minor issues."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear SBD mix, but some listeners report slight wow in early tracks and pitch‑correction needs on Jack Straw/He's Gone; occasional cuts in Sugar Magnolia."
+      "technical_notes": "Miller SBD is clear and well‑balanced; reviewers note slight wow in the first tracks, a ~1–2% pitch drift on some songs (Jack Straw, He's Gone) that benefits from correction. Overall it outperforms the OFF source."
     },
     "show_quality": {
       "standout_songs": [
-        "Playing In The Band",
+        "Playing in the Band",
         "Deal",
         "Uncle John's Band",
         "Greatest Story Ever Told",
-        "Bertha",
-        "He's Gone"
+        "He's Gone",
+        "Sugar Magnolia"
       ],
       "poor_songs": [],
-      "setlist_flow": "Second set is the highlight, building from a mellow Bertha into a rapturous Greatest Story and then a marathon Playing In The Band that drives the night’s momentum.",
-      "energy_level": "high"
+      "setlist_flow": "The second set is described as a tour‑defining stretch – tight transitions, high‑octane jams and a rousing climax with Playing in the Band. Reviewers note the first set is missing from some releases but praise the overall pacing."
     },
     "band_member_comments": {
-      "Jerry": "His wah‑infused tone and big grin are repeatedly praised; his guitar work is called “incredible” and “locked in”.",
-      "Phil": "Described as an \"absolute animal\" who \"bombs\" on bass, providing the driving force throughout the jam.",
-      "Bob": "Vocal phrasing noted as locked perfectly with Bill’s drumming; praised for his melodic contributions.",
-      "Keys": "Keith's tasteful fills are highlighted during the improvisational sections.",
-      "Drums": "Bill Kreutzmann’s drumming is called tight and supportive, helping keep the groove solid."
+      "Jerry": "His wah‑infused tone and big grin are highlighted; many call his playing on PITB \"incredible\".",
+      "Phil": "Repeatedly praised as an \"absolute animal\" with pounding, exploratory bass that drives the jams.",
+      "Bob": "Bobby's phrasing is described as locked in perfectly with Bill’s drums, adding melodic depth to the improvisations.",
+      "Keys": "Keith's tasteful fills and overall keyboard work are noted positively; one reviewer mentions his mix being a bit high, affecting guitar balance.",
+      "Drums": "Bill (drums) receives compliments for tight lock‑in with Bobby and driving the rhythmic flow of the set."
     },
-    "processed_date": "2025-09-08T04:10:43.558190+00:00",
+    "song_mentions": {
+      "Playing in the Band": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Deal": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Greatest Story Ever Told": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Bertha": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "He's Gone": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Jack Straw": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T01:47:20.969116+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-11-18.123077.sbd.miller.flac16"
   }

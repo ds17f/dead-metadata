@@ -16,28 +16,27 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑energy performance with solid soundboard capture, though a few Europe ’72 cuts run flat and contain studio overdubs.",
-    "review": "Reviewers rave about the playing and overall vibe of this show, calling it near‑perfect, while also noting that three tracks from the Europe ’72 segment are pitched slightly low and feature studio vocal overdubs. The recording sounds clean for a soundboard source, but those pitch anomalies and splice concerns prevent it from being flawless.",
-    "sentiment": "mixed",
+    "summary": "Stellar playing and a crisp recording overall, though the E‑72 cuts of Tennessee Jed, China Cat Sunflower and He's Gone are flat by about half a semitone.",
+    "review": "Reviewers rave about both the musicianship and the audio fidelity of this release, calling it near‑perfect. The only drawback noted is that three tracks taken from Europe ’72 sound slightly flat and contain studio overdub vocals, suggesting a hybrid live‑studio splice. Aside from those pitch quirks the show is praised as an excellent performance.",
+    "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
-      "confidence": "medium",
-      "rationale": "Strong musical performance praised by both reviewers (70% weight) offset by technical issues on specific tracks (30% weight), yielding an overall rating just above four stars."
+      "confidence": "low",
+      "rationale": "Both reviewers are largely enthusiastic (5 and 4 stars). Show quality is judged very high, while recording quality is good but marred by pitch issues on a few tracks; weighted average yields ~4.2."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "unknown",
       "quality_rating": "good",
-      "technical_notes": "Generally clear soundboard mix, but three Europe ’72 cuts are flat by ~½ semitone and contain studio vocal overdubs; possible splicing in the master."
+      "technical_notes": "Overall clear and well‑mixed, but three E‑72 excerpts (Tennessee Jed, China Cat Sunflower, He's Gone) are flat by ~½ semitone and feature studio overdub vocals, indicating a hybrid splice."
     },
     "show_quality": {
-      "standout_songs": [
-        "Ten Joints (Ten Jed)",
+      "standout_songs": [],
+      "poor_songs": [
+        "Tennessee Jed",
         "China Cat Sunflower",
         "He's Gone"
       ],
-      "poor_songs": [],
-      "setlist_flow": "No specific comments on set pacing were provided.",
-      "energy_level": "high"
+      "setlist_flow": ""
     },
     "band_member_comments": {
       "Jerry": "",
@@ -46,7 +45,24 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-07T23:43:44.510113+00:00",
+    "song_mentions": {
+      "Tennessee Jed": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "He's Gone": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-20T13:17:39.570108+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-05-03.139539.sbd.16.track.reels.miller.clugston.flac16"
   }

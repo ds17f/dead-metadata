@@ -16,24 +16,23 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard transfer of a November ’72 Texas show, though the setlist omits Promised Land.",
-    "review": "Both reviewers praise the recording, calling the transfer great and noting the high‑quality soundboard source. The musical performance is unremarkable in the comments except for the absence of \"Promised Land\" despite some sources listing it, suggesting a documentation discrepancy rather than a performance issue.",
+    "summary": "Excellent soundboard transfer of a November ’72 Texas show, though the setlist listing mistakenly includes Promised Land.",
+    "review": "Both reviewers praise the high‑quality soundboard transfer, noting clear and balanced audio that captures the energy of the November 1972 Texas shows. The only point of contention is a setlist discrepancy – the song Promised Land appears in some sources but was not actually performed at this concert. Overall the recording is considered very listenable despite the documentation error.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 3.9,
       "confidence": "medium",
-      "rationale": "Positive remarks about an excellent soundboard transfer outweigh the lack of detailed musical commentary; limited to two reviews, so confidence is moderate."
+      "rationale": "Strong recording quality (excellent soundboard transfer) and no performance complaints earn high marks, but limited musical commentary and a setlist confusion keep the overall rating just below four stars."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Reviewers describe the transfer as great with clear, balanced audio and report no technical problems."
+      "technical_notes": "Clear, well‑balanced soundboard capture; reviewers describe the transfer as great with no noted audio flaws."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "Some sources list \"Promised Land\" as opening the first set, but reviewers confirm it was not performed, indicating a setlist documentation error.",
-      "energy_level": "medium"
+      "setlist_flow": "Setlist appears correctly in performance, though documentation erroneously lists Promised Land, causing confusion among fans."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -42,7 +41,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-08T04:24:04.563293+00:00",
+    "song_mentions": {
+      "Promised Land": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T02:12:59.371116+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1972-11-22.115730.sbd.miller.flac16"
   }
