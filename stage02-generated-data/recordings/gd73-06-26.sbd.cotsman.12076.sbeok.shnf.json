@@ -16,41 +16,115 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A patchy matrix recording with occasional dropouts captures a lively 1973 Seattle show featuring standout renditions of \"You Ain't Woman Enough\", \"China Cat Sunflower\" and an epic \"Truckin' > Drums > The Other One\" sequence.",
-    "review": "The performance is energetic and full of classic ’73 moments – rare vocal showcases on \"You Ain't Woman Enough\", a scorching Bob Weir on China Cat, and a seamless Truckin’‑Drums‑Other One sandwich that many reviewers call magical.  Technically the tape jumps between soundboard and audience sources, with noticeable stitching, brief drop‑outs and channel switches that can pull you out of the music, though several listeners still find it listenable.",
+    "summary": "Solid 1973 Seattle performance with standout China Cat Sunflower and a monster The Other One, but the patched‑together matrix recording makes listening uneven.",
+    "review": "The show captures an inspired early‑'70s Dead run – highlights include a blistering China Cat Sunflower, a soaring The Other One/Bobby McGee sandwich, and strong vocal moments on Box, Row Jimmy and You Ain’t Woman Enough.  However the source is a patched matrix of soundboard and audience tapes, with noticeable switches, drop‑outs and pitch quirks that keep it from being a clean listening experience.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 3.7,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical performance (several 5‑star comments) while noting consistent recording issues; weighting show quality higher yields an overall rating just above four stars."
+      "rationale": "Eight detailed reviews give an average user rating of ~3.5; most praise the musical performance while flagging consistent recording issues, leading to a balanced overall score weighted toward the strong show."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "fair",
-      "technical_notes": "Stitched together from soundboard and audience patches, causing audible jumps; brief drop‑outs (e.g., Truckin'), channel swaps and pitch inconsistencies are mentioned. Overall clarity varies but the mix is still usable."
+      "technical_notes": "Frequent hops between audience and soundboard sources; occasional drop‑outs (e.g., Truckin'), channel reversals, pitch adjustments needed, and overall inconsistent clarity despite some crisp moments."
     },
     "show_quality": {
       "standout_songs": [
+        "China Cat Sunflower",
+        "The Other One",
         "You Ain't Woman Enough",
-        "China Cat Sunflower > Riding on the Clouds",
-        "Truckin' > Drums > The Other One",
+        "Box",
+        "Row Jimmy",
+        "He's Gone",
+        "El Paso",
         "Sugar Magnolia",
-        "El Paso"
+        "Help on the Way",
+        "Truckin' > Drums > The Other One"
       ],
       "poor_songs": [
         "Brown Eyed Women",
-        "Box"
+        "Jack Straw",
+        "Great Story",
+        "Box (in some sections)"
       ],
-      "setlist_flow": "The first set is solid with a few slower moments, while the second set builds momentum and delivers strong segues—especially the Truckin' sandwich. Recording patches interrupt flow in places but the musical arc remains engaging."
+      "setlist_flow": "A typical ’73 two‑set marathon – the first set rolls with solid grooves but shows a few technical hiccups; the second set builds energy, culminating in a classic Truckin' → Drums → The Other One sandwich and a powerful The Other One/Bobby McGee jam."
     },
     "band_member_comments": {
-      "Jerry": "Generally solid lead guitar work; some reviewers note he fades during China Cat Sunflower.",
-      "Phil": "Bass praised as a ‘monster’ on several tracks (Bertha, He's Gone, The Other One).",
-      "Bob": "Highly lauded rhythm‑guitar performance, especially on China Cat Sunflower where he 'annihilates' the part.",
-      "Keys": "Keith's intros are highlighted as great; occasional kludgey moments noted but overall positive.",
-      "Drums": "Bill Kreutzmann’s drumming shines in the Truckin' > Drums > The Other One sequence, receiving strong commendation."
+      "Jerry": "Garcia’s tone shines on several numbers (You Ain’t Woman Enough, China Cat) but there are moments where his presence fades, leading some listeners to feel he “disappears” for a stretch.",
+      "Phil": "Phil’s bass work is repeatedly praised – monster on Bertha, solid underpinning on He's Gone and The Other One, generally the backbone of the night.",
+      "Bob": "Bob Weir delivers standout rhythm/lead work, especially on China Cat Sunflower where reviewers call his playing “silky smooth” and “annihilating”.",
+      "Keys": "Keith’s intros are highlighted as great, though a few reviewers note an odd vocal accent on You Ain’t Woman Enough; overall keyboard contributions are viewed positively.",
+      "Drums": "The drum segment of the Truckin' → Drums → The Other One sequence is singled out as a high‑point, indicating strong percussive performance."
     },
-    "processed_date": "2025-09-10T01:10:23.138697+00:00",
+    "song_mentions": {
+      "You Ain't Woman Enough": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Box": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Row Jimmy": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "He's Gone": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "El Paso": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Help on the Way": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Truckin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Brown Eyed Women": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Jack Straw": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Great Story": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T15:10:33.422493+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-06-26.sbd.cotsman.12076.sbeok.shnf"
   }

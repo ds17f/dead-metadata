@@ -212,48 +212,61 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Birthday‑charged set with blistering China>Rider and tight Truckin'",
-    "blurb": "Jerry rides a birthday high, delivering scorching guitar on Truckin' and a seamless China Cat Sunflower > I Know You Rider. The second half bursts with Black Peter, Loose Lucy and a powerful Promised Land > Bertha > Greatest Story Ever Told sequence. Audience tapes capture the party atmosphere despite some crowd noise.",
-    "review": "On July 31 1973 at Roosevelt Stadium the Dead turned a regular summer show into a birthday celebration for Jerry Garcia. Fueled by that spirit, his guitar was “party hard” and “off‑the‑wall animated,” especially on Truckin' where he “busted loose.” The second set kept the momentum rolling with a blistering China Cat Sunflower > I Know You Rider segue, a soaring Promised Land > Bertha > Greatest Story Ever Told medley, and gritty renditions of Black Peter and Loose Lucy. Phil Lesh’s bass shone with an impressive nine‑minute solo that made the floor vibrate, while the rhythm section held down the groove throughout.\n\nMultiple audience recordings capture the show’s high energy; the Weiner tape (gd73-07-31.aud.weiner.gdADT12.12883.sbeok.shnf) stands out for its clear balance and completeness, letting listeners feel the immediacy of the crowd while still hearing every instrument. Whether you’re after Jerry’s birthday‑fueled fireworks or Phil’s bass thunder, this performance remains a hot snapshot of the 1973 Dead in top form.",
+    "summary": "High‑energy Roosevelt show with scorching Garcia and epic jams",
+    "blurb": "The July 31 1973 set delivers a blistering second‑set medley – China Cat Sunflower > I Know You Rider into a monster Promised Land → Bertha → Greatest Story Ever Told. Jerry’s birthday‑night guitar is on fire, Phil lays down a memorable nine‑minute bass solo, and the crowd rides every high‑energy peak.",
+    "review": "On July 31, 1973 at Roosevelt Stadium the Dead turned a summer night into a fireworks display of improvisation. The first set rolls through classics like “Ramble On Rose” and “Playing In The Band,” but it’s the second set that truly ignites – a seamless China Cat Sunflower > I Know You Rider segue erupts into a thunderous Promised Land → Bertha → Greatest Story Ever Told, followed by a raucous Black Peter, Loose Lucy, and a driving Truckin'. Jerry Garcia celebrated his birthday with scorching leads and an “off‑the‑wall” vibe that reviewers called “high‑energy” and “blazing,” while Phil Lesh’s nine‑minute bass solo made the floor vibrate. Even without extensive jam lengths, the performance is tight, exuberant, and captures the band at a peak of collective joy.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.3,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 27,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All six recordings are positive except one mixed; multiple reviewers repeatedly praise the high‑energy playing, epic segues, and standout moments (Garcia’s fireworks guitar, Phil’s bass solo, seamless China>Rider > Promised Land chain). No consistent negative comments about performance were noted.",
+        "final_calculation": "2.5 + 0.2 + 1.6 = 4.3"
+      }
     },
     "best_recording": {
       "identifier": "gd73-07-31.aud.weiner.gdADT12.12883.sbeok.shnf",
-      "reason": "Excellent audience tape with clear sound, strong instrument separation and captures the high‑energy birthday vibe; most complete and sonically satisfying version."
+      "reason": "Excellent audience tape with crisp balance, vivid crowd ambience and strong capture of the show’s high‑energy peaks."
     },
     "key_highlights": [
-      "Blistering China Cat Sunflower > I Know You Rider segue",
-      "Jerry’s birthday‑charged guitar on Truckin'",
-      "Powerful Promised Land > Bertha > Greatest Story Ever Told sequence",
-      "Phil’s nine‑minute bass solo that makes the floor vibrate"
+      "Epic China Cat Sunflower > I Know You Rider segue into a massive Promised Land → Bertha → Greatest Story Ever Told.",
+      "Jerry's birthday celebration guitar work is described as scorching, off‑the‑wall and high‑energy throughout.",
+      "Phil Lesh delivers a memorable nine‑minute bass solo that makes the floor vibrate."
     ],
     "song_highlights": [
+      "Black Peter",
+      "Loose Lucy",
       "China Cat Sunflower",
       "I Know You Rider",
       "The Promised Land",
       "Bertha",
       "Greatest Story Ever Told",
-      "Black Peter",
-      "Loose Lucy",
-      "Truckin'",
-      "Playing In The Band"
+      "Playing In The Band",
+      "Truckin'"
     ],
     "band_performance": {
-      "Jerry": "Birthday‑fueled playing, “party hard” guitar tones and A+++ performance throughout, especially on Truckin' and the China Cat > Rider transition.",
-      "Phil": "Impressive nine‑minute bass solo around the 9‑minute mark; chord work that made the floor vibrate.",
+      "Jerry": "Celebrated his birthday with scorching, high‑energy guitar work that reviewers called \"off the wall\" and \"blazing.\"",
+      "Phil": "Provided a standout nine‑minute bass solo that made the floor vibrate, highlighted as a memorable moment of the night.",
       "Bob": "",
       "Keith": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 6,
-    "processed_date": "2025-09-10T01:58:19.824079+00:00",
+    "processed_date": "2025-09-22T16:13:48.030910+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
+      [
+        "Black Peter"
+      ],
+      [
+        "Loose Lucy"
+      ],
       [
         "China Cat Sunflower",
         "I Know You Rider"
@@ -264,18 +277,12 @@
         "Greatest Story Ever Told"
       ],
       [
-        "Black Peter"
-      ],
-      [
-        "Loose Lucy"
+        "Playing In The Band"
       ],
       [
         "Truckin'",
         "Goin' Down The Road Feeling Bad",
         "Johnny B. Goode"
-      ],
-      [
-        "Playing In The Band"
       ]
     ]
   }

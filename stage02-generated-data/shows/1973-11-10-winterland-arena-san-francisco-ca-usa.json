@@ -213,45 +213,50 @@
     "winterland-1973-complete-recordings"
   ],
   "ai_show_review": {
-    "summary": "Explosive Playin' sandwich lifts a shaky first set",
-    "blurb": "The second set erupts with a fiery Playing In The Band > Uncle John's Band > Morning Dew jam sandwich, showcasing Jerry's raging guitar and Keith's soaring keys. First‑set material is uneven, with the Weather Report Suite flailing, but highlights like Jack Straw and Big River keep the momentum.",
-    "review": "Winterland, November 10 1973, finds the Dead in a classic late‑'73 swing. The first set meanders through a solid Bertha and an energetic Jack Straw before sagging on the Weather Report Suite and some lackluster moments like Loser. The real magic ignites in the second set when the band launches into a pressure‑cooker Playin' > Uncle John's Band > Morning Dew sandwich that rolls back into Playin' again, delivering one of the season’s most memorable jams. Jerry Garcia is on fire, his guitar swirls and riffs driving the intensity, while Keith Godchaux adds cascading keyboard textures during Wharf Rat. Big River and Stella Blue provide soulful contrast before a tight Truckin'/Wharf Rat/Sugar Magnolia run closes the set. The show ends with the usual Saturday Night crowd‑pleasers, One More Saturday Night and Casey Jones.\n\nTwo soundboard sources exist: one suffers from pitch and speed issues but captures the second‑set fireworks, while the Miller‑Clugston recording offers crystal‑clear fidelity that lets every note shine. For most listeners the latter is the preferred pick, delivering a pristine listening experience without compromising the performance’s power.",
+    "summary": "Strong second‑set Playin’>UJB sandwich; Jerry shines, mixed first set",
+    "blurb": "The second set delivers a deep Playin' → Uncle John's Band → Morning Dew jam that lifts the night. Jerry Garcia's swirling solos dominate, while the first set is uneven but picks up with Jack Straw and Deal.",
+    "review": "Winterland on November 10, 1973, offers a classic late‑’70s Dead experience—uneven in the opening half but soaring in the latter portion. The first set stumbles at times, yet moments like Jack Straw and Deal showcase the band's tight interplay. It’s the second set that truly shines: a sprawling Playin' → Uncle John's Band → Morning Dew sandwich that rolls into another round of Playin', highlighted by Jerry Garcia's fierce, swirling solos that many fans describe as \"masterful swirl.\" Keith Godchaux adds his signature cascading riffs on Wharf Rat, and the improvisational “circle” jam after it is a standout. While Truckin' falls flat, the overall performance remains compelling, especially for those who love deep jams and Jerry’s incendiary lead work.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.3,
-      "confidence": "high"
+      "ai_rating": 3.1,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 19,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.5,
+        "sentiment_rationale": "One recording is mixed, noting both high points (second‑set sandwich, Jerry's solos) and low points (Truckin', uneven first set). The other recording is positive about audio quality, implying a solid performance. Overall sentiment leans slightly positive, yielding a modest +0.5 adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.5 = 3.1"
+      }
     },
     "best_recording": {
       "identifier": "gd1973-11-10.140704.set1p.set2p.sbd.pcm.miller.clugston.flac1644",
-      "reason": "Excellent soundboard clarity with no pitch issues, preserving the band's dynamics and the standout second‑set jam"
+      "reason": "Exceptional audio clarity and fidelity capture the performance, making it the most enjoyable listening experience."
     },
     "key_highlights": [
-      "Explosive Playin' > Uncle John's Band > Morning Dew sandwich in set 2",
-      "Jerry Garcia's raging guitar on Jack Straw, Big River, and throughout the jam",
-      "Keith Godchaux’s cascading riffs during Wharf Rat add texture",
-      "Strong second‑set momentum lifts an otherwise uneven first set"
+      "The Playin' → Uncle John's Band → Morning Dew sandwich in the second set is a deep, flowing jam.",
+      "Jerry delivers fierce, swirling solos throughout, especially on Jack Straw and the sandwich.",
+      "Keith Godchaux’s cascading riffs add sparkle to Wharf Rat.",
+      "First set uneven but picks up with Deal and Jack Straw."
     ],
     "song_highlights": [
       "Playing In The Band",
       "Uncle John's Band",
       "Morning Dew",
       "Jack Straw",
-      "Big River",
-      "Stella Blue",
-      "Truckin'",
-      "Wharf Rat",
-      "Sugar Magnolia"
+      "Deal",
+      "Wharf Rat"
     ],
     "band_performance": {
-      "Jerry": "Raging, hot, masterful guitar work especially during the Playin' sandwich and high‑energy runs on Jack Straw and Big River.",
+      "Jerry": "Fierce, swirling solos highlighted on Jack Straw, the Playin' sandwich and the UJB sequence.",
       "Phil": "",
       "Bob": "",
-      "Brent": "Keith's cascading riffs shine during Wharf Rat, adding texture to the jam.",
+      "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-10T03:42:34.634902+00:00",
+    "processed_date": "2025-09-24T02:11:55.159263+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -266,10 +271,7 @@
         "Jack Straw"
       ],
       [
-        "Big River"
-      ],
-      [
-        "Stella Blue"
+        "Deal"
       ],
       [
         "Truckin'",

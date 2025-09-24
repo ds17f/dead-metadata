@@ -16,34 +16,41 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with a classic Dark Star highlight and generally praised sound quality, though reviewer sentiment is mixed.",
-    "review": "The fixed sound‑board source captures an “old familiar blip” during Dark Star that fans find memorable, indicating a solid performance of that centerpiece. While one reviewer gives it five stars for the musical moment, another unrelated low‑rating post adds noise to the overall sentiment, leaving the assessment mixed but leaning positive on both show and tape quality.",
+    "summary": "Strong Dark Star moment captured on a recording of uncertain source quality",
+    "review": "Reviewers highlight an “old familiar blip” during Dark Star, indicating a standout improvisational peak. No concrete details about the audio source or mix are given, so the technical quality remains unclear.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.0,
       "confidence": "medium",
-      "rationale": "Only two reviews (one enthusiastic, one off‑topic) provide limited data; the positive mention of Dark Star and the soundboard source suggest a good show and recording, but the contradictory low rating reduces confidence."
+      "rationale": "One enthusiastic 5‑star review praises a Dark Star highlight; the other review provides no useful information and gives a 0 rating, leaving overall confidence moderate."
     },
     "recording_quality": {
-      "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "File name indicates a fixed soundboard (sbd‑fixed) tape; no specific complaints about clarity or mix, implying acceptable to good audio quality."
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No reviewer commented on soundboard vs. audience or clarity; recording quality cannot be reliably assessed."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star"
       ],
       "poor_songs": [],
-      "setlist_flow": "Reviewers only note the Dark Star moment, suggesting that part of the set stood out; no comments on overall pacing or other songs."
+      "setlist_flow": "Not enough information to comment on set structure or pacing."
     },
     "band_member_comments": {
-      "Jerry": "Second reviewer praises Jerry Garcia’s music in a generic spiritual context, indicating high regard for his playing.",
+      "Jerry": "",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T22:22:56.045513+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T05:09:29.732910+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-02-15.150175.sbd-fixed.miller.flac1648"
   }

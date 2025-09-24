@@ -205,46 +205,60 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Stellar Let It Grow & epic He's Gone > Truckin' > The Other One",
-    "blurb": "The show shines with a soaring Let It Grow backed by the new horn section and an unforgettable He's Gone → Truckin' → The Other One → Wharf Rat marathon. Jerry’s tone is buttery, Phil lays down rock‑solid bass, and Keith adds lively keys. Highlights include Black Peter, Jack Straw and a sweet Row Jimmy.",
-    "review": "September 21, 1973 at the Spectrum captured the Dead in top form. The first set rolls through classic early‑’70 material – Big Railroad Blues, Sugaree and a tight Jack Straw – before a standout Black Peter that feels freshly inspired. The second half is where the night truly ignites: Let It Grow swells with Doug Sahm’s horn section, then the band launches into an unbroken jam that weaves He's Gone into Truckin', morphs into The Other One and erupts into Wharf Rat, all propelled by Bill’s crisp drumming and Keith’s lively organ fills. Row Jimmy showcases Garcia’s sweet soloing while Casey Jones closes with the kind of joyous drive only a Spectrum crowd could coax. Across multiple recordings the performance is consistently praised for its energy, superb musicianship and the added color of the horns, making this one of the era’s must‑hear shows.",
+    "summary": "Stellar Weather Report Suite > Let It Grow jam, horn‑filled second set",
+    "blurb": "The Spectrum show shines with a soaring Weather Report Suite into Let It Grow and a powerhouse second‑set medley of He's Gone > Truckin' > The Other One > Wharf Rat. Keith's keyboards are lively and Bill Kreutzmann locks in tight grooves throughout.",
+    "review": "On September 21, 1973 at the Spectrum the Dead delivered one of their most exhilarating late‑summer outings. The first set mixed familiar road‑food—Big Railroad Blues, Here Comes Sunshine and a rare Black Peter—with tight playing that set up an epic second half. The highlight is the Weather Report Suite segueing into Let It Grow, a smoky, horn‑enhanced journey that many reviewers call \"superb\" and \"magical.\" From there the band rolls through a seamless He’s Gone → Truckin' → The Other One → Wharf Rat marathon, each tune building on the last with Keith Godchaux’s lively organ/piano work and Bill Kreutzmann’s crisp snare‑kick interplay driving the jams. Highlights like Loose Lucy, Jack Straw, Casey Jones and an encore of One More Saturday Night round out a night that feels both tight and exploratory—a true Spectrum classic captured best on a crystal‑clear soundboard recording.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 37,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Four recordings are explicitly positive, praising the Weather Report Suite > Let It Grow jam, horn‑filled second set, and Keith's lively keyboards; two mixed reviews note only minor cuts. No consistent negative commentary appears, so a strong positive adjustment of +1.6 is applied.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd1973-09-21.127554.sbd.boswell.smith.flac16",
-      "reason": "Crystal‑clear soundboard capture with no dropouts, delivering the iconic Truckin' → The Other One → Wharf Rat sequence in pristine detail."
+      "reason": "Excellent soundboard capture with crystal‑clear Spectrum magic, no glitches, and superb horn‑filled jams."
     },
     "key_highlights": [
-      "Let It Grow featuring the new horn section adds color and power.",
-      "He's Gone > Truckin' > The Other One > Wharf Rat medley is a seamless, high‑energy jam.",
-      "Black Peter performed with tight arrangement and strong vocal delivery.",
-      "Row Jimmy spotlights Garcia’s beautiful tone and sweet solo."
+      "Weather Report Suite > Let It Grow jam that blends smoky ambience with soaring horns.",
+      "He’s Gone → Truckin' → The Other One → Wharf Rat marathon delivering nonstop energy.",
+      "Keith Godchaux’s lively keyboards driving the second‑set improvisations.",
+      "Bill Kreutzmann’s tight groove and crisp snare/kick interaction throughout."
     ],
     "song_highlights": [
       "Black Peter",
-      "Jack Straw",
-      "Here Comes Sunshine",
+      "Weather Report Suite Prelude*",
+      "Weather Report Suite Part 1",
       "Let It Grow",
-      "He's Gone",
+      "Loose Lucy",
+      "Here Comes Sunshine",
+      "Jack Straw",
+      "Big Railroad Blues",
+      "Wharf Rat",
       "Truckin'",
       "The Other One",
-      "Wharf Rat",
-      "Row Jimmy",
-      "Casey Jones"
+      "He's Gone",
+      "Casey Jones",
+      "Playing In The Band",
+      "Row Jimmy"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s guitar tone is buttery and his solo on Row Jimmy is described as sweet and beautiful, with improvisational choices highlighted throughout the night.",
-      "Phil": "Phil delivers solid, rock‑steady bass work (even if mixed a bit low) and adds strong backing vocals, especially evident during the extended jams.",
-      "Bob": "Bob’s vocal performance shines on Row Jimmy and he contributes robust energy to the set’s overall drive.",
-      "Keith": "Keith is lively and upbeat on keys, filling out the sound and complementing the horns; occasional vocal level quirks noted but his playing remains a highlight.",
+      "Jerry": "Garcia delivered flawless guitar tone and strong, beautiful vocals throughout; his playing was described as \"feeling no pain\" and consistently on point.",
+      "Phil": "Lesh provided a solid bass foundation despite being low in the mix; his backing vocals were strong and his lines on The Other One were highlighted as powerful.",
+      "Bob": "",
+      "Brent": "",
+      "Keith": "Godchaux was very up and lively, anchoring the jams with energetic keyboards that shone especially during Let It Grow and the horn‑filled sections.",
       "Mickey": "",
-      "Billy": "Bill Kreutzmann receives glowing remarks for clean snare/kick interaction, great timing, and standing out in the mix without being drowned by the rest of the rhythm section."
+      "Billy": "Bill Kreutzmann earned glowing remarks for clean snare/kick interaction and a standout groove that drove the second‑set jams."
     },
     "processed_recordings": 6,
-    "processed_date": "2025-09-10T02:48:19.216069+00:00",
+    "processed_date": "2025-09-23T14:54:18.758203+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -252,15 +266,21 @@
         "Black Peter"
       ],
       [
-        "Jack Straw"
+        "Weather Report Suite Prelude*",
+        "Weather Report Suite Part 1",
+        "Let It Grow"
+      ],
+      [
+        "Loose Lucy"
       ],
       [
         "Here Comes Sunshine"
       ],
       [
-        "Weather Report Suite Prelude*",
-        "Weather Report Suite Part 1",
-        "Let It Grow"
+        "Jack Straw"
+      ],
+      [
+        "Big Railroad Blues"
       ],
       [
         "He's Gone",
@@ -271,6 +291,9 @@
       ],
       [
         "Casey Jones"
+      ],
+      [
+        "Playing In The Band"
       ]
     ]
   }

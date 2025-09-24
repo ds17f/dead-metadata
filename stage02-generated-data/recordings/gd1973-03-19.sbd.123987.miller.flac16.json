@@ -16,25 +16,25 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard source with good sound quality captures a marathon set highlighted by a 16‑minute “Playing in the Band”.",
-    "review": "The reviewer praises the show’s extensive song selection, noting a 15‑song second set and an epic 16‑minute “Playing in the Band” that showcases classic Dead harmonies. They also emphasize that the recording is now available as a soundboard with good overall sound quality.",
-    "sentiment": "positive",
+    "summary": "Soundboard recording with clear sound and great harmonies, but it starts mid‑set and omits the early part of the concert.",
+    "review": "The recording is praised for its clean sound quality and tight vocal harmonies, sourced from a soundboard. However, listeners note that the tape begins with the 15th song (the last track of the first set) and then runs straight into a 15‑song second set, making the concert incomplete.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
-      "confidence": "low",
-      "rationale": "Only one review, but the text is enthusiastic about both performance and sound; lack of detailed rating forces a moderate‑high score with low confidence."
+      "stars": 3.0,
+      "confidence": "medium",
+      "rationale": "Positive comments on sound quality and performance are offset by the missing first‑set material; with only one review, confidence is moderate."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Reviewer mentions “Good Sound!” and no specific issues, indicating a clear and balanced recording."
+      "technical_notes": "Clear, well‑balanced sound noted as 'Good Sound', but the recording starts mid‑show (15th song) and therefore lacks completeness."
     },
     "show_quality": {
       "standout_songs": [
-        "Playing in the Band"
+        "Playing In The Band"
       ],
       "poor_songs": [],
-      "setlist_flow": "Long first set ending with PITB, followed by a 15‑song second set; praised for song selection and overall flow."
+      "setlist_flow": "The tape begins with the last song of the first set (PITB, ~16 min) and then runs a full 15‑song second set; missing earlier material disrupts the overall flow."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,7 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T23:09:14.029273+00:00",
+    "song_mentions": {
+      "Playing In The Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T06:14:30.048391+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-03-19.sbd.123987.miller.flac16"
   }

@@ -16,39 +16,89 @@
   "high_ratings": 9,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard recording with a rough start but improving mix, delivering a solid 1973 show highlighted by an epic Dark Star > Eyes > China Doll sequence and rare Bertha.",
-    "review": "The SBD capture of the June‑24‑1973 Portland concert starts out muddy – a cut in I Know You Rider and an under‑mixed drum kit are evident – but after “They Love Each Other” the mix clears up and the performance shines.  The second set is the real prize, featuring a long Dark Star that segues into Eyes of the World and China Doll, plus a rare early‑’73 Bertha and a loose‑going Sugar that many fans cite as highlights.  Overall the show is solid with an uneven first set but a memorable second half, and the recording, while not pristine, is listenable once EQ is applied.",
-    "sentiment": "positive",
+    "summary": "Good sound‑board recording that improves after a rough start, highlighted by an epic Dark Star > Eyes medley and classic ’73 gems like Bertha, Sugar and Mexicali Blues.",
+    "review": "The Miller SBD capture of the June 24 1973 Portland show starts out a bit muddy – the first few tracks are noisy and there’s a noticeable cut in “I Know You Rider” plus a poorly mixed drum kit – but the mix settles into solid, clear sound by the middle of the set. Musically the concert shines with a soaring Dark Star→Eyes→China‑Doll sequence, rare Bertha, sweet Sugar, and strong contributions from Jerry’s lead guitar, Phil’s jazzy vamping, and Keith’s keyboard work.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical performance (especially Dark Star/Eyes/China) and give 4‑5 star ratings, while noting early mix problems that keep the recording from being rated excellent."
+      "rationale": "Most reviewers praise the performance (especially Dark Star and second‑set jams) and consider the recording good once past the opening flaws; the weighted assessment (70 % show, 30 % recording) yields a rating just above four stars."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Early tracks are muddy with a noticeable cut around 2:28 in I Know You Rider and Billy Hart's kit under‑mixed; channels appear reversed on some SBD copies. After the first few songs the mix clears up and becomes very listenable, especially from Dark Star onward."
+      "technical_notes": "Early tracks are muddy and a cut at ~2:28 in “I Know You Rider” is audible; Billy’s drum kit is mixed low. After the first set the sound becomes clear and well‑balanced, with overall good fidelity for a 1973 SBD."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star > Eyes of the World > China Doll",
-        "Bertha (rare early‑73 version)",
+        "Dark Star > Eyes > China Doll",
+        "Bertha",
         "Sugar",
+        "Mexicali Blues",
+        "China Cat Sunflower",
         "Stella Blue"
       ],
       "poor_songs": [
-        "Row Jimmy (mixed reception, considered weak by some reviewers)"
+        "Promised Land",
+        "Row Jimmy"
       ],
-      "setlist_flow": "First set is uneven with a few flubs and average ‘73 material; the second set solidifies the concert, building to an extended Dark Star jam that carries the show’s momentum."
+      "setlist_flow": "The first set is uneven – rough start, some missed verses and a muddy mix – but it tightens by the middle. The second set is consistently strong, anchored by an epic Dark Star/Eyes medley that carries the concert to a high‑energy finish."
     },
     "band_member_comments": {
-      "Jerry": "Praised for special, \"perfect\" guitar tone on Dark Star and overall strong playing throughout the night.",
-      "Phil": "Highlighted for a jazzy vamp in Dark Star and brilliant keyboard work on China Cat Sunflower and You Ain't Woman Enough; his improvisation is called “Philo‑Stop” by some reviewers.",
+      "Jerry": "Praised for spectacular lead work on Dark Star and other jams; his guitar tone is highlighted as ‘special’ and ‘amazing’ on several tracks.",
+      "Phil": "Noted for jazzy, free‑form vamping (‘Philo Stop’) during Dark Star and praised for brilliant playing on China Cat and Half‑Step Mississippi.",
       "Bob": "",
-      "Keys": "Keith (keys) noted as amazing on Mexicali Blues, China Cat Sunflower, and other second‑set moments.",
-      "Drums": "Billy Hart's kit is reported as poorly mixed early in the show; otherwise no specific drumming issues mentioned."
+      "Keys": "Keith (and Brent when present) receive praise for standout moments on Mexicali Blues, China Cat Sunflower, and overall keyboard brilliance throughout the show.",
+      "Drums": "Billy’s kit is reported as poorly mixed in the early portion; otherwise drumming performance isn’t specifically critiqued."
     },
-    "processed_date": "2025-09-10T01:06:40.596748+00:00",
+    "song_mentions": {
+      "Dark Star > Eyes > China Doll": {
+        "positive_mentions": 6,
+        "negative_mentions": 1,
+        "total_mentions": 7
+      },
+      "Eyes of the World": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Bertha": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mexicali Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stella Blue": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Row Jimmy": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Promised Land": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T15:05:41.523201+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-06-24.sbd.miller.99852.sbeok.flac16"
   }

@@ -16,25 +16,25 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Terrific Other One performance noted; recording details not provided",
-    "review": "The sole reviewer gave the show a five‑star rating, highlighting a “Terrific Other One.” No information about the source or sound quality was mentioned, so the recording aspect remains unknown while the musical highlight is clearly The Other One.",
+    "summary": "Terrific performance highlighted by a standout \"The Other One\", though recording details are unspecified.",
+    "review": "The lone five‑star review praises the rendition of \"The Other One\" as terrific, indicating a high level of enjoyment with that segment of the show. No information is given about the source or clarity of the audio, so the recording quality cannot be assessed from this feedback.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.6,
       "confidence": "low",
-      "rationale": "Single enthusiastic 5‑star review emphasizes a strong performance of The Other One, but provides no details on recording quality."
+      "rationale": "A single enthusiastic five‑star review focuses on a strong performance of \"The Other One\" but provides no recording details, leading to a high show rating with low confidence due to limited data."
     },
     "recording_quality": {
       "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "No specific comments about sound clarity, mix, or source type were provided."
+      "technical_notes": "Review does not mention any aspects of sound quality, clarity, or mixing."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One"
       ],
       "poor_songs": [],
-      "setlist_flow": "No commentary on set structure or pacing was given."
+      "setlist_flow": "No comments on overall set structure or pacing were provided."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,7 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T22:53:54.412397+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T05:55:03.548858+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-02-28.143133.s2.partial.gastwirt.sirmick.miller.flac1648"
   }

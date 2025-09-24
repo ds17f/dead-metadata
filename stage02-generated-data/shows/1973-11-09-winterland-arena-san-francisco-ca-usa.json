@@ -217,43 +217,52 @@
     "winterland-1973-complete-recordings"
   ],
   "ai_show_review": {
-    "summary": "Stellar Eyes of the World jam and tight set, minor pitch quirks",
-    "blurb": "The show delivers strong performances of They Love Each Other, Eyes Of The World and Here Comes Sunshine, with Jerry’s soaring solos and Phil’s thumping bass. The second set builds momentum through extended jams, highlighted by a flowing Weather Report Suite and seamless transitions into China Doll.",
-    "review": "Winterland on November 9, 1973 captures the Dead in high‑energy form. Jerry Garcia’s tone is on point, delivering loopy licks during Eyes Of The World and powerful leads throughout the set. Phil Lesh provides a thumping, harmonically rich bass foundation that locks the band together, while Bob Weir supplies solid rhythm work with occasional standout fills—especially on I Know You Rider. Keith Godchaux’s piano and organ shine on Here Comes Sunshine and Me And My Uncle, adding bright texture to the mix. The second set is a showcase of extended improvisation: a soaring Weather Report Suite that segues into Let It Grow, then into an expansive Eyes Of The World before flowing straight into China Doll. Despite some speed/pitch quirks in the soundboard recording that require a -2.5 % correction and occasional mono punches, the overall balance is good and the performance energy shines through.",
+    "summary": "Soaring 'Eyes Of The World' & monster 'Here Comes Sunshine' with tight jams",
+    "blurb": "The show features a soaring 'Eyes Of The World', a monster 'Here Comes Sunshine', and tight group interplay throughout. Jerry's solos are loopy and powerful while Phil locks in a solid bass foundation. Highlights include 'Playing In The Band', 'Big River' and the seamless Weather Report Suite transition.",
+    "review": "Winterland, November 9‑1973 delivered one of those classic early‑’70s Dead marathons that still feels fresh. From the opening set through an expansive second set the band kept the energy high, building to peaks on a soaring 'Eyes Of The World' and a monster 'Here Comes Sunshine'. Garcia’s guitar was loopy and powerful, driving the jams while Phil Lesh provided excellent bass support. Keith’s piano added color on the sunshine‑filled numbers, and Bob Weir anchored the rhythm during extended improvisations like 'Playing In The Band'. The setlist flows smoothly—China Cat > Rider, Weather Report Suite into 'Eyes Of The World' > 'China Doll'—with no real lulls, making it a must‑listen for fans of this era.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 4.1,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 16,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.5,
+        "sentiment_rationale": "All available analysis is positive, praising Garcia's solos, Lesh's bass, and the overall set flow with multiple standout songs highlighted. No negative comments were found, so a strong positive adjustment is applied.",
+        "final_calculation": "2.5 + 0.1 + 1.5 = 4.1"
+      }
     },
     "best_recording": {
       "identifier": "gd73-11-09.sbd.kaplan.2657.sbefail.shnf",
-      "reason": "Soundboard source with clear, balanced mix that captures the band's tight playing despite minor speed/pitch issues."
+      "reason": "Good soundboard source with clear overall mix; despite minor speed/pitch quirks it captures the band's performance cleanly and is the only complete recording available."
     },
     "key_highlights": [
-      "Eyes Of The World extended jam with loopy Garcia licks",
-      "Weather Report Suite sequence flowing into Let It Grow and China Doll",
-      "Here Comes Sunshine opens second set with bright, uplifting vibe",
-      "Soundboard captures overall energy; minor pitch quirks are correctable"
+      "Monster 'Here Comes Sunshine' with soaring guitar lines",
+      "Epic 'Eyes Of The World' that lifts the second set",
+      "Tight transition from Weather Report Suite into 'Eyes Of The World' > 'China Doll'",
+      "Strong group interplay on 'Playing In The Band' and 'Big River'"
     ],
     "song_highlights": [
       "They Love Each Other",
       "Eyes Of The World",
       "Here Comes Sunshine",
       "Playing In The Band",
-      "To Lay Me Down",
       "Big River",
-      "China Doll"
+      "To Lay Me Down",
+      "China Doll",
+      "Mississippi Half-Step Uptown Toodeloo"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s tone and solos are a highlight, delivering loopy licks on Eyes Of The World and powerful leads throughout.",
-      "Phil": "Lesh provides thumping bass with strong harmonic work, keeping the jam sections tight and driving.",
-      "Bob": "Weir offers solid rhythm guitar support and memorable fills, notably on I Know You Rider.",
-      "Brent": "Keith’s piano/organ work is great, especially during Here Comes Sunshine and Me And My Uncle.",
+      "Jerry": "Garcia delivers loopy, powerful solos that drive the show, especially on 'Eyes Of The World' and 'Here Comes Sunshine'.",
+      "Phil": "Lesh is in excellent form, laying down a strong harmonic foundation throughout.",
+      "Bob": "Weir provides solid rhythm guitar support, anchoring jams like 'Playing In The Band'.",
+      "Keith": "Keith's piano and organ add texture and shine on 'Here Comes Sunshine' and other numbers.",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-10T03:38:50.508992+00:00",
+    "processed_date": "2025-09-24T02:07:38.905027+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -276,10 +285,13 @@
         "Playing In The Band"
       ],
       [
+        "Big River"
+      ],
+      [
         "To Lay Me Down"
       ],
       [
-        "Big River"
+        "Mississippi Half-Step Uptown Toodeloo"
       ]
     ]
   }

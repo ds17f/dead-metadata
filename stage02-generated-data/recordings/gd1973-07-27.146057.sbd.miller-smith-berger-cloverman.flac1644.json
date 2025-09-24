@@ -16,39 +16,53 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Pristine soundboard clarity with nostalgic 1973 vibes, though one reviewer notes pitch distortions and wonders if it’s a sound‑check.",
-    "review": "The recording captures a classic mid‑70s Dead show on a clean soundboard source that many listeners praise for its crystal‑clear instrument separation. While one fan revels in the era’s magic and the pristine audio, another points out noticeable pitch quirks and questions whether the tape is a soundcheck rather than a full concert, leading to mixed feelings about the performance.",
+    "summary": "Clear soundboard recording with pristine clarity, but the set feels more like a loose 1973 sound‑check jam than a full concert.",
+    "review": "The tape captures a bright, well‑balanced soundboard source that many listeners describe as having “pristine clarity.” However, the performance appears to be a rehearsal‑style sound check with fragmented jams and occasional pitch quirks, leaving the musical flow less defined than a typical show. Overall the recording is listenable but the concert itself feels incomplete.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.1,
+      "stars": 3.2,
       "confidence": "medium",
-      "rationale": "One positive 4‑star review highlights excellent soundboard clarity; a second 0‑star review flags pitch problems and uncertainty about the source, resulting in an overall average rating with moderate confidence due to only two contradictory reviews."
+      "rationale": "One reviewer praises the clear soundboard quality while another points to pitch distortions and a non‑concert feel; limited data (only two reviews) leads to a moderate overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally praised for pristine clarity and instrument separation; however a reviewer mentions pitch distortions on Bird Song (and other sections) suggesting occasional mix issues."
+      "technical_notes": "Generally crisp and clear with “pristine” detail per the positive review, but another reviewer notes pitch distortions in Bird Song and suggests the tape may be a sound‑check rather than a full mix."
     },
     "show_quality": {
       "standout_songs": [
         "Bird Song",
         "Big River",
-        "Wharf Rat",
-        "Promised Land"
+        "Wharf Rat"
       ],
-      "poor_songs": [
-        "Bird Song (pitch distortions)"
-      ],
-      "setlist_flow": "The set is described as a wild, free‑form jam with many transitions, but opinions diverge—some enjoy the spontaneous vibe while others feel the performance suffers from uneven execution."
+      "poor_songs": [],
+      "setlist_flow": "The set seems to consist of loose jam fragments and song snippets typical of a rehearsal or sound‑check, lacking the structured pacing of a standard concert."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
-      "Bob": "Weir blazes the lyrics and drives the vocal delivery.",
+      "Bob": "Bob Weir's vocal delivery is highlighted as energetic (“Weir just blazes the lyrics”).",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T01:34:40.274075+00:00",
+    "song_mentions": {
+      "Bird Song": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Big River": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Wharf Rat": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T15:46:54.558386+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-07-27.146057.sbd.miller-smith-berger-cloverman.flac1644"
   }

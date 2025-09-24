@@ -16,18 +16,18 @@
   "high_ratings": 9,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Audience‑recorded show with rough sound but stellar performances – Morning Dew opener, Black Throated Wind and an epic Eyes of the World.",
-    "review": "The concert is praised for its high‑energy first set opener (a soaring Morning Dew) and a second half packed with memorable jams, especially a near‑legendary Eyes of the World that builds into a Dark Star/Slipknot stretch.  The audience recording is described as hissy, harsh and at times bass‑poor, yet listeners consider it worth hearing for the musical moments.",
-    "sentiment": "positive",
+    "summary": "Audience recording with noticeable hiss and harshness but captures a stellar show highlighted by a soaring Morning Dew and an epic Eyes of the World.",
+    "review": "The performance shines with several standout moments – a long, powerful Morning Dew, a killer Black Throated Wind, a near‑ten‑minute Dark Star, Weather Report and one of the best Eyes of the World from 1973.  The audience tape is rough around the edges (hiss, occasional drop‑outs, bass‑light mix) yet still conveys the high energy and tight vibes of this Boston run.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.0,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Reviews consistently highlight an excellent performance (many 4–5 ★) while noting only moderate‑to‑poor recording quality; the weighted average yields a solid four‑star rating."
+      "rationale": "Strong musical performance with many praised songs outweighs the sub‑par audience recording; consistent positive comments across ten reviews give high confidence."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Hissy, harsh and crowd‑heavy sound; described as 'tin cans on a string', bass‑light, occasional drop‑outs (e.g., Sugar Magnolia) and uneven clarity in parts of the set."
+      "technical_notes": "Hiss and harsh, jangly crowd‑heavy mix; occasional drop‑outs (e.g., Sugar Magnolia) and bass‑light sound.  Despite these flaws the tape remains listenable and captures the show’s energy."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,13 +35,10 @@
         "Black Throated Wind",
         "Eyes of the World",
         "Dark Star",
-        "Weather Report Suite",
-        "Bertha > Promised Land"
+        "Weather Report"
       ],
-      "poor_songs": [
-        "Sugar Magnolia (cut out before Sunshine Daydream)"
-      ],
-      "setlist_flow": "The first set launches with a long, powerful Morning Dew and moves through upbeat rockers; the second set mirrors that energy with Bertha into Promised Land, then shifts into extended jams culminating in an outstanding Eyes of the World/Dark Star sequence."
+      "poor_songs": [],
+      "setlist_flow": "A high‑energy first set that builds into a tight, jam‑filled second set; the band stays loose and vibrant throughout, delivering several classic sequences (Bertha > Promised Land, Help on the Way > Slipknot! > Franklin's Tower) and a memorable extended Dark Star."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -50,7 +47,64 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T04:38:20.719213+00:00",
+    "song_mentions": {
+      "Morning Dew": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Black Throated Wind": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Loser": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Big River": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Bertha": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Promised Land": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Eyes of the World": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Weather Report": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Help on the Way > Slipknot! > Franklin's Tower": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T03:30:59.288168+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-11-30.aud.vernon.17277.sbeok.shnf"
   }

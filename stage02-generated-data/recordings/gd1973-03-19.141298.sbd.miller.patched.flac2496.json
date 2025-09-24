@@ -16,29 +16,30 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of an early‑1973 show with a killer Nobody’s Fault But Mine jam after Truckin’ and standout renditions of Stella Blue, Half‑Step and He’s Gone.",
-    "review": "The recording is praised as a pristine soundboard mix – “fantastic” and “excellent” quality – giving listeners crystal‑clear access to the band’s early‑73 vibe.  Musically the show shines with a sweet Nobody's Fault But Mine jam trailing Truckin', superb takes of Stella Blue, Half‑Step, He's Gone (and a memorable Stella > Jack transition), delivering an overall “mighty fine” performance.",
+    "summary": "Excellent 1973 soundboard recording featuring a sweet Nobody's Fault But Mine jam, stellar Stella Blue and He's Gone performances.",
+    "review": "The show is hailed as a high‑water mark of early‑'73 Dead, with reviewers calling out the soaring jam after Truckin', the glowing renditions of Stella Blue, He's Gone and Nobody’s Fault But Mine, plus a memorable Mississippi Half‑Step/Jack Straw flow. The soundboard source is described as crystal‑clear and “fantastic,” making the listening experience as vivid as being in the venue.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Four of five reviews are 4‑5 stars and specifically praise both the performance (standout jams, strong song selections) and the soundboard recording; only one outlier gives a zero rating unrelated to music quality."
+      "rationale": "Four out of five detailed reviews give 5 stars, praising both performance and soundboard quality; one solid 4‑star review adds nuance but no criticism. Consistent high praise yields a strong combined rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Multiple reviewers call the mix 'fantastic', 'crisp' and 'excellent'; no drop‑outs or balance issues are mentioned. Recorded by Charlie with a clean, full‑range sound."
+      "technical_notes": "Reviewers repeatedly note the recording is crystal‑clear, well‑balanced and free of noticeable dropouts or muddiness. No technical flaws are mentioned."
     },
     "show_quality": {
       "standout_songs": [
-        "Truckin' > Nobody's Fault But Mine jam",
+        "Nobody's Fault But Mine",
         "Stella Blue",
-        "Half-Step",
         "He's Gone",
-        "Stella > Jack (Jack Straw)"
+        "Truckin' (jam after)",
+        "Mississippi Half-Step",
+        "Jack Straw"
       ],
       "poor_songs": [],
-      "setlist_flow": "Early‑73 energy noted as a 'nice ride on the Mississippi'; transitions such as Stella > Jack are highlighted, indicating smooth pacing and strong set construction."
+      "setlist_flow": "The set is praised for its natural flow – a sweet Mississippi‑Half Step ride into Jack Straw, a glorious Stella Blue, and an extended Nobody’s Fault But Mine jam after Truckin' that keeps the momentum high."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -47,7 +48,39 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T23:07:37.482876+00:00",
+    "song_mentions": {
+      "Nobody's Fault But Mine": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stella Blue": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "He's Gone": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mississippi Half-Step": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Jack Straw": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T06:12:03.783217+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-03-19.141298.sbd.miller.patched.flac2496"
   }

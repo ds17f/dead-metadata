@@ -16,18 +16,18 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording riddled with dropouts and audience splices, yet the show still shines with a cathartic Playin' in the Band and a strong second‑set medley of Truckin', The Other One, Eyes and Stella.",
-    "review": "The performance is regarded as an energetic warm‑up for the following night, highlighted by an inspired Playin' in the Band and a standout second‑set sequence (Truckin' > The Other One > Eyes > Stella). However, the soundboard source suffers from frequent dropouts, volume anomalies and mismatched audience splices that force listeners to edit or tolerate uneven audio quality. Overall the music is enjoyable for fans willing to work around the technical flaws.",
+    "summary": "Fair soundboard recording plagued by dropouts, yet the concert delivers a cathartic Playin' in the Band and a strong Truckin'/Other One/Eyes/Stella sequence.",
+    "review": "The show is noted for its warm‑up vibe after Pigpen’s passing, with Playin' in the Band highlighted as a cathartic moment. Despite several dropouts, volume anomalies and audience splices that required heavy editing, the remaining music—especially the Truckin' → The Other One → Eyes → Stella stretch—remains enjoyable.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.0,
+      "stars": 3.3,
       "confidence": "medium",
-      "rationale": "Both reviewers gave 3‑star ratings, noting decent musical moments but significant recording problems; with limited data the rating reflects an average show hampered by poor audio."
+      "rationale": "Both reviewers gave 3‑star ratings; they praise specific song performances but repeatedly criticize the recording’s technical flaws, leading to an overall average rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "poor",
-      "technical_notes": "Numerous dropouts, volume anomalies and audience splices throughout; parts of the first set are missing and the second set required extensive fading and blending, resulting in an uneven listening experience."
+      "quality_rating": "fair",
+      "technical_notes": "Numerous dropouts, volume inconsistencies, and audience splices required extensive editing; some sections are faded in/out and reverb was added to mask vocal issues."
     },
     "show_quality": {
       "standout_songs": [
@@ -38,7 +38,7 @@
         "Stella"
       ],
       "poor_songs": [],
-      "setlist_flow": "Reviewers view this concert as a warm‑up to the following night’s top‑ten show; the second set is praised for its flow and energy despite technical interruptions."
+      "setlist_flow": "Viewed as a warm‑up to the legendary 16th, the set builds toward a strong second‑set medley (Truckin' > The Other One > Eyes > Stella) with Playin' in the Band serving as a high point."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -47,7 +47,34 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T22:57:44.642123+00:00",
+    "song_mentions": {
+      "Playin' in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Eyes": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stella": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T05:59:08.230996+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-03-15.136652.sbd.reelmaster.cassette.dat.sirmick.flac16"
   }

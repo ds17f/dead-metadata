@@ -191,50 +191,54 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Epic Eyes of the World jam; Bird Song shines; strong second set",
-    "blurb": "The second set delivers seamless segues from Truckin' through The Other One Jam into a soaring Eyes Of The World, with Jerry’s jazzy leads and Keith’s organ texture standing out. Bird Song and the debut of Let It Grow provide memorable moments despite a few first‑set miscues. Overall the show is a high‑energy 1973 performance worth revisiting.",
-    "review": "On September 7, 1973 at Nassau Coliseum the Dead rolled out a quintessential early‑’70s set that builds from a solid but uneven first half into one of the era’s most exhilarating second halves. Highlights include a fiery Jack Straw in the opening set and an especially vivid Bird Song that many reviewers call “stellar.” The real magic erupts after the intermission: Here Comes Sunshine launches a marathon that strings together Truckin' → Drums → The Other One Jam → Eyes Of The World, culminating in one of Jerry Garcia’s most praised jazzy solos of the year. The debut of Let It Grow—though a bit sloppy at first—adds historic weight, while Keith Godchaux’s organ and Rhodes tones underpin the improvisations with warmth. Despite some editing quirks on the soundboard source and occasional static on the audience tape, the performance’s energy and musicianship make this show a must‑listen for any Deadhead.",
+    "summary": "Stellar Let It Grow debut, soaring Eyes Of The World, mixed first set",
+    "blurb": "The second set erupts with the debut of Let It Grow feeding into a monster Truckin' > Drums > Other One Jam > Eyes Of The World sequence. Jerry’s new “wolf” tone shines on Eyes and Here Comes Sunshine, while Keith’s B‑13 organ adds classic ’73 texture. Bird Song and Playing In The Band are first‑set highlights despite a few early‑set hiccups.",
+    "review": "September 7, 1973 at Nassau Coliseum captures the Dead in a transitional moment where new tonal experiments meet tight jam chemistry. Jerry Garcia unveiled his much‑talked‑about “wolf” guitar tone on Eyes Of The World and rode that fire into an electrifying Here Comes Sunshine, while Keith Godchaux’s rare B‑13 organ color brightened Truckin' and the ensuing marathon. The highlight of the evening is the debut of Let It Grow, which launches a soaring sequence through Truckin' → Drums → The Other One Jam → Eyes Of The World that many fans cite as one of ’73’s peak moments. The first set opens strong with Bird Song and a spirited Playing In The Band, though it suffers from a sluggish start and occasional miscues (notably Bob’s stumble on Truckin'). Overall the show balances high‑energy improvisations with a few rough edges, delivering a memorable snapshot of the band’s evolving sound.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.2,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 43,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "Multiple recordings praise Jerry’s wolf‑tone guitar, the Let It Grow debut, and the extended Truckin' → Drums → Other One Jam → Eyes Of The World sequence (positive sentiment). While one analysis notes a mixed feel and occasional miscues, the overall tone is clearly positive across three sources, justifying a strong +1.4 adjustment.",
+        "final_calculation": "2.5 + 0.3 + 1.4 = 4.2"
+      }
     },
     "best_recording": {
       "identifier": "gd1973-09-07.sbd.goodbear.1126.sbeok.shnf",
-      "reason": "Excellent soundboard capture with crisp, well‑balanced mix; showcases the standout jams despite minor post‑production track splits."
+      "reason": "Crisp soundboard mix that captures the key jams and Jerry’s wolf tone with good instrument separation, despite minor editing quirks."
     },
     "key_highlights": [
-      "Jerry’s jazzy solo on Eyes Of The World is among his best of ’73.",
-      "Seamless second‑set segues: Truckin' → Drums → The Other One Jam → Eyes Of The World.",
-      "Debut performance of Let It Grow adds historic significance.",
-      "Bird Song shines in both sets, delivering a memorable melodic peak."
+      "Jerry’s debut of the “wolf” guitar tone on Eyes Of The World and Here Comes Sunshine.",
+      "Let It Grow debut leading into a monster Truckin' → Drums → Other One Jam → Eyes Of The World sequence.",
+      "Bird Song and Playing In The Band stand out in the first set despite a sluggish start.",
+      "Keith’s B‑13 organ texture adds classic 1973 flavor, especially on Truckin'."
     ],
     "song_highlights": [
-      "Bird Song",
       "Eyes Of The World",
       "Let It Grow",
-      "Here Comes Sunshine",
       "Truckin'",
-      "Drums",
       "The Other One Jam",
-      "Jack Straw"
+      "Bird Song",
+      "Playing In The Band",
+      "Here Comes Sunshine"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers jazzy licks on Eyes Of The World, soaring solos throughout, and the first Wolf guitar leads; occasional static on the audience tape slightly dulls his tone but overall he’s at his peak.",
-      "Phil": "Lesh provides tight, front‑of‑the‑train bass work, especially solid during The Other One Jam, with melodic fills that lift the improvisations.",
-      "Bob": "Weir supplies crunchy distortion and strong interplay, though a few reviewers note minor missteps in Playing In The Band.",
-      "Keith": "Godchaux’s organ presence is prominent on Truckin' and other jams, complemented by warm Rhodes tones that enrich the second‑set texture.",
+      "Jerry": "Shows extra‑octane, jazzy playing with the new “wolf” tone; solos on Eyes and Here Comes Sunshine are described as exploratory and powerful.",
+      "Phil": "Provides a solid, rhythmic bass foundation and steps forward with melodic lines during The Other One Jam and other jams.",
+      "Bob": "Delivers strong, distorted rhythm work that complements Jerry, though a slip on Truckin' is noted in one source.",
+      "Brent": "Keith Godchaux’s B‑13 organ adds rich texture to Truckin' and the surrounding jams, giving the show its characteristic ’73 keyboard flavor.",
       "Mickey": "",
-      "Billy": "Kreutzmann’s deep, driving kick anchors the jam sections, delivering a powerful rhythmic foundation throughout."
+      "Billy": "Bill Kreutzmann anchors the improvisations with deep, driving kick drum; his playing is praised as fabulous throughout."
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-10T02:14:57.030071+00:00",
+    "processed_date": "2025-09-22T16:58:38.785823+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "Bird Song"
-      ],
       [
         "Truckin'",
         "Drums",
@@ -247,10 +251,13 @@
         "Stella Blue"
       ],
       [
-        "Here Comes Sunshine"
+        "Bird Song"
       ],
       [
-        "Jack Straw"
+        "Playing In The Band"
+      ],
+      [
+        "Here Comes Sunshine"
       ]
     ]
   }

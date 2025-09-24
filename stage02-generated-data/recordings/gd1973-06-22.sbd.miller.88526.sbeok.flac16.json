@@ -16,45 +16,78 @@
   "high_ratings": 26,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of the laid‑back Vancouver ’73 show, highlighted by a stellar Bird Song, the epic He’s Gone > Truckin’ > The Other One sequence and superb Jerry/Keith interplay.",
-    "review": "The June‑22‑1973 PNE Coliseum performance is widely praised for its relaxed, exploratory vibe and top‑tier improvisations – especially the soaring Bird Song, the powerful He’s Gone → Truckin’ → The Other One medley, and a standout Play‑in‑the‑Band.  Charlie Miller’s soundboard mix is crisp and well‑balanced, with only minor quirks (a slightly distracting edit on Bird Song and some Bertha hiss).  Overall both the music and the recording deliver an almost flawless listening experience.",
+    "summary": "Crystal‑clear soundboard capture of a laid‑back 1973 Vancouver show highlighted by an epic He's Gone → Truckin' → The Other One sequence, soaring Birdsong and a stellar bass solo.",
+    "review": "This June‑22‑1973 PNE Coliseum recording delivers superb soundboard fidelity – crisp mix, well‑balanced vocals and keyboards, with only minor bird‑song quirks. Musically the show is a relaxed, exploratory masterpiece; the second set rolls from a gorgeous Bird Song into a blazing He's Gone → Truckin' → The Other One stretch, while the first set offers a one‑of‑a‑kind Playin' In The Band and an unforgettable Truckin' bass solo. Fans repeatedly cite the superb guitar tones, Keith’s piano work and Bill’s tight drumming as reasons this concert remains a top‑tier 1973 performance.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
+      "stars": 4.7,
       "confidence": "high",
-      "rationale": "Over 25 reviews (average 4.36★) overwhelmingly praise both performance and sound quality; weighting favors the show, leading to a strong combined rating."
+      "rationale": "Over 30 reviews, average rating >4.8, uniformly praising both the musical performance and the soundboard quality; only minor technical complaints. Weighted 70 % show + 30 % recording yields an elite score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Crisp, well‑balanced mix with beautiful EQ; Charlie Miller’s work praised. Minor issues noted on Bird Song edit and occasional Bertha hiss, but overall superior sound."
+      "technical_notes": "Crisp, well‑EQ'd mix with clear vocals and guitars; Charlie’s mastering praised. A few reviewers note a slightly distracting Birdsong edit and occasional Bertha sound hiccups, but overall the SBD is considered superior to other versions."
     },
     "show_quality": {
       "standout_songs": [
-        "Bird Song",
         "He's Gone > Truckin' > The Other One",
-        "Playin' in the Band",
-        "China Cat Sunflower > I Know You Rider",
-        "Box of Rain",
-        "Black Peter",
+        "Bird Song",
+        "Playin' In The Band",
+        "Truckin' (bass solo)",
         "Sugar Magnolia",
-        "Casey Jones (Encore)",
-        "Johnny B. Goode (Encore)"
+        "Jack Straw"
       ],
       "poor_songs": [
-        "Bertha (sound issues)",
-        "Bird Song (distracting edit for some listeners)"
+        "Bertha"
       ],
-      "setlist_flow": "The concert unfolds slowly at first, then builds into an expansive second set that many describe as unstoppable and tightly paced.  The relaxed West‑Coast vibe gives way to high‑energy jams, delivering a cohesive two‑hour journey."
+      "setlist_flow": "A relaxed, laid‑back first set that warms up into an unstoppable second set; long show with seamless transitions and a strong jazz‑inflected groove throughout."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly praised for gorgeous guitar tone, watery noodling on Black Peter and strong lead throughout the jams.",
-      "Phil": "Bass solo in the Truckin' jam called “gold”; noted for bombs in Playin', high notes at end of Box, teasing Fire on the Mountain, and overall powerful low‑end presence.",
-      "Bob": "Rhythm guitar and vocal work highlighted as solid and supportive, especially during jams and transitions.",
-      "Keys": "Keith’s piano/electric piano lauded for jazzy texture, prominent yet balanced mix; described as a key driver of the show’s energy.",
-      "Drums": "Bill’s drumming called tight, crisp and integral to the jazz‑based quintet feel."
+      "Jerry": "Repeatedly praised for rich guitar tone, watery noodling, and standout leads on Black Peter and El Paso.",
+      "Phil": "Bass solo in Truckin' called “one of a kind”; bombs in Playin', high notes on BOX, and teasing of Fire noted as highlights.",
+      "Bob": "Solid rhythm work and supportive lead; praised for tone during jams and the overall cohesion he provides.",
+      "Keys": "Keith Godchaux’s piano/electric‑piano highlighted as strong on Bird Song, Big River, and transitions; described as “prominent” and “jazzy”.",
+      "Drums": "Bill Kreutzmann’s drumming called tight, jazz‑based, and a key part of the show’s energetic flow."
     },
-    "processed_date": "2025-09-10T00:54:36.927715+00:00",
+    "song_mentions": {
+      "Bird Song": {
+        "positive_mentions": 9,
+        "negative_mentions": 1,
+        "total_mentions": 10
+      },
+      "He's Gone > Truckin' > The Other One": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Playin' In The Band": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Truckin' (bass solo)": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Jack Straw": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Bertha": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-22T14:46:31.920446+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-06-22.sbd.miller.88526.sbeok.flac16"
   }

@@ -16,36 +16,65 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑quality soundboard capture of a solid 1973 show with standout “Eyes of the World” and vibrant Brown Eyed Woman/Stella Blue, though some listeners note occasional drop‑outs.",
-    "review": "The Miller mix is widely regarded as a genuine SBD that delivers clear instrument separation and captures the band’s mid‑’70s vibe. While fans praise the performance – especially the “Eyes of the World” jam and the energy of Brown Eyed Woman and Stella Blue – a few note blips, drop‑outs, and an overall tentative feel in parts of the set.",
+    "summary": "High‑quality soundboard capture of an average‑to‑good ’73 show with standout Brown Eyed Woman, Stella Blue, Wharf Rat and a strong Eyes of the World jam.",
+    "review": "The Miller mix appears to be a true SBD that sounds clear for most of the set, though a few listeners note occasional blips and drop‑outs. Musically the concert is solid if unspectacular, highlighted by Brown Eyed Woman, Stella Blue, Wharf Rat and an engaging Eyes of the World sequence, while the overall flow feels typical of 1973 – good song selection but not as expansive as neighboring shows.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.9,
+      "stars": 3.8,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show 4–5 stars for performance and classify the source as a good soundboard, but several mention audible glitches that pull the overall rating down."
+      "rationale": "Most reviewers praise the soundboard source and several songs, but a few note audio glitches and average playing; weighting 70% show (≈4) + 30% recording (≈3) yields ~3.8."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Generally praised as a crisp SBD with stage‑mic bleed adding audience ambience; however, some listeners report blips, drop‑outs, and occasional muddiness."
+      "quality_rating": "fair",
+      "technical_notes": "Generally clear SBD with high‑quality tone, but some reviewers report blips, drop‑outs and occasional muffling."
     },
     "show_quality": {
       "standout_songs": [
-        "Eyes of the World",
         "Brown Eyed Woman",
-        "Stella Blue"
+        "Stella Blue",
+        "Wharf Rat",
+        "Eyes of the World",
+        "Truckin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "Set one features strong vocal moments (Donna) and a relaxed vibe; set two is shorter but includes a notable Truckin jam that morphs into Eyes of the World, giving the show a balanced pacing despite an overall tentative feel."
+      "setlist_flow": "Typical 1973 pacing – solid first set with notable vocal moments, a shorter second set that still delivers strong jams like Eyes of the World; overall an average but enjoyable show."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "Phil's bass work is noted, though some reviewers heard occasional drop‑outs during his lines.",
-      "Bob": "Bob Weir is mentioned for his onstage comment “Rockin' your socks off.”",
+      "Phil": "His bass work is noted, though some listeners mention drop‑out issues affecting the low end.",
+      "Bob": "Donna's vocals in set one and Bob’s onstage comment about “Rockin your socks off” are highlighted.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T22:37:13.253636+00:00",
+    "song_mentions": {
+      "Brown Eyed Woman": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stella Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Wharf Rat": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Eyes of the World": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T05:30:48.805153+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-02-21.sbd.miller.111120.flac16"
   }

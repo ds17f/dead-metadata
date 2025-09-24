@@ -16,18 +16,18 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Date correction noted; no information on performance or audio quality.",
-    "review": "The only comment flags the recording as mislabeled – it should be dated 3/30/73, not 9/30/73. Reviewers provide no insight into the band's playing or the sound quality, so an evaluation of the show or recording cannot be derived from this feedback.",
-    "sentiment": "mixed",
+    "summary": "No audio or performance details provided; reviewer only notes an incorrect concert date.",
+    "review": "The single review flags a metadata mistake, correcting the show to March 30 1973 instead of September 30. It contains no commentary on sound quality, mix, or musical performance, so recording and show quality cannot be assessed from this feedback.",
+    "sentiment": "negative",
     "ai_rating": {
-      "stars": 2.5,
+      "stars": 1.0,
       "confidence": "low",
-      "rationale": "Only a single review that addresses metadata, not musical or technical aspects; insufficient data to rate the show or recording accurately."
+      "rationale": "Only one review with a zero‑star rating that mentions a date error; no substantive information about the music or recording quality."
     },
     "recording_quality": {
       "source_type": "unknown",
-      "quality_rating": "fair",
-      "technical_notes": "No comments on sound clarity, mix balance, or source type; recording quality cannot be assessed."
+      "quality_rating": "poor",
+      "technical_notes": "Reviewer only pointed out an incorrect date; no comments on sound clarity, mix, or source type."
     },
     "show_quality": {
       "standout_songs": [],
@@ -41,7 +41,8 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T23:45:01.439406+00:00",
+    "song_mentions": {},
+    "processed_date": "2025-09-22T07:13:36.679957+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-03-30.154328.aud-composite.flac1644"
   }

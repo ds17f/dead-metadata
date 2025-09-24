@@ -16,25 +16,25 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good matrix recording featuring a standout La De Da Day performance with guest Rick Danko",
-    "review": "The reviewer praised the La De Da Day track, calling it “Wow!” and highlighted Rick Danko’s contribution, suggesting a memorable moment in the show. No comments were made about sound flaws, implying the composite soundboard‑audience mix is at least clean enough for enjoyment.",
+    "summary": "Positive review highlights a standout La De Da Day performance; recording quality not discussed.",
+    "review": "The sole reviewer gave the release four stars and raved about the La De Da Day track, even mentioning Rick Danko’s contribution. No details were provided regarding the source or sonic clarity of the recording.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.0,
       "confidence": "low",
-      "rationale": "Only one 4‑star review; positive remarks about a specific song and guest but no technical details, so rating reflects the limited data."
+      "rationale": "Only one moderately detailed review exists; it praises the performance but offers no insight into audio quality, so rating reflects a good show with unknown recording fidelity."
     },
     "recording_quality": {
-      "source_type": "matrix",
-      "quality_rating": "good",
-      "technical_notes": "No explicit criticism of sound quality; reviewers did not note drop‑outs or muddiness, suggesting a satisfactory composite mix."
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No specific comments on audio clarity or mix were provided."
     },
     "show_quality": {
       "standout_songs": [
         "La De Da Day"
       ],
       "poor_songs": [],
-      "setlist_flow": "Not discussed in the available review."
+      "setlist_flow": "No detailed commentary on set pacing was given."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,7 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T01:49:22.113874+00:00",
+    "song_mentions": {
+      "La De Da Day": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T16:03:06.862507+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-07-28.150454.SBD-AUD.composite.t-flac16"
   }

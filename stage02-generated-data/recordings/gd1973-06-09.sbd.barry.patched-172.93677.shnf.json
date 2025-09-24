@@ -16,35 +16,47 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording of a sweltering RFK show that delivers solid performances – Box of Rain and a scorching Playing In The Band stand out despite occasional slip‑ups.",
-    "review": "The set was played in brutally hot conditions, yet the band pushed through with notable moments such as a heartfelt Box of Rain and an incendiary Playing In The Barrels. Jerry Garcia has a few missteps but shines on the PITB jam, and the overall sound is clear enough to enjoy, though the heat‑induced fatigue shows up in some sluggish passages.",
+    "summary": "Soundboard recording with decent sound captures a scorching RFK show where the band pushed through heat‑induced fatigue, delivering a smoking “Playing In The Band” and an uplifting “Box of Rain”.",
+    "review": "The patched soundboard source provides a listenable mix that many fans describe as ‘nice’.  The performance was mixed – Jerry slipped up at times but delivered a stellar PITB solo, the band soldiered through extreme heat, and Garcia later called the set “horrible”, yet audience members still recall highlights like “Box of Rain”.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.9,
+      "stars": 3.6,
       "confidence": "medium",
-      "rationale": "Most reviewers praise the performance and note a decent soundboard capture, but there are recurring comments about heat‑related fatigue and occasional mistakes that keep the rating from higher levels."
+      "rationale": "Show quality is uneven (strong PITB and Box of Rain vs. Garcia’s own criticism and heat‑related sluggishness) while the recording is a usable soundboard with no major flaws, yielding an overall rating in the good‑to‑average range."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Listeners describe the mix as nice and clear; no major audio glitches reported, though the heat may have affected perceived energy."
+      "technical_notes": "Listeners note the mix is decent/nice; no specific complaints about clarity or drop‑outs, but no detailed technical praise either."
     },
     "show_quality": {
       "standout_songs": [
         "Box of Rain",
-        "Playing In The Barrels"
+        "Playing In The Band"
       ],
       "poor_songs": [],
-      "setlist_flow": "A marathon first set (14 songs) performed under extreme heat; the band showed grit, delivering strong jams despite occasional sluggishness."
+      "setlist_flow": "The scorching DC heat made the first set feel sluggish at points, yet the band’s grit kept a full 14‑song first set and a high‑energy second set highlighted by PITB."
     },
     "band_member_comments": {
-      "Jerry": "Mentioned having a few screw‑ups but praised his smoky playing on Playing In The Barrels.",
-      "Phil": "One reviewer wondered why Phil sang at RFK, implying vocal presence was notable but not specifically evaluated.",
+      "Jerry": "Has occasional screw‑ups but is 'smokin'' on Playing In The Band.",
+      "Phil": "Questioned why he always sang at RFK; no specific playing comment.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T00:27:45.373113+00:00",
+    "song_mentions": {
+      "Box of Rain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playing In The Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-22T14:12:57.400884+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-06-09.sbd.barry.patched-172.93677.shnf"
   }

@@ -16,26 +16,26 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crisp but slightly bass‑thin soundboard recording of a gem show with standout versions of Playin’ China/Rider and Eyes.",
-    "review": "Both reviewers rate the set as a “gem,” highlighting especially strong renditions of Playin' China/Rider and Eyes. The soundboard capture is described as crisp, though it suffers from a thin low end, wind noise and an occasional whine on He’s Gone > Truckin’, meaning the recording is good but not flawless.",
+    "summary": "Crisp yet slightly bass‑thin audience recording of a gem show featuring standout versions of China Cat Sunflower/Rider and Eyes of the World.",
+    "review": "Both reviewers rave about this performance, calling it a \"gem\" with smoking renditions of the China Cat Sunflower → I Know You Rider sequence and Eyes of the World. The recording is praised for its clarity but noted as bass‑light, needing some EQ, and plagued by wind noise and a whine on the He’s Gone → Truckin’ segue. Overall it offers an enjoyable listening experience despite those minor technical quirks.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.8,
-      "confidence": "high",
-      "rationale": "Both reviews give 5‑star ratings and praise the musical performance, while noting only modest technical shortcomings (bass loss, wind noise, whine). The balance of an excellent show with a generally solid recording yields a high overall rating."
+      "stars": 4.6,
+      "confidence": "medium",
+      "rationale": "Strong show praise with multiple standout songs outweighs modest recording flaws (bass loss, wind noise). Weighted average of show (≈4.8) and recording (≈4.0) yields a high rating."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Crisp overall but noticeably bass‑thin; needs EQ. Wind noise present and a whine on the He’s Gone > Truckin' transition."
+      "technical_notes": "Crisp overall sound but noticeably bass‑light, requiring EQ; wind noise present; a whine is heard during the He's Gone > Truckin' segue."
     },
     "show_quality": {
       "standout_songs": [
-        "Playin' China/Rider",
-        "Eyes"
+        "China Cat Sunflower / I Know You Rider",
+        "Eyes of the World"
       ],
       "poor_songs": [],
-      "setlist_flow": "Reviewers describe the concert as a gem with strong, flowing performances; no specific pacing issues noted."
+      "setlist_flow": "Reviewers highlight smooth transitions, especially the China Cat Sunflower → I Know You Rider sequence and the flow into Eyes of the World."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -44,7 +44,24 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T01:49:50.144222+00:00",
+    "song_mentions": {
+      "China Cat Sunflower / I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Eyes of the World": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "He's Gone > Truckin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T16:03:55.478317+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-07-28.aud.weiner.106793.flac24"
   }

@@ -16,42 +16,77 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Rough audience tape of a Dec 19 1973 show captures an all‑time great set—stellar “Here Comes Sunshine”, superb “Nobody’s Fault…”, a legendary Half Step and other highlights—despite water‑damaged audio.",
-    "review": "The performance is consistently praised as one of the band’s finest of ’73, with standout renditions of “Here Comes Sunshine”, “West Riding Suite”, “Nobody’s Fault But Mine” and an unforgettable Half Step. Reviewers note the recording is an audience (AUD) source that suffers from heat‑ or water‑damage and occasional muffled sections, but it remains listenable enough to enjoy the epic second‑set segues. Overall sentiment is overwhelmingly positive, with the musical quality far outweighing the technical flaws.",
+    "summary": "Rough audience (AUD) tape but captures an exceptional 1973 show with a blistering Here Comes The Sunshine and several standout jams.",
+    "review": "The performance is widely praised – fans call it one of the top shows of ’73, highlighting a soaring Here Comes The Sunshine, a flawless Half Step, and a thrilling segue through Nobody’s Fault But Mine → Other One.  The audience recording is described as damaged and “listen‑able but rough,” yet listeners feel the musical payoff outweighs the technical flaws.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Most reviewers give 5‑star ratings for the performance; only one low rating reflects audio issues. Weighted average (70 % show, 30 % recording) yields a strong 4.3."
+      "rationale": "Most reviewers give 5‑star ratings, praising the music heavily; only a few note recording problems, so overall rating is high with strong consensus."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Stealth audience tape with heat/water damage; rough and not crystal‑clear but still listenable. Some dropout/ambient noise, but captures the full show."
+      "technical_notes": "AUD copy is described as damaged by heat/water and ‘stealth’ (crowd‑mic) with occasional muffled sections, but still listenable for the full show."
     },
     "show_quality": {
       "standout_songs": [
-        "Here Comes Sunshine",
-        "West Riding Suite",
-        "Nobody's Fault But Mine",
+        "Here Comes The Sunshine",
         "Half Step",
-        "They Love Each Other (long intro)",
-        "Truckin'",
-        "The Other One"
+        "Nobody's Fault But Mine",
+        "The Other One",
+        "They Love Each Other"
       ],
       "poor_songs": [
-        "Playin'"
+        "Truckin'"
       ],
-      "setlist_flow": "First set is solid but uneven (notably the “Playin’” segment); second set shines with classic segues Truckin → Nobody's Fault → Jam → The Other One, delivering high‑energy jams and space meltdowns."
+      "setlist_flow": "First set solid but a bit uneven (Playin’ noted as weaker); second set shines with seamless segues and extended jams, making the overall flow highly rewarding."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "Phil Lesh’s bass solo is missing (disallowed before release), but his overall playing is praised as “letter perfect”.",
+      "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T05:39:53.253243+00:00",
+    "song_mentions": {
+      "Here Comes The Sunshine": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Nobody's Fault But Mine": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Half Step": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "They Love Each Other": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Playin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Truckin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T04:53:18.387503+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-12-19.aud.clugston.8602.sbeok.shnf"
   }

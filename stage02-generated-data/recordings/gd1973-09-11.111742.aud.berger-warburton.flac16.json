@@ -16,41 +16,92 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Muffled but listenable audience tape captures a relaxed 73‑74 show highlighted by an epic Weather Report Suite and diverse Jerry tones.",
-    "review": "The recording is an audience (AUD) capture that suffers from muffled highs and occasional drop‑outs – most notably the chopped Dew segment – yet remains acceptable for fans of pre‑'78 tapes. Musically the concert shines with a spectacular Weather Report Suite, inventive Jerry Garcia guitar work, strong Dark Star, and solid performances of China > Rider, Playin', and Let Me Sing Your Blues Away.",
+    "summary": "Muffled audience tape captures a solid 1973‑74 era set highlighted by a stellar Weather Report Suite > Little India Groove and an inspired Dark Star, though the recording drops out on Dew.",
+    "review": "The performance shines with varied Jerry Garcia tones, a spectacular Weather Report Suite > Little India Groove, and a focused Dark Star that segues into a now‑missing Dew. The audience recording is noticeably muffled and suffers from a chopped Dew segment, but it remains an enjoyable document of a laid‑back, horn‑enhanced show from the early ’70s.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
-      "confidence": "medium",
-      "rationale": "Show quality is praised with several standout moments, while recording quality is only fair due to muffling and tape cuts; the combined weighted assessment yields a solid above‑average rating."
+      "stars": 3.8,
+      "confidence": "high",
+      "rationale": "Reviews average 3.75 stars; most praise the musical performance while noting muffled sound and a cut Dew, leading to a solid but imperfect overall rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Muffled overall sound, decent clarity for an audience tape, noticeable drop‑outs and the Dew track is split into brief fragments ending mid‑verse; horns are audible but not overpowering."
+      "technical_notes": "Muffled overall sound with audible audience chatter; decent clarity for an AUD but suffers from drop‑outs and the Dew segment being cut into three short pieces, ending mid‑verse."
     },
     "show_quality": {
       "standout_songs": [
-        "Weather Report Suite",
-        "Let Me Sing Your Blues Away",
+        "Weather Report Suite > Little India Groove",
         "Dark Star",
-        "China > Rider",
+        "China>Rider",
         "Playin'",
-        "Half Step"
+        "Let Me Sing"
       ],
       "poor_songs": [
         "Dew (recording cut)"
       ],
-      "setlist_flow": "A relaxed first set with solid jams and classic numbers, followed by a second set featuring rare horn‑enhanced Weather Report Suite and Let Me Sing, giving the concert a laid‑back yet engaging pacing."
+      "setlist_flow": "A relaxed pacing with the first set featuring strong renditions of LL Rain, China>Rider and Playin', while the second set showcases horns on Let Me Sing Your Blues Away and a full Weather Report Suite, culminating in a Dark Star that unfortunately ends abruptly."
     },
     "band_member_comments": {
-      "Jerry": "Displays an impressive range of guitar tones described as a 'seminar on pleasant electric guitar,' offering melodic phrasing without overplaying.",
-      "Phil": "Provides solid, steady bass work; noted for leading Dark Star and mentioned as being grumpy with photographers.",
+      "Jerry": "Praised for varied, tasteful guitar tones and leading the Dark Star without overplaying.",
+      "Phil": "Described as laid‑back but grumpy with photographers; takes a prominent role in the Dark Star jam.",
       "Bob": "",
-      "Keys": "Keith's vocals on the new song are passable and the keyboards blend well with the horn section, adding fresh texture to the set.",
+      "Keys": "Keith’s ‘Let Me Sing’ and the horn arrangements receive positive notes; vocals on Let Me Sing Your Blues Away are called interesting.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T02:25:59.907882+00:00",
+    "song_mentions": {
+      "Weather Report Suite > Little India Groove": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "China>Rider": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Let Me Sing": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Let Me Sing Your Blues Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Half Step": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "LL Rain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Magnolia": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T17:14:33.098335+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-09-11.111742.aud.berger-warburton.flac16"
   }

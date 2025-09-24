@@ -16,37 +16,75 @@
   "high_ratings": 11,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A soaring Dark Star and other classic ’73 jams shine on a mixed‑quality audience tape that’s clear enough to enjoy despite occasional hiss and pitch quirks.",
-    "review": "The show is celebrated for its 31‑minute, space‑filled Dark Star (plus strong Cumberland Blues, Eyes of the World → Playing In The Band and upbeat TLEO moments), earning high marks from fans who call it one of the best ’73 performances.  The recording is an audience capture – not pristine, with some hiss, a slight pitch rise in Box of Rain, and occasional whistle noise – but many reviewers still rate it among the better audience tapes, noting that the instruments remain audible and the overall listening experience is rewarding.",
+    "summary": "Fair‑quality audience tape captures a stellar 1973 show highlighted by an epic Dark Star and strong mid‑set jams.",
+    "review": "The performance is widely praised – especially the 31‑minute Dark Star, vibrant Cumberland Blues, Eyes, Playing in the Band and a gorgeous H.C. Sunshine – while the recording suffers from typical audience tape flaws (hiss, occasional whistle, slight pitch wobble). Even reviewers who docked points for sound agree the music makes this a must‑listen show.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical performance (average show rating ~4.6) while noting mixed but generally acceptable audio quality (average recording rating ~3.2). Weighted combination yields a solid 4.2‑star overall rating."
+      "rationale": "Most reviewers rate the musical performance very highly (many 5‑star comments) while noting moderate to fair audio quality; the weighted blend yields a strong overall rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Audience tape with occasional hiss and a slight pitch rise; some sections sound weak or have whistle interference, but overall instruments are clear and the mix is surprisingly good for an AUD source."
+      "technical_notes": "Typical audience tape with some hiss, occasional whistle from the crowd and a slight pitch rise in Box of Rain. Instruments are generally clear but the mix is uneven, making parts sound weak."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "Cumberland Blues",
-        "Eyes of the World → Playing In The Band",
-        "Truckin' / TLEO (upbeat rendition)"
+        "Eyes",
+        "Playing in the Band",
+        "The H.C. Sunshine"
       ],
       "poor_songs": [],
-      "setlist_flow": "Fans note a strong, flowing set with a marathon Dark Star at its center; the upbeat TLEO‑style numbers keep momentum while the long jams maintain an engaging, space‑y atmosphere."
+      "setlist_flow": "A solid opening set moves into a marathon Dark Star that dominates the second half, followed by tight mid‑set jams (Eyes → Playing in the Band). The flow is praised despite the audio imperfections."
     },
     "band_member_comments": {
-      "Jerry": "His guitar work on Dark Star is described as cosmic, arpeggio‑laden and among the best of 1973.",
+      "Jerry": "His guitar work on Dark Star is highlighted – some note arpeggio exercises near the end but overall tone and improvisation are lauded.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T23:39:15.810839+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 8,
+        "negative_mentions": 0,
+        "total_mentions": 8
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Eyes": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playing in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Box of Rain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The H.C. Sunshine": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "TLEO": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-22T07:07:53.497236+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-03-28.aud-nourse.weiner.16886.sbeok.shnf"
   }

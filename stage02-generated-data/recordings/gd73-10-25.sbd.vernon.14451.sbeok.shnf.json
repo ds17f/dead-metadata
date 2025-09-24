@@ -16,43 +16,77 @@
   "high_ratings": 20,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A legendary 10/25/73 show with a soaring second set and iconic Dark Star/Eyes/Stella, captured on a decent‑but‑flawed soundboard recording.",
-    "review": "The performance is widely celebrated – the China Cat→Rider segue, the sprawling Dark Star > Mind Left Body Jam > Dark Star, and the transcendent Eyes of the World into Stella Blue are repeatedly highlighted as peak moments.  The soundboard source sounds good for a 1973 tape but suffers from noticeable cuts, occasional hiss, bass clipping and missing sections that temper the listening experience.",
-    "sentiment": "mixed",
+    "summary": "Excellent soundboard recording with occasional glitches, featuring a transcendent second set highlighted by Dark Star, Eyes of the World and Stella Blue.",
+    "review": "The 10/25/73 show is widely celebrated for its adventurous improvisations – the Dark Star–Eyes–Stella sequence and the China Cat → The Rider jam are repeatedly praised, while the first set suffers from a few cuts and tape hiss. The source is a soundboard (SBD) that sounds clear overall but has noticeable patches in places; nevertheless the performance quality more than compensates for the technical flaws.",
+    "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers rave about the musical performance (≈4.6/5) while noting consistent technical flaws that keep the recording quality around a fair level (≈3/5).  Weighted combination yields ~4.2 stars."
+      "rationale": "Most reviewers (≈80%) give high marks to the musical performance, especially the second set, while recording comments note good soundboard quality with some glitches; weighted averaging yields a strong overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "fair",
-      "technical_notes": "Several reviewers mention cuts/patches (especially in Dark Star), missing song segments, tape hiss, occasional pops and bass clipping; however the overall mix is considered decent for a 1973 SBD."
+      "quality_rating": "good",
+      "technical_notes": "Generally clear and well‑balanced SBD, but several reviewers cite cuts/patches in the first set, occasional pops, hiss and bass clipping."
     },
     "show_quality": {
       "standout_songs": [
-        "China Cat Sunflower → I Know You Rider",
-        "Dark Star > Mind Left Body Jam > Dark Star",
-        "Eyes of the World",
-        "Stella Blue",
-        "Let It Grow",
+        "Dark Star > Eyes of the World > Stella Blue",
+        "China Cat > The Rider",
         "Bertha",
-        "Weather Report Suite Prelude/Part I/Little India Garden/Go To The River (GDTRFB)"
+        "Weather Report Suite (WRS)",
+        "Let It Grow"
       ],
       "poor_songs": [
-        "China Cat Sunflower → I Know You Rider (some versions described as mediocre)",
-        "First set overall (noted as weaker and affected by glitches)"
+        "China Cat > The Rider (in one review noted as mediocre)"
       ],
-      "setlist_flow": "The first set is solid but uneven, with a few glitches; the second set shines, delivering long, exploratory jams that build momentum from China > Rider into Dark Star and then cascade through Eyes, Stella and the Weather Report suite, creating an exhilarating arc."
+      "setlist_flow": "First set is energetic but marred by glitches and a few weaker moments; the second set is universally lauded for its seamless flow, deep improvisations and emotional peaks."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar tone and solos are repeatedly praised – especially his work on Dark Star, Eyes of the World and the soulful climax of Stella Blue; vocals described as strong.",
-      "Phil": "Phil Lesh’s bass is highlighted for its powerful low end (though some note clipping) and memorable licks at the end of Eyes; a few mention an unusually heavy bass presence during the jam.",
-      "Bob": "Bob Weir’s rhythm guitar and vocal contributions are noted positively, with remarks about his interplay behind Garcia and occasional over‑zealous singing in the Weather Report suite.",
-      "Keys": "Keyboard work (Keith Godchaux mainly) receives mixed feedback – some call it magical and supportive, others find moments disjointed or overly plinkety; overall deemed essential to the jam flow.",
-      "Drums": "Bill Kreutzmann’s drumming is praised as tight and energetic, especially on the driving second‑set jams."
+      "Jerry": "Multiple reviewers praise his soaring solos on Dark Star, Eyes and Stella, calling them gorgeous, soulful and a highlight of the night.",
+      "Phil": "His bass work receives special mention – ‘crazy bass sound’, standout licks in Eyes, though some note occasional clipping.",
+      "Bob": "Occasional positive remarks about his vocal support behind Jerry and energetic delivery on songs like Bertha.",
+      "Keys": "Keith’s keyboards are highlighted as magical by several fans; a few find his playing disjointed early in the set but overall supportive.",
+      "Drums": "Bill is described as snappy and driving, providing a solid backbone throughout."
     },
-    "processed_date": "2025-09-10T03:11:15.416541+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 8,
+        "negative_mentions": 1,
+        "total_mentions": 9
+      },
+      "Eyes of the World": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "Stella Blue": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "China Cat > The Rider": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "Bertha": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Weather Report Suite": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Let It Grow": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-23T16:36:06.044386+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-10-25.sbd.vernon.14451.sbeok.shnf"
   }

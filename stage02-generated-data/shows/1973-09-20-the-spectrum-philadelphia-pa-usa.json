@@ -172,40 +172,50 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Soaring China>Rider and tight Truckin'>Eyes sequence dominate",
-    "blurb": "The show delivers a standout China Cat Sunflower → I Know You Rider jam and a horn‑enhanced Truckin' → Eyes of the World transition. The second set stays tight, closing with an energetic Sugar Magnolia.",
-    "review": "September 20, 1973 at the Spectrum captures the Dead in fine form. The first set builds to a soaring China Cat Sunflower into I Know You Rider that has fans describing it as “soaring” and a highlight of the night. The second set may be shorter than typical ’73 outings, but it never loses its momentum – the Truckin' → Nobody's Fault But Mine jam segues flawlessly into an inspired Eyes of the World, with the horn section adding extra fire to the sequence. A lively Sugar Magnolia rounds out the evening, leaving the audience buzzing. The matrix recording (gd73-09-20.aud-sbd.cotsman.11618.sbeok.shnf) offers a decent SBD‑clear mid‑show sound despite a muddy mono intro, making it the most reliable source for this performance.",
+    "summary": "Tight set with soaring China>Rider and horn‑rich Truckin'>Eyes",
+    "blurb": "The show delivers a high‑energy China Cat Sunflower > I Know You Rider segue and a horn‑enhanced Truckin' > Nobody's Fault jam that launches into an inspired Eyes of the World. The second set, though brief, stays tight with strong performances of Sugar Magnolia and Stella Blue.",
+    "review": "September 20, 1973 at The Spectrum captured the Dead in a focused groove. The first set builds to a brilliant China Cat Sunflower > I Know You Rider transition that many fans describe as “on fire,” while the middle‑set staples flow smoothly into a horn‑rich Truckin' jam and an unforgettable Eyes of the World. Even with a shorter-than‑usual second set, the band stays locked in – Phil’s bass underpins the groove, Jerry’s lead cuts clean through the matrix/soundboard mix, and Keith adds tasteful keyboards without crowding the mix. The recording switches from early mono audience capture to a crisp soundboard feed, preserving the nuance of each instrument and making this one of the more listenable tapes from the ’73 tour.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.0,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 11,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "Both recordings are marked positive, praising the same high‑energy moments (China>Rider, Truckin'>Eyes) and noting a tight band performance despite a short second set. Consistent language like “stellar,” “great,” and “tight” across sources warrants a strong positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 1.4 = 4.0"
+      }
     },
     "best_recording": {
       "identifier": "gd73-09-20.aud-sbd.cotsman.11618.sbeok.shnf",
-      "reason": "Matrix with good SBD clarity after the intro; captures the key China>Rider and Truckin'>Eyes moments clearly and is the designated best source."
+      "reason": "Matrix capture that transitions to a clean soundboard feed, delivering crisp instrument separation and highlighting the standout China>Rider and horn‑enhanced Truckin'>Eyes moments."
     },
     "key_highlights": [
-      "Soaring China Cat Sunflower → I Know You Rider jam",
-      "Horn‑enhanced Truckin' → Eyes of the World transition",
-      "Tight, energetic second set ending with Sugar Magnolia",
-      "Overall solid 1973 performance despite a muddy intro"
+      "High‑energy China Cat Sunflower > I Know You Rider transition",
+      "Horn‑rich Truckin' jam leading into a soaring Eyes of the World",
+      "Tight, concise second set with strong Sugar Magnolia and Stella Blue",
+      "Clean soundboard portion after early mono opening gives clear detail"
     ],
     "song_highlights": [
       "China Cat Sunflower",
       "I Know You Rider",
       "Truckin'",
-      "Eyes Of The World"
+      "Eyes Of The World",
+      "Sugar Magnolia"
     ],
     "band_performance": {
-      "Jerry": "",
-      "Phil": "",
-      "Bob": "",
+      "Jerry": "Garcia’s lead guitar cuts crisp and melodic, especially during the China>Rider segue.",
+      "Phil": "Lesh provides a solid, supportive bass foundation that locks in with the drums throughout.",
+      "Bob": "Weir adds rhythmic texture and tasteful fills, complementing the horn sections.",
       "Brent": "",
+      "Keith": "Godchaux’s keyboards are subtle yet effective, adding color without overwhelming the mix.",
       "Mickey": "",
-      "Billy": ""
+      "Billy": "Kreutzmann’s drumming is steady and propulsive, driving the tight feel of both sets."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-10T02:42:17.449827+00:00",
+    "processed_date": "2025-09-23T14:46:03.734058+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -218,6 +228,9 @@
         "Nobody's Fault But Mine Jam",
         "Eyes Of The World",
         "Stella Blue"
+      ],
+      [
+        "Sugar Magnolia"
       ]
     ]
   }

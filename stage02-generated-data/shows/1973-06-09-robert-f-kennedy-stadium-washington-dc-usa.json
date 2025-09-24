@@ -222,48 +222,58 @@
     "here-comes-sunshine-1973"
   ],
   "ai_show_review": {
-    "summary": "Tight second set, stellar Truckin' jam and soaring China Doll",
-    "blurb": "The show shines in the second set with a monster Truckin' > Playing In The Band sequence that even teases Here Comes Sunshine. Highlights include a jaw‑dropping Box of Rain vocal, soaring China Doll and volcanic Sunshine Daydream. Jerry’s guitar is rich and fluid while Phil lays down superb bass on Eyes Of The World.",
-    "review": "June 9 1973 at RFK Stadium captures the Dead in top form, especially in the second set where they weave a massive Truckin' into Playing In The Band jam that even slips in a Here Comes Sunshine tease. The band rides that energy through a soaring China Doll and a volcanic Sunshine Daydream finale, while Phil’s vocal on Box of Rain has been called jaw‑dropping. Jerry’s playing is smooth and richly textured; his smoky lead on Playing In The Band and the “parallel‑universe” improvisations during breaks add an extra layer of intrigue despite a brief lyric stumble on Half‑Step. Though the first set is more routine, standout moments like Eyes Of The World showcase Phil’s superb bass work and the crisp drum sound that drives the entire performance.",
+    "summary": "Stellar second‑set jams, tight playing, and standout Truckin’/PITB",
+    "blurb": "The RFK show delivers a monster He's Gone → Truckin' → Playing In The Band sequence and soaring moments like Box of Rain. Jerry’s guitar is on fire, Phil’s bass shines on Eyes Of The World, and the rhythm section drives an energetic set from start to finish.",
+    "review": "June 9‑1973 at RFK Stadium stands out as one of the Dead’s all‑time greats. The first set opens strong with The Promised Land and rolls through classics such as Loose Lucy and a beautiful Box of Rain, but it’s the second set that truly defines the night—a 49‑minute monster that erupts from He's Gone into an ecstatic Truckin' jam before launching into a blazing Playing In The Band. Reviewers rave about the seamless transitions, especially the unexpected Playin! segue after Truckin', and the “parallel‑universe” interplay between Jerry’s guitar and Phil’s bass during the improvisational breaks. The soundboard recordings are praised for crisp clarity and excellent instrument separation, while several matrix tapes capture the same magic with a slightly different ambience. Even the more distant audience tapes, though flat‑sounding, convey the show’s high energy and adventurous spirit. All told, this concert is a textbook example of the 1973 Dead at their peak—tight, exploratory, and endlessly rewarding.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.5,
-      "confidence": "high"
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 58,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Nine of ten recordings are strongly positive, highlighting multiple standout songs and seamless jams; only one recording is mixed but still praises the performance. No consistent negative remarks about playing appear, yielding a strong positive sentiment adjustment.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd73-06-09.sbd.hollister.172.sbeok.shnf",
-      "reason": "Excellent soundboard capture with crystal‑clear mix, balanced instruments and superb depth that showcases the band’s dynamics."
+      "reason": "Excellent soundboard source: clear, crisp mix with great instrument separation that captures the Wall‑of‑Sound ambience and the full energy of the performance."
     },
     "key_highlights": [
-      "Monster Truckin' jam with an unexpected Here Comes Sunshine tease",
-      "Jaw‑dropping Box of Rain vocal by Phil Lesh",
-      "Soaring China Doll and volcanic Sunshine Daydream closing the set",
-      "Parallel‑universe improvisation on They Love Each Other into Loose Lucy"
+      "He’s Gone → Truckin' → Playing In The Band 49‑minute jam",
+      "Box of Rain vocal delivers a jaw‑dropping moment",
+      "Eyes Of The World showcases Phil’s melodic bass work",
+      "Tight, energetic rhythm section highlighted by overhead mic capture"
     ],
     "song_highlights": [
+      "Loose Lucy",
       "Box of Rain",
       "Truckin'",
       "Playing In The Band",
-      "China Doll",
-      "Sunshine Daydream",
       "He's Gone",
       "Eyes Of The World",
-      "Loose Lucy",
-      "They Love Each Other"
+      "China Doll",
+      "The Promised Land"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers smooth vocals and a rich, fluid guitar tone; his smoky lead on Playing In The Band and the parallel‑universe vibe during breaks stand out despite a minor lyric stumble on Half‑Step.",
-      "Phil": "Lesh provides excellent bass work, especially on Eyes Of The World, and his lead vocal on Box of Rain is described as jaw‑dropping.",
-      "Bob": "Weir’s performance is mixed; one listener felt Truckin' was weaker, while another noted an impromptu lyric change in Me And My Uncle.",
+      "Jerry": "Garcia’s tone and vocal smoothness are on point, delivering scorching leads on Playing In The Band and soaring solos throughout; a minor lyric flub is the only blemish.",
+      "Phil": "Lesh provides melodic, “parallel‑universe” bass lines—especially on Eyes Of The World—and adds strong harmonies on He's Gone.",
+      "Bob": "Weir supplies solid rhythm guitar with occasional lyrical improvisation (e.g., Me & My Uncle) and keeps the groove tight.",
       "Brent": "",
-      "Mickey": "",
-      "Billy": "Kreutzmann’s drumming is crisp and lively, with the overhead mic capturing a clear drum sound that drives the jams."
+      "Mickey": "The drum mix, praised for its overhead mic capture, highlights a lively, propulsive percussion foundation that drives both sets.",
+      "Billy": "Kreutzmann’s drumming locks in with Mickey, delivering the powerful dual‑drum swing essential to the show’s high energy."
     },
     "processed_recordings": 9,
-    "processed_date": "2025-09-10T00:32:54.988263+00:00",
+    "processed_date": "2025-09-22T14:18:54.836881+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
+      [
+        "Loose Lucy"
+      ],
       [
         "Box of Rain"
       ],
@@ -277,10 +287,7 @@
         "China Doll"
       ],
       [
-        "Loose Lucy"
-      ],
-      [
-        "They Love Each Other"
+        "The Promised Land"
       ]
     ]
   }

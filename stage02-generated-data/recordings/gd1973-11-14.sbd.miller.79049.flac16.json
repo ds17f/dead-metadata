@@ -16,41 +16,92 @@
   "high_ratings": 22,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a stellar November‑1973 show highlighted by a blazing Here Comes Sunshine and an epic Truckin’ → The Other One jam marathon.",
-    "review": "The recording, benefitting from Charlie Miller’s superb upgrade, delivers crystal‑clear soundboard fidelity with only occasional minor slip‑ups. Musically the concert is celebrated for its monster second set – multiple reprises of The Other One, a soaring Eyes of the World, and a standout Here Comes Sunshine – while the first set offers solid classics despite some listeners finding it less adventurous. Overall the performance and tape quality earn universal praise.",
+    "summary": "Excellent soundboard transfer of a legendary 11/14/73 show, highlighted by a soaring Here Comes Sunshine and a marathon Truckin' → Other One → Eyes jam.",
+    "review": "The Charlie Miller‑upgraded soundboard capture is crisp and well balanced, letting the band’s peak late‑1973 chemistry shine.  Reviewers rave about the second‑set marathon—Truckin’ into multiple Other Ones, Eyes of the World and a superb Wharf Rat—while the first set delivers strong renditions of Here Comes Sunshine, Cumberland Blues and China > Rider.  A few minor flubs (China Cat transition, occasional bass drop) are noted but do not detract from an overall outstanding performance.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.7,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Over 20 reviews, most giving 5 stars and praising both the music and the soundboard transfer; only a few mixed comments do not outweigh the strong consensus."
+      "rationale": "23 reviews overwhelmingly positive (16 five‑stars, 6 four‑stars, 1 three‑star) with consistent praise for both the musical performance and the high‑quality soundboard transfer."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Crisp, clean mix with great SQ thanks to Charlie Miller’s upgrade; occasional minor slip‑ups (e.g., a tiny HCS flub) but overall very clear and balanced."
+      "technical_notes": "Crisp, well‑balanced mix; Charlie Miller upgrade praised. Minor issues noted: a sloppy China Cat transition and occasional bass drop in the first set, but overall very clean."
     },
     "show_quality": {
       "standout_songs": [
         "Here Comes Sunshine",
-        "Truckin' > The Other One (multiple reprises)",
-        "Eyes of the World",
-        "China Cat Sunflower > Rider",
-        "Big River sandwich",
+        "Truckin' > The Other One > Eyes of the World > The Other One > Big River",
         "Wharf Rat",
         "Cumberland Blues",
-        "Row Jimmy"
+        "China Cat Sunflower > I Know You Rider"
       ],
-      "poor_songs": [],
-      "setlist_flow": "The first set is solid but considered a bit pedestrian by some listeners; the second set explodes with extended jams and seamless segues, making it one of the most celebrated sets of the fall‑73 tour."
+      "poor_songs": [
+        "Here Comes Sunshine (ending flub noted by a few reviewers)"
+      ],
+      "setlist_flow": "First set solid but occasionally pedestrian; second set a marathon of improvisation that many cite as one of the best of 1973, with seamless transitions and high energy throughout."
     },
     "band_member_comments": {
-      "Jerry": "Praised for tight playing, soaring lead tones, expressive vocals on Sugaree, and relentless soloing throughout the jam sections.",
-      "Phil": "Often highlighted for powerful bass ‘bombs’ and a raging rhythm foundation; occasional notes of him being “off‑the‑mark” or missing intensity in certain jams.",
-      "Bob": "Noted for lyrical slip‑ups (e.g., first verse of HCS) but praised for passionate vocal delivery.",
-      "Keys": "Keith's piano receives glowing remarks – described as monstrous, accurate, exploratory, and a key driver of the band’s energy during this period.",
-      "Drums": "Bill Kreutzmann’s syncopated off‑beat work is lauded; Billy (the second drummer) gets credit for creative, jazzy contributions throughout the extended jams."
+      "Jerry": "Repeatedly praised for soaring lead guitar tones, exploratory solos and strong vocals; occasional slip in China Cat transition noted.",
+      "Phil": "Mixed feedback – many laud his ‘raging’ bass work, but a few mention moments where he was missing or less intense.",
+      "Bob": "Vocals highlighted on Sugaree (strong) and minor lyric slip in the first verse of HCS; overall passionate performance.",
+      "Keys": "Keith's piano described as monstrous, accurate, exploratory and a highlight throughout the show.",
+      "Drums": "Bill Kreutzmann’s syncopated off‑beat work lauded; Billy’s drumming after Mickey’s departure called vital and career‑night level."
     },
-    "processed_date": "2025-09-10T03:53:46.655523+00:00",
+    "song_mentions": {
+      "Here Comes Sunshine": {
+        "positive_mentions": 9,
+        "negative_mentions": 1,
+        "total_mentions": 10
+      },
+      "Truckin'": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "The Other One": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Eyes of the World": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 4,
+        "negative_mentions": 1,
+        "total_mentions": 5
+      },
+      "Big River": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Wharf Rat": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Sugaree": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Row Jimmy": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T02:28:19.212046+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-11-14.sbd.miller.79049.flac16"
   }

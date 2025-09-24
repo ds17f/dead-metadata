@@ -16,18 +16,18 @@
   "high_ratings": 3,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Partial soundboard excerpt featuring a marathon Casey Jones > Jam > One More Saturday Night suite, captured with decent audio despite missing the rest of the concert.",
-    "review": "The recording is a short, three‑song fragment (Casey Jones into an extended jam and One More Saturday Night) taken from the December 10, 1973 show. Reviewers praise the 45‑minute jam as a highlight and note solid first‑set material elsewhere, but the obvious incompleteness limits its overall impact. Audio quality is generally acceptable for a soundboard source, though listeners are frustrated by the missing portions of the performance.",
+    "summary": "Soundboard recording of a short, partial show that still delivers solid first‑set material and an epic Casey Jones/One More Saturday Night suite.",
+    "review": "Although the release only contains a few tracks from the December 10, 1973 concert, reviewers note that the performance is competent and enjoyable, highlighting the long Casey Jones > Jam > One More Saturday Night sequence and a standout China > Rider. The soundboard source is generally regarded as clear, but the incomplete nature and labeling errors dominate many comments.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.7,
-      "confidence": "medium",
-      "rationale": "Show is competent with standout jam but not among the year's best; recording is a decent soundboard excerpt but incomplete, leading to an overall moderate rating."
+      "stars": 4.0,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the musical moments (especially the Casey Jones suite) while consistently criticizing the partial/incorrect nature of the release; recording quality is assumed good from the soundboard source."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear enough for a soundboard source, but only a partial segment (2–3 songs) is present; no major audio defects noted."
+      "technical_notes": "No specific complaints about clarity or mix; reviewers focus on the fact that only a few songs are present and some mislabeling, implying the audio itself is acceptable."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,7 +35,7 @@
         "China > Rider"
       ],
       "poor_songs": [],
-      "setlist_flow": "Fragmented – only the late‑'73 jam segment and an encore are present, missing the rest of the set; still delivers a solid party vibe with good first‑set material."
+      "setlist_flow": "Partial release (2‑3 songs) limits the flow, but the included material showcases a solid first set and an extended jam suite that fans find exciting."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -44,7 +44,24 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T05:19:35.358126+00:00",
+    "song_mentions": {
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "One More Saturday Night": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China > Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T04:23:48.401659+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-12-10pt.sbd.elliot.11800.sbeok.shnf"
   }

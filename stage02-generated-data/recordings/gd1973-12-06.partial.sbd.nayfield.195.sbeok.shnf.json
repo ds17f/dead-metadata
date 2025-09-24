@@ -16,25 +16,28 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "The China > Rider transition is legendary, but the soundboard recording suffers from noticeable splice edits.",
-    "review": "Fans rave about the extraordinary jam that bridges \"China\" into \"The Rider,\" calling it one of the best transitional moments ever captured. However, the recording contains splices that break up otherwise seamless jams (including Dark Star), which detracts from the listening experience despite the strong performance.",
-    "sentiment": "mixed",
+    "summary": "Soundboard source with noticeable splice edits, yet the show dazzles thanks to an epic China Cat Sunflower → The Rider transition.",
+    "review": "The performance is highlighted by what many consider the finest transitional jam between China Cat Sunflower and The Rider, with even Dark Star > Eyes receiving praise.  However, the recording suffers from splices that break the flow of those seamless jams, a point of frustration for some listeners.  Overall the musical moments outweigh the technical hiccups.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
-      "confidence": "medium",
-      "rationale": "Both reviewers gave high marks for the musical content, especially the China>Rider jam, but the second reviewer highlighted splice issues that affect the recording's continuity, leading to a solid yet imperfect overall rating."
+      "stars": 4.2,
+      "confidence": "low",
+      "rationale": "Strong show quality (standout jam) combined with a decent soundboard recording, but splice issues lower the overall listening experience."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Splice edits are present between jams (China>Rider, Dark Star, etc.), interrupting the flow; no comments on clarity or mix balance."
+      "technical_notes": "Splice edits interrupt otherwise seamless jams (China > Rider, Dark Star etc.), causing noticeable breaks in the flow."
     },
     "show_quality": {
       "standout_songs": [
-        "China > The Rider"
+        "China Cat Sunflower",
+        "The Rider",
+        "Dark Star",
+        "Eyes"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set features an exceptional transitional jam that stands out, though the recorded splices make the flow feel less seamless than it was live."
+      "setlist_flow": "The set is praised for its fluid transitions, especially the China Cat Sunflower → The Rider jam; splice edits are the only detractor."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,7 +46,29 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T05:11:11.520484+00:00",
+    "song_mentions": {
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "The Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Eyes": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T04:11:26.488129+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-12-06.partial.sbd.nayfield.195.sbeok.shnf"
   }

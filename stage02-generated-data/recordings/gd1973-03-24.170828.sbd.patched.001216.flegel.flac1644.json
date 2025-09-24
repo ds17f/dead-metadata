@@ -16,18 +16,18 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Positive performance highlighted by a sweet Dark Star and a lively Truckin' jam; recording quality is not discussed.",
-    "review": "Reviewers recall an energetic show with a memorable Truckin' jam and a concise, sweet Dark Star opening that captured the spirit of the night. No comments were made about the audio source or fidelity, so the technical quality remains unknown.",
+    "summary": "Soundboard recording of a lively show featuring a standout Truckin' jam and a brief but sweet Dark Star",
+    "review": "Both reviewers enjoyed the performance, highlighting an energetic Truckin' jam and a concise Dark Star that surprised them with its brevity. The file appears to be a patched sound‑board (sbd) source, though no specific audio quality comments were provided. Overall sentiment is strongly positive.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
-      "confidence": "medium",
-      "rationale": "Both reviewers are enthusiastic (one gives 5 stars and the other a vague positive title), praising the musical moments; lack of recording details prevents a higher rating."
+      "confidence": "low",
+      "rationale": "Two reviews, one with a 5‑star rating praising the music; no technical details but filename suggests a soundboard source, leading to an overall good rating with low confidence due to limited data."
     },
     "recording_quality": {
-      "source_type": "unknown",
-      "quality_rating": "fair",
-      "technical_notes": "No reviewer mentioned soundboard, audience mix, clarity, or any audio issues, so recording quality cannot be assessed."
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on clarity or mix; assumed decent soundboard quality based on file type."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,7 +35,7 @@
         "Dark Star"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set is described as having a strong jammed Truckin' and a short, sweet Dark Star opening, creating an upbeat and satisfying flow."
+      "setlist_flow": "Enthusiastic balcony experience with a lively Truckin' jam and a short, sweet Dark Star that left listeners wanting more."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -44,7 +44,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T23:26:04.654373+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T06:51:25.363738+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-03-24.170828.sbd.patched.001216.flegel.flac1644"
   }

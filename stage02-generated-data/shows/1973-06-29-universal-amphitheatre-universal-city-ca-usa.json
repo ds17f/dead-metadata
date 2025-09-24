@@ -194,42 +194,49 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Mellow Other One opens into an expansive jam ending in Morning Dew",
-    "blurb": "The second set flows beautifully, highlighted by a meditative Other One that blossoms into a soaring jam and finishes with a powerful Morning Dew. Jerry’s wah‑wah textures on Playing In The Band add extra color, while Bill’s drums are crisp and well defined. Strong performances of He’s Gone, Truckin’ and Mississippi Half-Step round out the show.",
-    "review": "June 29 1973 at the Universal Amphitheatre captures a Dead that was deep in its exploratory groove. Set 2 opens with a relaxed Mississippi Half‑Step Uptown Toodeloo before moving into The Promised Land, then launches into a superb He’s Gone → Truckin’ → The Other One sequence. Jerry Garcia melts away the Truckin’ theme, leads an introspective, melodic Other One that expands into one of the era’s most epic jams and finally resolves in a soaring Morning Dew. Keith Godchaux adds tasteful Fender Rhodes textures to Playing In The Band while Donna Jean’s voice drifts trippy over the groove. The mix is especially clear on the drums – Bill Kreutzmann’s playing sits front‑and‑center, and Bob Weir’s verse work shines with Wes‑Montgomery‑style chord voicings. Although much of Set 1 is missing from this recording, the available material showcases a band locked in, offering a quintessential snapshot of the 1973 sound.",
+    "summary": "Epic Truckin' > The Other One jam, vivid He's Gone & Morning Dew",
+    "blurb": "Second set builds from a mellow He’s Gone into a sprawling Truckin’ jam that evolves into The Other One, ending with an atmospheric Morning Dew. Jerry’s guitar weaves melodic leads while Phil supplies a clear bass tone and Keith adds subtle Rhodes texture. The soundboard capture is generally clear with good balance and definition.",
+    "review": "June 29, 1973 at the Universal Amphitheatre captures one of the Dead’s most adventurous midsummer outings. Set 2 rolls out with a soulful “He’s Gone,” then rockets into a monster “Truckin’” that seamlessly transforms into an exploratory “The Other One.” The jam stretches, allowing Jerry to melt away the familiar Truckin theme with melodic leads and a wistful wah‑wah solo during “Playing In The Band,” while Phil’s Wes‑Montgomery‑style bass chords anchor the improvisation. Keith’s Fender Rhodes adds just enough color to keep the texture rich without overwhelming the mix. The night closes on an ethereal “Morning Dew,” leaving the audience with a lingering sense of wonder. The Cotsman soundboard source is generally clear and well‑balanced, offering solid bass (Bobby) and drum (Billy) definition despite minor muddiness in a few passages, making this recording the go‑to listen for anyone wanting to experience this fiery second‑set journey.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.0,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 7,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "All language in the sole recording analysis is positive, describing an 'epic' Truckin’→The Other One jam, 'vivid' performances of He’s Gone and Morning Dew, and praising Jerry’s melodic leads and Phil’s clear bass tone. Consistent enthusiasm across multiple song mentions warrants a strong positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 1.4 = 4.0"
+      }
     },
     "best_recording": {
       "identifier": "gd73-06-29.sbd.cotsman.11617.sbeok.shnf",
-      "reason": "Soundboard source with clear mix, especially strong drum definition and minimal technical issues despite missing Set 1 material."
+      "reason": "Generally clear soundboard with good balance, capturing the epic Truckin’→The Other One jam and detailed instrument definition."
     },
     "key_highlights": [
-      "Epic Other One jam that evolves into an expansive Morning Dew finale",
-      "Clear, well‑defined drum mix highlighting Bill Kreutzmann’s playing",
-      "Jerry’s melodic wah‑wah textures on Playing In The Band",
-      "Strong performances of He’s Gone and Truckin’ in the second set"
+      "Epic Truckin' → The Other One seamless segue and extended improvisation.",
+      "\"He's Gone\" opens second set with emotive phrasing.",
+      "\"Morning Dew\" provides a beautiful, atmospheric close to the night.",
+      "\"Playing In The Band\" features an introspective wah‑wah solo and subtle Rhodes texture."
     ],
     "song_highlights": [
-      "The Other One",
       "Truckin'",
+      "The Other One",
       "He's Gone",
       "Morning Dew",
-      "Playing In The Band",
-      "Mississippi Half-Step Uptown Toodeloo"
+      "Playing In The Band"
     ],
     "band_performance": {
-      "Jerry": "Leads a melodic, meditative Other One and adds introspective wah‑wah textures in the Playing In The Band jam; his guitar melts away the Truckin' theme.",
-      "Phil": "",
-      "Bob": "Provides patient verse work on the jams with Wes‑Montgomery‑style chording; vocals are clear and nicely placed in the mix.",
-      "Brent": "Keith supplies tasteful Fender Rhodes backing during Playing In The Band, enhancing the texture of the jam.",
+      "Jerry": "Garcia’s guitar melts away the Truckin theme, delivering melodic leads in The Other One and an introspective wah‑wah solo on Playing In The Band.",
+      "Phil": "Phil (Bobby) receives praise for a clear bass tone and Wes‑Montgomery‑style chord work during The Other One.",
+      "Bob": "",
+      "Brent": "Keith’s Fender Rhodes adds a nice backing texture to the Playin' jam, enriching the overall sound without overpowering the mix.",
       "Mickey": "",
-      "Billy": "Drumming is crisp, clearly defined, and sits prominently in the mix, adding drive to the second‑set flow."
+      "Billy": "Billy’s drumming is described as nice and clear, contributing to the crispness of the recording."
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-10T01:15:55.793227+00:00",
+    "processed_date": "2025-09-22T15:18:50.999966+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -241,9 +248,6 @@
       ],
       [
         "Playing In The Band"
-      ],
-      [
-        "Mississippi Half-Step Uptown Toodeloo"
       ]
     ]
   }

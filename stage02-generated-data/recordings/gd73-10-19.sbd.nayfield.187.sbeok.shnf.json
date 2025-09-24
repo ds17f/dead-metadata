@@ -16,45 +16,85 @@
   "high_ratings": 13,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Vault‑remastered soundboard captures a solid 1973 show highlighted by a smoking Dark Star/MLB jam and crisp Jerry work, despite some early mix quirks.",
-    "review": "The performance shines on the second set – Dark Star into the first Mind Left Body (MLB) jam, Morning Dew, Playing In The Band and an inspired Eyes of the World/​Stella Blue encore are repeatedly praised.  Jerry’s tone is described as crisp and dexterous, Phil delivers a standout solo and bomb‑filled low end, while the mix, though a bit unbalanced at the start of the first set, settles into a clear, well‑separated soundboard recording that most listeners find very listenable.",
+    "summary": "Vault‑remastered soundboard capture with crisp Jerry tone and a stellar second set highlighted by Dark Star → MLB jam, Morning Dew and Eyes of the World.",
+    "review": "The show is widely praised for its soaring improvisations – especially the Dark Star/MLB/Morning Dew sequence, Playing In The Band, and the powerful encore of Eyes of the World into Stella Blue.  While the early part of the first set suffers from balance issues (keys too forward, guitars buried), the mix improves dramatically and the overall performance is considered one of the best of the fall‑’73 tour.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Average star rating across 15 substantive reviews is ~4.3; the majority of comments are positive about both performance and sound quality, with only a few isolated criticisms."
+      "rationale": "Average reviewer rating ≈ 4.35/5 across >15 detailed reviews, with strong consensus on standout jams and a generally good vault‑remastered soundboard recording."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Vault‑remastered SBD; early first‑set balance favors keyboards over guitars, but levels correct quickly.  Mix is clear with Jerry and Weir well separated left/right; occasional minor sloppiness noted but overall crisp and listenable."
+      "technical_notes": "Vault‑remastered SBD; early first‑set balance off (keys forward, guitars low) but quickly corrected.  Jerry’s guitar is crisp and well separated in the mix; overall clarity high despite minor early muddiness."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "Mind Left Body Jam (MLB)",
+        "Mind Left Body Jam",
         "Playing In The Band",
         "Morning Dew",
-        "Eyes Of The World",
+        "Eyes of the World",
         "Stella Blue",
-        "Playin' In The Band",
-        "Sugar Magnolia"
+        "Don't Ease Me In"
       ],
       "poor_songs": [
-        "Tennessee Jed (flubs noted)",
-        "Looks Like Rain (slide issues)",
-        "China > Rider (feeling groovy deemed weak by some)"
+        "Tennessee Jed",
+        "Looks Like Rain"
       ],
-      "setlist_flow": "First set starts uneven with balance and energy issues, picks up after 'Don't Ease Me In' and builds to a strong Playing In The Band.  Second set is high‑energy, featuring extended jams and the first solid MLB jam, culminating in an enthusiastic encore."
+      "setlist_flow": "First set starts unevenly but gains momentum with Don't Ease Me In and a superb Playing In The Band.  Second set explodes with the Dark Star/MLB jam, Morning Dew and an inspiring encore that lifts the whole concert."
     },
     "band_member_comments": {
-      "Jerry": "Described as crisp, dexterous and on fire during Dark Star, MLB jam and solos throughout; great tone and vocal presence on Sugaree.",
-      "Phil": "Delivers a “phil‑tastic” solo in Dark Star and powerful bass bombs in Morning Dew, adding depth to the improvisations.",
-      "Bob": "",
-      "Keys": "Early mix lets keyboards dominate before balance is corrected; Keith syncs tightly with guitars during jams.",
-      "Drums": "Bill’s drumming noted as energetic (extra limbs), driving the high‑octane moments in Playing In The Band and second‑set jams."
+      "Jerry": "Repeatedly praised for crisp, dexterous playing and strong soloing (Dark Star, MLB, Morning Dew, Eyes).",
+      "Phil": "Noted for a “great Phil solo” in Dark Star and powerful bomb‑fills throughout the second set.",
+      "Bob": "Complimented on vocal delivery during Sugaree; otherwise not specifically mentioned.",
+      "Keys": "Early mix had keyboards too prominent, but balance improved later in the show.",
+      "Drums": "Billy (drums) described as having “extra limbs” and delivering high energy throughout."
     },
-    "processed_date": "2025-09-10T02:59:10.705174+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "Mind Left Body Jam": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "Playing In The Band": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Eyes of the World": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Stella Blue": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Don't Ease Me In": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Tennessee Jed": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Looks Like Rain": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-23T16:19:48.436781+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-10-19.sbd.nayfield.187.sbeok.shnf"
   }

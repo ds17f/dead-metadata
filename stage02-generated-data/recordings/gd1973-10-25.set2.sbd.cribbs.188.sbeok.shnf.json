@@ -16,25 +16,25 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of a stellar Dark Star with generally good sound despite a minor glitch in Let It Grow.",
-    "review": "Reviewers rave about the Dark Star, calling it one of the top‑5 performances of the ’70s and praising its powerful opening jam and seamless flow. The recording is a soundboard source that preserves the entire Dark Star, though one listener noted an odd cut in Let It Grow. Overall the set is viewed as solid and enjoyable.",
+    "summary": "Soundboard recording (good overall) with a minor glitch in Let It Grow, highlighted by an outstanding Dark Star that ranks among the tour’s best.",
+    "review": "The set is praised for its powerful, flowing Dark Star – several reviewers call it one of the top performances of the ’70s. The soundboard source delivers clear audio, though one listener notes a strange cut in Let It Grow that adds a spooky moment to the tape. Overall the show is considered solid and worth listening to.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
-      "confidence": "medium",
-      "rationale": "Four reviews show consistent high praise for Dark Star (average 4.25 stars). Minor recording glitch noted, but overall sound quality is good, leading to a strong combined rating."
+      "stars": 4.2,
+      "confidence": "high",
+      "rationale": "Strong consensus on Dark Star’s excellence (70% weight) plus generally good soundboard quality with only a minor recording glitch (30% weight) yields an overall high rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Full Dark Star retained; one reviewer mentions an unexpected cut in Let It Grow, otherwise clear and balanced sound."
+      "technical_notes": "Clear and balanced overall; a noticeable splice/cut in Let It Grow creates a brief, spooky artifact but does not detract significantly from the listening experience."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star"
       ],
       "poor_songs": [],
-      "setlist_flow": "Set 2 is anchored by a powerful, flowing Dark Star that carries the momentum; reviewers consider the show solid overall."
+      "setlist_flow": "The set is anchored by a stellar Dark Star; aside from a minor recording hiccup, the performance flows smoothly and maintains strong energy throughout."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,7 +43,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T03:11:51.964947+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Let It Grow": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-23T16:36:43.524832+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-10-25.set2.sbd.cribbs.188.sbeok.shnf"
   }

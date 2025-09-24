@@ -16,39 +16,70 @@
   "high_ratings": 4,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard tape of a typical 1973 Coliseum show with solid performance – Box of Rain and Loose Lucy shine – recording is good though some listeners note pitch‑speed quirks.",
-    "review": "The concert captures a mellow 1973 Dead night at the Nassau Coliseum, highlighted by a sweet Box of Rain, a gritty Loose Lucy, and heartfelt renditions of He's Gone (dedicated to Pigpen) and China Cat Sunflower. Reviewers generally praise the tape’s clear levels and instrument balance, but a few claim the playback speed sounds too fast, creating mixed feelings about the technical fidelity.",
+    "summary": "Soundboard recording of a mellow 1973 show with standout Box of Rain, He's Gone and Loose Lucy, though a few listeners note the playback speed sounds off.",
+    "review": "The concert is praised for its relaxed vibe and strong performances of songs like Box of Rain, He's Gone, Truckin' and a lo‑down version of Loose Lucy. Most reviewers find the tape quality solid—levels are balanced and the mix clear—while a minority complain that the pitch sounds too fast, making vocals sound chipmunk‑like. Overall the show is regarded as an enjoyable snapshot of the 1973 Dead era.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.0,
+      "stars": 4.1,
       "confidence": "medium",
-      "rationale": "Most reviewers rate 3‑5 stars and praise the musical set, especially specific songs; a few note speed/pitch issues that keep the overall score from higher levels."
+      "rationale": "Most reviewers rate the performance and tape highly (4‑5 stars) with only one low rating focused on perceived speed issues; show quality is strong while recording quality ranges from good to excellent."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear and well‑balanced with near‑perfect instrument/vocal levels; some listeners perceive a slight speed/pitch anomaly, while others attribute tape decay to reduced high‑frequency presence."
+      "technical_notes": "Levels and mix are generally praised as near‑perfect, but a few listeners note the playback speed/pitch sounds high, giving a chipmunk effect. Minor tape decay noted by one reviewer."
     },
     "show_quality": {
       "standout_songs": [
         "Box of Rain",
-        "Loose Lucy",
         "He's Gone",
-        "China Cat Sunflower",
-        "Trucking",
-        "The Other One"
+        "Truckin'",
+        "The Other One",
+        "Loose Lucy"
       ],
       "poor_songs": [],
-      "setlist_flow": "A typical 1973 set featuring Europe ’72 material and a mellow vibe; only the second set is present, but it delivers solid transitions and memorable moments."
+      "setlist_flow": "The second‑set focus on Europe ’72 material creates a mellow, cohesive flow with highlights like the intro to China Cat Sunflower and strong group improvisations."
     },
     "band_member_comments": {
-      "Jerry": "One reviewer likens the overall speed to chipmunks, implying his guitar sounds too high‑pitched; otherwise no specific praise.",
-      "Phil": "His vocal on Box of Rain is noted as surprisingly on‑key.",
+      "Jerry": "Some reviewers say his vocals sound sped up like chipmunks, but others note solid guitar work and no major issues.",
+      "Phil": "Praised for on‑key singing and superb bass/piano/guitar trading licks, especially on Box of Rain.",
       "Bob": "",
-      "Keys": "Piano/guitar trading licks praised in the Box of Rain segment.",
+      "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T23:08:11.099931+00:00",
+    "song_mentions": {
+      "Box of Rain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "He's Gone": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Loose Lucy": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T06:13:13.460370+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-03-19.sbd.elliot.9987.sbeok.shnf"
   }

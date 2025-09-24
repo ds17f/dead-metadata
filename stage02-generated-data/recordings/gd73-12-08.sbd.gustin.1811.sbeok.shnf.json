@@ -16,45 +16,113 @@
   "high_ratings": 3,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard recording with solid clarity captures a mixed‑quality 1973 show highlighted by soaring China>Rider, an epic Other One and guest synth work, though the first half feels subdued.",
-    "review": "The SB tape is generally clear and well‑balanced, though a few listeners note slightly lower volume that may have been normalized. Musically the concert swings between moments of brilliance – a loose China > Rider, a fiery BE Woman/Big River stretch, a long, synth‑enhanced Other One and an inspired Outer Limits jam – and more muted stretches, especially early in the first set where the band sounds subdued and the main jam after He's Gone falls short for some fans.",
+    "summary": "Soundboard recording with good clarity captures a spiritually charged ’73 show highlighted by a scorching China > Rider, an epic Other One and a soaring Outer Limits jam.",
+    "review": "The tape is a solid sound‑board source that sounds clear though a touch quieter than other ‘73 releases.  Fans rave about the magical first‑set “step‑back” intro to All Along the Watchtower and the second‑set fireworks – especially China > Rider, The Other One and the Outer Limits sequence with Ned Lagin – while a few feel the He’s Gone → Truckin’ transition falls flat.  Overall it’s an enjoyable, if uneven, snapshot of a memorable Dead night.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.7,
-      "confidence": "medium",
-      "rationale": "Seven reviews give an average of ~3.4 stars; strong positive notes on recording quality and several standout songs lift the rating, while notable criticisms keep it from higher marks."
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Average to above‑average musical performance (mixed reviews) combined with a good soundboard recording yields a solid mid‑range rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear soundboard source with crisp overall balance. Some listeners mention a slightly lower volume/possible normalization but no major drop‑outs or distortion."
+      "technical_notes": "Clear and well‑balanced, though some listeners note the overall volume is lower than typical ’73 tapes."
     },
     "show_quality": {
       "standout_songs": [
+        "All Along the Watchtower",
         "China > Rider",
-        "BE Woman",
+        "B.E. Woman",
         "Big River",
         "Candyman",
         "Let It Grow",
-        "Truckin' > Nobody's Fault (segue)",
-        "Other One (extended jam)",
-        "Outer Limits (with Ned Lagin synth)",
+        "Truckin' > Nobody's Fault",
+        "The Other One",
+        "Outer Limits",
         "Wharf Rat",
-        "Uncle John's Band (encore)"
+        "Uncle John"
       ],
       "poor_songs": [
-        "He's Gone"
+        "He's Gone > Truckin'"
       ],
-      "setlist_flow": "First set starts a bit subdued, picking up with strong numbers like BE Woman and Big River; the second set launches into spacey improvisation after He's Gone, building to an epic Other One and a synth‑laden Outer Limits before closing with heartfelt Wharf Rat and Uncle John's Band."
+      "setlist_flow": "First set starts a bit subdued but builds with BE Woman and Big River; the second set rockets into space after He’s Gone, delivering long improvisations and memorable segues before a heartfelt encore."
     },
     "band_member_comments": {
-      "Jerry": "Delivers a fine BE Woman solo and meanders later in the set; strong presence on the extended jams.",
+      "Jerry": "Delivers a fine ‘BE Woman’, meanders on some jams but shines on China > Rider and The Other One.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Ned Lagin joins on synth during the Outer Limits section, adding an effective texture praised by some listeners.",
+      "Keys": "Ned Lagin’s synth adds an effective texture to the Outer Limits section.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T05:14:51.277048+00:00",
+    "song_mentions": {
+      "All Along the Watchtower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China > Rider": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "B.E. Woman": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Big River": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Candyman": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Let It Grow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin' > Nobody's Fault": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Outer Limits": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Wharf Rat": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "He's Gone": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T04:19:13.305904+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-12-08.sbd.gustin.1811.sbeok.shnf"
   }

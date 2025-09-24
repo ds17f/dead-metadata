@@ -16,40 +16,65 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crystal‑clear soundboard capture of the legendary November 17 1973 UCLA show, highlighted by a tight set and a smoking Playin' In The Band sandwich with standout Here Come Sunshine and China Cat Sunflower > I Know You Rider.",
-    "review": "The recording is a superb soundboard mix – crisp, clean and arguably superior to other versions of this concert. Musically the band is in top form: Jerry’s solos blaze, the set flows flawlessly and classics like Here Come Sunshine, Looks Like Rain, China Cat Sunflower > I Know You Rider and the famed Playin' In The Band sandwich are cited as exceptional. Overall the performance feels tight, energetic and virtually error‑free.",
+    "summary": "Crystal‑clear soundboard capture of a flawless 1973 UCLA show with soaring Garcia solos and standout renditions of Here Come Sunshine, Looks Like Rain and the epic Playing In The Band sandwich.",
+    "review": "All reviewers rave about the pristine soundboard mix—crisp, well‑balanced and superior to other IA versions—while praising a consistently tight performance. Highlights include an inspired Here Come Sunshine, emotive Looks Like Rain, a killer China Cat > I Know You Rider transition, and the famous Playing In The Band/Uncle John’s Band/Morning Dew medley. No major flaws are noted.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.9,
+      "stars": 4.7,
       "confidence": "high",
-      "rationale": "All detailed reviews give 5‑star ratings praising both the musical performance and the soundboard recording; consistent high praise yields a near‑perfect combined rating."
+      "rationale": "Uniform five‑star praise for both performance and recording, with multiple detailed positive comments; the show is described as tight and inspired, and the soundboard quality is called excellent."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Crisp, clean mix with excellent clarity; reviewers note minor splices/patches on some tracks but overall superior to other IA sources. EQ recommended for best playback."
+      "technical_notes": "Crisp, clear mix; reviewers note it is superior to other IA copies. Minor splicing/patches exist but do not detract from overall fidelity."
     },
     "show_quality": {
       "standout_songs": [
         "Here Come Sunshine",
         "Looks Like Rain",
-        "China Cat Sunflower > I Know You Rider",
-        "Playin' In The Band > Uncle John's Band > Morning Dew > Uncle John's Band > Playin' In The Band (the sandwich)",
-        "Tennessee Jed",
-        "Big River",
-        "Brown Eyed Women"
+        "China Cat > I Know You Rider",
+        "Playing In The Band > Uncle John's Band > Morning Dew",
+        "Uncle John's Band"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set is described as solid from start to finish, with no weak moments; the famous Playin' In The Band sandwich provides a high‑point climax and the pacing feels tight and well‑structured."
+      "setlist_flow": "Tight, energetic first set with no warm‑up needed; a legendary Playing In The Band sandwich anchors the middle, and the second half maintains momentum with seamless transitions."
     },
     "band_member_comments": {
-      "Jerry": "Garcia 'kicks it in on every solo', his picking is described as soaring and wailing, delivering inspired leads throughout.",
+      "Jerry": "Garcia’s solos are highlighted as soaring, especially on Here Come Sunshine and during the China Cat > Rider segment.",
       "Phil": "",
-      "Bob": "",
-      "Keys": "Keith Godchaux’s honky‑tonk fills are praised; a reviewer also mentions a ‘Bobby’ contribution (likely misidentified) adding nice rhythm fills.",
+      "Bob": "Bob Weir (referred to as Bobby) delivers crisp rhythm fills and strong vocal work throughout.",
+      "Keys": "Keith Godchaux’s honky‑tonk keyboard style is praised, particularly in the jam leading into I Know You Rider.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T04:10:48.352054+00:00",
+    "song_mentions": {
+      "Here Come Sunshine": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Looks Like Rain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat > I Know You Rider": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Playing In The Band > Uncle John's Band > Morning Dew": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T02:47:44.164864+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-11-17.sbd.patched.bec.22799.flac16"
   }

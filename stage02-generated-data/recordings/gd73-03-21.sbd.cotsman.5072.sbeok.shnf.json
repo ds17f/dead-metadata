@@ -16,42 +16,79 @@
   "high_ratings": 10,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good‑ish Betty Cantor soundboard captures a high‑energy early‑73 show with standout Dark Star, Eyes of the World and a mind‑blowing Jack Straw.",
-    "review": "The performance is praised for its soaring Dark Star, fiery Eyes of the World, sunshine‑filled Box of Rain and especially the blazing keyboards on Jack Straw.  The Betty Cantor soundboard is generally solid but suffers from occasional mix quirks – low vocals, a bit too loud Bob, and some water‑damage distortion on Eyes of the World.  Overall listeners find the show exhilarating despite those technical blemishes.",
+    "summary": "Solid soundboard capture of an energetic early‑'73 show, highlighted by a blazing Dark Star, soaring Jack Straw keys and vibrant Sunshine.",
+    "review": "The performance is widely praised for its high energy, especially the second‑set Dark Star, the psychedelic Sunshine, and Keith’s mind‑blowing keyboards on Jack Straw.  The soundboard source is generally good but suffers from occasional mix quirks—low vocals, a slightly buried Jerry, and some water‑damage distortion on Eyes of the World.  Overall listeners find the concert a classic early‑’73 experience with a few sonic blemishes.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 3.9,
       "confidence": "high",
-      "rationale": "Most reviewers rate the musical performance 4‑5 stars and highlight several classic jams, while recording comments note average to good soundboard quality with some mix issues; weighted average yields a ~4‑star rating."
+      "rationale": "Most reviewers rate the show 4–5 stars and praise key performances, while several note mix issues; weighted combination of strong show quality (≈4.0) and decent but imperfect recording quality (≈3.6) yields ~3.9."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear Betty Cantor board but with noted low vocal levels, occasional Bob‑vocals dominance, Jerry’s guitar sometimes buried, and water‑damage distortion on Eyes of the World; not a pristine master but fully listenable."
+      "technical_notes": "Generally clear SBD capture, but reviewers mention low vocal levels, Jerry buried in the mix, Bob sometimes too loud, and water‑damage distortion on Eyes of the World."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "Eyes of the World",
-        "Box of Rain",
+        "Sunshine",
         "Jack Straw",
         "Wharf Rat",
-        "St. Stephen"
+        "Bertha",
+        "Box of Rain"
       ],
       "poor_songs": [
-        "Dark Star (scattered in some opinions)",
-        "Eyes of the World (distracted in a few reviews)"
+        "Eyes of the World (distorted vocals)",
+        "Dark Star (some feel scattered)"
       ],
-      "setlist_flow": "First set builds with sunshine‑filled tunes and solid Box of Rain; second set launches into an intense Dark Star that segues into Eyes of the World, delivering a powerful, improvisational peak before winding down with classic ballads."
+      "setlist_flow": "First set is praised for tight highlights; the second set is described as mind‑blowing with strong transitions, though a few listeners note occasional lyrical distraction."
     },
     "band_member_comments": {
-      "Jerry": "Generally praised for his jam energy, though some note his guitar gets buried in the mix and vocals are low at times.",
-      "Phil": "Strong vocal work on Box of Rain; noted for joking about St. Stephen no‑longer being played.",
-      "Bob": "His vocals sometimes too forward in the mix; otherwise contributes solid rhythm and occasional lead moments.",
-      "Keys": "Keith/Brent keyboards receive high praise, especially the soaring solo on Jack Straw and overall “mind‑blowing” key work.",
-      "Drums": "Bill’s drumming is highlighted as a driving force for the improvisations, especially during Dark Star."
+      "Jerry": "Mix issues noted—his guitar often sits low in the blend—but his playing on Dark Star receives praise.",
+      "Phil": "His bass work shines on Box of Rain and his vocals are highlighted as strong for 1973.",
+      "Bob": "Sometimes too loud in the mix; also praised for backing vocal contributions later in the show.",
+      "Keys": "Keith’s keyboards, especially on Jack Straw, are repeatedly called “mind‑blowing” and a highlight of the night.",
+      "Drums": "Bill’s drumming is lauded as essential to the improvisational flow."
     },
-    "processed_date": "2025-09-09T23:13:28.147232+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "total_mentions": 4
+      },
+      "Sunshine": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Box of Rain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Jack Straw": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Wharf Rat": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Eyes of the World": {
+        "positive_mentions": 0,
+        "negative_mentions": 3,
+        "total_mentions": 3
+      },
+      "Bertha": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-22T06:21:41.077088+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-03-21.sbd.cotsman.5072.sbeok.shnf"
   }

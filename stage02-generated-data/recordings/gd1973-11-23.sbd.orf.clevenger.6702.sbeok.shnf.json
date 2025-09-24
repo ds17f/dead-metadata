@@ -16,41 +16,71 @@
   "high_ratings": 6,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Pristine soundboard capture of a smooth 11/23/73 El Paso show with standout performances of “Row Jimmy,” “He’s Gone,” and an inspired “Eyes of the World” jam.",
-    "review": "The recording delivers crystal‑clear, soundboard quality that most reviewers describe as pristine, despite some confusion over keyboard balance. Musically the concert is praised as relaxed yet powerful, highlighted by Jerry Garcia’s superb guitar on Row Jimmy and He’s Gone, a top‑notch Eyes of the World jam, and memorable cowboy‑song flair such as Race Is On and Bobby McGee.",
+    "summary": "Pristine soundboard capture of a smooth, high‑energy El Paso show with standout versions of “He's Gone,” “Eyes,” and “The Other One.”",
+    "review": "Fans rave about the relaxed, fluid playing and strong vocals on this fall‑’73 El Paso concert, highlighting Jerry’s soaring guitar on “He’s Gone” and an intense jam on “The Other One.” The soundboard source is described as pristine despite a few mixed comments about keyboard levels, making the recording both clear and enjoyable.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Majority of detailed reviews rate the show 5 stars, lauding both performance and sound quality; only one low‑rating comment concerns metadata, so overall rating is high."
+      "rationale": "The majority of detailed reviews award 4‑5 stars, praising both performance and audio quality; only one outlier rating (0) relates to metadata, not the music."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Soundboard source noted as crisp and pristine by several reviewers; a few mention ambiguous keyboard mix (Keith vs. Brent) but no major dropouts or distortion."
+      "quality_rating": "excellent",
+      "technical_notes": "Described as pristine and crystal‑clear. A few reviewers note ambiguity about keyboard presence, but overall mix is balanced with good instrument separation."
     },
     "show_quality": {
       "standout_songs": [
-        "Row Jimmy",
         "He's Gone",
-        "Eyes of the World",
-        "Goin' Down The Road Feeling Bad",
+        "Eyes",
         "Casey Jones",
-        "Race Is On",
+        "The Other One",
         "Bobby McGee",
-        "The Other One"
+        "Race Is On"
       ],
       "poor_songs": [],
-      "setlist_flow": "First set described as relaxed and fluid with strong vocals; second set launches rock‑hard with energetic jams and cowboy‑song flair, maintaining high momentum to the close."
+      "setlist_flow": "Smooth, relaxed first set followed by a high‑energy second set; cowboy‑themed numbers get extra flair and the show builds to powerful jams."
     },
     "band_member_comments": {
-      "Jerry": "Praised for fine form on Row Jimmy and He's Gone, shredding intense solos throughout especially in The Other One.",
+      "Jerry": "Praised for fine form on “He's Gone” and shredding intense leads during “The Other One.”",
       "Phil": "",
       "Bob": "",
-      "Keys": "Mixed remarks – some hear Keith clearly, others claim the keys are barely audible or mistake them for Brent; overall keyboard presence is noted but debated.",
+      "Keys": "Keyboard presence is debated – some hear Keith clearly, others think the mix muffles him; overall interplay remains strong.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T04:28:15.315069+00:00",
+    "song_mentions": {
+      "He's Gone": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Eyes": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Bobby McGee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Race Is On": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T03:16:46.645046+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-11-23.sbd.orf.clevenger.6702.sbeok.shnf"
   }

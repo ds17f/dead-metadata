@@ -16,38 +16,65 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A nicely‑sounding audience tape that captures a tight June ’73 show with standout Morning Dew, an epic Birdsong jam and a third‑set featuring Trucks, Saunders & Betts (and a Dark Star).",
-    "review": "The recording is praised as one of the better AUD sources, with Charlie’s transfer delivering clear enough sound to enjoy the band’s tight playing. Fans highlight the first‑set magic of Morning Dew and Playin’ In The Band, a marathon Birdsong jam, and an unforgettable third set that shines thanks to guest appearances (Trucks, Saunders & Betts) and a soaring Dark Star. Overall the performance is described as “on” and emotionally powerful despite the inherent limitations of audience recording.",
+    "summary": "Nice‑sounding audience recording capturing a great show highlighted by a soaring Birdsong jam and an unforgettable third set",
+    "review": "The AUD tape is praised as one of the nicest‑sounding audience recordings, with Charlie's transfer delivering clear detail despite some loss of the live tightness. Musically the concert shines – fans rave about the extended Birdsong jam, a goose‑bumps‑inducing Morning Dew, a fireworks‑capped Playin’ in the Band and a powerful Dark Star that makes the third set the night’s high point.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "medium",
-      "rationale": "Most reviewers are enthusiastic, citing several standout songs and a strong performance; recording quality is noted as good but not perfect, leading to a solid above‑average combined rating."
+      "rationale": "Most reviewers are enthusiastic about both performance and sound quality; the show is described as great with standout jams, while the audience recording is noted as very good though not a studio‑level master."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Described as one of the nicest sounding AUDs and a decent capture; clear enough for enjoyment with a well‑done Charlie transfer, though some ambient loss of tightness compared to soundboard recordings."
+      "technical_notes": "Described as one of the nicest‑sounding AUD tapes; clear enough for enjoyable listening, with Charlie's transfer noted as solid despite some inevitable loss of live tightness."
     },
     "show_quality": {
       "standout_songs": [
         "Morning Dew",
         "Birdsong",
-        "Playin' In The Band",
-        "Trucks (with Saunders & Betts)",
-        "Dark Star"
+        "Playing in the Band",
+        "Dark Star",
+        "Truckin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "First set builds to a thrilling Playin' In The Band ending with fireworks, the second set maintains momentum, and the third set steals the night with guest‑filled jams and a soaring Dark Star."
+      "setlist_flow": "First two sets solid but a notch below the previous night; third set steals the show with an epic Birdsong jam and dark, exploratory playing that leaves a lasting impression."
     },
     "band_member_comments": {
-      "Jerry": "Garcia is described as being \"on\" and finally breaking out, delivering stellar leads in Birdsong and Dark Star.",
+      "Jerry": "General praise for the band being \"ON\" and tight, implying strong Garcia guitar work.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T00:50:07.969951+00:00",
+    "song_mentions": {
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Birdsong": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Playing in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T14:38:42.685633+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-06-10.121031.barry.smith.AUD-fob.flac2496"
   }

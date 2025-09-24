@@ -16,43 +16,82 @@
   "high_ratings": 19,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "An excellent patched soundboard captures a stellar 1973 UCSB show with blistering Here Comes Sunshine, Row Jimmy and an epic Truckin → Other One sequence.",
-    "review": "The patched SBD recording is crystal‑clear overall, with only a brief high‑frequency buzz in the first set that disappears later. Musically the concert is a tour‑de‑force – Jerry’s voice is a little strained but his guitar shines, Phil’s bass drives the band, and the group delivers standout performances of Here Comes Sunshine, Row Jimmy, Eyes, Looks Like Rain and a spectacular Truckin→Other One→Eyes→Stella Blue→Sugar Magnolia run. The set flows beautifully from a relaxed first set into an inspired second and a magical third set that truly “has wings.”",
+    "summary": "A superb patched sound‑board capture of the May 20 1973 UCSB show, highlighted by a blazing Here Comes Sunshine, gorgeous Row Jimmy and a monster GSET.",
+    "review": "The recording is a well‑patched SBD that sounds clear and balanced with only occasional high‑frequency buzz after the first set. Musically the night is fire‑hot – Jerry’s voice may be a little strained but his guitar is fierce, and the band delivers classics like Here Comes Sunshine, Eyes, the Truckin’ > Other One > Stella Blue sequence and an unforgettable Grateful Dead Set. Fans rave about the third set “having wings” and the overall flow of the performance.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.6,
       "confidence": "high",
-      "rationale": "Consistently 4‑5 star reviews praising both the musical performance and the high‑quality patched soundboard, with only minor technical quirks."
+      "rationale": "Over a dozen detailed reviews praise the musical performance as exceptional, with only minor, isolated recording quirks; the consensus yields a top‑tier rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "excellent",
-      "technical_notes": "Crisp, well‑balanced mix; occasional high‑frequency buzz (likely bass) in the first set that fades after the opening songs. Patched seamlessly, making the tape highly listenable."
+      "quality_rating": "good",
+      "technical_notes": "Patched SBD is crisp and well balanced. A few reviewers note a faint high‑frequency buzz (likely bass or equipment) after the first set and occasional background chatter (Donna’s shrieking), but these do not detract from overall clarity."
     },
     "show_quality": {
       "standout_songs": [
         "Here Comes Sunshine",
-        "Row Jimmy",
         "Eyes",
+        "Truckin' > The Other One > Stella Blue > Sugar Magnolia",
         "Looks Like Rain",
-        "Truckin",
-        "The Other One",
-        "Stella Blue",
-        "Sugar Magnolia",
+        "China Cat Sunflower > I Know You Rider",
         "Playin' in the Band",
-        "China Cat Sunflower > I Know You Rider"
+        "Grateful Dead Set"
       ],
       "poor_songs": [],
-      "setlist_flow": "A long, well‑structured concert that builds from a relaxed first set into an inspired second and a soaring third set (the “wings”), with seamless transitions and high energy throughout."
+      "setlist_flow": "The concert is long and well‑paced, with a particularly strong third set that reviewers say “has wings.” Transitions are smooth and the band maintains high energy throughout."
     },
     "band_member_comments": {
-      "Jerry": "Voice sounds slightly strained/colder than usual but his guitar work remains fiery; vocals praised by several reviewers.",
-      "Phil": "A brief high‑frequency buzz in the first set is attributed to Phil’s bass (big brown) by one reviewer.",
+      "Jerry": "Voice sounds strained/has a cold but his guitar work is amplified and fiery.",
+      "Phil": "One reviewer hears a faint buzzing in the first set, possibly from his bass.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T00:04:25.241341+00:00",
+    "song_mentions": {
+      "Here Comes Sunshine": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Row Jimmy": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Eyes": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Truckin' > The Other One > Stella Blue > Sugar Magnolia": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Looks Like Rain": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "China Cat Sunflower > I Know You Rider": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Playin' in the Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Grateful Dead Set": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-22T07:41:47.733894+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-05-20.sbd-patched.schlissel.24495.sbeok.shnf"
   }

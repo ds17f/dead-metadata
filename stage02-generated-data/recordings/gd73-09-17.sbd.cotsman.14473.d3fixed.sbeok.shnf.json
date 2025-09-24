@@ -16,38 +16,66 @@
   "high_ratings": 10,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with good clarity captures a unique 1973 second set where horns join the Dead on Wake of the Flood material and an electrifying Weather Report Suite.",
-    "review": "The tape is a sound‑board source that sounds clean enough for most listeners, though a few note the hall’s poor acoustics. Musically the show stands out for the surprise horn section (Martin Fierro) backing several Wake of the Flood numbers and an energetic Weather Report Suite, with Keith's jam on Truckin' getting special praise. Opinions on the horns are split, making the overall reception mixed.",
+    "summary": "Soundboard recording captures a unique horn‑filled second set with standout Truckin’ jam and Weather Report Suite, overall good quality.",
+    "review": "The show is remembered for its surprise horn section that turned the Wake of the Flood material into an experimental second set – fans rave about Keith’s soaring jam on Truckin' and the thunderous Weather Report Suite. Recording quality is generally good for a soundboard source, though a few listeners note a muddy hall ambience and a desire for louder guitars.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.2,
-      "confidence": "medium",
-      "rationale": "Average star rating of ~4 across 14 reviews; strong positive comments about the unique horn‑enhanced second set and decent soundboard quality, offset by a minority who disliked the horns."
+      "confidence": "high",
+      "rationale": "Average star rating of 4.0 across 14 reviews, with most comments praising the unique horn‑enhanced performance and good soundboard quality; a minority dislike the horns, giving a balanced but slightly positive overall assessment."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear and well‑balanced; no major dropouts mentioned. One reviewer noted the venue’s hall sound was terrible, but that refers to live acoustics rather than the tape itself."
+      "technical_notes": "Generally clear and well‑balanced; one reviewer mentions hall sound was terrible (likely venue ambience) while another notes the guitars could be louder. Odd theremin‑like texture in the LLR jam noted."
     },
     "show_quality": {
       "standout_songs": [
+        "Truckin'",
         "Weather Report Suite",
-        "Wake of the Flood material (e.g., songs from the album)",
-        "Keith's jam on Truckin'"
+        "Let Me Sing Your Blues Away"
       ],
       "poor_songs": [
-        "\"LLR\" (perceived as trite by some reviewers)"
+        "Eyes of the World",
+        "Weather Report Suite"
       ],
-      "setlist_flow": "Second set is the highlight, featuring an unexpected horn section that adds a jazzy flavor to Wake of the Flood tunes and carries through into the Weather Report Suite. The horns divide listeners—some love the energy, others feel they detract from classic Dead moments."
+      "setlist_flow": "Second set diverges into Wake of the Flood material with a surprise horn section, creating an experimental and unorthodox but highly effective flow that many fans find memorable."
     },
     "band_member_comments": {
-      "Jerry": "One reviewer noted Jerry sings a line from \"Sugar Magnolia\"; another wished guitars were louder.",
+      "Jerry": "His brief vocal line on “Sugar Mag!” is noted positively; no specific guitar comments beyond a desire for louder mix.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Keith's jam on Truckin' is praised for its energy, and his vocal moment on an obscure tune is highlighted as a fun surprise.",
+      "Keys": "Keith Godchaux praised for an energetic jam on Truckin' and for singing on the rare ‘Let Me Sing Your Blues Away’ tune.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T02:37:42.064582+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Weather Report Suite": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Eyes of the World": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Let Me Sing Your Blues Away": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugar Mag!": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T17:32:21.102561+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-09-17.sbd.cotsman.14473.d3fixed.sbeok.shnf"
   }

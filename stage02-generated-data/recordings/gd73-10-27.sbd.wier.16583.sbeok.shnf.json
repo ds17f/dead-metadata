@@ -16,38 +16,80 @@
   "high_ratings": 19,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording that clears up after the first few tunes, delivering a smoking Truckin' and incendiary China‑Rider jam with Keith’s keys on fire.",
-    "review": "The SBD capture starts a bit muddied but quickly sharpens into clear, bright sound for the bulk of this legendary ’73 show.  Highlights include an earth‑shaking Truckin', a blistering China > Rider sequence and a seamless Big River → Playin' reprise, all powered by Jerry’s scorching guitar and Keith’s unstoppable keyboards.  A few drop‑outs toward the end and occasional source switches keep it from being perfect, but the performance is overwhelmingly strong.",
+    "summary": "A mostly clear soundboard‑matrix capture of the 1973 Indy show, famed for a scorching Truckin', incendiary China > Rider and a soaring Big River‑into‑Playin' jam.",
+    "review": "The recording starts a bit muddy but clears up by the second tune and stays bright through most of the set, with only occasional drop‑outs and an audience‑source switch on Wharf Rat. Musically the concert is celebrated for Jerry’s “smoking” guitar work, Keith’s dazzling keys, and standout moments like Truckin', China > Rider, Big River into Playin' and a memorable Loose Lucy jam.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.6,
       "confidence": "high",
-      "rationale": "20 detailed reviews are uniformly enthusiastic about the music; recording issues are noted but do not dominate, yielding a high combined score."
+      "rationale": "Average reviewer rating is ~4.6; the show receives consistent praise for performance while recording quality is generally good with minor flaws."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "matrix",
       "quality_rating": "good",
-      "technical_notes": "Starts muddled for the first tune(s) then becomes clear and bright.  Generally solid board with crisp mids, but occasional drop‑outs near the end and a source change (SBD→AUD) that some listeners found jarring."
+      "technical_notes": "Early tracks are muddled, but clarity improves by the second/third tune. Overall soundboard‑derived and bright, though there are occasional drop‑outs and a noticeable SBD→AUD switch on Wharf Rat."
     },
     "show_quality": {
       "standout_songs": [
         "Truckin'",
         "China > Rider",
-        "Big River → Playin' reprise",
-        "Loose Lucy",
-        "Beat It On Down The Line"
+        "Big River",
+        "Playin'",
+        "Loose Lucy"
       ],
       "poor_songs": [],
-      "setlist_flow": "The band warms up quickly, building energy through a powerful second set; transitions like Playin' → ½ Step → Big River → Playin' are praised for their seamless flow."
+      "setlist_flow": "The band warms up quickly, delivering high energy throughout; the set flows naturally with enthusiastic crowd interaction and several seamless jams (e.g., Big River → Playin')."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly lauded for extra chops, smoky tone and “whipping out” impressive solos.",
+      "Jerry": "Repeatedly praised for “smoking” guitar tone and extra chops.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Keith’s keyboard work is highlighted as relentless and melodic—“bangs on the keys like there’s no tomorrow” and delivers a top‑tier solo on Beat It On Down The Line.",
+      "Keys": "Keith’s solos highlighted as extraordinary, especially on Beat It On Down The Line and throughout the set.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T03:17:08.209184+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China > Rider": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Big River": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Playin'": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Loose Lucy": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Beat It On Down The Line": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Wharf Rat": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Me and Bobby McGee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-23T16:43:07.323823+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-10-27.sbd.wier.16583.sbeok.shnf"
   }

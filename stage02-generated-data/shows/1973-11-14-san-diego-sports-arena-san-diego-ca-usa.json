@@ -214,23 +214,31 @@
     "30-trips-around-the-sun"
   ],
   "ai_show_review": {
-    "summary": "Blazing Here Comes Sunshine & marathon Truckin' → Other One jams",
-    "blurb": "The first set delivers a solid run of classics highlighted by a scorching Here Comes Sunshine. The second set explodes with an extended Truckin' → The Other One sandwich that weaves through Big River, Eyes Of The World and closes with a soaring Wharf Rat coda. Keith’s piano drives the jams while Jerry’s lead work and Phil’s bass keep the momentum relentless.",
-    "review": "San Diego Sports Arena on November 14‑1973 captures the band in peak late‑fall form. After a sturdy first set that includes a fiery Here Comes Sunshine, Black Throated Wind and a seamless China Cat Sunflower → I Know You Rider, the Dead launch into one of the most celebrated second‑set marathons of the tour. Truckin' erupts into The Other One and mutates through Big River and Eyes Of The World before bursting back into The Other One again and spilling over into an unforgettable Wharf Rat coda. Jerry Garcia’s soaring lead tones and expressive vocals (especially on Sugaree) ride atop Phil Lesh’s thunderous bass bombs, while Keith Godchaux’s monstrous piano adds both harmonic depth and melodic fire. Bill Kreutzmann’s syncopated drumming and Mickey Hart’s complementary textures keep the groove fluid, and Bob Weir supplies passionate vocal phrasing throughout the jams. The Miller soundboard capture (gd1973-11-14.sbd.miller.79049.flac16) presents this performance with crystal‑clear balance, making it the definitive listening source.",
+    "summary": "Soaring Here Comes Sunshine, marathon Other One sandwich energize San Diego",
+    "blurb": "The set features a soaring Here Comes Sunshine and an epic Truckin' → The Other One → Big River → The Other One → Eyes Of The World sequence. Keith's monstrous piano and Bill Kreutzmann’s syncopated drumming drive the improvisations. Highlights include Wharf Rat, China Cat Sunflower > I Know You Rider, and Goin' Down The Road Feeling Bad.",
+    "review": "San Diego’s 11/14/73 concert is remembered for its high‑octane second set, where a marathon Truckin' → The Other One sandwich rolls through Big River, another turn of The Other One, then blossoms into an expansive Eyes Of The World before landing on a soulful Wharf Rat coda. Jerry Garcia soars on Here Comes Sunshine and delivers angular, almost ’76‑style leads on China Cat Sunflower, while his vocals shine on Sugaree and Black Throated Wind despite a minor lyric slip. Phil Lesh’s bass is often described as ‘raging’ and drives the deep jams, especially the bass‑heavy Truckin' transition. Keith Godchaux provides monstrous, exploratory piano throughout, punctuating Brown Eyed Women and adding texture to the improvisational flow. Bill Kreutzmann’s syncopated off‑beat drumming is praised as career‑night level, keeping the energy tight even when the band stretches into extended passages. The soundboard capture by Charlie Miller is crisp and well‑balanced, making this a definitive listening source for one of 1973’s most celebrated performances.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.7,
-      "confidence": "high"
+      "ai_rating": 4.5,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 84,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All three recordings label the show sentiment as positive, repeatedly praising soaring guitar work, marathon improvisations, and standout songs like Here Comes Sunshine, the Other One sandwich, and Wharf Rat. No negative remarks about performance quality appear, only minor recording quirks, yielding a strong positive adjustment.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd1973-11-14.sbd.miller.79049.flac16",
-      "reason": "Excellent soundboard source with crisp, balanced mix; captures the full show without drop‑outs and showcases the marathon Truckin' → The Other One jam at its best."
+      "reason": "Excellent soundboard with crisp, well‑balanced mix; captures the full energy of the marathon second set and highlights Keith's piano and Bill's drumming."
     },
     "key_highlights": [
-      "Epic Truckin' → The Other One sandwich with multiple reprises",
-      "Blazing Here Comes Sunshine in the first set",
-      "Explosive Eyes Of The World jam within the second‑set suite",
-      "Monstrous Keith piano driving the extended jams"
+      "Epic Truckin' → The Other One → Big River → The Other One → Eyes Of The World sequence",
+      "Soaring Here Comes Sunshine early in the first set",
+      "Monstrous Keith Godchaux piano throughout, especially on Brown Eyed Women",
+      "Bill Kreutzmann’s syncopated drumming drives the high‑energy jams"
     ],
     "song_highlights": [
       "Here Comes Sunshine",
@@ -240,19 +248,19 @@
       "Eyes Of The World",
       "Wharf Rat",
       "China Cat Sunflower",
-      "I Know You Rider"
+      "I Know You Rider",
+      "Goin' Down The Road Feeling Bad"
     ],
     "band_performance": {
-      "Jerry": "Delivers tight, soaring lead tones and expressive vocals—especially on Sugaree—and launches relentless solos throughout the jam sections, adding an angular flair on China Cat Sunflower.",
-      "Phil": "Provides powerful bass bombs and a raging rhythmic foundation; his low‑end drive shines during The Other One sandwich, propelling the band’s energy forward.",
-      "Bob": "Shows passionate vocal delivery with lyrical slip‑ups early on (e.g., HCS) but strong phrasing on Black Throated Wind, Truckin' and Saturday Night; rhythm guitar work remains solid throughout.",
+      "Jerry": "Soars on lead guitar with exploratory solos and strong vocals; occasional slip in the China Cat transition but overall angular, ’76‑style playing shines.",
+      "Phil": "Raging bass work that drives the improvisations; highlighted on The Other One while a few moments feel less intense.",
+      "Bob": "Passionate vocals on Sugaree, Black Throated Wind and Truckin'; cat‑calling vocal flair noted; active rhythm work in transitions like Eyes jam.",
       "Brent": "",
-      "Keith": "Monstrous, accurate piano that explores boldly; his playing is a key driver of the second‑set energy, especially on Brown Eyed Women and the climactic sections of Eyes Of The World.",
       "Mickey": "",
-      "Billy": "Bill Kreutzmann’s syncopated off‑beat drumming adds creative, jazzy texture to the extended jams, complementing the overall groove."
+      "Billy": "Provides vital syncopated off‑beat drumming that fuels the extended jams, praised as career‑night level."
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-10T04:05:31.885934+00:00",
+    "processed_date": "2025-09-24T02:41:08.669030+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -271,6 +279,10 @@
       [
         "China Cat Sunflower",
         "I Know You Rider"
+      ],
+      [
+        "Goin' Down The Road Feeling Bad",
+        "One More Saturday Night"
       ]
     ]
   }

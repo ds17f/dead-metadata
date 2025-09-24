@@ -16,18 +16,18 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A high‑energy 1973 performance highlighted by a blazing Truckin’ → The Other One and a vivid Here Comes Sunshine; the audience tape is warm but a bit muddy with limited bass.",
-    "review": "The show bursts with excitement – the band is practically off the rails, delivering tight jams in the first set and an especially wild second set where Truckin' and The Other One shine.  The recording, sourced from an audience tape, captures that vibe but suffers from a thin low end, harsh upper mids and a mildly muddy character, making it best enjoyed at moderate volume.",
+    "summary": "High‑energy 1973 show with a smoking Truckin' and The Other One; audience tape is warm but a bit muddy with limited bass.",
+    "review": "The performance bursts with excitement – the band sounds ecstatic, delivering tight jams especially on Truckin' and The Other One, and even the occasional slip feels hilarious. The audience recording captures the vibe well, though it lacks low‑end punch and the mids are a touch harsh, making it best listened at moderate volume.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
-      "confidence": "medium",
-      "rationale": "Reviewers consistently praise the musical performance (standout jams, high energy) and give high star ratings; recording quality is noted as decent but imperfect, leading to an overall strong rating."
+      "stars": 4.6,
+      "confidence": "high",
+      "rationale": "All three reviewers gave 4–5 stars, praising both the musical fire and the overall listening experience; minor recording flaws are noted but do not detract significantly."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "good",
-      "technical_notes": "Warm overall but lacking bass, upper‑mid harshness and a slightly muddy texture; not ideal for high volume listening."
+      "quality_rating": "fair",
+      "technical_notes": "Low bass response, harsh upper‑midrange, slightly muddy texture; enjoyable at moderate volume but not ideal for high‑level listening."
     },
     "show_quality": {
       "standout_songs": [
@@ -36,16 +36,33 @@
         "Here Comes Sunshine"
       ],
       "poor_songs": [],
-      "setlist_flow": "First set tight and playful, second set even crazier with sustained high energy; the band seems to be having a blast throughout."
+      "setlist_flow": "Second set builds into an intense, jam‑filled stretch; the energy stays high throughout with seamless transitions."
     },
     "band_member_comments": {
       "Jerry": "",
-      "Phil": "Bass is thin on this tape but Phil's higher‑frequency tones come through clearly.",
+      "Phil": "Higher frequencies of Phil's bass are audible despite overall low bass presence.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T01:12:28.346888+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Here Comes Sunshine": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T15:13:41.079765+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-06-26.aud-amick.williams-smith.115571.flac16"
   }

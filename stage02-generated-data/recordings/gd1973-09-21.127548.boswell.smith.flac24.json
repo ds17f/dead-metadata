@@ -16,41 +16,89 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with some harsh cuts but captures a strong second‑set jam featuring He's Gone > Truckin' > The Other One and horn‑enhanced numbers.",
-    "review": "The show is praised for its energetic second set, the early placement of The Other One, and the added horns that lift tracks like Wharf Rat and Casey Jones. Recording quality is decent for a 1973 board tape but suffers from noticeable cuts in songs such as Sugaree, Big River and Playin' In The Band, plus occasional firecracker noise, making parts of the performance unevenly presented.",
+    "summary": "A strong 1973 performance with soaring horns and an hour‑long second‑set jam, captured on a soundboard tape that suffers noticeable cuts and missing sections.",
+    "review": "The show is praised for its intense second‑set medley (He’s Gone → Truckin’ → The Other One → Wharf Rat → Row Jimmy) and the added horn section, which adds a unique flavor to classics like Playing In The Band and Casey Jones.  The recording is a soundboard source but contains harsh cuts in several songs (Sugaree, Big River, Playing In The Band) and missing portions of The Other One, making the audio quality only fair despite a solid transfer.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.7,
-      "confidence": "medium",
-      "rationale": "Show quality is high (strong jams, good set flow) while recording quality is marred by harsh cuts and missing sections; the weighted average yields a solid but not stellar rating."
+      "stars": 4.1,
+      "confidence": "high",
+      "rationale": "Reviewers consistently highlight an excellent musical performance (70% weight) while noting significant but not devastating recording flaws (30% weight), yielding a rating just above four stars."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Board tape with harsh cuts in Sugaree, Big River, Playin' In The Band and missing portions of The Other One; occasional firecracker noise; overall decent clarity when present."
+      "technical_notes": "Harsh cuts in Sugaree, Big River and Playing In The Band; missing spacy sections of The Other One; occasional firecracker noise; vocal level inconsistencies on keyboards but overall a solid transfer."
     },
     "show_quality": {
       "standout_songs": [
-        "Here Comes Sunshine",
         "Playing In The Band",
-        "He's Gone",
-        "Truckin'",
-        "The Other One",
-        "Wharf Rat",
-        "Row Jimmy",
-        "Casey Jones"
+        "He’s Gone > Truckin’ > The Other One > Wharf Rat > Row Jimmy",
+        "Casey Jones (with horns)",
+        "Row Jimmy"
       ],
-      "poor_songs": [],
-      "setlist_flow": "First set ends with a driving Playing In The Band; second set is a continuous jam through He's Gone > Truckin' > The Other One > Wharf Rat > Row Jimmy, followed by a horn‑filled encore that adds extra excitement."
+      "poor_songs": [
+        "Sugaree",
+        "Big River",
+        "Playing In The Band (cuts)",
+        "The Other One (missing sections)"
+      ],
+      "setlist_flow": "Second set dominates with an hour‑long jam that flows naturally into horn‑filled passages; the break for mic setup adds a unique texture, though missing audio portions interrupt the continuity."
     },
     "band_member_comments": {
-      "Jerry": "Garcia's guitar tone and improvisational choices are highlighted as superb; his use of early MIDI ideas is noted in the horn sections.",
-      "Phil": "Phil's bass line on The Other One is described as surprising and powerful, though a few vocal mix issues are mentioned.",
-      "Bob": "Weir receives praise for strong vocals on 'Row Jimmy' and overall contribution to the set’s energy.",
-      "Keys": "Keith's vocal levels are said to be off in places but his keyboard work helps fill out the sound; horns complement his playing.",
+      "Jerry": "Garcia’s guitar tone is praised as perfect and his vocals are solid throughout.",
+      "Phil": "Phil’s bass line on The Other One is highlighted as surprising and powerful.",
+      "Bob": "",
+      "Keys": "Keith’s vocal levels are noted as off at times, but his keyboards help anchor the full‑sound horn arrangements.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T02:46:34.951438+00:00",
+    "song_mentions": {
+      "Playing In The Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "He’s Gone": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Truckin’": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Wharf Rat": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Row Jimmy": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sugaree": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Big River": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-23T14:52:10.748447+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-09-21.127548.boswell.smith.flac24"
   }

@@ -16,42 +16,89 @@
   "high_ratings": 12,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of an energetic May‑1973 show with crisp guitar work and standout jams (China > Rider, The Other One, Playin'), despite occasional splice and mix quirks.",
-    "review": "The performance is widely praised for its high energy, tight improvisations and memorable moments like the China > Rider segue, a soaring Eyes/Other One marathon, and a fiery Playin' in the Band. The SBD source is generally clear and lets you hear each instrument, though listeners note occasional AUD splices, low bass, and uneven vocal balance that can distract.",
-    "sentiment": "positive",
+    "summary": "Good‑quality soundboard capture of a high‑energy May ’73 show highlighted by a scorching China > Rider, fiery Other One and tight jams throughout.",
+    "review": "The performance is widely praised for its extra edge – from an electrifying Truckin' jam to a 30‑minute Other One that never lets up – with standout moments like China > Rider, Playin', Sunshine, Eyes and Slipknot/Stella Blue.  The SBD source is generally clear and crisp, letting you hear Jerry’s soulful (if occasionally hoarse) guitar work and the tight rhythm section, though several reviewers note audible splice patches and occasional mix balance issues that pull the listening experience down a notch.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 3.9,
       "confidence": "high",
-      "rationale": "Most reviewers award 5‑star ratings and highlight exceptional playing; a few note recording mix issues, pulling the average down slightly but not enough to outweigh the overall enthusiasm."
+      "rationale": "Most reviewers rave about the musical performance (average ~4.2) while noting consistent but not fatal recording flaws (average ~3.5). Weighted combination yields a solid 3.9‑star rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally crisp SBD with clear instrument separation; occasional AUD splice patches and occasional low‑bass or vocal drop‑outs, plus some balancing problems in the Other One section."
+      "technical_notes": "Crisp guitar tone and clear instrument separation; however, several AUD splice patches, occasional low bass, and mixing balance problems (voice fading, guitars buried) are mentioned."
     },
     "show_quality": {
       "standout_songs": [
         "China > Rider",
-        "Bertha",
-        "Box of Rain",
+        "Playin'",
         "Sunshine",
         "Eyes",
-        "The Other One",
-        "Playin' in the Band",
-        "Slipknot!",
-        "Stella Blue"
+        "Other One",
+        "Slipknot/Stella Blue",
+        "Bertha",
+        "Box of Rain",
+        "Truckin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "A long, three‑set marathon that builds from a high‑octane first set into an especially explosive third set; the jam after Truckin' and the extended Other One are highlighted as peak moments."
+      "setlist_flow": "The show builds an extra‑edge after Truckin', delivering a massive third set that many cite as the highlight; first‑set energy is praised but some feel it never fully clicks, while mixing issues occasionally mask vocals."
     },
     "band_member_comments": {
-      "Jerry": "His guitar tone is described as crisp, tight and potent; vocals sound ragged from a cold but he compensates with powerful leads.",
-      "Phil": "Bass work noted as solid and jazzy, especially during the Phil‑Bill swing sections in the jam.",
-      "Bob": "Provides strong rhythm and engages in tight jams with Jerry and Phil, notably on Sunshine and the Other One.",
-      "Keys": "Keith is praised for being “on his game” with clear, vibrant organ/piano parts throughout.",
-      "Drums": "Billy (Bill) is highlighted as booming and right up there, driving the energy of the set."
+      "Jerry": "Vocals described as wobbly/hoarse (cold) yet his guitar work is crisp, tight and intensely expressive throughout.",
+      "Phil": "Praised for tight jamming with Bill, especially during jazzy swings in the Other One jam.",
+      "Bob": "Mentioned briefly in jam sections alongside Jerry; no detailed critique.",
+      "Keys": "Keith is repeatedly called “great” and “on his game,” with keyboards sounding solid throughout.",
+      "Drums": "Bill (drummer) noted as “right up there” providing a strong, driving foundation."
     },
-    "processed_date": "2025-09-10T00:03:29.009980+00:00",
+    "song_mentions": {
+      "China > Rider": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Bertha": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Box of Rain": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Playin'": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Sunshine": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Eyes": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Other One": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Slipknot/Stella Blue": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Truckin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-22T07:40:02.048303+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-05-20.sbd.weiner-warner.19564.sbeok.shnf"
   }

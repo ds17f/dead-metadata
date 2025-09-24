@@ -16,38 +16,81 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A solid (source unknown) recording captures a brisk 1973 Hamilton show highlighted by the rare “Mind Left Body Jam” transition between China Cat Sunflower → I Know You Rider, an extended Here Comes Sunshine jam and warm closing harmonies.",
-    "review": "Fans praise this 1973 Hamilton performance for its energetic pacing and several standout moments – the unique chord transition featuring Phil, Keith and Bob, a smoky China Cat Sunflower/I Know You Rider segue, an expansive Here Comes Sunshine jam, and a heartfelt closing with We Bid You Goodnight. No reviewer flags any serious audio problems, though the exact source (soundboard vs. audience) isn’t identified.",
+    "summary": "A solid 1973 show highlighted by a sparkling China Cat Sunflower → I Know You Rider transition and an inspired Here Comes Sunshine jam; recording quality isn’t described but appears listenable.",
+    "review": "Reviewers rave about the tight chord work from Phil, Keith and Bob during the rare “Mind Left Body Jam” that bridges China Cat Sunflower into I Know You Rider, and they praise the extended space‑noodle on Here Comes Sunshine as well as the seamless Weather Report Suite → Eyes of the World segue.  The performance is described as a bit fast but overall enjoyable, while no specific recording details are given.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.1,
       "confidence": "high",
-      "rationale": "Four detailed reviews are uniformly positive about the musical performance; no recording flaws are reported, leading to a strong overall rating."
+      "rationale": "Consistently positive comments about musical highlights and tight playing outweigh the lack of recording‑quality information, resulting in a strong overall rating."
     },
     "recording_quality": {
       "source_type": "unknown",
-      "quality_rating": "good",
-      "technical_notes": "Reviewers did not mention any sound‑board or audience issues, so the audio is presumed listenable but its exact source and fidelity are unspecified."
+      "quality_rating": "fair",
+      "technical_notes": "No reviewers mentioned soundboard vs. audience or clarity; assume an acceptable but unremarkable source."
     },
     "show_quality": {
       "standout_songs": [
-        "China Cat Sunflower → I Know You Rider (featuring “Mind Left Body Jam” transition)",
-        "Here Comes Sunshine (extended jam)",
-        "Eyes",
+        "China Cat Sunflower > I Know You Rider",
+        "Here Comes Sunshine",
+        "Eyes of the World",
         "Big River",
+        "Weather Report Suite",
         "We Bid You Goodnight"
       ],
       "poor_songs": [],
-      "setlist_flow": "The show is noted for a slightly fast tempo, tight segues (e.g., Weather Report Suite into Eyes) and generous improvisational space, especially on Here Comes Sunshine."
+      "setlist_flow": "Set is noted as a bit fast but flows smoothly, with memorable segues such as Weather Report Suite into Eyes of the World and a beautiful closing with We Bid You Goodnight."
     },
     "band_member_comments": {
-      "Jerry": "Garcia receives praise for his vocal harmonies and a heartfelt send‑off at the close of the show.",
-      "Phil": "Phil’s bass work is highlighted as part of the splendid chord transition with Keith and Bob.",
-      "Bob": "Bob’s rhythm guitar contributes to the praised chord transition linking China Cat Sunflower into I Know You Rider.",
-      "Keys": "Keith Godchaux is mentioned for his role in the smooth chord transition and extended jam sections.",
+      "Jerry": "Garcia receives a “beautiful harmonies and a Garcia send off” mention in the closing.",
+      "Phil": "Praised for splendid chord transitions during the Mind Left Body Jam.",
+      "Bob": "Also highlighted for his role in the impressive chord work of the jam.",
+      "Keys": "Keith’s contribution noted in the chord transition; “space noodle” on Here Comes Sunshine praised as a keyboard highlight.",
       "Drums": ""
     },
-    "processed_date": "2025-09-09T23:54:09.328262+00:00",
+    "song_mentions": {
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mind Left Body Jam": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Here Comes Sunshine": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Eyes of the World": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Big River": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Weather Report Suite": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "We Bid You Goodnight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T07:28:19.465206+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1973-04-02.sbd.hamilton.00169.sbeok.shnf"
   }

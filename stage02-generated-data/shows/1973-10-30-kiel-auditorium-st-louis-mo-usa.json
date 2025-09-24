@@ -206,44 +206,52 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Epic Dark Star > Stella Blue > Eyes sequence, tight playing throughout",
-    "blurb": "The show delivers a monumental Dark Star that morphs into Stella Blue and flows into Eyes Of The World, highlighted by soaring Here Comes Sunshine and a jazzy Weather Report Suite. Jerry’s cosmic guitar work intertwines with Phil’s booming bass, while the rhythm section stays locked in. The audience recording captures the 23‑song marathon with remarkable clarity.",
-    "review": "On October 30, 1973 at Kiel Auditorium the Dead turned a regular night into a historic marathon. Kicking off with a bright Here Comes Sunshine, the first set built momentum through classics like Jack Straw and a seamless China Cat Sunflower → I Know You Rider segue, ending on a rousing Playing In The Band. The second set is where the magic truly unfolds: Dark Star stretches to 28 minutes before melting into an inspired Stella Blue and then soaring into Eyes Of The World, all underpinned by Phil’s thunderous bass and Jerry’s lyrical, cosmic leads. A Weather Report Suite that glides from Prelude through Part 1 into Let It Grow adds a jazzy, big‑band texture courtesy of Keith’s organ, while the rhythm section holds everything together with solid grooves. The audience recording is praised as one of the best‑sounding 70s crowd tapes, delivering an immersive experience that lets listeners feel every nuance of this monumental night.",
+    "summary": "Spacey set highlighted by epic Dark Star/MLB and soaring Stella Blue",
+    "blurb": "The show delivers a relaxed, jazzy first set that blossoms into an extended Dark Star → MLB → Stella Blue suite. Jerry’s soaring leads, Phil’s booming bass, and Keith’s big‑band organ texture lift the improvisations, while the Weather Report Suite provides tight, energetic contrast.",
+    "review": "October 30, 1973 at Kiel Auditorium captures one of the Dead's most spacious outings of the early ’73 era. The first set opens with a crisp “Here Comes Sunshine” and rolls through tight country‑rock numbers before settling into a mellow groove. The second set is where the night truly shines: a 28‑minute Dark Star that flows seamlessly into “Stella Blue,” then launches into an inspired “Eyes Of The World” jam, followed by a precise Weather Report Suite and a fiery “Playing In The Band.” Across all recordings the band feels locked in – Jerry’s vocals are described as gorgeous with a megaphone‑like timbre and his guitar tone “cosmic and fluid,” Phil’s bass delivers “booming resonance” and memorable “bombs,” while Bob’s rhythm work adds depth throughout. Keith’s organ provides a big‑band texture that enhances the jazzy vibe, even if occasionally repetitive. The audience tape praised for its crystal‑clear sound captures the relaxed, space‑filled ambience perfectly, making this show a must‑listen for fans of the band’s improvisational peaks.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 38,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All four detailed recordings are uniformly positive, repeatedly praising the epic Dark Star/MLB sequence, soaring Stella Blue, and tight Weather Report Suite. Multiple reviewers highlight Jerry’s gorgeous vocals, Phil’s booming bass, and Keith’s big‑band organ texture, indicating strong consensus of exceptional playing.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd73-10-30.sbd.hamilton.969.sbeok.shnf",
-      "reason": "Brilliant‑sounding audience tape hailed as the best 70s AUD, clear and immersive with no flaws, capturing the full 23‑song marathon."
+      "reason": "Crystal‑clear audience capture that preserves the spacey, mellow vibe and delivers the most immersive listening experience of the night."
     },
     "key_highlights": [
-      "Monumental 28‑minute Dark Star that flows into Stella Blue and Eyes Of The World.",
-      "Soaring Here Comes Sunshine and jazzy Weather Report Suite showcase mid‑'70s elegance.",
-      "Tight rhythm section with Phil’s booming bass and Jerry’s cosmic guitar intertwine throughout.",
-      "Audience recording captures the energy of a 23‑song marathon with pristine clarity."
+      "Epic 28‑minute Dark Star that morphs into a soaring MLB → Stella Blue suite.",
+      "Tight Weather Report Suite (Prelude, Part 1, Let It Grow) showcases the band’s precision.",
+      "Jerry’s vocals described as gorgeous with a megaphone‑like timbre; his guitar tone “cosmic and fluid.”",
+      "Keith’s organ adds a big‑band texture that enhances the jazzy second set."
     ],
     "song_highlights": [
       "Dark Star",
       "Stella Blue",
       "Eyes Of The World",
-      "Here Comes Sunshine",
-      "Playing In The Band",
       "Weather Report Suite Prelude",
       "Weather Report Suite Part 1",
-      "Let It Grow"
+      "Let It Grow",
+      "Playing In The Band",
+      "Here Comes Sunshine"
     ],
     "band_performance": {
-      "Jerry": "Delivers soaring, lyrical solos and cosmic leads, especially on Dark Star, with gorgeous vocals that carry a slight megaphone texture; his interplay with Phil’s bass is tight and inspired.",
-      "Phil": "Provides powerful, booming bass that underpins the entire show, delivering thunderous “bombs” in Dark Star and driving the MLB jam; generally solid with occasional over‑driven moments.",
-      "Bob": "Anchors the rhythm guitar work, adds texture to jams like Dark Star and Eyes Of The World, and contributes vocal harmonies throughout.",
-      "Keith": "Rich, big‑band‑like organ and jazzy Rhodes flourishes propel the second‑set improvisations; occasional repetitiveness noted in later sections of Eyes Of The World.",
+      "Jerry": "Vocals are gorgeous with a megaphone‑like timbre; guitar tone is cosmic, fluid and full of soaring harmonics.",
+      "Phil": "Bass delivers booming resonance with memorable “bombs” especially during Dark Star and the MLB jam.",
+      "Bob": "Rhythm work shines in the pre‑verse Dark Star jam and adds depth to the incendiary Eyes outro.",
+      "Keith": "Organ provides a big‑band texture that enriches the jazzy vibe, occasionally repetitive but generally enhances the improvisations.",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-10T03:33:35.649447+00:00",
+    "processed_date": "2025-09-23T17:01:59.812322+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -256,10 +264,10 @@
         "Let It Grow"
       ],
       [
-        "Here Comes Sunshine"
+        "Playing In The Band"
       ],
       [
-        "Playing In The Band"
+        "Here Comes Sunshine"
       ]
     ]
   }

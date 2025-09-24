@@ -16,41 +16,84 @@
   "high_ratings": 12,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A soundboard capture of a late‑October ’73 show with crisp audio (despite some noise‑reduction processing) and a stellar second set highlighted by a rare Dark Star → Stella Blue → Eyes sequence.",
-    "review": "The recording is a solid soundboard source; most listeners praise its clarity while noting that a modest noise‑reduction pass was applied, leaving the mix generally clean but not pristine. Musically the concert shines in the second set – a cosmic Dark Star, a flowing Stella Blue into an incendiary Eyes, and a soaring Weather Report Suite make this one of the era’s top performances, though a few feel the first set is comparatively mellow. Overall the show is celebrated for its inspired jams and tight playing.",
+    "summary": "High‑quality soundboard capture of a stellar 10/30/73 show featuring a soaring Dark Star → Stella Blue → Eyes sequence and a superb China > Rider jam.",
+    "review": "The performance is widely praised for its cosmic Dark Star, the rare Dark Star→Stella Blue→Eyes suite, a tight Weather Report Suite and an especially hot China > The Rider transition. Reviewers note the soundboard source is clear and well‑balanced, though a noise‑reduction process was applied to the master reel, giving it a slightly processed character.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
+      "stars": 4.5,
       "confidence": "high",
-      "rationale": "The overwhelming majority of reviews (12 × 5‑star, several praising specific jams) highlight an excellent performance, while the recording is described as decent to good with only minor technical caveats."
+      "rationale": "Most reviewers give 5‑star ratings and highlight multiple standout jams; recording is soundboard with generally good fidelity despite minor processing."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear overall mix; a noise‑reduction process was applied (noted by a reviewer) but retains instrument separation. One comment mentions the sound could be better, yet no major dropouts or distortion are reported."
+      "technical_notes": "Clear overall mix with decent instrument separation; a noise‑reduction filter was applied to the master reel (as noted by mux) which slightly colors the sound but does not detract from listenability. Some reviewers mention the sound could be better, but no major dropouts."
     },
     "show_quality": {
       "standout_songs": [
-        "Here Comes Sunshine",
-        "China > The Rider",
-        "Playing in the Band",
         "Dark Star",
         "Stella Blue",
         "Eyes",
+        "China > The Rider",
+        "Playing in the Band",
         "Weather Report Suite",
-        "Might Be Light (MLB) jam"
+        "MLB Jam"
       ],
-      "poor_songs": [],
-      "setlist_flow": "First set is solid but considered less exciting than typical ’73 shows; the second set delivers a rare Dark Star → Stella Blue → Eyes progression, a flowing Weather Report Suite and a standout MLB jam, giving the concert an uplifting, space‑y feel despite some listeners finding it a bit mellow."
+      "poor_songs": [
+        "Stella Blue"
+      ],
+      "setlist_flow": "The first set is mellow but solid, highlighted by a strong China > Rider jam. The second set delivers the show’s high points – an epic Dark Star→Stella Blue→Eyes suite, a tight Weather Report Suite and an inspired MLB Jam, keeping the energy high despite occasional “lethargic” comments."
     },
     "band_member_comments": {
-      "Jerry": "Vocals described as gorgeous with a slightly megaphone‑like texture; guitar work noted as cosmic and tightly intertwined with Phil’s bass during Dark Star.",
-      "Phil": "Bass ‘booms’ and resonates, delivering powerful “bombs” on Dark Star; praised for tight, inspired interplay with Jerry.",
-      "Bob": "Shines on the pre‑verse Dark Star jam and the energetic Eyes outro; his rhythm guitar presence is highlighted as essential to the sound.",
+      "Jerry": "Vocals described as gorgeous with a megaphone‑like timbre; guitar tone praised as cosmic and fluid.",
+      "Phil": "Bass noted for booming resonance and memorable “bombs” on Dark Star.",
+      "Bob": "His rhythm work shines especially in the pre‑verse Dark Star jam and the incendiary Eyes outro, adding needed depth to the mix.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T03:28:39.337814+00:00",
+    "song_mentions": {
+      "Here Comes Sunshine": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China > The Rider": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Playing in the Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 8,
+        "negative_mentions": 0,
+        "total_mentions": 8
+      },
+      "Stella Blue": {
+        "positive_mentions": 4,
+        "negative_mentions": 1,
+        "total_mentions": 5
+      },
+      "Eyes": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Weather Report Suite": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "MLB Jam": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "total_mentions": 4
+      }
+    },
+    "processed_date": "2025-09-23T16:57:58.557207+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-10-30.sbd.powell.16818.sbeok.shnf"
   }

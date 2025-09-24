@@ -195,23 +195,31 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Sweet Dark Star, tight Playing in the Band, soaring Sugar Magnolia",
-    "blurb": "The show delivers a luscious Dark Star → Eyes Of The World → Stella Blue suite and a fiery Playing In The Band jam. Jerry’s vocals are expressive and his solos soar, while Keith’s Rhodes adds shimmering texture. Highlights include Bird Song, Black Peter (one‑drummer) and an upbeat Sugar Magnolia.",
-    "review": "June 30 1973 at the Universal Amphitheatre captures the Dead in a classic mid‑summer groove. The first set rolls through tight country‑rock numbers before launching into a second‑set masterpiece: Dark Star segues seamlessly into Eyes Of The World and then into Stella Blue, a sequence praised across every recording for its fluid transitions and exploratory improvisation. Jerry Garcia’s voice is strong and his wah‑wah‑laden solos on Dark Star and Cumberland Blues are especially emotive, while Phil Lesh lays down deep, warm bass that anchors the jams. Keith Godchaux’s Rhodes piano glitters throughout, adding a delicate counterpoint to the guitars, and Bill Kreutzmann provides crisp, driving rhythms that keep the energy high. Standout moments include a soaring Playing In The Band, an inspired Bird Song, a rare one‑drummer Black Peter, and a bright Sugar Magnolia that closes the night on a jubilant note. Across matrix, soundboard, and audience sources the performance shines, making this show a must‑listen for any 1973 Dead fan.",
+    "summary": "Stellar Dark Star/Eyes jam, crystal‑clear matrix sound, tight set flow",
+    "blurb": "The show shines with a soaring Dark Star > Eyes Of The World > Stella Blue suite and a beautiful Bird Song. Jerry delivers soaring solos while Phil’s deep bass anchors the jams; Keith’s piano adds twinkling texture. The matrix blend recording is excellent, offering balanced board‑audience mix and crisp drums.",
+    "review": "June 30, 1973 at the Universal Amphitheatre captures the Dead in a classic summer groove. The first set rolls through bright country‑rock numbers and builds to an inspired Playing In The Band, but it’s the second set that truly dazzles – a Dark Star that lifts into an expansive Eyes Of The World jam before resolving into a heartfelt Stella Blue, all underpinned by Phil’s warm, thunderous bass. Bird Song shines as a lyrical highlight, while Sugar Magnolia and the one‑drummer Black Peter encore keep the energy high. Across the board, Jerry’s guitar work is described as “soaring” and “perfect‑tone,” Keith’s piano weaves delicate textures, and Bill Kreutzmann delivers crisp, tight rhythms that drive the improvisations forward. The matrix blend (gd1973-06-30.sbd.sbvol9.chappell.29753.flac16) offers crystal‑clear balance of board and audience, deep bass and immaculate drum presence, making this the definitive listening source for a show that many fans rank among the year’s best.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.5,
-      "confidence": "high"
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 52,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Eight of the eleven recordings are uniformly positive, repeatedly praising Dark Star/Eyes jam, Bird Song, and Playing In The Band. Multiple sources use words like “soaring,” “crystal‑clear,” and “stellar.” Only two recordings offer mixed comments about tape quality, not performance, and one negative note concerns a poor audience transfer. Consistent high praise across the majority of analyses justifies a strong positive adjustment.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd1973-06-30.sbd.sbvol9.chappell.29753.flac16",
-      "reason": "Balanced matrix mix captures the full band with excellent clarity and a pleasant overall balance, offering the most complete listening experience."
+      "reason": "Matrix blend delivers crystal‑clear balance of board and audience, deep bass and crisp drums – the most listenable version."
     },
     "key_highlights": [
-      "Dark Star → Eyes Of The World → Stella Blue suite showcases seamless transitions and deep improvisation.",
-      "Bird Song stands out as a high‑point melodic excursion in the first set.",
-      "One‑drummer Black Peter provides a rare, stripped‑down highlight.",
-      "Playing In The Band delivers an epic jam that lifts the entire second set."
+      "Dark Star > Eyes Of The World > Stella Blue suite is the show’s centerpiece.",
+      "Bird Song provides a lyrical, beautifully phrased moment in the first set.",
+      "Playing In The Band showcases tight band interplay and soaring solos.",
+      "Matrix blend recording offers exceptional sound quality with balanced mix."
     ],
     "song_highlights": [
       "Dark Star",
@@ -219,19 +227,18 @@
       "Stella Blue",
       "Bird Song",
       "Playing In The Band",
-      "Sugar Magnolia",
-      "Black Peter",
-      "Cumberland Blues"
+      "Sugar Magnolia"
     ],
     "band_performance": {
-      "Jerry": "Expressive vocals and soaring solos dominate, with notable wah‑wah peaks on Dark Star; occasional mix low but overall praised for emotive delivery.",
-      "Phil": "Deep, solid bass provides a warm foundation; classic Lesh tone described as “nice and warm” and noted for dropping bombs during jams.",
-      "Bob": "Rhythm guitar adds fire to the set; vocal harmonies are strong though some listeners wished for more front‑of‑mix presence.",
-      "Keith": "Rhodes electric piano blends beautifully, twinkling throughout and offering melodic texture that meshes with Jerry’s lead lines.",
-      "Bill": "Crisp, tight drumming drives the band forward, delivering a solid rhythmic foundation especially during extended jams."
+      "Jerry": "Delivers soaring solos and soulful guitar tone, especially on Dark Star and the Eyes jam; vocal delivery praised despite occasional mix‑level issues.",
+      "Phil": "Warm, deep bass that anchors the improvisations, dropping \"bombs\" during jams and providing classic 1973 groove.",
+      "Bob": "Adds vocal fireworks, notably on Black Peter; overall solid rhythm guitar work throughout.",
+      "Keith": "Twinkling piano adds delicate texture, intertwining with Jerry’s lead; Moog/Rhodes tones noted as wonderful color.",
+      "Mickey": "",
+      "Billy": "Crisp, tight drumming that drives the jams; highlighted on one‑drummer Black Peter and throughout the high‑energy set."
     },
     "processed_recordings": 10,
-    "processed_date": "2025-09-10T01:23:57.095598+00:00",
+    "processed_date": "2025-09-22T15:30:00.691318+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -248,12 +255,6 @@
       ],
       [
         "Sugar Magnolia"
-      ],
-      [
-        "Black Peter"
-      ],
-      [
-        "Cumberland Blues"
       ]
     ]
   }

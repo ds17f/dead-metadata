@@ -16,32 +16,41 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with mild hiss and low volume captures a high‑energy prime‑time ’73 set.",
-    "review": "The SBD source delivers generally good sound despite a bit of hiss and lower overall level, but the performance shines – the band is described as \"off the chain\" with plenty of moxy. Garcia’s vocals are noted as hoarse yet crisp, making for an exciting show even if the recording isn’t pristine.",
+    "summary": "Soundboard recording with mild hiss and low level but captures a high‑energy ’73 set highlighted by a killer Truckin’ and stellar Jerry vocals",
+    "review": "The SBD source is generally clear, though listeners note a slight drop in volume and some background hiss. Musically the show shines – Garcia’s hoarse‑but‑crispy voice and an “off‑the‑chain” performance energize the set, with Truckin’ singled out as a standout moment.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.9,
+      "stars": 3.7,
       "confidence": "medium",
-      "rationale": "Show is praised as energetic and strong (≈4/5) while recording has mild issues (≈3.5/5); weighted average yields ~3.9."
+      "rationale": "Positive comments about the performance (especially Jerry and Truckin’) offset modest recording flaws; limited to two reviews, so rating reflects mixed but generally favorable impressions."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Mild hiss, slightly low volume; overall clear enough for enjoyment but not a pristine master."
+      "technical_notes": "Mild hiss and a slightly low volume level noted, but overall sound is decent and captures the band well."
     },
     "show_quality": {
-      "standout_songs": [],
+      "standout_songs": [
+        "Truckin'"
+      ],
       "poor_songs": [],
-      "setlist_flow": "Prime‑time 1973 set with lots of moxy and strong vocal delivery; energy remains high throughout."
+      "setlist_flow": "Prime‑time ’73 energy with strong vocal delivery; no specific flow issues mentioned."
     },
     "band_member_comments": {
-      "Jerry": "Vocals described as hoarse but crispy and overall performance \"off the chain\".",
+      "Jerry": "Garcia's vocals described as hoarse yet crispy and his voice praised as \"wow\" and \"off the chain\".",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T00:04:52.414375+00:00",
+    "song_mentions": {
+      "Truckin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-22T07:42:16.740174+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd73-05-20.set3-sbd.cribbs.16531.sbeok.shnf"
   }
