@@ -270,6 +270,8 @@ class ReviewAnalyzer:
                     current_show_index += 1
                 elif result == "prev_show":
                     current_show_index = max(0, current_show_index - 1)
+                    # Continue to load the new show
+                    continue
                 elif result == "quit":
                     break
                 elif result == "jump_show":
@@ -280,6 +282,8 @@ class ReviewAnalyzer:
                         )
                         if 1 <= jump_to <= len(shows):
                             current_show_index = jump_to - 1
+                            # Continue to load the jumped-to show
+                            continue
                     except (ValueError, KeyboardInterrupt):
                         continue
                         
@@ -352,7 +356,7 @@ class ReviewAnalyzer:
             elif result == "next_show":
                 return "next_show"
             elif result == "prev_show":
-                return "prev_show" 
+                return "prev_show"
             elif result == "jump_show":
                 return "jump_show"
             elif result == "quit":
@@ -634,14 +638,15 @@ class ReviewAnalyzer:
         
         # Initialize display once
         def update_display():
-            show_viewport = self.create_viewport(show_lines, show_scroll, 25)
-            recording_viewport = self.create_viewport(recording_lines, recording_scroll, 25)
-            
+            viewport_height = self.get_viewport_height()
+            show_viewport = self.create_viewport(show_lines, show_scroll, viewport_height)
+            recording_viewport = self.create_viewport(recording_lines, recording_scroll, viewport_height)
+
             header = f"Recording {current}/{total}: {recording_id[:50]}{'...' if len(recording_id) > 50 else ''}"
-            
+
             layout["show"].update(Panel(
                 show_viewport,
-                title=f"🎭 Show AI Review (D/F to scroll) [{show_scroll+1}-{min(show_scroll+25, len(show_lines))}/{len(show_lines)}]",
+                title=f"🎭 Show AI Review (D/F to scroll) [{show_scroll+1}-{min(show_scroll+viewport_height, len(show_lines))}/{len(show_lines)}]",
                 style="blue",
                 subtitle=f"Show: {show_data.get('date', 'Unknown Date')}",
                 border_style="blue"
@@ -649,7 +654,7 @@ class ReviewAnalyzer:
             
             layout["recording"].update(Panel(
                 recording_viewport,
-                title=f"🎧 Recording Evidence (J/K to scroll) [{recording_scroll+1}-{min(recording_scroll+25, len(recording_lines))}/{len(recording_lines)}]",
+                title=f"🎧 Recording Evidence (J/K to scroll) [{recording_scroll+1}-{min(recording_scroll+viewport_height, len(recording_lines))}/{len(recording_lines)}]",
                 style="green",
                 subtitle="Controls: H/L=recordings, S/G=shows, D/F=scroll left, J/K=scroll right, R=refine, B=batch, Q=quit",
                 border_style="green"
@@ -696,13 +701,15 @@ class ReviewAnalyzer:
                         live.refresh()
                 elif key.lower() == 'f':  # scroll left panel (show review) DOWN
                     old_scroll = show_scroll
-                    show_scroll = min(show_scroll + 1, max(0, len(show_lines) - 25))
+                    viewport_height = self.get_viewport_height()
+                    show_scroll = min(show_scroll + 1, max(0, len(show_lines) - viewport_height))
                     if show_scroll != old_scroll:
                         update_display()
                         live.refresh()
                 elif key.lower() == 'j':  # scroll right panel (recording evidence) DOWN
                     old_scroll = recording_scroll
-                    recording_scroll = min(recording_scroll + 1, max(0, len(recording_lines) - 25))
+                    viewport_height = self.get_viewport_height()
+                    recording_scroll = min(recording_scroll + 1, max(0, len(recording_lines) - viewport_height))
                     if recording_scroll != old_scroll:
                         update_display()
                         live.refresh()
@@ -1005,15 +1012,16 @@ class ReviewAnalyzer:
         
         # Initialize display once
         def update_display():
-            show_viewport = self.create_viewport(show_lines, show_scroll, 25)
-            recording_viewport = self.create_viewport(recording_lines, recording_scroll, 25)
-            
+            viewport_height = self.get_viewport_height()
+            show_viewport = self.create_viewport(show_lines, show_scroll, viewport_height)
+            recording_viewport = self.create_viewport(recording_lines, recording_scroll, viewport_height)
+
             show_header = f"Show {show_current}/{show_total}: {show_name.replace('.json', '').replace('-', ' ')}"
             recording_header = f"Recording {recording_current}/{recording_total}: {recording_id[:40]}{'...' if len(recording_id) > 40 else ''}"
-            
+
             layout["show"].update(Panel(
                 show_viewport,
-                title=f"🎭 Show AI Review (D/F=scroll, S/G=shows, X=jump show) [{show_scroll+1}-{min(show_scroll+25, len(show_lines))}/{len(show_lines)}]",
+                title=f"🎭 Show AI Review (D/F=scroll, S/G=shows, Shift+X=jump show) [{show_scroll+1}-{min(show_scroll+viewport_height, len(show_lines))}/{len(show_lines)}]",
                 style="blue",
                 subtitle=show_header,
                 border_style="blue"
@@ -1021,7 +1029,7 @@ class ReviewAnalyzer:
             
             layout["recording"].update(Panel(
                 recording_viewport,
-                title=f"🎧 Recording Evidence (J/K=scroll, H/L=recordings, X=jump) [{recording_scroll+1}-{min(recording_scroll+25, len(recording_lines))}/{len(recording_lines)}]",
+                title=f"🎧 Recording Evidence (J/K=scroll, H/L=recordings, X=jump) [{recording_scroll+1}-{min(recording_scroll+viewport_height, len(recording_lines))}/{len(recording_lines)}]",
                 style="green",
                 subtitle=recording_header,
                 border_style="green"
@@ -1047,12 +1055,12 @@ class ReviewAnalyzer:
                 elif key.lower() == 'x':
                     return "jump_recording", show_scroll
                     
-                # Show-level navigation (s/g keys) 
+                # Show-level navigation (s/g keys)
                 elif key.lower() == 's':
                     return "prev_show", show_scroll
                 elif key.lower() == 'g':
                     return "next_show", show_scroll
-                elif key.lower() == 'x':
+                elif key == 'X':  # Capital X for show jumping
                     return "jump_show", show_scroll
                     
                 # Scrolling controls - d/f for left panel (show review)
@@ -1064,13 +1072,15 @@ class ReviewAnalyzer:
                         live.refresh()
                 elif key.lower() == 'f':  # scroll left panel (show review) DOWN
                     old_scroll = show_scroll
-                    show_scroll = min(show_scroll + 1, max(0, len(show_lines) - 25))
+                    viewport_height = self.get_viewport_height()
+                    show_scroll = min(show_scroll + 1, max(0, len(show_lines) - viewport_height))
                     if show_scroll != old_scroll:
                         update_display()
                         live.refresh()
                 elif key.lower() == 'j':  # scroll right panel (recording evidence) DOWN
                     old_scroll = recording_scroll
-                    recording_scroll = min(recording_scroll + 1, max(0, len(recording_lines) - 25))
+                    viewport_height = self.get_viewport_height()
+                    recording_scroll = min(recording_scroll + 1, max(0, len(recording_lines) - viewport_height))
                     if recording_scroll != old_scroll:
                         update_display()
                         live.refresh()
@@ -1237,14 +1247,15 @@ class ReviewAnalyzer:
         
         # Initialize display once
         def update_display():
-            ai_viewport = self.create_viewport(ai_lines, ai_scroll, 25)
-            raw_viewport = self.create_viewport(raw_lines, raw_scroll, 25)
-            
+            viewport_height = self.get_viewport_height()
+            ai_viewport = self.create_viewport(ai_lines, ai_scroll, viewport_height)
+            raw_viewport = self.create_viewport(raw_lines, raw_scroll, viewport_height)
+
             header = f"Recording {current}/{total}: {recording_id[:50]}{'...' if len(recording_id) > 50 else ''}"
-            
+
             layout["ai"].update(Panel(
                 ai_viewport,
-                title=f"🤖 AI Review (D/F to scroll) [{ai_scroll+1}-{min(ai_scroll+25, len(ai_lines))}/{len(ai_lines)}]",
+                title=f"🤖 AI Review (D/F to scroll) [{ai_scroll+1}-{min(ai_scroll+viewport_height, len(ai_lines))}/{len(ai_lines)}]",
                 style="blue",
                 subtitle=header,
                 border_style="blue"
@@ -1252,7 +1263,7 @@ class ReviewAnalyzer:
             
             layout["raw"].update(Panel(
                 raw_viewport,
-                title=f"👥 Raw Reviews (J/K to scroll) [{raw_scroll+1}-{min(raw_scroll+25, len(raw_lines))}/{len(raw_lines)}]",
+                title=f"👥 Raw Reviews (J/K to scroll) [{raw_scroll+1}-{min(raw_scroll+viewport_height, len(raw_lines))}/{len(raw_lines)}]",
                 style="green",
                 subtitle="Controls: H/L=recordings, S/G=shows, X=jump, Q=quit",
                 border_style="green"
@@ -1281,7 +1292,8 @@ class ReviewAnalyzer:
                     return "jump"
                 elif key.lower() == 'j':  # scroll right panel (raw reviews) DOWN
                     old_scroll = raw_scroll
-                    raw_scroll = min(raw_scroll + 1, max(0, len(raw_lines) - 25))
+                    viewport_height = self.get_viewport_height()
+                    raw_scroll = min(raw_scroll + 1, max(0, len(raw_lines) - viewport_height))
                     if raw_scroll != old_scroll:
                         update_display()
                         live.refresh()
@@ -1299,21 +1311,34 @@ class ReviewAnalyzer:
                         live.refresh()
                 elif key.lower() == 'f':  # scroll left panel (AI review) DOWN
                     old_scroll = ai_scroll
-                    ai_scroll = min(ai_scroll + 1, max(0, len(ai_lines) - 25))
+                    viewport_height = self.get_viewport_height()
+                    ai_scroll = min(ai_scroll + 1, max(0, len(ai_lines) - viewport_height))
                     if ai_scroll != old_scroll:
                         update_display()
                         live.refresh()
     
+    def get_viewport_height(self) -> int:
+        """Get optimal viewport height based on terminal size."""
+        try:
+            import os
+            terminal_height = os.get_terminal_size().lines
+            # Reserve space for panel titles, borders, and controls (about 8 lines)
+            # Use 80% of available height for viewport content
+            return max(10, int((terminal_height - 8) * 0.8))
+        except:
+            # Fallback to larger default if terminal size detection fails
+            return 35
+
     def create_viewport(self, lines: List[str], scroll: int, height: int) -> str:
         """Create a viewport showing a portion of lines."""
         start = max(0, scroll)
         end = min(len(lines), start + height)
         viewport_lines = lines[start:end]
-        
+
         # Pad with empty lines if needed
         while len(viewport_lines) < height:
             viewport_lines.append("")
-            
+
         return "\n".join(viewport_lines)
     
     def format_comprehensive_ai_review(self, ai_data: Dict[str, Any], recording_id: str) -> List[str]:

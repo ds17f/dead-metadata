@@ -16,18 +16,18 @@
   "high_ratings": 8,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard capture with pitch quirks still delivers a raw, blues‑heavy ’66 set highlighted by an epic Viola Lee Blues and Pigpen’s powerhouse vocals.",
-    "review": "The three‑song excerpt showcases the early Dead at their tightest, with Pigpen’s soulful blues shouting, a marathon Viola Lee Blues and a fun Midnight Hour that even includes Garcia’s horn‑imitating solo. The soundboard source is generally clear and well‑mixed, but listeners note speed/pitch anomalies, a near‑silent drum track and an abrupt cut‑off on Midnight Hour. Overall the performance shines despite the technical oddities and labeling confusion.",
+    "summary": "Soundboard recording of a raw 1966 jam – standout Viola Lee Blues, You See A Broken Heart and Midnight Hour, but plagued by mis‑labeling and pitch issues.",
+    "review": "The three‑song segment captures the early Dead at their tightest, with Pigpen’s bluesy howl and Garcia’s spirited solos driving a powerful Viola Lee Blues, a crisp You See A Broken Heart, and an exuberant Midnight Hour. The SBD source is generally clear but suffers from speed/pitch problems and occasional mono folding, which some listeners note as flaws.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical performance (high show quality) while noting several recording issues (pitch, mono folding, drum level). Weighted average of show (~4.5) and recording (~3.2) yields a ~4.1 star rating."
+      "rationale": "Most reviewers praise the performance (average non‑zero rating ≈ 4.4) while noting consistent technical complaints about pitch and labeling; weighted blend yields a strong but not perfect score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Mix is generally crisp, but several tracks run fast/slow (Viola Lee needs -4% pitch correction), some are folded to mono, drums are almost inaudible, and Midnight Hour ends abruptly."
+      "technical_notes": "Mix is generally clean (5‑star mix scores), but the tracks run fast/slow and need pitch correction (–4% to –1%). Two songs appear folded to mono; drums are faint on some cuts."
     },
     "show_quality": {
       "standout_songs": [
@@ -36,16 +36,33 @@
         "Midnight Hour"
       ],
       "poor_songs": [],
-      "setlist_flow": "A short, blues‑focused three‑song burst that feels tight and energetic; despite the mislabeling, the sequence flows well with strong vocal call‑and‑response and extended improvisation."
+      "setlist_flow": "A brief, three‑song blues‑rock burst that feels raw and energetic; the band is tight despite occasional sloppy moments."
     },
     "band_member_comments": {
-      "Jerry": "Garcia delivers a lively solo on Midnight Hour (even mimicking a Martha & the Vandellas horn line) and shares vocal call‑and‑response moments with Pigpen.",
+      "Jerry": "Garcia’s leads are described as heavy‑handed yet fun; his first solo on Midnight Hour mimics a Martha & the Vandellas horn line and he engages in call‑and‑response with Pigpen.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "The drum track is very low in level, almost inaudible, though the band overall feels tight."
+      "Drums": "Drums are noted as almost inaudible on some tracks."
     },
-    "processed_date": "2025-09-10T12:05:14.486942+00:00",
+    "song_mentions": {
+      "Viola Lee Blues": {
+        "positive_mentions": 3,
+        "negative_mentions": 2,
+        "total_mentions": 5
+      },
+      "You See A Broken Heart": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Midnight Hour": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-26T04:47:02.448833+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1966-03-12.sbd.bershaw.5412.shnf"
   }

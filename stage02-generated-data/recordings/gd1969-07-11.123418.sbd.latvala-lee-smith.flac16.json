@@ -16,41 +16,77 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Rough outdoor audience tape captures a laid‑back 1969 set with strong Pigpen vocals and a memorable “Death Don't Have To Be” amid hiss and limited instrument separation.",
-    "review": "The recording is an audience capture from the New York State Pavilion, so it carries a noticeable hiss and modest instrument separation, but solo moments—especially Jerry’s guitar and Pigpen’s harmonica—come through clearly. Musically the show is relaxed and historically interesting, highlighted by “Death Don't Have To Be,” Pigpen‑fronted numbers like “Hard to Handle” and “Mama Tried,” and a solid “Dupree’s > Dire Wolf” pairing. While some songs such as “Alligator” are barely audible, the overall vibe is enjoyable for fans of this early‑summer ’69 era.",
+    "summary": "Fair soundboard capture of a mellow 1969 outdoor set, highlighted by strong Pigpen vocals and a standout \"Death Don't\" performance.",
+    "review": "The recording offers a decent but somewhat hazy soundboard image of the New York State Pavilion show – early hiss and limited instrument separation make the mix only fair, though solos and Pigpen’s harmonica come through clearly. Musically the concert is laid‑back yet memorable, with praised moments like Casey Jones organ work, Mama Tried vocals, and especially a powerful rendition of Death Don't that stands out as the show's high point.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.0,
-      "confidence": "medium",
-      "rationale": "One detailed 4‑star review; strong musical praise outweighs modest recording flaws, leading to an overall solid rating."
+      "stars": 4.1,
+      "confidence": "low",
+      "rationale": "Single detailed review rates the show 4 stars; performance is praised while recording quality is only fair, leading to an overall strong but not exceptional rating."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Noticeable hiss during breaks, limited instrument separation and occasional muffling (e.g., Phil’s bass), but solo instruments—Jerry’s guitar and Pigpen’s harmonica/vocals—are relatively clear; outdoor ambience adds crowd feel."
+      "technical_notes": "Slight hiss early on, limited instrument separation due to outdoor pavilion acoustics; solos and Pigpen’s vocals are clear, but overall mix is muddy at times."
     },
     "show_quality": {
       "standout_songs": [
-        "Dupree's > Dire Wolf",
-        "Hard to Handle",
+        "Death Don't",
+        "Casey Jones",
         "Mama Tried",
-        "Death Don't Have To Be",
-        "Sitting on Top of the World > Big Boss"
+        "Hard to Handle",
+        "Silver Threads"
       ],
       "poor_songs": [
-        "Alligator",
         "High Time"
       ],
-      "setlist_flow": "A mellow, laid‑back vibe suited to the open pavilion setting; pacing feels a bit tentative early on (tuning pauses) but builds into stronger Pigpen‑led numbers and a memorable “Death Don't Have To Be” that leverages the venue’s acoustics."
+      "setlist_flow": "A relaxed, outdoors‑influenced vibe with a slower start hampered by tuning issues that gives way to stronger jams later, culminating in an extended jam hinting at The Other One."
     },
     "band_member_comments": {
-      "Jerry": "Several solo highlights noted, especially his guitar work on “Sitting on Top of the World/Big Boss” and a strong solo toward the end; also praised for backup vocals.",
-      "Phil": "Bass is difficult to hear for much of the set due to recording limitations, though it becomes clearer later in the jam.",
-      "Bob": "Bob’s vocal performance on “Mama Tried” and his backing vocals are specifically appreciated.",
-      "Keys": "Organ work shines on “Casey Jones”; overall keyboard presence noted but somewhat buried by the crowd ambience.",
-      "Drums": "Top‑hat tapping from the drummer is mentioned; drum intro into a long jam provides rhythmic texture despite limited clarity."
+      "Jerry": "Noted for energetic guitar solos and backup vocals; lets loose on \"Sitting on Top of the World\" segment.",
+      "Phil": "Bass is hard to hear early on but becomes clearer later in the set.",
+      "Bob": "Praised for vocal work on \"Mama Tried\" and supportive backing vocals.",
+      "Keys": "Organ work highlighted on \"Casey Jones\"; overall keyboard presence noted as modest due to mix limitations.",
+      "Drums": "Top‑hat tapping and cowbell mentioned; drummers provide a steady, if not crystal‑clear, foundation."
     },
-    "processed_date": "2025-09-11T00:40:06.035050+00:00",
+    "song_mentions": {
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Silver Threads": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mama Tried": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "High Time": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Death Don't": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T16:20:14.641637+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-07-11.123418.sbd.latvala-lee-smith.flac16"
   }

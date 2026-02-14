@@ -16,36 +16,65 @@
   "high_ratings": 6,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Fair‑sounding soundboard capture of the March 29 1969 Ice Palace show, highlighted by a soaring Dark Star and a powerful Eleven.",
-    "review": "The recording is a soundboard source that suffers from tape‑age muddiness, hiss and several splices, but it remains listenable enough to showcase the band’s early psychedelic fire. Fans repeatedly praise the second half – especially the Dark Star outro, The Eleven and Doin’ That Rag – and note Jerry’s soaring leads and Phil’s booming bass. Overall the performance is praised despite the technical flaws of the tape.",
+    "summary": "Fair‑quality soundboard tape of a classic 1969 Las Vegas show with strong Dark Star/Eleven sequences but noticeable mud, hiss and splices.",
+    "review": "The recording captures the early Dead at the Ice Palace in March 1969 on Owsley’s reel‑to‑reel – a historic soundboard source that is unfortunately muddy, hissing and suffers from splice gaps. Musically the show shines with a powerful Dark Star second half, a fiery Eleven and a beautiful Doin’ That Rag, earning high praise despite the technical flaws.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.7,
+      "stars": 3.2,
       "confidence": "high",
-      "rationale": "Show quality is generally praised (≈4‑5 ★) while recording quality is noted as muddy and spliced (≈2‑3 ★). Weighted average yields a solid mid‑range rating."
+      "rationale": "Average star rating (≈3.3) combined with many positive comments about performance but consistent complaints about tape mud, hiss and splices leads to a modest overall score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Muddy, tape‑like sound with noticeable hiss; several splices cut out portions of Dark Star; low tom‑cymbal mix; missing bits but overall decent balance for a 1969 reel‑to‑reel capture."
+      "technical_notes": "Tape sounds muddy like an old Ampex 60, noticeable hiss, several splice cuts (especially in Dark Star), and some missing bits; however the overall mix is usable."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "The Eleven",
-        "Doin' That Rag"
+        "Doin' That Rag",
+        "St. Stephen",
+        "Morning Dew"
       ],
       "poor_songs": [],
-      "setlist_flow": "Early psychedelic set that builds into the classic “Holy Trinity” (Dark Star > St. Stephen > The Eleven) with an exploratory, high‑energy second half."
+      "setlist_flow": "A classic early‑psychedelic set with a strong second half; the Holy Trinity (Dark Star → St. Stephen → The Eleven) is highlighted, though splice edits interrupt the flow."
     },
     "band_member_comments": {
-      "Jerry": "Multiple reviewers highlight Jerry Garcia’s soaring solos and beautiful guitar work, especially in Dark Star.",
-      "Phil": "Phil Lesh receives praise for “booming bass bombs” and sounding great throughout.",
-      "Bob": "Reference to Pigpen’s bluesy attitude adds flavor to the early show.",
+      "Jerry": "",
+      "Phil": "Phil sounds great – booming bass bombs noted by several reviewers.",
+      "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T22:10:50.409850+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Eleven": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Doin' That Rag": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T12:33:27.873590+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-03-29.sbd.vinson.1764.sbeok.shnf"
   }

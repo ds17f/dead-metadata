@@ -16,39 +16,83 @@
   "high_ratings": 8,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Excellent 1969 Purdue soundboard capture with a groovy set highlighted by Hard to Handle, King Bee, Lovelight and an uninterrupted Other One, though Jerry’s guitar sometimes recedes.",
-    "review": "The Charlie Miller SBD transfer delivers clear, punchy mix that lets Pigpen’s bluesy swagger and the band’s tight groove shine. Highlights include a scorching Hard to Handle with slick slide work, King Bee, Lovelight and a fast‑paced Other One that flows straight into an epic Morning Dew. A few listeners note occasional buried Jerry parts and possible splicing of the last three cuts, but overall the performance is energetic and memorable.",
-    "sentiment": "mixed",
+    "summary": "A classic 1969 Purdue soundboard capture with a crisp Charlie Miller mix, highlighted by Hard to Handle, Brown Eyed Woman and a powerful Other One, though Jerry’s guitar slips out at times and the last three tracks may be spliced.",
+    "review": "The recording is a well‑preserved soundboard transfer praised for its clarity and excellent balance, even if a few moments leave Jerry Garcia buried in the mix. The performance itself is energetic and quintessentially ’69, delivering standout renditions of Hard to Handle, Brown Eyed Woman, Lovelight, Morning Dew and an uninterrupted Other One that showcases Phil’s bass work. Minor drawbacks include occasional missing guitar, audience bleed on a few songs and possible splicing of the final three cuts.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers praise the show’s energy, setlist highlights and excellent soundboard mix; only a few mention minor balance issues or possible track swaps, yielding an overall strong but not flawless rating."
+      "rationale": "The majority of reviewers (10 out of 13) give 4‑5 star ratings, extolling both the musical performance and the high‑quality Charlie Miller soundboard transfer; only a few low‑star comments cite minor mix or splice issues."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Mix is generally crisp and well‑balanced (Charlie Miller transfer); occasional moments where Jerry’s guitar is buried and the last three tracks may be from another source, but overall clarity is high."
+      "technical_notes": "Charlie Miller’s SBD transfer is praised as crisp and excellent, though some listeners note that Jerry’s guitar disappears intermittently, the Lovelight segment sounds more like an outdoor audience mix, and the last three songs appear to be taken from a different source."
     },
     "show_quality": {
       "standout_songs": [
         "Hard to Handle",
-        "King Bee",
+        "Brown Eyed Woman",
         "Lovelight",
         "Morning Dew",
-        "That's It For The Other One / The Other One",
-        "Freak"
+        "The Other One",
+        "Slipknot!",
+        "King Bee",
+        "Sittin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set moves with a steady groove, featuring bluesy Pigpen numbers early and building to an uninterrupted Other One that leads into a soaring Morning Dew; a mid‑show circuit‑breaker break adds a quirky anecdote but does not disrupt the overall momentum."
+      "setlist_flow": "The set flows with a classic 1969 groove, delivering tight blues‑rock numbers and an uninterrupted Other One; the only disruption noted is a possible splice of the final three tracks."
     },
     "band_member_comments": {
-      "Jerry": "Some reviewers note Jerry’s guitar can be hard to hear at times, though his slide work on Hard to Handle is praised.",
-      "Phil": "Phil’s bass shines, especially during the opening of The Other One after the drum solo; one reviewer interviewed him backstage and described him as being in another world.",
+      "Jerry": "Generally strong playing but his guitar disappears in parts of the mix, making him hard to hear at times.",
+      "Phil": "His bass work shines, especially on the uninterrupted The Other One where his opening after the drum solo is highlighted.",
       "Bob": "",
-      "Keys": "Pigpen (keys) delivers bluesy buzz‑saw riffs on Hard to Handle, King Bee and Lovelight, with his vocal enthusiasm highlighted throughout.",
-      "Drums": "No specific drum commentary beyond the circuit‑breaker incident that cut sound mid‑song."
+      "Keys": "Pigpen’s organ and vocals are prominently featured, with his on‑stage expletives noted when the PA blew out.",
+      "Drums": "A brief sound‑system failure caused a dead spot mid‑song; otherwise the drumming (including a solid solo leading into The Other One) is praised."
     },
-    "processed_date": "2025-09-10T22:43:20.502092+00:00",
+    "song_mentions": {
+      "Brown Eyed Woman": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Hard to Handle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "King Bee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sittin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Morning Dew": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "The Other One": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Slipknot!": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T13:25:16.962233+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-04-18.sbd.miller.88867.sbeok.flac16"
   }

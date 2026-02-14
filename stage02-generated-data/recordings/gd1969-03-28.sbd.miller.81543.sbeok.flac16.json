@@ -16,38 +16,76 @@
   "high_ratings": 17,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "A pristine sound‑board capture of a classic ’69 show highlighted by a soaring Dark Star, The Eleven and an epic That's It For The Other One.",
-    "review": "The recording is lauded as crystal‑clear for its era—thanks to Miller’s meticulous cleaning—and delivers the raw power of a spring‑1969 set. Fans repeatedly point out Jerry Garcia’s incendiary guitar work on Dark Star, the thunderous Eleven, and a standout Death Don't Have No Mercy, while Phil Lesh’s bass shines through the improvisations. Overall the performance is celebrated as an essential example of the Dead at their exploratory peak.",
+    "summary": "Superb soundboard capture of a classic ’69 set with a smoking Dark Star, The Eleven and an epic That's It For The Other One suite.",
+    "review": "The recording is praised for its crystal‑clear soundboard fidelity, with only minor mix quirks (a slightly high harmonica on Schoolgirl). Musically the show shines – Jerry’s guitar roars through one of the era’s best Dark Stars, the band stretches out on The Eleven and delivers a legendary That's It For The Other One/TIFTOO suite, plus standout moments from Death Don't Have No Mercy and Lovelight.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.7,
       "confidence": "high",
-      "rationale": "Overwhelmingly positive reviews (15 × 5‑star, 2 × 4‑star) praise both the musical performance and the high‑fidelity soundboard source; only one brief negative comment does not shift the overall assessment."
+      "rationale": "Average reviewer rating ~4.7, overwhelming positive comments on both performance and sound quality; only one outlier low‑star review."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Consistently described as superb, crisp, and clean for a 1969 tape; Miller’s cleanup work is credited with delivering great fidelity and minimal noise."
+      "technical_notes": "Crisp, superb sounding with great fidelity; minor volume issue noted on Schoolgirl harmonica but overall clear mix."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "The Eleven",
         "Death Don't Have No Mercy",
-        "That's It For The Other One (Cryptical Reprise)",
-        "Lovelight"
+        "That's It For The Other One"
       ],
-      "poor_songs": [],
-      "setlist_flow": "A classic spring‑'69 set with a tight first half and an explosive second set featuring Dark Star, the Eleven, and the TIFTOO suite; pacing is energetic yet retains the improvisational ebb and flow fans love."
+      "poor_songs": [
+        "Schoolgirl"
+      ],
+      "setlist_flow": "Typical 1969 set with a strong first half, a second set that builds through Dark Star into The Eleven and then the epic TIFTOO suite; transitions are fluid and keep the energy high."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly praised for blistering solos, new licks, and a \"zone\" performance on Dark Star; his guitar work is described as intense, buzzing like an angry hornet.",
-      "Phil": "Noted for a strong, audible bass line during The Eleven and overall solid support throughout the jam sections.",
-      "Bob": "Mentioned stepping up when Jerry drops out, contributing to jams in later parts of The Eleven and other segments.",
+      "Jerry": "Multiple reviewers rave about his incendiary guitar work – jamming, two soaring solos, picking described as ‘buzzes and stings like an angry hornet’.",
+      "Phil": "Bass highlighted on The Eleven (‘great Philbass comin’ through’) and overall solid foundation.",
+      "Bob": "Steps up when Jerry has equipment trouble; provides strong rhythm and jam support.",
       "Keys": "",
-      "Drums": "One humorous note about a 17‑second drum track being split; no substantive performance critique."
+      "Drums": ""
     },
-    "processed_date": "2025-09-10T22:05:11.867019+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "The Eleven": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Death Don't Have No Mercy": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "That's It For The Other One": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Schoolgirl": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T12:25:25.483741+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-03-28.sbd.miller.81543.sbeok.flac16"
   }

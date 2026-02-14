@@ -16,18 +16,18 @@
   "high_ratings": 5,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Historic Woodstock set featuring Pigpen’s marathon Turn On Your Lovelight, but the performance is uneven and recording quality unclear.",
-    "review": "The show is notable mainly for its historical value and a 45‑minute Pigpen‑led rendition of “Turn On Your Lovelight,” which many fans cite as a standout moment. However, reviewers describe the overall performance as below the Dead’s best – citing a dragging “High Time” and uneven pacing – and give no concrete details about audio fidelity, suggesting listeners may need EQ adjustments.",
+    "summary": "Soundboard capture of historic Woodstock set with a marathon Turn On Your Lovelight, but the performance is uneven and not among the Dead's best.",
+    "review": "The recording provides a decent sound‑board source that benefits from an EQ tweak, preserving a slice of history rather than delivering pristine audio. Musically the show is mixed – Pigpen’s 45‑minute Turn On Your Lovelight stands out, while other moments like High Time feel dragged and the overall gig falls short of the band’s peak in ’69.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.0,
-      "confidence": "high",
-      "rationale": "Average star rating (~3.9) combined with mixed comments on show quality and lack of clear recording feedback yields a solid but not outstanding overall score."
+      "stars": 3.2,
+      "confidence": "medium",
+      "rationale": "Show quality is judged average/uneven (70% weight) while the soundboard source is acceptable (30%). Combined score lands in the low‑mid range."
     },
     "recording_quality": {
-      "source_type": "unknown",
-      "quality_rating": "fair",
-      "technical_notes": "Reviewers do not discuss sound clarity or mix; one mentions using EQ for playback, implying the audio may need enhancement but no specific issues are reported."
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No major audio defects noted; reviewers suggest using EQ for optimal playback. Not described as crystal‑clear but acceptable for a historic archive recording."
     },
     "show_quality": {
       "standout_songs": [
@@ -36,7 +36,7 @@
       "poor_songs": [
         "High Time"
       ],
-      "setlist_flow": "The set is praised for its historic jam on “Turn On Your Lovelight,” but overall pacing is considered uneven, with some tracks (e.g., “High Time”) described as dragging and the performance not at the Dead’s peak."
+      "setlist_flow": "The set is highlighted by an epic, extended Turn On Your Lovelight but overall feels uneven and less compelling than other 1969 performances."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -45,7 +45,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T00:55:10.556416+00:00",
+    "song_mentions": {
+      "Turn On Your Lovelight": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "High Time": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T16:40:18.590939+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-08-16.sbd.gmb.95857.flac24"
   }

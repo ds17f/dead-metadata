@@ -16,18 +16,18 @@
   "high_ratings": 1,
   "low_ratings": 3,
   "ai_review": {
-    "summary": "A sub‑par audience recording of a Fall 1969 Fillmore East show, but the explosive Dark Star (with St. Stephen → The Eleven) makes it worthwhile for completists.",
-    "review": "The tape is widely described as low‑fidelity and hard to listen to – VBR/OGG streams are called “not really listenable” and “sub‑par”.  Despite the poor sound, reviewers repeatedly praise Jerry Garcia’s lightning‑fast, on‑fire guitar work during a remarkable Dark Star that rolls into St. Stephen and The Eleven, calling it a highlight of the night.",
+    "summary": "A low‑fidelity audience recording, yet the classic Dark Star → St. Stephen → The Eleven run still shines.",
+    "review": "The performance captures a memorable Fall‑1969 Fillmore East set with Jerry Garcia delivering lightning‑fast, incendiary guitar work on Dark Star and the iconic Holy Trinity sequence. Unfortunately the audience (AUD) source suffers from poor VBR/OGG fidelity and is often described as barely listenable, though the minimal crowd noise is a small plus.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.2,
-      "confidence": "high",
-      "rationale": "Consistently negative comments on recording quality lower the overall score, but strong positive remarks about the Dark Star performance raise it to a modestly above‑average rating."
+      "stars": 3.1,
+      "confidence": "medium",
+      "rationale": "Show quality is praised for standout Dark Star/St. Stephen/The Eleven, but recording quality is repeatedly called sub‑par; weighted combination yields an overall mid‑range rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Multiple reviewers note sub‑par VBR/OGG audio, muffled or “gargly” sound, and general unlistenable quality, though a few mention very little audience noise."
+      "technical_notes": "Reviewers note VBR stream and .ogg files are not conventionally listenable, describing the sound as muddy, sub‑par, and 'gargly', though audience noise is low."
     },
     "show_quality": {
       "standout_songs": [
@@ -36,16 +36,33 @@
         "The Eleven"
       ],
       "poor_songs": [],
-      "setlist_flow": "Reviewers focus on the “Holy Trinity” sequence (Dark Star → St. Stephen → The Eleven), describing it as a key highlight despite overall recording issues."
+      "setlist_flow": "The set features the classic Holy Trinity (Dark Star → St. Stephen → The Eleven) which is highlighted as a high point despite the recording's flaws."
     },
     "band_member_comments": {
-      "Jerry": "Described as lightning‑fast, on fire, and delivering one of the best Dark Stars; some reviewers even call it the “best star ever”.",
+      "Jerry": "Multiple reviewers praise Jerry's lightning‑fast, on‑fire guitar work on Dark Star; one even claims he was 'on fire' and another spins a wild ketamine story around his playing.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T01:21:38.997139+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Eleven": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T17:19:25.727335+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-09-26.aud.hanno.14856.sbeok.shnf"
   }

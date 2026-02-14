@@ -16,32 +16,44 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑quality soundboard source of a beloved early ’67 show, featuring free, loose playing and an early Jerry Gibson performance.",
-    "review": "Reviewers praise this recording as an upgrade over earlier releases – correct track order, reduced noise‑reduction and proper pitch on “New Potato Caboose” and “Hard to Handle”. The musical performance is described as one of the all‑time favorites: loose, free and excellent, with a possible early glimpse of Jerry Garcia on his Gibson. Overall the tape sounds clean for its era and captures the joyous spirit of the night.",
+    "summary": "A clean soundboard upgrade with correct track order and less noise reduction, featuring a loose, free performance highlighted by early Jerry Gibson tones.",
+    "review": "The recording is a solid sound‑board source that improves on earlier releases by fixing track order, reducing processing artifacts, and correcting pitch on New Potato Caboose and HWAFOM. Musically the show is beloved for its free, loose playing and an early glimpse of Jerry Garcia on a Gibson, even if the vocals are described as weak.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
-      "confidence": "high",
-      "rationale": "Consistently positive comments about both the performance (all‑time favorite, free & excellent playing) and the technical upgrade; soundboard source with clear improvements yields a strong combined rating."
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Most reviewers praise both the performance and the technical improvements; weighting show quality (70%) higher than recording quality (30%) yields a strong overall rating despite limited detail."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Tracks in correct order, less aggressive noise reduction, pitch corrected on key tracks, overall clean and balanced sound for a 1967 tape."
+      "technical_notes": "Tracks now in correct order, less aggressive noise reduction, and corrected pitch on New Potato Caboose and HWAFOM; overall clearer and more faithful to the original."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "No specific set‑list commentary, but reviewers describe the show as free, loose and excellent, indicating a relaxed, flowing performance."
+      "setlist_flow": "Loose, free playing praised; early Jerry Gibson tone noted as a highlight despite weak vocal performance."
     },
     "band_member_comments": {
-      "Jerry": "Possibly the earliest recording of Jerry on his Gibson; playing described as free, loose and excellent.",
+      "Jerry": "Possibly the earliest known recording of Garcia on a Gibson; playing described as free and excellent.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T13:29:26.738221+00:00",
+    "song_mentions": {
+      "New Potato Caboose": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "HWAFOM": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T06:00:53.656860+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1967-05-05.126263.sbd.wolfe-smith.flac24"
   }

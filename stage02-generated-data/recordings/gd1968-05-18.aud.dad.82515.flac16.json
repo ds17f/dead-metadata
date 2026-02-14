@@ -16,35 +16,47 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Energetic 1968 performance captured on a ragged audience tape; Jerry shines on the post‑drums Alligator while the lo‑fi recording adds vintage charm.",
-    "review": "The show is a high‑voltage, wild set typical of early ’68 with Jerry Garcia “pure electricity” during the Alligator and an inspired Mountain Jam. The audience source is rough around the edges – Pigpen’s vocals are low and the tape is ragged – but that lo‑fi character is part of its appeal for fans of this era.",
+    "summary": "High‑energy early‑68 performance highlighted by Jerry’s electric Alligator jam; recording is decent for its era but Pigpen’s vocals are muted.",
+    "review": "The show captures the wild, high‑voltage vibe of spring 1968 with standout moments like an incendiary Alligator post‑drums and a Mountain Jam riffed on “First There Is A Mountain.” Reviewers rave about Jerry Garcia’s explosive playing while noting the tape is only reasonable for 1968—ragged in places and with Pigpen’s voice low—but still enjoyable.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Four detailed reviews, three of them 4–5 stars, praise the performance while noting only modest recording flaws; weighted average yields a strong rating."
+      "rationale": "Average reviewer rating of 4.25 reflects a strong performance (especially Jerry) and a listenable but modest‑quality recording; detailed comments from four reviewers give high confidence."
     },
     "recording_quality": {
-      "source_type": "audience",
-      "quality_rating": "fair",
-      "technical_notes": "Ragged audience capture with muffled Pigpen vocals; overall clarity acceptable for 1968 but contains low‑level noise and occasional roughness."
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "Reasonable for 1968; pigpen vocals are low/muffled, occasional raggedness and drop‑outs, but overall clear enough to enjoy the high‑energy set."
     },
     "show_quality": {
       "standout_songs": [
-        "Alligator (post‑drums)",
+        "Alligator",
         "Mountain Jam"
       ],
       "poor_songs": [],
-      "setlist_flow": "A high‑voltage early‑68 set that builds to a fiery Alligator after drums and closes with feedback fading into a single cymbal tap, maintaining wild, hairy momentum throughout."
+      "setlist_flow": "A wild, hairy early‑68 set that builds into a powerful post‑drums Alligator jam and a Mountain Jam extension, ending with feedback that fades to a single cymbal tap—tight pacing and relentless energy."
     },
     "band_member_comments": {
-      "Jerry": "Described as pure electricity on the Alligator and on fire during the Mountain Jam.",
+      "Jerry": "Repeatedly praised for being on fire, pure electricity, especially during the Alligator jam.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Pigpen's vocals are low and hard to hear, but his presence is still felt in the performance.",
-      "Drums": "Drums lead into a fiery post‑drums Alligator; ending features feedback fading to a single cymbal tap."
+      "Keys": "",
+      "Drums": ""
     },
-    "processed_date": "2025-09-10T19:14:55.546036+00:00",
+    "song_mentions": {
+      "Alligator": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Mountain Jam": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T08:21:06.712180+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1968-05-18.aud.dad.82515.flac16"
   }

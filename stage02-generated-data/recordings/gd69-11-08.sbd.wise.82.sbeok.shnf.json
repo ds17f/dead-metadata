@@ -16,37 +16,75 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of a solid ’69 show with sweet‑sloppy playing, highlighted by Uncle John’s Band, Main Ten and an inspired China Cat > Rider jam.",
-    "review": "The recording is a soundboard (SBD) sourced from Dick’s 16 tapes and sounds clean enough for most listeners; no major audio flaws are reported. Musically the concert sits in the middle of the ’69 era – the first set is described as average, but the second half delivers memorable moments such as Uncle John’s Band, a rare Main Ten jam and an exciting China Cat > Rider sequence. Overall fans view it positively, though one reviewer rates it only three stars for being an unremarkable example of its year.",
+    "summary": "Good soundboard capture of a solid ’69 show featuring a hot China Cat > Rider jam, Uncle John’s Band and Main Ten highlights.",
+    "review": "The recording is a sound‑board source that sounds clear enough for most of the set, though a few sections feel a bit rough and the Rider portion is missing from the main tape. Musically the concert delivers classic late‑’69 energy – Uncle John’s Band and Main Ten get big love, the China Cat > Rider transition shines, and the second‑set jam (St. Stephen → The Eleven) is a highlight.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.1,
       "confidence": "medium",
-      "rationale": "Two enthusiastic 5‑star reviews and one moderate 3‑star review give an average of ~4.3; weighting show quality heavily still yields a strong rating despite mixed comments on set uniqueness."
+      "rationale": "Two reviewers gave five stars praising key songs; one reviewer rated the show three stars and noted only average moments, leading to a solid but not outstanding combined score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Soundboard (SBD) from Dick's 16 tapes; reviewers note it sounds clear with no specific drop‑outs, though one mentions the tape was completed from existing sources and some material (the Rider) is missing."
+      "technical_notes": "Generally clear soundboard tape, but some roughness in early songs and the Rider portion is missing from this source; overall listenable."
     },
     "show_quality": {
       "standout_songs": [
         "Uncle John's Band",
         "Main Ten",
         "China Cat > Rider",
-        "St. Stephen > The Eleven"
+        "St. Stephen",
+        "The Eleven"
       ],
       "poor_songs": [],
-      "setlist_flow": "First set described as typical and tentative for 1969, while the second half (or continuous second‑set-like segment) delivers tighter jams and highlights, making the concert more appealing to fans of that era."
+      "setlist_flow": "Typical interchangeable ’69 set with an average first half and a second‑half that builds into a strong, extended jam; the flow is solid despite some tentative early performances."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar is noted as tentative early in the show but shows promising phrasing and contributes strongly to the jam sections.",
+      "Jerry": "",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T01:51:43.571854+00:00",
+    "song_mentions": {
+      "Uncle John's Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Main Ten": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China Cat > Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Eleven": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Easy Wind": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T18:11:04.865840+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-11-08.sbd.wise.82.sbeok.shnf"
   }

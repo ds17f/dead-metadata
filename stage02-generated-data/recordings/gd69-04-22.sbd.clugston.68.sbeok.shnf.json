@@ -16,37 +16,71 @@
   "high_ratings": 19,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Super‑69 soundboard captures a magical Boston Ark show highlighted by an epic Mountains of the Moon → Dark Star journey and tight performances of The Eleven and The Other One.",
-    "review": "The April‑22‑1969 Ark recording is praised for its pristine soundboard mix—despite minor tape hiss, early‑set mic feedback and a regrettable cut in The Other One—and for delivering one of the era’s most compelling Dark Stars, buoyed by soaring Jerry Garcia leads and a thunderous dual‑drum section. Reviewers repeatedly cite the seamless transition from Mountains of the Moon into Dark Star, the powerful Eleven, and strong early‑set material as show highlights.",
+    "summary": "Excellent soundboard capture of a legendary Boston Ark show, highlighted by a soaring 30‑minute Dark Star and superb Mountains of the Moon transition.",
+    "review": "The recording delivers crisp, well‑balanced soundboard audio that lets the band’s 1969 power shine through, despite some tape hiss, early‑set mic feedback and a major cut in The Other One. Musically the performance is top‑tier – Dark Star, Mountains of the Moon, The Eleven and Death Don’t Have No Mercy are repeatedly praised as standout moments, making this one of the era’s most celebrated shows.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "Overwhelmingly high reviewer scores (average ~4.55) and consistent praise for both performance and recording outweigh the few technical complaints, yielding a strong combined rating."
+      "rationale": "Average reviewer rating is ~4.6★; overwhelmingly positive comments on both performance and mix outweigh a few technical flaws, yielding a high overall score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear, balanced mix praised as an \"audio masterpiece\" with excellent stereo drum placement; minor issues noted include tape hiss, early‑set mic feedback and a major splice loss in The Other One."
+      "technical_notes": "Crisp, well‑mixed soundboard with excellent stereo imaging; minor tape hiss and occasional mic feedback early in the first set, plus a major splice loss in The Other One and sporadic tape glitches."
     },
     "show_quality": {
       "standout_songs": [
-        "Mountains of the Moon → Dark Star",
+        "Dark Star",
+        "Mountains of the Moon",
         "The Eleven",
-        "The Other One (partial)",
-        "Sitting on Top of the World"
+        "Death Don't Have No Mercy"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Set opens with a crisp Sitting on Top of the World, builds momentum through Mountains of the Moon into an expansive Dark Star, and maintains high energy with The Eleven and a strong second‑set sequence despite a missing segment in The Other One."
+      "poor_songs": [
+        "The Other One"
+      ],
+      "setlist_flow": "Set flows smoothly – a solid opening with 'Sitting on Top of the World' leads into a magical Mountains‑of‑the‑Moon → Dark Star sequence, followed by tight second‑set jams; transitions are praised and the overall setlist is considered exemplary for 1969."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly lauded for raw energy, soaring guitar solos, powerful vocals, and his leadership on the long Dark Star.",
-      "Phil": "Noted as “monster on the bass” during The Other One; strong interplay with Jerry throughout the jam sections.",
-      "Bob": "Mentioned mainly for occasional vocal contributions; no specific instrumental praise beyond that.",
-      "Keys": "Tom Constanten’s organ is highlighted as prominent and well‑balanced in the mix, adding depth to the performance.",
-      "Drums": "Bill Kreutzmann and Mickey Hart receive special commendation for tight stereo placement, especially on The Eleven and overall rhythmic drive."
+      "Jerry": "Praised for raw energy, electrifying guitar tone and soaring vocals, especially on Dark Star and Death Don't Have No Mercy.",
+      "Phil": "Bass described as a 'monster' on The Other One and providing strong chord work that underpins the jams.",
+      "Bob": "",
+      "Keys": "Tom Constanten’s organ is highlighted for adding depth; keyboards noted as prominent and well‑balanced in the mix.",
+      "Drums": "Billy & Mickey’s drumming receives high marks for tight stereo placement, interplay and driving the extended improvisations."
     },
-    "processed_date": "2025-09-10T22:57:21.764986+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 10,
+        "negative_mentions": 0,
+        "total_mentions": 10
+      },
+      "Mountains of the Moon": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "The Other One": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      },
+      "The Eleven": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Death Don't Have No Mercy": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sitting on Top of the World": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T13:46:13.248251+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-04-22.sbd.clugston.68.sbeok.shnf"
   }

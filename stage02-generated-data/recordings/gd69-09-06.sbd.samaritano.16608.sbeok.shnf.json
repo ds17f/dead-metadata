@@ -16,18 +16,18 @@
   "high_ratings": 5,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Solid sound‑board recording that captures a raw 1969 set with highlights like Big Boy Pete and an exploratory He Was A Friend Of Mine, but the overall performance feels uneven.",
-    "review": "The tape is a soundboard source with generally good clarity; early tracks suffer from low volume and tape hiss while later songs (especially Big Boy Pete) are well‑mixed and punchy. Musically the show is mixed – Garcia’s guitar tone is praised and several numbers such as Good Lovin’, He Was A Friend Of Mine, and All Over Now get strong fan love, yet one reviewer felt the band merely “walked through” the set with little musicality.",
+    "summary": "Good‑quality soundboard capture of a mixed ’69 show highlighted by Big Boy Pete, Good Lovin', He Was A Friend Of Mine and It’s All Over Now",
+    "review": "The recording is a solid soundboard source with clear mix on the later tracks (especially Big Boy Pete) but the first three cuts suffer from low volume and tape‑hiss. Musically the set is uneven – some reviewers call it a “walk‑through” while others celebrate extended jams and strong vocal performances, particularly Garcia’s tone and Pigpen’s contributions.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.0,
-      "confidence": "medium",
-      "rationale": "Most reviewers give 4‑5 stars noting strong moments and decent soundboard quality, but a few low‑rating comments about sluggish playing pull the average down."
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Average to good show quality (mixed reviews) combined with generally good soundboard recording yields a mid‑range rating; sufficient number of detailed reviews supports confidence."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear overall with a solid mix on later tracks; first three tracks are low in volume and have tape hiss, but no major dropouts or distortion reported."
+      "technical_notes": "Low volume on first three tracks, tape hiss present but removable with EQ. Later tracks (Big Boy Pete) have proper levels and a clean mix; overall recording is listenable."
     },
     "show_quality": {
       "standout_songs": [
@@ -37,16 +37,38 @@
         "All Over Now"
       ],
       "poor_songs": [],
-      "setlist_flow": "Unusual for ’69 with Jerry on lead vocal for Good Lovin', a long exploratory He Was A Friend Of Mine, and rare inclusion of All Over Now; overall pacing described as raw and at times sluggish."
+      "setlist_flow": "Unusual ’69 set with a long He Was A Friend Of Mine jam, solid Good Lovin' and the rare cover All Over Now; some feel the band moves sluggishly early on."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s tone is described as rock‑solid and strong; he leads vocals on Good Lovin' and joins the jam with Jefferson Airplane.",
+      "Jerry": "Tone described as rock‑solid and strong; leads vocals on Good Lovin'.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T01:16:33.061436+00:00",
+    "song_mentions": {
+      "Big Boy Pete": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Good Lovin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "He Was A Friend Of Mine": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "All Over Now": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-24T17:12:02.940752+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-09-06.sbd.samaritano.16608.sbeok.shnf"
   }

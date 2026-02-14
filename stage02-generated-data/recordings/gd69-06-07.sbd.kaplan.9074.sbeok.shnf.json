@@ -16,41 +16,87 @@
   "high_ratings": 25,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Rare Janis‑Joplin guest spot and classic ’69 Dead fire make the show shine despite a hissy, low‑fidelity soundboard source.",
-    "review": "The performance is legendary – Lovelight with Janis Joplin, a scorching Dark Star, blistering Eleven and the first ever Dire Wolf are repeatedly singled out as highlights.  The recording is a soundboard (SBD) that suffers from hiss, limited dynamic range and apparent mixed‑source inconsistencies, especially on Me & My Uncle, but fans consider it worth owning for its historical value.",
+    "summary": "Historic 1969 show with Janis Joplin’s legendary Lovelight and a scorching Dark Star; soundboard source is hissy and degraded but still enjoyable.",
+    "review": "The performance shines thanks to the once‑in‑a‑lifetime guest spot by Janis Joplin on Lovelight, a searing Dark Star, and tight early‑Dead energy throughout.  While the recording suffers from noticeable hiss, limited dynamics and possible source mismatches (disc 2), the musical moments are strong enough that fans consider it a must‑have historical document.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Average user rating is >4.3; the show receives strong praise while the audio quality draws consistent complaints, yielding a high‑overall score with solid confidence from many reviews."
+      "rationale": "Over two dozen reviews overwhelmingly praise the music (Lovelight, Dark Star, Eleven, etc.) while repeatedly noting poor audio quality; weighting 70 % show + 30 % recording yields a solid 4‑star rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Hissy tape with very low dynamic range; some tracks sound like they come from different generations (digital static on Me & My Uncle, analog‑warm Lovelight). Reviewers note multiple source material and a lack of crispness."
+      "technical_notes": "Noticeable hiss and very limited dynamic range; disc 2 (Me & My Uncle / Lovelight) sounds like a different, more degraded source with digital static on the Uncle track and multi‑generation analog noise on Lovelight."
     },
     "show_quality": {
       "standout_songs": [
         "Lovelight (with Janis Joplin)",
         "Dark Star",
-        "Eleven",
+        "The Eleven",
         "Sittin' on Top of the World",
-        "Dire Wolf (first ever live performance)",
-        "Me & My Uncle"
+        "Dupree's",
+        "Cold Rain and Snow",
+        "Dire Wolf"
       ],
-      "poor_songs": [
-        "Me & My Uncle (recording quality issues)"
-      ],
-      "setlist_flow": "Early acoustic‑flavored numbers give way to a high‑energy second set; the Dark Star and Eleven provide the classic ’69 fire, while Lovelight with Janis serves as the unforgettable climax."
+      "poor_songs": [],
+      "setlist_flow": "Classic early‑69 set: acoustic numbers (Me & My Uncle, Dire Wolf) open the first set, a high‑energy second set builds to a guest‑jam Lovelight, followed by an expansive Dark Star and fiery Eleven; the pacing feels natural and the guest appearance adds a rare highlight."
     },
     "band_member_comments": {
-      "Jerry": "Praised for fresh, nimble soloing and beautiful tone – especially on Me & My Uncle and during the Lovelight duet.",
-      "Phil": "Mentioned only in a recollection about backstage apple juice; no specific performance comments.",
+      "Jerry": "Repeatedly praised for beautiful tone, nimble soloing on Me & My Uncle and Lovelight, and leading the Dark Star with “rage”.",
+      "Phil": "",
       "Bob": "",
-      "Keys": "Tom Constanten (TC) noted on keyboards, providing solid organ work throughout.",
+      "Keys": "Mention of TC on keyboards (Tom Constanten) in one review; no detailed appraisal.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T23:54:21.594066+00:00",
+    "song_mentions": {
+      "Lovelight (with Janis Joplin)": {
+        "positive_mentions": 7,
+        "negative_mentions": 1,
+        "total_mentions": 8
+      },
+      "Dark Star": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "The Eleven": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Sittin' on Top of the World": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Dupree's": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cold Rain and Snow": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dire Wolf": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "St. Stephen": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T15:13:38.686734+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-06-07.sbd.kaplan.9074.sbeok.shnf"
   }

@@ -16,36 +16,47 @@
   "high_ratings": 4,
   "low_ratings": 4,
   "ai_review": {
-    "summary": "A high‑speed, low‑fidelity audience recording of a late‑1967 show that still delivers intense jams like Viola Lee Blues and Alligator.",
-    "review": "The performance itself is praised for its raw urgency and strong mid‑year ’67 material – especially Viola Lee Blues, Alligator and New Potato. However the source suffers from an extreme speed‑up that raises vocal pitches and muddies Phil’s bass, making it difficult to enjoy without pitch correction. The recording is therefore considered poor despite a solid show.",
+    "summary": "Audience recording plagued by chipmunk‑fast pitch, but the performance shines on intense Viola Lee Blues and a raw Cold Rain and Snow",
+    "review": "The tape is an audience capture that runs way too fast, making vocals sound high‑pitched and burying Phil’s bass, though it can be slowed down with software. Musically the show is praised for its frantic, urgent jams – especially Viola Lee Blues – and a solid rendition of Cold Rain and Snow, despite the setlist being out of order.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.4,
-      "confidence": "medium",
-      "rationale": "Reviewers are split: many love the musical content while a majority criticize the fast‑sped, low‑quality audience capture. Weighted average yields a mid‑range rating."
+      "stars": 3.2,
+      "confidence": "high",
+      "rationale": "Many reviewers love the performance (several 5‑star entries) but the majority criticize the recording quality; weighting show (70 %) and recording (30 %) yields a mid‑range score."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Audio is noticeably speeded up, raising vocal pitches and making lyrics hard to recognize; some reviewers note occasional clarity but overall the mix is muddy and Phil's bass gets lost. Pitch correction is suggested to make it listenable."
+      "technical_notes": "Speeded‑up, chipmunk‑like vocals; pitch too high; bass lost; overall muddy and unlistenable without pitch correction, though some note it is clearer than other sources."
     },
     "show_quality": {
       "standout_songs": [
         "Viola Lee Blues",
-        "Alligator",
-        "New Potato"
+        "Cold Rain and Snow"
       ],
       "poor_songs": [],
-      "setlist_flow": "Set list in this upload is out of order and contains songs that don’t match a true Jan‑1967 date, indicating the show is from later ’67; despite the mislabeling, the performance flows with high energy and strong improvisation."
+      "setlist_flow": "Set list is reported as wrong or butchered; song order does not match known chronology, causing confusion about the actual date."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s playing is described as frantic, intense and urgent; his voice sounds chipmunk‑like due to speed but is recognizable after pitch correction.",
-      "Phil": "Phil’s deep bass gets lost in the sped‑up recording, making it hard to hear his contribution.",
+      "Jerry": "His voice sounds chipmunk‑fast but is recognizable after pitch correction; praised for raw, primal playing.",
+      "Phil": "Deep bass gets lost due to speed issue; no specific performance praise beyond that.",
       "Bob": "",
-      "Keys": "Pigpen (organ/harmonica) is praised for sounding fierce and giving Garcia a run for his money; vocals remain recognizable after pitch fix.",
+      "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T13:15:14.367979+00:00",
+    "song_mentions": {
+      "Viola Lee Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cold Rain and Snow": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T05:36:45.693719+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1967-01-27.sbd.8762.shnf"
   }

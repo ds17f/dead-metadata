@@ -16,27 +16,28 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Outstanding soundboard capture of a rare early‑era show featuring a fragment of High Time and a soaring Dark Star, with crystal‑clear audio.",
-    "review": "The Miller‑sourced soundboard is described as “out of this world,” delivering pristine clarity that lets listeners hear every nuance of the performance. Reviewers rave about the high‑point moments – a striking Dark Star early in the set and the only surviving fragment of High Time – while noting the unique stage setup with two drummers and dual keyboards. Overall the musical content is praised as historic and compelling, making this recording a must‑listen for Deadheads.",
-    "sentiment": "positive",
+    "summary": "Crystal‑clear soundboard recording that captures a rare early Dark Star, soaring High Time and a blazing China Cat > I Know You Rider from an enigmatic one‑set show.",
+    "review": "The Miller soundboard cut is described as “out of this world,” delivering exceptional clarity and balance. Listeners rave about the performance – especially the early Dark Star, the fragment of High Time, and the fiery China Cat Sunflower > I Know You Rider sequence – noting the unusual two‑drummer/two‑keyboard lineup. One reviewer gave a zero‑star rating, making the overall sentiment mixed despite strong praise from the other two.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.6,
-      "confidence": "high",
-      "rationale": "Two detailed 5‑star reviews highlight excellent soundboard quality and strong musical moments; the third review, despite a 0 rating, is textually positive, so overall sentiment and quality are high."
+      "confidence": "medium",
+      "rationale": "Show quality is highlighted as excellent with several standout songs, and recording quality is praised as superb; a single low‑star outlier keeps confidence at medium."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Reviewers call the audio “out of this world” and commend Charlie Miller for a crystal‑clear mix; no issues or artifacts mentioned."
+      "technical_notes": "Described as crystal‑clear, crisp, and “out of this world” with no noted dropouts or balance issues."
     },
     "show_quality": {
       "standout_songs": [
-        "High Time (fragment)",
         "Dark Star",
-        "China Cat Sunflower > I Know You Rider"
+        "High Time",
+        "China Cat > I Know You Rider",
+        "Cold Rain"
       ],
       "poor_songs": [],
-      "setlist_flow": "One‑set show after opening acts; main set includes Cold Rain, China Cat > Rider, High Time and an early Dark Star. The stage was dark with two drummers and two keyboards, giving a distinctive early‑70s vibe."
+      "setlist_flow": "One‑set show featuring an opening band, then the Dead delivering a tight set that builds from Cold Rain into a soaring Dark Star and peaks with High Time and a blazing China Cat > Rider sequence."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -45,7 +46,29 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T01:33:18.310566+00:00",
+    "song_mentions": {
+      "Cold Rain": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat > I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T17:37:12.401507+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-10-25.150136.sbd.miller.flac1644"
   }

@@ -16,40 +16,98 @@
   "high_ratings": 3,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Decent stereo audience recording with early fire on Hard To Handle and The Other One, but later drop‑outs and hiss hurt the listening experience.",
-    "review": "The July 4 1969 show captures a raw, high‑energy Dead at a crossroads of country‑cowboy tunes and psychedelic jams, highlighted by ripping performances of Hard To Handle, Cryptical → High Time, The Other One, Doin’ That Rag and the St. Stephen/Love Light pair.  Recording quality is solid at first – clear stereo mix with good balance – but deteriorates after the mid‑set as tape drop‑outs and left‑channel hiss make later songs difficult to enjoy.",
+    "summary": "Soundboard capture of a raw July‑4‑1969 show – stellar early set with Hard To Handle and King Bee, but plagued by drop‑outs after Doin’ That Rag.",
+    "review": "The performance bursts with energy – hard‑rocking Hard To Handle, ripping The Other One, and standout country‑flavored numbers like King Bee and Casey Jones. Recording quality is solid at the start, then suffers noticeable left‑channel hiss and drop‑outs from Doin’ That Rag onward, making the latter half harder to enjoy.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.4,
+      "stars": 3.9,
       "confidence": "high",
-      "rationale": "Show is average with several standout moments; recording starts strong but suffers noticeable issues, leading to a combined rating in the mid‑range."
+      "rationale": "Most reviewers praise the musical intensity and several highlight songs, while noting consistent recording problems after the mid‑show point; overall a good show with decent but imperfect sound."
     },
     "recording_quality": {
-      "source_type": "audience",
-      "quality_rating": "fair",
-      "technical_notes": "Early part of tape is clear and well‑balanced stereo; after Doin' That Rag the mix drops out, left channel develops hiss and occasional drop‑outs, making later songs hard to hear."
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "Early portion is clear and well‑balanced; later tracks exhibit left‑channel hiss, pulsing drop‑outs and occasional cut‑outs (notably on Doin’ That Rag and Let Me In 83968)."
     },
     "show_quality": {
       "standout_songs": [
         "Hard To Handle",
-        "Cryptical > High Time",
         "The Other One",
         "Doin' That Rag",
-        "St. Stephen – Love Light"
+        "King Bee",
+        "Casey Jones",
+        "Dire Wolf"
       ],
       "poor_songs": [
-        "Let Me In (83968)"
+        "Let Me In 83968"
       ],
-      "setlist_flow": "The set swings from high‑octane rockers into country‑flavored numbers and back into psychedelic jams; the early momentum is strong, but the second half loses steam both musically and due to recording degradation."
+      "setlist_flow": "A high‑energy opener leads into a mix of country‑cowboy tunes and extended psychedelia; the momentum stalls after Doin’ That Rag as audio issues intervene, but the early half remains compelling."
     },
     "band_member_comments": {
-      "Jerry": "Delivers ripping guitar work and even plays pedal steel on several cuts; a brief vocal stumble (“swallowed a frog”) occurs during High Time.",
+      "Jerry": "Pedal steel on several early numbers praised; guitar work described as ‘ripping’ on Hard To Handle and The Other One.",
       "Phil": "",
-      "Bob": "Front‑and‑center for most of the show, handling lead vocals on many numbers including Dire Wolf and several cowboy tunes.",
-      "Keys": "Tom Constanten adds a distinctive touch on Casey Jones, noted as a memorable keyboard moment.",
+      "Bob": "Bob (referred to as “Bobby”) dominates vocals, leading most songs including Dire Wolf and Casey Jones.",
+      "Keys": "Constanten’s keyboards highlighted on the early Casey Jones rendition.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T00:29:55.931710+00:00",
+    "song_mentions": {
+      "Hard To Handle": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "King Bee": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "High Time": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Doin' That Rag": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "total_mentions": 4
+      },
+      "St Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Love Light": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Crypical": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Casey Jones": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dire Wolf": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Let Me In 83968": {
+        "positive_mentions": 0,
+        "negative_mentions": 4,
+        "total_mentions": 4
+      }
+    },
+    "processed_date": "2025-09-24T16:03:40.497504+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-07-04.sbd.sirmick.remaster.29294.shnf"
   }

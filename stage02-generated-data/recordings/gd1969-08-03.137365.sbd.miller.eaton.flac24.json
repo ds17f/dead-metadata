@@ -16,38 +16,70 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of a wildly adventurous 1969 show featuring stellar guests, an epic Dark Star/Caution marathon and unforgettable High Time",
-    "review": "The recording (soundboard) preserves a chaotic‑to‑beautiful first set that erupts into a 40‑minute free‑jazz excursion highlighted by a soaring Dark Star that morphs into an almost otherworldly Caution. Guests—including a mystery fiddler, saxophonist and David Nelson’s solo on “Mama Tried”—push the band into one of the most daring performances of the year.",
+    "summary": "Exceptional 1969 show with stellar guest horns and a mind‑blowing Caution/Dark Star stretch, though the recording source is not specified.",
+    "review": "The concert is hailed as a quintessential 1969 experiment, featuring extraordinary guests, a soaring High Time, and a legendary Caution that borders on cosmic. Reviewers praise the free‑jazz‑laden Dark Star/Lounge Lizard segment and David Nelson’s standout Mama Tried solo, while noting no flaws in the performance. No details about the tape source or sound quality are provided.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.6,
       "confidence": "medium",
-      "rationale": "A single 5‑star review praises the musical performance as exceptional; recording quality is not discussed but the “sbd” source suggests a solid soundboard, leading to a high overall rating."
+      "rationale": "The single detailed review is overwhelmingly positive about the musical performance, but provides no information on recording quality, leading to a strong show rating with moderate overall confidence."
     },
     "recording_quality": {
-      "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "No specific audio comments were made; the file type (sbd) implies a clear, well‑balanced capture."
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No comments about soundboard, audience mix, or clarity; recording source not identified."
     },
     "show_quality": {
       "standout_songs": [
-        "High Time",
         "Dark Star",
         "Caution (Do Not Stop)",
-        "Mama Tried (David Nelson solo)",
-        "Lounge Lizard"
+        "High Time",
+        "Lounge Lizard",
+        "Mama Tried"
       ],
       "poor_songs": [],
-      "setlist_flow": "First half described as organized chaos that settles into a beautiful rendition of High Time, then launches into an extended free‑jazz psychedelic jam culminating in Dark Star and Caution."
+      "setlist_flow": "Review describes an organized‑chaos first half that evolves into a beautiful High Time and then erupts into 40 minutes of free‑jazz electric psychedelia, highlighted by the Caution/Dark Star marathon."
     },
     "band_member_comments": {
-      "Jerry": "Garcia shares vocal duties (singing verses of Hi‑Heel Sneakers) and delivers strong guitar work throughout the marathon.",
+      "Jerry": "Garcia’s vocals (sharing verses on Hi‑Heel Sneakers) and guitar work are praised; his Dark Star is described as ‘no slouch.’",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Mickey Hart contributes vocals on Hi‑Heel Sneakers; overall drumming supports the free‑jazz excursion."
+      "Drums": ""
     },
-    "processed_date": "2025-09-11T00:49:34.464542+00:00",
+    "song_mentions": {
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mama Tried": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hi-Heel Sneakers": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lounge Lizard": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Caution (Do Not Stop)": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T16:33:41.056863+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-08-03.137365.sbd.miller.eaton.flac24"
   }

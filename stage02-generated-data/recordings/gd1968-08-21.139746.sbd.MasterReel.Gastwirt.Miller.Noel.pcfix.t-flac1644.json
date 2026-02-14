@@ -16,37 +16,59 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Crystal‑clear soundboard capture of a classic ’68 Fillmore West show, highlighted by a monster Alligator and a smoking St. Stephen > The Eleven sequence.",
-    "review": "The Miller/Noel transfer delivers a clean, crisp soundboard recording that fans rave about for its clarity and balanced mix, despite a brief diginoise glitch on Alligator and a slightly off early‑set balance. Musically the concert is a showcase of late‑summer ’68 energy – Alligator roars, St. Stephen is razor‑tight, The Eleven smokes, and Death Don't Have a Heart closes strong – making it one of the most compelling shows of that era.",
-    "sentiment": "positive",
+    "summary": "Crystal‑clear soundboard capture of a stellar ’68 show highlighted by an explosive Alligator, precise St. Stephen and a smoking The Eleven.",
+    "review": "The Miller/Noel transfer delivers exceptionally clean and balanced audio – the snare on The Eleven is razor sharp and the overall mix is pristine, aside from an isolated one‑second diginoise glitch around Alligator. Musically the performance shines with a peak Alligator jam, exacting St. Stephen and the first‑ever Stephen‑into‑Eleven segue that smokes, making it one of the stronger mid‑year ’68 concerts despite minor set‑list omissions.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers praise both performance and audio, noting only minor recording glitches; the show is consistently described as a standout ’68 gig."
+      "rationale": "Reviews overwhelmingly praise the recording’s clarity and the show’s strong jams, with only isolated complaints about a brief diginoise and slight early‑set balance issues."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Crisp, clean mix with excellent snare definition on The Eleven; stream‑friendly and well‑mastered. Minor issues: ~1 s diginoise on Alligator (16:41) and slightly off balance early in the set."
+      "quality_rating": "excellent",
+      "technical_notes": "Very clear, clean mix; crisp snare on The Eleven. One‑second diginoise around Alligator (16:41) noted by two reviewers; early set balance a touch off."
     },
     "show_quality": {
       "standout_songs": [
         "Alligator",
-        "St. Stephen",
+        "St Stephen",
         "The Eleven",
-        "Death Don't Have a Heart"
+        "Death Don't"
       ],
       "poor_songs": [],
-      "setlist_flow": "Two‑set show with a jam‑heavy first set (highlighted by Alligator) and a historic second set featuring the first known St. Stephen → The Eleven pairing, delivering strong momentum throughout."
+      "setlist_flow": "First set opens with a three‑song block (TiftOO > Schoolgirl > Alligator) and features a rare 9‑minute Cryptical jam; second set delivers the first known Dark Star → St Stephen → The Eleven sequence, flowing into a solid Death Don't and closing with classic ’68 material."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s short‑lived Les Paul tone is praised; his lead work on the jams and The Eleven shines.",
+      "Jerry": "Les Paul tone is noted as nice and adds character to the performance.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Snare intro on The Eleven noted; a middle jam featuring just Garcia and drums receives special mention."
+      "Drums": "Snare drum intro on The Eleven highlighted; a middle jam featuring just Garcia and drums, plus a brief Goodnight Jam, are praised."
     },
-    "processed_date": "2025-09-10T19:31:10.406581+00:00",
+    "song_mentions": {
+      "Alligator": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Eleven": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Death Don't": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T08:48:46.716232+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1968-08-21.139746.sbd.MasterReel.Gastwirt.Miller.Noel.pcfix.t-flac1644"
   }

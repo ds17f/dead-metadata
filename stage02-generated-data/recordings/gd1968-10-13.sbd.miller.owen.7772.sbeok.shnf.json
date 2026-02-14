@@ -16,18 +16,18 @@
   "high_ratings": 8,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard recording of the Oct 13 1968 Avalon Ballroom show, highlighted by a soaring Dark Star, an epic The Eleven and superb Death Don't Have No Mercy.",
-    "review": "The Charlie Miller/ Michael Owen sound‑board capture is crystal‑clear and preserves the original 1968 vibe, making it a must‑have for any early‑Dead collection. Musically the concert shines with a near‑perfect Dark Star, an electrifying The Eleven, and Jerry’s masterful Death Don't Have No Mercy; the first set outshines the second, though New Potato and the drum segment are noted as weaker moments.",
+    "summary": "Excellent soundboard capture of the Oct 13 1968 Avalon show, highlighted by a smoking Dark Star, stellar Eleven and powerful The Other One.",
+    "review": "The recording is a pristine sound‑board source that delivers crystal‑clear mix and faithful reproduction of the band’s 1968 tone. Musically the concert shines with an inspired Dark Star, a soaring Eleven, and a moving rendition of Death Don’t Have No Mercy, while the first set generally outshines a more modest second set. Reviewers consistently praise the interplay among Jerry, Phil and the drummers, making this a must‑have for any 1968 Dead collection.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.7,
       "confidence": "high",
-      "rationale": "All reviewers give 4‑5 stars and praise both performance and recording; minor set‑list criticisms do not outweigh the overall excellence."
+      "rationale": "All eight reviews are overwhelmingly positive about both performance and recording; standout songs receive repeated praise, and the soundboard source is described as flawless."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Soundboard source with crisp, balanced mix; no dropouts or muddiness reported. Reviewers repeatedly call it “original sound” and give top marks to the mix."
+      "technical_notes": "Crisp, original mix with no major flaws; a minor splice before \"New Potato\" noted but does not detract from overall pristine sound."
     },
     "show_quality": {
       "standout_songs": [
@@ -37,19 +37,56 @@
         "The Other One"
       ],
       "poor_songs": [
-        "New Potato (average, abrupt splice)",
-        "Drums (less interesting than earlier drum work)"
+        "New Potato",
+        "Drums"
       ],
-      "setlist_flow": "First set is generally praised as superior; the transition St. Stephen → The Eleven is highlighted for its natural flow, while the second set suffers from a jarring New Potato‑drum splice and a less compelling drum segment."
+      "setlist_flow": "First set praised as stronger; reviewers debate the flow of St. Stephen into The Eleven versus Not Fade Away, generally favoring the former for a more natural transition."
     },
     "band_member_comments": {
-      "Jerry": "Top‑notch guitar work on Dark Star and Death Don't Have No Mercy; feeding off the band’s energy.",
-      "Phil": "Bass playing praised for locking in with the drummers, contributing to the overall groove.",
+      "Jerry": "Masterful guitar work throughout, especially on \"Death Don't Have No Mercy\" and in the expansive Dark Star.",
+      "Phil": "Bass lines lock in tightly with Jerry and the drummers, driving the tight interplay praised by reviewers.",
       "Bob": "",
       "Keys": "",
-      "Drums": "Fabulous early‑set drumming noted; later drum segment considered less interesting."
+      "Drums": "Early‑set drumming described as fabulous; later drum segment considered less interesting."
     },
-    "processed_date": "2025-09-10T19:59:28.771114+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Eleven": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Death Don't Have No Mercy": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "New Potato": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Drums": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T09:29:11.698620+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1968-10-13.sbd.miller.owen.7772.sbeok.shnf"
   }

@@ -16,40 +16,80 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Stellar soundboard capture of a magical New Year's show with standout Seasons, high‑energy jams on Not Fade Away and Merry Go Round, and crystal‑clear vocals.",
-    "review": "Both reviewers rave about this December 31 1969 performance, calling it one of the best shows they’ve heard. The recording is praised for its excellent clarity—especially on “Seasons”—and the band clicks “on all cylinders,” delivering powerful renditions of acoustic‑type tunes played electric, a fiery Not Fade Away jam, and an uplifting Merry Go Round. Crowd energy is high and the set flows intriguingly from folk‑flavored numbers to hard‑rock jams.",
+    "summary": "Excellent soundboard capture of a New Year's show that flips acoustic‑type tunes electric, highlighted by a powerful Seasons and a smoking Alligator → Caution run.",
+    "review": "Both reviewers rave about the performance, pointing to standout moments like the electric rendition of Seasons, the Alligator‑through‑Caution sequence, and a dark‑star tease. The recording is praised as crystal‑clear – likely a soundboard source – with no noticeable flaws, making it one of the best‑sounding versions of this era.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.7,
-      "confidence": "high",
-      "rationale": "Two detailed 5‑star reviews highlight a superb performance and excellent soundboard quality, with no criticism noted."
+      "stars": 4.8,
+      "confidence": "medium",
+      "rationale": "Both reviews give 5 stars and focus on superb musical moments and high‑fidelity sound; the limited number of reviews keeps confidence at medium."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Reviewers note the best sound quality they've heard for “Seasons” and describe the mix as clear, crisp, and well‑balanced throughout."
+      "technical_notes": "Reviewers describe the audio as crisp, with the best sound quality they've heard for Seasons and no reported drop‑outs or muddiness."
     },
     "show_quality": {
       "standout_songs": [
         "Seasons",
-        "Not Fade Away",
+        "Alligator",
+        "Caution (Do Not Stop on the Road)",
         "Merry Go Round",
-        "High Time (vocals)",
-        "Alligator > Caution",
-        "Silver Threads",
-        "Dancin' in the Street"
+        "Dark Star (tease)"
       ],
       "poor_songs": [],
-      "setlist_flow": "Acoustic‑styled songs are placed at the end but performed electric, creating a unique transition that keeps the momentum high; the band moves smoothly between folk‑flavored numbers and hard‑rock jams."
+      "setlist_flow": "The set pushes acoustic‑styled songs to the latter half and delivers them electrically, creating a unique transition that keeps the band “clicking on all cylinders” and the crowd energized."
     },
     "band_member_comments": {
-      "Jerry": "Vocals on “High Time” described as cool and powerful.",
-      "Phil": "Noted for playing cello during “Caution,” adding a distinctive texture.",
-      "Bob": "Pigpen’s presence highlighted, especially singing with Weir on “Not Fade Away”; also mentioned on “Race is On.”",
+      "Jerry": "His vocals are singled out as ‘cool’ and a highlight of the night.",
+      "Phil": "Mentioned sounding like he’s playing cello during Caution, indicating rich, melodic bass work.",
+      "Bob": "Weir delivers strong vocal performances, especially on Seasons and when singing with Pigpen on NFA.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T02:49:50.247626+00:00",
+    "song_mentions": {
+      "Seasons": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Alligator": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Caution (Do Not Stop on the Road)": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Merry Go Round": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Not Fade Away": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Race Is On": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Silver Threads": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T19:46:52.533437+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-12-31.sbd.clevenger.6704.sbeok.shnf"
   }

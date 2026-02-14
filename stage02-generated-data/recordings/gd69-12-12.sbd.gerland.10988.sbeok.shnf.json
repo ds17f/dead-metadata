@@ -16,42 +16,84 @@
   "high_ratings": 24,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clear soundboard with a few muffled openings, but an outstanding second half highlighted by Uncle John's > He Was A Friend Of Mine, Alligator‑Caution jam and stellar Lovelight",
-    "review": "The recording is generally clean—especially from the mid‑set onward—with only the first five tracks noted as muffled or off‑key. Musically the show shines: Disc 3 delivers a classic Uncle John’s > He Was A Friend Of Mine segue, a smoking Alligator into Caution jam, epic Lovelight and powerful vocal duets with Pigpen. Most reviewers rate the performance as one of ’69’s best despite some early‑set flaws.",
-    "sentiment": "positive",
+    "summary": "Clear soundboard capture of a mellow ’69 show highlighted by an electrifying Alligator / Caution jam, stellar Lovelight and an epic Easy Wind jam.",
+    "review": "The performance is widely praised for its relaxed yet inspired vibe, with standout moments like the Alligator→Caution jam, a soaring Lovelight, a long Easy Wind improvisation and strong vocal duets on Next Time. Recording quality is generally good – later tracks are crisp and intimate, though the first five songs suffer from muffling and occasional hiss. Overall the show shines despite some vocal mix quirks and early‑track sound issues.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "The majority of reviews (≈80%) give 4–5 stars and praise the musical highlights, while recording complaints are limited to the opening tracks; this yields a strong show rating with a good‑to‑excellent recording score."
+      "rationale": "Most reviewers rate the show 5 stars and highlight multiple classic performances, while a minority note recording flaws and vocal problems; the weighted average of show (70%) and recording (30%) yields a strong rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Early portion (first ~5 songs) described as muffled, off‑key or low fidelity; from the middle of the set onward the mix is clear, balanced and intimate. No major dropouts reported."
+      "technical_notes": "Later portions are clear, crisp and well‑balanced; early tracks (first five) are muffled, hissy and lower fidelity. Some reviewers mention vocals too high in the mix and occasional off‑key moments."
     },
     "show_quality": {
       "standout_songs": [
-        "Uncle John's Band > He Was A Friend Of Mine",
-        "Alligator > Caution jam",
+        "Alligator",
+        "Caution Jam",
         "Lovelight",
+        "Easy Wind",
         "Black Peter",
-        "Easy Wind (extended jam)",
-        "Next Time (Garcia/Pigpen duet)"
+        "Next Time",
+        "Uncle John's Band > He Was A Friend Of Mine"
       ],
       "poor_songs": [
-        "He Was A Friend Of Mine (vocals ragged/off‑key in some spots)",
-        "First five tracks (recording quality, not performance)"
+        "He Was A Friend Of Mine (vocals ragged/off‑key)"
       ],
-      "setlist_flow": "The first set is solid but hampered by early tape issues; Disc 3 (second half) ramps up with high energy jams and seamless transitions, delivering a classic ’69 vibe that many fans rank among the era’s best."
+      "setlist_flow": "The set flows from a mellow first half into a powerful second half; the extended Easy Wind jam and the Alligator→Caution sequence provide high energy, while the early songs are more subdued but still enjoyable."
     },
     "band_member_comments": {
-      "Jerry": "Vocals praised on Black Peter and Bid You Goodnight intro, but some note his voice sounded strained or off‑key; guitar work widely lauded.",
-      "Phil": "Highlighted for extended wrap‑around jams during Alligator/Caution and overall tight bass foundation.",
+      "Jerry": "Guitar work is praised as sweet and expressive; vocals receive mixed feedback – some call them pristine, others note they sound low or out of key.",
+      "Phil": "His bass contributions are highlighted during the Alligator/Caution jam, with occasional wrap‑around jams noted.",
       "Bob": "",
-      "Keys": "Organ/keyboard parts described as sweet and supportive, especially on Lovelight and Caution jam (Tom Constanten noted).",
+      "Keys": "Organ/keyboard work (Tom Constanten) is described as sweet and integral to the jam sections.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T02:18:06.786691+00:00",
+    "song_mentions": {
+      "Uncle John's Band > He Was A Friend Of Mine": {
+        "positive_mentions": 5,
+        "negative_mentions": 2,
+        "total_mentions": 7
+      },
+      "Alligator": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Caution Jam": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Easy Wind": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Lovelight": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Black Peter": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Next Time": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "He Was A Friend Of Mine": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "total_mentions": 4
+      }
+    },
+    "processed_date": "2025-09-24T18:48:07.458047+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-12-12.sbd.gerland.10988.sbeok.shnf"
   }

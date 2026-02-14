@@ -16,35 +16,46 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Rare 8‑track soundboard delivers a stellar Cryptical Envelopment > The Other One with great clarity, though some sections suffer from signal dropouts.",
-    "review": "Fans rave about the performance, especially the high‑energy Cryptical Envelopment into The Other One and its inspired coda, noting that this multi‑track source sounds clearer than earlier soundboards. However, reviewers also point out a problematic segment where the Alligator jam into Caution drops in signal quality, making the recording uneven.",
+    "summary": "Outstanding multi‑track capture of a thrilling Cryptical Envelopment → The Other One sequence, but the recording suffers from occasional signal dropouts and missing Alligator jam.",
+    "review": "The show shines with a fiery Cryptical Envelopment > The Other One that many fans deem essential, and Garcia’s playing is highlighted as especially energetic. The 8‑track soundboard source is praised for its clarity by some listeners, yet others note noticeable signal loss and the absence of the Alligator jam into Caution, giving the recording a mixed technical reputation.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 3.4,
       "confidence": "medium",
-      "rationale": "Show is highly praised for performance while recording is generally good but has notable dropouts; combined weighting yields a solid above‑average rating."
+      "rationale": "One reviewer rates the performance and tape highly (5★) while another condemns the recording quality (0★); overall show is strong but technical flaws lower the combined rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Rare 8‑track multi‑track source, generally clear and very listenable, but contains signal loss around the Alligator jam into Caution and occasional dropouts."
+      "quality_rating": "fair",
+      "technical_notes": "Listeners describe the multi‑track as clear and complete, yet others report signal dropouts, missing sections (Alligator jam), and overall inconsistent fidelity."
     },
     "show_quality": {
       "standout_songs": [
-        "Cryptical Envelopment",
-        "The Other One"
+        "Cryptical Envelopment > The Other One"
       ],
       "poor_songs": [],
-      "setlist_flow": "Performance builds to a powerful coda after Cryptical > The Other One, delivering strong energy; overall flow praised despite missing jam segment."
+      "setlist_flow": "The set builds strong momentum with the highlighted Cryptical/Other One sequence, but recording gaps (missing Alligator jam) interrupt the flow for some listeners."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar is described as energetic, playfully snarling and piercing, especially during the return after the coda.",
+      "Jerry": "Garcia’s guitar is noted as energetic and playfully snarling, driving the high points of the show.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T20:11:59.826493+00:00",
+    "song_mentions": {
+      "Cryptical Envelopment > The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Alligator": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T09:46:51.555165+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1968-11-01.150968.sbd.eaton-latvala.miller.flac1644"
   }

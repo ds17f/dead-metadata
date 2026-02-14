@@ -16,34 +16,53 @@
   "high_ratings": 7,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Fair‑quality soundboard capture of a historic 1966 Acid Test jam – Pigpen’s wild spoken pieces shine while the musical content divides listeners.",
-    "review": "The recording is an early soundboard (SBD) from February 1966 that documents a chaotic Acid Test session rather than a conventional concert. Reviewers rave about Pigpen’s raw vocal energy and the historic “Foolish → Walkin’ Blues → Day Job” jam, but many note the lack of Jerry Garcia’s guitar and describe the audio as noisy or more like an ambient field recording.",
+    "summary": "Fair‑quality soundboard capture of a rare 1966 Acid Test jam, highlighted by Pigpen’s raw vocals and the historic Foolish → Walkin' Blues → Day Job segment.",
+    "review": "The recording is an early‑era soundboard tape that retains the lo‑fi character of a 1966 Acid Test session – some listeners note microphone bleed and a “zoo‑like” ambience, but the performance shines through thanks to Pigpen’s passionate vocals and a memorable closing medley of Foolish, Walkin' Blues and Day Job. Opinions are split: longtime Deadheads celebrate its historical value while others find the material more noise than music.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.9,
       "confidence": "high",
-      "rationale": "Average star rating is 3.8 across ten reviews; strong praise for Pigpen and historical value offset by frequent criticism of musical thinness and modest sound quality."
+      "rationale": "Weighted analysis (70% show, 30% recording) shows a historically significant performance with strong vocal moments but modest audio fidelity; consistent mixed feedback across ten reviews gives high confidence."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Listeners describe the tape as noisy, likening it to a zoo‑like field recording; no major dropouts mentioned but fidelity is primitive by modern standards."
+      "technical_notes": "Low‑fidelity tape with noticeable mic bleed and ambient noise (“zoo” feel); overall listenable but not crisp."
     },
     "show_quality": {
       "standout_songs": [
-        "Foolish > Walkin' Blues > Day Job"
+        "Foolish",
+        "Walkin' Blues",
+        "Day Job"
       ],
       "poor_songs": [],
-      "setlist_flow": "An experimental Acid Test set with spoken‑word raps, Pigpen’s improvisations and a few loose jam fragments; Jerry Garcia is absent, giving the session an uneven musical flow."
+      "setlist_flow": "A free‑form Acid Test jam with spoken rap and improvisation; lacks a conventional set structure but ends with a historic medley that many reviewers highlight."
     },
     "band_member_comments": {
-      "Jerry": "Not present in the music – several reviewers note “No Jerry in the music.”",
+      "Jerry": "Not present in this recording (one reviewer notes \"No Jerry in the music\").",
       "Phil": "",
-      "Bob": "Absent from vocal collaborations that some fans wished for (e.g., pig, Brent and Bobby together).",
-      "Keys": "",
-      "Drums": "Briefly mentioned when a drum kick prompts Pigpen’s rap; no specific praise or criticism."
+      "Bob": "Positive remarks about Bobby (Pigpen) navigating the material; desire expressed for him to sing with Brent.",
+      "Keys": "Brent is mentioned alongside Pigpen, but no specific comment on keyboard performance.",
+      "Drums": "One reviewer complains about a drum mic (“GET THAT GODDAMN MICROPHONE OUTTA MY FACE!\")"
     },
-    "processed_date": "2025-09-10T11:58:29.283337+00:00",
+    "song_mentions": {
+      "Foolish": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Walkin' Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Day Job": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-26T04:36:23.990863+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1966-02-12.sbd.bershaw.9515.shnf"
   }

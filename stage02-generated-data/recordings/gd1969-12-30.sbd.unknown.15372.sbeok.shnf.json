@@ -16,39 +16,68 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good soundboard capture of the original Boston Tea Party set with tender Uncle John’s Band solo and a solid The Other One, though the performance is incomplete.",
-    "review": "The recording preserves an interesting late‑1969 show – the band delivers memorable moments like Jerry’s poignant intro on \"Uncle John's Band\", a powerful rendition of \"The Other One\" and a laid‑back Pigpen‑fronted vibe. While reviewers praise the lack of song chopping and the strong musicianship, they note missing sections, odd track splits and an overall uneven energy that leaves the show feeling incomplete.",
+    "summary": "Fair but incomplete early‑'69 recording captures a spirited show with highlights like Good Lovin', The Other One and Uncle John's Band.",
+    "review": "The tape is missing portions of several numbers and suffers from odd track splits, making the listening experience feel a bit fragmented. Musically the performance shines – pigpen dominates the vocals, Jerry’s guitar work on Uncle John’s Band is praised as tender and poignant, and The Other One drives the second half into overdrive. Despite the technical gaps most listeners find the set enjoyable.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.9,
-      "confidence": "high",
-      "rationale": "Most reviewers give high marks for performance highlights, but several point out missing material and pacing issues; recording is generally good with minor track‑listing problems, leading to an overall moderate‑to‑good rating."
+      "stars": 4.0,
+      "confidence": "medium",
+      "rationale": "Strong musical praise in several 5‑star reviews offsets the noted recording incompleteness and low‑star/neutral comments, yielding an overall good but not flawless rating."
     },
     "recording_quality": {
-      "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Clear soundboard source; reviewers note the positive that songs aren’t chopped up, but mention odd track segmentation (e.g., a 25‑second \"Alligator\" piece) and missing portions at the start of the show."
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "Missing portions of songs (e.g., Dark Star), odd track naming (short Alligator fragment) and incomplete cuts make the tape feel fragmented; no specific comments on soundboard vs. audience clarity."
     },
     "show_quality": {
       "standout_songs": [
         "Good Lovin'",
         "The Other One",
-        "Uncle John's Band",
-        "Casey Jones",
-        "Black Peter",
-        "Cumberland Blues"
+        "Uncle John's Band"
       ],
       "poor_songs": [],
-      "setlist_flow": "Laid‑back, Pigpen‑heavy vibe with strong jams, but the set feels uneven due to missing sections and a lack of overall spirit noted by some listeners."
+      "setlist_flow": "Early‑'69 vibe with a laid‑back organ sound before Keith joined, pigpen front‑and‑center on vocals, short punchy numbers like Casey Jones contrasted with long explorations such as Black Peter."
     },
     "band_member_comments": {
-      "Jerry": "Tender intro and solo on \"Uncle John's Band\" praised; strong guitar presence throughout.",
+      "Jerry": "His intro and solo on Uncle John's Band are described as gorgeously tender and poignant; also praised for vocal work on 'One More Day I Find Myself Alive'.",
       "Phil": "",
-      "Bob": "Weir’s vocals highlighted on \"Me and My Uncle\" and other numbers.",
-      "Keys": "Organ is more relaxed than later Keith‑era playing, giving the band a different texture.",
-      "Drums": "Brief \"Alligator\" drum segment noted; rhythm section solid despite incomplete tracks."
+      "Bob": "Weir's voice is highlighted on Me and My Uncle, noted as a strong vocal contribution.",
+      "Keys": "The organ/keyboard texture is called more laid‑back than later Keith‑era shows, giving the band a different sound.",
+      "Drums": ""
     },
-    "processed_date": "2025-09-11T02:42:19.129126+00:00",
+    "song_mentions": {
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me and My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T19:33:05.417687+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-12-30.sbd.unknown.15372.sbeok.shnf"
   }

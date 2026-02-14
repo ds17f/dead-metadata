@@ -16,27 +16,25 @@
   "high_ratings": 3,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "A lo‑fi audience recording with noticeable distortion, but the standout Uncle John’s Band jam makes this rehearsal worth hearing.",
-    "review": "The tape was captured on a cheap portable mic, so the electric sections sound muddy and distorted, though the acoustic bits come through clearer. The highlight is the exuberant Uncle John’s Band improvisation (UJB Jam), which many reviewers say outweighs the sonic flaws. It appears to be an early rehearsal rather than a polished concert, with some tentative song arrangements.",
+    "summary": "Fair audience‑recorded rehearsal with an inspired Uncle John's Band jam, but electric sections suffer from noticeable distortion.",
+    "review": "The tape is a cheap‑mic, portable‑recorder capture that preserves the acoustic moments well while the electric material sounds over‑driven and muddy. Reviewers rave about the UJB (Uncle John’s Band) jam and the spontaneous trumpet solo, calling it worth repeated listens, yet several note the overall lo‑fi quality and question the dating of the performance.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 3.4,
       "confidence": "medium",
-      "rationale": "Reviews are split between high praise for the UJB jam and criticism of distortion/date issues; average user rating is ~3.4, and recording quality is only fair, leading to a moderate overall score."
+      "rationale": "Average star rating across eight reviews (≈3.4) combined with mixed comments on a standout jam versus pervasive distortion yields a modest overall score."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Captured with a cheap portable microphone; acoustic parts are listenable but electric sections are heavily distorted and lack clarity. No major drop‑outs reported, but overall mix is muddy."
+      "technical_notes": "Recorded with a cheap microphone and portable recorder; acoustic sections are tolerable, but electric parts are heavily distorted and lack clarity."
     },
     "show_quality": {
       "standout_songs": [
-        "Uncle John's Band (jam)"
+        "Uncle John's Band"
       ],
-      "poor_songs": [
-        "Electric material (distorted)"
-      ],
-      "setlist_flow": "Appears to be a rehearsal; the band is still working out song meters and transitions, giving the performance an informal, developmental feel."
+      "poor_songs": [],
+      "setlist_flow": "Rehearsal tape – band is working out song structures (e.g., verse meter adjustments) and includes an impromptu trumpet solo; overall flow is informal and uneven."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -45,7 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T02:49:07.245250+00:00",
+    "song_mentions": {
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T19:45:53.807334+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-06-xx.aud.tzuriel.10510.sbeok.shnf"
   }

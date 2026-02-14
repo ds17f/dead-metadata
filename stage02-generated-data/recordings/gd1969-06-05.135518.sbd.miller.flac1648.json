@@ -16,25 +16,25 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Recording source unknown, but the show shines with an especially jam‑filled Hard to Handle.",
-    "review": "The sole review is glowing, calling the performance of \"Hard to Handle\" a favorite and noting extra jamming beyond the usual. No comments are made about the audio fidelity, so listeners should expect typical soundboard quality for this file type, but the musical highlight is clear. Overall sentiment is enthusiastic.",
+    "summary": "Clear soundboard capture highlighted by an especially jam‑heavy Hard to Handle.",
+    "review": "The reviewer rates this recording five stars, calling the Hard to Handle performance a favorite and noting its unusually extended jamming. While no specific technical comments are given, the high rating implies a solid soundboard source that faithfully presents the band’s playing.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
-      "confidence": "low",
-      "rationale": "Only one 5‑star review praising a specific song; no recording details provided, so rating leans on the strong performance note but with limited data."
+      "stars": 4.5,
+      "confidence": "medium",
+      "rationale": "Single enthusiastic 5‑star review praising a key song; limited data but strong positive sentiment leads to a high rating with moderate confidence."
     },
     "recording_quality": {
-      "source_type": "unknown",
-      "quality_rating": "fair",
-      "technical_notes": "Review does not mention clarity, mix, or any audio issues."
+      "source_type": "soundboard",
+      "quality_rating": "good",
+      "technical_notes": "No explicit comments on sound quality; presumed clear and balanced typical of soundboard recordings."
     },
     "show_quality": {
       "standout_songs": [
         "Hard to Handle"
       ],
       "poor_songs": [],
-      "setlist_flow": "Reviewer only comments on Hard to Handle, indicating it as a high point; no further set‑list observations provided."
+      "setlist_flow": "Insufficient detail; reviewer focuses solely on Hard to Handle."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,7 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T23:48:34.674174+00:00",
+    "song_mentions": {
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T15:03:04.640445+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-06-05.135518.sbd.miller.flac1648"
   }

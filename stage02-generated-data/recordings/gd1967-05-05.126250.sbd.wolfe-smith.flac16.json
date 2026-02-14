@@ -16,23 +16,25 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a rare 1967 set, musically beautiful and showing an early Jimi‑Hendrix influence.",
-    "review": "The recording is praised as the best‑sounding version of this elusive 1967 performance, delivering crystal‑clear soundboard fidelity. Musically the show is described as gorgeous, marking a pivotal moment in the Dead’s evolution with a fresh, Hendrix‑tinged vibe throughout the set.",
+    "summary": "Excellent soundboard capture of a rare 1967 performance, highlighted by a beautiful Golden Road.",
+    "review": "The recording is praised as the best‑sounding version of this early Summer of Love show, offering crystal‑clear audio that lets the band’s evolving psychedelic edge shine through. Reviewers note the set is musically beautiful and historic, with Golden Road standing out as a highlight. Overall it delivers both high‑quality sound and an inspiring performance.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.8,
+      "stars": 4.6,
       "confidence": "low",
-      "rationale": "A single detailed five‑star review highlights both superb audio quality and an outstanding musical performance, warranting a high rating despite limited data."
+      "rationale": "Only one detailed review, but it rates the show and recording at the top of its class; the weighting gives a high overall score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Reviewer calls it the \"best sounding\" version, indicating clear, balanced mix with no noted flaws."
+      "technical_notes": "Review calls it the best‑sounding version of this era, indicating crystal‑clear, well‑balanced audio despite the 1967 source."
     },
     "show_quality": {
-      "standout_songs": [],
+      "standout_songs": [
+        "Golden Road"
+      ],
       "poor_songs": [],
-      "setlist_flow": "The set is praised as a great, cohesive performance from a scarce era of the band's history."
+      "setlist_flow": "A vibrant early‑Summer‑of‑Love set that showcases the band’s evolving psychedelic sound and historic significance."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -41,7 +43,14 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T13:29:44.773674+00:00",
+    "song_mentions": {
+      "Golden Road": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T06:01:14.068286+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1967-05-05.126250.sbd.wolfe-smith.flac16"
   }

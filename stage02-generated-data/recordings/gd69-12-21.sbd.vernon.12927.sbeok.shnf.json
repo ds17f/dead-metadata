@@ -16,40 +16,65 @@
   "high_ratings": 6,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording of decent clarity captures a solid Fillmore ’69 set highlighted by a monster Not Fade Away and a stellar Black Peter.",
-    "review": "The stereo sound‑board source offers a clear, well‑balanced mix for a 1969 performance. Musically the show shines with an electrifying Not Fade Away, a powerful Black Peter and strong Rider and Other One moments, though the truncated Good Lovin' into The Other One and a tired‑sounding Cumberland Blues keep it from being flawless.",
+    "summary": "Good soundboard capture of the Dec 21‑69 Fillmore set with a monster Not Fade Away and stellar Black Peter, though missing early songs and an uneven flow keep it from being flawless.",
+    "review": "The recording is a decent stereo soundboard mix that presents the band’s 1969 playing clearly – highlights include a scorching Not Fade Away, a poignant Black Peter and a solid I Know You Rider. The performance is generally strong, but the set feels a bit uneven after Good Lovin' jumps straight into The Other One and then Cumberland Blues, and the first six songs are missing from this release.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Most reviewers praise the musical performance (especially NFA, Black Peter, Rider) and note a good‑quality soundboard mix; only a few mention missing songs or minor slip‑ups, leading to an overall strong rating."
+      "rationale": "Most reviewers (7 of 10) give 4‑5 stars and praise the jams, especially Not Fade Away and Black Peter; recording is described as clear soundboard with only minor issues, leading to an overall strong rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Stereo soundboard with a decent 1969 mix; clear overall but occasional abrupt cut (Not Fade Away) and some tape‑end quirks. No major dropouts reported."
+      "technical_notes": "Stereo soundboard mix typical of 1969 – crisp on Black Peter and Not Fade Away, but the tape ends abruptly after The Other One and the first six songs are missing, causing a slight loss of continuity."
     },
     "show_quality": {
       "standout_songs": [
         "Not Fade Away",
         "Black Peter",
-        "I Know You Rider",
-        "The Other One"
+        "I Know You Rider"
       ],
       "poor_songs": [
-        "Cumberland Blues (tired feel)",
-        "Good Lovin' (truncated transition)"
+        "Cumberland Blues"
       ],
-      "setlist_flow": "A single‑set, ~75‑minute show that moves from a brief Rider into a strong Black Peter and a monster Not Fade Away, then jumps from Good Lovin' straight into The Other One and ends with Cumberland Blues; the flow is energetic but the abrupt song changes and missing first six numbers are noted."
+      "setlist_flow": "A single ~75‑minute set that starts strong but loses momentum after an abrupt Good Lovin' → The Other One transition and a tired‑sounding Cumberland blues finale."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar solo on Not Fade Away receives high praise, along with a nice Rider lead; he also exchanges thanks with the audience at the close.",
+      "Jerry": "Garcia’s guitar tone on Not Fade Away is praised as smooth and scorching; his solo work throughout the set receives positive nods.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Keyboard work is highlighted as a strong point in The Other One.",
-      "Drums": "The drum solo leading into The Other One is noted as a highlight, though some feel the later Cumberland Blues drumming sounds tired."
+      "Keys": "Keyboard textures are highlighted in The Other One, adding a nice layer to that jam.",
+      "Drums": "The drum solo leading into Good Lovin' is noted as solid, though the overall flow after it feels uneven."
     },
-    "processed_date": "2025-09-11T02:28:25.560480+00:00",
+    "song_mentions": {
+      "Not Fade Away": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Black Peter": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "I Know You Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Cumberland Blues": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T19:04:57.431761+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-12-21.sbd.vernon.12927.sbeok.shnf"
   }

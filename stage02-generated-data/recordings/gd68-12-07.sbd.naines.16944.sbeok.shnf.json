@@ -16,40 +16,66 @@
   "high_ratings": 27,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good‑quality soundboard recording with noticeable hiss and cuts, but a historic 12‑7‑68 show highlighted by the rare Rosemary and stellar New Potato/Caboose jams.",
-    "review": "The tape captures a raw 1968 performance that many fans cherish for its rarity – especially the low‑key live rendition of “Rosemary” and the soaring New Potato (Caboose) jam. While the soundboard source is generally clear, listeners repeatedly note hiss, partial cuts and sloppy editing that detract from an otherwise exciting set featuring Dark Star, a powerful “That’s It for The Other One” suite and a memorable Morning Dew > Bid You Goodnight transition.",
+    "summary": "Soundboard recording with decent clarity despite hiss and cuts, featuring a rare Rosemary and stellar New Potato/Caboose jams.",
+    "review": "The show is treasured for its rarity – the only known live Rosemary – and for explosive improvisations on Dark Star, New Potato (Caboose) and an intense Other‑One suite.  While the soundboard source sounds good overall, listeners note hiss, partial cuts and uneven editing that slightly mar the listening experience.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Over 30 reviews, the majority give 4‑5 stars and praise the musical moments despite consistent complaints about hiss and editing; this yields a strong positive rating."
+      "rationale": "Most reviewers (30+) give 4‑5 stars, praising the performance despite consistent complaints about hiss and editing; strong musical highlights push the rating into the good–great range."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear soundboard capture but plagued by tape hiss, noticeable partial cuts (especially at the start), and uneven editing that leaves some sections chopped or out of order."
+      "technical_notes": "Generally clear soundboard capture but suffers from noticeable tape hiss, frequent partial cuts and sloppy editing that interrupt song flow."
     },
     "show_quality": {
       "standout_songs": [
-        "Rosemary (rare live version)",
+        "Rosemary",
         "Dark Star",
-        "\"That’s It For The Other One\" suite",
-        "New Potato / Caboose jam",
-        "Morning Dew > Bid You Goodnight"
+        "New Potato (Caboose)",
+        "That's It For The Other One"
       ],
       "poor_songs": [
-        "Morning Dew (noted as weak by some listeners)"
+        "Morning Dew"
       ],
-      "setlist_flow": "The set is praised for its exploratory, psychedelic vibe typical of ’68, with an intense Other One suite and strong jams, though a few reviewers find the middle section too mellow and note occasional sloppiness due to cuts."
+      "setlist_flow": "The set is raw and experimental, with high‑energy jams offset by editing gaps; cuts make the sequence feel fragmented, yet the musical peaks (Rosemary, Dark Star, Caboose) keep the show compelling."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly lauded for stellar, blazing guitar work, inventive volume‑knob dynamics, and delivering the rare Rosemary performance.",
-      "Phil": "Mentioned for his “thunder” bass and a classical‑turn feel during the Other One jam; praised by several reviewers.",
+      "Jerry": "Repeatedly praised for blazing guitar work, inventive volume‑knob swells and taking requests; highlighted on Rosemary, Dark Star and New Potato.",
+      "Phil": "Noted for “thunder” bass and a classical‑tinged jam during the Other One suite; occasional “nasty Phil jam” on New Potato.",
       "Bob": "",
-      "Keys": "",
+      "Keys": "Light keyboard textures mentioned on the acoustic intro to \"He Was A Friend Of Mine\"; otherwise not highlighted.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T20:18:42.569849+00:00",
+    "song_mentions": {
+      "Rosemary": {
+        "positive_mentions": 7,
+        "negative_mentions": 2,
+        "total_mentions": 9
+      },
+      "Dark Star": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "New Potato (Caboose)": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "That's It For The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Morning Dew": {
+        "positive_mentions": 3,
+        "negative_mentions": 2,
+        "total_mentions": 5
+      }
+    },
+    "processed_date": "2025-09-24T09:56:22.085235+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd68-12-07.sbd.naines.16944.sbeok.shnf"
   }

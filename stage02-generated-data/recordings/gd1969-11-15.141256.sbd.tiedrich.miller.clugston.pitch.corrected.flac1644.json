@@ -16,34 +16,41 @@
   "high_ratings": 0,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording of a rare East Bay theater gig, notable for a power loss during Love Light that creates an amusing acapella interlude rescued by Pigpen’s harmonica.",
-    "review": "The tape captures a seldom‑played concert in an old movie house near Richmond, with generally clear soundboard quality. The performance is memorable mainly for the mid‑song power outage on “Love Light,” which forces the band into a brief a‑capella section before Garcia’s electrified guitar returns, and Pigpen’s harmonica lifts the whole set.",
-    "sentiment": "mixed",
+    "summary": "Rough soundboard capture of a forgotten 1969 show, marred by a power loss but highlighted by an intriguing Lovelight moment.",
+    "review": "The recording is a sound‑board source that suffers from a noticeable power outage during the second set, causing drop‑outs and forcing the band into an improvised acapella interlude. Musically the concert is largely unremarkable except for a quirky, Pigpen‑driven Lovelight that manages to stand out despite the technical hiccup.",
+    "sentiment": "negative",
     "ai_rating": {
-      "stars": 3.2,
-      "confidence": "medium",
-      "rationale": "Only one detailed review; it praises the rarity and Pigpen's contribution but notes a disruptive power loss that hurts the flow, while recording quality appears adequate."
+      "stars": 1.5,
+      "confidence": "low",
+      "rationale": "Only one brief review with a zero‑star rating; reviewer finds the show forgettable and notes serious recording interruptions, leading to a low overall score."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Clear soundboard mix; main technical issue is the on‑stage power outage that creates an acoustic break, but no complaints about audio fidelity or noise."
+      "quality_rating": "fair",
+      "technical_notes": "Power loss during Lovelight causes drop‑outs and forces the band into an a‑capella section; otherwise typical soundboard clarity but overall compromised."
     },
     "show_quality": {
       "standout_songs": [
-        "Love Light"
+        "Lovelight"
       ],
       "poor_songs": [],
-      "setlist_flow": "Typical early set interrupted by a sudden loss of electricity during “Love Light,” leading to a brief a‑capella segment before the band resumes with full electric sound."
+      "setlist_flow": "Uneven set hampered by a mid‑song power outage that disrupts momentum; early portions are described as unmemorable."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar only comes back fully when power is restored, highlighting his reliance on amplification for this song.",
+      "Jerry": "Garcia's guitar needed electricity to continue; the power cut halted his playing during Lovelight.",
       "Phil": "",
-      "Bob": "Weir’s early spoken intro “whiffs,” providing a less‑polished moment before the main set.",
+      "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T01:54:39.899944+00:00",
+    "song_mentions": {
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T18:14:24.497742+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-11-15.141256.sbd.tiedrich.miller.clugston.pitch.corrected.flac1644"
   }

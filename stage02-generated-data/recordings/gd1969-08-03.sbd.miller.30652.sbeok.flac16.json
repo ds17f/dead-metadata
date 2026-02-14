@@ -16,38 +16,83 @@
   "high_ratings": 20,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard recording with little hiss captures a wildly inventive 1969 Family Dog show featuring guest violin and sax, highlighted by a soaring Dark Star, The Other One and jazzy Caution.",
-    "review": "The performance is celebrated for its daring free‑jazz infusion – David LaFlamme’s soaring violin and Charles Lloyd’s tenor sax weave through a monster Dark Star, an expansive Other One and the psychedelic Caution.  The pure SBD source is generally clear with minimal hiss, though listeners note early volume swings and occasional speed hiccups that settle into a cleaner mix later in the set.",
+    "summary": "A clean sound‑board capture of a free‑jazz‑laden set that shines on Dark Star, The Other One and Caution with stellar violin/sax guests.",
+    "review": "The show is an adventurous snapshot of the Dead in ’69, where the added violin (David LaFlamme) and saxophone (Charles Lloyd) turn the band into a quasi‑jazz orchestra.  Highlights like Dark Star, The Other One, Caution and High Heeled Sneakers are praised for their improvisational fire, while the recording—pure SBD with occasional early volume wobble—remains generally clear and listenable.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.7,
+      "stars": 4.5,
       "confidence": "high",
-      "rationale": "Average reviewer rating is ~4.8/5, with overwhelming praise for both the musical uniqueness and overall sound quality; minor technical quirks keep it just shy of perfection."
+      "rationale": "Overwhelmingly positive reviews (most 5‑star) praise the musical performance and guest contributions; recording is a soundboard with minor early‑show issues, yielding an overall excellent experience."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Described as a pure SBD with little to no hiss; early portion fluctuates in volume and speed, but later tracks are clean and balanced."
+      "technical_notes": "Pure SBD with little hiss; early portion fluctuates in volume and clarity, but midsong sections (Dark Star onward) become crisp and well‑balanced."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "The Other One",
+        "Caution",
         "High Heeled Sneakers",
-        "Caution (Do Not Step on Tracks)",
-        "Alligator"
+        "Alligator",
+        "High Time"
       ],
-      "poor_songs": [],
-      "setlist_flow": "A tentative, slightly rough opening gives way to a free‑jazz explosion after Dark Star; the guest violin and sax become integral voices throughout, creating an adventurous arc that builds to a chaotic yet thrilling Caution."
+      "poor_songs": [
+        "Coal Mine"
+      ],
+      "setlist_flow": "A rough, low‑volume opening gives way to a free‑jazz explosion as the violin and sax weave through Dark Star and The Other One; the second half maintains high energy with Caution and other jams, delivering an adventurous, almost orchestral experience."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar recedes into rhythm during Dark Star to let the sax and violin shine, but returns for melodic accents; also trades verses with Pigpen on High Heeled Sneakers.",
-      "Phil": "Phil’s deep vocal timbre is noted on the closing “And We Bid You Goodnight”; bass work remains solid though not a focal point in reviews.",
+      "Jerry": "Praised for tasteful rhythm work and letting the guests shine, especially during Dark Star.",
+      "Phil": "His deep vocal on the closing “And We Bid You Goodnight” is noted positively.",
       "Bob": "",
-      "Keys": "Keyboardist (TC) adds tasteful accents and listens rather than dominates, providing subtle harmonic color throughout the set.",
-      "Drums": "Bill’s drumming is praised for its steady drive and occasional “drumz” bursts that propel jams like Other One."
+      "Keys": "Tom Constanten (TC) receives commendation for subtle accents that complement rather than dominate the improvisations.",
+      "Drums": "Bill Kreutzmann’s drumming is described as solid with nice fills, particularly in The Other One."
     },
-    "processed_date": "2025-09-11T00:49:09.087128+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 11,
+        "negative_mentions": 0,
+        "total_mentions": 11
+      },
+      "The Other One": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Caution": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "High Time": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Alligator": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "High Heeled Sneakers": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Coal Mine": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Do Not Step on Tracks": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-24T16:33:00.585369+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-08-03.sbd.miller.30652.sbeok.flac16"
   }

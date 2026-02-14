@@ -16,45 +16,108 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Fair‑quality audience recording of a historic ’66 club show with rare gems like the first “Me and My Uncle” but marred by splicing and lo‑fi sound.",
-    "review": "The tape captures an important early‑Dead performance featuring rarities such as Me and My Uncle, Viola Lee Blues, Lindy, and one of only two live Mindbender cuts. While the music is historically exciting, the audio sounds hollow and tin‑can‑like with multi‑generation distortion and a few splices that make portions of the first set sound out of place.",
+    "summary": "Mixed‑quality soundboard of a historically rich 11/29/66 show – rare gems like Me and My Uncle and Mindbender shine, but the tape is hollow and uneven.",
+    "review": "The recording captures an early‑Dead set with several rarities (first Me and My Uncle, Mindbender, Lindy, etc.) that make it a must‑have for ’66 heads, yet the audio suffers from tin‑can hollowness, distortion and generational loss. The performance is uneven – Jerry has flashes of brilliance but also repeats licks, Bob’s rhythm work sounds weak, and some songs drag – so the show feels more historic than stellar.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.0,
+      "stars": 3.2,
       "confidence": "medium",
-      "rationale": "Reviewers consistently praise the show’s rare material and overall performance (≈4‑star), but note significant recording flaws that pull the technical rating down, yielding an average of about 4 stars."
+      "rationale": "Show quality is moderate (rare material but uneven playing) while recording quality is fair to poor; weighted average yields a low‑mid rating."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Sound is described as hollow, tin‑can like, with multi‑generation distortion and occasional cuts (e.g., Me and My Uncle, Viola Lee). First eight tracks are from a different date and sound degraded; overall fidelity is lower than other ’66 releases."
+      "technical_notes": "Hollow, tin‑can sound; noticeable distortion and multi‑generation loss; some cuts (Me and My Uncle, Viola Lee) and splices from other dates."
     },
     "show_quality": {
       "standout_songs": [
         "Me and My Uncle",
-        "Viola Lee Blues",
-        "The Same Thing",
         "Lindy",
-        "Sick & Tired",
-        "Down So Long",
-        "One Kind Favor (See That My Grave Is Kept Clean)",
-        "Good Morning Schoolgirl",
-        "I Just Want to Make Love With You"
+        "Mindbender",
+        "Same Thing (delivers as usual)",
+        "Viola Lee Blues (delivers as usual)"
       ],
       "poor_songs": [
-        "\"Same Thing\" (inconsistent performance)",
-        "\"Viola Lee Blues\" (cut in the middle)"
+        "Same Thing (inconsistent performance)",
+        "Viola Lee Blues (repetitive licks in places)"
       ],
-      "setlist_flow": "The tape actually combines two shows – tracks 1‑8 from 5/19/66 and the remainder from 11/29/66 – resulting in an uneven flow and occasional mismatched tempos, but the second half delivers solid ’66 energy."
+      "setlist_flow": "The tape actually contains two different shows spliced together, causing a disjointed flow; the \"first set\" is from 5/19/66 while the remainder is the true 11/29/66 performance."
     },
     "band_member_comments": {
-      "Jerry": "Shows moments of brilliance but often repeats licks; not as tight on Same Thing or Viola Lee Blues.",
+      "Jerry": "Shows flashes of brilliance but also falls into repetitive licks and uneven intensity.",
       "Phil": "",
-      "Bob": "Described as sounding “pretty bad” on the first Me and My Uncle, though his presence is historically notable.",
+      "Bob": "His rhythm work sounds pretty bad on this tape.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T12:57:15.264729+00:00",
+    "song_mentions": {
+      "Me and My Uncle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Viola Lee Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Same Thing": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Big Boy Pete": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stealin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "One Kind Favor": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lindy": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Sick and Tired": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Down so Long": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cold Rain and Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Morning Schoolgirl": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "I Just want to Make Love With You": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mindbender": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-26T06:02:47.693347+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd66-11-29.sbd.ret.20448.sbeok.shnf"
   }

@@ -16,18 +16,18 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard source with no detailed feedback on audio or performance",
-    "review": "The few reviews provide little substantive information about the musical performance or recording fidelity. One reviewer gave a five‑star rating without comment, while two others noted a possible duplicate file but did not discuss sound quality.",
+    "summary": "Recording details are unclear and reviewers gave little feedback on sound or performance",
+    "review": "The few reviews for this tape focus on a possible duplicate listing rather than the music itself, with one reviewer giving it five stars but offering no description. No concrete information about recording source, audio clarity, setlist highlights, or individual performances is provided.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.8,
-      "confidence": "medium",
-      "rationale": "Only three brief reviews; one positive star rating but no descriptive content, and two comments about duplication rather than audio or show quality."
+      "stars": 3.0,
+      "confidence": "low",
+      "rationale": "Only one substantive rating (5 stars) and no descriptive comments; most feedback concerns duplication, leaving the actual quality of the show and recording uncertain."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "No reviewer commented on clarity, mix, or other technical aspects; the file appears to be a soundboard capture but quality cannot be assessed from the reviews."
+      "technical_notes": ""
     },
     "show_quality": {
       "standout_songs": [],
@@ -41,7 +41,8 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T14:05:41.029384+00:00",
+    "song_mentions": {},
+    "processed_date": "2025-09-24T06:47:49.194996+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1967-11-10.116171.sbd.motb-0172.flac16"
   }

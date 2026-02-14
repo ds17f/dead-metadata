@@ -16,35 +16,53 @@
   "high_ratings": 2,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Fair‑quality audience tape of the 3/12/66 Acid Test era show, highlighted by a stellar One Kind Favor and early‑era Viola Lee Blues despite mix imbalances.",
-    "review": "The recording captures a rare 1966 performance that many reviewers find musically exciting – Jerry’s surfy guitar runs, Bob’s embryonic lead style on One Kind Favor, and a solid rhythm section. The tape suffers from balance problems (Jerry too forward, Phil, Bob and Bill often buried) and occasional cuts, giving it an overall fair sound quality but still worth listening to for its historic value.",
-    "sentiment": "mixed",
+    "summary": "Rare 3/12/66 show with strong playing and classic Ice Cream Break, but the mix is unbalanced and has occasional cuts.",
+    "review": "The performance is generally praised – the band sounds excellent, with highlights like Viola Lee Blues, One Kind Favor and the iconic Ice Cream Break banter. Recording quality is uneven: low volume, a muffled bass/keys balance and an overly forward Jerry guitar create a fair‑sounding mix with a few cuts typical of the era.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 3.9,
       "confidence": "medium",
-      "rationale": "Most reviewers praise the musical performance (average show rating ~4) while noting notable recording flaws (average recording rating ~3). The mix of positive and critical comments yields a mid‑range overall score."
+      "rationale": "Most reviewers commend the musical performance (average ~4 stars) while noting consistent recording imbalances and volume issues (rating ~3.5), yielding an overall rating near 4 with moderate confidence due to mixed comments."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "Imbalance in the mix – Jerry’s guitar overly loud, Phil, Bob and Bill often muffled; low volume overall with occasional cuts typical of mid‑60s audience tapes."
+      "technical_notes": "Low overall volume, muffled bass/keys versus a piercing Jerry guitar, occasional cuts in the tape, and general mix imbalance typical of mid‑60s archival recordings."
     },
     "show_quality": {
       "standout_songs": [
+        "Viola Lee Blues",
         "One Kind Favor",
-        "Viola Lee Blues"
+        "Ice Cream Break"
       ],
       "poor_songs": [],
-      "setlist_flow": "Early Acid Test set with solid playing throughout; a few moments feel slightly disjointed but the energy stays high, especially in the blues numbers."
+      "setlist_flow": "The set flows well despite occasional song edits; the band maintains energy throughout, delivering a solid mid‑60s Dead experience."
     },
     "band_member_comments": {
-      "Jerry": "Guitar is very loud and surf‑y; runs are impressive but dominate the mix.",
-      "Phil": "Bass is often muffled and disappears when volume is lowered due to poor balance.",
-      "Bob": "Shows his nascent lead‑guitar style on One Kind Favor; generally buried in the mix.",
-      "Keys": "Keith (Pig) delivers strong organ, vocals, and harmonica work, though at times masked by the imbalance.",
-      "Drums": "Bill’s drumming is present but can disappear when the overall volume is reduced because of mixing issues."
+      "Jerry": "His guitar is described as surfy and impressive but far too loud in the mix, often piercing the eardrums.",
+      "Phil": "Bass is noted as muffled at points, disappearing when volume is lowered.",
+      "Bob": "Early‑stage trademark guitar style praised, yet his parts are also muffled in the recording.",
+      "Keys": "Ron \"Pig\" McKernan's organ, vocals and harmonica work are highlighted positively, though often buried by the mix imbalance.",
+      "Drums": "Bill Kreutzmann’s drumming can disappear at lower volumes due to the unbalanced mix; no specific performance criticism."
     },
-    "processed_date": "2025-09-10T12:06:28.031295+00:00",
+    "song_mentions": {
+      "Ice Cream Break": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Viola Lee Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "One Kind Favor": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-26T04:49:02.572818+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1966-03-12.doherty.winters.17681.shnf"
   }

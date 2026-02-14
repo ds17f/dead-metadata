@@ -16,38 +16,53 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with decent overall sound; early filler is weak but the Dark Star, The Eleven, and Turn‑On‑Your‑Lovelight deliver a spectacular second half.",
-    "review": "The show is hampered by an uneven first six tracks and some equipment glitches (power cuts, digi noise), but once the band gets rolling the performance soars. A sparkling 20‑minute Dark Star, a monster The Eleven, and a soaring Turn‑On‑Your‑Lovelight make this a must‑listen despite occasional sound deterioration in the latter part of Dark Star.",
+    "summary": "Soundboard recording with generally good sound despite occasional digi‑noise, highlighted by a soaring Dark Star and an inspiring Turn On Your Lovelight.",
+    "review": "The set starts out with several early filler tracks that suffer from power‑out drops, but once the band hits Dark Star the performance lifts to classic ’69 intensity. The recording is mostly clear – soundboard quality is praised throughout, though a few reviewers note digi‑noise and deterioration in the latter half of Dark Star. The final four songs, especially Dark Star, The Eleven and Turn On Your Lovelight, are consistently singled out as standout moments.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers praise the core jams (Dark Star, The Eleven, Lovelight) and rate the recording as good, while noting only moderate flaws in early filler and occasional noise; weighted average yields a strong >4‑star rating."
+      "rationale": "Most reviewers are enthusiastic, many give 4‑5 stars and highlight exceptional jams; recording is described as good to excellent with only isolated noise issues."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear soundboard mix with occasional digi noise around the 18‑minute mark of Dark Star and noticeable deterioration after ~12 minutes; some early‑set equipment problems (power cutouts) but overall listenable."
+      "technical_notes": "Generally clear soundboard mix praised, but several comments note digi‑noise around the 18‑minute mark of Dark Star and a deterioration after ~12 minutes. Early set suffers from power‑out dropouts that cause brief gaps."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "The Eleven",
-        "Turn On Your Lovelight"
+        "Turn On Your Lovelight",
+        "The Eleven"
       ],
-      "poor_songs": [
-        "First six tracks (early filler, e.g., Hey Little One, Hard To Handle, etc.)"
-      ],
-      "setlist_flow": "The concert starts with a long stretch of filler and technical hiccups, but after the power outages the band launches into an inspired second half where the jams build and sustain high energy."
+      "poor_songs": [],
+      "setlist_flow": "First six tracks are considered filler and are marred by equipment glitches; after the power outages the band rolls into a powerful Dark Star that carries the show, followed by strong performances of The Eleven and an inspiring Lovelight to close."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s tone is praised (amp turned up loud, vibrant voice, powerful soloing especially on Dark Star and Lovelight).",
+      "Jerry": "Garcia’s amp is described as turned up loud, delivering a powerful tone that shines on Dark Star and Lovelight.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T23:24:00.998657+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 7,
+        "negative_mentions": 3,
+        "total_mentions": 10
+      },
+      "The Eleven": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Turn On Your Lovelight": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T14:23:37.456663+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-05-10.sbd.tzuriel.1336.sbeok.shnf"
   }

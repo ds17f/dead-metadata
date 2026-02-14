@@ -16,39 +16,66 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A clean sound‑board capture of Woodstock’s infamous 8/16/69 set, highlighted by a hypnotic 45‑minute “Turn On Your Lovelight” despite the show’s reputation as the Dead’s worst performance.",
-    "review": "The SBD recording is notably clear – reviewers repeatedly award it five‑star sound quality and call it an upgrade over previous versions. Musically the concert is polarising: most fans love Jerry’s soaring leads, Pigpen’s marathon Lovelight and a solid “Mama Tried,” while the brief St Stephen opener and floundering “High Time” reinforce its legend as a sloppy show.",
+    "summary": "Clear soundboard capture of Woodstock’s infamous set, with a towering 45‑minute Turn On Your Lovelight offset by an uneven performance elsewhere.",
+    "review": "The recording is praised for its crisp, upgraded sound‑board quality that makes even the chaotic Woodstock environment listenable. Musically the show is legendary for its marathon Lovelight and occasional flashes of brilliance from Jerry’s guitar and the Hammond organ, but many reviewers note sloppy moments in songs like High Time and a brief St Stephen opener. Overall the performance is seen as historically fascinating yet musically uneven.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Consistent praise for the recording quality (70% of reviewers give 5‑star sound ratings) and strong enthusiasm for specific songs, balanced by repeated criticism that the overall performance is one of the band’s worst."
+      "rationale": "Most reviewers rate the recording highly and highlight several standout songs, while opinions on the overall performance are split between praise for specific moments and criticism of the show’s inconsistency."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Crisp, well‑balanced mix with minimal noise; several reviewers call it a remarkable upgrade and very listenable, though a few suggest using EQ to tame occasional mud."
+      "technical_notes": "Crisp and clear with a noticeable upgrade over earlier releases; some ambient crowd chatter (e.g., stoned mic ramblings) but overall very listenable."
     },
     "show_quality": {
       "standout_songs": [
         "Turn On Your Lovelight",
-        "Mama Tried",
-        "Dark Star"
+        "Dark Star",
+        "Mama Tried"
       ],
       "poor_songs": [
-        "St Stephen (opener)",
-        "High Time"
+        "High Time",
+        "St Stephen"
       ],
-      "setlist_flow": "The set starts with a painfully brief St Stephen, stumbles through “Mama Tried” and an unsteady Dark Star before settling into a marathon Lovelight that carries the show. The chaotic early half reinforces its reputation as a sloppy Woodstock performance."
+      "setlist_flow": "The set opens with a painfully brief St Stephen and limp Mama Tried, flounders through Dark Star and High Time, then builds into an epic 45‑minute Lovelight that carries the show despite earlier missteps."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly praised for his stinging leads, perfect tone, and overall guitar work.",
-      "Phil": "Noted for bizarre radio‑crosstalk emanating from his bass amp during the Lovelight jam.",
+      "Jerry": "Repeatedly praised for his “stinging” leads and overall guitar brilliance throughout the set.",
+      "Phil": "Noted for the odd radio transmission bleeding through his bass amp during Lovelight.",
       "Bob": "",
-      "Keys": "Hammond organ described as beautiful, swirly, and psychedelic during the jams.",
+      "Keys": "The Hammond organ is described as swirly, psychedelic and a highlight of the performance.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T00:54:34.148539+00:00",
+    "song_mentions": {
+      "St Stephen": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Mama Tried": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "High Time": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Turn On Your Lovelight": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "total_mentions": 4
+      }
+    },
+    "processed_date": "2025-09-24T16:39:30.288773+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-08-16.sbd.gmb.95856.flac16"
   }

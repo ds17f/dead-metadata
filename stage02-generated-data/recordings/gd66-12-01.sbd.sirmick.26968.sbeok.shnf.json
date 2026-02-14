@@ -16,42 +16,75 @@
   "high_ratings": 20,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Cleaned‑up soundboard capture of a high‑energy early‑1966 Matrix set, highlighted by Garcia’s soaring Cream Puff War solo and rare Pigpen blues gems.",
-    "review": "The recording is a cleaned‑up soundboard tape that, while not crystal clear, offers a balanced mix with enough fidelity to enjoy the band’s early blues‑heavy set. The performance bursts with high energy, featuring a stellar Garcia solo on “Cream Puff War,” powerful Pigpen organ and vocals on tracks like “Death Don't Have No Mercy,” and several rare treats such as “Betty & Dupree” and “Deep Elem Blues.” Although some reviewers note pitch‑correction needs and occasional noise, the show is generally praised for its excitement and historic value.",
-    "sentiment": "positive",
+    "summary": "A dusty soundboard of a high‑energy early‑Dead show with standout Cream Puff War and rare blues gems, captured in a mixed‑quality but cleaned‑up recording.",
+    "review": "The performance captures the raw excitement of the Dead’s 1966 Matrix gig – Garcia’s solo on Cream Puff War and Pigpen‑driven blues like Death Don't Have No Mercy shine, while a handful of rarities (Betty & Dupree, Big Boy Pete) add historic flavor. The soundboard source is uneven – some copies suffer corruption, pitch errors and hiss, but the cleaned‑up version offers decent balance and enough clarity to enjoy the set.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Average star rating ~3.8 across 30 reviews, with most comments praising the musical performance and only moderate technical complaints; weighting favors show quality, yielding a solid above‑average score."
+      "rationale": "Most reviewers praise the musical performance (many 4–5 star comments) while noting significant but fixable recording issues; weighted average yields a strong overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Cleaner than earlier versions but still exhibits hiss, occasional pitch errors needing correction, and some file corruption (Cream Puff War). Reviewers suggest EQ tweaks; overall mix is balanced with decent instrument separation."
+      "quality_rating": "fair",
+      "technical_notes": "Cleaned‑up version reduces hiss, but original SHN files show corruption, pitch errors and occasional drop‑outs. Listeners report needing EQ adjustments; overall balance is decent but clarity is lower than later 66 shows."
     },
     "show_quality": {
       "standout_songs": [
         "Cream Puff War",
-        "Betty & Dupree",
-        "Me & My Uncle",
         "Death Don't Have No Mercy",
-        "Deep Elem Blues",
+        "Betty & Dupree",
         "Big Boy Pete",
-        "See That My Grave Is Kept Clean"
+        "Down So Long"
       ],
-      "poor_songs": [
-        "You Don't Love Me (not as hot as other versions)"
-      ],
-      "setlist_flow": "A blues‑heavy early‑Dead set at the Matrix, packed with rare tunes and multiple repeats of “Me & My Uncle.” The pacing is energetic but occasionally repetitive; nevertheless the rarity of many tracks makes the flow compelling for collectors."
+      "poor_songs": [],
+      "setlist_flow": "A blues‑heavy early set packed with rare treats; while the pacing is energetic, some repetitions make parts feel redundant and the fragmented source can feel disjointed."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s solo on “Cream Puff War” described as stellar; his vocal delivery on “Death Don't Have No Mercy” praised.",
+      "Jerry": "Garcia’s solo on Cream Puff War is described as stellar; his vocals and guitar on Death Don't Have No Mercy are highlighted as a show highlight.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Pigpen’s Vox organ and vocals highlighted as driving the blues feel; his performances are called a must‑have for fans.",
-      "Drums": ""
+      "Keys": "Pigpen’s organ work is noted as a driving force behind the R&B feel of the set.",
+      "Drums": "Billy (Kreutzmann) receives praise for an almost “fourth‑arm” performance on several tracks."
     },
-    "processed_date": "2025-09-10T13:02:33.839702+00:00",
+    "song_mentions": {
+      "Cream Puff War": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Death Don't Have No Mercy": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Betty & Dupree": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Big Boy Pete": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Down So Long": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Me & My Uncle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "You Don't Love Me": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-26T06:09:19.821666+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd66-12-01.sbd.sirmick.26968.sbeok.shnf"
   }

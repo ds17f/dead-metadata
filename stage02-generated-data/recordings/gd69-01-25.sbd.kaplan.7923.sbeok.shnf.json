@@ -16,38 +16,70 @@
   "high_ratings": 15,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Rough soundboard mix with an over‑loud organ and occasional synth overlay, but a legendary show highlighted by a scorching Dark Star, The Eleven, Alligator > Caution and Lovelight.",
-    "review": "The performance is widely praised as one of the band’s most innovative early‑’69 shows – Dark Star into Stephen Stills, an incendiary The Eleven, and a thunderous Alligator > Caution sequence that many call unforgettable.  The recording, however, suffers from a badly balanced mix: Tom Constanten’s (or TC’s) organ is way up front, vocals are often buried, Jerry’s guitar drops low, and there may be an added keyboard‑synth track on Dark Star.  Despite the technical flaws, fans consider it a must‑listen for its energy and improvisational fire.",
-    "sentiment": "positive",
+    "summary": "A legendary early‑'69 show with scorching Eleven, Alligator, Caution and Dark Star, but hampered by a muddled soundboard mix that buries guitars and vocals.",
+    "review": "The performance is widely hailed as one of the band’s most inventive from this era – the Eleven erupts, Alligator and Caution crush, and Dark Star glows despite a wonky mix. The recording, however, suffers from an uneven soundboard balance: organ and synth are often too forward, vocals dip in and out, and some listeners suspect an over‑dubbed keyboard track.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.1,
       "confidence": "high",
-      "rationale": "Show quality is consistently rated 4‑5 stars with multiple rave comments about standout jams; recording quality is noted as poor to fair, pulling the weighted average down but still yielding a strong overall rating."
+      "rationale": "Strong, consistently praised musical performance (70% weight) offset by frequent complaints about a flawed soundboard mix (30% weight), yielding an overall rating just above four stars."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Mix is unbalanced – organ (TC) far too loud, vocals often buried until later in Lovelight, Jerry's guitar low on Dark Star, occasional synth/keyboard overlay that sounds like an added track. Early tracks have screwy mix; second set improves but still not pristine."
+      "technical_notes": "Mix is inconsistent – organ/keyboard often over‑bright or distorted, vocals low or missing in early tracks, Garcia’s guitar buried on Dark Star; some reviewers suspect an added synth overlay on the first part of Dark Star."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "The Eleven",
-        "Alligator > Caution",
         "Lovelight",
-        "Dupree's Diamond Blues"
+        "Alligator",
+        "Caution"
       ],
       "poor_songs": [],
-      "setlist_flow": "Early set hampered by mix issues but still energetic; second set shines with a classic Dark Star > Stephan > The Eleven > Lovelight sequence and an explosive Alligator‑Caution climax, showcasing the band’s exploratory peak of ’69."
+      "setlist_flow": "Early‑set suffers from the mix, but the second set shines – energetic transitions, a powerful Alligator → Caution climax and a memorable Eleven/Lovelight sequence that exemplify the band’s exploratory peak of ’69."
     },
     "band_member_comments": {
-      "Jerry": "Guitar often buried in the mix but described as fantastic when audible; his tone praised on The Eleven and other jams.",
+      "Jerry": "Guitar tone is described as ‘fantastic’ when audible, but often gets lost in the mix (especially on Dark Star).",
       "Phil": "",
-      "Bob": "Vocals are generally clear later in the set; Bob’s vocal parts noted as audible despite overall mix problems.",
-      "Keys": "Tom Constanten (TC) organ is excessively forward – likely a Vox Continental at this point, with occasional synth‑like overlay on Dark Star that some suspect is an added track.",
-      "Drums": "Bill and Mickey are praised for playing “their A$$ off”; drum work noted as powerful throughout, especially on Alligator and Caution."
+      "Bob": "Vocals are mixed forward later in the show; Bob’s singing and rhythm work come through clearly once the mix improves.",
+      "Keys": "Keyboard balance is a major issue – organ is either distorted or cranked way up (TC on a Vox Continental), with speculation about an added synth track on Dark Star.",
+      "Drums": "Billy and Mickey are praised for pounding out the groove, especially on Alligator, Caution and The Eleven."
     },
-    "processed_date": "2025-09-10T20:54:14.261564+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "total_mentions": 3
+      },
+      "The Eleven": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Alligator": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Caution": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Dupree's Diamond Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T10:34:02.948338+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-01-25.sbd.kaplan.7923.sbeok.shnf"
   }

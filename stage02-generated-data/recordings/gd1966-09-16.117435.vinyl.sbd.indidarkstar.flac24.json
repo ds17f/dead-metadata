@@ -16,39 +16,89 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clean, well‑balanced vinyl rip captures a high‑energy early‑Dead show with scorching “I Know You Rider”, “Dancing in the Streets” and “Baby Blue”.",
-    "review": "The recording is praised for its low surface noise, clear separation and faithful pitch – essentially a very clean transfer of the original Avalon LPs. Musically the performance shines: Jerry’s lightning‑fast solos, tight drum/guitar interplay and enthusiastic crowd make this an early‑Dead highlight, especially on “I Know You Rider”, “Dancing in the Streets” and “All Over Now, Baby Blue”.",
+    "summary": "A clean vinyl‑sourced rip captures an early‑’66 set bursting with a fiery I Know You Rider, smoking Lindy and Baby Blue, plus a standout Midnight Hour.",
+    "review": "The recording is praised for its low‑noise, well‑balanced vinyl transfer, despite slightly lower levels and occasional pitch quirks. Musically the show is celebrated as an early‑career high point, with Jerry’s soaring solos, exuberant Lindy, and a blistering I Know You Rider, though a few tracks suffer from editing or missing intros. Overall the energy and joy of the band shine through.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "Most reviewers give 4–5 stars and extol both the musical excitement and the clean vinyl source; recording quality is consistently described as good to excellent."
+      "rationale": "Most reviewers rave about the performance and give high star ratings; recording comments note excellent vinyl clarity with only minor level/pitch issues, leading to a strong combined score."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "good",
-      "technical_notes": "Clean vinyl rip with very little surface noise, slightly lower levels and wider channel separation than other versions; balanced mix that matches original pitch, occasional low‑level quirks but overall clear and listenable."
+      "technical_notes": "Very clean vinyl rip with minimal surface noise; slightly lower overall levels and wider channel separation give it a balanced but less punchy feel. Some reviewers mention pitch‑correction needs for perfect speed."
     },
     "show_quality": {
       "standout_songs": [
         "I Know You Rider",
-        "Dancing in the Streets",
-        "All Over Now, Baby Blue",
-        "Stealin'",
+        "Midnight Hour",
+        "Lindy",
+        "Baby Blue",
         "The Same Thing",
-        "Lindy (overseas stomp)"
+        "Stealin'"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Early‑era set that feels loose and playful; the band is clearly feeding off each other's energy, with a strong early‑show drive that builds into extended solos and tight group improvisation."
+      "poor_songs": [
+        "Dancing in the Streets",
+        "Midnight Hour"
+      ],
+      "setlist_flow": "Early‑'66 material is played with loose, joyous energy; the set swings from tight blues numbers to playful folk‑rock jams, keeping the crowd fully engaged throughout."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly praised for blistering, jazz‑inflected solo work and high‑speed bluegrass/acid runs; considered one of his finest early performances.",
+      "Jerry": "Multiple reviewers highlight his incendiary solos, high‑speed scales and emotive vocal on Baby Blue.",
       "Phil": "",
       "Bob": "",
-      "Keys": "",
-      "Drums": "Interplay between drums and lead guitar highlighted as a “question and answer” dynamic that lifts the whole performance."
+      "Keys": "Keyboard work is noted as “great keys” that complement the band’s dynamics.",
+      "Drums": "The drum/lead guitar/pig ad‑libs are praised for their tight interplay and driving energy."
     },
-    "processed_date": "2025-09-10T12:41:36.135693+00:00",
+    "song_mentions": {
+      "I Know You Rider": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Midnight Hour": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Dancing in the Streets": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Lindy": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Baby Blue": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "The Same Thing": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Stealin'": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "It Hurts Me Too": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Good Morning Little School Girl": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-26T05:40:25.511636+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1966-09-16.117435.vinyl.sbd.indidarkstar.flac24"
   }

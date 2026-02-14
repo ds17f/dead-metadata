@@ -16,36 +16,52 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good‑sound soundboard capture of a summer ’69 show with an unusual long jam and Janis‑Pigpen duet, though fans are split on Janis’s vocals.",
-    "review": "The recording is praised for its clear, strong sound despite being a relatively obscure 1969 summer concert. The performance features a standout extended jam (highlighted on “Doin’ That Rag”) and memorable moments with Janis Joplin and Pig Pen, but opinions diverge sharply on Janis’s singing, making the overall reception mixed.",
+    "summary": "Soundboard capture of a 1969 summer gig featuring an unusually long Doin' That Rag jam and decent overall sound, though Janis Joplin’s guest spot splits opinion.",
+    "review": "The recording is a sound‑board tape that most listeners find clear and enjoyable, especially the extended jam on “Doin’ That Rag” and the occasional interplay between Janis Joplin and Pig Pen. While some reviewers praise the performance and Jerry’s song choices, others criticize Janis’s vocal contribution, making overall sentiment mixed.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.9,
+      "stars": 4.1,
       "confidence": "medium",
-      "rationale": "Show quality is mixed (polarizing views on Janis) while recording quality is consistently praised as good; combined weighting yields a mid‑high rating."
+      "rationale": "Show has standout moments (long jam, guest interplay) but polarizing vocal performance; recording quality is generally good, leading to a solid above‑average rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Several reviewers note the audio sounds really good and clear for an old 1969 tape, with no major dropouts mentioned."
+      "technical_notes": "Reviewers note the tape sounds really good overall with no major flaws mentioned."
     },
     "show_quality": {
       "standout_songs": [
-        "Doin' That Rag (long jam)",
-        "The Lovelight (Janis vocal segment)",
-        "\"Bird Song\" tribute"
+        "Doin' That Rag",
+        "The Love Light"
       ],
       "poor_songs": [],
-      "setlist_flow": "A random summer‑69 set blending Jerry Garcia‑lead tunes with Janis Joplin and Pig Pen contributions; the show feels a bit rough overall but is buoyed by an extended jam and unique vocal collaborations."
+      "setlist_flow": "A typical summer‑1969 set with a long improvisational jam and guest vocals that add variety, though the Janis segment is viewed as uneven by some listeners."
     },
     "band_member_comments": {
-      "Jerry": "Mentioned as the primary songwriter ('Mostly Jerry tunes') and generally viewed positively.",
+      "Jerry": "Mostly Jerry‑written tunes are highlighted positively.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T23:54:56.167534+00:00",
+    "song_mentions": {
+      "Doin' That Rag": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Love Light": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Bird Song": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T15:14:26.838242+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-06-07.132685.sbd.reels.wise.flac16"
   }

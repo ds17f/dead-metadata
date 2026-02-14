@@ -16,38 +16,63 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑quality soundboard capture of a short but fiery 1969 set, highlighted by R&B‑heavy gems like Casey Jones, New Orleans and an epic Lovelight.",
-    "review": "The three reviewers rave about the performance – a concise ten‑song set that bursts with Pigpen’s R&B spirit, Garcia’s enthusiastic vocals on “Good Lovin’”, and a long, soaring “Lovelight”. The soundboard source is praised as clear and balanced (though listeners note an EQ boost helps bring out the best), making this recording a must‑have for ’69 collectors.",
+    "summary": "Soundboard recording of good quality captures a short but R&B‑rich 1969 set highlighted by a fiery “New Orleans” and “Casey Jones”.",
+    "review": "The three fan reviews are uniformly enthusiastic, calling the show a must‑have for collectors and praising the Pigpen‑driven R&B vibe. Standout moments include a “funky Casey Jones” opener, an electrifying “New Orleans”, and a long, tasty “Lovelight”. The soundboard source is generally clear, though a few reviewers note low‑bitrate MP3 artifacts and suggest using EQ for optimal playback.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
-      "confidence": "high",
-      "rationale": "Consistently high star ratings (4–5) and detailed praise of both the musical performance and sound quality indicate an excellent show with a good‑to‑excellent recording."
+      "stars": 4.7,
+      "confidence": "medium",
+      "rationale": "All three reviews are strongly positive about both performance and sound; recording is good but mentions of MP3 quality keep the rating just shy of perfect."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear, balanced mix praised as \"great sound\"; reviewers suggest using EQ to enhance the playback, indicating the source is solid but benefits from a little tonal shaping."
+      "technical_notes": "Clear overall mix praised as \"great sound\"; a couple of comments about low‑bitrate MP3s and recommendation to use EQ indicate minor fidelity issues but no major dropouts."
     },
     "show_quality": {
       "standout_songs": [
-        "Casey Jones",
         "New Orleans",
-        "Searchin'",
-        "Good Lovin'",
-        "Lovelight (Long)"
+        "Casey Jones",
+        "Lovelight"
       ],
       "poor_songs": [],
-      "setlist_flow": "A brief ten‑song set that feels tight and energetic, leaning heavily into R&B territory thanks to Pigpen’s influence; the pacing is praised as lively with no noticeable lulls."
+      "setlist_flow": "A concise ten‑song set that leans heavily into R&B thanks to Pigpen, delivering a tight, high‑energy flow with memorable transitions."
     },
     "band_member_comments": {
-      "Jerry": "Garcia dives into the R&B vibe, even singing \"Good Lovin'\", and his guitar/voice work is noted as enthusiastic.",
+      "Jerry": "Garcia embraces the R&B feel, even singing “Good Lovin’” and adding soulful guitar tone.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Pigpen's organ adds a precious R&B dimension that reviewers miss and celebrate.",
+      "Keys": "Pigpen’s organ/keyboard work is highlighted as the driving R&B force behind the performance.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T01:06:15.088105+00:00",
+    "song_mentions": {
+      "New Orleans": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Searchin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T16:56:20.176288+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-08-29.sbd.lai.9179.sbefail.shnf"
   }

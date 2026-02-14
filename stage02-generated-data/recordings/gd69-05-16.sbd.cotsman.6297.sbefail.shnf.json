@@ -16,18 +16,18 @@
   "high_ratings": 0,
   "low_ratings": 5,
   "ai_review": {
-    "summary": "Rough high‑school audience tape of an uninspired early‑'69 show; sound is surprisingly decent for the source but the performance falls flat.",
-    "review": "The recording captures a low‑budget auditorium cassette that, given its limitations, offers a fairly clear glimpse of the band in a teenage gym. Musically the set is widely regarded as dull and poorly organized, with only a few moments like “School Girl” and “Lovelight” standing out while songs such as “Hard to Handle” are described as painfully bad.",
+    "summary": "Fair audience recording of a rough early Dead show – School Girl and Lovelight shine, but the overall performance is largely uninspired.",
+    "review": "The tape, captured on an old high‑school gym cassette, delivers surprisingly clear sound for its age, though it still sounds like a 1965‑era snapshot rather than a polished ’69 recording. Musically the concert falls short of Dead standards; most reviewers cite a lackluster set and weak moments (especially Hard to Handle), with only a few songs such as School Girl and Lovelight offering any real excitement.",
     "sentiment": "negative",
     "ai_rating": {
-      "stars": 2.3,
-      "confidence": "high",
-      "rationale": "Most reviewers rate the show poorly (1‑2 stars) and note only modest recording quality; a weighted average of show (≈2/5) and recording (≈3/5) yields ~2.3 stars."
+      "stars": 2.8,
+      "confidence": "medium",
+      "rationale": "Show quality is consistently rated low (uninspired, poor set), while recording quality is judged fair to good for an audience tape; the weighted average yields a sub‑3 rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Recorded on a high‑school auditorium cassette; limited fidelity, tape hiss and a vintage ’65‑style tone, but surprisingly clear for an audience source."
+      "technical_notes": "Audience cassette recorded in a high‑school gym; surprisingly clear given source, but limited fidelity and vintage '65‑style sound."
     },
     "show_quality": {
       "standout_songs": [
@@ -37,16 +37,33 @@
       "poor_songs": [
         "Hard to Handle"
       ],
-      "setlist_flow": "The gig feels disjointed and uninspired, typical of an early‑'69 rehearsal‑type show in a gym setting, lacking the energy and cohesion of later Dead concerts."
+      "setlist_flow": "Setlist is considered uninspired and uneven; a few bright spots are outweighed by overall lack of energy and cohesion."
     },
     "band_member_comments": {
-      "Jerry": "No specific guitar praise; reviewers note he was serious but not particularly inspired.",
-      "Phil": "Mentioned talking with Jerry about music; no distinct performance comment.",
+      "Jerry": "",
+      "Phil": "",
       "Bob": "",
-      "Keys": "Pigpen’s organ is highlighted for its soulful playing despite the overall roughness.",
+      "Keys": "Pigpen's organ playing is noted as soulful despite the rough overall performance.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T23:29:55.236483+00:00",
+    "song_mentions": {
+      "School Girl": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Lovelight": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T14:33:27.560413+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-05-16.sbd.cotsman.6297.sbefail.shnf"
   }

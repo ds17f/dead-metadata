@@ -16,36 +16,60 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent FM broadcast (matrix) captures an inspired performance highlighted by a smoking The Other One → Cryptical Envelopment → Death Don't Have No Mercy sequence.",
-    "review": "The recording, taken from the original KPFA/KPFB live broadcast, is crystal‑clear with pleasant crowd ambience and delivers a superb listening experience. Musically the show shines especially in the second‑set medley of The Other One, Cryptical Envelopment and Death Don't Have No Mercy, where Jerry’s guitar is on fire and the twin drummers lock in tight. A few minor misfires on the Lovelight solo are noted but do not detract from an overall killer performance.",
+    "summary": "Excellent FM broadcast capture of a stellar show highlighted by an iconic The Other One → Cryptical Envelopment → Death Don't Hurt Me sequence, with crisp sound and lively crowd ambience.",
+    "review": "The recording, sourced from the original KPFA/KPFB FM broadcast, delivers crystal‑clear audio while preserving the vibrant audience bleed that adds atmosphere. Musically the night is unforgettable – Jerry’s inspired lead shines throughout the blazing Other One → Cryptical → Death Don't sequence, and the rhythm section of Mickey and Bill is tight and on fire, with only a minor misfire in the first Lovelight solo.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.8,
+      "stars": 4.9,
       "confidence": "low",
-      "rationale": "Single detailed 5‑star review praising both the musical performance and recording quality; rating reflects exceptional show and excellent matrix source."
+      "rationale": "Single five‑star review praises both the performance and the broadcast quality; minor solo slip is noted but does not detract from overall excellence."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "excellent",
-      "technical_notes": "Clear FM broadcast mix with strong board clarity and pleasant crowd ambience; no notable drop‑outs or distortion reported."
+      "technical_notes": "Broadcast‑level soundboard mix with great crowd ambience, clear instrument separation and no reported glitches."
     },
     "show_quality": {
       "standout_songs": [
         "The Other One",
         "Cryptical Envelopment",
-        "Death Don't Have No Mercy"
+        "Death Don't Hurt Me"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Second‑set medley flows exceptionally well, building intensity; overall performance is tight with only minor solo hiccups."
+      "poor_songs": [
+        "Lovelight"
+      ],
+      "setlist_flow": "Strong, cohesive flow highlighted by an inspired mid‑set sequence; rhythm section locked in, with only a brief solo stumble early on."
     },
     "band_member_comments": {
-      "Jerry": "Exceptionally inspired guitar work throughout, delivering the goods continuously; a few misfires in the first Lovelight solo but otherwise stellar.",
+      "Jerry": "Exceptionally inspired guitar work throughout, delivering the goods continuously; minor misfire in Lovelight solo.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Mickey Hart and Bill Kreutzmann are described as 'in synch and on fire' during the performance."
+      "Drums": "Mickey and Bill perfectly synchronized and on fire."
     },
-    "processed_date": "2025-09-10T22:21:07.717903+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cryptical Envelopment": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Death Don't Hurt Me": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T12:46:39.056624+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-04-06.135956.FM.GEMS.Flac16"
   }

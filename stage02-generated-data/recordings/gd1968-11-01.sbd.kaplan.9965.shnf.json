@@ -16,37 +16,47 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A dazzling 1968 show highlighted by an epic Cryptical > The Other One, recorded on a soundboard that shines early but degrades after New Potato.",
-    "review": "Fans rave about the ferocious, almost mythic rendition of The Other One and the tight Caution‑>Feedback‑>Goodnight sequence, calling the interplay between Garcia and Lesh \"off‑the‑charts brilliant.\" The soundboard capture is crystal clear at the start but noticeably drops in fidelity after New Potato, with Bob’s guitar buried in the mix, yet the recording remains listenable on a good system.",
+    "summary": "Soundboard recording suffers a dip after \"New Potato\" but recovers with a monumental The Other One and crystal‑clear Caution > Feedback > Goodnight.",
+    "review": "Both reviewers rave about the 1968 performance, calling it avant‑prog brilliance highlighted by an astonishingly ferocious The Other One and a must‑hear Caution > Feedback > Goodnight sequence. The soundboard source loses clarity right after \"New Potato\" begins and Bobby's guitar is often buried, yet the later sections retain excellent sonics that outweigh those flaws.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.6,
-      "confidence": "high",
-      "rationale": "Both reviewers gave 5‑star ratings and praised the musical performance as extraordinary while noting only moderate recording flaws, leading to a high overall score."
+      "confidence": "low",
+      "rationale": "Show quality is rated near‑perfect (5) while recording quality is fair due to early dropouts; weighted average yields ~4.6."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Clear and crisp early in the set; sound quality drops sharply after New Potato, with Bob Weir's guitar buried in the mix but still audible on a good system."
+      "technical_notes": "Clarity drops sharply after \"New Potato\" starts and the mix buries Bobby's guitar, but later portions regain good sonics and balance."
     },
     "show_quality": {
       "standout_songs": [
-        "The Other One (Cryptical > The Other One)",
-        "Caution",
-        "Feedback",
-        "Good Night"
+        "The Other One",
+        "Caution > Feedback > Goodnight"
       ],
       "poor_songs": [],
-      "setlist_flow": "First half is strong and clear, then the second half builds into a monumental The Other One and tight Caution‑>Feedback‑>Goodnight sequence, despite the recording dip."
+      "setlist_flow": "Early set is marred by recording issues, but the second half erupts with avant‑prog intensity and seamless segues, especially the Cryptical/Other One stretch."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar work described as ferocious, monumental, and brilliantly intertwined with Lesh; his tone is praised even though it’s somewhat buried in the mix later.",
-      "Phil": "Lesh’s bass interplay with Garcia called \"off‑the‑charts brilliant,\" highlighting his contribution to the show’s intensity.",
-      "Bob": "Bob Weir’s (referred to as Bobby) guitar is noted as mostly buried in the mix after New Potato, but not criticized for performance quality.",
+      "Jerry": "Garcia's interplay with Lesh is called \"off‑the‑charts brilliant\"; his guitar shines despite being buried in the mix.",
+      "Phil": "Lesh's bass work is praised for its creative interplay with Garcia.",
+      "Bob": "Bobby's guitar is noted as largely buried in the mix, though not detracting from the overall impact.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T20:10:51.684558+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Caution > Feedback > Goodnight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T09:45:30.112732+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1968-11-01.sbd.kaplan.9965.shnf"
   }

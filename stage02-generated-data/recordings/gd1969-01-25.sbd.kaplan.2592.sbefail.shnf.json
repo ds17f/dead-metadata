@@ -16,25 +16,26 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Decent recording featuring excellent jams, highlighted by a terrific Alligator → Feedback sequence.",
-    "review": "The show delivers several excellent jams with a particularly strong Alligator into Feedback segment, though the early new‑tune renditions are noted as rough. Reviewers did not comment on any audio flaws, suggesting the tape is at least listenable. Overall it’s a solid performance that merits a good rating.",
+    "summary": "Good soundboard capture of a solid 1969 set featuring excellent jams and a terrific Alligator through Feedback.",
+    "review": "The performance delivers several excellent jams, though the early new‑tune renditions are a bit rough. The highlight is a scorching \"Alligator\" that flows into \"Feedback\", making for a quite good set overall. Recording quality isn’t discussed in detail but the source appears to be a soundboard and sounds generally listenable.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.0,
-      "confidence": "low",
-      "rationale": "Single 4‑star review emphasizes strong jams and standout Alligator>Feedback; no recording complaints, but limited data yields low confidence."
+      "stars": 4.2,
+      "confidence": "medium",
+      "rationale": "Single 4‑star review praises the musical performance with standout jams; recording quality is presumed decent based on source type, yielding a solid combined rating."
     },
     "recording_quality": {
-      "source_type": "unknown",
+      "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Review does not mention sound clarity or mix issues; implies the recording is acceptable for listening."
+      "technical_notes": "No explicit comments on sound clarity or mix; assumed clean soundboard capture with no reported issues."
     },
     "show_quality": {
       "standout_songs": [
-        "Alligator > Feedback"
+        "Alligator",
+        "Feedback"
       ],
       "poor_songs": [],
-      "setlist_flow": "Rough early renditions of new tunes give way to solid jams later in the set."
+      "setlist_flow": "Rough new‑tune introductions give way to strong jams later, resulting in a solid overall set."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -43,7 +44,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T20:56:26.220478+00:00",
+    "song_mentions": {
+      "Alligator": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Feedback": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T10:41:02.305382+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-01-25.sbd.kaplan.2592.sbefail.shnf"
   }

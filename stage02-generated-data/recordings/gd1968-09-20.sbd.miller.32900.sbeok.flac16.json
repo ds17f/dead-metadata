@@ -16,37 +16,62 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good soundboard capture of a quirky September ’68 show with a unique Schoolgirl, a laughing Jerry on St Stephen, and an engaging tabla‑enhanced drums segment.",
-    "review": "The recording is a mostly clean soundboard tape with a little hiss and a pronounced Mickey drum trap, but it remains listenable and lets the chemistry of this late‑summer set shine through. Highlights include an off‑the‑cuff version of “Schoolgirl,” Jerry’s priceless laugh during “St Stephen,” a concise “The Eleven,” and a half‑hour drums marathon featuring guest tabla players. Opinions on the performance are mixed – some praise its spontaneity while others find parts uneven.",
+    "summary": "Soundboard capture of the September 20 1968 Berkeley show delivers good clarity, with a quirky Schoolgirl and a standout tabla‑enhanced drum marathon offset by mixed song performances.",
+    "review": "The recording is a soundboard source that sounds mostly top‑notch despite a little hiss and heavy mic‑trap on the drums. Musically the concert is a mixed bag – the long, guest‑filled Drums segment and Jerry’s laugh‑filled St Stephen are praised, while Schoolgirl’s feedback and the abbreviated Eleven draw criticism.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.6,
-      "confidence": "medium",
-      "rationale": "Average to good show quality (standout moments offset by uneven sections) combined with a solid soundboard recording yields a mid‑range rating."
+      "confidence": "high",
+      "rationale": "Four detailed reviews give a balanced picture: solid soundboard quality (good) but an uneven performance (mixed), leading to a rating just above average."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Mostly top‑notch clarity; slight hiss and heavy emphasis on the Mickey drum trap, but overall crisp enough for dancing."
+      "technical_notes": "Generally clear and crisp; occasional hiss and heavy mickey‑trap on the drums, but overall top‑notch for a 1968 board tape."
     },
     "show_quality": {
       "standout_songs": [
-        "Schoolgirl (unique version)",
         "St. Stephen",
         "The Eleven",
-        "Drums (tabla guest section)"
+        "Drums"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Long, chemistry‑rich set with early ’68 energy; PA issues affect drums but the half‑hour drum segment stands out thanks to four‑percussion interplay."
+      "poor_songs": [
+        "Schoolgirl",
+        "The Eleven",
+        "Drums"
+      ],
+      "setlist_flow": "The set swings between an experimental Schoolgirl, a brief but spirited The Eleven, and an extended, tabla‑flavored Drums segment that some find hypnotic while others deem it meandering."
     },
     "band_member_comments": {
-      "Jerry": "Laughs during “St. Stephen,” adding a priceless, spontaneous vibe.",
+      "Jerry": "Laughs and jokes during St. Stephen, adding a playful, priceless moment.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Guest tabla player and heavy Mickey trap give the drums a distinctive, hypnotic feel; some listeners note the section can feel long."
+      "Drums": "Features two guest percussionists (including tabla) for a long, hypnotic section; praised as riveting by some but called uninteresting by others."
     },
-    "processed_date": "2025-09-10T19:48:57.668027+00:00",
+    "song_mentions": {
+      "Schoolgirl": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "total_mentions": 3
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "total_mentions": 3
+      },
+      "The Eleven": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "Drums": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-24T09:14:06.214279+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1968-09-20.sbd.miller.32900.sbeok.flac16"
   }

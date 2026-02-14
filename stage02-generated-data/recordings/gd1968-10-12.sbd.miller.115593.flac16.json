@@ -16,37 +16,64 @@
   "high_ratings": 11,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A breathtaking sound‑board capture of an iconic 1968 show, highlighted by a monster The Eleven and a majestic Other One.",
-    "review": "The Miller‑upgraded soundboard tape delivers crystal‑clear audio that lets every nuance of the band shine.  From the soaring St. Stephen > The Eleven to the primal Other One and the double New Potato Caboose, the performance is repeatedly described as perfect, lyrical and electric.  Even with Pigpen’s absence, the set flows with relentless energy and only a tiny blemish (a gourd‑cluttered Dark Star) mars an otherwise flawless night.",
+    "summary": "An excellent sound‑board capture of a quintessential 1968 show, featuring a monster The Eleven and a soaring Other One.",
+    "review": "Fans rave that this Charlie Miller‑restored sound‑board recording is crystal clear and captures the band at peak primal energy. The performance shines especially on The Eleven, The Other One, St. Stephen → The Eleven and an introspective Dark Star, with Jerry’s guitar described as “Picasso‑like” and Phil delivering a breathtaking thirteens‑style solo. Minor quibbles (a gourd mic in Dark Star) are far outweighed by the overall brilliance.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.7,
       "confidence": "high",
-      "rationale": "The overwhelming majority of reviews are 5‑star, praising both the musical performance and the Miller soundboard upgrade; only minor critiques appear, yielding a near‑perfect combined rating."
+      "rationale": "Overwhelmingly positive 5‑star reviews praise both the musical performance and the upgraded soundboard quality; only a single minor criticism was noted."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Miller's restoration is lauded as crisp, clear and balanced.  No significant dropouts or noise are reported; a few reviewers note the obvious stage “hole” where Pigpen should be, but that concerns performance rather than audio."
+      "technical_notes": "Charlie Miller’s upgrade yields crisp, clear balance with no major glitches; listeners note the recording sounds “perfect” and “breathtaking.”"
     },
     "show_quality": {
       "standout_songs": [
-        "St. Stephen > The Eleven",
         "The Eleven",
-        "Other One",
-        "New Potato Caboose"
+        "The Other One",
+        "St. Stephen > The Eleven",
+        "Dark Star"
       ],
       "poor_songs": [],
-      "setlist_flow": "A tight, high‑energy first set builds from a moody Dark Star into the explosive St. Stephen > The Eleven, then rolls through Death Don't Have No Mercy.  The second set peaks with a ferocious Other One, segues into New Potato Caboose and a wild, genre‑blending jam before closing."
+      "setlist_flow": "First set builds with a moody, dance‑like Dark Star that segues into a powerhouse St. Stephen → The Eleven; the second set ramps up to an epic Other One and a spacey New Potato, delivering a consistently primal, high‑energy experience."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly praised for lyrical, dynamic playing; described as “Picasso of guitar” and “every note perfectly placed.”",
-      "Phil": "Highlighted for an astonishing ‘thirteens style’ solo and tight interplay with Garcia throughout the set.",
-      "Bob": "Mentioned only in passing (minor key transition call‑out); no specific performance commentary.",
-      "Keys": "Notably absent – reviewers point out a “hole on stage where Pig should be” and discuss how the show feels without Pigpen’s organ.",
-      "Drums": "Positive notes about a powerful drum segment before the jam and Billy’s expanded use of the trap kit."
+      "Jerry": "Praised for lyrical, dynamic playing and “Picasso of guitar” tone; solos described as perfect.",
+      "Phil": "Highlighted for matching Jerry’s intensity and delivering an astonishing thirteens‑style solo.",
+      "Bob": "",
+      "Keys": "Pigpen is absent, leading to a noticeable “hole” where his organ should be; occasional odd gourd mic noted in Dark Star.",
+      "Drums": "Powerful drum segments noted, with Billy Cobham‑style trap kit moves adding extra drive."
     },
-    "processed_date": "2025-09-10T19:54:11.550674+00:00",
+    "song_mentions": {
+      "The Eleven": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "St. Stephen > The Eleven": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Death Don't Have No Mercy": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T09:21:53.149185+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1968-10-12.sbd.miller.115593.flac16"
   }

@@ -16,41 +16,94 @@
   "high_ratings": 8,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clean soundboard capture of an early‑'69 show packed with psychedelic highlights like Mountains of the Moon → China Cat → Doin’ That Rag, a wild Viola Lee jam and the infamous Feedback → What’s Become Of The Baby segment.",
-    "review": "The recording is a well‑cleaned SBD that sounds clear and balanced, letting listeners enjoy Jerry Garcia’s soaring leads, the extended psychedelic jams, and the quirky backing‑track experiment. Musically the show shines in its early‑Dead energy – especially the Mountains of the Moon suite, the Viola Lee jam and the Feedback/What’s Become Of The Baby sequence – though a few sections (Hard to Handle, some drumming) feel sloppy. Overall it’s a highly enjoyable snapshot of the band’s 1969 experimentation.",
+    "summary": "Cleaned‑up soundboard captures an early‑’69 psychedelic marathon with a standout Viola → Caution jam and the experimental “What’s Become of the Baby” backing tape.",
+    "review": "The recording is a well‑pitched, cleaned‑up soundboard that sounds clear and balanced for most of the show, though a few sections (e.g., cymbal echo on “Morning Dew”) are a bit muddy. Musically the concert is a wild early‑’69 set – Jerry’s psychedelic stretch through “Dupree’s”, “Mountains of the Moon”, “Dark Star Jam” and “China Cat” is electric, while the second half delivers the legendary Viola → Caution jam, an epic “What’s Become of the Baby” tape experiment and a superb rendition of “The Other One”. Overall the performance is praised despite some sloppy moments in “Hard to Handle” and occasional rhythm‑section messes.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers give 4‑5 stars and praise both the performance and the clean soundboard source; only one gives a middling 3‑star rating due to sloppiness, so the combined weighted score lands just above 4."
+      "rationale": "Average reviewer rating is 4.44★; most comments highlight strong musical moments and good soundboard quality, with only minor criticisms about occasional sloppiness."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Cleaned and correctly pitched by Miller; clear mix with little tape noise. No major drop‑outs reported, though the recording is an excerpt of a larger show."
+      "technical_notes": "Cleaned‑up and correctly pitched by Miller; generally clear and balanced. Some listeners note a slightly muddy cymbal echo on “Morning Dew” and occasional muddiness, but overall the sound is very listenable."
     },
     "show_quality": {
       "standout_songs": [
-        "Mountains of the Moon → Dark Star Jam → China Cat Sunflower → Doin' That Rag",
-        "Viola Lee (Jam)",
-        "Feedback > What's Become Of The Baby > Feedback",
+        "Viola > Caution Jam > Viola",
+        "What's Become of the Baby (backing tape)",
+        "Mountains of the Moon",
         "The Other One",
-        "Morning Dew"
+        "China Cat",
+        "Doin' That Rag",
+        "Baby Blue"
       ],
       "poor_songs": [
-        "Hard to Handle (rhythm section a bit messy)",
-        "\"It's A Sin\" (too slow for some listeners)"
+        "Hard to Handle"
       ],
-      "setlist_flow": "Early‑'69 set leans heavily on Jerry’s psychedelic excursions and Pig Pen’s bluesy interludes, building into a massive second half that features the experimental backing‑track piece and several extended jams. The pacing is uneven at times but the high points create a compelling arc."
+      "setlist_flow": "Early‑’69 psychedelic first set (Dupree’s, Mountains of the Moon → Dark Star Jam → China Cat → Doin’ That Rag) segues into a Pig Pen‑heavy middle, then erupts in an experimental second set featuring the famed backing tape and long jams like Viola–Caution and The Other One."
     },
     "band_member_comments": {
-      "Jerry": "Praised for soaring lead work, psychedelic phrasing on Mountains of the Moon suite and strong vocal on a blues‑ish number; noted for switching from acoustic to electric mid‑song.",
-      "Phil": "Mentioned mainly in relation to the Viola Lee jam where his bass drives the improvisation.",
-      "Bob": "His rhythm guitar is present but not highlighted; no specific vocal or instrumental comments beyond general band performance.",
+      "Jerry": "Leads on blues‑style numbers, switches from acoustic to electric, and weaves wild, willowy leads throughout the jam sections.",
+      "Phil": "Provides backup vocals (e.g., on “Silver Threads”) and is highlighted during the Viola segment; his bass underpins the long improvisations.",
+      "Bob": "His voice appears on “Baby Blue”, which rocks out despite being over‑played later; also contributes to the high energy of the encore.",
       "Keys": "",
-      "Drums": "Sloppy drumming noted on Hard to Handle and some sections of the second set, though overall rhythmic drive keeps jams moving."
+      "Drums": "Drumming is described as a bit sloppy in places (e.g., “Hard to Handle”) but drives the expansive jams effectively."
     },
-    "processed_date": "2025-09-10T23:11:50.056899+00:00",
+    "song_mentions": {
+      "Viola > Caution Jam > Viola": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "What's Become of the Baby": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Morning Dew": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Feedback > Baby > Feedback": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mountains of the Moon": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Baby Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Doin' That Rag": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T14:06:38.096842+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-04-26.sbd.miller.97393.sbeok.flac16"
   }

@@ -16,40 +16,78 @@
   "high_ratings": 20,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "A historically treasured April 20 1969 Clark University show with a soaring Dark Star and Mountains of the Moon, captured on an audience tape that’s hissy and low‑volume but still listenable.",
-    "review": "The performance is celebrated for its magical early‑Dead vibe – Dark Star, Mountains of the Moon, Death Don't Have No Mercy and Doin’ That Rag are repeatedly highlighted as standout moments.  The recording is an audience source with noticeable hiss, muffiness and a bad cut on Eleven, yet fans find it sufficiently clear to enjoy the night’s mellow improvisations and Jerry’s dominant vocals and guitar work.",
+    "summary": "Mellow ’69 show with a stellar Dark Star and Mountains of the Moon, captured on a hiss‑y audience tape that’s still listenable",
+    "review": "The performance shines thanks to an epic Dark Star, a sweet rendition of Mountains of the Moon and standout moments like Doin’ That Rag and Death Don’t Have No Mercy.  The recording is an audience source with noticeable hiss, low volume and a bad cut on Eleven, but it remains enjoyable for fans who want this early‑69 vibe.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Over 20 reviews give consistent praise for the show’s musical moments while noting similar technical flaws (hiss, low volume).  The strong positive weighting of the performance outweighs the recording shortcomings."
+      "rationale": "Average reviewer rating is ~4.2/5; most comments praise the music while noting only moderate recording flaws, giving a strong overall score."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "fair",
-      "technical_notes": "Low overall level, noticeable hiss and occasional mud; a bad edit on Eleven.  Some listeners report this version is less hissy than other copies, but the tape remains imperfect."
+      "quality_rating": "good",
+      "technical_notes": "Low volume, noticeable hiss and some muddiness; a bad edit on Eleven.  No major drop‑outs, but the tape is not as clean as a soundboard."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "Mountains of the Moon",
-        "Death Don't Have No Mercy",
         "Doin' That Rag",
-        "Eleven (despite a bad cut)"
+        "Death Don't Have No Mercy",
+        "Lovelight",
+        "St. Stephen"
       ],
       "poor_songs": [
-        "Eleven (bad cut in this transfer)"
+        "Eleven"
       ],
-      "setlist_flow": "First night of an epic four‑night run; the set is described as mellow yet magical, with strong improvisational passages and a memorable Dark Star that sits at the heart of the evening."
+      "setlist_flow": "A mellow, early‑69 vibe with long, spacey jams (four Dark Stars in a row) and smooth transitions; the show feels relaxed yet full of classic improvisation."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar tone is praised (sweet, dominant vocals, tuning intro before Morning Dew) and his vocal performance is called “great” and “heavy lifting”.",
+      "Jerry": "Garcia’s guitar tone and vocals dominate; praised for heavy vocal lifting and stellar soloing on Dark Star.",
       "Phil": "",
-      "Bob": "Weir is noted for rhythm work and occasional vocal moments; no specific instrumental critique.",
-      "Keys": "Ron \"Pig\" McKernan (referred to as Pig) receives a nod for holding court with a schoolgirl during the show.",
-      "Drums": "Mickey Hart is mentioned in anecdotes about backstage drama; overall drum work is not directly critiqued but implied solid."
+      "Bob": "Bob Weir’s vocal contributions noted as nice; Ron \"Pig\" McKernan highlighted for his vocal work on Lovelight.",
+      "Keys": "",
+      "Drums": ""
     },
-    "processed_date": "2025-09-10T22:46:25.979616+00:00",
+    "song_mentions": {
+      "Mountains of the Moon": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 8,
+        "negative_mentions": 0,
+        "total_mentions": 8
+      },
+      "Doin' That Rag": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Death Don't Have No Mercy": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Eleven": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T13:31:06.939000+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-04-20.sbd.lutch.4992.sbeok.shnf"
   }

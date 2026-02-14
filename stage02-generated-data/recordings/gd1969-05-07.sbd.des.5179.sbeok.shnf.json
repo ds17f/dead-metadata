@@ -16,36 +16,53 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a historic free Polo Fields gig, highlighted by Jerry’s Good Lovin’ vocal and Bob’s surprise guitar intro on the tail of Dark Star.",
-    "review": "The recording delivers crystal‑clear sound that many reviewers call the best they’ve heard, preserving a once‑in‑a‑lifetime free concert at Golden Gate Park. While some listeners felt the band wasn’t playing at their peak that night, rare moments – Jerry’s vocal on “Good Lovin’” and Bob’s brief Weather Report Suite intro in the final seconds of “Dark Star” – give the show lasting appeal.",
-    "sentiment": "mixed",
+    "summary": "Excellent soundboard capture featuring Jerry’s soaring Good Lovin vocal and a memorable Dark Star/Weather Report Suite moment.",
+    "review": "The recording is praised as the best‑sound many have ever heard, delivering crystal‑clear soundboard quality. Musically the show has highlights – Jerry’s vocal on “Good Lovin” and a late‑night Dark Star that segues into Bob’s brief Weather Report Suite intro – though one reviewer felt the overall playing was modest at the time.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
-      "confidence": "high",
-      "rationale": "Four reviews provide consistent high praise for the recording quality and historical significance, offset by a modest comment on the band's performance; average rating is 4.25."
+      "stars": 4.3,
+      "confidence": "medium",
+      "rationale": "Strong musical moments and excellent soundboard quality offset a few lukewarm comments about overall performance, yielding an above‑average rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Multiple reviewers describe the sound as 'best' and 'crisp'; no complaints about muddiness or drop‑outs."
+      "technical_notes": "Multiple reviewers call it the best sound they've heard; no complaints of muddiness or drop‑outs. Clear, crisp mix with full band balance."
     },
     "show_quality": {
       "standout_songs": [
-        "Good Lovin'",
+        "Good Lovin",
         "Dark Star",
         "Weather Report Suite"
       ],
       "poor_songs": [],
-      "setlist_flow": "Impromptu free concert announced on KMPX; warm, sunny day at the Polo Fields. The band’s playing was viewed as uneven at the time but now appreciated for its historic moment and occasional surprise highlights."
+      "setlist_flow": "An impromptu, sunny Polo Fields show that felt modest at the time but now is appreciated for its historic vibe and the highlighted moments."
     },
     "band_member_comments": {
-      "Jerry": "Praised for singing Good Lovin' with a vocal that impressed listeners.",
+      "Jerry": "His vocal on Good Lovin is singled out as exceptional.",
       "Phil": "",
-      "Bob": "Noted for slipping in the guitar intro of Weather Report Suite during the final seconds of Dark Star.",
+      "Bob": "Noted for slipping a Weather Report Suite guitar intro into the final seconds of Dark Star.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T23:22:11.213725+00:00",
+    "song_mentions": {
+      "Good Lovin": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Weather Report Suite": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T14:20:37.745250+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-05-07.sbd.des.5179.sbeok.shnf"
   }

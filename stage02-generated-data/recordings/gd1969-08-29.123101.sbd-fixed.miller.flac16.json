@@ -16,39 +16,72 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with clear audio captures a brilliant early Dead show highlighted by an epic 30‑minute Lovelight and strong performances of Easy Wind, High Time, New Orleans/Searchin' and Working Man’s material.",
-    "review": "The set is praised for its musical firepower – Jerry’s bluesy Easy Wind, soaring organ on High Time, a marathon 30‑minute Lovelight and solid renditions of the Working Man’s Dead era. The Miller soundboard source provides good, clean sound with no notable flaws, making the historic performance an enjoyable listen.",
+    "summary": "Soundboard capture with solid clarity showcases a brilliant performance highlighted by an epic 30‑minute Lovelight and strong early renditions of Easy Wind and High Time.",
+    "review": "The recording is a clean soundboard source that delivers good clarity throughout, with no major technical flaws reported. Musically the show shines thanks to a monster 30‑minute Lovelight, lively early versions of Easy Wind and High Time, and the occasional quirky inclusion of New Orleans/Searchin'. The only blemish mentioned is a slightly forced vocal on Dire Wolf.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.6,
       "confidence": "high",
-      "rationale": "All three reviewers gave high marks (4‑5 stars) and highlighted strong musical moments; recording is described as good sound quality from a soundboard source."
+      "rationale": "Reviewers consistently give high star ratings (average ≈ 4.7) and praise both the performance (standout songs, strong playing) and the recording quality (good sound)."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear, balanced Miller soundboard capture; reviewers note good sound quality with no significant issues."
+      "technical_notes": "Good sound quality reported; no drop‑outs or major mix issues noted."
     },
     "show_quality": {
       "standout_songs": [
-        "Lovelight (30‑minute version)",
+        "Lovelight",
         "Easy Wind",
         "High Time",
-        "New Orleans/Searchin'"
+        "New Orleans",
+        "Searchin'"
       ],
       "poor_songs": [
         "Dire Wolf"
       ],
-      "setlist_flow": "Early numbers are described as tentative and sloppy, but the band quickly finds its stride, delivering a brilliant second half highlighted by an extended Lovelight and tight ensemble playing."
+      "setlist_flow": "Overall brilliant set despite some tentative early Working Man's Dead era tunes; the long Lovelight serves as a high point, and the unusual song choices add extra interest."
     },
     "band_member_comments": {
-      "Jerry": "Greases up his blues chops on Easy Wind; voice sounds a bit forced on Dire Wolf.",
+      "Jerry": "Shows strong blues chops on Easy Wind; vocal performance noted as slightly forced on Dire Wolf.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Cool vibrato on organ during High Time noted by reviewers.",
+      "Keys": "Organ vibrato on High Time praised.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T01:06:50.895666+00:00",
+    "song_mentions": {
+      "Lovelight": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Easy Wind": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dire Wolf": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "New Orleans": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Searchin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T16:57:06.713936+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-08-29.123101.sbd-fixed.miller.flac16"
   }

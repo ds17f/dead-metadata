@@ -16,44 +16,98 @@
   "high_ratings": 11,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent sound‑board capture of a high‑energy 1969 show, highlighted by Dark Star, Viola Lee and an unforgettable second‑set jam chain.",
-    "review": "The recording is praised as a classic, crystal‑clear sound‑board source that does justice to the raw, ragged power of this April ’69 Ark gig.  The band rolls from a loose first set into a spectacular second set featuring a Foxy Lady jam, Dark Star, St Stephen → The Eleven → Love Light and a soaring Viola Lee encore, with standout guitar work on Hard To Handle and Cryptical.  Minor blemishes – a sloppy opening, a hit‑or‑miss Foxy Lady and an unremarkable Alligator – don’t detract from the overall excitement.",
+    "summary": "A classic, well‑recorded ’69 show that shines on a soaring second set – Dark Star, The Eleven and a Foxy Lady jam lead into a stellar Viola Lee encore.",
+    "review": "The recording captures the unmistakable 1969 sound with crisp, balanced soundboard quality that many reviewers call “amazingly well recorded.” Musically the concert is praised for an energetic second set featuring Dark Star, The Eleven, a Foxy Lady jam and a powerful Viola Lee finale, despite a few sloppy moments in the first set.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "Consistently high ratings (mostly 4‑5 stars) and strong praise for both performance and recording quality across >10 reviews."
+      "rationale": "Consistently high praise for both performance (standout second‑set jams) and recording quality (classic, clear soundboard), with only minor first‑set slip-ups."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Multiple reviewers call it “well recorded” and note the classic 1969 sound‑board clarity; no dropout or balance complaints were mentioned."
+      "technical_notes": "Classic 1969 sound; reviewers describe it as crisp, well‑balanced and “amazingly well recorded” for the era with no major dropouts or muffiness."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "Viola Lee",
         "The Eleven",
-        "St. Stephen",
-        "Love Light",
-        "\"That's It for the Other One\" (The Other One)",
-        "Cryptical (second part)"
+        "Foxy Lady",
+        "The Other One",
+        "Viola Lee",
+        "Cryptical Envelopment"
       ],
       "poor_songs": [
-        "Foxy Lady (considered novelty by some)",
-        "Hard To Handle (slide guitar deemed only ‘interesting’ or not great by one reviewer)",
-        "Alligator (mentioned as weak)"
+        "Alligator"
       ],
-      "setlist_flow": "The first set starts a bit uneven but quickly gains momentum; the second set is a seamless jam chain – Foxy Lady jam → Dark Star → St. Stephen → The Eleven → Love Light – capped with a fiery Viola Lee encore and lingering Feedback."
+      "setlist_flow": "First set starts a bit rough but quickly gains momentum; the second set is a high‑energy showcase with seamless transitions (Fox​y Lady jam → Dark Star → St. Stephen → The Eleven) and an unforgettable Viola Lee encore."
     },
     "band_member_comments": {
-      "Jerry": "Slide guitar on Hard To Handle praised by several reviewers; his quick‑fire Foxy Lady jam noted as a highlight; gorgeous guitar work on Cryptical.",
+      "Jerry": "Jerry’s slide guitar work gets special mention, especially on Hard to Handle and the Foxy Lady jams.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T22:49:20.907928+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "St. Stephen": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Eleven": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Foxy Lady": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "The Other One": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Viola Lee": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Hard to Handle": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cryptical Envelopment": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Alligator": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Feedback": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T13:35:07.513792+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-04-21.sbd.miller.88465.sbeok.flac16"
   }

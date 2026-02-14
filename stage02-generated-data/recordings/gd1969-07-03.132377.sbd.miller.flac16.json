@@ -16,41 +16,87 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of the rare July‑3‑1969 Colorado Springs show with solid pedal‑steel moments and strong early country‑rock performances; recording is clear but has a few early glitches.",
-    "review": "The set showcases Jerry’s experimental pedal‑steel work on songs like “Slewfoot,” “Green Grass of Home,” and the extended “He Was a Friend of Mine,” while the band delivers an earnest early‑Dead country‑rock vibe. The soundboard source is generally clean and well‑pitched, though listeners note brief equipment hiccups in the opening minutes of “Lovelight.” Overall the show is praised for its unique repertoire despite some rough edges.",
-    "sentiment": "positive",
+    "summary": "A solid early‑69 show highlighted by Jerry’s fledgling pedal‑steel work and standout country‑rock moments; the patched soundboard has a slight wavering pitch and brief equipment hiccups but remains listenable.",
+    "review": "The concert captures an experimental summer‑1969 set with early versions of Working Man’s Dead material, strong performances of Morning Dew, He Was a Friend of Mine, and a smoking Sitting on Top of the World. While Jerry Garcia’s pedal‑steel is rough around the edges, it adds a unique flavor, and the soundboard source, though patched with some pitch wobble and a short glitch at the start of Lovelight, delivers an overall good listening experience.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.2,
-      "confidence": "high",
-      "rationale": "Most reviewers give five‑star praise for performance and sound quality; one moderate review notes minor flaws, yielding a strong overall rating."
+      "confidence": "medium",
+      "rationale": "Most reviewers praise the musical performance (high‑energy jams, notable song renditions) and give high star ratings, but several note recording imperfections (pitch wavering, equipment issues) that temper the overall score."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear and well‑pitched after patching; a slight waver and brief equipment issues in the first ~5 min of “Lovelight,” but overall crisp with minimal audience bleed."
+      "technical_notes": "Patched version with a slight pitch wobble and some tuning cuts; brief equipment glitch in the first five minutes of Lovelight; overall clear enough to enjoy the performance."
     },
     "show_quality": {
       "standout_songs": [
-        "Slewfoot",
-        "Green Green Grass of Home",
-        "He Was a Friend of Mine (Just a Hand to Hold)",
         "Morning Dew",
-        "High Time"
+        "He Was a Friend of Mine",
+        "Sitting on Top of the World",
+        "Slewfoot"
       ],
       "poor_songs": [
         "Hard to Handle",
         "Lovelight"
       ],
-      "setlist_flow": "Early‑summer ‘69 country‑rock set played at dawn; the band experiments with pedal steel and leans into traditional tunes, delivering a relaxed yet energetic flow despite some sloppy moments."
+      "setlist_flow": "A single, dawn‑time set focused on country‑rock and folk material from the Working Man’s Dead era; the band experiments with pedal steel and leans into shorter, more structured songs rather than extended psychedelic jams."
     },
     "band_member_comments": {
-      "Jerry": "Experimenting on pedal steel; his playing adds interesting texture (not virtuoso but effective) and he returns to vocals later in the show.",
+      "Jerry": "First forays on pedal steel—rough but interesting; notable contributions on Morning Dew and vocal work; some equipment hiccups noted.",
       "Phil": "",
-      "Bob": "Provides sweet vocal harmonies, especially on “Green Green Grass of Home.”",
+      "Bob": "Provides a sweet accompaniment to Green Green Grass of Home and delivers a Southern‑accented take on Me & My Uncle.",
       "Keys": "",
-      "Drums": "Frantic drumming noted during “Sitting on Top of the World” and other high‑energy moments."
+      "Drums": "Frantic, energetic drumming highlighted especially during Sitting on Top of the World."
     },
-    "processed_date": "2025-09-11T00:27:26.276523+00:00",
+    "song_mentions": {
+      "Green Green Grass of Home": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "High Time": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Casey Jones": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "He Was a Friend of Mine": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Slewfoot": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Sitting on Top of the World": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T16:00:45.444287+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-07-03.132377.sbd.miller.flac16"
   }

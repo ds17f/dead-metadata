@@ -16,18 +16,18 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A fairly noisy audience recording with noticeable hiss captures a rare 1968 show highlighted by Mountains of the Moon and an inspired Lovelight.",
-    "review": "These reviews celebrate a historically significant 1968 performance – the first time the Dead played “Mountains of the Moon” and a memorable acoustic rendition by Jerry, plus Phil’s standout work on “Lovelight.” The tape suffers from hiss and occasional muffiness, but fans consider it worth the listen for the rare material.",
-    "sentiment": "positive",
+    "summary": "Soundboard source with noticeable hiss, but a rare early‑68 show featuring a standout Mountains of the Moon and strong acoustic moments.",
+    "review": "The recording captures an early 1968 performance that is prized for its rarity – it includes the seldom‑played Mountains of the Moon (with Jerry on acoustic) and a nicely played Lovelight highlighted by Phil.  While the soundboard tape suffers from noticeable hiss, the musical content and historic value outweigh the technical flaws.",
+    "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.1,
       "confidence": "high",
-      "rationale": "Show quality is rated very high (rare songs, strong performances) while recording quality is modest due to hiss; combined weighted score yields ~4.1."
+      "rationale": "Reviewers consistently praise the show’s rare songs and performances (70% weight) while noting hiss and modest sound quality (30% weight), resulting in a solid above‑average overall rating."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Noticeable tape hiss throughout; some sections require the volume to be turned up. Overall listenable but not crystal‑clear."
+      "technical_notes": "Several reviewers mention prominent tape hiss; overall the mix is acceptable but not crisp."
     },
     "show_quality": {
       "standout_songs": [
@@ -36,16 +36,33 @@
         "Line on You"
       ],
       "poor_songs": [],
-      "setlist_flow": "Early Dead folk style with typical pacing; the rarity of “Mountains of the Moon” and an acoustic guitar moment make the show feel special despite its modest overall flow."
+      "setlist_flow": "Typical early‑Dead folk set with a rare acoustic centerpiece; the show feels like a snapshot of the band’s wet‑behind‑the‑ears era, highlighted by the unusual acoustic rendition and strong group interplay."
     },
     "band_member_comments": {
-      "Jerry": "Acoustic guitar on “Mountains of the Moon” noted as a very nice, rare moment.",
-      "Phil": "Praised for his playing on “Lovelight.”",
+      "Jerry": "Acoustic guitar on Mountains of the Moon noted as very nice.",
+      "Phil": "Praised for his playing on Lovelight.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T20:22:21.734146+00:00",
+    "song_mentions": {
+      "Mountains of the Moon": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Line on You": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T10:01:55.385989+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd68-12-20.sbd.tiedrich.9532.sbeok.shnf"
   }

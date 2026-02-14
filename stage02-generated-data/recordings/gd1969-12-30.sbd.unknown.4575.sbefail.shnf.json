@@ -16,18 +16,18 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "High‑quality soundboard capture of a solid, contemplative set with standout Black Peter and New Speedway, though some segue portions are missing.",
-    "review": "The recording is praised for its crystal‑clear soundboard source and a unique, thoughtful performance highlighted by superb renditions of Black Peter and New Speedway. While most listeners find the show engaging, a few note that it feels sleepy and point out missing audio at the transitions from The Other One to Cosmic Charlie and from Dark Star into Alligator, which slightly mars an otherwise strong set.",
+    "summary": "High‑quality soundboard capture of a contemplative show highlighted by superb Black Peter and New Speedway, but missing sections of The Other One and Dark Star detract from an otherwise solid performance.",
+    "review": "The recording is praised for its crystal‑clear SBD source and the unique, thoughtful playing that shines on tracks like Black Peter and New Speedway. While most listeners find the set engaging, a few note that the tape drops portions of The Other One and the Dark Star → Alligator segue, giving the release a mixed technical edge.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 4.0,
-      "confidence": "medium",
-      "rationale": "Two reviewers rate the show highly (5 & 4 stars) praising both performance and soundboard quality, while one gives a lukewarm 3‑star rating calling it dull; overall average ~4 ★ with detailed comments supporting a medium confidence level."
+      "confidence": "high",
+      "rationale": "Strong musical moments and excellent soundboard quality are offset by notable missing audio sections; overall rating reflects good show with minor recording flaws."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally high‑fidelity soundboard recording, but missing the last 15–20 seconds of The Other One and portions at the Dark Star → Alligator segue."
+      "technical_notes": "Crisp, high‑fidelity SBD source praised, but the tape is missing the last 15–20 seconds of The Other One and portions at the Dark Star → Alligator transition."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,7 +35,7 @@
         "New Speedway"
       ],
       "poor_songs": [],
-      "setlist_flow": "A contemplative, pre‑dawn vibe with smooth transitions overall; however, missing audio in a few segues disrupts the flow for some listeners."
+      "setlist_flow": "The set is described as contemplative and interesting, though a few listeners felt it dragged at times; missing segue sections slightly disrupt the flow."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -44,7 +44,34 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T02:42:52.112487+00:00",
+    "song_mentions": {
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "New Speedway": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Alligator": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T19:33:44.787290+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-12-30.sbd.unknown.4575.sbefail.shnf"
   }

@@ -16,42 +16,82 @@
   "high_ratings": 21,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a 1969 show highlighted by an epic 29‑minute Dark Star and standout performances of China Cat Sunflower, Easy Wind and The Eleven.",
-    "review": "The recording is a high‑fidelity stereo soundboard mix that most listeners describe as crystal clear, with only occasional tape wobble on the China Cat/​Doin’ That Rag transition. Musically the concert shines thanks to a soaring Dark Star, inventive organ work, and fiery renditions of China Cat Sunflower, Easy Wind, The Eleven and Morning Dew, though some reviewers find the first disc uneven and note broken‑string mishaps that momentarily disrupt the flow.",
+    "summary": "High‑fidelity soundboard capture of a 1969 show highlighted by an epic 29‑minute Dark Star and strong jams, with generally excellent performance despite occasional broken‑string hiccups.",
+    "review": "The recording is praised for its crystal‑clear stereo mix and surprisingly high fidelity for a 1969 tape, only marred by brief wobble at the end of China Cat/​Doin' That Rag. Musically the show shines – a soaring Dark Star dominates the set, complemented by inspired Easy Wind, The Eleven and an adventurous vibe, though a broken string on Garcia’s guitar and uneven moments in China Cat Sunflower/Doin' That Rag keep it from being flawless.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.5,
       "confidence": "high",
-      "rationale": "Over 25 reviews (majority 5‑star) praise both performance and audio quality; average rating 4.32 yields a strong positive overall score."
+      "rationale": "Overwhelmingly positive comments about both the performance (especially Dark Star) and the sound quality, with only a few isolated criticisms."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "excellent",
-      "technical_notes": "Stereo soundboard mix praised as crisp, clear and well‑balanced. A few reviewers note minor tape wobble on the final minute of China Cat Sunflower/Doin' That Rag, but overall fidelity is outstanding for a 1969 source."
+      "quality_rating": "good",
+      "technical_notes": "Stereo soundboard mix described as excellent, clear and well‑balanced; occasional tape wobble/distortion noted at the end of China Cat Sunflower and start of Doin' That Rag but otherwise high‑fidelity."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "China Cat Sunflower",
-        "Doin' That Rag",
         "Easy Wind",
-        "The Eleven",
-        "Morning Dew"
+        "The Eleven"
       ],
       "poor_songs": [
         "China Cat Sunflower",
-        "Doin' That Rag"
+        "Doin' That Rag",
+        "St Stephen"
       ],
-      "setlist_flow": "The concert builds around a monumental Dark Star that dominates the second half, with strong improvisational links between songs. The first disc is described by some as uneven, but overall pacing and transitions (especially organ‑driven vamps) keep the momentum high."
+      "setlist_flow": "Typical late‑‘60s Dead set with long, exploratory jams; the centerpiece is a 29‑minute Dark Star that weaves through ambient breaks and a broken‑string interlude, followed by an off‑kilter but exciting sequence into St. Stephen, The Eleven, and a brief High Time finale."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar work is repeatedly lauded – brilliant tone, cello‑like feedback, creative leads, a broken‑string incident that adds drama, and an overall “conversation” feel during Dark Star.",
-      "Phil": "Phil Lesh’s bass is highlighted for its presence and “statement” in the mix, especially on Morning Dew.",
+      "Jerry": "Repeatedly praised for brilliant, creative lead guitar work; highlighted for his feedback intro to Dark Star and the dramatic broken‑string moment mid‑jam.",
+      "Phil": "Bass noted as strong and statement‑making even on modest speakers.",
       "Bob": "",
-      "Keys": "Tom Constanten (organ) receives specific praise for solid, point‑blank playing during the broken‑string vamp and throughout the improvisational sections.",
-      "Drums": "Bill Kreutzmann’s drumming is noted for powerful crashes at the end of The Eleven and a memorable drum solo that concludes the set."
+      "Keys": "Organ (likely Tom Constanten) shines during the broken‑string vamp, providing solid support throughout the improvisations.",
+      "Drums": "Drum solo at the end receives commendation; crash‑land moments during The Eleven are highlighted."
     },
-    "processed_date": "2025-09-11T01:10:29.122903+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 15,
+        "negative_mentions": 2,
+        "total_mentions": 17
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 4,
+        "negative_mentions": 3,
+        "total_mentions": 7
+      },
+      "Doin' That Rag": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      },
+      "Easy Wind": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "The Eleven": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "St Stephen": {
+        "positive_mentions": 0,
+        "negative_mentions": 3,
+        "total_mentions": 3
+      },
+      "Morning Dew": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T17:03:39.541203+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-08-30.sbd.barbella.8594.sbeok.shnf"
   }

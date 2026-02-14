@@ -16,18 +16,18 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Raw audience recording with poor sound quality that still captures a scorching early‑68 set highlighted by an electrifying Alligator and a sprawling Mountain Jam.",
-    "review": "The performance is a high‑energy, wild snapshot of the Dead in spring 1968 – Jerry’s guitar burns on the Alligator, the band stretches out into a fully formed Mt. Jam, and Pigpen’s gritty vocals add raw character.  The source is lo‑fi and the mix places vocals far back, but fans deem the music worth the listen despite the poor audio fidelity.",
-    "sentiment": "positive",
+    "summary": "High‑energy early‑68 show with scorching Alligator and a full‑blown Mountain Jam, captured on a raw audience source that’s low on fidelity but high on vibe.",
+    "review": "The performance is described as wild, hairy and blistering – Jerry’s guitar on “Alligator” is pure electricity and the band rides a fully formed Mountain Jam.  Recording quality is consistently called raw, vocal‑poor and “audience‑like,” yet reviewers deem it worth listening to for its historic intensity.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers give 4‑5 stars for an exciting show; recording quality is consistently described as poor, so the weighted average yields a solid 4‑star rating."
+      "rationale": "Eight reviews overwhelmingly praise the musical performance (average 4.5 stars) while noting poor but tolerable sound quality, yielding a strong overall rating with high confidence."
     },
     "recording_quality": {
       "source_type": "audience",
-      "quality_rating": "poor",
-      "technical_notes": "Very raw lo‑fi capture; vocals (especially Pigpen) are low in the mix and often buried; overall sound is muddy but the energy of the performance comes through."
+      "quality_rating": "fair",
+      "technical_notes": "Vocals (especially Pigpen) are low and often buried; the mix is raw and muddy, but the source captures the live energy.  Some callers note a “nice source” despite vocal issues."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,16 +35,28 @@
         "Mountain Jam"
       ],
       "poor_songs": [],
-      "setlist_flow": "A brief but intense early‑68 set that erupts after drums into a blazing Alligator and then expands into an extended, feedback‑laden Mountain Jam before closing with atmospheric cymbal fade."
+      "setlist_flow": "Early‑68 set is described as high‑octane and continuous – a raw, hair‑raising performance that builds from drums into an electric Alligator and culminates in a sprawling Mountain Jam."
     },
     "band_member_comments": {
-      "Jerry": "Described as 'pure electricity' on the Alligator; guitar tone is high‑energy and incendiary.",
+      "Jerry": "Described as \"pure electricity\" on the Alligator; his playing is highlighted as a key driver of the show’s intensity.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Drums provide a powerful launch into the Alligator; the cymbal fade at the end is noted as masterful."
+      "Drums": "The drummers (Bill) are noted for laying down a solid groove that feeds directly into the Alligator, contributing to the overall fire."
     },
-    "processed_date": "2025-09-10T19:13:49.284403+00:00",
+    "song_mentions": {
+      "Alligator": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Mountain Jam": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-24T08:19:34.426197+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1968-05-18.aud.jorma.gmb.sbeok.94591.flac16"
   }

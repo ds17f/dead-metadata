@@ -16,38 +16,72 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A mixed‑quality soundboard of the Dec 1969 show that’s historically notable – first live Black Peter and Uncle John’s Band with vocals, plus a spooky Dark Star > High Time sequence.",
-    "review": "The performance captures a pivotal moment in late‑1969 Dead history, featuring the debut live renditions of Black Peter and Uncle John's Band (with full vocals) and a mammoth Dark Star that many reviewers call “spooky” and “primal.” The tape suffers from hiss, occasional drop‑outs and other defects, though recent restoration work by SIR Mick & Julian Fowler has markedly improved clarity; the early part of the show is ragged but the latter 80 minutes are strong.",
+    "summary": "Soundboard recording with restored clarity captures a spooky Dark Star and strong late‑set material, though early tape hiss and technical glitches temper the overall fidelity.",
+    "review": "The show is praised for its dark, hypnotic Dark Star and a powerful second half that includes High Time, Schoolgirl, Good Lovin' and Uncle John's Band. Reviewers note an early ragged start and occasional tape‑hiss or tape defects, but the recent restoration makes the recording much clearer than previous cassette versions.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.4,
+      "stars": 3.7,
       "confidence": "medium",
-      "rationale": "Show quality ranges from historically significant and musically exciting (Dark Star, first Black Peter/Uncle John’s Band) to a few reviewers calling it dismal; recording quality is mixed with noted tape defects but also praised restoration. Weighted average yields ~3.4 stars."
+      "rationale": "Most reviewers highlight strong musical moments and a solid late‑set performance (70% weight), while recording quality is described as mixed—some tape defects vs. a well‑restored soundboard source (30% weight). The combined assessment yields an overall rating around 3.7."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "fair",
-      "technical_notes": "Reviewers note tape hiss, drop‑outs and other sound‑quality defects, but recent SIR Mick/Julian Fowler recovery greatly reduces the degradation; overall clarity is acceptable but not pristine."
+      "quality_rating": "good",
+      "technical_notes": "Restored from degraded cassette; early portion shows tape hiss and occasional defects, but the majority of the set (especially Dark Star onward) is clear and well‑balanced."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star > High Time",
-        "Black Peter",
-        "Uncle John's Band",
+        "Dark Star",
+        "High Time",
         "Schoolgirl",
-        "Good Lovin'"
+        "Good Lovin'",
+        "Uncle John's Band"
       ],
-      "poor_songs": [],
-      "setlist_flow": "The concert starts a bit ragged and disjointed, but from Dark Star onward the band settles into a primal Dead groove that showcases their transition from late‑60s psychedelia to the emerging Workingman's Dead era."
+      "poor_songs": [
+        "Black Peter"
+      ],
+      "setlist_flow": "The concert starts a bit ragged and technical, but from Dark Star onward the performance becomes primal Dead, delivering a seamless second half with strong jams and vocal highlights."
     },
     "band_member_comments": {
-      "Jerry": "Now playing a Fender Stratocaster; his tone on Dark Star is highlighted as spooky and excellent.",
-      "Phil": "Bass described as slugging, Jack Casady‑like, providing strong low‑end drive.",
+      "Jerry": "His newly‑adopted Stratocaster shines on Dark Star; reviewers praised his tone and guitar work throughout.",
+      "Phil": "Bass described as slugging and Jack Casady‑like, providing a solid low‑end foundation.",
       "Bob": "",
-      "Keys": "Tom Constanten’s “rosy fills” and tape‑hiss ambience are noted, underscoring the 60s psychedelic vibe.",
-      "Drums": "Seesaw‑style drumming is mentioned as part of the show’s characteristic feel."
+      "Keys": "Tom Constanten’s keyboard fills are highlighted, especially during the Dark Star and later jams.",
+      "Drums": "Seesaw‑style drumming noted in early portions, contributing to the ragged feel before settling into a tighter groove."
     },
-    "processed_date": "2025-09-11T02:00:36.195849+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Black Peter": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Schoolgirl": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T18:22:26.832201+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-12-04.141723.sbd.fowler.sirmick.flac1644"
   }

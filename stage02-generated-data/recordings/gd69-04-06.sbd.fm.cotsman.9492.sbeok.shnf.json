@@ -16,38 +16,65 @@
   "high_ratings": 15,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Rough‑ish soundboard tape of a manic 1969 Avalon run, but the performance shines with legendary Viola Lee Blues, Death Don't Have No Mercy and an incendiary Other One.",
-    "review": "The show is celebrated for its high‑octane intensity – fans point to a searing Viola Lee Blues (complete with a power outage), a haunting Death Don't Have No Mercy, and a standout That's It For The Other One suite.  The recording, taken from an early soundboard source, suffers from high‑frequency distortion and occasional drop‑outs (notably Garcia’s guitar in the Viola Lee break) but remains listenable enough to capture the historic vibe.",
+    "summary": "A rough‑around‑the‑edges soundboard captures a fiery early‑Dead show, highlighted by a wild Viola Lee Blues and an intense Other One suite.",
+    "review": "The performance bursts with manic intensity – Baby Blue, The Other One (including the cryptic finale), Death Don't Have No Mercy and a power‑cut ending to Viola Lee Blues are repeatedly praised as classic moments.  The recording is a soundboard tape that suffers from high‑frequency distortion, occasional balance issues and a two‑minute guitar dropout, but its raw energy still shines through.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
+      "stars": 4.3,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show 4‑5 stars and praise its energy and song performances; recording issues are noted but do not dominate, yielding a strong overall rating."
+      "rationale": "Most reviewers (13/16) give 4‑5 stars and highlight standout jams; show quality is rated ~4.6 while recording quality averages around 3.5, yielding a weighted rating of about 4.3."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "High‑frequency distortion, occasional drop‑outs (Garcia’s guitar for ~2 min), generally sharp but not balanced; described as ‘rough in spots’ and ‘not the most pristine.’"
+      "technical_notes": "High‑frequency distortion and uneven balance; occasional drop‑out (Garcia’s guitar cuts out for ~2 min) and rough spots, but overall audible and captures the performance."
     },
     "show_quality": {
       "standout_songs": [
         "Viola Lee Blues",
+        "The Other One",
         "Death Don't Have No Mercy",
-        "That's It For The Other One / Cryptical Suite",
         "Baby Blue",
         "King Bee"
       ],
       "poor_songs": [],
-      "setlist_flow": "Early‑Dead set with relentless, manic energy; jams flow powerfully despite a few rough edges, making it a classic high‑intensity performance."
+      "setlist_flow": "Early‑Dead energy runs high throughout; the set builds to a chaotic Viola Lee Blues with a power‑out finale and sustains momentum with intense jams on The Other One and Death Don't."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s guitar cuts out for about two minutes during Viola Lee Blues instrumental break, but overall his playing and vocals are praised.",
+      "Jerry": "Garcia’s guitar is generally strong and in fine voice, though it drops out for about two minutes during the Viola Lee Blues instrumental break.",
       "Phil": "",
-      "Bob": "Bobby's vocal delivery is divisive – some call it ‘horse‑like’ while others hear him solid on Lovelight, Cold Rain and Snow, and The Other One.",
-      "Keys": "Organ/keyboard work on Viola Lee Blues noted as sweet, hot and possibly performed by an unexpected player (speculation about Pig Pen).",
+      "Bob": "Weir’s lead vocals are criticized by some as thin ('horse's feed bag') but others feel they fit the material; his vocal on 'Lovelight' (sic) and other songs is noted.",
+      "Keys": "Pigpen’s organ work shines, especially on Viola Lee Blues, described as sweet, hot and wildly expressive.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T22:22:19.009047+00:00",
+    "song_mentions": {
+      "Baby Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Death Don't Have No Mercy": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Viola Lee Blues": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "King Bee": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T12:48:45.961437+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-04-06.sbd.fm.cotsman.9492.sbeok.shnf"
   }

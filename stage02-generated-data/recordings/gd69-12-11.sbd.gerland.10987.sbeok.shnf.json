@@ -16,37 +16,65 @@
   "high_ratings": 4,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "A vintage 1969 performance that dazzles with Dark Star and eclectic jams, but the soundboard tape suffers from low fidelity and digital glitches.",
-    "review": "Fans rave about the early‑Dead vibe – a wild blend of R&B, country, psychedelic rock and even a Tom Constanten Bach minuet tucked between Mama Tried and Yellow Dog Story.  The show is consistently praised despite the recording’s muffled, noisy sound and noticeable CD‑burn errors that make it hard to listen to.",
+    "summary": "A raw early‑Dead show brimming with Dark Star, Hard to Handle and a Tom Constanten Bach interlude, but the soundboard source is painfully low‑fidelity.",
+    "review": "Fans rave about the historic vibe of this 1969 performance – citing a smoking Dark Star, a powerful Hard to Handle, an Alligator→Caution tease and even a surprising Bach minuet by Tom Constanten.  Unfortunately the soundboard tape suffers from severe fidelity loss and digital errors, making it hard to enjoy despite the strong musical moments.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 4.0,
       "confidence": "medium",
-      "rationale": "Strong musical performance (high show rating) is offset by consistently poor recording quality; weighted average yields a mid‑range score."
+      "rationale": "Most reviewers love the show’s energy and song selection, but nearly all flag the recording as very poor, pulling the overall rating down."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "poor",
-      "technical_notes": "Listeners describe the audio as \"crap\", low‑fidelity, muffled and riddled with digital errors from a bad CD burn; overall clarity is very limited."
+      "technical_notes": "Very low fidelity; digital glitches from a bad CD burn; muffled and hard‑to‑handle playback despite being an SBD source."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "Hard to Handle",
+        "Alligator > Caution",
         "Mama Tried",
         "Yellow Dog Story"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set flows like a time capsule of ’69 Dead – R&B and country tunes tumble into LSD‑freak rock, with quirky moments such as a Bach minuet between songs adding unexpected charm."
+      "setlist_flow": "A chaotic early‑year mix of R&B, country and psychedelic rock that captures the 1969 spirit; transitions like Alligator→Caution add excitement."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "Tom Constanten’s surprise Bach minuet between Mama Tried and Yellow Dog Story is highlighted.",
+      "Keys": "Tom Constanten’s brief Bach minuet between “Mama Tried” and “Yellow Dog Story” is highlighted.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T02:12:19.601498+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Alligator > Caution": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mama Tried": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Yellow Dog Story": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T18:39:03.110435+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-12-11.sbd.gerland.10987.sbeok.shnf"
   }

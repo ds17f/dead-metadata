@@ -16,34 +16,41 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clean soundboard capture of a historic 1967 set with lively jamming, highlighted by Jerry’s Viola Lee Blues performance.",
-    "review": "The recording offers a surprisingly clear and well‑balanced soundboard source for a 1967 Monterey appearance, letting listeners hear the band’s informal, genre‑hopping vibe.  While the set isn’t hailed as a classic masterpiece, the jamming is solid and Jerry Garcia’s Viola Lee Blues moment draws particular praise.  Overall the audio quality exceeds many contemporaneous releases, making it a valuable historical document.",
-    "sentiment": "positive",
+    "summary": "Clean soundboard capture of a historic Monterey set with lively jamming and a memorable Viola Lee Blues.",
+    "review": "The recording is praised for its crisp, clean sound—often noted as superior to other available sources—and offers a fascinating glimpse of the Dead’s early live vibe. While most listeners find the performance enjoyable and historically valuable, a few consider it merely average and note that it isn’t an essential concert. Overall the set delivers solid jamming, highlighted by Jerry’s playful Viola Lee Blues moment.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.0,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show 3‑5 stars and praise both the musical performance and the clean soundboard recording; only a few low‑star notes are unrelated to the audio itself."
+      "rationale": "Show quality is viewed as decent to good (average‑to‑above‑average) while recording quality is consistently described as very clean and superior, yielding a weighted average around 4 stars."
     },
     "recording_quality": {
       "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "Several reviewers call the source \"very nice and clean\" and note it sounds better than other available recordings, with a clear mix that has been nicely cleaned up."
+      "quality_rating": "excellent",
+      "technical_notes": "Multiple reviewers describe the audio as crisp, clean, and better than other available recordings; one notes it has been cleaned up for modern listening."
     },
     "show_quality": {
       "standout_songs": [
         "Viola Lee Blues"
       ],
       "poor_songs": [],
-      "setlist_flow": "The set is described as informal and varied, mixing psychedelic jams with blues and country‑flavored tunes; overall it flows well enough to be enjoyable even if not a landmark performance."
+      "setlist_flow": "Listeners note an informal, varied set typical of the 1967 era—good jamming throughout but no specific complaints about pacing."
     },
     "band_member_comments": {
-      "Jerry": "Highlighted for his Viola Lee Blues playing and a brief George Harrison‑style stage gesture.",
+      "Jerry": "Highlighted for a George Harrison‑style strum during Viola Lee Blues.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T13:33:46.853257+00:00",
+    "song_mentions": {
+      "Viola Lee Blues": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T06:06:10.245612+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1967-06-18.115858.sbd.kaplan.flac16"
   }

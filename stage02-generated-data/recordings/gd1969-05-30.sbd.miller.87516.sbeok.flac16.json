@@ -16,43 +16,84 @@
   "high_ratings": 16,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a classic late‑May ’69 show highlighted by a soaring Dark Star > Cosmic Charlie > St. Stephen > The Eleven marathon and tight band play.",
-    "review": "The Charlie Miller soundboard transfer is crisp and surprisingly clean for a 1969 tape, with only minor hiss and a brief cut at the end of “Turn On Your Lovelight.” Musically the performance shines – Jerry’s guitar roars on Dark Star, the band rides an epic sequence into Cosmic Charlie, St. Stephen and The Eleven, and the set is peppered with standout renditions of Doin’ That Rag, Morning Dew and Turn On Your Lovelight. Overall fans deem it a must‑have snapshot of the Dead at their psychedelic peak.",
+    "summary": "Excellent soundboard capture of a classic 5/30/69 Portland show – crisp mix, stellar Dark Star and The Eleven, with a few rough edges.",
+    "review": "The Charlie Miller‑sourced soundboard delivers crystal‑clear mids with only the faint hiss expected from ’69 tapes, making every jam audible—from Jerry’s soaring Dark Star solo to the marathon St. Stephen intro. Musically the night shines on Dark Star, The Eleven, Cosmic Charlie and a ripping Doin’ That Rag, though some listeners note occasional tuning woes and a cut‑off Turn On Your Lovelight.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "Over 20 reviews, most giving 5 stars and praising both the music and the soundboard quality; only a few minor criticisms. Consistent praise for key jams and recording clarity yields a strong positive rating."
+      "rationale": "Over twenty reviews (mostly 5‑star) praise both performance and recording; show quality rates ~4.5, recording quality ~4.2, yielding a weighted average of 4.4."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Very clear mix with slight tape hiss typical of ’69 tapes; occasional splice/cut at the end of “Turn On Your Lovelight” and a brief “screamer” during that track, but overall superior to most 1969 recordings."
+      "technical_notes": "Mix is clean and balanced with slight tape hiss; occasional splice in The Eleven→Lovelight noted, but overall superior to most 1969 recordings."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "Cosmic Charlie",
-        "St. Stephen (notable long intro)",
         "The Eleven",
+        "St. Stephen",
+        "Cosmic Charlie",
         "Turn On Your Lovelight",
-        "Doin' That Rag",
-        "Morning Dew"
+        "Doin' That Rag"
       ],
       "poor_songs": [
-        "\"Cosmic Charlie\" (one reviewer found the vocals terrible)",
-        "\"Turn On Your Lovelight\" (cut off at the end)"
+        "Cosmic Charlie (some reviewers note poor vocal delivery)",
+        "Turn On Your Lovelight (cut off at the end)"
       ],
-      "setlist_flow": "A classic late‑spring ’69 set: opening with Morning Dew, moving through Me & My Uncle and Doin’ That Rag, then launching into a 17‑minute Dark Star that segues into Cosmic Charlie, St. Stephen, The Eleven and finally Turn On Your Lovelight – an uninterrupted high‑energy jam marathon."
+      "setlist_flow": "The set rolls from a gentle Morning Dew into high‑energy jams, building momentum through Me & My Uncle and Doin' That Rag before launching into an expansive Dark Star that feeds directly into Cosmic Charlie, The Eleven and a truncated Turn On Your Lovelight, maintaining a psychedelic intensity throughout."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s tone described as “like his Gibson SG,” with an intense solo that builds midway through Dark Star; a broken string adds drama but he recovers powerfully.",
-      "Phil": "Lesh’s bass is called steady, sure‑footed and “thunderous” during the jams.",
-      "Bob": "Weir’s vocal on Me & My Uncle noted as friendly and genuine; also contributes vocal texture on Lovelight.",
-      "Keys": "",
-      "Drums": "Bill Kreutzmann and Mickey Hart praised for near‑unison playing, dynamic interplay throughout the long sequences."
+      "Jerry": "His solo on Dark Star is highlighted as intense; broken strings add drama but also showcase his signature string‑bending feats.",
+      "Phil": "Bass described as steady and sure, anchoring the improvisations.",
+      "Bob": "Vocals praised on Me & My Uncle and noted for white‑noise contributions on Lovelight.",
+      "Keys": "Keith (Bobby) gets kudos for Cosmic Charlie and the extended St. Stephen intro, adding rich keyboard textures.",
+      "Drums": "Bill and Mickey are lauded for near‑unison playing; occasional aggressive accents mentioned."
     },
-    "processed_date": "2025-09-10T23:41:46.961709+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 5,
+        "negative_mentions": 1,
+        "total_mentions": 6
+      },
+      "The Eleven": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 4,
+        "negative_mentions": 2,
+        "total_mentions": 6
+      },
+      "St. Stephen": {
+        "positive_mentions": 5,
+        "negative_mentions": 2,
+        "total_mentions": 7
+      },
+      "Morning Dew": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Me and My Uncle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Doin' That Rag": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Turn On Your Lovelight": {
+        "positive_mentions": 4,
+        "negative_mentions": 1,
+        "total_mentions": 5
+      }
+    },
+    "processed_date": "2025-09-24T14:53:46.515812+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-05-30.sbd.miller.87516.sbeok.flac16"
   }

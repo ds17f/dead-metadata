@@ -16,40 +16,99 @@
   "high_ratings": 10,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording with a very forward Tom Constanten organ delivers a solid early‑'69 show, highlighted by a fiery The Eleven and Lovelight while the Dark Star suffers from mix problems.",
-    "review": "The January 25, 1969 Avalon Ballroom set captures the Dead in a rehearsal phase – the first set shines with a powerful Eleven and an infectious Lovelight, and the new Dupree's Diamond Blues and Doin' That Rag show promising ideas. The soundboard source is generally good for its age but suffers from a high organ level, muted vocals and occasional balance issues that make Dark Star and some second‑set moments feel uneven.",
+    "summary": "Good‑quality soundboard capture of a classic early‑69 show with standout The Eleven, Lovelight and Caution, but mixed mix issues and a weaker second set.",
+    "review": "The recording is a solid soundboard source that sounds surprisingly clear for its age, though the organ sits high in the mix and vocals are often buried. Musically the first set shines – The Eleven, Lovelight and Caution receive frequent praise – while the second half feels like a rehearsal run‑through with Dupree’s Diamond Blues and Doin’ That Rag falling short of their later brilliance.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.8,
+      "stars": 3.7,
       "confidence": "high",
-      "rationale": "15 detailed reviews give a consistent picture: strong musical moments (especially in the first set) offset by notable mix problems, yielding an overall rating just above average."
+      "rationale": "Many reviewers give 4‑star ratings, highlighting strong performances on several key songs while noting consistent mix problems and an uneven second set; the weighted average of show (≈3.8) and recording quality (≈3.6) yields a rating around 3.7."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Mix is uneven – Tom Constanten’s organ is often too high, vocal mics are low or missing (especially on The Eleven and early Lovelight), but overall clarity is decent for a 41‑year‑old tape. No major dropouts reported."
+      "technical_notes": "Levels are off at the start, organ (TC) is high in the mix and often overpowers other instruments; vocal mics are weak or inaudible on The Eleven and parts of Lovelight. Despite these quirks the overall balance is decent for a 41‑year‑old tape."
     },
     "show_quality": {
       "standout_songs": [
         "The Eleven",
         "Lovelight",
-        "Dupree's Diamond Blues",
-        "Doin' That Rag",
-        "Caution"
+        "Caution",
+        "Feedback"
       ],
       "poor_songs": [
-        "Dark Star"
+        "Dark Star (audio problems)",
+        "Alligator (short, unfocused)",
+        "Dupree's Diamond Blues (weak rendition)",
+        "Doin' That Rag (weak rendition)"
       ],
-      "setlist_flow": "First set feels like classic late‑60s material with strong improvisation; second set is weaker, reflecting the band still working out new songs. Overall the show serves as a warm‑up to the high‑energy winter ’69 run."
+      "setlist_flow": "First set follows the classic early‑69 template (Dark Star → St. Stephen → The Eleven → Lovelight) and is praised for its energy; the second set feels more like a warm‑up, with several songs still being worked out and overall less cohesion."
     },
     "band_member_comments": {
-      "Jerry": "Occasionally forgets lyrics and vocal levels dip, but guitar tone remains solid throughout.",
-      "Phil": "Bass work on Lovelight is praised for its drive and melodic feel.",
+      "Jerry": "Garcia’s guitar work remains solid throughout, though his vocals are sometimes buried by the mix.",
+      "Phil": "Phil’s bass shines, especially during the Lovelight section.",
       "Bob": "",
-      "Keys": "Tom Constanten’s organ is prominently mixed – fans love the visibility of his runs, while others find it overpowering and out of character for Dark Star.",
+      "Keys": "Tom Constanten is prominently featured – many love his organ runs, but others find the high‑mix level distracting.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T20:55:22.582029+00:00",
+    "song_mentions": {
+      "Dupree's Diamond Blues": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "total_mentions": 4
+      },
+      "Doin' That Rag": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "total_mentions": 3
+      },
+      "Alligator": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Eleven": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Lovelight": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "total_mentions": 4
+      },
+      "Caution": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Feedback": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "And We Bid You Good Night": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T10:39:55.444201+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-01-25.sbd.miller.109641.flac16"
   }

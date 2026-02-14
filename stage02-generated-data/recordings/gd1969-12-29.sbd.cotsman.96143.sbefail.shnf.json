@@ -16,41 +16,87 @@
   "high_ratings": 8,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good‑quality soundboard capture of a tight late‑1969 New Year’s Eve show with standout “Mason’s Children”, “Easy Wind” and a monster 15‑minute “Dancing In The Streets”.",
-    "review": "The recording is a decent‑to‑good soundboard mix; the balance is clear though the vocals sit a touch high and the infamous microphone grab adds a brief, noisy surprise. Musically the band is tight – Tom Constanten’s thick keyboard runs, an inspired Easy Wind, a fiery High Time and an epic 15‑minute “Dancing In The Streets” dominate, while the odd Good Lovin’ moment gives the set a quirky edge.",
-    "sentiment": "mixed",
+    "summary": "Good soundboard capture of the Dec 29 1969 Boston New Year's Eve show, highlighted by a smoking 15‑minute “Dancing In The Streets” and standout Mason’s Children.",
+    "review": "The recording is a decent‑quality soundboard tape with crisp mix though the vocals sit a bit high. Musically the band delivers a tight late‑’69 performance – the marathon ‘Dancing In The Streets’, an inspired Mason’s Children, and a superb Easy Wind stand out, while the chaotic Good Lovin' moment mars an otherwise solid set.",
+    "sentiment": "positive",
     "ai_rating": {
       "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers rate the show and recording 4‑5 stars, praising performance and mix; a single zero‑star outlier and comments about odd moments keep the overall rating just above average."
+      "rationale": "Most reviewers give 4‑5 stars and praise both performance and mix; the show is musically strong with several standout cuts, and the recording is described as decent to good."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Generally clear and well‑balanced soundboard mix; vocals a bit high, occasional mic‑grab scream adds noise, but overall crisp with no major dropouts."
+      "technical_notes": "Mix is praised as crisp and well‑balanced; vocals are a bit high but not detrimental. Minor quirks (mic grab, occasional EQ tweaks needed) do not overwhelm the listening experience."
     },
     "show_quality": {
       "standout_songs": [
+        "Dancing In The Streets",
         "Mason's Children",
         "Easy Wind",
-        "High Time",
-        "Dancing In The Streets (15:52)",
         "Rain & Snow",
-        "Mama Tried"
+        "High Time"
       ],
       "poor_songs": [
-        "Good Lovin' (odd version with mic incident)"
+        "Good Lovin'"
       ],
-      "setlist_flow": "The New Year’s Eve set opens with a West‑coast chill vibe, moves through concise Americana numbers before launching into tight, focused jams that build to a soaring second half, punctuated by the memorable microphone moment."
+      "setlist_flow": "A New Year's Eve set that jumps from the folk‑rock opener ‘Rain & Snow’ through Americana numbers like ‘Mama Tried’, into a tight mid‑show groove, then erupts with a 15‑minute ‘Dancing In The Streets’. A bizarre mic incident during ‘Good Lovin'’ creates an odd interlude before the band finishes strong with high energy cuts."
     },
     "band_member_comments": {
       "Jerry": "",
       "Phil": "",
       "Bob": "",
-      "Keys": "Tom Constanten’s thick keyboard runs are highlighted throughout the show.",
-      "Drums": "Reviewers note Mickey Hart’s playing beginning to feel less essential in this era, foreshadowing Bill Kreutzmann’s later streamlined approach."
+      "Keys": "Thick Tom Constanten keyboard runs are highlighted throughout; keyboards receive special praise.",
+      "Drums": "Mickey Hart’s drumming is noted as becoming less essential in this era, with hints that Bill Kreutzmann would later streamline the rhythm section."
     },
-    "processed_date": "2025-09-11T02:39:00.431669+00:00",
+    "song_mentions": {
+      "Mason's Children": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dancing In The Streets": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Good Lovin'": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      },
+      "Rain & Snow": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mama Tried": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Easy Wind": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "High Time": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Rider": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T19:27:30.225996+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-12-29.sbd.cotsman.96143.sbefail.shnf"
   }

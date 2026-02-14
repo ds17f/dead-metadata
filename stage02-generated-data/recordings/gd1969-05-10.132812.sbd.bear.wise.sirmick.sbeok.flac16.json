@@ -16,35 +16,46 @@
   "high_ratings": 3,
   "low_ratings": 2,
   "ai_review": {
-    "summary": "Soundboard recording marred by harsh mid‑set diginoise, yet the Dark Star segment delivers a rare burst of electrifying interplay.",
-    "review": "The show features an outstanding Dark Star that many reviewers describe as “splendid” and full of energy, with the organ providing vivid cues for Jerry’s improvisations. Unfortunately the soundboard source suffers from severe interference and metallic doubling beginning around the 14‑minute mark, making large portions of the performance nearly unlistenable. While the musical peaks shine through, the technical flaws dominate most listeners’ experience.",
+    "summary": "Soundboard recording plagued by harsh diginoise during the peak Dark Star, but the performance itself is electrifying.",
+    "review": "The show’s standout moment – a soaring Dark Star – earns high praise from several listeners despite severe tape‑noise and metallic doubling that render much of the latter half nearly unlistenable. Earlier portions are clearer and capture the 1969 vibe, yet the pervasive interference drags the overall listening experience down.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 2.9,
+      "stars": 3.3,
       "confidence": "medium",
-      "rationale": "Performance highlights (especially Dark Star) are praised, but the majority of reviewers criticize the recording’s severe noise and tape degradation; the mixed feedback from six reviews yields a moderate overall rating."
+      "rationale": "Performance quality is strong (especially Dark Star) but recording defects are serious; weighted average of show (≈4) and recording (≈2) yields a moderate rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "poor",
-      "technical_notes": "Severe diginoise/metallic doubling of Garcia's guitar from ~14:00 onward, tape degradation, occasional over‑saturation and general interference make much of the set nearly unlistenable."
+      "technical_notes": "Severe diginoise/metallic doubling from ~14:00 into Dark Star, tape degradation, occasional over‑saturation; early parts clearer but overall marred by interference."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star",
-        "closing medley"
+        "Dark Star"
       ],
       "poor_songs": [],
-      "setlist_flow": "Emotional highs during Dark Star and the closing medley are offset by technical hiccups that cause noticeable dips in momentum, especially after the mid‑set audio failure."
+      "setlist_flow": "Technical glitches cause emotional ups and downs, yet the Dark Star and closing medley retain high energy and are highlighted as special moments."
     },
     "band_member_comments": {
-      "Jerry": "Garcia's guitar is obscured by metallic doubling noise; his improvisational flow shines through during Dark Star despite the interference.",
+      "Jerry": "His guitar is described both as shrieking metallic double‑track (negative) and as perfectly responsive within the Dark Star (positive).",
       "Phil": "",
       "Bob": "",
-      "Keys": "The organ delivers “nice stuff” that cues Jerry into new realms, adding texture to the standout Dark Star.",
+      "Keys": "Organ work during Dark Star is praised for cueing Jerry into new realms.",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T23:24:32.775524+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "St. Stephen": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T14:24:28.501356+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-05-10.132812.sbd.bear.wise.sirmick.sbeok.flac16"
   }

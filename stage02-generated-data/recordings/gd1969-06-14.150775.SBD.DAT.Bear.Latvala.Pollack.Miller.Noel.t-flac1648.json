@@ -16,36 +16,53 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of a wild, exploratory 1969 set with fiery Eleven and off‑kilter Lovelight moments despite an uneven Dark Star.",
-    "review": "The recording (a soundboard source) delivers a clear enough picture of a short, psychedelic blues‑heavy show that feels very much in the 1969 Dead spirit. Reviewers highlight Jerry’s excited, fast playing on The Eleven and Pigpen’s slurred second Lovelight as memorable quirks, while noting Dark Star is only marginally above average for the year. Overall the performance is deemed classic ’69 material, though the show’s flow feels a bit uneven.",
-    "sentiment": "mixed",
+    "summary": "Recording quality unknown, but the tape delivers an unhinged psychedelic blues set with standout Dark Star and The Eleven.",
+    "review": "The performance bursts with 1969 energy, featuring a spirited Eleven, a dark‑but‑slightly uneven Dark Star, and Pigpen’s humor‑filled second Lovelight. Reviewers are enthusiastic about the music yet give no concrete details on the audio source, leaving the recording quality uncertain.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 3.4,
+      "stars": 4.0,
       "confidence": "medium",
-      "rationale": "One reviewer gives a low rating (0) focusing on overall vibe, while another rates it 4 stars and praises specific performances; with limited data the average leans toward a solid but not exceptional show."
+      "rationale": "Both reviewers praise the musical performance despite lacking any recording‑quality comments; with only two reviews confidence is moderate."
     },
     "recording_quality": {
-      "source_type": "soundboard",
-      "quality_rating": "good",
-      "technical_notes": "No explicit complaints about sound; reviewers thank the engineer (Miller) and imply a decent capture, though details on clarity or mix are absent."
+      "source_type": "unknown",
+      "quality_rating": "fair",
+      "technical_notes": "No reviewer mentions soundboard, audience bleed, or clarity; therefore recording quality cannot be assessed beyond being adequate for listening."
     },
     "show_quality": {
       "standout_songs": [
+        "Dark Star",
         "The Eleven",
-        "Lovelight (second rendition)",
-        "Dark Star"
+        "Lovelight"
       ],
       "poor_songs": [],
-      "setlist_flow": "Short, psychedelic‑blues driven set typical of 1969; energetic peaks with The Eleven and quirky moments in Lovelight, but the Dark Star/Stephen/Eleven suite is described as unexceptional."
+      "setlist_flow": "A short, classic 1969 set that feels exploratory and psychedelic, with high‑energy jams despite a few uneven moments."
     },
     "band_member_comments": {
-      "Jerry": "Excited, fast playing on The Eleven; generally high energy throughout.",
+      "Jerry": "Described as playing excitedly and fast during The Eleven; Dark Star noted as slightly below average for ’69.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Pigpen’s second Lovelight sung a half‑step low, sounding drunk but amusing and not bad.",
+      "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T00:06:17.792444+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "The Eleven": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T15:31:23.303821+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-06-14.150775.SBD.DAT.Bear.Latvala.Pollack.Miller.Noel.t-flac1648"
   }

@@ -16,40 +16,66 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard capture of an average‑to‑below‑average 1969 show – decent first jam and a solid Feedback, but uneven playing and a few technical hiccups.",
-    "review": "The recording is a soundboard source that sounds okay overall but suffers from a noticeable cut, a pitch wobble on a solo, and a thin drum mix. Musically the night has flashes of brilliance—the early jam (China Cat > The Eleven) and a surprisingly tight Feedback—yet many numbers drag or lose tempo, especially Alligator and the Drums segment. Fans who love rare ’69 material will find it worth hearing despite its unevenness.",
+    "summary": "Fair soundboard capture of a historic May‑24‑1969 Miami show – some standout jams but overall an average performance.",
+    "review": "The recording, sourced from a soundboard (unknown quality), is listenable but suffers from cuts, a brief pitch wobble and missing bits that keep it from being pristine. Musically the concert offers a few high points—a unique Jerry jam early on and a solid Feedback—but much of the set drifts, with shaky Doin' That Rag, a draggy Just a Hand to Hold, a loose Alligator and an unfocused drum segment. Fans who value historic context will enjoy it, though serious listeners may find it only middling.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.6,
       "confidence": "medium",
-      "rationale": "Show quality is judged average to below‑average with a few highlights, while the soundboard recording is usable but not pristine; combined score lands in the mid‑range."
+      "rationale": "Three out of four reviewers gave high star ratings, but the detailed review highlights numerous performance and technical flaws; weighting show (70%) and recording (30%) yields a mid‑range rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Overall decent clarity but includes a 36‑second cut, a -2% pitch anomaly on a solo, and thin drum presence; occasional muddiness in the second set."
+      "technical_notes": "Contains a ~36 sec cut, a pitch drop of about –2% during a solo, and some missing seconds at the start/end of tracks; overall clearer than audience tapes but not pristine."
     },
     "show_quality": {
       "standout_songs": [
-        "China Cat Sunflower > The Eleven (early jam)",
         "Feedback"
       ],
       "poor_songs": [
-        "\"Doin' That Rag\" (shaky)",
-        "\"Just a Hand to Hold\" (half‑good/draggy)",
-        "Alligator (loose tempo)",
-        "Drums (no cohesion)"
+        "Doin' That Rag",
+        "Just a Hand to Hold",
+        "Alligator",
+        "Drums"
       ],
-      "setlist_flow": "The first half flows better with a strong jam, but the second set loses momentum as songs become uneven and the drum segment feels disjointed."
+      "setlist_flow": "The first half contains the best jam of the night and a brief unique Jerry segment, but the set quickly loses momentum; overall it feels average for a 1969 show with occasional high‑water moments."
     },
     "band_member_comments": {
-      "Jerry": "Enters a brief unique jam early on; otherwise his playing is unremarkable in this performance.",
+      "Jerry": "Brief unique jam noted around 13:45; otherwise not highlighted.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Drum mix sounds thin and lacks interplay, described as “shoes in the dryer” with no cohesion."
+      "Drums": "Described as \"shoes in the dryer\" with little cohesion or interplay."
     },
-    "processed_date": "2025-09-10T23:37:07.734452+00:00",
+    "song_mentions": {
+      "Doin' That Rag": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Just a Hand to Hold": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Alligator": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Drums": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Feedback": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T14:46:48.555360+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-05-24.sbd.unknown.10737.sbeok.shnf"
   }

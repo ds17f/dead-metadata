@@ -16,38 +16,65 @@
   "high_ratings": 3,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard source with noticeable tape hiss and occasional cloudiness, but captures a historic late‑1969 set featuring Tom Constanten’s organ on every song, a fiery 30‑minute Dark Star and the debut of Uncle John’s Band.",
-    "review": "The recording is a soundboard capture that, while plagued by some hiss, tape “cloudiness\" and a badly tuned Strat, still delivers an important snapshot of the Dead in late ’69. Highlights include a fast, syncopated 30‑minute Dark Star with organ‑driven feedback, a unique Black Peter arrangement, early Working’s Dead material and the first known live Uncle John’s Band. The performance is energetic but uneven, reflected in mixed reviewer opinions.",
+    "summary": "Fair‑sounding soundboard captures a historic late‑'69 set with a scorching 30‑minute Dark Star and the first recorded Uncle John’s Band, though tape hiss and occasional feedback mar the audio.",
+    "review": "The show is notable for Tom Constanten’s organ on every number, an unusually fast and syncopated 30‑minute Dark Star, a unique Black Peter arrangement and the debut recording of Uncle John’s Band. While the performance has moments of high energy, reviewers note cloudy tape quality, hiss and a badly tuned Strat that detract from the listening experience.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.8,
-      "confidence": "medium",
-      "rationale": "Show is historically significant with several standout performances, but recording quality varies (hiss, cloudiness, tuning issues) leading to a moderate overall rating."
+      "confidence": "high",
+      "rationale": "Reviews are split between enthusiastic praise for historic performances (5‑star) and criticism of tape quality and tuning (2‑star). The weighted average of show (70%) and recording (30%) yields a solid above‑average rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Noticeable tape hiss and occasional cloudy sound; feedback at ~16:05 in Dark Star; organ (TC) sits prominently in the mix; a badly tuned Strat noted; overall clearer than other available version but not pristine."
+      "technical_notes": "Tape hiss, cloudy sound, occasional feedback around 16:05 in Dark Star, and a badly tuned Strat are mentioned; however several reviewers note this version sounds better than the alternative copy."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "Black Peter",
-        "Good Lovin'",
         "Uncle John's Band",
-        "Workingman's Dead (early versions)"
+        "Workingman's Dead (early versions)",
+        "Good Lovin'"
       ],
       "poor_songs": [],
-      "setlist_flow": "Late‑1969 set with organ on every track, unique arrangements and high energy; occasional performance slips (tuning, so‑so playing) but overall historic and exciting flow."
+      "setlist_flow": "The set is driven by Constanten’s organ throughout, delivering early‑'69 energy with strong transitions; overall performance is described as energetic but somewhat uneven."
     },
     "band_member_comments": {
-      "Jerry": "Garcia's voice described as strong and youthful for December 1969.",
+      "Jerry": "Garcia's voice is praised as strong and youthful, though one reviewer notes his Strat was badly tuned.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Tom Constanten’s organ is prominent on every song, adds an early‑Dead sound; also involved in feedback section of Dark Star.",
+      "Keys": "Tom Constanten (TC) is highlighted for playing organ on every song, giving the show an early‑Dead sound.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T01:59:48.447693+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Black Peter": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Workingman's Dead (early versions)": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T18:20:52.364249+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-12-04.sbd.wizard.23975.sbeok.shnf"
   }

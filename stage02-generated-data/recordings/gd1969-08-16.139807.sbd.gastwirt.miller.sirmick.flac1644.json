@@ -16,38 +16,59 @@
   "high_ratings": 2,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clear soundboard capture of Woodstock’s five‑song set highlights a scorching Dark Star and extended Lovelight, with solid performance despite minor radio‑interference glitches.",
-    "review": "The recording is sourced from the gastwirt/miller/sirmick soundboard mix, offering a clean and fairly balanced audio picture though it includes occasional radio chatter on High Time and a brief drop‑out. Musically the show shines – St Stephen rolls straight into Mama Tried, Dark Star erupts with intense improvisation, Lovelight stretches to 38 minutes, and High Time features heartfelt vocals, making this one of the more compelling Woodstock performances.",
+    "summary": "Clean soundboard capture of a rare five‑song Woodstock set highlighted by a soaring Dark Star and strong Mama Tried/High Time performances.",
+    "review": "The recording is a well‑balanced soundboard source with only brief dropouts and the occasional radio‑interference artifact, making it listenable despite some vintage quirks. Musically the show shines on Dark Star – praised for its intensity and Jerry’s blistering tone – and the concise renditions of Mama Tried, High Time and an extended Lovelight that, while uneven, add historic flavor. Overall reviewers are enthusiastic about the performance and consider this a valuable snapshot of the Dead’s Woodstock appearance.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.2,
+      "stars": 4.0,
       "confidence": "high",
-      "rationale": "Three detailed reviews consistently praise the musical performance (especially Dark Star and Lovelight) while noting a generally good soundboard source with only minor technical hiccups, yielding an overall strong rating."
+      "rationale": "Three detailed reviews lean strongly positive (4‑5 stars) with only one moderate rating; both show quality and recording quality are judged good to excellent."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clean and complete SBD mix; clear instrument separation. Notable radio interference on High Time, a two‑second dropout around 24:10, and occasional distortion from an unplanned guest mic, but overall listenable."
+      "technical_notes": "Cleanest SBD mix available, clear instrument separation, but includes a two‑second drop at ~24:10 and the infamous radio interference on High Time; overall crisp with minor glitches."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
-        "Lovelight",
         "Mama Tried",
         "High Time",
-        "St. Stephen"
+        "Lovelight"
       ],
       "poor_songs": [],
-      "setlist_flow": "A concise five‑song festival set that moves from a truncated St Stephen into Mama Tried, builds into an expansive Lovelight, and closes with High Time; the pacing feels purposeful for a massive outdoor audience."
+      "setlist_flow": "A concise five‑song festival set (St. Stephen → Mama Tried → Dark Star → High Time → Lovelight) with long tunings and a truncated St. Stephen; the flow is praised for its historic intensity despite the brief runtime."
     },
     "band_member_comments": {
-      "Jerry": "Blistering SG tone cuts through the mix; strong vocal on High Time.",
+      "Jerry": "Praised for blistering guitar tone on Dark Star and solid vocal delivery on High Time.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Tom Constanten adds eerie, atmospheric textures during Dark Star.",
-      "Drums": ""
+      "Keys": "Tom Constanten noted for creating strange auras during Dark Star.",
+      "Drums": "Mickey's cannon moment is mentioned, but no specific performance critique."
     },
-    "processed_date": "2025-09-11T00:56:56.024277+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Mama Tried": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "High Time": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Lovelight": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T16:42:30.511242+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-08-16.139807.sbd.gastwirt.miller.sirmick.flac1644"
   }

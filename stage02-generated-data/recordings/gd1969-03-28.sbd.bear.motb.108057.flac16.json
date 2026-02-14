@@ -16,39 +16,65 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A smooth, richly tuned audience recording captures an inspired Modesto show highlighted by a soaring Dark Star > St. Stephen sequence and a powerful Other One.",
-    "review": "The recording offers crystal‑clear, well‑balanced sound with excellent azimuth handling that lets Jerry’s sharp guitar tone shine. Musically the performance is vibrant – opening with “School Girl,” delivering a classic Dark Star → St. Stephen jam, soaring through The Eleven and ending on an electrifying Other One. Minor quirks (a brief drum buzzkill) do not detract from the overall brilliance.",
+    "summary": "Smooth, rich soundboard recording that captures a vivid show highlighted by School Girl, a soaring Dark Star → St Stephen sequence and powerful performances of The Other One and Eleven.",
+    "review": "The audience is treated to an exceptionally clear, well‑tuned soundboard capture that lets Jerry’s edgy, sharply‑attacked guitar shine throughout. Musically the set flows with original Fillmore‑West‑era energy, featuring a standout School Girl opener, a luminous Dark Star into St Stephen, and memorable renditions of The Other One and Eleven.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.8,
       "confidence": "high",
-      "rationale": "All detailed reviews are five‑star, praising both sound quality and musical execution; weighting shows (70%) and recording (30%) yields an exceptional rating."
+      "rationale": "All detailed reviews praise both the performance and the audio quality, awarding five‑star ratings; no substantive criticism was offered."
     },
     "recording_quality": {
-      "source_type": "audience",
+      "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Smooth, rich sound with crisp Jerry Garcia guitar; well‑handled azimuth tuning; overall great sound quality though a short drum segment is noted as a buzzkill."
+      "technical_notes": "Smooth, rich and crisp sound with well‑handled azimuth tuning; reviewers describe it as an excellent reproduction of the original Bear recording."
     },
     "show_quality": {
       "standout_songs": [
+        "Good Morning Little Schoolgirl",
         "Dark Star",
         "St. Stephen",
-        "The Eleven",
         "The Other One",
-        "Good Morning Little School",
-        "School Girl"
+        "Eleven"
       ],
       "poor_songs": [],
-      "setlist_flow": "Shows a natural, Fillmore‑West‑style flow with strong transitions; the set builds from upbeat openings into expansive jams and closes with an energetic encore."
+      "setlist_flow": "Reviewers note a natural, original flow reminiscent of the Fillmore West shows, with strong transitions and an engaging overall pacing."
     },
     "band_member_comments": {
-      "Jerry": "Edge‑filled guitar tone with sharp attack; laid‑back vocal on Dark Star; described as playing like Black Sabbath in places.",
+      "Jerry": "His guitar tone is described as smooth yet edgy, with a sharp attack; vocals are laid‑back, and he even ‘lets loose’ in a Black Sabbath‑like intensity.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Brief 18‑second drum segment noted as a buzzkill, otherwise solid."
+      "Drums": "A brief 18‑second drum segment on The Other One was called a buzzkill, but otherwise no negative comments."
     },
-    "processed_date": "2025-09-10T22:06:55.352603+00:00",
+    "song_mentions": {
+      "Good Morning Little Schoolgirl": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Eleven": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T12:28:30.008128+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-03-28.sbd.bear.motb.108057.flac16"
   }

@@ -16,18 +16,18 @@
   "high_ratings": 3,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Rough‑sounding Volkerding soundboard with noticeable mix issues still captures a stellar ’68 performance highlighted by a blazing Dark Star, St. Stephen and an epic 69‑minute Eleven.",
-    "review": "The show is widely praised as a high‑energy continuation of the August ’68 runs, with fast tempos and standout moments on Dark Star, St. Stephen and a marathon The Eleven.  While the Volkerding soundboard source suffers from buzz, occasional clipping and a weak mix that buries Bob Weir’s vocals and Phil Lesh’s bass, most listeners feel the performance outweighs those flaws.",
-    "sentiment": "positive",
+    "summary": "A rough‑sounding Volkerding soundboard records a stellar ’68 performance, highlighted by an epic Dark Star, St. Stephen and The Eleven.",
+    "review": "The show is consistently praised for its high energy and tight playing, with Dark Star, St. Stephen and a 69‑minute rendition of The Eleven singled out as standout moments. Recording quality is uneven – the mix drowns out Weir and Phil at times and exhibits buzz and clipping – but most listeners still consider it a solid capture of one of the great August‑era shows.",
+    "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.1,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Show quality is consistently rated very high (5‑star reviews) while recording quality receives mixed comments; weighted average yields a strong overall rating."
+      "rationale": "Most reviewers rate the performance very highly (average ~4.8) while noting notable but not debilitating recording flaws (average ~3.2). Weighted combination yields a strong overall rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Mix is uneven – Weir’s vocals and Phil’s bass are often buried, buzz and occasional clipping noted. Overall acceptable for a 1968 soundboard capture."
+      "technical_notes": "Mix is poor – Bob Weir and Phil Lesh are often buried; buzzing, clipping and rough spots noted, though some find it acceptable compared to other ’68 tapes."
     },
     "show_quality": {
       "standout_songs": [
@@ -36,16 +36,33 @@
         "The Eleven"
       ],
       "poor_songs": [],
-      "setlist_flow": "Flows like the August shows with high energy and fast tempos; regarded as a solid, cohesive performance despite some recording rough spots."
+      "setlist_flow": "Described as a continuation of the high‑energy August shows, with fast tempos and strong pacing throughout."
     },
     "band_member_comments": {
-      "Jerry": "Dark Star is praised as \"great to hear\" indicating strong Garcia guitar work.",
-      "Phil": "Bass is described as being low in the mix, making Phil hard to hear.",
-      "Bob": "Weir's vocals and rhythm guitar are barely audible due to the poor mix.",
+      "Jerry": "",
+      "Phil": "Mix often drowns out Phil's bass; reviewers note he is low in the balance.",
+      "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T19:45:55.550261+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Eleven": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T09:09:29.643951+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd68-09-02.sbd.volkerding.1979.sbeok.shnf"
   }

@@ -16,40 +16,65 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "An excellent Charlie Miller sound‑board capture of a 1968 concert that shines with a soaring Dark Star, an epic Eleven, and a fiery Other One→Cryptical.",
-    "review": "The recording is a clean, well‑balanced sound‑board source (the Charllie Miller version) that presents the band in top form. Reviewers rave about the Dark Star, The Eleven (with standout vocals from Jerry, Phil and a surprising Weir contribution), and the Other One→Cryptical sequence, while noting a weaker New Potato/Drums segue and a second‑set that doesn’t quite match the first set’s brilliance.",
+    "summary": "Excellent soundboard recording of a brilliant 1968 show highlighted by a soaring Dark Star, an epic Eleven, and a powerful Other One.",
+    "review": "Reviewers rave about the near‑perfect performance – especially the fiery Dark Star, the soaring Eleven (with standout Weir vocals), and the masterful Other One > Cryptical sequence – while noting only minor quirks like a splice before New Potato and a less‑interesting drum solo. The Charllie Miller soundboard source is praised for its high fidelity, making this one of the top 1968 releases.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.8,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "All five reviewers gave 4–5 stars, consistently praising the musical performance and noting only minor recording or set‑list quirks; thus the combined show (70%) and recording (30%) score is very high."
+      "rationale": "All five reviews are overwhelmingly positive (four 5‑star, one 4‑star) and focus on exceptional musical moments; recording quality is repeatedly called “good/excellent,” leading to a high combined rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Charllie Miller sound‑board version praised as good quality, crisp and balanced; no significant dropouts or muffiness reported."
+      "technical_notes": "Charllie Miller soundboard capture praised for clarity and overall fidelity; minor issue noted with the beginning of Dark Star being cut off and a possible splice before New Potato."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "The Eleven",
-        "Other One > Cryptical",
-        "Death Don't Have No Mercy"
+        "The Other One"
       ],
       "poor_songs": [
-        "New Potato",
-        "Drums"
+        "New Potato"
       ],
-      "setlist_flow": "First set is viewed as stronger; second set has an abrupt New Potato‑to‑drums splice and feels less cohesive, ending with a calm feedback/space outro."
+      "setlist_flow": "First set is considered the stronger half of the concert, with a powerful Dark Star and tight Eleven; second set holds high points (Other One > Cryptical) but suffers from an abrupt New Potato transition and a less engaging drum segment."
     },
     "band_member_comments": {
-      "Jerry": "Top‑notch guitar tone on Dark Star and Death Don't Have No Mercy; feeds off the band’s energy.",
-      "Phil": "Fabulous bass work and vocal contribution to The Eleven; part of the tight group interplay.",
-      "Bob": "Weir’s vocal part on The Eleven is highlighted as a surprise strength, despite earlier doubts about his role.",
+      "Jerry": "Garcia’s guitar work is described as top‑notch, masterful on Dark Star and Death Don't Have No Mercy, feeding off the band.",
+      "Phil": "Lesh’s bass lines are highlighted as integral to the Eleven’s brilliance and overall group interplay.",
+      "Bob": "Weir’s vocal contribution on the Eleven receives specific praise; reviewers note his part was nearly dismissed historically but shines here.",
       "Keys": "",
-      "Drums": "Drummers are described as fabulous overall, though the dedicated Drums segment was considered less interesting."
+      "Drums": "Drummers are called fabulous early in the set, though the dedicated Drum solo is deemed less interesting."
     },
-    "processed_date": "2025-09-10T20:00:05.472882+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Eleven": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "New Potato": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Death Don't Have No Mercy": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T09:29:54.705773+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1968-10-13.sbd.miller.86761.sbeok.flac16"
   }

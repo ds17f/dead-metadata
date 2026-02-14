@@ -16,34 +16,48 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard remaster with clear audio but some out‑of‑tune moments; China Cat Sunflower shines.",
-    "review": "The recording is a solid soundboard source that many reviewers find well‑remastered and generally clear, though one listener notes the band being out of tune in places. China Cat Sunflower receives particular praise as a highlight of this performance. Overall the show is enjoyable but not flawless.",
+    "summary": "Good soundboard remaster with a standout China Cat Sunflower, though St. Stephen suffers from tuning issues.",
+    "review": "The recording is a solid soundboard remaster that most listeners find clear and enjoyable, earning a four‑star rating for its technical quality. Musically the show shines on China Cat Sunflower, but the performance of St. Stephen is noted as out of tune, leading to mixed feelings overall.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.6,
+      "stars": 3.2,
       "confidence": "medium",
-      "rationale": "One reviewer gives a strong 4‑star endorsement of the remaster while another rates it 0 stars with unrelated criticism; the positive comments focus on good sound quality and a standout song, balanced by noted tuning issues."
+      "rationale": "One reviewer praises the remaster and a key song (4★), while another gives a zero rating with vague criticism; overall show quality is moderate, recording quality good."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Remastered soundboard tape is generally clear and well‑balanced; no major dropouts reported, though a reviewer mentions the band sounding out of tune, which may be performance‑related rather than technical."
+      "technical_notes": "Remaster is solid and clear; no major mix issues reported, though performance tuning problems are mentioned."
     },
     "show_quality": {
       "standout_songs": [
         "China Cat Sunflower"
       ],
-      "poor_songs": [],
-      "setlist_flow": "Overall solid set with a strong highlight in China Cat Sunflower, but occasional sections feel out of tune, affecting the flow for some listeners."
+      "poor_songs": [
+        "St. Stephen"
+      ],
+      "setlist_flow": "No detailed comments on set pacing; reviewers focus on individual song quality."
     },
     "band_member_comments": {
-      "Jerry": "One reviewer notes the band (likely guitar) sounding out of tune.",
+      "Jerry": "",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T00:43:47.403985+00:00",
+    "song_mentions": {
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T16:25:04.208569+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-07-12.123434.sbd.latvala-lee-smith.flac16"
   }

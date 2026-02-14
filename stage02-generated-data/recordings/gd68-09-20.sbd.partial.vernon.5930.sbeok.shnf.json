@@ -16,39 +16,65 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Good‑quality soundboard capture that shines on St. Stephen and the extended drum segment, though the partial show is uneven.",
-    "review": "The recording – a sound‑board source from the September 20 1968 Berkeley show – sounds clear for its era, with stage banter audible and the drums captured in surprising detail. Musically the highlight is the fiery St. Stephen and an unusually long drum improvisation featuring Vince Delgado and Shankar Ghosh; The Eleven feels a bit short and low‑energy, and some material (e.g., Schoolgirl) is missing or muted. Overall it’s a decent snapshot of a transitional period rather than a classic full‑show performance.",
+    "summary": "Partial 9/20/68 Berkeley soundboard with clear stage banter and standout drum work, but the set is incomplete and musical performance is mixed.",
+    "review": "The recording captures a decent‑quality soundboard tape from late September ’68 (likely Berkeley), with crisp stage chatter and especially strong drum moments that many fans enjoy. The show itself is only partially represented – missing “Schoolgirl” and other material – and the performances are judged average, with “St. Stephen” and a brief “Dark Star” getting modest praise while “Eleven” feels short‑changed.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.6,
       "confidence": "medium",
-      "rationale": "Reviewers give an average of ~3.5 stars; most praise the drum work and decent soundboard clarity, while noting missing tracks and uneven performance, leading to a moderate‑high rating."
+      "rationale": "Average show quality (70% weight) combined with generally good but incomplete recording (30% weight); reviewers average ~3.4 stars, so rating leans slightly higher due to positive comments on drums and clarity."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clear stage banter, overall crispness for a late‑60s board tape; some vocal sections (Schoolgirl) are low in the mix and a few tracks are missing."
+      "technical_notes": "Clear stage banter and decent fidelity for a 1968 tape; some reviewers note the recording is \"quite good\" but the source is partial, with missing portions of the set."
     },
     "show_quality": {
       "standout_songs": [
         "St. Stephen",
-        "The Eleven",
-        "Drums (Vince Delgado & Shankar Ghosh)"
+        "Dark Star"
       ],
       "poor_songs": [
-        "The Eleven (shorter, less energy)",
-        "Drums (long and not compelling for some listeners)"
+        "Schoolgirl (missing/low vocals)",
+        "Eleven (shorter and less energetic)"
       ],
-      "setlist_flow": "Partial set with a strong opening (St. Stephen) followed by an extended drum jam; the flow feels uneven due to missing pieces and shorter versions of songs."
+      "setlist_flow": "The tape is incomplete, making the flow feel disjointed; a 25‑minute drum solo dominates the second half, which some listeners love while others find it overly long."
     },
     "band_member_comments": {
-      "Jerry": "Laughs during his vocal on St. Stephen and uses a strange vibrating‑guitar effect reminiscent of the Aoxomoxoa sessions.",
+      "Jerry": "His guitar work includes a strange vibrating tone behind “Several Seasons” and he laughs during his vocal on St. Stephen.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": "Extended drum improvisation is highlighted as a rarity, featuring Vince Delgado and Shankar Ghosh; praised by drum enthusiasts though some find it overly long."
+      "Drums": "The drum work is highlighted as fantastic, with an extended 25‑minute solo that is a major draw for listeners."
     },
-    "processed_date": "2025-09-10T19:48:08.850010+00:00",
+    "song_mentions": {
+      "St. Stephen": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Schoolgirl": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "total_mentions": 2
+      },
+      "Eleven": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Drums": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      }
+    },
+    "processed_date": "2025-09-24T09:12:34.415555+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd68-09-20.sbd.partial.vernon.5930.sbeok.shnf"
   }

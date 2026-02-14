@@ -16,36 +16,66 @@
   "high_ratings": 4,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Clear 1969 soundboard capture of a classic Dark Star‑centric set, with minor hiss and inconvenient track splits.",
-    "review": "The recording delivers surprisingly clean sound for a 1969 tape, letting listeners enjoy the sprawling Dark Star, St. Stephen and The Eleven with decent clarity after a little EQ work. Reviewers love the historic vibe and the performance itself, though several note that Kaplan’s splitting of the concert into separate tracks (including an odd “William Tell” cut) breaks the natural flow.",
+    "summary": "Remarkably clear 1969 soundboard capture featuring a soaring 17‑minute Dark Star, though the track splits interrupt the flow.",
+    "review": "The September 1 1969 Baton Rouge show shines with an expansive 17:22 Dark Star that many reviewers describe as “mean” and classic ’69 vibe. The soundboard source is praised as surprisingly good for its era despite some hiss and a splice, while listeners note the modern track‑splitting breaks up the natural continuity between St Stephen and The Eleven.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.3,
       "confidence": "high",
-      "rationale": "Strong musical performance highlighted by Dark Star and related jams, combined with a generally good soundboard source; minor hiss and track‑splitting issues keep it from the top tier."
+      "rationale": "Reviews are overwhelmingly enthusiastic about the performance (especially Dark Star) and consider the 1969 soundboard surprisingly clear; only minor criticism about track interruptions lowers the score slightly."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Noticeable tape hiss and a splice in Dark Star, but overall clear for the era; reviewers suggest using EQ to tame noise. The recording is split into many tracks, which some find disruptive."
+      "technical_notes": "Generally crisp for a 1969 tape with some hiss and a noticeable splice in Dark Star; reviewers recommend EQ adjustments. The only drawback mentioned is the modern file‑splitting that creates audible gaps between songs."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star",
-        "St. Stephen",
-        "The Eleven"
+        "Dark Star"
       ],
       "poor_songs": [],
-      "setlist_flow": "Typical late‑'69 set with Dark Star leading into St. Stephen, William Tell (a Kaplan‑added split), The Eleven and Turn On Your Love Light, but the artificial track breaks interrupt the seamless concert flow."
+      "setlist_flow": "Typical late‑60s Dead set (Dark Star → St Stephen → William Tell → The Eleven → Turn On Your Lovelight), praised for its energy but disrupted by artificial track breaks in the digital release."
     },
     "band_member_comments": {
-      "Jerry": "Tone on Dark Star praised as “perfect” by a reviewer.",
+      "Jerry": "",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T01:14:33.968300+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "William Tell": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Eleven": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Turn On Your Lovelight": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "And We Bid You Good Night": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T17:09:17.992125+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-09-01.sbd.kaplan.5216.shnf"
   }

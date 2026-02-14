@@ -16,18 +16,18 @@
   "high_ratings": 13,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a sweet 1969 show with a breathtaking acoustic set, stellar Dark Star and standout tracks like Uncle John’s Band, China>Rider and the rare (Gathering Flowers For) The Master's Bouquet.",
-    "review": "The recording is praised as crisp, silky‑smooth in the lows and crystal clear in the highs – a superb soundboard source that lets the band’s 1969 magic shine through.  Fans highlight an intimate acoustic set, tight vocal harmonies and a powerful electric second half featuring Dark Star, China>Rider and several rare songs.  Overall the performance is regarded as one of the finest late‑’69 shows, captured in near‑perfect condition.",
+    "summary": "Crystal‑clear soundboard capture of the Dec 26 1969 Dallas show, highlighted by a breathtaking acoustic set and a soaring Dark Star.",
+    "review": "The recording is an excellent sound‑board source – crisp, silky in the lows and crystal clear in the highs – that lets listeners hear every nuance of this transitional 1969 performance.  The first (acoustic) half dazzles with “All Around This World,” “Little Sadie,” “Long Black Limo” and a flawless “Uncle John’s Band,” while the electric set delivers a luminous Dark Star, perfect China>Rider flow and an inspired organ‑driven second half.  Overall both the music and the tape quality are consistently praised by fans.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.7,
+      "stars": 4.8,
       "confidence": "high",
-      "rationale": "Over a dozen detailed 4–5 star reviews uniformly praise both the musical performance and the audio fidelity; the few minor criticisms do not outweigh the overwhelming enthusiasm."
+      "rationale": "Over a dozen five‑star reviews, all praising both performance and sound; only minor comments about EQ tweaks or a badly cut New Speedway Boogie keep the rating just shy of perfect."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Consistently described as crisp, silky‑smooth lows and crystal‑clear highs. Reviewers note it sounds great straight out of the box, with only occasional suggestions to tweak EQ."
+      "technical_notes": "Reviewers describe the tape as crisp, silky‑smooth in the lows and crystal clear in the highs; some suggest EQ tweaks but overall the soundboard capture is superb with no noticeable distortion or drop‑outs."
     },
     "show_quality": {
       "standout_songs": [
@@ -35,21 +35,74 @@
         "Little Sadie",
         "Long Black Limo",
         "Uncle John's Band",
-        "China Cat Sunflower > I Know You Rider",
         "Dark Star",
-        "(Gathering Flowers For) The Master's Bouquet"
+        "China>Rider"
       ],
-      "poor_songs": [],
-      "setlist_flow": "A magical acoustic first set that transitions smoothly into an electric second half via Uncle John’s Band.  Highlights include a flawless China>Rider bridge, a soaring Dark Star and the rare Master’s Bouquet performance."
+      "poor_songs": [
+        "New Speedway Boogie"
+      ],
+      "setlist_flow": "An intimate acoustic set transitions smoothly into the electric half via Uncle John’s Band; the second set builds momentum with a perfect China>Rider segue and culminates in an otherworldly Dark Star."
     },
     "band_member_comments": {
-      "Jerry": "Praised for his warm Strat tone, inventive ideas, relaxed yet inspired playing throughout both sets.",
-      "Phil": "Highlighted for an especially strong bass presence; noted using an Alembic‑modified Gibson EB‑0 with single‑coil pickups.",
-      "Bob": "Vocals and harmonies described as spot‑on; banter called “seriously funny” and adds to the show’s charm.",
-      "Keys": "Tom Constanten’s B‑3 organ work praised as inspired, trippy, and a key driver of the second‑set energy.",
+      "Jerry": "Praised for his bright Fender Strat tone, inventive ideas on Dark Star and overall stellar guitar work.",
+      "Phil": "Highlighted as especially strong this night; bass tone (Alembic‑modified Gibson EB‑0) noted positively.",
+      "Bob": "Vocal harmonies described as spot‑on throughout the show.",
+      "Keys": "Tom Constanten’s B‑3 organ work called inspired and a key driver of the second set energy.",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T02:30:22.887970+00:00",
+    "song_mentions": {
+      "All Around This World": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Little Sadie": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Long Black Limo": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Uncle John's Band": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "China>Rider": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "New Speedway Boogie": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Hard to Handle": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Casey Jones": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "(Gathering Flowers For) The Master's Bouquet": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T19:09:21.698312+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-12-26.sbd.warner-evans.28448.sbeok.flac16"
   }

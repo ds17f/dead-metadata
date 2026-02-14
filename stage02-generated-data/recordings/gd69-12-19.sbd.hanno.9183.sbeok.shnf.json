@@ -16,36 +16,47 @@
   "high_ratings": 3,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a historic ‘69 show featuring the Dead’s first ad‑hoc acoustic set and tight electric numbers like Good Lovin' and Love Light",
-    "review": "Fans rave about this recording’s crystal‑clear, low‑hiss soundboard quality and celebrate the spontaneous acoustic mini‑set that opened the concert. The performance is highlighted by a Mason’s tease into “All Around This World,” a playful Wake Up Little Susie tease, and strong renditions of Good Lovin’ and Love Light, making it a must‑listen for ’69 enthusiasts.",
+    "summary": "Excellent sound with very little hiss and a rare early acoustic set that kicks off an otherwise classic ’69 show.",
+    "review": "Fans rave about the crystal‑clear audio – virtually no hiss – and love the ad‑hoc acoustic opener, complete with a Mason’s tease and first‑time acoustic renditions. The electric portion keeps the momentum going with tight performances of Good Lovin' and Lovelight, making this one of the standout 1969 recordings.",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.6,
       "confidence": "high",
-      "rationale": "The majority of reviews are glowing (5‑star) praising both the music and audio fidelity; only two anomalous 0‑star entries contain no negative criticism, so the combined show and recording quality merits a high rating."
+      "rationale": "All reviews praise both the musical performance and the audio quality; the show is highlighted as a rare early acoustic set with strong electric songs, leading to a high combined rating."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "unknown",
       "quality_rating": "excellent",
-      "technical_notes": "Very little hiss, crisp mix; reviewers call the sound quality excellent."
+      "technical_notes": "Very little hiss, clear mix; reviewers note excellent sound quality throughout the recording."
     },
     "show_quality": {
       "standout_songs": [
-        "All Around This World (Mason's tease)",
         "Good Lovin'",
-        "Love Light"
+        "Lovelight"
       ],
       "poor_songs": [],
-      "setlist_flow": "An unexpected acoustic mini‑set opens the show due to Phil being stuck in traffic, followed by a solid electric set that keeps the momentum high."
+      "setlist_flow": "The show opens with an unplanned acoustic set caused by Phil’s traffic delay, which adds a unique charm before transitioning into a strong electric second half; the flow is praised as both surprising and effective."
     },
     "band_member_comments": {
-      "Jerry": "Teases Wake Up Little Susie and admits he doesn’t know all the words; possibly plays pedal steel on some electric numbers.",
-      "Phil": "Late/stuck in traffic, prompting the ad‑hoc acoustic set; referenced as the “tall, skinny guy.”",
+      "Jerry": "His humor shines when he admits not knowing all the words to the Wake Up Little Susie tease; no specific criticism of his playing.",
+      "Phil": "Late due to traffic, prompting the acoustic set; no direct comments on his bass work.",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T02:23:49.625551+00:00",
+    "song_mentions": {
+      "Good Lovin'": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T18:57:09.432144+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-12-19.sbd.hanno.9183.sbeok.shnf"
   }

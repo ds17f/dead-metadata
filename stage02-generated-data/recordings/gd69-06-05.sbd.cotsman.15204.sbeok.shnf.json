@@ -16,40 +16,93 @@
   "high_ratings": 14,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard cassette with some hiss and flatness but overall good clarity captures a tight June‑69 Fillmore show highlighted by The Eleven, Dark Star and an epic Lovelight.",
-    "review": "The performance is consistently strong, with the band in fine form throughout; standout moments include a ferocious Me & My Uncle, a scorching Cryptical > Other One > Cryptical sandwich, a monster The Eleven, and a 25‑minute Lovelight that pushes the second set into legendary territory.  The soundboard cassette has noticeable tape hiss and occasional flat or pitch‑problem sections, but it remains listenable and conveys the excitement of this June ’69 run.",
+    "summary": "Good‑quality soundboard tape of a June ’69 Fillmore run, highlighted by a smoking Dark Star, The Eleven and an epic Lovelight.",
+    "review": "The recording is a decent soundboard capture – a little hissy and flat in places with a brief pitch wobble, but overall clear enough to enjoy the band's tight 1969 performance.  The show is consistently strong, with standout moments on Dark Star, The Eleven/Long Length, the Cryptical→Other One sandwich and an extended Lovelight that many reviewers call “smoking”.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.4,
+      "stars": 4.6,
       "confidence": "high",
-      "rationale": "The overwhelming majority of reviews are 4–5 stars praising the musical performance; recording issues are noted but not severe enough to outweigh the show quality."
+      "rationale": "The vast majority of reviews (11/15) are 5‑star, praising both the musical performance and the sound quality; only a few note minor audio flaws, yielding an overall high rating with strong reviewer consensus."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Hissy cassette source with a slightly flat tonal balance and an occasional pitch‑problem section; overall decent clarity and mix for a 1969 audience recording."
+      "technical_notes": "Hissy cassette tape with some flatness and one reported pitch problem near the end of the first set; otherwise clear for a 1969 board source, occasional suggestion to boost bass EQ."
     },
     "show_quality": {
       "standout_songs": [
         "The Eleven",
         "Dark Star",
-        "Lovelight (≈25 min)",
-        "Cryptical > Other One > Cryptical",
-        "China Cat > Sittin' in the Summer Sun",
-        "He Was a Friend of Mine",
-        "Me and My Uncle"
+        "Cryptical > The Other One > Cryptical",
+        "Turn On Your Love Light (Lovelight)",
+        "Friend of Mine",
+        "Me and My Uncle",
+        "Doin' That Rag",
+        "China Cat"
       ],
       "poor_songs": [],
-      "setlist_flow": "A tight, consistently high‑energy set that builds into a powerful second half; long improvisational jams flow smoothly, with The Eleven and Lovelight serving as the climactic peaks."
+      "setlist_flow": "The concert opens solidly with Morning Dew and Me & My Uncle, builds through a strong first set, then erupts in the second set where The Eleven, Dark Star and an extended Lovelight drive the energy to peak.  Overall pacing is tight and consistently high throughout."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly praised for his soaring guitar tone, flawless vocals and an 'other‑level' performance throughout the show.",
-      "Phil": "No explicit performance comments; one reviewer suggested adding a bit more bass on the EQ to balance the mix.",
+      "Jerry": "Multiple reviewers praise Jerry Garcia’s guitar tone and vocals, calling his playing ‘nailing it’, ‘on another level’, and noting perfect tone on Doin’ That Rag and Friend of Mine.",
+      "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T23:47:41.117494+00:00",
+    "song_mentions": {
+      "Doin' That Rag": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Eleven": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Dark Star": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cryptical": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "China Cat": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Friend of Mine": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Me and My Uncle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Turn On Your Love Light (Lovelight)": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Morning Dew": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T15:01:41.865813+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-06-05.sbd.cotsman.15204.sbeok.shnf"
   }

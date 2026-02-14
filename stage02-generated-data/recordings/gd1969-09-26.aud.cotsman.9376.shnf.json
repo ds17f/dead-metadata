@@ -16,23 +16,23 @@
   "high_ratings": 1,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Poor audience recording marred by tape‑reuse artifacts, though a few listeners find the performance life‑changing.",
-    "review": "The show is described by one reviewer as a life‑changing experience, but the recording itself suffers from obvious tape duplication issues that are audible on King Bee and midway through Death Don't. The source appears to be an audience tap with significant degradation, making it difficult to appreciate the music despite its emotional impact for some fans.",
+    "summary": "A tape plagued by bleed‑through issues, yet the music still moved at least one listener profoundly.",
+    "review": "The performance is described as life‑changing by a first‑time fan, but the recording itself suffers from obvious tape‑reuse artifacts that surface during King Bee and become unmistakable on Death Don't Have No Mercy. The source appears to be an audience cassette with poor fidelity, making the listening experience uneven.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 2.2,
       "confidence": "medium",
-      "rationale": "Three reviews show a split: one glowing 5‑star comment about the music versus two strongly negative ratings citing severe recording problems. The poor technical quality drags the overall rating down despite some enthusiasm for the performance."
+      "rationale": "Mixed reviewer sentiment: one enthusiastic 5‑star comment versus two negative ratings that focus on serious recording flaws; overall rating falls toward the lower end."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "poor",
-      "technical_notes": "Tape was used twice; audible bleed on King Bee and a clear duplication artifact at 6:12 of Death Don't. Overall muffled and inconsistent sound."
+      "technical_notes": "Tape was reused, causing audible bleed‑through of previous material (notably throughout King Bee and at 6:12 of Death Don't Have No Mercy). Sound is muffled and lacks clarity."
     },
     "show_quality": {
       "standout_songs": [],
       "poor_songs": [],
-      "setlist_flow": "No specific comments about set structure or pacing were provided."
+      "setlist_flow": "No specific comments on set structure or pacing were provided in the reviews."
     },
     "band_member_comments": {
       "Jerry": "",
@@ -41,7 +41,19 @@
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T01:22:04.036711+00:00",
+    "song_mentions": {
+      "King Bee": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Death Don't Have No Mercy": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T17:20:00.402809+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-09-26.aud.cotsman.9376.shnf"
   }

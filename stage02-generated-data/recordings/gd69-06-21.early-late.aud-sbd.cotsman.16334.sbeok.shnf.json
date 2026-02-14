@@ -16,43 +16,93 @@
   "high_ratings": 7,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Muddy audience recording of the first set contrasts with a crisp soundboard second half; classic early‑Dead acoustic/ country vibe shines with standout China Cat Sunflower, Old Old House and a smoking King Bee.",
-    "review": "The show captures an intriguing transitional period for the Dead – a mellow, pedal‑steel‑laden first set that suffers from a very muddy audience tape, followed by a crystal‑clear soundboard second set that delivers classic performances of China Cat Sunflower, Old Old House and a smoking King Bee. Reviewers rave about Jerry’s pedal‑steel work and the rare acoustic moments, while noting that the poor first‑set audio makes the overall listening experience mixed.",
-    "sentiment": "mixed",
+    "summary": "A muddy audience‑recorded first set is redeemed by a crisp soundboard second half that showcases classic performances of Old Old House, King Bee and a wild China Cat Sunflower.",
+    "review": "The show is celebrated for its historic setlist – from the pedal‑steel‑laden Green Green Grass of Home to the incendiary China Cat Sunflower and rare renditions of Old Old House and King Bee. While the first set suffers from a muddy audience tape, the second half shines with crystal‑clear soundboard audio, making the overall experience highly rewarding for Deadheads.",
+    "sentiment": "positive",
     "ai_rating": {
-      "stars": 3.6,
-      "confidence": "medium",
-      "rationale": "Strong musical highlights and historic value boost the rating, but inconsistent recording quality (muddy audience tape vs. crisp soundboard) drags it down; overall sentiment is mixed."
+      "stars": 4.3,
+      "confidence": "high",
+      "rationale": "Most reviewers praise the musical performance and highlight several standout songs despite consistent complaints about the first‑set recording quality; the strong second‑set soundboard balances the overall rating."
     },
     "recording_quality": {
       "source_type": "matrix",
       "quality_rating": "fair",
-      "technical_notes": "First set is an audience tape – very muddy and almost unlistenable. Second set is a clean, crisp soundboard recording but the overall release is incomplete and uneven."
+      "technical_notes": "First set is an audience tape that is very muddy and often described as unlistenable. The second set is a crisp, clear soundboard recording but is incomplete; overall the mix of sources yields a mixed‑quality experience."
     },
     "show_quality": {
       "standout_songs": [
-        "Green Green Grass of Home",
         "Old Old House",
         "King Bee",
         "China Cat Sunflower",
-        "Dire Wolf",
-        "Alligator",
         "The Other One",
-        "Cosmic Charlie",
+        "High Time",
         "Mama Tried",
-        "High Time"
+        "Dire Wolf",
+        "Cosmic Charlie"
       ],
       "poor_songs": [],
-      "setlist_flow": "Begins with a country‑rock acoustic feel (pedal steel, Green Green Grass) that transitions into psychedelic jams via China Cat Sunflower. The second set maintains the high energy and features rare acoustic/partial sets, making it the highlight despite the first half’s audio issues."
+      "setlist_flow": "The early acoustic/ country‑flavored portion (Green Green Grass, Me & My Uncle, High Time) gives way to a psychedelic surge with China Cat Sunflower, then the second set lifts in both energy and sound quality, delivering rare jams and strong vocal performances."
     },
     "band_member_comments": {
-      "Jerry": "Praised for pedal‑steel work and soaring guitar on China Cat Sunflower; described as “ripping” and taking the jam to another level.",
+      "Jerry": "Praised for his pedal‑steel work and soaring lead guitar, especially on China Cat Sunflower and Morning Dew.",
       "Phil": "",
-      "Bob": "Noted singing lead on Dire Wolf and involvement in acoustic moments.",
+      "Bob": "Highlighted for singing Dire Wolf (and sharing lead vocals on High Time).",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-11T00:14:49.110561+00:00",
+    "song_mentions": {
+      "Green Green Grass of Home": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Old Old House": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "King Bee": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "High Time": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Mama Tried": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dire Wolf": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Me and My Uncle": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T15:43:17.449036+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-06-21.early-late.aud-sbd.cotsman.16334.sbeok.shnf"
   }

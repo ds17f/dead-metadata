@@ -16,41 +16,87 @@
   "high_ratings": 7,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A crisp soundboard capture of a legendary first set (Dancin', He Was A Friend Of Mine → China Cat → New Potato Caboose) tempered by a second set marred by dosed playing and weak Lovelight vocals.",
-    "review": "The Miller‑sourced soundboard tape is generally clear and well‑balanced, though listeners note pitch‑speed quirks on “Dancing in the Street” and occasional low‑level mics. Musically the show shines in the opening half – a high‑energy “Dancin’”, a soaring “He Was A Friend Of Mine” segue into “China Cat Sunflower” and a breathtaking final New Potato Caboose – while the later portion drifts, with Wayne Ceballos’s Lovelight vocals and a dosed vibe pulling down the momentum. Overall the performance is celebrated for its historic first‑set magic despite an uneven second half.",
+    "summary": "Soundboard source with minor pitch quirks captures a dazzling first set (Dancin', He Was A Friend of Mine, China Cat Sunflower, New Potato Caboose) while the second‑set Lovelight drags.",
+    "review": "The upgraded soundboard transfer is generally clear and well balanced, though listeners note a slight speed/pitch error on the opening Dancing in the Street that needs correction. Musically the show shines in its first half – Jerry’s vocal work, Phil’s wild bass chords and the seamless China Cat → New Potato Caboose flow are repeatedly praised – but the guest‑led Lovelight portion of the second set is widely regarded as a low point.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.0,
       "confidence": "high",
-      "rationale": "The majority of reviews (7 out of 10) are highly positive, praising the first set and overall recording quality; a few note serious performance flaws in the second set and one extreme negative review, yielding a strong but not flawless rating."
+      "rationale": "Average star rating across nine reviews is 4.0; most reviewers are enthusiastic about the performance and sound quality, with only a few strong negative comments."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Crisp and well‑mixed overall; minor pitch/speed errors on “Dancing in the Street”, occasional low vocal mic (Wayne C.) and a few background bleed, but no major dropouts."
+      "technical_notes": "Clear, well‑balanced SBD transfer but suffers from a slight pitch/speed error on Dancing (requires +1–2% correction) and occasional low guest vocal levels."
     },
     "show_quality": {
       "standout_songs": [
-        "Dancing in the Street",
-        "He Was A Friend Of Mine",
+        "Dancin' in the Street",
+        "He Was A Friend of Mine",
         "China Cat Sunflower",
         "New Potato Caboose",
-        "Cryptical Envelopment > The Other One > Cosmic Charlie"
+        "Cosmic Charlie"
       ],
       "poor_songs": [
-        "Lovelight (Wayne Ceballos vocals)",
-        "The Other One (restrained compared to earlier jams)"
+        "Lovelight"
       ],
-      "setlist_flow": "First set is tight, energetic and full of classic transitions; second set becomes uneven due to heavy dosing, guest musicians and a weak Lovelight segment, ending with a modest but coherent Cosmic Charlie."
+      "setlist_flow": "First set is tight, psychedelic and full of memorable transitions; second set is uneven due to guest‑driven Lovelight but recovers with the Cryptical Envelopment → The Other One → Cosmic Charlie sequence."
     },
     "band_member_comments": {
-      "Jerry": "His vocal performance on “He Was A Friend Of Mine” and the Dancin’ outro is praised as hauntingly beautiful; guitar work highlighted for an expressive volume‑knob solo, though he appears to sit out early due to dosing.",
-      "Phil": "Bass tone described as ‘crazy’, with unique chord voicings and a standout “Patricia jam”; overall bass work considered one of the show’s high points.",
-      "Bob": "Provides strong three‑part harmonies on the first set, especially on “He Was A Friend Of Mine”, adding depth to the vocal texture.",
-      "Keys": "Guest keyboardists (Walker’s band members) appear in the second set; overall keyboard contribution noted as competent despite the chaotic environment.",
-      "Drums": "Billy Nicks (guest drummer) is mentioned for the second‑set drum solo; primary drumming described as solid throughout."
+      "Jerry": "Praised for expressive vocals (especially on He Was A Friend of Mine) and dynamic guitar tone, though a few note his voice creaking late in Dancin' and occasional out‑of‑tune moments.",
+      "Phil": "Highlighted for wild bass chords, blazing tone, and unique “Patricia” jam during New Potato Caboose; several reviewers call his playing a peak of the night.",
+      "Bob": "Noted for sweet three‑part harmonies on He Was A Friend of Mine and overall vocal support.",
+      "Keys": "",
+      "Drums": ""
     },
-    "processed_date": "2025-09-10T23:59:34.358448+00:00",
+    "song_mentions": {
+      "Dancin' in the Street": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "He Was A Friend of Mine": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "New Potato Caboose": {
+        "positive_mentions": 5,
+        "negative_mentions": 1,
+        "total_mentions": 6
+      },
+      "Lovelight": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "TOO > Cosmic": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cryptical Envelopment": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T15:22:11.625841+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1969-06-08.123986.sbd.miller.flac16"
   }

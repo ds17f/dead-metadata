@@ -16,36 +16,64 @@
   "high_ratings": 1,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "A monumental Other One performance captured on a soundboard tape that shines early but loses fidelity after New Potato, with Bob’s guitar buried in the mix.",
-    "review": "The show is hailed as one of the fiercest renditions of The Other One ever recorded, highlighted by an electrifying Cryptical > TOO sequence and a tight Caution > Feedback > Goodnight segue. Recording quality is solid at the start but deteriorates sharply after New Potato, leaving much of Bob Weir’s guitar buried in the mix. Despite the technical drop‑off, reviewers consider the musical performance outstanding.",
+    "summary": "Monumental The Other One shines while the sound drops after New Potato and Bob's guitar is buried in the mix.",
+    "review": "The performance is hailed as ferocious and almost mythic, especially the towering The Other One and the crisp Caution > Feedback > Goodnight sequence. Recording quality deteriorates sharply after New Potato Caboose and leaves Bob Weir’s guitar buried, but the early portion and key moments are still a treasure for any Deadhead.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.5,
+      "stars": 4.6,
       "confidence": "medium",
-      "rationale": "The single detailed review gives a perfect show rating (5) but notes significant recording degradation after the first half; weighting 70% show and 30% recording yields an overall ~4.5‑star rating."
+      "rationale": "The show is described as exceptional with several standout performances; recording quality is mixed, dropping after the first half, but overall enjoyment remains very high."
     },
     "recording_quality": {
-      "source_type": "soundboard",
+      "source_type": "unknown",
       "quality_rating": "fair",
-      "technical_notes": "Clear and balanced early in the set, but sound quality plummets after New Potato; Bob Weir’s guitar is largely buried in the mix for much of the recording."
+      "technical_notes": "Sound quality plummets right after New Potato starts; Bob Weir's guitar is largely buried in the mix, though Caution>Feedback>Goodnight sound clear."
     },
     "show_quality": {
       "standout_songs": [
-        "Cryptical Envelopment > The Other One",
         "The Other One",
-        "Caution > Feedback > Goodnight"
+        "Caution",
+        "Feedback",
+        "Goodnight"
       ],
       "poor_songs": [],
-      "setlist_flow": "First half holds up well sonically, then recording fades; musically the set is praised for its ferocious The Other One and seamless segues like Cryptical>TOO and Caution>Feedback>Goodnight."
+      "setlist_flow": "A powerful first half gives way to an explosive The Other One, followed by a clean‑sounding Caution > Feedback > Goodnight segment; overall flow is praised for its creative interplay and intensity."
     },
     "band_member_comments": {
-      "Jerry": "Described as delivering a ferocious, monumental performance; interplay with Lesh called off‑the‑charts brilliant.",
-      "Phil": "Praised for brilliant creative interplay with Garcia throughout the show.",
-      "Bob": "His guitar is noted as being mostly buried in the mix, though not a complaint from the reviewer.",
+      "Jerry": "Creative interplay between Garcia and the band described as off‑the‑charts brilliant.",
+      "Phil": "Lesh’s bass work highlighted as part of the ferocious, monumental performance.",
+      "Bob": "Bob Weir's guitar is noted as mostly buried in the mix, though not criticized for his playing.",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T20:13:02.999910+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Caution": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Feedback": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Goodnight": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "New Potato": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T09:48:15.455162+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1968-11-01.sbd.kaplan.20008.sbeok.shnf"
   }

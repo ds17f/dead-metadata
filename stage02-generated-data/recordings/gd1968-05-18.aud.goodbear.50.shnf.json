@@ -16,35 +16,41 @@
   "high_ratings": 5,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Fluctuating audience tape captures a high‑energy early‑68 set with blistering jams like Alligator, despite rough sound quality.",
-    "review": "The recording is an audience (aud) source that suffers from clipping, distortion and volume swings, making Pigpen’s vocals hard to hear. Musically the show shines – a wild, high‑octane early‑1968 performance with searing jams such as Alligator and the classic “Mountain Jam” riff that epitomizes the band’s pre‑Anthem‑of‑the‑Sun era.",
+    "summary": "A wildly energetic early‑'68 set captured on a low‑fi audience tape that fluctuates in quality but still delivers classic jams like the Mountain Jam riff.",
+    "review": "The performance is praised for its raw, high‑energy jamming and Jerry Garcia’s “pure electricity” after the drum break, with highlights such as the recurring Mountain Jam riff. Recording-wise the audience tape is uneven – it clips, distorts and often drowns out Pigpen’s vocals – but listeners deem the musical essence worth the sonic flaws.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.4,
       "confidence": "high",
-      "rationale": "Reviewers overwhelmingly praise the performance (5‑star ratings) and cite standout jams, while noting only moderate recording flaws that do not outweigh the musical strength."
+      "rationale": "All five substantive reviews award 5 stars for the show despite noting poor recording quality; the weighted average (70 % show + 30 % tape) yields a high rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Bad quality with clipping/distortion; sound level fluctuates heavily; Pigpen’s vocal barely audible; overall listenable despite issues."
+      "technical_notes": "Clipping and distortion are noted, Pigpen’s vocals often inaudible, and the sound quality fluctuates throughout the set."
     },
     "show_quality": {
       "standout_songs": [
-        "Alligator",
-        "\"Mountain Jam\" riff (early‑68 jam style)"
+        "Mountain Jam"
       ],
       "poor_songs": [],
-      "setlist_flow": "Raw, high‑energy early‑1968 set that leans heavily on extended jams and a wild, primal Dead vibe; the performance builds to an intense climax with feedback fading into a cymbal tap."
+      "setlist_flow": "Early‑'68 wild, hairy performance with nonstop high‑energy jams; the set builds to a climactic feedback finish after the drum break."
     },
     "band_member_comments": {
-      "Jerry": "Described as \"pure electricity\" on Alligator after drums.",
+      "Jerry": "Described as \"pure electricity\" on the Alligator segment and generally praised for his intense playing.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
-      "Drums": ""
+      "Drums": "Mentioned in context of the drum break that leads into Jerry’s high‑energy section."
     },
-    "processed_date": "2025-09-10T19:14:20.000323+00:00",
+    "song_mentions": {
+      "Mountain Jam": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T08:20:09.744351+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1968-05-18.aud.goodbear.50.shnf"
   }

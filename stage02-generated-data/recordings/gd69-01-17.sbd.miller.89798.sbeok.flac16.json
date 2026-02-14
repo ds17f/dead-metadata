@@ -16,41 +16,77 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Soundboard recording of the January 17 1969 show is clean and crisp, capturing a stellar early‑'69 set highlighted by a soaring Dark Star and superb The Eleven.",
-    "review": "This Charlie Miller soundboard capture presents a vivid snapshot of the Dead’s breakthrough year – Jerry’s guitar is described as “god‑like,” the band locks into an expansive Dark Star, and The Eleven shines with tight yet free interplay. The mix is clear with a slightly forward bass drum, and the tape has been pitch‑corrected to restore the original tempo, though a few listeners note Lovelight feels a touch slow and Cosmic Charlie runs ragged.",
+    "summary": "High‑quality soundboard capture of an early‑1969 show with a soaring Dark Star, powerful The Eleven and Death Don't Have No Mercy, despite a slightly slow Lovelight and a messy Cosmic Charlie.",
+    "review": "The recording is clean and well‑mixed (soundboard) with a prominent bass drum but overall excellent clarity; the pitch correction restores the original tempo. Musically the show shines on Dark Star, The Eleven, Death Don't Have No Mercy and The Other One, while Lovelight feels a touch slow and Cosmic Charlie is uneven. Jerry’s guitar work is repeatedly called “god‑like,” Phil’s bass lines stand out, and Tom Constanten’s keyboards sit low in the mix.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.5,
       "confidence": "high",
-      "rationale": "The overwhelming majority of reviews are 5‑star, praising the performance and noting only minor recording quirks; the show is consistently called one of the best early‑'69 dates, yielding a high combined rating."
+      "rationale": "The majority of reviews are 4‑5 stars, praising both performance (especially Dark Star and Jerry’s playing) and recording quality; only a few minor criticisms keep the rating from being higher."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Clean mix with crisp snare and clear vocals; bass drum is prominent (Mickey Hart) but not objectionable. Tape has been pitch‑corrected to A=440, fixing earlier speed issues. No major dropouts or distortion reported."
+      "technical_notes": "Clean mix with crisp snare, prominent bass drum (Mickey), occasional cross‑fade smoothing; pitch‑corrected to original A=440 so tempo and pitch are accurate."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "The Eleven",
-        "St Stephen",
         "Death Don't Have No Mercy",
         "The Other One"
       ],
       "poor_songs": [
-        "Turn On Your Love Light (tempo feels a tad slow)",
-        "Cosmic Charlie (described as messy by some)"
+        "Cosmic Charlie",
+        "Turn On Your Love Light"
       ],
-      "setlist_flow": "Early‑'69 set builds from the fresh, exploratory Dark Star into tight group improvisations on The Eleven and St Stephen, with high energy peaks in Death Don't Have No Mercy and a wild ending on Cosmic Charlie; overall pacing is praised despite the slightly slower Lovelight."
+      "setlist_flow": "Early‑1969 set flows seamlessly, with a high‑energy first half and a second half that builds into an epic Dark Star; the occasional slower Lovelight is seen as part of the show’s charm."
     },
     "band_member_comments": {
-      "Jerry": "Repeatedly called “god‑like” with phenomenal tone and phrasing; his playing on Dark Star is highlighted as a major leap forward.",
-      "Phil": "Bass work noted as prominent and enjoyable; his fingerprints are especially evident on Cosmic Charlie and the bass riffs throughout.",
-      "Bob": "Weir’s vocal lines quoted (“They say that is all there is…”); no specific criticism, generally supportive of his rhythm guitar and vocals.",
-      "Keys": "Tom Constanten (TC) present but not prominent; reviewers feel his keyboards are “over‑thought” and still finding a voice in this era.",
-      "Drums": "Mickey Hart’s bass drum sits high in the mix; snare drums are crisp and well captured, with no major issues noted."
+      "Jerry": "Repeatedly praised as god‑like; phenomenal tone, phrasing and improvisational flow.",
+      "Phil": "Bass riffs are highlighted as prominent and characteristic; his fingerprints are heard throughout.",
+      "Bob": "",
+      "Keys": "Tom Constanten’s keyboards are noted as low in the mix and not fully developed yet.",
+      "Drums": "Mickey Hart's bass drum is loud/present, snare crisp; overall solid percussion."
     },
-    "processed_date": "2025-09-10T20:44:36.548216+00:00",
+    "song_mentions": {
+      "Dark Star": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Turn On Your Love Light": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      },
+      "St. Stephen": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Eleven": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Death Don't Have No Mercy": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Cosmic Charlie": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "total_mentions": 4
+      }
+    },
+    "processed_date": "2025-09-24T10:18:39.938974+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-01-17.sbd.miller.89798.sbeok.flac16"
   }

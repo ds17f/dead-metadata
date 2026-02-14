@@ -16,39 +16,89 @@
   "high_ratings": 41,
   "low_ratings": 3,
   "ai_review": {
-    "summary": "Studio‑quality soundboard capture of a monster Fillmore West ’69 show – incendiary Eleven, soaring Alligator > Caution jam and a legendary Dark Star sequence.",
-    "review": "The recording is essentially studio‑like, pulled from the same tapes used for the Live/Dead album, delivering crystal‑clear mix and full band balance. Musically the concert is often called the “beast” of the Fillmore run, with a second set that strings together a scorching Eleven, an all‑out Alligator > Caution > Feedback > And We Bid You Goodnight jam, plus a powerful Dark Star/St. Stephen segment and a searing Lovelight. Reviewers rave about the seamless transitions, the “greatest‑hits” setlist, and the peak performances of Garcia’s guitar tone and Phil’s bass lock‑step.",
+    "summary": "Studio‑like soundboard capture of a legendary Fillmore West ’69 show, highlighted by a monster Eleven, scorching Alligator > Caution jam and an unforgettable Dark Star.",
+    "review": "The recording is a pristine sound‑board source that rivals studio quality, though a few releases suffer from reversed stereo channels and minor patch glitches. Musically the performance is near mythic – the setlist reads like a greatest‑hits marathon with The Eleven, Dark Star, Alligator > Caution, Lovelight and The Other One delivering jaw‑dropping moments that most reviewers call “the best of ’69.”",
     "sentiment": "positive",
     "ai_rating": {
       "stars": 4.7,
       "confidence": "high",
-      "rationale": "Over 30 detailed reviews overwhelmingly rate the show 5 stars, praising both performance and recording; only a single moderate review notes minor mastering quirks, so the combined weight of show (70%) and recording (30%) yields an excellent overall rating."
+      "rationale": "Over thirty reviews overwhelmingly rate the show 5 stars, praising both performance and audio; only one low‑rating comment notes technical anomalies, so the combined show (70%) + recording (30%) score is very high."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Studio‑like clarity from the Live/Dead tapes; crisp, well‑balanced mix. One reviewer notes a channel reversal and slight patch timing issues in the master, but these do not detract from overall superb sound."
+      "technical_notes": "Crisp, studio‑like clarity; full mix with great instrument separation. A few releases have the left/right channels swapped and minor patch/pitch quirks on Dark Star and Alligator jams."
     },
     "show_quality": {
       "standout_songs": [
         "The Eleven",
-        "Alligator > Caution > Feedback > And We Bid You Goodnight jam",
-        "Dark Star > St. Stephen",
+        "Dark Star > St. Stephen > The Eleven",
+        "Alligator > Caution (jam)",
         "Lovelight",
+        "The Other One",
         "Doin' That Rag",
         "King Bee"
       ],
-      "poor_songs": [],
-      "setlist_flow": "A “greatest‑hits” progression that builds to a monster second set; transitions are seamless (Cryptical > Too > Cryptical, Other One into Dark Star, etc.), delivering relentless energy from start to finish."
+      "poor_songs": [
+        "St. Stephen"
+      ],
+      "setlist_flow": "Fans rave about the seamless segues – Cryptical Envelopment > The Other One > Cryptical into Dark Star, then the marathon Alligator‑>Caution sequence – making the set feel like a perfectly crafted psychedelic suite."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s tone is repeatedly praised – especially on Lovelight and throughout the Eleven and jam sections.",
-      "Phil": "Phil’s bass work is highlighted as “lock‑step” with Jerry during the Eleven, delivering an intense, interwoven groove.",
-      "Bob": "Bob’s rhythm guitar and vocals are noted as solid foundations, though not singled out for extraordinary moments.",
+      "Jerry": "Garcia’s tone on Lovelight and his lead throughout the Eleven are repeatedly called “perfect” and “mind‑blowing.”",
+      "Phil": "Phil’s bass is described as “insane,” especially during Stephen and the Eleven, where he locks in with Jerry.",
+      "Bob": "",
       "Keys": "",
-      "Drums": "Mickey Hart’s drumming drives the extended jams (Alligator, Caution, Feedback) with power and precision."
+      "Drums": "Bill and Mickey receive praise for tight interplay; one reviewer notes the left/right channel reversal but otherwise the drum work is praised as powerful."
     },
-    "processed_date": "2025-09-10T21:48:00.610940+00:00",
+    "song_mentions": {
+      "The Eleven": {
+        "positive_mentions": 12,
+        "negative_mentions": 0,
+        "total_mentions": 12
+      },
+      "Dark Star > St. Stephen > The Eleven": {
+        "positive_mentions": 10,
+        "negative_mentions": 1,
+        "total_mentions": 11
+      },
+      "Alligator > Caution": {
+        "positive_mentions": 9,
+        "negative_mentions": 0,
+        "total_mentions": 9
+      },
+      "Lovelight": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "The Other One": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "Doin' That Rag": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "King Bee": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "St. Stephen": {
+        "positive_mentions": 5,
+        "negative_mentions": 1,
+        "total_mentions": 6
+      },
+      "Cryptical Envelopment > The Other One > Cryptical": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      }
+    },
+    "processed_date": "2025-09-24T12:01:02.284983+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-02-28.sbd.16track.kaplan.3397.sbeok.shnf"
   }

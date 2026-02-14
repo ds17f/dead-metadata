@@ -16,39 +16,64 @@
   "high_ratings": 9,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a 1969 Avalon show highlighted by a thunderous New Potato Caboose and a mellow Dark Star, despite a power‑cut ending Lovelight.",
-    "review": "The recording delivers clear, well‑balanced sound typical of an SBD source, letting the band’s 1969 fire shine through. Reviewers rave about the extended, earth‑shaking Phil Lesh solo on New Potato Caboose and appreciate the unusually mellow Dark Star with its false‑start, while noting a brief power outage that cuts Lovelight short.",
+    "summary": "High‑quality soundboard capture of the Jan 24 1969 Avalon show, highlighted by an earth‑shaking New Potato Caboose and a standout Dark Star.",
+    "review": "The recording delivers clear, well‑balanced soundboard audio that lets listeners hear every nuance of the band’s 1969 fire. Musically the night is defined by a thunderous Phil Lesh solo on New Potato Caboose, an exploratory Dark Star, and a dramatic power‑cut during Lovelight, making it a memorable entry in the early‑’69 canon.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.3,
+      "stars": 4.2,
       "confidence": "high",
-      "rationale": "Most reviewers give 4–5 stars and praise the musical performance (especially New Potato Caboose) while noting generally good soundboard quality with only minor mix quirks."
+      "rationale": "The majority of reviews (9/12) give 4‑5 stars and praise both performance (especially New Potato Caboose, Dark Star and Lovelight) and sound quality; only a few note minor mix issues, yielding an overall strong rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "good",
-      "technical_notes": "Instruments and vocals are clear and well‑placed; a few reviewers mention the opening mix being a bit harsh, but overall the SBD capture is solid. The power failure at the end of Lovelight is an intentional performance issue, not a recording flaw."
+      "technical_notes": "Multiple reviewers call the audio clear, well‑placed and “excellent,” though one notes the mix is rough at the start and early multitrack quirks are present. Overall the soundboard capture is listenable and lets the instruments shine."
     },
     "show_quality": {
       "standout_songs": [
         "New Potato Caboose",
         "Dark Star",
-        "The Other One",
-        "Dupree's Diamond Blues"
+        "Lovelight",
+        "The Other One"
       ],
-      "poor_songs": [
-        "Lovelight (cut short by power outage)"
-      ],
-      "setlist_flow": "Jam‑heavy early set with a false‑start Dark Star, a soaring New Potato Caboose that puts Phil in the ‘Phil Zone’, solid Other One and Dupree's, ending abruptly when management pulls the power during Lovelight."
+      "poor_songs": [],
+      "setlist_flow": "The set flows through a powerful New Potato Caboose, a meandering but compelling Dark Star, and ends abruptly when management pulls the power during Lovelight—Mickey and Bill keep things moving, adding to the night’s legend."
     },
     "band_member_comments": {
-      "Jerry": "His guitar work is praised for amazing jamming after Phil’s lead and overall tone.",
-      "Phil": "Thunderous, extended solo on New Potato Caboose; highlighted as one of his best lead moments.",
+      "Jerry": "Garcia’s improvisational jamming after New Potato is praised as “amazing,” with his solo described as “symphonic” and “beautiful.”",
+      "Phil": "Lesh’s solo on New Potato Caboose is repeatedly called thunderous, earth‑shaking, and the highlight of the show; reviewers refer to it as entering the “Phil Zone.”",
       "Bob": "",
       "Keys": "",
-      "Drums": "Mickey & Bill keep the groove alive after the power cut, adding energy to the abrupt ending."
+      "Drums": "Mickey Hart (and Bill Kreutzmann) are noted for stirring things up after the power cut, keeping the rhythm alive despite the outage."
     },
-    "processed_date": "2025-09-10T20:50:12.493690+00:00",
+    "song_mentions": {
+      "New Potato Caboose": {
+        "positive_mentions": 7,
+        "negative_mentions": 0,
+        "total_mentions": 7
+      },
+      "Dark Star": {
+        "positive_mentions": 4,
+        "negative_mentions": 0,
+        "total_mentions": 4
+      },
+      "Lovelight": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Dupree's Diamond Blues": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "total_mentions": 0
+      }
+    },
+    "processed_date": "2025-09-24T10:28:35.117998+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-01-24.sbd.kaplan.7922.sbeok.shnf"
   }

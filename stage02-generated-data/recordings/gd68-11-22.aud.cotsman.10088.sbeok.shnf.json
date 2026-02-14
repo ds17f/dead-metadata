@@ -16,37 +16,53 @@
   "high_ratings": 6,
   "low_ratings": 4,
   "ai_review": {
-    "summary": "Muddy ’68 audience recording of a legendary show, but Jerry’s searing guitar and an epic Dark Star make it worth the effort.",
-    "review": "The performance is widely praised – Jerry rip‑off his solos, Dark Star and Morning Dew soar, and the band plays with that rare ‘68 energy despite a tiny audience. The AUD source is notoriously muddy and thin, especially in the early songs, though later tracks like Lovelight improve slightly; a recent remaster has softened the worst of the hiss. Overall it’s a classic Dead show that listeners endure for the music.",
+    "summary": "Muddy audience recording of an epic late‑68/early‑69 show, highlighted by a searing Morning Dew and classic Dark Star.",
+    "review": "The performance is widely praised – Jerry’s guitar is described as on fire, the band rides a powerful Dark Star and delivers a top‑notch Morning Dew, with New Potato adding extra sparkle. The AUD source is notoriously muffled and lacking clarity, though recent remastering has warmed it up enough to be listenable.",
     "sentiment": "mixed",
     "ai_rating": {
-      "stars": 3.9,
-      "confidence": "medium",
-      "rationale": "Show quality is consistently rated high (4‑5 stars) while recording quality is repeatedly called poor/muddy (2‑3 stars). Weighted combination yields a near‑4‑star overall rating."
+      "stars": 3.6,
+      "confidence": "high",
+      "rationale": "Reviews consistently laud the musical performance (≈4/5) while repeatedly criticizing the audience‑recording quality (≈2½/5). Weighted combination yields a mid‑range rating."
     },
     "recording_quality": {
       "source_type": "audience",
       "quality_rating": "fair",
-      "technical_notes": "Typical 1968 AUD tape – muffled, muddy, limited clarity and bass definition; occasional improvement on later songs (e.g., Lovelight). Recent remaster improves warmth but cannot fully eliminate hiss."
+      "technical_notes": "Muffled, muddy and limited clarity typical of 1968 AUD tapes; some reviewers note occasional improvement after remastering but overall the sound remains poor compared to soundboard sources."
     },
     "show_quality": {
       "standout_songs": [
-        "Dark Star",
         "Morning Dew",
-        "New Potato Caboose",
-        "Lovelight"
+        "Dark Star",
+        "New Potato"
       ],
       "poor_songs": [],
-      "setlist_flow": "High‑energy opening despite a tiny hall, strong mid‑set with Jerry’s guitar on fire, and an extended Dark Star that showcases Mickey's solo drumming; the show feels like a pivotal late‑summer ’68 performance."
+      "setlist_flow": "Early‑era set with high energy, improvisational guitars and driving drums; the show builds from a strong opener into extended jams, maintaining momentum despite the small audience."
     },
     "band_member_comments": {
-      "Jerry": "Described as searing‑hot, ripping solos, both snarling and caressing; highlights on Morning Dew and Dark Star.",
-      "Phil": "Bass sometimes muddled in the recording but overall solid playing; noted in Phil Lesh’s book for feeling ‘right.’",
+      "Jerry": "Repeatedly praised for searing, on‑fire guitar work and powerful solos throughout the night.",
+      "Phil": "Bass is noted as sometimes muddled; his commentary on the show appears in Phil Lesh’s book.",
       "Bob": "",
-      "Keys": "Limited keyboard presence – organ barely audible; Tom Constanten’s first show mentioned but not heard clearly.",
-      "Drums": "Mickey on drums alone (Billy absent), delivering powerful, straight‑ahead percussion that defines the show’s unique feel."
+      "Keys": "Keyboards are described as limited or background (Pigpen’s organ low on mix); Tom Constanten may have been present but not audible.",
+      "Drums": "Conflicting reports: some say both Mickey and Bill played, others claim Billy was absent – Mickey’s power percussion is highlighted as a driving force."
     },
-    "processed_date": "2025-09-10T20:15:38.437217+00:00",
+    "song_mentions": {
+      "Morning Dew": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "New Potato": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T09:51:22.915433+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd68-11-22.aud.cotsman.10088.sbeok.shnf"
   }

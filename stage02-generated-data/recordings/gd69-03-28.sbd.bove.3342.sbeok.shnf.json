@@ -16,42 +16,78 @@
   "high_ratings": 13,
   "low_ratings": 0,
   "ai_review": {
-    "summary": "Excellent soundboard capture of a scorching 1969 Modesto show featuring a monster Dark Star, fiery St. Stephen and blistering Death Don't Have No Mercy.",
-    "review": "The recording is a pristine sound‑board source that delivers the warm tube‑amp character of March ’69 with crystal‑clear instrument separation. Musically the performance is often cited as one of the band’s early peaks – a raging St. Stephen, a smoking Eleven, an epic Dark Star and two searing solos on Death Don't Have No Mercy, plus a wild Other One to close. Reviewers rave about the overall pacing and the vivid energy that still feels fresh after decades.",
+    "summary": "Excellent soundboard recording of a surprisingly solid 1969 show highlighted by a smoking Dark Star and powerful Death Don't Have No Mercy.",
+    "review": "Fans rave about the crystal‑clear, tube‑amp rich sound that captures the band at a creative peak. The performance shines with standout versions of St. Stephen, Eleven, Dark Star, Death Don't Have No Mercy and an electrifying Other One, while occasional raggedness in St. Stephen and a modest Lovelight keep things grounded. Overall it’s a must‑listen for any Deadhead who loves the early ’69 era.",
     "sentiment": "positive",
     "ai_rating": {
-      "stars": 4.6,
+      "stars": 4.7,
       "confidence": "high",
-      "rationale": "Consistently high star ratings (mostly 4‑5) and enthusiastic comments about both performance and sound quality indicate a top‑tier show with an excellent recording."
+      "rationale": "Average reviewer rating ~4.7/5, overwhelmingly positive comments on both musical performance and audio fidelity; over ten detailed reviews provide strong consensus."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "excellent",
-      "technical_notes": "Reviewers describe the audio as crisp, warm and “tube‑amp” rich; vintage hiss is present but adds authenticity. A few note slight fuzziness or occasional loud harmonica, but overall the mix is superb and highly listenable."
+      "technical_notes": "Crisp, vivid sound with a warm tube‑amp character. Slight tape hiss and occasional fuzzy texture add vintage authenticity but do not detract from overall clarity."
     },
     "show_quality": {
       "standout_songs": [
-        "St. Stephen",
-        "Eleven",
         "Dark Star",
         "Death Don't Have No Mercy",
-        "Other One"
+        "St. Stephen",
+        "Eleven",
+        "The Other One"
       ],
       "poor_songs": [
-        "St. Stephen (a bit ragged for some)",
-        "Lovelight (not exceptional)",
-        "Eleven (cut short at the end)"
+        "St. Stephen (ragged in one review)",
+        "Lovelight"
       ],
-      "setlist_flow": "The set flows with a high‑energy opening (St. Stephen → Eleven → Death), a deep, exploratory Dark Star in the middle, and a fiery finish with Other One. Reviewers note tight pacing, minimal breaks and an overall sense of momentum that keeps the listener engaged."
+      "setlist_flow": "Early set delivers rock‑tight St. Stephen and Eleven, mid‑show dives into the expansive Dark Star and Death Don't, and the second half caps off with a fiery Other One; pacing is praised as well‑balanced and engaging."
     },
     "band_member_comments": {
-      "Jerry": "Garcia’s SG tone is described as rich, full‑bodied, ‘fat’ and “wild” – multiple hot solos on Dark Star, Death Don't and Other One.",
+      "Jerry": "Repeatedly lauded for his rich, fat Gibson SG tone, soaring solos on Dark Star and Death Don't, and overall guitar wizardry.",
       "Phil": "",
       "Bob": "",
-      "Keys": "Pigpen’s harmonica shines on Schoolgirl (though a bit loud in the mix) and adds to the early‑69 vibe.",
-      "Drums": "The drumming on Other One is highlighted as great, driving the intense climax."
+      "Keys": "Pigpen's harmonica on Schoolgirl highlighted as excellent; keyboards not otherwise mentioned.",
+      "Drums": "Great drumming noted especially during the Other One."
     },
-    "processed_date": "2025-09-10T22:06:05.773943+00:00",
+    "song_mentions": {
+      "St. Stephen": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "total_mentions": 4
+      },
+      "Eleven": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "total_mentions": 4
+      },
+      "Dark Star": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      },
+      "Death Don't Have No Mercy": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "total_mentions": 6
+      },
+      "The Other One": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Schoolgirl": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "Lovelight": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-24T12:27:31.364085+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd69-03-28.sbd.bove.3342.sbeok.shnf"
   }

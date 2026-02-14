@@ -16,40 +16,71 @@
   "high_ratings": 5,
   "low_ratings": 1,
   "ai_review": {
-    "summary": "Soundboard capture with a muffled yet airy mix showcases a strong Carousel run highlighted by Dark Star, Born Cross‑Eyed > Spanish Jam and a sparkling Morning Dew.",
-    "review": "The recording is an SBD that sounds a bit distant and uneven, giving the 1968 Carousel show an atmospheric but sometimes muddy feel. Musically the night shines with a soaring Dark Star, a gorgeous Born Cross‑Eyed → Spanish Jam suite and bright moments from Morning Dew and China Cat → Eleven, though The Other One and some of Garcia’s leads are viewed as uneven.",
+    "summary": "A muffled soundboard captures a gritty 1968 Carousel run with a gorgeous Dark Star and a standout Born Cross‑Eyed → Spanish Jam, but the performance is uneven.",
+    "review": "The recording is an SBD that sounds airy yet distant, giving the set a vintage lo‑fi charm while suffering from occasional roughness and mixing issues. Musically the show shines on Dark Star and the Born Cross‑Eyed → Spanish Jam suite, with a fiery Morning Dew solo, but other moments – especially The Other One – feel flat or sloppy, making the overall experience mixed.",
     "sentiment": "mixed",
     "ai_rating": {
       "stars": 3.6,
-      "confidence": "high",
-      "rationale": "Multiple reviewers praise key performances while noting consistent recording muffiness; weighted average of show (≈3.8) and recording quality (≈3.0) yields a solid mid‑range score."
+      "confidence": "medium",
+      "rationale": "Show quality is mixed with strong highlights (Dark Star, Born Cross‑Eyed → Spanish Jam) but also uneven playing; recording is a soundboard that is audible yet muffled and rough, yielding an overall moderate rating."
     },
     "recording_quality": {
       "source_type": "soundboard",
       "quality_rating": "fair",
-      "technical_notes": "Muffled, distant sound with an airy ambience; mixing is uneven and at times rough, but still listenable for a 1968 SBD."
+      "technical_notes": "Muffled and distant with an 'airy' feel; occasional roughness and variable mixing make some sections hard to hear, but the tape remains listenable."
     },
     "show_quality": {
       "standout_songs": [
         "Dark Star",
         "Born Cross-Eyed > Spanish Jam",
-        "Morning Dew",
-        "China Cat > Eleven"
+        "Morning Dew"
       ],
       "poor_songs": [
         "The Other One",
-        "Short Dark Star (as noted by some reviewers)"
+        "Dark Star (short, one‑dimensional in some views)"
       ],
-      "setlist_flow": "The Carousel set flows well, featuring strong segues into the Spanish jam and a bright early‑'68 energy; despite some flat moments the overall pacing keeps momentum."
+      "setlist_flow": "The set has high‑water moments that shine, especially the second‑set improvisations, but overall pacing feels uneven with flat playing on several tunes."
     },
     "band_member_comments": {
-      "Jerry": "Garcia earns praise for a terrific Morning Dew solo and an inspired Dark Star, but other reviewers call his playing hit‑or‑miss and note a sloppy Other One.",
+      "Jerry": "Praised for a terrific solo and gorgeous tone by some reviewers; others call his playing hit‑or‑miss and only the guitar stands out.",
       "Phil": "",
       "Bob": "",
       "Keys": "",
       "Drums": ""
     },
-    "processed_date": "2025-09-10T19:06:03.855479+00:00",
+    "song_mentions": {
+      "The Other One": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      },
+      "Dark Star": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "total_mentions": 3
+      },
+      "Morning Dew": {
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "total_mentions": 2
+      },
+      "China Cat Sunflower": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "The Eleven": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Born Cross-Eyed > Spanish Jam": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "total_mentions": 2
+      }
+    },
+    "processed_date": "2025-09-24T08:09:03.203480+00:00",
     "model_used": "gpt-oss-120b",
     "recording_id": "gd1968-03-30.sbd.miller.108994.flac16"
   }
