@@ -61,34 +61,54 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Eclectic early‑Dead radio set with crystal‑clear archival sound",
-    "blurb": "The broadcast showcases a loose interview‑style set featuring excerpts like \"Golden Road\", \"Morning Dew\" and the original LP version of \"Cream Puff War\". Jerry’s enthusiastic commentary pairs with Phil’s knowledgeable picks, making for an engaging listening experience. Audio is clear and listenable despite being an off‑air FM capture.",
-    "review": "On April 1, 1967 the Grateful Dead turned a KSAN radio slot into a fascinating musical collage at The Rock Garden. Rather than a conventional concert, the band wove together short excerpts of folk, blues, early originals and even a Charles Ives symphony movement, punctuated by Jerry’s animated anecdotes about Otis Redding and other heroes, while Phil offered his trademark deep‑dive knowledge—occasionally a bit slurred but always insightful. The set includes standout moments such as the crisp rendition of \"Golden Road\", an earnest take on \"Rain And Snow\", the jaunty swing of \"Sittin' On Top Of The World\", and the historic original‑LP version of \"Cream Puff War\" followed by a haunting \"Morning Dew\". Listeners get a rare glimpse into the band’s formative influences, captured in surprisingly good quality from an off‑air FM audience feed; the recording is clean enough to enjoy without distracting hiss or drop‑outs. For anyone interested in the Dead’s early soundscape and their musical roots, this archival gem is both informative and entertaining.",
+    "summary": "Eclectic FM broadcast packed with blues gems and lively banter",
+    "blurb": "A crystal‑clear underground FM set showcases Jerry’s insightful commentary and Phil’s slurred but thoughtful musings. Standout numbers include “Golden Road”, “Rain And Snow”, “Maggie's Farm” and a “Dark Star” jam reference. The show flows freely between blues, folk and avant‑garde moments.",
+    "review": "On April 1 1967 the Grateful Dead slipped into The Rock Garden for an unforgettable underground FM broadcast that still sounds fresh today. Jerry Garcia and Phil Lesh dominate the airwaves with a mix of music and conversation – Jerry offers a heartfelt Otis Redding tribute while sharing his latest discoveries, and Phil famously calls their debut LP “a turd” before diving into jazz and Beatles anecdotes. The set rides an eclectic wave from the bright optimism of “Golden Road” to the haunting traditional ballad “Rain And Snow”, then rockets through Pigpen‑spearheaded blues like “New Minglewood Blues” and “Viola Lee Blues”. Highlights such as “Maggie's Farm”, a fleeting “Dark Star” jam reference, and the lyrical beauty of “Sad Eyed Lady of the Lowlands” prove that even in this early era the band could blend tight musicianship with free‑form experimentation. Recorded with excellent clarity, the broadcast captures every nuance without hiss or muffling, making it the definitive listening experience for fans of the Dead’s formative sound.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.3,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 20,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All available commentary is positive – the recording is described as 'stellar' and 'clean', standout songs are praised, and Jerry/Phil banter is highlighted as engaging. No negative remarks appear, justifying a strong positive adjustment.",
+        "final_calculation": "2.5 + 0.2 + 1.6 = 4.3"
+      }
     },
     "best_recording": {
       "identifier": "gd67-04-xx.prefm.vernon.9261.sbeok.shnf",
-      "reason": "Provides the clearest, most complete FM off‑air capture of this historic radio show with good listenability and no major audio issues."
+      "reason": "Excellent sound quality with clear download, captures the full broadcast without hiss or balance issues."
     },
     "key_highlights": [
-      "Eclectic mix of folk, blues, early originals and classical excerpt illustrates the band’s influences.",
-      "Clear archival FM quality despite being an audience (off‑air) source.",
-      "Jerry’s engaging commentary adds personality and context to each musical excerpt."
+      "Jerry’s Otis Redding tribute and insightful music commentary.",
+      "\"Golden Road\", \"Rain And Snow\", \"Maggie's Farm\" and a brief \"Dark Star\" jam shine.",
+      "Seamless flow between blues, folk, avant‑garde pieces, driven by lively banter."
     ],
-    "song_highlights": [],
+    "song_highlights": [
+      "Golden Road",
+      "Rain And Snow",
+      "Sittin' On Top Of The World",
+      "Cream Puff War",
+      "Morning Dew",
+      "New Minglewood Blues",
+      "Viola Lee Blues",
+      "Maggie's Farm",
+      "Dark Star (jam reference)",
+      "Sad Eyed Lady of the Lowlands",
+      "She Belongs To Me"
+    ],
     "band_performance": {
-      "Jerry": "Engaged and enthusiastic, offering lively commentary on Otis Redding and other influences.",
-      "Phil": "Slightly slurred at times but delivers sharp, knowledgeable takes on the music excerpts.",
+      "Jerry": "Intelligent and engaged, offering a heartfelt tribute to Otis Redding and sharing personal music discoveries throughout the set.",
+      "Phil": "A bit slurred but insightful; famously calls the first Dead LP “a turd” and provides thoughtful commentary on jazz, the Beatles and other influences.",
       "Bob": "",
       "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-10T13:27:16.517596+00:00",
+    "processed_date": "2025-09-24T05:55:27.087226+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed"
   }

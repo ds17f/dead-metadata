@@ -118,60 +118,59 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Epic Dark Star > St. Stephen > The Eleven with soaring Morning Dew",
-    "blurb": "A high‑energy, concise set that builds from a blistering Dark Star into the classic St. Stephen → The Eleven suite and caps with a fiery Turn On Your Lovelight. Jerry’s tone is pristine, Phil thunders on bass, and Pigpen adds punchy organ on Lovelight. All four soundboard sources are crystal clear, making this one of ’69’s most listenable recordings.",
-    "review": "On May 23 1969 the Dead took the Seminole Indian Reservation stage for a tight, fire‑breathing set that has become a benchmark of early‑’69 psychedelia. The show rockets off with a gritty “Hard To Handle” and a soulful “Morning Dew,” but the real centerpiece is the 20‑minute Dark Star that morphs seamlessly into Saint Stephen and then launches into the rhythmic whirlwind of The Eleven. Reviewers rave about Jerry’s soaring, snarl‑filled guitar on Dark Star, Phil’s thumping bass that drives both the middle and the closing jam, and Pigpen’s exuberant organ punches on Turn On Your Lovelight. Both drummers—Mickey and Bill—add wild cymbal crashes and even a splash of castanets, giving the set an extra layer of kinetic texture. The soundboard captures are uniformly praised for their crystal‑clear mix, solid low end, and absence of drop‑outs, allowing every nuance—from Jerry’s vocal strength to the percussive haze—to shine. In short, this performance delivers a raw, feral intensity wrapped in top‑tier audio fidelity—essential listening for any Deadhead seeking an early‑’69 classic.",
+    "summary": "Dark Star soars, Morning Dew haunts; tight set with The Eleven",
+    "blurb": "The show delivers a soaring Dark Star that segues into a fiery Saint Stephen and a haunting Morning Dew. Phil’s thumping bass on The Eleven and Bill’s whooshing cymbal crashes add extra punch. Overall the performance is praised as classic ’69 momentum with only a few middling cuts.",
+    "review": "On May 23, 1969 at the Seminole Indian Reservation the Dead unleashed one of their most memorable early‑’69 outings. The set opens with a gritty “Hard To Handle” before launching into a luminous “Morning Dew,” but it’s the marathon “Dark Star” that truly shines – Jerry’s voice is described as fine and his guitar tone perfect, while Phil’s bass drives the improvisation forward. The subsequent segue into “Saint Stephen” maintains the high‑energy, psychedelic flow that fans call “spazzy and feral.” A highlight for many listeners is the powerful rendition of “The Eleven,” where the rhythm section locks tight and Bill Kreutzmann’s cymbal crashes add a whooshing excitement. Closing with “Turn On Your Lovelight,” the band leaves the audience buzzing, making this show a standout example of the Dead’s 1969 momentum despite a few weaker moments like “Hard To Handle.”",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 4.3,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 29,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.5,
+        "sentiment_rationale": "Two of the three recordings are overwhelmingly positive, repeatedly praising Dark Star, Morning Dew, Saint Stephen and The Eleven with descriptors like “stellar,” “crystal‑clear,” and “spazzy and feral.” The third recording is mixed but does not contain strong negative language; it merely notes a few average cuts. This consensus yields a strong positive sentiment adjustment.",
+        "final_calculation": "2.5 + 0.3 + 1.5 = 4.3"
+      }
     },
     "best_recording": {
       "identifier": "gd1969-05-23.sbd.phunk1.74.sbefail.shnf",
-      "reason": "Crystal‑clear soundboard mix where every instrument is audible, praised as the clearest and most balanced capture of this show."
+      "reason": "Excellent soundboard quality – crystal‑clear tape, full band balance, and highlighted Dark Star and Morning Dew make it the most enjoyable listening experience."
     },
     "key_highlights": [
-      "Epic Dark Star → Saint Stephen → The Eleven suite that defines the set’s intensity",
-      "Soaring Morning Dew with a thumping Phil bass line",
-      "Turn On Your Lovelight featuring Pigpen’s energetic organ work",
-      "Exceptional soundboard quality across all sources, delivering pristine instrument separation"
+      "Soaring Dark Star that showcases Jerry’s flawless guitar tone and vocal finesse.",
+      "Hauntingly beautiful Morning Dew with crystal‑clear separation of instruments.",
+      "High‑energy Saint Stephen segue and powerful The Eleven featuring thumping bass.",
+      "Bill Kreutzmann’s cymbal crashes add a whooshing excitement throughout."
     ],
     "song_highlights": [
-      "Hard To Handle",
-      "Morning Dew",
-      "Me And My Uncle",
       "Dark Star",
+      "Morning Dew",
       "Saint Stephen",
-      "The Eleven",
-      "Turn On Your Lovelight"
+      "The Eleven"
     ],
     "band_performance": {
-      "Jerry": "Tone is perfect and his vocals are strong for early ’69; delivers a 20‑minute creative orgasm on Dark Star with soaring, snarl‑filled leads.",
-      "Phil": "Provides thumping, powerful bass especially on Morning Dew and the driving sequence in The Eleven.",
+      "Jerry": "Garcia’s voice is fine and his guitar tone perfect and tasty, especially during the epic Dark Star.",
+      "Phil": "Lesh delivers thumping, powerful bass, driving The Eleven with extra low‑end punch.",
       "Bob": "",
-      "Pigpen": "Adds vivid organ texture and punchy playing on Turn On Your Lovelight, energizing the closing jam.",
-      "Mickey": "Delivers amazing whooshing cymbal crashes that punctuate Dark Star’s second jam, adding dramatic flair.",
-      "Billy": "Together with Mickey supplies a percussive variety—including castanets and maracas—that gives the set its distinctive haze."
+      "Brent": "",
+      "Mickey": "",
+      "Billy": "Bill Kreutzmann’s cymbal crashes are highlighted as high points, adding whooshing excitement to the set."
     },
-    "processed_recordings": 4,
-    "processed_date": "2025-09-10T23:35:11.169450+00:00",
+    "processed_recordings": 3,
+    "processed_date": "2025-09-24T14:42:58.134721+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "Hard To Handle"
-      ],
-      [
-        "Morning Dew"
-      ],
-      [
-        "Me And My Uncle"
-      ],
       [
         "Dark Star",
         "Saint Stephen",
         "The Eleven",
         "Turn On Your Lovelight"
+      ],
+      [
+        "Morning Dew"
       ]
     ]
   }

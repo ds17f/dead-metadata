@@ -157,43 +157,50 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Ripping rockers and psychedelic suite, tape hiss fades later",
-    "blurb": "The set launches with a scorching “Hard To Handle” and a tight “Cryptical Envelopment > The Other One > High Time” triptych. Jerry’s guitar work shines, Tom Constanten adds a memorable touch on “Casey Jones”, and the band wraps up with a powerful “Saint Stephen – Turn On Your Lovelight”. Recording is clear early on but deteriorates after the mid‑set.",
-    "review": "July 4 1969 at Chicago’s Electric Theater captures the Dead in a raw, transitional phase. The night opens with the high‑octane swagger of “Hard To Handle” and rolls into the cryptic, weaving jam of “Cryptical Envelopment > The Other One > High Time”, where Jerry Garcia not only delivers his signature ripping leads but even slips on pedal steel and a brief vocal stumble (“swallowed a frog”). Bob Weir fronts several numbers, from the country‑flavored “Mama Tried” to the bluesy “Dire Wolf”. Tom Constanten’s keyboard colors shine on “Casey Jones”, providing one of the few clear moments in an otherwise uneven recording. The set closes with a soaring “Saint Stephen – Turn On Your Lovelight”, showcasing the band’s ability to swing between psychedelic intensity and soulful groove. Unfortunately, both available tapes suffer: the audience stereo (gd69-07-04.sbd.sirmick.remaster.29294.shnf) loses fidelity after “Doin' That Rag” with hiss and drop‑outs, while the soundboard source (gd69-07-04.sbd.cotsman.4360.sbeok.shnf) is plagued by pervasive tape noise and splices, making only “Casey Jones” truly listenable. Despite these flaws, the performance offers a fascinating glimpse of the band’s evolving repertoire and on‑stage chemistry.",
+    "summary": "Raw early set with Hard To Handle energy, but audio drops later",
+    "blurb": "The first half bursts with high‑energy renditions of Hard To Handle, The Other One and a rousing Casey Jones, highlighted by Jerry’s ripping guitar and Tom Constanten’s early keyboards. Audio issues after Doin’ That Rag cause drop‑outs that dull the momentum, making later numbers like Let Me In less effective.",
+    "review": "July 4 1969 at Chicago’s Electric Theater captures the Grateful Dead in a raw, high‑octane state. The set kicks off with a ferocious Hard To Handle and rolls through country‑flavored tunes before diving into psychedelic explorations on The Other One and High Time, all propelled by Jerry Garcia’s ripping guitar work and even a surprising pedal‑steel flavor on early numbers. Tom Constanten’s organ adds color to the standout Casey Jones, while Bob Weir leads vocal duties on Dire Wolf and other classics. Unfortunately, after Doin’ That Rag the tape begins to betray the band – left‑channel hiss, pulsing drop‑outs and occasional cuts obscure the performance, especially on Let Me In, leaving the momentum stalled for the remainder of the show. Despite these technical setbacks, gems like Turn On Your Lovelight and a spirited Dire Wolf keep the set memorable, making this recording a valuable snapshot of the Dead’s early evolution.\n\nBoth available soundboard sources suffer from tape hiss and intermittent drop‑outs, but the Sirmick remaster (gd69-07-04.sbd.sirmick.remaster.29294.shnf) offers the clearest capture of the first half’s brilliance, preserving the energy that makes this early show worth a listen for completists and fans of the band’s formative era.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.4,
-      "confidence": "high"
+      "ai_rating": 2.6,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 11,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0,
+        "sentiment_rationale": "Both recordings describe a mixed sentiment – strong praise for early songs (Hard To Handle, The Other One, Casey Jones) but consistent criticism of tape hiss and drop‑outs that mar later portions. No single theme of overwhelming positivity or negativity emerges, so the adjustment is neutral.",
+        "final_calculation": "2.5 + 0.1 + 0 = 2.6"
+      }
     },
     "best_recording": {
       "identifier": "gd69-07-04.sbd.sirmick.remaster.29294.shnf",
-      "reason": "Early stereo audience tape is clear and well‑balanced, preserving the strongest part of the show before later hiss and drop‑outs make it harder to enjoy."
+      "reason": "Provides the clearest early‑set sound and captures the standout performances despite later tape issues."
     },
     "key_highlights": [
-      "Fire‑brand “Hard To Handle” opener with Garcia’s ripping guitar.",
-      "\"Cryptical Envelopment > The Other One > High Time\" suite showcases psychedelic improvisation.",
-      "Tom Constanten’s memorable keyboard work on \"Casey Jones\".",
-      "\"Saint Stephen – Turn On Your Lovelight\" delivers a powerful closing jam."
+      "Early set electrified by Hard To Handle and The Other One with ripping guitars.",
+      "Jerry’s pedal‑steel accents and Tom Constanten’s organ on Casey Jones add psychedelic flavor.",
+      "Doin’ That Rag marks the turning point where tape drop‑outs begin, dulling momentum.",
+      "Despite audio woes, standout moments include Dire Wolf and Turn On Your Lovelight."
     ],
     "song_highlights": [
       "Hard To Handle",
-      "Cryptical Envelopment",
       "The Other One",
-      "High Time",
       "Casey Jones",
-      "Saint Stephen",
+      "I'm A King Bee",
+      "Dire Wolf",
       "Turn On Your Lovelight"
     ],
     "band_performance": {
-      "Jerry": "Delivers ripping guitar work, adds pedal steel on several cuts, and has a brief vocal stumble during High Time.",
+      "Jerry": "Ripping guitar work on Hard To Handle and The Other One; pedal‑steel accents praised on early numbers; vocal tone highlighted on Casey Jones.",
       "Phil": "",
-      "Bob": "Front‑and‑center vocalist on many numbers, including Dire Wolf and the cowboy‑flavored tunes.",
-      "Brent": "",
+      "Bob": "Dominates vocals, leading most songs including Dire Wolf and Casey Jones.",
+      "Tom": "Keyboard work stands out on the early Casey Jones rendition, adding organ texture to the set.",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-11T00:31:49.693585+00:00",
+    "processed_date": "2025-09-24T16:06:20.174474+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -205,6 +212,12 @@
         "The Other One",
         "High Time",
         "Casey Jones"
+      ],
+      [
+        "I'm A King Bee"
+      ],
+      [
+        "Dire Wolf"
       ],
       [
         "Saint Stephen",

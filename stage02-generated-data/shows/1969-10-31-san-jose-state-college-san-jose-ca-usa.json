@@ -151,33 +151,42 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Rare Cryptical>China segues, solid set, but hissy tape",
-    "blurb": "The Halloween show delivers a one‑off Cryptical Envelopment → China Cat Sunflower transition and strong energy on tracks like Dire Wolf and Easy Wind. Both soundboard sources are plagued by noticeable hiss and muffled fidelity, limiting the listening experience.",
-    "review": "On October 31 1969 the Grateful Dead took the stage at San Jose State College for a Halloween set that has become a collector’s curiosity. The first half of the show is anchored by an unusual Cryptical Envelopment → China Cat Sunflower segue that never resurfaced elsewhere, followed by a classic I Know You Rider finish. Jerry Garcia’s vocals (notably his “cuz I'm hunting on top of the world” line) and overall playing were praised, and the band kept the momentum with solid renditions of Dire Wolf, Easy Wind, and a rousing Turn On Your Lovelight. However, both available soundboard recordings suffer from heavy hiss, muffled instruments, and a generally low‑fidelity capture that demands tape cleaning or restoration to be truly enjoyable.\n\nFor those willing to brave the audio flaws, the first recording (gd69-10-31.sbd.lai.3377.sbefail.shnf) is the most complete and captures the rare segue despite its poor quality. The second source (gd1969-10-31.131863.sbd-restore.droncit.flac16) offers a slightly clearer, though still cloudy, listening experience with stronger overall vibe. Fans should approach this show as a historical artifact rather than a pristine audio document.",
+    "summary": "Rare Cryptical‑China segue with solid early set highlights",
+    "blurb": "The set features a unique Cryptical Envelopment → China Cat Sunflower transition, highlighted by strong performances of Dire Wolf, The Other One and Easy Wind. Jerry’s vocals and guitar are praised throughout, though the soundboard capture is raw and hiss‑laden.",
+    "review": "On Halloween night, 1969, the Grateful Dead took the stage at San Jose State College for a historic performance that still reverberates with Deadheads today. The first set rolls out with classic material—Casey Jones, Dire Wolf and It Hurts Me Too—before diving into a one‑of‑a‑kind Cryptical Envelopment → China Cat Sunflower segue that many fans cite as the night’s centerpiece. Jerry Garcia’s voice cracks a humorous line on “Cuz I’m hunting on top of the world,” and his guitar work is consistently lauded, especially during The Other One where the band rides a tight groove into the second Cryptical Envelopment. The set closes with an uplifting Easy Wind that shines despite the recording’s cloudy fidelity. Both available soundboard tapes suffer from heavy hiss, but the restored version (gd1969-10-31.131863.sbd‑restore.droncit.flac16) trims the noise enough to let the band’s tight playing and spirited vocals shine through. While the audio isn’t crystal clear, the performance itself is a solid snapshot of the Dead’s late‑60s chemistry, making it worth a listen for anyone interested in this pivotal era.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.8,
-      "confidence": "medium"
+      "ai_rating": 3.6,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 6,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.0,
+        "sentiment_rationale": "Both recordings praise the band's playing—Jerry’s vocals and guitar are highlighted, The Other One and Easy Wind receive strong commendation—while one analysis is mixed due to raw sound quality. Overall sentiment leans positive, justifying a moderate +1.0 adjustment.",
+        "final_calculation": "2.5 + 0.1 + 1.0 = 3.6"
+      }
     },
     "best_recording": {
-      "identifier": "gd69-10-31.sbd.lai.3377.sbefail.shnf",
-      "reason": "Most complete source and captures the unique Cryptical → China Cat transition, despite its poor fidelity."
+      "identifier": "gd1969-10-31.131863.sbd-restore.droncit.flac16",
+      "reason": "Restored soundboard reduces hiss and offers clearer detail, making the strong performance more audible."
     },
     "key_highlights": [
-      "One‑off Cryptical Envelopment → China Cat Sunflower segue",
-      "Strong Halloween energy with standout Dire Wolf and Easy Wind",
-      "Jerry’s vocal line “cuz I'm hunting on top of the world” noted by listeners",
-      "Both recordings suffer from heavy hiss and muffled sound, limiting clarity"
+      "Rare Cryptical Envelopment → China Cat Sunflower transition",
+      "Standout renditions of Dire Wolf, The Other One and Easy Wind",
+      "Jerry’s vocals and guitar work praised throughout",
+      "Historical Halloween show despite raw, hiss‑laden recording"
     ],
     "song_highlights": [
+      "Dire Wolf",
       "Cryptical Envelopment",
       "China Cat Sunflower",
       "I Know You Rider",
-      "Dire Wolf",
+      "The Other One",
       "Easy Wind"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s vocals were highlighted as especially lively, with his humorous “cuz I'm hunting on top of the world” line noted, and overall playing described as strong.",
+      "Jerry": "Vocals earn a humorous nod on “cuz I’m hunting on top of the world” and his guitar playing is praised as excellent throughout.",
       "Phil": "",
       "Bob": "",
       "Brent": "",
@@ -185,10 +194,13 @@
       "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-11T01:37:50.064424+00:00",
+    "processed_date": "2025-09-24T17:43:47.840386+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
+      [
+        "Dire Wolf"
+      ],
       [
         "Cryptical Envelopment",
         "Drums",
@@ -196,9 +208,6 @@
         "Cryptical Envelopment",
         "China Cat Sunflower",
         "I Know You Rider"
-      ],
-      [
-        "Dire Wolf"
       ],
       [
         "Next Time You See Me",

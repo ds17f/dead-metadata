@@ -168,64 +168,54 @@
     "enjoying-the-ride"
   ],
   "ai_show_review": {
-    "summary": "High‑energy June ’69 Fillmore set with epic Dark Star, The Eleven & Lovelight",
-    "blurb": "The show delivers a tight, high‑octane first set that segues into an extended second half of soaring improvisations. Highlights include a blistering Dark Star, a marathon The Eleven into Turn On Your Lovelight, and a full Cryptical → Other One suite.",
-    "review": "On June 5, 1969 the Grateful Dead lit up Fillmore West with one of their most electrifying performances of the era. Jerry Garcia was on fire – his soaring guitar tone and flawless vocals lifted every song, especially during Dark Star and the climactic Turn On Your Lovelight. The band’s chemistry is evident in the marathon The Eleven that rolls seamlessly into Lovelight, while the Cryptical Envelopment → Drums → The Other One → Cryptical sequence showcases their willingness to explore uncharted territory. Phil’s bass provides a rock‑solid foundation (though some listeners note a slight EQ tweak could bring out more low end), and the dual‑drummer assault from Mickey Hart and Bill Kreutzmann drives the jams forward with relentless energy. Standout moments also include hard‑rocking Hard To Handle, the playful China Cat Sunflower > Sitting On Top Of The World segue, and heartfelt renditions of Me And My Uncle and He Was A Friend Of Mine. Overall this night stands as a benchmark for the band’s late‑60s improvisational peak.",
+    "summary": "Dark Star, The Eleven & Lovelight shine in a tight, jam‑heavy Fillmore run",
+    "blurb": "The show delivers a powerful first set that builds into a second‑set marathon of Dark Star, The Eleven and an extended Turn On Your Lovelight. Jerry Garcia’s tone and vocals are highlighted throughout, especially on Doin’ That Rag and He Was A Friend Of Mine. Recording quality is solid soundboard capture, making this one of the standouts from the June ’69 Fillmore run.",
+    "review": "June 5 – 1969 at the Fillmore West captured the Dead in a spell‑binding stretch that still feels fresh. The first set opens with a crisp Morning Dew and rolls through tight renditions of Me And My Uncle, Doin’ That Rag and He Was A Friend Of Mine before diving into a swirling Cryptical Envelopment → The Other One → Cryptical sandwich that showcases the band’s improvisational daring. The second set erupts: China Cat Sunflower segues into Sitting On Top Of The World, then launches into an expansive Dark Star that feels “on another level,” followed by a soaring Saint Stephen and the relentless rhythmic vortex of The Eleven, culminating in a blazing Turn On Your Lovelight that carries the audience to the roof. Across all tapes Garcia’s guitar tone and vocals are repeatedly praised as “nailing it,” with his phrasing on the rag‑based numbers and ballads standing out. Though one source notes cassette hiss and a pitch wobble early in the first set, the overall soundboard fidelity is clear enough to let every nuance shine, cementing this night as a must‑listen snapshot of the late‑’60s Dead at their exploratory peak.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 4.3,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 22,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Three out of four recordings are strongly positive, repeatedly praising the same standout songs (Dark Star, The Eleven, Lovelight) and Jerry’s tone; no consistent negative comments appear, just one mixed note about patchiness. This consensus yields a robust positive sentiment adjustment.",
+        "final_calculation": "2.5 + 0.2 + 1.6 = 4.3"
+      }
     },
     "best_recording": {
-      "identifier": "gd1969-06-05.135483.sbd.miller.flac16",
-      "reason": "Crystal‑clear soundboard capture with excellent clarity that fully conveys the band’s dynamics and high‑energy improvisations."
+      "identifier": "gd69-06-05.sbd.cotsman.15204.sbeok.shnf",
+      "reason": "Good‑quality soundboard tape with clear capture of the band’s tone, despite minor cassette hiss; includes all standout performances and is the most complete source."
     },
     "key_highlights": [
-      "Marathon The Eleven into Turn On Your Lovelight as the show’s climax",
-      "Full Cryptical Envelopment → Drums → The Other One suite showcases deep improvisational daring",
-      "Blistering Dark Star and a high‑octane Hard To Handle highlight the band’s June ’69 chemistry"
+      "Epic Dark Star that showcases the band's improvisational peak.",
+      "The Eleven drives a high‑energy climax before Lovelight.",
+      "Cryptical Envelopment → The Other One → Cryptical sequence delivers a rare, cryptic journey.",
+      "Solid soundboard fidelity lets Jerry’s guitar tone and vocals shine."
     ],
     "song_highlights": [
-      "Me And My Uncle",
-      "He Was A Friend Of Mine",
-      "Hard To Handle",
-      "Cryptical Envelopment",
-      "Drums",
-      "The Other One",
-      "China Cat Sunflower",
-      "Sitting On Top Of The World",
       "Dark Star",
       "The Eleven",
-      "Turn On Your Lovelight"
+      "Turn On Your Lovelight",
+      "Cryptical Envelopment",
+      "The Other One",
+      "China Cat Sunflower",
+      "Saint Stephen"
     ],
     "band_performance": {
-      "Jerry": "Soaring guitar tone and flawless vocals throughout; an ‘other‑level’ performance that drives the show.",
-      "Phil": "Solid bass foundation; reviewers suggest a slight EQ boost could balance the mix better.",
+      "Jerry": "Garcia’s guitar tone and vocals are described as ‘nailing it’ and ‘on another level,’ with perfect tone on Doin' That Rag and He Was A Friend Of Mine, and he rides the peaks of Dark Star and The Eleven superbly.",
+      "Phil": "",
       "Bob": "",
       "Brent": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-10T23:50:28.040818+00:00",
+    "processed_date": "2025-09-24T15:05:02.845991+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "Me And My Uncle"
-      ],
-      [
-        "He Was A Friend Of Mine"
-      ],
-      [
-        "Hard To Handle"
-      ],
-      [
-        "Cryptical Envelopment",
-        "Drums",
-        "The Other One",
-        "Cryptical Envelopment"
-      ],
       [
         "China Cat Sunflower",
         "Sitting On Top Of The World",
@@ -233,6 +223,12 @@
         "Saint Stephen",
         "The Eleven",
         "Turn On Your Lovelight"
+      ],
+      [
+        "Cryptical Envelopment",
+        "Drums",
+        "The Other One",
+        "Cryptical Envelopment"
       ]
     ]
   }

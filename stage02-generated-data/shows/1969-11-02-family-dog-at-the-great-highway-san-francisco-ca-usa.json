@@ -147,60 +147,64 @@
     "daves-picks-vol-43"
   ],
   "ai_show_review": {
-    "summary": "Epic Dark Star → St. Stephen chain with soaring Garcia and crystal‑clear bass",
-    "blurb": "The late‑'69 Family Dog set features an almost 30‑minute Dark Star that segues into Saint Stephen, The Eleven and Death Don't Have No Mercy. Jerry’s tone is muscular, Phil’s bass shines with unmatched clarity, and the rhythm section locks in tight throughout. Highlights also include a fiery Good Lovin' jam and a heartfelt Seasons Of My Heart.",
-    "review": "On November 2, 1969 at the Family Dog on the Great Highway, the Dead delivered one of the most electrifying late‑’60s performances. The night erupts with a sprawling Dark Star that rolls into Saint Stephen, then bursts through The Eleven before crashing into a soulful Death Don't Have No Mercy – a sequence many fans cite as a pinnacle of the era’s improvisational fire. Garcia’s guitar soars with power while his vocal on the final line of St. Stephen cuts right to the heart, and Phil Lesh provides what reviewers call the best‑ever bass clarity, anchoring the chaos with deep, resonant tone. Tom Constanten’s swirling Hammond adds lush texture, letting Pigpen breathe, and Bill Kreutzmann’s crystal‑clear drumming on The Eleven is a standout rhythmic highlight, further deepened by Mickey Hart’s added percussive layers. The set also offers solid renditions of Good Lovin', Seasons Of My Heart, and the bluesy Cold Rain And Snow, making this show a must‑listen for any Deadhead seeking that quintessential late‑’60s psychedelic blaze.",
+    "summary": "Epic Dark Star > St. Stephen > The Eleven flow with stellar bass",
+    "blurb": "A near‑30‑minute Dark Star rockets into a seamless Saint Stephen → The Eleven → Death Don't Have No Mercy suite. Jerry’s soaring guitar, Phil’s crystal‑clear bass and Tom’s rich organ drive the high‑octane first set.",
+    "review": "On November 2, 1969 at the Family Dog on the Great Highway, the Dead delivered one of ’69’s most electrifying performances. The show kicks off with tight roots numbers before launching into a monster Dark Star that stretches close to half an hour, morphing effortlessly into Saint Stephen, then The Eleven and finally a gut‑wrenching Death Don't Have No Mercy. Reviewers rave about the pristine soundboard capture – “best‑ever 1969 SBD quality” – which lets you hear every nuance: Jerry’s powerful tone and bluesy solo on Death Don’t, Phil’s popping bass that drives The Eleven, Tom Constanten’s organ depth, and a standout Good Lovin' → Drums → Good Lovin' transition. Pigpen’s gritty harmonica and the twin‑drum attack of Mickey and Bill add weight without drowning the intricate jams. In short, this is a must‑listen snapshot of the Dead at a creative peak.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.8,
-      "confidence": "high"
+      "ai_rating": 4.5,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 76,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All three recordings are marked positive, with consistent praise for the Dark Star marathon, seamless segues into Saint Stephen > The Eleven > Death Don't Have No Mercy, superb bass clarity and overall high‑octane energy. No negative comments about performance quality appear across analyses.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd1969-11-02.sbd.miller.32350.sbeok.flac16",
-      "reason": "Excellent soundboard capture with crisp, clear remaster; superb bass definition and no dropouts make it the definitive listening source."
+      "reason": "Excellent soundboard capture with flawless fidelity, no drop‑outs, and the clearest bass and instrument separation of any 1969 recording."
     },
     "key_highlights": [
-      "A near‑30 minute Dark Star that flows seamlessly into Saint Stephen → The Eleven → Death Don't Have No Mercy",
-      "Garcia’s powerful, soaring guitar tone and intense vocal on St. Stephen",
-      "Phil Lesh’s bass clarity described as the best ever heard from this era",
-      "Tom Constanten’s lush Hammond organ work and Bill Kreutzmann’s crystal‑clear drumming on The Eleven"
+      "~30‑minute Dark Star that flows into Saint Stephen → The Eleven → Death Don't Have No Mercy",
+      "Superb bass clarity praised as the best ever for this era",
+      "Good Lovin' → Drums → Good Lovin' segment highlighted as a peak moment",
+      "Tom Constanten’s organ adds depth, freeing Pigpen to add grit and percussion"
     ],
     "song_highlights": [
+      "Cold Rain And Snow",
+      "Good Lovin'",
       "Dark Star",
       "Saint Stephen",
       "The Eleven",
-      "Death Don't Have No Mercy",
-      "Good Lovin'",
-      "Seasons Of My Heart",
-      "Cold Rain And Snow"
+      "Death Don't Have No Mercy"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers a muscular, soaring guitar tone and an intensely emotional vocal on the final line of Saint Stephen, with his improvisations in Dark Star highlighted as deeply personal.",
-      "Phil": "Lesh’s bass is praised for its deep, crystal‑clear definition—often called the best‑sound‑quality bass of the era—providing a solid, resonant foundation throughout.",
-      "Bob": "",
-      "Brent": "",
-      "Mickey": "Hart adds an extra layer of rhythmic depth in the later set, enriching the overall percussive texture.",
-      "Billy": "Kreutzmann’s drumming shines, especially on The Eleven where his crisp, powerful playing is a standout highlight."
+      "Jerry": "Powerful guitar tone, soaring improvisations on Dark Star, soulful blues solo on Death Don't Have No Mercy, and a vocal burst that lifts Saint Stephen.",
+      "Phil": "Bass is crystal‑clear and popping; provides a deep, steady foundation especially during The Eleven.",
+      "Bob": "Delivers solid rhythm work and shines on country‑flavored numbers like Seasons Of My Heart.",
+      "Brent": "Tom Constanten’s Hammond organ enriches the jams, adding texture that supports the extended improvisations.",
+      "Mickey": "Adds a new rhythmic layer with his drumming, contributing to the heavier, expansive feel of the second half.",
+      "Billy": "Drums are crystal‑clear and remarkable, driving The Eleven and highlighting the Good Lovin' → Drums transition."
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-11T01:44:42.747395+00:00",
+    "processed_date": "2025-09-24T18:01:30.241987+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
-        "Dark Star",
-        "Saint Stephen",
-        "The Eleven",
-        "Death Don't Have No Mercy"
+        "Cold Rain And Snow"
       ],
       [
         "Good Lovin'"
       ],
       [
-        "Seasons Of My Heart"
-      ],
-      [
-        "Cold Rain And Snow"
+        "Dark Star",
+        "Saint Stephen",
+        "The Eleven",
+        "Death Don't Have No Mercy"
       ]
     ]
   }

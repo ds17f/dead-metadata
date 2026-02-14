@@ -154,49 +154,54 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Dark Star, The Other One > Dark Star and rare Born Cross‑Eyed > Spanish Jam",
-    "blurb": "The set is anchored by a scorching Dark Star and an intense The Other One > Dark Star sequence, highlighted further by the rare Born Cross‑Eyed > Spanish Jam pairing. Jerry’s solos are fiery throughout, especially on Morning Dew, while Pigpen’s organ is largely muted. Overall the show delivers high‑energy jamming with a few uneven transitions.",
-    "review": "On March 30, 1968 at San Francisco's Carousel Ballroom the Dead were in full early‑Dead mode: raw, exploratory, and unafraid to stretch into the unknown. The first set opens with a luminous Morning Dew that showcases Jerry’s lyrical phrasing before diving into the classic “Cryptical Envelopment” sandwich framing a volatile The Other One leading back into Cryptical. Dark Star erupts next, feeding directly into a bright China Cat Sunflower → The Eleven segue that, while not perfectly smooth, still radiates the band’s collective drive. \nThe second set is where the night truly shines – a rare Born Cross‑Eyed → Feedback → Spanish Jam stretch that captures the group’s willingness to experiment, followed by a soulful Death Don't Have No Mercy and an exuberant turn on your Lovelight. Throughout the evening Jerry delivers searing leads on Dark Star, The Other One, and Morning Dew; Pigpen’s keyboard is unfortunately muted for much of the night, leaving the rhythm section to carry the groove with solid work from Phil, Mickey, and Bill. Despite some rough transitions, the show remains a compelling snapshot of the Dead’s evolving improvisational language.",
+    "summary": "Gritty Carousel run with stellar Dark Star and rare Born Cross‑Eyed/Spanish Jam",
+    "blurb": "The show delivers a soaring Dark Star and an unusual Born Cross‑Eyed → Spanish Jam pairing, highlighted by strong improvisations in the second set. Jerry’s solo work shines despite occasional unevenness elsewhere.",
+    "review": "On March 30, 1968 at San Francisco’s Carousel Ballroom the Dead cooked up one of their early‑summer marvels. The first set wanders through a classic sequence—Morning Dew into the cryptic envelopment sandwich and a sprawling Dark Star that still manages to sparkle despite some uneven moments. The real fireworks erupt in the second set where a rare Born Cross‑Eyed → Spanish Jam combo erupts, sandwiched between Feedback and Death Don't Have No Mercy, giving listeners a glimpse of the band’s experimental edge. China Cat Sunflower rolls into The Eleven with mixed fluidity, but the overall improvisational flow remains compelling. Jerry Garcia’s guitar work is noted as “distinct from ’66,” delivering a gorgeous tone on Dark Star that many reviewers called terrific, though some felt his playing could be hit‑or‑miss. Pigpen’s organ is muted in parts of the audience captures, yet his presence still adds texture when audible. Bob Weir’s vocal energy lifts Dancin’ In The Street, even if his state was occasionally “drunken.” The crowd’s enthusiasm and the band’s willingness to venture into rare pairings make this a must‑listen for fans who can overlook the occasional muddiness of the recordings.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.3,
-      "confidence": "high"
+      "ai_rating": 4.0,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 30,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.2,
+        "sentiment_rationale": "Two recordings are clearly positive (audience tapes praised for clarity and hot performance) while one is mixed (soundboard noted as muffled and uneven). The consensus leans strongly toward a high‑energy show with standout Dark Star, Born Cross‑Eyed/Spanish Jam, and China Cat → Eleven moments, outweighing the few negative remarks about pacing.",
+        "final_calculation": "2.5 + 0.3 + 1.2 = 4.0"
+      }
     },
     "best_recording": {
-      "identifier": "gd1968-03-30.sbd.miller.108994.flac16",
-      "reason": "Most complete soundboard capture of the full set, preserving the rare sequences despite a muffled mix."
+      "identifier": "gd68-03-30.aud.cotsman.14912.sbeok.shnf",
+      "reason": "Surprisingly clear audience tape that captures the hot second‑set improvisations and rare song pairings with better instrument separation than the muffled soundboard."
     },
     "key_highlights": [
-      "Scorching Dark Star and The Other One > Dark Star jam",
-      "Rare Born Cross‑Eyed > Spanish Jam sequence",
-      "Jerry’s soaring Morning Dew solo",
-      "Strong overall energy with only a few uneven transitions"
+      "Stunning Dark Star improvisation that still shines despite mixed overall pacing.",
+      "Rare Born Cross‑Eyed → Spanish Jam combo adds historic value.",
+      "China Cat Sunflower → The Eleven sandwich highlighted as a classic late‑’68 segue.",
+      "Strong second‑set jams with the band pushing exploratory boundaries."
     ],
     "song_highlights": [
-      "Morning Dew",
-      "The Other One",
       "Dark Star",
+      "The Other One",
       "Born Cross-Eyed",
       "Spanish Jam",
       "China Cat Sunflower",
-      "The Eleven"
+      "The Eleven",
+      "Morning Dew"
     ],
     "band_performance": {
-      "Jerry": "Delivers fiery, exploratory soloing especially on Dark Star and The Other One, with a standout Morning Dew solo; occasional rough spots make his playing feel hit‑or‑miss at times.",
+      "Jerry": "Distinct from ’66 style, delivering a gorgeous tone and strong Dark Star solo; praised as terrific by many, though some note occasional hit‑or‑miss moments.",
       "Phil": "",
-      "Bob": "",
-      "Brent": "Pigpen's organ is largely muted, reducing the characteristic 1968 keyboard presence throughout the show.",
+      "Bob": "Vocal energy on Dancin’ In The Street stands out; occasional drunkenness mentioned but does not dominate the performance.",
+      "Brent": "Pigpen’s organ is muted in sections of the audience recordings, reducing its usual presence, yet adds texture when audible.",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-10T19:09:56.939004+00:00",
+    "processed_date": "2025-09-24T08:14:30.885110+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "Morning Dew"
-      ],
       [
         "Cryptical Envelopment",
         "The Other One",
@@ -211,6 +216,9 @@
         "Feedback",
         "Spanish Jam",
         "Death Don't Have No Mercy"
+      ],
+      [
+        "Morning Dew"
       ]
     ]
   }

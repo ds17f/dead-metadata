@@ -70,23 +70,31 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Wild Main Ten/Other One jams, first Not Fade Away, expansive Lovelight",
-    "blurb": "The show delivers massive Main Ten and Other One improvisations, highlighted by a rare early 'Not Fade Away' and an extended 'Lovelight' vamp. Jerry shreds with a powerful tone while Phil’s bass dances through the jams. The fair‑quality soundboard capture still lets the historic moments shine.",
-    "review": "Feb 19, 1969 at the Fillmore West finds the Dead on the brink of their legendary exploratory era. After an experimental 'Lovelight' that morphs into a bizarre crowd chant, the band erupts into two towering improvisational suites – a soaring Main Ten jam that segues into a wild stretch before collapsing into an even more ferocious Other One. Jerry Garcia is described as shredding with a fierce tone throughout, especially during those extended jams, while Phil Lesh punctuates the chaos with a shouted “Hey Pigpen…” and bass lines that weave in and out of Tom Constanten’s faint organ textures. The set also marks the first 1968 appearance of 'Not Fade Away', adding a historic touch to an already electrifying night. Though the soundboard recording suffers from hum, low vocal levels, and occasional drop‑outs, it captures the band’s portal‑to‑the‑future vibe with enough clarity for listeners to appreciate the raw power of this pivotal performance.",
+    "summary": "Monumental Main Ten and Other One jams with epic chant",
+    "blurb": "The set launches with a sprawling Lovelight that turns into a 20‑minute crowd chant, then bursts into huge improvisations on The Main Ten and The Other One. Jerry shreds on The Other One while Phil duels with him on bass. Not Fade Away appears in its first 1968 performance.",
+    "review": "Feb 19 1969 at the Fillmore West captured a turning‑point moment for the Dead, as they pushed deep into experimental territory. After a marathon Lovelight that gave way to an unforgettable 20‑minute chant, the band unleashed two colossal jams – The Main Ten and The Other One – that hinted at the jazzier direction they'd pursue later in the ’70s. Garcia’s guitar roared on The Other One, trading solos with Lesh’s bass in a fierce duet, while the rhythm section laid down a powerful foundation that kept the energy soaring. Though the soundboard suffers from hum, electrical noise, and low vocal levels (especially during Lovelight), it remains the most complete document of this historic show, preserving the raw intensity of the performance.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 3.8,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 30,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.0,
+        "sentiment_rationale": "All available analysis (single soundboard source) uses positive language – 'monster Main Ten', 'shredding on The Other One', 'historic, chant‑filled show'. Consistent praise of the improvisational peaks and historic significance justifies a solid positive adjustment.",
+        "final_calculation": "2.5 + 0.3 + 1.0 = 3.8"
+      }
     },
     "best_recording": {
       "identifier": "gd69-02-19.sbd.cotsman.4511.sbeok.shnf",
-      "reason": "Only soundboard source; despite fair quality it preserves the historic Main Ten and Other One jams, making it the definitive listening version."
+      "reason": "Fair‑quality soundboard captures the full set, including the legendary Main Ten and Other One jams; despite hum and drop‑outs it remains the most complete source."
     },
     "key_highlights": [
-      "Massive Main Ten improvisation with Jerry shredding.",
-      "Epic Other One jam that pushes the band into new territory.",
-      "First 1968 appearance of 'Not Fade Away' adds historic weight.",
-      "Extended Lovelight vamp that segues into a crowd chant before the jams."
+      "Marathon Lovelight that segues into a rare 20‑minute crowd chant",
+      "Massive improvisational stretches on The Main Ten and The Other One",
+      "First 1968 performance of Not Fade Away",
+      "Fair soundboard quality – hum and electrical noise present but overall mix is listenable"
     ],
     "song_highlights": [
       "The Main Ten",
@@ -95,15 +103,15 @@
       "Lovelight"
     ],
     "band_performance": {
-      "Jerry": "Shredding with powerful tone, especially on The Other One and Main Ten jams.",
-      "Phil": "Shouted “Hey Pigpen…” moment; bass lines dance and intertwine with the organ texture during extended jams.",
+      "Jerry": "Shreds on The Other One and delivers a thunderous tone during the Main Ten jam, driving the improvisational peak.",
+      "Phil": "Intertwines bass with Jerry in a duelling duet on The Other One; shouts a memorable line during the Lovelight drum break.",
       "Bob": "",
-      "Tom": "Faintly audible organ adds subtle texture to the jam sections.",
-      "Mickey": "",
-      "Billy": ""
+      "Pigpen": "Provides sparse organ touches that are barely audible through the mix but add texture to the experimental set.",
+      "Mickey": "Drums lock into the middle‑section jam of Lovelight, contributing to the powerful rhythmic foundation.",
+      "Billy": "Partners with Mickey in the driving drum groove throughout the extended improvisations."
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-10T21:30:12.725839+00:00",
+    "processed_date": "2025-09-24T11:29:28.306020+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed"
   }

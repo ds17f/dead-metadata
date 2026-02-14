@@ -77,23 +77,34 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Brief high‑quality instrumental tease, not a full Dead set",
-    "blurb": "The only surviving tape is a ~5‑minute soundboard instrumental jam. The audio is crisp and clean, but none of the two‑song set (Viola Lee Blues, Alice D. Millionaire) is captured.",
-    "review": "On Halloween night 1966 at California Hall the Dead took the stage with Jerry, Bob, Phil, Bill Kreutzmann and Pigpen. Unfortunately the sole surviving recording – a soundboard capture identified as gd1966-10-31.sbd.bershaw.5416.shnf – contains only a short instrumental tease that lasts about five minutes and does not feature any of the scheduled songs. While the fidelity is excellent (“5‑star sound” according to reviewers), listeners won’t hear the band’s early blues‑rock set or Pigpen’s harmonica. For completists who want any glimpse of the group’s 1966 studio vibe, this tape is a clean snapshot; otherwise it offers little insight into the actual concert.",
+    "summary": "Brief Viola Lee Blues tease; limited Dead material, mixed performance",
+    "blurb": "The show consists only of a short instrumental rendition of Viola Lee Blues captured in decent‑quality audio. Reviewers describe it as more of a tease than a full set and note the playing is not by the Grateful Dead. Overall listening value is limited.",
+    "review": "On October 31, 1966 at California Hall the Grateful Dead’s setlist lists only Viola Lee Blues and Alice D. Millionaire, yet the sole surviving tape captures just a brief instrumental jam of Viola Lee Blues. Listeners report that the source sounds decent – one fan even calls it “5‑star sound” – but the performance itself is not by the Dead, feeling more like an unfinished tease than a proper concert offering. With no full band interplay to evaluate and only a fragment of material present, this recording serves mainly as a historical curiosity rather than a must‑listen show for most Deadheads.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 1.5,
-      "confidence": "medium"
+      "ai_rating": 2.6,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 8,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.0,
+        "sentiment_rationale": "The single analysis reports mixed sentiment; reviewers neither strongly praise nor heavily criticize the performance, leading to a neutral adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.0 = 2.6"
+      }
     },
     "best_recording": {
       "identifier": "gd1966-10-31.sbd.bershaw.5416.shnf",
-      "reason": "Only available recording; soundboard quality is excellent despite being just a brief instrumental jam and not the full show."
+      "reason": "Only available source; decent audio quality captures the brief Viola Lee Blues jam despite not being a full Dead performance."
     },
     "key_highlights": [
-      "Crisp, clean soundboard capture of a short instrumental tease",
-      "No full set captured – only ~5 minutes of music"
+      "Short instrumental Viola Lee Blues captured in decent audio",
+      "Performance not by the Grateful Dead; feels like a tease",
+      "Audio quality is good for an SBD source"
     ],
-    "song_highlights": [],
+    "song_highlights": [
+      "Viola Lee Blues"
+    ],
     "band_performance": {
       "Jerry": "",
       "Phil": "",
@@ -103,8 +114,13 @@
       "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-10T12:49:15.467268+00:00",
+    "processed_date": "2025-09-26T05:49:52.573874+00:00",
     "model_used": "gpt-oss-120b",
-    "processing_status": "completed"
+    "processing_status": "completed",
+    "must_listen_sequences": [
+      [
+        "Viola Lee Blues"
+      ]
+    ]
   }
 }

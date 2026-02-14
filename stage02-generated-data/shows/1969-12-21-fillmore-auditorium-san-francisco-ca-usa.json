@@ -152,40 +152,47 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Monster Not Fade Away, stellar Black Peter, solid mid‑set",
-    "blurb": "The set shines with a monster Not Fade Away and a soaring Black Peter. Jerry’s guitar solo on Not Fade Away and the strong keyboard work in The Other One stand out, while the drum duo delivers an engaging solo. I Know You Rider provides a bright lead before the show winds down.",
-    "review": "On December 21, 1969 at the Fillmore Auditorium the Dead delivered a tight single‑set that still feels fresh. A brief ride into I Know You Rider segues into a haunting Black Peter, then erupts into a monster Not Fade Away where Jerry’s guitar solo is nothing short of electrifying. The band rolls straight into Good Lovin' and launches into an expansive drum duet that feeds directly into a powerful, keyboard‑rich The Other One—Tom Constanten (and Pigpen) weaving textures that lift the jam to another level. Though the show drops a bit on the final Cumberland Blues, the energy stays high and the set closes with a genuine thank‑you from Jerry, making this a memorable snapshot of the late‑’60s Dead.",
+    "summary": "Not Fade Away shines, Black Peter stellar, set flow uneven",
+    "blurb": "The set delivers a monster Not Fade Away and a soaring Black Peter, with Jerry’s guitar on fire. I Know You Rider provides a sweet bridge before the show loses momentum after the abrupt Good Lovin’ → The Other One transition and a tired Cumberland Blues finale.",
+    "review": "December 21, 1969 at the Fillmore Auditorium captures a brief but potent snapshot of the Dead in their early‑electric phase. The surviving ~75‑minute soundboard shows Jerry Garcia scorching through Not Fade Away with a smooth, searing tone and launching into an inspired solo throughout the set; Black Peter shines as a showcase for his melodic phrasing, while I Know You Rider offers a breezy interlude before the band dives deeper. Pigpen’s keyboard textures add color to The Other One jam, and the drum duo lay down a solid solo that feeds into Good Lovin’. Unfortunately the tape cuts off after The Other One, the first six songs are missing, and the final Cumberland Blues feels tired, leaving the set’s flow uneven. Still, the recording quality is good for a 1969 SBD, making it the most reliable source to hear these highlights despite its gaps.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 3.5,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 10,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.9,
+        "sentiment_rationale": "The single soundboard analysis uses consistently positive language ('monster Not Fade Away', 'stellar Black Peter', 'good capture'), praising the band’s playing while noting only minor drawbacks (missing early songs, uneven flow). This yields a moderate positive adjustment.",
+        "final_calculation": "2.5 + 0.1 + 0.9 = 3.5"
+      }
     },
     "best_recording": {
       "identifier": "gd69-12-21.sbd.vernon.12927.sbeok.shnf",
-      "reason": "Decent stereo soundboard capture that preserves the monster Not Fade Away and stellar Black Peter with clear mix and minimal dropouts."
+      "reason": "Good‑quality soundboard mix that clearly captures the standout Not Fade Away and Black Peter performances, despite missing the first six songs."
     },
     "key_highlights": [
-      "Monster Not Fade Away featuring a scorching Garcia solo",
-      "Stellar Black Peter with emotive vocal delivery",
-      "The Other One showcases strong keyboard work and an engaging drum duo",
-      "I Know You Rider provides a bright, melodic lead into the second half"
+      "Monster Not Fade Away with Jerry’s scorching guitar tone.",
+      "Stellar Black Peter featuring melodic lead work.",
+      "Solid drum solo leading into Good Lovin’ before an uneven set finish.",
+      "Keyboard textures add depth to The Other One jam, though the tape ends abruptly."
     ],
     "song_highlights": [
       "Not Fade Away",
       "Black Peter",
-      "I Know You Rider",
-      "The Other One"
+      "I Know You Rider"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers an electrifying solo on Not Fade Away and a crisp lead on I Know You Rider, ending the show with a heartfelt thank‑you to the audience.",
+      "Jerry": "Garcia’s guitar tone on Not Fade Away is smooth and scorching; his solos throughout the set receive strong praise.",
       "Phil": "",
       "Bob": "",
-      "Tom": "Keyboard textures shine during The Other One, adding depth and drive to the jam.",
-      "Mickey": "Provides dynamic drumming throughout, highlighted by the drum solo that feeds into The Other One.",
-      "Billy": "Pairs with Mickey in an energetic drum duet that propels the transition into The Other One."
+      "Brent": "",
+      "Mickey": "",
+      "Billy": "The drum solo leading into Good Lovin’ is solid, providing a powerful rhythmic bridge despite the overall flow feeling uneven afterward."
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-11T02:29:22.451627+00:00",
+    "processed_date": "2025-09-24T19:06:27.090626+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -198,12 +205,6 @@
       [
         "China Cat Sunflower",
         "I Know You Rider"
-      ],
-      [
-        "Good Lovin'",
-        "Drums",
-        "The Other One",
-        "Cumberland Blues"
       ]
     ]
   }

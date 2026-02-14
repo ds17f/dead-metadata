@@ -117,59 +117,62 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Tight May 7 '69 set with stellar Dark Star and Good Lovin'",
-    "blurb": "The show delivers a powerful Dark Star trek, a standout vocal performance on Good Lovin', and adventurous jams on The Other One and Turn On Your Lovelight. Jerry’s guitar work is tight and inventive while the band rides the improvisational currents with confidence.",
-    "review": "On May 7, 1969 the Grateful Dead took over San Francisco's Polo Field for a free concert that has become a benchmark of late‑60s spontaneity. The set opens with the rollicking “Me And My Uncle” and quickly dives into a loose jam before launching into an exploratory “The Other One.” A fiery “Smokestack Lightning” segues into Jerry’s soulful lead on “Good Lovin',” where his vocal grit and petal‑steel licks shine. The centerpiece, a sprawling “Dark Star,” is punctuated by Bob Weir’s surprising guitar intro that teases the upcoming Weather Report Suite, before the duo of Mickey and Bill propel the band into a crisp drum break and Pigpen’s exuberant “Turn On Your Lovelight.” Across both recordings the performance feels tight despite early rough edges, capturing the band’s willingness to stretch out while still delivering memorable songcraft. The soundboard capture offers crystal‑clear audio, but the audience tape—identified as the show’s best source—preserves the live energy and crowd vibe that make this historic Golden Gate Park gig a must‑listen.",
+    "summary": "Dark Star fireworks and soaring Good Lovin' dominate the set",
+    "blurb": "The show shines with a smoldering Dark Star and Jerry’s electrifying lead on Good Lovin'. The Other One stretches out into free‑form improvisation before a tight Drums segment launches an excellent Turn On Your Lovelight. Overall the performance captures the historic, sunny vibe of the Polo Field free concert.",
+    "review": "May 7 1969 at San Francisco’s Polo Field remains one of the most legendary early Dead outings – a sun‑drenched free show that still feels fresh after more than five decades. The band launches into an adventurous set that breaks the usual DS>SS>11>LL pattern, opening with Me And My Uncle and a loose Jam before diving deep into a scorching Dark Star that showcases Jerry’s petal‑steel work and his soaring vocal on Good Lovin'. The Other One erupts into a wild, free‑form excursion, feeding directly into a crisp Drums duo that propels the band into an inspired Turn On Your Lovelight. Across both soundboard recordings the performance is consistently praised for its adventurous flow, tight rhythm section, and Jerry’s standout leadership on Good Lovin', making this a must‑listen snapshot of the Dead in their early improvisational prime.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.2,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 18,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Both recordings express strong positive sentiment, repeatedly praising Dark Star, Good Lovin', The Other One and the overall historic vibe; no negative comments were found, just consistent acclaim for the performance.",
+        "final_calculation": "2.5 + 0.1 + 1.6 = 4.2"
+      }
     },
     "best_recording": {
       "identifier": "gd69-05-07.sbd.cotsman.6028.sbeok.shnf",
-      "reason": "Provides the clearest balance of audience ambience and solid sound quality, capturing the live energy while remaining intelligible enough for detailed listening."
+      "reason": "Good‑quality soundboard capture that includes the full set with clear mix; while not as crisp as the other, it is the most complete and widely endorsed version."
     },
     "key_highlights": [
-      "Dark Star’s expansive improvisation with a surprise Bob Weir intro",
-      "Jerry’s commanding vocals on Good Lovin' plus inventive guitar work",
-      "The Other One’s adventurous jam and seamless flow into Smokestack Lightning",
-      "Pigpen’s classic Turn On Your Lovelight performance"
+      "Smoking Dark Star with extended improvisation",
+      "Jerry’s soaring vocal and lead on Good Lovin'",
+      "The Other One stretches into a wild free‑form jam",
+      "Tight Drums segment leading to an excellent Turn On Your Lovelight"
     ],
     "song_highlights": [
-      "Me And My Uncle",
-      "The Other One",
-      "Smokestack Lightning",
-      "Good Lovin'",
       "Dark Star",
+      "Good Lovin'",
+      "The Other One",
       "Turn On Your Lovelight"
     ],
     "band_performance": {
-      "Jerry": "Leads vocals on Good Lovin', showcases tight rhythm work and creative solos throughout the set.",
+      "Jerry": "Leads on Good Lovin' with petal steel, acoustic and electric guitar; his vocal is singled out as exceptional and drives the set’s energy.",
       "Phil": "",
-      "Bob": "Sneaks a brief guitar intro at the tail of Dark Star, hinting at Weather Report Suite.",
+      "Bob": "Sneaks a Weather Report Suite‑style guitar intro into the final seconds of Dark Star, adding an unexpected twist.",
       "Brent": "",
-      "Mickey": "",
-      "Billy": ""
+      "Mickey": "Provides a steady, swinging pulse throughout, especially during the extended Dark Star and the transition into Lovelight.",
+      "Billy": "Locks in with Mickey, delivering crisp fills that propel the jam forward and heighten the Lovelight climax."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-10T23:23:10.841509+00:00",
+    "processed_date": "2025-09-24T14:22:09.661606+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
-        "Me And My Uncle"
-      ],
-      [
-        "The Other One",
-        "Smokestack Lightning"
+        "Dark Star",
+        "Drums",
+        "Turn On Your Lovelight"
       ],
       [
         "Good Lovin'"
       ],
       [
-        "Dark Star",
-        "Drums",
-        "Turn On Your Lovelight"
+        "The Other One",
+        "Smokestack Lightning"
       ]
     ]
   }

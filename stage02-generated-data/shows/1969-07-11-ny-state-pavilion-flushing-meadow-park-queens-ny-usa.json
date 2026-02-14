@@ -158,42 +158,49 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "High‑energy ’69 set with pedal‑steel Hard To Handle and epic jams",
-    "blurb": "The show erupts with a jaw‑dropping pedal‑steel take on “Hard To Handle,” solid renditions of “Dire Wolf” and “Dupree’s Diamond Blues,” and a thunderous jam through “Alligator.” Jerry’s guitar work shines, the drums are among the best Dupree’s tracks ever captured.",
-    "review": "Recorded at the NY State Pavilion during the 1969 World’s Fair, this performance captures the Dead in top form. The first half crackles with intensity – a rare pedal‑steel “Hard To Handle” that has become legendary, followed by a soulful “Dire Wolf,” a rollicking “Dupree’s Diamond Blues,” and a high‑octane “Alligator” that segues into an expansive “Death Don't Have No Mercy.” The second half keeps the momentum rolling with one of the most praised drum performances on a Dupree’s track and a soaring “The Other One” before closing with “Turn On Your Lovelight.” While the matrix source mixes hissy audience ambience early on, it switches to clean board sound for later numbers, preserving both historic atmosphere and musical clarity. For fans who want crystal‑clear detail, the excellent soundboard of the same night offers a pristine version of “Death Don't Have No Mercy” and vivid stage detail, but the mixed‑source recording remains the most complete document of this iconic set.",
+    "summary": "Pedal‑steel Hard To Handle, monster Dupree’s and epic Alligator jam",
+    "blurb": "The set is anchored by a soaring Hard To Handle with Garcia on pedal‑steel, a monster Dupree's Diamond Blues and a relentless Alligator jam that flows into Death Don't Have No Mercy. Pigpen’s organ and vocals add blues grit while the drums drive powerful jams throughout.",
+    "review": "July 11 1969 at the NY State Pavilion captures the Dead in full, early‑Dead glory. Garcia dazzles with pedal‑steel on Hard To Handle (and a soulful Dire Wolf), while his guitar solos stay hot all night. Pigpen’s crunchy organ and raw vocal power shine on Casey Jones and throughout the set, giving it that quintessential blues soul. The band rides a monster Dupree's Diamond Blues into a soaring High Time, then launches an epic Alligator jam that segues into Death Don't Have No Mercy and a wild Jam/Other One stretch before closing with Turn On Your Lovelight. Though the matrix source has hiss and a few drop‑outs, its completeness and the sheer energy of the performances make it the go‑to version for this legendary summer show.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.3,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 26,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Three recordings are clearly positive, praising pedal‑steel, monster Dupree's, Alligator jam and Pigpen’s organ; one recording is mixed but no consistent negatives appear. The strong, repeated commendations warrant a high positive adjustment.",
+        "final_calculation": "2.5 + 0.2 + 1.6 = 4.3"
+      }
     },
     "best_recording": {
       "identifier": "gd69-07-11.sbd.hanno.4644.sbeok.shnf",
-      "reason": "Captures the rare pedal‑steel Hard To Handle and full show flow; later board sections are clear, making it the most complete historic document despite some hiss."
+      "reason": "Most complete source with every song present; despite fair matrix quality, it captures the full set and key moments better than the cut‑off SBDs."
     },
     "key_highlights": [
-      "Pedal‑steel rendition of “Hard To Handle” – a show‑stopping moment",
-      "One of the best Dupree’s drum tracks ever recorded",
-      "Powerful “Death Don't Have No Mercy” captured on the excellent soundboard",
-      "High‑energy jam through “Alligator” and seamless segue into the second set"
+      "Garcia’s pedal‑steel on Hard To Handle and Dire Wolf adds a unique sparkle.",
+      "Monster Dupree's Diamond Blues and soaring High Time jam showcase the band’s early‑Dead power.",
+      "Epic Alligator jam that flows into Death Don't Have No Mercy and an extended Jam/Other One sequence."
     ],
     "song_highlights": [
       "Dupree's Diamond Blues",
-      "Dire Wolf",
       "Hard To Handle",
       "Alligator",
       "Death Don't Have No Mercy",
-      "The Other One"
+      "High Time",
+      "Dire Wolf"
     ],
     "band_performance": {
-      "Jerry": "Shows off a rare pedal‑steel line on “Hard To Handle,” delivers strong vocals on “Dire Wolf,” and adds memorable guitar solos (notably on the “Sitting On Top Of The World/Big Boss” segment).",
-      "Phil": "Provides solid bass foundation throughout; sings on “Mama Tried,” though his low end is sometimes buried in audience recordings.",
-      "Bob": "Opens with priceless jokes, contributes lead vocals on “Mama Tried,” and adds effective backing vocals across the set.",
-      "Pigpen": "Delivers crunchy, soulful organ work and powerful vocal performances, especially on “Death Don't Have No Mercy” and other Pigpen‑led numbers.",
-      "Mickey": "Drums are highlighted as fantastic—one of the best Dupree’s drum tracks ever—with dynamic fills and top‑hat texture throughout the jams.",
-      "Billy": "Partners with Mickey to create a driving, 'crazy' rhythmic backbone; his drumming shines during the extended “Alligator” jam and transitions."
+      "Jerry": "Pedal‑steel shines on Hard To Handle and Dire Wolf; melodic leads and energetic guitar solos dominate the night.",
+      "Phil": "Provides a solid bass foundation, occasional vocal on Mama Tried, and becomes clearer later in the set.",
+      "Bob": "Opens with priceless jokes, delivers strong vocals on Mama Tried and offers supportive backing throughout.",
+      "Brent": "Pigpen’s organ and bluesy vocals drive songs like Casey Jones and add vital texture; his presence is described as crunchy and essential to the early‑Dead sound.",
+      "Mickey": "Drums are powerful and crazy, with top‑hat tapping and cowbell adding excitement; praised for a killer board mix.",
+      "Billy": "Shares the thunderous drum work, delivering a fantastic mix that fuels the long jams and keeps the momentum high."
     },
     "processed_recordings": 4,
-    "processed_date": "2025-09-11T00:42:01.155638+00:00",
+    "processed_date": "2025-09-24T16:22:13.199485+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -211,6 +218,9 @@
         "Jam",
         "The Other One",
         "Turn On Your Lovelight"
+      ],
+      [
+        "High Time"
       ]
     ]
   }

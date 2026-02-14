@@ -124,46 +124,57 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Soaring Dark Star, fierce Eleven and tight jams throughout",
-    "blurb": "The show delivers an explosive Dark Star > Saint Stephen sequence, a marathon The Eleven and a powerful Other One suite. Jerry’s guitar is in top form, Phil lays down a solid bass foundation, and Pigpen adds bluesy harmonica on the opening number. Recording quality is excellent across multiple soundboard sources, making this a standout 1969 performance.",
-    "review": "On March 28, 1969 at Modesto Jr. College the Dead unleashed one of their classic spring‑’69 outings. The first set rockets from an earthy “Good Morning Little School Girl” into a soaring Dark Star that segues straight into a fiery Saint Stephen, then rolls into a marathon The Eleven where Phil’s bass is audible and muscular while Jerry rides a blistering, hornet‑buzz tone. After a gut‑wrenching Death Don’t Have No Mercy the band lifts into Turn On Your Lovelight before diving back into the Cryptical Envelopment/Other One suite – a relentless climax that showcases Pigpen’s gritty harmonica on the opener and a driving drum battle between Mickey and Bill on The Other One. Across all available tapes the soundboard captures are pristine: Miller’s cleanup work makes the guitars crisp, the bass clear, and the occasional tape hiss feels like vintage warmth rather than distraction. For anyone hunting a definitive 1969 experience this Modesto show is a must‑listen.",
+    "summary": "Smoking Dark Star, epic That's It For The Other One suite",
+    "blurb": "Features a searing Dark Star that morphs into The Eleven and a towering That's It For The Other One suite. Jerry’s guitar is on fire, Phil lays down a thunderous bass line, and Pigpen shines on Schoolgirl. The set flows tightly with strong transitions throughout.",
+    "review": "On March 28 1969 at the Modesto Jr. College Student Center, the Dead delivered one of their classic late‑'60s performances. The show opens with Good Morning Little School Girl before launching into a smoking Dark Star that stretches and evolves into The Eleven, showcasing Jerry’s incendiary guitar work—described by reviewers as “buzzes and stings like an angry hornet” and “a Black Sabbath‑like intensity.”  Death Don't Have No Mercy follows with raw blues fury, while St. Stephen provides tight rock momentum.  The second half culminates in the monumental That's It For The Other One suite (Cryptical Envelopment → The Other One → Cryptical Envelopment), a seamless journey that keeps the energy high from start to finish.  Phil’s bass shines especially on The Eleven, and Pigpen’s harmonica on Schoolgirl adds a soulful edge.  Drummers Mickey Hart and Bill Kreutzmann lock in for powerful grooves, with only a brief buzz‑kill drum segment noted during The Other One.  Overall the set is fluid, engaging, and captures the band at a creative peak.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 4.4,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 40,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Four of five recordings are strongly positive, repeatedly praising Dark Star, The Eleven, Death Don't Have No Mercy and the That's It For The Other One suite; only one recording is mixed and no negative consensus appears.",
+        "final_calculation": "2.5 + 0.3 + 1.6 = 4.4"
+      }
     },
     "best_recording": {
       "identifier": "gd1969-03-28.sbd.miller.81543.sbeok.flac16",
-      "reason": "Pristine sound‑board capture with superb clarity, minimal noise and excellent balance that highlights the soaring Dark Star, marathon Eleven and epic Other One suite."
+      "reason": "Excellent soundboard capture with crystal‑clear fidelity; highlights Dark Star, The Eleven, Death Don't Have No Mercy and the full That's It For The Other One suite, making it the most complete and sonically satisfying version."
     },
     "key_highlights": [
-      "Explosive Dark Star > Saint Stephen segue with blistering solos",
-      "Marathon The Eleven featuring strong bass and tight rhythm section",
-      "Powerful Other One suite framed by Cryptical Envelopments",
-      "Death Don't Have No Mercy delivered with raw intensity"
+      "Smoking Dark Star that builds into a powerful The Eleven.",
+      "Epic That's It For The Other One suite (Cryptical Envelopment → The Other One → Cryptical Envelopment).",
+      "Intense Death Don't Have No Mercy showcasing raw blues energy.",
+      "Strong first half with tight St. Stephen and fluid transitions throughout."
     ],
     "song_highlights": [
+      "Good Morning Little School Girl",
       "Dark Star",
       "Saint Stephen",
       "The Eleven",
       "Death Don't Have No Mercy",
-      "Turn On Your Lovelight",
-      "The Other One",
-      "Good Morning Little School Girl"
+      "Cryptical Envelopment",
+      "The Other One"
     ],
     "band_performance": {
-      "Jerry": "In top form, delivering blistering solos and a fat, wild SG tone that buzzes like an angry hornet, especially on Dark Star, Death Don't Have No Mercy and The Other One.",
-      "Phil": "Provides a strong, audible bass line throughout, anchoring the marathon Eleven and keeping the groove solid during extended jams.",
-      "Bob": "Steps forward when Jerry drops out, adding rhythmic support and complementary guitar fills in later parts of The Eleven and other sections.",
+      "Jerry": "Incendiary guitar work dominates the night—buzzing, stinging solos and a fat Gibson SG tone that soars on Dark Star and Death Don't Have No Mercy, with a smooth yet edgy attack that even turns Black Sabbath‑like in intensity.",
+      "Phil": "Provides a thunderous, melodic bass foundation; his lines on The Eleven are highlighted as “great Philbass comin’ through,” anchoring the improvisations solidly.",
+      "Bob": "Steps up when Jerry encounters equipment hiccups, delivering strong rhythm guitar and jam support that keeps the momentum driving forward.",
       "Brent": "",
-      "Mickey": "Drums drive the intensity on The Other One, offering crisp, powerful hits that propel the climax of the show.",
-      "Billy": "Locks in with Mickey for a tight, steady pulse; his solid drumming underpins the entire set and shines during the high‑energy moments."
+      "Mickey": "Drums lock in powerfully, especially during The Other One where his playing is praised; only a brief 18‑second segment is noted as less effective.",
+      "Billy": "Pairs with Mickey for a tight dual‑drum wall of sound throughout the set, contributing to the overall propulsive feel."
     },
     "processed_recordings": 5,
-    "processed_date": "2025-09-10T22:09:20.416284+00:00",
+    "processed_date": "2025-09-24T12:31:24.077963+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
+      [
+        "Good Morning Little School Girl"
+      ],
       [
         "Dark Star",
         "Saint Stephen",
@@ -175,9 +186,6 @@
         "Cryptical Envelopment",
         "The Other One",
         "Cryptical Envelopment"
-      ],
-      [
-        "Good Morning Little School Girl"
       ]
     ]
   }

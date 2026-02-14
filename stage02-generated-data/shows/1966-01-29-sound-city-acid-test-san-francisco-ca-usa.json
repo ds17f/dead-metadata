@@ -61,26 +61,34 @@
     "venue_matching: 0 matched, 2 unmatched"
   ],
   "ai_show_review": {
-    "summary": "Quirky acid‑test interview with rough jams, more doc than concert",
-    "blurb": "The tape blends a Ken Kesey interview with brief, free‑form jamming from the early Dead. Sound is decent for an acid‑test capture but lo‑fi and uneven. No conventional setlist – it’s a historical snapshot rather than a full show.",
-    "review": "On January 29, 1966 the Grateful Dead appeared at the Sound City Acid Test, a night that was as much about Ken Kesey’s psychedelic musings as it was about music. The best available recording (gd1966-01-29.sbd.bershaw.5411.shnf) offers a clearer field capture than most early acid‑test tapes, preserving snippets of the band’s early improvisations alongside Kesey’s interview. While the audio fidelity is modest and the flow feels more like an archival document than a concert, it provides a rare glimpse of the pre‑classic lineup with Pigpen on keys and vocals. A second audience‑style capture (gd1966-01-29.sbd.berger.99527.flac16) is even rougher; listeners note Jerry’s voice sounding “completely shot” on track 10, casting doubt on how much actual playing is present. Together the recordings are valuable for their historical context—showcasing the band’s embryonic stage and its ties to the Merry Pranksters—but they offer limited musical payoff for those seeking a traditional Dead performance.",
+    "summary": "Early Acid Test capture with historic Ken Kesey interview, sparse music",
+    "blurb": "The Jan‑29‑1966 Sound City recording is an ambient field tape that captures the trippy vibe of the original Acid Tests and a rare Ken Kesey interview. Musical content from the Dead is minimal – only brief snippets appear – making it more a historical document than a concert performance.",
+    "review": "On January 29, 1966 the Grateful Dead took part in a Sound City Acid Test that has become famous not for its setlist but for its cultural context. The audience‑recorded tape (gd1966-01-29.sbd.bershaw.5411.shnf) offers a surprisingly defined ambient sound and includes a clear interview with Ken Kesey, giving listeners a vivid sense of the psychedelic atmosphere that surrounded those early gatherings. Musically, the Dead are largely in the background; Jerry’s voice surfaces only briefly on one track, described as “shot,” and the band’s instrumental presence is thin, making the session feel more like a free‑form jam than a structured concert. For fans interested in the mythic origins of the Acid Tests and the band's earliest public appearances, this recording is valuable despite its limited musical payoff.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 2.8,
-      "confidence": "medium"
+      "ai_rating": 2.5,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 20,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": -0.2,
+        "sentiment_rationale": "Both recordings are described as having mixed sentiment – the show is called 'hit‑or‑miss' and offers little real Dead music, indicating mild negative perception without strong positive praise.",
+        "final_calculation": "2.5 + 0.2 - 0.2 = 2.5"
+      }
     },
     "best_recording": {
       "identifier": "gd1966-01-29.sbd.bershaw.5411.shnf",
-      "reason": "Higher sound quality (good) and more complete capture of interview plus jam segments"
+      "reason": "Audience capture with clearer tape than other Acid Test recordings and includes the historic Ken Kesey interview."
     },
     "key_highlights": [
-      "Ken Kesey interview provides a rare early psychedelic context",
-      "Early lineup with Pigpen adds authentic flavor to the loose jams",
-      "Recording captures raw, lo‑fi acid test atmosphere despite uneven fidelity"
+      "Rare Ken Kesey interview captured in the field recording.",
+      "Ambient, trippy atmosphere that reflects the original Acid Test vibe.",
+      "Musical content is minimal; only brief Dead snippets are present."
     ],
     "song_highlights": [],
     "band_performance": {
-      "Jerry": "On the audience recording his voice sounds completely shot on track 10, making it unclear how much of the band is actually playing.",
+      "Jerry": "Appears only briefly on one track with a vocal described as \"shot\" and is otherwise absent.",
       "Phil": "",
       "Bob": "",
       "Brent": "",
@@ -88,7 +96,7 @@
       "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-10T11:55:25.666047+00:00",
+    "processed_date": "2025-09-26T04:33:04.468096+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed"
   }

@@ -148,53 +148,57 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Dark Star > St Stephen > Eleven blaze; Other One into Alligator & Caution",
-    "blurb": "The show shines with a soaring Dark Star → Saint Stephen → The Eleven sequence and a monster second‑set cascade from The Other One through Alligator into a ferocious Caution jam. Jerry’s lead work is crisp, the organ sits deep despite tape hiss, and the overall performance remains compelling even though drum balance wavers.",
-    "review": "On February 4, 1969 at Omaha’s Music Box the Dead delivered a gritty yet unforgettable set that still holds up for modern ears. The soundboard capture (gd69-02-04.sbd.barbella.7294.sbeok.shnf) is admittedly fuzzy – tape hiss and occasional drum drop‑outs are present – but the mix stays surprisingly balanced enough to hear Jerry Garcia’s dynamic lead on Dark Star, his lyrical tone on Morning Dew, and even a shouted “Alligator” cue that propels the band into an intense jam. Pigpen’s organ underpins the improvisations with a deep, resonant presence while Mickey Hart and Bill Kreutzmann keep the rhythmic engine alive despite moments of uneven drum level. Highlights include the classic Dark Star → Saint Stephen → The Eleven trek, the seamless segue from The Other One into Alligator, an explosive Caution jam, and a wild Feedback finale that caps off the night with pure ’69 energy.",
+    "summary": "Smoking Dark Star, epic Other One/Alligator/Caution sequence",
+    "blurb": "The show features a fiery Dark Star that flows into St. Stephen and The Eleven, then erupts into an intense Other One > Alligator > Caution suite. Jerry’s guitar shines on Dark Star and Morning Dew while the organ adds depth despite tape‑speed quirks. Drums are enjoyable but often buried in the mix.",
+    "review": "On February 4, 1969 at The Music Box, the Dead delivered a high‑octane set that still feels fresh. The first half launches with a scorching \"Good Morning Little School Girl\" and quickly dives into a Dark Star that rides a half‑step higher than usual, showcasing Jerry’s dynamic tone and soaring solos that spill into a seamless transition to St. Stephen and the manic pulse of The Eleven. After a brief detour through \"Death Don't Have No Mercy,\" the second set explodes: \"The Other One\" rolls into an all‑out Alligator jam, which then lifts into a soaring Caution (Do Not Stop On Tracks) climax, all underpinned by a deep, present organ that cuts through the otherwise muddied tape. Highlights also include a heartfelt rendition of \"Morning Dew\" and the closing “And We Bid You Good Night.” While the soundboard capture is only fair—suffering from cassette hiss, occasional cut‑outs, and drums often buried—the performance itself is vibrant and tightly locked in, making this show a must‑listen for fans of early Dead improvisation.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.1,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 28,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "All language in the sole analysis is positive – phrases like 'shines', 'epic', and 'standout' are used to describe Dark Star, the Other One/Alligator/Caution sequence, and Morning Dew, indicating strong enthusiasm across the performance.",
+        "final_calculation": "2.5 + 0.2 + 1.4 = 4.1"
+      }
     },
     "best_recording": {
       "identifier": "gd69-02-04.sbd.barbella.7294.sbeok.shnf",
-      "reason": "Only full‑show SBD; despite tape hiss it captures the entire set with enough clarity to enjoy the landmark Dark Star sequence and tight jams."
+      "reason": "Fair‑quality soundboard capture that preserves the deep organ, strong Dark Star and Other One jams despite tape‑speed quirks; it is the most complete source of this performance."
     },
     "key_highlights": [
-      "Iconic Dark Star → Saint Stephen → The Eleven stretch drives the first half",
-      "The Other One segues into Alligator, leading directly into a fierce Caution jam",
-      "Morning Dew showcases Garcia’s lyrical phrasing and Pigpen’s deep organ tone",
-      "Feedback closes the night with an unbridled, experimental finale"
+      "Epic Other One > Alligator > Caution suite with soaring organ",
+      "Smoking Dark Star pitched up a half‑step, showcasing Jerry’s dynamic tone",
+      "Standout Morning Dew and powerful Good Morning Little School Girl opener"
     ],
     "song_highlights": [
       "Good Morning Little School Girl",
-      "Morning Dew",
       "Dark Star",
       "Saint Stephen",
       "The Eleven",
       "The Other One",
       "Alligator",
       "Caution (Do Not Stop On Tracks)",
-      "Feedback"
+      "Morning Dew",
+      "Death Don't Have No Mercy"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s guitar is the night’s engine – dynamic on Dark Star, beautifully warm on Morning Dew, and driving the Alligator/Caution transition with confident leads.",
+      "Jerry": "Dynamic guitar tone on Dark Star, scorching solos in Morning Dew, and seamless transition into Alligator.",
       "Phil": "",
       "Bob": "",
       "Brent": "",
-      "Mickey": "Hart contributes energetic percussion throughout; his interplay helps sustain momentum even when drum mix is spotty.",
-      "Billy": "Kreutzmann’s drumming adds power and drive, though the tape sometimes buries his parts."
+      "Mickey": "Drums are enjoyable but often buried in the mix; low presence due to recording limitations.",
+      "Billy": "Drums are enjoyable but often buried in the mix; low presence due to recording limitations."
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-10T21:06:55.834262+00:00",
+    "processed_date": "2025-09-24T10:55:57.713370+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
         "Good Morning Little School Girl"
-      ],
-      [
-        "Morning Dew"
       ],
       [
         "Dark Star",
@@ -211,6 +215,9 @@
         "Caution (Do Not Stop On Tracks)",
         "Feedback",
         "And We Bid You Good Night"
+      ],
+      [
+        "Morning Dew"
       ]
     ]
   }

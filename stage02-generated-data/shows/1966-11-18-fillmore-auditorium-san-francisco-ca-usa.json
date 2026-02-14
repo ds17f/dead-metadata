@@ -63,22 +63,30 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Early Dead sound at Fillmore with limited recording detail",
-    "blurb": "The November 18, 1966 show captures the band in its formative stage. No setlist is documented and the sole available source is of fair audio quality, offering a basic glimpse of the early Garcia/Weir interplay. It is downloadable as a 24‑bit FLAC.",
-    "review": "On November 18, 1966 the Grateful Dead took the stage at San Francisco’s Fillmore Auditorium during a period when their repertoire was still coalescing around blues‑rock foundations and nascent improvisational sparks. The only known recording (gd1966-11-18.169871.sbd.flegel.ciaffa.miller.flac2444) is a 24‑bit FLAC download described as “fair” in quality; reviewers provide no concrete commentary on performance, setlist flow, or standout moments. While the audio fidelity does not allow a deep dive into the band’s early dynamics, the tape remains valuable for completists interested in hearing Pigpen’s organ and harmonica contributions alongside Jerry’s nascent lead work, Bob’s steady rhythm guitar, Phil’s developing bass lines, and Bill Kreutzmann’s driving drums. Listeners should approach this release as a historical snapshot rather than a definitive musical statement.",
+    "summary": "Soundboard capture of early Fillmore gig; details scarce",
+    "blurb": "A presumed good soundboard recording exists for this 1966 Fillmore show, but setlist and performance notes are missing. The lineup features the original quintet with Pigpen on keys and harmonica.",
+    "review": "The November 18, 1966 Fillmore Auditorium concert is represented by a single soundboard tape that listeners describe as \"good\" in quality, though no specific comments on clarity or mix are provided. Unfortunately, the setlist has not survived and reviewers offered no insight into song choices or individual performances, leaving the musical content largely a mystery. What we do know is that this early era showcases the classic lineup—Jerry, Bob, Phil, Bill, and Ron \"Pigpen\" McKernan—delivering the raw energy that defined the Dead's formative years. For collectors seeking an authentic snapshot of the band's pre‑psychedelic phase, this tape offers a decent listening experience despite its informational gaps.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 2.5,
-      "confidence": "low"
+      "ai_rating": 3.0,
+      "confidence": "low",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 1,
+        "review_count_boost": 0.0,
+        "sentiment_adjustment": 0.5,
+        "sentiment_rationale": "Only one recording analysis is available and its sentiment is marked as positive, providing a modest boost for the show’s perceived quality.",
+        "final_calculation": "2.5 + 0.0 + 0.5 = 3.0"
+      }
     },
     "best_recording": {
       "identifier": "gd1966-11-18.169871.sbd.flegel.ciaffa.miller.flac2444",
-      "reason": "Only known recording of the show; offers a complete, though fair‑quality, audio document for collectors."
+      "reason": "Presumed good soundboard source; the only available tape for this show."
     },
     "key_highlights": [
-      "Earliest documented Fillmore performance from the band's pre‑psychedelic era",
-      "Features Pigpen on keyboards and harmonica alongside the original quintet",
-      "Provides a rare audible snapshot of the group's formative sound"
+      "Only a single SBD recording exists, noted as \"good\" in quality.",
+      "Setlist is missing, leaving musical content undocumented.",
+      "Early lineup includes Pigpen on keyboards and harmonica."
     ],
     "song_highlights": [],
     "band_performance": {
@@ -90,7 +98,7 @@
       "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-10T12:50:19.008566+00:00",
+    "processed_date": "2025-09-26T05:50:57.789525+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed"
   }

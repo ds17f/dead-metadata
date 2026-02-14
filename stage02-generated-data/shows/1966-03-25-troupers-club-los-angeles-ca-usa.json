@@ -100,48 +100,60 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Pigpen‑driven R&B set with stellar Hog For You and Hey Little One",
-    "blurb": "The show showcases Ron Pigpen’s thunderous organ leading an early‑Dead R&B groove. Highlights include “I’m A Hog For You Baby,” “Hey Little One,” and a tight rendition of “Cold Rain And Snow.” Jerry’s vocals are raw and passionate while the rhythm section drives solidly.",
-    "review": "On March 25, 1966 at the Trouper's Club in Los Angeles the Grateful Dead delivered a classic early‑Dead R&B set that is dominated by Ron \"Pigpen\" McKernan’s organ. The matrix recording (gd66-03-25.sbd.unknown.38.sbeok.shnf) is remarkably clear – vocals sit on one channel while the instruments occupy the other, giving listeners an almost stage‑side feel. Pigpen’s organ is “thunderous” and occasionally overpowers the mix, but it fuels standout moments like “I’m A Hog For You Baby,” “Hey Little One,” and the soulful “Cold Rain And Snow.” Jerry Garcia’s guitar slips out of tune at times, yet his passionate singing and fiery riffs cut through, especially on “You Don't Have To Ask.” Phil Lesh provides a solid bass foundation even though it sits slightly recessed, and Bill Kreutzmann drives the groove; a brief kick‑drum distortion appears on “Next Time You See Me” but disappears when summed to mono. Overall the performance feels cohesive, raw, and historically exciting – a true snapshot of the band’s early sound.\n\nThe second recording (gd1966-03-25.139750.sbd.miller.clugston.flac1648) is described as “raw” and historic, with Jerry’s voice highlighted as pure, but it lacks the clarity of the matrix source. For anyone wanting to experience this formative era, the matrix tape remains the definitive listening choice.",
+    "summary": "Raw '66 set with thunderous Pigpen organ and strong early classics",
+    "blurb": "The show delivers a raw early‑Dead R&B vibe highlighted by Pigpen’s thunderous organ on “Hey Little One,” “I’m A Hog For You Baby,” and “Cold Rain And Snow.” Jerry’s gritty vocals cut through the mix despite occasional guitar tuning issues, while Phil provides a solid bass foundation. The crystal‑clear soundboard capture makes this one of the best examples of the band’s 1966 energy.",
+    "review": "On March 25 1966 at the Trouper's Club, the fledgling Grateful Dead were already striking fire with an R&B‑blues set that still feels immediate decades later. Pigpen’s organ roars through “Hey Little One” and “I’m A Hog For You Baby,” stealing the spotlight while the rest of the band rides a tight groove anchored by Phil’s bass and Bill’s driving drums. Jerry Garcia’s vocals are raw and on fire, even as his guitar occasionally slips out of tune, adding to the early‑Dead grit that defines this era. Standout moments include a rollicking “Stealin’,” a soulful rendition of “Cold Rain And Snow,” and the upbeat “You Don't Have To Ask.” The soundboard source is remarkably clear—organ a touch forward, kick drum distortion only on “Next Time You See Me”—making it an essential listen for anyone exploring the band’s formative years.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.3,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 26,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Both recordings are marked as positive; reviewers consistently praise Pigpen’s organ, Jerry’s raw vocals, and the overall high‑energy R&B feel, providing strong cross‑source endorsement without any negative commentary.",
+        "final_calculation": "2.5 + 0.2 + 1.6 = 4.3"
+      }
     },
     "best_recording": {
       "identifier": "gd66-03-25.sbd.unknown.38.sbeok.shnf",
-      "reason": "Clear split‑channel matrix capture; organ is front‑and‑center, overall sound is listenable despite minor mix quirks."
+      "reason": "Crystal‑clear soundboard capture with excellent organ presence and minimal distortion, offering the most complete and sonically balanced version of the show."
     },
     "key_highlights": [
-      "Thunderous Pigpen organ leading the R&B set.",
-      "\"I’m A Hog For You Baby\" and \"Hey Little One\" stand out as organ‑driven showcases.",
-      "Jerry’s raw, passionate vocals cut through even with occasional guitar tuning issues.",
-      "Solid rhythm section foundation from Phil and Bill despite a brief kick‑drum distortion."
+      "Pigpen’s thunderous organ dominates on “Hey Little One” and “I’m A Hog For You Baby”.",
+      "Jerry delivers raw, fiery vocals; his guitar occasionally slips out of tune but adds to the early‑Dead grit.",
+      "The set maintains a high‑energy R&B groove throughout, highlighted by tight renditions of “Stealin’” and “Cold Rain And Snow”.",
+      "Soundboard recording offers crystal‑clear mix (organ slightly forward) with only minor kick drum distortion."
     ],
     "song_highlights": [
-      "I'm A Hog For You Baby",
+      "Stealin'",
       "Hey Little One",
+      "I'm A Hog For You Baby",
       "You Don't Have To Ask",
       "Cold Rain And Snow"
     ],
     "band_performance": {
-      "Jerry": "Passionate vocals and fiery riffs shine, though his guitar is occasionally out of tune.",
-      "Phil": "Bass is solid throughout, audible though slightly recessed in the mix.",
+      "Jerry": "Impassioned singing and gritty vocal delivery shine, though his guitar wanders out of tune at times and shows occasional feedback.",
+      "Phil": "Bass stays solid and anchors the band despite being a bit recessed in the mix.",
       "Bob": "",
-      "Brent": "",
+      "Pigpen": "Organ is thunderous and glorious, taking center stage; its high‑level presence sometimes overwhelms other instruments but drives the show’s power.",
       "Mickey": "",
-      "Billy": "Drums drive the set with energy; a brief kick‑drum distortion appears on \"Next Time You See Me\" but otherwise stays tight."
+      "Billy": "Drums propel the early‑Dead groove with steady drive; a kick drum distortion appears on “Next Time You See Me” but otherwise solid."
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-10T12:13:59.883976+00:00",
+    "processed_date": "2025-09-26T04:59:06.044699+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
-        "I'm A Hog For You Baby"
+        "Stealin'"
       ],
       [
         "Hey Little One"
+      ],
+      [
+        "I'm A Hog For You Baby"
       ],
       [
         "You Don't Have To Ask"

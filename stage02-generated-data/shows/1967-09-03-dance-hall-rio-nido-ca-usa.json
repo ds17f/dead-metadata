@@ -116,46 +116,50 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "31‑min Midnight Hour marathon, epic Viola Lee Blues, raw ’67 energy",
-    "blurb": "The set bursts with a massive 31‑minute “In The Midnight Hour” jam and an organ‑driven “Viola Lee Blues”. Jerry’s soaring guitar and Pigpen’s powerful organ dominate, while “Alligator” adds another high‑water mark. Overall the performance offers a raw glimpse of the Dead’s emerging psychedelic direction.",
-    "review": "On September 3, 1967 at Rio Nido’s Dance Hall the Grateful Dead delivered a blistering, jam‑heavy set that foreshadows their later Dark Star explorations. The show opens with “Dancin’ In The Street,” which, while uneven, hints at early psychedelic improvisation before giving way to a monumental 31‑minute rendition of “In The Midnight Hour” where Jerry Garcia’s guitar soars in transcendent leads. Pigpen’s organ takes center stage on the sprawling “Viola Lee Blues,” weaving soulful textures that drive the band’s exploratory flow, and his presence shines again on “Alligator.” Throughout the night the rhythm section underpins the extended jams with a raw, energetic feel that captures the band at a pivotal moment of evolution.",
+    "summary": "Blues‑rock marathon with soaring Midnight Hour and fiery Viola Lee Blues",
+    "blurb": "The set bursts open with a raw Dancin' In The Street that settles into a powerful Viola Lee Blues jam and an extended Midnight Hour. Jerry’s guitar soars while Pigpen drives the organ on Alligator and Viola Lee Blues. Highlights include the blazing Alligator and the psychedelic stretch into the midnight hour.",
+    "review": "On September 3, 1967 at Rio Nido’s Dance Hall the Dead delivered a raw, blues‑rock marathon that hinted at the cosmic improvisations to come. The evening kicked off with an uneven Dancin' In The Street before the band locked in on Viola Lee Blues, where Pigpen’s gritty organ and Jerry’s soaring lead created a blistering jam that segued into a second take of the tune and then into a thunderous Caution jam. After a brief detour through Big Boss Man the group launched into an all‑out Alligator that showcased Bob’s solid rhythm work and Phil’s relaxed bass foundation, before closing with an epic In The Midnight Hour where Garcia’s guitar reached transcendent heights. Across three soundboard sources the performance is praised for its youthful energy, extended improvisations, and standout moments on Viola Lee Blues, Alligator, and the midnight hour, making it a must‑listen snapshot of the early Dead evolving toward psychedelia.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.6,
-      "confidence": "high"
+      "ai_rating": 4.0,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 35,
+        "review_count_boost": 0.3,
+        "sentiment_adjustment": 1.2,
+        "sentiment_rationale": "Two recordings are clearly positive and the third is mixed but still leans positive; reviewers repeatedly praise the soaring guitar, fiery Viola Lee Blues jams, and historic Alligator performance while noting only a single problematic song (Dancin' In The Street). No consistent negative criticism of the musical execution appears, so a strong positive sentiment (+1.2) is applied.",
+        "final_calculation": "2.5 + 0.3 + 1.2 = 4.0"
+      }
     },
     "best_recording": {
       "identifier": "gd67-09-03.sbd.backus.17272.sbeok.shnf",
-      "reason": "Decent soundboard tape with clear capture of the legendary Midnight Hour jam and overall good balance despite minor hiss."
+      "reason": "Despite some hiss and distortion, this soundboard capture preserves the full set and delivers the iconic Viola Lee Blues and Midnight Hour jams with enough clarity to make it the most complete listening experience."
     },
     "key_highlights": [
-      "31‑minute “In The Midnight Hour” marathon that showcases Garcia’s soaring leads.",
-      "Expansive, organ‑driven “Viola Lee Blues” featuring Pigpen’s standout solos.",
-      "Powerful “Alligator” performance hinting at the band’s psychedelic future.",
-      "Early Dark Star improvisational threads emerging during “Dancin’ In The Street.”"
+      "Epic In The Midnight Hour jam where Garcia’s guitar soars.",
+      "Blazing Viola Lee Blues performance featuring Pigpen’s gritty organ.",
+      "Raw blues‑rock marathon that builds into extended psychedelic improvisations.",
+      "Alligator showcases tight rhythm section and early Dead energy."
     ],
     "song_highlights": [
-      "In The Midnight Hour",
       "Viola Lee Blues",
       "Alligator",
-      "Dancin' In The Street"
+      "In The Midnight Hour"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers transcendent, soaring guitar work throughout, especially on the marathon Midnight Hour and the extended Viola Lee Blues jams.",
-      "Phil": "Lesh’s bass underpins the sprawling improvisations with a solid, supportive foundation.",
-      "Bob": "Weir provides prominent rhythm and vocal contributions, though his playing on Dancin’ In The Street is noted as less focused.",
-      "Brent": "Ron \"Pigpen\" McKernan’s organ drives the Viola Lee Blues and adds power to Alligator, delivering standout organ solos.",
+      "Jerry": "Garcia delivers soaring, transcendent lead work especially on In The Midnight Hour and throughout the Viola Lee Blues jams.",
+      "Phil": "Lesh provides a relaxed, solid bass foundation that underpins the extended improvisations.",
+      "Bob": "Weir is generally solid and prominent in the mix, though his rhythm feels loose during the opening Dancin' In The Street.",
+      "Brent": "Pigpen’s organ supplies a gritty backbone, shining on Viola Lee Blues and Alligator with powerful, blues‑y voicings.",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-10T13:52:36.885851+00:00",
+    "processed_date": "2025-09-24T06:29:57.668742+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "In The Midnight Hour"
-      ],
       [
         "Viola Lee Blues",
         "Caution (Do Not Stop On Tracks) Jam",
@@ -165,7 +169,7 @@
         "Alligator"
       ],
       [
-        "Dancin' In The Street"
+        "In The Midnight Hour"
       ]
     ]
   }

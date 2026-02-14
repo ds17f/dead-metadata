@@ -201,45 +201,51 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Blues‑heavy early Dead with stellar Cream Puff War and Alice D.",
-    "blurb": "The Matrix set delivers a raw, high‑energy blues marathon highlighted by a scorching Cream Puff War solo and the band's original Alice D. Millionaire. Pigpen’s organ and harp drive the groove while Jerry, Phil and Bill lock in tight throughout. Collectors will love the rarity of tracks like One Kind Favor and Look on Yonder Wall.",
-    "review": "On December 1, 1966 at The Matrix, the Grateful Dead turned the club into a blues‑filled furnace. From the opening New Minglewood Blues through a rolling three‑set marathon they kept the momentum relentless, trading fiery leads and gritty organ riffs. Jerry Garcia’s soaring solo on “Cream Puff War” is repeatedly praised as stellar, and his lead throughout feels both pop‑bright and raucous. Pigpen’s Vox organ and harp dominate the low end, especially on “Death Don't Have No Mercy,” “Deep Elem Blues,” and the mysterious “Look on Yonder Wall*,” where a guest harmonica (rumored to be Paul Butterfield) adds extra bite. Phil Lesh underpins the set with a solid, driving bass line, while Bill Kreutzmann’s drumming stays tight and propulsive despite the raw recording. Standout moments include the original “Alice D. Millionaire,” the high‑octane “One Kind Favor,” and the double‑dose of “Me And My Uncle.” Though some tape hiss and reduced high frequencies persist, the cleaned‑up soundboard captures the band in good form, making this a must‑listen for early Dead enthusiasts.",
+    "summary": "Blues‑heavy early set with scorching Garcia solos and strong organ",
+    "blurb": "The Matrix show bursts with high‑energy blues numbers, highlighted by Alice D. Millionaire, Cream Puff War and One Kind Favor. Pigpen’s driving organ and Bill Kreutzmann’s relentless drumming lock the band into a tight groove. Standout moments include Garcia’s fiery solo on Cream Puff War and several rare deep‑blues cuts.",
+    "review": "On December 1, 1966 at The Matrix, the Grateful Dead delivered an electrifying three‑set marathon that feels like a garage‑band jam turned psychedelic breakthrough. From the opening “New Minglewood Blues” through a raucous run of blues staples—“Betty and Dupree,” “Big Boss Man,” and the fan‑favorite “Alice D. Millionaire”—the band never loses its momentum. Garcia’s lead work shines on “Cream Puff War,” where his solo is described as stellar, and he adds a playful turnaround lick on “One Kind Favor.” Pigpen’s organ fuels the R&B feel of tracks like “Death Don’t Have No Mercy” and “Big Boy Pete,” while Bill Kreutzmann provides an almost “fourth‑arm” drumming intensity that propels the set. Though some recordings note occasional drop‑outs and a thin high‑end, the cleaned‑up soundboard capture (gd1966-12-01.sbd.32800.shnf) presents the performance with clarity and minimal hiss, making it the definitive listen for anyone wanting to experience this formative moment in Dead history.",
     "ratings": {
       "average_rating": 0.0,
       "ai_rating": 4.5,
-      "confidence": "high"
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 61,
+        "review_count_boost": 0.4,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "Three recordings are positive and two mixed, with no consistent negative commentary. Multiple sources praise standout songs (Alice D., Cream Puff War, One Kind Favor), Garcia’s solos, Pigpen’s organ drive, and Bill Kreutzmann’s drumming. The overall tone is strongly favorable, justifying a +1.6 sentiment boost.",
+        "final_calculation": "2.5 + 0.4 + 1.6 = 4.5"
+      }
     },
     "best_recording": {
       "identifier": "gd1966-12-01.sbd.32800.shnf",
-      "reason": "Cleaned‑up soundboard with good overall clarity and solid instrument separation, offering the most complete and listenable version of this early blues set."
+      "reason": "Cleaned‑up soundboard with good overall balance, minimal hiss and captures the full energy of the set while preserving the iconic early‑Dead vibe."
     },
     "key_highlights": [
-      "Rare blues‑heavy set featuring Cream Puff War solo and Pigpen’s organ/harmonica dominance",
-      "Original composition Alice D. Millionaire showcases early songwriting",
-      "One Kind Favor delivers playful improvisation with Garcia’s turnaround lick",
-      "Look on Yonder Wall* possibly features guest Paul Butterfield on harp, adding unique texture"
+      "High‑energy blues‑heavy set featuring rare early Dead material.",
+      "Garcia’s scorching solo on \"Cream Puff War\" and hot guitar throughout.",
+      "Pigpen’s organ drives the R&B groove; Bill Kreutzmann delivers near‑four‑arm drumming intensity.",
+      "Rare deep‑blues cuts like \"Death Don't Have No Mercy\" and \"Big Boy Pete\" stand out."
     ],
     "song_highlights": [
       "Alice D. Millionaire",
       "Cream Puff War",
-      "Betty and Dupree",
-      "Me And My Uncle",
       "One Kind Favor",
-      "Deep Elem Blues",
-      "Big Boy Pete",
       "Death Don't Have No Mercy",
-      "Look on Yonder Wall*"
+      "Big Boy Pete",
+      "Look on Yonder Wall*",
+      "Viola Lee Blues"
     ],
     "band_performance": {
-      "Jerry": "Garcia delivers a soaring Cream Puff War solo and consistently strong lead guitar work, with a pop‑bright, raucous tone throughout.",
-      "Phil": "Lesh provides a solid, driving bass foundation that anchors the blues jams.",
-      "Bob": "Weir’s rhythm playing is steady, though occasional moments (e.g., Minglewood) are noted as less polished.",
+      "Jerry": "Garcia delivers scorching solos on Cream Puff War and Death Don't Have No Mercy, with a hot, pop‑toned lead throughout; his playful turnaround lick shines on One Kind Favor.",
+      "Phil": "Phil’s bass provides steady drive, complementing Pigpen’s organ and adding subtle melodic touches.",
+      "Bob": "Bob’s rhythm guitar is solid but occasionally less focused, notably on Me And My Uncle.",
       "Brent": "",
       "Mickey": "",
-      "Billy": "Kreutzmann keeps tight, propulsive drumming that fuels the high‑energy set despite the raw tape quality."
+      "Billy": "Bill’s drumming is propulsive, with a near‑four‑armed intensity that fuels the blues‑heavy numbers."
     },
     "processed_recordings": 5,
-    "processed_date": "2025-09-10T13:05:44.290904+00:00",
+    "processed_date": "2025-09-26T06:15:00.490056+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -250,25 +256,19 @@
         "Cream Puff War"
       ],
       [
-        "Betty and Dupree"
-      ],
-      [
-        "Me And My Uncle"
-      ],
-      [
         "One Kind Favor"
-      ],
-      [
-        "Deep Elem Blues"
-      ],
-      [
-        "Big Boy Pete"
       ],
       [
         "Death Don't Have No Mercy"
       ],
       [
+        "Big Boy Pete"
+      ],
+      [
         "Look on Yonder Wall*"
+      ],
+      [
+        "Viola Lee Blues"
       ]
     ]
   }

@@ -132,57 +132,59 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Fiery Lovelight and tight China Cat jam in a short, punchy set",
-    "blurb": "The band delivers a scorching Turn On Your Lovelight with Pigpen’s rap and Jerry’s smoking solo. The China Cat Sunflower > I Know You Rider segue is tight, highlighted by Phil’s strong bass lines, while High Time and Good Lovin’ keep the energy high throughout the brief set.",
-    "review": "On December 13, 1969 at Swing Auditorium, the Dead rolled out an eleven‑song set that feels both compact and combustible. Highlights include a blazing Turn On Your Lovelight where Jerry’s guitar “smokes” and Pigpen throws one of his most spirited rap verses, plus a crisp, well‑balanced China Cat Sunflower > I Know You Rider jam powered by Phil’s great bass work. Even with the final portion of Black Peter cut, the performance stays engaging—High Time, Good Lovin’, and Cumberland Blues keep the momentum rolling, and Tom Constanten’s organ lick adds sparkle during the Lovelight break. Recorded from a clear soundboard source, the tape captures the band’s mid‑set jams with surprising fidelity for ’69, making this one of the more listenable early shows despite its brevity.",
+    "summary": "Loose ’69 set with smoking Lovelight and monster China>Rider jam",
+    "blurb": "The show delivers a tight eleven‑song set highlighted by Black Peter, a fiery Turn On Your Lovelight, and an extended China Cat Sunflower → I Know You Rider jam. Jerry’s guitar smokes on the Lovelight while Phil’s bass drives the high‑energy moments. The soundboard capture is clear enough to enjoy despite occasional static and a few cuts.",
+    "review": "On December 13, 1969 at Swing Auditorium the Dead rolled out an eleven‑song set that feels both loose and purposeful. Pigpen’s presence looms large, especially on Black Peter and Turn On Your Lovelight, where Tom Constanten adds a crisp organ lick that makes Jerry’s guitar sound “smoking” as noted in the recording notes. The centerpiece is the monster China Cat Sunflower → I Know You Rider jam, with Phil’s bass lines locking in tight and driving the improvisation forward. Good Lovin’ and Cumberland Blues keep the momentum high, while Saint Stephen slides seamlessly into a rousing Turn On Your Lovelight finale. Although the source misses the encore and has occasional static, the soundboard is generally clear and well‑balanced, making this capture the definitive way to experience the night.\n\nFor anyone looking to hear a classic late‑’60s Dead performance—complete with Pigpen’s bluesy grit, Jerry’s soaring leads, and a tight rhythm section—the recommended recording (gd69-12-13.sbd.clugston.5583.sbeok.shnf) offers the best listening experience despite its minor imperfections.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.1,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 20,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.4,
+        "sentiment_rationale": "All available analysis is positive, praising standout songs (Black Peter, Lovelight, China Cat > Rider) and band members' performances. The language includes 'smoking', 'monster jam', and notes the set feels loose yet engaging, indicating strong positive sentiment across the recording.",
+        "final_calculation": "2.5 + 0.2 + 1.4 = 4.1"
+      }
     },
     "best_recording": {
       "identifier": "gd69-12-13.sbd.clugston.5583.sbeok.shnf",
-      "reason": "Clear soundboard tape with good fidelity, captures the fiery Lovelight and tight China Cat jam; only minor static and a cut ending to Black Peter."
+      "reason": "Clear soundboard capture with good balance, showcasing the standout songs and performances despite occasional static."
     },
     "key_highlights": [
-      "Turn On Your Lovelight showcases Jerry’s incendiary solo and Pigpen’s standout rap.",
-      "China Cat Sunflower > I Know You Rider features strong bass from Phil and crisp organ work.",
-      "High energy throughout despite the set’s short length; Good Lovin’ and Cumberland Blues keep momentum high.",
-      "Soundboard recording offers clear, well‑balanced audio with only minor static."
+      "Black Peter shines with Pigpen’s gritty vocals.",
+      "Turn On Your Lovelight features a smoking guitar solo and crisp organ lick.",
+      "Monster China Cat Sunflower → I Know You Rider jam highlights Jerry and Phil's tight interplay.",
+      "Overall soundboard quality is clear enough for an enjoyable listen, with only minor static."
     ],
     "song_highlights": [
-      "Turn On Your Lovelight",
       "Black Peter",
-      "Cumberland Blues",
+      "Turn On Your Lovelight",
       "China Cat Sunflower",
       "I Know You Rider",
-      "High Time",
       "Good Lovin'",
-      "Hard To Handle"
+      "Cumberland Blues"
     ],
     "band_performance": {
-      "Jerry": "His guitar on Turn On Your Lovelight smokes, delivering a fiery solo, and his vocals are heartfelt throughout.",
-      "Phil": "Provides strong bass lines, especially shining in the China Cat Sunflower > I Know You Rider jam.",
-      "Bob": "Pigpen’s rap on Lovelight is one of his best, high‑energy and memorable.",
-      "Brent": "",
+      "Jerry": "His guitar is described as ‘smoking’ on Lovelight and his vocals are heartfelt and unique.",
+      "Phil": "Bass lines receive praise, especially during the China Cat jam and other high‑energy sections.",
+      "Bob": "",
+      "Brent": "Tom Constanten’s organ work stands out, especially the crisp lick during the Lovelight transition.",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 1,
-    "processed_date": "2025-09-11T02:22:44.257438+00:00",
+    "processed_date": "2025-09-24T18:55:48.676370+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
-        "Saint Stephen",
-        "Turn On Your Lovelight"
-      ],
-      [
         "Black Peter"
       ],
       [
-        "Good Lovin'",
-        "Cumberland Blues"
+        "Saint Stephen",
+        "Turn On Your Lovelight"
       ],
       [
         "Mama Tried",
@@ -190,10 +192,8 @@
         "I Know You Rider"
       ],
       [
-        "High Time"
-      ],
-      [
-        "Hard To Handle"
+        "Good Lovin'",
+        "Cumberland Blues"
       ]
     ]
   }

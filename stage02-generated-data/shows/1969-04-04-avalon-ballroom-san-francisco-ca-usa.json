@@ -140,54 +140,60 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Dark Star and The Other One shine amid uneven '69 Avalon soundboard",
-    "blurb": "The set features a scorching Dark Star and a blistering The Other One, highlighted by Jerry’s sick slide work. Phil provides a solid bass foundation while Bob delivers impressive rhythm guitar throughout the jams. Recording quality fluctuates, but the musical performance ranks among the stronger late‑'60s outings.",
-    "review": "On April 4, 1969 at San Francisco’s Avalon Ballroom the Dead rolled out a set that still crackles with raw energy despite the quirks of its tape sources. The first half builds from a gritty Good Morning Little School Girl into a daring Cryptical Envelopment sandwich surrounding an incandescent The Other One – Jerry’s slide on that tune is repeatedly described as “sick,” driving the band forward while Bob’s rhythm work locks in tight. After a brief turn‑on‑your‑lovelight detour, the second set erupts with a sprawling Dark Star that, though rhythmically odd to some ears, showcases aggressive lead playing and Phil’s dependable bass lines. The Eleven follows with breakneck intensity, even if the keyboard texture from Tom Constanten drifts off‑key in places. Drummers Mickey and Bill lay down solid beats, though a 12‑second drum solo is oddly split into its own track and suffers a hissy dropout. Overall, the performance captures the band’s improvisational daring of ’69, making it worth a listen despite the flat, uneven soundboard capture.",
+    "summary": "Jazzy Dark Star and tight The Other One despite uneven board",
+    "blurb": "The set opens with a raucous Good Morning Little School Girl and moves into an open, jazzy Dark Star that showcases the band's improvisational depth. Standout moments include The Other One's seamless segues and a spirited Turn On Your Lovelight. Recording quality fluctuates, with volume swings and a brief drum solo isolated on its own track.",
+    "review": "April 4, 1969 at the Avalon Ballroom captures the Dead in a fiery ’69 mood. The first set rolls from blues‑y Good Morning Little School Girl into an adventurous sequence of Cryptical Envelopment → The Other One → Cryptical Envelopment, ending with a heartfelt Death Don't Have No Mercy. The second set really shines: Turn On Your Lovelight ignites the room before the band launches into a long, open‑hearted Dark Star that feels both jazzy and cosmic, followed by a crisp Saint Stephen and the rhythmically relentless The Eleven, closing with chaotic Feedback. Reviewers note the performance is inspired despite the soundboard’s volume swings—from inaudible whispers to blaring peaks—and a very short drum solo that was split off as its own track, which some listeners found unnecessary. Overall, the music is strong enough to outweigh the recording quirks, making this show a solid snapshot of the Dead’s early improvisational evolution.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.2,
-      "confidence": "high"
+      "ai_rating": 2.6,
+      "confidence": "low",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 18,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.0,
+        "sentiment_rationale": "The sole analysis labels sentiment as 'mixed', indicating no clear consensus of praise or criticism; therefore a neutral adjustment is applied.",
+        "final_calculation": "2.5 + 0.1 + 0.0 = 2.6"
+      }
     },
     "best_recording": {
       "identifier": "gd1969-04-04.fm.unknown.87542.shnf",
-      "reason": "Only complete soundboard capture of the full set; despite flat and uneven levels it preserves the key moments like Dark Star and The Other One."
+      "reason": "Fair soundboard that captures the inspired Dark Star and The Other One despite volume swings; it's the most complete source of this performance."
     },
     "key_highlights": [
-      "Fiery Dark Star with aggressive lead work",
-      "Sick slide on The Other One that drives the jam",
-      "High‑octane The Eleven showcasing tight rhythm section",
-      "Full set captured despite uneven tape quality"
+      "Open, jazzy Dark Star showcases deep improvisational chemistry.",
+      "The Other One flows seamlessly through cryptical envelopment segues.",
+      "Turn On Your Lovelight energizes the second set and leads into tight The Eleven.",
+      "Recording quality fluctuates with noticeable volume swings and an isolated short drum solo."
     ],
     "song_highlights": [
-      "The Other One",
       "Dark Star",
-      "The Eleven"
+      "The Other One"
     ],
     "band_performance": {
-      "Jerry": "Delivers aggressive, slide‑laden playing; his work on The Other One is repeatedly called \"sick\" and drives the Dark Star jam.",
-      "Phil": "Provides a solid bass foundation throughout; praised for sounding great even amid overall show inconsistencies.",
-      "Bob": "Impressive rhythm guitar especially during The Other One, adding tight texture to the jams.",
+      "Jerry": "",
+      "Phil": "A humorous 'fart' bass moment is noted, but it adds a quirky musical interlude.",
+      "Bob": "",
       "Brent": "",
-      "Keys": "Tom Constanten’s keyboard work is criticized as off‑key, particularly on Turn On Your Lovelight and generally throughout the night.",
       "Mickey": "",
-      "Billy": "Snare detail shines early; a 12‑second drum solo is oddly split into its own track and suffers a hiss/drop‑out, with excessive woodblock noted in The Eleven."
+      "Billy": "The drum solo is very brief (12‑17 seconds) and was split into its own track, which some listeners find unnecessary."
     },
-    "processed_recordings": 2,
-    "processed_date": "2025-09-10T22:15:44.542128+00:00",
+    "processed_recordings": 1,
+    "processed_date": "2025-09-24T12:39:29.677451+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
-      [
-        "Cryptical Envelopment",
-        "The Other One",
-        "Cryptical Envelopment",
-        "Death Don't Have No Mercy"
-      ],
       [
         "Dark Star",
         "Saint Stephen",
         "The Eleven",
         "Feedback"
+      ],
+      [
+        "Cryptical Envelopment",
+        "The Other One",
+        "Cryptical Envelopment",
+        "Death Don't Have No Mercy"
       ]
     ]
   }

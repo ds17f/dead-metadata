@@ -138,60 +138,68 @@
     "fillmore-runs"
   ],
   "ai_show_review": {
-    "summary": "He Was A Friend Of Mine shines; solid country‑rock set with standout Casey Jones",
-    "blurb": "The show delivers a monster He Was A Friend Of Mine solo and a memorable Casey Jones rendition. Jerry’s guitar work is crisp while the band explores country‑flavored tunes like Green Green Grass of Home, Slewfoot and Morning Dew. Recording quality varies but the Miller soundboard capture is clear enough to enjoy the entire set.",
-    "review": "On July 3 1969 at Reed's Ranch the Dead offered a brief (≈45 min) but historically rich country‑rock set that still feels fresh today. The highlight is undoubtedly Jerry Garcia’s soaring solo on “He Was A Friend Of Mine,” described by reviewers as “monster” and “beautiful.” A unique take on “Casey Jones” adds extra sparkle, and the band’s interplay on traditional numbers – “Green Green Grass Of Home,” “Slewfoot,” “Morning Dew” – showcases a relaxed yet energized vibe. While the early minutes suffer from a ragged start (notably a clipped “High Time” and a shaky “Cosmic Charlie”), the rest of the performance settles into tight jams, with Phil Lesh’s occasional retuning adding a human touch. Bob Weir’s harmonies shine on the country tunes, and the drummers keep a frantic pulse during high‑energy moments like “Sittin’ On Top Of The World.” The Miller‑engineered soundboard recordings capture most of this magic; the best of them balances clarity with the show’s raw charm, making it the go‑to source for anyone wanting to hear this early‑summer gem.",
+    "summary": "He Was A Friend Of Mine solo shines; solid country‑rock set",
+    "blurb": "The concert opens with a country‑flavored medley that quickly settles into tight improvisations and an epic He Was A Friend Of Mine solo. Standout moments include Morning Dew, Casey Jones and the energetic rhythm section. While some recordings note occasional distortion and tuning slips, the musical performance stays strong throughout.",
+    "review": "On July 3 1969 at Reed’s Ranch in Colorado Springs, the Grateful Dead delivered a concise yet memorable early‑'69 set that leaned heavily into country‑rock and folk material. The night is anchored by Jerry Garcia’s soaring solo on “He Was A Friend Of Mine,” which several listeners describe as marathon‑length and emotionally charged. Early highlights such as “Green Green Grass Of Home” segueing into “Slewfoot,” the upbeat “Casey Jones,” and a heartfelt rendition of “Morning Dew” showcase the band’s tight interplay despite occasional tuning hiccups—Phil Lesh famously retuned his bass mid‑set while asking for coffee. Bob Weir adds Southern‑accented flavor on “Me And My Uncle,” and the dual drummers keep a frantic, energetic pulse, especially during “Sittin' On Top Of The World.” Though the patched soundboard recordings exhibit some distortion and pitch wobble, the overall musical delivery remains compelling, making this show a noteworthy snapshot of the Dead’s evolving country‑rock phase.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.4,
-      "confidence": "high"
+      "ai_rating": 3.9,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 20,
+        "review_count_boost": 0.2,
+        "sentiment_adjustment": 1.2,
+        "sentiment_rationale": "Two of the three recordings are described with unequivocally positive sentiment, praising the He Was A Friend Of Mine solo, strong Morning Dew and Casey Jones performances. The third recording is mixed but still highlights the same standout songs while only noting a few weaker moments (Hard To Handle, Lovelight). The consistency of praise across multiple sources warrants a solid positive adjustment.",
+        "final_calculation": "2.5 + 0.2 + 1.2 = 3.9"
+      }
     },
     "best_recording": {
       "identifier": "gd1969-07-03.sbd.miller.92771.sbeok.flac16",
-      "reason": "Miller‑engineered soundboard capture with clear instrument separation; faithfully renders the standout He Was A Friend Of Mine solo and overall set despite minor early glitches."
+      "reason": "Provides overall decent clarity and captures the epic He Was A Friend Of Mine solo despite occasional distortion, making it the most complete representation of the show."
     },
     "key_highlights": [
-      "Monster He Was A Friend Of Mine solo that defines the show.",
-      "Unique, engaging rendition of Casey Jones.",
-      "Country‑rock flavor shines on Green Green Grass Of Home, Slewfoot and Morning Dew.",
-      "Pedal‑steel textures add an extra layer of early‑Dead experimentation."
+      "Epic He Was A Friend Of Mine solo that defines the set",
+      "Country‑flavored opening medley with Green Green Grass Of Home > Slewfoot",
+      "High‑energy Casey Jones and moving Morning Dew performances",
+      "Energetic drumming throughout, especially on Sittin' On Top Of The World"
     ],
     "song_highlights": [
+      "He Was A Friend Of Mine",
+      "Morning Dew",
       "Green Green Grass Of Home",
       "Slewfoot",
-      "Morning Dew",
-      "High Time",
       "Casey Jones",
-      "He Was A Friend Of Mine"
+      "Sittin' On Top Of The World"
     ],
     "band_performance": {
-      "Jerry": "Garcia’s guitar is crisp throughout, highlighted by a monster solo on He Was A Friend Of Mine and tasteful pedal‑steel textures that add color to the country‑rock set.",
-      "Phil": "Lesh struggled with tuning early in the show, even joking about coffee, but settles into solid bass work once retuned.",
-      "Bob": "Weir provides sweet vocal harmonies, especially on Green Green Grass Of Home, complementing the band’s relaxed vibe.",
+      "Jerry": "Garcia delivers a soaring, marathon solo on He Was A Friend Of Mine and adds intriguing (if rough) pedal‑steel touches; his tone remains solid throughout.",
+      "Phil": "Lesh starts out of tune, forces a retune early in the set, and even jokes about needing coffee, but provides a steady bass foundation once settled.",
+      "Bob": "Weir supplies sweet accompaniment on Green Green Grass Of Home and injects a Southern accent into Me And My Uncle, enhancing the country vibe.",
       "Brent": "",
-      "Mickey": "Hart delivers frantic drumming during high‑energy moments like Sittin' On Top Of The World, driving the set forward.",
-      "Billy": "Kreutzmann’s drums lock in tightly with Hart, offering a solid rhythmic foundation and matching the frenetic energy of the country‑rock numbers."
+      "Mickey": "Hart contributes crisp, driving percussion that locks in with the groove, especially during the upbeat numbers.",
+      "Billy": "Kreutzmann’s frantic, energetic drumming shines on tracks like Sittin' On Top Of The World, propelling the set forward."
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-11T00:28:53.875987+00:00",
+    "processed_date": "2025-09-24T16:02:23.644156+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
       [
-        "Green Green Grass Of Home",
-        "Slewfoot"
+        "He Was A Friend Of Mine"
       ],
       [
         "Morning Dew"
       ],
       [
-        "High Time"
+        "Green Green Grass Of Home",
+        "Slewfoot"
       ],
       [
         "Casey Jones"
       ],
       [
-        "He Was A Friend Of Mine"
+        "Sittin' On Top Of The World"
       ]
     ]
   }

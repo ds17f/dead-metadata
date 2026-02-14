@@ -106,23 +106,30 @@
     "show_time: early"
   ],
   "ai_show_review": {
-    "summary": "Holy Trinity shines despite muffled tape",
-    "blurb": "The early set delivers the classic Dark Star → Saint Stephen → The Eleven sequence with Jerry's incendiary guitar work. While the audience tape captures the high‑energy flow, the sound is muffled and low‑fidelity, making detailed listening difficult.",
-    "review": "September 26, 1969 at the Fillmore East offered a rare glimpse of the Dead’s late‑summer firepower. Set 1 launches into the legendary “Holy Trinity” – Dark Star segues into Saint Stephen and then The Eleven – where Jerry Garcia is described as “on fire,” delivering lightning‑fast, explosive leads that still cut through the grainy tape. Unfortunately, both available recordings suffer from serious audio issues: the Hanno audience capture is plagued by poor fidelity and muffled mids, while the Cotsman source has tape‑overlap artifacts that bleed into King Bee and Death Don't Have No Mercy. The performance itself remains a high point of the 1969 era, but listeners should temper expectations about sound quality.",
+    "summary": "Explosive Dark Star and classic Holy Trinity despite muddy tape",
+    "blurb": "The early set features a blazing Dark Star followed by the Saint Stephen → The Eleven “Holy Trinity” sequence that fans rave about. Jerry’s lightning‑fast guitar work shines, but the overall flow is hampered by poor audience recording quality.",
+    "review": "On September 26 1969 at the Fillmore East, the Dead delivered a scorching early set that still resonates despite the sub‑par source material. The show opens with a ferocious Dark Star where Jerry Garcia’s guitar cuts like lightning, propelling into the legendary “Holy Trinity” – Saint Stephen bleeding straight into The Eleven. That three‑song stretch is repeatedly singled out as the highlight, showcasing the band’s telepathic tightness and improvisational daring.\n\nUnfortunately both known recordings suffer from serious fidelity problems: one audience tape is muddy with a VBR stream that makes details hard to follow, while the other suffers from obvious tape‑reuse artifacts on “King Bee” and “Death Don't Have No Mercy.” Even so, the performance itself remains compelling enough that listeners willing to wade through the hiss are rewarded with one of the era’s most thrilling early‑show moments.\n\nOverall, the show is a mixed bag: stellar musicianship marred by recording limitations. For Deadheads seeking the iconic Holy Trinity in its raw, unfiltered glory, this night is worth the effort.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 3.5,
-      "confidence": "medium"
+      "ai_rating": 2.6,
+      "confidence": "medium",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 11,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 0.0,
+        "sentiment_rationale": "Both recordings are labeled 'mixed' – they praise the Dark Star and Holy Trinity while simultaneously noting poor tape quality. No consistent strong positive or negative sentiment across multiple sources, so no adjustment is applied.",
+        "final_calculation": "2.5 + 0.1 + 0.0 = 2.6"
+      }
     },
     "best_recording": {
       "identifier": "gd69-09-26.aud.hanno.14856.sbeok.shnf",
-      "reason": "Captures the full Holy Trinity sequence with less tape‑overlap than the alternate source, despite overall poor fidelity."
+      "reason": "Although the audio is muddy, this audience tape captures the full Holy Trinity sequence and is the most complete source available."
     },
     "key_highlights": [
-      "Classic Dark Star → Saint Stephen → The Eleven “Holy Trinity” shows Jerry’s incendiary playing.",
-      "Jerry’s guitar is described as lightning‑fast and on fire during the peak of Dark Star.",
-      "Both recordings suffer from significant audio problems – muffled mids in the audience tape, severe overlap artifacts in the second source.",
-      "King Bee and Death Don't Have No Mercy are marred by bleed‑through, limiting their enjoyment."
+      "Fiery Dark Star with explosive, lightning‑fast guitar work.",
+      "\"Holy Trinity\" (Saint Stephen → The Eleven) stands out as a classic improvisational peak.",
+      "Recording quality issues (muddy audience tape, tape‑reuse artifacts) limit clarity."
     ],
     "song_highlights": [
       "Dark Star",
@@ -130,15 +137,15 @@
       "The Eleven"
     ],
     "band_performance": {
-      "Jerry": "Explosive, lightning‑fast guitar work; described as ‘on fire’ during Dark Star.",
+      "Jerry": "Explosive, lightning‑fast guitar work on Dark Star, driving the band's intensity.",
       "Phil": "",
       "Bob": "",
-      "Brent": "",
+      "Pigpen": "",
       "Mickey": "",
       "Billy": ""
     },
     "processed_recordings": 2,
-    "processed_date": "2025-09-11T01:20:55.479415+00:00",
+    "processed_date": "2025-09-24T17:18:33.092721+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [

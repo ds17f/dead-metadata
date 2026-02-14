@@ -146,30 +146,40 @@
   "matching_method": "date_only",
   "filtering_applied": [],
   "ai_show_review": {
-    "summary": "Energetic early‑Dead set with Black Queen & Stephen Stills cameo",
-    "blurb": "The show delivers a powerful early‑Dead sound with strong renditions of Black Peter, Morning Dew and an electrifying Black Queen featuring Stephen Stills. Jerry’s guitar intertwines with Stills in a lively jug‑band feel while the band keeps solid momentum throughout.",
-    "review": "On December 10, 1969 at Thelma Theater in Los Angeles, the Grateful Dead served up a historic set that captures the band on the cusp of their folk‑rock golden era. Highlights include a soaring Black Peter, an emotionally charged Morning Dew (with Stills adding his voice), and a blistering Black Queen that showcases a rare Stephen Stills cameo – the two guitars lock in a playful jug‑band style that many reviewers called “energetic” and “nostalgic.” The set flows from the bright opener China Cat Sunflower into tight country‑rock numbers like Mama Tried, then lifts into the high‑energy jam of Black Queen leading into Turn On Your Lovelight. While the first half can feel a bit rough on some board mixes, the overall pacing builds to an exhilarating finish, and the matrix recording even captures a crystal‑clear Cryptical > Other > Cryptical sequence that underscores how the band was already exploring extended improvisation.\n\nThree soundboard/matrix recordings exist, but the Barbella SBD (gd1969-12-10.sbd.barbella.8214.sbeok.sbeok.shnf) stands out as the most reliable source: it delivers a clear, pleasant board mix that preserves the historic Stills contribution while avoiding the occasional glitch found in the matrix version. For listeners seeking both fidelity and the full flavor of this pivotal night, that recording is the recommended pick.",
+    "summary": "Stunning Stephen Stills guest jams and powerful Black Queen",
+    "blurb": "The show features a historic Stephen Stills appearance on Black Queen, with the band delivering tight jams throughout. Standout moments include Black Peter, Morning Dew and an expansive Black Queen jam that showcases early Live/Dead material.",
+    "review": "On December 10, 1969 at Thelma Theater the Dead rolled out a rare guest appearance by Stephen Stills, who sits in on guitar for a snarling, jug‑band‑style duel with Jerry during the towering Black Queen. The first half of the set wanders through familiar material—China Cat Sunflower > I Know You Rider, Black Peter and a handful of country‑rock cuts—but it’s the second half that truly shines: Stills adds sweet textures on Good Morning Little School Girl and an epic, emotionally charged Morning Dew, while the band locks into a seamless Black Queen jam that feels both spacious and tightly knit. The matrix recording captures this chemistry with crystal‑clear balance, making the improvisations on Cryptical Envelopment, The Other One and Cosmic Charlie (though not listed in the official setlist) stand out as some of the most cohesive performances of the era. For fans of late‑’60s Dead, this show is a historic snapshot of a band testing new Live/Dead concepts with an unforgettable guest star.",
     "ratings": {
       "average_rating": 0.0,
-      "ai_rating": 4.5,
-      "confidence": "high"
+      "ai_rating": 4.2,
+      "confidence": "high",
+      "rating_calculation": {
+        "base_rating": 2.5,
+        "review_count_total": 17,
+        "review_count_boost": 0.1,
+        "sentiment_adjustment": 1.6,
+        "sentiment_rationale": "All three recordings are marked as positive and consistently praise the same highlights—Stephen Stills' guest work, the Black Queen jam, and the epic Morning Dew. Multiple reviewers use enthusiastic language such as \"excellent\", \"stellar\" and \"wild edge\", indicating strong positive sentiment across sources.",
+        "final_calculation": "2.5 + 0.1 + 1.6 = 4.2"
+      }
     },
     "best_recording": {
       "identifier": "gd1969-12-10.sbd.barbella.8214.sbeok.sbeok.shnf",
-      "reason": "Clear soundboard capture of the full set with Stephen Stills cameo; balances audio quality and completeness better than the matrix version."
+      "reason": "Soundboard capture with clear vintage sound, full set present and praised for its crisp mix and minimal drop‑outs."
     },
     "key_highlights": [
-      "Stephen Stills guest appearance on Black Queen and Morning Dew",
-      "High‑energy renditions of Black Peter, Black Queen, and Turn On Your Lovelight",
-      "Extended Cryptical > The Other One > Cryptical sequence captured on the matrix recording"
+      "Stephen Stills joins on guitar, adding a wild edge to Black Queen and Schoolgirl.",
+      "The Black Queen jam stands out as an expansive, cohesive improvisation.",
+      "Morning Dew delivers an epic, emotionally charged performance with guest contributions.",
+      "Matrix recording offers crystal‑clear sound that highlights the band’s tight interplay."
     ],
     "song_highlights": [
       "Black Peter",
+      "Black Queen*",
       "Morning Dew*",
-      "Black Queen*"
+      "Good Morning Little School Girl*"
     ],
     "band_performance": {
-      "Jerry": "Energetic guitar work that intertwines with Stephen Stills in a lively jug‑band style; reviewers note nostalgic moments and strong playing throughout.",
+      "Jerry": "Shows snarling, stinging guitar work especially during the jug‑band style jam with Stephen Stills on Black Queen.",
       "Phil": "",
       "Bob": "",
       "Brent": "",
@@ -177,7 +187,7 @@
       "Billy": ""
     },
     "processed_recordings": 3,
-    "processed_date": "2025-09-11T02:11:37.994972+00:00",
+    "processed_date": "2025-09-24T18:38:02.852063+00:00",
     "model_used": "gpt-oss-120b",
     "processing_status": "completed",
     "must_listen_sequences": [
@@ -185,11 +195,14 @@
         "Black Peter"
       ],
       [
+        "Black Queen*",
+        "Turn On Your Lovelight*"
+      ],
+      [
         "Morning Dew*"
       ],
       [
-        "Black Queen*",
-        "Turn On Your Lovelight*"
+        "Good Morning Little School Girl*"
       ]
     ]
   }
