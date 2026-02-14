@@ -52,29 +52,43 @@ Added to `stage02-generated-data/recordings/{identifier}.json`:
     "summary": "One-line summary of recording quality and show highlights",
     "review": "Detailed analysis of the show and recording quality",
     "sentiment": "positive|negative|mixed",
+    "ai_rating": {
+      "stars": 4.7,
+      "confidence": "high|medium|low",
+      "rationale": "Explanation of how the rating was derived from reviews"
+    },
     "recording_quality": {
       "source_type": "soundboard|audience|matrix",
-      "quality_rating": "excellent|good|fair|poor", 
+      "quality_rating": "excellent|good|fair|poor",
       "technical_notes": "Comments on sound quality, mix, clarity"
     },
     "show_quality": {
       "standout_songs": ["Help on the Way", "Fire on the Mountain"],
       "poor_songs": ["song with issues"],
-      "setlist_flow": "Comments on set structure and flow",
-      "energy_level": "high|medium|low"
+      "setlist_flow": "Comments on set structure and flow"
     },
     "band_member_comments": {
       "Jerry": "Guitar work assessment",
-      "Phil": "Bass performance notes", 
+      "Phil": "Bass performance notes",
       "Bob": "Rhythm guitar and vocals",
-      "Keith/Brent/Vince": "Keys performance",
-      "Bill/Mickey": "Drums assessment"
+      "Keys": "Keyboard player performance (Keith, Brent, or Vince depending on era)",
+      "Drums": "Drums assessment (Bill, Mickey)"
     },
-    "processed_date": "2024-01-15T10:30:00Z",
-    "model_used": "gpt-4"
+    "song_mentions": {
+      "Song Name": {
+        "positive_mentions": 5,
+        "negative_mentions": 0,
+        "total_mentions": 5
+      }
+    },
+    "processed_date": "2025-09-24T23:15:06.513883+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1977-05-08.sbd.cantor.sacks.266.shnf"
   }
 }
 ```
+
+**Note on schema evolution**: The `song_mentions` and `recording_id` fields were added in the September 2025 processing run. A small number of older recordings (28 as of Feb 2025) still use the previous format without these fields. The `energy_level` field in `show_quality` was removed in the same update.
 
 #### Show-Level Review Object
 Added to `stage02-generated-data/shows/{show}.json`:
@@ -320,6 +334,51 @@ The Review Processor integrates seamlessly with the existing 4-stage architectur
 - **API Endpoints**: Could expose review data via REST API
 - **Mobile Integration**: Review summaries optimized for mobile app display
 - **Analytics**: Support for review quality metrics and analysis
+
+## Processing Status (as of February 2025)
+
+### Coverage Summary
+
+The AI review processing was performed in waves during September 2025 using `gpt-oss-120b` via LMStudio.
+
+| Category | Count | % of Total |
+|----------|------:|-----------:|
+| Total recordings | 17,854 | 100% |
+| No user reviews (nothing to process) | 7,712 | 43.2% |
+| Latest format (`ai_review` + `song_mentions`) | 9,860 | 55.2% |
+| Older format (`ai_review`, no `song_mentions`) | 28 | 0.2% |
+| Has user reviews, missing `ai_review` | 254 | 1.4% |
+
+**Of the 10,142 recordings with user reviews to summarize, 97.5% have been processed.**
+
+### Known Gaps
+
+**254 recordings** have raw fan reviews in `stage01-collected-data/archive/` but no `ai_review` in their recording JSON. These recordings exist within shows that are already marked `processing_status: "completed"` at the show level (110 shows affected). The show-level reviews were generated successfully from the recordings that *were* processed.
+
+**28 recordings** have an `ai_review` from an earlier processing run that lacks the `song_mentions` field added in the latest prompt version.
+
+### Skip Logic Implications
+
+The processor's skip logic operates at the **show level**: if `ai_show_review.processing_status == "completed"`, the entire show is skipped. This means:
+
+- Running the processor again **without** `--clobber` will skip these 110 shows entirely
+- Running with `--clobber` will reprocess **all** recordings in those shows, not just the missing ones
+- There is no "fill gaps" mode that processes only missing recordings within completed shows
+
+To process only the missing recordings, you would need to either:
+1. Use `--clobber` on the affected shows (reprocesses everything, higher LLM cost)
+2. Modify the processor to add a `--fill-gaps` mode that checks individual recordings
+
+### Processing History
+
+| Date Range | Wave | Recordings |
+|------------|------|-----------|
+| Sep 6-11, 2025 | Initial batch + prompt iteration | ~29 |
+| Sep 12-19, 2025 | Main bulk processing | ~5,597 |
+| Sep 20-23, 2025 | Second wave | ~1,426 |
+| Sep 24-26, 2025 | Final batch (latest format) | ~1,637 |
+
+All processing used `gpt-oss-120b` via LMStudio as the default provider.
 
 ## Development and Testing
 
