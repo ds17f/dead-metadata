@@ -157,26 +157,42 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:14:31.325060",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/09/12151755/b930910.jpg",
+      "filename": "b930910.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/09/12150919/t930910.jpg",
+      "filename": "t930910.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd93-09-10.dsbd.miller.28782.sbeok.flacf",
     "gd93-09-10.akg.gardner.5441.sbeok.shnf",
-    "gd1993-09-10.112807.bk.schmit.sbeok.flac16",
     "gd1993-09-10.schoeps-evans-brennecke.waddell.91948.flac16",
+    "gd1993-09-10.112807.bk.schmit.sbeok.flac16",
     "gd1993-09-10.128507.Boedicker.flac16",
     "gd1993-09-10.140461.fob.Schoeps-MK41.miller.sirmick.flac1648",
     "gd1993-09-10.schoeps.wklitz.94372.flac16"
   ],
   "best_recording": "gd93-09-10.dsbd.miller.28782.sbeok.flacf",
-  "avg_rating": 2.157486740106079,
+  "avg_rating": 2.176659038901602,
   "raw_rating": 4.382456140350877,
   "recording_count": 7,
   "confidence": 1.0,
   "total_high_ratings": 24,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 4
+    "SBD": 1,
+    "UNKNOWN": 5,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

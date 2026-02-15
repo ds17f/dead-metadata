@@ -152,26 +152,41 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:10:23.359485",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/10/12151825/b911030.jpeg",
+      "filename": "b911030.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/10/12151001/t911030.jpeg",
+      "filename": "t911030.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-10-30.dsbd.hinko.25262.sbeok.shnf",
-    "gd91-10-30.senn.oconnor.9762.sbeok.shnf",
     "gd1991-10-30.139275.sbd.cm.miller.flac24",
     "gd1991-10-30.139304.sbd.cm.miller.flac16",
     "gd1991-10-30.young-buick.gems.102209.flac16",
+    "gd91-10-30.senn.oconnor.9762.sbeok.shnf",
     "gd1991-10-30.AKG451.Darby.120060.Flac2448",
     "gd1991-10-30.AKG451.Darby.120061.Flac1644"
   ],
   "best_recording": "gd91-10-30.dsbd.hinko.25262.sbeok.shnf",
-  "avg_rating": 1.9692307692307691,
+  "avg_rating": 2.024096385542168,
   "raw_rating": 4.393939393939394,
   "recording_count": 7,
   "confidence": 1.0,
   "total_high_ratings": 8,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 3
+    "SBD": 3,
+    "UNKNOWN": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

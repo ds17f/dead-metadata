@@ -162,12 +162,22 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:56:18.206230",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151213/t860511.jpg",
+      "filename": "t860511.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1986-05-11.sbd.walker-scotton.miller.81626.flac16",
     "gd86-05-11.sbd.hinko.26557.sbeok.flacf",
-    "gd86-05-11.beyer.connor.2317.sbeok.shnf",
     "gd86-05-11.sbd.gardner.8115.sbeok.shnf",
+    "gd86-05-11.beyer.connor.2317.sbeok.shnf",
     "gd1986-05-11.156611.nakomni.holbrook.flac24",
     "gd1986-05-11.Senn421sNak300s.Darby.120513.Flac1644",
     "gd1986-05-11.135048.chasingwilma.flac24",
@@ -177,15 +187,16 @@
     "gd1986-05-11.Senn421sNak300s.Darby.120512.Flac2448"
   ],
   "best_recording": "gd1986-05-11.sbd.walker-scotton.miller.81626.flac16",
-  "avg_rating": 3.2546511627906978,
+  "avg_rating": 3.3787499999999997,
   "raw_rating": 3.95,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 14,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 7
+    "SBD": 3,
+    "UNKNOWN": 7,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

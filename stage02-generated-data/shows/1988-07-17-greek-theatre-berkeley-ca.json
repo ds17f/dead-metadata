@@ -162,25 +162,40 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:01:27.405735",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/07/12151931/b880717.jpeg",
+      "filename": "b880717.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/07/12151125/t880717.jpeg",
+      "filename": "t880717.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1988-07-17.143157.inhouse-FM.miller.flac2496",
     "gd1988-07-17.143173.pre-fm.bm.miller.flac1644",
     "gd88-07-17.sbd.jeffm.1808.sbeok.shnf",
     "gd1988-07-17.sbd.miller.87752.sbeok.flac16",
-    "gd88-07-17.schoeps.gardner.9245.sbeok.shnf",
     "gd88-07-17.sbd-matrix.braverman.10081.sbeok.shnf",
     "gd1988-07-17.140512.set2.sbd.gans.miller.clugston.fixed.flac2496",
     "gd1988-07-17.140579.set2.sbd.gans.miller.clugston.flac1644",
     "gd1988-07-17.143158.sbd.beta.miller.flac2496",
     "gd1988-07-17.143211.sbd.bm.miller.flac1644",
+    "gd88-07-17.schoeps.gardner.9245.sbeok.shnf",
     "gd1988-07-17.138013.hale.dbx.flac16",
     "gd1988-07-17.140511.set1.fob.akg.414btl.pcm.gastwirt.miller.clugston.flac1644",
     "gd1988-07-17.160878.neumannkm84.holbrook.flac1644",
     "gd1988-07-17.160879.neumannkm84.holbrook.flac2448"
   ],
   "best_recording": "gd1988-07-17.143157.inhouse-FM.miller.flac2496",
-  "avg_rating": 3.050062972292191,
+  "avg_rating": 3.1215373961218833,
   "raw_rating": 4.607954545454546,
   "recording_count": 14,
   "confidence": 1.0,
@@ -188,8 +203,9 @@
   "total_low_ratings": 0,
   "source_types": {
     "FM": 2,
-    "SBD": 8,
-    "UNKNOWN": 4
+    "SBD": 7,
+    "UNKNOWN": 4,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

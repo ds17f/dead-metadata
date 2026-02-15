@@ -177,27 +177,35 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:25:52.223034",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151617/t720915.jpg",
+      "filename": "t720915.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1972-09-15.133998.sbd.miller.flac16",
     "gd72-09-15.psdb.kaplan.8046.sbeok.shnf",
-    "gd72-09-15.degen.weiner.7924.sbeok.shnf",
-    "gd1972-09-15.aud-degen.sirmick.31990.flac16"
+    "gd1972-09-15.aud-degen.sirmick.31990.flac16",
+    "gd72-09-15.degen.weiner.7924.sbeok.shnf"
   ],
   "best_recording": "gd1972-09-15.133998.sbd.miller.flac16",
-  "avg_rating": 3.0489247311827956,
+  "avg_rating": 3.3033333333333332,
   "raw_rating": 4.5,
   "recording_count": 4,
   "confidence": 1.0,
   "total_high_ratings": 19,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 3,
+    "SBD": 1,
+    "UNKNOWN": 2,
     "AUD": 1
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "enjoying-the-ride"
-  ]
+  "filtering_applied": []
 }

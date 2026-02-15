@@ -154,6 +154,21 @@
     "Violent Femmes"
   ],
   "collection_timestamp": "2025-08-10T09:09:03.528953",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/06/12151836/b910609.jpeg",
+      "filename": "b910609.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/06/12151013/t910609.jpeg",
+      "filename": "t910609.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-06-09.sbd.unknown.12756.sbeok.shnf",
@@ -170,7 +185,7 @@
     "gd1991-06-09.AKG451.Darby.118811.Flac1644"
   ],
   "best_recording": "gd91-06-09.sbd.unknown.12756.sbeok.shnf",
-  "avg_rating": 3.730811839323466,
+  "avg_rating": 3.6578868686868673,
   "raw_rating": 4.257014590347923,
   "recording_count": 12,
   "confidence": 1.0,
@@ -179,7 +194,8 @@
   "source_types": {
     "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 8
+    "AUD": 3,
+    "UNKNOWN": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

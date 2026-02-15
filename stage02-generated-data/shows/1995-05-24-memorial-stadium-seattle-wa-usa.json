@@ -147,26 +147,54 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:19:51.615837",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/05/12151718/b950524.jpeg",
+      "filename": "b950524.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/05/12150816/t950524.jpeg",
+      "filename": "t950524.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/05/12150110/GD-95-5-24-95-1.png",
+      "filename": "GD-95-5-24-95-1.png",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/05/12150110/GD-95-5-24-95-1-360x360.png"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/09/12150111/GD-95-5-24-95-2.png",
+      "filename": "GD-95-5-24-95-2.png",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/09/12150111/GD-95-5-24-95-2-360x360.png"
+    }
+  ],
   "show_time": null,
   "recordings": [
+    "gd1995-05-24.sndchk.fm.gmb.91237.sbeok.flac16",
     "gd1995-05-24.partial.sbd.larson.35181.sbeok.flac16",
     "gd95-05-24.neumann.18800.sbeok.shnf",
-    "gd1995-05-24.sndchk.fm.gmb.91237.sbeok.flac16",
     "gd1995-05-24.nuemannKM140.unknown.larson.35153.sbeok.flac16",
-    "gd1995-05-24.pzm.russjcan.97610.sbeok.flac16",
     "gd1995-05-24.neumann.vernon.8377.shnf",
-    "gd1995-05-24.141527.FOB.set1-cmc4mk41-set2-mk4v.ebel.flac1644"
+    "gd1995-05-24.141527.FOB.set1-cmc4mk41-set2-mk4v.ebel.flac1644",
+    "gd1995-05-24.pzm.russjcan.97610.sbeok.flac16"
   ],
-  "best_recording": "gd1995-05-24.partial.sbd.larson.35181.sbeok.flac16",
-  "avg_rating": 1.9498401162790702,
+  "best_recording": "gd1995-05-24.sndchk.fm.gmb.91237.sbeok.flac16",
+  "avg_rating": 2.1430037313432835,
   "raw_rating": 3.20625,
   "recording_count": 7,
   "confidence": 1.0,
   "total_high_ratings": 8,
   "total_low_ratings": 6,
   "source_types": {
-    "SBD": 5,
-    "UNKNOWN": 2
+    "FM": 1,
+    "SBD": 1,
+    "UNKNOWN": 4,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

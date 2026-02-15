@@ -162,6 +162,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:04:39.433432",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151911/b891011.jpeg",
+      "filename": "b891011.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151057/t891011.jpeg",
+      "filename": "t891011.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1989-10-11.sbd.walker-scotton.miller.83292.sbeok.flac16",
@@ -169,7 +184,6 @@
     "gd1989-10-11.sbd.koehler.13572.shnf",
     "gd1989-10-11.147618.sbd.miller.flac24",
     "gd1989-10-11.147652.UltraMatrix.sbd.cm.miller.flac16",
-    "gd1989-10-11.senn421.andrewf.89613.sbeok.flac16",
     "gd1989-10-11.mtx.hansokolow.96599.flac16",
     "gd1989-10-11.147678.mtx.tobin.flac24",
     "gd1989-10-11.147679.mtx.tobin.flac16",
@@ -178,7 +192,8 @@
     "gd1989-10-11.135411.bltz.flac2496",
     "gd1989-10-11.138157.Schoeps.fob.unknown.Ammons.t-flac",
     "gd1989-10-11.147677.pp-aud.bltz.tobin.flac24",
-    "gd1989-10-11.147680.dts.tobin.flac16"
+    "gd1989-10-11.147680.dts.tobin.flac16",
+    "gd1989-10-11.senn421.andrewf.89613.sbeok.flac16"
   ],
   "best_recording": "gd1989-10-11.sbd.walker-scotton.miller.83292.sbeok.flac16",
   "avg_rating": 3.6133757961783437,
@@ -188,10 +203,10 @@
   "total_high_ratings": 13,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 6,
+    "SBD": 5,
     "MATRIX": 3,
     "UNKNOWN": 5,
-    "AUD": 1
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

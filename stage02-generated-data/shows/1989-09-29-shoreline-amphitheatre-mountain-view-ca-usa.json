@@ -162,14 +162,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:04:28.806703",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/09/12151913/b890929.jpeg",
+      "filename": "b890929.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/09/12151059/t890929.jpeg",
+      "filename": "t890929.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-09-29.sbd.17703.sbeok.shnf",
     "gd1989-09-29.sbd.walker-scotton.miller.81704.sbeok.flac16",
-    "gd89-09-29.ultramatrix.braverman.7282.sbeok.shnf",
     "gd1989-09-29.dsbd.walker-scotton.miller.81705.sbeok.flac16",
     "gd1989-09-29.151409.sbd.miller.flac2496",
     "gd1989-09-29.151621.sbd.cm.miller.t.flac16",
+    "gd89-09-29.ultramatrix.braverman.7282.sbeok.shnf",
     "gd1989-09-29.157192.mtx.tobin.flac16",
     "gd1989-09-29.117927.SonicStudioDSM-1Sx.sal.d5scott.flac16",
     "gd1989-09-29.127422.nak304.bowen.flac16",
@@ -178,15 +193,15 @@
     "gd1989-09-29.157198.5-1.tobin.flac1648"
   ],
   "best_recording": "gd89-09-29.sbd.17703.sbeok.shnf",
-  "avg_rating": 3.144779116465863,
+  "avg_rating": 3.183379823337982,
   "raw_rating": 4.325670498084291,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 22,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 6,
-    "MATRIX": 1,
+    "SBD": 5,
+    "MATRIX": 2,
     "UNKNOWN": 5
   },
   "matching_method": "date_only",

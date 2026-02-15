@@ -157,20 +157,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:53:32.188454",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152026/b850406.jpg",
+      "filename": "b850406.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151248/t850406.jpg",
+      "filename": "t850406.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-04-06.sbd.miller.13467.sbeok.shnf",
+    "gd1985-04-06.135801.sbd.miller.remaster.flac16",
+    "gd1985-04-06.169896.sbd.patched.pitched.miller.miksis.flac1648",
+    "gd1985-04-06.169897.matrix.miksis.miller.clugston.flac1648",
     "gd85-04-06.oade-schoeps.sacks.24027.sbeok.flacf",
     "gd85-04-06.aud.barbella.10990.sbeok.shnf",
     "gd1985-04-06.nak300.bmandel.33703.sbeok.shnf",
-    "gd1985-04-06.135801.sbd.miller.remaster.flac16",
     "gd1985-04-06.aud.unknown.perkins.8900.sbeok.shnf",
-    "gd1985-04-06.senn421.mccue.ford.28633.sbeok.shnf",
-    "gd1985-04-06.169896.sbd.patched.pitched.miller.miksis.flac1648",
-    "gd1985-04-06.nak300.damico.87366.sbeok.flac16",
-    "gd1985-04-06.169897.matrix.miksis.miller.clugston.flac1648",
     "gd1985-04-06.beyerm88.suraci.78851.flac16",
     "gd1985-04-06.shotgun.bandrofcheck.73770.shnf",
+    "gd1985-04-06.senn421.mccue.ford.28633.sbeok.shnf",
     "gd1985-04-06.124819.chasingwilma.flac24",
     "gd1985-04-06.140875.s2p.unknown.Bryant.Miller.Noel.t-flac2496",
     "gd1985-04-06.141211.pset2.unknown.Bryant.Miller.Noel.t-flac1644",
@@ -186,20 +200,21 @@
     "gd1985-04-06.167677.senn.me80.hessberg.miller.clugston.flac2496",
     "gd1985-04-06.170434.beyer.m160.vita.miller.clugston.flac1648",
     "gd1985-04-06.170435.beyer.m160.vita.miller.clugston.flac2496",
-    "gd1985-04-06.aud.holtz.JAZ.96803.flac16"
+    "gd1985-04-06.aud.holtz.JAZ.96803.flac16",
+    "gd1985-04-06.nak300.damico.87366.sbeok.flac16"
   ],
   "best_recording": "gd85-04-06.sbd.miller.13467.sbeok.shnf",
-  "avg_rating": 2.6273177842565603,
+  "avg_rating": 2.7359415204678363,
   "raw_rating": 3.662393162393162,
   "recording_count": 28,
   "confidence": 1.0,
   "total_high_ratings": 20,
   "total_low_ratings": 6,
   "source_types": {
-    "SBD": 9,
+    "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 15,
-    "AUD": 3
+    "UNKNOWN": 19,
+    "AUD": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

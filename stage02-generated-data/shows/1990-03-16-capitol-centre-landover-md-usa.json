@@ -162,6 +162,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:05:30.787862",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12151905/b900316.jpeg",
+      "filename": "b900316.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12151048/t900316.jpeg",
+      "filename": "t900316.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1990-03-16.sbd.miller.85201.sbeok.flac16",
@@ -194,9 +209,8 @@
   "source_types": {
     "SBD": 5,
     "MATRIX": 3,
-    "AUD": 1,
-    "UNKNOWN": 9,
-    "REMASTER": 1
+    "AUD": 5,
+    "UNKNOWN": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

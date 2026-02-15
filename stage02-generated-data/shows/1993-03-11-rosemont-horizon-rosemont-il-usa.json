@@ -167,26 +167,42 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:12:49.320029",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/03/12151808/b930311.jpeg",
+      "filename": "b930311.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/03/12150937/t930311.jpeg",
+      "filename": "t930311.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd93-03-11.sbd.wharfrat.10383.sbeok.shnf",
     "gd1993-03-11.sbd.miller.120726.flac16",
-    "gd93-03-11.aud.gardner.10538.sbeok.shnf",
     "gd1993-03-11.mtx.seamons.120865.flac16",
+    "gd93-03-11.aud.gardner.10538.sbeok.shnf",
     "gd1993-03-11.sennME80.wklitz.96384.flac16",
     "gd1993-03-11.AKG451.Darby.119636.Flac2448",
     "gd1993-03-11.AKG451.Darby.119637.Flac1644"
   ],
   "best_recording": "gd93-03-11.sbd.wharfrat.10383.sbeok.shnf",
-  "avg_rating": 3.509071406680968,
+  "avg_rating": 3.5264364207221353,
   "raw_rating": 4.042440318302387,
   "recording_count": 7,
   "confidence": 1.0,
   "total_high_ratings": 18,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 3,
+    "SBD": 2,
     "MATRIX": 1,
+    "AUD": 1,
     "UNKNOWN": 3
   },
   "matching_method": "date_only",

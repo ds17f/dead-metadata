@@ -157,17 +157,31 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:04:49.333388",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151909/b891018.jpeg",
+      "filename": "b891018.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151056/t891018.jpeg",
+      "filename": "t891018.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-10-18.sbd-matrix.nawrocki.12091.sbeok.shnf",
     "gd1989-10-18.sbd.walker-scotton.miller.83776.sbeok.flac16",
-    "gd1989-10-18.mtx.tobin.89967.sbeok.flac16",
     "gd1989-10-18.147728.UltraMatrix.sbd.cm.miller.flac16",
-    "gd1989-10-18.120496.mk21.sbeok.flac16",
     "gd1989-10-18.147697.sbd.miller.flac24",
-    "gd1989-10-18.dts.tobin.89968.sbeok.flac",
+    "gd1989-10-18.mtx.tobin.89967.sbeok.flac16",
     "gd1989-10-18.147723.mtx.tobin.flac16",
     "gd89-10-18.nak.rob_r.7551.sbefail.shnf",
+    "gd1989-10-18.120496.mk21.sbeok.flac16",
     "gd1989-10-18.142562.fob.schoeps.cmc4.mk4.mattes.miller.clugston.flac1648",
     "gd1989-10-18.164835.2nd.set.beyer.m160.vita.miller.clugston.flac2496",
     "gd1989-10-18.101845.wklitz.sennheiserME80.flac",
@@ -178,20 +192,21 @@
     "gd1989-10-18.149607.DAK.Boedicker.flac1644",
     "gd1989-10-18.164834.2nd.set.beyer.m160.vita.miller.clugston.flac1648",
     "gd1989-10-18.aud.lazycow.89963.flac",
+    "gd1989-10-18.dts.tobin.89968.sbeok.flac",
     "gd1989-10-18.nak300.juteau.116662.flac"
   ],
   "best_recording": "gd89-10-18.sbd-matrix.nawrocki.12091.sbeok.shnf",
-  "avg_rating": 2.1318930041152266,
+  "avg_rating": 2.134791666666666,
   "raw_rating": 4.274193548387097,
   "recording_count": 20,
   "confidence": 1.0,
   "total_high_ratings": 25,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 7,
-    "MATRIX": 1,
-    "UNKNOWN": 11,
-    "AUD": 1
+    "SBD": 4,
+    "MATRIX": 2,
+    "UNKNOWN": 12,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

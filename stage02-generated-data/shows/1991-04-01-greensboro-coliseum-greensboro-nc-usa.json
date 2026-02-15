@@ -157,12 +157,26 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:08:25.204066",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/04/12151841/b910401.jpeg",
+      "filename": "b910401.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/04/12151019/t910401.jpeg",
+      "filename": "t910401.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1991-04-01.sbd.zei.2021.sbeok.shnf",
     "gd1991-04-01.sbd.miller.31966.sbeok.flac16",
     "gd91-04-01.sbd.connor.9732.sbeok.shnf",
-    "gd1991-04-01.nak300.bleich-sirmick.109943.sbeok.flac16",
     "gd1991-04-01.137439.sbd.miller.flac24",
     "gd1991-04-01.168446.Greensboro.NC.sbd.cm.miller.t-flac1648",
     "gd1991-04-01.137352.SBD.PCM.Gans.Minches.Miller.fixed.flac16",
@@ -175,6 +189,7 @@
     "gd1991-04-01.167360.sbd.miller.flac2496",
     "gd1991-04-01.168442.Greensboro.NC.Ultramatrix.sbd.cm.miller.t-flac1648",
     "gd1991-04-01.167361.ultramatrix.miller.flac2496",
+    "gd1991-04-01.nak300.bleich-sirmick.109943.sbeok.flac16",
     "gd1991-04-01.148613.akg.c522.hessberg.miller.clugston.flac1648",
     "gd1991-04-01.148614.akg.c522.hessberg.miller.clugston.flac2496",
     "gd1991-04-01.149231.fob.schoeps34.ebelgee.flac1648",
@@ -182,16 +197,17 @@
     "gd1991-04-01.168710.senn421.loeffler.miller.flac16"
   ],
   "best_recording": "gd1991-04-01.sbd.zei.2021.sbeok.shnf",
-  "avg_rating": 4.23032967032967,
+  "avg_rating": 4.282622787334829,
   "raw_rating": 4.516483516483516,
   "recording_count": 21,
   "confidence": 1.0,
   "total_high_ratings": 58,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 15,
+    "SBD": 14,
     "MATRIX": 1,
-    "UNKNOWN": 5
+    "UNKNOWN": 4,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -169,6 +169,16 @@
     "The Band"
   ],
   "collection_timestamp": "2025-08-10T08:51:36.857923",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151308/t840621.jpg",
+      "filename": "t840621.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1984-06-21.137832.fm.flac1648",
@@ -177,7 +187,6 @@
     "gd1984-06-21.sbd.liberated-Boot.devos.352.shnf",
     "gd1984-06-21.nak300.ackerman.andrewf.32640.sbeok.flac16",
     "gd84-06-21.sbe.tbrame.15405.sbeok.shnf",
-    "gd1984-06-21.beyerm201.holbrook.burke.91024.sbeok.flac16",
     "gd1984-06-21.141522.NAK.Blend.Ackerman.Miller.Noel.t-flac2496",
     "gd1984-06-21.117777.beyer-senn.daweez.d5scott.flac16",
     "gd1984-06-21.132582.Nak100CP4.Hill.Keo.Flac1644",
@@ -193,10 +202,11 @@
     "gd1984-06-21.164300.senn441.lamarre.miller.clugston.flac2496",
     "gd1984-06-21.164800.senn421.vita.miller.clugston.flac1648",
     "gd1984-06-21.164801.senn421.vita.miller.clugston.flac2496",
-    "gd1984-06-21.beyerm201.holbrook.burke.90982.flac24"
+    "gd1984-06-21.beyerm201.holbrook.burke.90982.flac24",
+    "gd1984-06-21.beyerm201.holbrook.burke.91024.sbeok.flac16"
   ],
   "best_recording": "gd1984-06-21.137832.fm.flac1648",
-  "avg_rating": 2.340319071791153,
+  "avg_rating": 2.464867724867725,
   "raw_rating": 3.9256854256854257,
   "recording_count": 23,
   "confidence": 1.0,
@@ -204,8 +214,9 @@
   "total_low_ratings": 4,
   "source_types": {
     "FM": 3,
-    "SBD": 4,
-    "UNKNOWN": 16
+    "SBD": 1,
+    "UNKNOWN": 17,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

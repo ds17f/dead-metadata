@@ -182,6 +182,16 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:44:48.305732",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152112/b810812.jpg",
+      "filename": "b810812.jpg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd81-08-12.sbd.munder.10548.sbeok.shnf",
@@ -190,9 +200,9 @@
     "gd1981-08-12.139593.sbd.miller.flac1648",
     "gd1981-08-12.139592.PartialShow.SaltPalace.UT.sbd.msc.happyjack.Flac24",
     "gd1981-08-12.142956.sbd.healy.streeter.smith.miller.clugston.flac2496",
-    "gd1981-08-12.aud.sirmick.95346.sbeok.flac16",
     "gd1981-08-12.153256.sony.vita.miller.clugston.flac1648",
-    "gd1981-08-12.153257.sony.vita.miller.clugston.flac2496"
+    "gd1981-08-12.153257.sony.vita.miller.clugston.flac2496",
+    "gd1981-08-12.aud.sirmick.95346.sbeok.flac16"
   ],
   "best_recording": "gd81-08-12.sbd.munder.10548.sbeok.shnf",
   "avg_rating": 4.300000000000001,
@@ -202,8 +212,9 @@
   "total_high_ratings": 27,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 2
+    "SBD": 6,
+    "UNKNOWN": 2,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

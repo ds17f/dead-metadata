@@ -167,22 +167,37 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:54:44.704697",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152015/b851028.jpg",
+      "filename": "b851028.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151231/t851028.jpg",
+      "filename": "t851028.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1985-10-28.sbd.walker-scotton.miller.105882.flac16",
     "gd85-10-28.sbd-set1-encore.digib.17276.sbeok.shnf",
-    "gd85-10-28.nak300.dobb.8566.sbeok.shnf",
-    "gd85-10-28.schoeps.nawrocki.13566.sbeok.shnf",
     "gd85-10-28.s2.sbd.bubba420.18250.sbeok.shnf",
-    "gd1985-10-28.aud.senn-pa-deli-mike.mrchips.83672.sbeok.flac16",
-    "gd1985-10-28.senn421.koucky.gmb.88862.sbeok.flac16",
     "gd1985-10-28.sbd.miller.77370.sbeok.flac16",
-    "gd1985-10-28.nak300.cohen.104706.sbeok.flac16",
     "gd1985-10-28.154299.sbd.miller.flac2496",
     "gd1985-10-28.154408.sbd.cm.miller.t.flac16",
     "gd1985-10-28.158504.mtx.seamons.ht145.flac16",
+    "gd85-10-28.nak300.dobb.8566.sbeok.shnf",
+    "gd85-10-28.schoeps.nawrocki.13566.sbeok.shnf",
+    "gd1985-10-28.aud.senn-pa-deli-mike.mrchips.83672.sbeok.flac16",
+    "gd1985-10-28.senn421.koucky.gmb.88862.sbeok.flac16",
     "gd1985-10-28.128757.schoeps.oade.BCE.flac16",
     "gd1985-10-28.148421.fob.senn.me80.hessberg.miller.clugston.flac1648",
+    "gd1985-10-28.nak300.cohen.104706.sbeok.flac16",
     "gd1985-10-28.set2-33P.moore.acohen.88156.flac16",
     "gd1985-10-28.118891.BeyerM160.d5scott.flac16",
     "gd1985-10-28.119947.sony.roberts.flac16",
@@ -196,16 +211,17 @@
     "gd1985-10-28.171420.nak700.wagner.miller.clugston.flac2496"
   ],
   "best_recording": "gd1985-10-28.sbd.walker-scotton.miller.105882.flac16",
-  "avg_rating": 2.66571129707113,
+  "avg_rating": 2.7917631578947364,
   "raw_rating": 4.350877192982456,
   "recording_count": 25,
   "confidence": 1.0,
   "total_high_ratings": 47,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 11,
+    "SBD": 6,
     "MATRIX": 1,
-    "UNKNOWN": 13
+    "UNKNOWN": 15,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

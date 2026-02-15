@@ -157,6 +157,16 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:02:42.787842",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/12/12151115/t881229.jpeg",
+      "filename": "t881229.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd88-12-29.sbd.popi.6313.sbeok.shnf",
@@ -170,7 +180,7 @@
     "gd1988-12-29.fob.nak100.holtz.lmpp.98925.flac16"
   ],
   "best_recording": "gd88-12-29.sbd.popi.6313.sbeok.shnf",
-  "avg_rating": 3.1465648854961827,
+  "avg_rating": 3.1172932330827066,
   "raw_rating": 3.755555555555555,
   "recording_count": 9,
   "confidence": 1.0,
@@ -179,7 +189,8 @@
   "source_types": {
     "SBD": 5,
     "MATRIX": 1,
-    "UNKNOWN": 3
+    "AUD": 2,
+    "UNKNOWN": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

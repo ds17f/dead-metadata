@@ -172,27 +172,40 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:32:56.218315",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152149/b770425.jpg",
+      "filename": "b770425.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151538/t770425.jpg",
+      "filename": "t770425.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1977-04-25.sbd.130529.MrBill.flac16",
     "gd77-04-25.sbd.symons.15879.sbeok.shnf",
-    "gd77-04-25.aud.goodbear.259.sbeok.shnf",
     "gd1977-04-25.141903.s1.sbd.cm.miller.flac1644",
-    "gd1977-04-25.141715.s1.sbd.miller.flac2496"
+    "gd1977-04-25.141715.s1.sbd.miller.flac2496",
+    "gd77-04-25.aud.goodbear.259.sbeok.shnf"
   ],
   "best_recording": "gd1977-04-25.sbd.130529.MrBill.flac16",
-  "avg_rating": 3.292741935483871,
+  "avg_rating": 3.356598513011152,
   "raw_rating": 3.570967741935484,
   "recording_count": 5,
   "confidence": 1.0,
   "total_high_ratings": 12,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 5
+    "SBD": 4,
+    "AUD": 1
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "30-trips-around-the-sun"
-  ]
+  "filtering_applied": []
 }

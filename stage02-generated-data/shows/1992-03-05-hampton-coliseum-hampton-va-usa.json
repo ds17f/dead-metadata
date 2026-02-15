@@ -157,6 +157,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:10:49.209928",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/03/12151823/b920305.jpeg",
+      "filename": "b920305.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/03/12150956/t920305.jpeg",
+      "filename": "t920305.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd92-03-05.sbd.lutton.5240.sbeok.shnf",
@@ -168,7 +183,7 @@
     "gd1992-03-05.148535.Sennheiser421.ebel.flac1648"
   ],
   "best_recording": "gd92-03-05.sbd.lutton.5240.sbeok.shnf",
-  "avg_rating": 3.616053511705686,
+  "avg_rating": 3.601993355481728,
   "raw_rating": 3.8523809523809525,
   "recording_count": 7,
   "confidence": 1.0,
@@ -176,7 +191,8 @@
   "total_low_ratings": 0,
   "source_types": {
     "SBD": 4,
-    "UNKNOWN": 3
+    "UNKNOWN": 2,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

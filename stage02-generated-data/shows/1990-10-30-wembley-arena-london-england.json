@@ -167,6 +167,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:07:26.794565",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/10/12151849/b901030.jpeg",
+      "filename": "b901030.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/10/12151031/t901030.jpeg",
+      "filename": "t901030.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd90-10-30.dsbd.barbella.6678.sbeok.shnf",
@@ -174,12 +189,12 @@
     "gd1990-10-30.136847.sbd.GEMS.flac16",
     "gd1990-10-30.140864.sbd.miller.flac2496",
     "gd1990-10-30.140898.UltraMatrix.sbd.cm.miller.flac1644",
-    "gd1990-10-30.nak300-set2.houck-wright.gmb.90836.sbeok.flac16",
     "gd1990-10-30.sbd.dieter.7449.sbeok.shnf",
     "gd1990-10-30.mtx.dusborne.126879.flac16",
     "gd1990-10-30.nak300.andrewf.81706.flac16",
     "gd1990-10-30.139120.aud.liff.lamarre.berger.flac1648",
-    "gd1990-10-30.143863.nak300-cp4.dalton.miller.sirmick.flac1648"
+    "gd1990-10-30.143863.nak300-cp4.dalton.miller.sirmick.flac1648",
+    "gd1990-10-30.nak300-set2.houck-wright.gmb.90836.sbeok.flac16"
   ],
   "best_recording": "gd90-10-30.dsbd.barbella.6678.sbeok.shnf",
   "avg_rating": 2.0578947368421048,
@@ -189,9 +204,9 @@
   "total_high_ratings": 18,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 7,
+    "SBD": 6,
     "MATRIX": 1,
-    "UNKNOWN": 2,
+    "UNKNOWN": 3,
     "AUD": 1
   },
   "matching_method": "date_only",

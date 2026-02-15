@@ -157,15 +157,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:09:45.301991",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151831/b910906.jpeg",
+      "filename": "b910906.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151007/t910906.jpeg",
+      "filename": "t910906.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1991-09-06.sbd.miller.95314.sbeok.flac16",
     "gd91-09-06.sbd.gardner.5560.sbeok.shnf",
-    "gd91-09-06.fob-schoeps-oneill.miller.28405.sbeok.shnf",
     "gd1991-09-06.150286.sbd.cm.miller.flac1644",
     "gd1991-09-06.150031.sbd.miller.flac2496",
     "gd1991-09-06.sbd.gardner.tetzeli.fix-5560.82052.sbeok.shnf",
     "gd1991-09-06.132965.mtx.dusborne.flac16",
+    "gd91-09-06.fob-schoeps-oneill.miller.28405.sbeok.shnf",
     "gd1991-09-06.132813.at835b.cdipietro.flac",
     "gd1991-09-06.151813.FOB.Schoeps.Master.DAT.ONeill.Mahoney.Noel.t-flac1648",
     "gd1991-09-06.147570.beyerCM101.ebel.flac2448",
@@ -177,16 +192,17 @@
     "gd1991-09-06.sennME80.wklitz.94234.flac16"
   ],
   "best_recording": "gd1991-09-06.sbd.miller.95314.sbeok.flac16",
-  "avg_rating": 3.544688644688644,
+  "avg_rating": 3.6207908163265294,
   "raw_rating": 4.164021164021164,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 22,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 6,
+    "SBD": 5,
     "MATRIX": 1,
-    "UNKNOWN": 9
+    "UNKNOWN": 7,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

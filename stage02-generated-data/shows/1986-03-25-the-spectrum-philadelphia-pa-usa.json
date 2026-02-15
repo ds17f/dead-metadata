@@ -152,19 +152,33 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:55:44.619259",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152008/b860325.jpg",
+      "filename": "b860325.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151221/t860325.jpg",
+      "filename": "t860325.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd86-03-25.sbd.braverman-munder.9880.sbeok.shnf",
-    "gd86-03-25.beyer.connor.3188.sbeok.shnf",
-    "gd1986-03-25.senn441.mccue.ford.111954.sbeok.flac16",
     "gd1986-03-25.sbd.braverman.9404.shnf",
     "gd1986-03-25.145618.PandP-sbd.tobin.flac16",
-    "gd1986-03-25.nakcm304.suraci.sbeok.79901.flac16",
     "gd1986-03-25.145620.mtx.tobin.flac16",
+    "gd86-03-25.beyer.connor.3188.sbeok.shnf",
     "gd1986-03-25.127540.chasingwilma.flac24",
     "gd1986-03-25.145624.5-1.tobin.flac1648",
     "gd1986-03-25.151098.senn441.mattes.miller.clugston.flac1648",
     "gd1986-03-25.156081.beyerm201-murtha.holbrook.flac2448",
+    "gd1986-03-25.senn441.mccue.ford.111954.sbeok.flac16",
     "gd1986-03-25.nak100.holtz.jaz.102169.flac16",
     "gd1986-03-25.117825.BeyerM160.d5scott.flac16",
     "gd1986-03-25.139773.FOB.Schoeps.Oade.Bryant.Gastwirt.Miller.Noel.t-flac1644",
@@ -176,20 +190,21 @@
     "gd1986-03-25.172644.nak304.thomas.miller.clugston.flac2496",
     "gd1986-03-25.nak300.damico.87672.flac16",
     "gd1986-03-25.nak300.mandel.80002.shnf",
-    "gd1986-03-25.nak300.pasternak.mallick.105580.flac16"
+    "gd1986-03-25.nak300.pasternak.mallick.105580.flac16",
+    "gd1986-03-25.nakcm304.suraci.sbeok.79901.flac16"
   ],
   "best_recording": "gd86-03-25.sbd.braverman-munder.9880.sbeok.shnf",
-  "avg_rating": 2.1794520547945204,
+  "avg_rating": 2.283625730994152,
   "raw_rating": 3.4444444444444446,
   "recording_count": 23,
   "confidence": 1.0,
   "total_high_ratings": 16,
   "total_low_ratings": 4,
   "source_types": {
-    "SBD": 6,
+    "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 15,
-    "AUD": 1
+    "UNKNOWN": 17,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

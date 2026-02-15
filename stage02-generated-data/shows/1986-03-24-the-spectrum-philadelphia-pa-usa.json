@@ -152,19 +152,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:55:42.751634",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152008/b860324.jpg",
+      "filename": "b860324.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151221/t860324.jpg",
+      "filename": "t860324.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd86-03-24.sbd.miller.22783.sbeok.shnf",
-    "gd86-03-24.naks.braverman.16746.sbeok.shnf",
-    "gd86-03-24.schoeps.nawrocki.17890.sbeok.shnf",
     "gd1986-03-24.sbd.goetz.21920.sbeok.shnf",
     "gd1986-03-24.148732.mtx.tobin.flac16",
     "gd1986-03-24.nak300.damico.87655.flac16",
     "gd1986-03-24.fob.beyerm160.d5scott.107413.flac16",
     "gd1986-03-24.fob.schoeps.lochner.gems.103442.flac16",
+    "gd86-03-24.naks.braverman.16746.sbeok.shnf",
     "gd1986-03-24.151214.km84i.hecht-lipton-fleck-scheuner.miller.flac1644",
     "gd1986-03-24.148733.dts.tobin.flac16",
     "gd1986-03-24.fob.thompson.motb-0073.92275.flac16",
+    "gd86-03-24.schoeps.nawrocki.17890.sbeok.shnf",
     "gd1986-03-24.127535.chasingwilma.flac24",
     "gd1986-03-24.139772.set2.FOB.Schoeps.Oade.Bryant.Gastwirt.Miller.Noel.t-flac1644",
     "gd1986-03-24.148734.5-1.tobin.flac1648",
@@ -178,17 +193,17 @@
     "gd1986-03-24.nak300.porter.braverman.7480.shnf"
   ],
   "best_recording": "gd86-03-24.sbd.miller.22783.sbeok.shnf",
-  "avg_rating": 2.217084395355424,
+  "avg_rating": 2.2680781499202554,
   "raw_rating": 3.9946127946127943,
   "recording_count": 22,
   "confidence": 1.0,
   "total_high_ratings": 35,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 4,
+    "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 16,
-    "AUD": 1
+    "UNKNOWN": 13,
+    "AUD": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

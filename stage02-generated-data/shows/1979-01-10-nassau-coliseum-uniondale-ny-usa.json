@@ -182,11 +182,26 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:37:43.850578",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152142/b790110.jpg",
+      "filename": "b790110.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151505/t790110.jpg",
+      "filename": "t790110.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd79-01-10.gatto.kempka.307.sbeok.shnf",
     "gd1979-01-10.132236.aud.fob.nak.cm-300.gatto-wise.flac16",
     "gd1979-01-10.sony-senn.wagner.miller.113114.flac16",
+    "gd79-01-10.gatto.kempka.307.sbeok.shnf",
     "gd1979-01-10.sonyecm-wagner.minches.77328.flac16",
     "gd1979-01-10.sony.senn.wagner.miller.113446.flac24",
     "gd1979-01-10.sony-senn.wagner.minches.35023.shnf",
@@ -195,17 +210,16 @@
     "gd1979-01-10.157156.fob.3MicMix.wagner.miller.flac2496",
     "gd1979-01-10.157175.fob.3MicMix.wagner.miller.t.flac1644"
   ],
-  "best_recording": "gd79-01-10.gatto.kempka.307.sbeok.shnf",
-  "avg_rating": 2.2967119474908606,
+  "best_recording": "gd1979-01-10.132236.aud.fob.nak.cm-300.gatto-wise.flac16",
+  "avg_rating": 2.304007205291755,
   "raw_rating": 4.419148284313726,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 56,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 1,
-    "AUD": 3,
-    "UNKNOWN": 6
+    "AUD": 5,
+    "UNKNOWN": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

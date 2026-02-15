@@ -152,15 +152,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:10:07.345337",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151828/b910921.jpeg",
+      "filename": "b910921.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151004/t910921.jpeg",
+      "filename": "t910921.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-09-21.sbd.mccall.529.sbeok.shnf",
     "gd1991-09-21.150164.sbd.cm.miller.flac16",
     "gd1991-09-21.138148.dsbd.GEMS.flac16",
     "gd1991-09-21.149996.sbd.pearson-healy.miller.flac2496",
-    "gd1991-09-21.nak300.andrewf.85221.sbeok.flac16",
-    "gd1991-09-21.nak300.andrewf.85222.sbeok.flac1648",
-    "gd1991-09-21.nak300.bleich.sirmick.94674.sbeok.flac16",
     "gd1991-09-21.134353.mtx.dusborne.flac16",
     "gd1991-09-21.fob.bk4011.brennecke-young.gems.101439.flac16",
     "gd1991-09-21.139816.aud.liff.lamarre.berger.flac1648",
@@ -171,20 +183,23 @@
     "gd1991-09-21.172647.me88.rogosa.flac1644",
     "gd1991-09-21.AKG451.Currier.Keo.124449.Flac2496",
     "gd1991-09-21.AKG451.Currier.Keo.124450.Flac1644",
+    "gd1991-09-21.nak300.andrewf.85221.sbeok.flac16",
+    "gd1991-09-21.nak300.andrewf.85222.sbeok.flac1648",
+    "gd1991-09-21.nak300.bleich.sirmick.94674.sbeok.flac16",
     "gd1991-09-21.nak300.morris.crazyfingers.106585.flac16"
   ],
   "best_recording": "gd91-09-21.sbd.mccall.529.sbeok.shnf",
-  "avg_rating": 3.769285714285714,
+  "avg_rating": 3.7373239436619716,
   "raw_rating": 4.0,
   "recording_count": 18,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
+    "SBD": 4,
     "MATRIX": 1,
-    "UNKNOWN": 9,
-    "AUD": 1
+    "AUD": 2,
+    "UNKNOWN": 11
   },
   "matching_method": "date_only",
   "filtering_applied": []

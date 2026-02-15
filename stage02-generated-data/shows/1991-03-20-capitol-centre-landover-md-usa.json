@@ -157,33 +157,49 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:08:05.330496",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/03/12151844/b910320.jpeg",
+      "filename": "b910320.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/03/12151023/t910320.jpeg",
+      "filename": "t910320.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-03-20.sbd.oconnor.11272.sbeok.shnf",
     "gd1991-03-20.sbd.miller.fixed-98038.93177.sbeok.flac16",
     "gd1991-03-20.sbd.miller.93038.sbeok.flac16",
-    "gd1991-03-20.aud-set2.mcgugh.hanscom.76521.sbeok.flac16",
-    "gd1991-03-20.138740.Schoeps-cmc4-mk4.gastwirt.miller.sirmick.sbeok.flac16",
     "gd1991-03-20.154460.UltraMatrix.sbd.cm.miller.t.flac16",
-    "gd1991-03-20.aud-schk.miller.34559.sbeok.flac16",
     "gd1991-03-20.mtx.seamons.111794.flac16",
     "gd1991-03-20.152131.ultramatrix.miller.flac2496",
     "gd1991-03-20.149506.OTS.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648",
+    "gd1991-03-20.aud-set2.mcgugh.hanscom.76521.sbeok.flac16",
     "gd1991-03-20.nak.cohen.107168.flac16",
     "gd1991-03-20.132416.Nak300sSenn441s.Fitzy.Keo.Flac1644",
-    "gd1991-03-20.132417.Nak300sSenn441s.Fitzy.Keo.Flac2496"
+    "gd1991-03-20.132417.Nak300sSenn441s.Fitzy.Keo.Flac2496",
+    "gd1991-03-20.138740.Schoeps-cmc4-mk4.gastwirt.miller.sirmick.sbeok.flac16",
+    "gd1991-03-20.aud-schk.miller.34559.sbeok.flac16"
   ],
   "best_recording": "gd91-03-20.sbd.oconnor.11272.sbeok.shnf",
-  "avg_rating": 3.6580985915492956,
+  "avg_rating": 3.6755319148936167,
   "raw_rating": 4.121212121212121,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 27,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
+    "SBD": 4,
     "MATRIX": 2,
-    "UNKNOWN": 4
+    "UNKNOWN": 5,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

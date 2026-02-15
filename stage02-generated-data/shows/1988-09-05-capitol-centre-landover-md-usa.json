@@ -167,14 +167,24 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:01:45.681272",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151123/t880905.jpeg",
+      "filename": "t880905.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd88-09-05.nakamichi.leeds.16440.sbeok.shnf",
     "gd1988-09-05.sbd-set1.miller.80630.sbeok.flac16",
     "gd1988-09-05.165828.UltraMatrix.sbd.cm.miller.t-flac1644",
-    "gd1988-09-05.nak100.mchugh.83250.sbeok.flac16",
     "gd1988-09-05.139473.mtx.tobin.flac16",
     "gd1988-09-05.165505.ultramatrix.miller.flac2496",
+    "gd88-09-05.nakamichi.leeds.16440.sbeok.shnf",
+    "gd1988-09-05.nak100.mchugh.83250.sbeok.flac16",
     "gd1988-09-05.131131.nakcm100.datbrad.flac16",
     "gd1988-09-05.139474.dts.tobin.flac16",
     "gd1988-09-05.139475.5-1.tobin.flac1648",
@@ -183,17 +193,18 @@
     "gd1988-09-05.168188.beyer.m160.vita.miller.clugston.flac1648",
     "gd1988-09-05.168191.beyer.m160.vita.miller.clugston.flac2496"
   ],
-  "best_recording": "gd88-09-05.nakamichi.leeds.16440.sbeok.shnf",
-  "avg_rating": 1.7622321428571428,
+  "best_recording": "gd1988-09-05.sbd-set1.miller.80630.sbeok.flac16",
+  "avg_rating": 1.6914663461538464,
   "raw_rating": 3.578125,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 10,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
+    "SBD": 2,
     "MATRIX": 2,
-    "UNKNOWN": 7
+    "UNKNOWN": 8,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

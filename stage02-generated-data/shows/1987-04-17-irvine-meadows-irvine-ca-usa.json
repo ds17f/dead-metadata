@@ -162,26 +162,42 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:57:44.728048",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/04/12151956/b870417.jpeg",
+      "filename": "b870417.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/04/12151202/t870417.jpeg",
+      "filename": "t870417.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd87-04-17.sbd.clugston.11872.sbeok.shnf",
     "gd1987-04-17.sbd.walker-scotton.miller.83731.sbeok.flac16",
-    "gd87-04-17.schoeps.eD.11658.sbeok.shnf",
     "gd1987-04-17.141128.sbd.miller.flac2496",
-    "gd1987-04-17.senn441.corso.86837.sbeok.flac16",
     "gd1987-04-17.141131.UltraMatrix.sbd.miller.flac1644",
+    "gd87-04-17.schoeps.eD.11658.sbeok.shnf",
     "gd1987-04-17.151125.aud.lohr.vernon.flac1648",
+    "gd1987-04-17.senn441.corso.86837.sbeok.flac16",
     "gd1987-04-17.151126.aud.lohr.vernon.flac2496"
   ],
   "best_recording": "gd87-04-17.sbd.clugston.11872.sbeok.shnf",
-  "avg_rating": 2.6866901408450707,
+  "avg_rating": 2.8861475409836066,
   "raw_rating": 3.7291666666666665,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 9,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 6,
+    "SBD": 4,
+    "UNKNOWN": 2,
     "AUD": 2
   },
   "matching_method": "date_only",

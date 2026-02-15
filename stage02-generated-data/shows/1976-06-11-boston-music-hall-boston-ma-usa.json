@@ -187,28 +187,44 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:31:22.253965",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152151/b760611.jpg",
+      "filename": "b760611.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151551/t760611.jpg",
+      "filename": "t760611.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd76-06-11.sbd.jmason.7824.sbeok.shnf",
-    "gd76-06-11.moore.minches.18387.sbeok.shnf",
     "gd1976-06-11.sbd.unknown.22803.sbeok.shnf",
     "gd1976-06-11.sbd.mccartj.238.sbeok.shnf",
     "gd1976-06-11.141709.sbd.miller.fixed.flac1644",
-    "gd76-06-11.hopkins.vernon.5919.sbeok.shnf",
     "gd1976-06-11.139552.sbd.betty.gastwirt.miller.clugston.flac1648",
     "gd1976-06-11.141702.sbd.miller.flac1644",
-    "gd1976-06-11.mtx.seamons.118256.flac16"
+    "gd1976-06-11.mtx.seamons.118256.flac16",
+    "gd76-06-11.moore.minches.18387.sbeok.shnf",
+    "gd76-06-11.hopkins.vernon.5919.sbeok.shnf"
   ],
   "best_recording": "gd76-06-11.sbd.jmason.7824.sbeok.shnf",
-  "avg_rating": 3.878959276018099,
+  "avg_rating": 4.062935323383085,
   "raw_rating": 4.6,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 45,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 8,
-    "MATRIX": 1
+    "SBD": 6,
+    "MATRIX": 1,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

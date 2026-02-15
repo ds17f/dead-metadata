@@ -167,15 +167,36 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:18:05.119328",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/10/12151733/b941001.jpeg",
+      "filename": "b941001.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/10/12150840/t941001.jpeg",
+      "filename": "t941001.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/09/12150114/GD-95-2.png",
+      "filename": "GD-95-2.png",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/09/12150114/GD-95-2-360x360.png"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd94-10-01.sbd.gorinsky.4671.sbeok.shnf",
     "gd1994-10-01.sbd.gorinsky-miller.31992.sbeok.shnf",
     "gd94-10-01.sbd.ashley-bertha.14869.sbeok.shnf",
-    "gd1994-10-01.mtx.seamons.95066.sbeok.flac16",
-    "gd94-10-01.pmb.pujol.15079.sbeok.shnf",
     "gd1994-10-01.sbd.nick.1025.shnf",
     "gd1994-10-01.150116.dsbd.miller.flac1644",
+    "gd1994-10-01.mtx.seamons.95066.sbeok.flac16",
+    "gd94-10-01.pmb.pujol.15079.sbeok.shnf",
     "gd1994-10-01.akg460.flaschner.sobel.83671.flac16",
     "gd1994-10-01.132503.nak300.andrewf.flac1644",
     "gd1994-10-01.fob.schoeps.evans-gross.GEMS.77223.flac16",
@@ -185,19 +206,18 @@
     "gd1994-10-01.schoeps.GEMS.77224.flac1648"
   ],
   "best_recording": "gd94-10-01.sbd.gorinsky.4671.sbeok.shnf",
-  "avg_rating": 3.8759471586828442,
+  "avg_rating": 3.9825883700410234,
   "raw_rating": 4.350711018526575,
   "recording_count": 14,
   "confidence": 1.0,
   "total_high_ratings": 95,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 7
+    "SBD": 5,
+    "MATRIX": 1,
+    "UNKNOWN": 6,
+    "AUD": 2
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "30-trips-around-the-sun"
-  ]
+  "filtering_applied": []
 }

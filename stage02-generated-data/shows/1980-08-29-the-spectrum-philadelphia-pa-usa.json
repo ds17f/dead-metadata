@@ -182,14 +182,24 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:41:44.345434",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151440/t800829.jpg",
+      "filename": "t800829.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1980-08-29.sbd.miller.91694.flac16",
     "gd80-08-29.sbd-aud.munder.10033.sbeok.shnf",
-    "gd1980-08-29.nak300.morris.102013.sbeok.flac16",
     "gd1980-08-29.senn421.wise.miller.100390.flac16",
     "gd1980-08-29.unknownaud.set2.123588.flac16",
-    "gd1980-08-29.nak300.morris.102013.flac16"
+    "gd1980-08-29.nak300.morris.102013.flac16",
+    "gd1980-08-29.nak300.morris.102013.sbeok.flac16"
   ],
   "best_recording": "gd1980-08-29.sbd.miller.91694.flac16",
   "avg_rating": 3.721551353674259,
@@ -199,8 +209,8 @@
   "total_high_ratings": 18,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 2,
+    "SBD": 2,
+    "UNKNOWN": 3,
     "AUD": 1
   },
   "matching_method": "date_only",

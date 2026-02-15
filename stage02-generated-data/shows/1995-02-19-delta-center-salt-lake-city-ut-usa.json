@@ -157,23 +157,38 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:18:59.526402",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/02/12151725/b950219.jpeg",
+      "filename": "b950219.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/02/12150828/t950219.jpeg",
+      "filename": "t950219.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd95-02-19.schoeps.10544.sbeok.shnf",
     "gd1995-02-19.schoeps.wklitz.95443.flac16",
+    "gd95-02-19.schoeps.10544.sbeok.shnf",
     "gd1995-02-19.141066.fob.mk4v.ebel.flac1644",
     "gd1995-02-19.145490.akg460b.lerond.t-flac1648"
   ],
-  "best_recording": "gd95-02-19.schoeps.10544.sbeok.shnf",
-  "avg_rating": 1.665016501650165,
+  "best_recording": "gd1995-02-19.schoeps.wklitz.95443.flac16",
+  "avg_rating": 1.7564102564102566,
   "raw_rating": 3.512820512820513,
   "recording_count": 4,
   "confidence": 1.0,
   "total_high_ratings": 14,
   "total_low_ratings": 7,
   "source_types": {
-    "SBD": 1,
-    "UNKNOWN": 3
+    "UNKNOWN": 3,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

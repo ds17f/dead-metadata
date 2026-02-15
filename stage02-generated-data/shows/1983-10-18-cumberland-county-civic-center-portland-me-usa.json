@@ -167,14 +167,23 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:50:18.524237",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152044/b831018.jpg",
+      "filename": "b831018.jpg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
+    "gd1983-10-18.140356.sbd.eaton.miller.clugston.flac1648",
+    "gd1983-10-18.155810.mtx.tobin.flac16",
     "gd83-10-18.aud.dodd.12484.sbeok.shnf",
     "gd1983-10-18.senn441-u87.eaton.miller.91344.sbeok.flac16",
-    "gd1983-10-18.140356.sbd.eaton.miller.clugston.flac1648",
     "gd1983-10-18.aud.morris.111057.sbeok.flac24",
-    "gd1983-10-18.fob.nak300.morris.102059.sbeok.flac16",
-    "gd1983-10-18.155810.mtx.tobin.flac16",
     "gd1983-10-18.fob.chasingwilma.102071.flac16",
     "gd1983-10-18.135185.Unk-Hill.Keo.Flac1644",
     "gd1983-10-18.120128.nak700.dyche.flac16",
@@ -192,20 +201,21 @@
     "gd1983-10-18.164040.senn421.vita.miller.clugston.flac1648",
     "gd1983-10-18.164041.senn421.vita.miller.clugston.flac2496",
     "gd1983-10-18.166002.AudioTechnica.caffrey.flac1644",
-    "gd1983-10-18.aud.carpenter.andrewf.87180.flac16"
+    "gd1983-10-18.aud.carpenter.andrewf.87180.flac16",
+    "gd1983-10-18.fob.nak300.morris.102059.sbeok.flac16"
   ],
-  "best_recording": "gd83-10-18.aud.dodd.12484.sbeok.shnf",
-  "avg_rating": 2.57385,
+  "best_recording": "gd1983-10-18.140356.sbd.eaton.miller.clugston.flac1648",
+  "avg_rating": 2.5614556962025317,
   "raw_rating": 4.166666666666667,
   "recording_count": 24,
   "confidence": 1.0,
   "total_high_ratings": 19,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
+    "SBD": 1,
     "MATRIX": 1,
-    "UNKNOWN": 14,
-    "AUD": 4
+    "AUD": 8,
+    "UNKNOWN": 14
   },
   "matching_method": "date_only",
   "filtering_applied": []

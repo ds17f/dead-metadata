@@ -157,12 +157,26 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:07:03.413192",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/09/12151854/b900918.jpeg",
+      "filename": "b900918.jpeg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/09/12152301/19900914.jpg",
+      "filename": "19900914.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/09/12152301/19900914.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd1990-09-18.sbd.miller.79022.sbeok.flac16",
     "gd90-09-18.sbd.miller.12885.sbeok.shnf",
-    "gd90-09-18.schoeps-fob.sacks.9772.sbeok.shnf",
-    "gd1990-09-18.bk4011.tdarian.french.88968.sbeok.flac16",
     "gd1990-09-18.147622.ultramatrix.sbd.miller.flac24",
     "gd1990-09-18.147781.UltraMatrix.sbd.cm.miller.flac16",
     "gd1990-09-18.sbd.miller.fix-79022.86952.sbeok.flac16",
@@ -171,6 +185,8 @@
     "gd1990-09-18.138069.mtx.photoleon.t-flac16",
     "gd1990-09-18.152738.mtx.seamons.ht130.flac16",
     "gd1990-09-18.mtx.hansokolow.96156.flac16",
+    "gd90-09-18.schoeps-fob.sacks.9772.sbeok.shnf",
+    "gd1990-09-18.bk4011.tdarian.french.88968.sbeok.flac16",
     "gd1990-09-18.141167.OTS.AKG.Ackerman.Miller.Noel.t-flac1648",
     "gd1990-09-18.AKG451.Currier.Keo.131909.Flac2496",
     "gd1990-09-18.124767.AT835.Fix.laurentis.flac16",
@@ -182,16 +198,17 @@
     "gd1990-09-18.at835b.laurentus.fix-96934.97021.flac16"
   ],
   "best_recording": "gd1990-09-18.sbd.miller.79022.sbeok.flac16",
-  "avg_rating": 3.368362735092579,
+  "avg_rating": 3.564980412195537,
   "raw_rating": 4.142490372272143,
   "recording_count": 21,
   "confidence": 1.0,
   "total_high_ratings": 35,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 9,
+    "SBD": 7,
     "MATRIX": 3,
-    "UNKNOWN": 9
+    "UNKNOWN": 9,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

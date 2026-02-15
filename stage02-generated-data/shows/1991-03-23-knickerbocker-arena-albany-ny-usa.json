@@ -157,31 +157,42 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:08:10.796118",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/03/12151022/t910323.jpeg",
+      "filename": "t910323.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1991-03-23.sbd.miller.87729.sbeok.flac16",
-    "gd91-03-23.schoeps.oconnor.9507.sbeok.shnf",
-    "gd1991-03-23.nak300.andrewf.34967.sbeok.flac16",
-    "gd1991-03-23.aud.koucky-greenberg.gmb.81869.sbeok.flac16",
     "gd1991-03-23.154461.UltraMatrix.sbd.cm.miller.t.flac16",
     "gd1991-03-23.152177.ultramatrix.miller.flac2496",
+    "gd91-03-23.schoeps.oconnor.9507.sbeok.shnf",
+    "gd1991-03-23.nak300.andrewf.34967.sbeok.flac16",
     "gd1991-03-23.133033.Nak300s-Senn441s.Fitzy.Keo.Flac1644",
     "gd1991-03-23.145316.nak300-shotgun-omni-mix.dalton.miller.sirmick.flac1648",
+    "gd1991-03-23.aud.koucky-greenberg.gmb.81869.sbeok.flac16",
     "gd1991-03-23.sennME80.wklitz.94366.flac16",
     "gd1991-03-23.133034.Nak300s-Senn441s.Fitzy.Keo.Flac2496",
     "gd1991-03-23.149299.FOB.Schoeps.unknown.Ammons.Noel.t-flac1648"
   ],
   "best_recording": "gd1991-03-23.sbd.miller.87729.sbeok.flac16",
-  "avg_rating": 1.7649700598802394,
+  "avg_rating": 1.877296587926509,
   "raw_rating": 3.258333333333333,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 10,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 5,
+    "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 5
+    "UNKNOWN": 6,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

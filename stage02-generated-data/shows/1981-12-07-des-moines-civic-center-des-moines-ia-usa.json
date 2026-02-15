@@ -177,28 +177,38 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:45:56.346315",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152107/b811207.jpg",
+      "filename": "b811207.jpg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd1981-12-07.aud.unknown.sirmick.repitch-8448.79857.sbeok.flac16",
-    "gd81-12-07.aud.munder.8448.sbeok.shnf",
     "gd81-12-07.set2-sbd.miller.12970.sbeok.shnf",
     "gd1981-12-07.141707.sbd.miller.flac2496",
     "gd1981-12-07.141898.sbd.cm.miller.flac1644",
     "gd1981-12-07.158878.mtx.seamons.ht151.flac16",
+    "gd1981-12-07.aud.unknown.sirmick.repitch-8448.79857.sbeok.flac16",
+    "gd81-12-07.aud.munder.8448.sbeok.shnf",
     "gd1981-12-07.143938.set2.fob.senn421.streeter.miller.clugston.flac1648",
     "gd1981-12-07.143939.set2.fob.senn421.streeter.miller.clugston.flac2496"
   ],
-  "best_recording": "gd1981-12-07.aud.unknown.sirmick.repitch-8448.79857.sbeok.flac16",
-  "avg_rating": 2.6582608695652175,
+  "best_recording": "gd81-12-07.set2-sbd.miller.12970.sbeok.shnf",
+  "avg_rating": 2.618882681564246,
   "raw_rating": 4.095652173913043,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 16,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
+    "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 2
+    "AUD": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

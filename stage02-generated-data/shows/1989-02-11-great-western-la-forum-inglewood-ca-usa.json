@@ -167,29 +167,45 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:02:55.219233",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/02/12151923/b890211.jpeg",
+      "filename": "b890211.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/02/12151112/t890211.jpeg",
+      "filename": "t890211.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-02-11.sbd.wiley.9203.sbeok.shnf",
-    "gd89-02-11.aud.bauer.20759.sbeok.shnf",
-    "gd1989-02-11.fob.french.35158.sbeok.flac24",
-    "gd1989-02-11.fob.french.sirmick.76125.sbeok.flac16",
     "gd1989-02-11.134776.sbd.miller.flac16",
     "gd1989-02-11.140719.sbd.pcm.miller.flac1644",
+    "gd89-02-11.aud.bauer.20759.sbeok.shnf",
     "gd1989-02-11.140999.FOB.Schoeps.PCM.Mattes.Weber-Small.Miller.Noel.t-flac1644",
+    "gd1989-02-11.fob.french.35158.sbeok.flac24",
+    "gd1989-02-11.fob.french.sirmick.76125.sbeok.flac16",
     "gd1989-02-11.124830.AT835.laurentis.flac16",
     "gd1989-02-11.140730.set1.akg.c42.ambient.mics.gans.miller.clugston.flac1644",
     "gd1989-02-11.140731.set1.akg.c42.ambient.mics.gans.miller.clugston.flac2496"
   ],
   "best_recording": "gd89-02-11.sbd.wiley.9203.sbeok.shnf",
-  "avg_rating": 3.5880392156862744,
+  "avg_rating": 3.624075816993464,
   "raw_rating": 4.122004357298475,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 20,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 6,
-    "UNKNOWN": 4
+    "SBD": 3,
+    "AUD": 4,
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

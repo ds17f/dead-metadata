@@ -169,22 +169,37 @@
     "Little Feat"
   ],
   "collection_timestamp": "2025-08-10T09:09:13.501005",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/06/12151835/b910617.jpeg",
+      "filename": "b910617.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/06/12151011/t910617.jpeg",
+      "filename": "t910617.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-06-17.sbd.gardner.3591.sbeok.shnf",
     "gd91-06-17.sbd.miller.25608.sbeok.shnf",
-    "gd1991-06-17.mtx.dan.31606.sbeok.flac16",
-    "gd1991-06-17.aud.andrewf.86660.sbeok.flac16",
     "gd1991-06-17.137545.sbd.miller.flac24",
     "gd1991-06-17.484.sbd.shnf",
     "gd1991-06-17.150677.sbd.cm.miller.flac16",
-    "gd1991-06-17.dts.dan.33670.sbeok.flac16",
-    "gd1991-06-17.nak300.andrewf.86659.sbeok.flac1648",
     "gd1991-06-17.137547.sbd.miller.flac16",
     "gd1991-06-17.150633.sbd.pearson-healy.miller.flac2496",
+    "gd1991-06-17.mtx.dan.31606.sbeok.flac16",
     "gd1991-06-17.128692.mtx.dusborne.flac16",
     "gd1991-06-17.135942.mtx.tobin.flac16",
     "gd1991-06-17.fob.brennecke-young.GEMS.95644.flac16",
+    "gd1991-06-17.aud.andrewf.86660.sbeok.flac16",
+    "gd1991-06-17.dts.dan.33670.sbeok.flac16",
+    "gd1991-06-17.nak300.andrewf.86659.sbeok.flac1648",
     "gd1991-06-17.134054.akg414btl-fob-dantepper.flac16",
     "gd1991-06-17.135941.5-1.tobin.flac1648",
     "gd1991-06-17.135943.dts.tobin.flac16",
@@ -195,15 +210,16 @@
     "gd1991-06-17.AKG451.Currier.Keo.122791.Flac1644"
   ],
   "best_recording": "gd91-06-17.sbd.gardner.3591.sbeok.shnf",
-  "avg_rating": 4.2902237979937725,
+  "avg_rating": 4.299958063952473,
   "raw_rating": 4.670166491675416,
   "recording_count": 22,
   "confidence": 1.0,
   "total_high_ratings": 105,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 11,
-    "MATRIX": 2,
+    "SBD": 7,
+    "MATRIX": 3,
+    "AUD": 3,
     "UNKNOWN": 9
   },
   "matching_method": "date_only",

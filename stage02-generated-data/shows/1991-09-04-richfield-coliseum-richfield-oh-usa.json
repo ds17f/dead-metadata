@@ -172,19 +172,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:09:41.410360",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151831/b910904.jpeg",
+      "filename": "b910904.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151008/t910904.jpeg",
+      "filename": "t910904.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-09-04.sbd.gardner.5558.sbeok.shnf",
-    "gd91-09-04.fob-schoeps-oneill.miller.28404.sbeok.shnf",
     "gd1991-09-04.sbd.miller.barberi-fix.121608.sbeok.flac16",
     "gd1991-09-04.150016.sbd.miller.flac2496",
-    "gd1991-09-04.nak300.bleich-sirmick.111271.sbeok.flac16",
     "gd1991-09-04.sbd.miller.95313.sbeok.flac16",
     "gd1991-09-04.150284.sbd.cm.miller.flac1644",
     "gd1991-09-04.132960.mtx.dusborne.flac16",
+    "gd91-09-04.fob-schoeps-oneill.miller.28404.sbeok.shnf",
     "gd1991-09-04.sennME80.wklitz.96192.flac16",
     "gd1991-09-04.164364.nak300.hessberg.miller.clugston.flac2496",
     "gd1991-09-04.fob.GEMS.91802.flac16",
+    "gd1991-09-04.nak300.bleich-sirmick.111271.sbeok.flac16",
     "gd1991-09-04.132810.at835b.cdipietro.flac",
     "gd1991-09-04.147568.beyerCM101.ebel.flac2448",
     "gd1991-09-04.149459.fob.BK4011.brennecke.varnum.ebel.flac1648",
@@ -192,16 +207,17 @@
     "gd1991-09-04.164363.nak300.hessberg.miller.clugston.flac1648"
   ],
   "best_recording": "gd91-09-04.sbd.gardner.5558.sbeok.shnf",
-  "avg_rating": 3.707350583090379,
+  "avg_rating": 3.8204410616705706,
   "raw_rating": 4.468167701863353,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 41,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
+    "SBD": 5,
     "MATRIX": 1,
-    "UNKNOWN": 8
+    "UNKNOWN": 7,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

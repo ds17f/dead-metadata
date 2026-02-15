@@ -162,17 +162,32 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:05:37.351362",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12151904/b900321.jpeg",
+      "filename": "b900321.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12151046/t900321.jpeg",
+      "filename": "t900321.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd90-03-21.sbd.heath.5307.sbeok.shnf",
     "gd1990-03-21.sbd.miller.107870.flac16",
-    "gd1990-03-21.aud.gidley.91767.sbeok.flac16",
     "gd1990-03-21.156422.UltraMatrix.sbd.cm.miller.t.flac1644",
     "gd1990-03-21.mtx.hansokolow.96638.flac16",
     "gd1990-03-21.156194.ultramatrix.miller.flac2496",
     "gd1990-03-21.156790.mtx.tobin.flac24",
     "gd1990-03-21.156791.mtx.tobin.flac16",
     "gd90-03-21.1355.schoeps.nawrocki.shnf",
+    "gd1990-03-21.aud.gidley.91767.sbeok.flac16",
     "gd1990-03-21.141111.OTS.AKG.Akerman.Miller.Noel.t-flac1648",
     "gd1990-03-21.138583.FOB.Schoeps.Ammons.Noel.t-flac16",
     "gd1990-03-21.141930.OTS.Schoeps.Mattes.Miller.Noel.t-flac1648",
@@ -183,17 +198,17 @@
     "gd1990-03-21.156794.5-1.tobin.flac1648"
   ],
   "best_recording": "gd90-03-21.sbd.heath.5307.sbeok.shnf",
-  "avg_rating": 3.5257055214723927,
+  "avg_rating": 3.5345061728395057,
   "raw_rating": 3.8950000000000005,
   "recording_count": 17,
   "confidence": 1.0,
   "total_high_ratings": 30,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 4,
-    "UNKNOWN": 8,
-    "REMASTER": 1
+    "UNKNOWN": 7,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

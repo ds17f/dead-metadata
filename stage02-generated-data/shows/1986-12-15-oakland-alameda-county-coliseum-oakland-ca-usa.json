@@ -177,17 +177,32 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:56:44.230055",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1986/12/12152004/b861215.jpeg",
+      "filename": "b861215.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1986/12/12151210/t861215.jpeg",
+      "filename": "t861215.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1986-12-15.sbd.braverman.13270.shnf",
     "gd1986-12-15.sbd.walker-scotton.miller.99035.sbeok.flac16",
     "gd86-12-15.sbd.kpfa.19600.sbeok.shnf",
-    "gd1986-12-15.nakcm304.beckham.suraci.sbeok.80809.flac16",
-    "gd86-12-15.nakcm101-dwonk.25263.sbeok.flacf",
     "gd1986-12-15.sbd.kpfa.16330.shnf",
     "gd1986-12-15.sbd.tetzeli.moore.8230.sbeok.shnf",
     "gd1986-12-15.128689.mtx.nicksmix.flac16",
     "gd1986-12-15.137555.mtx.tobin.flac16",
+    "gd1986-12-15.nakcm304.beckham.suraci.sbeok.80809.flac16",
+    "gd86-12-15.nakcm101-dwonk.25263.sbeok.flacf",
     "gd1986-12-15.nak300.damico.88884.flac16",
     "gd1986-12-15.141034.Senn.Hessberg.Miller.Noel.t-flac1644",
     "gd1986-12-15.140293.fob.schoeps.cmc4.mk41.oade.wise.miller.clugston.flac1644",
@@ -200,17 +215,17 @@
     "gd1986-12-15.aud.Holtz.Naks.114699.flac16"
   ],
   "best_recording": "gd1986-12-15.sbd.braverman.13270.shnf",
-  "avg_rating": 3.1188270676691734,
+  "avg_rating": 3.3278878504672904,
   "raw_rating": 4.372294372294372,
   "recording_count": 19,
   "confidence": 1.0,
   "total_high_ratings": 65,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 7,
+    "SBD": 5,
     "MATRIX": 2,
-    "UNKNOWN": 8,
-    "AUD": 2
+    "UNKNOWN": 9,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

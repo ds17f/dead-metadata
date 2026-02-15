@@ -159,12 +159,27 @@
     "Bob Dylan"
   ],
   "collection_timestamp": "2025-08-10T09:20:19.587257",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/06/12151715/b950625.jpeg",
+      "filename": "b950625.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/06/12150807/t950625.jpeg",
+      "filename": "t950625.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd95-06-25.sbd.2236.sbefail.shnf",
-    "gd95-06-25.nak300.stine.10935.sbeok.shnf",
     "gd1995-06-25.147721.sbd.spd-cor.sbeok.t-flac16",
     "gd1995-06-25.150028.sbd.dolphinsmile.flac1644",
+    "gd95-06-25.nak300.stine.10935.sbeok.shnf",
     "gd1995-06-25.fob.akg.unknown.swayne.85340.flac1648",
     "gd1995-06-25.fob.akg.unknown.swayne.85622.flac16",
     "gd1995-06-25.fob.schoeps.cooper-howard.braveman.27450.flac16",
@@ -173,15 +188,16 @@
     "gd1995-06-25.Nak300CP4.Baker.Keo.113093.Flac2496"
   ],
   "best_recording": "gd95-06-25.sbd.2236.sbefail.shnf",
-  "avg_rating": 3.0630748968911385,
+  "avg_rating": 3.142412930680504,
   "raw_rating": 3.741242272593465,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 48,
   "total_low_ratings": 11,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 6
+    "SBD": 3,
+    "UNKNOWN": 4,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

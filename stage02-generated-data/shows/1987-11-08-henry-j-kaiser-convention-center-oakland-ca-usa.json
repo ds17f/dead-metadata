@@ -167,21 +167,37 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:59:40.656738",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/11/12151944/b871108.jpeg",
+      "filename": "b871108.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/11/12151142/t871108.jpeg",
+      "filename": "t871108.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1987-11-08.sbd.walker-scotton.miller.85587.sbeok.flac16",
-    "gd87-11-08.schoeps-webber-small.gardner.12039.sbeok.shnf",
-    "gd1987-11-08.122167.sbd.miller.flac16"
+    "gd1987-11-08.122167.sbd.miller.flac16",
+    "gd87-11-08.schoeps-webber-small.gardner.12039.sbeok.shnf"
   ],
   "best_recording": "gd1987-11-08.sbd.walker-scotton.miller.85587.sbeok.flac16",
-  "avg_rating": 3.041666666666666,
+  "avg_rating": 3.2184782608695652,
   "raw_rating": 3.9666666666666663,
   "recording_count": 3,
   "confidence": 1.0,
   "total_high_ratings": 5,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 3
+    "SBD": 2,
+    "UNKNOWN": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

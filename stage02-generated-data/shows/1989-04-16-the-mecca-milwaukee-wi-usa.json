@@ -152,13 +152,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:03:29.451544",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/04/12151919/b890416.jpeg",
+      "filename": "b890416.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/04/12151107/t890416.jpeg",
+      "filename": "t890416.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-04-16.sbd.sbefixed.9963.sbeok.shnf",
     "gd1989-04-16.sbd.walker-scotton.miller.81703.sbeok.flac16",
     "gd1989-04-16.149618.ultramatrix.sbd.pearson-healy.miller.flac2496",
     "gd1989-04-16.149699.UltraMatrix.sbd.cm.miller.flac16",
-    "gd1989-04-16.nak300.lee-cohen.106339.sbeok.flac16",
     "gd1989-04-16.sbd.braverman.9371.sbefail.shnf",
     "gd1989-04-16.167825.mtx.seamons.ht169.flac16",
     "gd1989-04-16.122041.mtx.tobin.flac16",
@@ -169,7 +183,8 @@
     "gd1989-04-16.AKG451.Darby.118402.Flac2448",
     "gd1989-04-16.AKG451.Darby.118403.Flac1644",
     "gd1989-04-16.nak.rickers.112742.flac16",
-    "gd1989-04-16.nak.rickers.112743.flac24"
+    "gd1989-04-16.nak.rickers.112743.flac24",
+    "gd1989-04-16.nak300.lee-cohen.106339.sbeok.flac16"
   ],
   "best_recording": "gd89-04-16.sbd.sbefixed.9963.sbeok.shnf",
   "avg_rating": 3.9198956661316204,
@@ -179,9 +194,9 @@
   "total_high_ratings": 18,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 6,
+    "SBD": 5,
     "MATRIX": 2,
-    "UNKNOWN": 8
+    "UNKNOWN": 9
   },
   "matching_method": "date_only",
   "filtering_applied": []

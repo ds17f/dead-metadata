@@ -157,24 +157,39 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:57:32.766009",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/04/12151957/b870404.jpeg",
+      "filename": "b870404.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/04/12151204/t870404.jpeg",
+      "filename": "t870404.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1987-04-04.140305.fm.miller.flac2496",
     "gd1987-04-04.140373.fm.mc.miller.flac1644",
-    "gd1987-04-04.fob.nak700.rolfe.miller.99167.sbeok.flac16",
-    "gd87-04-04.schoeps.ladner.9362.sbeok.shnf",
     "gd1987-04-04.140306.sbd.miller.flac2496",
-    "gd1987-04-04.nak300.andrewf.78055.sbeok.flac16",
     "gd1987-04-04.sbd.miller.95721.sbeok.flac16",
     "gd1987-04-04.140372.UltraMatrix.sbd.cm.miller.flac1644",
-    "gd1987-04-04.nak300.damico.89471.sbeok.flac16",
+    "gd1987-04-04.fob.nak700.rolfe.miller.99167.sbeok.flac16",
+    "gd87-04-04.schoeps.ladner.9362.sbeok.shnf",
+    "gd1987-04-04.nak300.andrewf.78055.sbeok.flac16",
     "gd1987-04-04.akg-414.stevenson.109785.flac",
     "gd1987-04-04.135583.chasingwilma.flac24",
     "gd1987-04-04.Senn441.Hill.Keo.131520.Flac1644",
-    "gd1987-04-04.Senn441.Hill.Keo.131521.Flac2496"
+    "gd1987-04-04.Senn441.Hill.Keo.131521.Flac2496",
+    "gd1987-04-04.nak300.damico.89471.sbeok.flac16"
   ],
   "best_recording": "gd1987-04-04.140305.fm.miller.flac2496",
-  "avg_rating": 2.2102236421725245,
+  "avg_rating": 2.2159489633173846,
   "raw_rating": 4.476190476190476,
   "recording_count": 13,
   "confidence": 1.0,
@@ -182,8 +197,9 @@
   "total_low_ratings": 1,
   "source_types": {
     "FM": 2,
-    "SBD": 7,
-    "UNKNOWN": 4
+    "SBD": 3,
+    "AUD": 1,
+    "UNKNOWN": 7
   },
   "matching_method": "date_only",
   "filtering_applied": []

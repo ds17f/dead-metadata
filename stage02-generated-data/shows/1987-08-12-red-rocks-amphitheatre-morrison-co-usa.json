@@ -162,6 +162,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:58:44.646712",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/08/12151950/b870812.jpeg",
+      "filename": "b870812.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/08/12151150/t870812.jpeg",
+      "filename": "t870812.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1987-08-12.sbd.walker-scotton.miller.81677.sbeok.flac16",
@@ -170,23 +185,24 @@
     "gd1987-08-12.nakcm304.beckham.suraci.82054.sbeok.flac16",
     "gd1987-08-12.schoeps.gastwirt.gems.77164.sbeok.flac16",
     "gd87-08-12.nak.willy.14911.sbeok.shnf",
-    "gd1987-08-12.nak100.pasternak.81967.sbeok.flac16",
     "gd1987-08-12.142089.fob.oade.schoeps.cmc3.mk41.jacobs.miller.clugston.flac1644",
     "gd1987-08-12.160464.beyerm201.holbrook.flac1644",
     "gd1987-08-12.160465.beyerm201.holbrook.flac2448",
     "gd1987-08-12.163609.senn.me80.hessberg.miller.clugston.flac1648",
-    "gd1987-08-12.163610.senn.me80.hessberg.miller.clugston.flac2496"
+    "gd1987-08-12.163610.senn.me80.hessberg.miller.clugston.flac2496",
+    "gd1987-08-12.nak100.pasternak.81967.sbeok.flac16"
   ],
   "best_recording": "gd1987-08-12.sbd.walker-scotton.miller.81677.sbeok.flac16",
-  "avg_rating": 3.2510606060606055,
+  "avg_rating": 3.5379878048780493,
   "raw_rating": 4.424242424242425,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 19,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 5
+    "SBD": 2,
+    "AUD": 2,
+    "UNKNOWN": 8
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -157,12 +157,22 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:49:24.327295",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151330/t830730.jpg",
+      "filename": "t830730.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd83-07-30.aud.dodd.11932.sbeok.shnf",
-    "gd1983-07-30.fob.sony220t.keshavan.miller.96401.sbeok.flac16",
     "gd1983-07-30.140317.sbd.eaton.miller.clugston.flac1648",
     "gd1983-07-30.169187.pnp.140317.sbd.eaton.miller.clugston.flac1648",
+    "gd83-07-30.aud.dodd.11932.sbeok.shnf",
+    "gd1983-07-30.fob.sony220t.keshavan.miller.96401.sbeok.flac16",
     "gd1983-07-30.150283.nak100-oconnor.flac1644",
     "gd1983-07-30.161878.nak300-cp4.shields-hughes.flac2496",
     "gd1983-07-30.150939.fob.nak700.wagner.miller.clugston.flac1648",
@@ -170,16 +180,17 @@
     "gd1983-07-30.167230.nak100.kelley.miller.clugston.flac1648",
     "gd1983-07-30.167231.nak100.kelley.miller.clugston.flac2496"
   ],
-  "best_recording": "gd83-07-30.aud.dodd.11932.sbeok.shnf",
-  "avg_rating": 2.2584615384615385,
+  "best_recording": "gd1983-07-30.140317.sbd.eaton.miller.clugston.flac1648",
+  "avg_rating": 2.2284501061571125,
   "raw_rating": 3.579710144927536,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 17,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 6
+    "SBD": 2,
+    "AUD": 4,
+    "UNKNOWN": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

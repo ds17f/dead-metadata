@@ -167,15 +167,25 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:32:52.245018",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151539/t770423.jpg",
+      "filename": "t770423.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd77-04-23.sbd.jerugim.1827.sbefail.shnf",
     "gd1977-04-23.sbd.miller.88401.sbeok.flac16",
+    "gd1977-04-23.sbd.aj.gardner.4334.shnf",
+    "gd1977-04-23.sbd.unknown.27421.shnf",
     "gd1977-04-23.mtx.seamons.97596.sbeok.flac16",
     "gd77-04-23.hopkins.vernon.17178.sbeok.shnf",
     "gd77-04-23.moore.minches.18438.sbeok.shnf",
-    "gd1977-04-23.sbd.aj.gardner.4334.shnf",
-    "gd1977-04-23.sbd.unknown.27421.shnf",
     "gd1977-04-23.143220.weidner.akg-d200e.miller.flac1644",
     "gd1977-04-23.sonyECM99a.hopkins.minches.83685.flac16",
     "gd1977-04-23.143265.akgd200e.miller.fixed.flac1644",
@@ -184,15 +194,17 @@
     "gd1977-04-23.152692.ecm-99a.warburton.smith.sirmick.flac16"
   ],
   "best_recording": "gd77-04-23.sbd.jerugim.1827.sbefail.shnf",
-  "avg_rating": 4.123359750057151,
+  "avg_rating": 4.224545454545455,
   "raw_rating": 4.642910860429108,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 123,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 6
+    "SBD": 4,
+    "MATRIX": 1,
+    "UNKNOWN": 7,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

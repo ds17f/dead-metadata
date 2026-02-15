@@ -152,21 +152,36 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:18:43.754653",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/12/12151727/b941208.jpeg",
+      "filename": "b941208.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/12/12150831/t941208.jpeg",
+      "filename": "t941208.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd94-12-08.neumann.seff.5611.sbeok.shnf",
     "gd1994-12-08.139122.FOB.Schoeps.Ammons.Zimmer.Noel.t-flac16"
   ],
   "best_recording": "gd94-12-08.neumann.seff.5611.sbeok.shnf",
-  "avg_rating": 1.3125000000000002,
+  "avg_rating": 1.1805555555555556,
   "raw_rating": 2.479166666666667,
   "recording_count": 2,
   "confidence": 0.8,
   "total_high_ratings": 2,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 1,
-    "UNKNOWN": 1
+    "UNKNOWN": 1,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -157,6 +157,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:04:13.356056",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/07/12151915/b890719.jpeg",
+      "filename": "b890719.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/07/12151101/t890719.jpeg",
+      "filename": "t890719.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-07-19.sbd.437.sbeok.shnf",
@@ -176,7 +191,7 @@
     "gd1989-07-19.upg-aud.tobin.125855.flac16"
   ],
   "best_recording": "gd89-07-19.sbd.437.sbeok.shnf",
-  "avg_rating": 4.567260756830575,
+  "avg_rating": 4.555497485681715,
   "raw_rating": 4.769642286809327,
   "recording_count": 15,
   "confidence": 1.0,
@@ -185,8 +200,8 @@
   "source_types": {
     "SBD": 4,
     "MATRIX": 1,
-    "UNKNOWN": 9,
-    "AUD": 1
+    "UNKNOWN": 7,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

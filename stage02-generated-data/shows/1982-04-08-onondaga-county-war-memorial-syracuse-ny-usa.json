@@ -157,11 +157,25 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:46:36.429006",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152105/b820408.jpg",
+      "filename": "b820408.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151359/t820408.jpg",
+      "filename": "t820408.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd82-04-08.fob-senn421.miller.14543.sbeok.shnf",
     "gd1982-04-08.set2.sbd.miller.109567.flac16",
-    "gd1982-04-08.senn421.wise.vernon.8475.sbeok.shnf",
+    "gd82-04-08.fob-senn421.miller.14543.sbeok.shnf",
     "gd1982-04-08.136854.m160-senn421.streeter.miller.flac24",
     "gd1982-04-08.fob.vita.motb-0103.102213.flac16",
     "gd1982-04-08.137071.m160-senn421.miller.flac16",
@@ -171,18 +185,20 @@
     "gd1982-04-08.164796.senn421.vita.miller.clugston.flac1648",
     "gd1982-04-08.164797.senn421.vita.miller.clugston.flac2496",
     "gd1982-04-08.fob.vita.motb-0103.102214.flac24",
-    "gd1982-04-08.nak700.dyche.103280.flac16"
+    "gd1982-04-08.nak700.dyche.103280.flac16",
+    "gd1982-04-08.senn421.wise.vernon.8475.sbeok.shnf"
   ],
-  "best_recording": "gd82-04-08.fob-senn421.miller.14543.sbeok.shnf",
-  "avg_rating": 1.7190831556503197,
+  "best_recording": "gd1982-04-08.set2.sbd.miller.109567.flac16",
+  "avg_rating": 1.7376750700280112,
   "raw_rating": 3.5476190476190474,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 8,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 10
+    "SBD": 1,
+    "UNKNOWN": 9,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

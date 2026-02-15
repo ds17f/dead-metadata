@@ -152,6 +152,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:06:36.788315",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/07/12151858/b900719.jpeg",
+      "filename": "b900719.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/07/12151038/t900719.jpeg",
+      "filename": "t900719.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1990-07-19.sbd.miller.32354.sbeok.flac16",
@@ -174,7 +189,7 @@
     "gd1990-07-19.nak300.cohenlee.118905.flac16"
   ],
   "best_recording": "gd1990-07-19.sbd.miller.32354.sbeok.flac16",
-  "avg_rating": 2.925785582255083,
+  "avg_rating": 2.9127056672760507,
   "raw_rating": 4.664516129032258,
   "recording_count": 18,
   "confidence": 1.0,
@@ -183,12 +198,9 @@
   "source_types": {
     "SBD": 6,
     "MATRIX": 2,
-    "AUD": 1,
-    "UNKNOWN": 9
+    "AUD": 3,
+    "UNKNOWN": 7
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "daves-picks-vol-40"
-  ]
+  "filtering_applied": []
 }

@@ -152,27 +152,42 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:53:38.579478",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152025/b850413.jpg",
+      "filename": "b850413.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151247/t850413.jpg",
+      "filename": "t850413.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-04-13.sbd.popi.6146.sbeok.shnf",
     "gd1985-04-13.sbd.miller.77348.sbeok.flac16",
-    "gd1985-04-13.senn421.mccue.ford.32595.sbeok.shnf",
-    "gd1985-04-13.fix-shnid-77348.tetzeli.83071.sbeok.flac16",
     "gd1985-04-13.122198.sbd.miller.flac16",
     "gd1985-04-13.123130.sbd.miller.flac24",
     "gd1985-04-13.124884.chasingwilma.flac24",
+    "gd1985-04-13.senn421.mccue.ford.32595.sbeok.shnf",
+    "gd1985-04-13.fix-shnid-77348.tetzeli.83071.sbeok.flac16",
     "gd1985-04-13.nak100.holtz.jaz.97199.flac16"
   ],
   "best_recording": "gd85-04-13.sbd.popi.6146.sbeok.shnf",
-  "avg_rating": 3.2727707006369435,
+  "avg_rating": 3.4349290780141852,
   "raw_rating": 4.068421052631579,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 28,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 6,
-    "UNKNOWN": 2
+    "SBD": 4,
+    "UNKNOWN": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

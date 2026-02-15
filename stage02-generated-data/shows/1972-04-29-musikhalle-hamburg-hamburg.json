@@ -177,33 +177,40 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:24:48.224954",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151622/t720429.jpg",
+      "filename": "t720429.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1972-04-29.sbd.miller.125888.flac16",
-    "gd72-04-29.matrix.vernon.17025.sbeok.shnf",
-    "gd72-04-29.aud.vernon.5250.sbeok.shnf",
     "gd72-04-29.sbd.vernon.17026.sbeok.shnf",
     "gd1972-04-29.sbd.cousinit.18523.sbeok.shnf",
     "gd1972-04-29.sbd.sirmick.32877.sbeok.flac16",
     "gd1972-04-29.126010.mtx.dusborne.flac16",
+    "gd72-04-29.matrix.vernon.17025.sbeok.shnf",
     "gd1972-04-29.mtx.sirmick.98401.flac16",
+    "gd72-04-29.aud.vernon.5250.sbeok.shnf",
     "gd1972-04-29.141886.aud.wolsander.dalton.miller.sirmick.flac1644"
   ],
   "best_recording": "gd1972-04-29.sbd.miller.125888.flac16",
-  "avg_rating": 3.6882702287142024,
+  "avg_rating": 3.71841341991342,
   "raw_rating": 4.643097643097644,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 49,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 6,
-    "MATRIX": 2,
-    "AUD": 1
+    "SBD": 4,
+    "MATRIX": 3,
+    "AUD": 2
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "europe-72-complete-recordings"
-  ]
+  "filtering_applied": []
 }

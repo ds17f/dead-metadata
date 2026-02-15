@@ -152,31 +152,47 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:12:53.239844",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/03/12151808/b930316.jpeg",
+      "filename": "b930316.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/03/12150936/t930316.jpeg",
+      "filename": "t930316.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd93-03-16.sbd.gardner.5442.sbeok.shnf",
-    "gd1993-03-16.akg451.dipietro.31958.sbeok.flac16",
     "gd1993-03-16.120741.sbd.miller.flac16",
-    "gd1993-03-16.akg.swayne.85173.sbeok.flac16",
-    "gd1993-03-16.akg414.larson.28658.sbeok.shnf",
     "gd1993-03-16.135257.mtx.tobin.flac16",
+    "gd1993-03-16.akg451.dipietro.31958.sbeok.flac16",
+    "gd1993-03-16.akg.swayne.85173.sbeok.flac16",
     "gd1993-03-16.135258.dts.tobin.flac16",
     "gd1993-03-16.135259.5-1.tobin.flac1648",
     "gd1993-03-16.139672.fob.schoeps.wise.clugston.flac1648",
     "gd1993-03-16.140082.s2.FOB.Schoeps.Gastwirt.Miller.Noel.t-flac1648",
+    "gd1993-03-16.akg414.larson.28658.sbeok.shnf",
     "gd1993-03-16.sennme80.wklitz.97708.flac16"
   ],
   "best_recording": "gd93-03-16.sbd.gardner.5442.sbeok.shnf",
-  "avg_rating": 3.1507438016528924,
+  "avg_rating": 3.3471559633027517,
   "raw_rating": 3.6666666666666665,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 15,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
+    "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 5
+    "UNKNOWN": 6,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -167,13 +167,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:55:50.692825",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152007/b860330.jpg",
+      "filename": "b860330.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151219/t860330.jpg",
+      "filename": "t860330.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd86-03-30.fob-schoeps.miller.25526.sbeok.shnf",
     "gd1986-03-30.sbd.walker-scotton.miller.106110.flac16",
-    "gd86-03-30.nak300.braverman.10076.sbeok.shnf",
     "gd1986-03-30.142406.sbd.miller.flac1648",
+    "gd86-03-30.fob-schoeps.miller.25526.sbeok.shnf",
     "gd1986-03-30.nak300.pasternak.mallick.103229.flac16",
+    "gd86-03-30.nak300.braverman.10076.sbeok.shnf",
     "gd1986-03-30.127545.chasingwilma.flac24",
     "gd1986-03-30.139470.FOB.SennME80.Hessberg.Miller.Noel.t-flac24",
     "gd1986-03-30.139523.FOB.Schoeps-cmc4-mk41.oade.bryant.miller.sirmick.flac16",
@@ -183,16 +198,17 @@
     "gd1986-03-30.nak300.damico.87741.flac16",
     "gd1986-03-30.nak300.morris.crazyfingers.106566.flac16"
   ],
-  "best_recording": "gd86-03-30.fob-schoeps.miller.25526.sbeok.shnf",
-  "avg_rating": 2.0119999999999996,
+  "best_recording": "gd1986-03-30.sbd.walker-scotton.miller.106110.flac16",
+  "avg_rating": 2.023529411764706,
   "raw_rating": 4.0,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 9,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 9
+    "SBD": 2,
+    "UNKNOWN": 8,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -162,29 +162,45 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:03:19.415483",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/04/12151920/b890409.jpeg",
+      "filename": "b890409.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/04/12151109/t890409.jpeg",
+      "filename": "t890409.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-04-09.sbd.miller.13207.sbeok.shnf",
-    "gd1989-04-09.fob.thompson.motb.83523.sbeok.flac16",
-    "gd89-04-09.nak.7858.sbeok.shnf",
     "gd1989-04-09.sbd.tobin.tetzeli.fix-34962.75504.reflac.flac16",
     "gd1989-04-09.sbd.tobin.34962.sbeok.flac16",
-    "gd1989-04-09.aud.bleich.sirmick.84036.sbeok.flac16",
     "gd1989-04-09.147845.sbd.ultramatrix.miller.flac24",
     "gd1989-04-09.148146.UltraMatrix.sbd.cm.miller.flac16",
+    "gd1989-04-09.fob.thompson.motb.83523.sbeok.flac16",
+    "gd89-04-09.nak.7858.sbeok.shnf",
+    "gd1989-04-09.aud.bleich.sirmick.84036.sbeok.flac16",
     "gd1989-04-09.138255.kmr82i.flac16",
     "gd1989-04-09.156412.OTS-Schoeps-PCM-Master-Mattes-Anon-Noel.t-flac16"
   ],
   "best_recording": "gd89-04-09.sbd.miller.13207.sbeok.shnf",
-  "avg_rating": 2.6913245823389014,
+  "avg_rating": 2.8362684365781714,
   "raw_rating": 4.046690307328605,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 30,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 8,
-    "UNKNOWN": 2
+    "SBD": 5,
+    "AUD": 2,
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

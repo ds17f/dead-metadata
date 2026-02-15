@@ -167,25 +167,39 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:04:37.308422",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151911/b891009.jpeg",
+      "filename": "b891009.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151058/t891009.jpeg",
+      "filename": "t891009.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-10-09.sbd.serafin.7721.sbeok.shnf",
     "gd89-10-09.sbd.paino.2276.sbeok.shnf",
     "gd1989-10-09.sbd.miller.32902.sbeok.flac16",
     "gd1989-10-09.sbd.miller.80840.sbeok.flac16",
-    "gd1989-10-09.mtx.dan.26236.sbeok.shnf",
-    "gd1989-10-09.nak304.carpenter.89563.sbeok.flac16",
-    "gd89-10-09.schoeps.howland.443.sbeok.shnf",
-    "gd1989-10-09.aud.robr.31211.sbeok.shnf",
-    "gd1989-10-09.aud.fishman.17704.sbeok.shnf",
     "gd1989-10-09.147611.ultramatrix.sbd.pearson.miller.flac24",
     "gd1989-10-09.147621.UltraMatrix.sbd.cm.miller.flac16",
-    "gd1989-10-09.dts.dan.26235.sbeok.shnf",
+    "gd1989-10-09.mtx.dan.26236.sbeok.shnf",
     "gd1989-10-09.mtx.v2.haugh.92495.flac16",
     "gd1989-10-09.mtx.dts.haugh.92005.flac16",
     "gd1989-10-09.158308.mtx.seamons.ht144.flac16",
     "gd1989-10-09.154041.mtx.tobin.flac16",
+    "gd1989-10-09.nak304.carpenter.89563.sbeok.flac16",
+    "gd89-10-09.schoeps.howland.443.sbeok.shnf",
+    "gd1989-10-09.aud.robr.31211.sbeok.shnf",
     "gd1989-10-09.125738.mk4.flac16",
+    "gd1989-10-09.aud.fishman.17704.sbeok.shnf",
     "gd1989-10-09.131003.cmc521.fob.deal.flac16",
     "gd1989-10-09.099647",
     "gd1989-10-09.120403.Nak300sSenn441.AlabamaBob.Currier.Keo.Flac2496",
@@ -195,20 +209,21 @@
     "gd1989-10-09.154042.dts.tobin.flac16",
     "gd1989-10-09.154043.5-1.tobin.flac1648",
     "gd1989-10-09.dts-dvdaudio.haugh.92553.dvdf",
+    "gd1989-10-09.dts.dan.26235.sbeok.shnf",
     "gd1989-10-09.nak300.juteau.116646.flac"
   ],
   "best_recording": "gd89-10-09.sbd.serafin.7721.sbeok.shnf",
-  "avg_rating": 4.006585629676916,
+  "avg_rating": 4.139228851427804,
   "raw_rating": 4.550360816827883,
   "recording_count": 27,
   "confidence": 1.0,
   "total_high_ratings": 149,
   "total_low_ratings": 6,
   "source_types": {
-    "SBD": 12,
-    "MATRIX": 4,
-    "UNKNOWN": 10,
-    "AUD": 1
+    "SBD": 6,
+    "MATRIX": 5,
+    "UNKNOWN": 11,
+    "AUD": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

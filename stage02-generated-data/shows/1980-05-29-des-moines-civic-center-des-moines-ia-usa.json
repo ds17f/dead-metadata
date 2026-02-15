@@ -177,24 +177,35 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:40:54.432879",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151443/t800529.jpg",
+      "filename": "t800529.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd80-05-29.aud.vernon.14836.sbeok.shnf",
-    "gd80-05-29.pset1-set2.nak300.braveman.25993.sbeok.shnf",
     "gd1980-05-29.152540.sbd.s2.patched.gems.flac1644",
     "gd1980-05-29.152534.aud.gems.flac2496",
+    "gd80-05-29.aud.vernon.14836.sbeok.shnf",
+    "gd80-05-29.pset1-set2.nak300.braveman.25993.sbeok.shnf",
     "gd1980-05-29.152539.aud.gems.flac1648"
   ],
-  "best_recording": "gd80-05-29.aud.vernon.14836.sbeok.shnf",
-  "avg_rating": 1.768709677419355,
+  "best_recording": "gd1980-05-29.152540.sbd.s2.patched.gems.flac1644",
+  "avg_rating": 1.8295433789954338,
   "raw_rating": 3.575757575757576,
   "recording_count": 5,
   "confidence": 1.0,
   "total_high_ratings": 6,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 3,
-    "AUD": 2
+    "SBD": 1,
+    "AUD": 3,
+    "UNKNOWN": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

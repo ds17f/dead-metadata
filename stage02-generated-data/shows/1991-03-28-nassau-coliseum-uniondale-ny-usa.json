@@ -142,15 +142,25 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:08:18.809476",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/03/12151020/t910328.jpeg",
+      "filename": "t910328.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-03-28.sbd.barbella.7287.sbeok.shnf",
-    "gd91-03-28.fob-schoeps-mahoney-oneill.miller.28391.sbeok.shnf",
     "gd1991-03-28.sbd.miller.87732.sbeok.flac16",
     "gd1991-03-28.142161.sbd.ultramatrix.miller.flac2496",
     "gd1991-03-28.142428.UltraMatrix.sbd.cm.miller.flac1644",
     "gd1991-03-28.142169.UltraMatrix.sbd.cm.miller.flac1644",
     "gd1991-03-28.142213.sbd.ultramatrix.miller.flac2496",
+    "gd91-03-28.fob-schoeps-mahoney-oneill.miller.28391.sbeok.shnf",
     "gd1991-03-28.nak300.andrewf.107569.flac16",
     "gd1991-03-28.133616.Nak300s-Senn441s.Fitzy.Keo.Flac1644",
     "gd1991-03-28.133617.Nak300s-Senn441s.Fitzy.Keo.Flac2496",
@@ -161,15 +171,16 @@
     "gd1991-03-28.wklitz.me80.91713.flac"
   ],
   "best_recording": "gd91-03-28.sbd.barbella.7287.sbeok.shnf",
-  "avg_rating": 2.6513784887678695,
+  "avg_rating": 2.792289021657954,
   "raw_rating": 3.3032544378698225,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 4,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 8
+    "SBD": 6,
+    "UNKNOWN": 8,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

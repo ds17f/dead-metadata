@@ -167,17 +167,32 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:09:57.288407",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151829/b910914.jpeg",
+      "filename": "b910914.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151005/t910914.jpeg",
+      "filename": "t910914.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-09-14.sbd.kowalski.522.sbeok.shnf",
     "gd1991-09-14.sbd.miller.32904.sbeok.flac16",
     "gd1991-09-14.150163.sbd.cm.miller.flac16",
-    "gd1991-09-14.nak300.lynn.25318.sbeok.flac16",
-    "gd1991-09-14.nak300.bleich-sirmick.111250.sbeok.flac16",
     "gd1991-09-14.149977.sbd.miller.flac2496",
     "gd1991-09-14.sbd.hinko.77789.sbeok.flac16",
     "gd1991-09-14.fob.brennecke-young.GEMS.97388.flac16",
     "gd1991-09-14.110643.dmtx.hansokolow.flac16",
+    "gd1991-09-14.nak300.lynn.25318.sbeok.flac16",
+    "gd1991-09-14.nak300.bleich-sirmick.111250.sbeok.flac16",
     "gd1991-09-14.138918.cmc34.flac16",
     "gd1991-09-14.147629.FOB-BK4011.dalton.miller.sirmick.flac1648",
     "gd1991-09-14.151340.SennME88.rogosa.miller.sirmick.flac1648",
@@ -186,15 +201,16 @@
     "gd1991-09-14.nak300.gidley.122035.flac2448"
   ],
   "best_recording": "gd91-09-14.sbd.kowalski.522.sbeok.shnf",
-  "avg_rating": 3.546657929226736,
+  "avg_rating": 3.577645502645502,
   "raw_rating": 4.28021978021978,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 21,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 8
+    "SBD": 5,
+    "AUD": 1,
+    "UNKNOWN": 9
   },
   "matching_method": "date_only",
   "filtering_applied": []

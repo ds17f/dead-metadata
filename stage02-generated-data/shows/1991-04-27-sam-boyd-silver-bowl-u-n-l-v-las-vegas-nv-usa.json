@@ -164,30 +164,47 @@
     "Santana"
   ],
   "collection_timestamp": "2025-08-10T09:08:39.316813",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/04/12151839/b910427.jpeg",
+      "filename": "b910427.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/04/12151017/t910427.jpeg",
+      "filename": "t910427.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-04-27.sbd.vernon-fink.12018.sbeok.shnf",
     "gd91-04-27.sbd.miller.26332.sbeok.flacf",
-    "gd1991-04-27.mtx.sirmick.102906.sbeok.flac16",
     "gd1991-04-27.sbd.vernon.6111.shnf",
     "gd1991-04-27.156358.sbd.miller.flac2496",
     "gd1991-04-27.156404.sbd.cm.miller.t.flac1644",
-    "gd1991-04-27.aud.unknown.ford.91055.sbeok.flac16",
+    "gd1991-04-27.mtx.sirmick.102906.sbeok.flac16",
     "gd1991-04-27.AKG451.Darby.118571.Flac2448",
     "gd1991-04-27.112862.NeumannKMF4.daweez.d5scott.flac16",
     "gd1991-04-27.fob.schoepsCMC32.young.GEMS.93470.flac16",
-    "gd1991-04-27.AKG451.Darby.118572.Flac1644"
+    "gd1991-04-27.AKG451.Darby.118572.Flac1644",
+    "gd1991-04-27.aud.unknown.ford.91055.sbeok.flac16"
   ],
   "best_recording": "gd91-04-27.sbd.vernon-fink.12018.sbeok.shnf",
-  "avg_rating": 3.776470588235294,
+  "avg_rating": 3.7615384615384615,
   "raw_rating": 4.15625,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 25,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 4
+    "SBD": 5,
+    "MATRIX": 1,
+    "UNKNOWN": 3,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

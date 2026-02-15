@@ -162,12 +162,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:07:33.261816",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/12/12151849/b901203.jpeg",
+      "filename": "b901203.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/12/12151030/t901203.jpeg",
+      "filename": "t901203.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1990-12-03.sbd.miller.81740.sbeok.flac16",
-    "gd90-12-03.nak.wiley.13992.sbeok.shnf",
     "gd1990-12-03.143373.sbd.ultramatrix.miller.flac2496",
     "gd1990-12-03.143512.UltraMatrix.sbd.cm.miller.flac1644",
+    "gd90-12-03.nak.wiley.13992.sbeok.shnf",
     "gd1990-12-03.150653.FOB.NAK.700.DSD.Mow.Miller.Noel.t.flac2496",
     "gd1990-12-03.119331.Sennheiser421.d5scott.flac16",
     "gd1990-12-03.138092.BK4011.Darroch.Ammons.fob.t-flac16",
@@ -177,15 +192,16 @@
     "gd1990-12-03.154445.4mic.mix.1gen.miller.t.flac16"
   ],
   "best_recording": "gd1990-12-03.sbd.miller.81740.sbeok.flac16",
-  "avg_rating": 2.381679389312977,
+  "avg_rating": 2.6,
   "raw_rating": 3.288888888888889,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 4,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 7
+    "SBD": 3,
+    "UNKNOWN": 5,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -167,13 +167,22 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:04:07.341623",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/07/12151102/t890715.jpeg",
+      "filename": "t890715.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-07-15.sbd.11266.sbeok.shnf",
     "gd1989-07-15.139106.sbd.miller.flac2496",
     "gd1989-07-15.sbd.miller.97307.sbeok.flac16",
     "gd1989-07-15.139107.UltraMatrixSBD.miller.flac1644",
-    "gd1989-07-15.nak300.wahba-volkerding.96609.sbeok.flac16",
     "gd1989-07-15.aud.cousinit.97691.flac16",
     "gd1989-07-15.118804.aud-mtx.dak5245-pzm.flac16",
     "gd1989-07-15.nak.cohen-lee.106500.flac16",
@@ -182,7 +191,8 @@
     "gd1989-07-15.141072.TSBeyer-CM101.ebel.flac2496",
     "gd1989-07-15.Nak300CP4.Baker.Keo.125721.Flac2496",
     "gd1989-07-15.Nak300CP4.Baker.Keo.125722.Flac1644",
-    "gd1989-07-15.nak100.holtz.jaz.100391.flac16"
+    "gd1989-07-15.nak100.holtz.jaz.100391.flac16",
+    "gd1989-07-15.nak300.wahba-volkerding.96609.sbeok.flac16"
   ],
   "best_recording": "gd89-07-15.sbd.11266.sbeok.shnf",
   "avg_rating": 3.312732919254658,
@@ -192,13 +202,10 @@
   "total_high_ratings": 27,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
+    "SBD": 4,
     "AUD": 4,
-    "UNKNOWN": 5
+    "UNKNOWN": 6
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "enjoying-the-ride"
-  ]
+  "filtering_applied": []
 }

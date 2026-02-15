@@ -152,6 +152,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:12:41.395297",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/02/12151810/b930222.jpeg",
+      "filename": "b930222.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/02/12150939/t930222.jpeg",
+      "filename": "t930222.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd93-02-22.dsbd.vernon.19238.sbeok.shnf",
@@ -173,8 +188,8 @@
   "source_types": {
     "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 4,
-    "AUD": 1
+    "UNKNOWN": 3,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

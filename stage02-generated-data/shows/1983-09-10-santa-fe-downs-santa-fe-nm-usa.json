@@ -162,36 +162,58 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:49:54.262920",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152048/b830910.jpg",
+      "filename": "b830910.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151325/t830910.jpg",
+      "filename": "t830910.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/08/12150131/GD-83-9-10-83-2.png",
+      "filename": "GD-83-9-10-83-2.png",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/08/12150131/GD-83-9-10-83-2-360x360.png"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd1983-09-10.139299.sbd.eaton.miller.flac1648",
-    "gd1983-09-10.fob.nak700.wagner.motb-0079.94508.sbeok.flac16",
-    "gd1983-09-10.fob.senn441.silberman.miller.84487.sbeok.flac16",
-    "gd1983-09-10.fob.nak700.wagner.motb-0079.94509.sbeok.flac24",
-    "gd1983-09-10.nak304.mikeg-suraci.79068.sbeok.flac16",
     "gd1983-09-10.139379.mtx.seamons.ht112.flac16",
+    "gd1983-09-10.fob.nak700.wagner.motb-0079.94508.sbeok.flac16",
     "gd83-09-10.sennheiser.clugston.4860.shnf",
+    "gd1983-09-10.fob.senn441.silberman.miller.84487.sbeok.flac16",
     "gd1983-09-10.110915.Sennheiser421s.daweez.D5scott.flac16",
     "gd1983-09-10.139020.FOB.Beyer.billydee.Sellars.Noel.t.flac24",
+    "gd1983-09-10.fob.nak700.wagner.motb-0079.94509.sbeok.flac24",
     "gd1983-09-10.141023.FOB.Beyer.billydee.Sellars.Noel.t.flac1644",
     "gd1983-09-10.143079.beyerm201.holbrook.flac1644",
     "gd1983-09-10.143080.beyerm201.holbrook.flac2448",
     "gd1983-09-10.151507.fob.unknown.bryant.miller.clugston.flac1648",
     "gd1983-09-10.151508.fob.unknown.bryant.miller.clugston.flac2496",
     "gd1983-09-10.162895.nak300-cp4.shields-hughes.flac2496",
-    "gd1983-09-10.nak300.deadjohn-or-bonner.96920.flac16"
+    "gd1983-09-10.nak300.deadjohn-or-bonner.96920.flac16",
+    "gd1983-09-10.nak304.mikeg-suraci.79068.sbeok.flac16"
   ],
   "best_recording": "gd1983-09-10.139299.sbd.eaton.miller.flac1648",
-  "avg_rating": 2.6476562499999994,
+  "avg_rating": 2.7026342975206608,
   "raw_rating": 4.597972972972973,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 33,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
+    "SBD": 1,
     "MATRIX": 1,
-    "UNKNOWN": 10
+    "AUD": 7,
+    "UNKNOWN": 7
   },
   "matching_method": "date_only",
   "filtering_applied": []

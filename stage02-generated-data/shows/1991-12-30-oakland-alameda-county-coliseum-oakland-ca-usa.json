@@ -172,13 +172,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:10:33.325646",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/12/12151824/b911230.jpeg",
+      "filename": "b911230.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/12/12150959/t911230.jpeg",
+      "filename": "t911230.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1991-12-30.sbd.miller.32574.sbeok.flac16",
-    "gd91-12-30.b_ks.georges.6812.sbeok.shnf",
     "gd1991-12-30.150859.sbd.miller.flac2496",
     "gd1991-12-30.151629.sbd.cm.miller.t.flac16",
     "gd1991-12-30.135051.mtx.tobin.flac16",
+    "gd91-12-30.b_ks.georges.6812.sbeok.shnf",
     "gd1991-12-30.fob.bk4011.buick-young.gems.105000.flac16",
     "gd1991-12-30.135052.dts.tobin.flac16",
     "gd1991-12-30.135054.sur5-1.tobin.flac1648",
@@ -186,16 +201,17 @@
     "gd1991-12-30.150304.FOB.DFC.BK4011.Buick.Noel.t-flac1648"
   ],
   "best_recording": "gd1991-12-30.sbd.miller.32574.sbeok.flac16",
-  "avg_rating": 2.276694915254237,
+  "avg_rating": 2.5403061224489796,
   "raw_rating": 3.2857142857142856,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 6,
   "total_low_ratings": 4,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 5
+    "UNKNOWN": 3,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

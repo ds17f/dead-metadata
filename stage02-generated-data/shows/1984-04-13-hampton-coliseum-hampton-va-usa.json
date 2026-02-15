@@ -162,6 +162,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:50:52.343322",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152042/b840413.jpg",
+      "filename": "b840413.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151316/t840413.jpg",
+      "filename": "t840413.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd84-04-13.sbd.miller.27733.sbeok.flacf",
@@ -169,8 +184,6 @@
     "gd84-04-13.fob-eaton.21130.sbeok.shnf",
     "gd1984-04-13.neumann-u87.eaton.miller.90470.sbeok.flac16",
     "gd84-04-13.aud-neumann.pj.1521.sbeok.shnf",
-    "gd1984-04-13.fob.bandrofcheck.34469.sbeok.shnf",
-    "gd1984-04-13.nak300.mccue.casey.ford.123178.sbeok.flac16",
     "gd1984-04-13.155699.fob.neumann.U87.cm.eaton.miller.t.flac16",
     "gd1984-04-13.164369.neumann.u87.eaton.miller.clugston.flac2496",
     "gd1984-04-13.109288.beyer-senn.daweez.D5scott.flac16",
@@ -188,19 +201,21 @@
     "gd1984-04-13.157541.aud.carpenter.flac2448",
     "gd1984-04-13.164044.senn421.blends.vita.miller.clugston.flac1648",
     "gd1984-04-13.164045.senn421.blends.vita.miller.clugston.flac2496",
-    "gd1984-04-13.164368.neumann.u87.eaton.miller.clugston.flac1648"
+    "gd1984-04-13.164368.neumann.u87.eaton.miller.clugston.flac1648",
+    "gd1984-04-13.fob.bandrofcheck.34469.sbeok.shnf",
+    "gd1984-04-13.nak300.mccue.casey.ford.123178.sbeok.flac16"
   ],
   "best_recording": "gd84-04-13.sbd.miller.27733.sbeok.flacf",
-  "avg_rating": 2.6719246662428486,
+  "avg_rating": 2.8310468942821885,
   "raw_rating": 4.190574866310161,
   "recording_count": 25,
   "confidence": 1.0,
   "total_high_ratings": 56,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
+    "SBD": 2,
     "UNKNOWN": 17,
-    "AUD": 1
+    "AUD": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

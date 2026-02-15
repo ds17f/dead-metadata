@@ -162,25 +162,40 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:10:15.283143",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151826/b910926.jpeg",
+      "filename": "b910926.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151003/t910926.jpeg",
+      "filename": "t910926.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1991-09-26.sbd.miller.76050.sbeok.flac16",
     "gd1991-09-26.sbd.miller.95534.sbeok.flac16",
     "gd91-09-26.sbd.fishman.21242.sbeok.shnf",
     "gd1991-09-26.sbd.ashley.1575.sbeok.shnf",
-    "gd1991-09-26.mtx.seamons.95247.sbeok.flac16",
-    "gd1991-09-26.aud.andrewf.84852.sbeok.flac16",
     "gd1991-09-26.149553.sbd.miller.flac2496",
     "gd1991-09-26.149662.sbd.cm.miller.flac16",
-    "gd1991-09-26.bk4011-set2.brennecke.gems.34851.sbeok.flac1648",
-    "gd1991-09-26.bk4011-set2.brennecke.gems.34852.sbeok.flac16",
-    "gd1991-09-26.schoeps.andrewf.84853.sbeok.flac16",
     "gd1991-09-26.138152.dsbd.GEMS.flac16",
     "gd1991-09-26.mtx.haugh.101543.flac16",
+    "gd1991-09-26.mtx.seamons.95247.sbeok.flac16",
     "gd1991-09-26.153422.mtx.photoleon.flac16",
     "gd1991-09-26.dts.mtx.haugh.102067.flac16",
+    "gd1991-09-26.aud.andrewf.84852.sbeok.flac16",
     "gd1991-09-26.sennME80.wklitz.94247.flac16",
+    "gd1991-09-26.bk4011-set2.brennecke.gems.34851.sbeok.flac1648",
+    "gd1991-09-26.bk4011-set2.brennecke.gems.34852.sbeok.flac16",
     "gd1991-09-26.fob.bk4011.brennecke-young.gems.101443.flac16",
+    "gd1991-09-26.schoeps.andrewf.84853.sbeok.flac16",
     "gd1991-09-26.AKG451.Currier.Keo.124758.Flac2496",
     "gd1991-09-26.139874.aud.liff.lamarre.berger.flac1648",
     "gd1991-09-26.148585.dak.boedicker.flac1644",
@@ -192,17 +207,17 @@
     "gd1991-09-26.Nak300CP4.JB.Keo.121759.Flac1644"
   ],
   "best_recording": "gd1991-09-26.sbd.miller.76050.sbeok.flac16",
-  "avg_rating": 3.775199304440879,
+  "avg_rating": 3.862537042214146,
   "raw_rating": 4.42233560090703,
   "recording_count": 26,
   "confidence": 1.0,
   "total_high_ratings": 55,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 12,
-    "MATRIX": 3,
-    "UNKNOWN": 10,
-    "AUD": 1
+    "SBD": 7,
+    "MATRIX": 4,
+    "AUD": 3,
+    "UNKNOWN": 12
   },
   "matching_method": "date_only",
   "filtering_applied": []

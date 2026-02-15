@@ -157,6 +157,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:18:09.112229",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/10/12151733/b941003.jpeg",
+      "filename": "b941003.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/10/12150839/t941003.jpeg",
+      "filename": "t941003.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1994-10-03.136890.sbd.miller.flac",
@@ -170,20 +185,17 @@
     "gd1994-10-03.aud.unknown.2520.shnf"
   ],
   "best_recording": "gd1994-10-03.136890.sbd.miller.flac",
-  "avg_rating": 2.487610619469027,
+  "avg_rating": 2.6705128205128212,
   "raw_rating": 4.153846153846154,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 22,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 2,
-    "UNKNOWN": 6,
-    "AUD": 1
+    "SBD": 1,
+    "UNKNOWN": 5,
+    "AUD": 3
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "enjoying-the-ride"
-  ]
+  "filtering_applied": []
 }

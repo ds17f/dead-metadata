@@ -172,16 +172,31 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:04:51.212134",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151909/b891019.jpeg",
+      "filename": "b891019.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151056/t891019.jpeg",
+      "filename": "t891019.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1989-10-19.sbd.walker-scotton.miller.83305.sbeok.flac16",
     "gd89-10-19.dsbd.eD.7640.sbeok.shnf",
     "gd1989-10-19.sbd.eD.tetzeli.fix-7640.34571.shnf",
-    "gd1989-10-19.120498.mk21.sbeok.flac16",
     "gd1989-10-19.147729.UltraMatrix.sbd.cm.miller.flac16",
     "gd1989-10-19.147722.ultramatrix.sbd.miller.flac24",
     "gd1989-10-19.mtx.hansokolow.96967.flac16",
     "gd89-10-19.nak.rob_r.7595.sbefail.shnf",
+    "gd1989-10-19.120498.mk21.sbeok.flac16",
     "gd1989-10-19.fob.sennme80.wklitz.101809.flac16",
     "gd1989-10-19.099977",
     "gd1989-10-19.120497.mk21.48khz.flac16",
@@ -193,16 +208,17 @@
     "gd1989-10-19.sennME80.wklitz.94274.flac16"
   ],
   "best_recording": "gd1989-10-19.sbd.walker-scotton.miller.83305.sbeok.flac16",
-  "avg_rating": 2.7278074866310162,
+  "avg_rating": 2.734408602150537,
   "raw_rating": 4.33806146572104,
   "recording_count": 17,
   "confidence": 1.0,
   "total_high_ratings": 39,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 6,
+    "SBD": 5,
     "MATRIX": 1,
-    "UNKNOWN": 10
+    "UNKNOWN": 10,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

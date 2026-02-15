@@ -172,13 +172,23 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:43:58.522027",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151420/t810501.jpg",
+      "filename": "t810501.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1981-05-01.sbd.hinko.29087.sbeok.flacf",
     "gd1981-05-01.sbd.miller.107437.flac16",
-    "gd81-05-01.wise.clugston.2218.sbeok.shnf",
     "gd1981-05-01.163740.sbd.zavislak.miller.clugston.flac1648",
     "gd1981-05-01.mtx.seamons.107749.flac16",
+    "gd81-05-01.wise.clugston.2218.sbeok.shnf",
     "gd1981-05-01.fob.wagner.motb-0074.92415.flac16",
     "gd1981-05-01.fob.wagner.motb-0074.92416.flac24",
     "gd1981-05-01.142845.fob.senn421.wise.miller.clugston.flac2496",
@@ -196,22 +206,18 @@
     "gd1981-05-01.fob.senn421.wise.remaster.99233.flac16"
   ],
   "best_recording": "gd1981-05-01.sbd.hinko.29087.sbeok.flacf",
-  "avg_rating": 3.0379732458354365,
+  "avg_rating": 3.2049710424710436,
   "raw_rating": 4.754796918767506,
   "recording_count": 20,
   "confidence": 1.0,
   "total_high_ratings": 65,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 10,
-    "AUD": 4,
-    "REMASTER": 1
+    "UNKNOWN": 3,
+    "AUD": 13
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "enjoying-the-ride"
-  ]
+  "filtering_applied": []
 }

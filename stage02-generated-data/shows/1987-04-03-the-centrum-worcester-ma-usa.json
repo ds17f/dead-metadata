@@ -162,15 +162,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:57:30.787745",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/04/12151957/b870403.jpeg",
+      "filename": "b870403.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/04/12151204/t870403.jpeg",
+      "filename": "t870403.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd87-04-03.sennme80.clark-miller.24898.sbeok.shnf",
-    "gd1987-04-03.fob.nak700.rolfe.miller.99165.sbeok.flac16",
     "gd1987-04-03.sbd.miller.95720.sbeok.flac16",
     "gd1987-04-03.140335.UltraMatrix.sbd.cm.miller.flac1644",
+    "gd1987-04-03.140292.sbd.miller.flac2496",
+    "gd87-04-03.sennme80.clark-miller.24898.sbeok.shnf",
+    "gd1987-04-03.fob.nak700.rolfe.miller.99165.sbeok.flac16",
     "gd1987-04-03.nak300.damico.89432.sbeok.flac16",
     "gd87-04-03.set2.senn421.eD.11631.sbeok.shnf",
-    "gd1987-04-03.140292.sbd.miller.flac2496",
     "gd1987-04-03.135572.set2.chasingwilma.flac24",
     "gd1987-04-03.141282.at835.akg.d12e.ackerman.miller.clugston.flac1644",
     "gd1987-04-03.141283.at835.akg.d12e.ackerman.miller.clugston.flac2496",
@@ -180,16 +195,17 @@
     "gd1987-04-03.Senn441.Hill.Keo.131429.Flac1644",
     "gd1987-04-03.Senn441.Hill.Keo.131430.Flac2496"
   ],
-  "best_recording": "gd87-04-03.sennme80.clark-miller.24898.sbeok.shnf",
-  "avg_rating": 2.151025163094128,
+  "best_recording": "gd1987-04-03.sbd.miller.95720.sbeok.flac16",
+  "avg_rating": 2.1714123998606754,
   "raw_rating": 4.318266542404474,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 57,
   "total_low_ratings": 5,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 8
+    "SBD": 3,
+    "UNKNOWN": 10,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

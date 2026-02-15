@@ -162,25 +162,40 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:13:03.365131",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/03/12151806/b930322.jpeg",
+      "filename": "b930322.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/03/12150935/t930322.jpeg",
+      "filename": "t930322.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd93-03-22.set1.sbd.miller.28430.sbeok.flacf",
-    "gd93-03-22.akg.gardner.3388.sbeok.shnf",
     "gd1993-03-22.141620.sbd.miller.flac2496",
     "gd1993-03-22.141812.sbd.cm.miller.flac1644",
     "gd1993-03-22.111269.naks.DATBRAD.flac16",
+    "gd93-03-22.akg.gardner.3388.sbeok.shnf",
     "gd1993-03-22.132696.tlm170.deal.petty.flac16"
   ],
   "best_recording": "gd93-03-22.set1.sbd.miller.28430.sbeok.flacf",
-  "avg_rating": 2.859072580645161,
+  "avg_rating": 3.0258487654320985,
   "raw_rating": 4.166666666666667,
   "recording_count": 6,
   "confidence": 1.0,
   "total_high_ratings": 10,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 2
+    "SBD": 3,
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

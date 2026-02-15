@@ -162,15 +162,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:46:42.361184",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151358/t820412.jpg",
+      "filename": "t820412.jpg",
+      "side": "front"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152103/b820411b.jpg",
+      "filename": "b820411b.jpg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1982-04-12.sbd.miller.95638.sbeok.flac16",
-    "gd82-04-12.aud.glyde.9508.sbeok.shnf",
     "gd1982-04-12.sbd.miller.32014.sbeok.flac16",
     "gd1982-04-12.sbd.miller.tetzeli.fix-32014.35160.reflac.flac16",
     "gd1982-04-12.169106.set2.sbd.cm.brightman.miller.flac2496",
     "gd1982-04-12.169153.Nassau.Uniondale.NY.set2.sbd.cm.brightman.miller.t-flac1648",
     "gd1982-04-12.138011.mtx.dusborne.flac16",
+    "gd82-04-12.aud.glyde.9508.sbeok.shnf",
     "gd1982-04-12.nak300.morrone.113824.flac2448",
     "gd1982-04-12.nak300.morrone.113826.flac1644",
     "gd1982-04-12.144614.aud.lamarre.berger.flac2496",
@@ -181,17 +196,17 @@
     "gd1982-04-12.144613.aud.lamarre.berger.flac1644"
   ],
   "best_recording": "gd1982-04-12.sbd.miller.95638.sbeok.flac16",
-  "avg_rating": 3.3065558267236117,
+  "avg_rating": 3.323055739880558,
   "raw_rating": 4.233621933621933,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 26,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 6,
+    "SBD": 5,
     "MATRIX": 1,
-    "UNKNOWN": 4,
-    "AUD": 4
+    "AUD": 7,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

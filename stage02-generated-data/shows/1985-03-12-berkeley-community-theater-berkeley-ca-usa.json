@@ -147,25 +147,39 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:53:04.675206",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152029/b850312.jpg",
+      "filename": "b850312.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151253/t850312.jpg",
+      "filename": "t850312.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd85-03-12.senn421.barbella.10256.sbeok.shnf",
-    "gd1985-03-12.senn.andrewf.26433.sbeok.shnf",
     "gd1985-03-12.senn441-pa-deli-mike.mrchips.83444.flac16",
     "gd1985-03-12.nak300.holtz.JAZ.96701.flac16",
+    "gd85-03-12.senn421.barbella.10256.sbeok.shnf",
     "gd1985-03-12.nak700.yamaguchi.minches.96439.flac16",
+    "gd1985-03-12.senn.andrewf.26433.sbeok.shnf",
     "gd1985-03-12.senn421.mccue.ford.84323.flac16"
   ],
-  "best_recording": "gd85-03-12.senn421.barbella.10256.sbeok.shnf",
-  "avg_rating": 1.0687499999999999,
+  "best_recording": "gd1985-03-12.senn441-pa-deli-mike.mrchips.83444.flac16",
+  "avg_rating": 1.1229166666666668,
   "raw_rating": 3.041666666666667,
   "recording_count": 6,
   "confidence": 0.8,
   "total_high_ratings": 3,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 2,
-    "UNKNOWN": 4
+    "UNKNOWN": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

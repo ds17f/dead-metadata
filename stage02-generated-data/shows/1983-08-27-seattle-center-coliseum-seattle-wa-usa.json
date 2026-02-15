@@ -147,12 +147,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:49:33.946900",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152050/b830827.jpg",
+      "filename": "b830827.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151328/t830827.jpg",
+      "filename": "t830827.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd83-08-27.aud.hinko.16439.sbeok.shnf",
-    "gd83-08-27.sennheiser.dodd.12359.sbeok.shnf",
     "gd1983-08-27.aud.keith.92307.sbeok.flac16",
     "gd1983-08-27.aud.herbst.31635.flac16",
+    "gd83-08-27.sennheiser.dodd.12359.sbeok.shnf",
     "gd1983-08-27.142902.beyerm201.holbrook.flac1644",
     "gd1983-08-27.111818.Sennheiser421.daweez.d5scott.flac16",
     "gd1983-08-27.142903.beyerm201.holbrook.flac2448",
@@ -162,16 +177,15 @@
     "gd1983-08-27.163471.set2.senn421.vita.miller.clugston.flac2496"
   ],
   "best_recording": "gd83-08-27.aud.hinko.16439.sbeok.shnf",
-  "avg_rating": 2.5286013071895423,
+  "avg_rating": 2.5034494195688226,
   "raw_rating": 4.086021505376344,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 25,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 3,
-    "AUD": 1,
-    "UNKNOWN": 7
+    "AUD": 5,
+    "UNKNOWN": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -167,13 +167,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:18:17.609861",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/10/12151732/b941009.jpeg",
+      "filename": "b941009.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/10/12150837/t941009.jpeg",
+      "filename": "t941009.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1994-10-09.sbd.miller.34562.sbeok.flac16",
     "gd94-10-09.sbd.braverman.17357.sbeok.shnf",
-    "gd94-10-09.akg.nawrocki.2619.sbeok.shnf",
     "gd1994-10-09.nak300.bleich.GEMS.93876.flac16",
     "gd1994-10-09.151257.me88.greenberg.miller.flac2448",
+    "gd94-10-09.akg.nawrocki.2619.sbeok.shnf",
     "gd1994-10-09.111984.akg.datbrad.flac16",
     "gd1994-10-09.132783.at835b.cdipietro.flac",
     "gd1994-10-09.143134.nak300-cp4.Boedicker.flac1644",
@@ -181,15 +196,15 @@
     "gd1994-10-09.152158.senn.me88.cm.greenberg.miller.t.flac16"
   ],
   "best_recording": "gd1994-10-09.sbd.miller.34562.sbeok.flac16",
-  "avg_rating": 3.2818877551020407,
+  "avg_rating": 3.408967391304348,
   "raw_rating": 3.9722222222222228,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 15,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 7
+    "SBD": 2,
+    "UNKNOWN": 8
   },
   "matching_method": "date_only",
   "filtering_applied": []

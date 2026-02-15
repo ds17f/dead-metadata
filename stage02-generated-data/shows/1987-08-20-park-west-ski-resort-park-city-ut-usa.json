@@ -177,19 +177,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:58:54.704009",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/08/12151948/b870820.jpeg",
+      "filename": "b870820.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/08/12151148/t870820.jpeg",
+      "filename": "t870820.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1987-08-20.151082.fm.hessberg.miller.clugston.flac2496",
     "gd1987-08-20.151080.fm.hessberg.miller.clugston.flac1648",
-    "gd87-08-20.aud.ladner.8373.sbeok.shnf",
     "gd1987-08-20.140126.sbd.miller.flac2496",
     "gd1987-08-20.140236.UltraMatrix.sbd.cm.miller.flac1644",
+    "gd87-08-20.aud.ladner.8373.sbeok.shnf",
     "gd1987-08-20.unk.mjallen.106078.flac16",
     "gd1987-08-20.138285.FOB.Schoeps.Ammons.t-flac16",
     "gd1987-08-20.142156.fob.schoeps.cmc3.mk41.oade.jacobs.miller.clugston.flac1644"
   ],
   "best_recording": "gd1987-08-20.151082.fm.hessberg.miller.clugston.flac2496",
-  "avg_rating": 2.5531400966183577,
+  "avg_rating": 2.562146892655367,
   "raw_rating": 3.9428571428571435,
   "recording_count": 8,
   "confidence": 1.0,
@@ -197,8 +212,9 @@
   "total_low_ratings": 2,
   "source_types": {
     "FM": 2,
-    "SBD": 3,
-    "UNKNOWN": 3
+    "SBD": 2,
+    "AUD": 3,
+    "UNKNOWN": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

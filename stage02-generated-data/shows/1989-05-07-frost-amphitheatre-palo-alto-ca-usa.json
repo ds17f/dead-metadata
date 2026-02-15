@@ -157,6 +157,37 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:03:40.764232",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/05/12151918/b890507.jpeg",
+      "filename": "b890507.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/05/12151106/t890507.jpeg",
+      "filename": "t890507.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/11/12145955/GD_1989_05_07_Robbi_Cohn-Small2.jpg",
+      "filename": "GD_1989_05_07_Robbi_Cohn-Small2.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/11/12145955/GD_1989_05_07_Robbi_Cohn-Small2-360x360.jpg"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/11/12145956/GD_1989_05_07_Robbi_Cohn-Small.jpg",
+      "filename": "GD_1989_05_07_Robbi_Cohn-Small.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/11/12145956/GD_1989_05_07_Robbi_Cohn-Small-360x360.jpg"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/11/12145955/GD_1989_05_07_Robbi_Cohn2-Small-.jpg",
+      "filename": "GD_1989_05_07_Robbi_Cohn2-Small-.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/11/12145955/GD_1989_05_07_Robbi_Cohn2-Small--360x360.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd89-05-07.sbd.gardner.3329.sbefail.shnf",
@@ -179,7 +210,8 @@
   "total_low_ratings": 2,
   "source_types": {
     "SBD": 6,
-    "UNKNOWN": 4
+    "UNKNOWN": 3,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

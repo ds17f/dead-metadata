@@ -157,29 +157,45 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:49:52.351270",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152048/b830908.jpg",
+      "filename": "b830908.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151325/t830908.jpg",
+      "filename": "t830908.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd83-09-08.sennheiser.dodd.12482.sbeok.shnf",
     "gd83-09-08.set2.sbd.lemieux-kaplan.20536.sbeok.shnf",
     "gd1983-09-08.set1-aud.set2-sbd.84856.flac",
-    "gd1983-09-08.aud.morris.111035.sbeok.flac24",
-    "gd1983-09-08.nak300.morris.102053.sbeok.flac16",
+    "gd83-09-08.sennheiser.dodd.12482.sbeok.shnf",
     "gd1983-09-08.nak700.wagner.miller.113684.flac16",
     "gd1983-09-08.nakcm304.mikeg-suraci.79047.flac16",
     "gd1983-09-08.111728.Sennheiser421.daweez.d5scott.flac16",
     "gd1983-09-08.143056.beyerm201.holbrook.flac1644",
-    "gd1983-09-08.143057.beyerm201.holbrook.flac2448"
+    "gd1983-09-08.143057.beyerm201.holbrook.flac2448",
+    "gd1983-09-08.aud.morris.111035.sbeok.flac24",
+    "gd1983-09-08.nak300.morris.102053.sbeok.flac16"
   ],
-  "best_recording": "gd83-09-08.sennheiser.dodd.12482.sbeok.shnf",
-  "avg_rating": 2.3197698036560603,
+  "best_recording": "gd83-09-08.set2.sbd.lemieux-kaplan.20536.sbeok.shnf",
+  "avg_rating": 2.333301797540208,
   "raw_rating": 4.384126984126984,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 21,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
-    "UNKNOWN": 5
+    "SBD": 2,
+    "UNKNOWN": 7,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

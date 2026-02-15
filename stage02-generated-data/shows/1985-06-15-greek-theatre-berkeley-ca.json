@@ -167,22 +167,35 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:53:48.565665",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152025/b850615.jpg",
+      "filename": "b850615.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151245/t850615.jpg",
+      "filename": "t850615.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1985-06-15.sbd.walker-scotton.miller.96317.sbeok.flac16",
     "gd85-06-15.sbd.griesman.5682.sbeok.shnf",
     "gd85-06-15.set2.sbd.gans-samaritano.28449.sbeok.flacf",
-    "gd85-06-15.oade-schoeps.sacks.24586.sbeok.flacf",
     "gd1985-06-15.sbd.etter.20878.sbeok.shnf",
-    "gd1985-06-15.matrix.chappell.85832.sbeok.flac16",
     "gd1985-06-15.140073.set2.sbd.pcm.gans.miller.clugston.flac1644",
     "gd1985-06-15.152254.sbd.miller.flac2496",
     "gd1985-06-15.152520.sbd.cm.miller.t.flac16",
     "gd1985-06-15.171296.set2.sbd.gans.miller.clugston.fixed.flac1644",
     "gd1985-06-15.sbd.griesman.tetzeli.fix-5682.34302.sbeok.shnf",
-    "gd1985-06-15.senn441.mccue.ford.33338.sbeok.flac16",
-    "gd85-06-15.oade.sacks.7086.sbeok.shnf",
+    "gd1985-06-15.matrix.chappell.85832.sbeok.flac16",
     "gd1985-06-15.154458.mtx.tobin.flac16",
+    "gd85-06-15.oade-schoeps.sacks.24586.sbeok.flacf",
     "gd1985-06-15.nak700.anon-severson-poris.lmpp.97497.flac16",
     "gd1985-06-15.nak300.andrewf.97125.flac16",
     "gd1985-06-15.148770.nak700.severson.miller.clugston.flac1648",
@@ -198,19 +211,21 @@
     "gd1985-06-15.158881.Nak100.pasternak.vernon.flac2448",
     "gd1985-06-15.166992.neumann.km84i.hecht.miller.clugston.flac1648",
     "gd1985-06-15.166993.neumann.km84i.hecht.miller.clugston.flac2496",
-    "gd1985-06-15.nak300.andrewf.97124.flac24"
+    "gd1985-06-15.nak300.andrewf.97124.flac24",
+    "gd1985-06-15.senn441.mccue.ford.33338.sbeok.flac16",
+    "gd85-06-15.oade.sacks.7086.sbeok.shnf"
   ],
   "best_recording": "gd1985-06-15.sbd.walker-scotton.miller.96317.sbeok.flac16",
-  "avg_rating": 3.9260647359454857,
+  "avg_rating": 4.044587155963303,
   "raw_rating": 4.5,
   "recording_count": 30,
   "confidence": 1.0,
   "total_high_ratings": 58,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 13,
-    "MATRIX": 1,
-    "UNKNOWN": 16
+    "SBD": 9,
+    "MATRIX": 2,
+    "UNKNOWN": 19
   },
   "matching_method": "date_only",
   "filtering_applied": []

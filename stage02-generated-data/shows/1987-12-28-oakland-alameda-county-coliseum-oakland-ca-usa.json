@@ -162,29 +162,44 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:59:50.693786",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/12/12151943/b871228.jpeg",
+      "filename": "b871228.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/12/12151140/t871228.jpeg",
+      "filename": "t871228.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1987-12-28.sbd.walker-scotton.miller.85593.sbeok.flac16",
-    "gd87-12-28.schoeps.ewing.16585.sbeok.shnf",
     "gd87-12-28.sbd-audpatch.braverman.16910.sbeok.shnf",
     "gd87-12-28.sbd.samaritano.17280.sbeok.shnf",
     "gd1987-12-28.163798.ultramatrix.walker.scotton.miller.clugston.flac1648",
     "gd1987-12-28.163799.ultramatrix.walker.scotton.miller.clugston.flac2496",
+    "gd87-12-28.schoeps.ewing.16585.sbeok.shnf",
     "gd1987-12-28.135155.bltz.flac2496",
     "gd1987-12-28.168488.ec7.ont.flac1644",
     "gd1987-12-28.nak300.gidley.120467.flac2448"
   ],
   "best_recording": "gd1987-12-28.sbd.walker-scotton.miller.85593.sbeok.flac16",
-  "avg_rating": 1.839344262295082,
+  "avg_rating": 1.8800000000000003,
   "raw_rating": 3.357142857142857,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 6,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 2,
-    "UNKNOWN": 3
+    "UNKNOWN": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

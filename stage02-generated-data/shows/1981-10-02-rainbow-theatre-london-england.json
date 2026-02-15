@@ -167,30 +167,42 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:45:18.292040",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151411/t811002.jpg",
+      "filename": "t811002.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd81-10-02.sbd.popi.6147.sbeok.shnf",
     "gd1981-10-02.sbd.128794.MrBill.flac16",
-    "gd1981-10-02.aud.set2.richs.120454.sbeok.flac16",
-    "gd1981-10-02.aud.unknown.sirmick.80289.sbeok.flac16",
-    "gd1981-10-02.138169.SonyECM-99.williams.sirmick.sbeok.flac16",
-    "gd1981-10-02.138170.SonyECM-99.williams.sirmick.sbeok.flac2496",
-    "gd1981-10-02.138171.SonyECM-99.williams.sirmick.sbeok.flac24-176.4",
     "gd1981-10-02.151193.sbd.hance.sirmick.flac16",
     "gd1981-10-02.151194.sbd.hance.sirmick.flac24",
     "gd1981-10-02.151207.set2.sbd.miller-eaton.flac1648",
     "gd1981-10-02.151770.sbd.hance.sirmick.flac16",
-    "gd1981-10-02.151771.sbd.hance.sirmick.flac24"
+    "gd1981-10-02.151771.sbd.hance.sirmick.flac24",
+    "gd1981-10-02.aud.set2.richs.120454.sbeok.flac16",
+    "gd1981-10-02.aud.unknown.sirmick.80289.sbeok.flac16",
+    "gd1981-10-02.138169.SonyECM-99.williams.sirmick.sbeok.flac16",
+    "gd1981-10-02.138170.SonyECM-99.williams.sirmick.sbeok.flac2496",
+    "gd1981-10-02.138171.SonyECM-99.williams.sirmick.sbeok.flac24-176.4"
   ],
   "best_recording": "gd81-10-02.sbd.popi.6147.sbeok.shnf",
-  "avg_rating": 3.300392156862745,
+  "avg_rating": 3.349530201342282,
   "raw_rating": 3.6568627450980395,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 9,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 12
+    "SBD": 7,
+    "AUD": 2,
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

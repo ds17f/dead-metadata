@@ -157,14 +157,24 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:39:22.305815",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151451/t791102.jpg",
+      "filename": "t791102.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd79-11-02.sbd.macdonald.7920.sbeok.shnf",
     "gd1979-11-02.142393.sbd.miller.flac1648",
     "gd1979-11-02.sbd.unknown.4672.shnf",
-    "gd79-11-02.aud.schlissel.12761.sbeok.shnf",
     "gd1979-11-02.mtx.seamons.124392.flac16",
     "gd1979-11-02.152533.mtx.photoleon.flac1644",
+    "gd79-11-02.aud.schlissel.12761.sbeok.shnf",
     "gd1979-11-02.fob.nak700.glassberg.MOTB-0077.94220.flac16",
     "gd1979-11-02.fob.nak700.glassberg.MOTB-0077.94221.flac24",
     "gd1979-11-02.154424.nak100.eaton.miller.flac.24",
@@ -173,17 +183,17 @@
     "gd1979-11-02.sonyECM.moskal.mandel.96553.flac16"
   ],
   "best_recording": "gd79-11-02.sbd.macdonald.7920.sbeok.shnf",
-  "avg_rating": 3.9122379603399438,
+  "avg_rating": 3.9008498583569406,
   "raw_rating": 4.369918699186992,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 33,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 2,
-    "UNKNOWN": 5,
-    "AUD": 1
+    "AUD": 5,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

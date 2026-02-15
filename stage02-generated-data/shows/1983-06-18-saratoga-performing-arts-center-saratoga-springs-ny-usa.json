@@ -167,13 +167,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:49:08.466135",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152052/b830618.jpg",
+      "filename": "b830618.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151332/t830618.jpg",
+      "filename": "t830618.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd83-06-18.aud.gardner.4605.sbeok.shnf",
-    "gd83-06-18.set2.aud-silberman.miller.21741.sbeok.shnf",
-    "gd83-06-18.senn421.nawrocki.14411.sbeok.shnf",
     "gd1983-06-18.set2.senn441.silberman.miller.103293.flac16",
+    "gd83-06-18.set2.aud-silberman.miller.21741.sbeok.shnf",
     "gd1983-06-18.beyer.huston.miller.105236.flac16",
+    "gd83-06-18.senn421.nawrocki.14411.sbeok.shnf",
     "gd1983-06-18.senn421.wise.miller.103285.flac16",
     "gd1983-06-18.beyer-m88.morrone.119438.flac1644",
     "gd1983-06-18.Senn441.PCM.Keo.124473.Flac1644",
@@ -189,16 +204,15 @@
     "gd1983-06-18.Senn441.PCM.Keo.124469.Flac2496"
   ],
   "best_recording": "gd83-06-18.aud.gardner.4605.sbeok.shnf",
-  "avg_rating": 2.2738218235770162,
-  "raw_rating": 4.408797832337978,
+  "avg_rating": 2.2564483409188156,
+  "raw_rating": 4.408797832337979,
   "recording_count": 18,
   "confidence": 1.0,
   "total_high_ratings": 115,
   "total_low_ratings": 7,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 13,
-    "AUD": 2
+    "AUD": 4,
+    "UNKNOWN": 14
   },
   "matching_method": "date_only",
   "filtering_applied": []

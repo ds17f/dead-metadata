@@ -162,23 +162,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:38:58.440466",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151456/t790831.jpg",
+      "filename": "t790831.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1979-08-31.sbd.miller.92924.sbeok.flac16",
-    "gd79-08-31.nak.glyde.9973.sbeok.shnf",
     "gd1979-08-31.135775.mtx.dusborne.flac16",
+    "gd79-08-31.nak.glyde.9973.sbeok.shnf",
     "gd1979-08-31.partial.aud.stankiewicz.129030.flac1644"
   ],
   "best_recording": "gd1979-08-31.sbd.miller.92924.sbeok.flac16",
-  "avg_rating": 2.611451612903226,
+  "avg_rating": 2.9382,
   "raw_rating": 3.357142857142857,
   "recording_count": 4,
   "confidence": 1.0,
   "total_high_ratings": 6,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 2,
+    "SBD": 1,
     "MATRIX": 1,
+    "UNKNOWN": 1,
     "AUD": 1
   },
   "matching_method": "date_only",

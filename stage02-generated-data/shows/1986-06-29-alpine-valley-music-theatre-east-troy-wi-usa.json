@@ -157,11 +157,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:56:32.750892",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151212/t860629.jpg",
+      "filename": "t860629.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd86-06-29.aud.eD.12969.sbeok.shnf",
     "gd1986-06-29.138165.sbd.miller.sbeok.flac16",
     "gd1986-06-29.138161.sbd.miller.flac24",
+    "gd86-06-29.aud.eD.12969.sbeok.shnf",
     "gd1986-06-29.nak100.cohen.104996.flac16",
     "gd1986-06-29.140313.fob.schoeps.cmc4.mk41.oade.wise.miller.clugston.flac1644",
     "gd1986-06-29.144610.FOB.AT-AKG-Blend.Ackerman.Noel.t-flac2496",
@@ -170,16 +180,17 @@
     "gd1986-06-29.beyerM88.connor.76557.flac16",
     "gd1986-06-29.set2.sennME88.andrewf.96558.flac16"
   ],
-  "best_recording": "gd86-06-29.aud.eD.12969.sbeok.shnf",
-  "avg_rating": 1.9394021739130431,
+  "best_recording": "gd1986-06-29.138165.sbd.miller.sbeok.flac16",
+  "avg_rating": 1.792110655737705,
   "raw_rating": 2.875,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 7,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 7
+    "SBD": 2,
+    "AUD": 3,
+    "UNKNOWN": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

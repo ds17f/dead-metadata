@@ -157,11 +157,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:11:01.351768",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/03/12150954/t920313.jpeg",
+      "filename": "t920313.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd92-03-13.nak700.gardner.9477.sbeok.shnf",
     "gd1992-03-13.141721.sbd.cm.miller.flac1644",
     "gd1992-03-13.141618.sbd.miller.flac2496",
+    "gd92-03-13.nak700.gardner.9477.sbeok.shnf",
     "gd1992-03-13.134996.bltz.flac2496",
     "gd1992-03-13.137748.aud.lamarre.berger.flac16",
     "gd1992-03-13.137749.aud.lamarre.berger.flac24",
@@ -169,17 +179,17 @@
     "gd1992-03-13.148351.fob.BK4011.ebel.flac16",
     "gd1992-03-13.155831.FOBSchoepsMasterDAT.BrotmanMetchickAnonNoel.t-flac1648"
   ],
-  "best_recording": "gd92-03-13.nak700.gardner.9477.sbeok.shnf",
-  "avg_rating": 1.4043893129770992,
+  "best_recording": "gd1992-03-13.141721.sbd.cm.miller.flac1644",
+  "avg_rating": 1.42373417721519,
   "raw_rating": 2.716666666666667,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 3,
   "total_low_ratings": 6,
   "source_types": {
-    "SBD": 3,
+    "SBD": 2,
     "UNKNOWN": 4,
-    "AUD": 2
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

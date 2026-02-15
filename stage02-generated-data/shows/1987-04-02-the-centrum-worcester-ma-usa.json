@@ -172,15 +172,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:57:28.637962",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2023/09/08183716/Screen-Shot-2023-09-08-at-2.36.20-PM.png",
+      "filename": "Screen-Shot-2023-09-08-at-2.36.20-PM.png",
+      "side": "unknown"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/04/12151958/b870402.jpeg",
+      "filename": "b870402.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/04/12151204/t870402.jpeg",
+      "filename": "t870402.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd87-04-02.aud.eD.11804.sbeok.shnf",
     "gd1987-04-02.sbd-mtx.miller.82310.sbeok.flac16",
-    "gd1987-04-02.fob.nak700.rolfe.miller.99141.sbeok.flac16",
     "gd1987-04-02.140333.UltraMatrix.sbd.cm.miller.flac1644",
     "gd1987-04-02.140289.sbd.miller.flac2496",
-    "gd1987-04-02.nak300.damico.89395.sbeok.flac16",
+    "gd87-04-02.aud.eD.11804.sbeok.shnf",
     "gd1987-04-02.141969.set2.fob.oade.cmc4.mk41.jacobs.miller.clugston.flac1644",
+    "gd1987-04-02.fob.nak700.rolfe.miller.99141.sbeok.flac16",
     "gd1987-04-02.140525.nak300.barfield.lane.flac2496",
     "gd1987-04-02.140668.nak300.barfield.lane.flac1644",
     "gd1987-04-02.141280.at835.akg.d12e.ackerman.miller.clugston.flac1644",
@@ -189,19 +208,20 @@
     "gd1987-04-02.167354.senn441.lamarre.miller.clugston.flac2496",
     "gd1987-04-02.Senn441.Hill.Keo.131411.Flac2496",
     "gd1987-04-02.Senn441.Hill.Keo.131412.Flac1644",
-    "gd1987-04-02.aud.morris.106902.flac16"
+    "gd1987-04-02.aud.morris.106902.flac16",
+    "gd1987-04-02.nak300.damico.89395.sbeok.flac16"
   ],
-  "best_recording": "gd87-04-02.aud.eD.11804.sbeok.shnf",
-  "avg_rating": 2.563914027149321,
+  "best_recording": "gd1987-04-02.sbd-mtx.miller.82310.sbeok.flac16",
+  "avg_rating": 2.4636243386243386,
   "raw_rating": 4.14,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 17,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 6,
-    "UNKNOWN": 9,
-    "AUD": 1
+    "SBD": 3,
+    "AUD": 4,
+    "UNKNOWN": 9
   },
   "matching_method": "date_only",
   "filtering_applied": []

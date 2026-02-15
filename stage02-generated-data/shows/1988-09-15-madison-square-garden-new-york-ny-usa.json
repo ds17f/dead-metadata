@@ -152,32 +152,48 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:01:59.296501",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/09/12151928/b880915.jpeg",
+      "filename": "b880915.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/09/12151121/t880915.jpeg",
+      "filename": "t880915.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd88-09-15.sbd.barbella.5068.sbeok.shnf",
-    "gd1988-09-15.nak300.andrewf.88535.sbeok.flac16",
     "gd1988-09-15.164213.UltraMatrix.sbd.cm.miller.t.flac1644",
-    "gd1988-09-15.nak300.damico.90744.sbeok.flac16",
     "gd1988-09-15.163871.ultramatrix.miller.flac2496",
     "gd1988-09-15.132909.mtx.tobin.flac16",
     "gd1988-09-15.163882.ultramatrix.miller.fixed.flac2496",
     "gd1988-09-15.fob.senn421.mccue-zaleski.ford.103230.flac16",
+    "gd1988-09-15.nak300.andrewf.88535.sbeok.flac16",
     "gd1988-09-15.125772.AT835.flac16",
     "gd1988-09-15.132910.dts.tobin.flac16",
     "gd1988-09-15.139644.OTS.Schoeps.Oade.Bryant.Gastwirt.Miller.Noel.t-flac16",
-    "gd1988-09-15.143842.sennme-80.porter.carbonetta.sirmick.flac1644"
+    "gd1988-09-15.143842.sennme-80.porter.carbonetta.sirmick.flac1644",
+    "gd1988-09-15.nak300.damico.90744.sbeok.flac16"
   ],
   "best_recording": "gd88-09-15.sbd.barbella.5068.sbeok.shnf",
-  "avg_rating": 3.073076923076923,
+  "avg_rating": 3.1012987012987017,
   "raw_rating": 3.5092592592592595,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 10,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 4,
+    "SBD": 2,
     "MATRIX": 3,
-    "UNKNOWN": 5
+    "AUD": 1,
+    "UNKNOWN": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

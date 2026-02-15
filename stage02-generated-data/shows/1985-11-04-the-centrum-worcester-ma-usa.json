@@ -162,16 +162,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:54:56.186828",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152014/b851104.jpg",
+      "filename": "b851104.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151230/t851104.jpg",
+      "filename": "t851104.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-11-04.sbd.braverman.7801.sbeok.shnf",
     "gd1985-11-04.sbd.fix-shnid-7801.tetzeli.83072.flac16",
     "gd1985-11-04.150099.sbd.anon.gems.flac1644",
-    "gd1985-11-04.nak-beyer.tonys.79656.sbeok.flac16",
-    "gd1985-11-04.senn421s.nak300s.alexander.77298.sbeok.flac16",
-    "gd1985-11-04.set2.beyerM88.connor.77167.sbeok.flac16",
     "gd85-11-04.aud.unger.11880.sbefail.shnf",
     "gd1985-11-04.nak300.morris.106580.flac16",
+    "gd1985-11-04.nak-beyer.tonys.79656.sbeok.flac16",
     "gd1985-11-04.132765.schoeps-oade.BCE.flac16",
     "gd1985-11-04.148634.senn.me80.hessberg.miller.clugston.flac1648",
     "gd1985-11-04.126360.chasingwilma.flac24",
@@ -181,19 +194,21 @@
     "gd1985-11-04.172445.nak701.blend.barnum.miller.clugston.flac1648",
     "gd1985-11-04.172446.nak701.blend.barnum.miller.clugston.flac2496",
     "gd1985-11-04.nak300.morris.114674.flac24",
-    "gd1985-11-04.senn421s.nak300s.alexander.77835.flac24"
+    "gd1985-11-04.senn421s.nak300s.alexander.77298.sbeok.flac16",
+    "gd1985-11-04.senn421s.nak300s.alexander.77835.flac24",
+    "gd1985-11-04.set2.beyerM88.connor.77167.sbeok.flac16"
   ],
   "best_recording": "gd85-11-04.sbd.braverman.7801.sbeok.shnf",
-  "avg_rating": 3.2364806866952787,
+  "avg_rating": 3.301777777777777,
   "raw_rating": 4.0,
   "recording_count": 18,
   "confidence": 1.0,
   "total_high_ratings": 22,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 6,
+    "SBD": 3,
     "AUD": 1,
-    "UNKNOWN": 11
+    "UNKNOWN": 14
   },
   "matching_method": "date_only",
   "filtering_applied": []

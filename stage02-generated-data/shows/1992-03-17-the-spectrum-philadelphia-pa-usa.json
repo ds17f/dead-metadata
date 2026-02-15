@@ -147,12 +147,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:11:07.315436",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/03/12151821/b920317.jpeg",
+      "filename": "b920317.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/03/12150954/t920317.jpeg",
+      "filename": "t920317.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd92-03-17.nak300-horvath.dodd.16052.sbeok.shnf",
     "gd1992-03-17.140827.sbd.miller.flac2496",
     "gd1992-03-17.140843.sbd.cm.miller.flac1644",
     "gd1992-03-17.155640.mtx.tobin.flac16",
+    "gd92-03-17.nak300-horvath.dodd.16052.sbeok.shnf",
     "gd1992-03-17.Nak300CP4.Baker.Keo.126960.Flac2496",
     "gd1992-03-17.155642.5-1.tobin.flac1648",
     "gd1992-03-17.139654.fob.akg.414.wise.miller.clugston.flac1648",
@@ -163,18 +178,18 @@
     "gd1992-03-17.155833.FOBSchoepsMasterDAT.BrotmanMetchickAnonNoel.t-flac1648",
     "gd1992-03-17.Nak300CP4.Baker.Keo.126961.flac16"
   ],
-  "best_recording": "gd92-03-17.nak300-horvath.dodd.16052.sbeok.shnf",
-  "avg_rating": 1.05,
+  "best_recording": "gd1992-03-17.140827.sbd.miller.flac2496",
+  "avg_rating": 1.0833333333333333,
   "raw_rating": 2.5,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 3,
   "total_low_ratings": 9,
   "source_types": {
-    "SBD": 3,
+    "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 8,
-    "AUD": 1
+    "UNKNOWN": 7,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

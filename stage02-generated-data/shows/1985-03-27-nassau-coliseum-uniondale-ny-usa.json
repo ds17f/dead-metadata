@@ -147,19 +147,33 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:53:16.589999",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152028/b850327.jpg",
+      "filename": "b850327.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151251/t850327.jpg",
+      "filename": "t850327.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-03-27.sbd.ladner.8567.sbeok.shnf",
-    "gd85-03-27.oade-schoeps.sacks.23442.sbeok.flacf",
-    "gd85-03-27.aud.vernon.7369.sbeok.shnf",
     "gd1985-03-27.164915.sbd.remaster.shnid8567.clugston.flac16",
-    "gd1985-03-27.audiotec.damico.87209.sbeok.flac16",
-    "gd1985-03-27.senn421.mccue.ford.34778.sbeok.flac16",
     "gd1985-03-27.169122.set1.sbd.brightman.miller.flac24",
     "gd1985-03-27.169155.Nassau.Uniondale.NY.set1.sbd.brightman.miller.t-flac1648",
-    "gd1985-03-27.nak300.bmandel.78403.sbeok.shnf",
+    "gd85-03-27.oade-schoeps.sacks.23442.sbeok.flacf",
+    "gd85-03-27.aud.vernon.7369.sbeok.shnf",
     "gd1985-03-27.nak300.lane-barfield.103144.flac24",
+    "gd1985-03-27.audiotec.damico.87209.sbeok.flac16",
     "gd1985-03-27.141207.s2.unknown.Bryant.Miller.Noel.t-flac1644",
+    "gd1985-03-27.senn421.mccue.ford.34778.sbeok.flac16",
     "gd1985-03-27.149304.senn441.hunt.mattes.miller.clugston.flac2496",
     "gd1985-03-27.124675.chasingwilma.flac24",
     "gd1985-03-37.170910.senn.me80.hessberg.miller.clugston.flac1648",
@@ -175,18 +189,20 @@
     "gd1985-03-27.169426.Nassau.Uniondale.NY.akg.451.guns.master.tartus.t-flac16",
     "gd1985-03-27.170911.senn.me80.hessberg.miller.clugston.flac2496",
     "gd1985-03-27.beyerm160.d5scott.107391.flac16",
+    "gd1985-03-27.nak300.bmandel.78403.sbeok.shnf",
     "gd1985-03-27.nak300.morris.106784.flac16"
   ],
   "best_recording": "gd85-03-27.sbd.ladner.8567.sbeok.shnf",
-  "avg_rating": 2.762321428571429,
+  "avg_rating": 2.9254285714285717,
   "raw_rating": 3.8,
   "recording_count": 27,
   "confidence": 1.0,
   "total_high_ratings": 30,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 9,
-    "UNKNOWN": 18
+    "SBD": 4,
+    "UNKNOWN": 21,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

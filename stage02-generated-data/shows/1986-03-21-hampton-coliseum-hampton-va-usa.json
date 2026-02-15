@@ -142,13 +142,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:55:36.654210",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152009/b860321.jpg",
+      "filename": "b860321.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151221/t860321.jpg",
+      "filename": "t860321.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd86-03-21.naks.munder.5178.sbeok.shnf",
     "gd86-03-21.set1-sbd.munder.8453.sbeok.shnf",
     "gd1986-03-21.142450.sbd.miller.flac1648",
     "gd1986-03-21.142491.mtx.tobin.flac1644",
     "gd1986-03-21.nak300.damico.87638.flac16",
+    "gd86-03-21.naks.munder.5178.sbeok.shnf",
     "gd1986-03-21.beyerm160.d5scott.107555.flac16",
     "gd1986-03-21.aud.bandrofcheck.81864.flac16",
     "gd1986-03-21.127531.chasingwilma.flac24",
@@ -163,18 +178,18 @@
     "gd1986-03-21.164772.nak304.thomas.miller.clugston.flac1648",
     "gd1986-03-21.164773.nak304.thomas.miller.clugston.flac2496"
   ],
-  "best_recording": "gd86-03-21.naks.munder.5178.sbeok.shnf",
-  "avg_rating": 1.7043693693693696,
+  "best_recording": "gd86-03-21.set1-sbd.munder.8453.sbeok.shnf",
+  "avg_rating": 1.7590306122448984,
   "raw_rating": 3.606060606060606,
   "recording_count": 18,
   "confidence": 1.0,
   "total_high_ratings": 20,
   "total_low_ratings": 4,
   "source_types": {
-    "SBD": 3,
+    "SBD": 2,
     "MATRIX": 1,
     "UNKNOWN": 13,
-    "AUD": 1
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

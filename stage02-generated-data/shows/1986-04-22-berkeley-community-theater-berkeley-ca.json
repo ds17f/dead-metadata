@@ -157,25 +157,41 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:56:10.715905",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152006/b860422.jpg",
+      "filename": "b860422.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151215/t860422.jpg",
+      "filename": "t860422.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1986-04-22.sbd.miller.34767.flac16",
-    "gd86-04-22.aud.eD.13583.sbeok.shnf",
     "gd1986-04-22.sbd-pcm.miller.34768.flac16",
+    "gd86-04-22.aud.eD.13583.sbeok.shnf",
     "gd1986-04-22.Senn421sNak300CP4s.Darby.119492.Flac2448",
     "gd1986-04-22.140245.fob.schoeps.cmc4.mk41.oade.wise.miller.clugston.flac1644",
     "gd1986-04-22.Senn421sNak300CP4s.Darby.119493.Flac1644"
   ],
   "best_recording": "gd1986-04-22.sbd.miller.34767.flac16",
-  "avg_rating": 2.9406122448979595,
+  "avg_rating": 2.9640969162995594,
   "raw_rating": 3.9655172413793105,
   "recording_count": 6,
   "confidence": 1.0,
   "total_high_ratings": 18,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 3
+    "SBD": 2,
+    "AUD": 2,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

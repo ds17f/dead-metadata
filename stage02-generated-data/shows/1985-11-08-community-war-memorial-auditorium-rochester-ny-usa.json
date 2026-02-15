@@ -152,20 +152,33 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:55:03.078979",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152013/b851108.jpg",
+      "filename": "b851108.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151229/t851108.jpg",
+      "filename": "t851108.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-11-08.sbd.clugston.5301.sbeok.shnf",
-    "gd85-11-08.aud-oade.dwonk.22023.sbeok.shnf",
-    "gd1985-11-08.naks.tonys.79024.sbeok.flac16",
     "gd1985-11-08.sbd.clugston.tetzeli.patch-5301.35361.sbeok.shnf",
-    "gd1985-11-08.nak300.damico.87509.sbeok.flac16",
-    "gd85-11-08.beyer.connor.4773.sbeok.shnf",
     "gd1985-11-08.139717.sbd.miller.flac2496",
     "gd1985-11-08.139899.sbd.cm.miller.flac1644",
-    "gd1985-11-08.akg.andrewf.86547.sbeok.flac16",
-    "gd1985-11-08.nak300.mandel.25275.sbeok.shnf",
     "gd1985-11-08.142749.mtx.tobin.flac2496",
     "gd1985-11-08.142750.mtx.tobin.flac1644",
+    "gd85-11-08.aud-oade.dwonk.22023.sbeok.shnf",
+    "gd1985-11-08.nak300.damico.87509.sbeok.flac16",
+    "gd1985-11-08.naks.tonys.79024.sbeok.flac16",
+    "gd85-11-08.beyer.connor.4773.sbeok.shnf",
     "gd1985-11-08.126696.chasingwilma.flac24",
     "gd1985-11-08.142747.pp-aud.chasingwilma.tobin.flac2496",
     "gd1985-11-08.142748.pp-aud.chasingwilma.tobin.flac1644",
@@ -181,20 +194,23 @@
     "gd1985-11-08.164302.akg451.ck8.eaton.miller.clugston.flac2496",
     "gd1985-11-08.169421.senn.me80.hessberg.miller.clugston.flac1648",
     "gd1985-11-08.169422.senn.me80.hessberg.miller.clugston.flac2496",
+    "gd1985-11-08.akg.andrewf.86547.sbeok.flac16",
     "gd1985-11-08.aud.morris.106807.flac16",
+    "gd1985-11-08.nak300.mandel.25275.sbeok.shnf",
     "gd1985-11-08.nak300.morris.114677.flac24"
   ],
   "best_recording": "gd85-11-08.sbd.clugston.5301.sbeok.shnf",
-  "avg_rating": 3.293472222222223,
+  "avg_rating": 3.4218485915492955,
   "raw_rating": 4.197916666666667,
   "recording_count": 29,
   "confidence": 1.0,
   "total_high_ratings": 29,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 10,
+    "SBD": 4,
     "MATRIX": 2,
-    "AUD": 17
+    "AUD": 22,
+    "UNKNOWN": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -172,15 +172,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:45:54.433865",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152107/b811206.jpg",
+      "filename": "b811206.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151404/t811206.jpg",
+      "filename": "t811206.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd81-12-06.aud.braverman.8200.sbeok.shnf",
     "gd1981-12-06.sbd.miller.108841.flac16",
     "gd1981-12-06.133563.sbd.miller.flac16",
-    "gd1981-12-06.aud.unknown.78646.sbeok.flac16",
-    "gd1981-12-06.nak700.mow.ford.32317.sbeok.flac16",
     "gd1981-12-06.158845.mtx.seamons.ht150.flac16",
+    "gd81-12-06.aud.braverman.8200.sbeok.shnf",
+    "gd1981-12-06.aud.unknown.78646.sbeok.flac16",
     "gd1981-12-06.senn421.bethke.lee.cohen.119584.flac16",
+    "gd1981-12-06.nak700.mow.ford.32317.sbeok.flac16",
     "gd1981-12-06.139344.aud.craigl.flac2448",
     "gd1981-12-06.139345.aud.craigl.flac1644",
     "gd1981-12-06.148949.fob.senn421.streeter.miller.clugston.flac1648",
@@ -188,18 +203,18 @@
     "gd1981-12-06.153910.2nd.set.senn421.nak304.blend.vita.miller.clugston.flac1648",
     "gd1981-12-06.153911.2nd.set.senn421.nak304.blend.vita.miller.clugston.flac2496"
   ],
-  "best_recording": "gd81-12-06.aud.braverman.8200.sbeok.shnf",
-  "avg_rating": 2.664975369458128,
+  "best_recording": "gd1981-12-06.sbd.miller.108841.flac16",
+  "avg_rating": 2.7185380116959066,
   "raw_rating": 3.9637681159420293,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 15,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 5,
+    "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 5,
-    "AUD": 2
+    "AUD": 6,
+    "UNKNOWN": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

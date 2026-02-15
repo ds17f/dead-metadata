@@ -162,11 +162,26 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:35:54.276347",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152147/b780506.jpg",
+      "filename": "b780506.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151518/t780506.jpg",
+      "filename": "t780506.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1978-05-06.fm-partial.97070.flac16",
-    "gd1978-05-06.aud.glassberg.motb.82963.sbeok.flac16",
     "gd78-05-06.sbd-aud.cotsman.13726.sbeok.shnf",
+    "gd1978-05-06.aud.glassberg.motb.82963.sbeok.flac16",
     "gd78-05-06.rolfe.vernon.6711.sbeok.shnf",
     "gd78-05-06.glassberg.vernon.18657.sbeok.shnf",
     "gd1978-05-06.aud.moore.berger.96897.flac24",
@@ -177,7 +192,7 @@
     "gd1978-05-06.aud.moore.berger.96896.flac16"
   ],
   "best_recording": "gd1978-05-06.fm-partial.97070.flac16",
-  "avg_rating": 2.1230504335083644,
+  "avg_rating": 2.1160636886333477,
   "raw_rating": 4.049409237379162,
   "recording_count": 11,
   "confidence": 1.0,
@@ -185,9 +200,9 @@
   "total_low_ratings": 4,
   "source_types": {
     "FM": 1,
-    "SBD": 4,
-    "AUD": 4,
-    "UNKNOWN": 2
+    "SBD": 1,
+    "AUD": 5,
+    "UNKNOWN": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -167,12 +167,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:44:04.522070",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152115/b810505.jpg",
+      "filename": "b810505.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151419/t810505.jpg",
+      "filename": "t810505.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd81-05-05.wise.clugston.8595.sbeok.shnf",
     "gd81-05-05.nak300-mow.ford.28356.sbeok.flac",
-    "gd1981-05-05.fob.nak300.morris.102023.sbeok.flac16",
     "gd1981-05-05.set2.aud.unknown.125867.flac1644",
+    "gd1981-05-05.fob.nak300.morris.102023.sbeok.flac16",
     "gd1981-05-05.134951.aud.wise.minches.flac24",
     "gd1981-05-05.135254.aud.flac24",
     "gd1981-05-05.135255.aud.flac16",
@@ -184,16 +199,15 @@
     "gd1981-05-05.152447.beyer201-prescott.holbrook.flac2448"
   ],
   "best_recording": "gd81-05-05.wise.clugston.8595.sbeok.shnf",
-  "avg_rating": 2.1068501805054156,
+  "avg_rating": 2.0653220858895707,
   "raw_rating": 4.286290322580645,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 26,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 3,
-    "AUD": 4,
-    "UNKNOWN": 6
+    "UNKNOWN": 6,
+    "AUD": 7
   },
   "matching_method": "date_only",
   "filtering_applied": []

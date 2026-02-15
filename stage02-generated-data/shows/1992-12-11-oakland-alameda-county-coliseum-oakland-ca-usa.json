@@ -147,30 +147,52 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:12:21.388275",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/12/12151812/b921211.jpeg",
+      "filename": "b921211.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/12/12150943/t921211.jpeg",
+      "filename": "t921211.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/12/12152300/19921211b.jpg",
+      "filename": "19921211b.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/12/12152300/19921211b.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd92-12-11.sbd-2track.scott.9534.sbeok.shnf",
-    "gd1992-12-11.fob.neumann.copeland.gems.79264.sbeok.flac16",
     "gd1992-12-11.sbd.stonebear.5548.shnf",
-    "gd1992-12-11.schoeps.boardman.swayne.86009.sbeok.flac16",
-    "gd92-12-11.akg.vernon.9773.sbeok.shnf",
     "gd1992-12-11.140828.sbd.miller.flac2496",
     "gd1992-12-11.140846.sbd.cm.miller.flac1644",
-    "gd1992-12-11.schoeps.boardman.swayne.86010.sbeok.flac1648",
+    "gd1992-12-11.fob.neumann.copeland.gems.79264.sbeok.flac16",
+    "gd1992-12-11.schoeps.boardman.swayne.86009.sbeok.flac16",
+    "gd92-12-11.akg.vernon.9773.sbeok.shnf",
     "gd1992-12-11.139686.FOB.AKG.Wise.Noel.t-flac16",
     "gd1992-12-11.141731.FOB.Schoeps.AMS250.Silberman.Ammons.Noel-flac1648",
     "gd1992-12-11.150535.FOB.Schoeps.Buick.Darroch.Noel.t.flac1648",
-    "gd1992-12-11.168865.cm300.ont.flac1644"
+    "gd1992-12-11.168865.cm300.ont.flac1644",
+    "gd1992-12-11.schoeps.boardman.swayne.86010.sbeok.flac1648"
   ],
   "best_recording": "gd92-12-11.sbd-2track.scott.9534.sbeok.shnf",
-  "avg_rating": 1.7942307692307689,
+  "avg_rating": 1.8531553398058254,
   "raw_rating": 3.9923076923076923,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 7,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 8,
+    "SBD": 4,
+    "AUD": 4,
     "UNKNOWN": 4
   },
   "matching_method": "date_only",

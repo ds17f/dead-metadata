@@ -157,32 +157,47 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:58:08.732527",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/06/12151953/b870620.jpeg",
+      "filename": "b870620.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/06/12151158/t870620.jpeg",
+      "filename": "t870620.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1987-06-20.sbd.walker-scotton.miller.83766.sbeok.flac16",
-    "gd87-06-20.matrix.ladner.11561.sbeok.shnf",
     "gd87-06-20.sbd.clugston.11943.sbefail.shnf",
     "gd1987-06-20.sbd.miller.93080.sbeok.flac16",
-    "gd1987-06-20.138260.AKG414.bryant.miller.sirmick.sbeok.flac16",
-    "gd1987-06-20.146928.senn441.corso-rossi.ford.sbeok.flac16",
-    "gd1987-06-20.akg414.bryant.gems.77988.sbeok.flac16",
-    "gd1987-06-20.nakcm304.suraci.81744.sbeok.flac16",
+    "gd87-06-20.matrix.ladner.11561.sbeok.shnf",
     "gd1987-06-20.mtx.dts.haugh.93386.flac16",
     "gd1987-06-20.124398.beacon.akg460.flac16",
     "gd1987-06-20.135308.bltz.flac24",
-    "gd1987-06-20.124397.beacon.akg460.flac24"
+    "gd1987-06-20.124397.beacon.akg460.flac24",
+    "gd1987-06-20.138260.AKG414.bryant.miller.sirmick.sbeok.flac16",
+    "gd1987-06-20.146928.senn441.corso-rossi.ford.sbeok.flac16",
+    "gd1987-06-20.akg414.bryant.gems.77988.sbeok.flac16",
+    "gd1987-06-20.nakcm304.suraci.81744.sbeok.flac16"
   ],
   "best_recording": "gd1987-06-20.sbd.walker-scotton.miller.83766.sbeok.flac16",
-  "avg_rating": 3.811004296455424,
+  "avg_rating": 3.797381878821567,
   "raw_rating": 4.142857142857143,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 23,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 8,
-    "MATRIX": 1,
-    "UNKNOWN": 3
+    "SBD": 3,
+    "MATRIX": 2,
+    "UNKNOWN": 7
   },
   "matching_method": "date_only",
   "filtering_applied": []

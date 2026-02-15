@@ -162,13 +162,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:04:57.246630",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151908/b891023.jpeg",
+      "filename": "b891023.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151055/t891023.jpeg",
+      "filename": "t891023.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-10-23.sbd.jeffm.2223.sbeok.shnf",
     "gd1989-10-23.sbd.walker-scotton.miller.83327.sbeok.flac16",
-    "gd1989-10-23.mtx.seamons.102771.sbeok.flac16",
     "gd1989-10-23.147762.sbd.miller.flac24",
     "gd1989-10-23.148155.UltraMatrix.sbd.cm.miller.flac16",
+    "gd1989-10-23.mtx.seamons.102771.sbeok.flac16",
     "gd1989-10-23.147913.mtx.tobin.flac24",
     "gd1989-10-23.147916.mtx.tobin.flac16",
     "gd1989-10-23.Nak300CP4.JB.Keo.116205.Flac1644",
@@ -186,16 +201,17 @@
     "gd1989-10-23.Nak300CP4.JB.Keo.116206.Flac2496"
   ],
   "best_recording": "gd89-10-23.sbd.jeffm.2223.sbeok.shnf",
-  "avg_rating": 3.8163265306122454,
+  "avg_rating": 3.8201365187713305,
   "raw_rating": 3.905882352941177,
   "recording_count": 20,
   "confidence": 1.0,
   "total_high_ratings": 22,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
-    "MATRIX": 2,
-    "UNKNOWN": 13
+    "SBD": 4,
+    "MATRIX": 3,
+    "UNKNOWN": 12,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

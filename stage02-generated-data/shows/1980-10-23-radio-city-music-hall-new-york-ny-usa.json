@@ -207,29 +207,43 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:42:35.903775",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152119/b801023.jpg",
+      "filename": "b801023.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151430/t801023.jpg",
+      "filename": "t801023.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
+    "gd80-10-23.cohen.vernon.13140.sbeok.shnf",
+    "gd1980-10-23.120072.fob-nak700.gatto-jaeger.dusborne.flac16",
+    "gd80-10-23.sonyecm280.wiley.8700.sbeok.shnf",
     "gd1980-10-23.fob.sonyecm280.wise.miller.101256.flac16",
     "gd1980-10-23.143352.fob.nak700.cohen.miller.clugston.flac2496",
-    "gd1980-10-23.120072.fob-nak700.gatto-jaeger.dusborne.flac16",
-    "gd1980-10-23.143351.fob.nak700.cohen.miller.clugston.flac1648",
-    "gd80-10-23.cohen.vernon.13140.sbeok.shnf",
     "gd1980-10-23.fob.nak300.morris.102026.sbeok.flac16",
-    "gd80-10-23.sonyecm280.wiley.8700.sbeok.shnf",
+    "gd1980-10-23.143351.fob.nak700.cohen.miller.clugston.flac1648",
     "gd1980-10-23.aud.morris.108016.flac24",
     "gd1980-10-23.aud.morris.fixed.111029.flac24"
   ],
-  "best_recording": "gd1980-10-23.fob.sonyecm280.wise.miller.101256.flac16",
-  "avg_rating": 1.8845554756769711,
+  "best_recording": "gd80-10-23.cohen.vernon.13140.sbeok.shnf",
+  "avg_rating": 1.9726291252607049,
   "raw_rating": 4.221850613154961,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 17,
   "total_low_ratings": 2,
   "source_types": {
-    "FM": 4,
-    "SBD": 3,
-    "AUD": 2
+    "FM": 3,
+    "AUD": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

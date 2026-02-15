@@ -187,28 +187,38 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:30:30.241641",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151555/t740729.jpg",
+      "filename": "t740729.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1974-07-29.sbd.miller.107756.flac16",
     "gd74-07-29.sbd.goodbear.2277.sbefail.shnf",
-    "gd74-07-29.moore.weiner.gdADT20.17968.sbeok.shnf",
     "gd74-07-29.matrix.chappell.29482.sbeok.flacf",
     "gd1974-07-29.mtx.seamons.108281.flac24",
     "gd1974-07-29.107990.mtx.seamons.flac16",
+    "gd74-07-29.moore.weiner.gdADT20.17968.sbeok.shnf",
     "gd1974-07-29.akgd1000e.moore.berger.106066.flac24",
     "gd1974-07-29.s2.aud.unknown.seaweed.123816.flac1644"
   ],
   "best_recording": "gd1974-07-29.sbd.miller.107756.flac16",
-  "avg_rating": 3.8773130193905825,
+  "avg_rating": 4.003423423423424,
   "raw_rating": 4.4731707317073175,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 35,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
-    "MATRIX": 2,
-    "UNKNOWN": 1,
+    "SBD": 2,
+    "MATRIX": 3,
+    "UNKNOWN": 2,
     "AUD": 1
   },
   "matching_method": "date_only",

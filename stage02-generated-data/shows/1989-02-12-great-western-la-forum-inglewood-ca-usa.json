@@ -167,37 +167,45 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:02:56.796826",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/02/12151112/t890212.jpeg",
+      "filename": "t890212.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-02-12.sbd.presley.4680.sbeok.shnf",
     "gd1989-02-12.sbd.miller.89200.sbeok.flac16",
     "gd1989-02-12.137005.sbd.miller.flac24",
-    "gd1989-02-12.fob.french.31265.sbeok.flac24",
     "gd1989-02-12.137086.sbd.miller.flac16",
-    "gd1989-02-12.fob.french.sirmick.76126.sbeok.flac16",
     "gd1989-02-12.140913.mtx.tobin.flac1644",
     "gd89-02-12.lai.429.sbefail.shnf",
+    "gd1989-02-12.fob.french.31265.sbeok.flac24",
     "gd1989-02-12.140915.5-1.tobin.flac1648",
     "gd1989-02-12.124818.AT835.laurentis.flac16",
     "gd1989-02-12.139800.s1.schoeps.pcm.oade.bryant.gastwirt.miller.clugston.flac1644",
     "gd1989-02-12.140914.dts.tobin.flac1644",
-    "gd1989-02-12.140998.FOB.Schoeps.PCM.Mattes.Weber-Small.Miller.Noel.t-flac1644"
+    "gd1989-02-12.140998.FOB.Schoeps.PCM.Mattes.Weber-Small.Miller.Noel.t-flac1644",
+    "gd1989-02-12.fob.french.sirmick.76126.sbeok.flac16"
   ],
   "best_recording": "gd89-02-12.sbd.presley.4680.sbeok.shnf",
-  "avg_rating": 3.040358744394619,
+  "avg_rating": 3.05972850678733,
   "raw_rating": 3.388888888888889,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 14,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 6,
+    "SBD": 4,
     "MATRIX": 1,
-    "UNKNOWN": 6
+    "UNKNOWN": 5,
+    "AUD": 3
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "guest-spencer-davis-dylan-kitaro"
-  ]
+  "filtering_applied": []
 }

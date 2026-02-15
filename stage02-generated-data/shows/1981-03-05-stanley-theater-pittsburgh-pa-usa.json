@@ -172,13 +172,23 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:43:28.572520",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151424/t810305.jpg",
+      "filename": "t810305.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd81-03-05.wise.lutch.3920.sbeok.shnf",
     "gd81-03-05.set2-sbd.fink.14024.sbeok.shnf",
     "gd1981-03-05.169037.set2.sbd.phase.fix.miller.flac1644",
     "gd1981-03-05.166098.s2.sbd.seaweed.flac2448",
     "gd1981-03-05.168632.set2.sbd.miller.flac1644",
+    "gd81-03-05.wise.lutch.3920.sbeok.shnf",
     "gd1981-03-05.139506.aud.unk.flac1644",
     "gd1981-03-05.139740.fob.beyer.m160.streeter.miller.clugston.flac2496",
     "gd1981-03-05.128378.senn421.wise.minches.flac16",
@@ -191,17 +201,17 @@
     "gd1981-03-05.169227.nak700.wagner.miller.clugston.flac2496",
     "gd1981-03-05.naks.mason.129756.flac16"
   ],
-  "best_recording": "gd81-03-05.wise.lutch.3920.sbeok.shnf",
-  "avg_rating": 1.8993699076588813,
+  "best_recording": "gd81-03-05.set2-sbd.fink.14024.sbeok.shnf",
+  "avg_rating": 1.832988969599139,
   "raw_rating": 3.9692780337941627,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 25,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 5,
-    "AUD": 1,
-    "UNKNOWN": 10
+    "SBD": 4,
+    "UNKNOWN": 9,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

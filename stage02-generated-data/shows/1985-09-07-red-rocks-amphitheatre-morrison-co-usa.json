@@ -177,23 +177,38 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:54:30.215558",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152018/b850907.jpg",
+      "filename": "b850907.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151235/t850907.jpg",
+      "filename": "t850907.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-09-07.sbd.miller.18102.sbeok.shnf",
-    "gd85-09-07.oade.georges.17078.sbeok.shnf",
     "gd1985-09-07.sbd-pcm.miller.33954.sbeok.flac16",
-    "gd85-09-07.schoeps.oade.373.sbeok.shnf",
+    "gd1985-09-07.sbd.unknown.17031.sbefail.shnf",
+    "gd1985-09-07.sbd.miller.tetzeli.fix-18102.34271.shnf",
     "gd1985-09-07.mtx.seamons.92111.sbeok.flac16",
     "gd1985-09-07.mtx.seamons.fix.92124.sbeok.flac16",
-    "gd1985-09-07.sbd.unknown.17031.sbefail.shnf",
+    "gd1985-09-07.150520.mtx.chappell.sb26.vgrm618.flac16",
     "gd1985-09-07.mtx.seamons.fix.92521.sbeok.flac16",
-    "gd1985-09-07.sbd.miller.tetzeli.fix-18102.34271.shnf",
+    "gd1985-09-07.mtx.chappell.sb26.92184.flac16",
+    "gd85-09-07.oade.georges.17078.sbeok.shnf",
+    "gd85-09-07.schoeps.oade.373.sbeok.shnf",
     "gd1985-09-07.aud.morris.106059.sbeok.flac16",
+    "gd1985-09-07.153182.beyerm201.holbrook-murtha.flac2448",
     "gd1985-09-07.schoeps.oade.sacks.29305.sbeok.flac16",
     "gd1985-09-07.senn441.mccue.ford.80723.sbeok.flac16",
-    "gd1985-09-07.150520.mtx.chappell.sb26.vgrm618.flac16",
-    "gd1985-09-07.mtx.chappell.sb26.92184.flac16",
-    "gd1985-09-07.153182.beyerm201.holbrook-murtha.flac2448",
     "gd1985-09-07.Senn421.Darby.119595.Flac2448",
     "gd1985-09-07.140901.s1p.s2p.unknown.Bryant.Miller.Noel.t-flac2496",
     "gd1985-09-07.141243.p1.p2.unknown.Bryant.Miller.Noel.t-flac1644",
@@ -203,16 +218,17 @@
     "gd1985-09-07.Senn421.Darby.119596.Flac1644"
   ],
   "best_recording": "gd85-09-07.sbd.miller.18102.sbeok.shnf",
-  "avg_rating": 3.053849983405244,
+  "avg_rating": 3.190326868939631,
   "raw_rating": 4.526308917613266,
   "recording_count": 22,
   "confidence": 1.0,
   "total_high_ratings": 58,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 12,
-    "MATRIX": 2,
-    "UNKNOWN": 8
+    "SBD": 4,
+    "MATRIX": 5,
+    "UNKNOWN": 12,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

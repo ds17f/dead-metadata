@@ -162,6 +162,16 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:39:12.379809",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152136/b791025.jpg",
+      "filename": "b791025.jpg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd79-10-25.sbd.set2.fishman.21271.sbefail.shnf",
@@ -169,23 +179,24 @@
     "gd1979-10-25.sbd-set2.goodwin.4627.sbefail.shnf",
     "gd1979-10-25.aud-set1.sbd-set2.miller.22311.shnf",
     "gd1979-10-25.set2.nak700-rolfe.vernon.90098.sbeok.flac16",
-    "gd1979-10-25.aud.jools.19599.sbeok.shnf",
-    "gd1979-10-25.senn.eaton.miller.93143.sbeok.flac16",
     "gd1979-10-25.145460.fob.nak700.rolfe.miller.clugston.flac2496",
     "gd1979-10-25.145459.fob.nak700.rolfe.miller.clugston.flac1648",
     "gd1979-10-25.152435.senn.blend.eaton.miller.clugston.flac1648",
-    "gd1979-10-25.152436.senn.blend.eaton.miller.clugston.flac2496"
+    "gd1979-10-25.152436.senn.blend.eaton.miller.clugston.flac2496",
+    "gd1979-10-25.aud.jools.19599.sbeok.shnf",
+    "gd1979-10-25.senn.eaton.miller.93143.sbeok.flac16"
   ],
   "best_recording": "gd79-10-25.sbd.set2.fishman.21271.sbefail.shnf",
-  "avg_rating": 3.384340320591862,
+  "avg_rating": 3.3996264009962642,
   "raw_rating": 4.628571428571428,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 83,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 4
+    "SBD": 4,
+    "UNKNOWN": 4,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

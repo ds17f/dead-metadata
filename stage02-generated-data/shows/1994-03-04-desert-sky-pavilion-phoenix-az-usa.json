@@ -147,25 +147,40 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:15:29.798495",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/03/12151748/b940304.jpeg",
+      "filename": "b940304.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/03/12150907/t940304.jpeg",
+      "filename": "t940304.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1994-03-04.sbd.sailor_saint.33697.flac16",
     "gd94-03-04.sbd.kidder.8330.sbeok.shnf",
-    "gd1994-03-04.schoepsMK4.litzenberger.89172.sbeok.flac16",
     "gd1994-03-04.152011.sbd.latvala.flac16",
+    "gd1994-03-04.schoepsMK4.litzenberger.89172.sbeok.flac16",
     "gd1994-03-04.AKG451.Darby.119517.Flac1648",
     "gd1994-03-04.AKG451.Darby.119518.Flac1644"
   ],
   "best_recording": "gd1994-03-04.sbd.sailor_saint.33697.flac16",
-  "avg_rating": 3.36748844375963,
+  "avg_rating": 3.399686520376176,
   "raw_rating": 3.6120129870129865,
   "recording_count": 6,
   "confidence": 1.0,
   "total_high_ratings": 10,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 2
+    "SBD": 3,
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -142,24 +142,40 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:15:23.764239",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/02/12151748/b940226.jpeg",
+      "filename": "b940226.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/02/12150907/t940226.jpeg",
+      "filename": "t940226.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd94-02-26.neumann.miller.18095.sbeok.shnf",
     "gd1994-02-26.156421.s1.sbd.miller.flac2448",
     "gd1994-02-26.156490.s1.sbd.cm.miller.t.flac1644",
+    "gd94-02-26.neumann.miller.18095.sbeok.shnf",
     "gd1994-02-26.141611.FOB.Neumann.Porter.Ammons.Noel.t-flac1648",
     "gd1994-02-26.141175.cmc5-mk4.ebel.flac1644"
   ],
-  "best_recording": "gd94-02-26.neumann.miller.18095.sbeok.shnf",
-  "avg_rating": 1.9985096870342771,
+  "best_recording": "gd1994-02-26.156421.s1.sbd.miller.flac2448",
+  "avg_rating": 1.934090909090909,
   "raw_rating": 4.012987012987013,
   "recording_count": 5,
   "confidence": 1.0,
   "total_high_ratings": 8,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 2
+    "SBD": 2,
+    "UNKNOWN": 2,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

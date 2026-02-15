@@ -172,11 +172,26 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:51:56.122168",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152035/b840706.jpg",
+      "filename": "b840706.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151304/t840706.jpg",
+      "filename": "t840706.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
+    "gd1984-07-06.139531.sbd.pcm.miller-eaton.flac1644",
     "gd84-07-06.senn441.dodd.13898.sbeok.shnf",
     "gd1984-07-06.nak300.carpenter.andrewf.86943.sbeok.flac16",
-    "gd1984-07-06.139531.sbd.pcm.miller-eaton.flac1644",
     "gd1984-07-06.142540.Lawn.Nak.Reutelhuber.PhillyCrew.Noel.t-flac1644",
     "gd1984-07-06.109746.beyer-senn-daweez.D5scott.flac16",
     "gd1984-07-06.Tascam120.Darby.121095.Flac2448",
@@ -191,16 +206,17 @@
     "gd1984-07-06.165101.nak100.Reutelhuber.photoleon.flac2448",
     "gd1984-07-06.Tascam120.Darby.121096.Flac1644"
   ],
-  "best_recording": "gd84-07-06.senn441.dodd.13898.sbeok.shnf",
-  "avg_rating": 2.042923538230885,
+  "best_recording": "gd1984-07-06.139531.sbd.pcm.miller-eaton.flac1644",
+  "avg_rating": 1.9833574879227056,
   "raw_rating": 4.162404092071612,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 28,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 13
+    "SBD": 1,
+    "UNKNOWN": 13,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

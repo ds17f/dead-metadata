@@ -167,6 +167,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:00:19.466182",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/03/12151940/b880327.jpeg",
+      "filename": "b880327.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/03/12151137/t880327.jpeg",
+      "filename": "t880327.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1988-03-27.147999.fm.hessberg.miller.clugston.flac2496",
@@ -174,11 +189,11 @@
     "gd1988-03-27.ifm.grabski.34202.flac16",
     "gd88-03-27.sbd.jerugim.406.shnf",
     "gd1988-03-27.sbd.jerugim.braverman.fix-406.3383.shnf",
-    "gd88-03-27.matrix.braverman.17262.sbeok.shnf",
-    "gd1988-03-27.schoeps.unknown.gotfob.88250.sbeok.flac16",
     "gd1988-03-27.141213.sbd.miller.flac2496",
     "gd1988-03-27.141312.UltraMatrix.sbd.miller.flac1644",
+    "gd88-03-27.matrix.braverman.17262.sbeok.shnf",
     "gd1988-03-27.152856.mtx.tobin.flac16",
+    "gd1988-03-27.schoeps.unknown.gotfob.88250.sbeok.flac16",
     "gd1988-03-27.nak100.pasternak.mallick.107907.flac16",
     "gd1988-03-27.mak.cohen.106174.flac16",
     "gd1988-03-27.140806.s2.FOB.Schoeps.Gastwirt.Miller.Noel.t-flac.1644",
@@ -188,7 +203,7 @@
     "gd1988-03-27.152858.5-1.tobin.flac1648"
   ],
   "best_recording": "gd1988-03-27.147999.fm.hessberg.miller.clugston.flac2496",
-  "avg_rating": 3.5736557509601785,
+  "avg_rating": 3.6316685520361998,
   "raw_rating": 4.257243195785777,
   "recording_count": 17,
   "confidence": 1.0,
@@ -196,13 +211,11 @@
   "total_low_ratings": 2,
   "source_types": {
     "FM": 3,
-    "SBD": 6,
-    "MATRIX": 1,
-    "UNKNOWN": 7
+    "SBD": 4,
+    "MATRIX": 2,
+    "UNKNOWN": 7,
+    "AUD": 1
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "download-series-vol-5"
-  ]
+  "filtering_applied": []
 }

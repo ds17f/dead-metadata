@@ -167,16 +167,31 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:08:01.313913",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/03/12151844/b910317.jpeg",
+      "filename": "b910317.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/03/12151024/t910317.jpeg",
+      "filename": "t910317.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-03-17.sbd.miller.28295.sbeok.flacf",
     "gd91-03-17.sbd.munder.8745.sbeok.shnf",
-    "gd91-03-17.fob-schoeps-metchik.miller.28386.sbeok.shnf",
-    "gd1991-03-17.nak.cohen.107115.sbeok.flac16",
     "gd1991-03-17.135338.upg-sbd.tobin.flac16",
     "gd1991-03-17.149656.sbd.pearson-healy.miller.flac2496",
     "gd1991-03-17.149664.sbd.cm.miller.flac16",
     "gd1991-03-17.135339.mtx.tobin.flac16",
+    "gd91-03-17.fob-schoeps-metchik.miller.28386.sbeok.shnf",
+    "gd1991-03-17.nak.cohen.107115.sbeok.flac16",
     "gd1991-03-17.senn-ME80.wklitz.94062.flac16",
     "gd1991-03-17.132297.Nak300s-Senn441s.JB.Keo.Flac2496",
     "gd1991-03-17.149502.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648",
@@ -185,16 +200,17 @@
     "gd1991-03-17.135341.5-1.tobin.flac1648"
   ],
   "best_recording": "gd91-03-17.sbd.miller.28295.sbeok.flacf",
-  "avg_rating": 2.9310299003322253,
+  "avg_rating": 3.00231046931408,
   "raw_rating": 3.5833333333333335,
   "recording_count": 14,
   "confidence": 1.0,
   "total_high_ratings": 24,
   "total_low_ratings": 4,
   "source_types": {
-    "SBD": 7,
+    "SBD": 5,
     "MATRIX": 1,
-    "UNKNOWN": 6
+    "UNKNOWN": 7,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

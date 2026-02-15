@@ -152,15 +152,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:00:43.346739",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/04/12151937/b880413.jpeg",
+      "filename": "b880413.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/04/12151132/t880413.jpeg",
+      "filename": "t880413.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1988-04-13.sbd.miller.91164.sbeok.flac16",
     "gd88-04-13.sbd-matrix.braverman.16748.sbeok.shnf",
     "gd1988-04-13.156479.UltraMatrix.sbd.cm.miller.t.flac1644",
-    "gd1988-04-13.nak100.holtz.LMPP.95753.sbeok.flac16",
     "gd1988-04-13.156074.ultramatrix.miller.flac2496",
     "gd1988-04-13.Senn421.Darby.120446.Flac2448",
-    "gd1988-04-13.Senn421.Darby.120447.Flac1644"
+    "gd1988-04-13.Senn421.Darby.120447.Flac1644",
+    "gd1988-04-13.nak100.holtz.LMPP.95753.sbeok.flac16"
   ],
   "best_recording": "gd1988-04-13.sbd.miller.91164.sbeok.flac16",
   "avg_rating": 2.795454545454546,
@@ -170,9 +185,9 @@
   "total_high_ratings": 13,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 2
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -162,32 +162,47 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:58:04.874952",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/06/12151955/b870614.jpeg",
+      "filename": "b870614.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/06/12151159/t870614.jpeg",
+      "filename": "t870614.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1987-06-14.sbd.walker-scotton.miller.83755.sbeok.flac16",
     "gd87-06-14.sbd.clugston.11896.sbefail.shnf",
-    "gd1987-06-14.akg.thompson.motb.83990.sbeok.flac16",
     "gd1987-06-14.sbd.clugston.tetzeli.fix-11896.75505.flac16",
     "gd1987-06-14.sbd.painoman.17347.shnf",
-    "gd1987-06-14.senn421-nak300.alexander.tetzeli.77364.sbeok.flac16",
-    "gd1987-06-14.senn421-nak300.alexander.tetzeli.77365.sbeok.flac24",
+    "gd1987-06-14.akg.thompson.motb.83990.sbeok.flac16",
     "gd1987-06-14.135940.chasingwilma.flac24",
     "gd1987-06-14.151121.aud.lohr.vernon.flac1648",
     "gd1987-06-14.151122.aud.lohr.vernon.flac2496",
     "gd1987-06-14.168424.SSEC7.ont.flac1644",
-    "gd1987-06-14.fob.thompson.motb.0017.84953.flac24"
+    "gd1987-06-14.fob.thompson.motb.0017.84953.flac24",
+    "gd1987-06-14.senn421-nak300.alexander.tetzeli.77364.sbeok.flac16",
+    "gd1987-06-14.senn421-nak300.alexander.tetzeli.77365.sbeok.flac24"
   ],
   "best_recording": "gd1987-06-14.sbd.walker-scotton.miller.83755.sbeok.flac16",
-  "avg_rating": 3.98,
+  "avg_rating": 4.043181818181818,
   "raw_rating": 4.12,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 15,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 3,
-    "AUD": 2
+    "SBD": 4,
+    "UNKNOWN": 5,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

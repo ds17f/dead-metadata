@@ -152,19 +152,38 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:57:16.190137",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/03/12152000/b870324.jpeg",
+      "filename": "b870324.jpeg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/11/12145959/GD_1987_03_24_Robbi_Cohn-Small1.jpg",
+      "filename": "GD_1987_03_24_Robbi_Cohn-Small1.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/11/12145959/GD_1987_03_24_Robbi_Cohn-Small1-360x360.jpg"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/11/12150000/GD_1987_03_24_Robbi_Cohn-Small.jpg",
+      "filename": "GD_1987_03_24_Robbi_Cohn-Small.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/11/12150000/GD_1987_03_24_Robbi_Cohn-Small-360x360.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd1987-03-24.sbd.milller.94349.sbeok.flac16",
     "gd87-03-24.set2-sbd.miller.25581.sbeok.shnf",
-    "gd87-03-24.schoeps.weber-small.gardner.10354.sbeok.shnf",
     "gd1987-03-24.140805.sbd.miller.flac2496",
-    "gd1987-03-24.nak.holtz.gems.91254.sbeok.flac16",
     "gd1987-03-24.140920.UltraMatrix.sbd.cm.miller.flac1644",
-    "gd1987-03-24.nak300.damico.89110.sbeok.flac16",
-    "gd1987-03-24.senn.koucky.gmb.77915.sbeok.flac16",
     "gd1987-03-24.142042.mtx.tobin.flac1644",
     "gd1987-03-24.142041.mtx.tobin.flac2496",
+    "gd87-03-24.schoeps.weber-small.gardner.10354.sbeok.shnf",
     "gd1987-03-24.senn441fob.scarletdog.126241.flac16",
+    "gd1987-03-24.nak.holtz.gems.91254.sbeok.flac16",
     "gd1987-03-24.135546.set2.chasingwilma.flac24",
     "gd1987-03-24.135992.datbrad.flac16",
     "gd1987-03-24.142039.pp-aud.hill.tobin.flac2496",
@@ -175,19 +194,21 @@
     "gd1987-03-24.163462.senn.me80.hessberg.miller.clugston.flac2496",
     "gd1987-03-24.Senn441.Hill.Keo.131806.Flac1644",
     "gd1987-03-24.Senn441.Hill.Keo.131807.Flac2496",
-    "gd1987-03-24.nak300.braverman.10077.shnf"
+    "gd1987-03-24.nak300.braverman.10077.shnf",
+    "gd1987-03-24.nak300.damico.89110.sbeok.flac16",
+    "gd1987-03-24.senn.koucky.gmb.77915.sbeok.flac16"
   ],
   "best_recording": "gd1987-03-24.sbd.milller.94349.sbeok.flac16",
-  "avg_rating": 2.763106796116504,
+  "avg_rating": 2.8837735849056596,
   "raw_rating": 4.468571428571429,
   "recording_count": 22,
   "confidence": 1.0,
   "total_high_ratings": 27,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 8,
+    "SBD": 4,
     "MATRIX": 2,
-    "UNKNOWN": 10,
+    "UNKNOWN": 14,
     "AUD": 2
   },
   "matching_method": "date_only",

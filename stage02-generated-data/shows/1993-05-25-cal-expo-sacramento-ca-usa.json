@@ -162,25 +162,41 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:13:39.249803",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/05/12151802/b930525.jpeg",
+      "filename": "b930525.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/05/12150929/t930525.jpeg",
+      "filename": "t930525.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd93-05-25.schoeps.vernon.19223.sbeok.shnf",
     "gd93-05-25.dsbd.vernon.19224.sbeok.shnf",
-    "gd1993-05-25.schoeps.evans.florek.34849.sbeok.flac16",
+    "gd93-05-25.schoeps.vernon.19223.sbeok.shnf",
     "gd1993-05-27.140499.ak40-foh-cal-expo.flac2496",
+    "gd1993-05-25.schoeps.evans.florek.34849.sbeok.flac16",
     "gd1993-05-25.137257.mk41.miller.flac1648",
     "gd1993-05-25.fob.schoeps.mk2.GEMS.34853.flac1648"
   ],
-  "best_recording": "gd93-05-25.schoeps.vernon.19223.sbeok.shnf",
-  "avg_rating": 2.1012269938650308,
+  "best_recording": "gd93-05-25.dsbd.vernon.19224.sbeok.shnf",
+  "avg_rating": 2.0925925925925926,
   "raw_rating": 4.411695906432748,
   "recording_count": 6,
   "confidence": 1.0,
   "total_high_ratings": 15,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 3
+    "SBD": 1,
+    "UNKNOWN": 4,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

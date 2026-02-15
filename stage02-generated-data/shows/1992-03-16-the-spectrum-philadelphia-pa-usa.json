@@ -152,15 +152,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:11:05.337510",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/03/12151822/b920316.jpeg",
+      "filename": "b920316.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/03/12150954/t920316.jpeg",
+      "filename": "t920316.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd92-03-16.sbd.13571.sbefail.shnf",
-    "gd1992-03-16.schoeps.andrewf.85423.sbeok.flac16",
     "gd1992-03-16.138167.sbd.miller.sbeok.flac16",
     "gd1992-03-16.upg-sbd.tobin.122021.flac16",
     "gd1992-03-16.138163.sbd.miller.flac24",
     "gd1992-03-16.mtx.tobin.122020.flac16",
     "gd1992-03-16.schoeps.andrewf.85338.flac1648",
+    "gd1992-03-16.schoeps.andrewf.85423.sbeok.flac16",
     "gd1992-03-16.139653.fob.akg.414.wise.miller.clugston.flac1648",
     "gd1992-03-16.147757.nak300.Boedicker.flac1644",
     "gd1992-03-16.148408.fob.BK4011.ebel.flac16",
@@ -171,16 +186,17 @@
     "gd1992-03-16.dts.tobin.122040.flac16"
   ],
   "best_recording": "gd92-03-16.sbd.13571.sbefail.shnf",
-  "avg_rating": 2.801566265060241,
+  "avg_rating": 2.905584415584416,
   "raw_rating": 3.8421052631578947,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
+    "SBD": 4,
     "MATRIX": 1,
-    "UNKNOWN": 9
+    "UNKNOWN": 6,
+    "AUD": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

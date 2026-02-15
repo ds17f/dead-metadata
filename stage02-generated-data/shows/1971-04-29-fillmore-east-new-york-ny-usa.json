@@ -214,12 +214,32 @@
     "New Riders of the Purple Sage"
   ],
   "collection_timestamp": "2025-08-10T08:22:40.256893",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151632/t710429.jpg",
+      "filename": "t710429.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1971/04/12152718/gd71-04-23-29.poster.jpg",
+      "filename": "gd71-04-23-29.poster.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1971/04/12152718/gd71-04-23-29.poster.jpg"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1971/04/12152718/gd71-04-23-29.poster.back.jpg",
+      "filename": "gd71-04-23-29.poster.back.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1971/04/12152718/gd71-04-23-29.poster.back.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd1971-04-29.sbd.multitracks.miller.114350.flac16",
     "gd71-04-29.sbd.frisco.16782.sbeok.shnf",
     "gd1971-04-29.sbd.miller.105926.flac16",
-    "gd71-04-29.weinberg.warner.26568.sbeok.flacf",
     "gd1971-04-29.sbd.boswell.smith.114145.flac16",
     "gd1971-04-29.sbd.haugh.33565.flac16",
     "gd1971-04-29.sbd.unknown.4333.shnf",
@@ -227,18 +247,20 @@
     "gd1971-04-29.sbd.murphy.1858.shnf",
     "gd1971-04-29.sbd.serafin.19639.shnf",
     "gd1971-04-29.sbd.unknown.126.shnf",
-    "gd1971-04-29.mtx.hansokolow.97660.flac16"
+    "gd1971-04-29.mtx.hansokolow.97660.flac16",
+    "gd71-04-29.weinberg.warner.26568.sbeok.flacf"
   ],
   "best_recording": "gd1971-04-29.sbd.multitracks.miller.114350.flac16",
-  "avg_rating": 4.103989279950818,
+  "avg_rating": 4.210194039831136,
   "raw_rating": 4.38058493230907,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 93,
   "total_low_ratings": 5,
   "source_types": {
-    "SBD": 11,
-    "MATRIX": 1
+    "SBD": 10,
+    "MATRIX": 1,
+    "UNKNOWN": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

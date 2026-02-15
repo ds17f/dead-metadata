@@ -142,29 +142,44 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:12:14.853246",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151813/b921203.jpeg",
+      "filename": "b921203.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/12/12150944/t921203.jpeg",
+      "filename": "t921203.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd92-12-03.neumann.vernon.9474.sbeok.shnf",
-    "gd1992-12-03.fob.schoeps.evans.gems.82352.sbeok.flac16",
     "gd1992-12-03.140149.s1.sbd.miller.flac2496",
     "gd1992-12-03.140249.set1.sbd.cm.miller.flac1644",
+    "gd92-12-03.neumann.vernon.9474.sbeok.shnf",
     "gd92-12-03.bk-young.miller.30071.flac16",
     "gd1992-12-03.AKG460.Walker.Darby.120034.Flac1644",
+    "gd1992-12-03.fob.schoeps.evans.gems.82352.sbeok.flac16",
     "gd1992-12-03.AKG460.Walker.Darby.120033.Flac2448",
     "gd1992-12-03.132563.aud.dat.johnl.flac16",
     "gd1992-12-03.141411.OTS.AKG.Ackerman.Miller.Noel.t-flac.1648"
   ],
-  "best_recording": "gd92-12-03.neumann.vernon.9474.sbeok.shnf",
-  "avg_rating": 1.6501381215469613,
+  "best_recording": "gd1992-12-03.140149.s1.sbd.miller.flac2496",
+  "avg_rating": 1.5849236641221374,
   "raw_rating": 3.4560000000000004,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 13,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 4,
-    "AUD": 1
+    "SBD": 2,
+    "UNKNOWN": 5,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

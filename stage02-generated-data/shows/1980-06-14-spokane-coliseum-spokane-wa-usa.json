@@ -177,10 +177,25 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:41:12.412831",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152130/b800614.jpg",
+      "filename": "b800614.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151442/t800614.jpg",
+      "filename": "t800614.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd80-06-14.akg.clugston.7198.sbeok.shnf",
     "gd1980-06-14.fob.menke.motb-0030.105537.flac16",
+    "gd80-06-14.akg.clugston.7198.sbeok.shnf",
     "gd1980-06-14.aud.severson.minches.91362.flac1644",
     "gd1980-06-14.144771.fob.nak700.severson.miller.clugston.flac1648",
     "gd1980-06-14.aud.morris.106617.flac24",
@@ -189,17 +204,16 @@
     "gd1980-06-14.155814.2nd.set.akg.se5.wiseman.miller.clugston.flac2496",
     "gd1980-06-14.fob.sonyecm990.morris.100258.flac16"
   ],
-  "best_recording": "gd80-06-14.akg.clugston.7198.sbeok.shnf",
-  "avg_rating": 2.0042307692307695,
+  "best_recording": "gd1980-06-14.fob.menke.motb-0030.105537.flac16",
+  "avg_rating": 2.033130841121496,
   "raw_rating": 4.370588235294117,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 1,
-    "UNKNOWN": 6,
-    "AUD": 2
+    "AUD": 6,
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

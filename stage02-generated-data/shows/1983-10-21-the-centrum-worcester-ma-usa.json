@@ -162,17 +162,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:50:22.320667",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152044/b831021.jpg",
+      "filename": "b831021.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151320/t831021.jpg",
+      "filename": "t831021.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd83-10-21.sbd.bertha-ashley.24998.sbeok.shnf",
     "gd83-10-21.sbd.clugston.5557.sbeok.shnf",
     "gd83-10-21.sbd.harrell.8113.sbeok.shnf",
-    "gd83-10-21.ficca-brennan.markezin.19516.sbeok.shnf",
     "gd83-10-21.sbd.bertha-ashley.9979.sbeok.shnf",
-    "gd1983-10-21.aud.morris.111059.sbeok.flac24",
-    "gd1983-10-21.nak300.morris.102063.sbeok.flac16",
     "gd1983-10-21.mtx.seamons.105419.flac16",
     "gd1983-10-21.aud.silberman.348.shnf",
+    "gd83-10-21.ficca-brennan.markezin.19516.sbeok.shnf",
     "gd1983-10-21.139515.FOB.Senn.Silberman.Gastwirt.Miller.Noel.t-flac.16",
     "gd1983-10-21.set2.akg.mow.ford.28888.flac16",
     "gd1983-10-21.137332.senn421.miller.flac16",
@@ -188,25 +201,24 @@
     "gd1983-10-21.156193.senn441.silberman.gastwirt.miller.flac16",
     "gd1983-10-21.164901.senn441.neumann.u87.blend.eaton.miller.clugston.flac1648",
     "gd1983-10-21.164902.senn441.neumann.u87.blend.eaton.miller.clugston.flac2496",
+    "gd1983-10-21.aud.morris.111059.sbeok.flac24",
     "gd1983-10-21.beyer-nak.friend.111507.flac2448",
-    "gd1983-10-21.fob.atm11.chasingwilma.102126.flac16"
+    "gd1983-10-21.fob.atm11.chasingwilma.102126.flac16",
+    "gd1983-10-21.nak300.morris.102063.sbeok.flac16"
   ],
   "best_recording": "gd83-10-21.sbd.bertha-ashley.24998.sbeok.shnf",
-  "avg_rating": 3.6454112787356316,
+  "avg_rating": 3.816005581024517,
   "raw_rating": 4.328735632183908,
   "recording_count": 26,
   "confidence": 1.0,
   "total_high_ratings": 78,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 7,
+    "SBD": 4,
     "MATRIX": 1,
-    "AUD": 3,
+    "AUD": 6,
     "UNKNOWN": 15
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "30-trips-around-the-sun"
-  ]
+  "filtering_applied": []
 }

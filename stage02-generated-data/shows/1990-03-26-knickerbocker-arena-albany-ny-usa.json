@@ -162,6 +162,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:05:45.359543",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12151903/b900326.jpeg",
+      "filename": "b900326.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12151046/t900326.jpeg",
+      "filename": "t900326.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12152302/19900324.jpeg",
+      "filename": "19900324.jpeg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12152302/19900324.jpeg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd1990-03-26.FM.Fitzy.Keo.126789.Flac1644",
@@ -172,15 +193,15 @@
     "gd1990-03-26.sbd.griesman.6697.sbeok.shnf",
     "gd1990-03-26.135497.sbd.miller.flac16",
     "gd1990-03-26.sbd.miller.87350.sbeok.flac16",
-    "gd1990-03-26.aud.gidley.91916.sbeok.flac16",
-    "gd1990-03-26.122542.mk21.sbeok.flac16",
     "gd1990-03-26.161587.UltraMatrix.sbd.cm.miller.t.flac1644",
     "gd1990-03-26.sbd.hollister.7509.shnf",
     "gd1990-03-26.127210.mtx.dusborne.flac16",
     "gd1990-03-26.160431.ultramatrix.miller.flac2496",
     "gd1990-03-26.161120.ultramatrix.miller.flac2496",
+    "gd1990-03-26.aud.gidley.91916.sbeok.flac16",
     "gd1990-03-26.sennME80.wklitz.94411.flac16",
     "gd1990-03-26.122541.mk21.48khz.flac16",
+    "gd1990-03-26.122542.mk21.sbeok.flac16",
     "gd1990-03-26.133045.122541-fix.mattes.48khz.flac16",
     "gd1990-03-26.135063.bltz.flac2496",
     "gd1990-03-26.141115.OTS.AKG.Akerman.Miller.Noel.t-flac1648",
@@ -190,7 +211,7 @@
     "gd1990-03-26.AKG451.Berger.Currier.Keo.120943.Flac1644"
   ],
   "best_recording": "gd1990-03-26.FM.Fitzy.Keo.126789.Flac1644",
-  "avg_rating": 3.373161764705882,
+  "avg_rating": 3.3869402985074624,
   "raw_rating": 4.666666666666666,
   "recording_count": 24,
   "confidence": 1.0,
@@ -198,10 +219,10 @@
   "total_low_ratings": 0,
   "source_types": {
     "FM": 4,
-    "SBD": 8,
+    "SBD": 6,
     "MATRIX": 3,
-    "UNKNOWN": 8,
-    "REMASTER": 1
+    "AUD": 3,
+    "UNKNOWN": 8
   },
   "matching_method": "date_only",
   "filtering_applied": []

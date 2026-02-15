@@ -162,26 +162,37 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:02:33.491558",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/10/12151116/t881021.jpeg",
+      "filename": "t881021.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd88-10-21.dsbd.miller.30814.sbeok.flacf",
-    "gd88-10-21.aud.ford-bryson.31108.sbeok.flacf",
     "gd88-10-21.sbd.dodd.16188.sbeok.shnf",
+    "gd88-10-21.aud.ford-bryson.31108.sbeok.flacf",
     "gd1988-10-21.141026.cmc4-mk4.ebel.flac1644",
     "gd1988-10-21.141657.schoeps.cmc3.mk41.pcm.mattes.miller.clugston.flac1644",
     "gd1988-10-21.FOB.UnkRealistic.White.Keo.116360.Flac2496",
     "gd1988-10-21.FOB.UnkRealistic.White.Keo.116361.Flac1644"
   ],
   "best_recording": "gd88-10-21.dsbd.miller.30814.sbeok.flacf",
-  "avg_rating": 2.2203985507246378,
+  "avg_rating": 2.2121063651591286,
   "raw_rating": 4.193840579710145,
   "recording_count": 7,
   "confidence": 1.0,
   "total_high_ratings": 18,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 4
+    "SBD": 2,
+    "AUD": 3,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

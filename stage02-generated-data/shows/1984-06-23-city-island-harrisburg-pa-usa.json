@@ -167,16 +167,35 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:51:38.693764",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152036/b840623.jpg",
+      "filename": "b840623.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151307/t840623.jpg",
+      "filename": "t840623.jpg",
+      "side": "front"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151307/t840623b.jpg",
+      "filename": "t840623b.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd84-06-23.senn.miller.14951.sbeok.shnf",
     "gd1984-06-23.140159.sbd.eaton.miller.clugston.flac1648",
-    "gd1984-06-23.beyerm201.holbrook.burke.81280.sbeok.flac16",
-    "gd84-06-23.naks.willy.14566.sbeok.shnf",
-    "gd84-06-23.aud.cohen.minches.18226.sbeok.shnf",
+    "gd84-06-23.senn.miller.14951.sbeok.shnf",
     "gd1984-06-23.166999.neumann.u87.akg414.blend.eaton.miller.clugston.flac1648",
     "gd1984-06-23.109812.beyer-senn-daweez.D5scott.flac16",
     "gd1984-06-23.141597.FOB.Senn441.Ackerman.Miller.Noel.t-flac1644",
+    "gd1984-06-23.beyerm201.holbrook.burke.81280.sbeok.flac16",
+    "gd84-06-23.naks.willy.14566.sbeok.shnf",
     "gd1984-06-23.124088.chasingwilma.flac24",
     "gd1984-06-23.138873.aud.lamarre.berger.flac16",
     "gd1984-06-23.138874.aud.lamarre.berger.flac24",
@@ -185,19 +204,20 @@
     "gd1984-06-23.164770.senn421.vita.miller.clugston.flac1648",
     "gd1984-06-23.164771.senn421.vita.miller.clugston.flac2496",
     "gd1984-06-23.167000.neumann.u87.akg414.blend.eaton.miller.clugston.flac2496",
-    "gd1984-06-23.beyerm201.holbrook.burke.81548.flac24"
+    "gd1984-06-23.beyerm201.holbrook.burke.81548.flac24",
+    "gd84-06-23.aud.cohen.minches.18226.sbeok.shnf"
   ],
-  "best_recording": "gd84-06-23.senn.miller.14951.sbeok.shnf",
-  "avg_rating": 1.4991315136476426,
+  "best_recording": "gd1984-06-23.140159.sbd.eaton.miller.clugston.flac1648",
+  "avg_rating": 1.5031410256410258,
   "raw_rating": 3.283216783216783,
   "recording_count": 17,
   "confidence": 1.0,
   "total_high_ratings": 10,
   "total_low_ratings": 5,
   "source_types": {
-    "SBD": 5,
-    "UNKNOWN": 10,
-    "AUD": 2
+    "SBD": 1,
+    "UNKNOWN": 11,
+    "AUD": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

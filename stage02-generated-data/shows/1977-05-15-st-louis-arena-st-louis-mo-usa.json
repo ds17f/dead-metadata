@@ -172,29 +172,40 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:33:25.856567",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152149/b770515.jpg",
+      "filename": "b770515.jpg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1977-05-15.sbd.bertha.31605.sbeok.flac24",
     "gd77-05-15.sbd.gorinsky.7008.sbeok.shnf",
-    "gd1977-05-15.28916.sbeok.flac16",
-    "gd1977-05-15.mtx.sirmick.91911.sbeok.flac16",
     "gd1977-05-15.sbd.unknown.18333.shnf",
+    "gd1977-05-15.mtx.sirmick.91911.sbeok.flac16",
+    "gd1977-05-15.28916.sbeok.flac16",
     "gd1977-05-15.aud.maizner.berger.99098.flac24",
     "gd1977-05-15.aud.maizner.berger.99099.flac16",
     "gd1977-05-15.164607.fob.sony.gatto.mckenzie.miller.clugston.flac1644",
     "gd1977-05-15.aud.maizner.minches.84714.flac16"
   ],
   "best_recording": "gd1977-05-15.sbd.bertha.31605.sbeok.flac24",
-  "avg_rating": 2.992634146341463,
-  "raw_rating": 4.583333333333334,
+  "avg_rating": 3.2075333333333336,
+  "raw_rating": 4.583333333333333,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 82,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 5,
-    "AUD": 3,
-    "UNKNOWN": 1
+    "SBD": 3,
+    "MATRIX": 1,
+    "UNKNOWN": 1,
+    "AUD": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

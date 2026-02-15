@@ -152,15 +152,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:55:30.621413",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152010/b860214.jpg",
+      "filename": "b860214.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151223/t860214.jpg",
+      "filename": "t860214.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd86-02-14.sbd.miller.11625.sbeok.shnf",
     "gd1986-02-14.142427.sbd.pcm.miller.flac1644",
     "gd1986-02-14.sbd.gans.miller.10921.shnf",
-    "gd86-02-14.beyerM88.connor.29477.sbeok.flacf",
     "gd1986-02-14.sbd.lai.382.shnf",
     "gd1986-02-14.150566.mtx.seamons.ht123.flac16",
     "gd1986-02-14.166565.mtx.tobin.flac16",
+    "gd86-02-14.beyerM88.connor.29477.sbeok.flacf",
     "gd1986-02-14.140227.fob.schoeps.cmc4.mk41.oade.wise.miller.clugston.flac1644",
     "gd1986-02-14.166564.PandP-aud.tobin.flac16",
     "gd1986-02-14.166566.dts.tobin.flac16",
@@ -169,17 +184,17 @@
     "gd1986-02-14.Senn421.Darby.119392.Flac1644"
   ],
   "best_recording": "gd86-02-14.sbd.miller.11625.sbeok.shnf",
-  "avg_rating": 3.7908,
+  "avg_rating": 3.9115384615384614,
   "raw_rating": 4.5,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 26,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
+    "SBD": 4,
     "MATRIX": 2,
     "UNKNOWN": 5,
-    "AUD": 1
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

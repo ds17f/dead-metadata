@@ -162,14 +162,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:09:42.779164",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151831/b910905.jpeg",
+      "filename": "b910905.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151007/t910905.jpeg",
+      "filename": "t910905.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-09-05.sbd.gardner.5559.sbeok.shnf",
-    "gd1991-09-05.mtx.sirmick.92785.sbeok.flac16",
     "gd1991-09-05.sbd.gardner.barberi-fix.121620.sbefixed.flac16",
     "gd1991-09-05.150030.sbd.miller.flac2496",
     "gd1991-09-05.150285.sbd.cm.miller.flac1644",
     "gd1991-09-05.132961.mtx.dusborne.flac16",
+    "gd1991-09-05.mtx.sirmick.92785.sbeok.flac16",
     "gd1991-09-05.147491.mtx.tobin.flac16",
     "gd1991-09-05.fob.GEMS.91803.flac16",
     "gd1991-09-05.132811.at835b.cdipietro.flac",
@@ -182,16 +197,17 @@
     "gd1991-09-05.sennME80.wklitz.94300.flac16"
   ],
   "best_recording": "gd91-09-05.sbd.gardner.5559.sbeok.shnf",
-  "avg_rating": 3.3558027812895066,
+  "avg_rating": 3.2902179176755455,
   "raw_rating": 4.153061224489796,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 10,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
-    "MATRIX": 2,
-    "UNKNOWN": 9
+    "SBD": 4,
+    "MATRIX": 3,
+    "AUD": 3,
+    "UNKNOWN": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

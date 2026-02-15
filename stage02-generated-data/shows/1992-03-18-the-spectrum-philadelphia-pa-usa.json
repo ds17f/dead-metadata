@@ -162,32 +162,48 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:11:09.211104",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/03/12151821/b920318.jpeg",
+      "filename": "b920318.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/03/12150953/t920318.jpeg",
+      "filename": "t920318.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd92-03-18.akg460.gardner.9756.sbeok.shnf",
     "gd1992-03-18.141628.sbd.miller.flac2496",
-    "gd1992-03-18.111290.nak300.bleich-sirmick.sbeok.flac16",
-    "gd1992-03-18.nak300.carpenter.andrewf.90077.sbeok.flac16",
     "gd1992-03-18.141800.sbd.cm.miller.flac1644",
     "gd1992-03-18.154885.mtx.tobin.flac16",
+    "gd92-03-18.akg460.gardner.9756.sbeok.shnf",
+    "gd1992-03-18.111290.nak300.bleich-sirmick.sbeok.flac16",
     "gd1992-03-18.139655.fob.akg.414.wise.miller.clugston.flac1648",
     "gd1992-03-18.155834.FOBSchoepsMasterDAT.BrotmanMetchickAnonNoel.t-flac1648",
+    "gd1992-03-18.nak300.carpenter.andrewf.90077.sbeok.flac16",
     "gd1992-03-18.148368.boedicker.flac16",
     "gd1992-03-18.148410.fob.BK4011.ebel.flac16",
     "gd1992-03-18.154886.dts.tobin.flac16",
     "gd1992-03-18.154887.5-1.tobin.flac1648"
   ],
-  "best_recording": "gd92-03-18.akg460.gardner.9756.sbeok.shnf",
-  "avg_rating": 1.4733333333333334,
+  "best_recording": "gd1992-03-18.141628.sbd.miller.flac2496",
+  "avg_rating": 1.5533333333333335,
   "raw_rating": 3.5555555555555554,
   "recording_count": 12,
   "confidence": 0.9,
   "total_high_ratings": 7,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
+    "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 6
+    "UNKNOWN": 7,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

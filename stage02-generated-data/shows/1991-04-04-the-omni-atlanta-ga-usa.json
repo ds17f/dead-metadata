@@ -162,12 +162,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:08:29.306185",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/04/12151841/b910404.jpeg",
+      "filename": "b910404.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/04/12151018/t910404.jpeg",
+      "filename": "t910404.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1991-04-04.sbd.miller.99240.sbeok.flac16",
-    "gd91-04-04.akg.dodd.15548.sbeok.shnf",
     "gd1991-04-04.152093.UltraMatrix.sbd.cm.miller.t.flac16",
     "gd1991-04-04.152022.ultramatrix.miller.flac2496",
+    "gd91-04-04.akg.dodd.15548.sbeok.shnf",
     "gd1991-04-04.at835.dipietro.31954.sbefail.flac16",
     "gd1991-04-04.akg.dodd.larson.patch-15548.24711.shnf",
     "gd1991-04-04.fob.schoepsCMC34.unknown.GEMS.93472.flac16",
@@ -181,16 +196,17 @@
     "gd1991-04-04.Nak300CP4Senn441.Floater.Keo.112310.Flac1644"
   ],
   "best_recording": "gd1991-04-04.sbd.miller.99240.sbeok.flac16",
-  "avg_rating": 3.0304245283018876,
+  "avg_rating": 3.06439393939394,
   "raw_rating": 4.1000000000000005,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 22,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 3,
+    "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 11
+    "UNKNOWN": 9,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

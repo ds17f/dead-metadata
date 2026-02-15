@@ -157,15 +157,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:03:07.363310",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/03/12151922/b890331.jpeg",
+      "filename": "b890331.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/03/12151110/t890331.jpeg",
+      "filename": "t890331.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-03-31.sbd.eD.16666.sbeok.shnf",
     "gd1989-03-31.sbd.miller.32349.sbeok.flac16",
-    "gd89-03-31.schoeps-fob.childer.3826.sbeok.shnf",
-    "gd1989-03-31.nak300.bleich.sirmick.95221.sbeok.flac16",
     "gd1989-03-31.147823.sbd.ultramatrix.miller.flac24",
     "gd1989-03-31.148151.UltraMatrix.sbd.cm.miller.flac16",
     "gd1989-03-31.149811.mtx.tobin.flac16",
+    "gd89-03-31.schoeps-fob.childer.3826.sbeok.shnf",
+    "gd1989-03-31.nak300.bleich.sirmick.95221.sbeok.flac16",
     "gd1989-03-31.133938.akg414btl-fob-dantepper.flac16",
     "gd1989-03-31.138065.mk21.Hillwig-Stubbe.flac1648",
     "gd1989-03-31.140966.schoeps.cmc4.mk4.pcm.mattes.miller.clugston.flac1644",
@@ -177,16 +192,16 @@
     "gd1989-03-31.AKG100.Baker.Keo.125426.Flac1644"
   ],
   "best_recording": "gd89-03-31.sbd.eD.16666.sbeok.shnf",
-  "avg_rating": 3.900732600732601,
+  "avg_rating": 4.043905635648755,
   "raw_rating": 4.241758241758242,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 31,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 6,
+    "SBD": 4,
     "MATRIX": 1,
-    "UNKNOWN": 9
+    "UNKNOWN": 11
   },
   "matching_method": "date_only",
   "filtering_applied": []

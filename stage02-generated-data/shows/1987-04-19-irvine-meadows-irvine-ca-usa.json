@@ -172,30 +172,47 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:57:48.684494",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/04/12151955/b870419.jpeg",
+      "filename": "b870419.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/04/12151202/t870419.jpeg",
+      "filename": "t870419.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd87-04-19.sbd.clugston.11883.sbeok.shnf",
-    "gd87-04-19.matrix.ladner.3822.sbeok.shnf",
     "gd1987-04-19.sbd.walker-scotton.miller.83734.sbeok.flac16",
     "gd1987-04-19.135967.dsbd.GEMS.flac16",
     "gd1987-04-19.sbd-mtx.lemon2.3893.sbeok.shnf",
     "gd1987-04-19.142119.sbd.miller.flac2496",
     "gd1987-04-19.142134.UltraMatrix.sbd.cm.miller.flac1644",
-    "gd1987-04-19.beyer.connor.34964.sbeok.flac16",
+    "gd87-04-19.matrix.ladner.3822.sbeok.shnf",
     "gd1987-04-19.aud.corso.ford.lmpp.98052.flac16",
     "gd1987-04-19.151129.aud.lohr.vernon.flac1648",
-    "gd1987-04-19.151130.aud.lohr.vernon.flac2496"
+    "gd1987-04-19.151130.aud.lohr.vernon.flac2496",
+    "gd1987-04-19.beyer.connor.34964.sbeok.flac16"
   ],
   "best_recording": "gd87-04-19.sbd.clugston.11883.sbeok.shnf",
-  "avg_rating": 3.741208791208791,
+  "avg_rating": 3.7523943661971835,
   "raw_rating": 4.416666666666667,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 35,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 8,
-    "AUD": 3
+    "SBD": 6,
+    "MATRIX": 1,
+    "AUD": 3,
+    "UNKNOWN": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

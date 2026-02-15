@@ -152,15 +152,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:14:59.334426",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/09/12151752/b930928.jpeg",
+      "filename": "b930928.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/09/12150911/t930928.jpeg",
+      "filename": "t930928.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd93-09-28.aud-sbd.miller.12850.sbeok.shnf",
     "gd1993-09-28.sbd.miller.79058.sbeok.flac16",
-    "gd93-09-28.schoeps.pujol.12378.sbeok.shnf",
-    "gd1993-09-28.126746.mtx-redo2.eichorn.sbeok.t-flac16",
     "gd1993-09-28.125461.-redo.mtx.eichorn.sbeok.t-flac16",
     "gd1993-09-28.125382.mtx.eichorn.sbeok.t-flac16",
     "gd1993-09-28.172811.mtx.eichorn2025.143772.t-flac1644",
+    "gd93-09-28.schoeps.pujol.12378.sbeok.shnf",
+    "gd1993-09-28.126746.mtx-redo2.eichorn.sbeok.t-flac16",
     "gd1993-09-28.128694.boedicker.flac16",
     "gd1993-09-28.139981.aud.lamarre.berger.flac1648",
     "gd1993-09-28.140131.schoeps.cmc4.mk4.gastwirt.miller.clugston.flac1648",
@@ -171,16 +186,16 @@
     "gd1993-09-28.neumann.larson.28899.shnf"
   ],
   "best_recording": "gd93-09-28.aud-sbd.miller.12850.sbeok.shnf",
-  "avg_rating": 1.9594202898550726,
+  "avg_rating": 2.0248704663212433,
   "raw_rating": 3.623188405797101,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 13,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 6,
-    "MATRIX": 1,
-    "UNKNOWN": 7,
+    "SBD": 2,
+    "MATRIX": 3,
+    "UNKNOWN": 9,
     "AUD": 1
   },
   "matching_method": "date_only",

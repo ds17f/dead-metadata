@@ -162,20 +162,35 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:50:10.457754",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152046/b831012.jpg",
+      "filename": "b831012.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151322/t831012.jpg",
+      "filename": "t831012.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd83-10-12.sbd.harrell.8112.sbeok.shnf",
-    "gd83-10-12.aud.gustin.345.sbeok.shnf",
-    "gd1983-10-12.senn441-u87.eaton.miller.91125.sbeok.flac16",
     "gd1983-10-12.mtx.groves.92461.sbeok.flac16",
-    "gd1983-10-12.senn441.chasingwilma.101954.sbeok.flac16",
     "gd1983-10-12.135251.mtx.dusborne.flac16",
     "gd1983-10-12.168943.mtx.seamons.ht171.flac16",
+    "gd83-10-12.aud.gustin.345.sbeok.shnf",
+    "gd1983-10-12.senn441-u87.eaton.miller.91125.sbeok.flac16",
     "gd1983-10-12.137302.senn421.miller.flac24",
     "gd1983-10-12.137323.senn421.miller.flac16",
     "gd1983-10-12.neumannU87-senn421.lance.30827.flac16",
     "gd1983-10-12.senn421.grabski.33340.flac16",
     "gd1983-10-12.117774.Sennheiser421.daweez.d5scott.flac16",
+    "gd1983-10-12.senn441.chasingwilma.101954.sbeok.flac16",
     "gd1983-10-12.122216.senn.chaisingwilma.flac24",
     "gd1983-10-12.135289.Unk-Nak100-Hill.Keo.Flac2496",
     "gd1983-10-12.135290.Unk-Nak100-Hill.Keo.Flac1644",
@@ -190,20 +205,18 @@
     "gd1983-10-12.beyerm160.rumrunners.99070.shnf"
   ],
   "best_recording": "gd83-10-12.sbd.harrell.8112.sbeok.shnf",
-  "avg_rating": 3.048214285714286,
+  "avg_rating": 3.185976272862087,
   "raw_rating": 4.394274376417234,
   "recording_count": 24,
   "confidence": 1.0,
   "total_high_ratings": 35,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
-    "MATRIX": 2,
+    "SBD": 1,
+    "MATRIX": 3,
+    "AUD": 3,
     "UNKNOWN": 17
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "in-out-of-the-garden-msg-81-83"
-  ]
+  "filtering_applied": []
 }

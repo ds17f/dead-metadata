@@ -167,26 +167,38 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:35:56.409874",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151517/t780507.jpg",
+      "filename": "t780507.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd78-05-07.sbd.vernon.8327.sbeok.shnf",
+    "gd1978-05-07.sbd.vernon.tetzeli.patch-8327.80126.sbeok.shnf",
     "gd1978-05-07.130513.mtx.eichorn.sbeok.t-flac16",
     "gd78-05-07.sony.vernon.8763.sbeok.shnf",
     "gd1978-05-07.fob.glassberg.motb.83498.sbeok.flac16",
     "gd78-05-07.glassberg.vernon.18672.sbeok.shnf",
-    "gd1978-05-07.sbd.vernon.tetzeli.patch-8327.80126.sbeok.shnf",
     "gd1978-05-07.152545.aud.petrunis.flac1644"
   ],
   "best_recording": "gd78-05-07.sbd.vernon.8327.sbeok.shnf",
-  "avg_rating": 3.6000000000000005,
+  "avg_rating": 3.805093833780161,
   "raw_rating": 4.416666666666667,
   "recording_count": 7,
   "confidence": 1.0,
   "total_high_ratings": 42,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 6,
-    "AUD": 1
+    "SBD": 2,
+    "MATRIX": 1,
+    "UNKNOWN": 2,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -167,26 +167,42 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:40:17.861807",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152133/b800330.jpg",
+      "filename": "b800330.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151447/t800330.jpg",
+      "filename": "t800330.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd80-03-30.sbd.miller.27752.sbeok.flacf",
-    "gd80-03-30.glassberg.barbella.4740.sbeok.shnf",
     "gd1980-03-30.sbd.miller.92666.sbeok.flac16",
     "gd1980-03-30.mtx.motb.96455.flac16",
+    "gd80-03-30.glassberg.barbella.4740.sbeok.shnf",
     "gd1980-03-30.fob.glassberg.motb-0082.96014.flac16",
     "gd1980-03-30.fob.glassberg.motb-0082.96015.flac24"
   ],
   "best_recording": "gd80-03-30.sbd.miller.27752.sbeok.flacf",
-  "avg_rating": 2.7254659090909095,
+  "avg_rating": 2.9295596590909088,
   "raw_rating": 3.8636363636363633,
   "recording_count": 6,
   "confidence": 1.0,
   "total_high_ratings": 17,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 3,
+    "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 2
+    "UNKNOWN": 1,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

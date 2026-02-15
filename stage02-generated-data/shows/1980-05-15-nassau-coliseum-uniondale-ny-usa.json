@@ -172,22 +172,32 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:40:50.435170",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151444/t800515.jpg",
+      "filename": "t800515.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1980-05-15.16.144275.fm.kbfh.beckwith.smith.miller.clugston.flac2496",
     "gd1980-05-15.16.144274.fm.kbfh.beckwith.smith.miller.clugston.flac1648",
     "gd1980-05-15.sbd.cantor.miller.93426.sbeok.flac16",
-    "gd80-05-15.aud.schlissel.12790.sbeok.shnf",
-    "gd1980-05-15.aud.long.34721.sbeok.sbeok.flac16",
     "gd1980-05-15.126692.mtx.dusborne.flac16",
+    "gd80-05-15.aud.schlissel.12790.sbeok.shnf",
     "gd1980-05-15.fob.glassberg.motb-0097.103182.flac16",
     "gd1980-05-15.126082.ecm280.wise.minches.flac2496",
     "gd1980-05-15.fob.glassberg.motb-0097.103183.flac24",
     "gd1980-05-15.150725.fob.nak700.wagner.clugston.miller.flac16",
-    "gd1980-05-15.150726.fob.nak700.wagner.miller.clugston.flac24"
+    "gd1980-05-15.150726.fob.nak700.wagner.miller.clugston.flac24",
+    "gd1980-05-15.aud.long.34721.sbeok.sbeok.flac16"
   ],
   "best_recording": "gd1980-05-15.16.144275.fm.kbfh.beckwith.smith.miller.clugston.flac2496",
-  "avg_rating": 3.3838709677419345,
+  "avg_rating": 3.325352112676056,
   "raw_rating": 4.222222222222222,
   "recording_count": 11,
   "confidence": 1.0,
@@ -195,9 +205,10 @@
   "total_low_ratings": 0,
   "source_types": {
     "FM": 2,
-    "SBD": 3,
+    "SBD": 1,
     "MATRIX": 1,
-    "UNKNOWN": 5
+    "AUD": 6,
+    "UNKNOWN": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -157,6 +157,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:09:01.249006",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/06/12151836/b910607.jpeg",
+      "filename": "b910607.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/06/12151013/t910607.jpeg",
+      "filename": "t910607.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-06-07.sbd.miller.18712.sbeok.shnf",
@@ -172,7 +187,7 @@
     "gd1991-06-07.AKG451.Darby.118759.Flac2448"
   ],
   "best_recording": "gd91-06-07.sbd.miller.18712.sbeok.shnf",
-  "avg_rating": 3.0164702380952377,
+  "avg_rating": 2.996512092979484,
   "raw_rating": 4.164980158730159,
   "recording_count": 11,
   "confidence": 1.0,
@@ -180,7 +195,8 @@
   "total_low_ratings": 3,
   "source_types": {
     "SBD": 4,
-    "UNKNOWN": 7
+    "UNKNOWN": 6,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

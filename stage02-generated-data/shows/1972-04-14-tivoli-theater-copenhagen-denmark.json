@@ -222,30 +222,44 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:24:36.366912",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151623/t720414.jpg",
+      "filename": "t720414.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2019/12/12152522/grateful-dead_19.jpg",
+      "filename": "grateful-dead_19.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2019/12/12152522/grateful-dead_19-360x360.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd1972-04-14.sbd.miller-repitched.76006.flac16",
     "gd1972-04-14.sbd.ashley-field.34931.sbeok.flac16",
     "gd72-04-14.sbd.hurwitt.8828.sbeok.shnf",
     "gd1972-04-14.sbd.miller.34552.sbeok.flac16",
-    "gd72-04-14.aud.vernon.23662.sbeok.shnf",
     "gd1972-04-14.sbd.sacks.140.shnf",
-    "gd1972-04-14.136980.mtx.dusborne.flac16"
+    "gd1972-04-14.136980.mtx.dusborne.flac16",
+    "gd72-04-14.aud.vernon.23662.sbeok.shnf"
   ],
   "best_recording": "gd1972-04-14.sbd.miller-repitched.76006.flac16",
-  "avg_rating": 4.633186983471074,
+  "avg_rating": 4.667266502808989,
   "raw_rating": 4.812885802469136,
   "recording_count": 7,
   "confidence": 1.0,
   "total_high_ratings": 78,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 6,
-    "MATRIX": 1
+    "SBD": 5,
+    "MATRIX": 1,
+    "AUD": 1
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "europe-72-complete-recordings"
-  ]
+  "filtering_applied": []
 }

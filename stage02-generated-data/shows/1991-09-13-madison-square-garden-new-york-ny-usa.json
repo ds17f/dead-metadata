@@ -157,18 +157,33 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:09:55.306737",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151829/b910913.jpeg",
+      "filename": "b910913.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151006/t910913.jpeg",
+      "filename": "t910913.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-09-13.sbd.kowalski.520.sbeok.shnf",
     "gd91-09-13.sbd.hinko.31244.sbeok.flacf",
-    "gd1991-09-13.138572.Schoeps-cmc4-mk4-ortf.gastwirt.miller.sirmick.sbeok.flac16",
-    "gd1991-09-13.nak300.bleich-sirmick.111224.sbeok.flac16",
     "gd1991-09-13.sbd.kowalski.tetzeli.fix-520.34679.reflac.flac16",
     "gd1991-09-13.149790.sbd.pearson-healy.miller.flac2496",
     "gd1991-09-13.149851.sbd.cm.miller.flac16",
     "gd1991-09-13.141921.mtx.photoLeon.t-flac1644",
     "gd1991-09-13.110642.dmtx.hansokolow.flac16",
     "gd1991-09-13.fob.brennecke-young.GEMS.97387.flac16",
+    "gd1991-09-13.138572.Schoeps-cmc4-mk4-ortf.gastwirt.miller.sirmick.sbeok.flac16",
+    "gd1991-09-13.nak300.bleich-sirmick.111224.sbeok.flac16",
     "gd1991-09-13.147304.FOB.bk4011.dalton.miller.sirmick.flac1648",
     "gd1991-09-13.150956.senn-me88.rogosa.miller.sirmick.flac1648",
     "gd1991-09-13.167488.me88.rogosa.flac1644",
@@ -176,16 +191,17 @@
     "gd1991-09-13.nak300.gidley.122120.flac2448"
   ],
   "best_recording": "gd91-09-13.sbd.kowalski.520.sbeok.shnf",
-  "avg_rating": 2.8465968586387436,
+  "avg_rating": 2.8823529411764706,
   "raw_rating": 3.5217391304347827,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 16,
   "total_low_ratings": 4,
   "source_types": {
-    "SBD": 7,
+    "SBD": 5,
     "MATRIX": 1,
-    "UNKNOWN": 7
+    "UNKNOWN": 7,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

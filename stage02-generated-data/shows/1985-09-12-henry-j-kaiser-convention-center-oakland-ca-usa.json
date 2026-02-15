@@ -162,12 +162,32 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:54:36.646223",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152016/b850912.jpg",
+      "filename": "b850912.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151234/t850912.jpg",
+      "filename": "t850912.jpg",
+      "side": "front"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151233/t850912b.jpg",
+      "filename": "t850912b.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-09-12.sbd.barbella.11803.sbeok.shnf",
     "gd1985-09-12.upg.sbd.tobin.123886.flac16",
-    "gd1985-09-12.beyerM88.connor.77181.sbeok.flac16",
     "gd1985-09-12.123888.mtx.tobin.flac16",
+    "gd1985-09-12.beyerM88.connor.77181.sbeok.flac16",
     "gd1985-09-12.144569.5-1.tobin.flac1648",
     "gd1985-09-12.142801.aud.bryant.miller.sirmick.flac2496",
     "gd1985-09-12.145494.aud.bryant.miller.sirmick.flac16",
@@ -179,17 +199,17 @@
     "gd1985-09-12.upg-aud.tobin.123887.flac16"
   ],
   "best_recording": "gd85-09-12.sbd.barbella.11803.sbeok.shnf",
-  "avg_rating": 3.3865027322404364,
+  "avg_rating": 3.506167664670658,
   "raw_rating": 4.296296296296296,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 17,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 3,
+    "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 6,
-    "AUD": 3
+    "UNKNOWN": 5,
+    "AUD": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

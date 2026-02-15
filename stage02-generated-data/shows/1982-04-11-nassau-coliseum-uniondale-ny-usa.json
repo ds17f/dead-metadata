@@ -167,16 +167,36 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:46:40.398341",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152103/b820411.jpg",
+      "filename": "b820411.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152103/b820411b.jpg",
+      "filename": "b820411b.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151358/t820411.jpg",
+      "filename": "t820411.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1982-04-11.sbd.miller.108852.flac16",
-    "gd1982-04-11.nak300.morris.102037.sbeok.flac16",
     "gd1982-04-11.137976.mtx.dusborne.flac16",
     "gd82-04-11.fob-senn421-wise.sacks.6959.sbefail.shnf",
     "gd1982-04-11.144611.aud.lamarre.berger.flac2444",
     "gd1982-04-11.144612.aud.lamarre.berger.flac2496",
     "gd1982-04-11.155626.set2.beyer.m88.vita.miller.clugston.flac1648",
     "gd1982-04-11.155627.set2.beyer.m88.vita.miller.clugston.flac2496",
+    "gd1982-04-11.nak300.morris.102037.sbeok.flac16",
     "gd1982-04-11.nak300.morrone.114002.flac1644"
   ],
   "best_recording": "gd1982-04-11.sbd.miller.108852.flac16",
@@ -187,9 +207,9 @@
   "total_high_ratings": 7,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 2,
+    "SBD": 1,
     "MATRIX": 1,
-    "UNKNOWN": 4,
+    "UNKNOWN": 5,
     "AUD": 2
   },
   "matching_method": "date_only",

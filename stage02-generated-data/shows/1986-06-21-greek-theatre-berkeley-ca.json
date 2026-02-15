@@ -162,16 +162,25 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:56:24.872627",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151213/t860621.jpg",
+      "filename": "t860621.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd86-06-21.sbd.brame.15406.sbeok.shnf",
-    "gd86-06-21.oade-schoeps.sacks.21924.sbeok.flacf",
-    "gd86-06-21.senn.eD.13063.sbeok.shnf",
     "gd1986-06-21.sbd-set1-pcm.miller.81011.flac16",
     "gd1986-06-21.sbd.miller.81518.flac16",
-    "gd1986-06-21.fob.schoeps.grace-szvetecz.gems.98673.sbeok.flac16",
     "gd1986-06-21.141789.mtx.tobin.flac1644",
     "gd1986-06-21.mtx.sirmick.35035.flac16",
+    "gd86-06-21.oade-schoeps.sacks.21924.sbeok.flacf",
+    "gd86-06-21.senn.eD.13063.sbeok.shnf",
     "gd1986-06-21.139049.aud.lamarre.berger.flac16",
     "gd1986-06-21.139050.aud.lamarre.berger.flac24",
     "gd1986-06-21.141790.dts.tobin.flac1644",
@@ -187,20 +196,21 @@
     "gd1986-06-21.156952.akgc422.davis-holbrook.flac1644",
     "gd1986-06-21.156953.akgc422.davis-holbrook.flac2448",
     "gd1986-06-21.Senn421sNak300CP4s.Darby.117828.Flac2448",
-    "gd1986-06-21.Senn421sNak300CP4s.Darby.117829.Flac1644"
+    "gd1986-06-21.Senn421sNak300CP4s.Darby.117829.Flac1644",
+    "gd1986-06-21.fob.schoeps.grace-szvetecz.gems.98673.sbeok.flac16"
   ],
   "best_recording": "gd86-06-21.sbd.brame.15406.sbeok.shnf",
-  "avg_rating": 2.4375,
+  "avg_rating": 2.5552083333333333,
   "raw_rating": 3.55,
   "recording_count": 24,
   "confidence": 1.0,
   "total_high_ratings": 14,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 6,
+    "SBD": 3,
     "MATRIX": 2,
-    "AUD": 2,
-    "UNKNOWN": 14
+    "UNKNOWN": 16,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

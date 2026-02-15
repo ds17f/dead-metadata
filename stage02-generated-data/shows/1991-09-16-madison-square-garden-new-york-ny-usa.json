@@ -162,16 +162,31 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:09:59.264474",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151829/b910916.jpeg",
+      "filename": "b910916.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151005/t910916.jpeg",
+      "filename": "t910916.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-09-16.sbd.kowalski.525.sbeok.shnf",
-    "gd91-09-16.bk4011.brennecke-young.4868.sbeok.shnf",
     "gd1991-09-16.135484.sbd.miller.flac16",
     "gd1991-09-16.149633.sbd.pearson-healy.miller.flac2496",
     "gd1991-09-16.149653.sbd.cm.miller.flac16",
     "gd1991-09-16.153419.mtx.photoleon.flac1644",
     "gd1991-09-16.mtx.haugh.100910.flac16",
     "gd1991-09-16.dts.mtx.haugh.100911.flac16",
+    "gd91-09-16.bk4011.brennecke-young.4868.sbeok.shnf",
     "gd1991-09-16.fob.brennecke-young.GEMS.97389.flac16",
     "gd1991-09-16.sennME80.wklitz.94246.flac16",
     "gd1991-09-16.139795.schoeps-cmc4-mk4-ortf.gastwirt.miller.sirmick.flac1648",
@@ -182,16 +197,17 @@
     "gd1991-09-16.nak300.gidley.121949.flac2448"
   ],
   "best_recording": "gd91-09-16.sbd.kowalski.525.sbeok.shnf",
-  "avg_rating": 3.0802941176470586,
+  "avg_rating": 3.1964367816091954,
   "raw_rating": 4.208333333333333,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 17,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
+    "SBD": 4,
     "MATRIX": 3,
-    "UNKNOWN": 8
+    "UNKNOWN": 8,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

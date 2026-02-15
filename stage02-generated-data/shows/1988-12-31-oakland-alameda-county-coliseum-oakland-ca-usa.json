@@ -175,22 +175,37 @@
     "Tom Tom Club"
   ],
   "collection_timestamp": "2025-08-10T09:02:44.807866",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/12/12151924/b881231.jpeg",
+      "filename": "b881231.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/12/12151115/t881231.jpeg",
+      "filename": "t881231.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1988-12-31.136731.pre-fm.GEMS.flac16",
     "gd1988-12-31.168751.FM.KFOG.ont.flac1644",
     "gd1988-12-31.sbd.walker-scotton.miller.85966.sbeok.flac16",
-    "gd88-12-31.matrix.unknown.3189.sbeok.shnf",
-    "gd88-12-31.matrix.ashley-bertha.9396.sbeok.shnf",
     "gd1988-12-31.140702.ultramatrix.sbd.pcm.miller.flac1644",
-    "gd1988-12-31.138904.s1.schoeps-cmc4-mk4.gastwirt.miller.sirmick.sbeok.flac16",
     "gd1988-12-31.152583.UltraMatrix.sbd.cm.miller.t.flac16",
     "gd1988-12-31.sbd-fm.holtz.lmpp.97786.sbeok.flac16",
+    "gd88-12-31.matrix.unknown.3189.sbeok.shnf",
+    "gd88-12-31.matrix.ashley-bertha.9396.sbeok.shnf",
     "gd1988-12-31.152286.ultramatrix.miller.flac2496",
+    "gd1988-12-31.138904.s1.schoeps-cmc4-mk4.gastwirt.miller.sirmick.sbeok.flac16",
     "gd1988-12-31.149469.nak300-cp4.boedicker.flac1644"
   ],
   "best_recording": "gd1988-12-31.136731.pre-fm.GEMS.flac16",
-  "avg_rating": 3.6362973760932946,
+  "avg_rating": 3.628365384615385,
   "raw_rating": 4.144736842105263,
   "recording_count": 11,
   "confidence": 1.0,
@@ -198,9 +213,9 @@
   "total_low_ratings": 2,
   "source_types": {
     "FM": 2,
-    "SBD": 7,
-    "MATRIX": 1,
-    "UNKNOWN": 1
+    "SBD": 4,
+    "MATRIX": 3,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

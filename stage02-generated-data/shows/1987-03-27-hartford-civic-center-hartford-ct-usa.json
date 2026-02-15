@@ -152,16 +152,31 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:57:20.708565",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/03/12151959/b870327.jpeg",
+      "filename": "b870327.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/03/12151205/t870327.jpeg",
+      "filename": "t870327.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1987-03-27.sbd.seaweed.111241.flac2448",
     "gd1987-03-27.140871.UltraMatrix.sbd.cm.miller.flac1644",
     "gd1987-03-27.sbd.miller.95717.sbeok.flac16",
     "gd1987-03-27.147894.UltraMatrix.sbd.cm.miller.flac16",
-    "gd1987-03-27.nak300.damico.89300.sbeok.flac16",
     "gd1987-03-27.140855.sbd.miller.flac2496",
     "gd87-03-27.nak.braverman.7343.sbefixed.shnf",
     "gd1987-03-27.ecm220t.keshavan.miller.106796.flac16",
+    "gd1987-03-27.nak300.damico.89300.sbeok.flac16",
     "gd1987-03-27.135548.chasingwilma.flac24",
     "gd1987-03-27.142501.s2.OTS.Schoeps.unknown.Ammons.Noel.t-flac1644",
     "gd1987-03-27.143350.OTS.AT835b-AKG.blend.Ackerman.Noel.t-flac2496",
@@ -174,19 +189,16 @@
     "gd1987-03-27.at835-d12e.Ackerman-Taraszki.102128.flac16"
   ],
   "best_recording": "gd1987-03-27.sbd.seaweed.111241.flac2448",
-  "avg_rating": 2.7316053511705687,
+  "avg_rating": 2.7523728813559325,
   "raw_rating": 4.418439716312056,
   "recording_count": 18,
   "confidence": 1.0,
   "total_high_ratings": 43,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 6,
-    "UNKNOWN": 12
+    "SBD": 5,
+    "UNKNOWN": 13
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "daves-picks-vol-36"
-  ]
+  "filtering_applied": []
 }

@@ -182,33 +182,48 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:46:52.466357",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152101/b820418.jpg",
+      "filename": "b820418.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151355/t820418.jpg",
+      "filename": "t820418.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd82-04-18.sbd.miller.18116.sbeok.shnf",
+    "gd1982-04-18.mtx.seamons.107090.flac16",
     "gd82-04-18.nak700-cohen.wise.14487.sbeok.shnf",
+    "gd1982-04-18.nak300.morrone.118275.flac1644",
     "gd1982-04-18.beyerm160.unknown.andrewf.82487.sbeok.flac16",
     "gd1982-04-18.nak700.glassberg.78984.sbeok.flac16",
-    "gd1982-04-18.nak300.morris.102038.sbeok.flac16",
-    "gd1982-04-18.mtx.seamons.107090.flac16",
-    "gd1982-04-18.nak300.morrone.118275.flac1644",
     "gd1982-04-18.144652.aud.lamarre.berger.flac24",
     "gd1982-04-18.144653.aud.lamarre.berger.flac16",
     "gd1982-04-18.155702.senn421.vita.miller.clugston.flac1648",
     "gd1982-04-18.155703.senn421.vita.miller.clugston.flac2496",
     "gd1982-04-18.169230.senn441.fox.mckenzie.miller.clugston.flac1648",
-    "gd1982-04-18.169231.senn441.fox.mckenzie.miller.clugston.flac2496"
+    "gd1982-04-18.169231.senn441.fox.mckenzie.miller.clugston.flac2496",
+    "gd1982-04-18.nak300.morris.102038.sbeok.flac16"
   ],
   "best_recording": "gd82-04-18.sbd.miller.18116.sbeok.shnf",
-  "avg_rating": 3.5542529989094875,
+  "avg_rating": 3.803030945315812,
   "raw_rating": 4.466356107660456,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 40,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
+    "SBD": 1,
     "MATRIX": 1,
-    "UNKNOWN": 5,
+    "UNKNOWN": 9,
     "AUD": 2
   },
   "matching_method": "date_only",

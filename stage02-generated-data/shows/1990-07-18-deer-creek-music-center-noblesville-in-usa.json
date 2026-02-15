@@ -162,19 +162,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:06:34.782497",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/07/12151858/b900718.jpeg",
+      "filename": "b900718.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/07/12151038/t900718.jpeg",
+      "filename": "t900718.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1990-07-18.sbd.miller.95807.sbeok.flac16",
     "gd90-07-18.sbd.wilson.12760.sbeok.shnf",
     "gd1990-07-18.sbd.bertha.28889.sbeok.shnf",
     "gd90-07-18.sbd.miller.26352.sbeok.shnf",
-    "gd90-07-18.neumann-fob.gardner.7358.sbeok.shnf",
     "gd1990-07-18.sbd.miller.braverman.fix-26352.32218.sbeok.shnf",
     "gd1990-07-18.147560.sbd.ultramatrix.pearson.miller.flac24",
     "gd1990-07-18.147774.UltraMatrix.sbd.cm.miller.flac16",
     "gd1990-07-18.sbd.braverman.12579.shnf",
     "gd1990-07-18.132853.mtx.dusborne.flac16",
     "gd1990-07-18.156402.mtx.photoleon.flac16",
+    "gd90-07-18.neumann-fob.gardner.7358.sbeok.shnf",
     "gd1990-07-18.nak300.cousinit.97366.flac16",
     "gd1990-07-18.137862.km54.flac16",
     "gd1990-07-18.137862.km54.patched.flac16",
@@ -190,21 +205,18 @@
     "gd1990-07-18.nak300.cohenlee.118904.flac16"
   ],
   "best_recording": "gd1990-07-18.sbd.miller.95807.sbeok.flac16",
-  "avg_rating": 3.8201568651936304,
+  "avg_rating": 3.9176732792703053,
   "raw_rating": 4.404325636909906,
   "recording_count": 24,
   "confidence": 1.0,
   "total_high_ratings": 73,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 9,
+    "SBD": 8,
     "MATRIX": 2,
-    "UNKNOWN": 12,
-    "AUD": 1
+    "UNKNOWN": 11,
+    "AUD": 3
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "daves-picks-vol-40"
-  ]
+  "filtering_applied": []
 }

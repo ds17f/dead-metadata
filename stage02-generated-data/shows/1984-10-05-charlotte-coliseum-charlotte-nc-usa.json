@@ -162,14 +162,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:52:12.579325",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152034/b841005.jpg",
+      "filename": "b841005.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151300/t841005.jpg",
+      "filename": "t841005.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd84-10-05.sbd.sacks.2591.sbeok.shnf",
+    "gd1984-10-05.133026.mtx.dusborne.flac16",
     "gd1984-10-05.nak100.holtz.townshend.fix-83161.83188.sbeok.flac16",
     "gd84-10-05.nak.grace-cole.15528.sbeok.shnf",
     "gd1984-10-05.nak300.holtz.gems.87757.sbeok.flac16",
     "gd1984-10-05.sonyecm23f.cohen.103309.sbeok.flac16",
-    "gd1984-10-05.133026.mtx.dusborne.flac16",
     "gd1984-10-05.beyerm88.suraci.77703.flac16",
     "gd1984-10-05.127551.set1.schoeps.oade.BCE.flac1648",
     "gd1984-10-05.109982.beyer-senn-daweez.D5scott.flac16",
@@ -186,16 +201,17 @@
     "gd1984-10-05.167673.beyer.m160.vita.miller.clugston.flac2496"
   ],
   "best_recording": "gd84-10-05.sbd.sacks.2591.sbeok.shnf",
-  "avg_rating": 2.489327485380117,
+  "avg_rating": 2.6854,
   "raw_rating": 3.858333333333333,
   "recording_count": 20,
   "confidence": 1.0,
   "total_high_ratings": 27,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 5,
+    "SBD": 1,
     "MATRIX": 1,
-    "UNKNOWN": 14
+    "UNKNOWN": 14,
+    "AUD": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -162,6 +162,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:47:40.404524",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152056/b820909.jpg",
+      "filename": "b820909.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151347/t820909.jpg",
+      "filename": "t820909.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd82-09-09.sbd.willy.11735.sbeok.shnf",
@@ -181,7 +196,8 @@
   "total_low_ratings": 0,
   "source_types": {
     "SBD": 3,
-    "UNKNOWN": 4
+    "UNKNOWN": 3,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

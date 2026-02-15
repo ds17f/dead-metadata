@@ -162,12 +162,26 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:59:30.210766",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/10/12151945/b871002.jpeg",
+      "filename": "b871002.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/10/12151144/t871002.jpeg",
+      "filename": "t871002.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd87-10-02.sbd.bertha-ashley.7367.sbeok.shnf",
     "gd1987-10-02.sbd.miller.121960.flac16",
     "gd1987-10-02.sbd.walker-scotton.miller.83905.sbeok.flac16",
-    "gd1987-10-02.pzm.russjcan.94115.sbeok.flac16",
     "gd1987-10-02.142470.sbd.miller.flac2496",
     "gd1987-10-02.142580.sbd.bm.miller.flac1644",
     "gd1987-10-02.163714.sbd.miller-walker.flac2496",
@@ -176,19 +190,21 @@
     "gd1987-10-02.sbd.tunakebo.6938.shnf",
     "gd1987-10-02.143553.mtx.tobin.flac1644",
     "gd1987-10-02.142333.fob.schoeps.cmc4.mk41.oade.jacobs.miller.clugston.flac1644",
+    "gd1987-10-02.pzm.russjcan.94115.sbeok.flac16",
     "gd1987-10-02.143554.dts.tobin.flac1644",
     "gd1987-10-02.143555.5-1.tobin.flac1648"
   ],
   "best_recording": "gd87-10-02.sbd.bertha-ashley.7367.sbeok.shnf",
-  "avg_rating": 3.3574367088607597,
+  "avg_rating": 3.392788461538462,
   "raw_rating": 3.7750000000000004,
   "recording_count": 14,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 10,
+    "SBD": 9,
     "MATRIX": 1,
+    "AUD": 1,
     "UNKNOWN": 3
   },
   "matching_method": "date_only",

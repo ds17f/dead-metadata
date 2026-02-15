@@ -182,31 +182,47 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:31:19.855314",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152151/b760610.jpg",
+      "filename": "b760610.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151551/t760610.jpg",
+      "filename": "t760610.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd1976-06-10.matrix.tobin.84985.sbeok.flac16",
     "gd76-06-10.sbd.bertha-ashley.23370.sbeok.shnf",
     "gd76-06-10.sbd.miller.14264.sbeok.shnf",
     "gd1976-06-10.sbd.gems.82921.flac16",
-    "gd76-06-10.hopkins.vernon.5918.sbeok.shnf",
     "gd1976-06-10.141690.sbd.miller.flac1644",
-    "gd76-06-10.warburton.minches.18426.sbeok.shnf",
-    "gd76-06-10.moore.minches.18425.sbeok.shnf",
+    "gd1976-06-10.matrix.tobin.84985.sbeok.flac16",
     "gd1976-06-10.mtx.dts.tobin.85004.sbeok.flac16",
     "gd1976-06-10.143003.akg1000.warburton.smith.sirmick.flac2496",
+    "gd76-06-10.hopkins.vernon.5918.sbeok.shnf",
+    "gd76-06-10.warburton.minches.18426.sbeok.shnf",
+    "gd76-06-10.moore.minches.18425.sbeok.shnf",
     "gd1976-06-10.145134.akg1000.warburton.smith.sirmick.flac1644",
     "gd1976-06-10.unk.dunahee-stube.237.shnf"
   ],
-  "best_recording": "gd1976-06-10.matrix.tobin.84985.sbeok.flac16",
-  "avg_rating": 3.7458584070796457,
+  "best_recording": "gd76-06-10.sbd.bertha-ashley.23370.sbeok.shnf",
+  "avg_rating": 3.8498487712665406,
   "raw_rating": 4.2615384615384615,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 55,
   "total_low_ratings": 5,
   "source_types": {
-    "SBD": 9,
-    "UNKNOWN": 3
+    "SBD": 4,
+    "MATRIX": 2,
+    "UNKNOWN": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

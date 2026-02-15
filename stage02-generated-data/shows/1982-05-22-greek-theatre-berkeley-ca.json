@@ -177,14 +177,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:46:58.380469",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151354/t820522.jpg",
+      "filename": "t820522.jpg",
+      "side": "front"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151711/l820521.jpg",
+      "filename": "l820521.jpg",
+      "side": "unknown"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1982-05-22.sbd.miller.96331.sbeok.flac16",
     "gd82-05-22.sbd.gorinsky.5215.sbeok.shnf",
-    "gd1982-05-22.mtx.seamons.101450.sbeok.flac16",
     "gd1982-05-22.165132.sbd.claridge.eaton.miller.flac1648",
-    "gd1982-05-22.fob.unknown.81059.sbeok.flac16",
     "gd1982-05-22.sbd-set2.mtownsend.gems.82532.sbeok.flac16",
+    "gd1982-05-22.mtx.seamons.101450.sbeok.flac16",
     "gd1982-05-22.nak300.unknown.101328.sbefail.flac16",
     "gd1982-05-22.nak700.wagner.miller.109335.flac16",
     "gd1982-05-22.152509.aud-unknown-complete-onemoreshot.flacf",
@@ -193,19 +207,21 @@
     "gd1982-05-22.156109.2nd.set.beyer.m160.vita.miller.clugston.flac2496",
     "gd1982-05-22.163528.akg.se5.wiseman.miller.clugston.flac1648",
     "gd1982-05-22.163529.akg.se5.wiseman.miller.clugston.flac2496",
+    "gd1982-05-22.fob.unknown.81059.sbeok.flac16",
     "gd1982-05-22.nak700.wagner.miller.109336.flac24"
   ],
   "best_recording": "gd1982-05-22.sbd.miller.96331.sbeok.flac16",
-  "avg_rating": 4.369996921182265,
+  "avg_rating": 4.373180970149253,
   "raw_rating": 4.592798913043478,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 41,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 6,
+    "SBD": 4,
+    "MATRIX": 1,
     "UNKNOWN": 8,
-    "AUD": 1
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

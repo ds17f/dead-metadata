@@ -162,15 +162,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:53:28.621036",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152026/b850403.jpg",
+      "filename": "b850403.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151249/t850403.jpg",
+      "filename": "t850403.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1985-04-03.sbd.walker-scotton.miller.106252.flac16",
-    "gd85-04-03.oade-schoeps.sacks.23927.sbeok.flacf",
     "gd85-04-03.sbd.clugston.7550.sbeok.shnf",
+    "gd85-04-03.oade-schoeps.sacks.23927.sbeok.flacf",
+    "gd1985-04-03.nak100.holtz.jaz.95409.flac16",
     "gd1985-04-03.senn421-mccue.ford.76403.sbeok.flac16",
     "gd85-04-03.oade.connor.8625.sbeok.shnf",
-    "gd1985-04-03.nak300.damico.87313.sbeok.flac16",
-    "gd1985-04-03.nak100.holtz.jaz.95409.flac16",
     "gd1985-04-03.124794.chasingwilma.flac24",
     "gd1985-04-03.132859.at-akg.ackerman.flac1644",
     "gd1985-04-03.140860.unknown.bryant.miller.clugston.flac1644",
@@ -189,18 +203,19 @@
     "gd1985-04-03.170433.beyer.m160.vita.miller.clugston.flac2496",
     "gd1985-04-03.173161.nak304.thomas.miller.clugston.flac1648",
     "gd1985-04-03.173234.nak304.thomas.miller.clugston.flac2496",
-    "gd1985-04-03.ecm220t.keshavan.miller.106795.flac16"
+    "gd1985-04-03.ecm220t.keshavan.miller.106795.flac16",
+    "gd1985-04-03.nak300.damico.87313.sbeok.flac16"
   ],
   "best_recording": "gd1985-04-03.sbd.walker-scotton.miller.106252.flac16",
-  "avg_rating": 2.591525423728814,
+  "avg_rating": 2.802127659574468,
   "raw_rating": 3.8666666666666667,
   "recording_count": 26,
   "confidence": 1.0,
   "total_high_ratings": 14,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 6,
-    "UNKNOWN": 18,
+    "SBD": 2,
+    "UNKNOWN": 22,
     "AUD": 2
   },
   "matching_method": "date_only",

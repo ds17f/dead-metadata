@@ -222,38 +222,51 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:58:30.669951",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/07/12151951/b870710.jpeg",
+      "filename": "b870710.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/07/12151153/t870710.jpeg",
+      "filename": "t870710.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1987-07-10.sbd.miller.101651.flac16",
-    "gd87-07-10.senn.lai.3859.sbeok.shnf",
     "gd1987-07-10.149955.UltraMatrix.sbd.cm.miller.flac16",
     "gd1987-07-10.149827.ultra.sbd.miller.flac2496",
     "gd1987-07-10.sbd-set2.unknown.93077.shnf",
     "gd1987-07-10.149828.sbd.miller.flac2496",
     "gd1987-07-10.149959.sbd.beta.HiFi.master-mono.miller.flac16",
-    "gd1987-07-10.aud.carpenter.87266.sbeok.flac16",
     "gd1987-07-10.sbd-set2.unknown.97490.shnf",
     "gd1987-07-10.135276.mtx.tobin.flac16",
+    "gd87-07-10.senn.lai.3859.sbeok.shnf",
     "gd1987-07-10.135281.dts.tobin.flac16",
     "gd1987-07-10.135282.5-1.tobin.flac1648",
     "gd1987-07-10.nak300.s1.rob.bowen.116336.flac",
+    "gd1987-07-10.aud.carpenter.87266.sbeok.flac16",
     "gd1987-07-10.fob.nak300.rob.damico.102170.flac16"
   ],
   "best_recording": "gd1987-07-10.sbd.miller.101651.flac16",
-  "avg_rating": 2.5127753671562085,
+  "avg_rating": 2.6563792293233077,
   "raw_rating": 4.013848396501458,
   "recording_count": 14,
   "confidence": 1.0,
   "total_high_ratings": 34,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 9,
+    "SBD": 7,
     "MATRIX": 1,
-    "UNKNOWN": 4
+    "UNKNOWN": 4,
+    "AUD": 2
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "dylan-and-the-dead"
-  ]
+  "filtering_applied": []
 }

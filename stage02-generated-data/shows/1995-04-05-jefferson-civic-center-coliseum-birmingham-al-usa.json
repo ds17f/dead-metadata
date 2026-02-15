@@ -152,24 +152,46 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:19:39.154076",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/04/12151720/b950405.jpeg",
+      "filename": "b950405.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/04/12150820/t950405.jpeg",
+      "filename": "t950405.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/04/12150113/GD-95-4-5-95a.png",
+      "filename": "GD-95-4-5-95a.png",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/04/12150113/GD-95-4-5-95a-360x360.png"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd1995-04-05.sbd.hinko.tetzeli.fix-18097.35258.reflac.flac16",
-    "gd95-04-05.schoeps.10385.sbeok.shnf",
     "gd95-04-05.sbd.18097.sbeok.shnf",
+    "gd95-04-05.schoeps.10385.sbeok.shnf",
     "gd1995-04-05.141432.s2.FOB.Neumann.Vasseur.Ammons.Noel.t-flac1648",
     "gd1995-04-05.143121.nak300-cp4.andy-Boedicker.flac1644"
   ],
   "best_recording": "gd1995-04-05.sbd.hinko.tetzeli.fix-18097.35258.reflac.flac16",
-  "avg_rating": 2.7640109890109894,
+  "avg_rating": 3.039778325123153,
   "raw_rating": 3.997252747252747,
   "recording_count": 5,
   "confidence": 1.0,
   "total_high_ratings": 17,
   "total_low_ratings": 4,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 2
+    "SBD": 2,
+    "UNKNOWN": 2,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

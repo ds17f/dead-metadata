@@ -152,24 +152,35 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:35:40.257671",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151521/t780418.jpg",
+      "filename": "t780418.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd78-04-18.shure.vernon.12383.sbeok.shnf",
     "gd78-04-18.sbd.cotsman.14036.sbeok.shnf",
-    "gd1978-04-18.aud.zimmerman.minches.81315.sbeok.flac16",
+    "gd78-04-18.shure.vernon.12383.sbeok.shnf",
     "gd1978-04-18.132410.fob.s2.seaweed.flac16",
-    "gd1978-04-18.167732.ShureSM57.Sublette.Noel.Goldey.t-flac2496"
+    "gd1978-04-18.167732.ShureSM57.Sublette.Noel.Goldey.t-flac2496",
+    "gd1978-04-18.aud.zimmerman.minches.81315.sbeok.flac16"
   ],
-  "best_recording": "gd78-04-18.shure.vernon.12383.sbeok.shnf",
-  "avg_rating": 2.3826923076923077,
+  "best_recording": "gd78-04-18.sbd.cotsman.14036.sbeok.shnf",
+  "avg_rating": 2.4461538461538463,
   "raw_rating": 4.0,
   "recording_count": 5,
   "confidence": 1.0,
   "total_high_ratings": 10,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 2
+    "SBD": 1,
+    "UNKNOWN": 2,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

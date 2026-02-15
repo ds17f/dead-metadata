@@ -192,13 +192,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:45:08.487297",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151413/t810913.jpg",
+      "filename": "t810913.jpg",
+      "side": "front"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152110/b810911.jpg",
+      "filename": "b810911.jpg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1981-09-13.sbd.miller.32576.sbeok.flac16",
-    "gd81-09-13.wise.munder.7092.sbeok.shnf",
     "gd1981-09-13.148724.sbd.walker.scotton.miller.clugston.flac2496",
     "gd1981-09-13.148723.sbd.walker.scotton.miller.clugston.flac1648",
     "gd1981-09-13.sbd-set1.unknown.32132.sbeok.flac16",
+    "gd81-09-13.wise.munder.7092.sbeok.shnf",
     "gd1981-09-13.nak700.wagner.miller.105585.flac16",
     "gd1981-09-13.nak700.anon-poris-severson.LMPP.95425.flac16",
     "gd1981-09-13.nak300.hoey.125670.flac24",
@@ -209,15 +224,16 @@
     "gd1981-09-13.148628.fob.nak700.severson.miller.clugston.flac2496"
   ],
   "best_recording": "gd1981-09-13.sbd.miller.32576.sbeok.flac16",
-  "avg_rating": 2.769444444444445,
+  "avg_rating": 2.8642105263157895,
   "raw_rating": 4.0396825396825395,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 17,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
-    "UNKNOWN": 8
+    "SBD": 4,
+    "UNKNOWN": 5,
+    "AUD": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -152,11 +152,26 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:52:38.508452",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152031/b841030.jpg",
+      "filename": "b841030.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151256/t841030.jpg",
+      "filename": "t841030.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
+    "gd1984-10-30.aud.walker-scotton.miller.106168.flac16",
     "gd84-10-30.senn.vernon.17415.sbeok.shnf",
     "gd84-10-30.mixed.ladner.22256.sbeok.shnf",
-    "gd1984-10-30.aud.walker-scotton.miller.106168.flac16",
     "gd1984-10-30.145583.aud.lamarre.berger.flac16",
     "gd1984-10-30.145582.aud.lamarre.berger.flac24",
     "gd1984-10-30.150782.mke2002.murtha.holbrook.flac2448",
@@ -164,17 +179,16 @@
     "gd1984-10-30.168287.senn441.vita.miller.clugston.flac1648",
     "gd1984-10-30.168288.senn441.vita.miller.clugston.flac2496"
   ],
-  "best_recording": "gd84-10-30.senn.vernon.17415.sbeok.shnf",
-  "avg_rating": 2.4559722222222224,
+  "best_recording": "gd1984-10-30.aud.walker-scotton.miller.106168.flac16",
+  "avg_rating": 2.582037037037037,
   "raw_rating": 4.357142857142858,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 17,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 2,
     "AUD": 3,
-    "UNKNOWN": 4
+    "UNKNOWN": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

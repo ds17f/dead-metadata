@@ -172,21 +172,36 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:54:00.209630",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152023/b850627.jpg",
+      "filename": "b850627.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151242/t850627.jpg",
+      "filename": "t850627.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1985-06-27.sbd.gmb.79382.flac16",
     "gd85-06-27.sbd.miller.27863.sbeok.flacf",
     "gd85-06-27.sbd.clugston.6104.sbeok.shnf",
-    "gd1985-06-27.mtx.seamons.fix.92963.sbeok.flac16",
-    "gd85-06-27.aud.connor.7006.sbeok.shnf",
-    "gd85-06-27.oade-schoeps.sacks.25000.sbeok.flacf",
-    "gd1985-06-27.mtx.seamons.92645.sbeok.flac16",
-    "gd1985-06-27.135268.senn441.mccue.ford.sbeok.flac16",
-    "gd1985-06-27.nak-beyer.tonys.79597.sbeok.flac16",
     "gd1985-06-27.169092.sbd1.pearson.marcus.miller.flac24",
     "gd1985-06-27.169156.SPAC.SaratogaSprings.NY.sbd.pearson.marcus.miller.t-flac1648",
     "gd1985-06-27.sbd.gmb.79558.flac24",
+    "gd1985-06-27.mtx.seamons.fix.92963.sbeok.flac16",
+    "gd1985-06-27.mtx.seamons.92645.sbeok.flac16",
+    "gd85-06-27.aud.connor.7006.sbeok.shnf",
+    "gd85-06-27.oade-schoeps.sacks.25000.sbeok.flacf",
     "gd1985-06-27.135270.senn441.mccue.ford.flac24",
+    "gd1985-06-27.135268.senn441.mccue.ford.sbeok.flac16",
+    "gd1985-06-27.nak-beyer.tonys.79597.sbeok.flac16",
     "gd1985-06-27.121563.BeyerM160.daweez.d5scott.flac16",
     "gd1985-06-27.126238.chasingwilma.flac24",
     "gd1985-06-27.141598.aud.bryant.miller.sirmick.flac2496",
@@ -202,16 +217,17 @@
     "gd1985-06-27.nak300.morris.114489.flac24"
   ],
   "best_recording": "gd1985-06-27.sbd.gmb.79382.flac16",
-  "avg_rating": 3.8351143759262825,
+  "avg_rating": 3.9639424545328343,
   "raw_rating": 4.275247019825333,
   "recording_count": 26,
   "confidence": 1.0,
   "total_high_ratings": 68,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 12,
-    "UNKNOWN": 11,
-    "AUD": 3
+    "SBD": 6,
+    "MATRIX": 2,
+    "AUD": 4,
+    "UNKNOWN": 14
   },
   "matching_method": "date_only",
   "filtering_applied": []

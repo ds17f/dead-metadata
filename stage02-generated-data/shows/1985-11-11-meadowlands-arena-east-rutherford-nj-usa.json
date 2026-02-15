@@ -162,22 +162,32 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:55:06.600764",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152013/b851111.jpg",
+      "filename": "b851111.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151228/t851111.jpg",
+      "filename": "t851111.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-11-11.sbd.doughty.14862.sbeok.shnf",
+    "gd1985-11-11.143073.sbd.cole.miller.tobin.pp.flac1644",
+    "gd1985-11-11.165377.sbd.patched.pc.shnid14862.clugston.flac16",
     "gd1985-11-11.mtx.seamons.95966.sbeok.flac16",
+    "gd1985-11-11.143074.mtx.tobin.flac1644",
     "gd1985-11-11.fob.senn441.mccue.LMPP.94621.sbeok.flac16",
     "gd85-11-11.naks.cohen.17960.sbeok.shnf",
-    "gd1985-11-11.143073.sbd.cole.miller.tobin.pp.flac1644",
     "gd85-11-11.aud.oade.19303.sbeok.shnf",
     "gd1985-11-11.fob.senn441.mccue.tetzeli-pitch.95245.sbeok.flac16",
-    "gd1985-11-11.165377.sbd.patched.pc.shnid14862.clugston.flac16",
-    "gd1985-11-11.cpb.retransfer.32639.sbeok.flac16",
-    "gd1985-11-11.nak-cm304-beyerM101.79719.sbeok.flac16",
-    "gd1985-11-11.nak300.damico.87540.sbeok.flac16",
-    "gd1985-11-11.nak300.mandel.33584.sbeok.shnf",
-    "gd85-11-11.schoeps-set2.barbella.12083.sbeok.shnf",
-    "gd1985-11-11.143074.mtx.tobin.flac1644",
     "gd1985-11-11.126730.chasingwilma.flac24",
     "gd1985-11-11.143075.dts.tobin.flac1644",
     "gd1985-11-11.143076.5-1.tobin.flac1648",
@@ -186,20 +196,25 @@
     "gd1985-11-11.165384.beyer.m160.vita.miller.clugston.flac1648",
     "gd1985-11-11.165385.beyer.m160.vita.miller.clugston.flac2496",
     "gd1985-11-11.aud.morris.106809.flac16",
-    "gd1985-11-11.nak300.morris.114679.flac24"
+    "gd1985-11-11.cpb.retransfer.32639.sbeok.flac16",
+    "gd1985-11-11.nak-cm304-beyerM101.79719.sbeok.flac16",
+    "gd1985-11-11.nak300.damico.87540.sbeok.flac16",
+    "gd1985-11-11.nak300.mandel.33584.sbeok.shnf",
+    "gd1985-11-11.nak300.morris.114679.flac24",
+    "gd85-11-11.schoeps-set2.barbella.12083.sbeok.shnf"
   ],
   "best_recording": "gd85-11-11.sbd.doughty.14862.sbeok.shnf",
-  "avg_rating": 3.3877379053694843,
+  "avg_rating": 3.509032357473035,
   "raw_rating": 4.42929292929293,
   "recording_count": 23,
   "confidence": 1.0,
   "total_high_ratings": 32,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 13,
-    "MATRIX": 1,
-    "UNKNOWN": 8,
-    "AUD": 1
+    "SBD": 3,
+    "MATRIX": 2,
+    "AUD": 4,
+    "UNKNOWN": 14
   },
   "matching_method": "date_only",
   "filtering_applied": []

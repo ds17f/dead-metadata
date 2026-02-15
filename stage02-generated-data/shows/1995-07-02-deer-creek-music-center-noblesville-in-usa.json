@@ -152,12 +152,33 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:20:27.589769",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/07/12151714/b950702.jpeg",
+      "filename": "b950702.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/07/12150805/t950702.jpeg",
+      "filename": "t950702.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/07/12150104/Jerry1-1.jpg",
+      "filename": "Jerry1-1.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/07/12150104/Jerry1-1-360x360.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd1995-07-02.soundcheck.fm.gmb.91256.flac16",
+    "gd1995-07-02.monitor-sbd.unknown.74201.sbeok.flac16",
     "gd95-07-02.aud.unk.12578.sbeok.shnf",
     "gd95-07-02.aud.ball.587.sbeok.shnf",
-    "gd1995-07-02.monitor-sbd.unknown.74201.sbeok.flac16",
     "gd1995-07-02.139737.cmc5-mk4.ebel-varnum.flac1644",
     "gd1995-07-02.schoeps.unknown.nawrocki.19592.shnf",
     "gd1995-07-02.aud.unknown.tetzeli.fix-12578.74417.reflac.flac16",
@@ -170,7 +191,7 @@
     "gd1995-07-02.172645.senn.me88.greenberg.roeder.miller.clugston.flac1648"
   ],
   "best_recording": "gd1995-07-02.soundcheck.fm.gmb.91256.flac16",
-  "avg_rating": 1.9801717144065898,
+  "avg_rating": 1.9616876594196182,
   "raw_rating": 2.9477086487395763,
   "recording_count": 14,
   "confidence": 1.0,
@@ -178,9 +199,9 @@
   "total_low_ratings": 30,
   "source_types": {
     "FM": 1,
-    "SBD": 3,
-    "UNKNOWN": 9,
-    "AUD": 1
+    "SBD": 1,
+    "AUD": 3,
+    "UNKNOWN": 9
   },
   "matching_method": "date_only",
   "filtering_applied": []

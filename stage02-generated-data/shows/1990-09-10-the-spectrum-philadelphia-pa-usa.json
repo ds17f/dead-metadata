@@ -157,28 +157,38 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:06:51.475404",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/09/12151856/b900910.jpeg",
+      "filename": "b900910.jpeg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1990-09-10.sbd.miller.80955.sbeok.flac16",
-    "gd90-09-10.aud.wiley.11807.sbeok.shnf",
-    "gd1990-09-10.aud.wiley.8702.sbeok.shnf",
     "gd1990-09-10.137115.mtx.dusborne.flac16",
     "gd1990-09-10.158745.ultramatrix.miller.flac2496",
     "gd1990-09-10.159858.ultramatrix.miller.flac1644",
+    "gd90-09-10.aud.wiley.11807.sbeok.shnf",
+    "gd1990-09-10.aud.wiley.8702.sbeok.shnf",
     "gd1990-09-10.142361.FOB.Schoeps.BK.Katzeff.Berner.Ammons.Noel.t-flac1648",
     "gd1990-09-10.146062.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648"
   ],
   "best_recording": "gd1990-09-10.sbd.miller.80955.sbeok.flac16",
-  "avg_rating": 3.324074074074074,
+  "avg_rating": 3.394549763033176,
   "raw_rating": 4.05026455026455,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 20,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 3,
+    "SBD": 1,
     "MATRIX": 3,
-    "UNKNOWN": 2
+    "AUD": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

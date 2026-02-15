@@ -152,36 +152,52 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:49:04.363599",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152053/b830514.jpg",
+      "filename": "b830514.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151334/t830514.jpg",
+      "filename": "t830514.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd83-05-14.sennheiser.gustin.342.sbeok.shnf",
-    "gd1983-05-14.fob.sonyecm220t.keshavan.miller.fix.94515.sbeok.flac16",
-    "gd1983-05-14.fob.sonyecm220t.keshavan.miller.94396.sbeok.flac16",
-    "gd83-05-14.senn.fishman.15387.sbeok.shnf",
     "gd83-05-14.set1-sbd.samaritano.25407.sbeok.shnf",
     "gd1983-05-14.sbd-set1.samaritano.tetzeli.patch-25407.91136.sbeok.flac16",
+    "gd1983-05-14.140368.sbd.aud.composite.eaton.miller.clugston.flac1648",
+    "gd83-05-14.sennheiser.gustin.342.sbeok.shnf",
+    "gd1983-05-14.fob.sonyecm220t.keshavan.miller.fix.94515.sbeok.flac16",
+    "gd83-05-14.senn.fishman.15387.sbeok.shnf",
+    "gd1983-05-14.fob.sonyecm220t.keshavan.miller.94396.sbeok.flac16",
     "gd1983-05-14.138938.schoeps.miller.sirmick.sbeok.flac16",
     "gd1983-05-14.beyerm201.holbrook.33502.sbeok.flac16",
-    "gd1983-05-14.140368.sbd.aud.composite.eaton.miller.clugston.flac1648",
-    "gd1983-05-14.fob.senn421.barnes-powell.18225.sbeok.shnf",
     "gd1983-05-14.141945.beyerm201.executivecrew-holbrook.flac2448",
     "gd1983-05-14.141946.beyerm201.executivecrew-holbrook.flac1644",
     "gd1983-05-14.163383.nak304.vita.miller.clugston.flac1648",
     "gd1983-05-14.163384.nak304.vita.miller.clugston.flac2496",
     "gd1983-05-14.168029.beyer.m201.kelley.miller.clugston.flac1648",
     "gd1983-05-14.168030.beyer.m201.kelley.miller.clugston.flac2496",
+    "gd1983-05-14.fob.senn421.barnes-powell.18225.sbeok.shnf",
     "gd1983-05-14.nak700.anon-severson-poris.LMPP.96570.flac16"
   ],
-  "best_recording": "gd83-05-14.sennheiser.gustin.342.sbeok.shnf",
-  "avg_rating": 1.7336111111111108,
+  "best_recording": "gd83-05-14.set1-sbd.samaritano.25407.sbeok.shnf",
+  "avg_rating": 1.6898809523809528,
   "raw_rating": 4.127777777777778,
   "recording_count": 17,
   "confidence": 1.0,
   "total_high_ratings": 18,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 10,
-    "UNKNOWN": 7
+    "SBD": 3,
+    "UNKNOWN": 11,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

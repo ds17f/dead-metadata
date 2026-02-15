@@ -182,37 +182,44 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:25:48.251222",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151618/t720909.jpg",
+      "filename": "t720909.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1972-09-09.sbd.miller.105458.flac16",
     "gd72-09-09.sbd.popi.14086.sbeok.shnf",
-    "gd72-09-09.aud.pitch-corrected.zeb.31949.sbeok.flacf",
-    "gd72-09-09.aud.unknown.30991.sbeok.flacf",
     "gd1972-09-09.149458.sbd.boswell.smith.miller.clugston.flac2496",
     "gd1972-09-09.133001.sbd.boswell-smith.flac16",
     "gd1972-09-09.133002.sbd.boswell-smith.flac24",
     "gd1972-09-09.149457.sbd.boswell.smith.miller.clugston.flac1648",
     "gd1972-09-09.mtx.seamons.bertrando.103311.flac16",
+    "gd72-09-09.aud.pitch-corrected.zeb.31949.sbeok.flacf",
+    "gd72-09-09.aud.unknown.30991.sbeok.flacf",
     "gd1972-09-09.aud.sirmick.32036.flac16",
     "gd1972-09-09.131690.harvie-betrando-berger-johan.flac24",
     "gd1972-09-09.aud.131474.berger.flac24"
   ],
   "best_recording": "gd1972-09-09.sbd.miller.105458.flac16",
-  "avg_rating": 3.238118466898955,
+  "avg_rating": 3.2660377358490575,
   "raw_rating": 4.056862745098039,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 27,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 8,
+    "SBD": 6,
     "MATRIX": 1,
-    "AUD": 2,
+    "AUD": 4,
     "UNKNOWN": 1
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "daves-picks-vol-46"
-  ]
+  "filtering_applied": []
 }

@@ -157,13 +157,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:13:13.297408",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/03/12151805/b930329.jpeg",
+      "filename": "b930329.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/03/12150933/t930329.jpeg",
+      "filename": "t930329.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd93-03-29.sbd.wiley.13512.sbeok.shnf",
-    "gd93-03-29.schoeps.raras.8376.sbeok.shnf",
     "gd1993-03-29.151342.sbd.miller.flac2448",
     "gd1993-03-29.151665.sbd.cm.miller.t.flac16",
     "gd1993-03-29.154852.mtx.seamons.ht137.flac16",
+    "gd93-03-29.schoeps.raras.8376.sbeok.shnf",
     "gd1993-03-29.akg.andrewf.96025.flac1648",
     "gd1993-03-29.119472.nak300.Boedicker.flac16",
     "gd1993-03-29.134819.fob.jbraveman.flac1648",
@@ -175,17 +190,17 @@
     "gd1993-03-29.akg.andrewf.96026.flac16"
   ],
   "best_recording": "gd93-03-29.sbd.wiley.13512.sbeok.shnf",
-  "avg_rating": 2.8454281567489117,
+  "avg_rating": 3.0979020979020975,
   "raw_rating": 3.5705128205128207,
   "recording_count": 14,
   "confidence": 1.0,
   "total_high_ratings": 14,
   "total_low_ratings": 6,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 8,
-    "AUD": 1
+    "UNKNOWN": 7,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

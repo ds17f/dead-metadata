@@ -147,20 +147,31 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:16:47.581664",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12150858/t940408.jpeg",
+      "filename": "t940408.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd94-04-08.schoeps.ladner.10503.sbeok.shnf",
-    "gd1994-04-08.139358.sbd.set2.ebel.flac1644"
+    "gd1994-04-08.139358.sbd.set2.ebel.flac1644",
+    "gd94-04-08.schoeps.ladner.10503.sbeok.shnf"
   ],
-  "best_recording": "gd94-04-08.schoeps.ladner.10503.sbeok.shnf",
-  "avg_rating": 1.880808080808081,
+  "best_recording": "gd1994-04-08.139358.sbd.set2.ebel.flac1644",
+  "avg_rating": 1.8753295668549903,
   "raw_rating": 3.707070707070707,
   "recording_count": 2,
   "confidence": 1.0,
   "total_high_ratings": 5,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 2
+    "SBD": 1,
+    "UNKNOWN": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

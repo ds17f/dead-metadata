@@ -147,6 +147,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:53:06.645669",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152029/b850313.jpg",
+      "filename": "b850313.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151252/t850313.jpg",
+      "filename": "t850313.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-03-13.sbd.barbella.9961.sbeok.shnf",
@@ -154,10 +169,10 @@
     "gd1985-03-13.sbd.walker.scotton.miller.117344.flac16",
     "gd1985-03-13.169167.sbd.marcus.menke.miller.clugston.flac1648",
     "gd1985-03-13.169168.sbd.marcus.menke.miller.clugston.flac2496",
-    "gd1985-03-13.nakcm300.32017.sbeok.flac16",
     "gd1985-03-13.sbd.walker.scotton.miller.117343.flac24",
     "gd1985-03-13.149309.senn441.hunt.mattes.miller.clugston.flac1648",
-    "gd1985-03-13.senn421.mccue.ford.84490.flac16"
+    "gd1985-03-13.senn421.mccue.ford.84490.flac16",
+    "gd1985-03-13.nakcm300.32017.sbeok.flac16"
   ],
   "best_recording": "gd85-03-13.sbd.barbella.9961.sbeok.shnf",
   "avg_rating": 3.693157894736842,
@@ -167,8 +182,8 @@
   "total_high_ratings": 17,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 2
+    "SBD": 6,
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

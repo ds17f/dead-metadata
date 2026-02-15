@@ -157,15 +157,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:56:34.193675",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152005/b860630.jpg",
+      "filename": "b860630.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151212/t860630.jpg",
+      "filename": "t860630.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd86-06-30.aud.eD.12935.sbeok.shnf",
-    "gd1986-06-30.mk4.miller.87521.sbeok.flac16",
-    "gd1986-06-30.schoepsmk4.miller.87348.sbeok.flac16",
     "gd1986-06-30.139270.set2.sbd.miller.flac24",
     "gd1986-06-30.139282.set2.sbd.cm.miller.flac16",
+    "gd86-06-30.aud.eD.12935.sbeok.shnf",
     "gd1986-06-30.aud.Taggart-Holtz.116720.flac16",
+    "gd1986-06-30.mk4.miller.87521.sbeok.flac16",
     "gd1986-06-30.beyerM88.connor.76473.flac16",
+    "gd1986-06-30.schoepsmk4.miller.87348.sbeok.flac16",
     "gd1986-06-30.132862.naks.datbrad-lynn.flac16",
     "gd1986-06-30.157072.beyer-m88.holbrook.flac1644",
     "gd1986-06-30.157073.beyer-m88.holbrook.flac2448",
@@ -173,17 +188,17 @@
     "gd1986-06-30.164037.nak304.thomas.miller.clugston.flac2496",
     "gd1986-06-30.nak100.cohen.105003.flac16"
   ],
-  "best_recording": "gd86-06-30.aud.eD.12935.sbeok.shnf",
-  "avg_rating": 2.6187626262626256,
+  "best_recording": "gd1986-06-30.139270.set2.sbd.miller.flac24",
+  "avg_rating": 2.6384451659451655,
   "raw_rating": 4.091666666666666,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 27,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
-    "AUD": 1,
-    "UNKNOWN": 7
+    "SBD": 2,
+    "AUD": 2,
+    "UNKNOWN": 9
   },
   "matching_method": "date_only",
   "filtering_applied": []

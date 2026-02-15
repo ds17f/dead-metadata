@@ -207,32 +207,41 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:27:44.372665",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151610/t730328.jpg",
+      "filename": "t730328.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1973-03-28.sbd.miller.86459.sbeok.flac16",
     "gd1973-03-28.sbd.set2.miller.34759.sbeok.flac16",
-    "gd1973-03-28.beyer.backstrom.miller.74682.sbeok.flac16",
     "gd73-03-28.sbd-aud.cotsman.11473.sbeok.shnf",
-    "gd73-03-28.aud-nourse.weiner.16886.sbeok.shnf",
     "gd1973-03-28.sbd.mtx.tobin.86833.sbeok.flac16",
     "gd1973-03-28.sbd.warner.darrin.1073.sbefail.shnf",
     "gd1973-03-28.mtx.dts.tobin.86896.sbeok.flac16",
-    "gd1973-03-28.beyer.backstrom.miller.75138.flac24"
+    "gd1973-03-28.beyer.backstrom.miller.74682.sbeok.flac16",
+    "gd1973-03-28.beyer.backstrom.miller.75138.flac24",
+    "gd73-03-28.aud-nourse.weiner.16886.sbeok.shnf"
   ],
   "best_recording": "gd1973-03-28.sbd.miller.86459.sbeok.flac16",
-  "avg_rating": 3.2159643109184386,
+  "avg_rating": 3.335484055320608,
   "raw_rating": 4.652961980548187,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 76,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 8,
-    "UNKNOWN": 1
+    "SBD": 5,
+    "MATRIX": 1,
+    "UNKNOWN": 2,
+    "AUD": 1
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "daves-picks-vol-16"
-  ]
+  "filtering_applied": []
 }

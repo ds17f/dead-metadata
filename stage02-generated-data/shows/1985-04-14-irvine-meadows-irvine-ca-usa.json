@@ -172,10 +172,24 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:53:40.585550",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2014/02/12145650/Screen-Shot-2014-01-31-at-7.41.53-PM.png",
+      "filename": "Screen-Shot-2014-01-31-at-7.41.53-PM.png",
+      "side": "unknown"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151246/t850414.jpg",
+      "filename": "t850414.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-04-14.sbd.jeffm.3667.sbeok.shnf",
-    "gd1985-04-14.senn421.mccue.ford.32621.sbeok.shnf",
     "gd1985-04-14.144159.sbd.miller.clugston.flac1644",
     "gd1985-04-14.151830.SBD.UNK.Reel.Anon.Noel.t-flac1648",
     "gd1985-04-14.152159.sbd.marcus.miller.flac2496",
@@ -186,21 +200,23 @@
     "gd1985-04-14.166535.sbd.smarcus.menke.miller.fix.flac24",
     "gd1985-04-14.166958.sbd.cm.miller.flac2496",
     "gd1985-04-14.166959.sbd.cm.miller.t-flac1648",
+    "gd1985-04-14.senn421.mccue.ford.32621.sbeok.shnf",
     "gd1985-04-14.143490.s2.FOB.ECM150.Keeler.Miller.Noel.t-flac2496",
     "gd1985-04-14.nak100.holtz.jaz.97220.flac16",
     "gd1985-04-14.124931.chasingwilma.flac24",
     "gd1985-04-14.145334.s2.fob.sony.ecm150.keeler.miller.noel.t-flac16"
   ],
   "best_recording": "gd85-04-14.sbd.jeffm.3667.sbeok.shnf",
-  "avg_rating": 3.816603415559772,
+  "avg_rating": 3.943856853086062,
   "raw_rating": 4.388235294117647,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 20,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 12,
-    "UNKNOWN": 4
+    "SBD": 11,
+    "UNKNOWN": 3,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

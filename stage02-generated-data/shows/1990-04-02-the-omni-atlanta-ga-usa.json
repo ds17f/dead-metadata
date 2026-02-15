@@ -152,18 +152,33 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:05:57.443128",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/04/12151902/b900402.jpeg",
+      "filename": "b900402.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/04/12151044/t900402.jpeg",
+      "filename": "t900402.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd90-04-02.sbd.dodd.17731.sbeok.shnf",
-    "gd90-04-02.nak.nawrocki.3299.sbeok.shnf",
     "gd1990-04-02.sbd.miller.13391.sbeok.shnf",
-    "gd1990-04-02.fob.unknown.5064.sbeok.shnf",
     "gd1990-04-02.sbd.miller.12198.sbeok.shnf",
     "gd1990-04-02.154440.UltraMatrix.sbd.cm.miller.t.flac16",
     "gd1990-04-02.mtx.hansokolow.97216.flac16",
     "gd1990-04-02.152287.ultramatrix.miller.flac2496",
+    "gd90-04-02.nak.nawrocki.3299.sbeok.shnf",
     "gd1990-04-02.143172.FOB.Schoeps.Brotman.Mattes.Miller.Noel.REMASTER.t-flac1648",
     "gd1990-04-02.131205.cmc421.fob.katzeff-deal.jwpetty.flac16",
+    "gd1990-04-02.fob.unknown.5064.sbeok.shnf",
     "gd1990-04-02.137933.dbx.hale.flac16",
     "gd1990-04-02.nak.cohen.106763.flac16",
     "gd1990-04-02.133276.131205-fix.deal-katzeff.flac16",
@@ -174,17 +189,17 @@
     "gd1990-04-02.152510.at815a.tom-roger-larson.flac1644"
   ],
   "best_recording": "gd90-04-02.sbd.dodd.17731.sbeok.shnf",
-  "avg_rating": 3.222718204488778,
+  "avg_rating": 3.38505649717514,
   "raw_rating": 4.184782608695652,
   "recording_count": 18,
   "confidence": 1.0,
   "total_high_ratings": 41,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 6,
+    "SBD": 4,
     "MATRIX": 2,
-    "REMASTER": 2,
-    "UNKNOWN": 8
+    "UNKNOWN": 7,
+    "AUD": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

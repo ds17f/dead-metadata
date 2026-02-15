@@ -162,12 +162,22 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:40:32.340209",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151446/t800502.jpg",
+      "filename": "t800502.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd1980-05-02.SonyECM250.walker-scotton.miller.88873.sbeok.flac16",
-    "gd80-05-02.hance-wise.3202.sbeok.shnf",
     "gd1980-05-02.fob.beyer.morris.99952.sbefail.flac16",
+    "gd1980-05-02.SonyECM250.walker-scotton.miller.88873.sbeok.flac16",
     "gd1980-05-02.fob.glassberg.motb-0085.96451.flac24",
+    "gd80-05-02.hance-wise.3202.sbeok.shnf",
     "gd1980-05-02.128686.naks.masom.flac16",
     "gd1980-05-02.fob.glassberg.motb-0085.96450.flac16",
     "gd1980-05-02.128515.stankiewicz.flac2496",
@@ -177,17 +187,16 @@
     "gd1980-05-02.aud.morris.106613.flac24",
     "gd1980-05-02.beyer.morris.cleanup.111142.flac24"
   ],
-  "best_recording": "gd1980-05-02.SonyECM250.walker-scotton.miller.88873.sbeok.flac16",
-  "avg_rating": 1.6969512195121952,
+  "best_recording": "gd1980-05-02.fob.beyer.morris.99952.sbefail.flac16",
+  "avg_rating": 1.6391025641025643,
   "raw_rating": 3.8157894736842106,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 14,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 2,
-    "UNKNOWN": 9,
-    "AUD": 1
+    "AUD": 4,
+    "UNKNOWN": 8
   },
   "matching_method": "date_only",
   "filtering_applied": []

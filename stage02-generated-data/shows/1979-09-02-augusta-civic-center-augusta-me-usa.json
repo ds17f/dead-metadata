@@ -167,11 +167,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:39:02.598885",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151455/t790902.jpg",
+      "filename": "t790902.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1979-09-02.sbd.miller.93011.sbeok.flac16",
-    "gd79-09-02.rolfe.munder.10364.sbeok.shnf",
     "gd1979-09-02.147685.mtx.seamons.ht117.flac16",
+    "gd79-09-02.rolfe.munder.10364.sbeok.shnf",
     "gd1979-09-02.121942.nak700.wagner.miller.flac16",
     "gd1979-09-02.127920.stankiewicz.flac2496",
     "gd1979-09-02.139738.nak700.wagner.miller.sirmick.flac2496",
@@ -183,16 +193,17 @@
     "gd1979-09-02.153100.speed.fixed.149508.nak300.fob.flac16"
   ],
   "best_recording": "gd1979-09-02.sbd.miller.93011.sbeok.flac16",
-  "avg_rating": 3.4576504297994264,
+  "avg_rating": 3.770947368421052,
   "raw_rating": 4.374358974358974,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 34,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 2,
+    "SBD": 1,
     "MATRIX": 1,
-    "UNKNOWN": 9
+    "UNKNOWN": 5,
+    "AUD": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

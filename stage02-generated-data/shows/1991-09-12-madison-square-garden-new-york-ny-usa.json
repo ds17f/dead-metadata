@@ -167,6 +167,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:09:53.254755",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151829/b910912.jpeg",
+      "filename": "b910912.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151006/t910912.jpeg",
+      "filename": "t910912.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-09-12.sbd.roux.516.sbeok.shnf",
@@ -182,7 +197,7 @@
     "gd1991-09-12.nak300.gidley.122165.flac2448"
   ],
   "best_recording": "gd91-09-12.sbd.roux.516.sbeok.shnf",
-  "avg_rating": 3.1000000000000005,
+  "avg_rating": 3.061616161616162,
   "raw_rating": 3.6923076923076925,
   "recording_count": 11,
   "confidence": 1.0,
@@ -190,7 +205,8 @@
   "total_low_ratings": 1,
   "source_types": {
     "SBD": 4,
-    "UNKNOWN": 7
+    "UNKNOWN": 6,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

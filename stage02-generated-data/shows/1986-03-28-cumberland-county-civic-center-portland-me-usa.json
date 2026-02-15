@@ -162,11 +162,26 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:55:48.646254",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152008/b860328.jpg",
+      "filename": "b860328.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151219/t860328.jpg",
+      "filename": "t860328.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd86-03-28.neumann-hogan.hogan.5004.sbeok.shnf",
     "gd1986-03-28.sbd-set2.browning.31603.flac16",
     "gd1986-03-28.mtx.chappell.sb28.95598.flac16",
+    "gd86-03-28.neumann-hogan.hogan.5004.sbeok.shnf",
     "gd1986-03-28.nak300.damico.87706.flac16",
     "gd1986-03-28.fob.thompson.motb.88950.flac16",
     "gd1986-03-28.senn.koucky.gmb.32520.flac16",
@@ -185,18 +200,18 @@
     "gd1986-03-28.fob.thompson.motb.88953.flac24",
     "gd1986-03-28.nak300.morris.crazyfingers.106564.flac16"
   ],
-  "best_recording": "gd86-03-28.neumann-hogan.hogan.5004.sbeok.shnf",
-  "avg_rating": 2.4057692307692307,
+  "best_recording": "gd1986-03-28.sbd-set2.browning.31603.flac16",
+  "avg_rating": 2.4690476190476196,
   "raw_rating": 3.740740740740741,
   "recording_count": 20,
   "confidence": 1.0,
   "total_high_ratings": 22,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 2,
+    "SBD": 1,
     "MATRIX": 1,
-    "UNKNOWN": 15,
-    "AUD": 2
+    "UNKNOWN": 11,
+    "AUD": 7
   },
   "matching_method": "date_only",
   "filtering_applied": []

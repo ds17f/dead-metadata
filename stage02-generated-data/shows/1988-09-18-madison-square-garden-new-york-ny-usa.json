@@ -147,14 +147,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:02:03.452437",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/09/12151928/b880918.jpeg",
+      "filename": "b880918.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/09/12151120/t880918.jpeg",
+      "filename": "t880918.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd88-09-18.sbd.eD.12746.sbeok.shnf",
-    "gd1988-09-18.nak300.damico.90920.sbeok.flac16",
     "gd1988-09-18.133003.upg-sbd.tobin.flac16",
     "gd1988-09-18.164210.UltraMatrix.sbd.cm.miller.t.flac1644",
     "gd1988-09-18.133005.mtx.tobin.flac16",
     "gd1988-09-18.163947.ultramatrix.miller.flac2496",
+    "gd1988-09-18.nak300.damico.90920.sbeok.flac16",
     "gd1988-09-18.114059.NeumannKMF4.daweez.d5scott.flac16",
     "gd1988-09-18.125777.AT835.flac16",
     "gd1988-09-18.133004.upg-aud.tobin.flac16",
@@ -166,16 +181,16 @@
     "gd1988-09-18.148685.sennme80.porter.carbonetta.sirmick.flac24"
   ],
   "best_recording": "gd88-09-18.sbd.eD.12746.sbeok.shnf",
-  "avg_rating": 3.672091544818817,
+  "avg_rating": 3.8067340067340063,
   "raw_rating": 3.9715909090909087,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 2,
-    "UNKNOWN": 8,
+    "UNKNOWN": 9,
     "AUD": 1
   },
   "matching_method": "date_only",

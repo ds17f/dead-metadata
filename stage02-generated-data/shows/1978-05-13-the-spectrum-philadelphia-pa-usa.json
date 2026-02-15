@@ -162,6 +162,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:36:04.613069",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152145/b780513.jpg",
+      "filename": "b780513.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151516/t780513.jpg",
+      "filename": "t780513.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1978-05-13.sbd.set2.miller.116978.flac16",
@@ -170,19 +185,17 @@
     "gd1978-05-13.aud.unknown.vernon-shephard.7207.shnf"
   ],
   "best_recording": "gd1978-05-13.sbd.set2.miller.116978.flac16",
-  "avg_rating": 3.4499999999999997,
+  "avg_rating": 3.8357142857142854,
   "raw_rating": 4.5,
   "recording_count": 4,
   "confidence": 1.0,
   "total_high_ratings": 9,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 2,
+    "SBD": 1,
+    "UNKNOWN": 1,
     "AUD": 2
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "enjoying-the-ride"
-  ]
+  "filtering_applied": []
 }

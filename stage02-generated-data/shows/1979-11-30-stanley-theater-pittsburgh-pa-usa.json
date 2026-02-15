@@ -172,6 +172,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:39:46.416491",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152134/b791130.jpg",
+      "filename": "b791130.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151449/t791130.jpg",
+      "filename": "t791130.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1979/11/12150105/jerrygarcia1.jpg",
+      "filename": "jerrygarcia1.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1979/11/12150105/jerrygarcia1-360x360.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd1979-11-30.sbd.miller.95832.sbeok.flac16",
@@ -186,7 +207,7 @@
     "gd1979-11-30.148525.fob.naks.wagner.miller.clugston.flac1648"
   ],
   "best_recording": "gd1979-11-30.sbd.miller.95832.sbeok.flac16",
-  "avg_rating": 4.3684385382059805,
+  "avg_rating": 4.34950495049505,
   "raw_rating": 4.709523809523809,
   "recording_count": 10,
   "confidence": 1.0,
@@ -195,7 +216,8 @@
   "source_types": {
     "SBD": 6,
     "MATRIX": 1,
-    "UNKNOWN": 3
+    "AUD": 2,
+    "UNKNOWN": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

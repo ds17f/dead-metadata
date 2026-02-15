@@ -179,18 +179,33 @@
     "The Neville Brothers"
   ],
   "collection_timestamp": "2025-08-10T08:56:54.219416",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1986/12/12152003/b861230.jpeg",
+      "filename": "b861230.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1986/12/12151209/t861230.jpeg",
+      "filename": "t861230.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd86-12-30.sbd.barbella.6025.sbeok.shnf",
     "gd1986-12-30.sbd.walker-scotton.miller.99638.sbeok.flac16",
     "gd1986-12-30.137978.sbd.miller.flac24",
-    "gd1986-12-30.nakcm304.suraci.beckham.sbeok.81308.flac16",
     "gd1986-12-30.138007.sbd.miller.flac16",
     "gd1986-12-30.sbd.miller.77446.flac16",
     "gd1986-12-30.sbd.miller.tetzeli.fix-77446.80818.flac16",
     "gd1986-12-30.128691.mtx.nicksmix.flac16",
     "gd1986-12-30.171472.mtx.tobin.flac1648",
     "gd1986-12-30.nak300.damico.88983.flac16",
+    "gd1986-12-30.nakcm304.suraci.beckham.sbeok.81308.flac16",
     "gd1986-12-30.135512.chasingwilma.flac24",
     "gd1986-12-30.137456.AA-toaK1.flac24",
     "gd1986-12-30.138362.FOB.Schoeps.Ammons.t-flac16",
@@ -201,16 +216,17 @@
     "gd1986-12-30.nak100.holtz.lmpp.105203.flac16"
   ],
   "best_recording": "gd86-12-30.sbd.barbella.6025.sbeok.shnf",
-  "avg_rating": 4.027994652406418,
+  "avg_rating": 4.0785718617343845,
   "raw_rating": 4.386928104575164,
   "recording_count": 18,
   "confidence": 1.0,
   "total_high_ratings": 39,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
+    "SBD": 6,
     "MATRIX": 2,
-    "UNKNOWN": 9
+    "UNKNOWN": 8,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

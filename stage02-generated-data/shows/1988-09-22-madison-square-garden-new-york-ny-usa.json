@@ -162,15 +162,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:02:09.250780",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/09/12151927/b880922.jpeg",
+      "filename": "b880922.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/09/12151119/t880922.jpeg",
+      "filename": "t880922.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd88-09-22.sbd.miller.5290.sbeok.shnf",
     "gd1988-09-22.133697.upd-sbd.tobin.flac16",
     "gd1988-09-22.165050.UltraMatrix.sbd.cm.miller.t.flac1644",
-    "gd1988-09-22.nak304.andrewf.89048.sbeok.flac16",
     "gd1988-09-22.133699.mtx.tobin.flac16",
-    "gd1988-09-22.164958.ultramatrix.miller.flac2496",
     "gd1988-09-22.172745.ultramatrix.remaster.miksis.venezia.miller.flac16",
+    "gd1988-09-22.164958.ultramatrix.miller.flac2496",
     "gd1988-09-22.Nak300CP4.Fitzy.Keo.124921.Flac2496",
     "gd1988-09-22.133698.upd-aud.tobin.flac16",
     "gd1988-09-22.133700.dts.tobin.flac16",
@@ -178,20 +192,20 @@
     "gd1988-09-22.149942.akg.dyche.flac1644",
     "gd1988-09-22.150694.senn-me-80.porter.carbonetta.sirmick.flac16",
     "gd1988-09-22.150695.senn-me-80.porter.carbonetta.sirmick.flac24",
-    "gd1988-09-22.Nak300CP4.Fitzy.Keo.124922.Flac1644"
+    "gd1988-09-22.Nak300CP4.Fitzy.Keo.124922.Flac1644",
+    "gd1988-09-22.nak304.andrewf.89048.sbeok.flac16"
   ],
   "best_recording": "gd88-09-22.sbd.miller.5290.sbeok.shnf",
-  "avg_rating": 3.495089820359281,
+  "avg_rating": 3.5374545454545454,
   "raw_rating": 3.52280701754386,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 13,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
-    "MATRIX": 2,
-    "REMASTER": 1,
-    "UNKNOWN": 7,
+    "SBD": 3,
+    "MATRIX": 3,
+    "UNKNOWN": 8,
     "AUD": 1
   },
   "matching_method": "date_only",

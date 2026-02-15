@@ -227,6 +227,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:58:40.209107",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/07/12151950/b870726.jpeg",
+      "filename": "b870726.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/07/12151151/t870726.jpeg",
+      "filename": "t870726.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1987-07-26.sbd-set3.unknown.97495.shnf",
@@ -250,12 +265,9 @@
   "source_types": {
     "SBD": 4,
     "MATRIX": 1,
-    "UNKNOWN": 4,
-    "AUD": 1
+    "UNKNOWN": 3,
+    "AUD": 2
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "dylan-and-the-dead"
-  ]
+  "filtering_applied": []
 }

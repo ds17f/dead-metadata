@@ -162,14 +162,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:06:03.394810",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/05/12151901/b900506.jpeg",
+      "filename": "b900506.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/05/12151044/t900506.jpeg",
+      "filename": "t900506.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd90-05-06.sbd.wiley.11661.sbeok.shnf",
-    "gd90-05-06.schoeps-fob.unknown.7891.sbeok.shnf",
     "gd1990-05-06.dsbd.miller.80278.sbeok.flac16",
     "gd1990-05-06.141263.sbd.miller.flac2496",
     "gd1990-05-06.141276.UltraMatrix.sbd.cm.miller.flac1644",
     "gd1990-05-06.mtx.hansokolow.97237.flac16",
+    "gd90-05-06.schoeps-fob.unknown.7891.sbeok.shnf",
     "gd1990-05-06.141940.FOB.Schoeps.BK.Mattes.Miler.Noel.t-flac1648",
     "gd1990-05-06.137861.french-tomD.bk4011.flac1644",
     "gd1990-05-06.nak300.lech.116826.flac",
@@ -177,16 +192,17 @@
     "gd1990-05-06.131208.cmc54.fob.deal.jwpetty.flac16"
   ],
   "best_recording": "gd90-05-06.sbd.wiley.11661.sbeok.shnf",
-  "avg_rating": 3.2808169821149504,
+  "avg_rating": 3.3537759685569912,
   "raw_rating": 4.342760180995475,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 42,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
+    "SBD": 4,
     "MATRIX": 1,
-    "UNKNOWN": 5
+    "UNKNOWN": 4,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -152,6 +152,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:54:34.569958",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152017/b850911.jpg",
+      "filename": "b850911.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151234/t850911.jpg",
+      "filename": "t850911.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-09-11.sbd.barbella.11494.sbeok.shnf",
@@ -159,11 +174,11 @@
     "gd1985-09-11.sbd.walker-scotton.miller.105709.flac16",
     "gd1985-09-11.169424.sbd.marcus.menke.miller.clugston.flac1648",
     "gd1985-09-11.169425.sbd.marcus.menke.miller.clugston.flac2496",
-    "gd1985-09-11.beyerM160.connor.77200.sbeok.flac16",
     "gd1985-09-11.142800.aud.bryant.miller.sirmick.flac2496",
     "gd1985-09-11.145493.aud.bryant.miller.sirmick.flac16",
     "gd1985-09-11.MixedSource.Darby.118336.Flac2448",
-    "gd1985-09-11.MixedSource.Darby.118337.Flac16"
+    "gd1985-09-11.MixedSource.Darby.118337.Flac16",
+    "gd1985-09-11.beyerM160.connor.77200.sbeok.flac16"
   ],
   "best_recording": "gd85-09-11.sbd.barbella.11494.sbeok.shnf",
   "avg_rating": 3.4600000000000004,
@@ -173,9 +188,9 @@
   "total_high_ratings": 6,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 6,
+    "SBD": 5,
     "AUD": 2,
-    "UNKNOWN": 2
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

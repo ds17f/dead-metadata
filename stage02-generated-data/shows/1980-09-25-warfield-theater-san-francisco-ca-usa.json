@@ -217,6 +217,26 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:41:57.886143",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152128/b800925.jpg",
+      "filename": "b800925.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151712/l800925.jpg",
+      "filename": "l800925.jpg",
+      "side": "unknown"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151437/t800925.jpg",
+      "filename": "t800925.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd80-09-25.acoustic-sbd.hinko.18740.sbeok.shnf",
@@ -225,20 +245,16 @@
     "gd1980-09-25.144696.nak700.severson.miller.clugston.flac1648"
   ],
   "best_recording": "gd80-09-25.acoustic-sbd.hinko.18740.sbeok.shnf",
-  "avg_rating": 2.0925553319919517,
+  "avg_rating": 2.1259079903147695,
   "raw_rating": 4.228571428571429,
   "recording_count": 4,
   "confidence": 1.0,
   "total_high_ratings": 18,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 2,
-    "UNKNOWN": 2
+    "SBD": 1,
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "all-acoustic-shows",
-    "reckoning-acoustic-era"
-  ]
+  "filtering_applied": []
 }

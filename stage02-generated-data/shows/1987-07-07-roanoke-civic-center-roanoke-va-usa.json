@@ -162,31 +162,43 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:58:26.674044",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/07/12151951/b870707.jpeg",
+      "filename": "b870707.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/07/12151154/t870707.jpeg",
+      "filename": "t870707.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd87-07-07.schoeps.wigley.2309.sbeok.shnf",
     "gd1987-07-07.nak300.koucky.ladner.35152.sbeok.flac16",
     "gd87-07-07.beyer.connor.2584.sbeok.shnf",
-    "gd1987-07-07.aud.bandrofcheck.82271.sbeok.flac16",
-    "gd1987-07-07.nak300.cohen.102909.sbeok.flac16",
     "gd1987-07-07.164876.senn.me80.hessberg.miller.clugston.flac2496",
     "gd1987-07-07.124756.weber-small.hillwig.cmc44.flac16",
-    "gd1987-07-07.164875.senn.me80.hessberg.miller.clugston.flac1648"
+    "gd1987-07-07.164875.senn.me80.hessberg.miller.clugston.flac1648",
+    "gd1987-07-07.aud.bandrofcheck.82271.sbeok.flac16",
+    "gd1987-07-07.nak300.cohen.102909.sbeok.flac16"
   ],
   "best_recording": "gd87-07-07.schoeps.wigley.2309.sbeok.shnf",
-  "avg_rating": 1.9966911764705881,
+  "avg_rating": 1.9468750000000001,
   "raw_rating": 4.229166666666667,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 21,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
-    "UNKNOWN": 3
+    "UNKNOWN": 7,
+    "AUD": 1
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "dylan-and-the-dead"
-  ]
+  "filtering_applied": []
 }

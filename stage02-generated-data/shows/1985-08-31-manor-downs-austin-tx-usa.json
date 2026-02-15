@@ -157,12 +157,26 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:54:20.625141",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152019/b850831.jpg",
+      "filename": "b850831.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151237/t850831.jpg",
+      "filename": "t850831.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-08-31.schoeps-oade.sacks.25943.sbeok.flacf",
     "gd1985-08-31.fob.mccue-motb.82367.sbeok.flac16",
     "gd85-08-31.oade.connor.8237.sbeok.shnf",
-    "gd1985-08-31.beyerM160.connor.77193.sbeok.flac16",
     "gd1985-08-31.fob.mccue.motb.82689.flac24",
     "gd1985-08-31.153037.akgc422-davis-holbrook.flac2448",
     "gd1985-08-31.123824.nak300.flac16",
@@ -171,18 +185,19 @@
     "gd1985-08-31.153036.akgc422.davis-holbrook.flac1644",
     "gd1985-08-31.154551.senn.me80.hessberg.miller.clugston.flac1648",
     "gd1985-08-31.154552.senn.me80.hessberg.miller.clugston.flac2496",
-    "gd1985-08-31.BeyerM160s-SonyD5.D5scott.108163.flac16"
+    "gd1985-08-31.BeyerM160s-SonyD5.D5scott.108163.flac16",
+    "gd1985-08-31.beyerM160.connor.77193.sbeok.flac16"
   ],
   "best_recording": "gd85-08-31.schoeps-oade.sacks.25943.sbeok.flacf",
-  "avg_rating": 1.9342105263157898,
+  "avg_rating": 1.8968085106382977,
   "raw_rating": 4.12,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 19,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 9
+    "UNKNOWN": 11,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

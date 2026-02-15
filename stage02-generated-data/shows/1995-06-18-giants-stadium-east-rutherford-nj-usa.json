@@ -154,10 +154,25 @@
     "Bob Dylan"
   ],
   "collection_timestamp": "2025-08-10T09:20:09.580867",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/06/12151716/b950618.jpeg",
+      "filename": "b950618.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/06/12150809/t950618.jpeg",
+      "filename": "t950618.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd95-06-18.aud.2543.sbeok.shnf",
     "gd1995-06-18.fob.nak300.stine.35213.flac16",
+    "gd95-06-18.aud.2543.sbeok.shnf",
     "gd1995-06-18.120080.nak.Boedicker.flac16",
     "gd1995-06-18.147123.walsh.suraci.at835.flac16",
     "gd1995-06-18.fob-nak300-patched-13307.stine.92802.shnf",
@@ -165,16 +180,16 @@
     "gd1995-06-18.145846.sony.ecm909a.sterry.beckwith.miller.sirmick.flac16",
     "gd1995-06-18.147124.walsh.suraci.at835.flac24"
   ],
-  "best_recording": "gd95-06-18.aud.2543.sbeok.shnf",
-  "avg_rating": 1.6927653213751868,
+  "best_recording": "gd1995-06-18.fob.nak300.stine.35213.flac16",
+  "avg_rating": 1.6893333333333336,
   "raw_rating": 2.6074074074074076,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 22,
   "total_low_ratings": 34,
   "source_types": {
-    "SBD": 1,
-    "UNKNOWN": 7
+    "AUD": 2,
+    "UNKNOWN": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

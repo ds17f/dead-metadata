@@ -172,16 +172,31 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:47:54.395028",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152055/b820920.jpg",
+      "filename": "b820920.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151345/t820920.jpg",
+      "filename": "t820920.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd1982-09-20.mtx.seamons.97897.sbeok.flac16",
-    "gd82-09-20.cohen.minches.19145.sbeok.shnf",
-    "gd82-09-20.senn-wise.sacks.3151.sbeok.shnf",
     "gd1982-09-20.sbd.miller.77482.sbeok.flac16",
     "gd82-09-20.set2-sbd.miller.18113.sbeok.shnf",
     "gd1982-09-20.sbd.miller.88857.sbeok.flac16",
     "gd1982-09-20.157809.sbd.1gen.remaster.miller.flac1644",
     "gd82-09-20.set1-sbd.miller-sturtevant.15806.sbeok.shnf",
+    "gd1982-09-20.mtx.seamons.97897.sbeok.flac16",
+    "gd82-09-20.cohen.minches.19145.sbeok.shnf",
+    "gd82-09-20.senn-wise.sacks.3151.sbeok.shnf",
     "gd1982-09-20.122089.senn421.streeter.miller.flac16",
     "gd1982-09-20.122088.senn421.streeter.miller.flac24",
     "gd1982-09-20.nak300.morrone.118798.flac2448",
@@ -192,20 +207,18 @@
     "gd1982-09-20.163448.senn441.eaton.miller.clugston.flac2496",
     "gd1982-09-20.nak300.morrone.andrewf.118799.flac1644"
   ],
-  "best_recording": "gd1982-09-20.mtx.seamons.97897.sbeok.flac16",
-  "avg_rating": 2.658862876254181,
+  "best_recording": "gd1982-09-20.sbd.miller.77482.sbeok.flac16",
+  "avg_rating": 2.7433333333333327,
   "raw_rating": 4.428571428571429,
   "recording_count": 17,
   "confidence": 1.0,
   "total_high_ratings": 30,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 8,
-    "UNKNOWN": 9
+    "SBD": 5,
+    "MATRIX": 1,
+    "UNKNOWN": 11
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "in-out-of-the-garden-msg-81-83"
-  ]
+  "filtering_applied": []
 }

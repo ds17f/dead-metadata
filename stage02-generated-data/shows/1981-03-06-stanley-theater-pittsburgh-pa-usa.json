@@ -162,12 +162,22 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:43:30.565984",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151424/t810306.jpg",
+      "filename": "t810306.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd81-03-06.wise.lutch.3921.sbeok.shnf",
     "gd1981-03-06.166099.s2.sbd.seaweed.flac2448",
     "gd81-03-06.set2-sbd.fink.14019.sbeok.shnf",
     "gd1981-03-06.168633.set2.sbd.miller.flac1644",
+    "gd81-03-06.wise.lutch.3921.sbeok.shnf",
     "gd1981-03-06.139741.fob.beyer.m160.streeter.miller.clugston.flac1644",
     "gd1981-03-06.128664.senn421.wise.minches.flac2496",
     "gd1981-03-06.nak700.taylor-radnor.gross.gems.83827.flac16",
@@ -178,16 +188,17 @@
     "gd1981-03-06.169387.nak300.cm.ismokeweed.flac2448",
     "gd1981-03-06.naks.mason.129552.flac16"
   ],
-  "best_recording": "gd81-03-06.wise.lutch.3921.sbeok.shnf",
-  "avg_rating": 1.9724085365853659,
+  "best_recording": "gd1981-03-06.166099.s2.sbd.seaweed.flac2448",
+  "avg_rating": 1.8945175438596498,
   "raw_rating": 4.1125,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 16,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 9
+    "SBD": 3,
+    "UNKNOWN": 8,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

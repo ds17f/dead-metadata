@@ -162,13 +162,23 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:40:34.573948",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151446/t800504.jpg",
+      "filename": "t800504.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd80-05-04.naks.munder.11768.sbeok.shnf",
     "gd1980-05-04.aud.glassberg.motb-0037.96584.flac16",
     "gd1980-05-04..nak700.glassberg.96585.flac24",
     "gd1980-05-04.nak700.glassberg.motb.fix-96585.96925.flac24",
     "gd1980-05-04.163761.nak700.wagner.miller.clugston.flac2496",
+    "gd80-05-04.naks.munder.11768.sbeok.shnf",
     "gd1980-05-04.nak700.glassberg.motb.fix-96584.96910.flac16",
     "gd1980-05-04.akg1000.118912.wise.minches.flac24",
     "gd1980-05-04.128688.naks.mason.flac16",
@@ -177,17 +187,16 @@
     "gd1980-05-04.aud.morris.106622.flac24",
     "gd1980-05-04.nak.morris.99953.sbefail.flac16"
   ],
-  "best_recording": "gd80-05-04.naks.munder.11768.sbeok.shnf",
-  "avg_rating": 2.2597222222222224,
+  "best_recording": "gd1980-05-04.aud.glassberg.motb-0037.96584.flac16",
+  "avg_rating": 2.3318181818181816,
   "raw_rating": 4.181818181818182,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 18,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 1,
     "AUD": 3,
-    "UNKNOWN": 8
+    "UNKNOWN": 9
   },
   "matching_method": "date_only",
   "filtering_applied": []

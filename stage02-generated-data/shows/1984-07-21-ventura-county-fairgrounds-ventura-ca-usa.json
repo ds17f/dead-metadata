@@ -162,19 +162,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:52:08.199549",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151301/t840721.jpg",
+      "filename": "t840721.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd84-07-21.sbd.cole.14329.sbeok.shnf",
     "gd1984-07-21.sbd.walker-scotton.miller.96410.flac24",
     "gd1984-07-21.sbd.walker-scotton.miller.96394.sbeok.flac16",
     "gd1984-07-21.sbd.walker-scotton.miller.77327.sbeok.flac16",
-    "gd1984-07-21.sonyecm.unknown.gale.88940.sbeok.flac16",
     "gd1984-07-21.136717.sbd.GEMS.flac16",
     "gd1984-07-21.sbd.lai.1616.sbefail.shnf",
     "gd1984-07-21.152178.sbd.walkler.scotton.miller.flac2496",
     "gd1984-07-21.152322.sbd.cm.miller.t.flac16",
     "gd1984-07-21.153529.mtx.seamons.ht135.flac1644",
     "gd1984-07-21.139445.fob.schoeps.mk41.oade.bryant.miller.clugston.flac2496",
+    "gd1984-07-21.sonyecm.unknown.gale.88940.sbeok.flac16",
     "gd1984-07-21.112806.beyer-senn.daweez.d5scott.flac16",
     "gd1984-07-21.139444.fob.schoeps.mk41.oade.bryant.miller.clugston.flac1644",
     "gd1984-07-21.150379.beyerm88.holbrook.flac1644",
@@ -183,16 +193,17 @@
     "gd1984-07-21.166981.senn441.vita.miller.clugston.flac2496"
   ],
   "best_recording": "gd84-07-21.sbd.cole.14329.sbeok.shnf",
-  "avg_rating": 3.3677586206896555,
+  "avg_rating": 3.4200354609929087,
   "raw_rating": 4.0,
   "recording_count": 17,
   "confidence": 1.0,
   "total_high_ratings": 24,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 9,
+    "SBD": 8,
     "MATRIX": 1,
-    "UNKNOWN": 7
+    "AUD": 2,
+    "UNKNOWN": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

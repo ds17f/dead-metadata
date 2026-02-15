@@ -152,11 +152,25 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:01:49.385684",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/09/12151929/b880908.jpeg",
+      "filename": "b880908.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/09/12151122/t880908.jpeg",
+      "filename": "t880908.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd88-09-08.sbd.donaldson.1561.sbeok.shnf",
     "gd1988-09-08.136886.upg-sbd.tobin.flac16",
-    "gd1988-09-08.120487.mk41.sbeok.flac16",
     "gd1988-09-08.147775.sbd.ultramatrix.miller.flac24",
     "gd1988-09-08.147850.UltraMatrix.sbd.cm.miller.flac16",
     "gd1988-09-08.147973.sbd.ultramatrix.miller.pc.flac24",
@@ -165,6 +179,7 @@
     "gd1988-09-08.109176.nakcm300-pasternak.mallick.flac16",
     "gd1988-09-08.Nak300CP4.Floater.Keo.116063.Flac2496",
     "gd1988-09-08.110021.beyer.Boeditaper.flac16",
+    "gd1988-09-08.120487.mk41.sbeok.flac16",
     "gd1988-09-08.136888.dts.tobin.flac16",
     "gd1988-09-08.136889.5-1.tobin.flac1648",
     "gd1988-09-08.141741.OTS.AKG.Ackerman.Miller.Noel.t-flac2496",
@@ -180,9 +195,9 @@
   "total_high_ratings": 8,
   "total_low_ratings": 4,
   "source_types": {
-    "SBD": 7,
+    "SBD": 6,
     "MATRIX": 1,
-    "UNKNOWN": 9
+    "UNKNOWN": 10
   },
   "matching_method": "date_only",
   "filtering_applied": []

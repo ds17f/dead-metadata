@@ -172,31 +172,52 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:43:40.429104",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2021/10/26172931/DSC_0002-2.jpg",
+      "filename": "DSC_0002-2.jpg",
+      "side": "unknown"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152116/b810313.jpg",
+      "filename": "b810313.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151423/t810313.jpg",
+      "filename": "t810313.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd1981-03-13.wise.lutch.4167.sbeok.shnf",
-    "gd1981-03-13.nak700.wagner.miller.90455.sbeok.flac16",
     "gd1981-03-13.pset1.sbd.digitalrbb.miller.113101.flac16",
     "gd1981-03-13.sbd.unknown.33336.sbeok.flac16",
-    "gd1981-03-13.senn421.zimmerman.minches.81392.sbeok.flac16",
     "gd1981-03-13.set1.sbd.digitalrbb.miller.112659.flac16",
+    "gd1981-03-13.wise.lutch.4167.sbeok.shnf",
     "gd1981-03-13.140010.FOB-akg-d330bt.streeter.miller.sirmick.flac2496",
     "gd1981-03-13.nak700.rolfe.minches.99104.flac16",
+    "gd1981-03-13.nak700.wagner.miller.90455.sbeok.flac16",
     "gd1981-03-13.132620.aud.sennheiser421.flac16",
     "gd1981-03-13.132621.aud.sennheiser421.flac24",
     "gd1981-03-13.147851.fob.nak700.wagner.miller.clugston.flac1648",
-    "gd1981-03-13.147852.fob.nak700.wagner.miller.clugston.flac2496"
+    "gd1981-03-13.147852.fob.nak700.wagner.miller.clugston.flac2496",
+    "gd1981-03-13.senn421.zimmerman.minches.81392.sbeok.flac16"
   ],
-  "best_recording": "gd1981-03-13.wise.lutch.4167.sbeok.shnf",
-  "avg_rating": 2.9566561514195584,
+  "best_recording": "gd1981-03-13.pset1.sbd.digitalrbb.miller.113101.flac16",
+  "avg_rating": 2.9798431372549015,
   "raw_rating": 4.525096525096526,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 32,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 6,
-    "AUD": 6
+    "SBD": 3,
+    "AUD": 7,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

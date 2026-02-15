@@ -167,6 +167,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:55:32.737717",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152009/b860319.jpg",
+      "filename": "b860319.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151222/t860319.jpg",
+      "filename": "t860319.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1986-03-19.s1.sbd.barletta-sirmick.109882.sbeok.flac16",
@@ -197,7 +212,7 @@
     "gd1986-03-19.senn421.alexander.78163.flac24"
   ],
   "best_recording": "gd1986-03-19.s1.sbd.barletta-sirmick.109882.sbeok.flac16",
-  "avg_rating": 1.8937106918238993,
+  "avg_rating": 1.88159509202454,
   "raw_rating": 4.096774193548387,
   "recording_count": 26,
   "confidence": 1.0,
@@ -206,8 +221,8 @@
   "source_types": {
     "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 22,
-    "AUD": 1
+    "UNKNOWN": 21,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

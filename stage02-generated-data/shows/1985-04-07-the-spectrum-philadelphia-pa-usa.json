@@ -152,18 +152,31 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:53:34.666731",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152025/b850407.jpg",
+      "filename": "b850407.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151248/t850407.jpg",
+      "filename": "t850407.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-04-07.sbd.keith.14614.sbeok.shnf",
     "gd1985-04-07.118484.sbd.healy.damico.flac16",
     "gd85-04-07.sbd.sacks.3346.sbeok.shnf",
-    "gd1985-04-07.nak300.damico.87419.sbeok.flac16",
     "gd1985-04-07.169900.sbd.patched.pitched.remaster.sacks.keith.miksis.flac1648",
-    "gd1985-04-07.senn421.mccue.ford.28488.sbeok.shnf",
-    "gd1985-04-07.senn421.pauline.miller.91389.sbeok.flac16",
     "gd1985-04-07.132713.mtx.dusborne.flac16",
     "gd1985-04-07.139540.mtx.tobin.flac16",
     "gd1985-04-07.169904.matrix.miksis.sacks.hunt.mattes.clugston.flac1648",
+    "gd1985-04-07.nak300.damico.87419.sbeok.flac16",
     "gd1985-04-07.senn421.cohen.103429.flac16",
     "gd1985-04-07.senn-hubbard.bandrofcheck.81454.flac16",
     "gd1985-04-07.124835.chasingwilma.flac24",
@@ -185,19 +198,21 @@
     "gd1985-04-07.170700.beyer.m160.vita.miller.clugston.flac1648",
     "gd1985-04-07.170701.beyer.m160.vita.miller.clugston.flac2496",
     "gd1985-04-07.Sennheiser421FOB.35081.shnf",
-    "gd1985-04-07.beyerm160.d5scott.107238.flac16"
+    "gd1985-04-07.beyerm160.d5scott.107238.flac16",
+    "gd1985-04-07.senn421.mccue.ford.28488.sbeok.shnf",
+    "gd1985-04-07.senn421.pauline.miller.91389.sbeok.flac16"
   ],
   "best_recording": "gd85-04-07.sbd.keith.14614.sbeok.shnf",
-  "avg_rating": 3.9937754010695197,
+  "avg_rating": 4.016654074473827,
   "raw_rating": 4.162091503267974,
   "recording_count": 32,
   "confidence": 1.0,
   "total_high_ratings": 38,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 7,
+    "SBD": 4,
     "MATRIX": 3,
-    "UNKNOWN": 20,
+    "UNKNOWN": 23,
     "AUD": 2
   },
   "matching_method": "date_only",

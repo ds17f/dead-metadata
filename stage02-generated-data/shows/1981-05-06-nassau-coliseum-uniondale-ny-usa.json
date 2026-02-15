@@ -187,14 +187,24 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:44:06.464841",
+  "ticket_images_status": "empty",
+  "ticket_images": [],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1981/05/12152303/19810506.jpg",
+      "filename": "19810506.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1981/05/12152303/19810506-360x360.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd81-05-06.glassberg.vernon.17697.sbeok.shnf",
-    "gd1981-05-06.senn421.wise.andrewf.82368.sbeok.flac16",
     "gd1981-05-06.136735.aud.lamarre.berger.flac24",
     "gd1981-05-06.140903.senn421.wise.minches.miller.clugston.flac2496",
     "gd1981-05-06.144700.fob.nak700.severson.miller.clugston.flac1648",
     "gd1981-05-06.nak700.glassberg.vernon.10379.shnf",
+    "gd1981-05-06.senn421.wise.andrewf.82368.sbeok.flac16",
     "gd1981-05-06.136736.aud.lamarre.berger.flac16",
     "gd1981-05-06.139785.set2.fob.unknown.streeter.miller.clugston.flac1644",
     "gd1981-05-06.139786.set2.fob.unknown.streeter.miller.clugston.flac2496",
@@ -205,21 +215,16 @@
     "gd1981-05-06.152950.nak500.vita.miller.clugston.flac2496"
   ],
   "best_recording": "gd81-05-06.glassberg.vernon.17697.sbeok.shnf",
-  "avg_rating": 2.1410493827160493,
+  "avg_rating": 2.106701030927835,
   "raw_rating": 4.421052631578948,
   "recording_count": 14,
   "confidence": 1.0,
   "total_high_ratings": 32,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 2,
-    "AUD": 3,
-    "UNKNOWN": 9
+    "UNKNOWN": 7,
+    "AUD": 7
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "dicks-picks-vol-13",
-    "official-picks-dicks"
-  ]
+  "filtering_applied": []
 }

@@ -162,13 +162,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:13:09.278569",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/03/12151805/b930327.jpeg",
+      "filename": "b930327.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/03/12150934/t930327.jpeg",
+      "filename": "t930327.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd93-03-27.sbd.nawrocki.31956.sbeok.shnf",
     "gd1993-03-27.sbd.samaritano-miller.92523.sbeok.flac16",
-    "gd93-03-27.ams-young.georges.6701.sbeok.shnf",
     "gd1993-03-27.sbd.nawrocki.555.sbeok.shnf",
     "gd1993-03-27.152952.mtx.seamons.ht133.flac16",
+    "gd93-03-27.ams-young.georges.6701.sbeok.shnf",
     "gd1993-03-27.Nak100CP4.110577.flac24",
     "gd1993-03-27.Nak100CP4.110576.flac16",
     "gd1993-03-27.119209.Boedicker.flac16",
@@ -181,21 +196,18 @@
     "gd1993-03-27.akg.andrewf.95958.flac16"
   ],
   "best_recording": "gd93-03-27.sbd.nawrocki.31956.sbeok.shnf",
-  "avg_rating": 3.5783489096573216,
+  "avg_rating": 3.6448220064724914,
   "raw_rating": 3.941441441441442,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 28,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 1,
     "UNKNOWN": 9,
-    "AUD": 1
+    "AUD": 2
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "30-trips-around-the-sun"
-  ]
+  "filtering_applied": []
 }

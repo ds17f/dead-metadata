@@ -159,20 +159,36 @@
     "Steve Miller Band"
   ],
   "collection_timestamp": "2025-08-10T09:12:05.500082",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/06/12151814/b920626.jpeg",
+      "filename": "b920626.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/06/12150945/t920626.jpeg",
+      "filename": "t920626.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd92-06-26.aud.harlan.9118.sbeok.shnf",
-    "gd1992-06-26.dsbd.miller.32497.sbeok.flac16"
+    "gd1992-06-26.dsbd.miller.32497.sbeok.flac16",
+    "gd92-06-26.aud.harlan.9118.sbeok.shnf"
   ],
-  "best_recording": "gd92-06-26.aud.harlan.9118.sbeok.shnf",
-  "avg_rating": 2.220952380952381,
+  "best_recording": "gd1992-06-26.dsbd.miller.32497.sbeok.flac16",
+  "avg_rating": 2.1539551357733173,
   "raw_rating": 3.6952380952380954,
   "recording_count": 2,
   "confidence": 1.0,
   "total_high_ratings": 10,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 2
+    "SBD": 1,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

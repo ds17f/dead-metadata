@@ -167,36 +167,53 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:34:32.277542",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152148/b771104.jpg",
+      "filename": "b771104.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152148/b771104b.jpg",
+      "filename": "b771104b.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151528/t771104.jpg",
+      "filename": "t771104.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd77-11-04.sbd.unknown.2595.sbeok.shnf",
-    "gd77-11-04.moore.jupile-weiner.15208.sbeok.shnf",
     "gd1977-11-04.sbd.matera.130927.flac16",
-    "gd1977-11-04.aud.zimmerman.minches.81110.sbeok.flac16",
     "gd1977-11-04.sbd.braverman.3739.shnf",
     "gd1977-11-04.139656.sbd.flac1644",
     "gd1977-11-04.142304.sbd.eac.flac1644",
     "gd1977-11-04.mtx.chappell.SB5.29091.flac16",
+    "gd77-11-04.moore.jupile-weiner.15208.sbeok.shnf",
+    "gd1977-11-04.aud.zimmerman.minches.81110.sbeok.flac16",
     "gd1977-11-04.141005.aud.boswell.smith.sirmick.flac1644",
     "gd1977-11-04.141833.sony.ecm33p.moore.dalton.miller.clugston.flac1644",
     "gd1977-11-04.141004.aud.boswell.smith.sirmick.flac2496"
   ],
   "best_recording": "gd77-11-04.sbd.unknown.2595.sbeok.shnf",
-  "avg_rating": 3.7628883774453405,
+  "avg_rating": 3.967214191852826,
   "raw_rating": 4.62334455667789,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 91,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 7,
+    "SBD": 5,
     "MATRIX": 1,
-    "AUD": 2,
-    "UNKNOWN": 1
+    "UNKNOWN": 2,
+    "AUD": 3
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "daves-picks-vol-12"
-  ]
+  "filtering_applied": []
 }

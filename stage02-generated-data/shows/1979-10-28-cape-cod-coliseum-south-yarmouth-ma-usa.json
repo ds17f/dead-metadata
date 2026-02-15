@@ -152,30 +152,46 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:39:16.394168",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152135/b791028.jpg",
+      "filename": "b791028.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151452/t791028.jpg",
+      "filename": "t791028.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1979-10-28.sbd.miller.105434.flac16",
     "gd79-10-28.sbd.miller.30655.sbeok.flacf",
     "gd79-10-28.sbd-aud.braverman.7602.sbeok.shnf",
-    "gd79-10-28.rolfe.vernon-pujol.19590.sbeok.shnf",
     "gd1979-10-28.134396.sbd.miller.flac16",
     "gd1979-10-28.mtx.seamons.105530.flac16",
+    "gd79-10-28.rolfe.vernon-pujol.19590.sbeok.shnf",
     "gd1979-10-28.145464.fob.nak700.rolfe.miller.clugston.flac1648",
     "gd1979-10-28.145465.fob.nak700.rolfe.miller.clugston.flac2496",
     "gd1979-10-28.nak300.morrone.113747.flac2448",
     "gd1979-10-28.nak300.morrone.113748.flac1644"
   ],
   "best_recording": "gd1979-10-28.sbd.miller.105434.flac16",
-  "avg_rating": 3.0480745341614908,
+  "avg_rating": 3.101987041036717,
   "raw_rating": 4.37962962962963,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 47,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 5,
+    "SBD": 4,
     "MATRIX": 1,
-    "UNKNOWN": 4
+    "UNKNOWN": 3,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

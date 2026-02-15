@@ -157,18 +157,36 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:52:22.616243",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152033/b841012.jpg",
+      "filename": "b841012.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151258/t841012.jpg",
+      "filename": "t841012.jpg",
+      "side": "front"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151258/t841012b.jpg",
+      "filename": "t841012b.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd84-10-12.sbd.clugston.5585.sbeok.shnf",
-    "gd84-10-12.aud.ladner.30192.sbeok.flacf",
-    "gd84-10-12.nak-rice.clugston.356.sbeok.shnf",
-    "gd84-10-12.beyer-ficca.ficca.20022.sbeok.shnf",
     "gd1984-10-12.132814.sbd.flac16",
-    "gd1984-10-12.fob.townshend.85219.sbeok.flac16",
-    "gd1984-10-12.schoeps.oade.sacks.17412.sbeok.shnf",
     "gd1984-10-12.mtx.seamons.117573.flac16",
+    "gd84-10-12.aud.ladner.30192.sbeok.flacf",
     "gd1984-10-12.nak100.holtz.gems.101952.flac16",
+    "gd84-10-12.nak-rice.clugston.356.sbeok.shnf",
     "gd84-10-12-oade.sacks.8795.sbefail.shnf",
+    "gd84-10-12.beyer-ficca.ficca.20022.sbeok.shnf",
     "gd1984-10-12.beyerm88.suraci.77979.flac16",
     "gd1984-10-12.139117.FOB.Neumann.U87.billydee.Sellers.Noel.t-flac24",
     "gd1984-10-12.143637.set2.nak.blend.guy.miller.clugston.flac1648",
@@ -190,25 +208,24 @@
     "gd1984-10-12.165103.fob.nak100.photoleon.flac2448",
     "gd1984-10-12.168024.beyer.m160.vita.miller.clugston.flac1648",
     "gd1984-10-12.168025.beyer.m160.vita.miller.clugston.flac2496",
+    "gd1984-10-12.fob.townshend.85219.sbeok.flac16",
     "gd1984-10-12.nak300.morris.113966.flac24",
+    "gd1984-10-12.schoeps.oade.sacks.17412.sbeok.shnf",
     "gd1984-10-12.schoeps.oade.sacks.nawrocki.fix-17412.18436.sbefail.shnf"
   ],
   "best_recording": "gd84-10-12.sbd.clugston.5585.sbeok.shnf",
-  "avg_rating": 3.2328845846326058,
+  "avg_rating": 3.305941241685144,
   "raw_rating": 4.570051476301476,
   "recording_count": 33,
   "confidence": 1.0,
   "total_high_ratings": 140,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 7,
+    "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 23,
-    "AUD": 2
+    "AUD": 9,
+    "UNKNOWN": 21
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "30-trips-around-the-sun"
-  ]
+  "filtering_applied": []
 }

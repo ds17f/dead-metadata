@@ -152,15 +152,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:49:14.331064",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152052/b830622.jpg",
+      "filename": "b830622.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151331/t830622.jpg",
+      "filename": "t830622.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
+    "gd1983-06-22.nak300.grabski.88881.flac16",
     "gd83-06-22.senn-akg-mckeown.willy.14908.sbeok.shnf",
+    "gd1983-06-22.140681.nak300.flac2496",
     "gd1983-06-22.fob.mckeown.7222.sbeok.shnf",
     "gd1983-06-22.beyerm201.holbrook.burke.81511.sbeok.flac24",
-    "gd1983-06-22.beyerm201.holbrook.burke.81274.sbeok.flac16",
-    "gd1983-06-22.nak300.grabski.88881.flac16",
-    "gd1983-06-22.140681.nak300.flac2496",
     "gd1983-06-22.148030.fob.akg.d330bt.senn421.hecht.miller.clugston.flac2496",
+    "gd1983-06-22.beyerm201.holbrook.burke.81274.sbeok.flac16",
     "gd1983-06-22.150102.senn422.d5.mike246.flac16",
     "gd1983-06-22.fob.atm11.chasingwilma.102068.flac16",
     "gd1983-06-22.119806.chasingwilma.flac24",
@@ -174,17 +189,16 @@
     "gd1983-06-22.155966.fob.senn441.neumann.u87.blend.eaton.miller.clugston.flac2496",
     "gd1983-06-22.fob.senn.andrewf.92208.flac16"
   ],
-  "best_recording": "gd83-06-22.senn-akg-mckeown.willy.14908.sbeok.shnf",
-  "avg_rating": 1.7091054313099043,
+  "best_recording": "gd1983-06-22.nak300.grabski.88881.flac16",
+  "avg_rating": 1.659302325581396,
   "raw_rating": 3.663414634146341,
   "recording_count": 19,
   "confidence": 1.0,
   "total_high_ratings": 29,
   "total_low_ratings": 4,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 14,
-    "AUD": 1
+    "UNKNOWN": 11,
+    "AUD": 8
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -157,28 +157,44 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:03:31.466431",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/04/12151919/b890417.jpeg",
+      "filename": "b890417.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/04/12151107/t890417.jpeg",
+      "filename": "t890417.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd89-04-17.aud.wiley.9207.sbeok.shnf",
-    "gd89-04-17.partial.aud-unknown.stairs.24003.sbeok.shnf",
     "gd1989-04-17.138286.sbd.miller.flac24",
     "gd1989-04-17.156066.mtx.seamons.ht140.flac16",
     "gd1989-04-17.138305.mtx.miller.flac16",
+    "gd89-04-17.aud.wiley.9207.sbeok.shnf",
+    "gd89-04-17.partial.aud-unknown.stairs.24003.sbeok.shnf",
     "gd1989-04-17.AKG451.Darby.117564.Flac2448",
     "gd1989-04-17.141003.schoeps.cmc4.mk4.pcm.mattes.miller.clugston.flac1644",
     "gd1989-04-17.149521.s2.senn441.boedicker.flac1644",
     "gd1989-04-17.AKG451.Darby.117565.Flac1644"
   ],
-  "best_recording": "gd89-04-17.aud.wiley.9207.sbeok.shnf",
-  "avg_rating": 2.3855737704918036,
+  "best_recording": "gd1989-04-17.138286.sbd.miller.flac24",
+  "avg_rating": 2.3957046979865777,
   "raw_rating": 3.9047619047619047,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 15,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 3,
+    "SBD": 1,
     "MATRIX": 2,
+    "AUD": 2,
     "UNKNOWN": 4
   },
   "matching_method": "date_only",

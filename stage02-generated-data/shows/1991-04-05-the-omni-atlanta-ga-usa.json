@@ -162,6 +162,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:08:30.793441",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/04/12151841/b910405.jpeg",
+      "filename": "b910405.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/04/12151018/t910405.jpeg",
+      "filename": "t910405.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-04-05.sbd.gardner.4162.sbeok.shnf",
@@ -178,7 +193,7 @@
     "gd1991-04-05.140692.s2.OTS.Neumann.Oade.Gastwirt.Miller.Noel.t-flac1648"
   ],
   "best_recording": "gd91-04-05.sbd.gardner.4162.sbeok.shnf",
-  "avg_rating": 4.230769230769232,
+  "avg_rating": 4.214775725593669,
   "raw_rating": 4.681481481481482,
   "recording_count": 12,
   "confidence": 1.0,
@@ -187,7 +202,8 @@
   "source_types": {
     "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 8
+    "UNKNOWN": 6,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

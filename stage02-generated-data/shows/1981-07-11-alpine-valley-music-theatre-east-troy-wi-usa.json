@@ -182,29 +182,41 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:44:42.446822",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152113/b810711.jpg",
+      "filename": "b810711.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151415/t810711.jpg",
+      "filename": "t810711.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd81-07-11.set2-sbd.fink.14020.sbeok.shnf",
-    "gd81-07-11.senn441.munder.7370.sbeok.shnf",
     "gd1981-07-11.122830.sailorsaint.mtx.seamons.flac16",
+    "gd81-07-11.senn441.munder.7370.sbeok.shnf",
     "gd1981-07-11.152769.senn421.vita.miller.clugston.flac1648",
     "gd1981-07-11.152770.senn421.vita.miller.clugston.flac2496"
   ],
   "best_recording": "gd81-07-11.set2-sbd.fink.14020.sbeok.shnf",
-  "avg_rating": 2.220511753692532,
+  "avg_rating": 2.221875311389378,
   "raw_rating": 4.441023507385064,
   "recording_count": 5,
   "confidence": 1.0,
   "total_high_ratings": 32,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 2,
+    "SBD": 1,
     "MATRIX": 1,
-    "UNKNOWN": 2
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "enjoying-the-ride"
-  ]
+  "filtering_applied": []
 }

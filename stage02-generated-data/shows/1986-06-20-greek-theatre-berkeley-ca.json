@@ -152,15 +152,25 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:56:20.616760",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151213/t860620.jpg",
+      "filename": "t860620.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1986-06-20.sbd.walker-scotton.miller.81645.flac16",
-    "gd86-06-20.aud.eD.15243.sbeok.shnf",
     "gd86-06-20.sbd.hinko.23591.sbeok.shnf",
-    "gd86-06-20.aud-cmc42.oade_dsp.22935.sbeok.flacf",
     "gd1986-06-20.164844.sbd.bear.gems.flac2496",
     "gd1986-06-20.164845.sbd.bear.gems.flac1648",
     "gd1986-06-20.mtx.bear.gems.105540.flac16",
+    "gd86-06-20.aud.eD.15243.sbeok.shnf",
+    "gd86-06-20.aud-cmc42.oade_dsp.22935.sbeok.flacf",
     "gd1986-06-20.126349.akg.flac24",
     "gd1986-06-20.126350.akg.flac16",
     "gd1986-06-20.148476.neumann.km84i.hecht.miller.clugston.flac1648",
@@ -177,17 +187,17 @@
     "gd1986-06-20.AKG414.Darby.117827.Flac1644"
   ],
   "best_recording": "gd1986-06-20.sbd.walker-scotton.miller.81645.flac16",
-  "avg_rating": 2.6429381443298974,
+  "avg_rating": 2.6530459770114945,
   "raw_rating": 3.5217391304347827,
   "recording_count": 21,
   "confidence": 1.0,
   "total_high_ratings": 12,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 6,
+    "SBD": 4,
     "MATRIX": 1,
-    "UNKNOWN": 12,
-    "AUD": 2
+    "AUD": 4,
+    "UNKNOWN": 12
   },
   "matching_method": "date_only",
   "filtering_applied": []

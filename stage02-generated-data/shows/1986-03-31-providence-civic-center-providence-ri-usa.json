@@ -142,17 +142,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:55:52.683043",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151219/t860331.jpg",
+      "filename": "t860331.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd86-03-31.aud.eD.13463.sbeok.shnf",
     "gd1986-03-31.sbd.walker-scotton.miller.106111.flac16",
-    "gd86-03-31.fob-schoeps-pasternak.miller.25527.sbeok.shnf",
     "gd1986-03-31.142429.sbd.miller.flac1648",
-    "gd1986-03-31.nakcm304.suraci.sbeok.79912.flac16",
+    "gd86-03-31.aud.eD.13463.sbeok.shnf",
     "gd1986-03-31.127568.chasingwilma.nak300-441.flac24",
     "gd1986-03-31.nak300.morris.crazyfingers.106556.flac16",
+    "gd1986-03-31.nakcm304.suraci.sbeok.79912.flac16",
     "gd1986-03-31.122001.schoeps.pasternak.miller.flac16",
     "gd1986-03-31.nak300.pasternak.mallick.102337.flac16",
+    "gd86-03-31.fob-schoeps-pasternak.miller.25527.sbeok.shnf",
     "gd1986-03-31.nak300.damico.88001.flac16",
     "gd1986-03-31.141051.FOB.SennME80.Hessberg.Miller.Noel.t-flac1644",
     "gd1986-03-31.127552.chasingwilma.flac24",
@@ -163,16 +173,17 @@
     "gd1986-03-31.fob.thompson.motb.83475.flac24",
     "gd1986-03-31.nak300.damico.25294.shnf"
   ],
-  "best_recording": "gd86-03-31.aud.eD.13463.sbeok.shnf",
-  "avg_rating": 2.1896443514644353,
+  "best_recording": "gd1986-03-31.sbd.walker-scotton.miller.106111.flac16",
+  "avg_rating": 2.169776119402985,
   "raw_rating": 3.7903225806451615,
   "recording_count": 18,
   "confidence": 1.0,
   "total_high_ratings": 17,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
-    "UNKNOWN": 13
+    "SBD": 2,
+    "AUD": 5,
+    "UNKNOWN": 11
   },
   "matching_method": "date_only",
   "filtering_applied": []

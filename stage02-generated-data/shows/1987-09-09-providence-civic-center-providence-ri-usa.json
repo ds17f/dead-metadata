@@ -177,34 +177,44 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:59:04.758481",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/09/12151147/t870909.jpeg",
+      "filename": "t870909.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1987-09-09.sbd.miller.106823.flac16",
     "gd87-09-09.sbd.miller.21014.sbeok.shnf",
+    "gd1987-09-09.139781.mtx.pcm.miller.flac1644",
     "gd87-09-09.sony.dnc.8598.sbeok.shnf",
+    "gd1987-09-09.aud.braverman.10161.shnf",
     "gd1987-09-09.nak300.damico.90033.sbeok.flac16",
     "gd87-09-09.naks.valis-under.6686.sbeok.shnf",
-    "gd1987-09-09.nak300.andrewf.75532.sbeok.flac16",
-    "gd1987-09-09.139781.mtx.pcm.miller.flac1644",
-    "gd1987-09-09.aud.braverman.10161.shnf",
     "gd1987-09-09.ecm220t.keshavan.miller.106827.flac16",
     "gd1987-09-09.151427.senn.me80.hessberg.miller.clugston.flac2496",
     "gd1987-09-09.151426.senn.me80.hessberg.miller.clugston.flac1648",
     "gd1987-09-09.156740.nak300.carpenter.flac1644",
+    "gd1987-09-09.nak300.andrewf.75532.sbeok.flac16",
     "gd1987-09-09.nak300.morris.crazyfingers.106591.flac16"
   ],
   "best_recording": "gd1987-09-09.sbd.miller.106823.flac16",
-  "avg_rating": 2.953656174334141,
+  "avg_rating": 3.1397653958944285,
   "raw_rating": 4.020833333333333,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 34,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 6,
+    "SBD": 2,
     "MATRIX": 1,
-    "AUD": 1,
-    "UNKNOWN": 5
+    "UNKNOWN": 9,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

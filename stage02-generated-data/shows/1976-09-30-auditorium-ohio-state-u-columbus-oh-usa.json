@@ -177,23 +177,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:32:22.286350",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151541/t760930.jpg",
+      "filename": "t760930.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1976-09-30.sbd.18107.shnf",
     "gd1976-09-30.sbd.gans-cribbs.30225.sbeok.shnf",
-    "gd76-09-30.fob-patched.unknown.11939.sbeok.shnf",
-    "gd1976-09-30.137537.mtx.dusborne.flac16"
+    "gd1976-09-30.137537.mtx.dusborne.flac16",
+    "gd76-09-30.fob-patched.unknown.11939.sbeok.shnf"
   ],
   "best_recording": "gd1976-09-30.sbd.18107.shnf",
-  "avg_rating": 3.6432764423076924,
+  "avg_rating": 3.687195408077761,
   "raw_rating": 3.9152421652421654,
   "recording_count": 4,
   "confidence": 1.0,
   "total_high_ratings": 23,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 3,
-    "MATRIX": 1
+    "SBD": 2,
+    "MATRIX": 1,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

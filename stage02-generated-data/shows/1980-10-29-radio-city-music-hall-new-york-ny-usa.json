@@ -212,12 +212,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:42:44.466755",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152118/b801029.jpg",
+      "filename": "b801029.jpg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd1980-10-29.beyer.stankiewicz.126919.flac1644",
-    "gd1980-10-29.fob.sonyecm280.wise.miller.101306.flac16",
-    "gd1980-10-29.120307.fob-nak700.gatto-jaeger.dusborne.flac16",
     "gd80-10-29.wise.larson.1953.sbeok.shnf",
+    "gd1980-10-29.beyer.stankiewicz.126919.flac1644",
+    "gd1980-10-29.120307.fob-nak700.gatto-jaeger.dusborne.flac16",
     "gd1980-10-29.140899.sbd.aud.flac1644",
     "gd1980-10-29.aud-sbd.tetzeli.join-1953-32538.35029.reflac.flac16",
     "gd1980-10-29.sbd-partial.miller.32538.flac16",
@@ -225,10 +234,11 @@
     "gd1980-10-29.140302.sbd.partial.moore.berger.flac2496",
     "gd1980-10-29.140496.partial.sbd.moore.berger.flac1644",
     "gd1980-10-29.sbd.p1.122003.flac16",
+    "gd1980-10-29.fob.sonyecm280.wise.miller.101306.flac16",
     "gd1980-10-29.163945.aud.SonyECM23F.Nak550.ohr.flac"
   ],
-  "best_recording": "gd1980-10-29.beyer.stankiewicz.126919.flac1644",
-  "avg_rating": 1.750578034682081,
+  "best_recording": "gd80-10-29.wise.larson.1953.sbeok.shnf",
+  "avg_rating": 1.772802197802198,
   "raw_rating": 3.9894736842105263,
   "recording_count": 12,
   "confidence": 1.0,
@@ -236,8 +246,8 @@
   "total_low_ratings": 1,
   "source_types": {
     "FM": 3,
-    "SBD": 8,
-    "AUD": 1
+    "SBD": 7,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

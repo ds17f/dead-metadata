@@ -147,12 +147,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:54:40.629130",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152016/b851025.jpg",
+      "filename": "b851025.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151232/t851025.jpg",
+      "filename": "t851025.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1985-10-25.sbd.miller.89117.sbeok.flac16",
-    "gd1985-10-25.fob-nak100s.ladner.34691.sbeok.flac16",
     "gd85-10-25.beyer.welch.3873.sbefail.shnf",
     "gd1985-10-25.151826.senn441.lamarre.miller.clugston.flac2496",
+    "gd1985-10-25.fob-nak100s.ladner.34691.sbeok.flac16",
     "gd1985-10-25.132295.schoeps.oade.BCE.flac16",
     "gd1985-10-25.126276.chasingwilma.flac24",
     "gd1985-10-25.140491.fob.schoeps.cmc4.mk41.oade.wise.miller.clugston.flac1644",
@@ -163,15 +178,16 @@
     "gd1985-10-25.167530.senn.me80.hessberg.miller.clugston.flac2496"
   ],
   "best_recording": "gd1985-10-25.sbd.miller.89117.sbeok.flac16",
-  "avg_rating": 2.386071428571429,
+  "avg_rating": 2.456439393939394,
   "raw_rating": 3.05,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 8,
   "total_low_ratings": 5,
   "source_types": {
-    "SBD": 2,
-    "UNKNOWN": 10
+    "SBD": 1,
+    "UNKNOWN": 10,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

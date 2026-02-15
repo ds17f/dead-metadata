@@ -172,13 +172,23 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:44:16.431662",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151418/t810512.jpg",
+      "filename": "t810512.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd81-05-12.sbd.jeffm.1664.sbeok.shnf",
-    "gd1981-05-12.mtx.seamons.99045.sbeok.flac16",
     "gd1981-05-12.123259.sbd.miller.flac16",
     "gd1981-05-12.sbd.chasingwilma.118987.flac16",
     "gd1981-05-12.sbd.5241.shnf",
+    "gd1981-05-12.mtx.seamons.99045.sbeok.flac16",
     "gd1981-05-12.nak300.friend.andrewf.101925.flac1644",
     "gd1981-05-12.149198.fob.nak700.wagner.miller.clugston.flac1648",
     "gd1981-05-12.139674.aud.lamarre.berger.flac16",
@@ -192,16 +202,17 @@
     "gd1981-05-12.nak300.friend.andrewf.101924.flac2448"
   ],
   "best_recording": "gd81-05-12.sbd.jeffm.1664.sbeok.shnf",
-  "avg_rating": 3.3075,
+  "avg_rating": 3.257333333333333,
   "raw_rating": 3.9375,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 12,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
-    "UNKNOWN": 8,
-    "AUD": 3
+    "SBD": 4,
+    "MATRIX": 1,
+    "UNKNOWN": 4,
+    "AUD": 7
   },
   "matching_method": "date_only",
   "filtering_applied": []

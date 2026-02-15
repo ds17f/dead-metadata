@@ -177,27 +177,42 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:49:12.398117",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152052/b830621.jpg",
+      "filename": "b830621.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151331/t830621.jpg",
+      "filename": "t830621.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd83-06-21.sony.dodd.11491.sbeok.shnf",
-    "gd1983-06-21.nak300.morris.102041.sbeok.flac16",
     "gd1983-06-21.117317.Sennheiser421.daweez.d5scott.flac16",
     "gd1983-06-21.nak300.grabski.32881.flac16",
     "gd1983-06-21.147952.fob.akg.d330bt.senn421.hecht.miller.clugston.flac1648",
     "gd1983-06-21.140698.set1.nak300.flac2496",
     "gd1983-06-21.sony939-minor.vernon.83763.flac16",
-    "gd1983-06-21.147953.fob.akg.d330bt.senn421.hecht.miller.clugston.flac2496"
+    "gd1983-06-21.147953.fob.akg.d330bt.senn421.hecht.miller.clugston.flac2496",
+    "gd1983-06-21.nak300.morris.102041.sbeok.flac16"
   ],
   "best_recording": "gd83-06-21.sony.dodd.11491.sbeok.shnf",
-  "avg_rating": 1.975,
+  "avg_rating": 1.870192307692308,
   "raw_rating": 4.35,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 16,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 2,
-    "UNKNOWN": 6
+    "UNKNOWN": 6,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

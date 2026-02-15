@@ -147,24 +147,45 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:05:48.834151",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12151903/b900329.jpeg",
+      "filename": "b900329.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12151045/t900329.jpeg",
+      "filename": "t900329.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12152302/19900324.jpeg",
+      "filename": "19900324.jpeg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12152302/19900324.jpeg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd90-03-29.sbd.hinko.24996.sbeok.shnf",
     "gd90-03-29.sbd.nawrocki.3389.sbeok.shnf",
     "gd90-03-29.sbd.miller.26341.sbeok.shnf",
-    "gd90-03-29.aud-fob.set2.unknown.1317.sbeok.shnf",
     "gd1990-03-29.sbd.miller.tetzeli.fix-26341.33925.reflac.flac16",
-    "gd1990-03-29.aud.nawrocki.29191.sbeok.flac16",
     "gd1990-03-29.149396.sbd.ultramatrix.miller.flac24",
     "gd1990-03-29.149419.UltraMatrix.sbd.cm.miller.flac16",
     "gd1990-03-29.sbd.unknown.4686.sbefail.shnf",
-    "gd1990-03-29.senn-me80.litzenberger.91347.sbeok.flac16",
     "gd1990-03-29.mtx.hansokolow.97118.flac16",
     "gd1990-03-29.127385.mtx.eichorn.flac16",
     "gd1990-03-29.149591.mtx.tobin.flac24",
     "gd1990-03-29.149592.mtx.tobin.flac16",
+    "gd90-03-29.aud-fob.set2.unknown.1317.sbeok.shnf",
     "gd1990-03-29.143171.FOB.Schoeps.Mattes.Miller.Noel.REMASTER.t-flac1648",
+    "gd1990-03-29.aud.nawrocki.29191.sbeok.flac16",
     "gd1990-03-29.nak300.andrewf.83612.flac16",
+    "gd1990-03-29.senn-me80.litzenberger.91347.sbeok.flac16",
     "gd1990-03-29.149590.PandP-aud.tobin.flac16",
     "gd1990-03-29.149594.5-1.tobin.flac1648",
     "gd1990-03-29.AKG451.Berger.Currier.Keo.121843.Flac1644",
@@ -180,22 +201,18 @@
     "gd1990-03-29.Senn441.Fitzy.Keo.126847.Flac1644"
   ],
   "best_recording": "gd90-03-29.sbd.hinko.24996.sbeok.shnf",
-  "avg_rating": 3.9073253844234634,
-  "raw_rating": 4.641850525219423,
+  "avg_rating": 4.009788169669592,
+  "raw_rating": 4.641850525219424,
   "recording_count": 29,
   "confidence": 1.0,
   "total_high_ratings": 149,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 10,
+    "SBD": 7,
     "MATRIX": 4,
-    "REMASTER": 1,
-    "UNKNOWN": 12,
-    "AUD": 2
+    "AUD": 6,
+    "UNKNOWN": 12
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "guest-branford-marsalis"
-  ]
+  "filtering_applied": []
 }

@@ -172,15 +172,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:03:51.223770",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/06/12151917/b890621.jpeg",
+      "filename": "b890621.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/06/12151105/t890621.jpeg",
+      "filename": "t890621.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-06-21.sbd.gorinsky.4603.sbeok.shnf",
-    "gd89-06-21.satellite-uplink.nawrocki.16888.sbeok.shnf",
     "gd1989-06-21.sbd.walker-scotton.miller.83718.sbeok.flac16",
     "gd1989-06-21.123383.sbd.crupi.flac16",
     "gd1989-06-21.150851.sbd.miller.flac2496",
     "gd1989-06-21.151620.UltraMatrix.sbd.cm.miller.t.flac16",
     "gd1989-06-21.144779.mtx.tobin.flac1644",
+    "gd89-06-21.satellite-uplink.nawrocki.16888.sbeok.shnf",
     "gd1989-06-21.atm11.chuckm.127418",
     "gd1989-06-21.142379.schoeps.cmc4.mk2s.mattes.miller.clugston.flac1648",
     "gd1989-06-21.127418.atm11.chuckm.flac16",
@@ -189,16 +204,17 @@
     "gd1989-06-21.144792.5-1.tobin.flac1648"
   ],
   "best_recording": "gd89-06-21.sbd.gorinsky.4603.sbeok.shnf",
-  "avg_rating": 3.275215146299483,
+  "avg_rating": 3.4458306399482868,
   "raw_rating": 3.869458128078818,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 20,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 6,
+    "SBD": 5,
     "MATRIX": 1,
-    "UNKNOWN": 6
+    "UNKNOWN": 6,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

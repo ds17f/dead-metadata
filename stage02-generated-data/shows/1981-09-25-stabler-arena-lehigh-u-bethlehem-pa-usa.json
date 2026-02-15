@@ -192,29 +192,45 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:45:10.435235",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152109/b810925.jpg",
+      "filename": "b810925.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151412/t810925.jpg",
+      "filename": "t810925.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd81-09-25.sbd.clugston.2215.sbeok.shnf",
     "gd1981-09-25.sbd.miller.88822.sbeok.flac16",
-    "gd81-09-25.aud.jim.13725.sbeok.shnf",
     "gd1981-09-25.148686.sbd.latvala.nixon.clugston.flac16",
-    "gd1981-09-25aud.weiner.23626.sbeok.shnf",
+    "gd81-09-25.aud.jim.13725.sbeok.shnf",
     "gd1981-09-25.140017.fob.senn421.streeter.miller.clugston.flac1644",
     "gd1981-09-25.153965.2nd.set.nak300.vita.miller.clugston.flac2496",
+    "gd1981-09-25aud.weiner.23626.sbeok.shnf",
     "gd1981-09-25.140018.fob.senn421.streeter.miller.clugston.flac2496",
     "gd1981-09-25.139467.fob.nak300.clugston.flac16",
     "gd1981-09-25.153964.2nd.set.nak300.vita.miller.clugston.flac1648"
   ],
   "best_recording": "gd81-09-25.sbd.clugston.2215.sbeok.shnf",
-  "avg_rating": 3.569327731092437,
+  "avg_rating": 3.597536231884058,
   "raw_rating": 4.073170731707317,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 31,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
-    "UNKNOWN": 5
+    "SBD": 3,
+    "AUD": 5,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -162,20 +162,33 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:55:00.583817",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152013/b851107.jpg",
+      "filename": "b851107.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151229/t851107.jpg",
+      "filename": "t851107.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1985-11-07.sbd.miller.88727.sbeok.flac16",
     "gd85-11-07.sbd.connor.5300.sbeok.shnf",
-    "gd1985-11-07.schoeps.oade.22798.sbeok.shnf",
-    "gd1985-11-07.fob-beyerm88.connor.30554.sbeok.shnf",
-    "gd1985-11-07.nak300.mandel.25276.sbeok.shnf",
-    "gd1985-11-07.nak300.damico.87494.sbeok.flac16",
     "gd1985-11-07.sbd.miller.repatch-88727.88815.sbeok.flac16",
     "gd1985-11-07.139716.sbd.miller.flac2496",
     "gd1985-11-07.139852.sbd.cm.miller.flac1644",
-    "gd1985-11-07.nak300.morris.111088.sbeok.flac16",
-    "gd1985-11-07.nak300.suraci.77503.sbeok.flac16",
     "gd1985-11-07.142337.mtx.tobin.flac1644",
+    "gd1985-11-07.schoeps.oade.22798.sbeok.shnf",
+    "gd1985-11-07.nak300.mandel.25276.sbeok.shnf",
+    "gd1985-11-07.nak300.damico.87494.sbeok.flac16",
+    "gd1985-11-07.fob-beyerm88.connor.30554.sbeok.shnf",
     "gd1985-11-07.126422.chasingwilma.flac24",
     "gd1985-11-07.148632.fob.senn.me80.hessberg.miller.clugston.flac1648",
     "gd1985-11-07.at835-d12e.Ackerman-Taraszki.102153.flac16",
@@ -188,21 +201,23 @@
     "gd1985-11-07.154069.akgc422.davis-holbrook.f1644",
     "gd1985-11-07.154070.akgc422.davis-holbrook.f2448",
     "gd1985-11-07.nak300.andrewf.127712.flac1644",
+    "gd1985-11-07.nak300.morris.111088.sbeok.flac16",
     "gd1985-11-07.nak300.morris.114676.flac24",
+    "gd1985-11-07.nak300.suraci.77503.sbeok.flac16",
     "gd1985-11-07.nakcm304-beyerm101.suraci.89069.flac24"
   ],
   "best_recording": "gd1985-11-07.sbd.miller.88727.sbeok.flac16",
-  "avg_rating": 3.3286071428571438,
+  "avg_rating": 3.413549618320612,
   "raw_rating": 4.28125,
   "recording_count": 26,
   "confidence": 1.0,
   "total_high_ratings": 28,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 11,
+    "SBD": 5,
     "MATRIX": 1,
-    "AUD": 13,
-    "UNKNOWN": 1
+    "AUD": 18,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

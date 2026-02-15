@@ -172,6 +172,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:10:11.336854",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151827/b910924.jpeg",
+      "filename": "b910924.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/09/12151003/t910924.jpeg",
+      "filename": "t910924.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd91-09-24.sbd.miller.25939.sbeok.shnf",
@@ -181,32 +196,32 @@
     "gd1991-09-24.sbd.serafin.tetzeli.fix-7693.33813.flac16",
     "gd1991-09-24.set2-sbd.mark.97595.flac2496",
     "gd1991-09-24.138150.dsbd.GEMS.flac16",
-    "gd1991-09-24.150196.fob.Schoeps-cmc4-mk4ortf.gastwirt.miller.sirmick.sbeok.flac1648",
     "gd1991-09-24.150682.sbd.cm.miller.flac16",
-    "gd1991-09-24.aud.andrewf.84982.sbeok.flac16",
     "gd1991-09-24.sbd.serafin.7693.sbefail.shnf",
-    "gd1991-09-24.schoeps.andrewf.84983.sbeok.flac1648",
     "gd1991-09-24.134355.mtx.dusborne.flac16",
     "gd1991-09-24.153421.mtx.photoleon.flac16",
     "gd1991-09-24.fob.bk4011.brennecke-young.gems.101441.flac16",
     "gd1991-09-24.Nak300CP4.Floater.Keo.116036.Flac2496",
     "gd1991-09-24.139829.aud.liff.lamarre.berger.flac1648",
     "gd1991-09-24.148445.nak.boedicker.flac1644",
+    "gd1991-09-24.150196.fob.Schoeps-cmc4-mk4ortf.gastwirt.miller.sirmick.sbeok.flac1648",
     "gd1991-09-24.155581.senn-me88.rogosa.miller.sirmick.flac1648",
-    "gd1991-09-24.Nak300CP4.Floater.Keo.116037.Flac1644"
+    "gd1991-09-24.Nak300CP4.Floater.Keo.116037.Flac1644",
+    "gd1991-09-24.aud.andrewf.84982.sbeok.flac16",
+    "gd1991-09-24.schoeps.andrewf.84983.sbeok.flac1648"
   ],
   "best_recording": "gd91-09-24.sbd.miller.25939.sbeok.shnf",
-  "avg_rating": 3.5265075376884423,
+  "avg_rating": 3.5063432835820896,
   "raw_rating": 4.059782608695652,
   "recording_count": 20,
   "confidence": 1.0,
   "total_high_ratings": 18,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 12,
+    "SBD": 9,
     "MATRIX": 2,
-    "UNKNOWN": 5,
-    "AUD": 1
+    "AUD": 4,
+    "UNKNOWN": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

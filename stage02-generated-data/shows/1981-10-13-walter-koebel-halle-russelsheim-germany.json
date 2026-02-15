@@ -172,22 +172,39 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:45:34.689755",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151407/t811013.jpg",
+      "filename": "t811013.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2023/09/08171700/Grateful-Dead-1981-10-13-Russelsheim-4009_22-scaled.jpg",
+      "filename": "Grateful-Dead-1981-10-13-Russelsheim-4009_22-scaled.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2023/09/08171700/Grateful-Dead-1981-10-13-Russelsheim-4009_22-360x360.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd81-10-13.sbd.jim.13143.sbefail.shnf",
-    "gd81-10-13.aud.weiskircher-vernon.7496.sbeok.shnf",
     "gd1981-10-13.sbd.128542.MrBill.flac16",
-    "gd1981-10-13.139556.sbd.miller.flac1644"
+    "gd1981-10-13.139556.sbd.miller.flac1644",
+    "gd81-10-13.aud.weiskircher-vernon.7496.sbeok.shnf"
   ],
   "best_recording": "gd81-10-13.sbd.jim.13143.sbefail.shnf",
-  "avg_rating": 3.3625,
+  "avg_rating": 3.425373134328358,
   "raw_rating": 4.0,
   "recording_count": 4,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4
+    "SBD": 3,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

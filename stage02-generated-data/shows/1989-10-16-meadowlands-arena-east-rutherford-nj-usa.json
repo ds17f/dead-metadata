@@ -162,15 +162,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:04:47.281697",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151910/b891016.jpeg",
+      "filename": "b891016.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151056/t891016.jpeg",
+      "filename": "t891016.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-10-16.dsbd.barrick.446.sbeok.shnf",
-    "gd1989-10-16.fob-set2.unknown.gems.34658.sbeok.flac16",
     "gd1989-10-16.140263.UltraMatrix.sbd.cm.miller.flac1644",
-    "gd1989-10-16.aud.unknown.32131.sbeok.flac16",
     "gd1989-10-16.140163.sbd.miller.flac2496",
     "gd1989-10-16.mtx.hansokolow.96899.flac16",
     "gd1989-10-16.165022.mtx.tobin.flac16",
+    "gd1989-10-16.fob-set2.unknown.gems.34658.sbeok.flac16",
+    "gd1989-10-16.aud.unknown.32131.sbeok.flac16",
     "gd1989-10-16.165026.tobin.5-1.flac1648",
     "gd1989-10-16.124086.mk4.48khz.flac16",
     "gd1989-10-16.150534.DAK.boedicker.flac16",
@@ -182,16 +197,17 @@
     "gd1989-10-16.Nak300CP4.Baker-Fitzy.Keo.126359.Flac1644"
   ],
   "best_recording": "gd89-10-16.dsbd.barrick.446.sbeok.shnf",
-  "avg_rating": 2.4255129734566054,
+  "avg_rating": 2.443145135047185,
   "raw_rating": 4.4830827067669174,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 48,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 5,
+    "SBD": 3,
     "MATRIX": 2,
-    "UNKNOWN": 9
+    "UNKNOWN": 9,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

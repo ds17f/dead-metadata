@@ -172,18 +172,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:48:02.665690",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151344/t821009.jpg",
+      "filename": "t821009.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd82-10-09.sbd.samaritano.23730.sbeok.shnf",
-    "gd82-10-09.sonyecm.clugston.5183.sbeok.shnf",
     "gd82-10-09.sbd-patched.wiley.15800.sbeok.shnf",
-    "gd1982-10-09.sonyecm220T.keshavan.miller.93683.sbeok.flac24",
-    "gd1982-10-09.sonyecm220T.fixed.keshavan.miller.93827.sbeok.flac16",
     "gd1982-10-09.sbd.miller.110621.flac16",
     "gd1982-10-09.sbd.barrick.337.shnf",
     "gd1982-10-09.mtx.seamons.93811.sbeok.flac16",
-    "gd1982-10-09.sonyecm220T.keshavan.miller.93682.sbeok.flac16",
     "gd1982-10-09.sonyecm220T.fixed.keshavan.miller.93825.flac24",
+    "gd82-10-09.sonyecm.clugston.5183.sbeok.shnf",
+    "gd1982-10-09.sonyecm220T.keshavan.miller.93683.sbeok.flac24",
+    "gd1982-10-09.sonyecm220T.fixed.keshavan.miller.93827.sbeok.flac16",
+    "gd1982-10-09.sonyecm220T.keshavan.miller.93682.sbeok.flac16",
     "gd1982-10-09.nak700.anon-poris.LMPP.95656.flac16",
     "gd1982-10-09.111040.nak300.hoey.flac16",
     "gd1982-10-09.147105.beyer.tomkins.flac2448",
@@ -191,15 +201,16 @@
     "gd1982-10-09.167455.shure.sm57.kelley.miller.clugston.flac2496"
   ],
   "best_recording": "gd82-10-09.sbd.samaritano.23730.sbeok.shnf",
-  "avg_rating": 2.628381374722839,
+  "avg_rating": 2.7361924328026017,
   "raw_rating": 4.587918660287081,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 64,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 9,
-    "UNKNOWN": 6
+    "SBD": 4,
+    "MATRIX": 1,
+    "UNKNOWN": 10
   },
   "matching_method": "date_only",
   "filtering_applied": []

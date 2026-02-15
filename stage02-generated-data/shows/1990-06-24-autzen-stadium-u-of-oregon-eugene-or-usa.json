@@ -169,14 +169,40 @@
     "Little Feat"
   ],
   "collection_timestamp": "2025-08-10T09:06:19.400979",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/06/12151900/b900624.jpeg",
+      "filename": "b900624.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/06/12151041/t900624.jpeg",
+      "filename": "t900624.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2023/09/08180642/cig.jpg",
+      "filename": "cig.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2023/09/08180642/cig-360x360.jpg"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/11/12145954/GD_1990_06_24_Robbi_Cohn-Small.jpg",
+      "filename": "GD_1990_06_24_Robbi_Cohn-Small.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2013/11/12145954/GD_1990_06_24_Robbi_Cohn-Small-360x360.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd90-06-24.sbd.unknown.12092.sbeok.shnf",
-    "gd90-06-24.nak.unknown.6946.sbeok.shnf",
     "gd1990-06-24.141862.UltraMatrix.sbd.cm.miller.flac1644",
     "gd1990-06-24.141784.sbd.miller.flac2496",
     "gd1990-06-24.mtx.hansokolow.108329.flac16",
     "gd1990-06-24.156401.mtx.photoleon.flac16",
+    "gd90-06-24.nak.unknown.6946.sbeok.shnf",
     "gd1990-06-24.sennME80.wklitz.94258.flac16",
     "gd1990-06-24.147809.mac.billtmcdee.t.flac1648",
     "gd1990-06-24.141255.FOB.OTS.Schoeps.Katzeff.Ammons.Noel.t-flac1648",
@@ -188,16 +214,17 @@
     "gd1990-06-24.beyerm160.d5scott.106896.flac16"
   ],
   "best_recording": "gd90-06-24.sbd.unknown.12092.sbeok.shnf",
-  "avg_rating": 3.49675417008477,
+  "avg_rating": 3.632543626146111,
   "raw_rating": 4.061104582843714,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 32,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 2,
-    "UNKNOWN": 9
+    "UNKNOWN": 9,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

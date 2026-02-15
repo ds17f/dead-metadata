@@ -152,25 +152,39 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:54:46.569625",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152015/b851029.jpg",
+      "filename": "b851029.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151231/t851029.jpg",
+      "filename": "t851029.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1985-10-29.sbd.fix-shnid-33704.tetzeli.76118.flac16",
     "gd85-10-29.sbd.hinko.21533.sbeok.shnf",
     "gd1985-10-29.sbd.miller.33704.sbeok.flac16",
     "gd1985-10-29.sbd.walker-scotton.miller.105818.flac16",
-    "gd1985-10-29.nak300.koucky.gmb.89970.sbeok.flac16",
-    "gd1985-10-29.set2.aud.unknown.cepx.8501.sbeok.shnf",
-    "gd1985-10-29.senn441.pa-deli-mike.83024.sbeok.flac16",
-    "gd1985-10-29.nak300.danscuk.dodd.8599.sbeok.shnf",
-    "gd85-10-29.aud-fixed.nawrocki.16756.sbeok.shnf",
     "gd1985-10-29.154300.sbd.miller.flac2496",
     "gd1985-10-29.154409.sbd.cm.miller.t.flac16",
-    "gd1985-10-29.nak300.cohen.104708.sbeok.flac16",
     "gd1985-10-29.sbd-set2.harrison.12182.shnf",
     "gd1985-10-29.157449.mtx.seamons.ht143.flac24",
     "gd1985-10-29.157450.mtx.seamons.ht143.flac16",
+    "gd1985-10-29.set2.aud.unknown.cepx.8501.sbeok.shnf",
+    "gd1985-10-29.nak300.koucky.gmb.89970.sbeok.flac16",
+    "gd1985-10-29.senn441.pa-deli-mike.83024.sbeok.flac16",
     "gd1985-10-29.108081.BeyerM160s-SonyD5.D5scott.flac16",
     "gd1985-10-29.148423.fob.senn.me80.hessberg.miller.clugston.flac1648",
+    "gd1985-10-29.nak300.danscuk.dodd.8599.sbeok.shnf",
+    "gd85-10-29.aud-fixed.nawrocki.16756.sbeok.shnf",
     "gd1985-10-29.132358.schoeps.oade.BCE.flac16",
     "gd1985-10-29.119948.sony.roberts.flac16",
     "gd1985-10-29.126305.chasingwilma.flac24",
@@ -180,19 +194,21 @@
     "gd1985-10-29.151883.senn441.lamarre.miller.clugston.flac1648",
     "gd1985-10-29.151884.senn441.lamarre.miller.clugston.flac2496",
     "gd1985-10-29.164046.akg451.ck8.eaton.miller.clugston.flac1648",
-    "gd1985-10-29.164047.akg451.ck8.eaton.miller.clugston.flac2496"
+    "gd1985-10-29.164047.akg451.ck8.eaton.miller.clugston.flac2496",
+    "gd1985-10-29.nak300.cohen.104708.sbeok.flac16"
   ],
   "best_recording": "gd1985-10-29.sbd.fix-shnid-33704.tetzeli.76118.flac16",
-  "avg_rating": 3.9591403162055343,
+  "avg_rating": 4.092520920502093,
   "raw_rating": 4.452586206896552,
   "recording_count": 27,
   "confidence": 1.0,
   "total_high_ratings": 53,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 13,
+    "SBD": 7,
     "MATRIX": 2,
-    "UNKNOWN": 12
+    "AUD": 4,
+    "UNKNOWN": 14
   },
   "matching_method": "date_only",
   "filtering_applied": []

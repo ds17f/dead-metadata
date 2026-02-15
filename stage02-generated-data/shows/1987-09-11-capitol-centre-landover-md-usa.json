@@ -162,26 +162,42 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:59:06.736521",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/09/12151947/b870911.jpeg",
+      "filename": "b870911.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/09/12151147/t870911.jpeg",
+      "filename": "t870911.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd87-09-11.schoeps.dipietro.8906.sbeok.shnf",
     "gd1987-09-11.140925.set2.sbd.dalton.miller.clugston.flac1644",
+    "gd87-09-11.schoeps.dipietro.8906.sbeok.shnf",
     "gd1987-09-11.aud.bandrofcheck.82369.sbeok.flac16",
-    "gd1987-09-11.nak300.damico.90065.sbeok.flac16",
     "gd1987-09-11.117662.naks.pasternak.mallick.flac16",
     "gd1987-09-11.163472.senn.me80.hessberg.miller.clugston.flac1648",
-    "gd1987-09-11.163473.senn.me80.hessberg.miller.clugston.flac2496"
+    "gd1987-09-11.163473.senn.me80.hessberg.miller.clugston.flac2496",
+    "gd1987-09-11.nak300.damico.90065.sbeok.flac16"
   ],
-  "best_recording": "gd87-09-11.schoeps.dipietro.8906.sbeok.shnf",
-  "avg_rating": 1.7382894736842103,
+  "best_recording": "gd1987-09-11.140925.set2.sbd.dalton.miller.clugston.flac1644",
+  "avg_rating": 1.6532236842105261,
   "raw_rating": 3.4642857142857144,
   "recording_count": 7,
   "confidence": 1.0,
   "total_high_ratings": 6,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 3
+    "SBD": 1,
+    "UNKNOWN": 5,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -157,33 +157,44 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:57:38.216881",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/04/12151203/t870409.jpeg",
+      "filename": "t870409.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd87-04-09.aud.braverman.10262.sbeok.shnf",
     "gd1987-04-09.sbd-mtx.miller.90477.sbeok.flac16",
     "gd1987-04-09.140872.sbd.miller.flac2496",
-    "gd87-04-09.schoeps.eD.11657.sbeok.shnf",
     "gd1987-04-09.140893.UltraMatrix.sbd.cm.miller.flac1644",
-    "gd1987-04-09.nak300.gidley.andrewf.93135.sbeok.flac16",
-    "gd1987-04-09.nak300.porter.braverman.10160.sbeok.shnf",
+    "gd87-04-09.aud.braverman.10262.sbeok.shnf",
     "gd1987-04-09.119019.NeumannKMF4.daweez.d5scott.flac16",
+    "gd87-04-09.schoeps.eD.11657.sbeok.shnf",
     "gd1987-04-09.148682.fob.senn421.senn.me80.blend.hessberg.miller.clugston.flac1648",
     "gd1987-04-09.148683.fob.senn421.senn.me80.blend.hessberg.miller.clugston.flac2496",
     "gd1987-04-09.150526.FOB.Nak.700.Dsd.Mow.Miller.Noel.t.flac2496",
     "gd1987-04-09.150580.FOB.Nak.700.Dsd.Mow.Miller.Noel.t.flac1644",
     "gd1987-04-09.170624.nak300.mc.levitt.flac1644",
-    "gd1987-04-09.170625.nak300.mc.levitt.flac2496"
+    "gd1987-04-09.170625.nak300.mc.levitt.flac2496",
+    "gd1987-04-09.nak300.gidley.andrewf.93135.sbeok.flac16",
+    "gd1987-04-09.nak300.porter.braverman.10160.sbeok.shnf"
   ],
-  "best_recording": "gd87-04-09.aud.braverman.10262.sbeok.shnf",
-  "avg_rating": 2.406818181818182,
+  "best_recording": "gd1987-04-09.sbd-mtx.miller.90477.sbeok.flac16",
+  "avg_rating": 2.417567567567567,
   "raw_rating": 4.0600000000000005,
   "recording_count": 14,
   "confidence": 1.0,
   "total_high_ratings": 15,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 7
+    "SBD": 3,
+    "AUD": 5,
+    "UNKNOWN": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

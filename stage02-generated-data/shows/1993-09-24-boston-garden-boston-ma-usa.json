@@ -152,17 +152,32 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:14:53.826585",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/09/12151753/b930924.jpeg",
+      "filename": "b930924.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/09/12150912/t930924.jpeg",
+      "filename": "t930924.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd93-09-24.sbd.miller.22249.sbeok.shnf",
     "gd1993-09-24.sbd.miller.107840.sbeok.flac16",
-    "gd1993-09-24.109427.set2-bk.schmit.sbeok.flac16",
-    "gd1993-09-24.110430.bk.schmit.sbeok.flac16",
-    "gd93-09-24.schoeps.pujol.13308.sbeok.shnf",
     "gd1993-09-24.139967.aud.lamarre.berger.flac1648",
     "gd1993-09-24.neumann-birkhead.koucky.87734.flac16",
     "gd1993-09-24.schoeps.wklitz.94662.flac16",
-    "gd1993-09-24.164513.me88.rogosa.flac1648"
+    "gd1993-09-24.109427.set2-bk.schmit.sbeok.flac16",
+    "gd1993-09-24.110430.bk.schmit.sbeok.flac16",
+    "gd1993-09-24.164513.me88.rogosa.flac1648",
+    "gd93-09-24.schoeps.pujol.13308.sbeok.shnf"
   ],
   "best_recording": "gd93-09-24.sbd.miller.22249.sbeok.shnf",
   "avg_rating": 3.8001776649746195,
@@ -172,9 +187,9 @@
   "total_high_ratings": 16,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
+    "SBD": 2,
     "AUD": 1,
-    "UNKNOWN": 3
+    "UNKNOWN": 6
   },
   "matching_method": "date_only",
   "filtering_applied": []

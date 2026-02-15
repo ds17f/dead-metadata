@@ -157,13 +157,26 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:02:05.280416",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/09/12151927/b880919.jpeg",
+      "filename": "b880919.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/09/12151120/t880919.jpeg",
+      "filename": "t880919.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd88-09-19.sbd.wiley.15076.sbeok.shnf",
     "gd1988-09-19.133318.sbd.tobin.flac16",
     "gd1988-09-19.164209.UltraMatrix.sbd.cm.miller.t.flac1644",
-    "gd1988-09-19.nak300.damico.90976.sbeok.flac16",
-    "gd1988-09-19.nak304.andrewf.88613.sbeok.flac16",
     "gd1988-09-19.133319.mtx.tobin.flac16",
     "gd1988-09-19.163966.ultramatrix.miller.flac2496",
     "gd1988-09-19.149278.sennme-80.porter.carbonetta.sirmick.flac24",
@@ -173,7 +186,9 @@
     "gd1988-09-19.148730.nak300.boedicker.flac1644",
     "gd1988-09-19.149277.sennme-80.porter.carbonetta.sirmick.flac16",
     "gd1988-09-19.156567.5-1.tobin.flac1648",
-    "gd1988-09-19.fob.senn421.mccue-zaleski.ford.106202.flac16"
+    "gd1988-09-19.fob.senn421.mccue-zaleski.ford.106202.flac16",
+    "gd1988-09-19.nak300.damico.90976.sbeok.flac16",
+    "gd1988-09-19.nak304.andrewf.88613.sbeok.flac16"
   ],
   "best_recording": "gd88-09-19.sbd.wiley.15076.sbeok.shnf",
   "avg_rating": 3.931607142857142,
@@ -183,9 +198,10 @@
   "total_high_ratings": 10,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
+    "SBD": 3,
     "MATRIX": 2,
-    "UNKNOWN": 8
+    "UNKNOWN": 9,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

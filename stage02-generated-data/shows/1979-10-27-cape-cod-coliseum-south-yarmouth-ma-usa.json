@@ -162,6 +162,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:39:14.305988",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152135/b791027.jpg",
+      "filename": "b791027.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151453/t791027.jpg",
+      "filename": "t791027.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1979-10-27.sbd.fix.miller.98561.flac16",
@@ -169,34 +184,32 @@
     "gd79-10-27.sbd.clugston.13980.sbeok.shnf",
     "gd79-10-27.sbd.miller.29490.sbeok.flacf",
     "gd1979-10-27.sbd.miller.29411.sbeok.flac16",
-    "gd79-10-27.aud-rolfe.warner.19416.sbeok.shnf",
     "gd1979-10-27.sbd.abbdull.317.shnf",
     "gd1979-10-27.sbd-set2.kaplan.miller.repatch-28832.29002.sbeok.shnf",
     "gd1979-10-27.sbd-set2.kaplan.28832.sbeok.shnf",
-    "gd1979-10-27.mtx.groves.sbeok.92049.flac16",
-    "gd1979-10-27.aud.davew.120367.sbeok.flac16",
     "gd1979-10-27.mtx.seamons.105234.flac16",
+    "gd1979-10-27.mtx.groves.sbeok.92049.flac16",
+    "gd79-10-27.aud-rolfe.warner.19416.sbeok.shnf",
     "gd1979-10-27.127550.nak500.stankiewicz.flac2496",
     "gd1979-10-27.145461.fob.nak700.rolfe.miller.clugston.flac1648",
     "gd1979-10-27.145462.fob.nak700.rolfe.miller.clugston.flac2496",
     "gd1979-10-27.145664.akgD222e.stankiewicz.flac16",
+    "gd1979-10-27.aud.davew.120367.sbeok.flac16",
     "gd1979-10-27.nak300.friend.109777.flac1644"
   ],
   "best_recording": "gd1979-10-27.sbd.fix.miller.98561.flac16",
-  "avg_rating": 4.100991591305727,
+  "avg_rating": 4.138391046954828,
   "raw_rating": 4.550080962294703,
   "recording_count": 17,
   "confidence": 1.0,
   "total_high_ratings": 117,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 11,
-    "MATRIX": 1,
-    "UNKNOWN": 5
+    "SBD": 8,
+    "MATRIX": 2,
+    "AUD": 4,
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "30-trips-around-the-sun"
-  ]
+  "filtering_applied": []
 }

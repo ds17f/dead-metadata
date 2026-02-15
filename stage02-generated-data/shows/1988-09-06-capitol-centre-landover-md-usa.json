@@ -162,28 +162,44 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:01:47.325542",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/09/12151929/b880906.jpeg",
+      "filename": "b880906.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/09/12151122/t880906.jpeg",
+      "filename": "t880906.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd88-09-06.sbd.miller.27750.sbeok.flacf",
-    "gd88-09-06.aud.ingle.9984.sbeok.shnf",
     "gd1988-09-06.164246.UltraMatrix.sbd.cm.miller.t.flac1644",
-    "gd1988-09-06.nak100.mchugh.hanscom.bzl.83295.sbeok.flac16",
     "gd1988-09-06.163715.ultramatrix.miller.flac2496",
+    "gd88-09-06.aud.ingle.9984.sbeok.shnf",
     "gd1988-09-06.131132.nakcm100.datbrad.flac16",
     "gd1988-09-06.140020.nak300.boedicker.flac1644",
-    "gd1988-09-06.142144.OTS.Schoeps.PCM.Mattes.Miller.Noel.t-flac1644"
+    "gd1988-09-06.142144.OTS.Schoeps.PCM.Mattes.Miller.Noel.t-flac1644",
+    "gd1988-09-06.nak100.mchugh.hanscom.bzl.83295.sbeok.flac16"
   ],
   "best_recording": "gd88-09-06.sbd.miller.27750.sbeok.flacf",
-  "avg_rating": 3.4153846153846157,
+  "avg_rating": 3.472897196261682,
   "raw_rating": 3.876923076923077,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 7,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
+    "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 3
+    "AUD": 1,
+    "UNKNOWN": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

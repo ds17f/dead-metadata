@@ -164,28 +164,44 @@
     "Steve Miller Band"
   ],
   "collection_timestamp": "2025-08-10T09:11:33.347053",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/05/12151818/b920530.jpeg",
+      "filename": "b920530.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/05/12150950/t920530.jpeg",
+      "filename": "t920530.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd92-05-30.sbd.kidder.8255.sbeok.shnf",
-    "gd92-05-30.schoeps.ladner.10063.sbeok.shnf",
     "gd1992-05-30.sbd.tobin.75698.sbeok.flac16",
-    "gd1992-05-30.mtx.tobin.83094.sbeok.flac16",
     "gd1992-05-30.150038.sbd.miller.flac2496",
     "gd1992-05-30.sbd.tobin-fixed.76082.sbeok.flac16",
     "gd1992-05-30.150297.sbd.cm.miller.flac16",
     "gd1992-05-30.1992-05-30.sbd.dts.tobin.75713.sbeok.flac16",
+    "gd1992-05-30.mtx.tobin.83094.sbeok.flac16",
+    "gd92-05-30.schoeps.ladner.10063.sbeok.shnf",
     "gd1992-05-30.116403.josephsonc-640.chuckm.flac16"
   ],
   "best_recording": "gd92-05-30.sbd.kidder.8255.sbeok.shnf",
-  "avg_rating": 2.7773809523809523,
+  "avg_rating": 2.9879734848484842,
   "raw_rating": 4.36449864498645,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 34,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 8,
-    "UNKNOWN": 1
+    "SBD": 6,
+    "MATRIX": 1,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

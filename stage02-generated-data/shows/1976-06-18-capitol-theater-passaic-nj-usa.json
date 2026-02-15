@@ -172,30 +172,37 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:31:34.298734",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151549/t760618.jpg",
+      "filename": "t760618.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
+    "gd1976-06-18.ds-outtakes.sbd.miller.92266.sbeok.flac16",
     "gd76-06-18.warburton.vernon.14449.sbeok.shnf",
     "gd1976-06-18.aud.vernon.9796.sbeok.shnf",
-    "gd1976-06-18.ds-outtakes.sbd.miller.92266.sbeok.flac16",
     "gd1976-06-18.155902.ecm99.warburton.miller.flac2496",
     "gd1976-06-18.165169.sony.ecm99.warburton.wagner.miller.t-flac1644",
     "gd1976-06-18.aud.jackson.13052.shnf"
   ],
-  "best_recording": "gd76-06-18.warburton.vernon.14449.sbeok.shnf",
-  "avg_rating": 1.6829387755102039,
+  "best_recording": "gd1976-06-18.ds-outtakes.sbd.miller.92266.sbeok.flac16",
+  "avg_rating": 1.652339544513457,
   "raw_rating": 3.6483516483516487,
   "recording_count": 6,
   "confidence": 1.0,
   "total_high_ratings": 6,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 2,
-    "AUD": 1
+    "SBD": 1,
+    "UNKNOWN": 3,
+    "AUD": 2
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "download-series-vol-4"
-  ]
+  "filtering_applied": []
 }

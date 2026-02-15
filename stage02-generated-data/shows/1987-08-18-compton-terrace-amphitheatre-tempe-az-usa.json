@@ -152,19 +152,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:58:52.754574",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/08/12151949/b870818.jpeg",
+      "filename": "b870818.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1987/08/12151149/t870818.jpeg",
+      "filename": "t870818.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1987-08-18.145599.nak300.in-house.fm.composite.hessberg.miller.clugston.flac1648",
     "gd1987-08-18.145600.nak300.in-house.fm.composite.hessberg.miller.clugston.flac2496",
-    "gd87-08-18.schoeps.paino.13102.sbeok.shnf",
     "gd1987-08-18.140125.sbd.s1.miller.flac2496",
     "gd1987-08-18.140235.set1.UltraMatrix.sbd.cm.miller.flac1644",
+    "gd87-08-18.schoeps.paino.13102.sbeok.shnf",
     "gd1987-08-18.142155.fob.schoeps.cmc3.mk2.oade.jacobs.miller.clugston.flac1644",
     "gd1987-08-18.138289.FOB.Schoeps.Ammons.t-flac16",
     "gd1987-08-18.138304.FOB.Schoeps.Gastwirt.Miller.Noel.t-flac16"
   ],
   "best_recording": "gd1987-08-18.145599.nak300.in-house.fm.composite.hessberg.miller.clugston.flac1648",
-  "avg_rating": 1.9811881188118812,
+  "avg_rating": 1.9943722943722941,
   "raw_rating": 3.972222222222222,
   "recording_count": 8,
   "confidence": 1.0,
@@ -172,8 +187,9 @@
   "total_low_ratings": 0,
   "source_types": {
     "FM": 2,
-    "SBD": 3,
-    "UNKNOWN": 3
+    "SBD": 2,
+    "UNKNOWN": 1,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

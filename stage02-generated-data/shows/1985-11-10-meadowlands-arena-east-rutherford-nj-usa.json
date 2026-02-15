@@ -162,24 +162,39 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:55:04.718915",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152013/b851110.jpg",
+      "filename": "b851110.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151229/t851110.jpg",
+      "filename": "t851110.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1985-11-10.sbd.doughty.12202.shnf",
     "gd85-11-10.sbd.barbella.12264.sbeok.shnf",
+    "gd1985-11-10.141082.sbd.miller.clugston.flac1644",
+    "gd1985-11-10.sbd.127525.flac16",
+    "gd1985-11-10.142930.mtx.tobin.flac1644",
     "gd85-11-10.oade.connor.7955.sbeok.shnf",
     "gd85-11-10.aud-oade.dwonk.19212.sbeok.shnf",
+    "gd1985-11-10.aud.morris.106808.flac16",
     "gd1985-11-10.nak-beyer.suraci.79689.sbeok.flac16",
-    "gd1985-11-10.141082.sbd.miller.clugston.flac1644",
+    "gd1985-11-10.nak300.andrewf.128517.flac1644",
+    "gd1985-11-10.141651.OTS.AT835b-AKGD12e-Blend.Ackerman.Miller.Noel.t-flac2496",
     "gd85-11-10.beyer.connor.4774.sbeok.shnf",
     "gd1985-11-10.nak300.mandel.25472.sbeok.shnf",
     "gd1985-11-10.cpb.retransfer.32638.sbeok.flac16",
-    "gd1985-11-10.nak300.damico.87524.sbeok.flac16",
-    "gd1985-11-10.sbd.127525.flac16",
-    "gd1985-11-10.142930.mtx.tobin.flac1644",
-    "gd1985-11-10.aud.morris.106808.flac16",
-    "gd1985-11-10.nak300.andrewf.128517.flac1644",
-    "gd1985-11-10.141651.OTS.AT835b-AKGD12e-Blend.Ackerman.Miller.Noel.t-flac2496",
     "gd1985-11-10.nak300.morris.114678.flac24",
+    "gd1985-11-10.nak300.damico.87524.sbeok.flac16",
     "gd1985-11-10.126721.chasingwilma.flac24",
     "gd1985-11-10.142931.dts.tobin.flac1644",
     "gd1985-11-10.142932.5-1.tobin.flac1648",
@@ -195,17 +210,17 @@
     "gd1985-11-10.154261.akgc422.davis-holbrook.flac2448"
   ],
   "best_recording": "gd1985-11-10.sbd.doughty.12202.shnf",
-  "avg_rating": 2.8731514843948234,
+  "avg_rating": 3.0761579414374447,
   "raw_rating": 3.8490842490842487,
   "recording_count": 29,
   "confidence": 1.0,
   "total_high_ratings": 44,
   "total_low_ratings": 6,
   "source_types": {
-    "SBD": 11,
+    "SBD": 4,
     "MATRIX": 1,
-    "AUD": 1,
-    "UNKNOWN": 16
+    "UNKNOWN": 22,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

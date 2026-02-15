@@ -192,28 +192,43 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:32:05.908066",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151545/t760802.jpg",
+      "filename": "t760802.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2022/02/28145814/1976-08-02GDColtParkCTRest-1.jpg",
+      "filename": "1976-08-02GDColtParkCTRest-1.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/2022/02/28145814/1976-08-02GDColtParkCTRest-1-360x360.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
+    "gd1976-08-02.132697.aud.gatto.wise.flac16",
     "gd76-08-02.gatto.aj.245.sbeok.shnf",
     "gd1976-08-02.fob.singer.motb-1.81456.sbeok.flac16",
-    "gd1976-08-02.fob.singer.motb-1.81971.sbeok.flac24",
-    "gd1976-08-02.132697.aud.gatto.wise.flac16",
     "gd1976-08-02.152092.aud.petrunis.andrewf.flac2448",
     "gd1976-08-02.141900.SonyECM99A.warburton.lee.smith.sirmick.flac1696",
     "gd1976-08-02.145157.sony.ecm99a.warburton.lee.smith.sirmick.flac1644",
-    "gd1976-08-02.141900.SonyECM99A.warburton.lee.smith.sirmick.fixed.flac2496"
+    "gd1976-08-02.141900.SonyECM99A.warburton.lee.smith.sirmick.fixed.flac2496",
+    "gd1976-08-02.fob.singer.motb-1.81971.sbeok.flac24"
   ],
-  "best_recording": "gd76-08-02.gatto.aj.245.sbeok.shnf",
-  "avg_rating": 2.1046523668639043,
+  "best_recording": "gd1976-08-02.132697.aud.gatto.wise.flac16",
+  "avg_rating": 2.135033482142857,
   "raw_rating": 4.13125,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 34,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 3,
-    "AUD": 2,
-    "UNKNOWN": 3
+    "AUD": 4,
+    "UNKNOWN": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -164,17 +164,30 @@
     "Little Feat"
   ],
   "collection_timestamp": "2025-08-10T09:01:18.789551",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/07/12151932/b880702.jpeg",
+      "filename": "b880702.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/07/12151126/t880702.jpeg",
+      "filename": "t880702.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1988-07-02.sbd.miller.86817.sbeok.flac",
-    "gd88-07-02.DTS.matrix.dan.21434.sbeok.shnf",
     "gd88-07-02.sbd.jeffm.2328.sbeok.shnf",
     "gd88-07-02.sbd-matrix.dan.21211.sbeok.shnf",
     "gd1988-07-02.150701.UltraMatrix.sbd.cm.miller.flac16",
     "gd1988-07-02.150683.sbd.miller.flac2496",
     "gd1988-07-02.sbd.jeffm.tetzeli.fix-2328.74652.reflac.flac16",
-    "gd1988-07-02.nak100.unknown.32636.sbeok.flac16",
-    "gd1988-07-02.nakcm304.beyerm101.suraci.82762.sbeok.flac16",
+    "gd88-07-02.DTS.matrix.dan.21434.sbeok.shnf",
     "gd1988-07-02.138737.set2.mtx.tobin.flac16",
     "gd1988-07-02.140674.FOB.Neumann.Silberman.Ammons.Noel.t-flac1644",
     "gd1988-07-02.Nak300CP4.Fitzy.Keo.124844.Flac2496",
@@ -201,20 +214,22 @@
     "gd1988-07-02.167978.beyerm201.holbrook.flac2448",
     "gd1988-07-02.Nak300CP4.Fitzy.Keo.124845.Flac1644",
     "gd1988-07-02.mlp.haugh.98645.dvda",
-    "gd1988-07-02.nak300.morris.crazyfingers.106588.flac16"
+    "gd1988-07-02.nak100.unknown.32636.sbeok.flac16",
+    "gd1988-07-02.nak300.morris.crazyfingers.106588.flac16",
+    "gd1988-07-02.nakcm304.beyerm101.suraci.82762.sbeok.flac16"
   ],
   "best_recording": "gd1988-07-02.sbd.miller.86817.sbeok.flac",
-  "avg_rating": 2.685302339267324,
+  "avg_rating": 2.668669336893636,
   "raw_rating": 4.263320463320463,
   "recording_count": 36,
   "confidence": 1.0,
   "total_high_ratings": 92,
   "total_low_ratings": 9,
   "source_types": {
-    "SBD": 9,
-    "MATRIX": 1,
-    "UNKNOWN": 25,
-    "AUD": 1
+    "SBD": 6,
+    "MATRIX": 2,
+    "AUD": 5,
+    "UNKNOWN": 23
   },
   "matching_method": "date_only",
   "filtering_applied": []

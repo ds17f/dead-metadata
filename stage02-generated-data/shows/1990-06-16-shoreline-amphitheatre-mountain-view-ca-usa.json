@@ -162,14 +162,24 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:06:13.330144",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/06/12151042/t900616.jpeg",
+      "filename": "t900616.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd90-06-16.sbd.ladner.8571.sbeok.shnf",
     "gd1990-06-16.sbd.miller.106145.flac16",
-    "gd90-06-16.nak.ladner.7763.sbeok.shnf",
     "gd1990-06-16.147584.sbd.ultramatrix.pearson.miller.flac24",
     "gd1990-06-16.147773.UltraMatrix.sbd.cm.miller.flac16",
     "gd1990-06-16.146937.photoLeon.MTX.t-flac16",
+    "gd90-06-16.nak.ladner.7763.sbeok.shnf",
     "gd1990-06-16.Nak300CP4.Fitzy.Keo.126272.Flac2496",
     "gd1990-06-16.Nak300CP4.Fitzy.Keo.126273.Flac1644",
     "gd1990-06-16.138399.OTS.BK4011.FOB.Schoeps.Unknown.Ammons.Noel.fixed.t-flac16",
@@ -179,17 +189,17 @@
     "gd1990-06-16.aud.savage-wklitz.96407.flac16"
   ],
   "best_recording": "gd90-06-16.sbd.ladner.8571.sbeok.shnf",
-  "avg_rating": 3.2756447633998658,
+  "avg_rating": 3.5170463682658806,
   "raw_rating": 4.3096646942800785,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 31,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
+    "SBD": 4,
     "MATRIX": 1,
-    "UNKNOWN": 6,
-    "AUD": 1
+    "UNKNOWN": 4,
+    "AUD": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

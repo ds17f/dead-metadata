@@ -147,6 +147,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:15:45.356808",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/03/12151745/b940323.jpeg",
+      "filename": "b940323.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/03/12150903/t940323.jpeg",
+      "filename": "t940323.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd94-03-23.sbd-aud.herman.13793.sbeok.shnf",
@@ -167,7 +182,8 @@
   "total_low_ratings": 3,
   "source_types": {
     "SBD": 3,
-    "UNKNOWN": 5
+    "UNKNOWN": 4,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -182,37 +182,48 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:47:26.404009",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152057/b820807.jpg",
+      "filename": "b820807.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151351/t820807.jpg",
+      "filename": "t820807.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd82-08-07.sbd.serafin.7720.sbeok.shnf",
     "gd82-08-07.sbd-streeter-wise.unknown.7689.sbeok.shnf",
-    "gd1982-08-07.fob.unknown.suraci.83513.sbeok.flac16",
     "gd1982-08-07.141795.sbd.pcm.streeter.dalton.miller.clugston.flac1644",
     "gd1982-08-07.137625.sbd.miller.flac16",
     "gd82-08-07.sbd.popi.6148.sbeok.shnf",
     "gd1982-08-07.165372.mtx.seamons.ht162.flac16",
     "gd1982-08-07.aud.ohr.92183.flac16",
+    "gd1982-08-07.fob.unknown.suraci.83513.sbeok.flac16",
     "gd1982-08-07.138622.beyerm201.holbrook.flac1644",
     "gd1982-08-07.138623.beyerm201.holbrook.flac2448",
     "gd1982-08-07.156561.s1.beyer.tompkins.flac2448"
   ],
   "best_recording": "gd82-08-07.sbd.serafin.7720.sbeok.shnf",
-  "avg_rating": 2.6264909090909088,
+  "avg_rating": 2.6500971250971253,
   "raw_rating": 4.507836990595611,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 50,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 6,
+    "SBD": 5,
     "MATRIX": 1,
-    "AUD": 1,
+    "AUD": 2,
     "UNKNOWN": 3
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "dicks-picks-vol-32",
-    "official-picks-dicks"
-  ]
+  "filtering_applied": []
 }

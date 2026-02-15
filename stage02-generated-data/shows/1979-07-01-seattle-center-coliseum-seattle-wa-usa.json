@@ -167,19 +167,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:38:44.366601",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152137/b790701.jpg",
+      "filename": "b790701.jpg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1979-07-01.sbd.miller.93433.sbeok.flac16",
     "gd79-07-01.sbd.barrick.315.sbeok.shnf",
-    "gd1979-07-01.mtx.seamons.95742.sbeok.flac16",
-    "gd1979-07-01.sonyecm.severson.minches.90696.sbeok.flac16",
     "gd1979-07-01.141414.sbd.troy.smith.miller.clugston.flac1644",
     "gd1979-07-01.141415.sbd.troy.smith.miller.clugston.flac2496",
     "gd1979-07-01.170391.sbd.miller.gans.flac1644",
+    "gd1979-07-01.mtx.seamons.95742.sbeok.flac16",
     "gd1979-07-01.156176.mtx.tobin.flac24",
     "gd1979-07-01.156177.mtx.tobin.flac16",
     "gd1979-07-01.fob.nak700.menke.motb-0112.105210.flac16",
     "gd1979-07-01.156180.5-1.tobin.flac1648",
+    "gd1979-07-01.sonyecm.severson.minches.90696.sbeok.flac16",
     "gd1979-07-01.141412.akg.d224e.holhwein.lee.smith.miller.clugston.flac1644",
     "gd1979-07-01.141413.akg.d224e.holhwein.lee.smith.miller.clugston.flac2496",
     "gd1979-07-01.145357.fob.sony.ecm270.severson.miller.clugston.flac1648",
@@ -187,16 +197,17 @@
     "gd1979-07-01.156179.dts.tobin.flac16"
   ],
   "best_recording": "gd1979-07-01.sbd.miller.93433.sbeok.flac16",
-  "avg_rating": 3.7767241379310343,
+  "avg_rating": 3.7771551724137926,
   "raw_rating": 4.385714285714285,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 24,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
-    "MATRIX": 2,
-    "UNKNOWN": 7
+    "SBD": 5,
+    "MATRIX": 3,
+    "AUD": 3,
+    "UNKNOWN": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

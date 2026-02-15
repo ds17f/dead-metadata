@@ -152,15 +152,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:11:42.809645",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/06/12151817/b920611.jpeg",
+      "filename": "b920611.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/06/12150948/t920611.jpeg",
+      "filename": "t920611.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd92-06-11.sbd.ladner.8069.sbeok.shnf",
     "gd1992-06-11.sbd.miller.90105.sbeok.flac16",
-    "gd92-06-11.aud.vernon.18581.sbeok.shnf",
-    "gd1992-06-11.nak300.baker-keo.sirmick.110979.sbeok.flac16",
     "gd1992-06-11.152717.sbd.miller.flac2448",
     "gd1992-06-11.154484.sbd.cm.miller.t.flac16",
-    "gd1992-06-11.nak300.andrewf.86034.sbeok.flac16",
+    "gd92-06-11.aud.vernon.18581.sbeok.shnf",
+    "gd1992-06-11.nak300.baker-keo.sirmick.110979.sbeok.flac16",
     "gd1992-06-11.134956.Nak300CP4.Fitzy.Keo.Flac1644",
     "gd1992-06-11.134957.Nak300CP4.Fitzy.Keo.Flac2496",
     "gd1992-06-11.137459.nak300.boedicker.flac16",
@@ -175,20 +189,21 @@
     "gd1992-06-11.168983.fixed.165915.me88.mc.rogosa.flac2496",
     "gd1992-06-11.168984.fixed.165916.me88.mc.rogosa.flac1644",
     "gd1992-06-11.nak.boedicker.116122.flac16",
+    "gd1992-06-11.nak300.andrewf.86034.sbeok.flac16",
     "gd1992-06-11.nak300.baker-keo.sirmick.110978.flac24",
     "gd1992-06-11.nakcm300.andrewf.86035.flac1648"
   ],
   "best_recording": "gd92-06-11.sbd.ladner.8069.sbeok.shnf",
-  "avg_rating": 3.706153846153846,
+  "avg_rating": 3.8221621621621624,
   "raw_rating": 4.153846153846154,
   "recording_count": 23,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 7,
-    "UNKNOWN": 14,
-    "AUD": 2
+    "SBD": 4,
+    "AUD": 4,
+    "UNKNOWN": 15
   },
   "matching_method": "date_only",
   "filtering_applied": []

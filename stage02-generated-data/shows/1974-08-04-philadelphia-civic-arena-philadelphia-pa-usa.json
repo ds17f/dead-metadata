@@ -187,30 +187,43 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:30:33.840802",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152153/b740804.jpg",
+      "filename": "b740804.jpg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1974/08/12152309/19740804po.jpeg",
+      "filename": "19740804po.jpeg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1974/08/12152309/19740804po-360x360.jpeg"
+    }
+  ],
   "show_time": null,
   "recordings": [
-    "gd74-08-04.aud-moore.weiner.20369.sbeok.shnf",
     "gd74-08-04.sbd.sacks.1574.sbeok.shnf",
-    "gd1974-08-04.mtx.seamons.100653.sbeok.flac16",
-    "gd1974-08-04.aud.moore.weiner.gdADT.9112.sbeok.shnf",
     "gd1974-08-04.sbd.unknown.1631.shnf",
+    "gd1974-08-04.mtx.seamons.100653.sbeok.flac16",
+    "gd74-08-04.aud-moore.weiner.20369.sbeok.shnf",
+    "gd1974-08-04.aud.moore.weiner.gdADT.9112.sbeok.shnf",
     "gd1974-08-04.157364.s1.unk-aud.flac1644"
   ],
-  "best_recording": "gd74-08-04.aud-moore.weiner.20369.sbeok.shnf",
-  "avg_rating": 2.6111688311688317,
+  "best_recording": "gd74-08-04.sbd.sacks.1574.sbeok.shnf",
+  "avg_rating": 2.645875,
   "raw_rating": 3.9727891156462585,
   "recording_count": 6,
   "confidence": 1.0,
   "total_high_ratings": 17,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
-    "AUD": 1
+    "SBD": 2,
+    "MATRIX": 1,
+    "AUD": 3
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "dicks-picks-vol-31",
-    "official-picks-dicks"
-  ]
+  "filtering_applied": []
 }

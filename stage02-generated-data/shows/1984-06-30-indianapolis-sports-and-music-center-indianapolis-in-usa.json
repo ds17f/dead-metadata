@@ -172,14 +172,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:51:48.567757",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152035/b840630.jpg",
+      "filename": "b840630.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151305/t840630.jpg",
+      "filename": "t840630.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd84-06-30.sbd.partial.finney.2542.sbeok.shnf",
     "gd1984-06-30.120740.sbd.miller.flac16",
-    "gd84-06-30.aud.set1.cole.18559.sbeok.shnf",
-    "gd1984-06-30.senn421.unknown.31225.sbeok.flac16",
     "gd1984-06-30.sbd.123778.miller.flac16",
     "gd1984-06-30.154326.mtx.tobin.flac16",
+    "gd84-06-30.aud.set1.cole.18559.sbeok.shnf",
+    "gd1984-06-30.senn421.unknown.31225.sbeok.flac16",
     "gd1984-06-30.137073.mk41.miller.flac16",
     "gd1984-06-30.154329.5.1.tobin.flac1648",
     "gd1984-06-30.140199.fob.nak700.unknown.clugston.flac1644",
@@ -193,17 +208,17 @@
     "gd1984-06-30.162897.nak304.thomas.miller.clugston.flac1648"
   ],
   "best_recording": "gd84-06-30.sbd.partial.finney.2542.sbeok.shnf",
-  "avg_rating": 3.4213120567375888,
+  "avg_rating": 3.4820676691729324,
   "raw_rating": 4.323529411764706,
   "recording_count": 17,
   "confidence": 1.0,
   "total_high_ratings": 30,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
+    "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 10,
-    "AUD": 1
+    "AUD": 3,
+    "UNKNOWN": 10
   },
   "matching_method": "date_only",
   "filtering_applied": []

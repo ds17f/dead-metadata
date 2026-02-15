@@ -167,16 +167,31 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:07:36.810755",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/12/12151848/b901208.jpeg",
+      "filename": "b901208.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/12/12151029/t901208.jpeg",
+      "filename": "t901208.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd90-12-08.sbd.hollister.472.sbeok.shnf",
     "gd1990-12-08.141700.UltraMatrix.sbd.cm.miller.flac1644",
     "gd1990-12-08.124096.sbd.blackwood.flac16",
     "gd1990-12-08.141606.sbd.miller.2496",
-    "gd1990-12-08.atshot.laporte.89867.sbeok.flac16",
     "gd1990-12-08.AKG451.Darby.117559.Flac2448",
     "gd1990-12-08.130961.cmc321.fob.katzeff.jwpetty.flac16",
-    "gd1990-12-08.AKG451.Darby.117558.Flac1644"
+    "gd1990-12-08.AKG451.Darby.117558.Flac1644",
+    "gd1990-12-08.atshot.laporte.89867.sbeok.flac16"
   ],
   "best_recording": "gd90-12-08.sbd.hollister.472.sbeok.shnf",
   "avg_rating": 3.1483516483516487,
@@ -186,8 +201,9 @@
   "total_high_ratings": 5,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
-    "UNKNOWN": 3
+    "SBD": 4,
+    "UNKNOWN": 3,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -149,23 +149,39 @@
     "Steve Miller Band"
   ],
   "collection_timestamp": "2025-08-10T09:11:51.518845",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/06/12151816/b920615.jpeg",
+      "filename": "b920615.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/06/12150948/t920615.jpeg",
+      "filename": "t920615.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1992-06-15.dsbd.miller.32449.sbeok.flac16",
-    "gd92-06-15.schoeps.eD.9972.sbeok.shnf",
     "gd1992-06-15.mtx.sirmick.122576.sbeok.flac16",
+    "gd92-06-15.schoeps.eD.9972.sbeok.shnf",
     "gd1992-06-15.nak300.pasternak.andrewf.105593.flac16"
   ],
   "best_recording": "gd1992-06-15.dsbd.miller.32449.sbeok.flac16",
-  "avg_rating": 1.8992471042471042,
+  "avg_rating": 1.9266282165039925,
   "raw_rating": 3.847802197802198,
   "recording_count": 4,
   "confidence": 1.0,
   "total_high_ratings": 16,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 1
+    "SBD": 1,
+    "MATRIX": 1,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

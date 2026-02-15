@@ -157,27 +157,38 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:00:15.279802",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/03/12151941/b880324.jpeg",
+      "filename": "b880324.jpeg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1988-03-24.sbd.miller.91232.sbeok.flac16",
     "gd88-03-24.sbd.willy.15127.sbeok.shnf",
-    "gd88-03-24.aud.wood.9540.sbeok.shnf",
     "gd1988-03-24.140261.sbd.miller.flac2496",
     "gd1988-03-24.140327.UltraMatrix.sbd.cm.miller.flac1644",
+    "gd88-03-24.aud.wood.9540.sbeok.shnf",
     "gd1988-03-24.148853.fob.senn.me80.hessberg.miller.clugston.flac2496",
     "gd1988-03-24.140259.sen-me80.alabama-bob.flac1644",
     "gd1988-03-24.148852.fob.senn.me80.hessberg.miller.clugston.flac1648"
   ],
   "best_recording": "gd1988-03-24.sbd.miller.91232.sbeok.flac16",
-  "avg_rating": 4.042292682926829,
+  "avg_rating": 4.07321608040201,
   "raw_rating": 4.345990338164251,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 38,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
-    "UNKNOWN": 3
+    "SBD": 4,
+    "AUD": 3,
+    "UNKNOWN": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -142,6 +142,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:16:37.594563",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/03/12151744/b940331.jpeg",
+      "filename": "b940331.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/03/12150901/t940331.jpeg",
+      "filename": "t940331.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd94-03-31.sbd.miller.14833.sbeok.shnf",
@@ -150,14 +165,15 @@
     "gd1994-03-31.110955.bk.schmit.sbeok.flac16"
   ],
   "best_recording": "gd94-03-31.sbd.miller.14833.sbeok.shnf",
-  "avg_rating": 2.835,
+  "avg_rating": 2.872159090909091,
   "raw_rating": 3.2,
   "recording_count": 4,
   "confidence": 1.0,
   "total_high_ratings": 7,
   "total_low_ratings": 6,
   "source_types": {
-    "SBD": 4
+    "SBD": 3,
+    "UNKNOWN": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

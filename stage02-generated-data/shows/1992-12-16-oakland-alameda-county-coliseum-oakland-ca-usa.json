@@ -152,36 +152,55 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:12:27.319152",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/12/12151811/b921216.jpeg",
+      "filename": "b921216.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/12/12150941/t921216.jpeg",
+      "filename": "t921216.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/12/12152300/19921211b.jpg",
+      "filename": "19921211b.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/12/12152300/19921211b.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
+    "gd92-12-16.sbd-2track.stonebear.5551.sbeok.shnf",
+    "gd1992-12-16.140853.sbd.cm.miller.flac1644",
+    "gd1992-12-16.140831.sbd.miller.flac2496",
     "gd92-12-16.set2.matrix.27580.sbeok.flacf",
     "gd92-12-16.aud.vernon.9631.sbeok.shnf",
     "gd1992-12-16.fob.schoeps.boardman.evans.25812.sbeok.flac16",
-    "gd92-12-16.sbd-2track.stonebear.5551.sbeok.shnf",
-    "gd1992-12-16.140853.sbd.cm.miller.flac1644",
     "gd92-12-16.fob-schoeps.fishman.15395.sbeok.shnf",
     "gd1992-12-16.fob.neumann.copeland.gems.79547.sbeok.flac16",
+    "gd1992-12-16.140956.FOB.Schoeps.Ammons.Noel.t-flac.1648",
     "gd1992-12-16.138068.set2.akg414.wise.sirmick.sbeok.flac1648",
     "gd1992-12-16.138710.aud.gastwirt.miller.sirmick.sbeok.flac16",
-    "gd1992-12-16.140831.sbd.miller.flac2496",
-    "gd1992-12-16.140956.FOB.Schoeps.Ammons.Noel.t-flac.1648",
     "gd1992-12-16.140423.s2.fob.Schoeps-MK41.miller.sirmick.flac1648"
   ],
-  "best_recording": "gd92-12-16.set2.matrix.27580.sbeok.flacf",
-  "avg_rating": 2.7437278106508876,
+  "best_recording": "gd92-12-16.sbd-2track.stonebear.5551.sbeok.shnf",
+  "avg_rating": 2.763057081807082,
   "raw_rating": 4.398022456845986,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 41,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 10,
+    "SBD": 3,
+    "MATRIX": 1,
+    "AUD": 6,
     "UNKNOWN": 2
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "dicks-picks-vol-27",
-    "official-picks-dicks"
-  ]
+  "filtering_applied": []
 }

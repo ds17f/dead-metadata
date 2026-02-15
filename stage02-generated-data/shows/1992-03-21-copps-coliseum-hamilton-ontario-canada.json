@@ -147,12 +147,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:11:12.824973",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/03/12151820/b920321.jpeg",
+      "filename": "b920321.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/03/12150953/t920321.jpeg",
+      "filename": "t920321.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd92-03-21.sbd.braverman.17696.sbeok.shnf",
-    "gd92-03-21.schoeps.nawrocki.11268.sbeok.shnf",
     "gd1992-03-21.141786.sbd.miller.flac2496",
     "gd1992-03-21.141807.sbd.cm.miller.flac1644",
+    "gd92-03-21.schoeps.nawrocki.11268.sbeok.shnf",
     "gd1992-03-21.sennme80.wklitz.97542.flac16",
     "gd1992-03-21.149302.set2.nak300CP4.ebel.flac2496",
     "gd1992-03-21.fob.schoeps.evens.gems.76484.sbefail.flac16",
@@ -162,15 +177,16 @@
     "gd1992-03-21.155836.Set2.FOBSchoepsMasterDAT.BrotmanMetchickAnonNoel.t-flac1648"
   ],
   "best_recording": "gd92-03-21.sbd.braverman.17696.sbeok.shnf",
-  "avg_rating": 2.5867647058823526,
+  "avg_rating": 2.6666666666666665,
   "raw_rating": 3.34375,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 16,
   "total_low_ratings": 8,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 7
+    "SBD": 3,
+    "UNKNOWN": 6,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

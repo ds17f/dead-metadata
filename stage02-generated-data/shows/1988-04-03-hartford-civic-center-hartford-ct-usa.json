@@ -152,27 +152,42 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:00:29.282251",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/04/12151939/b880403.jpeg",
+      "filename": "b880403.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/04/12151135/t880403.jpeg",
+      "filename": "t880403.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1988-04-03.sbd.miller.91161.sbeok.flac16",
     "gd88-04-03.sbd.painoman.9628.sbeok.shnf",
-    "gd1988-04-03.nak300.carpenter.andrewf.89986.sbeok.flac16",
     "gd1988-04-03.154410.UltraMatrix.sbd.cm.miller.t.flac16",
     "gd1988-04-03.153796.ultramatrix.miller.flac2496",
+    "gd1988-04-03.nak300.carpenter.andrewf.89986.sbeok.flac16",
     "gd1988-04-03.109056.nakcm300-pasternak.mallick.flac16",
     "gd1988-04-03.153797.cmc4-mk41.oade-bryant-gastwirt.miller.flac1644"
   ],
   "best_recording": "gd1988-04-03.sbd.miller.91161.sbeok.flac16",
-  "avg_rating": 2.445676691729324,
+  "avg_rating": 2.4793307086614176,
   "raw_rating": 2.808333333333333,
   "recording_count": 7,
   "confidence": 1.0,
   "total_high_ratings": 9,
   "total_low_ratings": 11,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 2
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -174,18 +174,33 @@
     "The Band"
   ],
   "collection_timestamp": "2025-08-10T08:28:21.841323",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152158/b730801.jpg",
+      "filename": "b730801.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151604/t730801.jpg",
+      "filename": "t730801.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd73-08-01.sbd.cotsman.12222.sbeok.shnf",
     "gd1973-08-01.partial.sbd.gans-Jungeblut.182.sbeok.shnf",
     "gd1973-08-01.sbd.sirmick.patch-12222.92478.sbeok.flac16",
-    "gd73-08-01.aud.weiner.gdADT08.9145.sbeok.shnf",
     "gd73-08-xx.sbd-wotf.davef.2522.sbeok.shnf",
     "gd1973-08-01.sbd.kaplan.11813.shnf",
-    "gd1973-08-01.aud.weiner.8724.sbeok.shnf",
     "gd1973-08-01.140895.sbd.wotf-outtakes.dalton.miller.sirmick.flac1644",
     "gd1973-08-01.148528.sbd.flac16.wake-of-the-flood-outtakes.flac16",
     "gd1973-08-01.123128.mtx.barry.flac",
+    "gd73-08-01.aud.weiner.gdADT08.9145.sbeok.shnf",
+    "gd1973-08-01.aud.weiner.8724.sbeok.shnf",
     "gd1973-08-01.121129.barry.smith.AUD-fob.flac1644",
     "gd1973-08-01.112572.aud-moore.berger.flac16",
     "gd1973-08-01.113751.wotf.betty.shnf",
@@ -195,16 +210,16 @@
     "gd1973-08-01.135887.aud.cooper.berger.flac24"
   ],
   "best_recording": "gd73-08-01.sbd.cotsman.12222.sbeok.shnf",
-  "avg_rating": 3.692214850707072,
+  "avg_rating": 3.7141717722573957,
   "raw_rating": 4.610097507498328,
   "recording_count": 17,
   "confidence": 1.0,
   "total_high_ratings": 104,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 9,
+    "SBD": 7,
     "MATRIX": 1,
-    "AUD": 6,
+    "AUD": 8,
     "UNKNOWN": 1
   },
   "matching_method": "date_only",

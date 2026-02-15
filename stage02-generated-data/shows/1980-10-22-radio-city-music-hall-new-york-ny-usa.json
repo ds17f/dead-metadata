@@ -202,23 +202,37 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:42:34.495486",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152119/b801022.jpg",
+      "filename": "b801022.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151431/t801022.jpg",
+      "filename": "t801022.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd80-10-22.sony.wiley.8479.sbefail.shnf",
+    "gd1980-10-22.nak300.morris.101778.sbeok.flac16",
     "gd1980-10-22.sonyecm280.wise.miller.100416.flac16",
-    "gd1980-10-22.120053.fob-nak700.gatto-jaeger.dusborne.flac16",
-    "gd1980-10-22.nak300.morris.101778.sbeok.flac16"
+    "gd1980-10-22.120053.fob-nak700.gatto-jaeger.dusborne.flac16"
   ],
   "best_recording": "gd80-10-22.sony.wiley.8479.sbefail.shnf",
-  "avg_rating": 1.7203125,
+  "avg_rating": 1.7153846153846155,
   "raw_rating": 3.6153846153846154,
   "recording_count": 4,
   "confidence": 1.0,
   "total_high_ratings": 7,
   "total_low_ratings": 1,
   "source_types": {
-    "FM": 3,
-    "SBD": 1
+    "FM": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -152,15 +152,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:50:41.939320",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151317/t840329.jpg",
+      "filename": "t840329.jpg",
+      "side": "front"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151706/l840328.jpg",
+      "filename": "l840328.jpg",
+      "side": "unknown"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1984-03-29.sbd.walker-scotton.miller.32515.sbeok.flac16",
     "gd84-03-29.sbd.10559.sbeok.shnf",
     "gd1984-03-29.sbd.walker-scotton.miller.106071.flac16",
-    "gd1984-03-29.sonyecm.andrewf.29645.sbeok.flac16",
     "gd1984-03-29.3micSonyTCD5M.D5scott.109112.flac16",
     "gd1984-03-29.148306.2nd.set.fob.akg.d330bt.senn421.hecht.miller.clugston.flac1648",
-    "gd1984-03-29.148307.2nd.set.fob.akg.d330bt.senn421.hecht.miller.clugston.flac2496"
+    "gd1984-03-29.148307.2nd.set.fob.akg.d330bt.senn421.hecht.miller.clugston.flac2496",
+    "gd1984-03-29.sonyecm.andrewf.29645.sbeok.flac16"
   ],
   "best_recording": "gd1984-03-29.sbd.walker-scotton.miller.32515.sbeok.flac16",
   "avg_rating": 3.4023423423423425,
@@ -170,8 +185,8 @@
   "total_high_ratings": 10,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
-    "AUD": 3
+    "SBD": 3,
+    "AUD": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

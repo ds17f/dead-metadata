@@ -154,13 +154,27 @@
     "The Neville Brothers"
   ],
   "collection_timestamp": "2025-08-10T08:56:52.631943",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152003/b861228.jpeg",
+      "filename": "b861228.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1986/12/12151209/t861228.jpeg",
+      "filename": "t861228.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd86-12-28.sbd-matrix.miller.11495.sbeok.shnf",
     "gd1986-12-28.sbd.miller.77445.flac16",
     "gd1986-12-28.sbd.walker-scotton.miller.99637.sbeok.flac16",
     "gd1986-12-28.156498.UltraMatrix.sbd.cm.miller.t.flac1644",
-    "gd1986-12-28.nakcm304.suraci.beckham.sbeok.81281.flac16",
     "gd1986-12-28.155896.mtx.tobin.flac16",
     "gd1986-12-28.155977.ultramatrix.miller.flac2496",
     "gd1986-12-28.142301.fob.schoeps.dalton.miller.clugston.flac1644",
@@ -174,20 +188,21 @@
     "gd1986-12-28.155897.dts.tobin.flac16",
     "gd1986-12-28.155898.5-1.tobin.flac1648",
     "gd1986-12-28.156031.5-1.upg.tobin.flac1648",
-    "gd1986-12-28.nak300.damico.88967.flac16"
+    "gd1986-12-28.nak300.damico.88967.flac16",
+    "gd1986-12-28.nakcm304.suraci.beckham.sbeok.81281.flac16"
   ],
   "best_recording": "gd86-12-28.sbd-matrix.miller.11495.sbeok.shnf",
-  "avg_rating": 2.2919117647058824,
+  "avg_rating": 2.276086956521739,
   "raw_rating": 3.645833333333333,
   "recording_count": 19,
   "confidence": 1.0,
   "total_high_ratings": 9,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
+    "SBD": 4,
     "MATRIX": 2,
-    "UNKNOWN": 11,
-    "AUD": 1
+    "AUD": 2,
+    "UNKNOWN": 11
   },
   "matching_method": "date_only",
   "filtering_applied": []

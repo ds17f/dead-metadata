@@ -162,18 +162,37 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:53:46.224835",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152025/b850614a.jpg",
+      "filename": "b850614a.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152025/b850614b.jpg",
+      "filename": "b850614b.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151245/t850614.jpg",
+      "filename": "t850614.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-06-14.sbd.carman.13747.sbeok.shnf",
-    "gd1985-06-14.matrix.chappell.85831.sbeok.flac16",
     "gd1985-06-14.sbd.miller.117028.flac16",
-    "gd85-06-14.oade.sacks.4978.sbeok.shnf",
-    "gd85-06-14.oade-schoeps.sacks.24451.sbeok.flacf",
     "gd1985-06-14.135615.sbd-new.miller.flac16",
     "gd1985-06-14.145329.s2-complete.SBD.Miller.Noel.t-flac1648",
     "gd1985-06-14.135656.sbd.miller.flac1648",
     "gd1985-06-14.145575.SBD.remaster.Miller.Noel.t-flac1648",
-    "gd1985-06-14.senn441.mccue.ford.32867.sbeok.flac16",
+    "gd1985-06-14.matrix.chappell.85831.sbeok.flac16",
+    "gd85-06-14.oade.sacks.4978.sbeok.shnf",
+    "gd85-06-14.oade-schoeps.sacks.24451.sbeok.flacf",
     "gd1985-06-14.sony220t.keshavan.miller.105542.flac16",
     "gd1985-06-14.132932.schoeps.Oades.BCE.flac16",
     "gd1985-06-14.nak300.andrewf.130923.flac2448",
@@ -189,18 +208,20 @@
     "gd1985-06-14.152788.OTSNAK300-SGMasterCassetteAnonNoelt-flac1648",
     "gd1985-06-14.167247.neumann.km84i.hecht.miller.clugston.flac1648",
     "gd1985-06-14.167248.neumann.km84i.hecht.miller.clugston.flac2496",
-    "gd1985-06-14.nak300.andrewf.130924.flac1644"
+    "gd1985-06-14.nak300.andrewf.130924.flac1644",
+    "gd1985-06-14.senn441.mccue.ford.32867.sbeok.flac16"
   ],
   "best_recording": "gd85-06-14.sbd.carman.13747.sbeok.shnf",
-  "avg_rating": 3.4030190677966106,
+  "avg_rating": 3.518262411347519,
   "raw_rating": 4.325892857142857,
   "recording_count": 26,
   "confidence": 1.0,
   "total_high_ratings": 48,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 10,
-    "UNKNOWN": 16
+    "SBD": 6,
+    "MATRIX": 1,
+    "UNKNOWN": 19
   },
   "matching_method": "date_only",
   "filtering_applied": []

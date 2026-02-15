@@ -212,33 +212,44 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:30:18.379303",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152154/b740628.jpg",
+      "filename": "b740628.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151556/t740628.jpg",
+      "filename": "t740628.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd74-06-28.set1.sbd.snider.10984.sbeok.shnf",
     "gd1974-06-28.139780.sbd.miller.fixed.flac1644",
-    "gd74-06-28.moore.weiner.gdADT18.16038.sbeok.shnf",
     "gd1974-06-28.139780.sbd.patched.miller.flac1644",
     "gd1974-06-28.149954.mtx.seamons.ht120.flac16",
     "gd1974-06-28.sonyecm99.moore.berger.106003.flac24",
+    "gd74-06-28.moore.weiner.gdADT18.16038.sbeok.shnf",
     "gd1974-06-28.154913.s1-s2p.aud.flac1644"
   ],
   "best_recording": "gd74-06-28.set1.sbd.snider.10984.sbeok.shnf",
-  "avg_rating": 3.3789075789075786,
+  "avg_rating": 3.6713455728561466,
   "raw_rating": 4.600961538461538,
   "recording_count": 7,
   "confidence": 1.0,
   "total_high_ratings": 43,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 1,
+    "UNKNOWN": 2,
     "AUD": 1
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "dicks-picks-vol-12",
-    "official-picks-dicks"
-  ]
+  "filtering_applied": []
 }

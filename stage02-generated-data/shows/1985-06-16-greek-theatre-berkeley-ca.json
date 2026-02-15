@@ -172,20 +172,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:53:50.628634",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152024/b850616.jpg",
+      "filename": "b850616.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151244/t850616.jpg",
+      "filename": "t850616.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1985-06-16.sbd.miller.105876.flac16",
     "gd85-06-16.sbd.barrick.970.sbefail.shnf",
-    "gd1985-06-16.matrix.chappell.85833.sbeok.flac16",
-    "gd85-06-16.oade.sacks.7087.sbeok.shnf",
     "gd1985-06-16.sbd-pcm.miller.79021.sbeok.flac16",
     "gd85-06-16.sbd.braveman.26080.sbeok.shnf",
     "gd1985-06-16.152521.sbd.fixed.cm.miller.t.flac16",
-    "gd85-06-16.oade-schoeps.sacks.24611.sbeok.flacf",
     "gd1985-06-16.152288.sbd.walker-scotton.miller.flac1696",
     "gd1985-06-16.152304.sbd.miller.scotton-walker.flac2496",
-    "gd1985-06-16.senn441.mccue.ford.33669.sbeok.flac16",
+    "gd1985-06-16.matrix.chappell.85833.sbeok.flac16",
+    "gd85-06-16.oade.sacks.7087.sbeok.shnf",
     "gd1985-06-16.akg.keshavan.miller.105543.flac16",
+    "gd85-06-16.oade-schoeps.sacks.24611.sbeok.flacf",
     "gd1985-06-16.oade.sacks.9218.sbefail.shnf",
     "gd1985-06-16.140857.aud.bryant.miller.sirmick.flac2496",
     "gd1985-06-16.140862.aud.bryant.miller.sirmick.flac1644",
@@ -201,19 +215,21 @@
     "gd1985-06-16.167183.neumann.km84i.hecht.miller.clugston.flac2496",
     "gd1985-06-16.nak300.andrewf.127487.flac2448",
     "gd1985-06-16.nak300.andrewf.127488.flac1644",
-    "gd1985-06-16.nak700.anon-severson-poris.lmpp.97499.flac16"
+    "gd1985-06-16.nak700.anon-severson-poris.lmpp.97499.flac16",
+    "gd1985-06-16.senn441.mccue.ford.33669.sbeok.flac16"
   ],
   "best_recording": "gd1985-06-16.sbd.miller.105876.flac16",
-  "avg_rating": 2.6976730486008846,
+  "avg_rating": 2.8037202380952384,
   "raw_rating": 4.31704260651629,
   "recording_count": 28,
   "confidence": 1.0,
   "total_high_ratings": 47,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 11,
-    "UNKNOWN": 15,
-    "AUD": 2
+    "SBD": 7,
+    "MATRIX": 1,
+    "UNKNOWN": 16,
+    "AUD": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

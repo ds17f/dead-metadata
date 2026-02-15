@@ -157,30 +157,56 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:39:06.368217",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2023/09/08183953/GD-1979-09-05.jpg",
+      "filename": "GD-1979-09-05.jpg",
+      "side": "unknown"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152136/b790905.jpg",
+      "filename": "b790905.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151455/t790905.jpg",
+      "filename": "t790905.jpg",
+      "side": "front"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151454/t790905b.jpg",
+      "filename": "t790905b.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1979-09-05.sbd.miller.79748.flac16",
     "gd79-09-05.sbd.clugston.9453.sbeok.shnf",
     "gd1979-09-05.mtx.seamons.102476.sbeok.flac16",
-    "gd79-09-05.glassberg.unknown.8457.sbeok.shnf",
     "gd1979-09-05.mtx.seamons.ht63.110829.flac16",
     "gd1979-09-05.nak700.glassberg.wise.2484.shnf",
+    "gd79-09-05.glassberg.unknown.8457.sbeok.shnf",
     "gd1979-09-05.151831.nak700.wagner.miller.flac24",
     "gd1979-09-05.151987.fob.nak700.cm.wagner.miller.t..flac16",
     "gd1979-09-05.156350.senn441.senn421.blend.eaton.miller.clugston.flac1648",
     "gd1979-09-05.156351.senn441.senn421.blend.eaton.miller.clugston.flac2496"
   ],
   "best_recording": "gd1979-09-05.sbd.miller.79748.flac16",
-  "avg_rating": 3.764381625441696,
+  "avg_rating": 3.865820895522388,
   "raw_rating": 4.363636363636363,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 31,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
-    "MATRIX": 1,
-    "UNKNOWN": 5
+    "SBD": 2,
+    "MATRIX": 2,
+    "UNKNOWN": 5,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

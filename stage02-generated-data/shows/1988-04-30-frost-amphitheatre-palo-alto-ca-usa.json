@@ -162,12 +162,33 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:00:57.442078",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/04/12151935/b880430.jpeg",
+      "filename": "b880430.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/04/12151130/t880430.jpeg",
+      "filename": "t880430.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/04/12145957/GD_1988_04_30_Robbi_Cohn1_Small.jpg",
+      "filename": "GD_1988_04_30_Robbi_Cohn1_Small.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/04/12145957/GD_1988_04_30_Robbi_Cohn1_Small-360x360.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
-    "gd88-04-30.matrix.lemon2.4664.sbeok.shnf",
     "gd88-04-30.prefm.lai.3394.sbeok.shnf",
     "gd1988-04-30.141889.UltraMatrix.cm.sbd.miller.flac1644",
     "gd1988-04-30.141865.sbd.miller.flac2496",
+    "gd88-04-30.matrix.lemon2.4664.sbeok.shnf",
     "gd1988-04-30.aud.mckeown.7727.shnf",
     "gd1988-04-30.141810.FOB.NAK.Anon.Noel.t-flac2496",
     "gd1988-04-30.145595.fob.nak700.anon.noel.t-flac16",
@@ -177,17 +198,19 @@
     "gd1988-04-30.164175.nak700.wagner.miller.clugston.flac2496",
     "gd1988-04-30.ec7.bowen.118630.flac16"
   ],
-  "best_recording": "gd88-04-30.matrix.lemon2.4664.sbeok.shnf",
-  "avg_rating": 2.842879417879418,
+  "best_recording": "gd88-04-30.prefm.lai.3394.sbeok.shnf",
+  "avg_rating": 2.7706034706034703,
   "raw_rating": 4.15158371040724,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 28,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
-    "AUD": 3,
-    "UNKNOWN": 5
+    "FM": 1,
+    "SBD": 2,
+    "MATRIX": 1,
+    "AUD": 5,
+    "UNKNOWN": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

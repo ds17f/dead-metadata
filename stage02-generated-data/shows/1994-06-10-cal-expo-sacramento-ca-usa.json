@@ -152,21 +152,41 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:16:55.640109",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/2024/07/24164135/Grateful-Dead-mail-order-concert-ticket-June-10-1994.jpg",
+      "filename": "Grateful-Dead-mail-order-concert-ticket-June-10-1994.jpg",
+      "side": "unknown"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/06/12151742/b940610.jpeg",
+      "filename": "b940610.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/06/12150857/t940610.jpeg",
+      "filename": "t940610.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd94-06-10.neumann.ladner.10067.sbeok.shnf",
     "gd1994-06-10.141214.FOB.Schoeps.Clark.Miller.Noel.t-flac1648"
   ],
   "best_recording": "gd94-06-10.neumann.ladner.10067.sbeok.shnf",
-  "avg_rating": 2.0123893805309736,
+  "avg_rating": 1.961194029850746,
   "raw_rating": 4.092307692307692,
   "recording_count": 2,
   "confidence": 1.0,
   "total_high_ratings": 9,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 1,
-    "UNKNOWN": 1
+    "UNKNOWN": 1,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

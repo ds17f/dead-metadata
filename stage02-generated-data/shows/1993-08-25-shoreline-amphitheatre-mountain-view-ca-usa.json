@@ -152,6 +152,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:14:21.767621",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/08/12151757/b930825.jpeg",
+      "filename": "b930825.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/08/12150922/t930825.jpeg",
+      "filename": "t930825.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd93-08-25.sbd.wiley.11812.sbeok.shnf",
@@ -170,7 +185,8 @@
   "source_types": {
     "SBD": 2,
     "MATRIX": 1,
-    "UNKNOWN": 2
+    "UNKNOWN": 1,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -157,26 +157,36 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:36:26.281099",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151514/t780830.jpg",
+      "filename": "t780830.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1978-08-30.s2.sbd.miller.110151.flac16",
-    "gd78-08-30.aud.wiley.11479.sbeok.shnf",
     "gd78-08-30.set2-sbd.barbella.8038.sbeok.shnf",
+    "gd78-08-30.aud.wiley.11479.sbeok.shnf",
     "gd1978-08-30.145135.sony.ecm270.nak301.severson.miller.clugston.flac1648",
     "gd1978-08-30.145136.sony.ecm270.nak301.severson.miller.clugston.flac2496",
     "gd1978-08-30.158131.aud-partial.hicks-fong.flac2448"
   ],
   "best_recording": "gd1978-08-30.s2.sbd.miller.110151.flac16",
-  "avg_rating": 2.3337878787878785,
+  "avg_rating": 2.3412909090909095,
   "raw_rating": 3.7863636363636366,
   "recording_count": 6,
   "confidence": 1.0,
   "total_high_ratings": 23,
   "total_low_ratings": 5,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 2,
-    "AUD": 1
+    "SBD": 2,
+    "AUD": 2,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -162,15 +162,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:01:15.340444",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/06/12151933/b880628.jpeg",
+      "filename": "b880628.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1988/06/12151127/t880628.jpeg",
+      "filename": "t880628.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd88-06-28.fm-matrix.braverman.17956.sbeok.shnf",
-    "gd1988-06-28.sbd.skankweed.7802.shnf",
     "gd1988-06-28.fm-mtx.braverman.12187.sbeok.shnf",
     "gd1988-06-28.pre-fm.connor.7831.sbeok.shnf",
+    "gd1988-06-28.sbd.skankweed.7802.shnf",
     "gd1988-06-28.sbd.130781.MrBill.flac16",
     "gd1988-06-28.134530.sbd.miller.flac16",
     "gd1988-06-28.134529.sbd.miller.flac24",
+    "gd88-06-28.fm-matrix.braverman.17956.sbeok.shnf",
     "gd1988-06-28.110953.akg463.ackerman.Taraszki.flac16",
     "gd1988-06-28.132523.Nak100CP4.Seremetcc.Keo.Flac2496",
     "gd1988-06-28.132524.Nak100CP4.Seremetcc.Keo.Flac1644",
@@ -181,15 +196,17 @@
     "gd1988-06-28.Nak300Nak100.Fitzy.Keo.130426.Flac1644",
     "gd1988-06-28.Nak300Nak100.Fitzy.Keo.130427.Flac2496"
   ],
-  "best_recording": "gd88-06-28.fm-matrix.braverman.17956.sbeok.shnf",
-  "avg_rating": 2.071660305343512,
-  "raw_rating": 3.988888888888889,
+  "best_recording": "gd1988-06-28.fm-mtx.braverman.12187.sbeok.shnf",
+  "avg_rating": 2.082244897959183,
+  "raw_rating": 3.9888888888888885,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 46,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 7,
+    "FM": 2,
+    "SBD": 4,
+    "MATRIX": 1,
     "UNKNOWN": 9
   },
   "matching_method": "date_only",

@@ -164,23 +164,37 @@
     "Edie Brickell & The New Bohemians"
   ],
   "collection_timestamp": "2025-08-10T09:06:30.770909",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/07/12151859/b900714.jpeg",
+      "filename": "b900714.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/07/12151039/t900714.jpeg",
+      "filename": "t900714.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd90-07-14.sbd.georges.463.sbeok.shnf",
-    "gd1990-07-14.beyer160.lenihan.15508.sbeok.shnf",
     "gd1990-07-14.sbd.miller.106403.flac16",
     "gd1990-07-14.sbd.miller.106404.flac24",
     "gd1990-07-14.sbd.unknown.84979.shnf",
     "gd1990-07-14.sbd.unknown.31950.shnf",
     "gd1990-07-14.sbd.goetz.17816.shnf",
-    "gd1990-07-14.aud.gastwirt.sirmick.gems.79750.sbeok.flac1648",
     "gd1990-07-14.158052.UltraMatrix.sbd.cm.miller.t.flac1644",
-    "gd1990-07-14.nak300.bleich-sirmick.111133.sbeok.flac16",
     "gd1990-07-14.152771.mtx.tobin.flac16",
     "gd1990-07-14.128386.mtx.nicksmix.flac2496",
     "gd1990-07-14.128385.mtx.nicksmix.flac16",
     "gd1990-07-14.141748.FOB.MTX.photoLeon.t-flac1644",
     "gd1990-07-14.157717.ultramatrix.miller.flac2496",
+    "gd1990-07-14.beyer160.lenihan.15508.sbeok.shnf",
+    "gd1990-07-14.aud.gastwirt.sirmick.gems.79750.sbeok.flac1648",
     "gd1990-07-14.152773.5-1.tobin.flac1648",
     "gd1990-07-14.AKG451.Currier.Keo.121510.Flac2496",
     "gd1990-07-14.133966.akg414btl-fob-dantepper.flac16",
@@ -194,19 +208,21 @@
     "gd1990-07-14.152772.dts.tobin.flac16",
     "gd1990-07-14.AKG451.Currier.Keo.121511.Flac1644",
     "gd1990-07-14.Nak100sSenn421.Hill.Keo.130834.Flac1644",
+    "gd1990-07-14.nak300.bleich-sirmick.111133.sbeok.flac16",
     "gd1990-07-14.nak300.holtz.GEMS.92772.flac16"
   ],
   "best_recording": "gd90-07-14.sbd.georges.463.sbeok.shnf",
-  "avg_rating": 3.1805788982259573,
+  "avg_rating": 3.2649066847641666,
   "raw_rating": 4.040431266846361,
   "recording_count": 29,
   "confidence": 1.0,
   "total_high_ratings": 40,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 10,
+    "SBD": 7,
     "MATRIX": 5,
-    "UNKNOWN": 14
+    "UNKNOWN": 14,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

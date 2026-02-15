@@ -167,17 +167,32 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:04:35.325843",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151912/b891008.jpeg",
+      "filename": "b891008.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/10/12151058/t891008.jpeg",
+      "filename": "t891008.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-10-08.sbd.bertha-ashley.25261.sbeok.shnf",
     "gd89-10-08.sbd.unknown.8365.sbeok.shnf",
     "gd1989-10-08.sbd.walker-scotton.miller.81532.sbeok.flac16",
-    "gd89-10-08.fob-schoeps.nawrocki.439.sbeok.shnf",
     "gd1989-10-08.sbd.carr.17732.shnf",
     "gd1989-10-08.sbd.hinko.32427.sbeok.flac16",
     "gd1989-10-08.147605.sbd.miller.flac24",
     "gd1989-10-08.147651.UltraMatrix.sbd.cm.miller.flac16",
     "gd1989-10-08.mtx.hansokolow.96442.flac16",
+    "gd89-10-08.fob-schoeps.nawrocki.439.sbeok.shnf",
     "gd1989-10-08.nak304.carpenter.89508.flac16",
     "gd1989-10-08.120376.Nak300sSenn421.AlabamaBob.Currier.Keo.Flac2496",
     "gd1989-10-08.120377.Nak300sSenn421.AlabamaBob.Currier.Keo.Flac1644",
@@ -186,16 +201,17 @@
     "gd1989-10-08.167628.akg.c522.hessberg.miller.clugston.flac2496"
   ],
   "best_recording": "gd89-10-08.sbd.bertha-ashley.25261.sbeok.shnf",
-  "avg_rating": 4.172204081632653,
+  "avg_rating": 4.277878787878787,
   "raw_rating": 4.654545454545454,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 51,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 8,
+    "SBD": 7,
     "MATRIX": 1,
-    "UNKNOWN": 6
+    "UNKNOWN": 6,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

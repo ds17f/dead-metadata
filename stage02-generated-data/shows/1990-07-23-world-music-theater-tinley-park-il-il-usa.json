@@ -152,6 +152,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:06:44.782073",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/07/12151857/b900723.jpeg",
+      "filename": "b900723.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/07/12151037/t900723.jpeg",
+      "filename": "t900723.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1990-07-23.sbd.clugston.7835.sbeok.shnf",
@@ -175,7 +190,7 @@
     "gd1990-07-23.Nak100sSenn421.Hill.Keo.131407.Flac2496"
   ],
   "best_recording": "gd1990-07-23.sbd.clugston.7835.sbeok.shnf",
-  "avg_rating": 3.624382093778221,
+  "avg_rating": 3.6150288496652445,
   "raw_rating": 3.7928556285774855,
   "recording_count": 19,
   "confidence": 1.0,
@@ -184,12 +199,9 @@
   "source_types": {
     "SBD": 8,
     "MATRIX": 1,
-    "AUD": 1,
-    "UNKNOWN": 9
+    "AUD": 3,
+    "UNKNOWN": 7
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "all-acoustic-shows"
-  ]
+  "filtering_applied": []
 }

@@ -162,11 +162,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:48:21.981265",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151341/t830325.jpg",
+      "filename": "t830325.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd83-03-25.sbd.miller.23572.sbeok.shnf",
-    "gd83-03-25.fob-senn.willy.7350.sbeok.shnf",
     "gd1983-03-25.148801.sbd.clugston.flac16",
+    "gd83-03-25.fob-senn.willy.7350.sbeok.shnf",
     "gd1983-03-25.139596.fob.senn421.pcm.miller.clugston.flac16",
     "gd1983-03-25.134371.nak300.schley.flac1644",
     "gd1983-03-25.134370.nak300.schley.flac2448",
@@ -178,15 +188,16 @@
     "gd1983-03-25.167107.nak700.kelley.miller.clugston.flac2496"
   ],
   "best_recording": "gd83-03-25.sbd.miller.23572.sbeok.shnf",
-  "avg_rating": 2.242454728370222,
+  "avg_rating": 2.3844404003639674,
   "raw_rating": 3.8857142857142857,
   "recording_count": 12,
   "confidence": 1.0,
   "total_high_ratings": 15,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 3,
-    "UNKNOWN": 9
+    "SBD": 2,
+    "UNKNOWN": 9,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -162,6 +162,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:04:10.798054",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/07/12151915/b890718.jpeg",
+      "filename": "b890718.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1989/07/12151101/t890718.jpeg",
+      "filename": "t890718.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd89-07-18.sbd.9854.sbeok.shnf",
@@ -169,7 +184,6 @@
     "gd1989-07-18.sbd.brantley.28474.sbeok.shnf",
     "gd1989-07-18.138479.sbd.miller.flac24",
     "gd1989-07-18.138496.ultra.matrix.sbd.miller.flac16",
-    "gd1989-07-18.nak.cohen-lee.106720.sbeok.flac16",
     "gd1989-07-18.mtx.hansokolow.96231.flac16",
     "gd1989-07-18.senn441.coniff.gmb.92430.flac16",
     "gd1989-07-18.nak300.holtz.jaz.106491.flac16",
@@ -177,7 +191,8 @@
     "gd1989-07-18.142298.Lawn.Schoeps.Mattes.Miller.Noel.t-flac1648",
     "gd1989-07-18.147567.beyerCM101.ebel.flac2496",
     "gd1989-07-18.Nak300CP4.Baker.Keo.125510.Flac2496",
-    "gd1989-07-18.Nak300CP4.Baker.Keo.125511.Flac1644"
+    "gd1989-07-18.Nak300CP4.Baker.Keo.125511.Flac1644",
+    "gd1989-07-18.nak.cohen-lee.106720.sbeok.flac16"
   ],
   "best_recording": "gd89-07-18.sbd.9854.sbeok.shnf",
   "avg_rating": 4.229837806637807,
@@ -187,9 +202,9 @@
   "total_high_ratings": 56,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 6,
+    "SBD": 5,
     "MATRIX": 1,
-    "UNKNOWN": 7
+    "UNKNOWN": 8
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -177,22 +177,36 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:53:36.640981",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152025/b850408.jpg",
+      "filename": "b850408.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151247/t850408.jpg",
+      "filename": "t850408.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-04-08.sbd.gills.20010.sbeok.shnf",
     "gd85-04-08.sbd.wiley.8755.sbeok.shnf",
-    "gd85-04-08.oade-schoeps.sacks.24227.sbeok.flacf",
-    "gd85-04-08.schoeps.yuda.3420.sbeok.shnf",
     "gd1985-04-08.sbd.miller.118375.flac16",
     "gd1985-04-08.118481.sbd.healy.damico.flac16",
-    "gd1985-04-08.shotgun.bandrofcheck.74161.sbeok.shnf",
-    "gd1985-04-08.nak300.damico.87465.sbeok.flac16",
     "gd1985-04-08.169938.sbd.remaster.gills.miksis.flac1648",
-    "gd1985-04-08.aud.mccue.ford.117189.sbeok.flac16",
     "gd1985-04-08.169970.matrix.miksis.gills.hunt.mattes.clugston.flac1648",
+    "gd85-04-08.oade-schoeps.sacks.24227.sbeok.flacf",
+    "gd85-04-08.schoeps.yuda.3420.sbeok.shnf",
     "gd1985-04-08.nak300.barfield-lane.102065.flac24",
     "gd1985-04-08.Sennheiser421FOB.33804.shnf",
     "gd1985-04-08.beyerm160.d5scott.107045.flac16",
+    "gd1985-04-08.shotgun.bandrofcheck.74161.sbeok.shnf",
+    "gd1985-04-08.nak300.damico.87465.sbeok.flac16",
     "gd1985-04-08.aud.holtz.JAZ.96598.flac16",
     "gd1985-04-08.124854.chasingwilma.flac24",
     "gd1985-04-08.145497.aud.lamarre.berger.flac24",
@@ -205,21 +219,22 @@
     "gd1985-04-08.152174.beyerm88s.holbrook.flac2448",
     "gd1985-04-08.170743.beyer.m160.vita.miller.clugston.flac1648",
     "gd1985-04-08.170744.beyer.m160.vita.miller.clugston.flac2496",
+    "gd1985-04-08.aud.mccue.ford.117189.sbeok.flac16",
     "gd1985-04-08.aud.mccue.ford.117212.flac24",
     "gd1985-04-08.senn421.cohen.103445.flac16"
   ],
   "best_recording": "gd85-04-08.sbd.gills.20010.sbeok.shnf",
-  "avg_rating": 3.3870032573289914,
+  "avg_rating": 3.589744214372716,
   "raw_rating": 4.020833333333334,
   "recording_count": 28,
   "confidence": 1.0,
   "total_high_ratings": 71,
   "total_low_ratings": 12,
   "source_types": {
-    "SBD": 10,
+    "SBD": 5,
     "MATRIX": 1,
-    "UNKNOWN": 13,
-    "AUD": 4
+    "UNKNOWN": 17,
+    "AUD": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

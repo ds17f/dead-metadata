@@ -157,13 +157,27 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:07:17.395056",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/10/12151851/b901022.jpeg",
+      "filename": "b901022.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/10/12151033/t901022.jpeg",
+      "filename": "t901022.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd90-10-22.sbd.gardner.8722.sbeok.shnf",
     "gd90-10-22.dsbd.hinko.22315.sbeok.shnf",
     "gd90-10-22.sbd.fishman.13466.sbeok.shnf",
     "gd1990-10-22.165843.UltraMatrix.sbd.cm.miller.t-flac1644",
-    "gd1990-10-22.nak300.houck-wright.gmb.90745.sbeok.flac16",
     "gd1990-10-22.165451.ultramatrix.miller.flac2496",
     "gd90-10-22.beyer-fob.unknown.12833.sbefail.shnf",
     "gd1990-10-22.Nak300CP4.Floater.Keo.114392.Flac1644",
@@ -173,7 +187,8 @@
     "gd1990-10-22.144926.aud.lamarre.berger.flac16",
     "gd1990-10-22.167568.nak700.blend.vita.miller.clugston.flac1648",
     "gd1990-10-22.167569.nak700.blend.vita.miller.clugston.flac2496",
-    "gd1990-10-22.Nak300CP4.Floater.Keo.114393.Flac2496"
+    "gd1990-10-22.Nak300CP4.Floater.Keo.114393.Flac2496",
+    "gd1990-10-22.nak300.houck-wright.gmb.90745.sbeok.flac16"
   ],
   "best_recording": "gd90-10-22.sbd.gardner.8722.sbeok.shnf",
   "avg_rating": 2.743636363636363,
@@ -183,9 +198,9 @@
   "total_high_ratings": 13,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
+    "SBD": 4,
     "MATRIX": 1,
-    "UNKNOWN": 7,
+    "UNKNOWN": 8,
     "AUD": 2
   },
   "matching_method": "date_only",

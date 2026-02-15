@@ -152,12 +152,26 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:51:18.343108",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152038/b840430.jpg",
+      "filename": "b840430.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151310/t840430.jpg",
+      "filename": "t840430.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
+    "gd1984-04-30.140354.fob.sbd.composite.eaton.miller.clugston.flac1648",
     "gd1984-04-30.senn421.pauline.miller.91165.sbeok.flac16",
     "gd84-04-30.senn.lai.5302.sbeok.shnf",
-    "gd1984-04-30.140354.fob.sbd.composite.eaton.miller.clugston.flac1648",
-    "gd1984-04-30.senn441.koucky.ladner.34687.sbeok.flac16",
     "gd1984-04-30.109497.beyer-senn-daweez.D5scott.flac16",
     "gd1984-04-30.123922.chasingwilma.flac24",
     "gd1984-04-30.149176.mke2002.holbrook.flac1644",
@@ -169,9 +183,10 @@
     "gd1984-04-30.164612.senn441.vita.miller.clugston.flac1648",
     "gd1984-04-30.164613.senn441.vita.miller.clugston.flac2496",
     "gd1984-04-30.167104.neumann.u87.eaton.miller.clugston.flac1648",
-    "gd1984-04-30.167105.neumann.u87.eaton.miller.clugston.flac2496"
+    "gd1984-04-30.167105.neumann.u87.eaton.miller.clugston.flac2496",
+    "gd1984-04-30.senn441.koucky.ladner.34687.sbeok.flac16"
   ],
-  "best_recording": "gd1984-04-30.senn421.pauline.miller.91165.sbeok.flac16",
+  "best_recording": "gd1984-04-30.140354.fob.sbd.composite.eaton.miller.clugston.flac1648",
   "avg_rating": 1.6857142857142857,
   "raw_rating": 4.0,
   "recording_count": 16,
@@ -179,8 +194,8 @@
   "total_high_ratings": 5,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 12
+    "SBD": 1,
+    "UNKNOWN": 15
   },
   "matching_method": "date_only",
   "filtering_applied": []

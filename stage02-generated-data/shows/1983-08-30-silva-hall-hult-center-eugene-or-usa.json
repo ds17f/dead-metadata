@@ -157,14 +157,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:49:38.438686",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152050/b830830.jpg",
+      "filename": "b830830.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151327/t830830a.jpg",
+      "filename": "t830830a.jpg",
+      "side": "front"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151327/t830830b.jpg",
+      "filename": "t830830b.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd83-08-30.sbd.dodd.15110.sbeok.shnf",
-    "gd83-08-30.sennheiser.dodd.12485.sbeok.shnf",
     "gd83-08-30.senn421.nfagdtrfbyahoo.29342.sbefail.flac16",
     "gd1983-08-30.111590.senn.daweez.d5scott.flac16",
     "gd1983-08-30.141488.fob.senn.421.rice.smith.miller.clugston.flac1644",
     "gd1983-08-30.148764.fob.nak700.severson.miller.clugston.flac1648",
+    "gd83-08-30.sennheiser.dodd.12485.sbeok.shnf",
     "gd1983-08-30.141487.fob.senn.421.rice.smith.miller.clugston.flac2496",
     "gd1983-08-30.142996.beyerm201.holbrook.flac1644",
     "gd1983-08-30.142997.beyerm201.holbrook.flac2448",
@@ -178,8 +198,9 @@
   "total_high_ratings": 19,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 2,
-    "UNKNOWN": 8
+    "SBD": 1,
+    "UNKNOWN": 5,
+    "AUD": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

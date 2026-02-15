@@ -152,25 +152,40 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:11:53.517090",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/06/12151816/b920617.jpeg",
+      "filename": "b920617.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1992/06/12150947/t920617.jpeg",
+      "filename": "t920617.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd92-06-17.schoeps.wier.4673.sbeok.shnf",
     "gd1992-06-17.dsbd.miller.32486.sbeok.flac16",
-    "gd1992-06-17.nak300.baker-keo.sirmick.110947.sbeok.flac24",
-    "gd1992-06-17.nak300.baker-keo.sirmick.110948.sbeok.flac16",
+    "gd92-06-17.schoeps.wier.4673.sbeok.shnf",
     "gd1992-06-17.134986.Nak300CP4.Fitzy.Keo.Flac1644",
-    "gd1992-06-17.134987.Nak300CP4.Fitzy.Keo.Flac2496"
+    "gd1992-06-17.134987.Nak300CP4.Fitzy.Keo.Flac2496",
+    "gd1992-06-17.nak300.baker-keo.sirmick.110947.sbeok.flac24",
+    "gd1992-06-17.nak300.baker-keo.sirmick.110948.sbeok.flac16"
   ],
-  "best_recording": "gd92-06-17.schoeps.wier.4673.sbeok.shnf",
-  "avg_rating": 1.8529411764705883,
+  "best_recording": "gd1992-06-17.dsbd.miller.32486.sbeok.flac16",
+  "avg_rating": 1.8366336633663367,
   "raw_rating": 4.0588235294117645,
   "recording_count": 6,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 2
+    "SBD": 1,
+    "UNKNOWN": 5
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -157,16 +157,31 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:51:02.443996",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152040/b840420.jpg",
+      "filename": "b840420.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151313/t840420.jpg",
+      "filename": "t840420.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd84-04-20.sbd.miller.27775.sbeok.flacf",
     "gd1984-04-20.sbd.miller.103432.flac16",
-    "gd84-04-20.senn.fishman.7854.sbeok.shnf",
     "gd84-04-20.sbd.clugston.11873.sbefail.shnf",
-    "gd1984-04-20.senn441.wise.ashley.4769.sbeok.shnf",
     "gd1984-04-20.166578.mtx.seamons.ht165.flac16",
+    "gd84-04-20.senn.fishman.7854.sbeok.shnf",
     "gd1984-04-20.120265.akg.dyche.flac16",
     "gd1984-04-20.109353.beyer-senn-daweez.D5scott.flac16",
+    "gd1984-04-20.senn441.wise.ashley.4769.sbeok.shnf",
     "gd1984-04-20.139156.FOB.Senn.Silberman.Gastwirt.Miller.Noel.t-flac16",
     "gd1984-04-20.149499.beyerm201.holbrook.flac2448",
     "gd1984-04-20.154737.fob.senn441.lamarre.miller.clugston.flac2496",
@@ -185,21 +200,18 @@
     "gd1984-04-20.154736.fob.senn441.lamarre.miller.clugston.flac1648"
   ],
   "best_recording": "gd84-04-20.sbd.miller.27775.sbeok.flacf",
-  "avg_rating": 3.105348006379584,
+  "avg_rating": 3.288355882585647,
   "raw_rating": 4.400318979266348,
   "recording_count": 24,
   "confidence": 1.0,
   "total_high_ratings": 50,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 5,
+    "SBD": 3,
     "MATRIX": 1,
-    "UNKNOWN": 16,
-    "AUD": 2
+    "UNKNOWN": 13,
+    "AUD": 7
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "daves-picks-vol-35"
-  ]
+  "filtering_applied": []
 }

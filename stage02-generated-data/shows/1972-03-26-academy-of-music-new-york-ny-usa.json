@@ -187,25 +187,33 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:24:23.822376",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151624/t720326.jpg",
+      "filename": "t720326.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1972-03-26.133303.sbd.miller.flac16",
-    "gd72-03-26.aud.hanno.15413.sbeok.shnf",
-    "gd1972-03-26.136689.sbd.sirmick.flac1648"
+    "gd1972-03-26.136689.sbd.sirmick.flac1648",
+    "gd72-03-26.aud.hanno.15413.sbeok.shnf"
   ],
   "best_recording": "gd1972-03-26.133303.sbd.miller.flac16",
-  "avg_rating": 3.3473684210526313,
+  "avg_rating": 3.529559748427673,
   "raw_rating": 3.5789473684210527,
   "recording_count": 3,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 5,
   "source_types": {
-    "SBD": 3
+    "SBD": 2,
+    "AUD": 1
   },
   "matching_method": "date_only",
-  "filtering_applied": [],
-  "collections": [
-    "daves-picks-vol-14"
-  ]
+  "filtering_applied": []
 }

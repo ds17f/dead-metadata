@@ -187,13 +187,24 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:47:50.387270",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152055/b820917.jpg",
+      "filename": "b820917.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151346/t820917.jpg",
+      "filename": "t820917.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1982-09-17.sbd.harrison.80770.sbeok.flac16",
-    "gd1982-09-17.aud.wise.91483.sbeok.flac16",
-    "gd82-09-17.nak300.clugston.335.sbeok.shnf",
-    "gd1982-09-17.aud.morris.111030.sbeok.flac24",
-    "gd82-09-17.cohen.minches.18985.sbeok.shnf",
     "gd1982-09-17.167526.sbd.fm.harrison.lemieux.sbeok.flac1644",
     "gd1982-09-17.167532.set2.sbd.harrison-miller.flac1644",
     "gd82-09-17.pset2-sbd.fishman.18105.sbeok.shnf",
@@ -201,9 +212,13 @@
     "gd1982-09-17.152910.mtx.seamons.ht132.flac16",
     "gd1982-09-17.mtx.dts.82184.sbefail.flac16",
     "gd82-09-17.aud.lai.2577.sbefail.shnf",
+    "gd1982-09-17.aud.wise.91483.sbeok.flac16",
+    "gd82-09-17.nak300.clugston.335.sbeok.shnf",
     "gd1982-09-17.nak300.friend.andrewf.99679.flac16",
+    "gd1982-09-17.aud.morris.111030.sbeok.flac24",
     "gd1982-09-17.135445.nak300.schley.flac2448",
     "gd1982-09-17.nak300.friend.andrewf.99678.flac24",
+    "gd82-09-17.cohen.minches.18985.sbeok.shnf",
     "gd1982-09-17.142824.fob.senn421.wise.miller.clugston.flac2496",
     "gd1982-09-17.135446.nak300.schley.flac1644",
     "gd1982-09-17.nak300.chasingwilma.119075.flac16",
@@ -215,17 +230,17 @@
     "gd1982-09-17.fob.nak300.morris.99888.flac16"
   ],
   "best_recording": "gd1982-09-17.sbd.harrison.80770.sbeok.flac16",
-  "avg_rating": 2.8639594356261013,
+  "avg_rating": 2.970662393162393,
   "raw_rating": 4.576388888888889,
   "recording_count": 24,
   "confidence": 1.0,
   "total_high_ratings": 57,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 8,
+    "SBD": 4,
     "MATRIX": 3,
-    "AUD": 3,
-    "UNKNOWN": 10
+    "AUD": 8,
+    "UNKNOWN": 9
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -167,13 +167,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:17:29.137244",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/07/12151737/b940721.jpeg",
+      "filename": "b940721.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/07/12150847/t940721.jpeg",
+      "filename": "t940721.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd94-07-21.sbd.ladner.12322.sbeok.shnf",
-    "gd94-07-21.aud.ladner.12099.sbeok.shnf",
     "gd1994-07-21.sbd.braverman.9406.shnf",
-    "gd1994-07-21.112808.bk.schmit.sbeok.flac16",
+    "gd94-07-21.aud.ladner.12099.sbeok.shnf",
     "gd1994-07-21.aud.unknown.larson.31804.shnf",
+    "gd1994-07-21.112808.bk.schmit.sbeok.flac16",
     "gd1994-07-21.139714.beyercmc101.ebel.flac1644",
     "gd1994-07-21.akg460.flaschner.davis.91155.flac16",
     "gd1994-07-21.fob.shure.unknown.nawrocki.18144.shnf",
@@ -181,15 +196,15 @@
     "gd1994-07-21.nak300.76309.shnf"
   ],
   "best_recording": "gd94-07-21.sbd.ladner.12322.sbeok.shnf",
-  "avg_rating": 2.803636363636363,
+  "avg_rating": 2.83758389261745,
   "raw_rating": 3.6842105263157894,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
-    "AUD": 1,
+    "SBD": 2,
+    "AUD": 3,
     "UNKNOWN": 5
   },
   "matching_method": "date_only",

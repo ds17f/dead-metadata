@@ -182,29 +182,39 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:30:55.829960",
+  "ticket_images_status": "empty",
+  "ticket_images": [],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1974/10/12150038/Winterland-Arena_1974_10_16_Polonsky.png",
+      "filename": "Winterland-Arena_1974_10_16_Polonsky.png",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1974/10/12150038/Winterland-Arena_1974_10_16_Polonsky-360x360.png"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd1974-10-16.sbd.patched.eaton-miller.90145.sbeok.flac16",
     "gd74-10-16.sbd.fishman.12577.sbeok.shnf",
     "gd1974-10-16.sbd.eaton-miller.88251.sbeok.flac16",
     "gd74-10-16.sbd-patched.unknown.222.fails-md5.sbeok.shnf",
-    "gd1974-10-16.137663.set2.aud.smith.sirmick.sbeok.flac16",
-    "gd1974-10-16.137664.set2.aud.smith.sirmick.sbeok.flac24",
     "gd1974-10-16.sbd.miller.88180.sbeok.flac16",
     "gd1974-10-16.131539.mtx.dusborne.flac16",
-    "gd1974-10-16.fob.sonyecm250.falenga.motb-0131.107036.flac16"
+    "gd1974-10-16.fob.sonyecm250.falenga.motb-0131.107036.flac16",
+    "gd1974-10-16.137663.set2.aud.smith.sirmick.sbeok.flac16",
+    "gd1974-10-16.137664.set2.aud.smith.sirmick.sbeok.flac24"
   ],
   "best_recording": "gd1974-10-16.sbd.patched.eaton-miller.90145.sbeok.flac16",
-  "avg_rating": 2.6406971677559916,
+  "avg_rating": 2.6176939203354306,
   "raw_rating": 3.9649122807017543,
   "recording_count": 9,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 7,
+    "SBD": 5,
     "MATRIX": 1,
-    "UNKNOWN": 1
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

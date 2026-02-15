@@ -172,13 +172,33 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:47:19.897281",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152058/b820803.jpg",
+      "filename": "b820803.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152058/b820803b.jpg",
+      "filename": "b820803b.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152100/b820725.jpg",
+      "filename": "b820725.jpg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd82-08-03.sbd.unk.19228.sbeok.shnf",
-    "gd82-08-03.matrix.chappell.30705.sbeok.flacf",
     "gd1982-08-03.sbd.miller.77196.sbeok.flac16",
-    "gd82-08-03.senn-hogan.fink.5984.sbeok.shnf",
     "gd1982-08-03.sbd.unknown.tetzeli.fix-19228.33614.reflac.flac16",
+    "gd82-08-03.matrix.chappell.30705.sbeok.flacf",
+    "gd82-08-03.senn-hogan.fink.5984.sbeok.shnf",
     "gd1982-08-03.121407.set2-akg.flac16",
     "gd1982-08-03.aud.uherarchives.partial.121973.flac24",
     "gd1982-08-03.136587.sen441.schley.flac1644",
@@ -190,16 +210,17 @@
     "gd1982-08-03.167999.senn421.michael.mckenzie.miller.clugston.flac1644"
   ],
   "best_recording": "gd82-08-03.sbd.unk.19228.sbeok.shnf",
-  "avg_rating": 3.756525740796169,
+  "avg_rating": 3.8450376912072186,
   "raw_rating": 4.359247675401521,
   "recording_count": 14,
   "confidence": 1.0,
   "total_high_ratings": 76,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 5,
+    "SBD": 3,
+    "MATRIX": 1,
     "UNKNOWN": 8,
-    "AUD": 1
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

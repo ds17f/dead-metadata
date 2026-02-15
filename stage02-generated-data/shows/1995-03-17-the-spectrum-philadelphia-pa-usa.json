@@ -152,14 +152,29 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:19:13.577793",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/03/12151723/b950317.jpeg",
+      "filename": "b950317.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1995/03/12150826/t950317.jpeg",
+      "filename": "t950317.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1995-03-17.sndchk.fm.toland.1366.shnf",
     "gd1995-03-17.sbd.miller.97658.flac16",
     "gd95-03-17.soundcheck.sbd.17951.sbeok.shnf",
     "gd95-03-17.sbd.16057.sbeok.shnf",
-    "gd95-03-17.schoeps.13400.sbeok.shnf",
     "gd1995-03-17.150765.dsbd.dolphinsmile.flac1648",
+    "gd95-03-17.schoeps.13400.sbeok.shnf",
     "gd1995-03-17.142982.Boedicker.flac1644",
     "gd1995-03-17.141179.FOB-BK4011.ebel.flac1644",
     "gd1995-03-17.141505.OTS.AKG.Ackerman.Miller.Noel.t-flac.1648",
@@ -167,7 +182,7 @@
     "gd1995-03-17.nak300.holtz.jaz.92087.flac16"
   ],
   "best_recording": "gd1995-03-17.sndchk.fm.toland.1366.shnf",
-  "avg_rating": 3.1874755381604696,
+  "avg_rating": 3.337623337623338,
   "raw_rating": 3.551296941540844,
   "recording_count": 11,
   "confidence": 1.0,
@@ -175,8 +190,8 @@
   "total_low_ratings": 6,
   "source_types": {
     "FM": 1,
-    "SBD": 5,
-    "UNKNOWN": 4,
+    "SBD": 4,
+    "UNKNOWN": 5,
     "AUD": 1
   },
   "matching_method": "date_only",

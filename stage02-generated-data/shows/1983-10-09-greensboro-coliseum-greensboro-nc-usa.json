@@ -147,13 +147,23 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:50:06.429726",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152047/b831009.jpg",
+      "filename": "b831009.jpg",
+      "side": "back"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd83-10-09.atm.welch.5077.sbeok.shnf",
     "gd1983-10-09.fob.atm11.chasingwilma.101937.sbeok.flac16",
-    "gd1983-10-09.set-2.fob.senn421.lipton.gmb.89786.sbeok.flac16",
     "gd1983-10-09.120042.aud.chasingwilma.flac24",
     "gd1983-10-09.111240.Sennheiser421daweez.d5scott.flac16",
+    "gd1983-10-09.set-2.fob.senn421.lipton.gmb.89786.sbeok.flac16",
     "gd1983-10-09.120042.chasingwilma.flac24",
     "gd1983-10-09.135283.Unk-Hill.Keo.Flac1644",
     "gd1983-10-09.135284.Unk-Hill.Keo.Flac2496",
@@ -162,16 +172,15 @@
     "gd1983-10-09.143494.beyerm88-graves.flac1648"
   ],
   "best_recording": "gd83-10-09.atm.welch.5077.sbeok.shnf",
-  "avg_rating": 1.8397453703703703,
+  "avg_rating": 1.8182333333333331,
   "raw_rating": 3.9423076923076925,
   "recording_count": 11,
   "confidence": 1.0,
   "total_high_ratings": 18,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 3,
-    "AUD": 1,
-    "UNKNOWN": 7
+    "UNKNOWN": 8,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

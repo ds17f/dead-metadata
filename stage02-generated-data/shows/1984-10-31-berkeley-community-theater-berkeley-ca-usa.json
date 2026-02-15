@@ -167,12 +167,22 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:52:40.608731",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151255/t841031.jpg",
+      "filename": "t841031.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd84-10-31.senn.14947.sbeok.shnf",
     "gd1984-10-31.sbd.walker-scotton.miller.106798.flac16",
     "gd1984-10-31.142494.sbd.patched.flac1648",
     "gd1984-10-31.142422.sbd.miller.flac1648",
+    "gd84-10-31.senn.14947.sbeok.shnf",
     "gd1984-10-31.145614.aud.lamarre.berger.flac16",
     "gd1984-10-31.145613.aud.lamarre.berger.flac24",
     "gd1984-10-31.168289.senn441.vita.miller.clugston.flac1648",
@@ -180,17 +190,17 @@
     "gd1984-10-31.169040.senn441.vita.miller.clugston.new.flac1648",
     "gd1984-10-31.169041.senn441.vita.miller.clugston.new.flac2496"
   ],
-  "best_recording": "gd84-10-31.senn.14947.sbeok.shnf",
-  "avg_rating": 2.1685110663983904,
+  "best_recording": "gd1984-10-31.sbd.walker-scotton.miller.106798.flac16",
+  "avg_rating": 2.276239067055394,
   "raw_rating": 3.7142857142857144,
   "recording_count": 10,
   "confidence": 1.0,
   "total_high_ratings": 8,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
-    "AUD": 2,
-    "UNKNOWN": 4
+    "SBD": 3,
+    "UNKNOWN": 5,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

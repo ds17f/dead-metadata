@@ -152,6 +152,21 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:08:33.337733",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/04/12151840/b910407.jpeg",
+      "filename": "b910407.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1991/04/12151017/t910407.jpeg",
+      "filename": "t910407.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1991-04-07.sbd.31953.sbeok.shnf",
@@ -160,27 +175,27 @@
     "gd1991-04-07.149563.sbd.miller.flac2496",
     "gd1991-04-07.149622.sbd.cm.miller.flac16",
     "gd1991-04-07.sbd.zei.2022.shnf",
-    "gd1991-04-07.senn.unknown.33337.sbeok.flac1648",
     "gd1991-04-07.137080.set1.sbd.miller.flac24",
     "gd1991-04-07.150455.s2.mtx.seamons.flac16",
     "gd1991-04-07.150456.mtx.seamons.ht121.flac16",
+    "gd1991-04-07.senn.unknown.33337.sbeok.flac1648",
     "gd1991-04-07.149826.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648",
     "gd1991-04-07.138128.SchoepsCMC34.Neumann.KM54.Vasseur.Ammons.t-flac16",
     "gd1991-04-07.143388.km86.dalton.miller.sirmick.flac1648",
     "gd1991-04-07.aud.Holtz.Naks.115109.flac16"
   ],
   "best_recording": "gd1991-04-07.sbd.31953.sbeok.shnf",
-  "avg_rating": 3.7010156249999997,
+  "avg_rating": 3.7411624203821656,
   "raw_rating": 4.229166666666667,
   "recording_count": 14,
   "confidence": 1.0,
   "total_high_ratings": 28,
   "total_low_ratings": 0,
   "source_types": {
-    "SBD": 8,
+    "SBD": 7,
     "MATRIX": 2,
     "UNKNOWN": 3,
-    "AUD": 1
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

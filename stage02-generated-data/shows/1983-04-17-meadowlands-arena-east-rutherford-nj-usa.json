@@ -182,24 +182,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:48:46.863602",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151337/t830417.jpg",
+      "filename": "t830417.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd83-04-17.sbd.fink.14941.sbeok.shnf",
-    "gd83-04-17.rolfe.weiner.7317.sbeok.shnf",
     "gd1983-04-17.132876.SBD.Keo.Flac1644",
     "gd1983-04-17.140357.sbd.eaton.miller.clugston.flac1648",
-    "gd83-04-17.aud-miller.set1.23852.sbeok.shnf",
     "gd1983-04-17.137398.sbd.msc.happyjack.flac24",
     "gd1983-04-17.137399.sbd.msc.happyjack.flac16",
     "gd1983-04-17.138602.sbd.set2.Gastwirt.Miller.Noel.t-flac16",
     "gd1983-04-17.169109.sbd.brightman.miller.flac2448",
     "gd1983-04-17.169154.E.Rutherford.NJ.sbd.brightman.miller.t-flac1644",
     "gd1983-04-17.138277.mtx.dusborne.flac16",
+    "gd83-04-17.rolfe.weiner.7317.sbeok.shnf",
     "gd1983-04-17.120026.aud.chasingwilma.flac24",
     "gd1983-04-17.117500.Sennheiser421.daweez.d5scott.flac16",
     "gd1983-04-17.127256.recoton.gagen.ford.flac16",
     "gd1983-04-17.120026.chasingwilma.flac24",
     "gd1983-04-17.162894.senn421.vita.miller.clugston.flac2496",
+    "gd83-04-17.aud-miller.set1.23852.sbeok.shnf",
     "gd1983-04-17.137377.set1.m160.miller.flac24",
     "gd1983-04-17.137378.set1.m160.miller.flac16",
     "gd1983-04-17.141682.beyerm201-pinney-holbrook.flac1644",
@@ -211,17 +221,17 @@
     "gd1983-04-17.167344.senn441.lamarre.miller.clugston.flac2496_202404"
   ],
   "best_recording": "gd83-04-17.sbd.fink.14941.sbeok.shnf",
-  "avg_rating": 3.021995262801714,
+  "avg_rating": 3.1292120362106326,
   "raw_rating": 4.0460151802656545,
   "recording_count": 25,
   "confidence": 1.0,
   "total_high_ratings": 47,
   "total_low_ratings": 5,
   "source_types": {
-    "SBD": 10,
+    "SBD": 8,
     "MATRIX": 1,
-    "AUD": 1,
-    "UNKNOWN": 13
+    "UNKNOWN": 13,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

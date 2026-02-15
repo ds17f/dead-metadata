@@ -222,19 +222,34 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:42:38.506081",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152119/b801025.jpg",
+      "filename": "b801025.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151430/t801025.jpg",
+      "filename": "t801025.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1980-10-25.120163.fob-nak700.gatto-jaeger.dan.flac16",
+    "gd1980-10-25.nak700.rolfe.miller.93804.sbeok.flac16",
     "gd1980-10-25.157769.ToLayMeDown.t.flac1644",
-    "gd1980-10-25.fob.sonyecm280.wise.miller.102405.flac16",
     "gd1980-10-25.nak300.morrone.friend.116768.flac2448",
     "gd1980-10-25.nak300.morrone.friend.116769.1644",
-    "gd1980-10-25.nak700.rolfe.miller.93804.sbeok.flac16",
     "gd1980-10-25.150759.sbd.miller.flac2496",
-    "gd80-10-25.aud.wiley.8726.sbefail.shnf"
+    "gd80-10-25.aud.wiley.8726.sbefail.shnf",
+    "gd1980-10-25.fob.sonyecm280.wise.miller.102405.flac16"
   ],
   "best_recording": "gd1980-10-25.120163.fob-nak700.gatto-jaeger.dan.flac16",
-  "avg_rating": 1.9631849315068495,
+  "avg_rating": 1.9428333333333332,
   "raw_rating": 4.138888888888889,
   "recording_count": 8,
   "confidence": 0.9,
@@ -242,8 +257,8 @@
   "total_low_ratings": 0,
   "source_types": {
     "FM": 5,
-    "SBD": 2,
-    "AUD": 1
+    "SBD": 1,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

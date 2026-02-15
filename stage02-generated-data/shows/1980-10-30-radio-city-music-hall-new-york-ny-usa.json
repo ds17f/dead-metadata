@@ -202,15 +202,30 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:42:45.926695",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152117/b801030.jpg",
+      "filename": "b801030.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151429/t801030.jpg",
+      "filename": "t801030.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd1980-10-30.fob.sonyecm280.wise.miller.101427.flac16",
-    "gd1980-10-30.120537.nak70.gatto-jaeger.dusborne.flac16",
     "gd80-10-30.wise.larson.1954.sbeok.shnf",
-    "gd1980-10-30.139599.sbd.bershaw.flac16"
+    "gd1980-10-30.120537.nak70.gatto-jaeger.dusborne.flac16",
+    "gd1980-10-30.139599.sbd.bershaw.flac16",
+    "gd1980-10-30.fob.sonyecm280.wise.miller.101427.flac16"
   ],
-  "best_recording": "gd1980-10-30.fob.sonyecm280.wise.miller.101427.flac16",
-  "avg_rating": 2.58015873015873,
+  "best_recording": "gd80-10-30.wise.larson.1954.sbeok.shnf",
+  "avg_rating": 2.612790697674419,
   "raw_rating": 4.525,
   "recording_count": 4,
   "confidence": 1.0,
@@ -218,7 +233,8 @@
   "total_low_ratings": 0,
   "source_types": {
     "FM": 2,
-    "SBD": 2
+    "SBD": 1,
+    "AUD": 1
   },
   "matching_method": "date_only",
   "filtering_applied": []

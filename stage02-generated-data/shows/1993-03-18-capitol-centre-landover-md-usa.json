@@ -167,10 +167,25 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:12:57.267914",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151807/b930318.jpeg",
+      "filename": "b930318.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1993/03/12150936/t930318.jpeg",
+      "filename": "t930318.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd93-03-18.ST250.ladner.16814.sbeok.shnf",
     "gd1993-03-18.dsbd.miller.79070.sbeok.flac16",
+    "gd93-03-18.ST250.ladner.16814.sbeok.shnf",
     "gd1993-03-18.118320.naks.Boedicker.flac16",
     "gd1993-03-18.139673.fob.schoeps.wise.clugston.flac1648",
     "gd1993-03-18.167405.nak304.barnum.miller.goldey.flac1644",
@@ -178,16 +193,17 @@
     "gd1993-03-18.fob.schoeps.byron.dauria.106322.flac16",
     "gd1993-03-18.fob.schoeps.unknown.larson.28659.shnf"
   ],
-  "best_recording": "gd93-03-18.ST250.ladner.16814.sbeok.shnf",
-  "avg_rating": 1.8345588235294117,
+  "best_recording": "gd1993-03-18.dsbd.miller.79070.sbeok.flac16",
+  "avg_rating": 1.790805785123967,
   "raw_rating": 3.6691176470588234,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 11,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 2,
-    "UNKNOWN": 6
+    "SBD": 1,
+    "UNKNOWN": 4,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

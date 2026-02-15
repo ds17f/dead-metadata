@@ -167,28 +167,48 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:54:32.208572",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152017/b850910.jpg",
+      "filename": "b850910.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151235/t850910.jpg",
+      "filename": "t850910.jpg",
+      "side": "front"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151234/t850910b.jpg",
+      "filename": "t850910b.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd85-09-10.sbd.harrison.10092.sbeok.shnf",
-    "gd1985-09-10.set1.akgCE5.connor.77198.sbeok.flac16",
     "gd1985-09-10.sbd.miller.77361.sbeok.flac16",
     "gd1985-09-10.sbd.walker-scotton.miller.105881.flac16",
+    "gd1985-09-10.set1.akgCE5.connor.77198.sbeok.flac16",
     "gd1985-09-10.142793.aud.bryant.miller.sirmick.flac2496",
     "gd1985-09-10.Senn421.Darby.118374.Flac1644",
     "gd1985-09-10.145456.aud.bryant.miller.sirmick.flac16",
     "gd1985-09-10.Senn421.Darby.118373.Flac2448"
   ],
   "best_recording": "gd85-09-10.sbd.harrison.10092.sbeok.shnf",
-  "avg_rating": 2.4292307692307697,
+  "avg_rating": 2.5707843137254907,
   "raw_rating": 3.462962962962963,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 8,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
-    "AUD": 2,
-    "UNKNOWN": 2
+    "SBD": 3,
+    "UNKNOWN": 3,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

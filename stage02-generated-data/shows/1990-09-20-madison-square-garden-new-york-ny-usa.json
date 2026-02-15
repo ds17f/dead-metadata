@@ -167,42 +167,63 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:07:06.779551",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/09/12151853/b900920.jpeg",
+      "filename": "b900920.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/09/12151035/t900920.jpeg",
+      "filename": "t900920.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "found",
+  "photos": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/09/12152301/19900914.jpg",
+      "filename": "19900914.jpg",
+      "thumbnail_url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/09/12152301/19900914.jpg"
+    }
+  ],
   "show_time": null,
   "recordings": [
     "gd90-09-20.sbd.miller.12111.sbeok.shnf",
     "gd90-09-20.sbd.ashley.14855.sbeok.shnf",
-    "gd1990-09-20.bk4011.tdarian.french.88970.sbeok.flac16",
     "gd1990-09-20.sbd.miller.28691.sbeok.shnf",
-    "gd1990-09-20.schoepsmk4.bratman.9989.sbeok.shnf",
     "gd1990-09-20.sbd.miller.108849.flac16",
     "gd1990-09-20.sbd.eichinger.465.sbeok.shnf",
     "gd1990-09-20.sbd.miller.tetzeli.28691-fix.34629.sbeok.shnf",
-    "gd1990-09-20.schoeps.wiley.11633.sbeok.shnf",
-    "gd1990-09-20.mtx.dan.30868.sbeok.shnf",
-    "gd1990-09-20.dts.dan.31773.sbeok.flac16",
     "gd1990-09-20.156488.UltraMatrix.sbd.cm.miller.t.flac1644",
     "gd1990-09-20.138036.mtx.photoleon.flac16",
     "gd1990-09-20.152739.mtx.seamons.ht131.flac16",
+    "gd1990-09-20.mtx.dan.30868.sbeok.shnf",
+    "gd1990-09-20.bk4011.tdarian.french.88970.sbeok.flac16",
     "gd1990-09-20.150546.remaster.149578.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t.flac1648",
     "gd1990-09-20.AT835B.laurentus.96918.flac16",
+    "gd1990-09-20.schoepsmk4.bratman.9989.sbeok.shnf",
     "gd1990-09-20.149578.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648",
+    "gd1990-09-20.schoeps.wiley.11633.sbeok.shnf",
     "gd1990-09-20.141168.OTS.AKG.Ackerman.Miller.Noel.t-flac1648",
+    "gd1990-09-20.dts.dan.31773.sbeok.flac16",
     "gd1990-09-20.132709.cmc34.fob.katzeff.deal.petty.flac16",
     "gd1990-09-20.150669.nak300.boedicker.flac1644",
     "gd1990-09-20.156442.ultramtrix.miller.flac2496"
   ],
   "best_recording": "gd90-09-20.sbd.miller.12111.sbeok.shnf",
-  "avg_rating": 4.021185936443542,
+  "avg_rating": 4.167514560279557,
   "raw_rating": 4.664884135472371,
   "recording_count": 21,
   "confidence": 1.0,
   "total_high_ratings": 92,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 12,
-    "MATRIX": 2,
-    "REMASTER": 1,
-    "UNKNOWN": 6
+    "SBD": 7,
+    "MATRIX": 3,
+    "UNKNOWN": 8,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

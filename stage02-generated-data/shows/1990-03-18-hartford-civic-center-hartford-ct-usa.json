@@ -167,17 +167,32 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:05:33.496547",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12151905/b900318.jpeg",
+      "filename": "b900318.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/03/12151047/t900318.jpeg",
+      "filename": "t900318.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd90-03-18.sbd.huck.9364.sbeok.shnf",
     "gd1990-03-18.sbd.miller.90486.sbeok.flac16",
     "gd1990-03-18.139225.sbd.miller.truck-mix.flac",
-    "gd1990-03-18.senn-me80.litzenberger.91358.sbeok.flac16",
     "gd1990-03-18.149480.ultramatrix.sbd.pearson-healy.miller.flac2496",
     "gd1990-03-18.149785.UltraMatrix.sbd.cm.miller.flac16",
     "gd1990-03-18.mtx.hansokolow.96568.flac16",
     "gd1990-03-18.139667.mtx.photoLeon.LL.t-flac16",
     "gd1990-03-18.171768.mtx.tobin.flac1648",
+    "gd1990-03-18.senn-me80.litzenberger.91358.sbeok.flac16",
     "gd1990-03-18.125607.Nak300s-Senn441s.Fitzy.Keo.Flac2496",
     "gd1990-03-18.125608.Nak300s-Senn441s.Fitzy.Keo.Flac1644",
     "gd1990-03-18.132671.cmc521.deal-petty.flac16",
@@ -189,17 +204,17 @@
     "gd1990-03-18.naks.andrewf.35401.flac16"
   ],
   "best_recording": "gd90-03-18.sbd.huck.9364.sbeok.shnf",
-  "avg_rating": 3.492287234042553,
+  "avg_rating": 3.5774999999999997,
   "raw_rating": 3.9714285714285715,
   "recording_count": 18,
   "confidence": 1.0,
   "total_high_ratings": 17,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 6,
+    "SBD": 5,
     "MATRIX": 3,
-    "UNKNOWN": 8,
-    "REMASTER": 1
+    "UNKNOWN": 7,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

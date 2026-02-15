@@ -177,13 +177,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:56:26.655661",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12152006/b860622.jpg",
+      "filename": "b860622.jpg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151213/t860622.jpg",
+      "filename": "t860622.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd86-06-22.sbd.lai.388.sbefail.shnf",
     "gd1986-06-22.sbd.walker-scotton.miller.81646.flac16",
     "gd86-06-22.beyerM88.connor.30865.sbeok.flacf",
-    "gd86-06-22.neumann-fleck.unknown.7281.sbeok.shnf",
     "gd1986-06-22.schoeps.grace-szvetecz.gems.100204.flac16",
+    "gd86-06-22.neumann-fleck.unknown.7281.sbeok.shnf",
     "gd1986-06-22.AKG460.Darby.117830.Flac2448",
     "gd1986-06-22.AKG460.Darby.117831.Flac1644",
     "gd1986-06-22.138856.akg.damico.flac1644",
@@ -197,16 +212,16 @@
     "gd1986-06-22.156955.pcmsenn.davis-holbrook.flac2448"
   ],
   "best_recording": "gd86-06-22.sbd.lai.388.sbefail.shnf",
-  "avg_rating": 2.7196172248803827,
+  "avg_rating": 2.9175141242937856,
   "raw_rating": 3.5439999999999996,
   "recording_count": 16,
   "confidence": 1.0,
   "total_high_ratings": 16,
   "total_low_ratings": 1,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 10,
-    "AUD": 2
+    "SBD": 2,
+    "UNKNOWN": 11,
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

@@ -167,13 +167,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:17:43.139437",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/07/12151735/b940731.jpeg",
+      "filename": "b940731.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/07/12150844/t940731.jpeg",
+      "filename": "t940731.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd94-07-31.sbd.runyon.2593.sbefail.shnf",
     "gd1994-07-31.113009.GoodBear.DSBD.flac16",
-    "gd1994-07-31.neumann.laporte.91974.sbeok.flac16",
     "gd1994-07-31.sbd.runyon-johnson.2752.sbeok.shnf",
-    "gd1994-07-31.scheops.wklitz.96464.flac16"
+    "gd1994-07-31.scheops.wklitz.96464.flac16",
+    "gd1994-07-31.neumann.laporte.91974.sbeok.flac16"
   ],
   "best_recording": "gd94-07-31.sbd.runyon.2593.sbefail.shnf",
   "avg_rating": 3.4171875,
@@ -183,8 +198,8 @@
   "total_high_ratings": 10,
   "total_low_ratings": 3,
   "source_types": {
-    "SBD": 4,
-    "UNKNOWN": 1
+    "SBD": 3,
+    "UNKNOWN": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []

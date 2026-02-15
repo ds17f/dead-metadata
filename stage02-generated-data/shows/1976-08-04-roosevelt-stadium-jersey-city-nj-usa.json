@@ -177,33 +177,43 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:32:08.197543",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151544/t760804.jpg",
+      "filename": "t760804.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1976-08-04.sbd.berger.99697.flac24",
     "gd1976-08-04.sbd.miller-tobin.35171.flac",
     "gd76-08-04.sbd.cotsman.12830.sbeok.shnf",
-    "gd76-08-04.jones.vernon.12078.sbeok.shnf",
     "gd1976-08-04.sbd.backus.6677.shnf",
     "gd1976-08-04.sbd.berger.99698.flac16",
     "gd1976-08-04.127249.upg-sbd.tobin.flac16",
     "gd1976-08-04.120684.mtx.dusborne.flac16",
     "gd1976-08-04.127240.mtx.tobin.flac16",
+    "gd76-08-04.jones.vernon.12078.sbeok.shnf",
     "gd1976-08-04.127254.dts.tobin.flac16",
     "gd1976-08-04.145268.5-1.tobin.flac1648",
     "gd1976-08-04.152165.aud.petrunis.af.flac2448",
     "gd1976-08-04.upg-aud.tobin.127248.flac16"
   ],
   "best_recording": "gd1976-08-04.sbd.berger.99697.flac24",
-  "avg_rating": 3.814946808510639,
+  "avg_rating": 3.9741735966735976,
   "raw_rating": 4.247844827586207,
   "recording_count": 13,
   "confidence": 1.0,
   "total_high_ratings": 49,
   "total_low_ratings": 4,
   "source_types": {
-    "SBD": 7,
+    "SBD": 6,
     "MATRIX": 2,
-    "UNKNOWN": 2,
+    "UNKNOWN": 3,
     "AUD": 2
   },
   "matching_method": "date_only",

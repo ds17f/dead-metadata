@@ -162,13 +162,28 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:06:21.375456",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/07/12151900/b900704.jpeg",
+      "filename": "b900704.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1990/07/12151041/t900704.jpeg",
+      "filename": "t900704.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd1990-07-04.sbd.miller.tetzeli.fix-26351.81523.sbeok.flac16",
     "gd90-07-04.sbd.miller.26351.sbeok.shnf",
-    "gd90-07-04.akg.ladner.8573.sbeok.shnf",
     "gd1990-07-04.154442.UltraMatrix.sbd.cm.miller.t.flac16",
     "gd1990-07-04.153738.ultramatrix.miller.flac2496",
+    "gd90-07-04.akg.ladner.8573.sbeok.shnf",
     "gd1990-07-04.133536.aud.Holtz.NakCM104.flac2496",
     "gd1990-07-04.AKG451.Darby.117550.Flac1644",
     "gd1990-07-04.AKG451.Darby.117549.Flac2448",
@@ -181,17 +196,17 @@
     "gd1990-07-04.s1.127374.josephsonC640.chuckm.flac16"
   ],
   "best_recording": "gd1990-07-04.sbd.miller.tetzeli.fix-26351.81523.sbeok.flac16",
-  "avg_rating": 3.40579011741683,
+  "avg_rating": 3.5910492801771876,
   "raw_rating": 4.159488272921109,
   "recording_count": 15,
   "confidence": 1.0,
   "total_high_ratings": 53,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 4,
+    "SBD": 3,
     "MATRIX": 1,
-    "AUD": 1,
-    "UNKNOWN": 9
+    "UNKNOWN": 7,
+    "AUD": 4
   },
   "matching_method": "date_only",
   "filtering_applied": []

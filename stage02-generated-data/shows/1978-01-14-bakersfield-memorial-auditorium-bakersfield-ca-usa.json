@@ -147,27 +147,37 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T08:34:58.265241",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1970/01/12151525/t780114.jpg",
+      "filename": "t780114.jpg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
     "gd78-01-14.sbd.vernon.16114.sbeok.shnf",
     "gd1978-01-14.135521.sbd.miller.flac16",
-    "gd1978-01-14.aud.sirmick.88091.sbeok.flac16",
     "gd1978-01-14.135522.sbd.miller.flac24",
-    "gd1978-01-14.aud.unknown.lmpp.99092.sbeok.flac16",
     "gd1978-01-14.mtx.holwein.motb-0121.105811.flac16",
-    "gd1978-01-14.fob.akgd224e.holwein.motb-0117.105758.flac16"
+    "gd1978-01-14.aud.sirmick.88091.sbeok.flac16",
+    "gd1978-01-14.fob.akgd224e.holwein.motb-0117.105758.flac16",
+    "gd1978-01-14.aud.unknown.lmpp.99092.sbeok.flac16"
   ],
   "best_recording": "gd78-01-14.sbd.vernon.16114.sbeok.shnf",
-  "avg_rating": 3.0875308641975305,
+  "avg_rating": 3.099875,
   "raw_rating": 3.789473684210526,
   "recording_count": 7,
   "confidence": 1.0,
   "total_high_ratings": 13,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 5,
+    "SBD": 3,
     "MATRIX": 1,
-    "AUD": 1
+    "AUD": 3
   },
   "matching_method": "date_only",
   "filtering_applied": []

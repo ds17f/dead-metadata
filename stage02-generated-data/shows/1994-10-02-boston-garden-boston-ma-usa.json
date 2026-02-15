@@ -177,10 +177,25 @@
   "supporting_acts_status": "missing",
   "supporting_acts": null,
   "collection_timestamp": "2025-08-10T09:18:07.550323",
+  "ticket_images_status": "found",
+  "ticket_images": [
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/10/12151733/b941002.jpeg",
+      "filename": "b941002.jpeg",
+      "side": "back"
+    },
+    {
+      "url": "https://cdn.jerrygarcia.com/wp-content/uploads/1994/10/12150839/t941002.jpeg",
+      "filename": "t941002.jpeg",
+      "side": "front"
+    }
+  ],
+  "photos_status": "empty",
+  "photos": [],
   "show_time": null,
   "recordings": [
-    "gd94-10-02.pmb.pujol.15111.sbeok.shnf",
     "gd1994-10-02.136875.sbd.miller.flac",
+    "gd94-10-02.pmb.pujol.15111.sbeok.shnf",
     "gd1994-10-02.132486.nak300.andrewf.flac1644",
     "gd1994-10-02.akg460.flaschner.sobel.84028.flac16",
     "gd1994-10-02.140243.FOB.Schoeps.Gastwirt.Miller.Noel.t-flac1648",
@@ -188,16 +203,17 @@
     "gd1994-10-02.154277.sennme88.rogosa.miller.sirmick.flac1648",
     "gd1994-10-02.fob.unknown.georges.10223.shnf"
   ],
-  "best_recording": "gd94-10-02.pmb.pujol.15111.sbeok.shnf",
-  "avg_rating": 1.8483050847457625,
+  "best_recording": "gd1994-10-02.136875.sbd.miller.flac",
+  "avg_rating": 1.861627906976744,
   "raw_rating": 3.5,
   "recording_count": 8,
   "confidence": 1.0,
   "total_high_ratings": 6,
   "total_low_ratings": 2,
   "source_types": {
-    "SBD": 2,
-    "UNKNOWN": 6
+    "SBD": 1,
+    "UNKNOWN": 5,
+    "AUD": 2
   },
   "matching_method": "date_only",
   "filtering_applied": []
