@@ -317,6 +317,10 @@ class CompleteShowCollector:
                 'lineup': None,
                 'supporting_acts_status': None,
                 'supporting_acts': None,
+                'ticket_images_status': None,
+                'ticket_images': None,
+                'photos_status': None,
+                'photos': None,
                 'collection_timestamp': datetime.now().isoformat()
             }
             
@@ -373,7 +377,17 @@ class CompleteShowCollector:
             else:
                 show_data['supporting_acts_status'] = 'found'
                 show_data['supporting_acts'] = supporting_acts
-            
+
+            # Extract ticket images (URLs only — no download during normal flow)
+            ticket_status, tickets = self._extract_ticket_images(soup)
+            show_data['ticket_images_status'] = ticket_status
+            show_data['ticket_images'] = tickets
+
+            # Extract photos (URLs only — no download during normal flow)
+            photos_status, photos = self._extract_photos(soup)
+            show_data['photos_status'] = photos_status
+            show_data['photos'] = photos
+
             # Update collection timestamp
             show_data['collection_timestamp'] = datetime.now().isoformat()
             
@@ -518,7 +532,337 @@ class CompleteShowCollector:
         except Exception as e:
             self.logger.debug(f"Error extracting supporting acts: {e}")
             return None
-    
+
+    def _extract_ticket_images(self, soup: BeautifulSoup) -> Tuple[str, List[Dict]]:
+        """Extract ticket image URLs from the Ticket Archive carousel.
+
+        The site uses <div class="slider has-carousel-tickets"> inside a
+        carousel-container.  Links use rel="ticket_gallery" and point to
+        CDN-hosted images.  Filenames starting with 't' are fronts, 'b'
+        are backs.
+
+        Returns:
+            Tuple of (status, list of ticket dicts).
+            Status is 'found', 'empty', or 'missing'.
+        """
+        try:
+            # Check for "No tickets" message first
+            no_tickets = soup.find('p', class_='no-tickets')
+            if no_tickets:
+                return 'empty', []
+
+            # Primary: find the ticket carousel
+            slider = soup.find('div', class_='has-carousel-tickets')
+            if not slider:
+                # Check if the heading exists at all
+                for h3 in soup.find_all('h3'):
+                    if 'Ticket Archive' in h3.get_text():
+                        return 'empty', []
+                return 'missing', []
+
+            tickets = []
+            for link in slider.find_all('a'):
+                href = link.get('href', '')
+                if not href or 'cdn.jerrygarcia.com' not in href:
+                    continue
+
+                filename = href.split('/')[-1]
+
+                if filename.startswith('t'):
+                    side = 'front'
+                elif filename.startswith('b'):
+                    side = 'back'
+                else:
+                    side = 'unknown'
+
+                tickets.append({
+                    'url': href,
+                    'filename': filename,
+                    'side': side
+                })
+
+            if tickets:
+                return 'found', tickets
+
+            return 'empty', []
+
+        except Exception as e:
+            self.logger.debug(f"Error extracting ticket images: {e}")
+            return 'error', []
+
+    def _extract_photos(self, soup: BeautifulSoup) -> Tuple[str, List[Dict]]:
+        """Extract photo URLs from the Photos carousel.
+
+        The site uses <div class="slider has-carousel"> (without -tickets)
+        inside a carousel-container.  Links use rel="show_images" and have
+        class="fancybox-show".  href is full-size, img src is 360x360
+        thumbnail.
+
+        Returns:
+            Tuple of (status, list of photo dicts).
+            Status is 'found', 'empty', or 'missing'.
+        """
+        try:
+            # Check for "No photos" message first
+            no_photos = soup.find('p', class_='no-photos')
+            if no_photos:
+                return 'empty', []
+
+            # Find the photo carousel — has class "has-carousel" but NOT
+            # "has-carousel-tickets"
+            slider = None
+            for div in soup.find_all('div', class_='has-carousel'):
+                classes = div.get('class', [])
+                if 'has-carousel-tickets' not in classes:
+                    slider = div
+                    break
+
+            if not slider:
+                # Check if the heading exists at all
+                for h3 in soup.find_all('h3'):
+                    if 'Photos' in h3.get_text():
+                        return 'empty', []
+                return 'missing', []
+
+            photos = []
+            for link in slider.find_all('a'):
+                href = link.get('href', '')
+                if not href or 'cdn.jerrygarcia.com' not in href:
+                    continue
+
+                img = link.find('img')
+                thumbnail_url = img.get('src', '') if img else ''
+
+                filename = href.split('/')[-1]
+
+                photo = {
+                    'url': href,
+                    'filename': filename,
+                }
+                if thumbnail_url:
+                    photo['thumbnail_url'] = thumbnail_url
+
+                photos.append(photo)
+
+            if photos:
+                return 'found', photos
+
+            return 'empty', []
+
+        except Exception as e:
+            self.logger.debug(f"Error extracting photos: {e}")
+            return 'error', []
+
+    def _download_image(self, url: str, save_path: Path) -> bool:
+        """Download a single image file with rate limiting.
+
+        Returns True on success, False on failure.
+        """
+        try:
+            if save_path.exists():
+                self.logger.debug(f"Image already exists: {save_path}")
+                return True
+
+            self.rate_limit()
+
+            response = self.session.get(url, timeout=30, stream=True)
+            if response.status_code == 404:
+                self.logger.warning(f"Image not found (404): {url}")
+                return False
+            response.raise_for_status()
+
+            save_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(save_path, 'wb') as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+
+            self.logger.debug(f"Downloaded: {save_path}")
+            return True
+
+        except Exception as e:
+            self.logger.warning(f"Failed to download {url}: {e}")
+            return False
+
+    def collect_images_for_show(self, show_file: Path, download: bool = True) -> Dict[str, Any]:
+        """Process one show: extract ticket and photo URLs, optionally download images.
+
+        Returns dict with results summary.
+        """
+        try:
+            with open(show_file, 'r') as f:
+                show_data = json.load(f)
+        except Exception as e:
+            self.logger.error(f"Failed to read {show_file}: {e}")
+            return {'status': 'error', 'error': str(e)}
+
+        show_id = show_data.get('show_id', show_file.stem)
+
+        # Skip if already collected (unless force)
+        if not self.force_overwrite:
+            if show_data.get('ticket_images_status') and show_data.get('photos_status'):
+                self.logger.debug(f"Skipping {show_id} — images already collected")
+                return {'status': 'skipped'}
+
+        # Fetch the show page
+        show_url = show_data.get('url')
+        if not show_url:
+            self.logger.warning(f"No URL for show {show_id}")
+            return {'status': 'error', 'error': 'no_url'}
+
+        soup = self.fetch_page(show_url, "show_detail")
+        if not soup:
+            self.logger.warning(f"Failed to fetch page for {show_id}")
+            return {'status': 'error', 'error': 'fetch_failed'}
+
+        # Extract ticket and photo data
+        ticket_status, tickets = self._extract_ticket_images(soup)
+        photos_status, photos = self._extract_photos(soup)
+
+        # Update show data
+        show_data['ticket_images_status'] = ticket_status
+        show_data['ticket_images'] = tickets
+        show_data['photos_status'] = photos_status
+        show_data['photos'] = photos
+
+        # Download images if requested
+        tickets_downloaded = 0
+        photos_downloaded = 0
+
+        if download and tickets:
+            ticket_dir = self.output_dir / "tickets" / show_id
+            for ticket in tickets:
+                save_path = ticket_dir / ticket['filename']
+                if self._download_image(ticket['url'], save_path):
+                    tickets_downloaded += 1
+
+        if download and photos:
+            photo_dir = self.output_dir / "photos" / show_id
+            for photo in photos:
+                save_path = photo_dir / photo['filename']
+                if self._download_image(photo['url'], save_path):
+                    photos_downloaded += 1
+
+        # Save updated show data
+        with open(show_file, 'w') as f:
+            json.dump(show_data, f, indent=2)
+
+        result = {
+            'status': 'ok',
+            'ticket_status': ticket_status,
+            'tickets_found': len(tickets),
+            'tickets_downloaded': tickets_downloaded,
+            'photos_status': photos_status,
+            'photos_found': len(photos),
+            'photos_downloaded': photos_downloaded,
+        }
+
+        if tickets or photos:
+            self.logger.info(
+                f"  {show_id}: tickets={len(tickets)} ({ticket_status}), "
+                f"photos={len(photos)} ({photos_status})"
+            )
+
+        return result
+
+    def collect_all_images(self, download: bool = True):
+        """Iterate all show JSON files and collect ticket/photo data.
+
+        Args:
+            download: If True, download image files. If False, only extract URLs.
+        """
+        show_files = sorted(self.shows_dir.glob("*.json"))
+        total = len(show_files)
+
+        if total == 0:
+            self.logger.warning("No show files found")
+            return
+
+        self.logger.info(f"Starting image collection for {total} shows (download={download})")
+
+        stats = {
+            'total': total,
+            'processed': 0,
+            'skipped': 0,
+            'errors': 0,
+            'tickets_found': 0,
+            'tickets_empty': 0,
+            'tickets_missing': 0,
+            'photos_found': 0,
+            'photos_empty': 0,
+            'photos_missing': 0,
+            'total_ticket_images': 0,
+            'total_photo_images': 0,
+            'total_downloaded': 0,
+        }
+
+        start_time = time.time()
+
+        for i, show_file in enumerate(show_files, 1):
+            try:
+                result = self.collect_images_for_show(show_file, download=download)
+
+                if result['status'] == 'skipped':
+                    stats['skipped'] += 1
+                elif result['status'] == 'error':
+                    stats['errors'] += 1
+                else:
+                    stats['processed'] += 1
+
+                    # Ticket stats
+                    ts = result.get('ticket_status', 'missing')
+                    if ts == 'found':
+                        stats['tickets_found'] += 1
+                    elif ts == 'empty':
+                        stats['tickets_empty'] += 1
+                    else:
+                        stats['tickets_missing'] += 1
+
+                    # Photo stats
+                    ps = result.get('photos_status', 'missing')
+                    if ps == 'found':
+                        stats['photos_found'] += 1
+                    elif ps == 'empty':
+                        stats['photos_empty'] += 1
+                    else:
+                        stats['photos_missing'] += 1
+
+                    stats['total_ticket_images'] += result.get('tickets_found', 0)
+                    stats['total_photo_images'] += result.get('photos_found', 0)
+                    stats['total_downloaded'] += (
+                        result.get('tickets_downloaded', 0) +
+                        result.get('photos_downloaded', 0)
+                    )
+
+                # Progress logging every 50 shows
+                if i % 50 == 0 or i == total:
+                    elapsed = time.time() - start_time
+                    rate = i / elapsed * 3600 if elapsed > 0 else 0
+                    self.logger.info(
+                        f"Progress: {i}/{total} shows "
+                        f"({stats['processed']} processed, {stats['skipped']} skipped, "
+                        f"{stats['errors']} errors) — {rate:.0f} shows/hour"
+                    )
+
+            except KeyboardInterrupt:
+                self.logger.info(f"Interrupted at show {i}/{total}")
+                break
+            except Exception as e:
+                self.logger.error(f"Unexpected error on {show_file.name}: {e}")
+                stats['errors'] += 1
+                continue
+
+        # Summary
+        elapsed = time.time() - start_time
+        self.logger.info(f"\nImage collection complete in {elapsed/60:.1f} minutes")
+        self.logger.info(f"  Shows: {stats['processed']} processed, {stats['skipped']} skipped, {stats['errors']} errors")
+        self.logger.info(f"  Tickets: {stats['tickets_found']} found, {stats['tickets_empty']} empty, {stats['tickets_missing']} missing")
+        self.logger.info(f"  Photos: {stats['photos_found']} found, {stats['photos_empty']} empty, {stats['photos_missing']} missing")
+        self.logger.info(f"  Total images: {stats['total_ticket_images']} tickets + {stats['total_photo_images']} photos")
+        if download:
+            self.logger.info(f"  Downloaded: {stats['total_downloaded']} files")
+
+        return stats
+
     def get_total_pages(self, soup: BeautifulSoup) -> int:
         """Extract total number of pages from pagination."""
         try:
@@ -1004,6 +1348,10 @@ def main():
                        help='Fix missing venue data using filename parsing and reference matching')
     parser.add_argument('--fix-venues-dry-run', action='store_true',
                        help='Preview venue fixes without modifying files')
+    parser.add_argument('--collect-images', action='store_true',
+                       help='Collect ticket images and photos for all shows (secondary pass)')
+    parser.add_argument('--images-no-download', action='store_true',
+                       help='With --collect-images, extract URLs only without downloading files')
     parser.add_argument('--verbose', action='store_true',
                        help='Enable verbose logging')
     
@@ -1052,9 +1400,35 @@ def main():
             
             if args.fix_venues_dry_run:
                 print(f"🔄 To apply these changes, run with --fix-venues")
-            
+
             return 0
-            
+
+        elif args.collect_images:
+            # Image collection mode (secondary pass)
+            download = not args.images_no_download
+            mode_label = "with downloads" if download else "URLs only"
+            print(f"🎫 Collecting ticket images and photos ({mode_label})...")
+
+            stats = collector.collect_all_images(download=download)
+
+            print(f"\n✅ Image collection complete!")
+            print(f"📊 Results:")
+            print(f"  Processed: {stats['processed']}")
+            print(f"  Skipped (already done): {stats['skipped']}")
+            print(f"  Errors: {stats['errors']}")
+            print(f"  Tickets: {stats['tickets_found']} shows with tickets, "
+                  f"{stats['total_ticket_images']} images")
+            print(f"  Photos: {stats['photos_found']} shows with photos, "
+                  f"{stats['total_photo_images']} images")
+            if download:
+                print(f"  Downloaded: {stats['total_downloaded']} files")
+            print(f"📁 Output: {args.output_dir}")
+
+            if not download:
+                print(f"🔄 To download images, run without --images-no-download")
+
+            return 0
+
         else:
             # Normal collection mode
             shows = collector.collect_page_range(args.start_page, end_page)

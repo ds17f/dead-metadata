@@ -46,6 +46,8 @@ All development is managed through the Makefile. Key commands:
 ```bash
 make collect-archive-data      # Collect metadata from Archive.org (2-3 hours)
 make collect-jerrygarcia-shows # Collect complete show database from jerrygarcia.com (3-4 hours)
+make collect-show-image-urls   # Extract ticket/photo URLs into show JSON (fast, no downloads)
+make collect-show-image-files  # Download ticket images and photos for all shows
 make generate-recording-ratings# Generate comprehensive recording ratings from cache
 make integrate-shows           # Integrate JG shows with recording ratings
 make process-collections       # Process collections and add to shows
@@ -81,6 +83,11 @@ python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --start-page 50 
 python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --retry-failed --max-retries 5
 python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --fix-venues --verbose
 python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --fix-venues-dry-run
+
+# Ticket image and photo collection (secondary pass for existing shows)
+python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --collect-images --delay 2.0 --verbose
+python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --collect-images --images-no-download  # URLs only
+python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --collect-images --force  # Re-collect all
 ```
 
 ### Legacy Pipeline Commands (Setlist Processing)
@@ -124,6 +131,8 @@ The project doesn't have a traditional test suite. Validation is done through:
 - **Band Lineups**: Member names, instruments, profile images
 - **Supporting Acts**: Opening bands and special guests
 - **Venue Data**: Name, city, state, country with location parsing
+- **Ticket Images**: Ticket archive with front/back classification → `tickets/{show_id}/`
+- **Show Photos**: Concert photos with full-size and thumbnail URLs → `photos/{show_id}/`
 - **Automatic Recovery**: Built-in venue data recovery using filename parsing and reference matching
 
 ### Advanced Error Handling
@@ -152,6 +161,11 @@ python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --retry-failed -
 # Fix missing venue data (automatic after collection, or manual)
 python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --fix-venues
 python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --fix-venues-dry-run
+
+# Collect ticket images and photos (secondary pass)
+make collect-show-image-urls   # URLs only, no file downloads
+make collect-show-image-files  # Full download
+python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --collect-images --images-no-download  # URLs only
 ```
 
 ## Important Implementation Details

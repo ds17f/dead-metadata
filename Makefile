@@ -1,7 +1,7 @@
 # Grateful Dead Archive Data Pipeline
 # Stage-based data collection and processing
 
-.PHONY: help stage01-collect-data stage02-generate-data collect-archive-data collect-jerrygarcia-shows generate-recordings integrate-shows process-collections package-data package-data-versioned package-release package-dev release release-dry-run all clean
+.PHONY: help stage01-collect-data stage02-generate-data collect-archive-data collect-jerrygarcia-shows collect-show-image-urls collect-show-image-files generate-recordings integrate-shows process-collections package-data package-data-versioned package-release package-dev release release-dry-run all clean
 
 # Default help
 help:
@@ -13,6 +13,8 @@ help:
 	@echo ""
 	@echo "  collect-archive-data      - Collect metadata from Archive.org (2-3 hours)"
 	@echo "  collect-jerrygarcia-shows - Collect complete show database from jerrygarcia.com (3-4 hours)"
+	@echo "  collect-show-image-urls  - Extract ticket/photo URLs into show JSON (fast, no downloads)"
+	@echo "  collect-show-image-files - Download ticket images and photos for all shows"
 	@echo "  generate-recordings       - Generate minimal recording data with ratings and enhanced metadata from cache"
 	@echo "  integrate-shows           - Integrate JG shows with recording data"
 	@echo "  process-collections       - Process collections and add to shows"
@@ -37,6 +39,16 @@ collect-jerrygarcia-shows:
 	@echo "This will collect ~2,331 shows from 111 pages (3-4 hours with 2s delay)"
 	python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --start-page 1 --end-page 111 --delay 2.0 --verbose
 	@echo "✅ Jerry Garcia show database collection complete!"
+
+collect-show-image-urls:
+	@echo "🎫 Extracting ticket and photo URLs for all shows (no downloads)..."
+	python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --collect-images --images-no-download --delay 2.0 --verbose
+	@echo "✅ Show image URL extraction complete!"
+
+collect-show-image-files:
+	@echo "🎫 Collecting ticket images and photos for all shows..."
+	python scripts/01-collect-data/collect_jerrygarcia_com_shows.py --collect-images --delay 1.0 --verbose
+	@echo "✅ Show image collection complete!"
 
 # Stage 2a: Minimal Recording Data Generation  
 generate-recordings:
