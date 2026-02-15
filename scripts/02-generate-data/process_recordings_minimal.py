@@ -240,9 +240,20 @@ class MinimalRecordingsProcessor:
                 improved_source_types += 1
             
             # Save minimal recording file
+            recording_dict = processed_recording_to_dict(processed_recording)
+
+            # Merge AI review from stage00 if available
+            ai_review_path = Path("stage00-created-data/ai-reviews/recordings") / f"{processed_recording.identifier}.json"
+            if ai_review_path.exists():
+                try:
+                    with open(ai_review_path) as af:
+                        recording_dict["ai_review"] = json.load(af)
+                except Exception as e:
+                    self.logger.warning(f"Failed to load AI review for {processed_recording.identifier}: {e}")
+
             recording_file = recordings_dir / f"{processed_recording.identifier}.json"
             with open(recording_file, 'w') as f:
-                json.dump(processed_recording_to_dict(processed_recording), f, indent=2)
+                json.dump(recording_dict, f, indent=2)
         
         # Calculate directory statistics
         dir_size = sum(f.stat().st_size for f in recordings_dir.glob("*.json")) / (1024 * 1024)  # MB

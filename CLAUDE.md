@@ -56,7 +56,9 @@ make package-data-versioned    # Create versioned package with auto-detected ver
 make package-release VERSION=2.1.0  # Create release package with specified version  
 make package-dev               # Create development build with commit hash
 make all                       # Run complete pipeline
-make clean                     # Clean generated data
+make clean                     # Clean generated data (preserves stage00 AI reviews)
+make extract-ai-reviews        # Extract AI reviews from stage02 to stage00 (one-time migration)
+make clean-ai-reviews          # Delete stage00 AI review data (requires confirmation)
 ```
 
 ### Individual Script Usage
@@ -261,6 +263,7 @@ The Archive.org collection system has been reorganized into a clean two-stage pi
 - Resume capability and progress tracking for long-running collection jobs
 - Comprehensive error handling and data validation at each stage
 - Stage-based directory structure separates raw collected data (`stage01-collected-data/`) from processed derivatives (`stage02-processed-data/`)
+- AI review data lives in `stage00-created-data/ai-reviews/` as durable source of truth, surviving `make clean` and pipeline regeneration. Stage02 generation scripts merge reviews back from stage00 automatically
 
 ### Data Models and Structure
 - **RecordingMetadata**: Archive.org metadata with weighted ratings, review statistics (in `scripts/shared/models.py`)
@@ -270,6 +273,7 @@ The Archive.org collection system has been reorganized into a clean two-stage pi
 - **Song Database**: Song relationships, aliases, segue notation, performance statistics
 - **Collections Framework**: Pre-defined collections in `stage00-created-data/dead_collections.json` with automated processing system
 - **Collections Data**: Resolved collection selectors with show membership and search optimization
+- **AI Reviews**: LLM-generated reviews stored durably in `stage00-created-data/ai-reviews/` (9,888 recording reviews, 1,960 show reviews). Merged back into stage02 outputs during generation. Written by `review_processor.py` and extracted via `scripts/extract_ai_reviews.py`
 
 ### Integration Points
 - **V1 Android App**: Currently consumes `data.zip` package from this pipeline

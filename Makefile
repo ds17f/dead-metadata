@@ -1,7 +1,7 @@
 # Grateful Dead Archive Data Pipeline
 # Stage-based data collection and processing
 
-.PHONY: help stage01-collect-data stage02-generate-data collect-archive-data collect-jerrygarcia-shows collect-show-image-urls collect-show-image-files generate-recordings integrate-shows process-collections package-data package-data-versioned package-release package-dev release release-dry-run process-reviews setup-review-processor all clean
+.PHONY: help stage01-collect-data stage02-generate-data collect-archive-data collect-jerrygarcia-shows collect-show-image-urls collect-show-image-files generate-recordings integrate-shows process-collections package-data package-data-versioned package-release package-dev release release-dry-run process-reviews setup-review-processor extract-ai-reviews clean-ai-reviews all clean
 
 # Default help
 help:
@@ -27,9 +27,11 @@ help:
 	@echo ""
 	@echo "  setup-review-processor    - Set up review processor Python environment (one-time)"
 	@echo "  process-reviews PATTERN=X - Process shows with LLM analysis (e.g., PATTERN='stage02-generated-data/shows/gd1977-*')"
+	@echo "  extract-ai-reviews        - Extract AI reviews from stage02 to stage00 (one-time migration)"
+	@echo "  clean-ai-reviews          - Delete stage00 AI review data (requires confirmation)"
 	@echo ""
 	@echo "  all                       - Run complete pipeline"
-	@echo "  clean                     - Clean generated data"
+	@echo "  clean                     - Clean generated data (preserves stage00 AI reviews)"
 
 # Stage 1: Data Collection
 collect-archive-data:
@@ -183,8 +185,21 @@ process-reviews:
 	fi
 	cd scripts/review-processor && source .venv/bin/activate && cd ../.. && python scripts/review-processor/review_processor.py "$(PATTERN)" $(FLAGS)
 
+# AI Review Management
+extract-ai-reviews:
+	@echo "📝 Extracting AI reviews from stage02 to stage00-created-data/ai-reviews/..."
+	python scripts/extract_ai_reviews.py --verbose
+	@echo "✅ AI review extraction complete!"
+
+clean-ai-reviews:
+	@echo "⚠️  This will DELETE all AI review data from stage00-created-data/ai-reviews/"
+	@echo "   These reviews took days of LLM processing and are NOT cheaply regenerable."
+	@read -p "Are you sure? Type 'yes' to confirm: " confirm && [ "$$confirm" = "yes" ] || { echo "Aborted."; exit 1; }
+	rm -rf stage00-created-data/ai-reviews/
+	@echo "✅ AI review data deleted."
+
 # Cleanup
 clean:
-	@echo "🧹 Cleaning generated data..."
+	@echo "🧹 Cleaning generated data (stage00 AI reviews preserved)..."
 	rm -rf stage02-generated-data/
 	@echo "✅ Cleanup complete!"

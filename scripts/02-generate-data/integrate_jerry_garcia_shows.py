@@ -847,6 +847,15 @@ class JerryGarciaShowIntegrator:
                 if processed_recordings:
                     shows_with_recordings += 1
                 
+                # Merge AI show review from stage00 if available
+                ai_review_path = Path("stage00-created-data/ai-reviews/shows") / f"{show_id}.json"
+                if ai_review_path.exists():
+                    try:
+                        with open(ai_review_path) as af:
+                            enriched_show["ai_show_review"] = json.load(af)
+                    except Exception as e:
+                        self.logger.warning(f"Failed to load AI show review for {show_id}: {e}")
+
                 # Save individual show file
                 show_file = self.shows_dir / f"{show_id}.json"
                 with open(show_file, 'w') as f:
