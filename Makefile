@@ -1,7 +1,7 @@
 # Grateful Dead Archive Data Pipeline
 # Stage-based data collection and processing
 
-.PHONY: help stage01-collect-data stage02-generate-data collect-archive-data collect-jerrygarcia-shows collect-show-image-urls collect-show-image-files generate-recordings integrate-shows process-collections package-data package-data-versioned package-release package-dev release release-dry-run all clean
+.PHONY: help stage01-collect-data stage02-generate-data collect-archive-data collect-jerrygarcia-shows collect-show-image-urls collect-show-image-files generate-recordings integrate-shows process-collections package-data package-data-versioned package-release package-dev release release-dry-run process-reviews setup-review-processor all clean
 
 # Default help
 help:
@@ -24,6 +24,10 @@ help:
 	@echo "  package-dev               - Create development build with commit hash"
 	@echo "  release [VERSION=X]       - Create GitHub release with auto-detected or specified version"
 	@echo "  release-dry-run [VERSION=X] - Show what would be released without creating it"
+	@echo ""
+	@echo "  setup-review-processor    - Set up review processor Python environment (one-time)"
+	@echo "  process-reviews PATTERN=X - Process shows with LLM analysis (e.g., PATTERN='stage02-generated-data/shows/gd1977-*')"
+	@echo ""
 	@echo "  all                       - Run complete pipeline"
 	@echo "  clean                     - Clean generated data"
 
@@ -150,6 +154,34 @@ define check_git_clean
 	fi
 endef
 
+
+# Review Processor Setup and Usage
+setup-review-processor:
+	@echo "🤖 Setting up Review Processor environment..."
+	@echo "📦 Creating Python virtual environment..."
+	cd scripts/review-processor && python -m venv .venv
+	@echo "📥 Installing dependencies..."
+	cd scripts/review-processor && source .venv/bin/activate && pip install -r requirements.txt
+	@echo "✅ Review Processor setup complete!"
+	@echo ""
+	@echo "📋 Next steps:"
+	@echo "  1. Edit scripts/review-processor/config.json with your LLM provider settings"
+	@echo "  2. Test: make process-reviews PATTERN='stage02-generated-data/shows/gd1977-05-08*' FLAGS='--dry-run'"
+	@echo "  3. Process: make process-reviews PATTERN='stage02-generated-data/shows/gd1977-*'"
+
+process-reviews:
+	@echo "🤖 Processing Grateful Dead show reviews with LLM analysis..."
+	@if [ -z "$(PATTERN)" ]; then \
+		echo "❌ PATTERN is required. Example: make process-reviews PATTERN='stage02-generated-data/shows/gd1977-*'"; \
+		exit 1; \
+	fi
+	@echo "🎯 Pattern: $(PATTERN)"
+	@echo "🚀 Flags: $(FLAGS)"
+	@if [ ! -d "scripts/review-processor/.venv" ]; then \
+		echo "❌ Review Processor not set up. Run 'make setup-review-processor' first."; \
+		exit 1; \
+	fi
+	cd scripts/review-processor && source .venv/bin/activate && cd ../.. && python scripts/review-processor/review_processor.py "$(PATTERN)" $(FLAGS)
 
 # Cleanup
 clean:

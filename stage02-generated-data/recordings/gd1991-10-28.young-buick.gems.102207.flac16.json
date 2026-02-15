@@ -5,14 +5,65 @@
   "venue": "Oakland-Alameda County Coliseum",
   "location": "Oakland, CA",
   "source_type": "AUD",
-  "lineage": "16 bit \u2013 48kHz DAT Master > TASCAM DA-20 (SPDIF out) -> LynxTWO-B Audio Reference Interface (SPDIF in) -> Wavelab 6.0 by Todd Evans Editing and Mastering: Jamie Waddell on the GEMS Edit Station. Weiss Saracon for 16 BIT \u2013 44.1kHz SRC and POWR-3 Dither Traders Little Helper FLAC Level 8 SBE Free Todd Evans - Tag & Rename for FLAC Meta-Data Tagging",
+  "lineage": "16 bit – 48kHz DAT Master > TASCAM DA-20 (SPDIF out) -> LynxTWO-B Audio Reference Interface (SPDIF in) -> Wavelab 6.0 by Todd Evans Editing and Mastering: Jamie Waddell on the GEMS Edit Station. Weiss Saracon for 16 BIT – 44.1kHz SRC and POWR-3 Dither Traders Little Helper FLAC Level 8 SBE Free Todd Evans - Tag & Rename for FLAC Meta-Data Tagging",
   "taper": "Marcus Buick and James Young",
-  "source": "B&K 4011 110\u00ba ORTF > Neumann BS 48i-2> Panasonic sv255 Recording Location: FOB - Hand Held Both Sets",
+  "source": "B&K 4011 110º ORTF > Neumann BS 48i-2> Panasonic sv255 Recording Location: FOB - Hand Held Both Sets",
   "runtime": "155:36.11",
   "rating": 2.1,
   "review_count": 1,
   "confidence": 0.2,
   "raw_rating": 5.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Wonderful recording of a highly decent show, highlighted by captivating Bird Song, Crazy Fingers and Stella Blue.",
+    "review": "The reviewer praises the tape as a wonderful capture, noting clear and enjoyable sound throughout. Musically the concert is described as “highly decent,” with The Bird Song, Crazy Fingers and Stella Blue singled out as keepers, though the performance isn’t deemed five‑star material overall. Overall it’s an appealing listen for fans who enjoy those selections.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.3,
+      "confidence": "low",
+      "rationale": "One enthusiastic 5‑star review notes a wonderful recording and several standout songs, but also qualifies the performance as merely decent, leading to a strong yet not perfect rating."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "excellent",
+      "technical_notes": "Reviewer calls the recording \"wonderful,\" implying clear, well‑balanced sound with no noted defects."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Bird Song",
+        "Crazy Fingers",
+        "Stella Blue"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Described as a highly decent show; flow appears smooth enough to keep the listener engaged."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "song_mentions": {
+      "Bird Song": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Crazy Fingers": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Stella Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-18T02:28:27.499803+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1991-10-28.young-buick.gems.102207.flac16"
+  }
 }

@@ -5,14 +5,53 @@
   "venue": "Boston Garden",
   "location": "Boston, MA",
   "source_type": "AUD",
-  "lineage": "16 bit \u2013 48kHz DAT Master > TASCAM DA-20 (SPDIF out) -> LynxTWO-B Audio Reference Interface (SPDIF in) -> Wavelab 6.0 (Weiss Saracon for 16 BIT \u2013 44.1kHz SRC and POWR-3 Dither)",
+  "lineage": "16 bit – 48kHz DAT Master > TASCAM DA-20 (SPDIF out) -> LynxTWO-B Audio Reference Interface (SPDIF in) -> Wavelab 6.0 (Weiss Saracon for 16 BIT – 44.1kHz SRC and POWR-3 Dither)",
   "taper": "James Young and Clay Brennecke",
-  "source": "Lineage: Master DAT Recording Equipment: B&K 4011 110\u00ba ORTF > Neumann BS 48i-2> Modified Sony TCD D-10 Pro Recording Location: FOB Section BB Row 18 Seat 15",
+  "source": "Lineage: Master DAT Recording Equipment: B&K 4011 110º ORTF > Neumann BS 48i-2> Modified Sony TCD D-10 Pro Recording Location: FOB Section BB Row 18 Seat 15",
   "runtime": "162:18.62",
   "rating": 1.68,
   "review_count": 1,
   "confidence": 0.2,
   "raw_rating": 4.0,
   "high_ratings": 1,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Very good show overall, but guest accordion player detracts from a potentially beautiful Broken Down Palace; recording quality not discussed",
+    "review": "The performance is rated very good by the reviewer, though the aggressive, loud accordion work of guest Horsnby is criticized for ruining what could have been an excellent rendition of \"Broken Down Palace.\" No comments are made about the audio source or its fidelity.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.2,
+      "confidence": "low",
+      "rationale": "Only one review; it praises the show overall (4‑star rating) but notes a specific performance issue. No recording quality feedback, so rating leans on show assessment."
+    },
+    "recording_quality": {
+      "source_type": "unknown",
+      "quality_rating": "good",
+      "technical_notes": "No reviewer comments regarding sound clarity, mix, or source type."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [
+        "Broken Down Palace"
+      ],
+      "setlist_flow": "No specific comments on set structure or pacing."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "song_mentions": {
+      "Broken Down Palace": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-18T02:15:11.978940+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1991-09-26.fob.bk4011.brennecke-young.gems.101443.flac16"
+  }
 }

@@ -5,14 +5,45 @@
   "venue": "Boston Garden",
   "location": "Boston, MA",
   "source_type": "AUD",
-  "lineage": "16 bit \u2013 48kHz DAT Master > TASCAM DA-20 (SPDIF out) -> LynxTWO-B Audio Reference Interface (SPDIF in) -> Wavelab 6.0 (Weiss Saracon for 16 BIT \u2013 44.1kHz SRC and POWR-3 Dither)",
+  "lineage": "16 bit – 48kHz DAT Master > TASCAM DA-20 (SPDIF out) -> LynxTWO-B Audio Reference Interface (SPDIF in) -> Wavelab 6.0 (Weiss Saracon for 16 BIT – 44.1kHz SRC and POWR-3 Dither)",
   "taper": "James Young and Clay Brennecke",
-  "source": "Lineage: Master DAT Recording Equipment: B&K 4011 110\u00ba ORTF > Neumann BS 48i-2> Modified Sony TCD D-10 Pro Recording Location: FOB",
+  "source": "Lineage: Master DAT Recording Equipment: B&K 4011 110º ORTF > Neumann BS 48i-2> Modified Sony TCD D-10 Pro Recording Location: FOB",
   "runtime": "170:04.64",
   "rating": 2.2049999999999996,
   "review_count": 2,
   "confidence": 0.4,
   "raw_rating": 4.5,
   "high_ratings": 2,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "Excellent front‑of‑house matrix capture of a stellar 1991 show, with clear vocals and an A+ performance.",
+    "review": "Both reviewers rave about this 1991 concert, calling it “stellar” and “awesome,” with one even rating it an A+. The FOB (matrix) recording is praised for its crystal‑clear vocal presence and lack of the typical out‑of‑can muddiness found in many audience recordings. Overall the show and its sound are described as highly enjoyable and distinctive from the classic ’70s era.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.5,
+      "confidence": "medium",
+      "rationale": "Two detailed reviews give high marks (4‑5 stars) and commend both performance and recording quality, leading to a strong combined rating despite the limited number of comments."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Front‑of‑house mix is clear and balanced; vocals stand out without the typical “out‑of‑can” sound found in many audience recordings."
+    },
+    "show_quality": {
+      "standout_songs": [],
+      "poor_songs": [],
+      "setlist_flow": "Reviewers describe the concert as uniformly awesome, noting a flow that feels fresh compared to the band’s classic 1970‑78 era shows."
+    },
+    "band_member_comments": {
+      "Jerry": "",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "",
+      "Drums": ""
+    },
+    "song_mentions": {},
+    "processed_date": "2025-09-18T01:59:53.118735+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1991-09-25.fob.bk4011.brennecke-young.gems.101442.flac"
+  }
 }

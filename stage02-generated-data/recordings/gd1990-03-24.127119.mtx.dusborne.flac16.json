@@ -7,12 +7,63 @@
   "source_type": "MATRIX",
   "lineage": "Sony PCM-2600(Apogee AES/EBU)>Sound Devices 722 (16/48)> Firewire>Macbook>Sound Studio 3.6(fades, normalize peak, +gain, track)> xACT 2.23(encode, tag, fingerprint)>flac16 (level 8 ) Taped by: Dr. Stan Lobitz; Transferred and seeded by: Lenny Stubbe",
   "taper": "",
-  "source": "3 Source Matrix by dusborne; Soundboard (shnid:107873) Recording Info: SBD -> Cassette Master (TDK SA90); Transfer Info: Cassette Master (Nakamichi DR-1) -> Sound Devices 744T (24bit/48k) -> Samplitude Professional v11.03 -> FLAC/16; All Transfers and Mastering By Charlie Miller; Audience (shnid:011806) Source: AUD(Schoeps CMC 421\u2019s)>DAT>CDR> Conversion: EAC(secure)>CD WAV>Cool Edit Pro>SHN(seekable) Conversion/Edit/Seeded to Etree by T. Wiley 8/29/2002 and Audience (shnid:125389) Source: Nakamichi CM300/CP4 > Panasonic SV250 (48 khz) Location: OTS",
+  "source": "3 Source Matrix by dusborne; Soundboard (shnid:107873) Recording Info: SBD -> Cassette Master (TDK SA90); Transfer Info: Cassette Master (Nakamichi DR-1) -> Sound Devices 744T (24bit/48k) -> Samplitude Professional v11.03 -> FLAC/16; All Transfers and Mastering By Charlie Miller; Audience (shnid:011806) Source: AUD(Schoeps CMC 421’s)>DAT>CDR> Conversion: EAC(secure)>CD WAV>Cool Edit Pro>SHN(seekable) Conversion/Edit/Seeded to Etree by T. Wiley 8/29/2002 and Audience (shnid:125389) Source: Nakamichi CM300/CP4 > Panasonic SV250 (48 khz) Location: OTS",
   "runtime": "159:20.08",
   "rating": 4.242857142857143,
   "review_count": 7,
   "confidence": 1.0,
   "raw_rating": 4.714285714285714,
   "high_ratings": 7,
-  "low_ratings": 0
+  "low_ratings": 0,
+  "ai_review": {
+    "summary": "A flawless matrix capture of a powerhouse show, highlighted by soaring \"Loser\", emotive \"Stella Blue\" and the legendary \"Mind Left Body\" jam, with pristine sound and perfectly balanced mix.",
+    "review": "The recording delivers an almost perfect matrix blend that preserves the arena atmosphere while delivering crystal‑clear instrument separation. The performance shines on \"Loser\", \"Stella Blue\" and especially the extended \"Mind Left Body\" jam where Brent’s keyboards are lauded, making this one of the standout shows of the Brent era.",
+    "sentiment": "positive",
+    "ai_rating": {
+      "stars": 4.8,
+      "confidence": "high",
+      "rationale": "All six reviews praise both the musical performance and the matrix sound quality; no negative points were raised, indicating an exceptional show with excellent recording."
+    },
+    "recording_quality": {
+      "source_type": "matrix",
+      "quality_rating": "excellent",
+      "technical_notes": "Crisp, clean mix with balanced crowd ambience; EQ nailed, levels and presence praised; no drop‑outs or muddiness reported."
+    },
+    "show_quality": {
+      "standout_songs": [
+        "Loser",
+        "Stella Blue",
+        "Mind Left Body"
+      ],
+      "poor_songs": [],
+      "setlist_flow": "Reviewers note a powerful, emotionally charged performance with smooth transitions; the matrix captures the show’s journey from tight jams to soaring solos."
+    },
+    "band_member_comments": {
+      "Jerry": "Strong playing noted, especially during the Loser solo.",
+      "Phil": "",
+      "Bob": "",
+      "Keys": "Brent's keyboard work on the Mind Left Body jam and throughout the show is described as astonishing.",
+      "Drums": ""
+    },
+    "song_mentions": {
+      "Loser": {
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "total_mentions": 3
+      },
+      "Stella Blue": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      },
+      "Mind Left Body": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "total_mentions": 1
+      }
+    },
+    "processed_date": "2025-09-17T04:58:21.241546+00:00",
+    "model_used": "gpt-oss-120b",
+    "recording_id": "gd1990-03-24.127119.mtx.dusborne.flac16"
+  }
 }
