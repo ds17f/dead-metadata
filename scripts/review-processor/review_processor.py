@@ -545,13 +545,19 @@ class ReviewProcessor:
             
             # Update show data
             show_data['ai_show_review'] = show_review
-            
+
             # Save updated show
             with open(show_path, 'w') as f:
                 json.dump(show_data, f, indent=2, ensure_ascii=False)
-            
+
+            # Also save AI show review to stage00 as durable source of truth
+            stage00_show_path = Path(f"stage00-created-data/ai-reviews/shows/{show_path.stem}.json")
+            stage00_show_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(stage00_show_path, 'w') as f:
+                json.dump(show_review, f, indent=2, ensure_ascii=False)
+
             self.stats['shows_processed'] += 1
-            
+
             # Show completion summary
             console.print(f"   ✅ [green]Show complete:[/green] {show_name.replace('.json', '')} ({successful_count}/{total_count} recordings, {skipped_count} skipped)")
             if best_recording != 'unknown':
@@ -638,11 +644,17 @@ class ReviewProcessor:
             
             # Update show data
             show_data['ai_show_review'] = show_review
-            
+
             # Save updated show
             with open(show_path, 'w') as f:
                 json.dump(show_data, f, indent=2, ensure_ascii=False)
-            
+
+            # Also save AI show review to stage00 as durable source of truth
+            stage00_show_path = Path(f"stage00-created-data/ai-reviews/shows/{show_path.stem}.json")
+            stage00_show_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(stage00_show_path, 'w') as f:
+                json.dump(show_review, f, indent=2, ensure_ascii=False)
+
             self.stats['shows_processed'] += 1
             logger.debug(f"✅ Completed show: {show_name} ({len(recording_analyses)} recordings processed)")
             
@@ -750,7 +762,13 @@ Please analyze these reviews and respond with a JSON object following the specif
             # Save updated recording data
             with open(recording_path, 'w') as f:
                 json.dump(recording_data, f, indent=2, ensure_ascii=False)
-            
+
+            # Also save AI review to stage00 as durable source of truth
+            stage00_path = Path(f"stage00-created-data/ai-reviews/recordings/{recording_id}.json")
+            stage00_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(stage00_path, 'w') as f:
+                json.dump(ai_review, f, indent=2, ensure_ascii=False)
+
             logger.debug(f"      ✅ Completed recording analysis: {recording_id}")
             return ai_review
             
